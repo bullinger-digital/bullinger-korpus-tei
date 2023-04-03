@@ -6,31 +6,31 @@
 				<title subtype="file">Johannes Gast / Basel AN Heinrich Bullinger / Zürich, 26. Januar 1549</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,198</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 69,59</idno>
 						<idno subtype="Hinweis">eingeordnet bei 26. Januar 1549, mit Vermerk 1547 oder 1549 (1549 stimmt wahrscheinlich)</idno>
 					</msIdentifier>
@@ -60,7 +60,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/418">
 				<correspAction type="sent">
-					<persName ref="person1278" cert="high">
+					<persName ref="p1278" cert="high">
 						<!--
 						<surname cert="high">Gast</surname>
 						<forename cert="high">Johannes</forename>
@@ -69,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415086"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1549-01-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -83,7 +83,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file415"/>
@@ -110,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,12 +127,12 @@
 					<s n="2" xml:lang="la" type="auto">Mirum, quod ad ternas aut quinas, si bene memini, nihil rescribas nec orationem contra Interim mittas.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Episcopus noster<note xml:id="fn1" type="footnote" n="1">Philipp von Gundelsheim.</note> die 21. ianuarii misit legationem honestam ad nos, quę senatum voluit persu[a]dere, quod Interim reciperet.</s>
+					<s n="3" xml:lang="la" type="auto">Episcopus noster<note xml:id="fn1" type="footnote" n="1"><persName>Philipp von Gundelsheim</persName>.</note> die 21. ianuarii misit legationem honestam ad nos, quę senatum voluit persu[a]dere, quod Interim reciperet.</s>
 					<s n="4" xml:lang="de" type="auto">Er hat gesendet den hoffmeyster, Sigelman genant, ein edelman, den cantzler, den official; dise haben sich entschuldiget, das sy muͤssen ein sölichen furtrag thuͦn, den sy wussen, nit angenem sin; ouch haben sy den bischoff entschulget, wie er getrungen werde durch keserliche m[ajestat]<note xml:id="fn2" type="footnote" n="2">Karl V.</note>, dises zuͦ exequieren.</s>
 					<s n="5" xml:lang="la" type="auto">Auditi sunt astuti homines ac dimissi sine responso; Milhusum petierunt, in quo etiam nihil effecerunt.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Veniet legatus<note xml:id="fn3" type="footnote" n="3">............</note> episcopi Constantiensis<note xml:id="fn4" type="footnote" n="4">Johann von Weeze.</note> in civitatem Pernam<note xml:id="fn5" type="footnote" n="5">Bern.</note> suum officium acturus de restituendis omnibus, quę olim habuere.</s>
+					<s n="6" xml:lang="la" type="auto">Veniet legatus<note xml:id="fn3" type="footnote" n="3">............</note> episcopi Constantiensis<note xml:id="fn4" type="footnote" n="4"><persName>Johann von Weeze</persName>.</note> in civitatem Pernam<note xml:id="fn5" type="footnote" n="5">Bern.</note> suum officium acturus de restituendis omnibus, quę olim habuere.</s>
 					<s n="7" xml:lang="la" type="auto">Audimus et Tiguri fuisse legatum aut illuc venturum.</s>
 					<s n="8" xml:lang="la" type="auto">Hic apparet, quid Septempagici instituant.</s>
 				</p>
@@ -149,7 +149,7 @@
 					<s n="14" xml:lang="la" type="auto">26. ianuarii 1549.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Salutabis Theodorum<note xml:id="fn8" type="footnote" n="8">Theodor Bibliander.</note>, Pellicanum, Rodolphum<note xml:id="fn9" type="footnote" n="9">Rudolf Gwalther.</note> cum Musculo nostro, cui mitto has literas ab Argentina ad me missas.</s>
+					<s n="15" xml:lang="la" type="auto">Salutabis Theodorum<note xml:id="fn8" type="footnote" n="8"><persName>Theodor Bibliander</persName>.</note>, Pellicanum, Rodolphum<note xml:id="fn9" type="footnote" n="9"><persName>Rudolf Gwalther</persName>.</note> cum Musculo nostro, cui mitto has literas ab Argentina ad me missas.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto">T[uus] Gastius ex animo.</s>

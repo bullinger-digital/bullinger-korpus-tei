@@ -6,32 +6,31 @@
 				<title subtype="file">Alexander Vitrelin / Oransko AN [Heinrich Bullinger], 24. Juni 1563</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6253/97</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 367,204 ff.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke BW, Polen, S. 192ff, Nr. 294</title>
+								<title>Wotschke BW, Polen, S.192ff, Nr. 294</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>L. Hein, Bullinger und Kleinpolen 103 (Anm. 84)</title>
@@ -56,7 +55,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5785">
 				<correspAction type="sent">
-					<persName ref="person3431" cert="high">
+					<persName ref="p3431" cert="high">
 						<!--
 						<surname cert="high">Vitrelin</surname>
 						<forename cert="high">Alexander</forename>
@@ -64,11 +63,11 @@
 						<note type="person">("In Oransko") = ?</note>
 						-->
 					</persName>
-					<placeName source="place365" cert="high"><orig>Oransko</orig></placeName>
+					<placeName source="l365" cert="high"><orig>Oransko</orig></placeName>
 					<date when="1563-06-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -98,7 +97,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

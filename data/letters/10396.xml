@@ -6,49 +6,40 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Joachim Vadian, 24. April 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=364</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">145</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,27</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Teilt aus dem Brief des <persName ref="person154">Myconius</persName> vom 20. April 1534
+								Teilt aus dem Brief des <persName ref="p8418">Myconius</persName> vom 20. April 1534
 								[<ref target="file10391">Nr. 359</ref>] den Abschnitt über die Kriegsvorbereitungen mit. Der Streit zwischen
-								dem Abt von <placeName ref="place1011">St. Gallen</placeName> und der Stadt
-								<placeName ref="place1011">St. Gallen</placeName> soll angesichts der auswärtigen Gefahren eingestellt
+								dem Abt von <placeName>St. Gallen</placeName> und der Stadt
+								<placeName>St. Gallen</placeName> soll angesichts der auswärtigen Gefahren eingestellt
 								werden. Bittet, die Epitome weiterzuführen.
 							</p>
 						</summary>
@@ -59,7 +50,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Vadian BW V, S. 163f, Nr. 766</title>
+								<title>Vadian BW V, S.163f, Nr. 766</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 364, S.145</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -69,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10396">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -79,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1534-04-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -119,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,12 +125,12 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto"><persName ref="person154">Myconius</persName> ita ad me 20. aprilis scribebat<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file10391">Nr. 359</ref>.</note>: Princeps <persName ref="person169">Hessorum</persName> [...] silentium esse<note xml:id="fna" type="footnote" n="a"><hi>Der hier weggelassene Abschnitt ist eine leicht gekürzte Wiedergabe der von <persName ref="person154">Myconius</persName> mitgeteilten Kriegsvorbereitungen, s. oben <ref target="file10391">[Nr. 359]</ref> S. 132f, 3-27 und die dazugehörigen textkritischen Anmerkungen a-q.</hi></note>.</s>
-					<s n="3" xml:lang="la" type="auto">Haec <persName ref="person154">Myconius</persName>.</s>
+					<s n="2" xml:lang="la" type="auto"><persName>Myconius</persName> ita ad me 20. aprilis scribebat<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file10391">Nr. 359</ref>.</note>: Princeps <persName ref="p18574">Hessorum</persName> [...] silentium esse<note xml:id="fna" type="footnote" n="a"><hi>Der hier weggelassene Abschnitt ist eine leicht gekürzte Wiedergabe der von <persName>Myconius</persName> mitgeteilten Kriegsvorbereitungen, s. oben <ref target="file10391">[Nr. 359]</ref> S. 132f, 3-27 und die dazugehörigen textkritischen Anmerkungen a-q.</hi></note>.</s>
+					<s n="3" xml:lang="la" type="auto">Haec <persName>Myconius</persName>.</s>
 					<s n="4" xml:lang="la" type="auto">Tu si quid istarum rerum habueris, communica.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Totus ego in hoc sum erga fidos quosdam viros<note xml:id="fn2" type="footnote" n="2">Wahrscheinlich <persName ref="person87">Hans Haab</persName> und <persName ref="person1890">Heinrich Rahn</persName>, die beiden Zürcher Gesandten an den Tagsatzungen zu <placeName ref="place85">Baden</placeName> vom 14. April und dann auch vom 5. Mai und 9. Juni 1534, s. EA IV/IC, 307. 317. 334.</note>, ut litem istam abbatis<note xml:id="fn3" type="footnote" n="3"><persName ref="person463">Diethelm Blarer von Wartensee</persName>, Abt von <placeName ref="place1011">St. Gallen</placeName>.</note> et vestram dirimant<note xml:id="fn4" type="footnote" n="4">Der Abt drängte darauf, daß die Stadt- St. Galler die Messe im Münster besuchen und die Gotteshausleute ihre Prozession über Stadtgebiet bis ins Kloster führen durften. Die Stadt verwehrte beides. Vor die Tagsatzung gelangte der Streit im Januar und April 1533 und vor allem in der ersten Hälfte 1534, als die Stadt und der Abt auch in der Wahl der Schiedorte uneinig waren, s. EA IV/IC, 2 k. 10 hh. 20 b. 53f n. 263f X. 274 cc. 277. 283 h. 287f. 307 a. 320 q. 321f aa. 335 m. 355 a. 510 tt; <hi>Näf,</hi> <persName ref="person226">Vadian</persName> II 481f.</note>, ita ut intra hasce turbas periculosissimas annum unum<pb type="edition" next="146"/> atque alterum a contentione iuridica abstineamus, quaeque interim partium suo iure et suys utatur privilegiis, et spes est me hac in re nonnihil assequuturum.</s>
+					<s n="5" xml:lang="la" type="auto">Totus ego in hoc sum erga fidos quosdam viros<note xml:id="fn2" type="footnote" n="2">Wahrscheinlich <persName ref="p5543">Hans Haab</persName> und <persName>Heinrich Rahn</persName>, die beiden Zürcher Gesandten an den Tagsatzungen zu <placeName>Baden</placeName> vom 14. April und dann auch vom 5. Mai und 9. Juni 1534, s. <bibl>EA</bibl> IV/IC, 307. 317. 334.</note>, ut litem istam abbatis<note xml:id="fn3" type="footnote" n="3"><persName>Diethelm Blarer von Wartensee</persName>, Abt von <placeName>St. Gallen</placeName>.</note> et vestram dirimant<note xml:id="fn4" type="footnote" n="4">Der Abt drängte darauf, daß die Stadt- St. Galler die Messe im Münster besuchen und die Gotteshausleute ihre Prozession über Stadtgebiet bis ins Kloster führen durften. Die Stadt verwehrte beides. Vor die Tagsatzung gelangte der Streit im Januar und April 1533 und vor allem in der ersten Hälfte 1534, als die Stadt und der Abt auch in der Wahl der Schiedorte uneinig waren, s. <bibl>EA</bibl> IV/IC, 2 k. 10 hh. 20 b. 53f n. 263f X. 274 cc. 277. 283 h. 287f. 307 a. 320 q. 321f aa. 335 m. 355 a. 510 tt; <hi>Näf,</hi> <persName>Vadian</persName> II 481f.</note>, ita ut intra hasce turbas periculosissimas annum unum<pb type="edition" next="146"/> atque alterum a contentione iuridica abstineamus, quaeque interim partium suo iure et suys utatur privilegiis, et spes est me hac in re nonnihil assequuturum.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Vale, et in Epitome<note xml:id="fn5" type="footnote" n="5">Siehe oben S. 39, Anm. 37 und unten <ref target="file10454">Nr. 419</ref>.</note> perge.</s>
@@ -146,14 +140,14 @@
 					<s n="8" xml:lang="la" type="auto">24. aprilis 1534.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person228">Voglerum</persName> salvum volo.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p8071">Voglerum</persName> salvum volo.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Hein. tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="11" xml:lang="la" type="auto">Doctori <persName ref="person226">Ioachimo Vadiano</persName>, Sangallensi consuli prudentissimo, amico et domino imprimis observando.</s>
+					<s n="11" xml:lang="la" type="auto">Doctori <persName ref="p8049">Ioachimo Vadiano</persName>, Sangallensi consuli prudentissimo, amico et domino imprimis observando.</s>
 				</p>
 			</div>
 		</body>

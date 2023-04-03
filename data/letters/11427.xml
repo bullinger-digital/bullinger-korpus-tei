@@ -6,40 +6,31 @@
 				<title subtype="file">Rudolf Gwalther / Basel AN Heinrich Bullinger, 14. April 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1384</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">92</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2032b</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,8 +38,8 @@
 							<p xml:id="regest1">
 								Ist beunruhigt, weil seine Briefe [<ref target="file11422">Nr. 1379</ref> und
 								<ref target="file11425">Nr. 1382</ref>] noch nicht beantwortet wurden. Der Briefüberbringer hat der Frau von
-								<persName ref="person154">Myconius</persName> Leinen verkauft und soll dafür aus
-								<persName ref="person84">Gwalthers</persName> Stipendium entschädigt werden. Die Fertigstellung seiner
+								<persName ref="p8418">Myconius</persName> Leinen verkauft und soll dafür aus
+								<persName ref="p8011">Gwalthers</persName> Stipendium entschädigt werden. Die Fertigstellung seiner
 								Joseph-Dichtung verzögert sich. Wiederholt seine Bitte um Zusendung von Büchern. Gruß.
 							</p>
 						</summary>
@@ -56,13 +47,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1384, S.92</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11427">
 				<correspAction type="sent">
-					<persName ref="person1381" cert="high">
+					<persName ref="p1381" cert="high">
 						<!--
 						<surname cert="high">Gwalther</surname>
 						<forename cert="high">Rudolf</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11522600"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1540-04-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -134,27 +132,27 @@
 					<s n="5" xml:lang="la" type="auto">Sed me hortatore opus forsan non est; te enim in rebus meis etiam meipso diligentiorem esse credo.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Quod tamen nunc denuo ad te scribam, tabellarius<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> hic caussa est, civis <persName ref="person84">Tigurinus</persName> et uxoris <persName ref="person154">Myconii</persName><note xml:id="fn3" type="footnote" n="3">Margret.</note> cognatus.</s>
-					<s n="7" xml:lang="la" type="auto">Ab hoc enim <persName ref="person154">Myconii</persName> uxor pannum lineum emit florenorum duorum et dimidii pretio et a me, ut tibi scriberem, petiit, ut nummos hos meo nomine ex angarię, ut vocant, stipendio<note xml:id="fn4" type="footnote" n="4">d. h. aus der vierteljährlichen Teilauszahlung des Stipendiums.</note> illi solvas.</s>
+					<s n="6" xml:lang="la" type="auto">Quod tamen nunc denuo ad te scribam, tabellarius<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> hic caussa est, civis <persName ref="p8011">Tigurinus</persName> et uxoris <persName ref="p8418">Myconii</persName><note xml:id="fn3" type="footnote" n="3">Margret.</note> cognatus.</s>
+					<s n="7" xml:lang="la" type="auto">Ab hoc enim <persName ref="p8418">Myconii</persName> uxor pannum lineum emit florenorum duorum et dimidii pretio et a me, ut tibi scriberem, petiit, ut nummos hos meo nomine ex angarię, ut vocant, stipendio<note xml:id="fn4" type="footnote" n="4">d. h. aus der vierteljährlichen Teilauszahlung des Stipendiums.</note> illi solvas.</s>
 					<s n="8" xml:lang="la" type="auto">Quare te obsecro, ut hisce precibus meis satisfacere digneris et huic pecuniam hanc numeres.<pb type="edition" next="93"/></s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Iosephi historiam iamdudum absolvissem<note xml:id="fn5" type="footnote" n="5"><persName ref="person84">Gwalthers</persName> ungedruckte Dichtung "De venditione Iosephi in Aegyptum et insano Sephirae amore" (Zürich ZB, Ms D 152, 201r.-234v.) wurde bereits in <placeName ref="place609">Lausanne</placeName> begonnen; die Widmung an Bullinger datiert vom 15. Februar 1540.</note>, nisi curis tot perplexus ingenium meum ad carminis studium applicare nequirem.</s>
+					<s n="9" xml:lang="la" type="auto">Iosephi historiam iamdudum absolvissem<note xml:id="fn5" type="footnote" n="5"><persName>Gwalthers</persName> ungedruckte Dichtung "De venditione Iosephi in Aegyptum et insano Sephirae amore" (Zürich ZB, Ms D 152, 201r.-234v.) wurde bereits in <placeName>Lausanne</placeName> begonnen; die Widmung an Bullinger datiert vom 15. Februar 1540.</note>, nisi curis tot perplexus ingenium meum ad carminis studium applicare nequirem.</s>
 					<s n="10" xml:lang="la" type="auto">Sed quamprimum perfecero, ad te mittam.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Libros, de quibus nuper scripsi<note xml:id="fn6" type="footnote" n="6">Siehe oben <ref target="file11422">Nr. 1379</ref>, 30-32 und 1382, 34f.</note>, quaeso, mittito.</s>
-					<s n="12" xml:lang="la" type="auto">Salutabis nomine meo uxorem<note xml:id="fn7" type="footnote" n="7">Anna, geb. Adlischwyler.</note> et matrem<note xml:id="fn8" type="footnote" n="8">Anna, geb. Wiederkehr.</note> tuam cum omni liberorum coetu<note xml:id="fn9" type="footnote" n="9">Siehe oben <ref target="file11387">Nr. 1344</ref>, Anm. 14.</note>.</s>
+					<s n="12" xml:lang="la" type="auto">Salutabis nomine meo uxorem<note xml:id="fn7" type="footnote" n="7"><persName>Anna, geb. Adlischwyler</persName>.</note> et matrem<note xml:id="fn8" type="footnote" n="8"><persName>Anna, geb. Wiederkehr</persName>.</note> tuam cum omni liberorum coetu<note xml:id="fn9" type="footnote" n="9">Siehe oben <ref target="file11387">Nr. 1344</ref>, Anm. 14.</note>.</s>
 					<s n="13" xml:lang="la" type="auto">Vale, pater charissime, deusque te mihi diu servet incolumem.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 18. calendis maii 1540.</s>
+					<s n="14" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 18. calendis maii 1540.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Tuus observantissimus</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person84">Rodolphus Gvaltherus</persName>.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8011">Rodolphus Gvaltherus</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

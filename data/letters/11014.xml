@@ -6,47 +6,38 @@
 				<title subtype="file">Heinrich Kuster / [Wiesendangen] AN Heinrich Bullinger, 19. März 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=972</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">103</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,91</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Dankt für Bullingers Hilfe bei seiner Wahl zum Pfarrer [von
-								<placeName ref="place214">Bülach</placeName>] und hofft, den hohen Anforderungen zu genügen. Macht
+								<placeName>Bülach</placeName>] und hofft, den hohen Anforderungen zu genügen. Macht
 								Angaben über sein Pfrundeinkommen. Wird in einigen Tagen zu Bullinger kommen.
 							</p>
 						</summary>
@@ -54,23 +45,30 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 972, S.103</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11014">
 				<correspAction type="sent">
-					<persName ref="person1761" cert="high">
+					<persName ref="p1761" cert="high">
 						<!--
 						<surname cert="high">Kuster</surname>
 						<forename cert="high">Heinrich</forename>
 						-->
 					</persName>
-					<placeName source="place547" cert="low"><orig>Wiesendangen</orig></placeName>
+					<placeName source="l547" cert="low"><orig>Wiesendangen</orig></placeName>
 					<date when="1537-03-19" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,7 +93,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -106,13 +104,13 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Non possum non tibi gracias agere, Heinrice doctissime, quod tantum in mea re<note xml:id="fn3" type="footnote" n="3"><persName ref="person128">Kusters</persName> Dank bezieht sich offensichtlich auf Bullingers Hilfe bei der Wahl zum Pfarrer von <placeName ref="place214">Bülach</placeName>. Er dürfte den Brief noch in <placeName ref="place1193">Wiesendangen</placeName>, bevor er sein neues Amt übernahm, geschrieben haben. Vgl. auch oben <ref target="file11006">Nr. 964</ref>.</note> laboraveris.</s>
+					<s n="1" xml:lang="la" type="auto">Non possum non tibi gracias agere, Heinrice doctissime, quod tantum in mea re<note xml:id="fn3" type="footnote" n="3"><persName>Kusters</persName> Dank bezieht sich offensichtlich auf Bullingers Hilfe bei der Wahl zum Pfarrer von <placeName>Bülach</placeName>. Er dürfte den Brief noch in <placeName>Wiesendangen</placeName>, bevor er sein neues Amt übernahm, geschrieben haben. Vgl. auch oben <ref target="file11006">Nr. 964</ref>.</note> laboraveris.</s>
 					<s n="2" xml:lang="la" type="auto">Verum si tibi magis nota fuisset mea erudicio, quae profecto nulla est, non me huic provinciae pręfecisses.</s>
 					<s n="3" xml:lang="la" type="auto">Veruntamen non<pb type="edition" next="104"/> dubito, quin ita deus voluerit, cum me nesciente et nolente res acta atque transacta siet, rogaturusque eum, ut mihi sapientiam suarum sedium assistricem<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> astriticem, <hi>davor gestrichenes</hi> asteriticem.</note><note xml:id="fn4" type="footnote" n="4">Sap. 9, 4 (Vulgata).</note> superne demittat, quo suam gloriam evehere valeam.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">C[ae]terum<note xml:id="fnb" type="footnote" n="b"><hi>Textverlust wegen Beschädigung des Papiers.</hi></note> de reditu annuo cupis fieri certior.</s>
-					<s n="5" xml:lang="la" type="auto">Habet hoc beneficium annuatim 25 modios tritici<note xml:id="fn5" type="footnote" n="5">In den Zürcher Quellen üblicherweise als "Mütt Kernen" bezeichnet (vgl. dazu Paul <hi>Kläui,</hi> Ortsgeschichte, 2., überarb. Aufl., Zürich 1956, S. 122f).</note>, item decem buttos vini et duodecim malteros avenae, ut barbare dicam<note xml:id="fn6" type="footnote" n="6">"buttos" und "malteros" sind eigenwillige Latinisierungen <persName ref="person128">Kusters</persName> für die Maßeinheiten Eimer - aus "Bütte" (hölzernes Gefäß; vgl. SI IV 1911) - und Malter (vgl. dazu <hi>Kläui,</hi> aaO, S. 122f, und z. B. HBBW VI <ref target="file10854">[Nr. 815]</ref>, S. 276, 9 mit Anm. 7 und 8).</note> aureos 26.</s>
+					<s n="5" xml:lang="la" type="auto">Habet hoc beneficium annuatim 25 modios tritici<note xml:id="fn5" type="footnote" n="5">In den Zürcher Quellen üblicherweise als "Mütt Kernen" bezeichnet (vgl. dazu Paul <hi>Kläui,</hi> Ortsgeschichte, 2., überarb. Aufl., Zürich 1956, S. 122f).</note>, item decem buttos vini et duodecim malteros avenae, ut barbare dicam<note xml:id="fn6" type="footnote" n="6">"buttos" und "malteros" sind eigenwillige Latinisierungen <persName>Kusters</persName> für die Maßeinheiten Eimer - aus "Bütte" (hölzernes Gefäß; vgl. <bibl>SI</bibl> IV 1911) - und Malter (vgl. dazu <hi>Kläui,</hi> aaO, S. 122f, und z. B. <bibl>HBBW VI</bibl> <ref target="file10854">[Nr. 815]</ref>, S. 276, 9 mit Anm. 7 und 8).</note> aureos 26.</s>
 					<s n="6" xml:lang="la" type="auto">Vale. Intra paucos dies tecum ero.</s>
 				</p>
 				<p>

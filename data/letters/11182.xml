@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 18. Juni 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1139</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">152</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,376</idno>
 					</msIdentifier>
 					<msContents>
@@ -48,22 +39,28 @@
 								Klagt darüber, daß er während seines Besuchs nicht freundschaftlicher behandelt wurde; daß unter den
 								Theologen Streit statt Liebe herrscht, erschwert ihre Auseinandersetzung mit den eigentlichen Gegnern, die
 								gerade jetzt dringend geführt werden müßte, und wird nicht ungestraft bleiben. Dankt für [Bullingers „De
-								scripturae sanctae authoritate“]. Empfiehlt Otto
-								[<persName ref="person238">Werdmüller</persName>], dem die
-								<placeName ref="place1205">Wittenberger</placeName> ein gutes Zeugnis ausstellen.
+								scripturae sanctae authoritate“]. Empfiehlt <persName ref="p8459">Otto [Werdmüller]</persName>, dem die
+								<placeName>Wittenberger</placeName> ein gutes Zeugnis ausstellen.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1139, S.152</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11182">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -74,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1538-06-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,7 +122,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Ex tot literis acceptis et missis equidem putaram non vulgarem amicum vobis me esse, sed velut domesticum et si quid maius adhuc dici potest; verum praesens<note xml:id="fn1" type="footnote" n="1"><persName ref="person154">Myconius</persName> hatte an der Zürcher Tagung vom 28. April bis 3. Mai teilgenommen; vgl. oben <ref target="file11178">Nr. 1135</ref>, 3-9.</note> non aliter habitus sum quam unus e facie uno atque altero colloquio notus, atque hoc mihi doluit, non tam quod ad vos adtinet, quam quod ad imprudentiam meam.</s>
+					<s n="2" xml:lang="la" type="auto">Ex tot literis acceptis et missis equidem putaram non vulgarem amicum vobis me esse, sed velut domesticum et si quid maius adhuc dici potest; verum praesens<note xml:id="fn1" type="footnote" n="1"><persName>Myconius</persName> hatte an der Zürcher Tagung vom 28. April bis 3. Mai teilgenommen; vgl. oben <ref target="file11178">Nr. 1135</ref>, 3-9.</note> non aliter habitus sum quam unus e facie uno atque altero colloquio notus, atque hoc mihi doluit, non tam quod ad vos adtinet, quam quod ad imprudentiam meam.</s>
 					<s n="3" xml:lang="la" type="auto">Age, dominus me talem esse voluit hactenus, hoc est imprudentissimum; subveniat, quęso, deinceps, ne sic temere aberrem.</s>
 				</p>
 				<p>
@@ -135,7 +132,7 @@
 					<s n="7" xml:lang="la" type="auto">Quur igitur nos pro ecclesię praesidibus venditamus, quamdiu charitatis inter nos defuerit studium?</s>
 					<s n="8" xml:lang="la" type="auto">Caremus, quod ego dare non possum; dominus, quęso, concedat et cito quidem, nam opus habemus.</s>
 					<s n="9" xml:lang="la" type="auto">Satan propediem, quod iam longo tempore molitus est, producet, et nunc quidem incepit audacter.</s>
-					<s n="10" xml:lang="la" type="auto">Paravit, qui libris<note xml:id="fn2" type="footnote" n="2">Insbesondere denkt <persName ref="person154">Myconius</persName> an Schriften von <persName ref="person843">John Fisher</persName>, <persName ref="person2543">Georg Witzel</persName> und <persName ref="person1844">Albert Pigge</persName>, wie aus seinem Brief an <persName ref="person138">Luther</persName> vom 20. Juni hervorgeht (s. WA Briefwechsel VIII 239f. 32-59).</note> conatum suum tueantur, et collegit meo quidem videre ingenia non paenitus contemnenda; nam etsi minus vere, tamen verisimiliter dicunt atque sic satis ad fallendum.</s>
+					<s n="10" xml:lang="la" type="auto">Paravit, qui libris<note xml:id="fn2" type="footnote" n="2">Insbesondere denkt <persName>Myconius</persName> an Schriften von <persName>John Fisher</persName>, <persName>Georg Witzel</persName> und <persName>Albert Pigge</persName>, wie aus seinem Brief an <persName ref="p18889">Luther</persName> vom 20. Juni hervorgeht (s. <bibl>WA</bibl> Briefwechsel VIII 239f. 32-59).</note> conatum suum tueantur, et collegit meo quidem videre ingenia non paenitus contemnenda; nam etsi minus vere, tamen verisimiliter dicunt atque sic satis ad fallendum.</s>
 					<s n="11" xml:lang="la" type="auto">Interim hęreticorum adpellatio tam obplet populorum aures, ut, etiam si quis deinceps conabitur, eruere nequeat.</s>
 					<s n="12" xml:lang="la" type="auto">Hinc peribit evangelium Iesu Christi ex ore piorum.</s>
 					<s n="13" xml:lang="la" type="auto">Equidem in causa esse puto nostram ingratitudinem, utpote qui fidem edocti una cum suis viribus nihil agimus, quo vivere in nobis eam probemus.</s>
@@ -144,23 +141,23 @@
 					<s n="16" xml:lang="la" type="auto">Verum de hac re frustra dico, cum ad negocia tam ardua nemo sit minus aptus.<pb type="edition" next="153"/></s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Ago gratias tibi pro munere grandi illo tuo<note xml:id="fn3" type="footnote" n="3">Gemeint ist Bullingers "De scripturae sanctae authoritate" (HBBibl I 111); vgl. oben <ref target="file11178">Nr. 1135</ref>, 9-11.</note>.</s>
+					<s n="17" xml:lang="la" type="auto">Ago gratias tibi pro munere grandi illo tuo<note xml:id="fn3" type="footnote" n="3">Gemeint ist Bullingers "De scripturae sanctae authoritate" (<bibl>HBBibl</bibl> I 111); vgl. oben <ref target="file11178">Nr. 1135</ref>, 9-11.</note>.</s>
 					<s n="18" xml:lang="la" type="auto">Dominus rependat; nam in me nihil est, quod par referri possit.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">M. Ottonem<note xml:id="fn4" type="footnote" n="4"><persName ref="person238">Otto Werdmüller</persName>.</note> ecce vobis, iuvenem, cui <placeName ref="place1205">Wittenbergenses</placeName> et eruditionem tribuunt et vitae honestatem.</s>
+					<s n="19" xml:lang="la" type="auto">M. Ottonem<note xml:id="fn4" type="footnote" n="4"><persName>Otto Werdmüller</persName>.</note> ecce vobis, iuvenem, cui <placeName>Wittenbergenses</placeName> et eruditionem tribuunt et vitae honestatem.</s>
 					<s n="20" xml:lang="la" type="auto">Pro officio facietis, si amplexi fueritis eum quam arctissime.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto">Vale cum tuis, <persName ref="person14">Theodoro</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person14">Theodor Bibliander</persName>.</note> et <persName ref="person165">Pellicano</persName> in domino.</s>
-					<s n="22" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 18. iunii anno 38.</s>
+					<s n="21" xml:lang="la" type="auto">Vale cum tuis, <persName ref="p8171">Theodoro</persName><note xml:id="fn5" type="footnote" n="5"><persName>Theodor Bibliander</persName>.</note> et <persName ref="p8127">Pellicano</persName> in domino.</s>
+					<s n="22" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 18. iunii anno 38.</s>
 				</p>
 				<p>
 					<s n="23" xml:lang="la" type="auto">Os. Myco. tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="24" xml:lang="la" type="auto">Domino Heinricho Bullingero, antistiti <persName ref="person238">Tigurino</persName> dignissimo, in domino venerando suo.</s>
+					<s n="24" xml:lang="la" type="auto">Domino Heinricho Bullingero, antistiti <persName ref="p8459">Tigurino</persName> dignissimo, in domino venerando suo.</s>
 				</p>
 			</div>
 		</body>

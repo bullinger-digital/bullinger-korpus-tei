@@ -6,32 +6,31 @@
 				<title subtype="file">Peter Venetscher / Hedelfingen AN Heinrich Bullinger / Zürich, 11. März 1553</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3071</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 41,51 + 54</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Bossert, Blatt f. württ. Kirchen-Gesch., N.F. 19, 1915, S. 85ff [IRG: FKq III: 7]</title>
+								<title>Bossert, Blatt f. württ. Kirchen-Gesch., N.F. 19, 1915, S.85ff [IRG: FKq III: 7]</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -51,28 +50,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 79,42</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Teilkopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive39">
+						<repository ref="a39">
 							<name>Genf MHR</name>
 							<ref target="https://www.unige.ch/ihr/fr/aide-a-la-recherche/bibliotheque/"/>
 						</repository>
-						<settlement ref="place167">Genf</settlement>
+						<settlement ref="l167">Genf</settlement>
 						<institution>Musée historique de la Réformation</institution>
 						-->
-						<repository ref="archive39"/>
+						<repository ref="a39"/>
 						<idno subtype="Teilkopie">Herminjard-Dossier 1553-1556, 17</idno>
 					</msIdentifier>
 				</msDesc>
@@ -81,18 +80,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1825">
 				<correspAction type="sent">
-					<persName ref="person3324" cert="high">
+					<persName ref="p3324" cert="high">
 						<!--
 						<surname cert="high">Venetscher</surname>
 						<forename cert="high">Peter</forename>
 						<persName type="main" ref="person8512>Venetscher, Peter</persName>
 						-->
 					</persName>
-					<placeName source="place208" cert="high"><orig>Hedelfingen</orig></placeName>
+					<placeName source="l208" cert="high"><orig>Hedelfingen</orig></placeName>
 					<date when="1553-03-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -102,7 +101,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file1826"/>
@@ -126,7 +125,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

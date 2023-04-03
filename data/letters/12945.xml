@@ -6,46 +6,37 @@
 				<title subtype="file">Johannes Vulteius AN Heinrich Bullinger, zwischen 7. Mai und Winter 1547/48</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2021</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18354-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2896</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XX</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Häfner, Yvonne; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">20</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">April bis Dezember 1547</biblScope>
-				<biblScope unit="page">184</biblScope>
-				<biblScope unit="pages">807</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 20 (Briefe von April bis Dezember 1547), bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="el">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 367,197</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								[1] Dem göttlichsten und frömmsten Mann Heinrich Bullinger entbietet Johannes <persName ref="person23817">Vulteius</persName> (Ethelontés) seinen
+								[1] Dem göttlichsten und frömmsten Mann Heinrich Bullinger entbietet <persName ref="p8457">Johannes Vulteius (Ethelontés)</persName> seinen
 								Gruß.
 								</p>
 								<p xml:id="regest2">
@@ -93,13 +84,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 20, Nr. 2896, S.184</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12945">
 				<correspAction type="sent">
-					<persName ref="person3868" cert="high">
+					<persName ref="p3868" cert="high">
 						<!--
 						<surname cert="high">Vulteius</surname>
 						<forename cert="high">Johannes</forename>
@@ -112,7 +110,7 @@
 					<date notBefore="1547-05-07" notAfter="1548-02-07" cert="low">zwischen 7. Mai und Winter 1547/48</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -138,7 +136,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -168,7 +166,7 @@
 					<s n="13" xml:lang="el" type="manual">Εἰσὶ γὰρ ὡς σφήν· τῶν κακῶν αἴτιοι τὰς πόλεις κατασκάπτουσιν, προδόται τῆς πατρίδος γίγνονται, δῶρα δέχοντα[ι] καὶ τὸν θεὸν ἀρνοῦσιν.</s>
 					<s n="14" xml:lang="el" type="manual">Θάττερον δ' ἡ ἀρετὴ προτρέπει πράττειν τὰ δέοντα, καὶ φύσει εὐλαβεῖται κακὰ ποιεῖν<note xml:id="fnf" type="footnote" n="f"><hi>Vor</hi> <foreign xml:lang="el">ποιεῖν</foreign> <hi>gestrichenes</hi> <foreign xml:lang="el">πράτ[τειν].</foreign></note>.</s>
 					<s n="15" xml:lang="el" type="manual">Τοιούτους ὄντας ἐπαινῶ καὶ ἐγκομιάζομαι.</s>
-					<s n="16" xml:lang="el" type="manual">Ὁποτέροις οὖν ἂν αἰσθάνῃ τὰ πραχθέντα συνενεγκόντα, ταῦτα δὴ αἱρούμενος ὀρθῶς βουλεύοις ἄν<note xml:id="fn4" type="footnote" n="4"><hi><persName ref="person21728">Xenophon</persName>,</hi> Cyri institutio, 8, 7, 24.</note>.</s>
+					<s n="16" xml:lang="el" type="manual">Ὁποτέροις οὖν ἂν αἰσθάνῃ τὰ πραχθέντα συνενεγκόντα, ταῦτα δὴ αἱρούμενος ὀρθῶς βουλεύοις ἄν<note xml:id="fn4" type="footnote" n="4"><hi><persName>Xenophon</persName>,</hi> Cyri institutio, 8, 7, 24.</note>.</s>
 				</p>
 			</div>
 			<div xml:id="div3" corresp="regest3">
@@ -186,7 +184,7 @@
 			</div>
 			<div xml:id="div4" corresp="regest4">
 				<p>
-					<s n="26" xml:lang="la" type="manual"><persName ref="person23816">Ioannes Vulteius</persName> Hessus.</s>
+					<s n="26" xml:lang="la" type="manual"><persName ref="p8514">Ioannes Vulteius</persName> Hessus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

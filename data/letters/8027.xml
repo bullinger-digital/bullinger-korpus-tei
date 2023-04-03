@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Petrus Parisotus / Pontresina, 30. September 1569</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7425/79</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive24">
-							<name>Chur StA</name>
+						<repository ref="a24">
+							<name>StAGR</name>
 							<ref target="https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/sag/Seiten/start.aspx"/>
 						</repository>
-						<settlement ref="place98">Chur</settlement>
+						<settlement ref="l98">Chur</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive24"/>
+						<repository ref="a24"/>
 						<idno subtype="Autograph">B 1818,33</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,10 +42,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW III, S. 166f, Nr. 175</title>
+								<title>Graubünden BW III, S.166f, Nr. 175</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Bündner Monatsblatt 2004, Heft 4, S. 250 [Abb.]</title>
+								<title>Bündner Monatsblatt 2004, Heft 4, S.250 [Abb.]</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -56,7 +55,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8027">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -66,18 +65,18 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1569-09-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2467" cert="high">
+					<persName ref="p2467" cert="high">
 						<!--
 						<surname cert="high">Parisotus</surname>
 						<forename cert="high">Petrus</forename>
 						<persName type="main" ref="person8492>Parisotus, Petrus</persName>
 						-->
 					</persName>
-					<placeName source="place393" cert="high"><orig>Pontresina</orig></placeName>
+					<placeName source="l393" cert="high"><orig>Pontresina</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8028"/>
@@ -97,7 +96,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

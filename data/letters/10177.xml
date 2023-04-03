@@ -6,63 +6,61 @@
 				<title subtype="file">Berchtold Haller / [Bern] AN Heinrich Bullinger, 9. November 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=146</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">255</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,7</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Amtsgeschäfte verhinderten <persName ref="person90">Haller</persName>, Bullingers Briefe früher zu
-								beantworten; die Visitation der <placeName ref="place121">Berner</placeName> Kirche nahm drei Wochen in
-								Anspruch. <persName ref="person90">Haller</persName> bedauert die Freilassung von
-								<persName ref="person2157">Onofrius Setzstab</persName>. Eine Anstellung für
-								<persName ref="person173">Paul Rasdorfer</persName> zu finden, war noch nicht möglich.
+								Amtsgeschäfte verhinderten <persName ref="p1391">Haller</persName>, Bullingers Briefe früher zu
+								beantworten; die Visitation der <placeName>Berner</placeName> Kirche nahm drei Wochen in
+								Anspruch. <persName ref="p1391">Haller</persName> bedauert die Freilassung von
+								<persName ref="p6592">Onofrius Setzstab</persName>. Eine Anstellung für
+								<persName ref="p8426">Paul Rasdorfer</persName> zu finden, war noch nicht möglich.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 146, S.255</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10177">
 				<correspAction type="sent">
-					<persName ref="person1391" cert="high">
+					<persName ref="p1391" cert="high">
 						<!--
 						<surname cert="high">Haller</surname>
 						<forename cert="high">Berchtold</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413862"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="low"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1532-11-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,7 +122,7 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Quod ad frequentes et eas quidem gratissimas epistolas<note xml:id="fn1" type="footnote" n="1">Nicht erhalten.</note>, charissime frater, nihil responderim, non negligentię, sed absentię potius ascribas.</s>
-					<s n="3" xml:lang="la" type="auto">Invisimus capitulatim universi agri ministros<note xml:id="fn2" type="footnote" n="2">Zur Visitation vom Oktober 1532 vgl. <hi>de Quervain</hi> 16f; <hi>Pestalozzi,</hi> <persName ref="person90">Haller</persName> 54.</note>, atque id per tres septimanas, et ecclesiarum, ministrorum, simul et praefectorum tum negligentiam, tum vigilantiam ita percontati sumus, ut nihil certius nunc senatui nostro offerre possimus quam sui agri statum.</s>
+					<s n="3" xml:lang="la" type="auto">Invisimus capitulatim universi agri ministros<note xml:id="fn2" type="footnote" n="2">Zur Visitation vom Oktober 1532 vgl. <hi>de Quervain</hi> 16f; <hi>Pestalozzi,</hi> <persName>Haller</persName> 54.</note>, atque id per tres septimanas, et ecclesiarum, ministrorum, simul et praefectorum tum negligentiam, tum vigilantiam ita percontati sumus, ut nihil certius nunc senatui nostro offerre possimus quam sui agri statum.</s>
 					<s n="4" xml:lang="la" type="auto">Convocantur 10. novembris omnes praefecti in urbem nostram.</s>
 					<s n="5" xml:lang="la" type="auto">Commendabitur illis, quatenus maiori studio dei gloriam promoveant, vitiis obstent, quam hactenus factum sit.</s>
 					<s n="6" xml:lang="la" type="auto">Utinam senatus uterque pro voto et ex animo omnia agat.</s>
@@ -137,16 +135,16 @@
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Remitto, quae petis.</s>
-					<s n="14" xml:lang="la" type="auto">Displicet nebulonis illius redempta captivitas<note xml:id="fn4" type="footnote" n="4"><persName ref="person2157">Onofrius Setzstab</persName> wurde am 30. Oktober 1532 nur zum Widerruf seiner Schmähungen verurteilt und freigelassen, s. oben <ref target="file10167">[Nr. 136]</ref> S. 242, Anm. 7.</note>, et utinam non reddatur illa benignitate deterior, quemadmodum apud nos omnes fieri soleat.</s>
+					<s n="14" xml:lang="la" type="auto">Displicet nebulonis illius redempta captivitas<note xml:id="fn4" type="footnote" n="4"><persName>Onofrius Setzstab</persName> wurde am 30. Oktober 1532 nur zum Widerruf seiner Schmähungen verurteilt und freigelassen, s. oben <ref target="file10167">[Nr. 136]</ref> S. 242, Anm. 7.</note>, et utinam non reddatur illa benignitate deterior, quemadmodum apud nos omnes fieri soleat.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person173">Paulum</persName> Rasdorffer vellem ex animo apud nos habere locum, sed nulla dum se obtulit occasio.</s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p8426">Paulum</persName> Rasdorffer vellem ex animo apud nos habere locum, sed nulla dum se obtulit occasio.</s>
 					<s n="16" xml:lang="la" type="auto">Quam primum hominem iuvare poterimus, nemo apud nos illi deerit.</s>
 					<s n="17" xml:lang="la" type="auto">Ipse scis, quam plebs abominetur linguam alienam<note xml:id="fn5" type="footnote" n="5">Zum Mißtrauen des Landvolkes fremden Predigern gegenüber vgl. <hi>de Quervain</hi> 231.</note>.</s>
 				</p>
 				<p>
 					<s n="18" xml:lang="la" type="auto"><pb type="edition" next="256"/>Nulla apud nos sunt nova.</s>
-					<s n="19" xml:lang="la" type="auto">Expectamus a comitiis<note xml:id="fn6" type="footnote" n="6">Gemeint ist die Eidgenössische Tagsatzung in <placeName ref="place363">Frauenfeld</placeName> vom 4. bis 10. November 1532, s. EA IV/1b 1422-1427.</note>.</s>
+					<s n="19" xml:lang="la" type="auto">Expectamus a comitiis<note xml:id="fn6" type="footnote" n="6">Gemeint ist die Eidgenössische Tagsatzung in <placeName>Frauenfeld</placeName> vom 4. bis 10. November 1532, s. <bibl>EA</bibl> IV/1b 1422-1427.</note>.</s>
 					<s n="20" xml:lang="la" type="auto">Interim si quid apud vos acciderit, scribe.</s>
 				</p>
 				<p>

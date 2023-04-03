@@ -6,32 +6,31 @@
 				<title subtype="file">[Heinrich Bullinger] / [Zürich] AN Ambrosius Blarer, 23. November 1560</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5622/261</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph">VIII, 363</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW III, S. 557ff</title>
+								<title>Blarer BW III, S.557ff</title>
 							</bibl>
 							<bibl type="Gedruckt">
 								<title>Maschinen-Teilabschrift + Kommentar: Martin Brunner, Fridolin Brunner 66-70, Nr. 23</title>
@@ -54,28 +53,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 43,99r-100r</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 98,172</idno>
 					</msIdentifier>
 				</msDesc>
@@ -84,7 +83,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4553">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -94,11 +93,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1560-11-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -135,7 +134,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -197,7 +196,7 @@
 					<s n="39" xml:lang="de" type="auto">Ettlich fürsten, ouch Wirtemberg, sind <foreign xml:lang="la">circa principium novembris</foreign> zuͦ Heidelberg by einandren.</s>
 				</p>
 				<p>
-					<s n="40" xml:lang="la" type="auto"><foreign xml:lang="de">Die wirtembergischen theologi habend ein span von der</foreign> ubiquitate corporis Christi, Brentius und Matheus Alberus.</s>
+					<s n="40" xml:lang="de" type="manual">Die wirtembergischen theologi habend ein span von der <foreign xml:lang="la">ubiquitate corporis Christi,</foreign> Brentius und Matheus Alberus.</s>
 					<s n="41" xml:lang="de" type="auto">Der fürst ist häfftig, <foreign xml:lang="la">totus Brentianus;</foreign> weiß nitt, was hernach uß disen sachen werden wil; ich bes[org] übel ein gar grosse straaff.</s>
 					<s n="42" xml:lang="de" type="auto">Gott sye uns gnedig!</s>
 				</p>

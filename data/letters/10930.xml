@@ -6,39 +6,30 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, 6. September [1536]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2004</date>
-				<idno subtype="ISBN">ISBN 3-290-17316-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=889</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X (Ergänzungsband)</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Addenda und Gesamtregister zu Band 1-10</biblScope>
-				<biblScope unit="page">62</biblScope>
-				<biblScope unit="pages">175</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Ergänzungsband A (Addenda und Gesamtregister zu Band 1-10), Bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2004, 175 S., ISBN 3-290-17316-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive35">
+						<repository ref="a35">
 							<name>Erlangen UB</name>
 							<ref target="https://ub.fau.de/"/>
 						</repository>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive35"/>
+						<repository ref="a35"/>
 						<idno subtype="Autograph">Briefsammlung Trew, Grynäus/Bullinger</idno>
 					</msIdentifier>
 					<msContents>
@@ -55,10 +46,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Christoph Gottlieb von Murr, Anmerkungen über Herrn Leßings Laokoon, nebst einigen Nachrichten, die deutsche Litteratur betreffend, Erlangen Erlangen 1769, S. 82f, Nr. 17</title>
+								<title>Christoph Gottlieb von Murr, Anmerkungen über Herrn Leßings Laokoon, nebst einigen Nachrichten, die deutsche Litteratur betreffend, Erlangen Erlangen 1769, S.82f, Nr. 17</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Memorabilia bibliothecarum publicarum Norimbergensium et universitatis Altdorfinae, pars III, Nürnberg 1791, S. 181f, Nr. 17</title>
+								<title>Memorabilia bibliothecarum publicarum Norimbergensium et universitatis Altdorfinae, pars III, Nürnberg 1791, S.181f, Nr. 17</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10A, Nr. 889a, S.62</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -68,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10930">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -81,7 +75,7 @@
 					<date when="1536-09-06" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -128,14 +122,14 @@
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">De amicitię nostrae fide spero sempiternam in nos esse gratiam Christi.</s>
-					<s n="4" xml:lang="la" type="auto">Oro, ut salutare diligenter amicos velis omnes, Theodorum<note xml:id="fn3" type="footnote" n="3">Theodor Bibliander.</note> nostrum amicissime.</s>
+					<s n="4" xml:lang="la" type="auto">Oro, ut salutare diligenter amicos velis omnes, Theodorum<note xml:id="fn3" type="footnote" n="3"><persName>Theodor Bibliander</persName>.</note> nostrum amicissime.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Spero nos omnes in Christo Iesu redemptore integre conspirare.</s>
 					<s n="6" xml:lang="la" type="auto">Quae enim causa est, cur nos non toto pectore invicem redempti domini amemus, et cur non in unius eiusdem principis Christi laudibus celebrandis studia omnia et vires omnes coniugamus?</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Vale cum uxore<note xml:id="fn4" type="footnote" n="4"><persName ref="person329">Anna</persName>, geb. Adlischwyler.</note> et liberis<note xml:id="fn5" type="footnote" n="5">Vgl. HBBW VI <ref target="file10782">[Nr. 744]</ref>, S. 124, Anm. 34.</note> chariss[imis] in domino optime.</s>
+					<s n="7" xml:lang="la" type="auto">Vale cum uxore<note xml:id="fn4" type="footnote" n="4"><persName>Anna, geb. Adlischwyler</persName>.</note> et liberis<note xml:id="fn5" type="footnote" n="5">Vgl. HBBW VI <ref target="file10782">[Nr. 744]</ref>, S. 124, Anm. 34.</note> chariss[imis] in domino optime.</s>
 					<s n="8" xml:lang="la" type="auto">6. septembris.</s>
 				</p>
 				<p>

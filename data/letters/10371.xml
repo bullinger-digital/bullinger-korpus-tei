@@ -6,50 +6,40 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Joachim Vadian, 17. März 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=339</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">91</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,25</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								[Ammann <persName ref="person228">Hans] Vogler</persName> ist zu
+								[Ammann <persName ref="p8071">Hans] Vogler</persName> ist zu
 								einer Geldbuße verurteilt worden. Bullinger klagt, daß [in rheintalischen Angelegenheiten] die reformierten
 								Orte überstimmt werden. Schickt seinen Kommentar zu den beiden Petrusbriefen und bittet um rasche Ausgabe
-								von <persName ref="person226">Vadians</persName> Epitome. [Rudolf]
-								<persName ref="person2240">Stoll</persName> ist nach Bern gesandt worden, wozu, ist nicht bekannt.
+								von <persName ref="p8049">Vadians</persName> Epitome. <persName ref="p6714">[Rudolf] Stoll</persName> ist nach Bern gesandt worden, wozu, ist nicht bekannt.
 							</p>
 						</summary>
 						<msItem>
@@ -59,7 +49,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Vadian BW V, S. 155f, Nr. 759</title>
+								<title>Vadian BW V, S.155f, Nr. 759</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 339, S.91</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -69,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10371">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -79,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1534-03-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -119,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,19 +126,19 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a Domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto"><persName ref="person228">Voglerus</persName> ille noster, quem tu mihi commendabas<note xml:id="fn1" type="footnote" n="1">Ein diesbezüglicher Brief <persName ref="person226">Vadians</persName> ist nicht erhalten.</note>, praeter ius et phas mulctatus est<note xml:id="fn2" type="footnote" n="2"><persName ref="person228">Hans Vogler</persName>, der ehemalige Stadtammann von <placeName ref="place37">Altstätten</placeName> (Kanton <placeName ref="place1011">St. Gallen</placeName>), war am 21. Januar 1533 zu einer Geldbuße verurteilt worden (s. HBBW III <ref target="file10234">[Nr. 203]</ref> 93, Anm. 1, und 4). Eine weitere Bestrafung ließ sich nicht ermitteln, könnte aber im Zusammenhang mit der nach der Tagsatzung vom 16. Januar 1534 (s. EA IV/IC 266 mm) erfolgten Ausscheidung des Weibergutes und weiterer Ansprüche seitens derer von <placeName ref="place804">Oberriet</placeName> (<placeName ref="place72">St. Galler Rheintal</placeName>) und des Abtes von <placeName ref="place1011">St. Gallen</placeName> gegenüber Vogler stehen, die sich bis in den Sommer 1536 hinzogen (s. EA IV/IC 322. 340 ss. 342. 422. 447. 511 XX. 715 cc. 739 z).</note>, et in mulctam illam coactus est nuncius<note xml:id="fn3" type="footnote" n="3">Ob es sich um einen Tagsatzungsgesandten oder einen Abgeordneten Zürichs an einen Gerichtstag handelt, ließ sich nicht ermitteln.</note> ille noster consentire, nisi calamitosius quidpiam tergiversatione sua voluit admittere.</s>
-					<s n="3" xml:lang="la" type="auto">Ita suffragiorum pluralitate<note xml:id="fn4" type="footnote" n="4">Unter den die Gemeine Herrschaft Rheintal regierenden Orten besaßen die katholischen (<placeName ref="place652">Luzern</placeName>, <placeName ref="place93">Uri</placeName>, <placeName ref="place79">Schwyz</placeName>, <placeName ref="place92">Unterwalden</placeName> und <placeName ref="place1238">Zug</placeName>) die Mehrheit gegenüber den ganz oder teilweise reformierten (Zürich, <placeName ref="place22">Glarus</placeName>, <placeName ref="place4">Appenzell</placeName>).</note> vincimur adeoque et in res foedas a turpissimis istis rapimur, ut provinciales<note xml:id="fn5" type="footnote" n="5">Die Leute in der Gemeinen Herrschaft (Landvogtei) Rheintal.</note> isti miseri a nobis vel prorsus deserendi illorumque<pb type="edition" next="92"/><note xml:id="fn6" type="footnote" n="6">Der katholischen Orte.</note> libidini relinquendi sint vel praeter meritum plectendi, ne illorum tyrannide prorsus conterantur.</s>
+					<s n="2" xml:lang="la" type="auto"><persName ref="p8071">Voglerus</persName> ille noster, quem tu mihi commendabas<note xml:id="fn1" type="footnote" n="1">Ein diesbezüglicher Brief <persName>Vadians</persName> ist nicht erhalten.</note>, praeter ius et phas mulctatus est<note xml:id="fn2" type="footnote" n="2"><persName>Hans Vogler</persName>, der ehemalige Stadtammann von <placeName>Altstätten</placeName> (Kanton <placeName>St. Gallen</placeName>), war am 21. Januar 1533 zu einer Geldbuße verurteilt worden (s. <bibl>HBBW III</bibl> <ref target="file10234">[Nr. 203]</ref> 93, Anm. 1, und 4). Eine weitere Bestrafung ließ sich nicht ermitteln, könnte aber im Zusammenhang mit der nach der Tagsatzung vom 16. Januar 1534 (s. <bibl>EA</bibl> IV/IC 266 mm) erfolgten Ausscheidung des Weibergutes und weiterer Ansprüche seitens derer von <placeName>Oberriet</placeName> (<placeName>St. Galler Rheintal</placeName>) und des Abtes von <placeName>St. Gallen</placeName> gegenüber Vogler stehen, die sich bis in den Sommer 1536 hinzogen (s. <bibl>EA</bibl> IV/IC 322. 340 ss. 342. 422. 447. 511 XX. 715 cc. 739 z).</note>, et in mulctam illam coactus est nuncius<note xml:id="fn3" type="footnote" n="3">Ob es sich um einen Tagsatzungsgesandten oder einen Abgeordneten Zürichs an einen Gerichtstag handelt, ließ sich nicht ermitteln.</note> ille noster consentire, nisi calamitosius quidpiam tergiversatione sua voluit admittere.</s>
+					<s n="3" xml:lang="la" type="auto">Ita suffragiorum pluralitate<note xml:id="fn4" type="footnote" n="4">Unter den die Gemeine Herrschaft Rheintal regierenden Orten besaßen die katholischen (<placeName>Luzern</placeName>, <placeName>Uri</placeName>, <placeName>Schwyz</placeName>, <placeName>Unterwalden</placeName> und <placeName>Zug</placeName>) die Mehrheit gegenüber den ganz oder teilweise reformierten (Zürich, <placeName>Glarus</placeName>, <placeName>Appenzell</placeName>).</note> vincimur adeoque et in res foedas a turpissimis istis rapimur, ut provinciales<note xml:id="fn5" type="footnote" n="5">Die Leute in der Gemeinen Herrschaft (Landvogtei) Rheintal.</note> isti miseri a nobis vel prorsus deserendi illorumque<pb type="edition" next="92"/><note xml:id="fn6" type="footnote" n="6">Der katholischen Orte.</note> libidini relinquendi sint vel praeter meritum plectendi, ne illorum tyrannide prorsus conterantur.</s>
 					<s n="4" xml:lang="la" type="auto">O indignum facinus, et quod ista in gente libera videre cogimur.</s>
 					<s n="5" xml:lang="la" type="auto">Sed haec ego mecum in dies deploro frustra, cum illud malum tam alte egerit radices, ut non possit nisi ferro excindi<note xml:id="fn7" type="footnote" n="7">Vgl. Ez 17, 7-10; Sir 10, 15; Mt 3, 10. 15, 13.</note> Dominus, ille omnipotens vindex et ultor mali, Israelem redimat<note xml:id="fn8" type="footnote" n="8">Vgl. Ps 25, 22; 1 Makk 4, 11.</note>.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Mitto tibi commentarios nostros in epistolam Petri utramque<note xml:id="fn9" type="footnote" n="9">Bullingers «Commentarius in Petri epistolam ultramque» erschien im März 1534 (HBBibl I 52).</note> effusos verius quam scriptos in hisce negotiorum turbis.</s>
-					<s n="7" xml:lang="la" type="auto">Quam vero optarem Epitomen<note xml:id="fn10" type="footnote" n="10"><persName ref="person226">Vadians</persName> Schrift «Epitome trium terrae partium» erschien im September 1534, s. oben <ref target="file10344">[Nr. 313]</ref> S. 39, Anm. 37 und unten <ref target="file10454">Nr. 419</ref>.</note> illam tuam hodie esse aeditam!</s>
+					<s n="6" xml:lang="la" type="auto">Mitto tibi commentarios nostros in epistolam Petri utramque<note xml:id="fn9" type="footnote" n="9">Bullingers «Commentarius in Petri epistolam ultramque» erschien im März 1534 (<bibl>HBBibl</bibl> I 52).</note> effusos verius quam scriptos in hisce negotiorum turbis.</s>
+					<s n="7" xml:lang="la" type="auto">Quam vero optarem Epitomen<note xml:id="fn10" type="footnote" n="10"><persName>Vadians</persName> Schrift «Epitome trium terrae partium» erschien im September 1534, s. oben <ref target="file10344">[Nr. 313]</ref> S. 39, Anm. 37 und unten <ref target="file10454">Nr. 419</ref>.</note> illam tuam hodie esse aeditam!</s>
 					<s n="8" xml:lang="la" type="auto">Sed et nunc quoque oro, aeditionem matures.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">De rebus nostris nil possum certi scribere.</s>
-					<s n="10" xml:lang="la" type="auto">Mittitur hodie <placeName ref="place121">Bernam</placeName> Stollius<note xml:id="fn11" type="footnote" n="11">Gewiß <persName ref="person2240">Rudolf Stoll</persName>, s. oben <ref target="file10370">[Nr. 338]</ref> S. 87, Anm. 9.</note>, at cuius rei gratia, nondum potui expiorare.</s>
+					<s n="10" xml:lang="la" type="auto">Mittitur hodie <placeName>Bernam</placeName> Stollius<note xml:id="fn11" type="footnote" n="11">Gewiß <persName>Rudolf Stoll</persName>, s. oben <ref target="file10370">[Nr. 338]</ref> S. 87, Anm. 9.</note>, at cuius rei gratia, nondum potui expiorare.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale et me, ut facis, ama.</s>
@@ -158,7 +151,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="14" xml:lang="la" type="auto">Clarissimo viro doctori <persName ref="person226">Ioachimo Vadiano</persName>, domino suo plurimum observando.</s>
+					<s n="14" xml:lang="la" type="auto">Clarissimo viro doctori <persName ref="p8049">Ioachimo Vadiano</persName>, domino suo plurimum observando.</s>
 				</p>
 			</div>
 		</body>

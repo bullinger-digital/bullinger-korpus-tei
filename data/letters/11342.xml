@@ -6,62 +6,60 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, nach 18. August 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1299</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">201</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,246</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Der Briefüberbringer, Bürgermeister [<persName ref="person909">Balthasar Funk</persName>] aus
-								<placeName ref="place697">Memmingen</placeName>, ist auf der Suche nach einem Provisor für die Memminger
-								Schule; [die Basler] weisen ihn auf <persName ref="person1052">Sebastian Guldibeck</persName> hin, und
-								<persName ref="person81">Grynäus</persName> bittet um Unterstützung seines Anliegens. Grüße.
+								Der Briefüberbringer, Bürgermeister [<persName ref="p1257">Balthasar Funk</persName>] aus
+								<placeName>Memmingen</placeName>, ist auf der Suche nach einem Provisor für die Memminger
+								Schule; [die Basler] weisen ihn auf <persName ref="p5072">Sebastian Guldibeck</persName> hin, und
+								<persName ref="p1365">Grynäus</persName> bittet um Unterstützung seines Anliegens. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1299, S.201</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11342">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -74,7 +72,7 @@
 					<date when="1539-08-18" cert="low">nach 18. August 1539</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,16 +109,20 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="11342/Autograph/00__Ms__F__62__(246)_00001.tif" n="1"/>
+		<graphic xml:id="img2" url="11342/Autograph/01__Ms__F__62__(246)_00002.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Is, qui has ad te perfert, consul <placeName ref="place697">Memmingensis</placeName><note xml:id="fn2" type="footnote" n="2"><persName ref="person909">Balthasar Funk</persName>, s. oben Anm. 1.</note>, vir optimus, quaerit scolę, quam diligentius paulo adornant, <foreign xml:lang="el">ὑποδιδάσκαλον</foreign>.</s>
-					<s n="3" xml:lang="la" type="manual">Indicabimus <persName ref="person1052">Sebastianum</persName> Goldebeckium idoneum ei provincię<note xml:id="fn3" type="footnote" n="3"><persName ref="person1052">Guldibeck</persName> war Provisor an der Großmünsterschule, eine Funktion übrigens, die auch Bullinger gelegentlich mit "hypodidascalus" umschreibt (vgl. Zürich ZB, Ms F 37, 405v.).</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Is, qui has ad te perfert, consul <placeName>Memmingensis</placeName><note xml:id="fn2" type="footnote" n="2"><persName ref="p5334">Balthasar Funk</persName>, s. oben Anm. 1.</note>, vir optimus, quaerit scolę, quam diligentius paulo adornant, <foreign xml:lang="el">ὑποδιδάσκαλον</foreign>.</s>
+					<s n="3" xml:lang="la" type="manual">Indicabimus <persName ref="p5072">Sebastianum</persName> Goldebeckium idoneum ei provincię<note xml:id="fn3" type="footnote" n="3"><persName>Guldibeck</persName> war Provisor an der Großmünsterschule, eine Funktion übrigens, die auch Bullinger gelegentlich mit "hypodidascalus" umschreibt (vgl. Zürich ZB, Ms F 37, 405v.).</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Oro te, ut hic quoque velis Christi negotium promovere.</s>
 					<s n="5" xml:lang="la" type="auto">Non addo plura; scio, quae est humanitas et synceritas tua, frater mihi dilectissime.</s>
 				</p>
@@ -128,10 +130,10 @@
 					<s n="6" xml:lang="la" type="auto">Vale in domino.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto"><persName ref="person81">Simon</persName> Gryn. tuus.</s>
+					<s n="7" xml:lang="la" type="auto"><persName ref="p1365">Simon</persName> Gryn. tuus.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Saluta fratres omnes diligenter, pręsertim <persName ref="person14">Theodorum</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person14">Theodor Bibliander</persName>.</note> nostrum.</s>
+					<s n="8" xml:lang="la" type="auto">Saluta fratres omnes diligenter, pręsertim <persName ref="p8171">Theodorum</persName><note xml:id="fn4" type="footnote" n="4"><persName>Theodor Bibliander</persName>.</note> nostrum.</s>
 					<s n="9" xml:lang="la" type="auto">Christus<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> <foreign xml:lang="el">ΧΡΣ</foreign>.</note> dominus nos conservet.</s>
 					<s n="10" xml:lang="de" type="auto">A[men]<note xml:id="fnc" type="footnote" n="c"><hi>Rand beschädigt.</hi></note>.</s>
 				</p>

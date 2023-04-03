@@ -6,50 +6,41 @@
 				<title subtype="file">Claudius Pius Peutinger / Augsburg AN Heinrich Bullinger, 20. November 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2291</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">652</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 15 (Briefe des Jahres 1545), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2013, 746 S., ISBN 978-3-290-17664-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,152</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Es liegt an <persName ref="person20657">Musculus</persName>, dass <persName ref="person20281">Peutinger</persName> Bullingers Brief [nicht erhalten] nicht beantwortet und sich nicht für
-								die [„Orthodoxa Tigurinae ecclesiae confessio“] bedankt hat. Auch <persName ref="person20281">Peutinger</persName> ist wegen des wieder
+								Es liegt an <persName ref="p8417">Musculus</persName>, dass <persName ref="p2449">Peutinger</persName> Bullingers Brief [nicht erhalten] nicht beantwortet und sich nicht für
+								die [„Orthodoxa Tigurinae ecclesiae confessio“] bedankt hat. Auch <persName ref="p2449">Peutinger</persName> ist wegen des wieder
 								ausgebrochenen schädlichen [Abendmahls]streits sehr beunruhigt. Keineswegs macht er aber die [Zürcher] dafür
 								verantwortlich, zumal er ja auch das gehässige [„Kurtz bekentnis“]
-								<persName ref="person138">Luthers</persName> gelesen hat. Er ist aber der Meinung, dass Schweigen die beste
+								<persName ref="p1974">Luthers</persName> gelesen hat. Er ist aber der Meinung, dass Schweigen die beste
 								Verteidigung gewesen wäre, zumal die Freunde ohnehin zu den früher publizierten Schriften Zugang haben und
 								man sich auf diese Weise gegenüber dem [römischen] Feind keine Blöße gegeben hätte. - Bullingers angebotene
 								Freundschaft nimmt er übrigens gerne an. - Grüße.
@@ -59,23 +50,30 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 15, Nr. 2291, S.652</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12338">
 				<correspAction type="sent">
-					<persName ref="person2449" cert="high">
+					<persName ref="p2449" cert="high">
 						<!--
 						<surname cert="high">Peutinger</surname>
 						<forename cert="high">Claudius Pius</forename>
 						-->
 					</persName>
-					<placeName source="place18" cert="high"><orig>Augsburg</orig></placeName>
+					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 					<date when="1545-11-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -104,7 +102,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -118,8 +116,8 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto"><persName ref="person20657">Musculus</persName> noster praestabit,<note xml:id="fn1" type="footnote" n="1">Vgl. oben <ref target="file12334">Nr. 2287</ref>, 2-11, wo <persName ref="person20657">Musculus</persName> erklärt, dass er durch Schweigen eine Fortentwicklung des unwillkommenen Streites zu verhindern versuche.</note> quod hactenus neque literis tuis<note xml:id="fn2" type="footnote" n="2">Nicht erhalten, aber oben in <ref target="file12158">Nr. 2111</ref>, 10, erwähnt. - Dies ist der erste Brief von <persName ref="person20281">Claudius Pius Peutinger</persName> an Bullinger.</note> responderim proque misso munusculo<note xml:id="fn3" type="footnote" n="3">Die "Orthodoxa Tigurinae ecclesiae confessio"; s. oben <ref target="file12158">Nr. 2111</ref>, 7-11; 2134 und Anm. 1.</note> nullas habuerim gratias, quod mihi te, viro doctissimo, autore gratissimum fuit.</s>
-					<s n="3" xml:lang="la" type="auto">Caeterum eo multum conturbatus sum, quod videam vulnus huius dissidii tanto publici negotii incommodo recrudescere; quod non dixerim culpa vestra fieri, qui amara <persName ref="person138">Martini</persName> scripta<note xml:id="fn4" type="footnote" n="4"><persName ref="person138">Luthers</persName> "Kurtz bekentnis"; s. oben <ref target="file12108">Nr. 2061</ref>, Anm. 7.</note> legerim, sed tamen utrinque caussa salva silentium optimae defensioni<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> optima defen.</note> praestitisset, cum ea apud amicos non sit amplius opus, quod prioribus scriptis iuditia satis firmari<note xml:id="fnb" type="footnote" n="b">firmari <hi>korrigiert aus</hi> informari.</note> possint.</s>
+					<s n="2" xml:lang="la" type="auto"><persName>Musculus</persName> noster praestabit,<note xml:id="fn1" type="footnote" n="1">Vgl. oben <ref target="file12334">Nr. 2287</ref>, 2-11, wo <persName>Musculus</persName> erklärt, dass er durch Schweigen eine Fortentwicklung des unwillkommenen Streites zu verhindern versuche.</note> quod hactenus neque literis tuis<note xml:id="fn2" type="footnote" n="2">Nicht erhalten, aber oben in <ref target="file12158">Nr. 2111</ref>, 10, erwähnt. - Dies ist der erste Brief von <persName>Claudius Pius Peutinger</persName> an Bullinger.</note> responderim proque misso munusculo<note xml:id="fn3" type="footnote" n="3">Die "Orthodoxa Tigurinae ecclesiae confessio"; s. oben <ref target="file12158">Nr. 2111</ref>, 7-11; 2134 und Anm. 1.</note> nullas habuerim gratias, quod mihi te, viro doctissimo, autore gratissimum fuit.</s>
+					<s n="3" xml:lang="la" type="auto">Caeterum eo multum conturbatus sum, quod videam vulnus huius dissidii tanto publici negotii incommodo recrudescere; quod non dixerim culpa vestra fieri, qui amara <persName ref="p1974">Martini</persName> scripta<note xml:id="fn4" type="footnote" n="4"><persName ref="p18889">Luthers</persName> "Kurtz bekentnis"; s. oben <ref target="file12108">Nr. 2061</ref>, Anm. 7.</note> legerim, sed tamen utrinque caussa salva silentium optimae defensioni<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> optima defen.</note> praestitisset, cum ea apud amicos non sit amplius opus, quod prioribus scriptis iuditia satis firmari<note xml:id="fnb" type="footnote" n="b">firmari <hi>korrigiert aus</hi> informari.</note> possint.</s>
 					<s n="4" xml:lang="la" type="auto">Apud inimicos autem tam nihil agimus quam nos, quam publicam evangelii caussam magis illorum libidini prostituimus; quae non ideo dixerim, ut, mi d. Bullingere, qui in vestros huius mali caussam reiiciam, sed quod piis ac bonis viris ad concordiam atque publici negotii rationes utiles pro mea in deum et relligionem fide monitor esse cuperem.<pb type="edition" next="653"/></s>
 				</p>
 				<p>
@@ -127,13 +125,13 @@
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Bene vale.</s>
-					<s n="7" xml:lang="la" type="auto">Ex <placeName ref="place70">Augusta</placeName>, 20. novembris anno 1545.</s>
-					<s n="8" xml:lang="la" type="auto">Tuus Cl. P. <persName ref="person20281">Peutinger</persName>, iuris consultus.</s>
+					<s n="7" xml:lang="la" type="auto">Ex <placeName>Augusta</placeName>, 20. novembris anno 1545.</s>
+					<s n="8" xml:lang="la" type="auto">Tuus Cl. P. <persName ref="p2449">Peutinger</persName>, iuris consultus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf f. [153b]v.:]<note xml:id="fnc" type="footnote" n="c"><hi>Papierverlust durch Entfernung des Siegels. Fehlender Text ergänzt in Anlehnung an die Adresse der zwei erhaltenen Briefe Peutingers an Bullinger.</hi></note></note>
 					<s n="9" xml:lang="la" type="auto">Doctissimo viro d. Hainricho Bullingero, christianae pietatis [atque veri]tatis professori, amico [suo c]arissimo.</s>
-					<s n="10" xml:lang="la" type="auto">Tiguri<note xml:id="fn6" type="footnote" n="6">Vorliegender Brief wie auch die Briefe <ref target="file12334">Nr. 2287</ref>. 2289f. 2293-2296 wurden Bullinger durch <persName ref="person265">Zwingli</persName> d.J. überbracht; s. oben <ref target="file12337">Nr. 2290</ref>, 57f; unten 2302, 1-9; 2303.</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Tiguri<note xml:id="fn6" type="footnote" n="6">Vorliegender Brief wie auch die Briefe <ref target="file12334">Nr. 2287</ref>. 2289f. 2293-2296 wurden Bullinger durch <persName>Zwingli d.J.</persName> überbracht; s. oben <ref target="file12337">Nr. 2290</ref>, 57f; unten 2302, 1-9; 2303.</note>.</s>
 				</p>
 			</div>
 		</body>

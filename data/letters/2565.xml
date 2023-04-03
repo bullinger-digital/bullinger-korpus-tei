@@ -6,34 +6,36 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Matthias Erb / Reichenweier, 24. Februar 1555</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3825</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
-						<idno subtype="Autograph">Fr. Gr. Ms. I 19, Nr. 8 (f. 79)</idno>
+						<repository ref="a6"/>
+						<idno subtype="Autograph">Frey-Gryn Mscr I 19:Nr.8</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
+						<altIdentifier>
+							<idno subtype="Autograph">Mss. Tom. 19, fol. 8</idno>
+						</altIdentifier>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -44,7 +46,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XV, S. 450f, Nr. 2121</title>
+								<title>C.O. XV, S.450f, Nr. 2121</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -52,14 +54,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,222a</idno>
 						<idno subtype="Hinweis">1550 eingeordnet</idno>
 					</msIdentifier>
@@ -67,31 +69,16 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 84,87a</idno>
 						<idno subtype="Hinweis">Rückweis auf andere Kopie</idno>
-					</msIdentifier>
-				</msDesc>
-				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
-					<msIdentifier>
-						<!--
-						<repository ref="archive6">
-							<name>Basel UB</name>
-							<ref target="https://ub.unibas.ch/de"/>
-						</repository>
-						<settlement ref="place28">Basel</settlement>
-						<institution>Universitätsbibliothek</institution>
-						-->
-						<repository ref="archive6"/>
-						<idno subtype="Autograph">Mss. Tom. 19, fol. 8</idno>
-						<idno subtype="Hinweis">gemäss C.O.</idno>
 					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
@@ -99,7 +86,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2565">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -109,11 +96,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1555-02-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1010" cert="high">
+					<persName ref="p1010" cert="high">
 						<!--
 						<surname cert="high">Erb</surname>
 						<forename cert="high">Matthias</forename>
@@ -121,7 +108,7 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/100972160"/>
 						-->
 					</persName>
-					<placeName source="place411" cert="high"><orig>Reichenweier</orig></placeName>
+					<placeName source="l411" cert="high"><orig>Reichenweier</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2566"/>
@@ -148,7 +135,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

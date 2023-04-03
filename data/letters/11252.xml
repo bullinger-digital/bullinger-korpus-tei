@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Bullinger AN Johannes Fries, Elisabeth Fries, um 27. Dezember 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1209</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">296</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms T 406,17</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,13 +44,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1209, S.296</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11252">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -72,7 +70,7 @@
 					<date when="1538-12-27" cert="low">um 27. Dezember 1538</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1214" cert="high">
+					<persName ref="p1214" cert="high">
 						<!--
 						<surname cert="high">Fries</surname>
 						<forename cert="high">Johannes</forename>
@@ -82,7 +80,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11463641"/>
 						-->
 					</persName>
-					<persName ref="person1255" cert="high">
+					<persName ref="p1255" cert="high">
 						<orig>Elisabeth Fries, geb. Schittli</orig>
 						<!--
 						<surname cert="high">Fries</surname>
@@ -110,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -131,10 +129,10 @@
 					<s n="6" xml:lang="de" type="auto">Dann der herr den man von der erden<note xml:id="fn7" type="footnote" n="7">Vgl. Gen 2, 7.</note> und das wyb uß dem ripp siner syten<note xml:id="fn8" type="footnote" n="8">Vgl. Gen 2, 21.</note>, nitt als er wachet, sunder do er schlieff<note xml:id="fn9" type="footnote" n="9">Vgl. ebd.</note>, gestaltet hat.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto">Des wybs uffsähen<note xml:id="fn10" type="footnote" n="10">etwa im Sinne von: Beistand (vgl. SI VII 549-551).</note>, trost, krafft und stercke sol der mann sin.</s>
+					<s n="7" xml:lang="de" type="auto">Des wybs uffsähen<note xml:id="fn10" type="footnote" n="10">etwa im Sinne von: Beistand (vgl. <bibl>SI</bibl> VII 549-551).</note>, trost, krafft und stercke sol der mann sin.</s>
 					<s n="8" xml:lang="de" type="auto">Dann sy dorumb uß des manns gepein gemachet ist.</s>
 					<s n="9" xml:lang="de" type="auto">Hinder dem man und one sin wüssen sol sy träfflicher sachen<note xml:id="fn11" type="footnote" n="11">in gewichtigen Dingen.</note> nützid fürnemmen.</s>
-					<s n="10" xml:lang="de" type="auto">Sy ist das blöder gschirr<note xml:id="fn12" type="footnote" n="12">schwächere Gefäß (vgl. SI VIII 1158f).</note>, von der syten des mans und nitt vomm houpt genommen.</s>
+					<s n="10" xml:lang="de" type="auto">Sy ist das blöder gschirr<note xml:id="fn12" type="footnote" n="12">schwächere Gefäß (vgl. <bibl>SI</bibl> VIII 1158f).</note>, von der syten des mans und nitt vomm houpt genommen.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="de" type="auto">Der mann ist das houpt, das wie imm houpt alle vernunfft und fürsorg ist für den gantzen lib, also sol der man mitt vernunfft by dem wyb whonen und sy mitt wyßheyt in früntligheit leyten.</s>
@@ -158,7 +156,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>
-					<s n="21" xml:lang="de" type="auto">M. <persName ref="person69">Johansen Fryesen</persName> unnd sinem gemahel.</s>
+					<s n="21" xml:lang="de" type="auto">M. <persName ref="p4844">Johansen Fryesen</persName> unnd sinem gemahel.</s>
 				</p>
 			</div>
 		</body>

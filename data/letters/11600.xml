@@ -6,40 +6,31 @@
 				<title subtype="file">Hermann Aquilomontanus / Emden AN Heinrich Bullinger, 20. August 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1557</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">296</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1380r.-v.</idno>
 					</msIdentifier>
 					<msContents>
@@ -58,7 +49,7 @@
 								eigenen Lehrer hören. Liest mit Bewunderung Bullingers „De scripturae sanctae authoritate“ und die
 								erweiterte Ausgabe von „De origine erroris“; möchte benachrichtigt werden, falls er weitere Werke
 								veröffentlicht hat. Grüße, besonders von Bekensteyn, der für die Begegnung mit den Zürchern dankbar ist; ein
-								anderes Mal will <persName ref="person8">Aquilomontanus</persName> ausführlicher schreiben.
+								anderes Mal will <persName ref="p179">Aquilomontanus</persName> ausführlicher schreiben.
 							</p>
 						</summary>
 						<msItem>
@@ -68,7 +59,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>Jacobus ten Doornkaat Koolman, De Anabaptisten in Oostfriesland Oostfriesland ten tijde van Hermannus Aquilomontanus (1489–1548), in: Nederlands Archief voor Kerkgeschiedenis, NS 46, 1964/65, S. 97</title>
+								<title>Jacobus ten Doornkaat Koolman, De Anabaptisten in Oostfriesland Oostfriesland ten tijde van Hermannus Aquilomontanus (1489–1548), in: Nederlands Archief voor Kerkgeschiedenis, NS 46, 1964/65, S.97</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1557, S.296</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -78,7 +72,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11600">
 				<correspAction type="sent">
-					<persName ref="person179" cert="high">
+					<persName ref="p179" cert="high">
 						<!--
 						<surname cert="high">Aquilomontanus</surname>
 						<forename cert="high">Hermann</forename>
@@ -86,11 +80,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/1033718688"/>
 						-->
 					</persName>
-					<placeName source="place138" cert="high"><orig>Emden</orig></placeName>
+					<placeName source="l138" cert="high"><orig>Emden</orig></placeName>
 					<date when="1541-08-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -124,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -135,7 +129,7 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person8">Hermannus Aquilomontanus</persName> d. Henrico Bullingero s[alutem] d[icit].</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p179">Hermannus Aquilomontanus</persName> d. Henrico Bullingero s[alutem] d[icit].</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Epistolam<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file11507">Nr. 1464</ref>.</note> tuam piam et eruditam pastoralem admonitionem continentem d. Ioannes Bekesteyn fidelis in domino tradidit, in qua non modo Tigurine ecclesie sollicitudinem, sed omnium ecclesiarum curam te gerere ostendis.</s>
@@ -145,7 +139,7 @@
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Satis calamo indicare nec voce humana eloqui potest, quantas sectas hic apud nos inter simplices anabaptistas suscitat<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> suscitat <hi>gestrichenes</hi> hic.</note> sathan, ut non mirum paucos<note xml:id="fnb" type="footnote" n="b"><hi>Vor</hi> paucos <hi>gestrichenes</hi> s.</note> salvari.</s>
-					<s n="5" xml:lang="la" type="auto">Ii nullos admittunt doctores nisi retinctos, omnes ministros Vatiniano<note xml:id="fnc" type="footnote" n="c"><hi>In der Vorlage irrtümlich</hi> Vatidiano.</note><note xml:id="fn2" type="footnote" n="2">P. <persName ref="person22909">Vatinius</persName>, ca. 95-42 v. Chr., ein prominenter Gefolgsmann <persName ref="person588">Caesars</persName>, war Konsul des Jahres 47 v. Chr. Vor allem <persName ref="person632">Cicero</persName> attackierte ihn scharf; der Hass gegen Vatimus wurde durch Catull (Carm. 14, 3) sprichwörtlich (Adagia, 2, 2, 94, LB II 481). - Lit.: Pauly/Wissowa, 2. Reihe, 15. Halbbd. (VIII A, 1), Sp. 495-520.</note> odio prosequuntur; quidam mallent gladio cervicem praebere quam templum intrare, alii in pluralitate uxorum sanctimoniam statuunt,<note xml:id="fn3" type="footnote" n="3">Die Rede ist wohl von Anhängern von <persName ref="person22752">David Joris</persName> oder von münsterischen Täufern (vgl. <hi>Doornkaat Koolman,</hi> aaO, S. 89).</note> alii alterius secte hominem necare sacrificium putant<note xml:id="fn4" type="footnote" n="4">Gemeint sind vermutlich Anhänger von <persName ref="person1281">Jan van Batenburg</persName> (vgl. <hi>Doornkaat Koolman,</hi> ebd.).</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Ii nullos admittunt doctores nisi retinctos, omnes ministros Vatiniano<note xml:id="fnc" type="footnote" n="c"><hi>In der Vorlage irrtümlich</hi> Vatidiano.</note><note xml:id="fn2" type="footnote" n="2">P. <persName>Vatinius</persName>, ca. 95-42 v. Chr., ein prominenter Gefolgsmann <persName>Caesars</persName>, war Konsul des Jahres 47 v. Chr. Vor allem <persName>Cicero</persName> attackierte ihn scharf; der Hass gegen Vatimus wurde durch <persName>Catull</persName> (Carm. 14, 3) sprichwörtlich (Adagia, 2, 2, 94, <bibl>LB</bibl> II 481). - Lit.: Pauly/Wissowa, 2. Reihe, 15. Halbbd. (VIII A, 1), Sp. 495-520.</note> odio prosequuntur; quidam mallent gladio cervicem praebere quam templum intrare, alii in pluralitate uxorum sanctimoniam statuunt,<note xml:id="fn3" type="footnote" n="3">Die Rede ist wohl von Anhängern von <persName>David Joris</persName> oder von münsterischen Täufern (vgl. <hi>Doornkaat Koolman,</hi> aaO, S. 89).</note> alii alterius secte hominem necare sacrificium putant<note xml:id="fn4" type="footnote" n="4">Gemeint sind vermutlich Anhänger von <persName>Jan van Batenburg</persName> (vgl. <hi>Doornkaat Koolman,</hi> ebd.).</note>.</s>
 					<s n="6" xml:lang="la" type="auto">In quod seculum incidimus, charissime frater?</s>
 				</p>
 				<p>
@@ -158,19 +152,19 @@
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Binas modo literas a te accepi<note xml:id="fnf" type="footnote" n="f"><hi>Vor</hi> accepi <hi>gestrichenes</hi> s.</note>, virorum doctissime, in quarum prima<note xml:id="fn11" type="footnote" n="11">Nicht erhalten.</note> pastorem plene instituis docesque, quid me facere oporteat; in altera<note xml:id="fn12" type="footnote" n="12">Vgl. Anm.1.</note> per Io. Bekensteyn oblata paterne mones, ne movear cum pluribus magnorum ampullis et ne simplices pravum errorem sequi patiar.</s>
-					<s n="14" xml:lang="la" type="auto">Apud <placeName ref="place13">Hollandos</placeName> meos et hic apud Phrisones agam quam possum, tuam epistolam divulgabo, interim orabo dominum, sue cause adsit.</s>
-					<s n="15" xml:lang="la" type="auto">Ad primam epistolam nundinis praeteritis<note xml:id="fn13" type="footnote" n="13">Zum Termin der <placeName ref="place361">Frankfurter</placeName> Frühjahrsmesse s. HBBW VI <ref target="file10812">[Nr. 774]</ref>, S. 193, Anm. 18.</note> per mercatorem<note xml:id="fng" type="footnote" n="g"><hi>Endung undeutlich korrigiert (vielleicht eher als</hi> mercatores <hi>zu lesen, was jedoch nicht zur Fortsetzung des Satzes passt).</hi></note> Monasterien[sem] paucis respondi,<note xml:id="fn14" type="footnote" n="14">Ein entsprechendes Schreiben ist nicht erhalten.</note> sed cum is non redeat, vereor scriptum intercidisse; desiderabam optimum modum tractandi anabaptistas, inter quos vivo, qui non modo contiones spernunt, sed simplices, ne audiant, retrahunt, patientiam nostram rident,<pb type="scan" next="1380v."/> sacra nostra ad Christi normam instituta abominantur, et si aliquando nos audiant, in sacris vero alienant se longissime.</s>
+					<s n="14" xml:lang="la" type="auto">Apud <placeName>Hollandos</placeName> meos et hic apud Phrisones agam quam possum, tuam epistolam divulgabo, interim orabo dominum, sue cause adsit.</s>
+					<s n="15" xml:lang="la" type="auto">Ad primam epistolam nundinis praeteritis<note xml:id="fn13" type="footnote" n="13">Zum Termin der <placeName>Frankfurter</placeName> Frühjahrsmesse s. <bibl>HBBW</bibl> VI <ref target="file10812">[Nr. 774]</ref>, S. 193, Anm. 18.</note> per mercatorem<note xml:id="fng" type="footnote" n="g"><hi>Endung undeutlich korrigiert (vielleicht eher als</hi> mercatores <hi>zu lesen, was jedoch nicht zur Fortsetzung des Satzes passt).</hi></note> Monasterien[sem] paucis respondi,<note xml:id="fn14" type="footnote" n="14">Ein entsprechendes Schreiben ist nicht erhalten.</note> sed cum is non redeat, vereor scriptum intercidisse; desiderabam optimum modum tractandi anabaptistas, inter quos vivo, qui non modo contiones spernunt, sed simplices, ne audiant, retrahunt, patientiam nostram rident,<pb type="scan" next="1380v."/> sacra nostra ad Christi normam instituta abominantur, et si aliquando nos audiant, in sacris vero alienant se longissime.</s>
 					<s n="16" xml:lang="la" type="auto">In congressu plura promittunt, sed nil praestant.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Nunc rursum se movent Capernaite<note xml:id="fn15" type="footnote" n="15">D. h. die Anhänger eines sinnlich-fleischlichen Verständnisses der Gegenwart von Leib und Blut Christi im Abendmahl (nach Joh 6, 52 [Vulg. 53]); gemeint sind die Lutheraner. Vgl. Hans <hi>Jorissen,</hi> Art. Kapharnaitismus, in: LThK<note type="sup">3</note> V 1210f.</note>, novi papiste cum sua carnali praesentia in verba magistri<note xml:id="fn16" type="footnote" n="16">D. h. <persName ref="person138">Luthers</persName>.</note> coniurati.</s>
+					<s n="17" xml:lang="la" type="auto">Nunc rursum se movent Capernaite<note xml:id="fn15" type="footnote" n="15">D. h. die Anhänger eines sinnlich-fleischlichen Verständnisses der Gegenwart von Leib und Blut Christi im Abendmahl (nach Joh 6, 52 [Vulg. 53]); gemeint sind die Lutheraner. Vgl. Hans <hi>Jorissen,</hi> Art. Kapharnaitismus, in: LThK<note type="sup">3</note> V 1210f.</note>, novi papiste cum sua carnali praesentia in verba magistri<note xml:id="fn16" type="footnote" n="16">D. h. <persName ref="p18889">Luthers</persName>.</note> coniurati.</s>
 					<s n="18" xml:lang="la" type="auto">Hosce non prolixis disputationibus, sed succinctis ac firmis aphorismis pungere statui, quoniam<note xml:id="fnh" type="footnote" n="h">quoniam <hi>anstelle von gestrichenem</hi> etiam <hi>über der Zeile nachgetragen.</hi></note>, si vincantur, victoriam sibi usurpant, tandem se nolle aliud sentire quam docti illi proclamant.</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Vos omnes, queso, optimi viri, pro nobis orate, dominus nos indies magis illuminet et in veritate confortet.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Libellos tuos De autoritate scripture et episcopali functione<note xml:id="fn17" type="footnote" n="17">Bullinger, De scripturae sanctae authoritate [...]deque episcoporum [...]institutione et functione [...], Zürich (<persName ref="person891">Christoph Froschauer</persName>) 1538 (HBBibl I 111).</note>, De origine erroris locupletatum<note xml:id="fni" type="footnote" n="i"><hi>In der Vorlage</hi> locuplatum.</note><note xml:id="fn18" type="footnote" n="18">Zur Neubearbeitung von Bullingers "De origine erroris", die 1539 in Zürich erschien (HBBibl I 112), vgl. HBBW IX <ref target="file11280">[Nr. 1237]</ref>, S. 78, Anm. 7.</note> lego et saturari nequeo; omnigenam eruditionem variamque lectionem, studium indefessum admiror candoremque in omnibus exosculor.</s>
+					<s n="20" xml:lang="la" type="auto">Libellos tuos De autoritate scripture et episcopali functione<note xml:id="fn17" type="footnote" n="17">Bullinger, De scripturae sanctae authoritate [...]deque episcoporum [...]institutione et functione [...], Zürich (<persName ref="p5295">Christoph Froschauer</persName>) 1538 (<bibl>HBBibl</bibl> I 111).</note>, De origine erroris locupletatum<note xml:id="fni" type="footnote" n="i"><hi>In der Vorlage</hi> locuplatum.</note><note xml:id="fn18" type="footnote" n="18">Zur Neubearbeitung von Bullingers "De origine erroris", die 1539 in Zürich erschien (<bibl>HBBibl</bibl> I 112), vgl. <bibl>HBBW</bibl> IX <ref target="file11280">[Nr. 1237]</ref>, S. 78, Anm. 7.</note> lego et saturari nequeo; omnigenam eruditionem variamque lectionem, studium indefessum admiror candoremque in omnibus exosculor.</s>
 					<s n="21" xml:lang="la" type="auto">Si quid post illos emiseris in utilitatem ecclesie, scire desidero.</s>
 				</p>
 				<p>
@@ -185,7 +179,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>
-					<s n="28" xml:lang="la" type="auto">Pio et docto viro d. Henrico Bullingero, <persName ref="person84">Tigurine</persName> ecclesie pastori vigilantissimo, praeceptori suo colendissimo.</s>
+					<s n="28" xml:lang="la" type="auto">Pio et docto viro d. Henrico Bullingero, <persName ref="p8011">Tigurine</persName> ecclesie pastori vigilantissimo, praeceptori suo colendissimo.</s>
 				</p>
 			</div>
 		</body>

@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Lüthi / [Winterthur] AN Heinrich Bullinger, 1. Februar 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1458</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">39</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,36</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,24 +44,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1458, S.39</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11501">
 				<correspAction type="sent">
-					<persName ref="person1868" cert="high">
+					<persName ref="p1868" cert="high">
 						<!--
 						<surname cert="high">Lüthi</surname>
 						<forename cert="high">Heinrich</forename>
 						<persName type="main" ref="person8407>Lüthi, Heinrich</persName>
 						-->
 					</persName>
-					<placeName source="place555" cert="low"><orig>Winterthur</orig></placeName>
+					<placeName source="l555" cert="low"><orig>Winterthur</orig></placeName>
 					<date when="1541-02-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,7 +115,7 @@
 					<s n="1" xml:lang="la" type="auto">Domino Heinricho Bullingero H[einrichus] Lutius s[alutem] d[icit].</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quod nova auctus es prole idque sane filio<note xml:id="fn1" type="footnote" n="1">Am 12. Januar 1541 war Bullingers Sohn Dietheim (gest. 1542) zur Welt gekommen; s. HBD 28, 31f; 31, 7-22.</note>, ni fallor, tibi equidem plurimum congratulor.</s>
+					<s n="2" xml:lang="la" type="auto">Quod nova auctus es prole idque sane filio<note xml:id="fn1" type="footnote" n="1">Am 12. Januar 1541 war Bullingers Sohn Dietheim (gest. 1542) zur Welt gekommen; s. <bibl>HBD</bibl> 28, 31f; 31, 7-22.</note>, ni fallor, tibi equidem plurimum congratulor.</s>
 					<s n="3" xml:lang="la" type="auto">Puero opto felicitatem maximam, tibi vero parenti fore filium obsequentissimum, deos precor immortales, quorum beneficio favoreque fiat, [u]t<note xml:id="fna" type="footnote" n="a">[u]t <hi>am Rande nachgetragen, Wortanfang im Einband verdeckt.</hi></note> filius iste tuus parentem cum pietate tum doctrina pulchre aliquando referat, exprimat per omnia tanquam vivum<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> vium.</note> exemplar itaque tanto parente dignus reddatur filius.</s>
 					<s n="4" xml:lang="la" type="auto">Puerpere muneri mitto galinas duas, turdos quinque, donum equidem parvi momenti, si id ab ipsius rei magnitudine estimes, multo vero maximum, si animum eius, qui dat, spectes, tibi, ita me dii bene ament, addictissimum, devinctissimum adeoque quavis in re tibi gratificandi propensissimum.</s>
 					<s n="5" xml:lang="la" type="auto">Id ipsum me hercle vicissim mihi de te polliceri ausim.</s>

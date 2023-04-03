@@ -6,51 +6,45 @@
 				<title subtype="file">Nikolaus Pfister / Chur AN Heinrich Bullinger, 18. November [1539]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1330</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">19</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,262</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Sendet die [Sechs] Artikel des englischen Königs
-								[<persName ref="person98">Heinrich VIII.</persName>] zurück;
-								glücklicherweise beschränkt sich dessen Macht auf <placeName ref="place9">England</placeName>. Ist
+								Sendet die [Sechs] Artikel des englischen <persName ref="p18505">Königs [Heinrich VIII.]</persName> zurück;
+								glücklicherweise beschränkt sich dessen Macht auf <placeName>England</placeName>. Ist
 								sehr beschäftigt, da die neue Schule unerwartet gut gedeiht und von den Söhnen vornehmer Familien aus ganz
 								Bünden besucht wird. Im Land herrscht Ruhe, abgesehen von der Festnahme und Hinrichtung einiger Räuber,
-								worüber <persName ref="person1930">Gotthard [Richmut]</persName>
-								mehr berichten kann. Im <placeName ref="place2">Comersee</placeName> sind sechs Häuser spurlos
-								versunken. Schickt einen Brief von [Johannes]
-								<persName ref="person220">Travers</persName> und bietet sich als Briefübermittler an, da er mit
-								<persName ref="person220">Travers</persName> verwandte Knaben aus
-								<placeName ref="place1239">Zuoz</placeName> beherbergt. Grüße an Zürcher Gelehrte.
+								worüber <persName ref="p2809">Gotthard [Richmut]</persName>
+								mehr berichten kann. Im <placeName>Comersee</placeName> sind sechs Häuser spurlos
+								versunken. Schickt einen Brief von <persName ref="p6831">[Johannes] Travers</persName> und bietet sich als Briefübermittler an, da er mit
+								<persName ref="p6831">Travers</persName> verwandte Knaben aus
+								<placeName>Zuoz</placeName> beherbergt. Grüße an Zürcher Gelehrte.
 							</p>
 						</summary>
 						<msItem>
@@ -60,7 +54,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 19f, Nr. 16</title>
+								<title>Graubünden BW I, S.19f, Nr. 16</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,18 +64,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11373">
 				<correspAction type="sent">
-					<persName ref="person2594" cert="high">
+					<persName ref="p2594" cert="high">
 						<!--
 						<surname cert="high">Pfister</surname>
 						<forename cert="high">Nikolaus</forename>
 						<persName type="main" ref="person8114>Pfister, Nikolaus</persName>
 						-->
 					</persName>
-					<placeName source="place98" cert="high"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1539-11-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

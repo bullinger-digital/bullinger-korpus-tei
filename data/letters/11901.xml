@@ -6,50 +6,41 @@
 				<title subtype="file">Erasmus Ritter / Bern AN Heinrich Bullinger, 23. Februar 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1855</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">107</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 362,49</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person126">[Peter] Kunz</persName> ist gestorben, und
-								von den verbleibenden Exponenten der lutherischen Partei [<persName ref="person213">Simon Sulzer</persName>
-								und <persName ref="person78">Beat Gering</persName>] ist nicht mehr viel zu befürchten; im Falle einer
+								<persName ref="p8401">[Peter] Kunz</persName> ist gestorben, und
+								von den verbleibenden Exponenten der lutherischen Partei [<persName ref="p3099">Simon Sulzer</persName>
+								und <persName ref="p8364">Beat Gering</persName>] ist nicht mehr viel zu befürchten; im Falle einer
 								Neuberufung könnte - mit Unterstützung durch [die Zürcher] - sogar [ein Vertreter der zwinglischen Richtung]
-								zum Zuge kommen; jedenfalls wird der Kampf nach dem Tod von <persName ref="person126">Kunz</persName>
+								zum Zuge kommen; jedenfalls wird der Kampf nach dem Tod von <persName ref="p8401">Kunz</persName>
 								einfacher. Bittet, den jungen Briefüberbringer, der bald zum Diakon berufen werden könnte, in der rechten
 								Lehre zu bestärken. Gruß.
 							</p>
@@ -58,13 +49,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1855, S.107</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11901">
 				<correspAction type="sent">
-					<persName ref="person2810" cert="high">
+					<persName ref="p2810" cert="high">
 						<!--
 						<surname cert="high">Ritter</surname>
 						<forename cert="high">Erasmus</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416562"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1544-02-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,9 +124,9 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Ut res humane caduce sunt et mortales, factum est, ut praesidium carnale multorum debitum universe carnis solverit<note xml:id="fn1" type="footnote" n="1">Als formelhafte Redewendung seit dem Mittelalter belegt; s. etwa Gesta Innocentii III., MPL CCXIV, Sp. XXXIX u.a.</note>, <persName ref="person126">Contzenus</persName> scilicet<note xml:id="fn2" type="footnote" n="2"><persName ref="person126">Peter Kunz</persName> war am 11. Februar gestorben; s. oben <ref target="file11887">Nr. 1841</ref>, Anm. 66.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Post hac non valde pertimescendi duo superstites Lutherane factionis;<note xml:id="fn3" type="footnote" n="3"><persName ref="person213">Simon Sulzer</persName> und <persName ref="person78">Beat Gering</persName>; zu ihrer fragwürdigen Charakterisierung als Lutheraner s. Amy Nelson <hi>Burnett,</hi> The Myth of the Swiss Lutherans: Martin Bucer and the Eucharistic Controversy in <placeName ref="place121">Bern</placeName>, in: Zwa 32, 2005, 45-70.</note> nam incertum est, num illis adiiciendus sit tercius, imo nobis non minor spes est de veritatis pio patrono, quare et vestrum erit vestras admovere manus auxiliatrices, ut ecclesia nostra ab isto onere levetur.</s>
-					<s n="4" xml:lang="la" type="auto">Quod si vero nullus adiungetur, nihilominus maiori et spe et fructu pugnabimus; nam <persName ref="person126">Contzeni</persName> importunitati concedendum erat plurimum, ne simul totum edificium destrueretur.</s>
+					<s n="2" xml:lang="la" type="auto">Ut res humane caduce sunt et mortales, factum est, ut praesidium carnale multorum debitum universe carnis solverit<note xml:id="fn1" type="footnote" n="1">Als formelhafte Redewendung seit dem Mittelalter belegt; s. etwa Gesta Innocentii III., <bibl>MPL</bibl> CCXIV, Sp. XXXIX u.a.</note>, <persName ref="p8401">Contzenus</persName> scilicet<note xml:id="fn2" type="footnote" n="2"><persName>Peter Kunz</persName> war am 11. Februar gestorben; s. oben <ref target="file11887">Nr. 1841</ref>, Anm. 66.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Post hac non valde pertimescendi duo superstites Lutherane factionis;<note xml:id="fn3" type="footnote" n="3"><persName>Simon Sulzer</persName> und <persName>Beat Gering</persName>; zu ihrer fragwürdigen Charakterisierung als Lutheraner s. Amy Nelson <hi>Burnett,</hi> The Myth of the Swiss Lutherans: Martin Bucer and the Eucharistic Controversy in <placeName>Bern</placeName>, in: <bibl>Zwa</bibl> 32, 2005, 45-70.</note> nam incertum est, num illis adiiciendus sit tercius, imo nobis non minor spes est de veritatis pio patrono, quare et vestrum erit vestras admovere manus auxiliatrices, ut ecclesia nostra ab isto onere levetur.</s>
+					<s n="4" xml:lang="la" type="auto">Quod si vero nullus adiungetur, nihilominus maiori et spe et fructu pugnabimus; nam <persName ref="p8401">Contzeni</persName> importunitati concedendum erat plurimum, ne simul totum edificium destrueretur.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Adolescens hic<note xml:id="fn4" type="footnote" n="4">Unbekannt.</note>, qui has meas ad te perfert litteras, a nobis anno elapso est receptus sicque vixit, ut forsitan<note xml:id="fna" type="footnote" n="a"><hi>Am Wortende ein gestrichener Buchstabe.</hi></note> propediem ad munus diaconatus vocabitur.</s>
@@ -138,10 +136,10 @@
 					<s n="7" xml:lang="la" type="auto">Saluta meo nomine fratres omnes.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto">Datum <placeName ref="place121">Berne</placeName>, 23. februarii 1544.</s>
+					<s n="8" xml:lang="de" type="auto">Datum <placeName>Berne</placeName>, 23. februarii 1544.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person176">Erasmus Ritter</persName> ex animo tuus.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p2810">Erasmus Ritter</persName> ex animo tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

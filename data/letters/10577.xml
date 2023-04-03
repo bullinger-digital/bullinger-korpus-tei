@@ -6,29 +6,20 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Dionysius Melander, s.d. März 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=541</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">129</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief">
 					<msIdentifier/>
 					<msContents>
@@ -36,7 +27,7 @@
 							<p xml:id="regest1">
 								Zwar ist der Kommentar zum zweiten Korintherbrief kürzer ausgefallen als jener zum ersten, doch ist zu
 								bedenken, daß die anspruchsvolle Aufgabe den Kommentator immer zu einer gewissen Ausführlichkeit zwingt.
-								Wenn das Werk auch nicht allen Ansprüchen genügen kann, soll <persName ref="person147">Melander</persName>
+								Wenn das Werk auch nicht allen Ansprüchen genügen kann, soll <persName ref="p8413">Melander</persName>
 								doch den Autor gegen ungerechtfertigte Kritik in Schutz nehmen.
 							</p>
 						</summary>
@@ -49,6 +40,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>In posteriorem divi Pauli ad Corinthios epistolam Heinrychi Bullingeri commentarius, Zürich 1535, f. 2r-v (Widmungsvorrede)</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 541, S.129</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -57,7 +51,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10577">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -67,11 +61,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date notBefore="1535-03-01" notAfter="1535-03-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2264" cert="high">
+					<persName ref="p2264" cert="high">
 						<!--
 						<surname cert="high">Melander</surname>
 						<forename cert="high">Dionysius</forename>
@@ -105,17 +99,17 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">In secundam Pauli ad Corinthios epistolam Heinrychi Bullingeri ad <persName ref="person147">Dionysium Melandrum</persName> praefatio.</s>
+					<s n="1" xml:lang="la" type="auto">In secundam Pauli ad Corinthios epistolam Heinrychi Bullingeri ad <persName ref="p8413">Dionysium Melandrum</persName> praefatio.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Prolixior fortasse fui in excutienda epistola priore, succinctiora itaque in posteriorem dabimus<note xml:id="fn3" type="footnote" n="3">Der Kommentar zum ersten Korintherbrief (HBBibl I 53) umfaßt 224 Blätter, das vorliegende Werk nur 128.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Prolixior fortasse fui in excutienda epistola priore, succinctiora itaque in posteriorem dabimus<note xml:id="fn3" type="footnote" n="3">Der Kommentar zum ersten Korintherbrief (<bibl>HBBibl</bibl> I 53) umfaßt 224 Blätter, das vorliegende Werk nur 128.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Interim vero expendat apud se quilibet, quot et quanta a commentatoribus paulo diligentioribus sint observanda<note xml:id="fna" type="footnote" n="a"><hi>am Rande:</hi> Commentatoris officia et diligentia.</note>, illa vero paucis absolvi non posse.</s>
 					<s n="4" xml:lang="la" type="auto">Exponenda enim compluribus in locis lectio diversa, et quae ex iis magis genuina sit, sed et nullibi non monendum, quae quorundam verborum vis ac proprietas, quae item sint orationis incommoda, qui tropi, qui schematismi, quomodo obscurius, brevius et perturbatius dicta clarius, copiosius planiusque exponi queant.</s>
 					<s n="5" xml:lang="la" type="auto">Deinde, quod primum ac potissimum in commentariis requiritur, etiam superstitiosius observandus et ordinandus est orationis contextus, indagandus authoris scopus, indicandum, quomodo ad scopum argumenta referantur singula, quid obiter insertum et quid per digressionem dictum sit.</s>
@@ -127,7 +121,7 @@
 					<s n="11" xml:lang="la" type="auto">Sunt sane, quos grata multis commendavit brevitas, verum illi vel sensum duntaxat paucis vel schemata certa vel locos annotarunt communes vel annotata et veluti fragmenta quaedam aediderunt.</s>
 					<s n="12" xml:lang="la" type="auto">Paucissimos invenias, qui omnia ista in scribendis commentariis observarint tractarintque diligentius.</s>
 					<s n="13" xml:lang="la" type="auto">Nec istud in hoc dico, quod nostris commentariis illa omnia praestiterimus, sed quod multa conanti ipsum opus inter manus opinione<pb type="edition" next="130"/> maius excreverit.</s>
-					<s n="14" xml:lang="la" type="auto">Tuum erit, <persName ref="person147">Dionysi</persName> praestantissime, nostram fidelitatem et diligentiam tueri adversus quorundam procaces calumnias et laborantes nos in vinea domini<note xml:id="fn4" type="footnote" n="4">Vgl. Mt 20, 1-16.</note> perpetuis iuvare precibus.</s>
+					<s n="14" xml:lang="la" type="auto">Tuum erit, <persName ref="p8413">Dionysi</persName> praestantissime, nostram fidelitatem et diligentiam tueri adversus quorundam procaces calumnias et laborantes nos in vinea domini<note xml:id="fn4" type="footnote" n="4">Vgl. Mt 20, 1-16.</note> perpetuis iuvare precibus.</s>
 				</p>
 			</div>
 		</body>

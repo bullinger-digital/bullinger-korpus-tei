@@ -6,50 +6,41 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN Heinrich Bullinger, 25. August 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=632</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">329</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,568</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt den österreichischen Adligen [<persName ref="person1425">Balthasar von Kuenring</persName>], der
-								einen evangelischen Prädikanten sucht; <persName ref="person204">Werner Steiner</persName> soll ihm
-								Gesellschaft leisten. Bullinger soll sich <persName ref="person1425">von [Kuenring]</persName> <persName ref="person263">Zwicks</persName>
-								eherechtliches Gutachten zeigen lassen und seine eigene Antwort <persName ref="person263">Zwick</persName>
-								zur Kenntnis bringen. Grüße. [<persName ref="person1425">Kuenring</persName>] soll dem <persName ref="person81">Grynäus</persName> empfohlen
+								Empfiehlt den österreichischen Adligen [<persName ref="p7604">Balthasar von Kuenring</persName>], der
+								einen evangelischen Prädikanten sucht; <persName ref="p8447">Werner Steiner</persName> soll ihm
+								Gesellschaft leisten. Bullinger soll sich <persName ref="p7604">von [Kuenring]</persName> <persName ref="p4079">Zwicks</persName>
+								eherechtliches Gutachten zeigen lassen und seine eigene Antwort <persName ref="p4079">Zwick</persName>
+								zur Kenntnis bringen. Grüße. [<persName ref="p7604">Kuenring</persName>] soll dem <persName ref="p1365">Grynäus</persName> empfohlen
 								werden.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 632, S.329</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10670">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1535-08-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,27 +124,27 @@
 					<s n="1" xml:lang="la" type="auto">Salus.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Zöger<note xml:id="fn2" type="footnote" n="2">Überbringer, Vorzeiger (Grimm XV 507).</note> des briefs ist ain landtsherr<note xml:id="fn3" type="footnote" n="3">Ein hoher Adliger (Grimm VI 109f), nämlich <persName ref="person1425">Balthasar von Kuenring</persName>; vgl. oben <ref target="file10669">Nr. 631</ref>, 3-14.</note> us Österrich, ain gschickter junger mann, den lond uch befolchen sin.</s>
-					<s n="3" xml:lang="de" type="auto">Er wolt in siner herschaft och lassen das evangelium predigen, wann er etwan ain gschickten gsellen<note xml:id="fn4" type="footnote" n="4">jungen Mann, Pfarrhelfer (Grimm IV/I 2 4032; SI VII 719). Die Bitte um einen Prädikanten wird später wiederholt; s. unten <ref target="file10680">Nr. 642</ref>, 30-32. 648, 2-8.</note> wiste.</s>
-					<s n="4" xml:lang="de" type="auto">Er muͤste aber hüpschlich<note xml:id="fn5" type="footnote" n="5">sachte, vorsichtig (SI II 966f).</note> gon zum ersten, doch wurt er selbs mit uch davon reden.</s>
+					<s n="2" xml:lang="de" type="auto">Zöger<note xml:id="fn2" type="footnote" n="2">Überbringer, Vorzeiger (<bibl>Grimm</bibl> XV 507).</note> des briefs ist ain landtsherr<note xml:id="fn3" type="footnote" n="3">Ein hoher Adliger (<bibl>Grimm</bibl> VI 109f), nämlich <persName>Balthasar von Kuenring</persName>; vgl. oben <ref target="file10669">Nr. 631</ref>, 3-14.</note> us Österrich, ain gschickter junger mann, den lond uch befolchen sin.</s>
+					<s n="3" xml:lang="de" type="auto">Er wolt in siner herschaft och lassen das evangelium predigen, wann er etwan ain gschickten gsellen<note xml:id="fn4" type="footnote" n="4">jungen Mann, Pfarrhelfer (<bibl>Grimm</bibl> IV/I 2 4032; <bibl>SI</bibl> VII 719). Die Bitte um einen Prädikanten wird später wiederholt; s. unten <ref target="file10680">Nr. 642</ref>, 30-32. 648, 2-8.</note> wiste.</s>
+					<s n="4" xml:lang="de" type="auto">Er muͤste aber hüpschlich<note xml:id="fn5" type="footnote" n="5">sachte, vorsichtig (<bibl>SI</bibl> II 966f).</note> gon zum ersten, doch wurt er selbs mit uch davon reden.</s>
 					<s n="5" xml:lang="la" type="auto">In negotio caenae non nihil pendet bonus vir, quantum intelligo, sed plane aequus est.</s>
-					<s n="6" xml:lang="de" type="auto">Lieber, schaffend, das im Maister <persName ref="person204">Wernher</persName> Stainer gselschaft<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> gselschaft <hi>gestrichenes</hi> gsch.</note> laist und im von Österrych guͦt possen rysse<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> rysse <hi>gestrichenes</hi> fa.</note>.</s>
+					<s n="6" xml:lang="de" type="auto">Lieber, schaffend, das im Maister <persName ref="p8447">Wernher</persName> Stainer gselschaft<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> gselschaft <hi>gestrichenes</hi> gsch.</note> laist und im von Österrych guͦt possen rysse<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> rysse <hi>gestrichenes</hi> fa.</note>.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Vi extorsit a me, quid de consobrinorum coniugio sentiam<note xml:id="fn6" type="footnote" n="6">Über <persName ref="person263">Zwicks</persName> Gutachten vgl. oben <ref target="file10669">Nr. 631</ref>, 8-13, und unten <ref target="file10680">Nr. 642</ref>, 2-4.</note>.</s>
-					<s n="8" xml:lang="la" type="manual">Ipse enim consobrinam sororem<note xml:id="fn7" type="footnote" n="7">Anastasia von <persName ref="person2594">Zelking</persName> (vgl. oben <ref target="file10669">Nr. 631</ref>, Anm. 3).</note> ambit.</s>
+					<s n="7" xml:lang="la" type="auto">Vi extorsit a me, quid de consobrinorum coniugio sentiam<note xml:id="fn6" type="footnote" n="6">Über <persName>Zwicks</persName> Gutachten vgl. oben <ref target="file10669">Nr. 631</ref>, 8-13, und unten <ref target="file10680">Nr. 642</ref>, 2-4.</note>.</s>
+					<s n="8" xml:lang="la" type="manual">Ipse enim consobrinam sororem<note xml:id="fn7" type="footnote" n="7">Anastasia von <persName>Zelking</persName> (vgl. oben <ref target="file10669">Nr. 631</ref>, Anm. 3).</note> ambit.</s>
 					<s n="9" xml:lang="la" type="auto">Non potui tibi exemplar mittere iuditii mei, vellem tamen, ex illo peteres.</s>
-					<s n="10" xml:lang="la" type="auto">Deinde peto ne graveris ad me dare, quid tu illi responderis<note xml:id="fn8" type="footnote" n="8"><persName ref="person263">Zwick</persName> erhielt die gewünschte Kopie, vgl. unten <ref target="file10680">Nr. 642</ref>, 2.</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Deinde peto ne graveris ad me dare, quid tu illi responderis<note xml:id="fn8" type="footnote" n="8"><persName>Zwick</persName> erhielt die gewünschte Kopie, vgl. unten <ref target="file10680">Nr. 642</ref>, 2.</note>.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale cum piis fratribus.</s>
-					<s n="12" xml:lang="la" type="auto"><persName ref="person165">Pellicanum</persName> salvum volo.</s>
+					<s n="12" xml:lang="la" type="auto"><persName ref="p8127">Pellicanum</persName> salvum volo.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><persName ref="person263">Io. Zvick</persName>.</s>
+					<s n="13" xml:lang="la" type="auto"><persName ref="p4079">Io. Zvick</persName>.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Abiturum commenda <persName ref="person81">Gryneo</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person1425">Balthasar von Kuenring</persName> reiste von Zürich nach <placeName ref="place97">Basel</placeName> weiter (vgl. Erasmus, Corr. XI 226); ein Empfehlungsschreiben Bullingers ist jedoch nicht erhalten.</note></s>
+					<s n="14" xml:lang="la" type="auto">Abiturum commenda <persName ref="p1365">Gryneo</persName><note xml:id="fn9" type="footnote" n="9"><persName>Balthasar von Kuenring</persName> reiste von Zürich nach <placeName>Basel</placeName> weiter (vgl. Erasmus, Corr. XI 226); ein Empfehlungsschreiben Bullingers ist jedoch nicht erhalten.</note></s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

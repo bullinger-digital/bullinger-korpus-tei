@@ -3,49 +3,40 @@
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Heinrich Bullinger / [Kappel am Albis] AN Rudolf Weingartner, Ende 1526</title>
+				<title subtype="file">Heinrich Bullinger / [Kappel am Albis] AN [Rudolf Weingartner], [Ende 1526]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=8</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I (Anhang 2)</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">259</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531, Anhang 1), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Fragment" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms A 82,119r-122v 7 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Auf <persName ref="person237">Weingartners</persName> Anfrage wegen der Höllenfahrt Christi und wegen des
+								Auf <persName ref="p3873">Weingartners</persName> Anfrage wegen der Höllenfahrt Christi und wegen des
 								«Erstickten» von Apg 15, 20 und 29, gibt Bullinger zunächst eine ausführliche Auslegung von 1 Petr 3,19-20
 								u.a.; der Glaubenssatz: «Descendit ad inferos» sagt nach Bullingers symbolischer Auslegung nicht mehr, als
 								daß Christi Erlösungswerk auch den früher Verstorbenen zugute kam. Von den Ausführungen über das «Erstickte»
@@ -62,7 +53,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10030">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -72,14 +63,14 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place242" cert="low"><orig>Kappel am Albis</orig></placeName>
-					<date notBefore="1526-10-01" notAfter="1526-12-12" cert="low">Ende 1526</date>
+					<placeName source="l242" cert="low"><orig>Kappel am Albis</orig></placeName>
+					<date notBefore="1526-10-01" notAfter="1526-12-12" cert="low">[Ende 1526]</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3873" cert="high">
+					<persName ref="p3873" cert="low">
 						<!--
-						<surname cert="high">Weingartner</surname>
-						<forename cert="high">Rudolf</forename>
+						<surname cert="low">Weingartner</surname>
+						<forename cert="low">Rudolf</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1239914407"/>
 						-->
 					</persName>
@@ -101,7 +92,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

@@ -6,53 +6,44 @@
 				<title subtype="file">Sixt Birck / Augsburg AN Heinrich Bullinger, 9. Mai [1546]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2014</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17760-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2442</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVI</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">16</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Januar bis Mai 1546</biblScope>
-				<biblScope unit="page">397</biblScope>
-				<biblScope unit="pages">443</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 16 (Briefe von Januar bis Mai 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2014, 443 S., ISBN 978-3-290-17760-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,190</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person91">[Johannes] Haller</persName> richtet jeweils Bullingers brieflich übermittelte Grüße aus; ein Zeugnis von Bullingers
-								Sympathie für <persName ref="person17">Birck</persName>! Ferner ist dieser für Bullingers Ermahnung
+								<persName ref="p8018">[Johannes] Haller</persName> richtet jeweils Bullingers brieflich übermittelte Grüße aus; ein Zeugnis von Bullingers
+								Sympathie für <persName ref="p8173">Birck</persName>! Ferner ist dieser für Bullingers Ermahnung
 								[„Oratio de persecutione ecclesiae“?] dankbar gewesen. Er, dem die scholastischen Unannehmlichkeiten [seiner
 								Kollegen] zusetzen, wurde nämlich durch Bullingers Ermahnung gestärkt.
 								</p>
 								<p xml:id="regest2">
-								- <persName ref="person91">Haller</persName> erfreut sich bei den [Augsburgern] einer zunehmenden Beliebtheit, so dass Zürich in
-								<placeName ref="place70">Augsburg</placeName> bereits einen besseren Ruf genießt. Sogar [<persName ref="person91">Hallers</persName>
+								- <persName ref="p8018">Haller</persName> erfreut sich bei den [Augsburgern] einer zunehmenden Beliebtheit, so dass Zürich in
+								<placeName>Augsburg</placeName> bereits einen besseren Ruf genießt. Sogar [<persName ref="p8018">Hallers</persName>
 								frühere] Neider beginnen, sich enger an ihn anzuschließen.
 								</p>
 								<p xml:id="regest3">
@@ -63,13 +54,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 16, Nr. 2442, S.397</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12489">
 				<correspAction type="sent">
-					<persName ref="person351" cert="high">
+					<persName ref="p351" cert="high">
 						<!--
 						<surname cert="high">Birck</surname>
 						<forename cert="high">Sixt</forename>
@@ -78,11 +76,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/118859730"/>
 						-->
 					</persName>
-					<placeName source="place18" cert="high"><orig>Augsburg</orig></placeName>
+					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 					<date when="1546-05-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,23 +125,23 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. in domino, reverende pater.</s>
-					<s n="2" xml:lang="la" type="auto"><persName ref="person91">Hallerus</persName> noster, quoties ex Tyguro literas accipit, salutem ex te officiosam mihi dicere solet<note xml:id="fn2" type="footnote" n="2">Vgl. etwa <ref target="file12369">Nr. 2322</ref>,1-6.</note>.</s>
+					<s n="2" xml:lang="la" type="auto"><persName ref="p8018">Hallerus</persName> noster, quoties ex Tyguro literas accipit, salutem ex te officiosam mihi dicere solet<note xml:id="fn2" type="footnote" n="2">Vgl. etwa <ref target="file12369">Nr. 2322</ref>,1-6.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Unde colligo singularem quandam tuam erga me benevolentiam.</s>
-					<s n="4" xml:lang="la" type="auto">Ago tibi gratias pro fideli ista tua cohortatione<note xml:id="fn3" type="footnote" n="3">Bullingers "Oratio de persecutione ecclesiae"; s. <ref target="file12453">Nr. 2406</ref> und Anm. 5.</note>, qua firmas animum meum saepe sub molestia scholastica<note xml:id="fn4" type="footnote" n="4">Anspielung auf die Lehrmeinungen der Lutheraner in <placeName ref="place70">Augsburg</placeName>.</note> nutantem.</s>
-					<s n="5" xml:lang="la" type="auto">Ora dominum, ut tolerandis iis<note xml:id="fn5" type="footnote" n="5">Anspielung auf die lutherisch gesinnten Amtskollegen in <placeName ref="place70">Augsburg</placeName>.</note> vires suppeditet.</s>
+					<s n="4" xml:lang="la" type="auto">Ago tibi gratias pro fideli ista tua cohortatione<note xml:id="fn3" type="footnote" n="3">Bullingers "Oratio de persecutione ecclesiae"; s. <ref target="file12453">Nr. 2406</ref> und Anm. 5.</note>, qua firmas animum meum saepe sub molestia scholastica<note xml:id="fn4" type="footnote" n="4">Anspielung auf die Lehrmeinungen der Lutheraner in <placeName>Augsburg</placeName>.</note> nutantem.</s>
+					<s n="5" xml:lang="la" type="auto">Ora dominum, ut tolerandis iis<note xml:id="fn5" type="footnote" n="5">Anspielung auf die lutherisch gesinnten Amtskollegen in <placeName>Augsburg</placeName>.</note> vires suppeditet.</s>
 				</p>
 			</div>
 			<div xml:id="div2" corresp="regest2">
 				<p>
-					<s n="6" xml:lang="la" type="auto"><persName ref="person91">Hallerus</persName> magis atque magis nobis adlubescit propter admirabiles istius dotes, quas divinitus largissimas accepit.</s>
+					<s n="6" xml:lang="la" type="auto"><persName ref="p8018">Hallerus</persName> magis atque magis nobis adlubescit propter admirabiles istius dotes, quas divinitus largissimas accepit.</s>
 					<s n="7" xml:lang="la" type="auto">Nomen Tygurinum propter ipsum iam melius apud nostros incipit audire, quod antehac a multis non sine animi offensione audiebatur<note xml:id="fn6" type="footnote" n="6">Vgl. z.B. <ref target="file12374">Nr. 2327</ref>,6f.</note>.</s>
-					<s n="8" xml:lang="la" type="auto">Quid quod aemuli<note xml:id="fn7" type="footnote" n="7">Zu <persName ref="person91">Hallers</persName> Neidern s. schon <ref target="file12369">Nr. 2322</ref>,33-41.</note> quoque iam ipsius incipiunt familiarius se illi adiungere?</s>
+					<s n="8" xml:lang="la" type="auto">Quid quod aemuli<note xml:id="fn7" type="footnote" n="7">Zu <persName>Hallers</persName> Neidern s. schon <ref target="file12369">Nr. 2322</ref>,33-41.</note> quoque iam ipsius incipiunt familiarius se illi adiungere?</s>
 				</p>
 			</div>
 			<div xml:id="div3" corresp="regest3">
 				<p>
 					<s n="9" xml:lang="la" type="auto">Vale tibi, tuis et tuae ecclesię quam felicissime.</s>
-					<s n="10" xml:lang="la" type="auto"><placeName ref="place70">Augusta Vindelicorum</placeName>, 9. maii.</s>
+					<s n="10" xml:lang="la" type="auto"><placeName>Augusta Vindelicorum</placeName>, 9. maii.</s>
 					<s n="11" xml:lang="la" type="auto">Scholarum et ecclesię administratoribus vicissim meis verbis salutem dicito.</s>
 				</p>
 				<p>

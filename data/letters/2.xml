@@ -6,32 +6,31 @@
 				<title subtype="file">[Johannes Haller d.J.] / [Bern] AN Heinrich Bullinger / Zürich, s.d. s.d. [1548]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">1265</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Beilage" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 370,544</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Beilage" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 199,21</idno>
 						<idno subtype="Hinweis">vgl. 20</idno>
 					</msIdentifier>
@@ -61,7 +60,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2">
 				<correspAction type="sent">
-					<persName ref="person8018" cert="low">
+					<persName ref="p8018" cert="low">
 						<!--
 						<surname cert="low">Haller d.J.</surname>
 						<forename cert="low">Johannes</forename>
@@ -71,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="low"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date notBefore="1548-01-01" notAfter="1548-12-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -85,7 +84,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file278"/>
@@ -112,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="unklar">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,7 +124,7 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="de" type="auto">Lieber her gfatter, nachdem ich schon gschriben, ist so vil noch zwegen bracht, das min herren antwortend und schribend an klein und groß räth gen Zürich.</s>
-					<s n="3" xml:lang="de" type="auto">Das hab ich welle darzuͦ thuͦn, damitt ir wüßtind, worum[b] ich imm vorigen brieff uß angeben deß seckelmeisters<note xml:id="fn1" type="footnote" n="1">Sulpitius Haller.</note> gschriben hab, man werde uff diß mal nitt schriben.</s>
+					<s n="3" xml:lang="de" type="auto">Das hab ich welle darzuͦ thuͦn, damitt ir wüßtind, worum[b] ich imm vorigen brieff uß angeben deß seckelmeisters<note xml:id="fn1" type="footnote" n="1"><persName>Sulpitius Haller</persName>.</note> gschriben hab, man werde uff diß mal nitt schriben.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse:]</note>

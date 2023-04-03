@@ -6,39 +6,31 @@
 				<title subtype="file">Jost Müller / [Cham] AN Heinrich Bullinger, 21. Dezember 1523</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2021</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18354-7</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XX (Anhang)</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Häfner, Yvonne; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">20</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">April bis Dezember 1547</biblScope>
-				<biblScope unit="page">733</biblScope>
-				<biblScope unit="pages">807</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 20 (Anhang), Bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive13">
+						<repository ref="a13">
 							<name>Bern StA</name>
 							<ref target="https://www.staatsarchiv.sta.be.ch/de/start.html"/>
 						</repository>
-						<settlement ref="place41">Bern</settlement>
+						<settlement ref="l41">Bern</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive13"/>
+						<repository ref="a13"/>
 						<idno subtype="Autograph__(Entwurf)">B III 43, 1–3</idno>
 					</msIdentifier>
 					<msContents>
@@ -61,7 +53,7 @@
 								nehmen, und niemand bezweifelt, dass sie dabei durch die Anregung des Heiligen Geistes die besten Ergebnisse
 								erzielen werden. Bullinger soll also nur so fortfahren, und Gott wird jede Stunde, die er mit dessen Hilfe
 								dem Studium widmet, ertragreich machen. Gott gebe, dass einst aus Bullingers Arbeitsstube etwas Eloquenteres
-								als der Schwanengesang hervorgehe, da laut Plinius [d.Ä.] die Schwäne beim Sterben ein Klagelied ausstoßen
+								als der Schwanengesang hervorgehe, da laut <persName>Plinius [d.Ä</persName>.] die Schwäne beim Sterben ein Klagelied ausstoßen
 								(wie Müller es selbst erlebt hat). So möge auch Bullinger bei Gelegenheit die gegenwärtigen und schon seit
 								längerem gefährlichen Zeiten in Versform oder in Prosa beweinen. Diesen Zeiten aber trauert Müller nicht
 								nach, zumal Christus, dem er sich völlig ergeben hat, in ihm lebt. Doch braucht man dies Bullinger nicht zu
@@ -147,23 +139,30 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 20A, Nr. 0, S.733</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10013">
 				<correspAction type="sent">
-					<persName ref="person2269" cert="high">
+					<persName ref="p2269" cert="high">
 						<!--
 						<surname cert="high">Müller</surname>
 						<forename cert="high">Jost</forename>
 						-->
 					</persName>
-					<placeName source="place90" cert="low"><orig>Cham</orig></placeName>
+					<placeName source="l90" cert="low"><orig>Cham</orig></placeName>
 					<date when="1523-12-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -188,7 +187,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -196,9 +195,9 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">Viro litterarum scientia, tum verę pietatis studio per pol eminenti m. Henrico Bullinger, fratri suo theologię candidatu sacratissimo, pacem et adeo gratiam precatur.</s>
-					<s n="2" xml:lang="la" type="auto">Quid in hoc ęvo litteratissimo te iuvene venerando patri Volffgango Ruͤppli<note xml:id="fn3" type="footnote" n="3">Wolfgang Joner, gen. Rüplin, Abt des Zisterzienserklosters Kappel am Albis. - Er gründete die Klosterschule und ernannte am 17. Januar 1523 Bullinger zu deren Schulmeister; s. HBBW I <ref target="file10017">[Nr. 2]</ref> 48f, Anm. 4.</note> ac suis fratribus, tum singulis de sodalicio, foelicius obtigerit?</s>
-					<s n="3" xml:lang="la" type="auto">Est profecto nihil, cui in promptu sint tot volumina a summis autoribus ędita,<note xml:id="fn4" type="footnote" n="4">Vgl. dazu etwa Bullingers Aufzeichnungen über seine Lektüre während seiner Schulund Studienzeit sowie als Lehrer im Kloster Kappel in HBD 2-8.</note> quibus et tuum excercites<note xml:id="fn5" type="footnote" n="5">= exercites.</note> ingenium, quod tibi est in numerato, ut alias taceam dotes (invidia dictis absit!) sane quam pręclaras.</s>
-					<s n="4" xml:lang="la" type="auto">Quicquid etiam lucubrationum tuarum<note xml:id="fn6" type="footnote" n="6">Die Rede ist hier von handschriftlichen Abhandlungen (die ersten gedruckten Schriften aus Bullingers Feder sind erst 1526 erschienen; s. HBBibl I 3f). In seinem Diarium listet Bullinger die von ihm in Kappel (1523-1529) verfassten Schriften auf (s. HBD 13-16), von denen die eine oder andere bereits in Dezember 1523 fertiggestellt worden sein könnte, und beendet seine Aufzählung mit folgender Angabe: „Anno Domini 1520 latine scripsimus duos dialogos adversus scholasticos theologos, duos item adversus Pipericornum [Johannes alias Josef Pfefferkorn] pro Ioanne Reuchlino, unum quoque, quem „Promotores“ nuncupavimus. Hos omnes latine scripsimus.“</note> venerit in manus cuiusque doctissimi, non minus istic artium bonarum quam eruditionis ad veram pietatem <pb type="edition" next="734"/> copia resplendet.</s>
+					<s n="2" xml:lang="la" type="auto">Quid in hoc ęvo litteratissimo te iuvene venerando patri Volffgango Ruͤppli<note xml:id="fn3" type="footnote" n="3">Wolfgang Joner, gen. Rüplin, Abt des Zisterzienserklosters Kappel am Albis. - Er gründete die Klosterschule und ernannte am 17. Januar 1523 Bullinger zu deren Schulmeister; s. <bibl>HBBW</bibl> I <ref target="file10017">[Nr. 2]</ref> 48f, Anm. 4.</note> ac suis fratribus, tum singulis de sodalicio, foelicius obtigerit?</s>
+					<s n="3" xml:lang="la" type="auto">Est profecto nihil, cui in promptu sint tot volumina a summis autoribus ędita,<note xml:id="fn4" type="footnote" n="4">Vgl. dazu etwa Bullingers Aufzeichnungen über seine Lektüre während seiner Schulund Studienzeit sowie als Lehrer im Kloster Kappel in <bibl>HBD</bibl> 2-8.</note> quibus et tuum excercites<note xml:id="fn5" type="footnote" n="5">= exercites.</note> ingenium, quod tibi est in numerato, ut alias taceam dotes (invidia dictis absit!) sane quam pręclaras.</s>
+					<s n="4" xml:lang="la" type="auto">Quicquid etiam lucubrationum tuarum<note xml:id="fn6" type="footnote" n="6">Die Rede ist hier von handschriftlichen Abhandlungen (die ersten gedruckten Schriften aus Bullingers Feder sind erst 1526 erschienen; s. <bibl>HBBibl</bibl> I 3f). In seinem Diarium listet Bullinger die von ihm in Kappel (1523-1529) verfassten Schriften auf (s. <bibl>HBD</bibl> 13-16), von denen die eine oder andere bereits in Dezember 1523 fertiggestellt worden sein könnte, und beendet seine Aufzählung mit folgender Angabe: „Anno Domini 1520 latine scripsimus duos dialogos adversus scholasticos theologos, duos item adversus Pipericornum [Johannes alias Josef Pfefferkorn] pro Ioanne Reuchlino, unum quoque, quem „Promotores“ nuncupavimus. Hos omnes latine scripsimus.“</note> venerit in manus cuiusque doctissimi, non minus istic artium bonarum quam eruditionis ad veram pietatem <pb type="edition" next="734"/> copia resplendet.</s>
 					<s n="5" xml:lang="la" type="auto">Unde et illud Ciceronis in primo Tusculanarum quęstionum: „Honos alit artes, omnesque accenduntur ad studia gloria.</s>
 					<s n="6" xml:lang="la" type="auto">Iacentque ea semper, quę apud quosque improbantur.“<note xml:id="fn7" type="footnote" n="7">Cicero, Tusculanae disputationes, 1, 2, 4.</note></s>
 					<s n="7" xml:lang="la" type="auto">Sis evectus licet pene ad culmen doctrinarum, nil tamen arrogas tibi iactabundus, pręterquam scire Christum et hunc cruci suffixum.<note xml:id="fn8" type="footnote" n="8">1Kor 2, 2.</note></s>
@@ -206,7 +205,7 @@
 					<s n="9" xml:lang="la" type="auto">Hac crucis forma nihil iucundius unquam potuit iniungi veritatis evangelicę studiosis, quos ferri impetu spiritus ad optima quęque, nemo est, qui dubitet.</s>
 					<s n="10" xml:lang="la" type="auto">Tu interim perge, quo coepisti, et deus hanc tibi fortunaverit horam, qua bonis auspiciis non sine cęlesti numine ad musas tuum appuleris animum.</s>
 					<s n="11" xml:lang="la" type="auto">Et faxit deus, ut e musęo tuo prodeant aliquando camoenę cygnis argutiores.</s>
-					<s n="12" xml:lang="la" type="auto">De quibus ipse periculum feci Plinium vera scripsisse, dum illos in morte flebilem cantum emittere subindicavit.<note xml:id="fn9" type="footnote" n="9">Siehe Plinius d.Ä., Naturalis historia, 10, 63.</note></s>
+					<s n="12" xml:lang="la" type="auto">De quibus ipse periculum feci Plinium vera scripsisse, dum illos in morte flebilem cantum emittere subindicavit.<note xml:id="fn9" type="footnote" n="9">Siehe <persName>Plinius d.Ä.</persName>, Naturalis historia, 10, 63.</note></s>
 					<s n="13" xml:lang="la" type="auto">Ita et tu nacta occasione defleas elegiaco carmine aut soluta oratione tempora, quę durant, periculosa, quę quidem ipse nihil moror, si vivat in me Christus,<note xml:id="fn10" type="footnote" n="10">Vgl. Gal 2, 20.</note> cui tuto fides deponitur, de quibus te admonere non est opus.</s>
 				</p>
 			</div>
@@ -222,8 +221,8 @@
 			</div>
 			<div xml:id="div3" corresp="regest3">
 				<p>
-					<s n="20" xml:lang="la" type="auto">Episcopus.<note xml:id="fnb" type="footnote" n="b">Am Rand angebracht.</note><note xml:id="fn17" type="footnote" n="17">Der unten in Z. 259 namentlich genannte Hugo von Hohenlandenberg (geb. 1460, gest. 1532), Bischof der Konstanzer Diözese, welcher sowohl Müller als Bullinger angehörten; s. Helvetia Sacra II/1 376-385.</note></s>
-					<s n="21" xml:lang="la" type="auto">Vendere non didici vanos miser undique fumos,<note xml:id="fn18" type="footnote" n="18">Vgl. Adagia 1, 3, 41 (ASD II/1 354, <ref target="file10272">Nr. 241</ref>).</note> Plaudere non potui dissimulando nefas.<note xml:id="fn19" type="footnote" n="19">Vgl. Martial, Epigramme, 4, 5, 7f.</note></s>
+					<s n="20" xml:lang="la" type="auto">Episcopus.<note xml:id="fnb" type="footnote" n="b">Am Rand angebracht.</note><note xml:id="fn17" type="footnote" n="17">Der unten in Z. 259 namentlich genannte Hugo von Hohenlandenberg (geb. 1460, gest. 1532), Bischof der Konstanzer Diözese, welcher sowohl Müller als Bullinger angehörten; s. <bibl>Helvetia Sacra</bibl> II/1 376-385.</note></s>
+					<s n="21" xml:lang="la" type="auto">Vendere non didici vanos miser undique fumos,<note xml:id="fn18" type="footnote" n="18">Vgl. <bibl>Adagia</bibl> 1, 3, 41 (<bibl>ASD</bibl> II/1 354, <ref target="file10272">Nr. 241</ref>).</note> Plaudere non potui dissimulando nefas.<note xml:id="fn19" type="footnote" n="19">Vgl. Martial, Epigramme, 4, 5, 7f.</note></s>
 					<s n="22" xml:lang="la" type="auto">Num cupidus vetito spoliabit episcopus ausu?</s>
 					<s n="23" xml:lang="la" type="auto">Subsidio<note xml:id="fn20" type="footnote" n="20">Durch die Kirchensteuern.</note> tollit, quod tibi adesse voles?</s>
 					<s n="24" xml:lang="la" type="auto">Perdidit impensa quoties immunis ab omni, Quę bona pastori sollicitudo parit?</s>
@@ -255,7 +254,7 @@
 					<s n="50" xml:lang="la" type="auto">Semodius farris movet hunc piperisque selibra, Ut sale condito de petasone voret.</s>
 					<s n="51" xml:lang="la" type="auto">Pelamydes in vase docent faba, caseus, alec, Quid sit opus facto caprea, cervus, aper, Cistula porro capax argenti pondus et auri, Aut figuli ducta vasa polita rota.</s>
 					<s n="52" xml:lang="la" type="auto">Iudicis exoculat si forte pecunia mentem Compromissa mali, tunc perit ęqua salus.<pb type="scan" next="1v."/></s>
-					<s n="53" xml:lang="la" type="auto">Notarius<note xml:id="fn28" type="footnote" n="28">Vielleicht Beatus Widmer (geb. 1487, gest. 1533), Kleriker des Bistums Konstanz und Verfasser einer Bistumschronik. Von 1507 bis 1520 „notarius collateralis“ der Konstanzer Offizialatskurie. Seit dem 13. Oktober 1523 auch päpstlicher Notar; s. Peter-Johannes Schuler, Notare Südwestdeutschlands. Textband, Stuttgart 1987, S. 506f, <ref target="file11540">Nr. 1497</ref>; Pia Ulrike Eckhart, Ursprung und Gegenwart. Geschichtsschreibung in der Bischofsstadt und das Werk des Konstanzer Notars Beatus Widmer (1475-ca. 1533), Stuttgart 2016.</note>, fiscalis<note xml:id="fn29" type="footnote" n="29">Vielleicht Johann Spreter (Spräter), der 1520 als Fiskal der Konstanzer Kurie belegt ist und am 2. Januar 1522 auf Beschluss des Bischofs als Insiegler vorgeschlagen wurde; s. Helvetia Sacra II/2 607-614. 623f. Ob er dieses Amt noch 1523/24 innehatte, ist nicht klar.</note>, et id genus alii.</s>
+					<s n="53" xml:lang="la" type="auto">Notarius<note xml:id="fn28" type="footnote" n="28">Vielleicht Beatus Widmer (geb. 1487, gest. 1533), Kleriker des Bistums Konstanz und Verfasser einer Bistumschronik. Von 1507 bis 1520 „notarius collateralis“ der Konstanzer Offizialatskurie. Seit dem 13. Oktober 1523 auch päpstlicher Notar; s. Peter-Johannes Schuler, Notare Südwestdeutschlands. Textband, Stuttgart 1987, S. 506f, <ref target="file11540">Nr. 1497</ref>; Pia Ulrike Eckhart, Ursprung und Gegenwart. Geschichtsschreibung in der Bischofsstadt und das Werk des Konstanzer Notars Beatus Widmer (1475-ca. 1533), Stuttgart 2016.</note>, fiscalis<note xml:id="fn29" type="footnote" n="29">Vielleicht Johann Spreter (Spräter), der 1520 als Fiskal der Konstanzer Kurie belegt ist und am 2. Januar 1522 auf Beschluss des Bischofs als Insiegler vorgeschlagen wurde; s. <bibl>Helvetia Sacra</bibl> II/2 607-614. 623f. Ob er dieses Amt noch 1523/24 innehatte, ist nicht klar.</note>, et id genus alii.</s>
 					<s n="54" xml:lang="la" type="auto">Te vel inhumanus deferre notarius astu, Prodere te codex sive libellus habet.<pb type="edition" next="737"/></s>
 					<s n="55" xml:lang="la" type="auto">Causidici ob quęstum levitas inhibetur iniqui, Munere ni palpes, te volet esse reum.</s>
 					<s n="56" xml:lang="la" type="auto">Causa inopis torpet, peram ditare Mathonis<note xml:id="fn30" type="footnote" n="30">Matho, ein reicher Anwalt, sowohl in den Satiren Juvenals als auch in den Epigrammen Martials.</note> Si nequeat cupidi, tutor abesse volet.</s>
@@ -274,8 +273,8 @@
 					<s n="69" xml:lang="la" type="auto">Causidici, que palam turpia facta notant.</s>
 					<s n="70" xml:lang="la" type="auto">Vendere iudicium scelus est enorme profecto, Si parit ambitus foeda libido nefas.</s>
 					<s n="71" xml:lang="la" type="auto">Congruit hoc etenim prętextu opus improbitati Quin avidis lucri nil superesse potest.</s>
-					<s n="72" xml:lang="la" type="auto">Officialis<note xml:id="fn31" type="footnote" n="31">Vermutlich Johann Fridinger, von 1510 bis 1527 Offizial unter Bischof Hugo von Hohenlandenberg und ab 1518 auch häufig Vizegeneralvikar. Er war Dr. iur. utr. und Advokat der bischöflichen Kurie; s. Helvetia Sacra II/2 597.</note> ac Dispensator<note xml:id="fn32" type="footnote" n="32">Hofmeister; Verwalter. - Vermutlich Dr. iur. Georg Vergenhans, seit Juni 1520 Verwalter der Propstei. Im Januar 1523 hatte er zusammen mit Johannes Fabri an der ersten Zürcher Disputation teilgenommen. Am 10. September 1523 war er vom Kapitel zum Dekan gewählt worden; s. Helvetia Sacra II/2 821f.</note>, etc.</s>
-					<s n="73" xml:lang="la" type="auto">Plebeiano<note xml:id="fn33" type="footnote" n="33">= plebano (Leutpriester, Dorfpfarrer). - Vgl. Müllers Unterschrift in seinem Brief an Zwingli vom 16. August 1522: „Iodocus Müller, plebeianus in Chamm ...“ (Z VII 560).</note> et adhuc superest quem prodimus hostem, Sęvus ab ore tenax officialis homo.<pb type="edition" next="738"/></s>
+					<s n="72" xml:lang="la" type="auto">Officialis<note xml:id="fn31" type="footnote" n="31">Vermutlich Johann Fridinger, von 1510 bis 1527 Offizial unter Bischof Hugo von Hohenlandenberg und ab 1518 auch häufig Vizegeneralvikar. Er war Dr. iur. utr. und Advokat der bischöflichen Kurie; s. <bibl>Helvetia Sacra</bibl> II/2 597.</note> ac Dispensator<note xml:id="fn32" type="footnote" n="32">Hofmeister; Verwalter. - Vermutlich Dr. iur. Georg Vergenhans, seit Juni 1520 Verwalter der Propstei. Im Januar 1523 hatte er zusammen mit Johannes Fabri an der ersten Zürcher Disputation teilgenommen. Am 10. September 1523 war er vom Kapitel zum Dekan gewählt worden; s. <bibl>Helvetia Sacra</bibl> II/2 821f.</note>, etc.</s>
+					<s n="73" xml:lang="la" type="auto">Plebeiano<note xml:id="fn33" type="footnote" n="33">= plebano (Leutpriester, Dorfpfarrer). - Vgl. Müllers Unterschrift in seinem Brief an Zwingli vom 16. August 1522: „Iodocus Müller, plebeianus in Chamm ...“ (<bibl>Z</bibl> VII 560).</note> et adhuc superest quem prodimus hostem, Sęvus ab ore tenax officialis homo.<pb type="edition" next="738"/></s>
 					<s n="74" xml:lang="la" type="auto">Circuit accipiter timidas laniare columbas, Hic inopes iuris sub ditione tenet.<note xml:id="fne" type="footnote" n="e">Danach folgt premit, das offenbar als Korrektur oder Variante für tenet gedacht war.</note></s>
 					<s n="75" xml:lang="la" type="auto">Ingluvies milvi pullos deplumat inermes, Sic explorat opes impiger ipse tuas.</s>
 					<s n="76" xml:lang="la" type="auto">Deinde sacerdotes quoties irritat honestos!</s>
@@ -310,10 +309,10 @@
 					<s n="105" xml:lang="la" type="auto">Libera sit linguę verum dicendo potestas, Dedecus ob lucrum subticuisse dolos.</s>
 					<s n="106" xml:lang="la" type="auto">Sancta quod enucleant habiles pręcepta camaenę Planius hęc vates explicuere sacri.</s>
 					<s n="107" xml:lang="la" type="auto">Litterulis eadem culti exposuere magistri Quę neque tormentis deseruere dati.</s>
-					<s n="108" xml:lang="la" type="auto">Luctari<note xml:id="fng" type="footnote" n="g">Am Rand ist certare als Variante oder Korrektur für luctari angebracht.</note> ingenuo nihil est indignius ore, Cum larvis lapides,<note xml:id="fn38" type="footnote" n="38">Adagia 1, 2, 53 (ASD II/1 268, <ref target="file10184">Nr. 153</ref>).</note> mordet ut ossa canis.</s>
+					<s n="108" xml:lang="la" type="auto">Luctari<note xml:id="fng" type="footnote" n="g">Am Rand ist certare als Variante oder Korrektur für luctari angebracht.</note> ingenuo nihil est indignius ore, Cum larvis lapides,<note xml:id="fn38" type="footnote" n="38"><bibl>Adagia</bibl> 1, 2, 53 (<bibl>ASD</bibl> II/1 268, <ref target="file10184">Nr. 153</ref>).</note> mordet ut ossa canis.</s>
 					<s n="109" xml:lang="la" type="auto">Quis memorare potest verbosę et acumina linguę Et quoties pugnis aera cedat iners?</s>
-					<s n="110" xml:lang="la" type="auto">Sus quid et unde potest ignava docere Minervam?<note xml:id="fn39" type="footnote" n="39">Vgl. Adagia 1, 1, 40f (ASD II/1 154-156, Nr. 40f).</note></s>
-					<s n="111" xml:lang="la" type="auto">Qur asini musas, gracculus atque lyram?<note xml:id="fn40" type="footnote" n="40">Vgl. Adagia 1, 4, 35. 37 (ASD II/1 434- 436, <ref target="file10367">Nr. 335</ref>. 337); 1, 7, 22 (ASD II/2 146, <ref target="file10660">Nr. 622</ref>).</note></s>
+					<s n="110" xml:lang="la" type="auto">Sus quid et unde potest ignava docere Minervam?<note xml:id="fn39" type="footnote" n="39">Vgl. <bibl>Adagia</bibl> 1, 1, 40f (<bibl>ASD</bibl> II/1 154-156, Nr. 40f).</note></s>
+					<s n="111" xml:lang="la" type="auto">Qur asini musas, gracculus atque lyram?<note xml:id="fn40" type="footnote" n="40">Vgl. <bibl>Adagia</bibl> 1, 4, 35. 37 (<bibl>ASD</bibl> II/1 434- 436, <ref target="file10367">Nr. 335</ref>. 337); 1, 7, 22 (<bibl>ASD</bibl> II/2 146, <ref target="file10660">Nr. 622</ref>).</note></s>
 					<s n="112" xml:lang="la" type="auto">Fronte quid attrita populo divulgat in aures, Schysmatis hęreseos insimulatque palam?</s>
 					<s n="113" xml:lang="la" type="auto">Quin odium pariant, magni cecinere poetę, Verba dei, at pudor est conticuisse piis.</s>
 					<s n="114" xml:lang="la" type="auto">Propositi tedere monent convicia multos, Atque tacere viros cogit amara lues.<pb type="edition" next="740"/></s>
@@ -321,7 +320,7 @@
 					<s n="116" xml:lang="la" type="auto">Derogat hic fidei nescit quam turpis agaso, Divinam temerat seditiosus opem.</s>
 					<s n="117" xml:lang="la" type="auto">Sacellani idiotę<note xml:id="fn42" type="footnote" n="42">Zu verstehen: Stümper-Kapläne.</note> Vita sacellani satis est invisa dolosi, Quem iuvat optato ponere iure loco.</s>
 					<s n="118" xml:lang="la" type="auto">Non legit aut cantat nec agit solennia missę, Si nihil officio commoditatis habet.</s>
-					<s n="119" xml:lang="la" type="auto">Vix requiem mugit, timor est offensio plebis, Hunc<note xml:id="fn43" type="footnote" n="43">Bezogen auf „plebs“; vgl. Stotz IV 149, Nr. 74.4.</note> simul invadat, sicque rebellis obest.</s>
+					<s n="119" xml:lang="la" type="auto">Vix requiem mugit, timor est offensio plebis, Hunc<note xml:id="fn43" type="footnote" n="43">Bezogen auf „plebs“; vgl. <bibl>Stotz</bibl> IV 149, Nr. 74.4.</note> simul invadat, sicque rebellis obest.</s>
 					<s n="120" xml:lang="la" type="auto">Dentibus infrendit culpans te sive culinam, Si non usque tuas contigit esse dapes.<pb type="scan" next="2r."/></s>
 					<s n="121" xml:lang="la" type="auto">Et quia dissentit, coeptos non pręstat honores, Invidus obsequio dissidet ipse tuo.</s>
 					<s n="122" xml:lang="la" type="auto">Ebrius in mensa, crudo stomacho hic aliena Nunc epulis comedo vel diatheca<note xml:id="fn44" type="footnote" n="44">Hier vielleicht im Sinne von dem durch ein Testament verfügtes Erbe. Vielleicht aber liegt hier eine Verschreibung für das Wort diaeteta (Schiedsrichter) vor, welches in diesem Zusammenhang als „Gastrokritiker“ zu verstehen wäre.</note> vorat.</s>
@@ -337,9 +336,9 @@
 					<s n="132" xml:lang="la" type="auto">Nonne dei laudes posthabet usque pias?<pb type="edition" next="741"/></s>
 					<s n="133" xml:lang="la" type="auto">Credito sacrificos habitu gestire nitenti, Labilis ambitu surripiatur honos.</s>
 					<s n="134" xml:lang="la" type="auto">Invidet hinc domui nugax odiosus opimę, Arguat ut vicii quod notat, absque mora.</s>
-					<s n="135" xml:lang="la" type="auto">Ingemit ha quoties non audet dicere contra, Dumque Theonino dente<note xml:id="fn45" type="footnote" n="45">Theon, ein schmähsüchtiger Neider bei Horaz, Epistulae, 1, 18, 82; vgl. Adagia 2, 2, 55 (ASD II/3 171f, <ref target="file11198">Nr. 1155</ref>).</note> molesta secat.</s>
+					<s n="135" xml:lang="la" type="auto">Ingemit ha quoties non audet dicere contra, Dumque Theonino dente<note xml:id="fn45" type="footnote" n="45">Theon, ein schmähsüchtiger Neider bei Horaz, Epistulae, 1, 18, 82; vgl. <bibl>Adagia</bibl> 2, 2, 55 (<bibl>ASD</bibl> II/3 171f, <ref target="file11198">Nr. 1155</ref>).</note> molesta secat.</s>
 					<s n="136" xml:lang="la" type="auto">Quot maris Ęgęi tenues numerabis harenas,<note xml:id="fn46" type="footnote" n="46">Vgl. Martial, Epigramme, 6, 34, 2f, sowie Iacopo Sannazaro, Ad amicam, 5, zitiert in: Eckard Lefèvre, Von Catull zu Du Bellay. Einige Gedanken zur neulateinischen Mittlerrolle zwischen antiker und neuzeitlicher Dichtung, in: Die neulateinische Dichtung in Frankreich zur Zeit der Pléiade - La Poésie néo-latine en France au temps de la Pléiade, hg. von Marie-France Guipponi-Gineste et al., Tübingen 2015, S. 131.</note> Tot gerit insidias in tua damna minax.</s>
-					<s n="137" xml:lang="la" type="auto">Non domini gessisse vices<note xml:id="fn47" type="footnote" n="47">Hier wohl im Sinne von Geschäfte.</note>, plebis<note xml:id="fn48" type="footnote" n="48">Gemeinde; Kirchenvolk; vgl. Stotz II 16f, Nr. 14.8.</note> neque curam; Indicat infidi triste clientis<note xml:id="fn49" type="footnote" n="49">Dienstmann; vgl. Stotz I 406f, Nr. 29.15.</note> opus.</s>
+					<s n="137" xml:lang="la" type="auto">Non domini gessisse vices<note xml:id="fn47" type="footnote" n="47">Hier wohl im Sinne von Geschäfte.</note>, plebis<note xml:id="fn48" type="footnote" n="48">Gemeinde; Kirchenvolk; vgl. <bibl>Stotz</bibl> II 16f, Nr. 14.8.</note> neque curam; Indicat infidi triste clientis<note xml:id="fn49" type="footnote" n="49">Dienstmann; vgl. <bibl>Stotz</bibl> I 406f, Nr. 29.15.</note> opus.</s>
 					<s n="138" xml:lang="la" type="auto">Credere non assem, vetito sed perdere luxu Cuncta volet, tota stertere nocte salax.</s>
 					<s n="139" xml:lang="la" type="auto">Enthea cui mater deposcit Atyn<note xml:id="fn50" type="footnote" n="50">Attis, der Geliebte der phrygischen Göttin Kybele, der sich selbst kastrierte; s. Rosario Moreno Soldevila et al., A Prosopography to Martial’s Epigrams, Berlin/Boston 2019, S. 69f.</note> spado Gallus<note xml:id="fn51" type="footnote" n="51">Galli hießen die Priester der Kybele.</note>, Usque Celenęo<note xml:id="fnk" type="footnote" n="k">Von Müller aus Celęneo korrigiert.</note><note xml:id="fn52" type="footnote" n="52">Zu verstehen: phrygisch.</note> mollis amore iacet.</s>
 					<s n="140" xml:lang="la" type="auto">Dulciter hędino pactus contexit amictu, Debile pellicea qui sibi veste caput.</s>
@@ -349,12 +348,12 @@
 					<s n="144" xml:lang="la" type="auto">Exitus invidię est, ramo suspendere colla, Perstrepit, expungit, rumpitur atque furit.</s>
 					<s n="145" xml:lang="la" type="auto">O Polypheme<note xml:id="fn54" type="footnote" n="54">Gemeint ist Johannes Fabri. - Auch in der polemischen Schrift „Gyrenrupffen“ (Das Geierrupfen), die einige Zürcher gegen ihn richteten, wurde er so bezeichnet; s. Artur Angst, Heigerlin oder Schmid? Der Familienname des in Leutkirch geborenen Wiener Bischofs und Kontroverstheologen Dr. Johannes Fabri (1478-1541), in: Rottenburger Jahrbuch für Kirchengeschichte 3, 1984, S. 202.</note> tuas constat tumuisse papillas,<note xml:id="fnl" type="footnote" n="l">Am Rand ist patet intu vermutlich für ein geplantes patet intus angebracht.</note> Quales esse velit cruda puella sibi.<pb type="edition" next="742"/></s>
 					<s n="146" xml:lang="la" type="auto">Non epulum regis cibat hunc, tenuis vel ofella,<note xml:id="fnm" type="footnote" n="m">Am Rand ist sed angebracht.</note> Convivas modici turbida vappa cadi.</s>
-					<s n="147" xml:lang="la" type="auto">Invidię pestem fugito, quod corpore gibbo Vix humeris coelum sustinuisset Atlas.<note xml:id="fn55" type="footnote" n="55">Vgl. Adagia 1, 1, 67 (ASD II/1 176, Nr. 67).</note></s>
+					<s n="147" xml:lang="la" type="auto">Invidię pestem fugito, quod corpore gibbo Vix humeris coelum sustinuisset Atlas.<note xml:id="fn55" type="footnote" n="55">Vgl. <bibl>Adagia</bibl> 1, 1, 67 (<bibl>ASD</bibl> II/1 176, Nr. 67).</note></s>
 					<s n="148" xml:lang="la" type="auto">Non mea vobiscum sit commessatio tanti, Coena sacerdotis lauta sit ipsa licet.</s>
 					<s n="149" xml:lang="la" type="auto">Protinus obscoenos renovant ientacula mores Quorum nos pigeat de levitate loqui.</s>
 					<s n="150" xml:lang="la" type="auto">Talus adaptabit vetiti contamina ludi, Senio<note xml:id="fn56" type="footnote" n="56">Die Sechs als Würfelzahl.</note> fallaci coniiciturque manu.</s>
 					<s n="151" xml:lang="la" type="auto">Hinc tenues longo chartę lacerantur abusu, Rerum avidi loculos evacuare solent.</s>
-					<s n="152" xml:lang="la" type="auto">Blasphemus repetisse volet<note xml:id="fn57" type="footnote" n="57">= vult; s. Stotz IV 218f, <ref target="file10156">Nr. 125</ref>.2.</note> periuria lusor, Tedia nunc alii scurrilitate movent.</s>
+					<s n="152" xml:lang="la" type="auto">Blasphemus repetisse volet<note xml:id="fn57" type="footnote" n="57">= vult; s. <bibl>Stotz</bibl> IV 218f, <ref target="file10156">Nr. 125</ref>.2.</note> periuria lusor, Tedia nunc alii scurrilitate movent.</s>
 					<s n="153" xml:lang="la" type="auto">Nemo recensebit spurci ludibria coetus.</s>
 					<s n="154" xml:lang="la" type="auto">Verba iocis miscent luxuriosa piis.</s>
 					<s n="155" xml:lang="la" type="auto">Scilicet oblectat tot et hic movisse cachinnos, Vota quod exemplo prostituere malo.</s>
@@ -395,7 +394,7 @@
 					<s n="190" xml:lang="la" type="auto">Non ego sum numen, quid me immortalibus ęquas?</s>
 					<s n="191" xml:lang="la" type="auto">Nunquid adulanti vis habeatur honos?</s>
 					<s n="192" xml:lang="la" type="auto">Simus inęquales odium facit et labor ingens, Altero et inferior neuter ut esse velit.</s>
-					<s n="193" xml:lang="la" type="auto">Sique bovem nequeas, modo sis agitator aselli,<note xml:id="fn67" type="footnote" n="67">Vgl. Adagia 2, 8, 4 (ASD II/4 156, <ref target="file11749">Nr. 1704</ref>).</note> Quę tibi conducant proxima quęque cape.</s>
+					<s n="193" xml:lang="la" type="auto">Sique bovem nequeas, modo sis agitator aselli,<note xml:id="fn67" type="footnote" n="67">Vgl. <bibl>Adagia</bibl> 2, 8, 4 (<bibl>ASD</bibl> II/4 156, <ref target="file11749">Nr. 1704</ref>).</note> Quę tibi conducant proxima quęque cape.</s>
 					<s n="194" xml:lang="la" type="auto">Quicquid adesse boni videas, amplectere ut ęquum, Infima sors faciet te meminisse tui.</s>
 					<s n="195" xml:lang="la" type="auto">Est animal, camuros quod ferre cameleon ungues.<note xml:id="fnq" type="footnote" n="q">Am Rand ist Cameleon angebracht.</note></s>
 					<s n="196" xml:lang="la" type="auto">Huic color est varius, quod fovet aura levis.</s>
@@ -417,11 +416,11 @@
 					<s n="212" xml:lang="la" type="auto">Dum repetit sera conductos nocte penates, Ad lapidem impingit corpore fusus humi.</s>
 					<s n="213" xml:lang="la" type="auto">Gallus olet Cybeles in coeno<note xml:id="fn73" type="footnote" n="73">= caeno.</note> membra volutans, Ocyus exturbat pressa lacuna caput.</s>
 					<s n="214" xml:lang="la" type="auto">Scortatores Desipit ętatis vicio persępe sacerdos, Deliramentis occupat ora senex.</s>
-					<s n="215" xml:lang="la" type="auto">Cęcior Hypsęa<note xml:id="fn74" type="footnote" n="74">Eine Römerin, die sich einen hässlichen Liebhaber ausgesucht hatte; vgl. Adagia 1, 3, 58 (ASD II/1 368, <ref target="file10289">Nr. 258</ref>), und Horaz, Satiren, 1, 2, 91.</note> talpęque<note xml:id="fn75" type="footnote" n="75">Vgl. Adagia 1, 3, 55 (ASD II/1 366, <ref target="file10286">Nr. 255</ref>).</note> simillimus ardet.</s>
+					<s n="215" xml:lang="la" type="auto">Cęcior Hypsęa<note xml:id="fn74" type="footnote" n="74">Eine Römerin, die sich einen hässlichen Liebhaber ausgesucht hatte; vgl. <bibl>Adagia</bibl> 1, 3, 58 (<bibl>ASD</bibl> II/1 368, <ref target="file10289">Nr. 258</ref>), und Horaz, Satiren, 1, 2, 91.</note> talpęque<note xml:id="fn75" type="footnote" n="75">Vgl. <bibl>Adagia</bibl> 1, 3, 55 (<bibl>ASD</bibl> II/1 366, <ref target="file10286">Nr. 255</ref>).</note> simillimus ardet.</s>
 					<s n="216" xml:lang="la" type="auto">Viribus et succo destituatur ebes.</s>
 					<s n="217" xml:lang="la" type="auto">Pectus inest cęco stolidum vel inane tumenti, Ut tegat hoc animi pestis acerba malum.<pb type="edition" next="746"/></s>
-					<s n="218" xml:lang="la" type="auto">Ecce, Toronęi portu qui surdior ipso,<note xml:id="fn76" type="footnote" n="76">Adagia 2, 9, 8 (ASD II/4 223, <ref target="file11854">Nr. 1808</ref>). - Der Hafen von Torone in Mazedonien soll sehr still gewesen sein, weil die Hafenkais das Meeresgeräusch dämpften; s. Konstantin Boshnakov, Die Thraker südlich vom Balkan in den „Geographika“ Strabos. Quellenkritische Untersuchungen, Wiesbaden/Stuttgart 2003, S. 129.</note> Non leve ductori fecit obesse malum.</s>
-					<s n="219" xml:lang="la" type="auto">Cimmeriis animum tenebris<note xml:id="fn77" type="footnote" n="77">Adagia 2, 6, 34 (ASD II/4 42-45, <ref target="file11577">Nr. 1534</ref>). - Die Kimmerier lebten im äußersten Norden und in ewiger Dunkelheit.</note> involvit adulter, Occuluit nebulis, ne videatur opus.</s>
+					<s n="218" xml:lang="la" type="auto">Ecce, Toronęi portu qui surdior ipso,<note xml:id="fn76" type="footnote" n="76"><bibl>Adagia</bibl> 2, 9, 8 (<bibl>ASD</bibl> II/4 223, <ref target="file11854">Nr. 1808</ref>). - Der Hafen von Torone in Mazedonien soll sehr still gewesen sein, weil die Hafenkais das Meeresgeräusch dämpften; s. Konstantin Boshnakov, Die Thraker südlich vom Balkan in den „Geographika“ Strabos. Quellenkritische Untersuchungen, Wiesbaden/Stuttgart 2003, S. 129.</note> Non leve ductori fecit obesse malum.</s>
+					<s n="219" xml:lang="la" type="auto">Cimmeriis animum tenebris<note xml:id="fn77" type="footnote" n="77"><bibl>Adagia</bibl> 2, 6, 34 (<bibl>ASD</bibl> II/4 42-45, <ref target="file11577">Nr. 1534</ref>). - Die Kimmerier lebten im äußersten Norden und in ewiger Dunkelheit.</note> involvit adulter, Occuluit nebulis, ne videatur opus.</s>
 					<s n="220" xml:lang="la" type="auto">Non adeo vehemens rigido nec Amyntoris ęstu<note xml:id="fn78" type="footnote" n="78">Amyntor verhängte zornig den Fluch der Kinderlosigkeit über seinen Sohn Phoinix, weil dieser seine Geliebte verführt hatte.</note> Deperit hanc senior, quod sit et usque salax.</s>
 					<s n="221" xml:lang="la" type="auto">E trivio coenum legitur, dum vilis adulter, Quem facis et nauci, fungitur officio.</s>
 					<s n="222" xml:lang="la" type="auto">Illusisse cliens infami callidus<note xml:id="fn79" type="footnote" n="79">Anspielung auf den Typus des „servus callidus“ in der römischen Komödie.</note> arte Semper et assuetis urget obesse dolis.</s>
@@ -454,8 +453,8 @@
 					<s n="249" xml:lang="la" type="auto">Sęvior Harpyis torvęque simillima pesti, Quin alienatus mente regesta<note xml:id="fn98" type="footnote" n="98">Hier wohl wie bei L. Junius Moderatus Columella als aufgegrabene Erdklumpen zu verstehen.</note> voret.</s>
 					<s n="250" xml:lang="la" type="auto">Plenior est multo distentis ubere vaccis, Nec Cybeles Gallo barba virilis inest.</s>
 					<s n="251" xml:lang="la" type="auto">Hospes at exosus maculosę terga videndi Apta magis clarum lyncis acumen habet.<note xml:id="fnv" type="footnote" n="v">Am Rand ist lynx angebracht.</note></s>
-					<s n="252" xml:lang="la" type="auto">Hac liquor intectus cumulo lapidescit harenę, Urinę viciis huncque valere dolet.<note xml:id="fn99" type="footnote" n="99">Vgl. Ovid, Metamorphosen, 15, 414f; Plinius d.Ä., Naturalis historia, 37, 52, 5.</note></s>
-					<s n="253" xml:lang="la" type="auto">Nec nisi cum toto, modo mas, modo foemina nexu, Sęva rigens collo flectit hyena caput.<note xml:id="fnw" type="footnote" n="w">Am Rand ist hyena angebracht.</note><note xml:id="fn100" type="footnote" n="100">Vgl. Ovid, Metamorphosen, 15, 409f; Plinius d.Ä., Naturalis historia, 8, 105; 11, 177.</note></s>
+					<s n="252" xml:lang="la" type="auto">Hac liquor intectus cumulo lapidescit harenę, Urinę viciis huncque valere dolet.<note xml:id="fn99" type="footnote" n="99">Vgl. Ovid, Metamorphosen, 15, 414f; <persName>Plinius d.Ä.</persName>, Naturalis historia, 37, 52, 5.</note></s>
+					<s n="253" xml:lang="la" type="auto">Nec nisi cum toto, modo mas, modo foemina nexu, Sęva rigens collo flectit hyena caput.<note xml:id="fnw" type="footnote" n="w">Am Rand ist hyena angebracht.</note><note xml:id="fn100" type="footnote" n="100">Vgl. Ovid, Metamorphosen, 15, 409f; <persName>Plinius d.Ä.</persName>, Naturalis historia, 8, 105; 11, 177.</note></s>
 					<s n="254" xml:lang="la" type="auto">Exprimit hęc hominis (petiit quem) callida nomen, Enecet accitum nocte silente foras.</s>
 					<s n="255" xml:lang="la" type="auto">Castoreum medici variis simul usibus addunt, Amputat hinc testes ponticus ore fiber.</s>
 					<s n="256" xml:lang="la" type="auto">Dentibus infixi non est dissolvere nodos, Fracta nisi a morsu fortiter ossa crepent.</s>
@@ -473,7 +472,7 @@
 			<div xml:id="div5" corresp="regest5">
 				<p>
 					<s n="262" xml:lang="la" type="auto">Demum, quod his meis nęniis ab illarum te studio abduxi ad ludicra, quibus hanc impendisti horam, ne velis ęgre ferre.</s>
-					<s n="263" xml:lang="la" type="auto">Ita enim collubitum fuit animo meo te seria tractantem his intercipere lusibus, quo sit facile visu, quid immineat malorum plebis curam agenti inter tot criticos ac malę fidei possessores, apud quos male audit cum evangelica veritas, tum quicunque sit farctus<note xml:id="fn108" type="footnote" n="108">= fartus; s. Kirsch 1169f.</note> fidei sub apostolis in orbem divulgatę.</s>
+					<s n="263" xml:lang="la" type="auto">Ita enim collubitum fuit animo meo te seria tractantem his intercipere lusibus, quo sit facile visu, quid immineat malorum plebis curam agenti inter tot criticos ac malę fidei possessores, apud quos male audit cum evangelica veritas, tum quicunque sit farctus<note xml:id="fn108" type="footnote" n="108">= fartus; s. <bibl>Kirsch</bibl> 1169f.</note> fidei sub apostolis in orbem divulgatę.</s>
 					<s n="264" xml:lang="la" type="auto">Interim vale et me ama!</s>
 					<s n="265" xml:lang="la" type="auto">Datę sunt in festo divi Thomę apostoli anno 1523 ex vico, etc.</s>
 				</p>
@@ -483,7 +482,7 @@
 			</div>
 			<div xml:id="div6" corresp="regest6">
 				<p>
-					<s n="266" xml:lang="la" type="auto">Sed ut capere possis, quid per hęc similia significaverim, est quidam apud nos Apitius<note xml:id="fn109" type="footnote" n="109">Apicius, ein römischer Feinschmecker und Meister der Kochkunst.</note> aut potius Sardanapalus<note xml:id="fn110" type="footnote" n="110">Sardanapal (auch Assurbanipal), ein König Assyriens, berüchtigt für seine Ausschweifungen. - Da Müller den hier von ihm angeprangerten Spitzel mit einer politischen Figur, bzw. mit Sardanapal, in Verbindung bringt, dem es möglich war, Menschen zu verhaften (s. unten Z. 511f), wird hier der seit 1489 immer wieder abwechslungsweise belegte Chamer Obervogt und Hauptmann Heinrich Schönbrunner d.Ä. (gest. 22. Juni 1528) gemeint sein, der nicht mit seinem gleichnamigen Sohn (gest. 6. Juni 1537), Hauptmann und Verfasser einer Chronik, und ebenfalls vehementer Gegner der Reformation, zu verwechseln ist; s. Franz Carl Stadlin, Die Geschichten der Stadtgemeinden Zug [= Topographie des Kantons Zug IV], Luzern 1824, S. 310f (zum Vater); 399 (zum Sohn), Anm. 401; Wilhelm Meyer, Der Chronist Werner Steiner (1492-1542): ein Beitrag zur Reformationsgeschichte von Zug, in: Der Geschichtsfreund. Mitteilungen des Historischen Vereins Zentralschweiz LXV, 1910, S. 91, Anm. 5; 102; 112f; 128; 129 und Anm. 5; 130 (zum Vater); HBBW III <ref target="file10244">[Nr. 213]</ref> 110, Anm. 4; VII 226, Anm. 9 (zum Sohn).</note>, qui in diversoriis cum suo comitatu<note xml:id="fn111" type="footnote" n="111">Sehr wahrscheinlich der Zuger Hauptmann Thomas Stocker (gest. 25. Mai 1528), der sehr oft in Verbindung mit Schönbrunner d.Ä. belegt ist, und der vermutlich erst später und nur für kurze Zeit auch Vogt des Thurgaus wurde; s. Meyer aaO, S. 72. 83. 112f. 117f. 124. 126. 128f. - Sowohl beide Schönbrunner als auch Stocker waren Bullinger sehr wohl bekannt; s. HBRG Reg.; HBBW I und II, Reg. (Stocker); III-VII, Reg. (Schönbrunner d.J.).</note> rimatur, quę sunt abdita, de quo et illud Horatii: „Percontatorem<pb type="edition" next="750"/> fugito, nam garrulus idem est.“<note xml:id="fn112" type="footnote" n="112">Horaz, Epistulae, 1, 18, 69.</note></s>
+					<s n="266" xml:lang="la" type="auto">Sed ut capere possis, quid per hęc similia significaverim, est quidam apud nos Apitius<note xml:id="fn109" type="footnote" n="109">Apicius, ein römischer Feinschmecker und Meister der Kochkunst.</note> aut potius Sardanapalus<note xml:id="fn110" type="footnote" n="110">Sardanapal (auch Assurbanipal), ein König Assyriens, berüchtigt für seine Ausschweifungen. - Da Müller den hier von ihm angeprangerten Spitzel mit einer politischen Figur, bzw. mit Sardanapal, in Verbindung bringt, dem es möglich war, Menschen zu verhaften (s. unten Z. 511f), wird hier der seit 1489 immer wieder abwechslungsweise belegte Chamer Obervogt und Hauptmann Heinrich Schönbrunner d.Ä. (gest. 22. Juni 1528) gemeint sein, der nicht mit seinem gleichnamigen Sohn (gest. 6. Juni 1537), Hauptmann und Verfasser einer Chronik, und ebenfalls vehementer Gegner der Reformation, zu verwechseln ist; s. Franz Carl Stadlin, Die Geschichten der Stadtgemeinden Zug [= Topographie des Kantons Zug IV], Luzern 1824, S. 310f (zum Vater); 399 (zum Sohn), Anm. 401; Wilhelm Meyer, Der Chronist Werner Steiner (1492-1542): ein Beitrag zur Reformationsgeschichte von Zug, in: Der Geschichtsfreund. Mitteilungen des Historischen Vereins Zentralschweiz LXV, 1910, S. 91, Anm. 5; 102; 112f; 128; 129 und Anm. 5; 130 (zum Vater); <bibl>HBBW III</bibl> <ref target="file10244">[Nr. 213]</ref> 110, Anm. 4; VII 226, Anm. 9 (zum Sohn).</note>, qui in diversoriis cum suo comitatu<note xml:id="fn111" type="footnote" n="111">Sehr wahrscheinlich der Zuger Hauptmann Thomas Stocker (gest. 25. Mai 1528), der sehr oft in Verbindung mit Schönbrunner d.Ä. belegt ist, und der vermutlich erst später und nur für kurze Zeit auch Vogt des Thurgaus wurde; s. Meyer aaO, S. 72. 83. 112f. 117f. 124. 126. 128f. - Sowohl beide Schönbrunner als auch Stocker waren Bullinger sehr wohl bekannt; s. <bibl>HBRG</bibl> Reg.; <bibl>HBBW I</bibl> und II, Reg. (Stocker); III-VII, Reg. (Schönbrunner d.J.).</note> rimatur, quę sunt abdita, de quo et illud Horatii: „Percontatorem<pb type="edition" next="750"/> fugito, nam garrulus idem est.“<note xml:id="fn112" type="footnote" n="112">Horaz, Epistulae, 1, 18, 69.</note></s>
 					<s n="267" xml:lang="la" type="auto">Unum quęrit, quot habuerit filios diva Maria virgo, alterum, quid sentiat aliud in re Luterana, ut nihil ininvestigatum relinquat delator impiissimus.</s>
 					<s n="268" xml:lang="la" type="auto">Et quod istiusmodi sit homo, apparet ex totius corporis lineamentis, vita et moribus.</s>
 					<s n="269" xml:lang="la" type="auto">Sed quid ultra de hoc Lynceo dicam, cui facta est potestas, ut<note xml:id="fny" type="footnote" n="y">Über der Zeile nachgetragen.</note> homines, qui sunt<note xml:id="fnz" type="footnote" n="z">Über der Zeile nachgetragen.</note> in fidei simplicitate sane quam perspicaces, ergasculis tradat, cui nec lex ipsa divina nec illius opera cordi sunt,<note xml:id="fn113" type="footnote" n="113">Vgl. Röm 2, 15.</note> qui fere descivit a Christo et a<note xml:id="fnaa" type="footnote" n="aa">Über der Zeile nachgeund II, Reg. (Stocker); III-VII, Reg. (Schönbrunner d.J.).</note> doctrina apostolorum, cui nec est lectio sacrarum litterarum, quem posset vincere subulcus quispiam integra fide satis superque suspiciendus.</s>

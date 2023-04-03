@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 16. Mai 1547</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2021</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18354-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2901</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XX</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Häfner, Yvonne; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">20</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">April bis Dezember 1547</biblScope>
-				<biblScope unit="page">197</biblScope>
-				<biblScope unit="pages">807</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 20 (Briefe von April bis Dezember 1547), bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,392</idno>
 					</msIdentifier>
 					<msContents>
@@ -68,8 +59,8 @@
 								zu machen, auch wenn Myconius Frieden viel lieber wäre.
 								</p>
 								<p xml:id="regest4">
-								[4] Soweit nur dies, denn <persName ref="person20426">Johannes Wolf</persName> hat es eilig. Gruß, auch an <persName ref="person165">Konrad Pellikan</persName>, <persName ref="person14">Theodor Bibliander</persName> und
-								<persName ref="person84">Rudolf Gwalther</persName>, dem er geschrieben hätte, wenn er beizeiten von <persName ref="person20426">Wolfs</persName> Anwesenheit erfahren hätte.
+								[4] Soweit nur dies, denn <persName ref="p3988">Johannes Wolf</persName> hat es eilig. Gruß, auch an <persName ref="p8127">Konrad Pellikan</persName>, <persName ref="p8171">Theodor Bibliander</persName> und
+								<persName ref="p8011">Rudolf Gwalther</persName>, dem er geschrieben hätte, wenn er beizeiten von <persName ref="p3988">Wolfs</persName> Anwesenheit erfahren hätte.
 							</p>
 						</summary>
 						<msItem>
@@ -81,6 +72,9 @@
 							<bibl type="Gedruckt" subtype="Zusammenfassung">
 								<title>Henrich, Myconius BW 963, Nr. 1079</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 20, Nr. 2901, S.197</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -89,7 +83,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12950">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -100,11 +94,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1547-05-16" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -139,7 +133,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -153,7 +147,7 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Tu taces,<note xml:id="fn1" type="footnote" n="1">Daraus wird deutlich, dass Myconius zu diesem Zeitpunkt Bullingers Brief vom 18. Mai (<ref target="file12952">Nr. 2903</ref>) noch nicht erhalten hatte. Bullinger entschuldigte sich darin für sein langes Schweigen.</note> et mihi non est, quod scribam, non ob argumentorum inopiam, sed copiam potius, unde tamen seligere haud licet, quod velim.</s>
 					<s n="3" xml:lang="la" type="auto">Misera sunt omnia et nos miseri cum primis!</s>
-					<s n="4" xml:lang="la" type="auto">Nemo eorum, qui circum nos sunt<note xml:id="fn2" type="footnote" n="2">Die Bewohner der vorderösterreichischen Gebiete um <placeName ref="place97">Basel</placeName>.</note>, non clamant<note xml:id="fna" type="footnote" n="a">non clamant <hi>am Rande nachgetragen.</hi></note> nunc tandem finem instare cęsare<note xml:id="fn3" type="footnote" n="3">Karl V.</note> perpetuo per Germaniam victore foederis superbi <placeName ref="place97">Helvetiorum</placeName>; nunc talionem illos laturos effusi per totum orbem sanguinis!</s>
+					<s n="4" xml:lang="la" type="auto">Nemo eorum, qui circum nos sunt<note xml:id="fn2" type="footnote" n="2">Die Bewohner der vorderösterreichischen Gebiete um <placeName>Basel</placeName>.</note>, non clamant<note xml:id="fna" type="footnote" n="a">non clamant <hi>am Rande nachgetragen.</hi></note> nunc tandem finem instare cęsare<note xml:id="fn3" type="footnote" n="3">Karl V.</note> perpetuo per Germaniam victore foederis superbi <placeName>Helvetiorum</placeName>; nunc talionem illos laturos effusi per totum orbem sanguinis!</s>
 					<s n="5" xml:lang="la" type="auto">Et profecto, inquiunt, tempus est, ut insolentes istorum spiritus aliquando compescantur.</s>
 					<s n="6" xml:lang="la" type="auto">Omnia mala induxerunt ipsi in Germaniam usque etiam ad blasphemias!</s>
 					<s n="7" xml:lang="la" type="auto">Summa: Visitabuntur a Carolo.</s>
@@ -181,9 +175,9 @@
 			</div>
 			<div xml:id="div4" corresp="regest4">
 				<p>
-					<s n="20" xml:lang="la" type="auto">Tantilla hęc potui ob festinam <persName ref="person20426">Wolfii</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person20426">Johannes Wolf</persName>, der sich immer wieder nach <placeName ref="place97">Basel</placeName> begab.</note> abitionem.</s>
-					<s n="21" xml:lang="la" type="auto">Vale in domino cum tuis, <persName ref="person165">Pellicano</persName>, <persName ref="person14">Theodoro</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person14">Theodor Bibliander</persName>.</note> et <persName ref="person84">Gvalthero</persName>, cui scripsissem, si novissem in tempore adesse <persName ref="person20426">Wolfium</persName>.</s>
-					<s n="22" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, raptim 16. maii anno 1547.</s>
+					<s n="20" xml:lang="la" type="auto">Tantilla hęc potui ob festinam <persName ref="p3988">Wolfii</persName><note xml:id="fn4" type="footnote" n="4"><persName>Johannes Wolf</persName>, der sich immer wieder nach <placeName>Basel</placeName> begab.</note> abitionem.</s>
+					<s n="21" xml:lang="la" type="auto">Vale in domino cum tuis, <persName ref="p8127">Pellicano</persName>, <persName ref="p8171">Theodoro</persName><note xml:id="fn5" type="footnote" n="5"><persName>Theodor Bibliander</persName>.</note> et <persName ref="p8011">Gvalthero</persName>, cui scripsissem, si novissem in tempore adesse <persName ref="p3988">Wolfium</persName>.</s>
+					<s n="22" xml:lang="la" type="auto"><placeName>Basileę</placeName>, raptim 16. maii anno 1547.</s>
 					<s n="23" xml:lang="la" type="auto">Tuus Os. Myc.<pb type="edition" next="198"/></s>
 				</p>
 				<p>

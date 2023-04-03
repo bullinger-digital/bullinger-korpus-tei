@@ -6,64 +6,62 @@
 				<title subtype="file">Konrad Sam / Ulm AN Leo Jud, Heinrich Bullinger, 14. April 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=87</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">102</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,47</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Besorgt wegen der von Feinden verbreiteten schlechten Nachrichten über die Lage der Reformation in der
-								<placeName ref="place28">Schweiz</placeName> beklagt sich <persName ref="person183">Sam</persName>
-								über Angriffe von zwei Seiten: von <persName ref="person138">Luther</persName>, dessen jüngste Schrift [das
+								<placeName>Schweiz</placeName> beklagt sich <persName ref="p8434">Sam</persName>
+								über Angriffe von zwei Seiten: von <persName ref="p1974">Luther</persName>, dessen jüngste Schrift [das
 								«Sendschreiben an Herzog Albrecht»]
 								er beilegt, und von den Katholiken, die bereits vom Untergang der entzweiten
-								<placeName ref="place28">Schweizer</placeName> redeten. Bittet um häufigere Nachrichten. Grüße.
+								<placeName>Schweizer</placeName> redeten. Bittet um häufigere Nachrichten. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 87, S.102</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10116">
 				<correspAction type="sent">
-					<persName ref="person2820" cert="high">
+					<persName ref="p2820" cert="high">
 						<!--
 						<surname cert="high">Sam</surname>
 						<forename cert="high">Konrad</forename>
@@ -72,11 +70,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/116777400"/>
 						-->
 					</persName>
-					<placeName source="place513" cert="high"><orig>Ulm</orig></placeName>
+					<placeName source="l513" cert="high"><orig>Ulm</orig></placeName>
 					<date when="1532-04-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1753" cert="high">
+					<persName ref="p1753" cert="high">
 						<!--
 						<surname cert="high">Jud</surname>
 						<forename cert="high">Leo</forename>
@@ -86,7 +84,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11423330"/>
 						-->
 					</persName>
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,7 +123,7 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax a deo patre per Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Vulnus illud, clarissimi viri, quod clarissimorum heroum <persName ref="person265">Zuinglii</persName> et <persName ref="person160">Oecolampadii</persName> mors animo meo iam pridem inflixerat, mali rumores in dies refricant et recrudescere faciunt.</s>
+					<s n="2" xml:lang="la" type="auto">Vulnus illud, clarissimi viri, quod clarissimorum heroum <persName ref="p4091">Zuinglii</persName> et <persName ref="p2442">Oecolampadii</persName> mors animo meo iam pridem inflixerat, mali rumores in dies refricant et recrudescere faciunt.</s>
 					<s n="3" xml:lang="la" type="auto">Ex Helvetiis enim non nisi infoelicissima ad nos referuntur, nempe missam propediem et Tiguri et ubique restituendam omnibus<note xml:id="fn2" type="footnote" n="2">Vgl. oben S. 8o, 38-48 und 84, 2f.</note>, verbi ministros velut omnium reiectamenta haberi<note xml:id="fn3" type="footnote" n="3">Siehe 1 Kor 4,13.</note> hostiumque audaciam magis ac magis crescere.</s>
 					<s n="4" xml:lang="la" type="auto">Nil est, charissimi fratres, quod animum meum plus excruciet quam eiuscemodi rumores per ora impiorum volitantes.</s>
 					<s n="5" xml:lang="la" type="auto">Sola Christi virtus consolatur, erigit, animat, confidentem et alacrem reddit.</s>
@@ -135,8 +133,8 @@
 					<s n="9" xml:lang="la" type="auto">Is enim causae suae non deerit, ubi nos totos ei soli addixerimus.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><pb type="edition" next="103"/>Satan a dextris et a sinistris nos exercet: a dextris per <persName ref="person138">Lutherum</persName>, qui perditos cupit omnes, qui impanatum suum adorare nolunt.</s>
-					<s n="11" xml:lang="la" type="auto">Libellum<note xml:id="fn8" type="footnote" n="8">Siehe oben <hi>S.</hi> 101, Anm. 12.</note>, quem malesanus expuit, ad vos mitto, ubi hoc solum mihi verum visum est, quod capitis dolorem queritur<note xml:id="fn9" type="footnote" n="9">WA XXX/3 547,8.</note>.</s>
+					<s n="10" xml:lang="la" type="auto"><pb type="edition" next="103"/>Satan a dextris et a sinistris nos exercet: a dextris per <persName ref="p1974">Lutherum</persName>, qui perditos cupit omnes, qui impanatum suum adorare nolunt.</s>
+					<s n="11" xml:lang="la" type="auto">Libellum<note xml:id="fn8" type="footnote" n="8">Siehe oben <hi>S.</hi> 101, Anm. 12.</note>, quem malesanus expuit, ad vos mitto, ubi hoc solum mihi verum visum est, quod capitis dolorem queritur<note xml:id="fn9" type="footnote" n="9"><bibl>WA</bibl> XXX/3 547,8.</note>.</s>
 					<s n="12" xml:lang="la" type="auto">Vere enim et gravissime ex capite laborat.</s>
 					<s n="13" xml:lang="la" type="auto">Det ei dominus non solum caput sanum, sed et mentem saniorem.</s>
 					<s n="14" xml:lang="la" type="auto">Pontificii a sinistris clamant de nobis actum esse.</s>
@@ -149,18 +147,18 @@
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Optime valete, optimi fratres, et me commendatum habete.</s>
-					<s n="20" xml:lang="la" type="auto"><persName ref="person165">Pellicanum</persName> ex me officiose<note xml:id="fna" type="footnote" n="a"><hi>nach</hi> officiose <hi>irrtümlich wiederholt</hi> ex me.</note> salutetis.</s>
+					<s n="20" xml:lang="la" type="auto"><persName ref="p8127">Pellicanum</persName> ex me officiose<note xml:id="fna" type="footnote" n="a"><hi>nach</hi> officiose <hi>irrtümlich wiederholt</hi> ex me.</note> salutetis.</s>
 					<s n="21" xml:lang="la" type="auto">Pios, doctos ac vestros omnes salvos cupio.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto"><placeName ref="place1113">Ulmę</placeName>, 14. aprilis anno 1532.</s>
+					<s n="22" xml:lang="la" type="auto"><placeName>Ulmę</placeName>, 14. aprilis anno 1532.</s>
 				</p>
 				<p>
-					<s n="23" xml:lang="la" type="auto">Chunradus <persName ref="person183">Som</persName>, vester totus.</s>
+					<s n="23" xml:lang="la" type="auto">Chunradus <persName ref="p8434">Som</persName>, vester totus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="24" xml:lang="la" type="auto">Eximia pietate et eruditione viris <persName ref="person114">Leoni Jud</persName> et Henricho Bullingero, Tigurinorum antistitibus, fratribus suis semper observandis<note xml:id="fnb" type="footnote" n="b"><hi>darunter von fremder Hand:</hi> Cunradus Som, pastor Ulmensis, anno 1532.</note>.</s>
+					<s n="24" xml:lang="la" type="auto">Eximia pietate et eruditione viris <persName ref="p1753">Leoni Jud</persName> et Henricho Bullingero, Tigurinorum antistitibus, fratribus suis semper observandis<note xml:id="fnb" type="footnote" n="b"><hi>darunter von fremder Hand:</hi> Cunradus Som, pastor Ulmensis, anno 1532.</note>.</s>
 				</p>
 			</div>
 		</body>

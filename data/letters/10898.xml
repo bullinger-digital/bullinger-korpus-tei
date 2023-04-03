@@ -6,49 +6,40 @@
 				<title subtype="file">Melchior Volmar / Tübingen AN Heinrich Bullinger, 1. Juli [1536]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=858</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">355</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,286</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Dankt spät für das Geschenk und für den Brief Bullingers, da er einer Fußverletzung wegen - über deren
-								Ursache er <persName ref="person226">Vadian</persName> geschrieben hat - im Bad
-								<placeName ref="place1198">Wildbad</placeName> war; wie einst
-								<persName ref="person226">Vadian</persName> und den St. Gallern, überläßt er auch dem hochgeschätzten
+								Ursache er <persName ref="p8049">Vadian</persName> geschrieben hat - im Bad
+								<placeName>Wildbad</placeName> war; wie einst
+								<persName ref="p8049">Vadian</persName> und den St. Gallern, überläßt er auch dem hochgeschätzten
 								Bullinger eine Erinnerungsgabe, die sich allerdings mit den geistvollen Büchlein, die er erhalten hat, nicht
 								messen kann. Grüße.
 							</p>
@@ -57,13 +48,20 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 858, S.355</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10898">
 				<correspAction type="sent">
-					<persName ref="person3462" cert="high">
+					<persName ref="p3462" cert="high">
 						<!--
 						<surname cert="high">Volmar</surname>
 						<forename cert="high">Melchior</forename>
@@ -73,11 +71,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/117704954"/>
 						-->
 					</persName>
-					<placeName source="place512" cert="high"><orig>Tübingen</orig></placeName>
+					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1536-07-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -109,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,27 +121,27 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Gratissimum mihi quidem<note xml:id="fna" type="footnote" n="a">quidem <hi>über der Zeile nachgetragen.</hi></note> fuit munus tuum, optime ac doctissime Bulingere, sed literae ipsę tuae longe etiam gratiores<note xml:id="fn2" type="footnote" n="2">Am 21. Mai hatte <persName ref="person19">Ambrosius Blarer</persName> mitgeteilt, daß er Bullingers Sendung <persName ref="person230">Volmar</persName> nach dessen Rückkehr aus <placeName ref="place1198">Wildbad</placeName> übergeben werde (vgl. oben <ref target="file10865">Nr. 826</ref>, 22). Das Geschenk bestand aus einigen Büchlein (vgl. unten Z. 22f); der Brief ist nicht erhalten.</note>, ut quibus ultro offers, quod summis votis abs te mihi erat expetendum.</s>
-					<s n="3" xml:lang="la" type="auto">Agnosco igitur humanitatem vestram, quam antea quoque isthac transiens cum in te tum caeteris doctissimis viris ac candidissimis eiusmodi ac tantam esse ipsa re expertus sum<note xml:id="fn3" type="footnote" n="3">Zu <persName ref="person230">Volmars</persName> Aufenthalt in Zürich im Mai 1535 vgl. HBBW V, <ref target="file10643">Nr. 605</ref> mit Anm. 1.</note>, ut hactenus saepe mecum cogitarim dispiciendum mihi esse, haud<note xml:id="fnb" type="footnote" n="b">haud <hi>über gestrichenem, unleserlichem Wort.</hi></note> quidem quo modo <foreign xml:lang="el">τῇ φιλανθρωπίᾳ ὑμῶν καὶ τῇ ξενίᾳ</foreign> respondere ipse possim, quandoquidem video id mihi, quamvis egregie volenti, per occasionem tamen id temporis non licere.</s>
+					<s n="2" xml:lang="la" type="auto">Gratissimum mihi quidem<note xml:id="fna" type="footnote" n="a">quidem <hi>über der Zeile nachgetragen.</hi></note> fuit munus tuum, optime ac doctissime Bulingere, sed literae ipsę tuae longe etiam gratiores<note xml:id="fn2" type="footnote" n="2">Am 21. Mai hatte <persName>Ambrosius Blarer</persName> mitgeteilt, daß er Bullingers Sendung <persName>Volmar</persName> nach dessen Rückkehr aus <placeName>Wildbad</placeName> übergeben werde (vgl. oben <ref target="file10865">Nr. 826</ref>, 22). Das Geschenk bestand aus einigen Büchlein (vgl. unten Z. 22f); der Brief ist nicht erhalten.</note>, ut quibus ultro offers, quod summis votis abs te mihi erat expetendum.</s>
+					<s n="3" xml:lang="la" type="auto">Agnosco igitur humanitatem vestram, quam antea quoque isthac transiens cum in te tum caeteris doctissimis viris ac candidissimis eiusmodi ac tantam esse ipsa re expertus sum<note xml:id="fn3" type="footnote" n="3">Zu <persName>Volmars</persName> Aufenthalt in Zürich im Mai 1535 vgl. <bibl>HBBW</bibl> V, <ref target="file10643">Nr. 605</ref> mit Anm. 1.</note>, ut hactenus saepe mecum cogitarim dispiciendum mihi esse, haud<note xml:id="fnb" type="footnote" n="b">haud <hi>über gestrichenem, unleserlichem Wort.</hi></note> quidem quo modo <foreign xml:lang="el">τῇ φιλανθρωπίᾳ ὑμῶν καὶ τῇ ξενίᾳ</foreign> respondere ipse possim, quandoquidem video id mihi, quamvis egregie volenti, per occasionem tamen id temporis non licere.</s>
 					<s n="4" xml:lang="la" type="auto">Significationem modo dare aliquam animi grati ac beneficium agnoscentis propositum erat.</s>
 					<s n="5" xml:lang="la" type="auto">Id quod etiam cupide fecissem nuper adeo in eo, qui et literas tuas ad me et munus pertulit<note xml:id="fn4" type="footnote" n="4">Unbekannt.</note>, nisi adventus eius ad nos incommode adeo accidisset.</s>
-					<s n="6" xml:lang="la" type="auto">Aberam enim tum forte Thermis Ferinis<note xml:id="fn5" type="footnote" n="5"><placeName ref="place1198">Wildbad im Schwarzwald</placeName> (Baden-Württemberg).</note> valetudinis gratia, quam in tantum<note xml:id="fnc" type="footnote" n="c">in tantum <hi>über gestrichenem</hi> ita.</note> labefecerat diutinus nempe semestris morbus, ut vix consistere pedibus, nedum ingredi possem.</s>
-					<s n="7" xml:lang="la" type="auto">Caussam tam gravis morbi pridem <persName ref="person226">Vadiano</persName> nostro scripsi<note xml:id="fn6" type="footnote" n="6">Kurz nach seiner Ankunft in <placeName ref="place1107">Tübingen</placeName> sei ihm eine schwere Eisenplatte, die zum Verschließen eines Ofenloches bestimmt war, auf den rechten Fuß gefallen und habe diesen so schwer verletzt, Dass er monatelang bettlägrig gewesen sei, schrieb <persName ref="person230">Volmar</persName> gleichentags an <persName ref="person226">Vadian</persName> (vgl. <persName ref="person226">Vadian</persName> BW V 693).</note>, qui me profectum a vobis postridie statim Sangalli et ad amiciciam suam facile petentem admisit et simili officii genere liberalissimo animo est prosecutus.</s>
+					<s n="6" xml:lang="la" type="auto">Aberam enim tum forte Thermis Ferinis<note xml:id="fn5" type="footnote" n="5"><placeName>Wildbad im Schwarzwald (Baden-Württemberg)</placeName>.</note> valetudinis gratia, quam in tantum<note xml:id="fnc" type="footnote" n="c">in tantum <hi>über gestrichenem</hi> ita.</note> labefecerat diutinus nempe semestris morbus, ut vix consistere pedibus, nedum ingredi possem.</s>
+					<s n="7" xml:lang="la" type="auto">Caussam tam gravis morbi pridem <persName ref="p8049">Vadiano</persName> nostro scripsi<note xml:id="fn6" type="footnote" n="6">Kurz nach seiner Ankunft in <placeName>Tübingen</placeName> sei ihm eine schwere Eisenplatte, die zum Verschließen eines Ofenloches bestimmt war, auf den rechten Fuß gefallen und habe diesen so schwer verletzt, Dass er monatelang bettlägrig gewesen sei, schrieb <persName>Volmar</persName> gleichentags an <persName>Vadian</persName> (vgl. <persName>Vadian</persName> BW V 693).</note>, qui me profectum a vobis postridie statim Sangalli et ad amiciciam suam facile petentem admisit et simili officii genere liberalissimo animo est prosecutus.</s>
 					<s n="8" xml:lang="la" type="auto">Quapropter etiam discedens <foreign xml:lang="el">μνημόσυνόν τι</foreign><pb type="edition" next="356"/> animi mei ac studii erga viros doctos ac bonos omnes<note xml:id="fnd" type="footnote" n="d">omnes <hi>über der Zeile nachgetragen.</hi></note> illi reliqui.</s>
-					<s n="9" xml:lang="la" type="auto">In quorum albo quia tu jure primas tenes<note xml:id="fn7" type="footnote" n="7">Adagia, 5, 1, 51 (LB II 1191).</note>, tum humanitate me prius ac munificentia iam tua praevertisti, visum est apud te quoque relinquere pignus vicissim sive monumentum<note xml:id="fn8" type="footnote" n="8">Über die Erinnerungsgaben an <persName ref="person226">Vadian</persName> bzw. Bullinger ist weiter nichts bekannt.</note>, quod etsi paria cum symbolo amiciciae, quod misisti, libellis tuis elegantissimis, facere haudquaquam potest, commonefacere te<note xml:id="fne" type="footnote" n="e">te <hi>über der Zeile nachgetragen.</hi></note> certe subinde potest, quam ego amiciciam tuam ultro oblatam mihi cupide sim amplexus.</s>
+					<s n="9" xml:lang="la" type="auto">In quorum albo quia tu jure primas tenes<note xml:id="fn7" type="footnote" n="7">Adagia, 5, 1, 51 (<bibl>LB</bibl> II 1191).</note>, tum humanitate me prius ac munificentia iam tua praevertisti, visum est apud te quoque relinquere pignus vicissim sive monumentum<note xml:id="fn8" type="footnote" n="8">Über die Erinnerungsgaben an <persName>Vadian</persName> bzw. Bullinger ist weiter nichts bekannt.</note>, quod etsi paria cum symbolo amiciciae, quod misisti, libellis tuis elegantissimis, facere haudquaquam potest, commonefacere te<note xml:id="fne" type="footnote" n="e">te <hi>über der Zeile nachgetragen.</hi></note> certe subinde potest, quam ego amiciciam tuam ultro oblatam mihi cupide sim amplexus.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Bene vale ac sodalidatem isthic literariam universam meo nomine quam officiosissime saluta.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto"><placeName ref="place1107">Tubingae</placeName>, calendis iulii.</s>
+					<s n="11" xml:lang="la" type="auto"><placeName>Tubingae</placeName>, calendis iulii.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><persName ref="person230">Melchior Volmarius</persName> tuus.</s>
+					<s n="12" xml:lang="la" type="auto"><persName>Melchior Volmarius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="13" xml:lang="la" type="auto">Doctrina et pietate insigni viro Henrico Bulingaero, episcopo Tigurino, domino suo colendo<note xml:id="fnf" type="footnote" n="f"><hi>Unter der Adresse von Bullingers Hand:</hi> <persName ref="person230">Melchior Volmarius</persName>.</note>.</s>
+					<s n="13" xml:lang="la" type="auto">Doctrina et pietate insigni viro Henrico Bulingaero, episcopo Tigurino, domino suo colendo<note xml:id="fnf" type="footnote" n="f"><hi>Unter der Adresse von Bullingers Hand:</hi> <persName>Melchior Volmarius</persName>.</note>.</s>
 				</p>
 			</div>
 		</body>

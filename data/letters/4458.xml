@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Matthieu Coignet d.Ä. / Solothurn, 16. September 1560</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5557/196</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph__(Entwurf)">Ms A 65,375</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,7 +43,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XVIII, S. 185-187, Nr. 3248</title>
+								<title>C.O. XVIII, S.185-187, Nr. 3248</title>
 							</bibl>
 							<bibl type="Literatur">
 								<title>Bouvier 248 (A. 2)</title>
@@ -55,28 +54,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 63,12v-13v</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 98,73</idno>
 					</msIdentifier>
 				</msDesc>
@@ -85,7 +84,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4458">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,17 +94,17 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1560-09-16" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person629" cert="high">
+					<persName ref="p629" cert="high">
 						<!--
 						<surname cert="high">Coignet d.Ä.</surname>
 						<forename cert="high">Matthieu</forename>
 						-->
 					</persName>
-					<placeName source="place468" cert="high"><orig>Solothurn</orig></placeName>
+					<placeName source="l468" cert="high"><orig>Solothurn</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file4459"/>
@@ -130,7 +129,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -168,7 +167,7 @@
 				<p>
 					<s n="23" xml:lang="la" type="auto">Hoc enim tibi, vir illustris, persuasissimum habere debes nihil magis alienum esse ab ampliss[imo] reipublicae Tigurinae magistratu quam bella; sanctissime is colit atque conservat et pacem et foedera; sed et in ecclesia nulla habet schismata.</s>
 					<s n="24" xml:lang="la" type="auto">Concordia est inter omnes maxima et pax abundantior quam unquam fuerit, dum sequerentur nostri religionem Romanensem.</s>
-					<s n="25" xml:lang="la" type="auto">Perfida consilia ert conatus clandestinos execratur toto pectore<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 4, 26 (LB II 160f).</note>; integritas eius perspecta est omnibus vicinis regionibus.</s>
+					<s n="25" xml:lang="la" type="auto">Perfida consilia ert conatus clandestinos execratur toto pectore<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 4, 26 (<bibl>LB</bibl> II 160f).</note>; integritas eius perspecta est omnibus vicinis regionibus.</s>
 				</p>
 				<p>
 					<s n="26" xml:lang="la" type="auto">Reformavit quidem ecclesiam, sed ita ut nemini ullam intulerit iniuriam; bona ecclesiastica integra sunt adhuc, direpta non sunt iusteque dispensantur, quemadmodum aliquando multis pietati tuae exposui.</s>

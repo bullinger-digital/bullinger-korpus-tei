@@ -6,50 +6,40 @@
 				<title subtype="file">Berchtold Haller / [Bern] AN Heinrich Bullinger, 25. März 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=561</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">167</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,74</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Weiß noch nicht, ob <persName ref="person145">Megander</persName> oder er selbst an der Zusammenkunft in
-								<placeName ref="place1234">Zofingen</placeName> teilnehmen wird. Bevorstehende Wahlen. Tadelt die
-								mangelnde Vorsicht von [Sulpitius
-								<persName ref="person90">Haller</persName>] bei der Übermittlung von Briefen. Wäre bereit, Bullinger in
-								<placeName ref="place623">Lenzburg</placeName> zu treffen. Erinnert ihn an seine Anfrage bezüglich der
+								Weiß noch nicht, ob <persName ref="p8412">Megander</persName> oder er selbst an der Zusammenkunft in
+								<placeName>Zofingen</placeName> teilnehmen wird. Bevorstehende Wahlen. Tadelt die
+								mangelnde Vorsicht von [<persName ref="p8012">Sulpitius Haller</persName>] bei der Übermittlung von Briefen. Wäre bereit, Bullinger in
+								<placeName>Lenzburg</placeName> zu treffen. Erinnert ihn an seine Anfrage bezüglich der
 								Zweckentfremdung von Kirchengut.
 							</p>
 						</summary>
@@ -57,13 +47,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 561, S.167</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10597">
 				<correspAction type="sent">
-					<persName ref="person1391" cert="high">
+					<persName ref="p1391" cert="high">
 						<!--
 						<surname cert="high">Haller</surname>
 						<forename cert="high">Berchtold</forename>
@@ -73,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413862"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="low"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1535-03-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,21 +121,21 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Nondum convenit inter nos, quem missuri simus Zovingam<note xml:id="fn1" type="footnote" n="1">Zur geplanten Zusammenkunft in <placeName ref="place1234">Zofingen</placeName> (Kt. Aargau) siehe oben <ref target="file10584">Nr. 548</ref>.</note>, veniemus autem certo, nisi aliud interim accidat, quod vobis proprio nuncio significemus.</s>
-					<s n="3" xml:lang="la" type="auto">Quodsi <persName ref="person145">Megander</persName> iter suscipere noluerit, suscipiam ego; nam egre uterque diutius abesse poterit.</s>
+					<s n="2" xml:lang="la" type="auto">Nondum convenit inter nos, quem missuri simus Zovingam<note xml:id="fn1" type="footnote" n="1">Zur geplanten Zusammenkunft in <placeName>Zofingen</placeName> (Kt. Aargau) siehe oben <ref target="file10584">Nr. 548</ref>.</note>, veniemus autem certo, nisi aliud interim accidat, quod vobis proprio nuncio significemus.</s>
+					<s n="3" xml:lang="la" type="auto">Quodsi <persName ref="p8412">Megander</persName> iter suscipere noluerit, suscipiam ego; nam egre uterque diutius abesse poterit.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Hodie diacosii<note xml:id="fn2" type="footnote" n="2">der Große Rat.</note> creantur, postera pasce<note xml:id="fn3" type="footnote" n="3">29. März 1535.</note> novus consul et tribuni, tercia feria<note xml:id="fn4" type="footnote" n="4">30. März 1535.</note> senatus.</s>
 					<s n="5" xml:lang="la" type="auto">Precare dominum, ut ostendat, qui sibi ad hęc munia placeant.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Deinde paucis abhinc diebus vidi literas tuas aliis inclusas a Lenczburg consuli<note xml:id="fn5" type="footnote" n="5"><persName ref="person233">Hans Jakob von Wattenwyl</persName>.</note> nostro<note xml:id="fna" type="footnote" n="a">nostro <hi>übergeschrieben.</hi></note> missas<note xml:id="fn6" type="footnote" n="6"><persName ref="person92">Sulpitius Haller</persName> hatte Bullingers Briefe vom 5. bzw. 19. März 1535 (oben <ref target="file10580">Nr. 544</ref> und 558) nach <placeName ref="place121">Bern</placeName> weitergesandt, s. oben <ref target="file10596">Nr. 560</ref>, 3-10.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Deinde paucis abhinc diebus vidi literas tuas aliis inclusas a Lenczburg consuli<note xml:id="fn5" type="footnote" n="5"><persName ref="p18594">Hans Jakob von Wattenwyl</persName>.</note> nostro<note xml:id="fna" type="footnote" n="a">nostro <hi>übergeschrieben.</hi></note> missas<note xml:id="fn6" type="footnote" n="6"><persName>Sulpitius Haller</persName> hatte Bullingers Briefe vom 5. bzw. 19. März 1535 (oben <ref target="file10580">Nr. 544</ref> und 558) nach <placeName>Bern</placeName> weitergesandt, s. oben <ref target="file10596">Nr. 560</ref>, 3-10.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Tute certe sunt, sed si in alterius consulis manus venissent etiam in reipublicae nostrę bonum, vereor, ne aliquando tu erga tuos accuseris, quasi omnia nostris significes.</s>
-					<s n="8" xml:lang="la" type="auto">Poterit tamen in his cautius agere praefectus in Lenczburg<note xml:id="fn7" type="footnote" n="7"><persName ref="person92">Sulpitius Haller</persName>.</note>.</s>
-					<s n="9" xml:lang="de" type="auto"><foreign xml:lang="la">Huius te monere volui</foreign>, dann ich bin einest ergrempt<note xml:id="fn8" type="footnote" n="8">gewitzigt, durch Schaden klug geworden (SI II 732).</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Poterit tamen in his cautius agere praefectus in Lenczburg<note xml:id="fn7" type="footnote" n="7"><persName>Sulpitius Haller</persName>.</note>.</s>
+					<s n="9" xml:lang="de" type="auto"><foreign xml:lang="la">Huius te monere volui</foreign>, dann ich bin einest ergrempt<note xml:id="fn8" type="footnote" n="8">gewitzigt, durch Schaden klug geworden (<bibl>SI</bibl> II 732).</note>.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">Kumm ich gen <placeName ref="place1234">Zofingen</placeName> und wissen möcht, daß du gen Lenczburg kummen weltist, ich welti ouch dar<note xml:id="fn9" type="footnote" n="9">dorthin (SI XII 997f).</note> kummen.</s>
+					<s n="10" xml:lang="de" type="auto">Kumm ich gen <placeName>Zofingen</placeName> und wissen möcht, daß du gen Lenczburg kummen weltist, ich welti ouch dar<note xml:id="fn9" type="footnote" n="9">dorthin (<bibl>SI</bibl> XII 997f).</note> kummen.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Nuncius ille<note xml:id="fn10" type="footnote" n="10">Unbekannt.</note> S. Gallum petet.</s>
@@ -153,7 +150,7 @@
 					<s n="14" xml:lang="la" type="auto">25. martii anno 35.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Tuum minimum nummisma<note xml:id="fn12" type="footnote" n="12">Wortspiel auf <persName ref="person90">Haller</persName>.</note>.</s>
+					<s n="15" xml:lang="la" type="auto">Tuum minimum nummisma<note xml:id="fn12" type="footnote" n="12">Wortspiel auf <persName>Haller</persName>.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

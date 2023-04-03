@@ -6,48 +6,39 @@
 				<title subtype="file">Hans Edlibach / Frauenfeld AN Heinrich Bullinger, 19. Mai 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=225</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">128</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,54</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Berichtet über Aktivitäten der Täufer in <placeName ref="place770">Neunforn</placeName>. Ist bereits
+								Berichtet über Aktivitäten der Täufer in <placeName>Neunforn</placeName>. Ist bereits
 								gerichtlich gegen sie vorgegangen, was aber nichts nützt. Die Täufer gehen nicht zur Kirche und machen den
-								Pfarrer [<persName ref="person2227">Niklaus Steinbock</persName>] schlecht. Bitte, diesen gegen einen
+								Pfarrer [<persName ref="p6685">Niklaus Steinbock</persName>] schlecht. Bitte, diesen gegen einen
 								fähigeren Mann auszutauschen.
 							</p>
 						</summary>
@@ -58,7 +49,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>QGTS II, S. 549f</title>
+								<title>QGTS II, S.549f</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 225, S.128</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -68,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10256">
 				<correspAction type="sent">
-					<persName ref="person1041" cert="high">
+					<persName ref="p1041" cert="high">
 						<!--
 						<surname cert="high">Edlibach</surname>
 						<forename cert="high">Hans</forename>
@@ -76,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11106628"/>
 						-->
 					</persName>
-					<placeName source="place159" cert="high"><orig>Frauenfeld</orig></placeName>
+					<placeName source="l159" cert="high"><orig>Frauenfeld</orig></placeName>
 					<date when="1533-05-19" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -106,7 +100,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,17 +114,17 @@
 					<s n="1" xml:lang="de" type="auto">Min früntlichen gruͦtz unnd willigen dienst mit arbietung aller eren, liebs unnd guͦtem sy üch zuͦ faran bereit etc., wol glerter, lieber her.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Ich laß üch wüssen, daß zuͦ Nüfren<note xml:id="fn1" type="footnote" n="1"><placeName ref="place770">Neunforn</placeName> (Kt. <placeName ref="place87">Thurgau</placeName>); über die Täufer in <placeName ref="place770">Neunforn</placeName> s. QGTS II 50. 70. 116.</note> übel stat der döfren<note xml:id="fn2" type="footnote" n="2">Täufer.</note> halb, die da das arm from fölchly verfuͤrent, daß ich nüt weyß, ich im duͦn sol, dan ich sit sant Johanß tag im 32<note xml:id="fn3" type="footnote" n="3">Am 24. Juni 1532 hatte <persName ref="person53">Hans Edlibach</persName> das Amt des Landvogts im <placeName ref="place87">Thurgau</placeName> angetreten.</note> jar 5 hab lassen richten<note xml:id="fn4" type="footnote" n="4">Ob es sich hier um Hinrichtungen oder Körperstrafen anderer Art handelt, ist nicht ganz klar. Allerdings wurde den Vögten der Gemeinen Herrschaften an der Tagsatzung vom 10. bis 16. Mai 1532 die Befugnis erteilt, Täufer, die nicht zum Widerruf bereit waren, «ohne alles Rechten [zu]ertränken, um die großen Kosten mit den Landgerichten zu ersparen» (EA IV/1b 1339 k.). Sollten mit <persName ref="person53">Edlibachs</persName> Aussage tatsächlich Hinrichtungen gemeint sein, so ist dies der einzige bekannte Beleg dafür. Claus Peter <hi>Clasen,</hi> Executions of Anabaptists, 1525-1618. A Research Report, in: MQR 47, 1973, 115-152 führt sie nicht auf.</note>, och sust fil in gfencknuß unnd um gelt gstrafft.</s>
-					<s n="3" xml:lang="de" type="auto">Aber sy gend gar nüt darum unnd wend och nüt irs pfarers<note xml:id="fn5" type="footnote" n="5"><persName ref="person2227">Niklaus Steinbock</persName>, gest. 1537, war schon als katholischer Pfarrer in <placeName ref="place770">Neunforn</placeName>. 1527 wurde er wegen seiner evangelischen Predigt vom Landvogt, dem Obwaldner <persName ref="person2533">Heinrich Wirz</persName>, angegriffen und floh. Im Jahr darauf wurde Steinbock wieder eingesetzt gegen den Willen des Vogts, der drohte, den Pfarrer zu vertreiben oder zu verurteilen. Unter dem Schutz Zürichs versah Steinbock, der 1529 heiratete, die Stelle weiterhin bis zu seinem Tod. - Lit.: ASchweizerRef I 1725. 1999. 2015. 2038; EA IV/1a 1349; <hi>Knittel,</hi> Reformation 156f; <hi>Knittel,</hi> Kirche 123; Sulzberger 107.</note> ald<note xml:id="fn6" type="footnote" n="6">oder.</note> hirten stirn hören<note xml:id="fn7" type="footnote" n="7">Vgl. Joh 10, 3.</note>, gand nüt zum wort gottes, dan sy sprechend, er hab sy glert, daß der kinder doff<note xml:id="fn8" type="footnote" n="8">Taufe.</note> nüt grecht sy, sprechent och, er hab brediget, wo zinß als zehenden nüt zuͦ einer schuld gmacht syent, da sy man die selben nüt schuldig zgeben nach lut des nüwen testamentz.</s>
+					<s n="2" xml:lang="de" type="auto">Ich laß üch wüssen, daß zuͦ Nüfren<note xml:id="fn1" type="footnote" n="1"><placeName>Neunforn</placeName> (Kt. <placeName>Thurgau</placeName>); über die Täufer in <placeName>Neunforn</placeName> s. <bibl>QGTS</bibl> II 50. 70. 116.</note> übel stat der döfren<note xml:id="fn2" type="footnote" n="2">Täufer.</note> halb, die da das arm from fölchly verfuͤrent, daß ich nüt weyß, ich im duͦn sol, dan ich sit sant Johanß tag im 32<note xml:id="fn3" type="footnote" n="3">Am 24. Juni 1532 hatte <persName ref="p5061">Hans Edlibach</persName> das Amt des Landvogts im <placeName>Thurgau</placeName> angetreten.</note> jar 5 hab lassen richten<note xml:id="fn4" type="footnote" n="4">Ob es sich hier um Hinrichtungen oder Körperstrafen anderer Art handelt, ist nicht ganz klar. Allerdings wurde den Vögten der Gemeinen Herrschaften an der Tagsatzung vom 10. bis 16. Mai 1532 die Befugnis erteilt, Täufer, die nicht zum Widerruf bereit waren, «ohne alles Rechten [zu]ertränken, um die großen Kosten mit den Landgerichten zu ersparen» (<bibl>EA</bibl> IV/1b 1339 k.). Sollten mit <persName ref="p5061">Edlibachs</persName> Aussage tatsächlich Hinrichtungen gemeint sein, so ist dies der einzige bekannte Beleg dafür. Claus Peter <hi>Clasen,</hi> Executions of Anabaptists, 1525-1618. A Research Report, in: <bibl>MQR</bibl> 47, 1973, 115-152 führt sie nicht auf.</note>, och sust fil in gfencknuß unnd um gelt gstrafft.</s>
+					<s n="3" xml:lang="de" type="auto">Aber sy gend gar nüt darum unnd wend och nüt irs pfarers<note xml:id="fn5" type="footnote" n="5"><persName>Niklaus Steinbock</persName>, gest. 1537, war schon als katholischer Pfarrer in <placeName>Neunforn</placeName>. 1527 wurde er wegen seiner evangelischen Predigt vom Landvogt, dem Obwaldner <persName>Heinrich Wirz</persName>, angegriffen und floh. Im Jahr darauf wurde Steinbock wieder eingesetzt gegen den Willen des Vogts, der drohte, den Pfarrer zu vertreiben oder zu verurteilen. Unter dem Schutz Zürichs versah Steinbock, der 1529 heiratete, die Stelle weiterhin bis zu seinem Tod. - Lit.: ASchweizerRef I 1725. 1999. 2015. 2038; <bibl>EA</bibl> IV/1a 1349; <hi>Knittel,</hi> Reformation 156f; <hi>Knittel,</hi> Kirche 123; Sulzberger 107.</note> ald<note xml:id="fn6" type="footnote" n="6">oder.</note> hirten stirn hören<note xml:id="fn7" type="footnote" n="7">Vgl. Joh 10, 3.</note>, gand nüt zum wort gottes, dan sy sprechend, er hab sy glert, daß der kinder doff<note xml:id="fn8" type="footnote" n="8">Taufe.</note> nüt grecht sy, sprechent och, er hab brediget, wo zinß als zehenden nüt zuͦ einer schuld gmacht syent, da sy man die selben nüt schuldig zgeben nach lut des nüwen testamentz.</s>
 					<s n="4" xml:lang="de" type="auto">Welcher aber den zechendeil siner früchten uff den boden versetzt und verkoft<note xml:id="fna" type="footnote" n="a">und verkoft <hi>am Rande nachgetragen.</hi></note> hab, der sy schulldig, den zechenden zuͦ geben.</s>
 					<s n="5" xml:lang="de" type="auto">Sollich unnd ander<note xml:id="fn9" type="footnote" n="9">gemeint: andere Dinge.</note> haltentz mir für unnd wend in nüt mer hören, sprechend, er sy ein falscher profett etc.</s>
-					<s n="6" xml:lang="de" type="manual">Unnd<pb type="edition" next="129"/> uff das so wer min beste meinung, wo ir köndint einen dusch<note xml:id="fn10" type="footnote" n="10">Tausch.</note> machen unnd in da dannen duͦn und einen andren dar duͦn, dan er eben alt ist unnd fil kind hatt und in teglichen anfallend, damit<note xml:id="fn11" type="footnote" n="11">Hier konsekutiv: so daß (SI XII 21).</note> er nüt flyssig die gschrift gschowt, unnd aber gstrift<note xml:id="fn12" type="footnote" n="12">gelehrttuerisch, überheblich (SI XI 2142f; s. auch Hans <hi>Wanner,</hi> Zur Deutung des Wortes «gestryfft» in der Flugschrift «Der gestryfft Schwitzer Baur», in: ZSG 30, 1950, 265f).</note> puren under im hatt, die fillicht numen das gift uß sugent<note xml:id="fn13" type="footnote" n="13">die wahrscheinlich (SI III 1049) den Predigten des Pfarrers nur das Schlechte, Schädliche entnehmen.</note>.</s>
+					<s n="6" xml:lang="de" type="manual">Unnd<pb type="edition" next="129"/> uff das so wer min beste meinung, wo ir köndint einen dusch<note xml:id="fn10" type="footnote" n="10">Tausch.</note> machen unnd in da dannen duͦn und einen andren dar duͦn, dan er eben alt ist unnd fil kind hatt und in teglichen anfallend, damit<note xml:id="fn11" type="footnote" n="11">Hier konsekutiv: so daß (<bibl>SI</bibl> XII 21).</note> er nüt flyssig die gschrift gschowt, unnd aber gstrift<note xml:id="fn12" type="footnote" n="12">gelehrttuerisch, überheblich (<bibl>SI</bibl> XI 2142f; s. auch Hans <hi>Wanner,</hi> Zur Deutung des Wortes «gestryfft» in der Flugschrift «Der gestryfft Schwitzer Baur», in: ZSG 30, 1950, 265f).</note> puren under im hatt, die fillicht numen das gift uß sugent<note xml:id="fn13" type="footnote" n="13">die wahrscheinlich (<bibl>SI</bibl> III 1049) den Predigten des Pfarrers nur das Schlechte, Schädliche entnehmen.</note>.</s>
 					<s n="7" xml:lang="de" type="auto">Dan warllich so schaft dysser nüt guͦtz mer.</s>
-					<s n="8" xml:lang="de" type="auto">Hab ich üch bester menig<note xml:id="fn14" type="footnote" n="14">in bester Meinung.</note> nüt wellen bergen, damit in die sach gessechen werd<note xml:id="fn15" type="footnote" n="15">damit eingegriffen wird (SI VII 525f).</note>.</s>
-					<s n="9" xml:lang="de" type="auto">Dan ich bsorg, wen min jar uss syg<note xml:id="fn16" type="footnote" n="16"><persName ref="person53">Edlibach</persName> war bis 1534 Vogt im <placeName ref="place87">Thurgau</placeName> (EA IV/1c 1316).</note>, so werd er andys<note xml:id="fn17" type="footnote" n="17">ohnehin (SI XIII 1795).</note> nüt lang alda zuͦ Nüffren bliben, den er der erst gsin ist, der das war wort gottes gepredigt hat, och gwibet unnd anders<note xml:id="fn18" type="footnote" n="18">Siehe oben Anm. 5.</note>, damit im die fünf ort nüt vast hold sind<note xml:id="fn19" type="footnote" n="19">Nach den Erfahrungen von 1527 (s. oben Anm. 5) war zu befürchten, daß der auf <persName ref="person53">Edlibach</persName> folgende Landvogt <placeName ref="place51">der V Orte</placeName>, der <placeName ref="place652">Luzerner</placeName> <persName ref="person2194">Christoph von Sonnenberg</persName>, wiederum gegen <persName ref="person2227">Steinbock</persName> vorgehen könnte. Dies traf jedoch nicht ein.</note> etc.</s>
+					<s n="8" xml:lang="de" type="auto">Hab ich üch bester menig<note xml:id="fn14" type="footnote" n="14">in bester Meinung.</note> nüt wellen bergen, damit in die sach gessechen werd<note xml:id="fn15" type="footnote" n="15">damit eingegriffen wird (<bibl>SI</bibl> VII 525f).</note>.</s>
+					<s n="9" xml:lang="de" type="auto">Dan ich bsorg, wen min jar uss syg<note xml:id="fn16" type="footnote" n="16"><persName ref="p5061">Edlibach</persName> war bis 1534 Vogt im <placeName>Thurgau</placeName> (<bibl>EA</bibl> IV/1c 1316).</note>, so werd er andys<note xml:id="fn17" type="footnote" n="17">ohnehin (<bibl>SI</bibl> XIII 1795).</note> nüt lang alda zuͦ Nüffren bliben, den er der erst gsin ist, der das war wort gottes gepredigt hat, och gwibet unnd anders<note xml:id="fn18" type="footnote" n="18">Siehe oben Anm. 5.</note>, damit im die fünf ort nüt vast hold sind<note xml:id="fn19" type="footnote" n="19">Nach den Erfahrungen von 1527 (s. oben Anm. 5) war zu befürchten, daß der auf <persName ref="p5061">Edlibach</persName> folgende Landvogt <placeName>der V Orte</placeName>, der <placeName>Luzerner</placeName> <persName>Christoph von Sonnenberg</persName>, wiederum gegen <persName>Steinbock</persName> vorgehen könnte. Dies traf jedoch nicht ein.</note> etc.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">Unssers pfarers halb zuͦ Frouvenfeld<note xml:id="fn20" type="footnote" n="20">Ob damit <persName ref="person864">Hans Frei</persName> oder <persName ref="person61">Heinrich Fehr</persName> gemeint ist (s. Sulzberger 2), und worum es sich handelt, läßt sich nicht ermitteln.</note> handlen ich jetz, wie ich mit üch grett hab etc.</s>
+					<s n="10" xml:lang="de" type="auto">Unssers pfarers halb zuͦ Frouvenfeld<note xml:id="fn20" type="footnote" n="20">Ob damit <persName>Hans Frei</persName> oder <persName>Heinrich Fehr</persName> gemeint ist (s. Sulzberger 2), und worum es sich handelt, läßt sich nicht ermitteln.</note> handlen ich jetz, wie ich mit üch grett hab etc.</s>
 					<s n="11" xml:lang="de" type="auto">Hiemit so sy der frid gottz mit unß allen und verilich üch unnd unß allen ein from guͦt end.</s>
 					<s n="12" xml:lang="de" type="auto">Amen etc.</s>
 				</p>
@@ -138,10 +132,10 @@
 					<s n="13" xml:lang="de" type="manual">Actum am 19. meyens anno 33.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="de" type="auto">Uwer alzit williger Hanns <persName ref="person53">Edlibach</persName>, landtvogt z Frowenfeld.</s>
+					<s n="14" xml:lang="de" type="auto">Uwer alzit williger <persName ref="p1041">Hanns Edlibach</persName>, landtvogt z Frowenfeld.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="de" type="auto">Probst von <placeName ref="place319">Embrach</placeName><note xml:id="fn21" type="footnote" n="21"><persName ref="person24">Heinrich Brennwald</persName>, zu jener Zeit Amtmann des Klosters <placeName ref="place1106">Töß</placeName>, welches das Kollaturrecht in <placeName ref="place770">Neunforn</placeName> besaß.</note> wer guͦt, mit her Niclaussen<note xml:id="fn22" type="footnote" n="22"><persName ref="person2227">Niklaus Steinbock</persName>.</note> zuͦ handlen.</s>
+					<s n="15" xml:lang="de" type="auto">Probst von <placeName>Embrach</placeName><note xml:id="fn21" type="footnote" n="21"><persName ref="p4315">Heinrich Brennwald</persName>, zu jener Zeit Amtmann des Klosters <placeName>Töß</placeName>, welches das Kollaturrecht in <placeName>Neunforn</placeName> besaß.</note> wer guͦt, mit her Niclaussen<note xml:id="fn22" type="footnote" n="22"><persName>Niklaus Steinbock</persName>.</note> zuͦ handlen.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

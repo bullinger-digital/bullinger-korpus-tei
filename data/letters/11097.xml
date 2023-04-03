@@ -6,44 +6,40 @@
 				<title subtype="file">Kaspar Megander / Bern AN Heinrich Bullinger, Leo Jud, 13. Oktober 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1054</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">126</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Ioannis Calvini opera quae supersunt omnia, hg. v. Guilielmus Baum, Eduardus Cunitz, Eduardus Reuss, 59 Bde., Braunschweig/Berlin 1863-1900 - CR XXIX-LXXXVII.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,264</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Übersendet das Abendmahlsbekenntnis der <placeName ref="place398">Genfer</placeName> und ihre
+								Übersendet das Abendmahlsbekenntnis der <placeName>Genfer</placeName> und ihre
 								Erläuterung des Wortes "Adonai" [bzw. "Jehovah" als Name für Christus]; beides haben sie [am 22. September]
-								in <placeName ref="place121">Bern</placeName> <persName ref="person40">Capito</persName> und
-								<persName ref="person28">Bucer</persName> vorgelegt. Hofft, am 20. des Monats [zur Synode] in Zürich zu
+								in <placeName>Bern</placeName> <persName ref="p5565">Capito</persName> und
+								<persName ref="p467">Bucer</persName> vorgelegt. Hofft, am 20. des Monats [zur Synode] in Zürich zu
 								sein.
 							</p>
 						</summary>
@@ -54,10 +50,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Corr. des réformateurs IV, S. 310, Anm. 2</title>
+								<title>Corr. des réformateurs IV, S.310, Anm. 2</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>C.O. X/2, S. 126, Nr. 78</title>
+								<title>C.O. X/2, S.126, Nr. 78</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -67,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11097">
 				<correspAction type="sent">
-					<persName ref="person2263" cert="high">
+					<persName ref="p2263" cert="high">
 						<!--
 						<surname cert="high">Megander</surname>
 						<forename cert="high">Kaspar</forename>
@@ -77,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416166"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1537-10-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -91,7 +87,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1753" cert="high">
+					<persName ref="p1753" cert="high">
 						<!--
 						<surname cert="high">Jud</surname>
 						<forename cert="high">Leo</forename>
@@ -125,7 +121,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

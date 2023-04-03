@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 17. Februar 1543</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1722</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">83</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,265</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,7 +38,7 @@
 							<p xml:id="regest1">
 								Empfiehlt einen spanischen Minoriten [Martin de Villafan˜a?]; die Basler Kirche kann nur eine beschränkte
 								Zahl von Bedürftigen unterstützen, und bei der Obrigkeit findet er für solche Anliegen kaum ein offenes Ohr,
-								da <persName ref="person11">Markus [Bertschi]</persName> und er wegen
+								da <persName ref="p8054">Markus [Bertschi]</persName> und er wegen
 								ihrer angeblich zu großen Freimütigkeit zunehmend angefeindet werden; dieser Vorwurf ist jedoch unbegründet.
 								Wüsste gerne etwas über den Brief, den ein Bote des hessischen [Landgrafen
 								Philipp] Bullinger überbracht hat, sofern es sich nicht um geheime
@@ -58,13 +49,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1722, S.83</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11767">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -75,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1543-02-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,12 +125,12 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Mitto, quem vides, minoritam <placeName ref="place29">Hispanum</placeName>,<note xml:id="fn1" type="footnote" n="1">Beim Empfohlenen handelte es sich wohl um jenen Martinus a Villafana (de Villafana sich am 28. Februar in die Basler Universitätsmatrikel eintragen ließ (s. <placeName ref="place97">Basel</placeName>, Matrikel II 32, Nr. 43). Er suchte allerdings Bullinger nicht persönlich auf (vgl. unten <ref target="file11792">Nr. 1746</ref>, 16f). Vgl. Carlos Gilly, <placeName ref="place29">Spanien</placeName> und der Basler Buchdruck bis 1600. Ein Querschnitt durch die spanische Geistesgeschichte aus der Sicht einer europäischen Buchdruckerstadt, <placeName ref="place97">Basel</placeName>/Frankfurt a. M. 1985. - Basler Beiträge zur Geschichtswissenschaft 151, S. 276.</note> iuvenem meo quidem videre non indoctum, in literis tamen cupientem amplius promoveri.</s>
+					<s n="2" xml:lang="la" type="auto">Mitto, quem vides, minoritam <placeName>Hispanum</placeName>,<note xml:id="fn1" type="footnote" n="1">Beim Empfohlenen handelte es sich wohl um jenen Martinus a Villafana (de Villafana sich am 28. Februar in die Basler Universitätsmatrikel eintragen ließ (s. <placeName>Basel</placeName>, Matrikel II 32, Nr. 43). Er suchte allerdings Bullinger nicht persönlich auf (vgl. unten <ref target="file11792">Nr. 1746</ref>, 16f). Vgl. Carlos Gilly, <placeName>Spanien</placeName> und der Basler Buchdruck bis 1600. Ein Querschnitt durch die spanische Geistesgeschichte aus der Sicht einer europäischen Buchdruckerstadt, <placeName>Basel</placeName>/Frankfurt a. M. 1985. - Basler Beiträge zur Geschichtswissenschaft 151, S. 276.</note> iuvenem meo quidem videre non indoctum, in literis tamen cupientem amplius promoveri.</s>
 					<s n="3" xml:lang="la" type="auto">Peto, si qua poteris, ipsum adiuves.</s>
-					<s n="4" xml:lang="la" type="auto">Apud nos pauperum, quos sustinet ecclesia, numerus est certus<note xml:id="fn2" type="footnote" n="2">In der Basler Almosenordnung vom 10. September 1530 (ABaslerRef IV 629) ist zwar keine bestimmte Zahl von Almosenempfängern festgelegt, doch waren Fremde davon ausgeschlossen.</note> et hoc tempore completus.</s>
+					<s n="4" xml:lang="la" type="auto">Apud nos pauperum, quos sustinet ecclesia, numerus est certus<note xml:id="fn2" type="footnote" n="2">In der Basler Almosenordnung vom 10. September 1530 (<bibl>ABaslerRef</bibl> IV 629) ist zwar keine bestimmte Zahl von Almosenempfängern festgelegt, doch waren Fremde davon ausgeschlossen.</note> et hoc tempore completus.</s>
 					<s n="5" xml:lang="la" type="auto">Dedimus itaque viaticum et dimisimus.</s>
 					<s n="6" xml:lang="la" type="auto">Equidem propter pauperes alienigenas valde divexor: Ex meis iuvare, ut opus habent, non possum; ab his, in quorum potestate omnia sunt, vel difficulter peto vel parum impetro.</s>
-					<s n="7" xml:lang="la" type="auto">Odium primatum quorundam, qui aliquid possunt, adeo contra <persName ref="person11">Marcum</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person11">Markus Bertschi</persName>.</note> et me ingravescit magis magisque, ut nesciam, quid tandem sit futurus.</s>
+					<s n="7" xml:lang="la" type="auto">Odium primatum quorundam, qui aliquid possunt, adeo contra <persName ref="p8054">Marcum</persName><note xml:id="fn3" type="footnote" n="3"><persName>Markus Bertschi</persName>.</note> et me ingravescit magis magisque, ut nesciam, quid tandem sit futurus.</s>
 					<s n="8" xml:lang="la" type="auto">Ego me meaque omnia domino committo.</s>
 					<s n="9" xml:lang="la" type="auto">Oris seu linguę parhisia<note xml:id="fna" type="footnote" n="a">parhisia <hi>am Rande nachgetragen.</hi></note><note xml:id="fn4" type="footnote" n="4">Griech. <foreign xml:lang="el">παρρησία</foreign>, Freimütigkeit, Offenheit.</note> (ne hoc taceam) in causa est illius odii, in qua tamen videmur nobis aequo mitiores.</s>
 					<s n="10" xml:lang="la" type="auto">Illi autem ita se compararunt, ut mitissima nostra sint eis truculentissima, id quod ex animorum asperitate contra nos sit, non ex<note xml:id="fnb" type="footnote" n="b"><hi>Vor</hi> ex <hi>gestrichenes</hi> n[?].</note> nostro commerito, oportet.</s>
@@ -140,7 +138,7 @@
 					<s n="12" xml:lang="la" type="auto">Quod reliquum est, dominus curabit pro nobis.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Mirum vero, quid tabellio<note xml:id="fn5" type="footnote" n="5">Gemeint ist der unbekannte Überbringer des Briefs von <persName ref="person1499">Johannes Lening</persName> (unten <ref target="file11768">Nr. 1723</ref>, Z. 2f und 95-98).</note> velit a principe Hesso<note xml:id="fn6" type="footnote" n="6">Landgraf Philipp von Hessen.</note> missus ad te.</s>
+					<s n="13" xml:lang="la" type="auto">Mirum vero, quid tabellio<note xml:id="fn5" type="footnote" n="5">Gemeint ist der unbekannte Überbringer des Briefs von <persName ref="p6177">Johannes Lening</persName> (unten <ref target="file11768">Nr. 1723</ref>, Z. 2f und 95-98).</note> velit a principe Hesso<note xml:id="fn6" type="footnote" n="6">Landgraf Philipp von Hessen.</note> missus ad te.</s>
 					<s n="14" xml:lang="la" type="auto">Transiit hac, et ego casu intellexi habere ipsum literas ad te.</s>
 					<s n="15" xml:lang="la" type="auto">Arcana nolo; communia, si libebit significare, peto.</s>
 				</p>
@@ -148,10 +146,10 @@
 					<s n="16" xml:lang="la" type="auto">In domino vale cum tuis.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, raptim, 17. februarii anno 1543.</s>
+					<s n="17" xml:lang="la" type="auto"><placeName>Basileę</placeName>, raptim, 17. februarii anno 1543.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">Tuus <persName ref="person154">Os. Myconius</persName>.</s>
+					<s n="18" xml:lang="la" type="auto">Tuus <persName ref="p8418">Os. Myconius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

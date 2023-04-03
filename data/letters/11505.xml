@@ -6,35 +6,31 @@
 				<title subtype="file">Johannes Travers / Zuoz AN Heinrich Bullinger, 10. Februar 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1462</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">28</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,15–17</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,9 +42,9 @@
 								zu hoffen, dass die protestantischen Fürsten der Verfolgung entgegentreten; die Uneinigkeit der katholischen
 								Fürsten schwächt diese stark, dies lässt für die Ruhe im Reich Gutes hoffen; Gott möge die Menschen zur
 								Einigkeit anleiten. Erleichterung über den Konsens in der Abendmahlslehre; Gott wird
-								<persName ref="person28">Bucer</persName> eine beständigere Gesinnung verleihen. Sendet Schriften zurück.
+								<persName ref="p467">Bucer</persName> eine beständigere Gesinnung verleihen. Sendet Schriften zurück.
 								Als Dank für Bullingers Bemühungen sendet er vier Murmeltiere. Grüße, auch an
-								<persName ref="person114">Leo Jud</persName>.
+								<persName ref="p1753">Leo Jud</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -58,7 +54,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 28–30, Nr. 21</title>
+								<title>Graubünden BW I, S.28–30, Nr. 21</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -68,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11505">
 				<correspAction type="sent">
-					<persName ref="person3184" cert="high">
+					<persName ref="p3184" cert="high">
 						<!--
 						<surname cert="high">Travers</surname>
 						<forename cert="high">Johannes</forename>
@@ -78,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417174"/>
 						-->
 					</persName>
-					<placeName source="place585" cert="high"><orig>Zuoz</orig></placeName>
+					<placeName source="l585" cert="high"><orig>Zuoz</orig></placeName>
 					<date when="1541-02-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -6,32 +6,31 @@
 				<title subtype="file">Augustin Mainardi / Chiavenna AN Heinrich Bullinger / Zürich, 4. August 1550</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">2117</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,75 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,13 +42,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 173ff, Nr. 130</title>
+								<title>Graubünden BW I, S.173ff, Nr. 130</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
 								<title>C. Renato, Opere (A. Rotondò) 230f, (Doc. 42) (vergl. 267 und 279f, 323)</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>de Porta, Hist. Ref. Raet. I 2, S. 135-137</title>
+								<title>de Porta, Hist. Ref. Raet. I 2, S.135-137</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>G.H. Williams, Renato 165</title>
@@ -72,28 +71,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 73,36</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive31">
+						<repository ref="a31">
 							<name>Dublin TC</name>
 							<ref target="https://www.tcd.ie/library/"/>
 						</repository>
-						<settlement ref="place124">Dublin</settlement>
+						<settlement ref="l124">Dublin</settlement>
 						<institution>Trinity Collge</institution>
 						-->
-						<repository ref="archive31"/>
+						<repository ref="a31"/>
 						<idno subtype="Kopie">Ms 1158, fo 31-32</idno>
 					</msIdentifier>
 				</msDesc>
@@ -102,7 +101,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/978">
 				<correspAction type="sent">
-					<persName ref="person2020" cert="high">
+					<persName ref="p2020" cert="high">
 						<!--
 						<surname cert="high">Mainardi</surname>
 						<forename cert="high">Augustin</forename>
@@ -112,11 +111,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416112"/>
 						-->
 					</persName>
-					<placeName source="place93" cert="high"><orig>Chiavenna</orig></placeName>
+					<placeName source="l93" cert="high"><orig>Chiavenna</orig></placeName>
 					<date when="1550-08-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -126,7 +125,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file979"/>
@@ -152,13 +151,14 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
 		<graphic xml:id="img1" url="978/Autograph/00__E_II_365__S__75_.tif" n="1"/>
 		<graphic xml:id="img2" url="978/Autograph/01__E_II_365__S__76_.tif" n="2"/>
-		<graphic xml:id="img3" url="978/Autograph/02__E_II_365__S__76_b_.tif" n="3"/>
+		<graphic xml:id="img3" url="978/Autograph/02__E_II_365__fol__65_a_r_.tif" n="3"/>
+		<graphic xml:id="img4" url="978/Autograph/03__E_II_365__fol__65_b_v_.tif" n="4"/>
 	</facsimile>
 	<text xml:lang="la">
 		<body>

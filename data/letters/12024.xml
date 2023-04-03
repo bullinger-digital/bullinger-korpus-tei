@@ -6,51 +6,42 @@
 				<title subtype="file">Martin Bucer / Straßburg AN Heinrich Bullinger, 9. September [1544]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1977</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">383</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,442r.-v.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt Dr. theol. <persName ref="person20935">Albert Hardenberg</persName>, der sich mit Zustimmung des [Erz-]Bischofs von Köln
-								[<persName ref="person2488">Hermann von Wied</persName>] drei Monate bei ihm aufhielt, wobei er sich des
-								Lobs von <persName ref="person146">Philipp [Melanchthon]</persName>
+								Empfiehlt Dr. theol. <persName ref="p8371">Albert Hardenberg</persName>, der sich mit Zustimmung des [Erz-]Bischofs von Köln
+								[<persName ref="p8462">Hermann von Wied</persName>] drei Monate bei ihm aufhielt, wobei er sich des
+								Lobs von <persName ref="p2095">Philipp [Melanchthon]</persName>
 								würdig erwies; Bullinger soll ihn bestärken; er wird in hohe Positionen berufen. Wie befürchtet, haben
 								verschiedene Schriften der Zürcher und besonders die Erneuerung des Abendmahlsstreits durch ihre
-								Veröffentlichung von <persName ref="person265">Zwinglis</persName> Werken <persName ref="person138">Luther</persName> derart gereizt, dass den
+								Veröffentlichung von <persName ref="p4091">Zwinglis</persName> Werken <persName ref="p1974">Luther</persName> derart gereizt, dass den
 								Kirchen großer Schaden droht; die Gegner werden die gegenseitigen Vorwürfe gerne aufgreifen, nicht aber das,
 								was beide Seiten richtig über Christus lehren; ihre gegenseitige Geringschätzung müssen sie vor Gott
 								verantworten, dessen Majestät sie beleidigen. Möchte seine Mahnung als Dienst der Liebe verstanden wissen
@@ -61,13 +52,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1977, S.383</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12024">
 				<correspAction type="sent">
-					<persName ref="person467" cert="high">
+					<persName ref="p467" cert="high">
 						<!--
 						<surname cert="high">Bucer</surname>
 						<forename cert="high">Martin</forename>
@@ -77,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11483585"/>
 						-->
 					</persName>
-					<placeName source="place491" cert="high"><orig>Straßburg</orig></placeName>
+					<placeName source="l491" cert="high"><orig>Straßburg</orig></placeName>
 					<date when="1544-09-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,14 +126,14 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S[alutem] d[ico].</s>
-					<s n="2" xml:lang="la" type="auto">Optavit, Bullingere charissime, hic doctor theologus <persName ref="person20935">Albertus Hardenbergius</persName> invisere vestram ecclesiam, antequam rediret ad suam certam vocationem.</s>
-					<s n="3" xml:lang="la" type="auto">Tres menses mecum ita volente episcopo Coloniensi<note xml:id="fn2" type="footnote" n="2">Erzbischof <persName ref="person2488">Hermann von Wied</persName>.</note> mansit<note xml:id="fn3" type="footnote" n="3">Zum Aufenthalt von <persName ref="person20935">Hardenberg</persName> in <persName ref="person28">Bucers</persName> Haus s. oben <ref target="file12019">Nr. 1972</ref>, Anm. 1.</note> talemque se praestitit, qualem ante praedicaverat d. <persName ref="person146">Philippus</persName>,<note xml:id="fn4" type="footnote" n="4">Eine schriftliche Empfehlung durch <persName ref="person146">Melanchthon</persName> liegt nicht vor.</note> hoc est virum admodum doctum solideque pium et candidissimum.</s>
+					<s n="2" xml:lang="la" type="auto">Optavit, Bullingere charissime, hic doctor theologus <persName ref="p8371">Albertus Hardenbergius</persName> invisere vestram ecclesiam, antequam rediret ad suam certam vocationem.</s>
+					<s n="3" xml:lang="la" type="auto">Tres menses mecum ita volente episcopo Coloniensi<note xml:id="fn2" type="footnote" n="2">Erzbischof <persName>Hermann von Wied</persName>.</note> mansit<note xml:id="fn3" type="footnote" n="3">Zum Aufenthalt von <persName>Hardenberg</persName> in <persName ref="p18198">Bucers</persName> Haus s. oben <ref target="file12019">Nr. 1972</ref>, Anm. 1.</note> talemque se praestitit, qualem ante praedicaverat d. <persName ref="p2095">Philippus</persName>,<note xml:id="fn4" type="footnote" n="4">Eine schriftliche Empfehlung durch <persName ref="p6490">Melanchthon</persName> liegt nicht vor.</note> hoc est virum admodum doctum solideque pium et candidissimum.</s>
 					<s n="4" xml:lang="la" type="auto">Hoc debeo illi testimonium perhibere.</s>
 					<s n="5" xml:lang="la" type="auto">Vestra charitas eum ita indubie excipiet et tractabit, ut inde fide et studio Christi omni confirmetur.</s>
-					<s n="6" xml:lang="la" type="auto">Ad praeclaras functiones vocatur<note xml:id="fn5" type="footnote" n="5">Zu den von <persName ref="person20935">Hardenberg</persName> abgelehnten Berufungen nach <placeName ref="place172">Braunschweig</placeName>, <placeName ref="place320">Emden</placeName>, <placeName ref="place1448">Greifswald</placeName>, <placeName ref="place565">Konstanz</placeName> und <placeName ref="place744">Münster</placeName> s. <hi>Janse,</hi> <persName ref="person20935">Hardenberg</persName> 20f.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Ad praeclaras functiones vocatur<note xml:id="fn5" type="footnote" n="5">Zu den von <persName>Hardenberg</persName> abgelehnten Berufungen nach <placeName>Braunschweig</placeName>, <placeName>Emden</placeName>, <placeName>Greifswald</placeName>, <placeName>Konstanz</placeName> und <placeName>Münster</placeName> s. <hi>Janse,</hi> <persName>Hardenberg</persName> 20f.</note>.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Effectum est tandem, mi frater, quod verebar: Tot scriptis vestris publicis et privatis et molitione, ut per libros <persName ref="person265">Zvinglii</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person28">Bucer</persName> spielt auf die in Planung befindliche, 1544/45 erschienene lateinische Neuausgabe der Werke <persName ref="person265">Zwinglis</persName> an; s. oben <ref target="file11919">Nr. 1873</ref> mit Anm. 4; 1886, 5-13; 1895, 22-26.</note> pugna<note xml:id="fna" type="footnote" n="a">pugna <hi>über der Zeile nachgetragen.</hi></note> sacramentaria instauretur, excitatus tandem est et inflammatus totus <persName ref="person138">Lutherus</persName>, unde plerique praeclarae ecclesiae et praestantissimi viri graviter periclitantur.</s>
+					<s n="7" xml:lang="la" type="auto">Effectum est tandem, mi frater, quod verebar: Tot scriptis vestris publicis et privatis et molitione, ut per libros <persName ref="p4091">Zvinglii</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="p18198">Bucer</persName> spielt auf die in Planung befindliche, 1544/45 erschienene lateinische Neuausgabe der Werke <persName>Zwinglis</persName> an; s. oben <ref target="file11919">Nr. 1873</ref> mit Anm. 4; 1886, 5-13; 1895, 22-26.</note> pugna<note xml:id="fna" type="footnote" n="a">pugna <hi>über der Zeile nachgetragen.</hi></note> sacramentaria instauretur, excitatus tandem est et inflammatus totus <persName ref="p1974">Lutherus</persName>, unde plerique praeclarae ecclesiae et praestantissimi viri graviter periclitantur.</s>
 					<s n="8" xml:lang="la" type="auto">O utinam utrique subinde versaremini in proeliis, quae<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> quas.</note> plerique sustinemus cum papistis, tela his ista pugnae intestinae non tam prompte ipsis praeberetis!</s>
 				</p>
 				<p>
@@ -157,10 +155,10 @@
 					<s n="18" xml:lang="la" type="auto">Argent[orati], 9. septembris.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">Salvere<note xml:id="fnm" type="footnote" n="m"><hi>Zu ergänzen ist</hi> iubeo.</note> opt[imos], doctissimos et religiosissimos viros d. <persName ref="person14">Bibliandrum</persName>, <persName ref="person165">Pellicanum</persName>, Otthonem<note xml:id="fn7" type="footnote" n="7"><persName ref="person238">Otto Werdmüller</persName>.</note> et alios, quibus mea salutatio ingrata non est.</s>
+					<s n="19" xml:lang="la" type="auto">Salvere<note xml:id="fnm" type="footnote" n="m"><hi>Zu ergänzen ist</hi> iubeo.</note> opt[imos], doctissimos et religiosissimos viros d. <persName ref="p8171">Bibliandrum</persName>, <persName ref="p8127">Pellicanum</persName>, Otthonem<note xml:id="fn7" type="footnote" n="7"><persName>Otto Werdmüller</persName>.</note> et alios, quibus mea salutatio ingrata non est.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">M. <persName ref="person28">Bucerus</persName> tuus.</s>
+					<s n="20" xml:lang="la" type="auto">M. <persName ref="p467">Bucerus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Ohne Adresse.]</note>

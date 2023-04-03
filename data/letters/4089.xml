@@ -6,32 +6,31 @@
 				<title subtype="file">Johannes Dryander / Marburg AN Heinrich Bullinger / Zürich, 23. September 1559</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5296/178</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 363,43</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 95,178</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,20 +59,21 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4089">
 				<correspAction type="sent">
-					<persName ref="person841" cert="high">
+					<persName ref="p841" cert="high">
 						<!--
 						<surname cert="high">Dryander</surname>
 						<forename cert="high">Johannes</forename>
+						<persName type="main" ref="person18788>Dryander, Johannes</persName>
 						<graphic type="portrait" url="portraits/841_Dryander_Johann.jpg"/>
 						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Dryander"/>
 						<ref type="gnd" target="https://d-nb.info/gnd/116229292"/>
 						-->
 					</persName>
-					<placeName source="place311" cert="high"><orig>Marburg</orig></placeName>
+					<placeName source="l311" cert="high"><orig>Marburg</orig></placeName>
 					<date when="1559-09-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -83,7 +83,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file4090"/>
@@ -100,7 +100,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,7 +125,7 @@
 					<s n="8" xml:lang="la" type="auto">Hic Marpurgi quomodo se tuus gesserit, non habeo quam velim amplificare; res ipsa loquitur, testabuntur probi apud nos omnes tuum hic probe se gessisse, ne videar adulatoris magis quam amici partes explere, volo hic esse modestior in collaudando.</s>
 					<s n="9" xml:lang="la" type="auto">Ego filium meum huic unice commendavi passusque sum, ut sequeretur Argentinam usque, minime facturus, nisi summam integritatem et candorem vitae in tuo perspexissem.</s>
 					<s n="10" xml:lang="la" type="auto">Est bona indoles coniuncta pietati semper mihi adamata in tuo; sed ut hodie est saeculum corruptum et aetas ut est adolescentiae lubrica, admonendi sunt uterque, et tuus et meus, ut recte se in officio contineant, quo et se et parentes honore afficere queant.</s>
-					<s n="11" xml:lang="la" type="auto">Sed ego sus Minervam<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 1, 40 (LB II 43).</note> haec apud te; aequo animo haec qualiacunque mea scripta accipere digneris meque tibi iterum atque iterum commendatum habeas.</s>
+					<s n="11" xml:lang="la" type="auto">Sed ego sus Minervam<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 1, 40 (<bibl>LB</bibl> II 43).</note> haec apud te; aequo animo haec qualiacunque mea scripta accipere digneris meque tibi iterum atque iterum commendatum habeas.</s>
 					<s n="12" xml:lang="la" type="auto">De valetudine mea adversa Ioannes tuus indicabit.</s>
 				</p>
 				<p>

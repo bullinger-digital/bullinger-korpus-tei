@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Lüthi / [Winterthur] AN Heinrich Bullinger, 3. April 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=985</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">130</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,137</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 441,140</idno>
@@ -48,13 +39,13 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Der Tod von Pfarrer <persName ref="person517">Hans Briner</persName> in
-								<placeName ref="place806">Oberwinterthur</placeName> ist für die Kirche und für viele Menschen ein
+								Der Tod von Pfarrer <persName ref="p4400">Hans Briner</persName> in
+								<placeName>Oberwinterthur</placeName> ist für die Kirche und für viele Menschen ein
 								schwerer Verlust. Bittet, auch im Namen seiner Mitpfarrer, dem frommen und gebildeten
-								<persName ref="person23">Johannes Blum</persName>, Dekan des
-								<placeName ref="place1202">Winterthurer</placeName> Kapitels und Pfarrer in
-								<placeName ref="place1220">Wülflingen</placeName>, der mit einer großen Familie in bescheidenen
-								Verhältnissen lebt, auf die Pfarrstelle in <placeName ref="place806">Oberwinterthur</placeName> zu
+								<persName ref="p8182">Johannes Blum</persName>, Dekan des
+								<placeName>Winterthurer</placeName> Kapitels und Pfarrer in
+								<placeName>Wülflingen</placeName>, der mit einer großen Familie in bescheidenen
+								Verhältnissen lebt, auf die Pfarrstelle in <placeName>Oberwinterthur</placeName> zu
 								verhelfen. Grüße.
 							</p>
 						</summary>
@@ -62,24 +53,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 985, S.130</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11027">
 				<correspAction type="sent">
-					<persName ref="person1868" cert="high">
+					<persName ref="p1868" cert="high">
 						<!--
 						<surname cert="high">Lüthi</surname>
 						<forename cert="high">Heinrich</forename>
 						<persName type="main" ref="person8407>Lüthi, Heinrich</persName>
 						-->
 					</persName>
-					<placeName source="place555" cert="low"><orig>Winterthur</orig></placeName>
+					<placeName source="l555" cert="low"><orig>Winterthur</orig></placeName>
 					<date when="1537-04-03" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,11 +124,11 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a deo patre per Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Dominus <persName ref="person517">Ioannes Brinerus</persName>, ecclesię Superioris <placeName ref="place1202">Vituduri</placeName> episcopus, hinc migravit ad superos calendis aprilibus<note xml:id="fn2" type="footnote" n="2">am 1. April.</note>, quem sane dominus morte nimis immatura eripuit gravissima sue ecclesie iactura, nisi non dicenda iactura tanti viri amissio adeoque pastoris, quos ego sciam, absit verbo invidia, vigilantissimi.</s>
+					<s n="2" xml:lang="la" type="auto">Dominus <persName ref="p4400">Ioannes Brinerus</persName>, ecclesię Superioris <placeName>Vituduri</placeName> episcopus, hinc migravit ad superos calendis aprilibus<note xml:id="fn2" type="footnote" n="2">am 1. April.</note>, quem sane dominus morte nimis immatura eripuit gravissima sue ecclesie iactura, nisi non dicenda iactura tanti viri amissio adeoque pastoris, quos ego sciam, absit verbo invidia, vigilantissimi.</s>
 					<s n="3" xml:lang="la" type="auto">Dii faxint, ut senatus noster Thigurinus virum aliquem bonum eidem ecclesie frequentissime praeficiat, si non per omnia parem extincto, at saltem pietate et eruditione haud inferiorem, qui et verbo et vite castimonia doceat.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Quod ego sane ex animo cupio votique me compotem fore facile crediderim, nisi me meus fallit animus, si Floro<note xml:id="fn3" type="footnote" n="3"><persName ref="person23">Johannes Blum</persName>.</note>, ecclesie Vulfflingensis<note xml:id="fn4" type="footnote" n="4"><placeName ref="place1220">Wülflingen</placeName> (<placeName ref="place1202">Winterthur</placeName>).</note> paroeciano, <placeName ref="place1202">Vitudurensis</placeName> capituli decano, hec demandaretur provintia.</s>
+					<s n="4" xml:lang="la" type="auto">Quod ego sane ex animo cupio votique me compotem fore facile crediderim, nisi me meus fallit animus, si Floro<note xml:id="fn3" type="footnote" n="3"><persName>Johannes Blum</persName>.</note>, ecclesie Vulfflingensis<note xml:id="fn4" type="footnote" n="4"><placeName>Wülflingen</placeName> (<placeName>Winterthur</placeName>).</note> paroeciano, <placeName>Vitudurensis</placeName> capituli decano, hec demandaretur provintia.</s>
 					<s n="5" xml:lang="la" type="auto">Est enim vir vere Pius iuxta ac doctus, cui dominus et gratiam et prudentiam prae aliis multis magis insignem pulchre admodum functionem hanc episcopalem administrandi.</s>
 					<s n="6" xml:lang="la" type="auto">Atqui alias, dii boni, quam curta est suppellex, quam tenuis est fortuna, cuius alende familie<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> familie <hi>gestrichenes</hi> fortune.</note> annui reditus parum respondent.</s>
 					<s n="7" xml:lang="la" type="auto">Auctus liberis octo deinde quoque matrem habet adhuc superstitem provecte etatis, pauperculam atque cecam.</s>
@@ -143,7 +141,7 @@
 					<s n="10" xml:lang="la" type="auto">Anno 15[37]<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> D. D. D. <hi>Zur Datierung vgl. Anm. 1.</hi></note>, tertio nonarum aprilium.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto"><pb type="edition" next="131"/>Coniugem tuam<note xml:id="fn5" type="footnote" n="5">Anna Adlischwyler.</note> charissimam ac matrem<note xml:id="fn6" type="footnote" n="6">Anna Wiederkehr.</note> cum tota familia<note xml:id="fnc" type="footnote" n="c"><hi>vom Schreiber korrigiert aus</hi> familiam.</note> salvas esse cupio.</s>
+					<s n="11" xml:lang="la" type="auto"><pb type="edition" next="131"/>Coniugem tuam<note xml:id="fn5" type="footnote" n="5"><persName>Anna Adlischwyler</persName>.</note> charissimam ac matrem<note xml:id="fn6" type="footnote" n="6"><persName>Anna Wiederkehr</persName>.</note> cum tota familia<note xml:id="fnc" type="footnote" n="c"><hi>vom Schreiber korrigiert aus</hi> familiam.</note> salvas esse cupio.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">H. Lutius, ex animo tuus.</s>

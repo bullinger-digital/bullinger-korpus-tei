@@ -6,40 +6,31 @@
 				<title subtype="file">Martin Bucer / Strassburg AN Heinrich Bullinger, 29. Oktober 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=278</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">213</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Konzept)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive82">
+						<repository ref="a82">
 							<name>Strassburg SA</name>
 							<ref target="https://archives.strasbourg.eu/"/>
 						</repository>
-						<settlement ref="place492">Strassburg</settlement>
+						<settlement ref="l492">Strassburg</settlement>
 						<institution>Stadtarchiv</institution>
 						-->
-						<repository ref="archive82"/>
+						<repository ref="a82"/>
 						<idno subtype="Autograph__(Konzept)">AST 151, Nr.101, S. 378-390</idno>
 					</msIdentifier>
 					<msContents>
@@ -51,10 +42,10 @@
 								Evangeliums hindern, soll der Rat kraft des Gesetzes mit Strafen vorgehen. Apostelgeschichte und
 								Paulusbriefe liefern Belege, die diese Auffassung stützen. Den Geistlichen kommt es zu, die Obrigkeit an
 								ihre Aufgabe zu mahnen oder sie gegebenenfalls in die Schranken zu weisen.
-								<persName ref="person28">Bucer</persName> beklagt die Nachlässigkeit des
-								<placeName ref="place1049">Straßburger</placeName> Rates gegenüber den Täufern. Das Beispiel der
+								<persName ref="p467">Bucer</persName> beklagt die Nachlässigkeit des
+								<placeName>Straßburger</placeName> Rates gegenüber den Täufern. Das Beispiel der
 								Böhmischen Brüder, die imstande sind, ohne obrigkeitliche Hilfe in Glaubenssachen eine straffe Disziplin
-								durchzusetzen, läßt <persName ref="person28">Bucer</persName> nicht als Argument gegen seine Auffassung
+								durchzusetzen, läßt <persName ref="p467">Bucer</persName> nicht als Argument gegen seine Auffassung
 								gelten.
 							</p>
 						</summary>
@@ -67,6 +58,9 @@
 							<bibl type="Gedruckt" subtype="Teildruck">
 								<title>QGT VIII 201f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 278, S.213</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -75,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10309">
 				<correspAction type="sent">
-					<persName ref="person467" cert="high">
+					<persName ref="p467" cert="high">
 						<!--
 						<surname cert="high">Bucer</surname>
 						<forename cert="high">Martin</forename>
@@ -85,11 +79,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11483585"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1533-10-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -125,7 +119,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -135,11 +129,11 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax, Bullingere charissime<note xml:id="fna" type="footnote" n="a"><hi>darüber von fremder Hand:</hi> Anno 1533, 29. octob. ad Bullingerum. Magistratus christiani interesse, ut, quae religionis sunt, cumprimis curet.</note>.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Petis a me<note xml:id="fn1" type="footnote" n="1">Der Brief Bullingers, in welchem dieser offenbar <persName ref="person28">Bucer</persName> um die Stellungnahme zur Frage der obrigkeitlichen Befugnisse in Religionssachen, die hier vorliegt, gebeten hatte, ist nicht erhalten.</note> nimium, si facultatem spectes voluntati vix satis.</s>
-					<s n="3" xml:lang="la" type="auto">Distinent me nunc sane multa nec parvi momenti<note xml:id="fn2" type="footnote" n="2"><persName ref="person28">Bucer</persName> war in jenen Tagen wohl vor allem mit der auf Drängen der Prediger hin angesetzten zweiten Sitzung der Synode vom 23. und 29. Oktober beschäftigt, an der die noch unerledigten Punkte über Lehre und Kirchenbräuche behandelt wurden, s. BucerDS V 10.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Petis a me<note xml:id="fn1" type="footnote" n="1">Der Brief Bullingers, in welchem dieser offenbar <persName ref="p18198">Bucer</persName> um die Stellungnahme zur Frage der obrigkeitlichen Befugnisse in Religionssachen, die hier vorliegt, gebeten hatte, ist nicht erhalten.</note> nimium, si facultatem spectes voluntati vix satis.</s>
+					<s n="3" xml:lang="la" type="auto">Distinent me nunc sane multa nec parvi momenti<note xml:id="fn2" type="footnote" n="2"><persName ref="p18198">Bucer</persName> war in jenen Tagen wohl vor allem mit der auf Drängen der Prediger hin angesetzten zweiten Sitzung der Synode vom 23. und 29. Oktober beschäftigt, an der die noch unerledigten Punkte über Lehre und Kirchenbräuche behandelt wurden, s. <bibl>BucerDS</bibl> V 10.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Attamen si minus expectationi tuae satisfecero, id consolabitur, quod hic tibi ipse sis satis.</s>
-					<s n="5" xml:lang="la" type="auto">Sed ad rem<note xml:id="fn3" type="footnote" n="3">Zum Thema Obrigkeit hatte sich <persName ref="person28">Bucer</persName> anfangs 1532 in seiner Widerlegung des Bekenntnisses von <persName ref="person1581">Pilgram Marbeck</persName> schon ausführlicher geäußert, s. QGT VII 505-512 und noch Donald J. <hi>Ziegler,</hi> Marpeck versus Butzer: A Sixteenth-Century Debate over the Uses and Limits of Political Authority, in: Sixteenth Century Essays and Studies II, Saint Louis, Missouri 1971, S. 95-107. - Zur hohen Einschätzung des christlichen Magistrats als von Gott eingesetztem Organ der Kirchendisziplin bei <persName ref="person265">Zwingli</persName> und Bullinger s. HBBW I <ref target="file10067">[Nr. 39]</ref> 207-214.</note>.</s>
-					<s n="6" xml:lang="la" type="auto"><persName ref="person265">Christiani</persName> quid intersit, ex eo certissime iudicatur, quod consideramus, quid sit nobis Christus.</s>
+					<s n="5" xml:lang="la" type="auto">Sed ad rem<note xml:id="fn3" type="footnote" n="3">Zum Thema Obrigkeit hatte sich <persName ref="p18198">Bucer</persName> anfangs 1532 in seiner Widerlegung des Bekenntnisses von <persName>Pilgram Marbeck</persName> schon ausführlicher geäußert, s. <bibl>QGT</bibl> VII 505-512 und noch Donald J. <hi>Ziegler,</hi> Marpeck versus Butzer: A Sixteenth-Century Debate over the Uses and Limits of Political Authority, in: Sixteenth Century Essays and Studies II, Saint Louis, Missouri 1971, S. 95-107. - Zur hohen Einschätzung des christlichen Magistrats als von Gott eingesetztem Organ der Kirchendisziplin bei <persName>Zwingli</persName> und Bullinger s. <bibl>HBBW</bibl> I <ref target="file10067">[Nr. 39]</ref> 207-214.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Christiani quid intersit, ex eo certissime iudicatur, quod consideramus, quid sit nobis Christus.</s>
 					<s n="7" xml:lang="la" type="auto">Hic enim vivat in nobis<note xml:id="fn4" type="footnote" n="4">Vgl. Gal 2, 20.</note> oportet.</s>
 					<s n="8" xml:lang="la" type="auto">Iam Christus factus nobis est ut nostri sospitator ita instaurator omnium, quae vel aliquo modo humano generi commodant.</s>
 					<s n="9" xml:lang="la" type="auto">Nec ergo quae naturae nec quae legis sunt, sustulit, sed ut sui utrisque uterentur salutariter, effecit.</s>
@@ -164,7 +158,7 @@
 					<s n="28" xml:lang="la" type="auto">Nemo regit perfectius christiano, quia vivit et regit in eo Christus.</s>
 					<s n="29" xml:lang="la" type="auto">Et scilicet eximemus imperio magistratus actionem eam, in qua salus tota et summa pernicies rei publicae versatur, nempe doctrina fidei?</s>
 					<s n="30" xml:lang="la" type="auto">Paulus magistratui omnem animam subiicit<note xml:id="fn9" type="footnote" n="9">Siehe Röm 13, 1-7.</note>.</s>
-					<s n="31" xml:lang="la" type="auto"><persName ref="person630">Chrysostomus</persName> interpretans hunc locum ait: «Etiamsi apostolus sis, si evangelista»<note xml:id="fn10" type="footnote" n="10">Johannes <persName ref="person630">Chrysostomus</persName>, Commentarius in Epistolam ad Romanos, Homilia 23, 1 (MPG LX 615).</note>.</s>
+					<s n="31" xml:lang="la" type="auto"><persName ref="p4541">Chrysostomus</persName> interpretans hunc locum ait: «Etiamsi apostolus sis, si evangelista»<note xml:id="fn10" type="footnote" n="10"><persName>Johannes Chrysostomus</persName>, Commentarius in Epistolam ad Romanos, Homilia 23, 1 (<bibl>MPG</bibl> LX 615).</note>.</s>
 					<s n="32" xml:lang="la" type="auto">Bonorum procurationem, malorum depulsionem simpliciter creditam illi divinitus testatur.</s>
 					<s n="33" xml:lang="la" type="auto">Qua ratione audebimus nos bona, quorum cura summo omnium necessaria, et mala, quibus nihil potest rei publicae accedere aeque noxium, providentiae magistratus subducere, nimirum quae versantur circa<pb type="scan" next="||381r"/> eligionem?</s>
 					<s n="34" xml:lang="la" type="auto">«Quia religio constat spiritu.»</s>
@@ -180,7 +174,7 @@
 					<s n="44" xml:lang="la" type="auto">Desideratis et apud vos multa.</s>
 					<s n="45" xml:lang="la" type="auto">Non<note xml:id="fnf" type="footnote" n="f">Non <hi>bis</hi> Attamen <hi>am Rande nachgetragen, ersetzt ein im Text ungestrichen stehengebliebenes</hi> Sed.</note> satis vigilat ubique magistratus.</s>
 					<s n="46" xml:lang="la" type="auto">Attamen<note xml:id="fng" type="footnote" n="g">Non <hi>bis</hi> Attamen <hi>am Rande nachgetragen, ersetzt ein im Text ungestrichen stehengebliebenes</hi> Sed.</note> quam sunt vestra aurea collata moribus illorum?</s>
-					<s n="47" xml:lang="la" type="auto">Hic magistratus veteri lenitate emollitus et turba negotiorum ac etiam peccantium obrutus agit in<pb type="edition" next="215"/> caussa religionis remissius<note xml:id="fn14" type="footnote" n="14">Zu der von <persName ref="person28">Bucer</persName> schon früher beklagten Unentschlossenheit des <placeName ref="place1049">Straßburger</placeName> Rates in den kirchlichen Angelegenheiten s. oben <ref target="file10285">[Nr. 254]</ref> S. 172, 19-21.</note> quam <placeName ref="place565">Constantiae</placeName><note xml:id="fn15" type="footnote" n="15">Bereits in der <placeName ref="place565">Konstanzer</placeName> Zuchtordnung vom 5. April 1531 waren die Täufer unter Strafe gestellt worden, und im November 1532 war es zu vereinzelten Ausweisungen gekommen (s. QGT IV 469); s. auch Bullingers Brief an <persName ref="person19">Blarer</persName> und <persName ref="person263">Zwick</persName> vom 25. Juli 1533, in dem vor dem Einschleichen von Täufern in <placeName ref="place565">Konstanz</placeName> gewarnt wird (oben S. 160, 20-26).</note>.</s>
+					<s n="47" xml:lang="la" type="auto">Hic magistratus veteri lenitate emollitus et turba negotiorum ac etiam peccantium obrutus agit in<pb type="edition" next="215"/> caussa religionis remissius<note xml:id="fn14" type="footnote" n="14">Zu der von <persName ref="p18198">Bucer</persName> schon früher beklagten Unentschlossenheit des <placeName>Straßburger</placeName> Rates in den kirchlichen Angelegenheiten s. oben <ref target="file10285">[Nr. 254]</ref> S. 172, 19-21.</note> quam <placeName>Constantiae</placeName><note xml:id="fn15" type="footnote" n="15">Bereits in der <placeName>Konstanzer</placeName> Zuchtordnung vom 5. April 1531 waren die Täufer unter Strafe gestellt worden, und im November 1532 war es zu vereinzelten Ausweisungen gekommen (s. <bibl>QGT</bibl> IV 469); s. auch Bullingers Brief an <persName>Blarer</persName> und <persName>Zwick</persName> vom 25. Juli 1533, in dem vor dem Einschleichen von Täufern in <placeName>Konstanz</placeName> gewarnt wird (oben S. 160, 20-26).</note>.</s>
 					<s n="48" xml:lang="la" type="auto">Hinc, bone deus, quantam video inter nos diversitatem.</s>
 					<s n="49" xml:lang="la" type="auto">Soli iusto lex non conducit<note xml:id="fn16" type="footnote" n="16">Vgl. 1 Tim 1, 9.</note>, malis necessaria est, mediocribus perutilis.</s>
 					<s n="50" xml:lang="la" type="auto">Spiritu res Christi constat,<pb type="scan" next="||382"/> sed hic nisi repressa contumacia carnis vigere non potest.</s>
@@ -199,7 +193,7 @@
 					<s n="63" xml:lang="la" type="auto">«Christiani populus spontaneus et spiritualis.»<note xml:id="fn17" type="footnote" n="17">Vgl. Gal 6, 1.</note></s>
 					<s n="64" xml:lang="la" type="manual">Id erant et veteres, quicumque deo credebant.</s>
 					<s n="65" xml:lang="la" type="auto">«Sed nos amplius.</s>
-					<s n="66" xml:lang="la" type="auto">Ergo sponte currenti ne adhibeantur calcaria<note xml:id="fn18" type="footnote" n="18">Vgl. Adagia, 1, 2, 47 (LB II 89 B-D).</note>, at non sponte currenti removeantur illa, quae quominus sponte sua currat, impediunt.»</s>
+					<s n="66" xml:lang="la" type="auto">Ergo sponte currenti ne adhibeantur calcaria<note xml:id="fn18" type="footnote" n="18">Vgl. Adagia, 1, 2, 47 (<bibl>LB</bibl> II 89 B-D).</note>, at non sponte currenti removeantur illa, quae quominus sponte sua currat, impediunt.»</s>
 					<s n="67" xml:lang="la" type="auto">A verbo erit, ut ultro velis.</s>
 					<s n="68" xml:lang="la" type="auto">Hoc ergo ut tibi pure et cum authoritate praedicetur, curandum, atque ideo arcendi, qui diversum moliuntur.</s>
 					<s n="69" xml:lang="la" type="auto">«Christus et apostoli nihil tale tradiderunt» - ingenue, testantur autem se legem stabilire, hoc est, doctrinam bonorum per Mosen traditam.</s>
@@ -257,16 +251,16 @@
 					<s n="119" xml:lang="la" type="auto">Ex dictis et factis, iisque tam patentibus, ut per testes possint probari, debent fieri iudicia, quae fiunt per homines.</s>
 				</p>
 				<p>
-					<s n="120" xml:lang="la" type="auto">Mi Bullingere, ego ea expertus sum de istis spiritibus<note xml:id="fn37" type="footnote" n="37">Die Täufer in <placeName ref="place1049">Straßburg</placeName>.</note>, qui magistratus a caussa religionis submovere volunt, ut certo certior sim in domino nostro Iesu Christo eos vere satanae satellites hoc agere, ut disturbata societate ecclesiae et authoritate verbi labefactata regnum suum ille recuperet et posteriora nostra deteriora reddat prioribus.</s>
+					<s n="120" xml:lang="la" type="auto">Mi Bullingere, ego ea expertus sum de istis spiritibus<note xml:id="fn37" type="footnote" n="37">Die Täufer in <placeName>Straßburg</placeName>.</note>, qui magistratus a caussa religionis submovere volunt, ut certo certior sim in domino nostro Iesu Christo eos vere satanae satellites hoc agere, ut disturbata societate ecclesiae et authoritate verbi labefactata regnum suum ille recuperet et posteriora nostra deteriora reddat prioribus.</s>
 				</p>
 				<p>
-					<s n="121" xml:lang="la" type="auto">Turbat nonnihil bonos quosdam, quod apud vos studium magistratus in caussa religionis<note xml:id="fnm" type="footnote" n="m">in caussa religionis <hi>übergeschrieben.</hi></note> non optime cessit<note xml:id="fn38" type="footnote" n="38"><persName ref="person28">Bucer</persName> denkt wohl vor allem an die Niederlage Zürichs im Zweiten Kappelerkrieg und an das demütigende Ende des Mandatstreits (s. oben <ref target="file10245">[Nr. 214]</ref> S. 113, Anm. 12).</note>.</s>
+					<s n="121" xml:lang="la" type="auto">Turbat nonnihil bonos quosdam, quod apud vos studium magistratus in caussa religionis<note xml:id="fnm" type="footnote" n="m">in caussa religionis <hi>übergeschrieben.</hi></note> non optime cessit<note xml:id="fn38" type="footnote" n="38"><persName ref="p18198">Bucer</persName> denkt wohl vor allem an die Niederlage Zürichs im Zweiten Kappelerkrieg und an das demütigende Ende des Mandatstreits (s. oben <ref target="file10245">[Nr. 214]</ref> S. 113, Anm. 12).</note>.</s>
 					<s n="122" xml:lang="la" type="auto">Sed id certe inde non venit, quod religionem curarunt, sed quod aut non synceriter aut non iusta ratione curarunt.</s>
 					<s n="123" xml:lang="la" type="auto">Fateor et alias confessus sum, nos hic veritos, ne plus quaereretur a multis qualiscumque externa professio evangelii, id quod politicum evangelium esset, quam fides evangelii.</s>
 					<s n="124" xml:lang="la" type="auto">Non privatis solum, sed etiam magistratibus evangelium volentibus promovere summopere conandum, ut evangelium esse agnoscatur doctrina salutis, nusquam nihil quam hominum salutem querere.</s>
 				</p>
 				<p>
-					<s n="125" xml:lang="la" type="auto">Tum movet et illud, apud <placeName ref="place45">Moravos</placeName><note xml:id="fn39" type="footnote" n="39">Die Brüder in <placeName ref="place11">Böhmen</placeName> und <placeName ref="place45">Mähren</placeName>, deren «Rechenschaft des Glaubens» 1532 in Zürich, 1533 in <placeName ref="place1205">Wittenberg</placeName> gedruckt worden war (s. oben <ref target="file10257">[Nr. 226]</ref> S. 130, Anm. 5 und 6; unten S. 218, Anm. 43).</note> sine ope magistratus<note xml:id="fn40" type="footnote" n="40">Das sechste Kapitel der «Rechenschaft des Glaubens» handelt von der Obrigkeit (Zürcher Ausgabe 1532, f. 43r.-46r.). Darin wird jede Einmischung der Obrigkeit in geistliche Angelegenheiten abgelehnt, s. v. a. f. 44r.-v.</note><pb type="scan" next="||389"/> rem Christi melius habere quam apud nos, ubi magistratus operam adhibemus.</s>
+					<s n="125" xml:lang="la" type="auto">Tum movet et illud, apud <placeName>Moravos</placeName><note xml:id="fn39" type="footnote" n="39">Die Brüder in <placeName>Böhmen</placeName> und <placeName>Mähren</placeName>, deren «Rechenschaft des Glaubens» 1532 in Zürich, 1533 in <placeName>Wittenberg</placeName> gedruckt worden war (s. oben <ref target="file10257">[Nr. 226]</ref> S. 130, Anm. 5 und 6; unten S. 218, Anm. 43).</note> sine ope magistratus<note xml:id="fn40" type="footnote" n="40">Das sechste Kapitel der «Rechenschaft des Glaubens» handelt von der Obrigkeit (Zürcher Ausgabe 1532, f. 43r.-46r.). Darin wird jede Einmischung der Obrigkeit in geistliche Angelegenheiten abgelehnt, s. v. a. f. 44r.-v.</note><pb type="scan" next="||389"/> rem Christi melius habere quam apud nos, ubi magistratus operam adhibemus.</s>
 					<s n="126" xml:lang="la" type="auto">Quos istud argumentum impellet, velim vidissent illos coram.</s>
 					<s n="127" xml:lang="la" type="auto">Disciplina ecclesiae plurimum valet, sed indubie deprehenderent illos homines esse.</s>
 					<s n="128" xml:lang="la" type="auto">Deinde, cum regnum Christi usque ad fines orbis debeat propugnari et evangelium omni creaturae praedicari<note xml:id="fn41" type="footnote" n="41">Vgl. Mk 16, 15.</note>, nescio, quam constare possit ista separatio.</s>
@@ -276,10 +270,10 @@
 					<s n="132" xml:lang="la" type="auto">Iam gratia dei non impeditur gratia apud nos, sed peccatis.</s>
 					<s n="133" xml:lang="la" type="auto">Quod recte faciunt, magistratus gratia est.</s>
 					<s n="134" xml:lang="la" type="auto">Hoc nobis deest, disciplina ecclesiastica, a qua nos nostra socordia, non magistratus impedit.</s>
-					<s n="135" xml:lang="la" type="auto">Quis prohibet apud vos, quominus omnia faciatis, quae <placeName ref="place45">Moravi</placeName>?</s>
-					<s n="136" xml:lang="la" type="auto"><placeName ref="place45">Moravorum</placeName><note xml:id="fnn" type="footnote" n="n"><hi>von</hi> Moravorum <hi>bis</hi> editionis <hi>am Rande nachgetragen.</hi></note> quia memini, scitote illos scripsisse <placeName ref="place70">Augustam</placeName><note xml:id="fn42" type="footnote" n="42">Auf eine Anfrage des in <placeName ref="place70">Augsburg</placeName> wirkenden Predigers <persName ref="person1693">Wolfgang Musculus</persName> an die Böhmischen Brüder, welche der beiden Übersetzungen der «Rechenschaft des Glaubens» als die authentische zu gelten habe, hatten die Brüder am 14. August 1533 geantwortet. Diese Antwort ist als offizielle Verwerfung der Zürcher Ausgabe zu betrachten. Der Brief war nach <placeName ref="place1049">Straßburg</placeName> weitergeschickt worden, wo er noch erhalten ist (<placeName ref="place1049">Straßburg</placeName> Stadtarchiv, AST 161, 451f, <ref target="file10210">Nr. 179</ref>; Kopie: Zürich ZB, Ms S 34, Nr. 13; gedruckt bei F. M. <hi>Bartol,</hi> List Jednoty bratrské Volfgangu Muskulovi [= Der Brief der Brüderunität an <persName ref="person1693">Wolfgang Musculus</persName>], in: Reformacni sbornik, Prag 1934, S. 96f).</note> se vestram editionem libelli sui non agnoscere sed <placeName ref="place1205">Wittembergensem</placeName>; lapsum esse interpretem<note xml:id="fn43" type="footnote" n="43">Übersetzer der bei <persName ref="person891">Froschauer</persName> gedruckten Zürcher Ausgabe der «Rechenschaft des Glaubens» war <persName ref="person2458">Michael Weiße</persName>, ca. 1488-1534, der erste bedeutende Kirchenlieddichter für den deutschen Zweig der Brüderunität (s. Karl <hi>Dienst,</hi> in: RGG VI 1591). Seine Übertragung des böhmischen Urdrucks der «Rechenschaft» war fehlerhaft und enthielt eigene Zusätze. Besonders in der Abendmahlslehre fügte Weiße einige, seiner Neigung zum Zwinglianismus entsprechende Ausdrücke hinzu, s. WA XXXVIII 75f und Rudolf <hi>Rican,</hi> Die Böhmischen Brüder. Ihr Ursprung und ihre Geschichte, Berlin 1961, S. 102.</note> vestrae editionis<note xml:id="fno" type="footnote" n="o"><hi>von</hi> Moravorum <hi>bis</hi> editionis <hi>am Rande nachgetragen.</hi></note>.</s>
+					<s n="135" xml:lang="la" type="auto">Quis prohibet apud vos, quominus omnia faciatis, quae <placeName>Moravi</placeName>?</s>
+					<s n="136" xml:lang="la" type="auto"><placeName>Moravorum</placeName><note xml:id="fnn" type="footnote" n="n"><hi>von</hi> Moravorum <hi>bis</hi> editionis <hi>am Rande nachgetragen.</hi></note> quia memini, scitote illos scripsisse <placeName>Augustam</placeName><note xml:id="fn42" type="footnote" n="42">Auf eine Anfrage des in <placeName>Augsburg</placeName> wirkenden Predigers <persName>Wolfgang Musculus</persName> an die Böhmischen Brüder, welche der beiden Übersetzungen der «Rechenschaft des Glaubens» als die authentische zu gelten habe, hatten die Brüder am 14. August 1533 geantwortet. Diese Antwort ist als offizielle Verwerfung der Zürcher Ausgabe zu betrachten. Der Brief war nach <placeName>Straßburg</placeName> weitergeschickt worden, wo er noch erhalten ist (<placeName>Straßburg</placeName> Stadtarchiv, AST 161, 451f, <ref target="file10210">Nr. 179</ref>; Kopie: Zürich ZB, Ms S 34, Nr. 13; gedruckt bei F. M. <hi>Bartol,</hi> List Jednoty bratrské Volfgangu Muskulovi [= Der Brief der Brüderunität an <persName>Wolfgang Musculus</persName>], in: Reformacni sbornik, Prag 1934, S. 96f).</note> se vestram editionem libelli sui non agnoscere sed <placeName>Wittembergensem</placeName>; lapsum esse interpretem<note xml:id="fn43" type="footnote" n="43">Übersetzer der bei <persName ref="p5295">Froschauer</persName> gedruckten Zürcher Ausgabe der «Rechenschaft des Glaubens» war <persName>Michael Weiße</persName>, ca. 1488-1534, der erste bedeutende Kirchenlieddichter für den deutschen Zweig der Brüderunität (s. Karl <hi>Dienst,</hi> in: RGG VI 1591). Seine Übertragung des böhmischen Urdrucks der «Rechenschaft» war fehlerhaft und enthielt eigene Zusätze. Besonders in der Abendmahlslehre fügte Weiße einige, seiner Neigung zum Zwinglianismus entsprechende Ausdrücke hinzu, s. <bibl>WA</bibl> XXXVIII 75f und Rudolf <hi>Rican,</hi> Die Böhmischen Brüder. Ihr Ursprung und ihre Geschichte, Berlin 1961, S. 102.</note> vestrae editionis<note xml:id="fno" type="footnote" n="o"><hi>von</hi> Moravorum <hi>bis</hi> editionis <hi>am Rande nachgetragen.</hi></note>.</s>
 					<s n="137" xml:lang="la" type="manual">Iungant se perfectiores, attrahant alios.</s>
-					<s n="138" xml:lang="la" type="auto">Vere, vere, satan monasteria querit, pharisęos querit<note xml:id="fnp" type="footnote" n="p"><hi>Randbemerkung von <persName ref="person28">Bucers</persName> Hand:</hi> Augustinum, obsecro, legite de correctione Donatistarum et contra literas Petiliani.</note>.</s>
+					<s n="138" xml:lang="la" type="auto">Vere, vere, satan monasteria querit, pharisęos querit<note xml:id="fnp" type="footnote" n="p"><hi>Randbemerkung von <persName ref="p18198">Bucers</persName> Hand:</hi> Augustinum, obsecro, legite de correctione Donatistarum et contra literas Petiliani.</note>.</s>
 					<s n="139" xml:lang="la" type="auto"><pb type="scan" next="||390"/>Nos autem ita comparati sumus, ut quae nostra peccamus ignavia, semper in alia reiiciamus, et maxime nati sumus, ut velimus<note xml:id="fnq" type="footnote" n="q">ut velimus <hi>übergeschrieben.</hi></note> ordinationibus rebus consulere, cum oportebat fide et diligentia.</s>
 				</p>
 				<p>
@@ -291,7 +285,7 @@
 					<s n="145" xml:lang="la" type="auto">Si quid desideras, dabo alias.</s>
 					<s n="146" xml:lang="la" type="auto">Tu, mi Bullingere, facias autem mutuum et de tua sententia hic atque, quibus ea consistit, certiores reddas.</s>
 					<s n="147" xml:lang="la" type="auto">Dedit nobis dominus in caeteris concordem spiritum, cupiam videre, an et hic.</s>
-					<s n="148" xml:lang="la" type="auto">Non potest dici, ut tu te approbaris Constantiensibus<note xml:id="fn44" type="footnote" n="44">Über Bullingers Besuch in <placeName ref="place565">Konstanz</placeName> vom 5. bis 11. Oktober s. unten <ref target="file10310">[Nr. 279]</ref> S. 220, Anm. 15.</note> ob eandem concordiam.</s>
+					<s n="148" xml:lang="la" type="auto">Non potest dici, ut tu te approbaris Constantiensibus<note xml:id="fn44" type="footnote" n="44">Über Bullingers Besuch in <placeName>Konstanz</placeName> vom 5. bis 11. Oktober s. unten <ref target="file10310">[Nr. 279]</ref> S. 220, Anm. 15.</note> ob eandem concordiam.</s>
 					<s n="149" xml:lang="la" type="auto">Sic effuse hoc de te ut et reliquas virtutes praedicant.</s>
 					<s n="150" xml:lang="la" type="auto">Res vestras sic habere valde gaudeo.</s>
 					<s n="151" xml:lang="la" type="auto">Nos ne cessemus.</s>
@@ -301,10 +295,10 @@
 					<s n="153" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="154" xml:lang="la" type="auto"><placeName ref="place1049">Argentorati</placeName>, 29. octobris 1533.</s>
+					<s n="154" xml:lang="la" type="auto"><placeName>Argentorati</placeName>, 29. octobris 1533.</s>
 				</p>
 				<p>
-					<s n="155" xml:lang="la" type="auto">M. <persName ref="person28">Bucerus</persName> tuus.</s>
+					<s n="155" xml:lang="la" type="auto">M. <persName ref="p467">Bucerus</persName> tuus.</s>
 				</p>
 				<p>
 					<s n="156" xml:lang="la" type="auto">Non potui melius pingere.</s>

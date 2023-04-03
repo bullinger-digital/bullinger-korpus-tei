@@ -6,48 +6,39 @@
 				<title subtype="file">s.n. / Basel AN s.n. / [Zürich], 17. Juli 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=112</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">162</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 81,314.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Die Mitteilung der Zürcher über die Annäherung der <placeName ref="place1049">Straßburger</placeName>
-								Kirche an <persName ref="person138">Luther</persName> halten sie für eine voreilige und lieblose Vermutung.
-								Sie wollen sich in <placeName ref="place1049">Straßburg</placeName> Klarheit verschaffen und bitten die
+								Die Mitteilung der Zürcher über die Annäherung der <placeName>Straßburger</placeName>
+								Kirche an <persName ref="p1974">Luther</persName> halten sie für eine voreilige und lieblose Vermutung.
+								Sie wollen sich in <placeName>Straßburg</placeName> Klarheit verschaffen und bitten die
 								Zürcher um Zurückhaltung und Stillschweigen. Die Türken sind eine Geißel Gottes, darum sollte man, anstatt
 								dem Kaiser Militärhilfe gegen sie zu leisten, zuerst Buße und Besserung im eigenen Volk erwirken. Die
 								unmittelbare Gefahr dürfte ohnehin überschätzt werden.
@@ -58,19 +49,26 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 112, S.162</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10142">
 				<correspAction type="sent">
-					<roleName ref="role50" type="pl" role="Prediger" cert="high"/>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<roleName ref="g50" type="pl" role="Prediger" cert="high"/>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1532-07-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role50" type="pl" role="Prediger" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<roleName ref="g50" type="pl" role="Prediger" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10143"/>
@@ -89,7 +87,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -102,24 +100,24 @@
 					<s n="2" xml:lang="la" type="auto">Legimus literas vestras<note xml:id="fn1" type="footnote" n="1">Nicht erhalten.</note>, fratres charissimi, plane longas et inflammatiores nostro quidem videre quam pro charitatis spiritu<note xml:id="fn2" type="footnote" n="2">Vgl. 2 Tim 1,7.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Hic etenim lenior est neque tam suspicax, quam is est, ex quo vos scripsisse videmini.</s>
 					<s n="4" xml:lang="la" type="auto">Ex multis, quae novimus aperte, de Argentmensibus res omnino videtur aliter habere, quam vos suspicamini.</s>
-					<s n="5" xml:lang="la" type="auto">Nusquam enim descivisse a nobis vel subscripsisse <persName ref="person138">Luthero</persName> possumus animadvertere<note xml:id="fn3" type="footnote" n="3">Zur Frage der Annäherung der <placeName ref="place1049">Straßburger</placeName> an <persName ref="person138">Luther</persName> s. oben <ref target="file10139">[Nr. 109]</ref> S. 152,2-6 und Anm. 6.</note>.</s>
-					<s n="6" xml:lang="la" type="auto">Quodsi in prioribus ad vos hac de causa literis<note xml:id="fn4" type="footnote" n="4">Vgl. <persName ref="person28">Bucer</persName> an <persName ref="person114">Leo Jud</persName>, 23. Juni 1532, s. oben <ref target="file10140">[Nr. 110]</ref> S. 153, Anm. 1.</note> aliquid tale significaverunt, nobis non constat, ut a quibus hae lectae non fuerint.</s>
-					<s n="7" xml:lang="la" type="auto">In posterioribus vero, quas quidam ex nobis viderunt, liberum de libello vestro seu praefatione in <persName ref="person1902">Bertramum</persName><note xml:id="fn5" type="footnote" n="5">Siehe oben <ref target="file10135">Nr. 106</ref>.</note> iudicium deprehendimus, praeterea nihil.</s>
+					<s n="5" xml:lang="la" type="auto">Nusquam enim descivisse a nobis vel subscripsisse <persName ref="p1974">Luthero</persName> possumus animadvertere<note xml:id="fn3" type="footnote" n="3">Zur Frage der Annäherung der <placeName>Straßburger</placeName> an <persName ref="p18889">Luther</persName> s. oben <ref target="file10139">[Nr. 109]</ref> S. 152,2-6 und Anm. 6.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Quodsi in prioribus ad vos hac de causa literis<note xml:id="fn4" type="footnote" n="4">Vgl. <persName ref="p18198">Bucer</persName> an <persName ref="p2305">Leo Jud</persName>, 23. Juni 1532, s. oben <ref target="file10140">[Nr. 110]</ref> S. 153, Anm. 1.</note> aliquid tale significaverunt, nobis non constat, ut a quibus hae lectae non fuerint.</s>
+					<s n="7" xml:lang="la" type="auto">In posterioribus vero, quas quidam ex nobis viderunt, liberum de libello vestro seu praefatione in <persName ref="p18309">Bertramum</persName><note xml:id="fn5" type="footnote" n="5">Siehe oben <ref target="file10135">Nr. 106</ref>.</note> iudicium deprehendimus, praeterea nihil.</s>
 					<s n="8" xml:lang="la" type="auto">Hoc quidem an placeat necne, scribere non est praesentis loci.</s>
 					<s n="9" xml:lang="la" type="auto">Certe, quod per vos est aeditum, displicere plane non potest.</s>
-					<s n="10" xml:lang="la" type="auto">Inter caetera tamen et illud adiectum comperimus, de coena dominica eos<note xml:id="fn6" type="footnote" n="6">Nämlich die <placeName ref="place1049">Straßburger</placeName> Pfarrer.</note> poenitus sentire vobiscum<note xml:id="fn7" type="footnote" n="7">Vgl. den in Anm. 4 erwähnten Brief <persName ref="person28">Bucers</persName> an <persName ref="person114">Leo Jud</persName>.</note>, id quod tam nobis satisfecit, ut aliud non cogitaverimus.</s>
-					<s n="11" xml:lang="la" type="auto">Videtur certe longe aliud esse, quod in <persName ref="person138">Luthero</persName> dicuntur adprobasse.</s>
+					<s n="10" xml:lang="la" type="auto">Inter caetera tamen et illud adiectum comperimus, de coena dominica eos<note xml:id="fn6" type="footnote" n="6">Nämlich die <placeName>Straßburger</placeName> Pfarrer.</note> poenitus sentire vobiscum<note xml:id="fn7" type="footnote" n="7">Vgl. den in Anm. 4 erwähnten Brief <persName ref="p18198">Bucers</persName> an <persName ref="p2305">Leo Jud</persName>.</note>, id quod tam nobis satisfecit, ut aliud non cogitaverimus.</s>
+					<s n="11" xml:lang="la" type="auto">Videtur certe longe aliud esse, quod in <persName ref="p1974">Luthero</persName> dicuntur adprobasse.</s>
 					<s n="12" xml:lang="la" type="auto">Id tamen quia in praesens non probe constat, curabimus, ut certiores reddamur.</s>
 					<s n="13" xml:lang="la" type="auto">Tum vero diligentius omnia praesentis negocii diiudicabimus.</s>
 					<s n="14" xml:lang="la" type="auto">Illud interea fraterno petimus animo, caveatis pro virili, ne concepta suspicio in vulgus exeat.</s>
 					<s n="15" xml:lang="la" type="auto">Nam si vera sunt, quae suspicamini (quod absit) citius constabit, quam ut vel nobis vel verbo conducat.</s>
 					<s n="16" xml:lang="la" type="auto">Sin aliter, qui mali sermones de nobis futuri essent, non dubito quin exacte perpendatis.</s>
 					<s n="17" xml:lang="la" type="auto">Hoc constat, sive sit verum sive non, rem esse dissimulandam.</s>
-					<s n="18" xml:lang="la" type="auto">Convenimus inter nos, ut ab Argentinensibus petamus negocii totius certitudinem<note xml:id="fn8" type="footnote" n="8">Vgl. <persName ref="person154">Oswald Myconius</persName> an <persName ref="person40">Capito</persName>, 14. Juli 1532, Zürich ZB, Ms S 32, Nr. 68.</note>, ut, inquam, dicant, quid sibi sit rei cum <persName ref="person138">Luthero</persName>, vel an sit, quod ad hoc praesens negocium pertinet, in quo cum illo consentiant.</s>
+					<s n="18" xml:lang="la" type="auto">Convenimus inter nos, ut ab Argentinensibus petamus negocii totius certitudinem<note xml:id="fn8" type="footnote" n="8">Vgl. <persName>Oswald Myconius</persName> an <persName>Capito</persName>, 14. Juli 1532, Zürich ZB, Ms S 32, Nr. 68.</note>, ut, inquam, dicant, quid sibi sit rei cum <persName ref="p1974">Luthero</persName>, vel an sit, quod ad hoc praesens negocium pertinet, in quo cum illo consentiant.</s>
 					<s n="19" xml:lang="la" type="auto">Quod postquam cognovimus esse, ut vos suspicamini, nos rectum sequentes deseremus potius homines quam veritatem dei.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto"><pb type="edition" next="163"/>Sed si fuerit eorum mens, uti speramus, solida et firma in ea confessione<note xml:id="fn9" type="footnote" n="9">Gemeint ist die Confessio Tetrapolitana von 1530, BucerDS III 13-185; vgl. Robert <hi>Stupperich,</hi> in: RGG I 1860.</note>, quam hactenus tenuerunt, expendemus tunc tandem utriusque scripta exactius agemusque, quod viros christianos decebit.</s>
+					<s n="20" xml:lang="la" type="auto"><pb type="edition" next="163"/>Sed si fuerit eorum mens, uti speramus, solida et firma in ea confessione<note xml:id="fn9" type="footnote" n="9">Gemeint ist die Confessio Tetrapolitana von 1530, <bibl>BucerDS</bibl> III 13-185; vgl. Robert <hi>Stupperich,</hi> in: RGG I 1860.</note>, quam hactenus tenuerunt, expendemus tunc tandem utriusque scripta exactius agemusque, quod viros christianos decebit.</s>
 					<s n="21" xml:lang="la" type="auto">Quod dicimus, non quidem ad iudicandi rationem referetis (non altum sapimus<note xml:id="fn10" type="footnote" n="10">Vgl. Röm 11,20. 12,16.</note> enim), sed ad pietatem, per quam admonebimus, utra tandem partium videbitur aberrasse a scopo.</s>
 					<s n="22" xml:lang="la" type="auto">Per dominum Iesum precamur vos, fratres amantissimi, charitatis regulam<note xml:id="fn11" type="footnote" n="11">Vgl. Joh 13,34 u. par.</note> diligenter consideretis, ut iuxta illam, quicquid estis vel acturi vel scripturi, perficiatis, deinde autem malum expendatis suspicionum, quibus nihil peius esse potest inter homines, ne in hoc praecipitati aliquando et vobis et evangelio immedicabiliter noceatis.</s>
 					<s n="23" xml:lang="la" type="auto">Nam nos quidem deum orabimus, ut vel ab hoc malo nos servet in perpetuum.</s>
@@ -131,8 +129,8 @@
 					<s n="27" xml:lang="la" type="auto">Nostrum non erit resistere.</s>
 					<s n="28" xml:lang="la" type="auto">Caveat interim tamen, ne malum lateat.</s>
 					<s n="29" xml:lang="la" type="auto">Quamvis enim in hac nostra civitate bis iam admoniti simus a caesare, tamen nondum audimus quenquam, cui certum sit Turcam in armis esse.</s>
-					<s n="30" xml:lang="la" type="auto">Imo non solum nos incerti, sed etiam, qui versantur in his locis, quibus exercitus Turcae dicitur imminere<note xml:id="fn12" type="footnote" n="12">Über die kirchenpolitischen Aspekte des von <persName ref="person1332">Karl V.</persName> im Herbst 1532 ergebnislos geführten Türkenzuges s. <hi>Müller</hi> 195-197.223-229; ZU Bullingers Standpunkt vgl. unten S. 167, Anm. 5.</note>.</s>
-					<s n="31" xml:lang="la" type="auto"><persName ref="person2255">Sturmius</persName><note xml:id="fn13" type="footnote" n="13"><persName ref="person2255">Jakob Sturm</persName>, 1489-1553, studierte in <placeName ref="place465">Heidelberg</placeName> und <placeName ref="place367">Freiburg i. Br.</placeName>, wurde 1505 Magister artium, befaßte sich dann mit Theologie und Rechtswissenschaften. Nach anfänglich starken humanistischen Einflüssen wurde er ein überzeugter Anhänger der Reformation und Kampfgenosse <persName ref="person28">Bucers</persName>. Als Mitglied des Großen Rates 1524, später des Fünfzehner- und Dreizehnerkollegiums sowie als Stettmeister übte er einen entscheidenden Einfluß auf die Politik <placeName ref="place1049">Straßburgs</placeName> aus. In zahlreichen diplomatischen Missionen unterwegs und fast bei allen Reichstagen anwesend, spielte er bei der Gründung und Erhaltung des Schmalkaldischen Bundes eine wichtige Rolle. An verschiedenen Verhandlungen mit dem Kaiser maßgebend beteiligt, gelang es ihm nach der Niederlage von 1547, für <placeName ref="place1049">Straßburg</placeName> günstige Friedensbedingungen zu erreichen. Die Gründung des Gymnasiums von <placeName ref="place1049">Straßburg</placeName> 1538 war hauptsächlich sein Verdienst. Am Zustandekommen der Confessio Tetrapolitana und der <placeName ref="place1205">Wittenberger</placeName> Konkordie war er selbst beteiligt. Mit <persName ref="person265">Zwingli</persName> stand er in brieflicher Verbindung. - Lit.: Z X 237, Anm. 1 und Z XI, Reg.; Anton <hi>Schindling,</hi> Humanistische Hochschule und freie Reichsstadt. Gymnasium und Akademie in <placeName ref="place1049">Straßburg</placeName> 1538-1621, Wiesbaden 1977. -Veröffentlichungen des Instituts für Europäische Geschichte Mainz 77, Reg.; Otto <hi>Winckelmann,</hi> in: ADB XXXVII 5-20; Robert <hi>Stupperich,</hi> in: RGG VI 438.</note> enim Argentinensis ille superioribus diebus ex <placeName ref="place880">Ratispona</placeName> scripsit rumorem esse apud se Turcam in dies magis magisque crescere etc.</s>
+					<s n="30" xml:lang="la" type="auto">Imo non solum nos incerti, sed etiam, qui versantur in his locis, quibus exercitus Turcae dicitur imminere<note xml:id="fn12" type="footnote" n="12">Über die kirchenpolitischen Aspekte des von <persName>Karl V.</persName> im Herbst 1532 ergebnislos geführten Türkenzuges s. <bibl>Müller</bibl> 195-197.223-229; ZU Bullingers Standpunkt vgl. unten S. 167, Anm. 5.</note>.</s>
+					<s n="31" xml:lang="la" type="auto"><persName ref="p6733">Sturmius</persName><note xml:id="fn13" type="footnote" n="13"><persName>Jakob Sturm</persName>, 1489-1553, studierte in <placeName>Heidelberg</placeName> und <placeName>Freiburg i. Br.</placeName>, wurde 1505 Magister artium, befaßte sich dann mit Theologie und Rechtswissenschaften. Nach anfänglich starken humanistischen Einflüssen wurde er ein überzeugter Anhänger der Reformation und Kampfgenosse <persName ref="p18198">Bucers</persName>. Als Mitglied des Großen Rates 1524, später des Fünfzehner- und Dreizehnerkollegiums sowie als Stettmeister übte er einen entscheidenden Einfluß auf die Politik <placeName>Straßburgs</placeName> aus. In zahlreichen diplomatischen Missionen unterwegs und fast bei allen Reichstagen anwesend, spielte er bei der Gründung und Erhaltung des Schmalkaldischen Bundes eine wichtige Rolle. An verschiedenen Verhandlungen mit dem Kaiser maßgebend beteiligt, gelang es ihm nach der Niederlage von 1547, für <placeName>Straßburg</placeName> günstige Friedensbedingungen zu erreichen. Die Gründung des Gymnasiums von <placeName>Straßburg</placeName> 1538 war hauptsächlich sein Verdienst. Am Zustandekommen der Confessio Tetrapolitana und der <placeName>Wittenberger</placeName> Konkordie war er selbst beteiligt. Mit <persName>Zwingli</persName> stand er in brieflicher Verbindung. - Lit.: <bibl>Z</bibl> X 237, Anm. 1 und <bibl>Z</bibl> XI, Reg.; Anton <hi>Schindling,</hi> Humanistische Hochschule und freie Reichsstadt. Gymnasium und Akademie in <placeName>Straßburg</placeName> 1538-1621, Wiesbaden 1977. -Veröffentlichungen des Instituts für Europäische Geschichte Mainz 77, Reg.; Otto <hi>Winckelmann,</hi> in: <bibl>ADB</bibl> XXXVII 5-20; Robert <hi>Stupperich,</hi> in: RGG VI 438.</note> enim Argentinensis ille superioribus diebus ex <placeName>Ratispona</placeName> scripsit rumorem esse apud se Turcam in dies magis magisque crescere etc.</s>
 					<s n="32" xml:lang="la" type="auto">Hic dicit rumorem esse, nos evocamur, tanquam iam cęsaris urbes invaserit.</s>
 					<s n="33" xml:lang="la" type="auto">Orandum itaque putamus deum, ut «Turcam» occidat, qui in carne est.</s>
 					<s n="34" xml:lang="la" type="auto">Tum procul dubio erit, qui vel funda prosternet, si quis haereditatem domini pessundare conabitur<note xml:id="fn14" type="footnote" n="14">Vgl. 1 Sam 17,40ff.</note>.</s>
@@ -143,10 +141,10 @@
 					<s n="37" xml:lang="la" type="auto">Orate deum pro nobis mutuo.</s>
 				</p>
 				<p>
-					<s n="38" xml:lang="la" type="auto"><pb type="edition" next="164"/><placeName ref="place97">Basileae</placeName>, 17. iulii anno 1532.</s>
+					<s n="38" xml:lang="la" type="auto"><pb type="edition" next="164"/><placeName>Basileae</placeName>, 17. iulii anno 1532.</s>
 				</p>
 				<p>
-					<s n="39" xml:lang="la" type="auto">Praecones verbi divini apud <placeName ref="place97">Basileam</placeName> vestri.</s>
+					<s n="39" xml:lang="la" type="auto">Praecones verbi divini apud <placeName>Basileam</placeName> vestri.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

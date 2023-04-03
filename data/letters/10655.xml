@@ -6,54 +6,44 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 15. Juli 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=617</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">282</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,144r-v</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Zitiert aus <persName ref="person40">Capitos</persName> unbefriedigender Antwort auf die von ihm
+								Zitiert aus <persName ref="p5565">Capitos</persName> unbefriedigender Antwort auf die von ihm
 								geäußerten Zweifel bezüglich einer [Abendmahls-] Konkordie mit den Lutheranern. Läßt
-								<persName ref="person40">Capitos</persName> Einwand nicht gelten, eine von
-								<persName ref="person154">Myconius</persName> getadelte Stelle aus
-								<persName ref="person779">Erasmus</persName>' ["Ecclesiastes"] entspreche der Ausdrucksweise der Väter, und
+								<persName ref="p5565">Capitos</persName> Einwand nicht gelten, eine von
+								<persName ref="p8418">Myconius</persName> getadelte Stelle aus
+								<persName ref="p18722">Erasmus</persName>' ["Ecclesiastes"] entspreche der Ausdrucksweise der Väter, und
 								bringt weitere Zitate aus der umstrittenen Schrift bei. Hat eher widerwillig einen Beschluß zur Erneuerung
-								der Universität mitgetragen. Der Streit mit <persName ref="person117">Karlstadt</persName> ist beigelegt;
-								unvorsichtige Äußerungen, wie sie Leo
-								[<persName ref="person114">Jud</persName>] getan hat, erwecken jedoch neuen Argwohn und sollten deshalb
+								der Universität mitgetragen. Der Streit mit <persName ref="p4349">Karlstadt</persName> ist beigelegt;
+								unvorsichtige Äußerungen, wie sie <persName ref="p1753">Leo [Jud]</persName> getan hat, erwecken jedoch neuen Argwohn und sollten deshalb
 								unterbleiben.
 							</p>
 						</summary>
@@ -61,13 +51,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 617, S.282</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10655">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -78,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1535-07-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -117,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,19 +126,19 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Ut desperarim de concordia Lutherana, superioribus diebus scripsi ad <persName ref="person40">Capitonem</persName><note xml:id="fn1" type="footnote" n="1">Weder der Brief von <persName ref="person154">Myconius</persName> noch <persName ref="person40">Capitos</persName> Antwort ist erhalten.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Respondit hic meo quidem iudicio tam infantiliter, ut literas darem d. <persName ref="person81">Grynęo</persName> ad legendum, si forte non intelligerem, quę scripsisset ille, verum <persName ref="person81">Grynęus</persName> nihilo secius quam ego sensit.</s>
-					<s n="4" xml:lang="la" type="auto">Unum tantum dicam: "Corporalem, inquis, adserit <persName ref="person138">Lutherus</persName> praesentiam.</s>
+					<s n="2" xml:lang="la" type="auto">Ut desperarim de concordia Lutherana, superioribus diebus scripsi ad <persName ref="p5565">Capitonem</persName><note xml:id="fn1" type="footnote" n="1">Weder der Brief von <persName>Myconius</persName> noch <persName>Capitos</persName> Antwort ist erhalten.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Respondit hic meo quidem iudicio tam infantiliter, ut literas darem d. <persName ref="p1365">Grynęo</persName> ad legendum, si forte non intelligerem, quę scripsisset ille, verum <persName ref="p1365">Grynęus</persName> nihilo secius quam ego sensit.</s>
+					<s n="4" xml:lang="la" type="auto">Unum tantum dicam: "Corporalem, inquis, adserit <persName ref="p1974">Lutherus</persName> praesentiam.</s>
 					<s n="5" xml:lang="la" type="auto">Quid tum?</s>
 					<s n="6" xml:lang="la" type="auto">An non et divinitas corporaliter in Christo inhabitat<note xml:id="fn2" type="footnote" n="2">Kol 2,9.</note>?</s>
 					<s n="7" xml:lang="la" type="auto">Corporalitas igitur non semper mathematica est; invenitur coelestis ac divina."</s>
-					<s n="8" xml:lang="la" type="auto">Vide, quid dicat, tanquam <persName ref="person138">Lutherus</persName> hoc velit quod <persName ref="person40">Capito</persName> et non potius corporaliter intelligat essentialiter et realiter.</s>
+					<s n="8" xml:lang="la" type="auto">Vide, quid dicat, tanquam <persName ref="p1974">Lutherus</persName> hoc velit quod <persName ref="p5565">Capito</persName> et non potius corporaliter intelligat essentialiter et realiter.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">De <persName ref="person779">Erasmi</persName> vero sententia, quę tibi quoque tolerabilis videtur<note xml:id="fn3" type="footnote" n="3">Siehe oben <ref target="file10640">Nr. 602</ref>, 10-21.</note>, monet, ne quid temere.</s>
+					<s n="9" xml:lang="la" type="auto">De <persName ref="p18722">Erasmi</persName> vero sententia, quę tibi quoque tolerabilis videtur<note xml:id="fn3" type="footnote" n="3">Siehe oben <ref target="file10640">Nr. 602</ref>, 10-21.</note>, monet, ne quid temere.</s>
 					<s n="10" xml:lang="la" type="auto">Dicit formam loquendi illam esse patrum, nobis imitandam, nedum non tolerandam.</s>
-					<s n="11" xml:lang="la" type="auto">Principio non contendo de formula legendi vel tacendi, sed de verbis <persName ref="person779">Erasmi</persName>, ut recipiantur olim ab adversariis.</s>
-					<s n="12" xml:lang="la" type="auto">Deinde, si patrum nunquam meminissemus in negocio coenę, credo <persName ref="person138">Lutherum</persName> iam victum.</s>
+					<s n="11" xml:lang="la" type="auto">Principio non contendo de formula legendi vel tacendi, sed de verbis <persName ref="p18722">Erasmi</persName>, ut recipiantur olim ab adversariis.</s>
+					<s n="12" xml:lang="la" type="auto">Deinde, si patrum nunquam meminissemus in negocio coenę, credo <persName ref="p1974">Lutherum</persName> iam victum.</s>
 					<s n="13" xml:lang="la" type="auto">Quia vero ad patres hic et alibi relabimur, vereor ruinam gravissimam.</s>
 					<s n="14" xml:lang="la" type="auto">Nec est, ut quispiam dicat: Recipimus, ubi nobiscum sentiunt.</s>
 					<s n="15" xml:lang="la" type="auto">Haec est enim obiectio papistarum: Ubi placent, recipiunt, ubi displicent, reiiciunt.</s>
@@ -149,16 +146,16 @@
 					<s n="17" xml:lang="la" type="auto">Victores igitur aliquando abibunt papistę.</s>
 					<s n="18" xml:lang="la" type="auto">Recipimus patres, quia sentiunt cum verbo dei et ut verbum dei continet.</s>
 					<s n="19" xml:lang="la" type="auto">Quidni igitur contendimus cum verbo potius?</s>
-					<s n="20" xml:lang="la" type="auto">Sed hęc frustranea de <persName ref="person779">Erasmo</persName>.</s>
+					<s n="20" xml:lang="la" type="auto">Sed hęc frustranea de <persName ref="p18722">Erasmo</persName>.</s>
 					<s n="21" xml:lang="la" type="auto">Ipsum audi, ut alibi dicat: "In ecclesiastica hierarchia summa est episcoporum dignitas.</s>
-					<s n="22" xml:lang="la" type="auto">Quorum cum multę sint functiones, in queis praecipuę sunt administratio sacramentorum et doctrina spiritualis, in fastigio dignitatis versatur, quoties animos populi pascit carne et sanguine Christi, quod est verbum dei."<note xml:id="fn4" type="footnote" n="4">LB V 801.</note></s>
-					<s n="23" xml:lang="la" type="manual">Et alibi: "Mystica siquidem scriptura panis est vivus, qui de coelo descendit, qui sumentibus confert vitam ęternam."<note xml:id="fn5" type="footnote" n="5">LB V 826.</note></s>
+					<s n="22" xml:lang="la" type="auto">Quorum cum multę sint functiones, in queis praecipuę sunt administratio sacramentorum et doctrina spiritualis, in fastigio dignitatis versatur, quoties animos populi pascit carne et sanguine Christi, quod est verbum dei."<note xml:id="fn4" type="footnote" n="4"><bibl>LB</bibl> V 801.</note></s>
+					<s n="23" xml:lang="la" type="manual">Et alibi: "Mystica siquidem scriptura panis est vivus, qui de coelo descendit, qui sumentibus confert vitam ęternam."<note xml:id="fn5" type="footnote" n="5"><bibl>LB</bibl> V 826.</note></s>
 					<s n="24" xml:lang="la" type="manual">Et paulo postea: "Denique scriptura est illa caro Christi, vere cibus, est sanguis Christi, vere potus, unde nisi quotidie per ecclesiastas saginentur ac reficiantur populi corda, vitam tueri non<pb type="edition" next="283"/> possunt, vitam, inquam, veram" etc<note xml:id="fn6" type="footnote" n="6">Ebenda.</note>.</s>
 					<s n="25" xml:lang="la" type="auto">Quid facias huic versipelli?</s>
 					<s n="26" xml:lang="la" type="auto">Cogor tolerare, quod scribit sine patribus, dum sic vulpinatur!</s>
 				</p>
 				<p>
-					<s n="27" xml:lang="la" type="auto">Pręterea in hoc sumus toti, ut instauretur universitas nostra<note xml:id="fn7" type="footnote" n="7"><persName ref="person154">Myconius</persName> bezieht sich in diesem Abschnitt auf eine gleichentags abgehaltene Regenzsitzung, an welcher in seinem Beisein über ein Gutachten <persName ref="person6">Amerbachs</persName> zur Erneuerung der Universität Beschluß gefaßt wurde; vgl. Theophil <hi>Burckhardt-Biedermann,</hi> Die Erneuerung der Universität zu <placeName ref="place97">Basel</placeName> in den Jahren 1529-1539, in: Beiträge zur vaterländischen Geschichte, hg. von der Historischen und Antiquarischen Gesellschaft zu <placeName ref="place97">Basel</placeName>, NF IV, 1896, S. 424-448.</note>.</s>
+					<s n="27" xml:lang="la" type="auto">Pręterea in hoc sumus toti, ut instauretur universitas nostra<note xml:id="fn7" type="footnote" n="7"><persName>Myconius</persName> bezieht sich in diesem Abschnitt auf eine gleichentags abgehaltene Regenzsitzung, an welcher in seinem Beisein über ein Gutachten <persName ref="p8422">Amerbachs</persName> zur Erneuerung der Universität Beschluß gefaßt wurde; vgl. Theophil <hi>Burckhardt-Biedermann,</hi> Die Erneuerung der Universität zu <placeName>Basel</placeName> in den Jahren 1529-1539, in: Beiträge zur vaterländischen Geschichte, hg. von der Historischen und Antiquarischen Gesellschaft zu <placeName>Basel</placeName>, NF IV, 1896, S. 424-448.</note>.</s>
 					<s n="28" xml:lang="la" type="auto">Nescio, quid tandem fiat.</s>
 					<s n="29" xml:lang="la" type="auto">Disputamus, satisne foret, si lectiones bonarum literarum, philosophię, honestarum artium ac professionum praelegantur, uti sit apud vos, apud Argentinenses, apud Nurenbergenses et alibi, an sit honestius formam universitatis servare gradibus, disputationibus, privilegiis nescio quibus et si quid est tale, adiunctis.</s>
 					<s n="30" xml:lang="la" type="auto">Concludimus universitatem servandam, etiam dum omnis facultas est a papa per cęsarem.</s>
@@ -166,16 +163,16 @@
 					<s n="32" xml:lang="la" type="auto">Haec in sinum tibi.</s>
 				</p>
 				<p>
-					<s n="33" xml:lang="la" type="auto">Ad postremum obtestor te tuosque omnes, ne quid ad nos, in primis vero ad illum<note xml:id="fn8" type="footnote" n="8"><persName ref="person117">Andreas Karlstadt</persName>.</note>, scribatis vel<note xml:id="fna" type="footnote" n="a"><hi>zu ergänzen:</hi> de <hi>(fehlt vielleicht wegen Beschädigung des Randes).</hi></note> discordia vel concordia nostra.</s>
+					<s n="33" xml:lang="la" type="auto">Ad postremum obtestor te tuosque omnes, ne quid ad nos, in primis vero ad illum<note xml:id="fn8" type="footnote" n="8"><persName>Andreas Karlstadt</persName>.</note>, scribatis vel<note xml:id="fna" type="footnote" n="a"><hi>zu ergänzen:</hi> de <hi>(fehlt vielleicht wegen Beschädigung des Randes).</hi></note> discordia vel concordia nostra.</s>
 					<s n="34" xml:lang="la" type="auto">Nam dum scribitis, omnis suspicio in me recumbit, tanquam ego vos excitem.</s>
-					<s n="35" xml:lang="la" type="auto">Scripsit nuper ex vobis quidam<note xml:id="fn9" type="footnote" n="9"><persName ref="person114">Leo Jud</persName> (vgl. unten Z. 551): sein Brief ist nicht erhalten.</note> se libenter visitaturum <placeName ref="place97">Basileam</placeName>, ni vereretur, ne plus tristiciae quam lęticię sibi futurum ex<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> ex <hi>gestrichenes</hi> inde.</note> dissensione <persName ref="person154">Myconii</persName> et <persName ref="person117">Carolstadii</persName> cooriretur.</s>
+					<s n="35" xml:lang="la" type="auto">Scripsit nuper ex vobis quidam<note xml:id="fn9" type="footnote" n="9"><persName ref="p2305">Leo Jud</persName> (vgl. unten Z. 551): sein Brief ist nicht erhalten.</note> se libenter visitaturum <placeName>Basileam</placeName>, ni vereretur, ne plus tristiciae quam lęticię sibi futurum ex<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> ex <hi>gestrichenes</hi> inde.</note> dissensione <persName ref="p8418">Myconii</persName> et <persName ref="p4349">Carolstadii</persName> cooriretur.</s>
 					<s n="36" xml:lang="la" type="auto">Lectę sunt litere<pb type="scan" next="||144v."/> inter bonos viros ad nornen dissensionis omnino stupentes, ut qui putara[nt]<note xml:id="fnc" type="footnote" n="c"><hi>Rand beschädigt.</hi></note> iam olim sopita, ut sunt, omnia.</s>
 					<s n="37" xml:lang="la" type="auto">Dolet certe scrupulum iniici, ubi nihil erat amplius scrupuli.</s>
 					<s n="38" xml:lang="la" type="auto">Non est dissensio, nisi quam tales excitant, ut d[e]<note xml:id="fnd" type="footnote" n="d"><hi>Rand beschädigt.</hi></note> novo puta sit, quod non est.</s>
-					<s n="39" xml:lang="la" type="auto">Vexant me viri specie tenus amici illis auditis: "Quid, si quando invitares ad te <persName ref="person117">Carolostadium</persName>, ut palam esset nullas inter vos esse inimicicias?</s>
+					<s n="39" xml:lang="la" type="auto">Vexant me viri specie tenus amici illis auditis: "Quid, si quando invitares ad te <persName ref="p4349">Carolostadium</persName>, ut palam esset nullas inter vos esse inimicicias?</s>
 					<s n="40" xml:lang="la" type="auto">Id enim nisi feceris, dabit ea res aliquando malum."</s>
 					<s n="41" xml:lang="la" type="manual">Ego: "Quid vos<note xml:id="fne" type="footnote" n="e">vos <hi>über gestrichenem</hi> tu.</note> de discordia et inimiciciis nostris, quibus de mihi nihil constat?</s>
-					<s n="42" xml:lang="la" type="auto">Si <persName ref="person117">Carolstadius</persName> habet aliquid contra me, dicat; in me non est, quod conquerar.</s>
+					<s n="42" xml:lang="la" type="auto">Si <persName ref="p4349">Carolstadius</persName> habet aliquid contra me, dicat; in me non est, quod conquerar.</s>
 					<s n="43" xml:lang="la" type="auto">Quod non invito, cum reliquis habet commune.</s>
 					<s n="44" xml:lang="la" type="auto">Non omnibus convenit cum mensa mea."</s>
 					<s n="45" xml:lang="la" type="auto">Interim constitui dissimilare omnia.</s>
@@ -190,13 +187,13 @@
 					<s n="52" xml:lang="la" type="auto"><pb type="edition" next="284"/>Vale per Christum cum tuis.</s>
 				</p>
 				<p>
-					<s n="53" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, 15. iulii anno 35.</s>
+					<s n="53" xml:lang="la" type="auto"><placeName>Basileę</placeName>, 15. iulii anno 35.</s>
 				</p>
 				<p>
 					<s n="54" xml:lang="la" type="auto">Os. Myc. tuus.</s>
 				</p>
 				<p>
-					<s n="55" xml:lang="la" type="auto">Commendo tibi sororem hanc meam et sororium<note xml:id="fn10" type="footnote" n="10">Gemeint sind wahrscheinlich Hans und <persName ref="person2099">Anna Schröter</persName>-Geißhüsler, vgl.: Die Chronik des Bernhard Wyss, 1519-1530, hg. v. Georg Finsler, <placeName ref="place97">Basel</placeName> 1901. -Quellen zur Schweizerischen Reformationsgeschichte I, S. 28, Anm. 1.</note>.</s>
+					<s n="55" xml:lang="la" type="auto">Commendo tibi sororem hanc meam et sororium<note xml:id="fn10" type="footnote" n="10">Gemeint sind wahrscheinlich Hans und <persName>Anna Schröter</persName>-Geißhüsler, vgl.: Die Chronik des Bernhard Wyss, 1519-1530, hg. v. Georg Finsler, <placeName>Basel</placeName> 1901. -Quellen zur Schweizerischen Reformationsgeschichte I, S. 28, Anm. 1.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>

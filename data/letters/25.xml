@@ -6,32 +6,31 @@
 				<title subtype="file">Ambrosius Blarer / Konstanz AN Heinrich Bullinger / Zürich, 31. Januar 1548</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">748</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,292</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW II, S. 682f</title>
+								<title>Blarer BW II, S.682f</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -51,14 +50,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 66,38</idno>
 					</msIdentifier>
 				</msDesc>
@@ -67,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/25">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -78,11 +77,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1548-01-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -92,7 +91,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file26"/>
@@ -119,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -146,7 +145,7 @@
 					<s n="8" xml:lang="la" type="auto">In plęrisque locis Otthonis Palatini missa ista papistica rursus emersit, quandoquidem ea ditio nunc principi Baioarię a Cęsare est donata, quamquam est Otthoni spes nonnulla illius recuperandę aperta, si aliter, quę religionis sunt, reformari ferat etc., cuius rei caussa exhaustus princeps apud pie eruditos consilia captat seque vehementer torquet.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="auto">Sein land ist noch um 700000 fl. versetzt; aber yetz, so es in ain ander hand kommen, mandiert der kaiser de plenitudine potestatis, das kain creditor ainchen bürgen, sonder allain h[ertzog] Ott Hainrichen selbs um die schuld anforderen sölle by verlierung seiner schuld etc.</s>
+					<s n="9" xml:lang="de" type="auto">Sein land ist noch um 700000 fl. versetzt; aber yetz, so es in ain ander hand kommen, mandiert der kaiser <foreign xml:lang="la">de plenitudine potestatis,</foreign> das kain creditor ainchen bürgen, sonder allain h[ertzog] Ott Hainrichen selbs um die schuld anforderen sölle by verlierung seiner schuld etc.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="de" type="auto">Zuͦ Ravenspurg hat man yetzund die kaiserlichen mandat wider unß ouch verkündt und ettlich anderen mehr orten, das wir uns nitt gnuͦg verwunderen können, wa es doch mitt uns hinuß welle.</s>

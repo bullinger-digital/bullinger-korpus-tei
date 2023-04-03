@@ -6,55 +6,45 @@
 				<title subtype="file">Simon Grynäus / [Basel] AN Heinrich Bullinger, [27.] März 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=979</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">119</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,204</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet, sich für den Verbleib von [Johannes]
-								<persName ref="person69">Fries</persName> in <placeName ref="place97">Basel</placeName> einzusetzen,
+								Bittet, sich für den Verbleib von <persName ref="p4844">[Johannes] Fries</persName> in <placeName>Basel</placeName> einzusetzen,
 								bis für diesen ein Ersatz gefunden werden kann. Über die Konkordiengespräche in
-								<placeName ref="place958">Schmalkalden</placeName>, wo der Bundestag den
+								<placeName>Schmalkalden</placeName>, wo der Bundestag den
 								Papst und sein Konzil klar verurteilt und die Türkenhilfe abgelehnt
-								hat, wird <placeName ref="place1049">Straßburg</placeName> berichten; soweit als möglich muß schon jetzt
+								hat, wird <placeName>Straßburg</placeName> berichten; soweit als möglich muß schon jetzt
 								der Zusammenhalt [der Protestanten] verbessert werden. Warnt unter Hinweis auf die Vorgänge in
-								<placeName ref="place121">Bern</placeName> vor scharfem Auftreten gegen
-								<persName ref="person28">Bucer</persName>, da dies die Einigung gefährden könnte. Was
-								<persName ref="person247">Melchior [Wirz]</persName> betrifft, wird
+								<placeName>Bern</placeName> vor scharfem Auftreten gegen
+								<persName ref="p467">Bucer</persName>, da dies die Einigung gefährden könnte. Was
+								<persName ref="p8465">Melchior [Wirz]</persName> betrifft, wird
 								dieser selbst berichten.
 							</p>
 						</summary>
@@ -62,13 +52,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 979, S.119</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11021">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -78,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1537-03-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,7 +125,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Est valde incommodum dimittere Phrysium nunc<note xml:id="fn2" type="footnote" n="2">Vgl. das von <persName ref="person154">Myconius</persName> im Auftrag der Universität abgefaßte Schreiben (oben <ref target="file11018">Nr. 976</ref>), das den Verzicht auf die Abberufung von <persName ref="person69">Johannes Fries</persName> erwirken sollte.</note>; amant hominem no[stri]<note xml:id="fna" type="footnote" n="a"><hi>Text beim Entfernen des Siegels</hi> beschädigt.</note> omnes singulariter et vehementer ex eo proficiunt, nec est quisquam nunc, quem sufficere in locum eius queamus.</s>
+					<s n="2" xml:lang="la" type="auto">Est valde incommodum dimittere Phrysium nunc<note xml:id="fn2" type="footnote" n="2">Vgl. das von <persName>Myconius</persName> im Auftrag der Universität abgefaßte Schreiben (oben <ref target="file11018">Nr. 976</ref>), das den Verzicht auf die Abberufung von <persName>Johannes Fries</persName> erwirken sollte.</note>; amant hominem no[stri]<note xml:id="fna" type="footnote" n="a"><hi>Text beim Entfernen des Siegels</hi> beschädigt.</note> omnes singulariter et vehementer ex eo proficiunt, nec est quisquam nunc, quem sufficere in locum eius queamus.</s>
 					<s n="3" xml:lang="la" type="auto">Itaque omnia nobis consilia nostra redditis ancipitia.</s>
 					<s n="4" xml:lang="la" type="auto">Quodsi quid ego apud vos precibus valerem, valde rogarem vos, illam provinciam alteri mandaretis vel aliquantisper saltem, dum pro alio circumspicimus.</s>
 					<s n="5" xml:lang="la" type="auto">Nec illa ad vos scriberem, nisi compelleret necessitas.</s>
@@ -137,18 +134,18 @@
 					<s n="8" xml:lang="la" type="auto">Itaque te rogo, si quid apud illos<note xml:id="fn4" type="footnote" n="4">Gemeint ist der Zürcher Rat.</note> potes, effice, ut maneat.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">De comitiis Smalckhaldensibus et concordię nostrae tractatione omnia mox ad unguem<note xml:id="fn5" type="footnote" n="5">Vgl. Adagia, 1, 5, 91 (LB II 216f).</note> intelligetis; scribet enim fuse senatus Argentinensium omnia ad senatum vestrum<note xml:id="fn6" type="footnote" n="6"><placeName ref="place1049">Straßburg</placeName> sandte am 2. April umfangreiche Akten über die Verhandlungen des Schmalkaldischen Bundestags mit der Bitte um Weiterleitung nach <placeName ref="place97">Basel</placeName>. Von dort wurden sie am 17. April in Abschrift nach Zürich übermittelt; s. unten <ref target="file11043">Nr. 1001</ref>, Anm. 2.</note>.</s>
-					<s n="10" xml:lang="la" type="auto"><persName ref="person1332">Caesaris</persName> et pontificis postulatis summa cum libertate sic responsum est<note xml:id="fn7" type="footnote" n="7">Zu den Antworten an Kaiser <persName ref="person1332">Karl V.</persName> und <persName ref="person1792">Papst Paul III.</persName> vgl. oben <ref target="file11013">Nr. 971</ref>, Anm. 3, bzw. <ref target="file11017">Nr. 975</ref>, Anm. 6.</note>, ut non credam gravius<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> gravius <hi>gestrichenes</hi> vel[?].</note> potuisse.</s>
-					<s n="11" xml:lang="la" type="auto"><persName ref="person1792">Pontifex</persName> palam antichristus et concilium, quod molitur, evangelii proditio ac eversio summo<pb type="edition" next="120"/><note xml:id="fne" type="footnote" n="e"><hi>vor</hi> summo <hi>gestrichenes</hi> coram.</note> tocius comitii consensu pronunciatum<note xml:id="fnf" type="footnote" n="f"><hi>in der Vorlage</hi> pronucciatum.</note> est idque legatione utriusque<note xml:id="fn8" type="footnote" n="8"><persName ref="person1144">Matthias Held</persName> und <persName ref="person2415">Peter van der Vorst</persName> (s. ebd.).</note> presente.</s>
+					<s n="9" xml:lang="la" type="auto">De comitiis Smalckhaldensibus et concordię nostrae tractatione omnia mox ad unguem<note xml:id="fn5" type="footnote" n="5">Vgl. Adagia, 1, 5, 91 (<bibl>LB</bibl> II 216f).</note> intelligetis; scribet enim fuse senatus Argentinensium omnia ad senatum vestrum<note xml:id="fn6" type="footnote" n="6"><placeName>Straßburg</placeName> sandte am 2. April umfangreiche Akten über die Verhandlungen des Schmalkaldischen Bundestags mit der Bitte um Weiterleitung nach <placeName>Basel</placeName>. Von dort wurden sie am 17. April in Abschrift nach Zürich übermittelt; s. unten <ref target="file11043">Nr. 1001</ref>, Anm. 2.</note>.</s>
+					<s n="10" xml:lang="la" type="auto"><persName ref="p18538">Caesaris</persName> et pontificis postulatis summa cum libertate sic responsum est<note xml:id="fn7" type="footnote" n="7">Zu den Antworten an <persName>Kaiser Karl V.</persName> und <persName>Papst Paul III.</persName> vgl. oben <ref target="file11013">Nr. 971</ref>, Anm. 3, bzw. <ref target="file11017">Nr. 975</ref>, Anm. 6.</note>, ut non credam gravius<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> gravius <hi>gestrichenes</hi> vel[?].</note> potuisse.</s>
+					<s n="11" xml:lang="la" type="auto"><persName ref="p18571">Pontifex</persName> palam antichristus et concilium, quod molitur, evangelii proditio ac eversio summo<pb type="edition" next="120"/><note xml:id="fne" type="footnote" n="e"><hi>vor</hi> summo <hi>gestrichenes</hi> coram.</note> tocius comitii consensu pronunciatum<note xml:id="fnf" type="footnote" n="f"><hi>in der Vorlage</hi> pronucciatum.</note> est idque legatione utriusque<note xml:id="fn8" type="footnote" n="8"><persName>Matthias Held</persName> und <persName>Peter van der Vorst</persName> (s. ebd.).</note> presente.</s>
 					<s n="12" xml:lang="la" type="auto">Equidem quid expectandum nobis deinde sit, licet facile coniicere.</s>
-					<s n="13" xml:lang="la" type="auto">N[ega]tum<note xml:id="fng" type="footnote" n="g"><hi>Text beim Entfernen des Siegels beschädigt.</hi></note> est subsidium in Turcam<note xml:id="fn9" type="footnote" n="9">Vgl. PC II 428f.</note>; puto, quod id non tam in Turcam quam contra nos spectare videatur, si quid istis hominibus succedat.</s>
+					<s n="13" xml:lang="la" type="auto">N[ega]tum<note xml:id="fng" type="footnote" n="g"><hi>Text beim Entfernen des Siegels beschädigt.</hi></note> est subsidium in Turcam<note xml:id="fn9" type="footnote" n="9">Vgl. <bibl>PC</bibl> II 428f.</note>; puto, quod id non tam in Turcam quam contra nos spectare videatur, si quid istis hominibus succedat.</s>
 					<s n="14" xml:lang="la" type="auto">Profecto, si quod tempus mirandis rebus plenum fuit, hoc illud est, arbitror.</s>
 					<s n="15" xml:lang="la" type="auto">Summa vero etiamnum difficultas est, quod ipsi nondum satis cohęremus.</s>
 					<s n="16" xml:lang="la" type="auto">Quod ego te per Christi<note xml:id="fnh" type="footnote" n="h"><hi>in der Vorlage</hi> XPI.</note> fidem et publicum patrię studium rogo, ut dare operam velis, quomodo animis, si doctrina nondum per omnia licet, coalescamus<note xml:id="fni" type="footnote" n="i"><hi>vor</hi> coalescamus <hi>gestrichenes</hi> cohaer.</note>.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Cum <persName ref="person28">Bucero</persName> si quid agendum putant fratres<note xml:id="fn10" type="footnote" n="10"><persName ref="person81">Grynäus</persName> denkt wohl an die Abfassung einer Antwort auf <persName ref="person28">Bucers</persName> Schreiben vom 27. Januar (<ref target="file10981">Nr. 939</ref>); vgl. oben <ref target="file11019">Nr. 977</ref>, 36-58.</note>, nemo repugnabit; agatur modo lenitate et moderatione christiana.</s>
-					<s n="18" xml:lang="la" type="auto">Illud nuper <placeName ref="place121">Bernae</placeName> incendium<note xml:id="fn11" type="footnote" n="11">Gemeint ist die Absicht gewisser <placeName ref="place121">Berner</placeName> Theologen, <persName ref="person28">Bucers</persName> Schriften verbieten zu lassen; vgl. zuletzt oben <ref target="file11019">Nr. 977</ref>, 1-4.</note> si vim suam corripuisset, obsecro, quam iniquo tempore quod malum dedisset nobis!</s>
+					<s n="17" xml:lang="la" type="auto">Cum <persName ref="p467">Bucero</persName> si quid agendum putant fratres<note xml:id="fn10" type="footnote" n="10"><persName>Grynäus</persName> denkt wohl an die Abfassung einer Antwort auf <persName ref="p18198">Bucers</persName> Schreiben vom 27. Januar (<ref target="file10981">Nr. 939</ref>); vgl. oben <ref target="file11019">Nr. 977</ref>, 36-58.</note>, nemo repugnabit; agatur modo lenitate et moderatione christiana.</s>
+					<s n="18" xml:lang="la" type="auto">Illud nuper <placeName>Bernae</placeName> incendium<note xml:id="fn11" type="footnote" n="11">Gemeint ist die Absicht gewisser <placeName>Berner</placeName> Theologen, <persName ref="p18198">Bucers</persName> Schriften verbieten zu lassen; vgl. zuletzt oben <ref target="file11019">Nr. 977</ref>, 1-4.</note> si vim suam corripuisset, obsecro, quam iniquo tempore quod malum dedisset nobis!</s>
 					<s n="19" xml:lang="la" type="auto">Nam quis vir bonus unquam ferret nos, si, dum de pace agitur, nos ad arma etiam supra<note xml:id="fnk" type="footnote" n="k"><hi>vor</hi> supra <hi>gestrichenes</hi> contra.</note> provocationem iuris curreremus?</s>
 					<s n="20" xml:lang="la" type="auto">Quod sępe ad vos et illos iam scripsi: Causa nostra integra nobis est, tantum hoc custodiamus, ut ne nos defuisse ecclesię concordię videamur.</s>
 				</p>
@@ -156,14 +153,14 @@
 					<s n="21" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto"><persName ref="person81">Gryneus</persName> tuus.</s>
+					<s n="22" xml:lang="la" type="auto"><persName ref="p1365">Gryneus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
 					<s n="23" xml:lang="la" type="auto">Clarissimo viro d. H[einricho] Bullingero suo.</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="la" type="auto">De <persName ref="person247">Melchiore</persName><note xml:id="fn12" type="footnote" n="12"><persName ref="person247">Melchior Wirz</persName>; vgl. oben <ref target="file11005">Nr. 963</ref>, 5-15.</note> et rebus ipsius ex ipso intelliges<note xml:id="fnl" type="footnote" n="l"><hi>Als Nachtrag auf die Rückseite geschrieben.</hi></note>.</s>
+					<s n="24" xml:lang="la" type="auto">De <persName ref="p8465">Melchiore</persName><note xml:id="fn12" type="footnote" n="12"><persName>Melchior Wirz</persName>; vgl. oben <ref target="file11005">Nr. 963</ref>, 5-15.</note> et rebus ipsius ex ipso intelliges<note xml:id="fnl" type="footnote" n="l"><hi>Als Nachtrag auf die Rückseite geschrieben.</hi></note>.</s>
 				</p>
 			</div>
 		</body>

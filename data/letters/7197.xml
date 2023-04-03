@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN [Johannes Kiszka], zwischen [14. August 1567] und [15. August 1567]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7054/104</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 342,486-487</idno>
 						<idno subtype="Hinweis">Reinkopie; unbek. Adr.; datiert: 15. Aug. 1567</idno>
 					</msIdentifier>
@@ -44,7 +43,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>Wotschke BW, Polen, S. 285f, Nr. 369</title>
+								<title>Wotschke BW, Polen, S.285f, Nr. 369</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
 								<title>A. Mühling: HB's europ. Kirchenpolitik 331-333 (Anlage 33), vgl. 263f</title>
@@ -67,14 +66,14 @@
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph__(Entwurf)">E II 441, 730-732</idno>
 						<idno subtype="Hinweis">dat.: 14. Aug.</idno>
 					</msIdentifier>
@@ -84,7 +83,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7197">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -94,11 +93,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date notBefore="1567-08-14" notAfter="1567-08-15" cert="low"><note>Tag unsicher  1567 Aug. 14./15.</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1806" cert="low">
+					<persName ref="p1806" cert="low">
 						<!--
 						<surname cert="low">Kiszka</surname>
 						<forename cert="low">Johannes</forename>
@@ -121,7 +120,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

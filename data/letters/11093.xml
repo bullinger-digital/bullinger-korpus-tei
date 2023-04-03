@@ -6,40 +6,31 @@
 				<title subtype="file">Hans Vogler / Reichenweier AN Heinrich Bullinger, 2. Oktober 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1050</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">256</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 351,180</idno>
 					</msIdentifier>
 					<msContents>
@@ -48,12 +39,11 @@
 								Freut sich über die vor kurzem mit Bullinger besprochene Heirat seiner Tochter
 								[Anna in Zürich], die von seiner Frau gut ausgestattet werden wird;
 								Mitteilungen in dieser Sache kann Bullinger dem Boten mitgeben. Wegen seines Sohnes
-								[Hans Rudolf] wird sich <persName ref="person228">Vogler</persName>
-								in <placeName ref="place1049">Straßburg</placeName> umsehen. Die [Sondersynode] in
-								<placeName ref="place121">Bern</placeName> soll gut ausgegangen sein, und
-								<persName ref="person40">Capito</persName> und <persName ref="person28">Bucer</persName> seien nun bei
-								[Graf <persName ref="person77">Georg</persName> von
-								Württemberg] in <placeName ref="place734">Mömpelgard</placeName>.
+								[Hans Rudolf] wird sich <persName ref="p8071">Vogler</persName>
+								in <placeName>Straßburg</placeName> umsehen. Die [Sondersynode] in
+								<placeName>Bern</placeName> soll gut ausgegangen sein, und
+								<persName ref="p5565">Capito</persName> und <persName ref="p467">Bucer</persName> seien nun bei
+								[Graf <persName ref="p8098">Georg von Württemberg]</persName> in <placeName>Mömpelgard</placeName>.
 								Bullinger soll sein Wappen nicht vergessen. Grüße. Bittet um neue Nachrichten.
 							</p>
 						</summary>
@@ -61,13 +51,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 1050, S.256</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11093">
 				<correspAction type="sent">
-					<persName ref="person3446" cert="high">
+					<persName ref="p3446" cert="high">
 						<!--
 						<surname cert="high">Vogler</surname>
 						<forename cert="high">Hans</forename>
@@ -76,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11094904"/>
 						-->
 					</persName>
-					<placeName source="place411" cert="high"><orig>Reichenweier</orig></placeName>
+					<placeName source="l411" cert="high"><orig>Reichenweier</orig></placeName>
 					<date when="1537-10-02" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,28 +124,28 @@
 				<p>
 					<s n="1" xml:lang="de" type="auto">Die genad gottes durch Christum mitt üch und allem uwerm husgesint.</s>
 					<s n="2" xml:lang="de" type="auto">Amen.</s>
-					<s n="3" xml:lang="de" type="auto">Die ir och uns allen alle zum früntlichosten grüssen sellen, zuͦsampt unserm son<note xml:id="fn1" type="footnote" n="1"><persName ref="person228">Voglers</persName> Sohn Hans Rudolf war in Bullingers Obhut (vgl. oben <ref target="file10987">Nr. 945</ref>, 4-9).</note> etc.<pb type="edition" next="257"/></s>
+					<s n="3" xml:lang="de" type="auto">Die ir och uns allen alle zum früntlichosten grüssen sellen, zuͦsampt unserm son<note xml:id="fn1" type="footnote" n="1"><persName>Voglers</persName> Sohn Hans Rudolf war in Bullingers Obhut (vgl. oben <ref target="file10987">Nr. 945</ref>, 4-9).</note> etc.<pb type="edition" next="257"/></s>
 				</p>
 				<p>
 					<s n="4" xml:lang="de" type="auto">Ich hab, fürglieptter, mitt uch ain letsten abschaid<note xml:id="fn2" type="footnote" n="2">Abmachung.</note> gemacht miner lieben tochter<note xml:id="fn3" type="footnote" n="3">Anna (vgl. dazu unten Anm. 8).</note> halb, wie ir wol wist.</s>
 					<s n="5" xml:lang="de" type="auto">Dem ich fast<note xml:id="fn4" type="footnote" n="4">sehr, viel.</note> nachbedenck, und so es der will gottes und irer hayl wäre, wäre min fröd.</s>
-					<s n="6" xml:lang="de" type="auto">Darzuͦ min frowen<note xml:id="fn5" type="footnote" n="5">Appolonia, geb. Baumgartner.</note> ain erlichen hirat<note xml:id="fn6" type="footnote" n="6">ein anständiges Heiratsgut.</note> zuͦ geben, wie ir wist, nitt beduren<note xml:id="fn7" type="footnote" n="7">reuen.</note> wurde<note xml:id="fn8" type="footnote" n="8">Die Eheschließung Annas mit <persName ref="person512">Hans Jakob Brennwald</persName> fand am 21. November 1537 in Zürich statt. Die Hochzeit wurde von Bullinger, <persName ref="person1720">Kaspar Nasal</persName>, <persName ref="person1954">Jakob Rordorf</persName> und <persName ref="person1930">Gotthard Richmut</persName> vorbereitet. Vgl. Zürich ZB, Ms S 318, 12, auch Vadian BW V 459, <ref target="file11025">Nr. 983</ref>.</note>.</s>
+					<s n="6" xml:lang="de" type="auto">Darzuͦ min frowen<note xml:id="fn5" type="footnote" n="5">Appolonia, geb. Baumgartner.</note> ain erlichen hirat<note xml:id="fn6" type="footnote" n="6">ein anständiges Heiratsgut.</note> zuͦ geben, wie ir wist, nitt beduren<note xml:id="fn7" type="footnote" n="7">reuen.</note> wurde<note xml:id="fn8" type="footnote" n="8">Die Eheschließung Annas mit <persName>Hans Jakob Brennwald</persName> fand am 21. November 1537 in Zürich statt. Die Hochzeit wurde von Bullinger, <persName>Kaspar Nasal</persName>, <persName>Jakob Rordorf</persName> und <persName>Gotthard Richmut</persName> vorbereitet. Vgl. Zürich ZB, Ms S 318, 12, auch <bibl>Vadian BW V</bibl> 459, <ref target="file11025">Nr. 983</ref>.</note>.</s>
 					<s n="7" xml:lang="de" type="auto">Hieruff, wiewol ich waiß, daß ir vlyß ankernn<note xml:id="fn9" type="footnote" n="9">euch bemüht.</note> ob aber inn der sach witter zu, handlen, zuͦ reden, oder was üch begegenet syge, wellend ir mir sampt üwer ratt by disserm botten<note xml:id="fn10" type="footnote" n="10">Unbekannt.</note> zuͦschriben, wie ir mich verstond; dann mich vyl ursachen tringen hierzuͦ etc.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto">Ittem mines sons<note xml:id="fn11" type="footnote" n="11">Siehe oben Anm. 1.</note> halben etc. wird ich, so erst mir müglich, zuͦ <placeName ref="place1049">Strassburg</placeName> handlen; darum liden<note xml:id="fn12" type="footnote" n="12">geduldet.</note> üch wie bishar.</s>
+					<s n="8" xml:lang="de" type="auto">Ittem mines sons<note xml:id="fn11" type="footnote" n="11">Siehe oben Anm. 1.</note> halben etc. wird ich, so erst mir müglich, zuͦ <placeName>Strassburg</placeName> handlen; darum liden<note xml:id="fn12" type="footnote" n="12">geduldet.</note> üch wie bishar.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="auto">Item, als wir hörnn, ist die sach zuͦ <placeName ref="place121">Bern</placeName> wol usgschlagen<note xml:id="fn13" type="footnote" n="13">gut ausgegangen. - Zu Verlauf und Ergebnis der <placeName ref="place121">Berner</placeName> Sondersynode vom September 1537, an der die <placeName ref="place121">Berner</placeName> Pfarrer mit <persName ref="person28">Bucer</persName> und <persName ref="person40">Capito</persName> debattierten, s. oben <ref target="file11088">Nr. 1045</ref>.</note>, wie ich üch sagt und vertruwt.</s>
+					<s n="9" xml:lang="de" type="auto">Item, als wir hörnn, ist die sach zuͦ <placeName>Bern</placeName> wol usgschlagen<note xml:id="fn13" type="footnote" n="13">gut ausgegangen. - Zu Verlauf und Ergebnis der <placeName>Berner</placeName> Sondersynode vom September 1537, an der die <placeName>Berner</placeName> Pfarrer mit <persName ref="p18198">Bucer</persName> und <persName>Capito</persName> debattierten, s. oben <ref target="file11088">Nr. 1045</ref>.</note>, wie ich üch sagt und vertruwt.</s>
 					<s n="10" xml:lang="de" type="auto">Darum vlys sich mengklich<note xml:id="fn14" type="footnote" n="14">jedermann.</note> ainigkait.</s>
-					<s n="11" xml:lang="de" type="auto">Item <persName ref="person40">Capito</persName>, <persName ref="person28">Butzer</persName>, och von <placeName ref="place121">Bern</placeName><note xml:id="fn15" type="footnote" n="15">Weitere Begleiter sind nicht bekannt.</note> hör, ich, sygen by m[inem] g[nedigen] h[errn] zuͦ <persName ref="person77">Mümpelgart</persName><note xml:id="fn16" type="footnote" n="16">Graf <persName ref="person77">Georg</persName> von Württemberg.</note>, von <placeName ref="place121">Bernn</placeName> dargeritten<note xml:id="fn17" type="footnote" n="17">hingeritten.</note>.</s>
+					<s n="11" xml:lang="de" type="auto">Item <persName ref="p5565">Capito</persName>, <persName ref="p467">Butzer</persName>, och von <placeName>Bern</placeName><note xml:id="fn15" type="footnote" n="15">Weitere Begleiter sind nicht bekannt.</note> hör, ich, sygen by m[inem] g[nedigen] h[errn] zuͦ <persName ref="p8098">Mümpelgart</persName><note xml:id="fn16" type="footnote" n="16">Graf <persName>Georg von Württemberg</persName>.</note>, von <placeName>Bernn</placeName> dargeritten<note xml:id="fn17" type="footnote" n="17">hingeritten.</note>.</s>
 					<s n="12" xml:lang="de" type="auto">Warten alsso, wann sy für uns herab komen etc.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="de" type="auto">Mins wapen vergessend nit<note xml:id="fn18" type="footnote" n="18">Dazu ist nichts weiter bekannt.</note>.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="manual"><foreign xml:lang="de">Hiemit grüss in grüss, von</foreign> omnes et omnes, uxor<note xml:id="fn19" type="footnote" n="19">Anna, geb. Adlischwyler.</note>, mater<note xml:id="fn20" type="footnote" n="20">Anna, geb. Wiederkehr.</note>, virgo<note xml:id="fn21" type="footnote" n="21"><persName ref="person2065">Brida Schmid</persName>, die Dienstmagd im Hause Bullingers.</note>, filius<note xml:id="fn22" type="footnote" n="22">Siehe oben Anm. 1.</note>, <persName ref="person114">Leoni</persName><note xml:id="fn23" type="footnote" n="23"><persName ref="person114">Leo Jud</persName>.</note>.</s>
+					<s n="14" xml:lang="la" type="manual"><foreign xml:lang="de">Hiemit grüss in grüss, von</foreign> omnes et omnes, uxor<note xml:id="fn19" type="footnote" n="19"><persName>Anna, geb. Adlischwyler</persName>.</note>, mater<note xml:id="fn20" type="footnote" n="20"><persName>Anna, geb. Wiederkehr</persName>.</note>, virgo<note xml:id="fn21" type="footnote" n="21"><persName>Brida Schmid</persName>, die Dienstmagd im Hause Bullingers.</note>, filius<note xml:id="fn22" type="footnote" n="22">Siehe oben Anm. 1.</note>, <persName ref="p1753">Leoni</persName><note xml:id="fn23" type="footnote" n="23"><persName ref="p2305">Leo Jud</persName>.</note>.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="de" type="auto">Actum Rychenwir, den andern thag october anno 37.</s>
@@ -157,7 +154,7 @@
 					<s n="16" xml:lang="la" type="auto">Quid novi<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> novy.</note>?</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="de" type="auto">U[wer] w[illiger] <persName ref="person228">Johann Vogler</persName>, burger zuͦ Zurych, schaffner zuͦ Rychenwir.</s>
+					<s n="17" xml:lang="de" type="auto">U[wer] w[illiger] <persName ref="p8071">Johann Vogler</persName>, burger zuͦ Zurych, schaffner zuͦ Rychenwir.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

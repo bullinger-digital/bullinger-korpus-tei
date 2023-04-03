@@ -6,46 +6,42 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Johannes Travers, 28. August 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1303</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">17</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive24">
-							<name>Chur StA</name>
+						<repository ref="a24">
+							<name>StAGR</name>
 							<ref target="https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/sag/Seiten/start.aspx"/>
 						</repository>
-						<settlement ref="place98">Chur</settlement>
+						<settlement ref="l98">Chur</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive24"/>
+						<repository ref="a24"/>
 						<idno subtype="Kopie">A Sp III/11a, VI. B. 7. 4, S. 333</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet <persName ref="person220">Travers</persName>, das ihm gewidmete Buch [„Orthodoxa et erudita D.
+								Bittet <persName ref="p6831">Travers</persName>, das ihm gewidmete Buch [„Orthodoxa et erudita D.
 								Ioachimi Vadiani ... epistola“] in Freundschaft anzunehmen, und bekräftigt seine Bereitschaft, ihn und
 								andere vorzügliche Männer zu unterstützen; ermuntert sie, ihr Handeln tatkräftig auf Gott zu richten,
 								welcher die Seinen gegen ihre Feinde beschützen wird. Wünscht sich für die Eidgenossenschaft so fromme und
 								aufrichtige politische Führer, wie der Überbringer, der Churer [Alt-] Bürgermeister
-								[<persName ref="person1137">Luzi Heim</persName>], einer ist.
+								[<persName ref="p8013">Luzi Heim</persName>], einer ist.
 							</p>
 						</summary>
 						<msItem>
@@ -56,10 +52,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Petrus Dominicus Rosius a Porta, Historia Reformationis Ecclesiarum Raeticarum, Tomus I/1, Chur 1771, S. 194, Anm. m</title>
+								<title>Petrus Dominicus Rosius a Porta, Historia Reformationis Ecclesiarum Raeticarum, Tomus I/1, Chur 1771, S.194, Anm. m</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 17, Nr. 15</title>
+								<title>Graubünden BW I, S.17, Nr. 15</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -69,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11346">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -79,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1539-08-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3184" cert="high">
+					<persName ref="p3184" cert="high">
 						<!--
 						<surname cert="high">Travers</surname>
 						<forename cert="high">Johannes</forename>
@@ -115,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

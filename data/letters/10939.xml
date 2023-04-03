@@ -6,63 +6,61 @@
 				<title subtype="file">Joachim Vadian / [St. Gallen] AN Heinrich Bullinger, [25.] September 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=897</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">433</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive85">
+						<repository ref="a85">
 							<name>Utrecht BRU</name>
 							<ref target="https://www.uu.nl/universiteitsbibliotheek"/>
 						</repository>
-						<settlement ref="place518">Utrecht</settlement>
+						<settlement ref="l518">Utrecht</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive85"/>
+						<repository ref="a85"/>
 						<idno subtype="Kopie">Ms 11. C. 10,S. 96, Nr.49</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet um rasche Weiterleitung seines Schreibens an <persName ref="person40">Capito</persName>, da ihn
-								dieser in <placeName ref="place97">Basel</placeName> um eine Abschrift seines Briefes an
-								<persName ref="person138">Luther</persName> ersucht hat; will damit den Verdacht ausräumen, er habe dem
-								früheren Bericht [der <placeName ref="place1049">Straßburger</placeName> Theologen über die
-								<placeName ref="place1205">Wittenberger</placeName> Konkordie] zuwenig Glauben geschenkt.
+								Bittet um rasche Weiterleitung seines Schreibens an <persName ref="p5565">Capito</persName>, da ihn
+								dieser in <placeName>Basel</placeName> um eine Abschrift seines Briefes an
+								<persName ref="p1974">Luther</persName> ersucht hat; will damit den Verdacht ausräumen, er habe dem
+								früheren Bericht [der <placeName>Straßburger</placeName> Theologen über die
+								<placeName>Wittenberger</placeName> Konkordie] zuwenig Glauben geschenkt.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 897, S.433</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10939">
 				<correspAction type="sent">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11425832"/>
 						-->
 					</persName>
-					<placeName source="place474" cert="low"><orig>St. Gallen</orig></placeName>
+					<placeName source="l474" cert="low"><orig>St. Gallen</orig></placeName>
 					<date when="1536-09-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -120,9 +118,9 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Clarissime Bullingere, sancte te oro, literas alteras domino <persName ref="person40">Capitoni</persName> ilinscriptas<note xml:id="fn2" type="footnote" n="2"><persName ref="person226">Vadian</persName> sandte <persName ref="person40">Capito</persName> eine Abschrift seines Briefes an <persName ref="person138">Luther</persName> (s. unten Anm. 4); ein Begleitschreiben ist nicht nachweisbar.</note> fido aliquo nuncio velis <placeName ref="place97">Basileam</placeName> perferendas curari, ut illinc actutum <placeName ref="place1049">Argentoratum</placeName> perveniant.</s>
-					<s n="3" xml:lang="la" type="auto">Orabat me <placeName ref="place97">Basileae</placeName><note xml:id="fn3" type="footnote" n="3"><persName ref="person226">Vadian</persName> und <persName ref="person40">Capito</persName> nahmen gemeinsam an der Basler Tagung vom 24./25. September teil; zu dieser s. EA IV/1c 764 (vgl. EA IV/1b 903f, zu f 2); Stumpf, Abendmahlsstreit 85-92; <hi>Köhler,</hi> ZL II 493-496. Vgl. auch die offenbar hierher gehörenden Notizen Bullingers in Zürich StA, E II 337, 182r.-186v., sowie semen Bericht in Zürich ZB, Ms F 62, 66r.-67r. (gedruckt: Zwa XX, 1993, S. 40f).</note>, ut et sibi exemplum mitterem literarum mearum ad <persName ref="person138">Lutherum</persName><note xml:id="fn4" type="footnote" n="4">Eine nach <placeName ref="place1049">Straßburg</placeName> gesandte Abschrift von <persName ref="person226">Vadians</persName> Brief an <persName ref="person138">Luther</persName> vom 30. August 1536 (s. oben <ref target="file10922">Nr. 881</ref>, 6f mit Anm. 3) befindet sich in <placeName ref="place1049">Straßburg</placeName> Stadtarchiv, AST 162 II, <ref target="file10158">Nr. 127</ref>.</note>.</s>
-					<s n="4" xml:lang="la" type="auto">Nescio enim, quid suspicantur, velut haud satis fidei habuerim primae illorum relationi<note xml:id="fn5" type="footnote" n="5">Gemeint ist vielleicht die am 16. August von Bullinger an <persName ref="person226">Vadian</persName> weitergeleitete Erläuterung der <placeName ref="place1205">Wittenberger</placeName> Konkordie; s. oben <ref target="file10918">Nr. 877</ref>, 10-12 mit Anm. 6.</note>, de qua tamen nunquam ambegi<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> ambigi.</note>, quin et vera et sincera fuerit.</s>
+					<s n="2" xml:lang="la" type="auto">Clarissime Bullingere, sancte te oro, literas alteras domino <persName ref="p5565">Capitoni</persName> ilinscriptas<note xml:id="fn2" type="footnote" n="2"><persName>Vadian</persName> sandte <persName>Capito</persName> eine Abschrift seines Briefes an <persName ref="p18889">Luther</persName> (s. unten Anm. 4); ein Begleitschreiben ist nicht nachweisbar.</note> fido aliquo nuncio velis <placeName>Basileam</placeName> perferendas curari, ut illinc actutum <placeName>Argentoratum</placeName> perveniant.</s>
+					<s n="3" xml:lang="la" type="auto">Orabat me <placeName>Basileae</placeName><note xml:id="fn3" type="footnote" n="3"><persName>Vadian</persName> und <persName>Capito</persName> nahmen gemeinsam an der Basler Tagung vom 24./25. September teil; zu dieser s. <bibl>EA</bibl> IV/1c 764 (vgl. <bibl>EA</bibl> IV/1b 903f, zu f 2); Stumpf, Abendmahlsstreit 85-92; <hi>Köhler,</hi> ZL II 493-496. Vgl. auch die offenbar hierher gehörenden Notizen Bullingers in Zürich StA, E II 337, 182r.-186v., sowie semen Bericht in Zürich ZB, Ms F 62, 66r.-67r. (gedruckt: <bibl>Zwa</bibl> XX, 1993, S. 40f).</note>, ut et sibi exemplum mitterem literarum mearum ad <persName ref="p1974">Lutherum</persName><note xml:id="fn4" type="footnote" n="4">Eine nach <placeName>Straßburg</placeName> gesandte Abschrift von <persName>Vadians</persName> Brief an <persName ref="p18889">Luther</persName> vom 30. August 1536 (s. oben <ref target="file10922">Nr. 881</ref>, 6f mit Anm. 3) befindet sich in <placeName>Straßburg</placeName> Stadtarchiv, AST 162 II, <ref target="file10158">Nr. 127</ref>.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Nescio enim, quid suspicantur, velut haud satis fidei habuerim primae illorum relationi<note xml:id="fn5" type="footnote" n="5">Gemeint ist vielleicht die am 16. August von Bullinger an <persName>Vadian</persName> weitergeleitete Erläuterung der <placeName>Wittenberger</placeName> Konkordie; s. oben <ref target="file10918">Nr. 877</ref>, 10-12 mit Anm. 6.</note>, de qua tamen nunquam ambegi<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> ambigi.</note>, quin et vera et sincera fuerit.</s>
 					<s n="5" xml:lang="la" type="auto">Ideo id curo, ut apud amicos suspitionum pessimam pestem amoliar et fidem simul meam redimam.</s>
 					<s n="6" xml:lang="la" type="auto">Sic satanae studiis est obnitendum.</s>
 				</p>
@@ -130,7 +128,7 @@
 					<s n="7" xml:lang="la" type="auto">Vale, decus meum, et mihi gratificare.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><persName ref="person226">Vadianus</persName>.<pb type="edition" next="434"/></s>
+					<s n="8" xml:lang="la" type="auto"><persName ref="p8049">Vadianus</persName>.<pb type="edition" next="434"/></s>
 				</p>
 				<p>
 					<note type="address">[Adresse<note xml:id="fnc" type="footnote" n="c"><hi>Bemerkung des Abschreibers:</hi> Intitulatio exterior.</note>:]</note>

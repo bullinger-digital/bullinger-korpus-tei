@@ -6,62 +6,59 @@
 				<title subtype="file">Matthias Erb / Reichenweier AN Heinrich Bullinger, 23. Oktober [1541]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1578</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">337</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,264</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Es gibt nichts zu schreiben, doch für die nahe Zukunft zeichnet sich Unheil ab; Bullinger soll mit den
-								Seinen für ihre kleine Kirche beten, die der Fürst [<persName ref="person77">Georg</persName> von
-								Württemberg] zwar fördert, aber eher nachlässig verwaltet. Näheres wird
-								<persName ref="person228">Vogler</persName> berichten.
+								Seinen für ihre kleine Kirche beten, die der Fürst [<persName ref="p8098">Georg von Württemberg]</persName> zwar fördert, aber eher nachlässig verwaltet. Näheres wird
+								<persName ref="p8071">Vogler</persName> berichten.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1578, S.337</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11621">
 				<correspAction type="sent">
-					<persName ref="person1010" cert="high">
+					<persName ref="p1010" cert="high">
 						<!--
 						<surname cert="high">Erb</surname>
 						<forename cert="high">Matthias</forename>
@@ -69,11 +66,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/100972160"/>
 						-->
 					</persName>
-					<placeName source="place411" cert="high"><orig>Reichenweier</orig></placeName>
+					<placeName source="l411" cert="high"><orig>Reichenweier</orig></placeName>
 					<date when="1541-10-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,19 +119,19 @@
 					<s n="1" xml:lang="la" type="auto">Dominus tecum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Anno superiore, si meministi, Bullingere doctissime, fecisti mihi copiam, quoties occasio data fuisset, ad te scribendi<note xml:id="fn2" type="footnote" n="2">Ein Brief Bullingers an <persName ref="person57">Erb</persName> aus dem Jahr 1540 ist nicht bekannt; vgl. aber HBBW IX, <ref target="file11287">Nr. 1244</ref>, bes. Z. 2-5.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Quum vero nunc nil habeam dignum, quo de certiorem (tametsi praesens seculum indies parturiens nescio quid tandem abortus ostensurum sit; alit enim monstrum<note xml:id="fn3" type="footnote" n="3">Vgl. Adagia, 2, 4, 98 (LB II 551).</note>) te faciam, obsecro atque efflagito, ut cum tuis fratribus ac ecclesia numinis potentiam enixissime ores, ut nos liberet a satana.</s>
-					<s n="4" xml:lang="la" type="auto">Parva nobis ac fratribus meis est ecclesiola sub monarcha<note xml:id="fn4" type="footnote" n="4">Graf <persName ref="person77">Georg von Württemberg-Mömpelgard</persName>.</note> nescio quali hactenus promota, sub quo nunc ferme omnia licenter et remissius administrantur.</s>
+					<s n="2" xml:lang="la" type="auto">Anno superiore, si meministi, Bullingere doctissime, fecisti mihi copiam, quoties occasio data fuisset, ad te scribendi<note xml:id="fn2" type="footnote" n="2">Ein Brief Bullingers an <persName ref="p7512">Erb</persName> aus dem Jahr 1540 ist nicht bekannt; vgl. aber <bibl>HBBW</bibl> IX, <ref target="file11287">Nr. 1244</ref>, bes. Z. 2-5.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Quum vero nunc nil habeam dignum, quo de certiorem (tametsi praesens seculum indies parturiens nescio quid tandem abortus ostensurum sit; alit enim monstrum<note xml:id="fn3" type="footnote" n="3">Vgl. Adagia, 2, 4, 98 (<bibl>LB</bibl> II 551).</note>) te faciam, obsecro atque efflagito, ut cum tuis fratribus ac ecclesia numinis potentiam enixissime ores, ut nos liberet a satana.</s>
+					<s n="4" xml:lang="la" type="auto">Parva nobis ac fratribus meis est ecclesiola sub monarcha<note xml:id="fn4" type="footnote" n="4">Graf <persName>Georg von Württemberg-Mömpelgard</persName>.</note> nescio quali hactenus promota, sub quo nunc ferme omnia licenter et remissius administrantur.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">De nostro statu <persName ref="person228">Voglerus</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person228">Hans Vogler</persName> d. Ä. kehrte nach der Aufgabe seines Schaffneramtes aus <placeName ref="place884">Reichenweier</placeName> nach Zürich zurück; gegen Ende 1541 erwarb er das Schloss <placeName ref="place1121">Uster</placeName> (s. Paul <hi>Kläui,</hi> Geschichte der Gemeinde <placeName ref="place1121">Uster</placeName>, Zürich 1964, S. 74).</note>.</s>
+					<s n="5" xml:lang="la" type="auto">De nostro statu <persName ref="p8071">Voglerus</persName><note xml:id="fn5" type="footnote" n="5"><persName>Hans Vogler d.Ä.</persName> kehrte nach der Aufgabe seines Schaffneramtes aus <placeName>Reichenweier</placeName> nach Zürich zurück; gegen Ende 1541 erwarb er das Schloss <placeName>Uster</placeName> (s. Paul <hi>Kläui,</hi> Geschichte der Gemeinde <placeName>Uster</placeName>, Zürich 1964, S. 74).</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Bene valebis in domino, frater charissime ac doctissime.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Richenvillae, 23. octobris.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Tuissimus <persName ref="person57">Erbius</persName>.</s>
+					<s n="8" xml:lang="la" type="auto">Tuissimus <persName ref="p1010">Erbius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

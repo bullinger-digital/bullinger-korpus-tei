@@ -6,47 +6,38 @@
 				<title subtype="file">Peter Simler / Kappel am Albis AN Heinrich Bullinger, 27. November 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=688</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">444</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,71a</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Von <persName ref="person1327">Kappen</persName>-Hans weiß er, daß Bullinger in der folgenden Woche [nach
-								<placeName ref="place534">Kappel</placeName>] kommen will; er selber wird am Mittwoch in Zürich sein, so
+								Von <persName>Kappen</persName>-Hans weiß er, daß Bullinger in der folgenden Woche [nach
+								<placeName>Kappel</placeName>] kommen will; er selber wird am Mittwoch in Zürich sein, so
 								daß Bullinger am besten am Montag oder dann in der darauffolgenden Woche kommt.
 							</p>
 						</summary>
@@ -54,13 +45,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 688, S.444</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10726">
 				<correspAction type="sent">
-					<persName ref="person2982" cert="high">
+					<persName ref="p2982" cert="high">
 						<!--
 						<surname cert="high">Simler</surname>
 						<forename cert="high">Peter</forename>
@@ -69,11 +67,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11591747"/>
 						-->
 					</persName>
-					<placeName source="place242" cert="high"><orig>Kappel am Albis</orig></placeName>
+					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1535-11-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,16 +120,16 @@
 					<s n="1" xml:lang="de" type="auto">Gnad unnd frid von gott.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Lieber her gfatter<note xml:id="fn1" type="footnote" n="1">Vgl. oben <ref target="file10723">Nr. 685</ref>, Anm. 1.</note>, <persName ref="person1327">Kappen</persName> Hanns<note xml:id="fn2" type="footnote" n="2"><persName ref="person1327">Kappen</persName>-Hans, ein Knecht des Klosters <placeName ref="place534">Kappel</placeName> (vgl. Matthias Ludwig <hi>Senn,</hi> Johann Jakob Wick [1522-1588] und seine Sammlung von Nachrichten zur Zeitgeschichte, Diss. phil. Zürich 1973, S. 10), stammte aus <placeName ref="place678">Maschwanden</placeName> (Kt. Zürich). Er erscheint bereits 1513 im Reisrodel des Zuges nach <placeName ref="place273">Dijon</placeName> (vgl. Zürich StA, A 30 II, Nr. 37, 1 9r.).</note> hett mir gseyt, ir wellint die wuchen<note xml:id="fn3" type="footnote" n="3">Gemeint ist die folgende Woche vom Sonntag, dem 28. November, bis zum Samstag, dem 4. Dezember 1535.</note> kommen, welches mich von hertzen fröwty.</s>
-					<s n="3" xml:lang="de" type="auto">Ich versich mich<note xml:id="fn4" type="footnote" n="4">Ich nehme an (SI VII 567f).</note> aber wol, ir kommt nit vor zinstag.</s>
-					<s n="4" xml:lang="de" type="auto">So thuͦn ich üch zewüssenn, das ich uff mitwuch, ob<note xml:id="fn5" type="footnote" n="5">wenn (SI I 53).</note> es der will gottes ist, wird gan Zürich ryten.</s>
+					<s n="2" xml:lang="de" type="auto">Lieber her gfatter<note xml:id="fn1" type="footnote" n="1">Vgl. oben <ref target="file10723">Nr. 685</ref>, Anm. 1.</note>, <persName>Kappen</persName> Hanns<note xml:id="fn2" type="footnote" n="2"><persName>Kappen</persName>-Hans, ein Knecht des Klosters <placeName>Kappel</placeName> (vgl. Matthias Ludwig <hi>Senn,</hi> Johann Jakob Wick [1522-1588] und seine Sammlung von Nachrichten zur Zeitgeschichte, Diss. phil. Zürich 1973, S. 10), stammte aus <placeName>Maschwanden</placeName> (Kt. Zürich). Er erscheint bereits 1513 im Reisrodel des Zuges nach <placeName>Dijon</placeName> (vgl. Zürich StA, A 30 II, Nr. 37, 1 9r.).</note> hett mir gseyt, ir wellint die wuchen<note xml:id="fn3" type="footnote" n="3">Gemeint ist die folgende Woche vom Sonntag, dem 28. November, bis zum Samstag, dem 4. Dezember 1535.</note> kommen, welches mich von hertzen fröwty.</s>
+					<s n="3" xml:lang="de" type="auto">Ich versich mich<note xml:id="fn4" type="footnote" n="4">Ich nehme an (<bibl>SI</bibl> VII 567f).</note> aber wol, ir kommt nit vor zinstag.</s>
+					<s n="4" xml:lang="de" type="auto">So thuͦn ich üch zewüssenn, das ich uff mitwuch, ob<note xml:id="fn5" type="footnote" n="5">wenn (<bibl>SI</bibl> I 53).</note> es der will gottes ist, wird gan Zürich ryten.</s>
 					<s n="5" xml:lang="de" type="auto">Darumb, ob ir erst dann ouch welltind kommen, so sparents in die annder wuchen oder kommend uff mentag.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="de" type="auto">Datum ze <placeName ref="place534">Cappell</placeName>, samstags vor Anndree apostoli 1535.</s>
+					<s n="6" xml:lang="de" type="auto">Datum ze <placeName>Cappell</placeName>, samstags vor Anndree apostoli 1535.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto">Üwer williger <persName ref="person200">Petrus Simler</persName>.</s>
+					<s n="7" xml:lang="de" type="auto">Üwer williger <persName ref="p8443">Petrus Simler</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

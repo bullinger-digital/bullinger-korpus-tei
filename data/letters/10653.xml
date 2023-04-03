@@ -6,49 +6,40 @@
 				<title subtype="file">Hans Rudolf Lavater / Kyburg AN Heinrich Bullinger, Heinrich Utinger, 13. Juli 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=615</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">278</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2011</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Die Nachricht vom Tod seines Sohnes [Heinrich], die er am Vorabend
-								um 9 Uhr erhielt, hat ihn erschüttert. Bittet Bullinger und <persName ref="person225">Utinger</persName> um
+								um 9 Uhr erhielt, hat ihn erschüttert. Bittet Bullinger und <persName ref="p3242">Utinger</persName> um
 								Rat und Hilfe; denn sobald er den Seinen bei Tagesanbruch die Sache eröffnet, wird er nicht mehr [von der
-								<placeName ref="place576">Kyburg</placeName>] weggehen können.
+								<placeName>Kyburg</placeName>] weggehen können.
 							</p>
 						</summary>
 						<msItem>
@@ -58,13 +49,16 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Hans Heinrich Füssli in: Njbl. der Chorherren auf das Jahr 1781, 3. Stück, Zürich 1780 S. 9f</title>
+								<title>Hans Heinrich Füssli in: Njbl. der Chorherren auf das Jahr 1781, 3. Stück, Zürich 1780 S.9f</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Pestalozzi Lavater 28f</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Stucki 290f</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 615, S.278</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -74,7 +68,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10653">
 				<correspAction type="sent">
-					<persName ref="person1888" cert="high">
+					<persName ref="p1888" cert="high">
 						<!--
 						<surname cert="high">Lavater</surname>
 						<forename cert="high">Hans Rudolf</forename>
@@ -82,11 +76,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/139619453"/>
 						-->
 					</persName>
-					<placeName source="place266" cert="high"><orig>Kyburg</orig></placeName>
+					<placeName source="l266" cert="high"><orig>Kyburg</orig></placeName>
 					<date when="1535-07-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -96,7 +90,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person3242" cert="high">
+					<persName ref="p3242" cert="high">
 						<!--
 						<surname cert="high">Utinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -123,9 +117,13 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="10653/Autograph/00__E_II_335__fol__2011_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="10653/Autograph/01__E_II_335__fol__2011_v_.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="de">
 		<body>
 			<div xml:id="div1" corresp="regest1">
@@ -133,21 +131,21 @@
 					<s n="1" xml:lang="de" type="auto">Wolglerten, ersamen etc. minen sonders vertruwten herren und liepsten fründt und günern.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Üwer früntlich schriben<note xml:id="fn2" type="footnote" n="2">Bullinger und <persName ref="person225">Utinger</persName> hatten <persName ref="person132">Hans Rudolf Lavater</persName> den Tod Heinrichs anscheinend gemeinsam angezeigt. Der Brief ist nicht erhalten. Zum Tode Heinrichs, der am 4. Juli 1535 in <placeName ref="place1049">Straßburg</placeName> ertrunken war, vgl. oben <ref target="file10649">Nr. 611</ref> mit Anm. 2.</note> samptt des tröstens, ermanung der gedult, ouch aller früntschaft etc. hab ich necht<note xml:id="fn3" type="footnote" n="3">gestern abend (SI IV 663).</note>, der nünden stund zuͦ angender nachtt mit grosem schreken und herzleid enpfangen.</s>
-					<s n="3" xml:lang="de" type="auto">Und wie wol ich erckenen, daß rechter vertruwter gloub gedult<note xml:id="fn4" type="footnote" n="4">Gefaßtheit (SI XII 1763).</note> und gar kein ungedult tragen soll, doch<note xml:id="fn5" type="footnote" n="5">dennoch (SI XII 212).</note> tringt das fleisch mit sinen anfechtungen für und für an den tag.</s>
-					<s n="4" xml:lang="de" type="auto">Und ist nüt ann<note xml:id="fn6" type="footnote" n="6">Es ist nicht zu leugnen (SI I 261).</note>: Wo er<note xml:id="fn7" type="footnote" n="7"><persName ref="person1479">Heinrich Lavater</persName>.</note> sunst gestorben, hett ich den handell vil ringer mogen verckesten<note xml:id="fn8" type="footnote" n="8">Wenn er auf andere Weise ums Leben gekommen wäre, könnte ich es viel leichter ertragen.</note><pb type="edition" next="279"/> aber den weg ist mir dennochtt vast<note xml:id="fn9" type="footnote" n="9">sehr (SI I 1112).</note> schwer, daß die gwaltig handt gocz so gar über mich tringt<note xml:id="fn10" type="footnote" n="10">Vgl. 1Sam 5. 11; 1Petr 5, 6 u. ö.</note>; dann hab ich vil zitt har und all min leptag das ellend joch getragen.</s>
-					<s n="5" xml:lang="de" type="auto">Aber wie dem allem, so hoff ich dennochtt zuͦ minem gütigen herren und gott, er werd mich dennocht nüt<note xml:id="fn11" type="footnote" n="11">nicht.</note> gar im bad ußschüten<note xml:id="fn12" type="footnote" n="12">verwerfen (SI IV 1013).</note>; dann gwüß könd mir gröser leid nüt begegnott sin, dann das mir das liepst kind gwesen.</s>
-					<s n="6" xml:lang="de" type="auto">Und hab in in vilicht zuͦ vil vertruwt<note xml:id="fn13" type="footnote" n="13">auf ihn... gebaut (SI XIV 1608).</note>, das gott durch sin fürsichtikeit im aller besten durch diß mitel abgwent.</s>
-					<s n="7" xml:lang="de" type="auto">Hier umb hit ich üch und ander, min liebi herren und fründt, ir bitind gott für mich, daß mir nit<note xml:id="fna" type="footnote" n="a">nit <hi>übergeschrieben.</hi></note> ergers<note xml:id="fn14" type="footnote" n="14">Schlimmeres (SI I 445).</note> wider far, und daß ich min jamer und ellend gedultenklichen trag.</s>
+					<s n="2" xml:lang="de" type="auto">Üwer früntlich schriben<note xml:id="fn2" type="footnote" n="2">Bullinger und <persName>Utinger</persName> hatten <persName ref="p6155">Hans Rudolf Lavater</persName> den Tod Heinrichs anscheinend gemeinsam angezeigt. Der Brief ist nicht erhalten. Zum Tode Heinrichs, der am 4. Juli 1535 in <placeName>Straßburg</placeName> ertrunken war, vgl. oben <ref target="file10649">Nr. 611</ref> mit Anm. 2.</note> samptt des tröstens, ermanung der gedult, ouch aller früntschaft etc. hab ich necht<note xml:id="fn3" type="footnote" n="3">gestern abend (<bibl>SI</bibl> IV 663).</note>, der nünden stund zuͦ angender nachtt mit grosem schreken und herzleid enpfangen.</s>
+					<s n="3" xml:lang="de" type="auto">Und wie wol ich erckenen, daß rechter vertruwter gloub gedult<note xml:id="fn4" type="footnote" n="4">Gefaßtheit (<bibl>SI</bibl> XII 1763).</note> und gar kein ungedult tragen soll, doch<note xml:id="fn5" type="footnote" n="5">dennoch (<bibl>SI</bibl> XII 212).</note> tringt das fleisch mit sinen anfechtungen für und für an den tag.</s>
+					<s n="4" xml:lang="de" type="auto">Und ist nüt ann<note xml:id="fn6" type="footnote" n="6">Es ist nicht zu leugnen (<bibl>SI</bibl> I 261).</note>: Wo er<note xml:id="fn7" type="footnote" n="7"><persName>Heinrich Lavater</persName>.</note> sunst gestorben, hett ich den handell vil ringer mogen verckesten<note xml:id="fn8" type="footnote" n="8">Wenn er auf andere Weise ums Leben gekommen wäre, könnte ich es viel leichter ertragen.</note><pb type="edition" next="279"/> aber den weg ist mir dennochtt vast<note xml:id="fn9" type="footnote" n="9">sehr (<bibl>SI</bibl> I 1112).</note> schwer, daß die gwaltig handt gocz so gar über mich tringt<note xml:id="fn10" type="footnote" n="10">Vgl. 1Sam 5. 11; 1Petr 5, 6 u. ö.</note>; dann hab ich vil zitt har und all min leptag das ellend joch getragen.</s>
+					<s n="5" xml:lang="de" type="auto">Aber wie dem allem, so hoff ich dennochtt zuͦ minem gütigen herren und gott, er werd mich dennocht nüt<note xml:id="fn11" type="footnote" n="11">nicht.</note> gar im bad ußschüten<note xml:id="fn12" type="footnote" n="12">verwerfen (<bibl>SI</bibl> IV 1013).</note>; dann gwüß könd mir gröser leid nüt begegnott sin, dann das mir das liepst kind gwesen.</s>
+					<s n="6" xml:lang="de" type="auto">Und hab in in vilicht zuͦ vil vertruwt<note xml:id="fn13" type="footnote" n="13">auf ihn... gebaut (<bibl>SI</bibl> XIV 1608).</note>, das gott durch sin fürsichtikeit im aller besten durch diß mitel abgwent.</s>
+					<s n="7" xml:lang="de" type="auto">Hier umb hit ich üch und ander, min liebi herren und fründt, ir bitind gott für mich, daß mir nit<note xml:id="fna" type="footnote" n="a">nit <hi>übergeschrieben.</hi></note> ergers<note xml:id="fn14" type="footnote" n="14">Schlimmeres (<bibl>SI</bibl> I 445).</note> wider far, und daß ich min jamer und ellend gedultenklichen trag.</s>
 					<s n="8" xml:lang="de" type="auto">Wer weißt das urtel gocz?</s>
-					<s n="9" xml:lang="de" type="auto">Es gschicht vilicht alles mir zuͦ guͦt und themuͤtung, damit ich nit zuͦ hoch spring<note xml:id="fn15" type="footnote" n="15">Etwa: Damit ich nicht zu stolz werde (vgl. <hi>Röhrich</hi> II 986f).</note> etc.</s>
+					<s n="9" xml:lang="de" type="auto">Es gschicht vilicht alles mir zuͦ guͦt und themuͤtung, damit ich nit zuͦ hoch spring<note xml:id="fn15" type="footnote" n="15">Etwa: Damit ich nicht zu stolz werde (vgl. <bibl>Röhrich</bibl> II 986f).</note> etc.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">Witer bit ich üch umb ratt, die will sich leider die sach also erstreckt, ob ich söll ein boten hinab<note xml:id="fn16" type="footnote" n="16">nach <placeName ref="place1049">Straßburg</placeName>.</note> grad angencz<note xml:id="fn17" type="footnote" n="17">sofort (SI II 19f).</note> schicken, oder ob ir welend den handel versehen<note xml:id="fn18" type="footnote" n="18">besorgen (SI VII 568-572).</note>, und was hier in zuͦ thuͦnd oder lasen.</s>
+					<s n="10" xml:lang="de" type="auto">Witer bit ich üch umb ratt, die will sich leider die sach also erstreckt, ob ich söll ein boten hinab<note xml:id="fn16" type="footnote" n="16">nach <placeName>Straßburg</placeName>.</note> grad angencz<note xml:id="fn17" type="footnote" n="17">sofort (<bibl>SI</bibl> II 19f).</note> schicken, oder ob ir welend den handel versehen<note xml:id="fn18" type="footnote" n="18">besorgen (<bibl>SI</bibl> VII 568-572).</note>, und was hier in zuͦ thuͦnd oder lasen.</s>
 					<s n="11" xml:lang="de" type="auto">Wil ich diser tagen ein knecht hinin<note xml:id="fn19" type="footnote" n="19">in die Stadt Zürich.</note> umb die antwurtt schiken.</s>
 					<s n="12" xml:lang="de" type="auto">Ich hab uff nechtt<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> nechtt <hi>gestrichenes</hi> neht.</note> wellen selb zuͦ Zürich sin.</s>
-					<s n="13" xml:lang="de" type="auto">Bin ich so gar kranck<note xml:id="fn20" type="footnote" n="20">schwach, mitgenommen (SI III 833).</note> gsin, daß ich nit hab mogen riten, und jetz kann ich nütt von heimen komen; dan da groß jamer und nott sin wirtt, wie<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> wie <hi>gestrichenes</hi> wo.</note> wol ich den handel bim glimpflichsten<note xml:id="fn21" type="footnote" n="21">so schonend wie möglich (vgl. SI II 628).</note>, so es tag wirtt, an zogen.</s>
-					<s n="14" xml:lang="de" type="auto">Und mich hie mit üch all weg<note xml:id="fn22" type="footnote" n="22">immer (Grimm I 241f).</note> befolhen haben.</s>
+					<s n="13" xml:lang="de" type="auto">Bin ich so gar kranck<note xml:id="fn20" type="footnote" n="20">schwach, mitgenommen (<bibl>SI</bibl> III 833).</note> gsin, daß ich nit hab mogen riten, und jetz kann ich nütt von heimen komen; dan da groß jamer und nott sin wirtt, wie<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> wie <hi>gestrichenes</hi> wo.</note> wol ich den handel bim glimpflichsten<note xml:id="fn21" type="footnote" n="21">so schonend wie möglich (vgl. <bibl>SI</bibl> II 628).</note>, so es tag wirtt, an zogen.</s>
+					<s n="14" xml:lang="de" type="auto">Und mich hie mit üch all weg<note xml:id="fn22" type="footnote" n="22">immer (<bibl>Grimm</bibl> I 241f).</note> befolhen haben.</s>
 					<s n="15" xml:lang="de" type="auto">Sag üch och üwers früntlichen mitlidens und erbermd zuͦm höchsten danck.</s>
 					<s n="16" xml:lang="de" type="auto">Ir wellend ouch min schriben bester meinung und also von einem beckümerten mentschen verston.</s>
 				</p>
@@ -159,7 +157,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="19" xml:lang="de" type="auto">Dem wolglerten, ersamen, minen insonders lieben herren und fründen M. Heinrich Bulinger und her <persName ref="person225">Heinrichen Utinger</persName>.</s>
+					<s n="19" xml:lang="de" type="auto">Dem wolglerten, ersamen, minen insonders lieben herren und fründen M. Heinrich Bulinger und her <persName ref="p3242">Heinrichen Utinger</persName>.</s>
 				</p>
 			</div>
 		</body>

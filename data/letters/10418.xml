@@ -6,40 +6,31 @@
 				<title subtype="file">Dietrich Bitter / [Köln] AN Heinrich Bullinger, 25. Mai 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=384</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">193</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,101</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,10 +38,10 @@
 							<p xml:id="regest1">
 								Hat Bullingers Brief erhalten und verteidigt sich gegen die darin gemachten Vorwürfe, daß er zu wenig
 								häufig schreibe und bisher nichts gegen die Messe verfaßt habe. Nachrichten über die Täufer in
-								<placeName ref="place744">Münster</placeName>, den Aufbruch ihrer Glaubensbrüder in
-								<placeName ref="place13">Holland</placeName> und die dortige Sekte [der Melchioriten]. Bitte um
-								<persName ref="person226">Vadians</persName> Epitome und um Nachrichten über den Kriegszug in
-								<placeName ref="place100">Württemberg</placeName>.
+								<placeName>Münster</placeName>, den Aufbruch ihrer Glaubensbrüder in
+								<placeName>Holland</placeName> und die dortige Sekte [der Melchioriten]. Bitte um
+								<persName ref="p8049">Vadians</persName> Epitome und um Nachrichten über den Kriegszug in
+								<placeName>Württemberg</placeName>.
 							</p>
 						</summary>
 						<msItem>
@@ -62,6 +53,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Krafft 116f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 384, S.193</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -70,18 +64,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10418">
 				<correspAction type="sent">
-					<persName ref="person391" cert="high">
+					<persName ref="p391" cert="high">
 						<!--
 						<surname cert="high">Bitter</surname>
 						<forename cert="high">Dietrich</forename>
 						<persName type="main" ref="person8175>Bitter, Dietrich</persName>
 						-->
 					</persName>
-					<placeName source="place267" cert="low"><orig>Köln</orig></placeName>
+					<placeName source="l267" cert="low"><orig>Köln</orig></placeName>
 					<date when="1534-05-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -130,42 +124,42 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="de" type="auto">Uß gnaden des herrn sy myr frisch und gesunt.</s>
-					<s n="3" xml:lang="de" type="auto">Das selbig erfrewt mich altzyt van dyr, dynem geliebten gemaehel<note xml:id="fn1" type="footnote" n="1"><persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>. - e und j stehen in <persName ref="person18">Bitters</persName> niederdeutscher Rechtschreibung oft als Zeichen der Länge des vorangehenden Vokals.</note> und anderen frunden zo erfaeren.</s>
-					<s n="4" xml:lang="de" type="auto">Dyne brieb<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> sampt demghenen<note xml:id="fn3" type="footnote" n="3">demjenigen.</note>, da abe sie meldong thoind, habe ich kortz nach oisteren diß jairs entfahen, in wilchen ich verschulter oirsachen neit unbillich gestraeft und bekeven<note xml:id="fn4" type="footnote" n="4">ausgescholten (Grimm I 1415).</note> werde.</s>
-					<s n="5" xml:lang="de" type="auto">Will dannoch mich damit etzlicher maeß, so ich eynigen geloeben<note xml:id="fn5" type="footnote" n="5">Vertrauen, Glaubwürdigkeit.</note> bey dyr habe, verschuldicht<note xml:id="fn6" type="footnote" n="6">entschuldigt (Grimm XII/I 1179).</note> haben, das ich im nest vergangnen vastelabent<note xml:id="fn7" type="footnote" n="7">Dienstag vor Aschermittwoch, 17. Februar 1534.</note> brieb an dich gegebenn<note xml:id="fn8" type="footnote" n="8">Nicht erhalten, da offenbar schon damals nicht bis zum Adressaten gelangt (s. Z. 12).</note> mit eyns bisschoff boeden<note xml:id="fn9" type="footnote" n="9">Der Bote des Bischofs <persName ref="person1550">Johannes von Lupfen</persName> ist unbekannt.</note> van Costens, dairin eyn kleyn opusculum <persName ref="person286">Rodolphi</persName> Agricole<pb type="edition" next="194"/><note xml:id="fn10" type="footnote" n="10">Vielleicht meint <persName ref="person18">Bitter</persName> <persName ref="person286">Rudolf Agricolas</persName> «Epitome commentariorum dialecticae inventionis», die 1530 in <placeName ref="place577">Köln</placeName> gedruckt worden war, s. <hi>Krafft,</hi> 116, Anm. 1.</note> verfast<note xml:id="fn11" type="footnote" n="11">inbegriffen (Grimm XII/I 310-312; SI I 1061f).</note>.</s>
-					<s n="6" xml:lang="de" type="auto">Derselbig myr vestlich verheischt<note xml:id="fn12" type="footnote" n="12">verheißen, versprochen (Grimm XII/I 554f).</note> hait, ouch darum geschenck van myr entphangen, dyr myne gering schryben ze behandigen.</s>
+					<s n="3" xml:lang="de" type="auto">Das selbig erfrewt mich altzyt van dyr, dynem geliebten gemaehel<note xml:id="fn1" type="footnote" n="1"><persName>Anna Bullinger, geb. Adlischwyler</persName>. - e und j stehen in <persName>Bitters</persName> niederdeutscher Rechtschreibung oft als Zeichen der Länge des vorangehenden Vokals.</note> und anderen frunden zo erfaeren.</s>
+					<s n="4" xml:lang="de" type="auto">Dyne brieb<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> sampt demghenen<note xml:id="fn3" type="footnote" n="3">demjenigen.</note>, da abe sie meldong thoind, habe ich kortz nach oisteren diß jairs entfahen, in wilchen ich verschulter oirsachen neit unbillich gestraeft und bekeven<note xml:id="fn4" type="footnote" n="4">ausgescholten (<bibl>Grimm</bibl> I 1415).</note> werde.</s>
+					<s n="5" xml:lang="de" type="auto">Will dannoch mich damit etzlicher maeß, so ich eynigen geloeben<note xml:id="fn5" type="footnote" n="5">Vertrauen, Glaubwürdigkeit.</note> bey dyr habe, verschuldicht<note xml:id="fn6" type="footnote" n="6">entschuldigt (<bibl>Grimm</bibl> XII/I 1179).</note> haben, das ich im nest vergangnen vastelabent<note xml:id="fn7" type="footnote" n="7">Dienstag vor Aschermittwoch, 17. Februar 1534.</note> brieb an dich gegebenn<note xml:id="fn8" type="footnote" n="8">Nicht erhalten, da offenbar schon damals nicht bis zum Adressaten gelangt (s. Z. 12).</note> mit eyns bisschoff boeden<note xml:id="fn9" type="footnote" n="9">Der Bote des Bischofs <persName>Johannes von Lupfen</persName> ist unbekannt.</note> van Costens, dairin eyn kleyn opusculum <persName ref="p4141">Rodolphi</persName> Agricole<pb type="edition" next="194"/><note xml:id="fn10" type="footnote" n="10">Vielleicht meint <persName>Bitter</persName> <persName>Rudolf Agricolas</persName> «Epitome commentariorum dialecticae inventionis», die 1530 in <placeName>Köln</placeName> gedruckt worden war, s. <hi>Krafft,</hi> 116, Anm. 1.</note> verfast<note xml:id="fn11" type="footnote" n="11">inbegriffen (<bibl>Grimm</bibl> XII/I 310-312; <bibl>SI</bibl> I 1061f).</note>.</s>
+					<s n="6" xml:lang="de" type="auto">Derselbig myr vestlich verheischt<note xml:id="fn12" type="footnote" n="12">verheißen, versprochen (<bibl>Grimm</bibl> XII/I 554f).</note> hait, ouch darum geschenck van myr entphangen, dyr myne gering schryben ze behandigen.</s>
 					<s n="7" xml:lang="de" type="auto">Mirck aber auß dynem schrieben, das sulchs neit gescheyn.</s>
-					<s n="8" xml:lang="de" type="auto">Broeder <persName ref="person2650">Jacob</persName><note xml:id="fn13" type="footnote" n="13">Der wiederholt als Bote zwischen <placeName ref="place577">Köln</placeName> und Zürich erwähnte Bruder Jakob ist nicht näher bekannt, s. HBBW II 104, 5. 254, 13.</note> ist newlich bey myr gewesen; habe van im dyne gesuntheit und wailfart erfaeren, aber sonder briebe<note xml:id="fn14" type="footnote" n="14">ohne Brief.</note> laessen reysen, darum das ich offt van im geafft<note xml:id="fn15" type="footnote" n="15">zum besten gehabt, betrogen, enttäuscht (Grimm I 183).</note> bin und vergebes geschreben.</s>
+					<s n="8" xml:lang="de" type="auto">Broeder <persName ref="p18678">Jacob</persName><note xml:id="fn13" type="footnote" n="13">Der wiederholt als Bote zwischen <placeName>Köln</placeName> und Zürich erwähnte Bruder Jakob ist nicht näher bekannt, s. <bibl>HBBW</bibl> II 104, 5. 254, 13.</note> ist newlich bey myr gewesen; habe van im dyne gesuntheit und wailfart erfaeren, aber sonder briebe<note xml:id="fn14" type="footnote" n="14">ohne Brief.</note> laessen reysen, darum das ich offt van im geafft<note xml:id="fn15" type="footnote" n="15">zum besten gehabt, betrogen, enttäuscht (<bibl>Grimm</bibl> I 183).</note> bin und vergebes geschreben.</s>
 					<s n="9" xml:lang="de" type="auto">Hywidder<note xml:id="fn16" type="footnote" n="16">Dagegen.</note> machstu inreden<note xml:id="fn17" type="footnote" n="17">einwenden.</note>, myn verschuldung<note xml:id="fn18" type="footnote" n="18">Entschuldigung (s. Anm. 6).</note> sie nichts, warumb das ich neit gegen die miß<note xml:id="fn19" type="footnote" n="19">Messe.</note> schriebe.</s>
 					<s n="10" xml:lang="de" type="auto">Weyß neit, myn Henrice, was verhindernuß sulchs bißher hinderbleven<note xml:id="fn20" type="footnote" n="20">aus welcher Verhinderung dies bisher unterblieben ist.</note>.</s>
 					<s n="11" xml:lang="de" type="auto">Wils - gunt myr got lebens - verhaelen<note xml:id="fn21" type="footnote" n="21">verschwinden lassen[?].</note> und moeglichs vlyß besseren.</s>
-					<s n="12" xml:lang="de" type="auto">Habe darum gedult, und wil neit dencken, dat sulchs verachtlich hinderlaessen<note xml:id="fn22" type="footnote" n="22">unterlassen worden ist.</note> want<note xml:id="fn23" type="footnote" n="23">denn (Grimm XIII 1864-1867).</note> womit ich, dyr dienst ader willen bewysen mochte, byn ich geneigt.</s>
+					<s n="12" xml:lang="de" type="auto">Habe darum gedult, und wil neit dencken, dat sulchs verachtlich hinderlaessen<note xml:id="fn22" type="footnote" n="22">unterlassen worden ist.</note> want<note xml:id="fn23" type="footnote" n="23">denn (<bibl>Grimm</bibl> XIII 1864-1867).</note> womit ich, dyr dienst ader willen bewysen mochte, byn ich geneigt.</s>
 					<s n="13" xml:lang="de" type="auto">Mer, so ich dyr sonders neit weyß zo schryben ader zo schicken, bin ich get vertzochlich<note xml:id="fn24" type="footnote" n="24">in Verzug geraten.</note>, wills abestellen, sollt ich schoin neit mehr schrieben, dan a. b.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="de" type="auto">Myn Heinrice, by uns iß itzt nichts neuwes, dan das die widderdeuffer Monster in Westphaelen innehaben und aldae geweltlich thoben.</s>
-					<s n="15" xml:lang="de" type="auto">Der bisschoff haets myt synem her krefftich umcingelt<note xml:id="fn25" type="footnote" n="25">Seit Ende Februar 1534 gab es eine Blockade der Stadt <placeName ref="place744">Münster in Wes</placeName>tfalen. Die richtige Belagerung der Stadt kam erst im Mai zustande. Am 21. Mai begann die Beschießung. Ein Sturmversuch am 25. Mai verlief erfolglos; zu den Einzelheiten s. Ludwig <hi>Keller,</hi> Geschichte der Wiedertäufer und ihres Reichs zu Münster, Münster 1880, S. 240-256.</note>.</s>
+					<s n="15" xml:lang="de" type="auto">Der bisschoff haets myt synem her krefftich umcingelt<note xml:id="fn25" type="footnote" n="25">Seit Ende Februar 1534 gab es eine Blockade der Stadt <placeName>Münster in Westfalen</placeName>. Die richtige Belagerung der Stadt kam erst im Mai zustande. Am 21. Mai begann die Beschießung. Ein Sturmversuch am 25. Mai verlief erfolglos; zu den Einzelheiten s. Ludwig <hi>Keller,</hi> Geschichte der Wiedertäufer und ihres Reichs zu Münster, Münster 1880, S. 240-256.</note>.</s>
 					<s n="16" xml:lang="de" type="auto">Wissen noch neit, wie es werden wil mit der oeverwynnog<note xml:id="fn26" type="footnote" n="26">Bezwingung, Überwindung.</note>.</s>
-					<s n="17" xml:lang="de" type="auto">Die Hollender gelycher meynung<note xml:id="fn27" type="footnote" n="27">gemeint sind holländische Täufer (s. Anm. 29).</note> waeren hefftich uff der vart, etliche dusent, die<note xml:id="fn28" type="footnote" n="28">die Täufer in <placeName ref="place744">Münster</placeName>.</note> zo redden und zo schuttzen.</s>
-					<s n="18" xml:lang="de" type="auto">Syn aber verhindert worden<note xml:id="fn29" type="footnote" n="29">Der Aufbruch von mehreren tausend bewaffneten Täufern aus <placeName ref="place13">Holland</placeName>, von denen man sich in <placeName ref="place744">Münster</placeName> Hilfe erhoffte, fand vom 21. bis 25. März statt und wurde von den niederländischen Behörden aufgehalten. Die Anführer wurden hingerichtet, s. <hi>Keller,</hi> aaO, S. 162f; <hi>Deppermann</hi> 295.</note>.</s>
-					<s n="19" xml:lang="de" type="auto">Ich hoer, das auch itzt under den Hollendern ein sect ist<note xml:id="fn30" type="footnote" n="30">Mit der Sekte meint <persName ref="person18">Bitter</persName> sicher die holländischen Täufer, die nach ihrem wichtigsten Lehrer <persName ref="person1189">Melchior Hoffman</persName> Melchioriten genannt wurden. Besonders stark waren sie von apokalyptischen Hoffnungen bewegt und erwarteten bis 1535 eine radikale Weltwende. Wegen ihrer zunehmenden Aktivität seit Ende 1533 und ihren direkten Kontakten zu den Täufern in <placeName ref="place744">Münster</placeName> machten sie viel von sich reden, s. <hi>Deppermann</hi> 278-295.</note>, dey willen den komfftigen Messiam erwarden; laessen sich beschnyden.</s>
+					<s n="17" xml:lang="de" type="auto">Die Hollender gelycher meynung<note xml:id="fn27" type="footnote" n="27">gemeint sind holländische Täufer (s. Anm. 29).</note> waeren hefftich uff der vart, etliche dusent, die<note xml:id="fn28" type="footnote" n="28">die Täufer in <placeName>Münster</placeName>.</note> zo redden und zo schuttzen.</s>
+					<s n="18" xml:lang="de" type="auto">Syn aber verhindert worden<note xml:id="fn29" type="footnote" n="29">Der Aufbruch von mehreren tausend bewaffneten Täufern aus <placeName>Holland</placeName>, von denen man sich in <placeName>Münster</placeName> Hilfe erhoffte, fand vom 21. bis 25. März statt und wurde von den niederländischen Behörden aufgehalten. Die Anführer wurden hingerichtet, s. <hi>Keller,</hi> aaO, S. 162f; <bibl>Deppermann</bibl> 295.</note>.</s>
+					<s n="19" xml:lang="de" type="auto">Ich hoer, das auch itzt under den Hollendern ein sect ist<note xml:id="fn30" type="footnote" n="30">Mit der Sekte meint <persName>Bitter</persName> sicher die holländischen Täufer, die nach ihrem wichtigsten Lehrer <persName>Melchior Hoffman</persName> Melchioriten genannt wurden. Besonders stark waren sie von apokalyptischen Hoffnungen bewegt und erwarteten bis 1535 eine radikale Weltwende. Wegen ihrer zunehmenden Aktivität seit Ende 1533 und ihren direkten Kontakten zu den Täufern in <placeName>Münster</placeName> machten sie viel von sich reden, s. <bibl>Deppermann</bibl> 278-295.</note>, dey willen den komfftigen Messiam erwarden; laessen sich beschnyden.</s>
 					<s n="20" xml:lang="de" type="auto">O herr, was ends sall syn dusser neuwer und seltzamer<pb type="edition" next="195"/> secten.</s>
 					<s n="21" xml:lang="de" type="auto">Und geschuet sulchs allet underm schyn des evangelii.</s>
-					<s n="22" xml:lang="de" type="auto">Gegenwordiger tzeiger<note xml:id="fn31" type="footnote" n="31">Überbringer des Briefes; der Kölner Harnischmacher <persName ref="person2495">Johann Wilden</persName>, der wiederholt zwischen Köln und Zürich unterwegs war, s. HBBW III 131, 6 mit Anm. 8 und unten 297, 6f mit Anm. 4.</note> wirt dyr alle sachen beß vertzellen.</s>
+					<s n="22" xml:lang="de" type="auto">Gegenwordiger tzeiger<note xml:id="fn31" type="footnote" n="31">Überbringer des Briefes; der Kölner Harnischmacher <persName>Johann Wilden</persName>, der wiederholt zwischen Köln und Zürich unterwegs war, s. <bibl>HBBW</bibl> III 131, 6 mit Anm. 8 und unten 297, 6f mit Anm. 4.</note> wirt dyr alle sachen beß vertzellen.</s>
 					<s n="23" xml:lang="de" type="auto">Er ist mehr bey dyr gesyn.</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="de" type="auto">Schick myr das opusculum <persName ref="person226">Vadiani</persName> bey <foreign xml:lang="la">acta apostolorum</foreign> gehoerich<note xml:id="fn32" type="footnote" n="32"><persName ref="person226">Vadians</persName> «Epitome trium terrae partium» erschien freilich erst Ende Juli 1534 bei <persName ref="person891">Froschauer</persName> in Zürich, s. unten <ref target="file10454">Nr. 419</ref>.</note>, und gebuet myr wider, ist hyr etwas, das du gern hettes.</s>
+					<s n="24" xml:lang="de" type="auto">Schick myr das opusculum <persName ref="p8049">Vadiani</persName> bey <foreign xml:lang="la">acta apostolorum</foreign> gehoerich<note xml:id="fn32" type="footnote" n="32"><persName>Vadians</persName> «Epitome trium terrae partium» erschien freilich erst Ende Juli 1534 bei <persName ref="p5295">Froschauer</persName> in Zürich, s. unten <ref target="file10454">Nr. 419</ref>.</note>, und gebuet myr wider, ist hyr etwas, das du gern hettes.</s>
 					<s n="25" xml:lang="de" type="auto">Hiemit dem almechtigen befollen, der dich sampt dynem hueßgesind in gesuntheit beware.</s>
 				</p>
 				<p>
 					<s n="26" xml:lang="de" type="auto">Datum ylens uff maendach nae phingsten anno 34.</s>
 				</p>
 				<p>
-					<s n="27" xml:lang="de" type="auto"><persName ref="person18">Diderich Bitter</persName> van Wipperfoird, dyn gunstiger freund.</s>
+					<s n="27" xml:lang="de" type="auto"><persName ref="p8175">Diderich Bitter</persName> van Wipperfoird, dyn gunstiger freund.</s>
 				</p>
 				<p>
-					<s n="28" xml:lang="de" type="auto">Die handelung des lantgrabens<note xml:id="fn33" type="footnote" n="33">des Landgrafen Philipp von Hessen.</note> und roemschen koenincks<note xml:id="fn34" type="footnote" n="34">Ferdinands I.</note> im land von Wirtzburch<note xml:id="fn35" type="footnote" n="35"><persName ref="person18">Bitter</persName> meint natürlich Philipps Kriegszug zur Wiedereinsetzung <persName ref="person224">Ulrichs</persName> von <placeName ref="place100">Württemberg</placeName> in dessen Herzogtum; dazu s. oben <ref target="file10407">[Nr. 374]</ref> S. 172, 5-16. 178, 5-14 u. ö.</note> beger ich von dyr zo erfaeren, sampt der eidtgnossen anslegen und oebung<note xml:id="fn36" type="footnote" n="36">Aktivitäten, Unternehmungen.</note>.</s>
+					<s n="28" xml:lang="de" type="auto">Die handelung des lantgrabens<note xml:id="fn33" type="footnote" n="33">des Landgrafen Philipp von Hessen.</note> und roemschen koenincks<note xml:id="fn34" type="footnote" n="34">Ferdinands I.</note> im land von Wirtzburch<note xml:id="fn35" type="footnote" n="35"><persName>Bitter</persName> meint natürlich Philipps Kriegszug zur Wiedereinsetzung <persName>Ulrichs von Württemberg</persName> in dessen Herzogtum; dazu s. oben <ref target="file10407">[Nr. 374]</ref> S. 172, 5-16. 178, 5-14 u. ö.</note> beger ich von dyr zo erfaeren, sampt der eidtgnossen anslegen und oebung<note xml:id="fn36" type="footnote" n="36">Aktivitäten, Unternehmungen.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

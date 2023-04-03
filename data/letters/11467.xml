@@ -6,40 +6,31 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, Herbst 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1424</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">170</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,183</idno>
 					</msIdentifier>
 					<msContents>
@@ -54,13 +45,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1424, S.170</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11467">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -73,7 +71,7 @@
 					<date notBefore="1540-09-01" notAfter="1540-11-12" cert="low">Herbst 1540</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -137,7 +135,7 @@
 				<p>
 					<s n="13" xml:lang="la" type="auto">Vale in domino Christo<note xml:id="fnc" type="footnote" n="c"><hi>der Vorlage</hi> X Ptn.</note>.</s>
 					<s n="14" xml:lang="la" type="manual">Amen.</s>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person81">Grynęus</persName> tuus.</s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p1365">Grynęus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

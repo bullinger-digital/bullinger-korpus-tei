@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN [Edwin Sandys] / [York], 10. März 1574</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">8247/17</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,184</idno>
 					</msIdentifier>
 					<msContents>
@@ -60,14 +59,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive58">
+						<repository ref="a58">
 							<name>London LPL</name>
 							<ref target="https://lambethpalacelibrary.org/"/>
 						</repository>
-						<settlement ref="place296">London</settlement>
+						<settlement ref="l296">London</settlement>
 						<institution>Lambeth Palace Library</institution>
 						-->
-						<repository ref="archive58"/>
+						<repository ref="a58"/>
 						<idno subtype="Kopie">Ms 2010 fo 144-145r (Nr. 90)</idno>
 						<idno subtype="Mikrofilm">48 IRG</idno>
 					</msIdentifier>
@@ -77,7 +76,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9593">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -87,11 +86,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1574-03-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2867" cert="low">
+					<persName ref="p2867" cert="low">
 						<!--
 						<surname cert="low">Sandys</surname>
 						<forename cert="low">Edwin</forename>
@@ -100,7 +99,7 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/120649802"/>
 						-->
 					</persName>
-					<placeName source="place574" cert="low"><orig>York</orig></placeName>
+					<placeName source="l574" cert="low"><orig>York</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file9594"/>
@@ -125,7 +124,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

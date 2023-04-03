@@ -6,32 +6,31 @@
 				<title subtype="file">Jakob Rüeger / Schaffhausen AN Heinrich Bullinger / Zürich, 20. April 1553</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3106</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 362,15</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 79,86</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,7 +59,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1853">
 				<correspAction type="sent">
-					<persName ref="person2757" cert="high">
+					<persName ref="p2757" cert="high">
 						<!--
 						<surname cert="high">Rüeger</surname>
 						<forename cert="high">Jakob</forename>
@@ -70,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11468609"/>
 						-->
 					</persName>
-					<placeName source="place441" cert="high"><orig>Schaffhausen</orig></placeName>
+					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1553-04-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -84,7 +83,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file1854"/>
@@ -110,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,7 +131,7 @@
 					<s n="9" xml:lang="la" type="auto">quod monere nostrates non potueritis de Iacobo, qualis videlicet fuerit quidque de illo vestro iudicio sperandum; si enim<note type="margin">a.R.: ennim</note> nimium tribuetur ei in scriptis commendatitiis, quidam obiicient, quare vestrates eius non utantur opera, cum stipendiatus fuerit etc.</s>
 					<s n="10" xml:lang="la" type="auto">Salvos interim cupio d. Theodorum, Gvaltherum, Pellicanum caeterosque ecclesiae ministros cum genero tuo uno, altero atque 3°, et de m. Zvinglii valetudine certi quid scire cuperem.</s>
 					<s n="11" xml:lang="la" type="auto">Dominum sedulo orabimus, ut vos omnes diu nostrae vestraeque ecclesiae prospera valetudine utentes superstites sinat<note type="margin">a.R.: simat</note>.</s>
-					<s n="12" xml:lang="la" type="auto">Obiit furiosus ille haereticus Hosiander<note xml:id="fn1" type="footnote" n="1">Andreas Osiander (zur Namensform s. Osiander GA VIII 289f und 305, 10-13).</note> in Prussia, cui nomen datum est <foreign xml:lang="el">δικαιουσιάστης</foreign>, articulum iustificationis hactenus ab evang[elio] integrum labefactans, imo ei contraria docens.</s>
+					<s n="12" xml:lang="la" type="auto">Obiit furiosus ille haereticus Hosiander<note xml:id="fn1" type="footnote" n="1">Andreas Osiander (zur Namensform s. <bibl>Osiander GA</bibl> VIII 289f und 305, 10-13).</note> in Prussia, cui nomen datum est <foreign xml:lang="el">δικαιουσιάστης</foreign>, articulum iustificationis hactenus ab evang[elio] integrum labefactans, imo ei contraria docens.</s>
 					<s n="13" xml:lang="la" type="auto">Dux Prussiae a Ioanne Friderico liberato petit, ut mittat viros doctos et pios, qui seductos reducant, haeresim gladio verbi dei extirpent.</s>
 					<s n="14" xml:lang="la" type="auto">Mittitur Iustus Menius et alii quidam.</s>
 					<s n="15" xml:lang="la" type="auto">D. Maior etiam novam agitat contentionem de propositione: Opera bona necessaria sunt ad salutem; eam summis viribus tuetur Maior, alii multi ipsius opinionem publicis scriptis refutant.</s>

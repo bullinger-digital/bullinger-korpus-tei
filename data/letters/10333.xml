@@ -6,40 +6,31 @@
 				<title subtype="file">Christian Hochholzer / [Zürich] AN Heinrich Bullinger, [15.] Dezember [1533]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=302</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">260</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,342r -342ar.</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,24 +44,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 302, S.260</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10333">
 				<correspAction type="sent">
-					<persName ref="person1553" cert="high">
+					<persName ref="p1553" cert="high">
 						<!--
 						<surname cert="high">Hochholzer</surname>
 						<forename cert="high">Christian</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/108932216X"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1533-12-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -99,7 +97,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -112,11 +110,11 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Heinricho Bullingero <persName ref="person104">Christianus</persName> Hochholtzer, domino et patri suo colendissimo, S. P. D.</s>
+					<s n="1" xml:lang="la" type="auto">Heinricho Bullingero <persName ref="p1553">Christianus</persName> Hochholtzer, domino et patri suo colendissimo, S. P. D.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quanquam tanta est tuorum in me beneficiorum magnitudo, pater observande - tu enim mihi solus patris loco<note xml:id="fn3" type="footnote" n="3">Über <persName ref="person104">Hochholzers</persName> Vater ist nichts bekannt; inwiefern Bullinger an dessen Stelle trat, ähnlich wie bei <persName ref="person84">Rudolf Gwalther</persName>, bleibt ungewiß.</note> -, ut nullam partem tuorum erga me meritorum non modo referenda sed ne cogitanda quidem gratia consequi possim, tamen, quia te semper fautorem ac Mecaenatem omnium studiosorum et inprimis mei sensi, maiora, si ullo pacto fieri possunt, a te - per literas quo melius - petere haud sum dedignatus, non quin mihi ipsi tantum apud te tribuerem authoritatis, sed quod te adeo benevolum sum expertus, ut nullis non benefacere concupiscas.</s>
-					<s n="3" xml:lang="la" type="auto">Quod autem per literas tecum colloquor, duplex me ratio movit: Primo, quo melius et consyderatius tecum loquerer, deinde, ut stilum exercerem<note xml:id="fn4" type="footnote" n="4">Tatsächlich kann der ganze Brief als Stilübung für eine «epistola petitoria» gelten. Vgl. die Beispiele in <persName ref="person779">Erasmus</persName> 1/2 467-475.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Quanquam tanta est tuorum in me beneficiorum magnitudo, pater observande - tu enim mihi solus patris loco<note xml:id="fn3" type="footnote" n="3">Über <persName ref="p5708">Hochholzers</persName> Vater ist nichts bekannt; inwiefern Bullinger an dessen Stelle trat, ähnlich wie bei <persName>Rudolf Gwalther</persName>, bleibt ungewiß.</note> -, ut nullam partem tuorum erga me meritorum non modo referenda sed ne cogitanda quidem gratia consequi possim, tamen, quia te semper fautorem ac Mecaenatem omnium studiosorum et inprimis mei sensi, maiora, si ullo pacto fieri possunt, a te - per literas quo melius - petere haud sum dedignatus, non quin mihi ipsi tantum apud te tribuerem authoritatis, sed quod te adeo benevolum sum expertus, ut nullis non benefacere concupiscas.</s>
+					<s n="3" xml:lang="la" type="auto">Quod autem per literas tecum colloquor, duplex me ratio movit: Primo, quo melius et consyderatius tecum loquerer, deinde, ut stilum exercerem<note xml:id="fn4" type="footnote" n="4">Tatsächlich kann der ganze Brief als Stilübung für eine «epistola petitoria» gelten. Vgl. die Beispiele in <persName>Erasmus</persName> 1/2 467-475.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Quandoquidem itaque iam ferme annus suum integrum perfecit cursum, ex quo ex mera tua gratia et benevolentia coepi inter domesticos tuos recenseri, et quoniam ad exitum nunc vergit annus, optimum visum est, ut te precibus summis aggrederer rogaremque, ut si ullo possit<pb type="scan" next="||342v."/> fieri modo, denuo concedas ultra etiam inter tuos recenseri commensales.</s>
 					<s n="5" xml:lang="la" type="auto">Video enim, quantae et fortunę et eruditionis mihi futurę sint accessiones, si diutius tecum licuerit conversari.</s>
 					<s n="6" xml:lang="la" type="auto">Quare tam supplex ad te venio quam qui maxime, quamvis haud me fugiat me aliquibus in rebus forte contra te peccasse minusque tuę obedivisse voluntati<note xml:id="fn5" type="footnote" n="5">Ein konkreter Anlaß ist nicht bekannt. Vielleicht ist die Wendung als Topos gebraucht.</note>.</s>

@@ -6,47 +6,38 @@
 				<title subtype="file">Peter Simler / [Kappel am Albis] AN Heinrich Bullinger, 18. November 1542</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2006</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17431-6</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1691</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">12</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1542</biblScope>
-				<biblScope unit="page">246</biblScope>
-				<biblScope unit="pages">299</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 12 (Briefe des Jahres 1542), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2006, 299 S., ISBN 978-3-290-17431-6.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 437,149a v. , Beilage: 147r.-149v.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Übersendet das von Bullinger gewünschte Material [zur Geschichte des Klosters und der Schule
-								<placeName ref="place534">Kappel</placeName>], wobei er nur das Jahr [der Übergabe des Klosters an den
+								<placeName>Kappel</placeName>], wobei er nur das Jahr [der Übergabe des Klosters an den
 								Zürcher Rat], nicht aber den Monat angeben kann, da damals mit dem Rat in Treu und Glauben gehandelt worden
 								war und keine Aufzeichnungen gemacht wurden.
 							</p>
@@ -60,6 +51,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Bächtold, Bullinger vor dem Rat 208, Anm. 62</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 12, Nr. 1691, S.246</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -68,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11736">
 				<correspAction type="sent">
-					<persName ref="person2982" cert="high">
+					<persName ref="p2982" cert="high">
 						<!--
 						<surname cert="high">Simler</surname>
 						<forename cert="high">Peter</forename>
@@ -77,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11591747"/>
 						-->
 					</persName>
-					<placeName source="place242" cert="low"><orig>Kappel am Albis</orig></placeName>
+					<placeName source="l242" cert="low"><orig>Kappel am Albis</orig></placeName>
 					<date when="1542-11-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,14 +110,14 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Lieber her gfatter<note xml:id="fn2" type="footnote" n="2">Bullinger war Pate von <persName ref="person200">Peter Simlers</persName> Sohn Josias, vgl. HBBW I <ref target="file10020">[Nr. 3]</ref> 53, Anm. 2.</note>, ich schick üch hie ingschrifft das, so ir begert hannd;<note xml:id="fn3" type="footnote" n="3">Bei dem von <persName ref="person200">Simler</persName> übermittelten Material (Zürich StA, E II 437, 147r.-149v.) handelt es sich um Aufzeichnungen zur Geschichte des Klosters und der Schule <placeName ref="place534">Kappel</placeName> 1508-1542, die Bullinger wohl im Zusammenhang mit der Schulpolitik des Rates angefordert hatte, die schließlich 1550 zur Aufhebung der Schule in <placeName ref="place534">Kappel</placeName> führte. Vgl. <hi>Bächtold,</hi> Bullinger vor dem Rat 205-211.</note> doch so heiter<note xml:id="fn4" type="footnote" n="4">klar.</note> nit, wie ir begärent.</s>
+					<s n="1" xml:lang="de" type="auto">Lieber her gfatter<note xml:id="fn2" type="footnote" n="2">Bullinger war Pate von <persName>Peter Simlers</persName> Sohn Josias, vgl. <bibl>HBBW</bibl> I <ref target="file10020">[Nr. 3]</ref> 53, Anm. 2.</note>, ich schick üch hie ingschrifft das, so ir begert hannd;<note xml:id="fn3" type="footnote" n="3">Bei dem von <persName>Simler</persName> übermittelten Material (Zürich StA, E II 437, 147r.-149v.) handelt es sich um Aufzeichnungen zur Geschichte des Klosters und der Schule <placeName>Kappel</placeName> 1508-1542, die Bullinger wohl im Zusammenhang mit der Schulpolitik des Rates angefordert hatte, die schließlich 1550 zur Aufhebung der Schule in <placeName>Kappel</placeName> führte. Vgl. <hi>Bächtold,</hi> Bullinger vor dem Rat 205-211.</note> doch so heiter<note xml:id="fn4" type="footnote" n="4">klar.</note> nit, wie ir begärent.</s>
 					<s n="2" xml:lang="de" type="auto">Ir hannd allein das jar, in dem minen heren das kloster ist über geben, den monat aber nit.</s>
 					<s n="3" xml:lang="de" type="auto">Wir hands am anfang nit uffzeichnot, sonnder einfaltig als die wol trüwenden<note xml:id="fn5" type="footnote" n="5">einfach in gutem Vertrauen.</note> mitt unsern heren gehandlet.</s>
 					<s n="4" xml:lang="de" type="auto">Manglent ir etwas wyter, so lassent michs wüssen; was überflyssig<note xml:id="fn6" type="footnote" n="6">überflüssig.</note> ist, thuͦnd dannen.</s>

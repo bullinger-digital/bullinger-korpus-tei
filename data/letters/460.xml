@@ -6,32 +6,31 @@
 				<title subtype="file">Wolfgang Musculus / Bern AN Heinrich Bullinger / Zürich, 12. März 1549</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">1376</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 360,109</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,10 +42,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Ep. Tig. III, S. 222f, Nr. 16</title>
+								<title>Ep. Tig. III, S.222f, Nr. 16</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Zurich Letters III, S. 336f (Exc.) Nr. 163</title>
+								<title>Zurich Letters III, S.336f (Exc.) Nr. 163</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Zitat">
 								<title>Bainton, Ochino 178 (3)</title>
@@ -57,14 +56,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 69,144</idno>
 					</msIdentifier>
 				</msDesc>
@@ -73,7 +72,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/460">
 				<correspAction type="sent">
-					<persName ref="person2229" cert="high">
+					<persName ref="p2229" cert="high">
 						<!--
 						<surname cert="high">Musculus</surname>
 						<forename cert="high">Wolfgang</forename>
@@ -84,11 +83,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413916"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1549-03-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -98,7 +97,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file461"/>
@@ -125,7 +124,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -181,7 +180,7 @@
 				</p>
 				<p>
 					<s n="29" xml:lang="la" type="auto">Quapropter indesinenter pro illo orandum est ad dominum, ut periculosum illud Scoticum bellum tandem consopiat, unde haud modica mala in id regni irruere possunt, nisi illa d[ominus] clementia avertat.</s>
-					<s n="30" xml:lang="la" type="auto">Cęterum de causa mea nihildum certi habeo, nisi quod heri senatus illam scholarchis commendavit, e quibus unus est seckelmeyster Haller.</s>
+					<s n="30" xml:lang="la" type="auto">Cęterum de causa mea nihildum certi habeo, nisi quod heri senatus illam scholarchis commendavit, e quibus unus est <foreign xml:lang="de">seckelmeyster Haller.</foreign></s>
 					<s n="31" xml:lang="la" type="auto">Reliqui duo, etiam ipsi senatorii ordinis, mihi sunt ignoti.</s>
 					<s n="32" xml:lang="la" type="auto">Illi mecum agent, ut audio, et cum de munere administrando, tum de stipendio annuo constituent.</s>
 					<s n="33" xml:lang="la" type="auto">Quę ad me scribis, si me dominus hic manere voluerit, fideliter praestabo.</s>

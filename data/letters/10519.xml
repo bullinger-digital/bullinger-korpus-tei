@@ -6,53 +6,44 @@
 				<title subtype="file">Gervasius Schuler / Kempten im Allgäu AN Heinrich Bullinger, 4. Dezember 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=483</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">431</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2745</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hatte in <placeName ref="place70">Augsburg</placeName> eine Unterredung mit
-								<persName ref="person28">Bucer</persName> über die geplante Abendmahlskonkordie.
-								<persName ref="person28">Bucer</persName>, der die Zürcher bereits brieflich um eine geheime Zusammenkunft
+								Hatte in <placeName>Augsburg</placeName> eine Unterredung mit
+								<persName ref="p467">Bucer</persName> über die geplante Abendmahlskonkordie.
+								<persName ref="p467">Bucer</persName>, der die Zürcher bereits brieflich um eine geheime Zusammenkunft
 								der Reformierten an einem ihnen genehmen Ort gebeten hat, wünscht nun, Bullinger solle
-								<placeName ref="place565">Konstanz</placeName> vorschlagen.
-								<persName ref="person195">Schuler</persName> schließt sich diesem Wunsch an und bittet Bullinger, an dieser
-								Tagung zusammen mit den Vertretern <placeName ref="place121">Berns</placeName> und
-								<placeName ref="place97">Basels</placeName> teilzunehmen. Ein Weiterbestehen der Kontroverse würde das
+								<placeName>Konstanz</placeName> vorschlagen.
+								<persName ref="p8440">Schuler</persName> schließt sich diesem Wunsch an und bittet Bullinger, an dieser
+								Tagung zusammen mit den Vertretern <placeName>Berns</placeName> und
+								<placeName>Basels</placeName> teilzunehmen. Ein Weiterbestehen der Kontroverse würde das
 								Werk Satans fördern und schlimme Folgen haben.
 							</p>
 						</summary>
@@ -60,13 +51,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 483, S.431</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10519">
 				<correspAction type="sent">
-					<persName ref="person2943" cert="high">
+					<persName ref="p2943" cert="high">
 						<!--
 						<surname cert="high">Schuler</surname>
 						<forename cert="high">Gervasius</forename>
@@ -75,11 +73,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/130955264"/>
 						-->
 					</persName>
-					<placeName source="place907" cert="high"><orig>Kempten im Allgäu</orig></placeName>
+					<placeName source="l907" cert="high"><orig>Kempten im Allgäu</orig></placeName>
 					<date when="1534-12-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,11 +126,11 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax a deo patre etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Secunda decembris proxime fui <placeName ref="place70">Auguste</placeName> cum fratre nostro <persName ref="person28">Bucero</persName> atque<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> atque <hi>gestrichen</hi> ad.</note> de future concordie negotio inter nos et <persName ref="person138">Lutherum</persName> coram loquutus sum<note xml:id="fn1" type="footnote" n="1">Zum Stand der Konkordienverhandlungen Ende November/Anfang Dezember 1534 vgl. <hi>Köhler,</hi> ZL II 348f. 363-366, wo auch (363) <persName ref="person195">Schulers</persName> Brief erwähnt wird.</note>, et cum superioribus literis<note xml:id="fn2" type="footnote" n="2"><persName ref="person28">Bucer</persName> an [Pfarrer und Lehrer von Zürich], 22. November 1534, oben <ref target="file10514">Nr. 478</ref>.</note> ad te missis vobis <persName ref="person84">Tigurinis</persName> optionem dederit, ut aliquem conveniendi nobis commodiorem deligeretis locum<note xml:id="fnb" type="footnote" n="b">locum <hi>am Rande nachgetragen.</hi></note>, optat tamen multis de causis, ut <placeName ref="place565">Constantiam</placeName> conveniamus, ubi commodius adeoque tutius omnia tractari possent, iussitque, ut ipse tibi multis nominibus iunctus scriberem<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> scriberem <hi>gestrichen</hi> tibi.</note> teque hortarer, ut Constantie locum nobis proponeres.</s>
-					<s n="3" xml:lang="la" type="auto">Quodsi literę mee satis mature ad te venerint, fac, quod oro et <persName ref="person28">Bucerus</persName> abs te fieri optat.</s>
+					<s n="2" xml:lang="la" type="auto">Secunda decembris proxime fui <placeName>Auguste</placeName> cum fratre nostro <persName ref="p467">Bucero</persName> atque<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> atque <hi>gestrichen</hi> ad.</note> de future concordie negotio inter nos et <persName ref="p1974">Lutherum</persName> coram loquutus sum<note xml:id="fn1" type="footnote" n="1">Zum Stand der Konkordienverhandlungen Ende November/Anfang Dezember 1534 vgl. <hi>Köhler,</hi> ZL II 348f. 363-366, wo auch (363) <persName>Schulers</persName> Brief erwähnt wird.</note>, et cum superioribus literis<note xml:id="fn2" type="footnote" n="2"><persName ref="p18198">Bucer</persName> an [Pfarrer und Lehrer von Zürich], 22. November 1534, oben <ref target="file10514">Nr. 478</ref>.</note> ad te missis vobis <persName ref="p8011">Tigurinis</persName> optionem dederit, ut aliquem conveniendi nobis commodiorem deligeretis locum<note xml:id="fnb" type="footnote" n="b">locum <hi>am Rande nachgetragen.</hi></note>, optat tamen multis de causis, ut <placeName>Constantiam</placeName> conveniamus, ubi commodius adeoque tutius omnia tractari possent, iussitque, ut ipse tibi multis nominibus iunctus scriberem<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> scriberem <hi>gestrichen</hi> tibi.</note> teque hortarer, ut Constantie locum nobis proponeres.</s>
+					<s n="3" xml:lang="la" type="auto">Quodsi literę mee satis mature ad te venerint, fac, quod oro et <persName ref="p467">Bucerus</persName> abs te fieri optat.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto"><pb type="edition" next="432"/>Preterea oro, ne desis tu cum <placeName ref="place121">Bernatibus</placeName> et <placeName ref="place97">Basiliensibus</placeName> huic tam sancto conventui.</s>
+					<s n="4" xml:lang="la" type="auto"><pb type="edition" next="432"/>Preterea oro, ne desis tu cum <placeName>Bernatibus</placeName> et <placeName>Basiliensibus</placeName> huic tam sancto conventui.</s>
 					<s n="5" xml:lang="la" type="auto">Ego scio, quę rerum turba nos ex equo maneat, ubi in hoc inveterato dissidio diutius duraverimus.</s>
 					<s n="6" xml:lang="la" type="auto">Molitur mira in nos sathan.</s>
 					<s n="7" xml:lang="la" type="auto">Hac unica dissidii rimula probe dispiciendum est ne praevaleat adversum nos, omnesque conatus huc flectendi, ut conveniamus animis nos, qui praesumus verbo, hocque non citra veritatem.</s>
@@ -145,7 +143,7 @@
 					<s n="10" xml:lang="la" type="auto">Datum 4. decembris, Kampidone, 1534.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto"><persName ref="person195">Gervasius</persName> tuus ex animo.</s>
+					<s n="11" xml:lang="la" type="auto"><persName ref="p8440">Gervasius</persName> tuus ex animo.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

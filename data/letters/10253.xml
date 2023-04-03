@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 13. Mai 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=222</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">124</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,129</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,23 +38,30 @@
 							<p xml:id="regest1">
 								Wenn ihm Bullinger aus Vorsicht nicht antwortet, nährt er damit nur den Verdacht, die Lage sei noch
 								schlimmer als angenommen. Bittet um Nachrichten, wenigstens über den Besuch
-								<persName ref="person28">Bucers</persName>. <persName ref="person40">Capitos</persName> kurzer Besuch in
-								<placeName ref="place97">Basel</placeName>. Streitigkeiten in
-								<placeName ref="place1049">Straßburg</placeName>; <persName ref="person28">Bucer</persName> soll sich
-								beeilen. Synode in <placeName ref="place97">Basel</placeName>.
+								<persName ref="p467">Bucers</persName>. <persName ref="p5565">Capitos</persName> kurzer Besuch in
+								<placeName>Basel</placeName>. Streitigkeiten in
+								<placeName>Straßburg</placeName>; <persName ref="p467">Bucer</persName> soll sich
+								beeilen. Synode in <placeName>Basel</placeName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 222, S.124</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10253">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1533-05-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,14 +127,14 @@
 					<s n="2" xml:lang="la" type="auto">Quid causae sit, cur nihil respondeas, facile divino.</s>
 					<s n="3" xml:lang="la" type="auto">Times, ne quid accidat inde mali, exemplo fortasse territus.</s>
 					<s n="4" xml:lang="la" type="auto">Interim autem, dum taces, crede mihi, suspicionem auges, rem esse multo pessimam.</s>
-					<s n="5" xml:lang="la" type="auto">Igitur si de hac non putas scribendum, de <persName ref="person28">Buceri</persName> saltem actione<note xml:id="fn1" type="footnote" n="1">Zu <persName ref="person28">Bucers</persName> Reise durch die Eidgenossenschaft s. oben <ref target="file10245">[Nr. 214]</ref> S. 112, Anm. 3.</note> significes<note xml:id="fn2" type="footnote" n="2">Demnach war <persName ref="person154">Myconius</persName> noch nicht im Besitz der Erklärung der Zürcher Geistlichen an <persName ref="person28">Bucer</persName> vom 8. Mai 1533, s. oben <ref target="file10250">Nr. 219</ref>.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Igitur si de hac non putas scribendum, de <persName ref="p467">Buceri</persName> saltem actione<note xml:id="fn1" type="footnote" n="1">Zu <persName ref="p18198">Bucers</persName> Reise durch die Eidgenossenschaft s. oben <ref target="file10245">[Nr. 214]</ref> S. 112, Anm. 3.</note> significes<note xml:id="fn2" type="footnote" n="2">Demnach war <persName>Myconius</persName> noch nicht im Besitz der Erklärung der Zürcher Geistlichen an <persName ref="p18198">Bucer</persName> vom 8. Mai 1533, s. oben <ref target="file10250">Nr. 219</ref>.</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Omnis etenim hic mora gravis est.</s>
-					<s n="7" xml:lang="la" type="auto"><persName ref="person40">Capito</persName> fuit hic interea, quamvis una tantum nocte.</s>
+					<s n="7" xml:lang="la" type="auto"><persName ref="p5565">Capito</persName> fuit hic interea, quamvis una tantum nocte.</s>
 					<s n="8" xml:lang="la" type="auto">De rebus domesticis nescio, quid fuerit negocii.</s>
 					<s n="9" xml:lang="la" type="manual">Dixit<pb type="edition" next="125"/> negocia alia se domum vocare.</s>
-					<s n="10" xml:lang="la" type="auto">Nam decem et septem comites praeter nobilitatem aliam esse, qui nescio quas lites molirentur propter canonicos Argentmensibus<note xml:id="fn3" type="footnote" n="3">Es handelt sich wohl um Streitigkeiten mit den Grafen in den <placeName ref="place1049">Straßburg</placeName> umgebenden Grafschaften, die zum Teil katholisch geblieben waren. Bereits unmittelbar nach Abschaffung der Messe im März 1529 hatten diese vor, <placeName ref="place1049">Straßburg</placeName> auf dem Reichstag zu <placeName ref="place1001">Speyer</placeName> vor den Reichsständen zu verklagen (s. PC I 328f. 338).</note>.</s>
-					<s n="11" xml:lang="la" type="auto">Ob eam causam optare, ut <persName ref="person28">Bucerus</persName> properaret.</s>
-					<s n="12" xml:lang="la" type="auto">Celebravimus nos synodum<note xml:id="fn4" type="footnote" n="4">Zur Basler Mai-Synode von 1533 s. ABaslerRef VI 272f.</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Nam decem et septem comites praeter nobilitatem aliam esse, qui nescio quas lites molirentur propter canonicos Argentmensibus<note xml:id="fn3" type="footnote" n="3">Es handelt sich wohl um Streitigkeiten mit den Grafen in den <placeName>Straßburg</placeName> umgebenden Grafschaften, die zum Teil katholisch geblieben waren. Bereits unmittelbar nach Abschaffung der Messe im März 1529 hatten diese vor, <placeName>Straßburg</placeName> auf dem Reichstag zu <placeName>Speyer</placeName> vor den Reichsständen zu verklagen (s. <bibl>PC</bibl> I 328f. 338).</note>.</s>
+					<s n="11" xml:lang="la" type="auto">Ob eam causam optare, ut <persName ref="p467">Bucerus</persName> properaret.</s>
+					<s n="12" xml:lang="la" type="auto">Celebravimus nos synodum<note xml:id="fn4" type="footnote" n="4">Zur Basler Mai-Synode von 1533 s. <bibl>ABaslerRef</bibl> VI 272f.</note>.</s>
 					<s n="13" xml:lang="la" type="auto">Dominos invenimus semper obsequentes.</s>
 					<s n="14" xml:lang="la" type="auto">Deus largiatur, ut perdurent.</s>
 				</p>
@@ -146,7 +144,7 @@
 					<s n="17" xml:lang="la" type="auto">Carere nanque literis tuis diutius non valeo.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 13. maii anno 33.</s>
+					<s n="18" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 13. maii anno 33.</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Os. Myco. tuus.</s>

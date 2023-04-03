@@ -6,64 +6,61 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN Heinrich Bullinger, 28. März 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=565</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">183</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,362v</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Schickt einen Brief von Gervasius
-								[<persName ref="person195">Schuler</persName>] [<ref target="file10578">Nr. 542</ref>]. Zitiert aus dem
+								Schickt einen Brief von <persName ref="p8440">Gervasius [Schuler]</persName> [<ref target="file10578">Nr. 542</ref>]. Zitiert aus dem
 								Schreiben des französischen Königs an die [deutschen] Reichsstände;
-								[<persName ref="person859">Franz I.</persName>] mahnt zur Fortsetzung der Bemühungen um eine Beilegung der
+								[<persName ref="p18480">Franz I.</persName>] mahnt zur Fortsetzung der Bemühungen um eine Beilegung der
 								religiösen Kontroversen und bittet um Äußerung zum Konzil. Grüße. Hört Unerfreuliches über die
-								<placeName ref="place121">Berner</placeName>.
+								<placeName>Berner</placeName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 565, S.183</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10601">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -72,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1535-03-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,24 +122,24 @@
 					<s n="1" xml:lang="la" type="auto">Sal[utem].</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Has literas dudum [accep]i<note xml:id="fna" type="footnote" n="a"><hi>Rest beim Öffnen des Siegels abgerissen.</hi></note> a <persName ref="person195">Gervasio</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person195">Gervasius Schulers</persName> Brief an Bullinger vom 4. März 1535 (oben <ref target="file10578">Nr. 542</ref>).</note>, sed penur[ia]<note xml:id="fnb" type="footnote" n="b"><hi>Randtext im engen Einband nicht zugänglich.</hi></note> tabellariorum non potui citius mittere.</s>
+					<s n="2" xml:lang="la" type="auto">Has literas dudum [accep]i<note xml:id="fna" type="footnote" n="a"><hi>Rest beim Öffnen des Siegels abgerissen.</hi></note> a <persName ref="p8440">Gervasio</persName><note xml:id="fn2" type="footnote" n="2"><persName>Gervasius Schulers</persName> Brief an Bullinger vom 4. März 1535 (oben <ref target="file10578">Nr. 542</ref>).</note>, sed penur[ia]<note xml:id="fnb" type="footnote" n="b"><hi>Randtext im engen Einband nicht zugänglich.</hi></note> tabellariorum non potui citius mittere.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Proinde non ignoras fortassis, quid aediderit Galliarum rex ad principes et urbes imperii<note xml:id="fn3" type="footnote" n="3">Zum offenen Brief Franz' I. an die deutschen Reichsstände vom 1. Februar 1535 s. oben <ref target="file10595">Nr. 559</ref>, Anm. 3.</note>, ex cuius rescripto paucula<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> paucula <hi>gestrichenes</hi> paul.</note>, quę sequuntur, adnotare volui, ne nihil scriberem: "Magnopere<note xml:id="fnd" type="footnote" n="d"><hi>Randbemerkung:</hi> Nota primo.</note> vos etiam atque etiam rogo, ut vestros quisque concionatores moneatis, ut, quam de mitigandis iis, quę circa religionem inoleverunt controversiis, cogitationem et curam susceperunt, eandem ne abiiciant.</s>
-					<s n="4" xml:lang="la" type="auto">Tum<note xml:id="fne" type="footnote" n="e"><hi>Randbemerkung:</hi> Nota secundo.</note>, ut me certiorem faciatis super indicendi concilii ratione<note xml:id="fn4" type="footnote" n="4"><persName ref="person1792">Papst Paul III.</persName> hatte am 15. Januar 1535 ein Konzil angekündigt, vgl. <hi>Pastor</hi> V 33.</note>, quid perfici a me, quid apud hunc pontificem curare maxime cupiatis" etc.<note xml:id="fnf" type="footnote" n="f"><hi>Die beiden zitierten Sätze (Z. 6-10) sind von <persName ref="person263">Zwick</persName> mit einer Klammer und zwei weisenden Händen hervorgehoben worden.</hi></note><note xml:id="fn5" type="footnote" n="5">MO II 833f (in der Übersetzung <persName ref="person146">Melanchthons</persName>).</note> Si non vidisti rescriptum, mittam ad te<note xml:id="fn6" type="footnote" n="6">Bullinger kannte das Schreiben bereits, vgl. oben <ref target="file10595">Nr. 559</ref>, 4-10; 562, 97f.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Tum<note xml:id="fne" type="footnote" n="e"><hi>Randbemerkung:</hi> Nota secundo.</note>, ut me certiorem faciatis super indicendi concilii ratione<note xml:id="fn4" type="footnote" n="4"><persName>Papst Paul III.</persName> hatte am 15. Januar 1535 ein Konzil angekündigt, vgl. <bibl>Pastor</bibl> V 33.</note>, quid perfici a me, quid apud hunc pontificem curare maxime cupiatis" etc.<note xml:id="fnf" type="footnote" n="f"><hi>Die beiden zitierten Sätze (Z. 6-10) sind von <persName>Zwick</persName> mit einer Klammer und zwei weisenden Händen hervorgehoben worden.</hi></note><note xml:id="fn5" type="footnote" n="5"><bibl>MO</bibl> II 833f (in der Übersetzung <persName ref="p6490">Melanchthons</persName>).</note> Si non vidisti rescriptum, mittam ad te<note xml:id="fn6" type="footnote" n="6">Bullinger kannte das Schreiben bereits, vgl. oben <ref target="file10595">Nr. 559</ref>, 4-10; 562, 97f.</note>.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Vale, raptim, observande Bullingere, cum charissimo <persName ref="person165">Pellicano</persName>, <persName ref="person14">Theodoro</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person14">Theodor Bibliander</persName>.</note>, Leone<note xml:id="fn8" type="footnote" n="8"><persName ref="person114">Leo Jud</persName>.</note> et reliquis<note xml:id="fng" type="footnote" n="g"><hi>Die Namen stehen untereinander und sind mit einer Klammer zusammengefaßt.</hi></note>.</s>
+					<s n="5" xml:lang="la" type="auto">Vale, raptim, observande Bullingere, cum charissimo <persName ref="p8127">Pellicano</persName>, <persName ref="p8171">Theodoro</persName><note xml:id="fn7" type="footnote" n="7"><persName>Theodor Bibliander</persName>.</note>, Leone<note xml:id="fn8" type="footnote" n="8"><persName ref="p2305">Leo Jud</persName>.</note> et reliquis<note xml:id="fng" type="footnote" n="g"><hi>Die Namen stehen untereinander und sind mit einer Klammer zusammengefaßt.</hi></note>.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">De <placeName ref="place121">Bernatibus</placeName> dicuntur nobis non admodum plausibilia<note xml:id="fn9" type="footnote" n="9">Vielleicht Gerüchte über die Auseinandersetzung um die Kirchengüter in <placeName ref="place121">Bern</placeName>, vgl. oben <ref target="file10593">Nr. 557</ref>, 5-28; 561, 16-19; 564. 6-10.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">De <placeName>Bernatibus</placeName> dicuntur nobis non admodum plausibilia<note xml:id="fn9" type="footnote" n="9">Vielleicht Gerüchte über die Auseinandersetzung um die Kirchengüter in <placeName>Bern</placeName>, vgl. oben <ref target="file10593">Nr. 557</ref>, 5-28; 561, 16-19; 564. 6-10.</note>.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Vale.</s>
 					<s n="8" xml:lang="la" type="auto">28. martii.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zvick</persName>.</s>
+					<s n="9" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zvick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf f. 362r.:]</note>

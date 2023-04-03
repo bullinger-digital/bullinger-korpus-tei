@@ -6,40 +6,31 @@
 				<title subtype="file">Jörg Göldli / Konstanz AN Heinrich Bullinger, 14. Juni 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1006</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">172</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,98</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,13 +44,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 1006, S.172</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11048">
 				<correspAction type="sent">
-					<persName ref="person1389" cert="high">
+					<persName ref="p1389" cert="high">
 						<!--
 						<surname cert="high">Göldli</surname>
 						<forename cert="high">Jörg</forename>
@@ -67,11 +65,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/1089467796"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1537-06-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -96,7 +94,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -110,18 +108,18 @@
 					<s n="1" xml:lang="de" type="auto">Mein früntlich gruß unnd alles guͦtz zuvorann.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Lieber herr, ich hab verstanndenn<note xml:id="fn2" type="footnote" n="2">vernommen, erfahren.</note>, wie das ir minen sünenn<note xml:id="fn3" type="footnote" n="3">Herkules, Hektor, Joachim, Hans und Niklaus (vgl. René <hi>Goeldlin de Tiefenau,</hi> Le recueil d'armoiries du chevalier Renward Goeldlin, in: Archives héraldiques suisses LXXXIV, Annuaire 1970, S. 77).</note> sovil guͦtz beweysenn unnd thuonn unnd besonnder jetz meinem sun Hectornn<note xml:id="fn4" type="footnote" n="4"><persName ref="person1068">Hektor Göldli</persName> (Göldi), 1499 bis 1538 oder später, von Zürich, verbrachte seine Jugendzeit am württembergischen Hof unter der Obhut von Erbmarschall <persName ref="person214">Hans Konrad Thumb</persName> von Neuburg. Er soll vorerst Domherr in <placeName ref="place565">Konstanz</placeName> geworden sein, sich dann aber der Reformation zugewandt haben. 1534 beteiligte er sich - wider das Solddienstverbot - am Feldzug Herzog <persName ref="person224">Ulrichs</persName>, worauf sich dieser wie auch der Erbmarschall für ihn beim Zürcher Rat für eine Strafbefreiung einsetzten, damit er zu Frau und Kindern zurückkehren könne (vgl. die Briefe vom 3. August 1534, Zürich StA, A 195.1, <ref target="file10250">Nr. 219</ref> und 220); er wurde daraufhin auch begnadigt (vgl. Zürich StA, B IV 6, 212r.). 1535 trat <persName ref="person1066">Göldli</persName> beim Herzog als Forstmeister in Dienst. Wegen eines nicht näher bekannten Deliktes (vgl. auch die folgende Anm.) wurde er 1538 mit Landesverweisung bestraft. - Lit.: <hi>Goeldlin de Tiefenau,</hi> aaO; HBLS III 582; Neues Württembergisches Dienerbuch, bearb. v. Walther Pfeilsticker, Bd. II, Stuttgart 1963, § 3047.</note> in seinenn nötenn unnd anligenn<note xml:id="fn5" type="footnote" n="5">Sorgen, Bedrängnis. -<persName ref="person1068">Hektor Göldli</persName> kam 1537 aus nicht näher bekannten Gründen in Haft. Nachdem sein Vater durch Mittelspersonen (vgl. etwa <persName ref="person1562">Joachim Malers</persName> Mission vom 3. Mai 1537, Blarer BW I 846) seine Freilassung erwirken konnte, wurde er in der Urfehde zusätzlich des Diebstahls bezichtigt, was offenbar nie Gegenstand der Untersuchung gewesen war. Darauf intervenierte Zürich beim Herzog am 9. und die Brüder Joachim und Hans beim Erbmarschall am 11. März 1538 (vgl. Zürich StA, B IV 9, 46r. und 61r., vgl. auch 89r.). Am 6. April 1538 schwor <persName ref="person1068">Hektor Göldli</persName> Urfehde und versprach, das Land "als Ehrloser und Meineidiger" zu verlassen (vgl. Pfeilstikker, aaO).</note>.</s>
+					<s n="2" xml:lang="de" type="auto">Lieber herr, ich hab verstanndenn<note xml:id="fn2" type="footnote" n="2">vernommen, erfahren.</note>, wie das ir minen sünenn<note xml:id="fn3" type="footnote" n="3">Herkules, Hektor, Joachim, Hans und Niklaus (vgl. René <hi>Goeldlin de Tiefenau,</hi> Le recueil d'armoiries du chevalier Renward Goeldlin, in: Archives héraldiques suisses LXXXIV, Annuaire 1970, S. 77).</note> sovil guͦtz beweysenn unnd thuonn unnd besonnder jetz meinem sun Hectornn<note xml:id="fn4" type="footnote" n="4"><persName>Hektor Göldli (Göldi)</persName>, 1499 bis 1538 oder später, von Zürich, verbrachte seine Jugendzeit am württembergischen Hof unter der Obhut von Erbmarschall <persName ref="p6773">Hans Konrad Thumb</persName> von Neuburg. Er soll vorerst Domherr in <placeName>Konstanz</placeName> geworden sein, sich dann aber der Reformation zugewandt haben. 1534 beteiligte er sich - wider das Solddienstverbot - am Feldzug <persName>Herzog Ulrichs</persName>, worauf sich dieser wie auch der Erbmarschall für ihn beim Zürcher Rat für eine Strafbefreiung einsetzten, damit er zu Frau und Kindern zurückkehren könne (vgl. die Briefe vom 3. August 1534, Zürich StA, A 195.1, <ref target="file10250">Nr. 219</ref> und 220); er wurde daraufhin auch begnadigt (vgl. Zürich StA, B IV 6, 212r.). 1535 trat <persName>Göldli</persName> beim Herzog als Forstmeister in Dienst. Wegen eines nicht näher bekannten Deliktes (vgl. auch die folgende Anm.) wurde er 1538 mit Landesverweisung bestraft. - Lit.: <hi>Goeldlin de Tiefenau,</hi> aaO; <bibl>HBLS</bibl> III 582; Neues Württembergisches Dienerbuch, bearb. v. Walther Pfeilsticker, Bd. II, Stuttgart 1963, § 3047.</note> in seinenn nötenn unnd anligenn<note xml:id="fn5" type="footnote" n="5">Sorgen, Bedrängnis. -<persName>Hektor Göldli</persName> kam 1537 aus nicht näher bekannten Gründen in Haft. Nachdem sein Vater durch Mittelspersonen (vgl. etwa <persName>Joachim Malers</persName> Mission vom 3. Mai 1537, <bibl>Blarer BW</bibl> I 846) seine Freilassung erwirken konnte, wurde er in der Urfehde zusätzlich des Diebstahls bezichtigt, was offenbar nie Gegenstand der Untersuchung gewesen war. Darauf intervenierte Zürich beim Herzog am 9. und die Brüder Joachim und Hans beim Erbmarschall am 11. März 1538 (vgl. Zürich StA, B IV 9, 46r. und 61r., vgl. auch 89r.). Am 6. April 1538 schwor <persName>Hektor Göldli</persName> Urfehde und versprach, das Land "als Ehrloser und Meineidiger" zu verlassen (vgl. Pfeilstikker, aaO).</note>.</s>
 					<s n="3" xml:lang="de" type="auto">Daruff so dannckenn ich eüch zum aller<pb type="edition" next="173"/> höchstenn alles guͦttenn, so ir inenn je bewysenn habenn, unnd byt eüch allso früntlich, ir wellenn inen allso für unnd für hilfflich unnd rätlich sein unnd besonnder meinem sun Hectornn jetz in seinen nöten unnd anligenn.</s>
 					<s n="4" xml:lang="de" type="auto">Das wil ich<note xml:id="fna" type="footnote" n="a">ich <hi>vom Schreiber korrigiert</hi> aus euch.</note> umb eüch allezeyt sampt minen sünen zu verdiennenn mit unnsernn leyb unnd guͦttenernn willig erfundenn werdenn.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="de" type="auto">Datum <placeName ref="place565">Costanntz</placeName>, uff den vierzehennden tag juny anno etc. im 37sten.</s>
+					<s n="5" xml:lang="de" type="auto">Datum <placeName>Costanntz</placeName>, uff den vierzehennden tag juny anno etc. im 37sten.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="de" type="auto">E[wer] w[ysheit] allezeyt</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto"><persName ref="person86">Jörg</persName> Göldin, burger zuͦ <placeName ref="place565">Costanntz</placeName>.</s>
+					<s n="7" xml:lang="de" type="auto"><persName ref="p5087">Jörg</persName> Göldin, burger zuͦ <placeName>Costanntz</placeName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -6,32 +6,31 @@
 				<title subtype="file">Gallus Hussar / Wien AN Heinrich Bullinger / Zürich, 26. Oktober 1557</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">4778/349</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 367,60 ff.</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,10 +45,10 @@
 								<title>Ed. Böhl, CHP, Wien 1866 (im Anhang)</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Misc. Tig., Bd. 2, II. Ausg. (1723), S. 202-207, Nr 3 (hg. von J.J. Ulrich)</title>
+								<title>Misc. Tig., Bd. 2, II. Ausg. (1723), S.202-207, Nr 3 (hg. von J.J. Ulrich)</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Lampe, Fr. Ad., Historia ecclesiae reformatae in Hungaria, Utrecht, 1728, S. 112-116, [ZZB, MM 2196 / II BB 1400]</title>
+								<title>Lampe, Fr. Ad., Historia ecclesiae reformatae in Hungaria, Utrecht, 1728, S.112-116, [ZZB, MM 2196 / II BB 1400]</title>
 							</bibl>
 							<bibl type="Literatur">
 								<title>Barnabas Nagy, H. Bullingeri Epistola ad Ecclesias Hungaricas, bes. 29 ff [IRG, Hd VI 8729]</title>
@@ -63,14 +62,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 90,213</idno>
 					</msIdentifier>
 				</msDesc>
@@ -79,17 +78,17 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3379">
 				<correspAction type="sent">
-					<persName ref="person1693" cert="high">
+					<persName ref="p1693" cert="high">
 						<!--
 						<surname cert="high">Hussar</surname>
 						<forename cert="high">Gallus</forename>
 						-->
 					</persName>
-					<placeName source="place546" cert="high"><orig>Wien</orig></placeName>
+					<placeName source="l546" cert="high"><orig>Wien</orig></placeName>
 					<date when="1557-10-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -99,7 +98,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file3380"/>
@@ -116,7 +115,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

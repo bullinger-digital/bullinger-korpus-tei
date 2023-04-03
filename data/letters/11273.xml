@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 23. Februar 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1230</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">64</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,204</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,186</idno>
@@ -51,12 +42,11 @@
 								Dankt im Namen seiner Auftraggeber für die Antwort [<ref target="file11270">Nr. 1227</ref>], die allerdings
 								enttäuschend ist, da die Übermittlung vertraulicher Nachrichten beim Fehlen eines Geheimen Rates riskant
 								bleibt; die Basler Abgeordneten werden jedoch den Zürchern an der
-								<placeName ref="place85">Badener</placeName> Tagsatzung einiges zur Beratung vorlegen. Daß Kriegsgefahr
-								droht, sobald der <placeName ref="place361">Frankfurter</placeName> Bundestag zu Ende ist, belegen die
+								<placeName>Badener</placeName> Tagsatzung einiges zur Beratung vorlegen. Daß Kriegsgefahr
+								droht, sobald der <placeName>Frankfurter</placeName> Bundestag zu Ende ist, belegen die
 								Werbungen und Musterungen der Gegner; die Gefährdung anderer evangelischer Stände kann den Eidgenossen nicht
-								gleichgültig sein. Rudolf
-								[<persName ref="person84">Gwalther</persName>] ist zu ihm zurückgekehrt. Der Frau von
-								<persName ref="person1028">Grynäus</persName> [Katharina Lompart]
+								gleichgültig sein. <persName ref="p8011">Rudolf [Gwalther]</persName> ist zu ihm zurückgekehrt. Der Frau von
+								<persName>Grynäus</persName> [Katharina Lompart]
 								geht es wieder besser.
 							</p>
 						</summary>
@@ -64,13 +54,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1230, S.64</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11273">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -81,11 +78,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1539-02-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,7 +117,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,7 +129,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Ago gratias, mi Bullingere, tibi tuisque, quod tam prompte et clare, quę petiimus, expedivistis<note xml:id="fn1" type="footnote" n="1">Bullinger hatte aufgrund einer durch <persName ref="person154">Myconius</persName> übermittelten Anfrage aus Basler Magistratskreisen sondiert, ob eine Wiedereinführung des Geheimen Rates möglich wäre; vgl. oben <ref target="file11269">Nr. 1226</ref>f.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Ago gratias, mi Bullingere, tibi tuisque, quod tam prompte et clare, quę petiimus, expedivistis<note xml:id="fn1" type="footnote" n="1">Bullinger hatte aufgrund einer durch <persName>Myconius</persName> übermittelten Anfrage aus Basler Magistratskreisen sondiert, ob eine Wiedereinführung des Geheimen Rates möglich wäre; vgl. oben <ref target="file11269">Nr. 1226</ref>f.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Quamvis enim responsum non sit ad vota nostra datum, satisfactum est tamen animis, quibus nonnihil erat spei rem melius eventuram, ut iam sciant nihil sperandum.</s>
 					<s n="4" xml:lang="la" type="auto">Doluit mihi protinus post bellum, quod audiveram senatum rerum occultarum (ut ita dicam), qui, dum probus est, non potest non esse utilissimus et adhuc habetur non sine magno commodo in magnis rebuspublicis, sublatum<note xml:id="fn2" type="footnote" n="2">Zur Abschaffung des Zürcher Geheimen Rates nach dem Zweiten Kappelerkrieg s. oben <ref target="file11270">Nr. 1227</ref>, Anm. 4.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Pręvideram enim, quae mala forent hinc exoritura, praesertim quoad Quinque Pagi hostes esse non desinerent.<pb type="edition" next="65"/></s>
@@ -146,18 +143,18 @@
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Narravi meis, quę scripsisti; quid consultarint, nescio.</s>
-					<s n="10" xml:lang="la" type="auto">Non est dubium tamen, quin dederint in mandatis aliquid legatis, quod sit de rebus gravioribus illis conferendum cum vestris in comitiis <placeName ref="place811">Badensibus</placeName><note xml:id="fn3" type="footnote" n="3"><placeName ref="place97">Basel</placeName> wurde an der <placeName ref="place85">Badener</placeName> Tagsatzung vom 25. Februar durch <placeName ref="place811">Christoph Offenburg</placeName> und <persName ref="person1991">Heinrich Ryhiner</persName> vertreten, Zürich durch <persName ref="person132">Hans Rudolf Lavater</persName> und <persName ref="person619">Bernhard von Cham</persName> (s. EA IV/1c 1065). Die Basler waren instruiert, mit den Delegierten der evangelischen Städte zu beraten, wie auf die Rüstungen in der Nachbarschaft reagiert werden solle; s. EA IV/1c 1064 (zu dd).</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Non est dubium tamen, quin dederint in mandatis aliquid legatis, quod sit de rebus gravioribus illis conferendum cum vestris in comitiis <placeName>Badensibus</placeName><note xml:id="fn3" type="footnote" n="3"><placeName>Basel</placeName> wurde an der <placeName>Badener</placeName> Tagsatzung vom 25. Februar durch <placeName>Christoph Offenburg</placeName> und <persName>Heinrich Ryhiner</persName> vertreten, Zürich durch <persName ref="p6155">Hans Rudolf Lavater</persName> und <persName>Bernhard von Cham</persName> (s. <bibl>EA</bibl> IV/1c 1065). Die Basler waren instruiert, mit den Delegierten der evangelischen Städte zu beraten, wie auf die Rüstungen in der Nachbarschaft reagiert werden solle; s. <bibl>EA</bibl> IV/1c 1064 (zu dd).</note>.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Convenerunt iterum principes et civitates evangelici foederis Francfordię<note xml:id="fn4" type="footnote" n="4">Am 14. Februar war in <placeName ref="place361">Frankfurt</placeName> ein Schmalkaldischer Bundestag zusammengetreten, an dem insbesondere über den Religionsfrieden verhandelt wurde; s. Rainer <hi>Wohlfeil,</hi> Art. <placeName ref="place361">Frankfurter</placeName> Anstand, in: TRE XI 342-346 (mit weiterer Lit.). Zu den Ergebnissen vgl. auch unten <ref target="file11304">Nr. 1261</ref>, 2-21.</note>.</s>
+					<s n="11" xml:lang="la" type="auto">Convenerunt iterum principes et civitates evangelici foederis Francfordię<note xml:id="fn4" type="footnote" n="4">Am 14. Februar war in <placeName>Frankfurt</placeName> ein Schmalkaldischer Bundestag zusammengetreten, an dem insbesondere über den Religionsfrieden verhandelt wurde; s. Rainer <hi>Wohlfeil,</hi> Art. <placeName>Frankfurter</placeName> Anstand, in: <bibl>TRE</bibl> XI 342-346 (mit weiterer Lit.). Zu den Ergebnissen vgl. auch unten <ref target="file11304">Nr. 1261</ref>, 2-21.</note>.</s>
 					<s n="12" xml:lang="la" type="auto">Nemo est, qui non timeat bellum post comitia ea dissoluta.</s>
-					<s n="13" xml:lang="la" type="auto">Sic heri scripsit e praelectoribus quidam Argentinensibus<note xml:id="fn5" type="footnote" n="5">Zu denken ist an <persName ref="person9">Bedrot</persName>; dessen undatierter Brief an <persName ref="person154">Myconius</persName> (Zürich ZB, Ms F 80, 44), den GWalther bei seiner Rückkehr nach <placeName ref="place97">Basel</placeName> (vgl. unten Z. 32) überbracht haben dürfte, enthält allerdings die zitierte Stelle nicht.</note>: „Scimus (hoc in sinum tibi) finitimos vestros sollicitari in foedus adversariorum a Ferdinandinis et papisticis.“<note xml:id="fn6" type="footnote" n="6">Wahrscheinlich bezieht sich der Schreiber auf das Gerücht, der <placeName ref="place795">Nürnberger</placeName> Bund umwerbe die <placeName ref="place51">Fünf Orte</placeName> (vgl. PC II 541. 556f. 564f).</note></s>
+					<s n="13" xml:lang="la" type="auto">Sic heri scripsit e praelectoribus quidam Argentinensibus<note xml:id="fn5" type="footnote" n="5">Zu denken ist an <persName>Bedrot</persName>; dessen undatierter Brief an <persName>Myconius</persName> (Zürich ZB, Ms F 80, 44), den GWalther bei seiner Rückkehr nach <placeName>Basel</placeName> (vgl. unten Z. 32) überbracht haben dürfte, enthält allerdings die zitierte Stelle nicht.</note>: „Scimus (hoc in sinum tibi) finitimos vestros sollicitari in foedus adversariorum a Ferdinandinis et papisticis.“<note xml:id="fn6" type="footnote" n="6">Wahrscheinlich bezieht sich der Schreiber auf das Gerücht, der <placeName>Nürnberger</placeName> Bund umwerbe die <placeName>Fünf Orte</placeName> (vgl. <bibl>PC</bibl> II 541. 556f. 564f).</note></s>
 					<s n="14" xml:lang="la" type="auto">Quid in animo sit, novit deus.</s>
 					<s n="15" xml:lang="la" type="auto">Equidem, quę praesagit mihi mens mea, in praesens dissimulo, non quod apud te non audeam ea pronunciare, sed quod novi te mecum eadem sentire vel me dissimulante maxime.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Nobilitas per Sveviam itidem requiritur non sine maximo terrore civitatum Svevicarum<note xml:id="fn7" type="footnote" n="7">Zu den laufenden Verhandlungen über den Anschluß der schwäbischen Prälaten, Grafen und Ritter an den <placeName ref="place795">Nürnberger</placeName> Bund vgl. besonders Gerwig Blarer BA I 364-368, <ref target="file10572">Nr. 536</ref>.</note>.</s>
-					<s n="17" xml:lang="la" type="auto">A vicinis nostris delectus habentur<note xml:id="fn8" type="footnote" n="8">In der oben Anm. 3 erwähnten Instruktion ist von Rüstungen in der Herrschaft <placeName ref="place925">Rötteln</placeName> die Rede.</note>, verum ad quid, ignoratur.</s>
+					<s n="16" xml:lang="la" type="auto">Nobilitas per Sveviam itidem requiritur non sine maximo terrore civitatum Svevicarum<note xml:id="fn7" type="footnote" n="7">Zu den laufenden Verhandlungen über den Anschluß der schwäbischen Prälaten, Grafen und Ritter an den <placeName>Nürnberger</placeName> Bund vgl. besonders <bibl>Gerwig Blarer BA</bibl> I 364-368, <ref target="file10572">Nr. 536</ref>.</note>.</s>
+					<s n="17" xml:lang="la" type="auto">A vicinis nostris delectus habentur<note xml:id="fn8" type="footnote" n="8">In der oben Anm. 3 erwähnten Instruktion ist von Rüstungen in der Herrschaft <placeName>Rötteln</placeName> die Rede.</note>, verum ad quid, ignoratur.</s>
 					<s n="18" xml:lang="la" type="auto">Interim sedemus nos, tanquam omnia sint pacatissima, cum nihil magis constare queat quam omnes impias consultationes contra nos solos esse.</s>
 					<s n="19" xml:lang="la" type="auto">De Helvetico evangelio non est cura cuipiam; at si delerentur (quod dominus avertat) principes, civitates, regna, quę fovent magna diligentia verbum Christi, quid de nobis futurum esset, quis ignorat?</s>
 					<s n="20" xml:lang="la" type="auto">Hęc perplexa perplexo animo scripta, quęso, boni consulas.</s>
@@ -166,12 +163,12 @@
 					<s n="21" xml:lang="la" type="auto">Vale cum tuis feliciter in domino.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto"><persName ref="person84">Rodulfus</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person84">Rudolf Gwalther</persName>.</note> tuus rediit ad me<note xml:id="fn10" type="footnote" n="10"><persName ref="person84">Gwalther</persName> kann <placeName ref="place1049">Straßburg</placeName> frühestens um Mitte Februar verlassen haben, da er noch vor seiner Abreise erste Nachrichten vom <placeName ref="place361">Frankfurter</placeName> Bundestag erhielt (vgl. unten <ref target="file11275">Nr. 1232</ref>, 33f).</note>.</s>
-					<s n="23" xml:lang="la" type="auto"><persName ref="person81">Grynęi</persName> uxor revalescere incipit<note xml:id="fn11" type="footnote" n="11">Zur Erkrankung von Katharina Lompart vgl. oben <ref target="file11269">Nr. 1226</ref>, 19.</note>.<pb type="edition" next="66"/></s>
-					<s n="24" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, 23. februarii anno 39.</s>
+					<s n="22" xml:lang="la" type="auto"><persName ref="p8011">Rodulfus</persName><note xml:id="fn9" type="footnote" n="9"><persName>Rudolf Gwalther</persName>.</note> tuus rediit ad me<note xml:id="fn10" type="footnote" n="10"><persName>Gwalther</persName> kann <placeName>Straßburg</placeName> frühestens um Mitte Februar verlassen haben, da er noch vor seiner Abreise erste Nachrichten vom <placeName>Frankfurter</placeName> Bundestag erhielt (vgl. unten <ref target="file11275">Nr. 1232</ref>, 33f).</note>.</s>
+					<s n="23" xml:lang="la" type="auto"><persName ref="p1365">Grynęi</persName> uxor revalescere incipit<note xml:id="fn11" type="footnote" n="11">Zur Erkrankung von Katharina Lompart vgl. oben <ref target="file11269">Nr. 1226</ref>, 19.</note>.<pb type="edition" next="66"/></s>
+					<s n="24" xml:lang="la" type="auto"><placeName>Basileę</placeName>, 23. februarii anno 39.</s>
 				</p>
 				<p>
-					<s n="25" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="25" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

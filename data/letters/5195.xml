@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file5195" type="Briefanfang" source="TUSTEP" n="32024">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file5195" type="Brief" source="TUSTEP" n="32024">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
 				<title subtype="file">[Jakob Rüeger] / [Schaffhausen] AN [Heinrich Bullinger] / [Zürich], s.d. [März 1562]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5942/30</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Briefanfang" subtype="Autograph" xml:lang="la">
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,361</idno>
 					</msIdentifier>
 					<msContents>
@@ -48,17 +47,17 @@
 						</listBibl>
 					</additional>
 				</msDesc>
-				<msDesc type="Briefanfang" subtype="Kopie" xml:lang="la">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 103,104</idno>
 						<idno subtype="Hinweis">Als Beilage zu 22. Februar 1562</idno>
 					</msIdentifier>
@@ -68,7 +67,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5195">
 				<correspAction type="sent">
-					<persName ref="person2757" cert="low">
+					<persName ref="p2757" cert="low">
 						<!--
 						<surname cert="low">Rüeger</surname>
 						<forename cert="low">Jakob</forename>
@@ -78,11 +77,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11468609"/>
 						-->
 					</persName>
-					<placeName source="place441" cert="low"><orig>Schaffhausen</orig></placeName>
+					<placeName source="l441" cert="low"><orig>Schaffhausen</orig></placeName>
 					<date notBefore="1562-03-01" notAfter="1562-03-12" cert="low"><note>Datum unsicher  (1562 März Anfang)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -92,7 +91,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file5196"/>
@@ -119,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

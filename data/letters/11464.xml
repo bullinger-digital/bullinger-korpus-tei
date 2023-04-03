@@ -6,48 +6,39 @@
 				<title subtype="file">Johannes Wolf / Frankfurt am Main AN Heinrich Bullinger, 15. September 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1421</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">166</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,95</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Ist entgegen seiner Ankündigung bereits [mit <persName ref="person242">Wick</persName> und
-								<persName ref="person91">Haller</persName>] auf dem Weg nach
-								<placeName ref="place672">Marburg</placeName>, da die Erlaubnis dazu ohnehin zu erwarten war und da sich
+								Ist entgegen seiner Ankündigung bereits [mit <persName ref="p8461">Wick</persName> und
+								<persName ref="p8018">Haller</persName>] auf dem Weg nach
+								<placeName>Marburg</placeName>, da die Erlaubnis dazu ohnehin zu erwarten war und da sich
 								eine günstige Reisegelegenheit bot; bittet um Verständnis, denn das Geld hätte nicht mehr lange gereicht.
 								Grüße.
 							</p>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1421, S.166</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11464">
 				<correspAction type="sent">
-					<persName ref="person3988" cert="high">
+					<persName ref="p3988" cert="high">
 						<!--
 						<surname cert="high">Wolf</surname>
 						<forename cert="high">Johannes</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417561"/>
 						-->
 					</persName>
-					<placeName source="place157" cert="high"><orig>Frankfurt am Main</orig></placeName>
+					<placeName source="l157" cert="high"><orig>Frankfurt am Main</orig></placeName>
 					<date when="1540-09-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -109,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,18 +118,18 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Proximis tuis literis, d. Bullingere observande, cum responderem, decretum vestrum expectaturos pollicebar<note xml:id="fn1" type="footnote" n="1">Siehe oben <ref target="file11447">Nr. 1404</ref>, 9-11. - Die Rede ist außer von <persName ref="person251">Wolf</persName> selbst auch von <persName ref="person242">Wick</persName> und <persName ref="person91">Haller</persName>.</note>.</s>
+					<s n="1" xml:lang="la" type="auto">Proximis tuis literis, d. Bullingere observande, cum responderem, decretum vestrum expectaturos pollicebar<note xml:id="fn1" type="footnote" n="1">Siehe oben <ref target="file11447">Nr. 1404</ref>, 9-11. - Die Rede ist außer von <persName>Wolf</persName> selbst auch von <persName>Wick</persName> und <persName>Haller</persName>.</note>.</s>
 					<s n="2" xml:lang="la" type="auto">Verum, quoniam quasi certissimo<note xml:id="fna" type="footnote" n="a"><hi>korrigiert aus</hi> certissimam.</note> proficiscendi facultatem a vobis datum iri animis nostris conceperamus, non potuimus cum temporis, tum vero maxime itineris quam commodissimam oblatam occasionem praetermittere, ne amissa illa frustra recuperandi tantum non assequendi copia concederetur.</s>
-					<s n="3" xml:lang="la" type="auto">Proinde petitis et comparatis a d. rectore<note xml:id="fn2" type="footnote" n="2"><persName ref="person2408">Kaspar Volland</persName>; s. <placeName ref="place1107">Tübingen</placeName>, Matrikel I 300.</note> et universitat[e] scholae Thubingensis [necessari]is[?] testimoniis<note xml:id="fnb" type="footnote" n="b">[necessari]is testimoniis <hi>am Rande nachgetragen,</hi> im engen Einband nur teilweise lesbar.</note><note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note><pb type="edition" next="167"/> una cum typographo<note xml:id="fn4" type="footnote" n="4">Gemeint ist gewiß der Tübinger Buchdrucker <persName ref="person1675">Ulrich Morhart</persName>; s. <hi>Benzing,</hi> Buchdrucker 465.</note>, homine piissimo, Francfordiam profecti sumus et illinc nunc <placeName ref="place672">Marpurgum</placeName>.</s>
-					<s n="4" xml:lang="la" type="auto">Quare te et patronum et patrem seu sacram anchoram<note xml:id="fn5" type="footnote" n="5">Vgl. Adagia, 1, 1, 24 (LB II 35f).</note> oratum quammaxime voluerim, ne id, quod factum est, indignius feras, siquidem totum id factum est, ut aeris alieni obligationem evitaremus, praesertim, quod ob nostri aeris tantam tenuitatem diutius manere non licuisset.</s>
+					<s n="3" xml:lang="la" type="auto">Proinde petitis et comparatis a d. rectore<note xml:id="fn2" type="footnote" n="2"><persName>Kaspar Volland</persName>; s. <placeName>Tübingen</placeName>, Matrikel I 300.</note> et universitat[e] scholae Thubingensis [necessari]is[?] testimoniis<note xml:id="fnb" type="footnote" n="b">[necessari]is testimoniis <hi>am Rande nachgetragen,</hi> im engen Einband nur teilweise lesbar.</note><note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note><pb type="edition" next="167"/> una cum typographo<note xml:id="fn4" type="footnote" n="4">Gemeint ist gewiß der Tübinger Buchdrucker <persName>Ulrich Morhart</persName>; s. <hi>Benzing,</hi> Buchdrucker 465.</note>, homine piissimo, Francfordiam profecti sumus et illinc nunc <placeName>Marpurgum</placeName>.</s>
+					<s n="4" xml:lang="la" type="auto">Quare te et patronum et patrem seu sacram anchoram<note xml:id="fn5" type="footnote" n="5">Vgl. Adagia, 1, 1, 24 (<bibl>LB</bibl> II 35f).</note> oratum quammaxime voluerim, ne id, quod factum est, indignius feras, siquidem totum id factum est, ut aeris alieni obligationem evitaremus, praesertim, quod ob nostri aeris tantam tenuitatem diutius manere non licuisset.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Quin iam vale et <persName ref="person251">Wolffium</persName> tuum, quod soles, ama.</s>
+					<s n="5" xml:lang="la" type="auto">Quin iam vale et <persName ref="p3988">Wolffium</persName> tuum, quod soles, ama.</s>
 					<s n="6" xml:lang="la" type="auto">Francfordię, raptim, 1540, 15. septembris.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Salutabis matrem<note xml:id="fn6" type="footnote" n="6">Anna, geb. Wiederkehr.</note>, uxorem<note xml:id="fn7" type="footnote" n="7">Anna, geb. Adlischwyler.</note>, liberos<note xml:id="fn8" type="footnote" n="8">Siehe oben <ref target="file11387">Nr. 1344</ref>, Anm. 14.</note> etc.</s>
-					<s n="8" xml:lang="la" type="auto"><persName ref="person211">Iohan</persName>. <persName ref="person251">Wolffius</persName> tuus quam etc.</s>
+					<s n="7" xml:lang="la" type="auto">Salutabis matrem<note xml:id="fn6" type="footnote" n="6"><persName>Anna, geb. Wiederkehr</persName>.</note>, uxorem<note xml:id="fn7" type="footnote" n="7"><persName>Anna, geb. Adlischwyler</persName>.</note>, liberos<note xml:id="fn8" type="footnote" n="8">Siehe oben <ref target="file11387">Nr. 1344</ref>, Anm. 14.</note> etc.</s>
+					<s n="8" xml:lang="la" type="auto"><persName ref="p6730">Iohan</persName>. <persName ref="p3988">Wolffius</persName> tuus quam etc.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

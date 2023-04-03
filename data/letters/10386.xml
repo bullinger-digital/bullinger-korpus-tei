@@ -6,50 +6,41 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 10. April 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=354</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">123</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,132</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Freut sich, daß die Gefahr, wovor er die Zürcher gewarnt hatte, sich doch nicht bewahrheitet habe. Trotzdem
-								kann er <placeName ref="place51">den V Orten</placeName> nicht trauen und mahnt zu weiterer Wachsamkeit. Ein Brief aus
-								<placeName ref="place515">Innsbruck</placeName> und auch andere Berichte oder Gerüchte sprechen von
-								Kriegsgefahr; in <placeName ref="place97">Basel</placeName> bringen die Bauern ihre Ernte in Sicherheit.
-								Man ist gegen Mönche und Abte usw. sehr aufgebracht. <persName ref="person154">Myconius</persName>
+								kann er <placeName>den V Orten</placeName> nicht trauen und mahnt zu weiterer Wachsamkeit. Ein Brief aus
+								<placeName>Innsbruck</placeName> und auch andere Berichte oder Gerüchte sprechen von
+								Kriegsgefahr; in <placeName>Basel</placeName> bringen die Bauern ihre Ernte in Sicherheit.
+								Man ist gegen Mönche und Abte usw. sehr aufgebracht. <persName ref="p8418">Myconius</persName>
 								befürchtet großes Übel und hofft auf Gottes Hilfe.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 354, S.123</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10386">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1534-04-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,10 +123,10 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Nonnihil gaudeo, quod nuncii vestri referunt nihil esse, de quibus nos admonuimus<note xml:id="fn1" type="footnote" n="1"><persName ref="person154">Myconius</persName> hat die Zürcher vor einer unmittelbaren militärischen Bedrohung der reformierten Orte gewarnt, s. oben <ref target="file10375">Nr. 343</ref> und S. 99, 5-11.</note> «Nonnihil» dico, quia praesens tantum facies aliquid tranquillitatis adtulit cordi meo, interim tamen nemo mihi eximet iam olim conceptam de Pagis<note xml:id="fn2" type="footnote" n="2">von <placeName ref="place51">den V Orten</placeName>.</note> perfidiam, quoad in deo nobiscum non consenserint.</s>
+					<s n="2" xml:lang="la" type="auto">Nonnihil gaudeo, quod nuncii vestri referunt nihil esse, de quibus nos admonuimus<note xml:id="fn1" type="footnote" n="1"><persName>Myconius</persName> hat die Zürcher vor einer unmittelbaren militärischen Bedrohung der reformierten Orte gewarnt, s. oben <ref target="file10375">Nr. 343</ref> und S. 99, 5-11.</note> «Nonnihil» dico, quia praesens tantum facies aliquid tranquillitatis adtulit cordi meo, interim tamen nemo mihi eximet iam olim conceptam de Pagis<note xml:id="fn2" type="footnote" n="2">von <placeName>den V Orten</placeName>.</note> perfidiam, quoad in deo nobiscum non consenserint.</s>
 					<s n="3" xml:lang="la" type="auto">Quocirca firmum est apud me, quod misimus<note xml:id="fn3" type="footnote" n="3">Siehe oben <ref target="file10375">Nr. 343</ref>.</note>: sic esse in consiliis illorum nihilque deesse praeter occasionem res bene gerendi.</s>
 					<s n="4" xml:lang="la" type="auto">Videndum igitur, ut contra tales simus parati, quandocunque tandem erumpant, ne imparatos nos ut olim<note xml:id="fn4" type="footnote" n="4">Nämlich: im Zweiten Kappelerkrieg.</note> opprimant.</s>
-					<s n="5" xml:lang="la" type="auto">De literis ex <placeName ref="place515">Oeniponte</placeName><note xml:id="fn5" type="footnote" n="5"><placeName ref="place515">Innsbruck</placeName>; zur Sache vgl. oben S. 114, 3-5.</note> nihil certius.</s>
+					<s n="5" xml:lang="la" type="auto">De literis ex <placeName>Oeniponte</placeName><note xml:id="fn5" type="footnote" n="5"><placeName>Innsbruck</placeName>; zur Sache vgl. oben S. 114, 3-5.</note> nihil certius.</s>
 					<s n="6" xml:lang="la" type="auto">Cur ita scripserit, si nugae sunt, equidem nescio.</s>
 				</p>
 				<p>
@@ -142,11 +140,11 @@
 					<s n="12" xml:lang="la" type="auto">Qui eas arcere potest, vivit: Largiatur idem, ut et nos vivamus cum ipso<note xml:id="fn6" type="footnote" n="6">Vgl. Joh 14,19; 1 Thess 5, 10.</note>.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Vale felix cum tuis et <persName ref="person225">Utingero</persName>.</s>
-					<s n="14" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 10. aprilis anno 34.</s>
+					<s n="13" xml:lang="la" type="auto">Vale felix cum tuis et <persName ref="p3242">Utingero</persName>.</s>
+					<s n="14" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 10. aprilis anno 34.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

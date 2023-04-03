@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Ambrosius Blarer / Winterthur, [6. Juni 1561]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5784/119</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph">VIII, 405</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW III, S. 617f</title>
+								<title>Blarer BW III, S.617f</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>K. Fry, Volpe-Dokumente I 61 (Nr. 110, Anm. 3)</title>
@@ -54,14 +53,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 43,104 r-v</idno>
 						<idno subtype="Hinweis">«Juli 6.»</idno>
 					</msIdentifier>
@@ -69,14 +68,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 100,121</idno>
 					</msIdentifier>
 				</msDesc>
@@ -85,7 +84,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4830">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,11 +94,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1561-06-06" cert="low"><note>Monat unsicher  Juni*</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -110,7 +109,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place555" cert="high"><orig>Winterthur</orig></placeName>
+					<placeName source="l555" cert="high"><orig>Winterthur</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file4831"/>
@@ -137,7 +136,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -152,7 +151,7 @@
 					<s n="4" xml:lang="la" type="auto">Nunc, quae hac septimana per Cremonenses quosdam accepi Geneva venientes et in Italiam proficiscentes, trado.</s>
 					<s n="5" xml:lang="la" type="auto">Non est, quod communicem tibi accepta a d. Calvino; puto eadem tibi ab eodem esse exposita.</s>
 					<s n="6" xml:lang="la" type="auto">Heydelberga haec scribuntur: Augustum electorem Saxonem Dresdę in synodum potiores theologos suos convocasse; eos novam conscripsisse confessionem; Augustum et synceriores theologos non audere id, quod verum intelligunt, profiteri palam; videre enim quosdam eo unice spectare, ut Saxonibus persuadere possint electorem et Wittenbergenses defecisse a Luthero; ita enim sperant populi furoribus electoratum transferendum ad constantissimos Lutheri discipulos.</s>
-					<s n="7" xml:lang="la" type="auto">Hactenus multi putarunt disceptationem agitari de adiaphoris; <foreign xml:lang="de">es ist aber der spaan nitt vom chorrock, sunder vomm</foreign> churrock, et quoniam Ierobeam metuit tribus defecturas iterum ad domum Davidis, excelsa construit et constructa tuetur.</s>
+					<s n="7" xml:lang="la" type="auto">Hactenus multi putarunt disceptationem agitari de adiaphoris; <foreign xml:lang="de">es ist aber der spaan nitt vom chorrock, sunder vomm churrock,</foreign> et quoniam Ierobeam metuit tribus defecturas iterum ad domum Davidis, excelsa construit et constructa tuetur.</s>
 					<s n="8" xml:lang="la" type="auto">Elector Palatinus non voluit confessioni illi subscribere; rogatus, ut praefationis in confessionem Augustanam aliquam admitteret explanationem, respondit se non esse eum, qui quotidie nova cudat et aedat; se consensisse Naumburgi, in ea consensione permansurum se neque aliam fidem professurum, quam ibi se declaraverit.</s>
 				</p>
 				<p>

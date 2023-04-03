@@ -6,40 +6,31 @@
 				<title subtype="file">Simon Grynäus / Basel AN Heinrich Bullinger, [15.] Februar [1536]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=746</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">127</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,212</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,13 +44,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 746, S.127</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10784">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -69,11 +67,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1536-02-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -107,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,17 +121,17 @@
 					<s n="3" xml:lang="la" type="auto">Spero te valere cum fratribus.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Hic est convictor meus<note xml:id="fn3" type="footnote" n="3">Zu denken ist vielleicht an <persName ref="person522">Claus Bromm</persName>. <persName ref="person81">Grynäus</persName> scheint in seinem Brief vom 22. August vorauszusetzen, Dass Bullinger diesen kennt (s. unten <ref target="file10923">Nr. 882</ref>, 100. Bromm hielt sich bereits seit August 1535 wieder in <placeName ref="place97">Basel</placeName> auf; vgl. seinen Brief an <persName ref="person2117">Johann Schwebel</persName> vom 1. August 1535 (Strassburg Stadtarchiv, AST 154, <ref target="file10292">Nr. 261</ref>).</note>, homo vehementer studiosus nominis tui.</s>
+					<s n="4" xml:lang="la" type="auto">Hic est convictor meus<note xml:id="fn3" type="footnote" n="3">Zu denken ist vielleicht an <persName>Claus Bromm</persName>. <persName>Grynäus</persName> scheint in seinem Brief vom 22. August vorauszusetzen, Dass Bullinger diesen kennt (s. unten <ref target="file10923">Nr. 882</ref>, 100. Bromm hielt sich bereits seit August 1535 wieder in <placeName>Basel</placeName> auf; vgl. seinen Brief an <persName>Johann Schwebel</persName> vom 1. August 1535 (Strassburg Stadtarchiv, AST 154, <ref target="file10292">Nr. 261</ref>).</note>, homo vehementer studiosus nominis tui.</s>
 					<s n="5" xml:lang="la" type="auto">Studebat nuper, cum hic adesses<note xml:id="fn4" type="footnote" n="4">Wahrscheinlich ist die Teilnahme Bullingers an der Basler Tagung vom 30. Januar bis 4. Februar 1536 gemeint; vgl. Anm. 1.</note>, tecum colloqui, sed negotia repugnabant.</s>
 					<s n="6" xml:lang="la" type="auto">Dabis te ei nunc vel semihorulam.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Vale in domino Christo, qui te in voluntate sua gubernet.</s>
 					<s n="8" xml:lang="la" type="manual">Amen.</s>
-					<s n="9" xml:lang="la" type="auto">Saluta fratres omnes, saluta uxorem<note xml:id="fn5" type="footnote" n="5">Anna Adlischwyler.</note></s>
+					<s n="9" xml:lang="la" type="auto">Saluta fratres omnes, saluta uxorem<note xml:id="fn5" type="footnote" n="5"><persName>Anna Adlischwyler</persName>.</note></s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><persName ref="person81">Simon Gryneus</persName> tuus.</s>
+					<s n="10" xml:lang="la" type="auto"><persName ref="p1365">Simon Gryneus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

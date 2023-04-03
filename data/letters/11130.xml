@@ -6,40 +6,31 @@
 				<title subtype="file">Andreas Karlstadt AN Heinrich Bullinger, Anfang Januar 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1087</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">25</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,37</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,26</idno>
@@ -48,24 +39,29 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Beschwert sich über seinen Zögling [Heinrich]
-								<persName ref="person2218">Stapfer</persName> und schildert die Umstände seines Abgangs: Als er ihn wegen
-								seiner Unhöflichkeit gegenüber der Frau von Sebastian
-								[<persName ref="person2181">Sinckeler</persName>] zurechtwies, verließ er sein Haus. Grüße und Glückwunsch
-								zur Geburt von [<persName ref="person552">Christoph Bullinger</persName>].
+								Beschwert sich über seinen Zögling <persName ref="p6674">[Heinrich] Stapfer</persName> und schildert die Umstände seines Abgangs: Als er ihn wegen
+								seiner Unhöflichkeit gegenüber der Frau von <persName ref="p6618">Sebastian [Sinckeler]</persName> zurechtwies, verließ er sein Haus. Grüße und Glückwunsch
+								zur Geburt von [<persName ref="p475">Christoph Bullinger</persName>].
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1087, S.25</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11130">
 				<correspAction type="sent">
-					<persName ref="person1858" cert="high">
+					<persName ref="p1858" cert="high">
 						<!--
 						<surname cert="high">Karlstadt</surname>
 						<forename cert="high">Andreas</forename>
@@ -78,7 +74,7 @@
 					<date notBefore="1538-01-01" notAfter="1538-01-15" cert="low">Anfang Januar 1538</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,9 +108,13 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="11130/Autograph/00__E_II_336__fol__37_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="11130/Autograph/01__E_II_336__fol__37_v_.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
@@ -122,39 +122,39 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Tot obsequiis totque beneficiis iisdemque pleniss[imis] demeritus es me, vir et ornatissime et eruditissime, ut peccare me fateor multa, nisi tuis precibus acquiesco tuęque pię voluntati neutiquam desum.</s>
 					<s n="3" xml:lang="la" type="auto">Equidem et debeo et volo rem factu longe difficiliorem subire, neque unquam defessum senties, tantum abest, ut nunc non<note xml:id="fna" type="footnote" n="a">non <hi>über der Zeile nachgetragen.</hi></note> obsequar, at quando negocium vel unum [a]<note xml:id="fnb" type="footnote" n="b"><hi>a fehlt in der Vorlage.</hi></note> me confici non potest<note xml:id="fnc" type="footnote" n="c">potest <hi>über der Zeile nachgetragen.</hi></note>, minime mihi adscribendum, quod in alio situm est.</s>
-					<s n="4" xml:lang="la" type="auto">Proinde quando <persName ref="person2218">Stapferi</persName><note xml:id="fn2" type="footnote" n="2">Wie sich aus dem Folgenden ergibt, ist der seit 1535/36 in <placeName ref="place97">Basel</placeName> immatrikulierte <persName ref="person2218">Heinrich Stapfer</persName> aus Zürich gemeint (s. <placeName ref="place97">Basel</placeName>, Matrikel II 8, Nr. 9). Er war der uneheliche Sohn des Fraumünster-Chorherrn <persName ref="person2219">Rudolf Stapfer</persName>, s. Carl <hi>Keller-Escher,</hi> Promptuarium genealogicum, Bd. VII, S. 25 (Zürich ZB, Ms Z II 6a). 1546 wird er als Überbringer eines Briefs von <persName ref="person19">Ambrosius Blarer</persName> an Bullinger erwähnt (Blarer BW II 470); über sein späteres Schicksal ist sonst nichts bekannt.</note> voluntas cum mea debeat neque possit neque velit convenire, non difficile cernes<note xml:id="fnd" type="footnote" n="d">cernes <hi>kann auch als</hi> cernis <hi>gelesen werden.</hi></note> caput inobediencię.</s>
+					<s n="4" xml:lang="la" type="auto">Proinde quando <persName ref="p6674">Stapferi</persName><note xml:id="fn2" type="footnote" n="2">Wie sich aus dem Folgenden ergibt, ist der seit 1535/36 in <placeName>Basel</placeName> immatrikulierte <persName>Heinrich Stapfer</persName> aus Zürich gemeint (s. <placeName>Basel</placeName>, Matrikel II 8, Nr. 9). Er war der uneheliche Sohn des Fraumünster-Chorherrn <persName>Rudolf Stapfer</persName>, s. Carl <hi>Keller-Escher,</hi> Promptuarium genealogicum, Bd. VII, S. 25 (Zürich ZB, Ms <bibl>Z</bibl> II 6a). 1546 wird er als Überbringer eines Briefs von <persName>Ambrosius Blarer</persName> an Bullinger erwähnt (<bibl>Blarer BW</bibl> II 470); über sein späteres Schicksal ist sonst nichts bekannt.</note> voluntas cum mea debeat neque possit neque velit convenire, non difficile cernes<note xml:id="fnd" type="footnote" n="d">cernes <hi>kann auch als</hi> cernis <hi>gelesen werden.</hi></note> caput inobediencię.</s>
 					<s n="5" xml:lang="la" type="auto">Egressus is est domo, libros et alia extulit; citra notationem mei ęgre revocabitur, praesertim cum sciam illum iactaturum me suę pecunię adeo<note xml:id="fne" type="footnote" n="e">adeo <hi>vom Schreiber korrigiert aus</hi> adeoque.</note> cupidum et ex ea tanto opere saginari posse, ut eius fiducia retractem ad me.</s>
-					<s n="6" xml:lang="la" type="auto">Id colligo ex anteactis opprobriis, siquidem pecuniam suam toties uxori<note xml:id="fn3" type="footnote" n="3"><persName ref="person1340">Anna Karlstadt</persName>, geb. von Mochau.</note> et filiis<note xml:id="fn4" type="footnote" n="4">Siehe unten Anm. 12.</note> exprobravit, quasi nos ex ea vivere necesse sit ipseque de beneficencia donet.</s>
+					<s n="6" xml:lang="la" type="auto">Id colligo ex anteactis opprobriis, siquidem pecuniam suam toties uxori<note xml:id="fn3" type="footnote" n="3"><persName>Anna Karlstadt, geb. von Mochau</persName>.</note> et filiis<note xml:id="fn4" type="footnote" n="4">Siehe unten Anm. 12.</note> exprobravit, quasi nos ex ea vivere necesse sit ipseque de beneficencia donet.</s>
 					<s n="7" xml:lang="la" type="auto">Equidem autem<note xml:id="fnf" type="footnote" n="f">autem <hi>über der Zeile nachgetragen.</hi></note> certus sum ipsum 26 fl. non assecuturum, quae ego contemplatione tui et aliorum (qui pro eo intercesserunt) in illum contuli.</s>
 					<s n="8" xml:lang="la" type="auto">Is enim[?]<note xml:id="fng" type="footnote" n="g">enim[?] <hi>über der Zeile nachgetragen.</hi></note> spaciosum lectulum unus subinde nisus est occupare pecuniam obiectans.</s>
 					<s n="9" xml:lang="la" type="auto">Verum caussam diversionis eius paucis accipe.</s>
-					<s n="10" xml:lang="la" type="auto">Est nobis doctor quidam medicinę, cui <persName ref="person2181">Sebastiano</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person2181">Sebastian Sinckeler</persName> (Singler), gest. 1547, von Weil der Stadt (Baden-Württemberg), wurde 1515 in Heidelberg immatrikuliert und promovierte 1530 in Ferrara zum Doktor der Medizin. Wahrscheinlich kam er im Sommer 1535 als Ersatz für Alban Thorer von Baden-Baden nach <placeName ref="place97">Basel</placeName> (s. Amerbach, Korr. VI 284). Er lehrte ab 1536 als Professor der theoretischen Medizin und war Amerbachs Hausarzt. - Lit.: Amerbach, Korr. IV ff, Reg. (bes. IV 4164 und VI, S. XLV); <placeName ref="place97">Basel</placeName>, Matrikel II 10, Nr. 29.</note> nomen, qui Latine, Gręce, Hebraice mire doctus existit.</s>
-					<s n="11" xml:lang="la" type="auto">Huius<pb type="edition" next="26"/> uxor<note xml:id="fn6" type="footnote" n="6"><persName ref="person2180">Elisabeth Sinckeler</persName>, geb. Wyßhärin; vgl. <persName ref="person6">Amerbach</persName>, Korr. IV ff, Reg.</note> et filia<note xml:id="fn7" type="footnote" n="7">Gemeint ist wohl Fides, die als einziges von sechs Kindern <persName ref="person2180">Sinckelers</persName> erwachsen wurde und um 1540 <persName ref="person1712">Jakob Müller</persName> (gen. Gerster) heiratete; vgl. <persName ref="person6">Amerbach</persName>, Korr. IV ff, Reg.</note> invisere meam coniugem valitudine haud optima constitutam.</s>
+					<s n="10" xml:lang="la" type="auto">Est nobis doctor quidam medicinę, cui <persName ref="p6618">Sebastiano</persName><note xml:id="fn5" type="footnote" n="5"><persName>Sebastian Sinckeler (Singler)</persName>, gest. 1547, von Weil der Stadt (Baden-Württemberg), wurde 1515 in Heidelberg immatrikuliert und promovierte 1530 in Ferrara zum Doktor der Medizin. Wahrscheinlich kam er im Sommer 1535 als Ersatz für Alban Thorer von Baden-Baden nach <placeName>Basel</placeName> (s. Amerbach, Korr. VI 284). Er lehrte ab 1536 als Professor der theoretischen Medizin und war Amerbachs Hausarzt. - Lit.: Amerbach, Korr. IV ff, Reg. (bes. IV 4164 und VI, S. XLV); <placeName>Basel</placeName>, Matrikel II 10, Nr. 29.</note> nomen, qui Latine, Gręce, Hebraice mire doctus existit.</s>
+					<s n="11" xml:lang="la" type="auto">Huius<pb type="edition" next="26"/> uxor<note xml:id="fn6" type="footnote" n="6"><persName>Elisabeth Sinckeler, geb. Wyßhärin</persName>; vgl. <persName ref="p8422">Amerbach</persName>, Korr. IV ff, Reg.</note> et filia<note xml:id="fn7" type="footnote" n="7">Gemeint ist wohl Fides, die als einziges von sechs Kindern <persName>Sinckelers</persName> erwachsen wurde und um 1540 <persName>Jakob Müller (gen. Gerster)</persName> heiratete; vgl. <persName ref="p8422">Amerbach</persName>, Korr. IV ff, Reg.</note> invisere meam coniugem valitudine haud optima constitutam.</s>
 					<s n="12" xml:lang="la" type="auto">Fuit autem mea in hipocausto oppido angusto unam duntaxat tabulam capiente.</s>
 					<s n="13" xml:lang="la" type="auto">Eo cum venissent, ingredior excepturus.</s>
-					<s n="14" xml:lang="la" type="auto">Exceptis eis iussi <persName ref="person2218">Stapfero</persName> hospitibus cedere, quod is meliorem mensę partem occupavit, unde peiore loco honestas hospites sedere oportebat.</s>
+					<s n="14" xml:lang="la" type="auto">Exceptis eis iussi <persName ref="p6674">Stapfero</persName> hospitibus cedere, quod is meliorem mensę partem occupavit, unde peiore loco honestas hospites sedere oportebat.</s>
 					<s n="15" xml:lang="la" type="auto">Abii; putabam cessurum.</s>
-					<s n="16" xml:lang="la" type="auto">Tandem honestatis gracia rediens eodem in loco <persName ref="person2218">Stapferum</persName> video sedere et libros compingere, quem non sine stomacho rursus iubeo in suum hypocaustum abire, sed respondit doctoris uxorem permisisse.</s>
+					<s n="16" xml:lang="la" type="auto">Tandem honestatis gracia rediens eodem in loco <persName ref="p6674">Stapferum</persName> video sedere et libros compingere, quem non sine stomacho rursus iubeo in suum hypocaustum abire, sed respondit doctoris uxorem permisisse.</s>
 					<s n="17" xml:lang="la" type="auto">Itaque locum occupatum<note xml:id="fnh" type="footnote" n="h"><hi>vor</hi> occupatum <hi>gestrichenes</hi> suum.</note> mordicus detinet, neque hoc contentus, nam me in lectionem profecto nidore bituminis incipit molestare contubernium<note xml:id="fni" type="footnote" n="i">contubernium <hi>über der Zeile nachgetragen.</hi></note>.</s>
 					<s n="18" xml:lang="la" type="auto">Hec et alia de lectione reversus audiens indigne tuli et dixi flagitium tale non modo cum literis sacrosanctis, sed cum legibus pugnare, imo contra naturam, adeoque sacius esse ipsum carere literis quam<note xml:id="fnk" type="footnote" n="k">quam <hi>vom Schreiber korrigiert aus</hi> quas.</note> has socias facinorum facere.</s>
 					<s n="19" xml:lang="la" type="auto">Hic<note xml:id="fnl" type="footnote" n="l">Hic <hi>vom Schreiber korrigiert aus</hi> His.</note> autem sic<note xml:id="fnm" type="footnote" n="m">sic <hi>über der Zeile nachgetragen, davor gestrichenes</hi> nonnihil.</note> movebatur, ut ilico sibi providebat, imo me iniuria<note xml:id="fnn" type="footnote" n="n"><hi>vor</hi> iniuria <hi>gestrichenes</hi> novis[?].</note> nova et acri affecit.</s>
-					<s n="20" xml:lang="la" type="auto">Itaque invitum et reluctantem non putavi diutius retinendum, quamquam parum licere putarem ei, quem curatoris<note xml:id="fn8" type="footnote" n="8">Als Vogt <persName ref="person2218">Heinrich Stapfers</persName> amtierte <persName ref="person1420">Gebhart Krüttli</persName>, s. Zürich StA, B VI 334, 140v.-141r. 204r.</note> autoritate tuoque interventu suscepi, vobis ignorantibus permittere discessum.</s>
-					<s n="21" xml:lang="la" type="auto">Poteris ex hisce ipse colligere, quas turbas daturus esset, si reciperem, neque dubito te sic <persName ref="person2218">Stapfero</persName> favere, ut mihi tranquillitatem non<note xml:id="fno" type="footnote" n="o">non <hi>über der Zeile nachgetragen.</hi></note> invideas.</s>
+					<s n="20" xml:lang="la" type="auto">Itaque invitum et reluctantem non putavi diutius retinendum, quamquam parum licere putarem ei, quem curatoris<note xml:id="fn8" type="footnote" n="8">Als Vogt <persName>Heinrich Stapfers</persName> amtierte <persName>Gebhart Krüttli</persName>, s. Zürich StA, B VI 334, 140v.-141r. 204r.</note> autoritate tuoque interventu suscepi, vobis ignorantibus permittere discessum.</s>
+					<s n="21" xml:lang="la" type="auto">Poteris ex hisce ipse colligere, quas turbas daturus esset, si reciperem, neque dubito te sic <persName ref="p6674">Stapfero</persName> favere, ut mihi tranquillitatem non<note xml:id="fno" type="footnote" n="o">non <hi>über der Zeile nachgetragen.</hi></note> invideas.</s>
 					<s n="22" xml:lang="la" type="auto">Pręstat itaque, ut alibi sit, cum mihi sit honestum et utile eius ab commercio abstinere.</s>
 					<s n="23" xml:lang="la" type="auto">Si mansisset mecum, lubens auscultarem tibi praecipienti, cui inservire iucundum est.</s>
 				</p>
 				<p>
 					<s n="24" xml:lang="la" type="auto">Vale felicissime.</s>
-					<s n="25" xml:lang="la" type="auto">Uxorem tuam<note xml:id="fn9" type="footnote" n="9">Anna, geb. Adlischwyler.</note> atque matrem<note xml:id="fn10" type="footnote" n="10">Anna, geb. Wiederkehr.</note> et liberos<note xml:id="fn11" type="footnote" n="11">Vgl. HBBW VI <ref target="file10782">[Nr. 744]</ref>, S. 124, Anm. 34, sowie die folgende Anm.</note> saluta.</s>
-					<s n="26" xml:lang="la" type="auto">Gaudeo te numerum exęquasse nostrum liberum<note xml:id="fn12" type="footnote" n="12">Am 16. Dezember 1537 war Christoph als sechstes Kind Bullingers zur Welt gekommen, s. HBD 26, 1f. Zu <persName ref="person117">Karlstadts</persName> Kindern vgl. <hi>Barge</hi> II 518f. Eine weitere Tochter <persName ref="person117">Karlstadts</persName>, die im Februar 1531 in Zürich getaufte Barbel (s. Zürich Stadtarchiv, VIII C 1), scheint nicht lange gelebt zu haben.</note> et tuam tibi felicitatem omnem congratulor.</s>
+					<s n="25" xml:lang="la" type="auto">Uxorem tuam<note xml:id="fn9" type="footnote" n="9"><persName>Anna, geb. Adlischwyler</persName>.</note> atque matrem<note xml:id="fn10" type="footnote" n="10"><persName>Anna, geb. Wiederkehr</persName>.</note> et liberos<note xml:id="fn11" type="footnote" n="11">Vgl. <bibl>HBBW VI</bibl> <ref target="file10782">[Nr. 744]</ref>, S. 124, Anm. 34, sowie die folgende Anm.</note> saluta.</s>
+					<s n="26" xml:lang="la" type="auto">Gaudeo te numerum exęquasse nostrum liberum<note xml:id="fn12" type="footnote" n="12">Am 16. Dezember 1537 war Christoph als sechstes Kind Bullingers zur Welt gekommen, s. <bibl>HBD</bibl> 26, 1f. Zu <persName>Karlstadts</persName> Kindern vgl. <bibl>Barge</bibl> II 518f. Eine weitere Tochter <persName>Karlstadts</persName>, die im Februar 1531 in Zürich getaufte Barbel (s. Zürich Stadtarchiv, VIII C 1), scheint nicht lange gelebt zu haben.</note> et tuam tibi felicitatem omnem congratulor.</s>
 					<s n="27" xml:lang="la" type="auto">Saluta dominos meos praeceptores et fratres.<pb type="edition" next="27"/></s>
 				</p>
 				<p>
-					<s n="28" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, celeriter, die<note xml:id="fnp" type="footnote" n="p"><hi>nach</hi> die <hi>etwas Platz ausgespart.</hi></note> ianuarii anno 38.</s>
+					<s n="28" xml:lang="la" type="auto"><placeName>Basileę</placeName>, celeriter, die<note xml:id="fnp" type="footnote" n="p"><hi>nach</hi> die <hi>etwas Platz ausgespart.</hi></note> ianuarii anno 38.</s>
 					<s n="29" xml:lang="la" type="auto">Tuus obsequibilis</s>
 				</p>
 				<p>
-					<s n="30" xml:lang="la" type="auto">And. <persName ref="person117">Carolostadius</persName>.</s>
+					<s n="30" xml:lang="la" type="auto">And. <persName ref="p4349">Carolostadius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

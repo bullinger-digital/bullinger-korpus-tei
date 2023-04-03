@@ -6,32 +6,31 @@
 				<title subtype="file">Gilg Tschudi / Glarus AN Heinrich Bullinger / Zürich, 18. Dezember 1571</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7745/138</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,255</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +45,7 @@
 								<title>J. Vogel, E. Tschudi als Staatsmann und Geschichtsschreiber, Nr. 55</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Gerold Meyer von Knonau, in: Archiv für Schweizer Geschichte 8, 1851, S. 374, Nr. 5 [Xerosckopie IRG bei de Briefkopien unter "Glarus"]</title>
+								<title>Gerold Meyer von Knonau, in: Archiv für Schweizer Geschichte 8, 1851, S.374, Nr. 5 [Xerosckopie IRG bei de Briefkopien unter "Glarus"]</title>
 							</bibl>
 							<bibl type="Literatur">
 								<title>Leo Neuhaus im Tschudi-Inventar, Zürich StA, W I 32, datiert irrtümlich: 1571 Januar 18</title>
@@ -59,7 +58,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8728">
 				<correspAction type="sent">
-					<persName ref="person3202" cert="high">
+					<persName ref="p3202" cert="high">
 						<!--
 						<surname cert="high">Tschudi</surname>
 						<forename cert="high">Gilg</forename>
@@ -69,11 +68,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/118624326"/>
 						-->
 					</persName>
-					<placeName source="place176" cert="high"><orig>Glarus</orig></placeName>
+					<placeName source="l176" cert="high"><orig>Glarus</orig></placeName>
 					<date when="1571-12-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -83,7 +82,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8729"/>
@@ -105,7 +104,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

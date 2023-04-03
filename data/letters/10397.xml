@@ -6,53 +6,44 @@
 				<title subtype="file">Martin Bucer / Strassburg AN Heinrich Bullinger, 24. April 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=365</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">146</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,428</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Empfange aufmerksam den gebildeten Briefüberbringer
-								[<persName ref="person1499">Johannes Lening</persName>]. Deine Ratschläge sind richtig, aber unsere
+								[<persName ref="p1903">Johannes Lening</persName>]. Deine Ratschläge sind richtig, aber unsere
 								Beurteilung anderer muß vom Wunsch nach Frieden bestimmt sein. Hätten nur auch jene stets um Frieden
 								gebetet! Soweit sie [die Lutheraner (?)] Frieden suchen, werdet ihr ihnen gegenüber zuvorkommend sein. Der
 								Fürst [Philipp von Hessen (?)]
 								scheint gottesfürchtig zu sein; insofern wollen wir ihn unterstützen. Mit dem auf unserer Seite stehenden
 								Boten werdet ihr ernsthaft und aufrichtig verhandeln und nicht wie
-								<persName ref="person138">Luther</persName> Unbekanntes verdammen. Er soll sehen, daß wir - anders als die
+								<persName ref="p1974">Luther</persName> Unbekanntes verdammen. Er soll sehen, daß wir - anders als die
 								Lutheraner - wahrhaft Brüder sind.
 							</p>
 						</summary>
@@ -60,13 +51,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 365, S.146</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10397">
 				<correspAction type="sent">
-					<persName ref="person467" cert="high">
+					<persName ref="p467" cert="high">
 						<!--
 						<surname cert="high">Bucer</surname>
 						<forename cert="high">Martin</forename>
@@ -76,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11483585"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1534-04-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,35 +127,35 @@
 					<s n="1" xml:lang="la" type="auto">Gratia domini, mi Heylryche.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Hunc<note xml:id="fn2" type="footnote" n="2">Man möchte an <persName ref="person50">Guillaume du Bellay</persName> denken (und müßte dann «princeps», Z. 9, auf <persName ref="person859">Franz I.</persName> beziehen); allein du Bellay weilte zur Zeit dieses Briefes in <placeName ref="place740">München</placeName> (vgl. unten S. 175, Anm. 6 und 7). Daß <persName ref="person1499">Johannes Lening</persName> gemeint sein muß, ergibt sich aus <ref target="file10400">Nr. 368</ref>. Lening war ebenfalls gebildet und dazu ein Zwinglianer, was die Bemerkungen Z. 10 verständlich macht.</note> accipe pro tua pietate et illa rara humanitate.</s>
-					<s n="3" xml:lang="la" type="auto">Sunt ista consilia, ut scribis<note xml:id="fn3" type="footnote" n="3">Da aus dieser Zeit keine Briefe Bullingers an <persName ref="person28">Bucer</persName> erhalten sind (vgl. oben S. 138, Anm. 8), bleibt ungewiß, wie weit seine Ratschläge im Zusammenhang stehen mit den nachfolgenden Bemerkungen über gerechte Beurteilung und <persName ref="person138">Luthers</persName> Angriff auf Erasmus.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Hunc<note xml:id="fn2" type="footnote" n="2">Man möchte an <persName>Guillaume du Bellay</persName> denken (und müßte dann «princeps», Z. 9, auf <persName>Franz I.</persName> beziehen); allein du Bellay weilte zur Zeit dieses Briefes in <placeName>München</placeName> (vgl. unten S. 175, Anm. 6 und 7). Daß <persName ref="p6177">Johannes Lening</persName> gemeint sein muß, ergibt sich aus <ref target="file10400">Nr. 368</ref>. Lening war ebenfalls gebildet und dazu ein Zwinglianer, was die Bemerkungen Z. 10 verständlich macht.</note> accipe pro tua pietate et illa rara humanitate.</s>
+					<s n="3" xml:lang="la" type="auto">Sunt ista consilia, ut scribis<note xml:id="fn3" type="footnote" n="3">Da aus dieser Zeit keine Briefe Bullingers an <persName ref="p18198">Bucer</persName> erhalten sind (vgl. oben S. 138, Anm. 8), bleibt ungewiß, wie weit seine Ratschläge im Zusammenhang stehen mit den nachfolgenden Bemerkungen über gerechte Beurteilung und <persName ref="p18889">Luthers</persName> Angriff auf Erasmus.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Tamen nobis iudicandum est secundum ea, quae homines profitentur.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto"><pb type="edition" next="147"/>Ex ore tuo te iudico<note xml:id="fn4" type="footnote" n="4">Lk 19, 22.</note> Iudicandum dico de aliis.</s>
 					<s n="6" xml:lang="la" type="auto">Nos in nostra re cauti simus pro ea cognitione, quam donaverit dominus.</s>
-					<s n="7" xml:lang="la" type="auto">Pacem orare debemus omnes<note xml:id="fn5" type="footnote" n="5">Angesichts der Kriegsvorbereitungen Schlimmes befürchtend (vgl. oben <ref target="file10383">Nr. 351</ref> und S. 125, 15-18), bat <persName ref="person28">Bucer</persName> ähnlich wie hier auch in seinen Briefen an <persName ref="person19">Ambrosius Blarer</persName> vom 30. April und 9. Mai 1534 (Blarer BW I 494) um Frieden.</note>, et utinam haec olim sententia<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage:</hi> sentententia. <hi>(Gleich korrigiert auch Simler, Zürich ZB, Ms S 35, 130).</hi></note> illic sedisset omnibus.</s>
+					<s n="7" xml:lang="la" type="auto">Pacem orare debemus omnes<note xml:id="fn5" type="footnote" n="5">Angesichts der Kriegsvorbereitungen Schlimmes befürchtend (vgl. oben <ref target="file10383">Nr. 351</ref> und S. 125, 15-18), bat <persName ref="p18198">Bucer</persName> ähnlich wie hier auch in seinen Briefen an <persName>Ambrosius Blarer</persName> vom 30. April und 9. Mai 1534 (<bibl>Blarer BW</bibl> I 494) um Frieden.</note>, et utinam haec olim sententia<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage:</hi> sentententia. <hi>(Gleich korrigiert auch Simler, Zürich ZB, Ms S 35, 130).</hi></note> illic sedisset omnibus.</s>
 					<s n="8" xml:lang="la" type="auto">Sed hoc ampliores deo agendae gratiae, quod isto animo vos donavit.</s>
 					<s n="9" xml:lang="la" type="auto">Quatenus igitur hi pacem quęsierint, officiosi in eos esse studebitis.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Princeps<note xml:id="fn6" type="footnote" n="6">Gemeint ist wohl Philipp von Hessen (vgl. <ref target="file10400">Nr. 368</ref>), vielleicht auch, wie Simler (Zürich ZB, Ms S 35, 130) vermutet, <persName ref="person224">Ulrich</persName> von Württemberg. Vgl. noch Anm. 2.</note> hic videtur timere deum.</s>
+					<s n="10" xml:lang="la" type="auto">Princeps<note xml:id="fn6" type="footnote" n="6">Gemeint ist wohl Philipp von Hessen (vgl. <ref target="file10400">Nr. 368</ref>), vielleicht auch, wie Simler (Zürich ZB, Ms S 35, 130) vermutet, <persName>Ulrich von Württemberg</persName>. Vgl. noch Anm. 2.</note> hic videtur timere deum.</s>
 					<s n="11" xml:lang="la" type="auto">Hactenus faveamus ei.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Homo<note xml:id="fn7" type="footnote" n="7">Siehe Anm. 2.</note> hic, qui ad vos venit, Pius et plane eruditus est, tum noster.</s>
 					<s n="13" xml:lang="la" type="auto">Verum hoc.</s>
-					<s n="14" xml:lang="la" type="auto">De omnibus agetis cum eo gravius et candidius, ne quis id, quod in <persName ref="person138">Luthero</persName> merito damnamus, in nobis notet, inaudita scilicet et incognita condemnari<note xml:id="fn8" type="footnote" n="8">Vgl. etwa oben S. 122, 20-24 und 138, 35-39.</note>.</s>
+					<s n="14" xml:lang="la" type="auto">De omnibus agetis cum eo gravius et candidius, ne quis id, quod in <persName ref="p1974">Luthero</persName> merito damnamus, in nobis notet, inaudita scilicet et incognita condemnari<note xml:id="fn8" type="footnote" n="8">Vgl. etwa oben S. 122, 20-24 und 138, 35-39.</note>.</s>
 					<s n="15" xml:lang="la" type="auto">Ut igitur soles, sis erga hunc Bullingerus.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto">Saluta symmystas et adsis huic ita, ut videat nos vere invicem fratres esse prae eo, quod apud Lutheranos conspicitur.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto"><placeName ref="place1049">Argentorati</placeName>, 24. aprilis.</s>
+					<s n="17" xml:lang="la" type="auto"><placeName>Argentorati</placeName>, 24. aprilis.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">M. <persName ref="person28">Bucerus</persName> tuus.</s>
+					<s n="18" xml:lang="la" type="auto">M. <persName ref="p467">Bucerus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -6,61 +6,59 @@
 				<title subtype="file">Hans Jakob von Wattenwyl / Bern AN Heinrich Bullinger, 11. Juli 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=415</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">251</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 360,269</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Will dem empfohlenen
-								<persName ref="person2448">Rudolf Weber</persName> helfen, sobald es
-								die Ratsgeschäfte erlauben. Grüße an <persName ref="person204">Werner Steiner</persName>.
+								<persName ref="p6985">Rudolf Weber</persName> helfen, sobald es
+								die Ratsgeschäfte erlauben. Grüße an <persName ref="p8447">Werner Steiner</persName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 415, S.251</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10450">
 				<correspAction type="sent">
-					<persName ref="person2278" cert="high">
+					<persName ref="p2278" cert="high">
 						<!--
 						<surname cert="high">von Wattenwyl</surname>
 						<forename cert="high">Hans Jakob</forename>
@@ -70,11 +68,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11596559"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1534-07-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,19 +115,19 @@
 					<s n="1" xml:lang="de" type="auto">Gnad und frid von got durch unsren heren Jesum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Wolglerter, ersamer, wiser, guinstiger, lieber her, ich hab üwren brieff<note xml:id="fn1" type="footnote" n="1">Es sind keine Briefe Bullingers an <persName ref="person233">von Wattenwyl</persName> erhalten.</note> empfangen antreffend meister Ruͦdolf <persName ref="person2449">Webern</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person2448">Rudolf Weber</persName> (Wäber) von Zürich, gest. vermutlich um 1545, der vom 28. Dezember 1528 bis 1. September 1530 angestellt gewesene Arzt der Blatterkranken (der an Pocken, Syphilis oder Beulenpest Erkrankten, s. SI V 204f) im ehemaligen Kloster am <placeName ref="place1244">Ötenbach</placeName> in Zürich (AZürcherRef 1526. 1708; Salomon <hi>Vögelin,</hi> Das alte Zürich, zweite durchaus umgearbeitete Auflage von Arnold <hi>Nüscheler</hi> und F[riedrich] Salomon <hi>Vögelin,</hi> Zürich 1878, S. 641. 654), hatte am 26. April 1533 die Erlaubnis erhalten, im Bernbiet für ein Jahr zu praktizieren. Nun bemühte er sich offenbar um eine Anstellung in der Stadt <placeName ref="place121">Bern</placeName>. Die Bestallung zum dortigen Augen-, Bruch- und Steinschneider (dies letzte bedeutet Blasen- und Gallensteinchirurg sowie Augenarzt, s. SI IX 1134f) datiert vom 24. August 1534. Sein erfolgreiches, gegenüber Armen uneigennütziges Wirken am Inselspital brachte ihm großes Ansehen weit über <placeName ref="place121">Bern</placeName> hinaus und von Seiten des Rates 1535 die Bewilligung für einen Hauskauf, 1536 eine Monopolstellung gegenüber andern Steinschneidern und 1540 die Gewährung einer verbesserten Besoldung auf Lebenszeit (<placeName ref="place121">Bern</placeName> StA, Ratsmanuale 253, S. 96; 257, S. 154; 273, S. 42). Letztmals weist ihm der Rat am 22. und 27. Oktober 1544 Patienten zu (ebenda 290, S. 70, 87). Ab 1545/46 nennen die Ratsmanuale andere Chirurgen. 1556 verarztet «Meister Rudolfs sel. frouw» Blatterkranke. - Lit.: Berchtold <hi>Haller,</hi> <placeName ref="place121">Bern</placeName> in seinen Ratsmanualen 1465-1565, 3 Bde., <placeName ref="place121">Bern</placeName> 1900-1902, Reg.; Hermann <hi>Rennefahrt</hi> und Erich <hi>Hintzsche,</hi> 1354-1954. Sechshundert Jahre Inselspital, <placeName ref="place121">Bern</placeName> 1954, S. 210-212. 216.</note> und bin guͦtz, geneigtz willens, im mines vermögens in ansechung siner kunst<note xml:id="fn3" type="footnote" n="3">mit Rücksicht auf seine Arznei-Kenntnisse (SI VII 554f. III 368).</note>, fromkeit und uwers beger zuͦ helfen.</s>
-					<s n="3" xml:lang="de" type="auto">Aber es het sich bishär nit konnen schicken<note xml:id="fn4" type="footnote" n="4">fügen, bisher ergab sich keine Gelegenheit (SI VIII 507).</note> von file<note xml:id="fn5" type="footnote" n="5">Vielheit, Menge (SI I 777f).</note> der<pb type="edition" next="252"/> gescheften, der min heren<note xml:id="fn6" type="footnote" n="6">Der Rat von <placeName ref="place121">Bern</placeName>.</note> bißher beladen sind gwesen und noch sind.</s>
-					<s n="4" xml:lang="de" type="auto">Aber sobald es gesin mag, wil ich luͦgen, das in dem handel<note xml:id="fn7" type="footnote" n="7">Angelegenheit, Unterhandlung (SI II 1397f).</note> gearbeit werd, darmit er mög wuissen, waran<note xml:id="fn8" type="footnote" n="8">woran (Grimm XIII 1983).</note> er sich lassend söll.</s>
+					<s n="2" xml:lang="de" type="auto">Wolglerter, ersamer, wiser, guinstiger, lieber her, ich hab üwren brieff<note xml:id="fn1" type="footnote" n="1">Es sind keine Briefe Bullingers an <persName ref="p18594">von Wattenwyl</persName> erhalten.</note> empfangen antreffend meister Ruͦdolf <persName>Webern</persName><note xml:id="fn2" type="footnote" n="2"><persName>Rudolf Weber (Wäber)</persName> von Zürich, gest. vermutlich um 1545, der vom 28. Dezember 1528 bis 1. September 1530 angestellt gewesene Arzt der Blatterkranken (der an Pocken, Syphilis oder Beulenpest Erkrankten, s. <bibl>SI</bibl> V 204f) im ehemaligen Kloster am <placeName>Ötenbach</placeName> in Zürich (<bibl>AZürcherRef</bibl> 1526. 1708; Salomon <hi>Vögelin,</hi> Das alte Zürich, zweite durchaus umgearbeitete Auflage von Arnold <hi>Nüscheler</hi> und F[riedrich] Salomon <hi>Vögelin,</hi> Zürich 1878, S. 641. 654), hatte am 26. April 1533 die Erlaubnis erhalten, im Bernbiet für ein Jahr zu praktizieren. Nun bemühte er sich offenbar um eine Anstellung in der Stadt <placeName>Bern</placeName>. Die Bestallung zum dortigen Augen-, Bruch- und Steinschneider (dies letzte bedeutet Blasen- und Gallensteinchirurg sowie Augenarzt, s. <bibl>SI</bibl> IX 1134f) datiert vom 24. August 1534. Sein erfolgreiches, gegenüber Armen uneigennütziges Wirken am Inselspital brachte ihm großes Ansehen weit über <placeName>Bern</placeName> hinaus und von Seiten des Rates 1535 die Bewilligung für einen Hauskauf, 1536 eine Monopolstellung gegenüber andern Steinschneidern und 1540 die Gewährung einer verbesserten Besoldung auf Lebenszeit (<placeName>Bern</placeName> StA, Ratsmanuale 253, S. 96; 257, S. 154; 273, S. 42). Letztmals weist ihm der Rat am 22. und 27. Oktober 1544 Patienten zu (ebenda 290, S. 70, 87). Ab 1545/46 nennen die Ratsmanuale andere Chirurgen. 1556 verarztet «Meister Rudolfs sel. frouw» Blatterkranke. - Lit.: Berchtold <hi>Haller,</hi> <placeName>Bern</placeName> in seinen Ratsmanualen 1465-1565, 3 Bde., <placeName>Bern</placeName> 1900-1902, Reg.; Hermann <hi>Rennefahrt</hi> und Erich <hi>Hintzsche,</hi> 1354-1954. Sechshundert Jahre Inselspital, <placeName>Bern</placeName> 1954, S. 210-212. 216.</note> und bin guͦtz, geneigtz willens, im mines vermögens in ansechung siner kunst<note xml:id="fn3" type="footnote" n="3">mit Rücksicht auf seine Arznei-Kenntnisse (<bibl>SI</bibl> VII 554f. III 368).</note>, fromkeit und uwers beger zuͦ helfen.</s>
+					<s n="3" xml:lang="de" type="auto">Aber es het sich bishär nit konnen schicken<note xml:id="fn4" type="footnote" n="4">fügen, bisher ergab sich keine Gelegenheit (<bibl>SI</bibl> VIII 507).</note> von file<note xml:id="fn5" type="footnote" n="5">Vielheit, Menge (<bibl>SI</bibl> I 777f).</note> der<pb type="edition" next="252"/> gescheften, der min heren<note xml:id="fn6" type="footnote" n="6">Der Rat von <placeName>Bern</placeName>.</note> bißher beladen sind gwesen und noch sind.</s>
+					<s n="4" xml:lang="de" type="auto">Aber sobald es gesin mag, wil ich luͦgen, das in dem handel<note xml:id="fn7" type="footnote" n="7">Angelegenheit, Unterhandlung (<bibl>SI</bibl> II 1397f).</note> gearbeit werd, darmit er mög wuissen, waran<note xml:id="fn8" type="footnote" n="8">woran (<bibl>Grimm</bibl> XIII 1983).</note> er sich lassend söll.</s>
 					<s n="5" xml:lang="de" type="auto">Deß wellend guͦter meinung<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage verschrieben:</hi> nienung. <hi>Vgl. die richtige und deutliche Schreibweise unten S. 271, 8f.</hi></note> von mier verstan.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="de" type="auto">Gott syg mit üch.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto">Gruͤsend mier Meister Werny <placeName ref="place1032">Steiner</placeName> und ander guͦt heren und gsellen.</s>
+					<s n="7" xml:lang="de" type="auto">Gruͤsend mier Meister Werny <placeName>Steiner</placeName> und ander guͦt heren und gsellen.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto">Zuͦ <placeName ref="place121">Bern</placeName> uff 11. tag juli 1534.</s>
+					<s n="8" xml:lang="de" type="auto">Zuͦ <placeName>Bern</placeName> uff 11. tag juli 1534.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="de" type="auto">Uwer guͦtwilliger H. Jacob von Watenwil.</s>

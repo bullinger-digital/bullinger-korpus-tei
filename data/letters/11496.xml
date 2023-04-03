@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Haller d.J. / Marburg AN Heinrich Bullinger, 9. Januar 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1453</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">32</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 370,3r.-v.</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,9 +38,9 @@
 							<p xml:id="regest1">
 								Entschuldigt sich vielmals für sein Vergehen und hofft auf Bullingers Vergeben. Ist besorgt über die
 								angekündigte Rückberufung nach Zürich, da er Bullinger nicht unversöhnt gegenübertreten möchte. Lobt ihren
-								Privatlehrer <persName ref="person1527">Johannes Lonicerus</persName>, der der [reformierten] Lehre
-								freundlich gesinnt ist, sowie die Professoren <persName ref="person1972">Kaspar Rudolphi</persName>,
-								[<persName ref="person76">Gerhard Geldenhauer</persName>] und [<persName ref="person21574">Matthäus Pfeil von] Kappel</persName>. Freut sich über die Eintracht in der
+								Privatlehrer <persName ref="p18135">Johannes Lonicerus</persName>, der der [reformierten] Lehre
+								freundlich gesinnt ist, sowie die Professoren <persName ref="p6283">Kaspar Rudolphi</persName>,
+								[<persName ref="p8363">Gerhard Geldenhauer</persName>] und <persName ref="p18236">[Matthäus Pfeil von] Kappel</persName>. Freut sich über die Eintracht in der
 								Eidgenossenschaft und hofft auf Einheit auch im Glauben. Bittet nochmals um Vergebung und will ein frommes
 								Leben führen.
 							</p>
@@ -58,13 +49,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1453, S.32</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11496">
 				<correspAction type="sent">
-					<persName ref="person8018" cert="high">
+					<persName ref="p8018" cert="high">
 						<!--
 						<surname cert="high">Haller d.J.</surname>
 						<forename cert="high">Johannes</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
 						-->
 					</persName>
-					<placeName source="place311" cert="high"><orig>Marburg</orig></placeName>
+					<placeName source="l311" cert="high"><orig>Marburg</orig></placeName>
 					<date when="1541-01-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,8 +123,8 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Scribis, dilectissime pater, literas nostras nihil nisi pecunias petere;<note xml:id="fn1" type="footnote" n="1">Vgl. HBBW X <ref target="file11479">[Nr. 1436]</ref>. S. 191, 2.</note> mitto ergo nunc ad te literas nil nisi veniam postulantes.</s>
-					<s n="3" xml:lang="la" type="auto">Scio enim et mihi hęc scire dolet, quam te habeam offensum,<note xml:id="fn2" type="footnote" n="2"><persName ref="person91">Haller</persName> war im September 1540 mit seinen Studienkollegen <persName ref="person242">Johann Jakob Wick</persName> und <persName ref="person251">Johannes Wolf</persName> eigenmächtig von Tübingen nach <placeName ref="place672">Marburg</placeName> umgezogen; die drei wollten auch zusammen mit Rudolf Gwalther den Magistergrad erlangen, was Bullinger ablehnte; vgl. HBBW X, <ref target="file11483">Nr. 1440</ref>.</note> et quam merito offensum, cui tamen vel uni bene placere deberem tuaeque me accommodare voluntati perpetuo.</s>
+					<s n="2" xml:lang="la" type="auto">Scribis, dilectissime pater, literas nostras nihil nisi pecunias petere;<note xml:id="fn1" type="footnote" n="1">Vgl. <bibl>HBBW X</bibl> <ref target="file11479">[Nr. 1436]</ref>. S. 191, 2.</note> mitto ergo nunc ad te literas nil nisi veniam postulantes.</s>
+					<s n="3" xml:lang="la" type="auto">Scio enim et mihi hęc scire dolet, quam te habeam offensum,<note xml:id="fn2" type="footnote" n="2"><persName>Haller</persName> war im September 1540 mit seinen Studienkollegen <persName>Johann Jakob Wick</persName> und <persName>Johannes Wolf</persName> eigenmächtig von Tübingen nach <placeName>Marburg</placeName> umgezogen; die drei wollten auch zusammen mit Rudolf Gwalther den Magistergrad erlangen, was Bullinger ablehnte; vgl. <bibl>HBBW</bibl> X, <ref target="file11483">Nr. 1440</ref>.</note> et quam merito offensum, cui tamen vel uni bene placere deberem tuaeque me accommodare voluntati perpetuo.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Quae res quantae mihi sit infelicitatis causa, mi pater, vix credis.</s>
@@ -144,11 +142,11 @@
 					<s n="14" xml:lang="la" type="auto">Furor inest primis ingens iuvenilibus annis.</s>
 					<s n="15" xml:lang="la" type="auto">O nimium foelix, qui superare potest.</s>
 					<s n="16" xml:lang="la" type="auto">Quare, mi pater, pater inquam, si quid apud te vel preces vel vitae ulla posthac innocentia valet, rogo, ignosce mihi, si quid sanctum apud te coeli numen aeternum optimum maximum valet, si Christus<note xml:id="fna" type="footnote" n="a">Christus <hi>in Versalien.</hi></note>, in quo omnia nobis peccata remittuntur.</s>
-					<s n="17" xml:lang="la" type="auto">Quęso oblivioni tradas, quae imprudentius aliquando ad te scripsi<note xml:id="fn4" type="footnote" n="4">Gemeint ist kaum der Brief vom 5. Juni 1540 (HBBW X, <ref target="file11448">Nr. 1405</ref>), sondern ein nicht erhaltenes Schreiben <persName ref="person91">Hallers</persName>.</note>.</s>
+					<s n="17" xml:lang="la" type="auto">Quęso oblivioni tradas, quae imprudentius aliquando ad te scripsi<note xml:id="fn4" type="footnote" n="4">Gemeint ist kaum der Brief vom 5. Juni 1540 (<bibl>HBBW</bibl> X, <ref target="file11448">Nr. 1405</ref>), sondern ein nicht erhaltenes Schreiben <persName>Hallers</persName>.</note>.</s>
 					<s n="18" xml:lang="la" type="auto">Quam enim me mei ipsius pudeat, dici nequit; ignosce, rogo, per si quae tibi sunt percharae pignora vitae, per ego parentes officiumque tuum.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">Scribis etiam forsan brevi nos<note xml:id="fn5" type="footnote" n="5"><persName ref="person91">Haller</persName>, <persName ref="person251">Wolf</persName> und <persName ref="person242">Wick</persName>.</note> revocandos esse in patriam, quae res ingentem nobis dolorem parit, inprimis mihi, homini omnium infęlicissimo, qui ex omnibus studiosis unus te, virum studiorum et patriae nostrae syncerum antistitem, offensum habeam.</s>
+					<s n="19" xml:lang="la" type="auto">Scribis etiam forsan brevi nos<note xml:id="fn5" type="footnote" n="5"><persName>Haller</persName>, <persName>Wolf</persName> und <persName>Wick</persName>.</note> revocandos esse in patriam, quae res ingentem nobis dolorem parit, inprimis mihi, homini omnium infęlicissimo, qui ex omnibus studiosis unus te, virum studiorum et patriae nostrae syncerum antistitem, offensum habeam.</s>
 					<s n="20" xml:lang="la" type="auto">Qua enim ratione (etiamsi necessitas brevi postularet, ut vocarer ad aliquod ecclesiae munus obeundum) te conveniam?</s>
 				</p>
 				<p>
@@ -160,14 +158,14 @@
 					<s n="26" xml:lang="la" type="auto">Si autem misericordiam erga supplices exercere in viis Christi ambulare est, non dubito, quin omne<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> onne.</note> id, quod hactenus deliqui, obliteraturus sis.</s>
 				</p>
 				<p>
-					<s n="27" xml:lang="la" type="auto">De studiis nostris, quod scribam, aliud non habeo, quam quod ex Rhodolphi forsan literis<note xml:id="fn6" type="footnote" n="6"><persName ref="person91">Haller</persName> bezieht sich wohl auf einen verlorenen Brief <persName ref="person84">Rudolf Gwalthers</persName> (vgl. auch unten <ref target="file11516">Nr. 1473</ref>, Anm. 1).</note> vel audivisti vel adhuc audies.</s>
-					<s n="28" xml:lang="la" type="auto">Foeliciter in hisce progressi sumus, ex quo <placeName ref="place672">Marpurgum</placeName> appulimus.</s>
-					<s n="29" xml:lang="la" type="auto">Privatum habemus praeceptorem (ut nosti forsan) d. <persName ref="person1527">Ioannem Lonicerum</persName>, virum ut doctissimum ita piissimum et religionis nostrae amicissimum.<pb type="scan" next="3v."/></s>
-					<s n="30" xml:lang="la" type="auto">Reliquos omnes professores amicos et familiares habemus: Gasparum Rhodolphi, qui erudite artem dialecticam profitetur; <persName ref="person76">Noviomagum</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person76">Gerhard Geldenhauer</persName>.</note>, M. Capellam<note xml:id="fn8" type="footnote" n="8">Matthäus Pfeil von <placeName ref="place534">Kappel</placeName>, gen. Philo Capella, wurde nach 1500 in <placeName ref="place534">Kappel</placeName>/Hessen geboren. 1529 erlangte er die Magisterwürde an der Universität in <placeName ref="place1205">Wittenberg</placeName>; 1536 wurde er Professor der Moralphilosophie in <placeName ref="place672">Marburg</placeName>, 1542 lehrte er auch Rhetorik. Das Amt des Dekans übte er sechsmal aus, 1552/53 war er Rektor der Universität <placeName ref="place672">Marburg</placeName>. Pfeil verstarb am 10. Oktober 1564 an der Pest. - Lit.: Franz Gundlach, Catalogus Professorum Academiae Marburgensis. Die akademischen Lehrer der Philipps-Universität in <placeName ref="place672">Marburg</placeName> von 1527-1910, Bd. 1, <placeName ref="place672">Marburg</placeName> 1927. - Veröffentlichungen der Historischen Kommission für Hessen und Waldeck XV/1, <ref target="file10526">Nr. 490</ref>.</note>, professorem philosophiae<pb type="edition" next="34"/> moralis, cuius studium Tiguri florere mirum in modum gaudemus, praesertim, cum non tam studium ipsum quam ipse professor<note xml:id="fn9" type="footnote" n="9">Gemeint ist <persName ref="person238">Otto Werdmüller</persName>, der 1541 Professor der Philosophie in Zürich wurde; s. HBBW X <ref target="file11458">[Nr. 1415]</ref>, S. 150, Anm. 5.</note> laudandus sit.</s>
+					<s n="27" xml:lang="la" type="auto">De studiis nostris, quod scribam, aliud non habeo, quam quod ex Rhodolphi forsan literis<note xml:id="fn6" type="footnote" n="6"><persName>Haller</persName> bezieht sich wohl auf einen verlorenen Brief <persName>Rudolf Gwalthers</persName> (vgl. auch unten <ref target="file11516">Nr. 1473</ref>, Anm. 1).</note> vel audivisti vel adhuc audies.</s>
+					<s n="28" xml:lang="la" type="auto">Foeliciter in hisce progressi sumus, ex quo <placeName>Marpurgum</placeName> appulimus.</s>
+					<s n="29" xml:lang="la" type="auto">Privatum habemus praeceptorem (ut nosti forsan) d. <persName ref="p18135">Ioannem Lonicerum</persName>, virum ut doctissimum ita piissimum et religionis nostrae amicissimum.<pb type="scan" next="3v."/></s>
+					<s n="30" xml:lang="la" type="auto">Reliquos omnes professores amicos et familiares habemus: Gasparum Rhodolphi, qui erudite artem dialecticam profitetur; <persName ref="p8363">Noviomagum</persName><note xml:id="fn7" type="footnote" n="7"><persName>Gerhard Geldenhauer</persName>.</note>, M. Capellam<note xml:id="fn8" type="footnote" n="8"><persName>Matthäus Pfeil von Kappel, gen. Philo Capella</persName>, wurde nach 1500 in <placeName>Kappel</placeName>/Hessen geboren. 1529 erlangte er die Magisterwürde an der Universität in <placeName>Wittenberg</placeName>; 1536 wurde er Professor der Moralphilosophie in <placeName>Marburg</placeName>, 1542 lehrte er auch Rhetorik. Das Amt des Dekans übte er sechsmal aus, 1552/53 war er Rektor der Universität <placeName>Marburg</placeName>. Pfeil verstarb am 10. Oktober 1564 an der Pest. - Lit.: Franz Gundlach, Catalogus Professorum Academiae Marburgensis. Die akademischen Lehrer der Philipps-Universität in <placeName>Marburg</placeName> von 1527-1910, Bd. 1, <placeName>Marburg</placeName> 1927. - Veröffentlichungen der Historischen Kommission für Hessen und Waldeck XV/1, <ref target="file10526">Nr. 490</ref>.</note>, professorem philosophiae<pb type="edition" next="34"/> moralis, cuius studium Tiguri florere mirum in modum gaudemus, praesertim, cum non tam studium ipsum quam ipse professor<note xml:id="fn9" type="footnote" n="9">Gemeint ist <persName>Otto Werdmüller</persName>, der 1541 Professor der Philosophie in Zürich wurde; s. <bibl>HBBW</bibl> X <ref target="file11458">[Nr. 1415]</ref>, S. 150, Anm. 5.</note> laudandus sit.</s>
 				</p>
 				<p>
-					<s n="31" xml:lang="la" type="auto">Accepimus etiam de concordia <placeName ref="place97">Helvetiorum</placeName><note xml:id="fn10" type="footnote" n="10">Vgl. HBBW X <ref target="file11479">[Nr. 1436]</ref>, S. 193f, 54-75.</note>; utinam vere concordes essemus!</s>
-					<s n="32" xml:lang="la" type="auto">O foelicem <placeName ref="place97">Helvetiorum</placeName> rempublicam, si concordi stabiles fide esse possemus.</s>
+					<s n="31" xml:lang="la" type="auto">Accepimus etiam de concordia <placeName>Helvetiorum</placeName><note xml:id="fn10" type="footnote" n="10">Vgl. <bibl>HBBW X</bibl> <ref target="file11479">[Nr. 1436]</ref>, S. 193f, 54-75.</note>; utinam vere concordes essemus!</s>
+					<s n="32" xml:lang="la" type="auto">O foelicem <placeName>Helvetiorum</placeName> rempublicam, si concordi stabiles fide esse possemus.</s>
 					<s n="33" xml:lang="la" type="auto">Invocandus omnibus votis est supremus ille et benignus deus, ut verbum suum mentibus illorum inserat et secundum magnam suam misericordiam et bonitatem singula disponat.</s>
 				</p>
 				<p>
@@ -177,12 +175,12 @@
 					<s n="37" xml:lang="la" type="auto">Vale foeliciter.</s>
 				</p>
 				<p>
-					<s n="38" xml:lang="la" type="auto">Ex academia <placeName ref="place672">Marpurgensi</placeName>, nono die ianuarii anno 1541.</s>
-					<s n="39" xml:lang="la" type="auto"><persName ref="person91">Ioannes Hallerus</persName> tuus.</s>
+					<s n="38" xml:lang="la" type="auto">Ex academia <placeName>Marpurgensi</placeName>, nono die ianuarii anno 1541.</s>
+					<s n="39" xml:lang="la" type="auto"><persName ref="p8018">Ioannes Hallerus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>
-					<s n="40" xml:lang="la" type="auto">Eruditione et pietate praestanti viro d. M. Heinrycho Bullingero, ecclesiae <persName ref="person238">Tigurinae</persName> antistiti fidelissimo, domino suo et patri plurimum observando.</s>
+					<s n="40" xml:lang="la" type="auto">Eruditione et pietate praestanti viro d. M. Heinrycho Bullingero, ecclesiae <persName ref="p8459">Tigurinae</persName> antistiti fidelissimo, domino suo et patri plurimum observando.</s>
 					<s n="41" xml:lang="de" type="auto">A[n M. H]einrich [Bullinger]<note xml:id="fnc" type="footnote" n="c"><hi>Teilweise auf das nicht mehr vorhandene Verschlussband geschrieben.</hi></note>.</s>
 				</p>
 			</div>

@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file8602" type="Briefanfang" source="TUSTEP" n="41046">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file8602" type="Brief" source="TUSTEP" n="41046">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Ludwig Lavater] / [Zürich] AN [Heinrich Bullinger] / [Girenbad], zwischen s.d. [Juni 1571] und s.d. [Juli 1571]</title>
+				<title subtype="file">[Ludwig Lavater] / [Zürich] AN [Heinrich Bullinger] / [Girenbad], Ende Juni / Anfang Juli 1571</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7660/53</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Briefanfang" subtype="Autograph" xml:lang="la">
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,360</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +45,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8602">
 				<correspAction type="sent">
-					<persName ref="person1884" cert="low">
+					<persName ref="p1884" cert="low">
 						<!--
 						<surname cert="low">Lavater</surname>
 						<forename cert="low">Ludwig</forename>
@@ -56,11 +55,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415968"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
-					<date notBefore="1571-06-01" notAfter="1571-07-12" cert="low"><note>Datum unsicher (1571 Juni Ende/Juli Anfang); «die Mercurii, quo capituli libere provinciae fratres omnes expecto» = an einem Mittwoch (kaum: «die Mercurii» = Nov. 26.)</note></date>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
+					<date notBefore="1571-06-01" notAfter="1571-07-12" cert="low">Ende Juni / Anfang Juli 1571<note type="Datum">Datum unsicher; «die Mercurii, quo capituli libere provinciae fratres omnes expecto» = an einem Mittwoch (kaum: «die Mercurii» = Nov. 26.)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -70,7 +69,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place173" cert="low"><orig>Girenbad</orig></placeName>
+					<placeName source="l173" cert="low"><orig>Girenbad</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8574"/>
@@ -96,7 +95,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

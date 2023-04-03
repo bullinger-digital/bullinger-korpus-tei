@@ -6,32 +6,31 @@
 				<title subtype="file">Simprecht Vogt / Schaffhausen AN Heinrich Bullinger / Zürich, 23. Februar 1556</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">4154/48</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 375,480</idno>
 					</msIdentifier>
 					<msContents>
@@ -51,14 +50,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 86,156</idno>
 					</msIdentifier>
 				</msDesc>
@@ -67,18 +66,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2836">
 				<correspAction type="sent">
-					<persName ref="person3481" cert="high">
+					<persName ref="p3481" cert="high">
 						<!--
 						<surname cert="high">Vogt</surname>
 						<forename cert="high">Simprecht</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1089422717"/>
 						-->
 					</persName>
-					<placeName source="place441" cert="high"><orig>Schaffhausen</orig></placeName>
+					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1556-02-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -88,7 +87,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2837"/>
@@ -112,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,7 +125,7 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a deo patre per Christum servatorem etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Georgius<note xml:id="fn1" type="footnote" n="1">Georg Maurer.</note>, olim scriba publicus reipublicae Memmingensis, domine ac frater in Christo reverende, misit ad me has schedas volens ut iis lectis caeterisque fratribus ac bonis viris communicatis eas primo quoque nuncio transmitterem ad amplissimum virum consulem Habium<note xml:id="fn2" type="footnote" n="2">Siehe Zürich StA, A 202/4, Memmingen Nr. 9-14 (überprüfen!).</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Georgius<note xml:id="fn1" type="footnote" n="1"><persName>Georg Maurer</persName>.</note>, olim scriba publicus reipublicae Memmingensis, domine ac frater in Christo reverende, misit ad me has schedas volens ut iis lectis caeterisque fratribus ac bonis viris communicatis eas primo quoque nuncio transmitterem ad amplissimum virum consulem Habium<note xml:id="fn2" type="footnote" n="2">Siehe Zürich StA, A 202/4, Memmingen Nr. 9-14 (überprüfen!).</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Caeterum, quum rumor apud nos non usquequaque incertus sit eum destinatum legatum pro republica Gebennensi, iam se Bernam contulisse, tabellione mihi commodum oblato volui tibi eas communicare, ea tamen conditione, ut literas clausas ad consulem quam primum una cum schedis adiunctis ipsi, a reditu offeras aut, si videas operae precium futurum, Bernam mittas, quo possim et ipse mei fidei commissi rationem reddere.</s>
 				</p>
 				<p>

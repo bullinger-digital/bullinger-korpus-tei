@@ -6,65 +6,63 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN [Oswald Myconius], 24. August 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=884</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">406</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,70</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Erkundigt sich nach dem Ergebnis der in <placeName ref="place121">Bern</placeName> geführten
-								Verhandlungen [über die <placeName ref="place1205">Wittenberger</placeName> Konkordie] und übermittelt
-								ein Schreiben von <persName ref="person263">Johannes Zwick</persName>
-								[<ref target="file10920">Nr. 879</ref>]; falls <placeName ref="place97">Basel</placeName> eine
-								Zusammenkunft wünscht, sollte die Stellungnahme <persName ref="person138">Luthers</persName> zu
-								<persName ref="person226">Vadians</persName> [Aphorismen] abgewartet werden. Gruß an
-								<persName ref="person81">Grynäus</persName>.
+								Erkundigt sich nach dem Ergebnis der in <placeName>Bern</placeName> geführten
+								Verhandlungen [über die <placeName>Wittenberger</placeName> Konkordie] und übermittelt
+								ein Schreiben von <persName ref="p4079">Johannes Zwick</persName>
+								[<ref target="file10920">Nr. 879</ref>]; falls <placeName>Basel</placeName> eine
+								Zusammenkunft wünscht, sollte die Stellungnahme <persName ref="p1974">Luthers</persName> zu
+								<persName ref="p8049">Vadians</persName> [Aphorismen] abgewartet werden. Gruß an
+								<persName ref="p1365">Grynäus</persName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 884, S.406</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10925">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1536-08-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="low">
+					<persName ref="p2234" cert="low">
 						<!--
 						<surname cert="low">Myconius</surname>
 						<forename cert="low">Oswald</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,15 +126,15 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Vehementer doluit, frater in domino venerande, quod non licuit maiori vos prosequi benevolentia et humanitate<note xml:id="fn2" type="footnote" n="2">Zum Besuch von <persName ref="person154">Myconius</persName> und <persName ref="person81">Grynäus</persName> in Zürich s. oben <ref target="file10918">Nr. 877</ref>, 5-30.</note>; certe voluntas non defuit.</s>
-					<s n="3" xml:lang="la" type="auto">Nunc, quid <placeName ref="place121">Bernae</placeName> impetraveritis<note xml:id="fn3" type="footnote" n="3">Vgl. den Bericht der <placeName ref="place121">Berner</placeName> Pfarrer über die Verhandlungen vom 17. August, oben <ref target="file10919">Nr. 878</ref>.</note>, scire cupimus.</s>
-					<s n="4" xml:lang="la" type="auto">Quid doctor <persName ref="person263">Ioannes Zviccius</persName> a <placeName ref="place565">Constantia</placeName> scripserit<note xml:id="fn4" type="footnote" n="4">Oben <ref target="file10920">Nr. 879</ref>.</note> hic habetis., Quodsi vestrates conventum cogere volunt generalem, consultissimum tum propter causam tum propter nos videtur, si post nundinas hoc agant Francfordianas<note xml:id="fn5" type="footnote" n="5">Die <placeName ref="place361">Frankfurter</placeName> Herbstmesse fand in der Regel zwischen Mariä Himmelfahrt (15. August) und Mariä Geburt (8. September) statt; s. Alexander <hi>Dietz,</hi> <placeName ref="place361">Frankfurter</placeName> Handelsgeschichte, Bd. I, <placeName ref="place361">Frankfurt</placeName> a. M. 1910, S. 37-40.</note>.</s>
-					<s n="5" xml:lang="la" type="auto">Interim enim <persName ref="person226">Vadiani</persName> libros recipiet <persName ref="person138">Lutherus</persName><note xml:id="fn6" type="footnote" n="6">Vgl. oben <ref target="file10922">Nr. 881</ref>, 6f.</note> palamque, quid animo volvat, exponet.</s>
-					<s n="6" xml:lang="la" type="auto">Certe - ut libere, quod sentio, dicam - videtur unus <persName ref="person263">Zviccius</persName> planius negotium hoc exposuisse quam <placeName ref="place1049">Argentoratenses</placeName>.</s>
+					<s n="2" xml:lang="la" type="auto">Vehementer doluit, frater in domino venerande, quod non licuit maiori vos prosequi benevolentia et humanitate<note xml:id="fn2" type="footnote" n="2">Zum Besuch von <persName>Myconius</persName> und <persName>Grynäus</persName> in Zürich s. oben <ref target="file10918">Nr. 877</ref>, 5-30.</note>; certe voluntas non defuit.</s>
+					<s n="3" xml:lang="la" type="auto">Nunc, quid <placeName>Bernae</placeName> impetraveritis<note xml:id="fn3" type="footnote" n="3">Vgl. den Bericht der <placeName>Berner</placeName> Pfarrer über die Verhandlungen vom 17. August, oben <ref target="file10919">Nr. 878</ref>.</note>, scire cupimus.</s>
+					<s n="4" xml:lang="la" type="auto">Quid doctor <persName ref="p4079">Ioannes Zviccius</persName> a <placeName>Constantia</placeName> scripserit<note xml:id="fn4" type="footnote" n="4">Oben <ref target="file10920">Nr. 879</ref>.</note> hic habetis., Quodsi vestrates conventum cogere volunt generalem, consultissimum tum propter causam tum propter nos videtur, si post nundinas hoc agant Francfordianas<note xml:id="fn5" type="footnote" n="5">Die <placeName>Frankfurter</placeName> Herbstmesse fand in der Regel zwischen Mariä Himmelfahrt (15. August) und Mariä Geburt (8. September) statt; s. Alexander <hi>Dietz,</hi> <placeName>Frankfurter</placeName> Handelsgeschichte, Bd. I, <placeName>Frankfurt</placeName> a. M. 1910, S. 37-40.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Interim enim <persName ref="p8049">Vadiani</persName> libros recipiet <persName ref="p1974">Lutherus</persName><note xml:id="fn6" type="footnote" n="6">Vgl. oben <ref target="file10922">Nr. 881</ref>, 6f.</note> palamque, quid animo volvat, exponet.</s>
+					<s n="6" xml:lang="la" type="auto">Certe - ut libere, quod sentio, dicam - videtur unus <persName ref="p4079">Zviccius</persName> planius negotium hoc exposuisse quam <placeName>Argentoratenses</placeName>.</s>
 					<s n="7" xml:lang="la" type="auto">Expectamus a vobis responsionem.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><persName ref="person81">Grynaeum</persName>, ecclesiarum decus, ex me salutabis diligentissime.</s>
+					<s n="8" xml:lang="la" type="auto"><persName ref="p1365">Grynaeum</persName>, ecclesiarum decus, ex me salutabis diligentissime.</s>
 					<s n="9" xml:lang="la" type="auto">Huic communicabis perpetuo, quae scribo.</s>
 				</p>
 				<p>

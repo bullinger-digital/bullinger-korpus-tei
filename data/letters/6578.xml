@@ -6,32 +6,31 @@
 				<title subtype="file">Johannes Fabricius / Chur AN [Heinrich Bullinger], 19. November 1565</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6719/139</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 378,1715 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW II, S. 648-650, Nr. 731</title>
+								<title>Graubünden BW II, S.648-650, Nr. 731</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -53,7 +52,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6578">
 				<correspAction type="sent">
-					<persName ref="person1075" cert="high">
+					<persName ref="p1075" cert="high">
 						<!--
 						<surname cert="high">Fabricius</surname>
 						<forename cert="high">Johannes</forename>
@@ -64,11 +63,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414870"/>
 						-->
 					</persName>
-					<placeName source="place98" cert="high"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1565-11-19" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -104,7 +103,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -119,33 +118,59 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Reverende in Christo pater, te et valere et vivere mihi pro certo persuadeo.</s>
+				</p>
+				<p>
 					<s n="3" xml:lang="la" type="auto">Ego quidem dei gratia vivo et valeo et (quod apud Vergilium est) vitamque extrema per omnia duco.</s>
+				</p>
+				<p>
 					<s n="4" xml:lang="la" type="auto">Haec septimana a te nullas accepi; ad tuas priores respondere non potui, quod nemo esset, cui darem.</s>
 					<s n="5" xml:lang="la" type="auto">Interim nihil non apud nos turbarum et multorum insignis perfidia, nihil firmi, nihil tuti.</s>
+				</p>
+				<p>
 					<s n="6" xml:lang="la" type="auto">Si literis rem credere auderem, mira et quidem cum stupore audires: ii ipsi, quibus plurimum iam ante fidebam quibusque evangelium fuit quaestuosum quique ex eo ditati sunt, huius mali universi fax sunt.</s>
 					<s n="7" xml:lang="la" type="auto">Nam illi optime Beatum norant et, quam acerbus religionis nostrae hostis esset, diffiteri nunquam potuerunt et tamen hunc omni conatu promotum cupiunt (nisi enim ipsi instigassent, tam pauci sacrificuli nihil unquam tentassent contra Domum Dei) cum sua ipsorum, ecclesię et patriae pernitie et ruina.</s>
+				</p>
+				<p>
 					<s n="8" xml:lang="la" type="auto">Nam ego excidium huius civitatis, nisi deus clementer avertat, iam nunc prae oculis video.</s>
 					<s n="9" xml:lang="la" type="auto">Sed omnes ad - monitiones illis hominibus sordent.</s>
+				</p>
+				<p>
 					<s n="10" xml:lang="la" type="auto">Multi boni viri sunt adhuc, qui ingemiscunt.</s>
 					<s n="11" xml:lang="la" type="auto">Cogitare tu poteris me in lubrico situm et multis insidiis expositum; itaque ego longos et dies et noctes duco.</s>
+				</p>
+				<p>
 					<s n="12" xml:lang="la" type="auto">De conflagratione arcis episcopalis ad d. socerum scripsi; domus mea est vicina arci etc.</s>
+				</p>
+				<p>
 					<s n="13" xml:lang="la" type="auto">Tu reliqua ex soceri literis intelliges etc.</s>
-					<s n="14" xml:lang="la" type="auto">Domi me continui propterea, quod non haberem, cui fiderem, et quod minime tutum esset, promiscuae turbae se committere etc.</s>
-					<s n="15" xml:lang="la" type="auto">- Ille alter Romae est confirmatus (si literas pontificis habere possum, mittam); dicitur etiam multo auro a pontifice donatus.</s>
+				</p>
+				<p>
+					<s n="14" xml:lang="la" type="auto">Domi me continui propterea, quod non haberem, cui fiderem, et quod minime tutum esset, promiscuae turbae se committere etc. -</s>
+				</p>
+				<p>
+					<s n="15" xml:lang="la" type="auto">Ille alter Romae est confirmatus (si literas pontificis habere possum, mittam); dicitur etiam multo auro a pontifice donatus.</s>
 					<s n="16" xml:lang="la" type="auto">Et quod ad illum bonum virum, de quo tu scire avebas, nihil plane ei consulere possum rebus tam perplexis.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="de" type="auto">Thüge er rächt, wie er mag.</s>
+				</p>
+				<p>
 					<s n="18" xml:lang="de" type="auto">Man hatt söllen diser tagen dorin handlen; <foreign xml:lang="la">sed sexcenta alia intervenere.</foreign></s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Puto nihil actum etc. nec consul ipse aliquid certi dicere potuit.</s>
+				</p>
+				<p>
 					<s n="20" xml:lang="la" type="auto">Quod ad tuum debitum, consul Tsch[arnerus] mihi pro certo affirmavit integram summam brevi tibi numerandam.</s>
+				</p>
+				<p>
 					<s n="21" xml:lang="la" type="auto">Itaque, si ei credendum, ut credo, monendus erat <foreign xml:lang="de">der Setzstab, das er hüpschlich thätte,</foreign> et informandus, <foreign xml:lang="de">das die reden übereinstimmind.</foreign></s>
 				</p>
 				<p>
 					<s n="22" xml:lang="de" type="auto">Ich han hye gehört, es sye waar, Setzstab habe üch den halben theil erlegt.</s>
 					<s n="23" xml:lang="de" type="auto">So aber Setzstab umb synen halben theil nit bezalt wurdi, stünde daruff, er suͦchte üch darumb.</s>
+				</p>
+				<p>
 					<s n="24" xml:lang="de" type="auto">Darumb myns bedunckens mag Setzstab wol fürfaren; aber so er gefraaget wurdi, wie die sach gestaltet, das er ouch also antworti etc. intelligis.</s>
 				</p>
 				<p>
@@ -158,15 +183,27 @@
 				<p>
 					<s n="30" xml:lang="de" type="auto">Der alt ist ein halb stund darvor by Pontisella in der schuͦl gesyn.</s>
 					<s n="31" xml:lang="la" type="auto">A vobis nullas accepi literas.</s>
+				</p>
+				<p>
 					<s n="32" xml:lang="la" type="auto">Sed sunt, qui dicunt d. Gvaltheri coniugem longe honestissimam et ipsam diem suum obiisse.</s>
+				</p>
+				<p>
 					<s n="33" xml:lang="la" type="auto">D. Gvaltherus magnum bonum amisit.</s>
+				</p>
+				<p>
 					<s n="34" xml:lang="la" type="auto">Sed haec et alia christianis fortiter ferenda et magno animo superanda sunt.</s>
+				</p>
+				<p>
 					<s n="35" xml:lang="la" type="auto">Hoc tu mihi credere debes: iam menses circiter duo sunt, quod nunquam literas Tiguro acciperem, quin mea coniunx quaereret, an valeret d. Gvaltheri coniunx, et cum hoc aliquot septimanas repeteret, tandem, quid in illam tam curiose inquireret, percontatus sum.</s>
 				</p>
 				<p>
 					<s n="36" xml:lang="de" type="auto"><foreign xml:lang="la">Illa sub haec:</foreign> "Ich gaan yetz alle nacht mit iren im schlaaff umb; ettwan hand wir guͦtt läben, ettwan hilff ich sy zur grebnuß tragen, also das ich nit glouben kan, das es nütt bedüte; dan mir hyevor von iren nie sonders troumbt."</s>
 					<s n="37" xml:lang="la" type="auto">Haec illa, et exitus declaravit, quid hęc tam crebra insomnia sibi voluerint.</s>
+				</p>
+				<p>
 					<s n="38" xml:lang="la" type="auto">Tu d. Gvaltherum ex me reverenter salutabis et meis verbis consolabere.</s>
+				</p>
+				<p>
 					<s n="39" xml:lang="la" type="auto">Orabitis et vos dominum pro me, ut me in hisce turbis tueatur et spiritu suo corroboret.</s>
 				</p>
 				<p>
@@ -185,9 +222,17 @@
 				<p>
 					<s n="45" xml:lang="la" type="auto">Interim, quid actum sit, intelligis ex hoc scripto hic apposito, quod tu per deum ad me remitte; nam nullum exemplar retinui.</s>
 					<s n="46" xml:lang="la" type="auto">Legendum autem dabis d. Collino et summam dices d. d. consulibus.</s>
+				</p>
+				<p>
 					<s n="47" xml:lang="la" type="auto">Vides, quo loco res meae sint.</s>
+				</p>
+				<p>
 					<s n="48" xml:lang="la" type="auto">Domi, quantum possum, me contineo, et ita consulunt boni amici.</s>
+				</p>
+				<p>
 					<s n="49" xml:lang="la" type="auto">Hic c[onsul] Tsch[arnerus] vel potius avaritia reipublicae pernities etc.</s>
+				</p>
+				<p>
 					<s n="50" xml:lang="la" type="auto">Occulte ab illo oppugnor, coram blandissimus etc.</s>
 					<s n="51" xml:lang="la" type="auto">De rebus Curiensibus nihil certi scribere possum; Domus Dei fortissime constat in sententia.</s>
 				</p>
@@ -201,8 +246,12 @@
 				</p>
 				<p>
 					<s n="56" xml:lang="de" type="auto">So hatt das Gottshuß nit anders bewilligen wöllen, dan so veer man einen yeden Pundt by synen gerächtickeiten und fryheiten blyben laße etc.</s>
+				</p>
+				<p>
 					<s n="57" xml:lang="de" type="auto">Das bringt man hinder sich uff die gemeinden.</s>
 					<s n="58" xml:lang="la" type="auto">Vale, reverende pater.</s>
+				</p>
+				<p>
 					<s n="59" xml:lang="de" type="auto"><foreign xml:lang="la">At... praecipuum, quod erat, eius oblitus eram, et alter consul dixit,</foreign> ir söllind umb üwer schuld khein sorg mee han, und ist vor mynen herren ein einhällig meer, das, diewyl man üch in einem ouch in dem anderen eeren wil und üch die gantz schuld laßen vervolgen<note type="margin">dazu a.R.: "Müßend ir schon ettwas lenger beiten, tamen certum."</note>.</s>
 					<s n="60" xml:lang="de" type="auto">Die frouw hatt mynen herren verheißen, angends wyn ußzeschencken und üch umb 36 fl. ze bezalen.</s>
 				</p>

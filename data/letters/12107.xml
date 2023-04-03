@@ -6,51 +6,42 @@
 				<title subtype="file">Ambrosius Blarer / [Konstanz] AN Heinrich Bullinger, 1. Januar 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2060</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">64</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 15 (Briefe des Jahres 1545), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2013, 746 S., ISBN 978-3-290-17664-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,114</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<placeName ref="place565">Konstanz</placeName> erhielt ein Schreiben aus
-								<placeName ref="place1113">Ulm</placeName>, in dem die Verlegung des Städtetags von
-								<placeName ref="place1113">Ulm</placeName> nach <placeName ref="place1214">Worms</placeName>
+								<placeName>Konstanz</placeName> erhielt ein Schreiben aus
+								<placeName>Ulm</placeName>, in dem die Verlegung des Städtetags von
+								<placeName>Ulm</placeName> nach <placeName>Worms</placeName>
 								mitgeteilt und das baldige Eintreffen der Gesandten erbeten wird. Falls [Zürich] sich an die Städte wenden
-								will, muss nun also nach <placeName ref="place1214">Worms</placeName> geschrieben werden, obwohl die
-								<placeName ref="place1113">Ulmer</placeName> ein solches Schreiben sicherlich weiterleiten würden.
+								will, muss nun also nach <placeName>Worms</placeName> geschrieben werden, obwohl die
+								<placeName>Ulmer</placeName> ein solches Schreiben sicherlich weiterleiten würden.
 							</p>
 						</summary>
 						<msItem>
@@ -60,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 339, Nr. 1156.1</title>
+								<title>Blarer BW II, S.339, Nr. 1156.1</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 15, Nr. 2060, S.64</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12107">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1545-01-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,8 +125,8 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Freuntlicher, recht lieber herr und bruͦder, wisst, das uff gestert meinen herren ain brieff von denen von <placeName ref="place1113">Ulm</placeName> zuͦkommen<note xml:id="fn1" type="footnote" n="1">Nicht ermittelt.</note>, darinn sy den vorigen ausgeschribnen stetttag gen <placeName ref="place1113">Ulm</placeName> uff trium regum<note xml:id="fn2" type="footnote" n="2">6. Januar.</note> widerum abschreibend, mitt anhang, das sy den tag yetzund zuͦ <placeName ref="place1214">Wormbs</placeName> mittainander halten wellen, mitt pytt an meine herren, das sy ire gesandten<note xml:id="fn3" type="footnote" n="3">Nicht wie ursprünglich geplant <persName ref="person20">Thomas Blarer</persName> und <persName ref="person264">Konrad Zwick</persName>, sondern <persName ref="person1662">Matthäus Molckenpur</persName> und <persName ref="person20625">Ludwig Kürnstaller</persName>; s. s. HBBW XIV <ref target="file12088">[Nr. 2041]</ref> 562, Anm. 7.</note>, so sy uff den rychstag verordnet, furderlich<note xml:id="fn4" type="footnote" n="4">ohne Verzug, alsbald.</note> gen Wurms abfertigen, gemeldten tag helfen zuͦ volstrecken angends rychstags<note xml:id="fn5" type="footnote" n="5">Zum ursprünglich für den 24. November in <placeName ref="place1113">Ulm</placeName> geplanten und schließlich für den 6. Januar 1545 in <placeName ref="place1214">Worms</placeName> im Rahmen des Reichstages einberufenen Städtetag s. HBBW XIV <ref target="file12083">[Nr. 2036]</ref> 550, Anm. 11. - Der Städtetag fand tatsächlich erst ab Februar 1545 statt, der Abschied datiert vom 4. August; s. PC III 561, <ref target="file10564">Nr. 528</ref>; RTA JR XVI/2 1673-1685, <ref target="file10376">Nr. 344</ref>.</note>.</s>
-					<s n="2" xml:lang="de" type="auto">Wolt ich euch allso getreuwer guͦter mainung<pb type="edition" next="65"/> nit verhalten uff mein nechstig<note xml:id="fn6" type="footnote" n="6">letztes. -Damit ist oben <ref target="file12106">Nr. 2059</ref> gemeint.</note> schreiben, damitt man sich weyter habe zuͦrichten, wa man den erbarn stetten vyllicht uff den stettag gen <placeName ref="place1113">Ulm</placeName> hette schreiben wellen,<note xml:id="fn7" type="footnote" n="7">Vgl. HBBW XIV, <ref target="file12101">Nr. 2054</ref>, 139-161.</note> das man dasselbig des orts halber endere, wiewol, wann das schreiben gen <placeName ref="place1113">Ulm</placeName> kommen were, wurdends doch die von <placeName ref="place1113">Ulm</placeName> mitt inen gen Wurmbs genommen haben, den stetten ze antwurten.</s>
+					<s n="1" xml:lang="de" type="auto">Freuntlicher, recht lieber herr und bruͦder, wisst, das uff gestert meinen herren ain brieff von denen von <placeName>Ulm</placeName> zuͦkommen<note xml:id="fn1" type="footnote" n="1">Nicht ermittelt.</note>, darinn sy den vorigen ausgeschribnen stetttag gen <placeName>Ulm</placeName> uff trium regum<note xml:id="fn2" type="footnote" n="2">6. Januar.</note> widerum abschreibend, mitt anhang, das sy den tag yetzund zuͦ <placeName>Wormbs</placeName> mittainander halten wellen, mitt pytt an meine herren, das sy ire gesandten<note xml:id="fn3" type="footnote" n="3">Nicht wie ursprünglich geplant <persName>Thomas Blarer</persName> und <persName>Konrad Zwick</persName>, sondern <persName>Matthäus Molckenpur</persName> und <persName>Ludwig Kürnstaller</persName>; s. s. <bibl>HBBW</bibl> XIV <ref target="file12088">[Nr. 2041]</ref> 562, Anm. 7.</note>, so sy uff den rychstag verordnet, furderlich<note xml:id="fn4" type="footnote" n="4">ohne Verzug, alsbald.</note> gen Wurms abfertigen, gemeldten tag helfen zuͦ volstrecken angends rychstags<note xml:id="fn5" type="footnote" n="5">Zum ursprünglich für den 24. November in <placeName>Ulm</placeName> geplanten und schließlich für den 6. Januar 1545 in <placeName>Worms</placeName> im Rahmen des Reichstages einberufenen Städtetag s. <bibl>HBBW</bibl> XIV <ref target="file12083">[Nr. 2036]</ref> 550, Anm. 11. - Der Städtetag fand tatsächlich erst ab Februar 1545 statt, der Abschied datiert vom 4. August; s. <bibl>PC</bibl> III 561, <ref target="file10564">Nr. 528</ref>; RTA JR XVI/2 1673-1685, <ref target="file10376">Nr. 344</ref>.</note>.</s>
+					<s n="2" xml:lang="de" type="auto">Wolt ich euch allso getreuwer guͦter mainung<pb type="edition" next="65"/> nit verhalten uff mein nechstig<note xml:id="fn6" type="footnote" n="6">letztes. -Damit ist oben <ref target="file12106">Nr. 2059</ref> gemeint.</note> schreiben, damitt man sich weyter habe zuͦrichten, wa man den erbarn stetten vyllicht uff den stettag gen <placeName>Ulm</placeName> hette schreiben wellen,<note xml:id="fn7" type="footnote" n="7">Vgl. <bibl>HBBW</bibl> XIV, <ref target="file12101">Nr. 2054</ref>, 139-161.</note> das man dasselbig des orts halber endere, wiewol, wann das schreiben gen <placeName>Ulm</placeName> kommen were, wurdends doch die von <placeName>Ulm</placeName> mitt inen gen Wurmbs genommen haben, den stetten ze antwurten.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="de" type="auto">Datum in yl, den 1. tag jenners anno 1545.</s>

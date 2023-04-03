@@ -6,51 +6,41 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Johannes Stumpf, 15. August 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1297</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">198</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 313,9v.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet zum einen, Ulrich
-								[<persName ref="person2608">Zingg</persName>] mitzuteilen, daß er bei Bürgermeister
-								<persName ref="person180">[Diethelm] Röist</persName> einen
+								Bittet zum einen, <persName ref="p7194">Ulrich [Zingg]</persName> mitzuteilen, daß er bei Bürgermeister
+								<persName ref="p2816">[Diethelm] Röist</persName> einen
 								Besprechungstermin auf den 26. August erwirken konnte, zum andern,
-								<persName ref="person1648">Wolfgang Meyer</persName> den Brief der Kirchgemeinde
-								<placeName ref="place680">Matt</placeName> zu zeigen und ihn aufzufordern, dort probeweise [das
+								<persName ref="p5839">Wolfgang Meyer</persName> den Brief der Kirchgemeinde
+								<placeName>Matt</placeName> zu zeigen und ihn aufzufordern, dort probeweise [das
 								Pfarramt] anzutreten; bittet um Rücksendung des Briefes der Glarner.
 							</p>
 						</summary>
@@ -59,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1297, S.198</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11340">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -75,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1539-08-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3067" cert="high">
+					<persName ref="p3067" cert="high">
 						<!--
 						<surname cert="high">Stumpf</surname>
 						<forename cert="high">Johannes</forename>
@@ -114,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -128,13 +125,13 @@
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Duo abs te peto, frater.</s>
-					<s n="4" xml:lang="la" type="auto">Prius, ut <persName ref="person2608">Ulricho</persName> Dürteo<note xml:id="fn1" type="footnote" n="1"><persName ref="person2608">Ulrich Zingg</persName> in <placeName ref="place298">Dürnten</placeName> (Kt. Zürich).</note> denunties me sibi a consuli Röystio diem postulasse et datum esse augusti 26., hoc est diem martis a festo Barptolomei, in qua agat causam suam<note xml:id="fn2" type="footnote" n="2">Vgl. oben <ref target="file11339">Nr. 1296</ref>, 4-7.</note> apud illos, qui praesunt rationibus<note xml:id="fn3" type="footnote" n="3">Gemeint sind die Rechenherren.</note>.</s>
-					<s n="5" xml:lang="la" type="auto">Posterius, ut fratrem <persName ref="person1648">Wolfgangum</persName><note xml:id="fna" type="footnote" n="a"><hi>am Rande</hi> Wolfgangus <persName ref="person1648">Meyer</persName> Salisburgensis.</note><note xml:id="fn4" type="footnote" n="4">Über <persName ref="person1648">Wolfgang Meyer</persName>, aus <placeName ref="place939">Salzburg</placeName> stammend (s. Anm. b), wird im Schreiben des <placeName ref="place1187">Wetzikoner</placeName> Kapitels vom 23. September 1540 berichtet, Bruder Wolfgang, der einmal nach <placeName ref="place680">Matt</placeName> (Kt. <placeName ref="place22">Glarus</placeName>) geschickt worden sei, habe seit vielen Jahren redlich, aber in großer Armut mit Frau und Kindern im <placeName ref="place1187">Wetzikoner</placeName> Kapitel gelebt und sollte daher das Diakonat <placeName ref="place415">Goßau</placeName> übernehmen können (vgl. Zürich ZB, Ms A 70, 359). Weiteres ist über Meyer nicht bekannt.</note> voces literasque<note xml:id="fn5" type="footnote" n="5">Nicht erhalten.</note> ei exhibeas Glaronensium a <placeName ref="place680">Matten</placeName>.</s>
+					<s n="4" xml:lang="la" type="auto">Prius, ut <persName ref="p7194">Ulricho</persName> Dürteo<note xml:id="fn1" type="footnote" n="1"><persName>Ulrich Zingg</persName> in <placeName>Dürnten</placeName> (Kt. Zürich).</note> denunties me sibi a consuli Röystio diem postulasse et datum esse augusti 26., hoc est diem martis a festo Barptolomei, in qua agat causam suam<note xml:id="fn2" type="footnote" n="2">Vgl. oben <ref target="file11339">Nr. 1296</ref>, 4-7.</note> apud illos, qui praesunt rationibus<note xml:id="fn3" type="footnote" n="3">Gemeint sind die Rechenherren.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Posterius, ut fratrem <persName ref="p5839">Wolfgangum</persName><note xml:id="fna" type="footnote" n="a"><hi>am Rande</hi> Wolfgangus <persName>Meyer</persName> Salisburgensis.</note><note xml:id="fn4" type="footnote" n="4">Über <persName>Wolfgang Meyer</persName>, aus <placeName>Salzburg</placeName> stammend (s. Anm. b), wird im Schreiben des <placeName>Wetzikoner</placeName> Kapitels vom 23. September 1540 berichtet, Bruder Wolfgang, der einmal nach <placeName>Matt</placeName> (Kt. <placeName>Glarus</placeName>) geschickt worden sei, habe seit vielen Jahren redlich, aber in großer Armut mit Frau und Kindern im <placeName>Wetzikoner</placeName> Kapitel gelebt und sollte daher das Diakonat <placeName>Goßau</placeName> übernehmen können (vgl. Zürich ZB, Ms A 70, 359). Weiteres ist über Meyer nicht bekannt.</note> voces literasque<note xml:id="fn5" type="footnote" n="5">Nicht erhalten.</note> ei exhibeas Glaronensium a <placeName>Matten</placeName>.</s>
 					<s n="6" xml:lang="la" type="auto">Addas insuper meas commendatitias et dicas meae voluntatis esse, ut Claronam proficiscatur literasque meas<note xml:id="fn6" type="footnote" n="6">Nicht erhalten.</note> tradat et experiatur, an in illa possit herere ecclesia.</s>
-					<s n="7" xml:lang="la" type="auto">Scripsi enim ecclesiae in <placeName ref="place680">Matt</placeName> mittere illum <persName ref="person1648">Wolffgangum</persName> ac petere, ut tentent, num intelligere valeant, et sibi eum habeant commendatum.</s>
+					<s n="7" xml:lang="la" type="auto">Scripsi enim ecclesiae in <placeName>Matt</placeName> mittere illum <persName ref="p5839">Wolffgangum</persName> ac petere, ut tentent, num intelligere valeant, et sibi eum habeant commendatum.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Vale et literas Claronensium remitte, ubi praelegeris <persName ref="person1648">Wolfgango</persName>.</s>
+					<s n="8" xml:lang="la" type="auto">Vale et literas Claronensium remitte, ubi praelegeris <persName ref="p5839">Wolfgango</persName>.</s>
 					<s n="9" xml:lang="la" type="auto">15. augusti 1539.</s>
 				</p>
 			</div>

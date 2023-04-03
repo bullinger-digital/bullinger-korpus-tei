@@ -6,47 +6,38 @@
 				<title subtype="file">Ottheinrich I. von der Pfalz / Heidelberg AN Heinrich Bullinger, 31. Januar 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2077</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">110</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 15 (Briefe des Jahres 1545), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2013, 746 S., ISBN 978-3-290-17664-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 358,151</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person21563">Ottheinrich</persName> dankt für die am 26. Januar [1545] eingetroffene Sendung von Bullingers „Brevis
-								<foreign xml:lang="el">ἀντιβολή</foreign>“ [gegen <persName ref="person640">Cochläus</persName>], für die dort
+								<persName ref="p2411">Ottheinrich</persName> dankt für die am 26. Januar [1545] eingetroffene Sendung von Bullingers „Brevis
+								<foreign xml:lang="el">ἀντιβολή</foreign>“ [gegen <persName ref="p8312">Cochläus</persName>], für die dort
 								[vorangestellte] Widmungsepistel und für Bullingers Begleitbrief vom 31. Dezember [1544].
 							</p>
 						</summary>
@@ -54,13 +45,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 15, Nr. 2077, S.110</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12124">
 				<correspAction type="sent">
-					<persName ref="person2411" cert="high">
+					<persName ref="p2411" cert="high">
 						<!--
 						<surname cert="high">von der Pfalz</surname>
 						<forename cert="high">Ottheinrich I.</forename>
@@ -69,11 +67,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/118738712"/>
 						-->
 					</persName>
-					<placeName source="place210" cert="high"><orig>Heidelberg</orig></placeName>
+					<placeName source="l210" cert="high"><orig>Heidelberg</orig></placeName>
 					<date when="1545-01-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,19 +103,19 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Otthainrich, von gottes gnaden pfalltzgraf bey <persName ref="person1332">Rein</persName>, hertzog in Nidern und Obern Bairn, etc.</s>
+					<s n="1" xml:lang="de" type="auto">Otthainrich, von gottes gnaden pfalltzgraf bey Rein, hertzog in Nidern und Obern Bairn, etc.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="de" type="auto">Unsern grues zuvor.</s>
-					<s n="3" xml:lang="de" type="auto">Hochgelerter, lieber, besonder, wir haben eur schreiben des datum steet Zürich inn der eidgnoschaft, des letzsten tags decembris uns gethan,<note xml:id="fn1" type="footnote" n="1">Nicht erhalten.</note> sambt dem uberschigkten buech<note xml:id="fn2" type="footnote" n="2">Die gegen <persName ref="person640">Cochläus</persName> gerichtete "Brevis <foreign xml:lang="el">ἀντιβολή</foreign>" Bullingers von Dezember 1544; s. HBBW XIV <ref target="file12057">[Nr. 2010]</ref> 460, Anm. 22.</note> ann dem sechsundzwaintzigisten tag dits monats empfangen und sagen euch von solhs<note xml:id="fn3" type="footnote" n="3">solchs.</note> eurs zueschreibens<note xml:id="fn4" type="footnote" n="4">Die für <persName ref="person21563">Ottheinrich</persName> bestimmte Widmungsepistel vom 10. November 1544, die Bullinger der "Brevis <foreign xml:lang="el">ἀντιβολή</foreign>" vorangestellt hatte (HBBW XIV <ref target="file12080">[Nr. 2033]</ref> 519-545).</note> und gehabter arbait wegen, auch umb eur underthenigs erbieten<pb type="edition" next="111"/> gnedigen dangk.</s>
-					<s n="4" xml:lang="de" type="auto">Wellen auch solhs mit gnaden gegen euch erkhennen; und dieweil solh buech eben gros<note xml:id="fn5" type="footnote" n="5">wichtig. - Das Buch umfasst [76] Seiten im Quartformat (die Widmungsepistel umfasst 23 Seiten).</note>, dasselb mit guter muß und weil vleissig lesen, auch, wa<note xml:id="fn6" type="footnote" n="6">falls.</note> vonnoten<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage über</hi> nn <hi>ein hier unpassendes Kennzeichen für ein</hi> u.</note>, euch darauf widerumb schreiben<note xml:id="fn7" type="footnote" n="7"><persName ref="person21563">Ottheinrich</persName> konnte kein Latein und musste deshalb zunächst eine Übersetzung von Bullingers Vorrede anfertigen lassen; vgl. HBBW XIV 430, 40-43.</note>.</s>
+					<s n="3" xml:lang="de" type="auto">Hochgelerter, lieber, besonder, wir haben eur schreiben des datum steet Zürich inn der eidgnoschaft, des letzsten tags decembris uns gethan,<note xml:id="fn1" type="footnote" n="1">Nicht erhalten.</note> sambt dem uberschigkten buech<note xml:id="fn2" type="footnote" n="2">Die gegen <persName>Cochläus</persName> gerichtete "Brevis <foreign xml:lang="el">ἀντιβολή</foreign>" Bullingers von Dezember 1544; s. <bibl>HBBW</bibl> XIV <ref target="file12057">[Nr. 2010]</ref> 460, Anm. 22.</note> ann dem sechsundzwaintzigisten tag dits monats empfangen und sagen euch von solhs<note xml:id="fn3" type="footnote" n="3">solchs.</note> eurs zueschreibens<note xml:id="fn4" type="footnote" n="4">Die für <persName ref="p6948">Ottheinrich</persName> bestimmte Widmungsepistel vom 10. November 1544, die Bullinger der "Brevis <foreign xml:lang="el">ἀντιβολή</foreign>" vorangestellt hatte (<bibl>HBBW XIV</bibl> <ref target="file12080">[Nr. 2033]</ref> 519-545).</note> und gehabter arbait wegen, auch umb eur underthenigs erbieten<pb type="edition" next="111"/> gnedigen dangk.</s>
+					<s n="4" xml:lang="de" type="auto">Wellen auch solhs mit gnaden gegen euch erkhennen; und dieweil solh buech eben gros<note xml:id="fn5" type="footnote" n="5">wichtig. - Das Buch umfasst [76] Seiten im Quartformat (die Widmungsepistel umfasst 23 Seiten).</note>, dasselb mit guter muß und weil vleissig lesen, auch, wa<note xml:id="fn6" type="footnote" n="6">falls.</note> vonnoten<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage über</hi> nn <hi>ein hier unpassendes Kennzeichen für ein</hi> u.</note>, euch darauf widerumb schreiben<note xml:id="fn7" type="footnote" n="7"><persName ref="p6948">Ottheinrich</persName> konnte kein Latein und musste deshalb zunächst eine Übersetzung von Bullingers Vorrede anfertigen lassen; vgl. <bibl>HBBW</bibl> XIV 430, 40-43.</note>.</s>
 					<s n="5" xml:lang="de" type="auto">Das wollten wir euch gnediger maynung nit verhallten.</s>
 				</p>
 				<p>

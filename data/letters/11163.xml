@@ -6,50 +6,41 @@
 				<title subtype="file">Wolfgang Capito / Straßburg AN Heinrich Bullinger, 4. April 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1120</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">119</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,132</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Dankt für sein Buch über die Schrift und die Bischöfe [HBBibl I 111] und schickt dafür
-								<persName ref="person28">Bucers</persName> Werk über den Hirtendienst, ein Thema, das beim Aufbau der
+								Dankt für sein Buch über die Schrift und die Bischöfe [<bibl>HBBibl</bibl> I 111] und schickt dafür
+								<persName ref="p467">Bucers</persName> Werk über den Hirtendienst, ein Thema, das beim Aufbau der
 								Kirche von größter Bedeutung ist. Hat mit Freude vom guten Zustand der [Zürcher] Kirche vernommen und ruft
 								dazu auf, die rechte Ordnung und Einheit unter den Pfarrern weiter zu fördern. Wünscht ihm, daß ihn sein
-								neuer Kollege <persName ref="person145">Megander</persName> entlasten wird, der zu Großem fähig ist, wenn
+								neuer Kollege <persName ref="p8412">Megander</persName> entlasten wird, der zu Großem fähig ist, wenn
 								er statt Streit das Wohl der Kirche sucht. Weist auf eine konkordienfeindliche Schrift hin. Grüße.
 							</p>
 						</summary>
@@ -62,6 +53,9 @@
 							<bibl type="Gedruckt" subtype="Regest">
 								<title>Capito, Corr. 234f, Nr. 669</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1120, S.119</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11163">
 				<correspAction type="sent">
-					<persName ref="person578" cert="high">
+					<persName ref="p578" cert="high">
 						<!--
 						<surname cert="high">Capito</surname>
 						<forename cert="high">Wolfgang</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414573"/>
 						-->
 					</persName>
-					<placeName source="place491" cert="high"><orig>Straßburg</orig></placeName>
+					<placeName source="l491" cert="high"><orig>Straßburg</orig></placeName>
 					<date when="1538-04-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,7 +127,7 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Iam redditur liber tuus de scriptura et episcopis<note xml:id="fn1" type="footnote" n="1">"De scripturae sanctae authoritate ... deque episcoporum ... institutione &amp; functione ... ad sereniss. Angliae regem Heinrychum VIII. Heinrychi Bullingeri libri duo", Zürich 1538 (HBBibl I 111).</note>, quo fruar ceu gratissimo munere, pro quo tibi habeo gratiam et in vicem remitto <persName ref="person28">Buceri</persName> et nostras quoque cogitationes de cura pastorali<note xml:id="fn2" type="footnote" n="2">Gemeint ist <persName ref="person28">Bucers</persName> Schrift "Von der waren Seelsorge, unnd dem rechten Hirten dienst", <placeName ref="place1049">Straßburg</placeName> 1538 (BucerDS VII 67-245). <persName ref="person28">Bucer</persName> verfaßte das Werk "auß befelch seiner mitarbeiter" (s. BucerDS VII 241); von einer direkten Beteiligung <persName ref="person40">Capitos</persName> ist aber nichts bekannt. Das Bullinger gewidmete Exemplar befindet sich in Zürich ZB, E 134.</note>, a qua verbi ministerii atque ministrorum dignitas, qua de loquor, dependet.</s>
+					<s n="2" xml:lang="la" type="auto">Iam redditur liber tuus de scriptura et episcopis<note xml:id="fn1" type="footnote" n="1">"De scripturae sanctae authoritate ... deque episcoporum ... institutione &amp; functione ... ad sereniss. Angliae regem Heinrychum VIII. Heinrychi Bullingeri libri duo", Zürich 1538 (<bibl>HBBibl</bibl> I 111).</note>, quo fruar ceu gratissimo munere, pro quo tibi habeo gratiam et in vicem remitto <persName ref="p467">Buceri</persName> et nostras quoque cogitationes de cura pastorali<note xml:id="fn2" type="footnote" n="2">Gemeint ist <persName ref="p18198">Bucers</persName> Schrift "Von der waren Seelsorge, unnd dem rechten Hirten dienst", <placeName>Straßburg</placeName> 1538 (<bibl>BucerDS</bibl> VII 67-245). <persName ref="p18198">Bucer</persName> verfaßte das Werk "auß befelch seiner mitarbeiter" (s. <bibl>BucerDS</bibl> VII 241); von einer direkten Beteiligung <persName>Capitos</persName> ist aber nichts bekannt. Das Bullinger gewidmete Exemplar befindet sich in Zürich ZB, E 134.</note>, a qua verbi ministerii atque ministrorum dignitas, qua de loquor, dependet.</s>
 					<s n="3" xml:lang="la" type="auto">Eum libellum<note xml:id="fna" type="footnote" n="a">libellum <hi>am Rande nachgetragen.</hi></note> rogo te percurrere digneris; nam in eo argumento multi nos sumus et inde veram ecclesię faciem reparandam speramus.</s>
 					<s n="4" xml:lang="la" type="auto">Nec ordo neque ratio ecclesiis sine hac, opinor, cura constiterit.</s>
 				</p>
@@ -147,16 +141,16 @@
 					<s n="9" xml:lang="la" type="auto">Da operam<note xml:id="fne" type="footnote" n="e"><hi>in der Vorlage</hi> opera.</note>, lenitatem illam animi iucundam gratamque multis tuearis; sunt enim, qui sibi suisque affectibus facile indulgent neglecta amicitia coniunctioneque benevolentiae cum fratribus.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><persName ref="person145">Megandrum</persName> datum esse collegam, te spero laboribus is<note xml:id="fnf" type="footnote" n="f">is <hi>über der Zeile nachgetragen.</hi></note> levabit, qui vir est vere magnus, cum extra contentionem in contuenda ecclesia versatur; prudentiam enim usu rerum contraxit.<pb type="edition" next="120"/></s>
+					<s n="10" xml:lang="la" type="auto"><persName ref="p8412">Megandrum</persName> datum esse collegam, te spero laboribus is<note xml:id="fnf" type="footnote" n="f">is <hi>über der Zeile nachgetragen.</hi></note> levabit, qui vir est vere magnus, cum extra contentionem in contuenda ecclesia versatur; prudentiam enim usu rerum contraxit.<pb type="edition" next="120"/></s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Libellus in concordiam odiosus<note xml:id="fn3" type="footnote" n="3">Gemeint ist wohl das umfangreiche Gutachten vom 9. Februar 1538, in dem ein ungenannter (<placeName ref="place121">Berner</placeName>?) Theologe den Nachweis versucht, daß <persName ref="person138">Luther</persName> nach wie vor auf seiner alten Meinung beharre, weshalb eine Konkordie unmöglich sei (Zürich StA, E II 337, 266r.-280r., von unbekannter Hand, mit <placeName ref="place121">Berner</placeName> Wasserzeichen; Teildruck in: ARG XXXVI 236f; vgl. <hi>Bizer,</hi> Abendmahlsstreit 215). Es dürfte sich um die gleiche Schrift handeln, die <persName ref="person154">Myconius</persName> am 27. März an <persName ref="person28">Bucer</persName> sandte (s. Zürich ZB, Ms F 81, 362) und über die sich <persName ref="person28">Bucer</persName> und <persName ref="person40">Capito</persName> an der Zürcher Tagung von Ende April beklagten (s. Stumpf, Abendmahlsstreit 127f; EA IV/1c 957f).</note> per manus hominum volitat, a quo te scio alienum.</s>
+					<s n="11" xml:lang="la" type="auto">Libellus in concordiam odiosus<note xml:id="fn3" type="footnote" n="3">Gemeint ist wohl das umfangreiche Gutachten vom 9. Februar 1538, in dem ein ungenannter (<placeName>Berner</placeName>?) Theologe den Nachweis versucht, daß <persName ref="p18889">Luther</persName> nach wie vor auf seiner alten Meinung beharre, weshalb eine Konkordie unmöglich sei (Zürich StA, E II 337, 266r.-280r., von unbekannter Hand, mit <placeName>Berner</placeName> Wasserzeichen; Teildruck in: <bibl>ARG</bibl> XXXVI 236f; vgl. <hi>Bizer,</hi> Abendmahlsstreit 215). Es dürfte sich um die gleiche Schrift handeln, die <persName>Myconius</persName> am 27. März an <persName ref="p18198">Bucer</persName> sandte (s. Zürich ZB, Ms F 81, 362) und über die sich <persName ref="p18198">Bucer</persName> und <persName>Capito</persName> an der Zürcher Tagung von Ende April beklagten (s. Stumpf, Abendmahlsstreit 127f; <bibl>EA</bibl> IV/1c 957f).</note> per manus hominum volitat, a quo te scio alienum.</s>
 					<s n="12" xml:lang="la" type="auto">Studebimus vicissim nos officii esse memores, ne quid praeter decorum aut contra fratrum optimorum existimationem admoliamur.</s>
 					<s n="13" xml:lang="la" type="auto">Per se enim tales fumi disparerent animis probe conciliatis, cui rei maxime navo operam.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Amicos tuo nomine, ut iubes, cras salutabo; nam literis diversissimis scribendis hunc diem debeo.</s>
-					<s n="15" xml:lang="la" type="auto">Et tamen illorum nomine te tuosque resaluto, quod scio eos ratihabituros esse<note xml:id="fng" type="footnote" n="g">quod scio ... esse <hi>am Rande nachgetragen.</hi></note>, <persName ref="person165">Pellicanum</persName>, <persName ref="person14">Bibliandrum</persName>, cuius epistolam ad <persName ref="person2030">Sapidum</persName><note xml:id="fn4" type="footnote" n="4">Über einen Briefwechsel zwischen <persName ref="person14">Bibliander</persName> und <persName ref="person2030">Johannes Sapidus</persName> ist sonst nichts bekannt.</note> partim[?] audivi doctam sane, <persName ref="person145">Megandrum</persName>, Rellicanum quoque<note xml:id="fnh" type="footnote" n="h">quoque <hi>nachträglich eingefügt.</hi></note>, quos nobis in domino superstites oramus; nos enim ad terminum festinamus, ita vires deficiunt.</s>
+					<s n="15" xml:lang="la" type="auto">Et tamen illorum nomine te tuosque resaluto, quod scio eos ratihabituros esse<note xml:id="fng" type="footnote" n="g">quod scio ... esse <hi>am Rande nachgetragen.</hi></note>, <persName ref="p8127">Pellicanum</persName>, <persName ref="p8171">Bibliandrum</persName>, cuius epistolam ad <persName ref="p6368">Sapidum</persName><note xml:id="fn4" type="footnote" n="4">Über einen Briefwechsel zwischen <persName>Bibliander</persName> und <persName>Johannes Sapidus</persName> ist sonst nichts bekannt.</note> partim[?] audivi doctam sane, <persName ref="p8412">Megandrum</persName>, Rellicanum quoque<note xml:id="fnh" type="footnote" n="h">quoque <hi>nachträglich eingefügt.</hi></note>, quos nobis in domino superstites oramus; nos enim ad terminum festinamus, ita vires deficiunt.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto">Vale.</s>
@@ -165,7 +159,7 @@
 					<s n="17" xml:lang="la" type="auto">Argen[torati], 2. nonas aprilis 1538.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">V. <persName ref="person40">Capito</persName> tuus<note xml:id="fni" type="footnote" n="i"><hi>Die Unterschrift ist an den linken Rand gesetzt.</hi></note>.</s>
+					<s n="18" xml:lang="la" type="auto">V. <persName ref="p5565">Capito</persName> tuus<note xml:id="fni" type="footnote" n="i"><hi>Die Unterschrift ist an den linken Rand gesetzt.</hi></note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

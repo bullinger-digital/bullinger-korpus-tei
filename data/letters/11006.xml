@@ -6,55 +6,46 @@
 				<title subtype="file">Melchior Bucher / Winterthur AN Heinrich Bullinger, 8. März 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=964</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">91</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,79</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Wagt Bullinger nur zu schreiben, weil er dessen Freundlichkeit kennt. Führte unlängst zusammen mit
-								<persName ref="person517">[Hans] Briner</persName> ein Gespräch mit
-								Bullinger und <persName ref="person114">Leo [Jud]</persName>, um eine
+								<persName ref="p4400">[Hans] Briner</persName> ein Gespräch mit
+								Bullinger und <persName ref="p1753">Leo [Jud]</persName>, um eine
 								berufliche Besserstellung zu erreichen; da nun die Last seiner wachsenden Familie zunimmt und da es
 								aussichtlos zu sein scheint, in dieser Sache an den Rat zu gelangen, hofft er auf Bullingers Unterstützung.
-								Hat mehrmals den erkrankten Pfarrer von <placeName ref="place214">Bülach</placeName>,
+								Hat mehrmals den erkrankten Pfarrer von <placeName>Bülach</placeName>,
 								[Johannes] Ochsli, auf der Kanzel vertreten; dieser möchte
 								demissionieren und wünscht, wie auch der Großteil der Kirchgemeinde, ihn zum Nachfolger. Hat außer Bullinger
-								und dem ehemaligen <placeName ref="place576">Kyburger</placeName> Landvogt
-								[<persName ref="person132">Hans Rudolf Lavater</persName>] niemanden, auf dessen Hilfe er zählen kann;
+								und dem ehemaligen <placeName>Kyburger</placeName> Landvogt
+								[<persName ref="p1888">Hans Rudolf Lavater</persName>] niemanden, auf dessen Hilfe er zählen kann;
 								würde alles daransetzen, um die Erwartungen zu erfüllen, er führt zudem ein unbescholtenes Leben.
 							</p>
 						</summary>
@@ -62,23 +53,30 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 964, S.91</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11006">
 				<correspAction type="sent">
-					<persName ref="person260" cert="high">
+					<persName ref="p260" cert="high">
 						<!--
 						<surname cert="high">Bucher</surname>
 						<forename cert="high">Melchior</forename>
 						-->
 					</persName>
-					<placeName source="place555" cert="high"><orig>Winterthur</orig></placeName>
+					<placeName source="l555" cert="high"><orig>Winterthur</orig></placeName>
 					<date when="1537-03-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -121,25 +119,25 @@
 					<s n="3" xml:lang="la" type="auto">Ceterum cum humanitas tua michi in mentem venit, quam constans fama de te evulgavit et ego non nihil expertus, fit ut abiecto prorsus omni pudore non verear, te meis literis<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> literis <hi>gestrichenes</hi> scriptis.</note> obtundere.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Non ita pridem (id quod oblivionem tibi subtraxisse non addubito) ego et <persName ref="person517">Brinerus</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person517">Hans Briner</persName> war Pfarrer in <placeName ref="place806">Oberwinterthur</placeName> (vgl. HBBW II <ref target="file10088">[Nr. 59]</ref>, S. 39, Anm. 38).</note> te et <persName ref="person114">Leonem</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person114">Leo Jud</persName>.</note> convenimus petentes consilium et auxilium, si quo pacto fieri posset, ut conditionis meę status immutari contingeret.</s>
+					<s n="4" xml:lang="la" type="auto">Non ita pridem (id quod oblivionem tibi subtraxisse non addubito) ego et <persName ref="p4400">Brinerus</persName><note xml:id="fn2" type="footnote" n="2"><persName>Hans Briner</persName> war Pfarrer in <placeName>Oberwinterthur</placeName> (vgl. <bibl>HBBW II</bibl> <ref target="file10088">[Nr. 59]</ref>, S. 39, Anm. 38).</note> te et <persName ref="p1753">Leonem</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="p2305">Leo Jud</persName>.</note> convenimus petentes consilium et auxilium, si quo pacto fieri posset, ut conditionis meę status immutari contingeret.</s>
 					<s n="5" xml:lang="la" type="auto">Ego iam multos annos officio diaconi functus, idque satis vili<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> vili <hi>gestrichenes</hi> nili.</note> salario, attamen quo hactenus contentus fui.</s>
-					<s n="6" xml:lang="la" type="auto">Quia vero grex puerorum iam iam auctus et quottidie accrescat, neque suppetat, ut alere possim familiam, cogor necessitate amplioris fortunę statum<note xml:id="fn4" type="footnote" n="4">einen Stand, d. h. eine feste Pfarrstelle (vgl. SI XI 961f).</note> quaerere.</s>
+					<s n="6" xml:lang="la" type="auto">Quia vero grex puerorum iam iam auctus et quottidie accrescat, neque suppetat, ut alere possim familiam, cogor necessitate amplioris fortunę statum<note xml:id="fn4" type="footnote" n="4">einen Stand, d. h. eine feste Pfarrstelle (vgl. <bibl>SI</bibl> XI 961f).</note> quaerere.</s>
 					<s n="7" xml:lang="la" type="auto">Diceres: "Hoc exige a senatu tuo, cuius est, ut iuvet quosvis, qui publicis officiis funguntur!"</s>
 					<s n="8" xml:lang="la" type="auto">Rem sane tentare cępi, atqui ab amicissimo, qui de numero senatuum est, amice dehortatus.</s>
 					<s n="9" xml:lang="la" type="auto">"Nam<pb type="edition" next="92"/> ne per somnium, cave," dicebat, "in mentem veniat, ut pro istac re senatum convenias, audies enim dicto citius: 'Si huius provincię piget te, quaere foris splendiorem.</s>
-					<s n="10" xml:lang="la" type="auto">Est, qui obviis ulnis<note xml:id="fn5" type="footnote" n="5">Adagia, 2, 9, 54 (LB II 675).</note> hanc suscipiet!"</s>
+					<s n="10" xml:lang="la" type="auto">Est, qui obviis ulnis<note xml:id="fn5" type="footnote" n="5">Adagia, 2, 9, 54 (<bibl>LB</bibl> II 675).</note> hanc suscipiet!"</s>
 					<s n="11" xml:lang="la" type="auto">Hinc mihi plane mussitandum apud meos.</s>
 					<s n="12" xml:lang="la" type="auto">Qumquidem autem, ubi tecum fuimus, benevolentiam tuam et fraternam charitatem, quam omnibus obviam sensi, in magnam vocatus sum spem, et foris suppetias petere libuit.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Loquuti sumus et tecum de <persName ref="person2672">Bovillo</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person2672">Johannes Öchsli</persName> (Bovillus, Taurenus), von <placeName ref="place309">Einsiedeln</placeName> (Kt. Schwyz), gest. 1537, war 1496 an der Universität <placeName ref="place367">Freiburg i. Br.</placeName> immatrikuliert. Von 1503 an war er als Pfarrer in <placeName ref="place333">Eschenz</placeName> (Kt. <placeName ref="place87">Thurgau</placeName>), ab 1508 in <placeName ref="place203">Burg</placeName> (Stein am Rhein, Kt. Schaffhausen) tätig, wo er sich zum eifrigen Zwinglianhänger entwickelte. Seine Verhaftung durch den Landvogt im <placeName ref="place87">Thurgau</placeName> 1524 wurde zum Anlaß für den "Ittingersturm". Nach seiner Freilassung war er bis 1529 Pfarrer in <placeName ref="place314">Elgg</placeName> (Kt. Zürich). Nach kurzem Einsatz am Zürcher Spital wirkte er 1530-1532 in <placeName ref="place1163">Weesen</placeName> (Kt. St. Gallen). Von dort vertrieben, erhielt er 1532 die St.-Jakobs-Pfrund in Zurich und wenig später das Pfarramt in <placeName ref="place214">Bülach</placeName> (Kt. Zürich). Noch kurz vor seinem Tod wurde er in der Synode der Teufelsaustreibung bezichtigt (vgl. <hi>Gordon,</hi> Discipline 174). Aus seiner Korrespondenz mit <persName ref="person265">Zwingli</persName> sind aus den Jahren 1527, 1530 und 1531 noch 5 Briefe erhalten. - Lit.: Zürich StA, E II 440, 288; Z IX 106f mit Anm. 1, XI 260. 276. 368. 529f; Pfarrerbuch 456; HBLS V 333.</note>, qui <placeName ref="place214">Bülachii</placeName> episcopum agit, cui sua functio satis dura videbatur, quam administrare se minus potentem affirmabat, et se quaesiturum quietiorem, imo se, si aliquo pacto fieri posset, suam mea permutaturum.</s>
+					<s n="13" xml:lang="la" type="auto">Loquuti sumus et tecum de <persName>Bovillo</persName><note xml:id="fn6" type="footnote" n="6"><persName>Johannes Öchsli (Bovillus, Taurenus)</persName>, von <placeName>Einsiedeln</placeName> (Kt. Schwyz), gest. 1537, war 1496 an der Universität <placeName>Freiburg i. Br.</placeName> immatrikuliert. Von 1503 an war er als Pfarrer in <placeName>Eschenz</placeName> (Kt. <placeName>Thurgau</placeName>), ab 1508 in <placeName>Burg</placeName> (Stein am Rhein, Kt. Schaffhausen) tätig, wo er sich zum eifrigen Zwinglianhänger entwickelte. Seine Verhaftung durch den Landvogt im <placeName>Thurgau</placeName> 1524 wurde zum Anlaß für den "Ittingersturm". Nach seiner Freilassung war er bis 1529 Pfarrer in <placeName>Elgg</placeName> (Kt. Zürich). Nach kurzem Einsatz am Zürcher Spital wirkte er 1530-1532 in <placeName>Weesen</placeName> (Kt. St. Gallen). Von dort vertrieben, erhielt er 1532 die St.-Jakobs-Pfrund in Zurich und wenig später das Pfarramt in <placeName>Bülach</placeName> (Kt. Zürich). Noch kurz vor seinem Tod wurde er in der Synode der Teufelsaustreibung bezichtigt (vgl. <hi>Gordon,</hi> Discipline 174). Aus seiner Korrespondenz mit <persName>Zwingli</persName> sind aus den Jahren 1527, 1530 und 1531 noch 5 Briefe erhalten. - Lit.: Zürich StA, E II 440, 288; <bibl>Z</bibl> IX 106f mit Anm. 1, XI 260. 276. 368. 529f; Pfarrerbuch 456; <bibl>HBLS</bibl> V 333.</note>, qui <placeName>Bülachii</placeName> episcopum agit, cui sua functio satis dura videbatur, quam administrare se minus potentem affirmabat, et se quaesiturum quietiorem, imo se, si aliquo pacto fieri posset, suam mea permutaturum.</s>
 					<s n="14" xml:lang="la" type="auto">Cum autem in praesentiarum bonus et pius vir lecto decumbat neque suum munus obire possit, me vocavit, cui libens parui et aliquoties iam eius vice concionatus sum, idque facturus usque dum per valetudinem datur Tigurum proficisci petiturus missionem; omnino enim persuasum habet, a docendi munere se abdicaturum.</s>
-					<s n="15" xml:lang="la" type="auto">Porro, quantum intelligo, et <persName ref="person2672">Bovillus</persName> et maxima ecclesię pars me successorem (si quid votis perfici posset) expeterent.</s>
+					<s n="15" xml:lang="la" type="auto">Porro, quantum intelligo, et <persName>Bovillus</persName> et maxima ecclesię pars me successorem (si quid votis perfici posset) expeterent.</s>
 					<s n="16" xml:lang="la" type="auto">Sed non est, quod anxius ambiam neque quemquam super hac re interpellam, non tamen detrectaturus<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> detrectaturus <hi>gestrichenes</hi> detracturus.</note>, si obveniret, imo magna gratiarum actione excepturus.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Unde te<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> te <hi>gestrichenes</hi> de.</note> veluti columen familiae meae supplex oro, ut sustentes eam pro virili tua; praeter te enim et eum, qui non ita pridem in <placeName ref="place576">Kyburg</placeName> gessit pręfecturam<note xml:id="fne" type="footnote" n="e"><hi>vor dem ausgeschriebenen</hi> praefecturam <hi>gestrichenes</hi> praefecturam <hi>(Vorsilbe abgekürzt).</hi></note><note xml:id="fn7" type="footnote" n="7"><persName ref="person132">Hans Rudolf Lavater</persName>, 1525-1536 Landvogt auf der <placeName ref="place576">Kyburg</placeName>.</note>, neminem plane habeo.</s>
-					<s n="18" xml:lang="la" type="auto">Vos igitur unice rogo atque obtestor, ut, quod in re mea fore credatis, id peragatis<note xml:id="fn8" type="footnote" n="8">Ochslis Nachfolger in <placeName ref="place214">Bülach</placeName> wurde dann allerdings <persName ref="person128">Heinrich Kuster</persName> (vgl. unten <ref target="file11014">Nr. 972</ref>). Zur Verlängerung von <persName ref="person29">Buchers</persName> Diakonat vgl. das obrigkeitliche Schreiben vom 28. März 1537 (Zürich StA, B IV 8, 219r.).</note>.</s>
+					<s n="17" xml:lang="la" type="auto">Unde te<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> te <hi>gestrichenes</hi> de.</note> veluti columen familiae meae supplex oro, ut sustentes eam pro virili tua; praeter te enim et eum, qui non ita pridem in <placeName>Kyburg</placeName> gessit pręfecturam<note xml:id="fne" type="footnote" n="e"><hi>vor dem ausgeschriebenen</hi> praefecturam <hi>gestrichenes</hi> praefecturam <hi>(Vorsilbe abgekürzt).</hi></note><note xml:id="fn7" type="footnote" n="7"><persName ref="p6155">Hans Rudolf Lavater</persName>, 1525-1536 Landvogt auf der <placeName>Kyburg</placeName>.</note>, neminem plane habeo.</s>
+					<s n="18" xml:lang="la" type="auto">Vos igitur unice rogo atque obtestor, ut, quod in re mea fore credatis, id peragatis<note xml:id="fn8" type="footnote" n="8">Ochslis Nachfolger in <placeName>Bülach</placeName> wurde dann allerdings <persName>Heinrich Kuster</persName> (vgl. unten <ref target="file11014">Nr. 972</ref>). Zur Verlängerung von <persName ref="p3866">Buchers</persName> Diakonat vgl. das obrigkeitliche Schreiben vom 28. März 1537 (Zürich StA, B IV 8, 219r.).</note>.</s>
 					<s n="19" xml:lang="la" type="auto">Ego vicissim advigilabo, ne aut tuam aut alterius cuiusquam expectationem decipiam.</s>
 					<s n="20" xml:lang="la" type="auto">Egi diaconum annis iam tredecim et, ne quid de me iactantius loquar, quis vitae meae fuerit cursus, perquirito ex iis, qui habent perspectum.</s>
 				</p>
@@ -147,10 +145,10 @@
 					<s n="21" xml:lang="la" type="auto"><pb type="edition" next="93"/>Vale et me commendatissimum habe.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto">Datum <placeName ref="place1202">Vituduri</placeName>, octavo idus<note xml:id="fnf" type="footnote" n="f"><hi>vor</hi> idus <hi>[gestrichenes?]</hi> idus.</note> marcii anno 37.</s>
+					<s n="22" xml:lang="la" type="auto">Datum <placeName>Vituduri</placeName>, octavo idus<note xml:id="fnf" type="footnote" n="f"><hi>vor</hi> idus <hi>[gestrichenes?]</hi> idus.</note> marcii anno 37.</s>
 				</p>
 				<p>
-					<s n="23" xml:lang="la" type="auto"><persName ref="person29">Melchior</persName> Buͦcher, <placeName ref="place1202">Vituduri</placeName> diaconus, ex animo tuus.</s>
+					<s n="23" xml:lang="la" type="auto"><persName ref="p260">Melchior</persName> Buͦcher, <placeName>Vituduri</placeName> diaconus, ex animo tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

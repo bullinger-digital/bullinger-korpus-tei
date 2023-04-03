@@ -6,32 +6,31 @@
 				<title subtype="file">Hermann Pincier / Basel AN Heinrich Bullinger / Zürich, 9. Oktober 1557</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">4759/330</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,685</idno>
 					</msIdentifier>
 					<msContents>
@@ -51,14 +50,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 90,174</idno>
 					</msIdentifier>
 				</msDesc>
@@ -67,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3359">
 				<correspAction type="sent">
-					<persName ref="person2607" cert="high">
+					<persName ref="p2607" cert="high">
 						<!--
 						<surname cert="high">Pincier</surname>
 						<forename cert="high">Hermann</forename>
@@ -76,11 +75,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/119788330"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1557-10-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -90,7 +89,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file3360"/>
@@ -110,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,7 +123,7 @@
 					<s n="1" xml:lang="la" type="auto">Hermannus Pincierus Henrycho Bullingero S. per Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Zacharias Ursinus Vratislaviensis<note xml:id="fn1" type="footnote" n="1">von Breslau.</note> Wormatia ad nos venit, et quia unus ex intimis Philippi Melanthonis necessariis est, permulta nobis de tota istius colloquii causa deque Philipp iudicio narrare potuit.</s>
+					<s n="2" xml:lang="la" type="auto">Zacharias Ursinus Vratislaviensis<note xml:id="fn1" type="footnote" n="1">von Breslau.</note> Wormatia ad nos venit, et quia unus ex intimis <persName ref="p2095">Philippi Melanthonis</persName> necessariis est, permulta nobis de tota istius colloquii causa deque Philipp iudicio narrare potuit.</s>
 					<s n="3" xml:lang="la" type="auto">Is cum vestri studio amoreque Tygurum se profecturum polliceretur metueretque, ne istuc veniens pudore et verecundia a vestra notitia excluderetur, ego meis literis effecturum me recepi, ut honestiorem ad vos accedendi causam nancisceretur.</s>
 					<s n="4" xml:lang="la" type="auto">Tu igitur, postquam is eius, cuius ob egregias virtutes summa admiratio extraneos plerumque vel e longinquissimis terris iter ad te suscipere cogit, caeterum facilem te et perbenevolum omnibus, inprimis vero peregrinis praebere soleas, rectissime facturum me putavi, si eum tibi commendarem.</s>
 					<s n="5" xml:lang="la" type="auto">Id vero eo citius ut facerem, inductus sum, quo magis referre sensi Saxones tum ex sermone tum ex vita Zvinglianorum (quos illi stulto quodam praeiudicio excoecati vix homines esse rentur) cognoscere, quae vestra religio, quae fides sit.</s>

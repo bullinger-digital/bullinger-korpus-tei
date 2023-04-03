@@ -6,52 +6,43 @@
 				<title subtype="file">[Johannes Zwick] / [Konstanz] AN [Heinrich Bullinger], wohl Herbst 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=655</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">376</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,574r-575v</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Schildert auf Wunsch Bullingers den Ablauf der Abendmahlsfeier in
-								<placeName ref="place565">Konstanz</placeName>. Erwartet dessen Stellungnahme zu seinen
+								<placeName>Konstanz</placeName>. Erwartet dessen Stellungnahme zu seinen
 								Änderungsvorschlägen: Die Einsetzungsworte sollten so formuliert werden, daß sie nicht als Beschwörung
 								mißverstanden werden können. Daran sollte sich eine Ermahnung anschließen, da der alte Aberglaube noch tief
 								verwurzelt ist. Die Hostien, die Mundkommunion und das Knien am Abendmahlstisch sollten als papistische
 								Überbleibsel abgeschafft werden. Erwartet das Urteil von Bullinger und
-								<persName ref="person114">Leo [Jud]</persName>.
+								<persName ref="p1753">Leo [Jud]</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -61,7 +52,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Wilfried Bührer, Der Abendmahlsgottesdienst der Stadt Konstanz im Reformationszeitalter, in: Zwa XV/2, 1979, S. 121-123</title>
+								<title>Wilfried Bührer, Der Abendmahlsgottesdienst der Stadt Konstanz im Reformationszeitalter, in: Zwa XV/2, 1979, S.121-123</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 655, S.376</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -71,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10693">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="low">
+					<persName ref="p4079" cert="low">
 						<!--
 						<surname cert="low">Zwick</surname>
 						<forename cert="low">Johannes</forename>
@@ -80,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date notBefore="1535-09-01" notAfter="1535-11-12" cert="low">wohl Herbst 1535</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -120,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -142,8 +136,8 @@
 					<s n="7" xml:lang="la" type="auto">Hinc per mensae circuitum flexis genibus panem accipiunt per ministrum et per eundem postea poculum, quo facto abeuntibus illis accedunt alii.</s>
 					<s n="8" xml:lang="la" type="auto">Verba coenae non repetuntur.</s>
 					<s n="9" xml:lang="la" type="auto">Post cęnam quod reliquum est panis<note xml:id="fne" type="footnote" n="e"><hi>nach</hi> panis <hi>gestrichenes</hi> et vini.</note>, servatur in domo ministri, vinum funditur in<pb type="edition" next="377"/> cantharum idque sine omni ecclesiae offensa.</s>
-					<s n="10" xml:lang="la" type="auto">Inter cęnandum cantatur vel Te deum laudamus<note xml:id="fn5" type="footnote" n="5">Gemeint ist sicher das deutsche Tedeum <persName ref="person138">Luthers</persName> "Herr Gott wir lobend dich". Es eröffnet in den ab 1536 in Zürich gedruckten <placeName ref="place565">Konstanzer</placeName> Gesangbüchern jeweils den zweiten Teil. Vgl. Philipp <hi>Wackernagel,</hi> Das deutsche Kirchenlied, Bd. III, Leipzig 1870 (Nachdruck: Hildesheim 1964), S. 19, Nr. 31; Markus <hi>Jenny,</hi> Geschichte des deutschschweizerischen evangelischen Gesangbuches im 16. Jahrhundert, Basel 1962, S. 32 und 202 (Nr. 83); Nüw gsangbüchle, Zürich 1540 (Faksimile: Zürich 1946), S. CX-CXVII.</note> vel aliquid de passione et morte Christi<note xml:id="fn6" type="footnote" n="6">Einziges Passionslied im "Nüw gsangbüchle ist <persName ref="person1171">Sebald Heydens</persName> "O mensch beweyn din sünde groß" (S. CXXXVIII-CXLIIII). Vgl. <hi>Wackernagel,</hi> aaO, S. 553-556, <ref target="file10641">Nr. 603</ref>; <hi>Jenny,</hi> aaO, S. 38. 224f und Reg. (<ref target="file10168">Nr. 137</ref>).</note>.</s>
-					<s n="11" xml:lang="la" type="auto">Finitis omnibus concluditur convivium brevissima gratiarum actione et, si tempus superest, etiam cantione brevi gratiae aguntur<note xml:id="fn7" type="footnote" n="7">Einziges Abendmahlslied im "Nüw gsangbüchle" ist <persName ref="person1352">Claus Kellers</persName> "O Gott lob danck sey dir geseyt" (S. CXXVIf). Vgl. <hi>Wackernagel,</hi> aaO, S. 800, <ref target="file10987">Nr. 945</ref>; <hi>Jenny,</hi> aaO, S. 32. 204 (Nr. 93).</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Inter cęnandum cantatur vel Te deum laudamus<note xml:id="fn5" type="footnote" n="5">Gemeint ist sicher das deutsche Tedeum <persName ref="p18889">Luthers</persName> "Herr Gott wir lobend dich". Es eröffnet in den ab 1536 in Zürich gedruckten <placeName>Konstanzer</placeName> Gesangbüchern jeweils den zweiten Teil. Vgl. Philipp <hi>Wackernagel,</hi> Das deutsche Kirchenlied, Bd. III, Leipzig 1870 (Nachdruck: Hildesheim 1964), S. 19, Nr. 31; Markus <hi>Jenny,</hi> Geschichte des deutschschweizerischen evangelischen Gesangbuches im 16. Jahrhundert, Basel 1962, S. 32 und 202 (Nr. 83); Nüw gsangbüchle, Zürich 1540 (Faksimile: Zürich 1946), S. CX-CXVII.</note> vel aliquid de passione et morte Christi<note xml:id="fn6" type="footnote" n="6">Einziges Passionslied im "Nüw gsangbüchle ist <persName>Sebald Heydens</persName> "O mensch beweyn din sünde groß" (S. CXXXVIII-CXLIIII). Vgl. <hi>Wackernagel,</hi> aaO, S. 553-556, <ref target="file10641">Nr. 603</ref>; <hi>Jenny,</hi> aaO, S. 38. 224f und Reg. (<ref target="file10168">Nr. 137</ref>).</note>.</s>
+					<s n="11" xml:lang="la" type="auto">Finitis omnibus concluditur convivium brevissima gratiarum actione et, si tempus superest, etiam cantione brevi gratiae aguntur<note xml:id="fn7" type="footnote" n="7">Einziges Abendmahlslied im "Nüw gsangbüchle" ist <persName>Claus Kellers</persName> "O Gott lob danck sey dir geseyt" (S. CXXVIf). Vgl. <hi>Wackernagel,</hi> aaO, S. 800, <ref target="file10987">Nr. 945</ref>; <hi>Jenny,</hi> aaO, S. 32. 204 (Nr. 93).</note>.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Sed ut omnia tecum libere: Vellem usum nostrae coenę in quibusdam mutatum.</s>
@@ -163,13 +157,13 @@
 					<s n="24" xml:lang="la" type="manual"><foreign xml:lang="de">"So offt ir nun diß brot essend"</foreign>etc., ut habet Paulus [1Kor 11, 26].</s>
 				</p>
 				<p>
-					<s n="25" xml:lang="la" type="manual">Istis nunc putarem exhortationem addendam<note xml:id="fn8" type="footnote" n="8">Die von <persName ref="person263">Zwick</persName> vorgeschlagene Ermahnung ist wörtlich der <placeName ref="place1113">Ulmer</placeName> Agende von 1531 entnommen; vgl. <hi>Bührer,</hi> aaO, S. 116f.</note>:</s>
+					<s n="25" xml:lang="la" type="manual">Istis nunc putarem exhortationem addendam<note xml:id="fn8" type="footnote" n="8">Die von <persName>Zwick</persName> vorgeschlagene Ermahnung ist wörtlich der <placeName>Ulmer</placeName> Agende von 1531 entnommen; vgl. <hi>Bührer,</hi> aaO, S. 116f.</note>:</s>
 					<s n="26" xml:lang="de" type="auto">Hie sechend und erkennen wir nun, liebe bruͤder und schwösteren, was liebe Christus zuͦ uns tragen.</s>
 					<s n="27" xml:lang="de" type="auto">Er starb, das wir lebtind.</s>
 					<s n="28" xml:lang="de" type="auto">Er vergos sin bluͦt, das unsere sunden abgweschen wurdind.</s>
 					<s n="29" xml:lang="de" type="auto">Da soll ain yeder glouben, das sollichs och fur in gschechen, und des halber gott dem vatter von<pb type="scan" next="||575r."/> hertzen<note xml:id="fnk" type="footnote" n="k"><hi>in der Vorlage</hi> got dem vatter <hi>nach</hi> hertzen <hi>irrtümlich wiederholt.</hi></note> danck sagen, in loben und prysen, und wie er erkent, das in got geliebt und im gedient hat, also soll ain yeder sin nechsten lieben und im zuͦ allem guͦten dienen<note xml:id="fn9" type="footnote" n="9">Vgl. 1Joh 4. 11.</note>.</s>
 					<s n="30" xml:lang="de" type="auto">Darum betrieg sich selber niemand [1Kor 3, 18]; dann<note xml:id="fnl" type="footnote" n="l"><hi>vor</hi> dann <hi>eine größere Lücke mit Tintenfleck.</hi></note> wie Sant Pauls sagt: "Wer unwurdig", das ist: on glouben und liebe, etc.<note xml:id="fnm" type="footnote" n="m"><hi>nach</hi> etc. <hi>gestrichenes</hi> So will.</note> [1Kor 11, 27].</s>
-					<s n="31" xml:lang="de" type="auto">So will nun gott ain hailigs, dapfer volk haben, das sich des gloubens und der liebe on glisnery<note xml:id="fn10" type="footnote" n="10">Heuchelei (SI II 604).</note> bezüge.</s>
+					<s n="31" xml:lang="de" type="auto">So will nun gott ain hailigs, dapfer volk haben, das sich des gloubens und der liebe on glisnery<note xml:id="fn10" type="footnote" n="10">Heuchelei (<bibl>SI</bibl> II 604).</note> bezüge.</s>
 					<s n="32" xml:lang="de" type="auto">Wer nun rechtgschaffen von Christo Jesu und siner gmaind gsinnet ist, der gange mit fröd sines hertzens zuͦ dem tisch des herren.</s>
 					<s n="33" xml:lang="de" type="auto">Und der gloub in das sterben des libs Christi, den er ain mal am crutz fur unsre sund<note xml:id="fnn" type="footnote" n="n">fur unsre sund <hi>am Rande nachgetragen.</hi></note> in den tod geben hat<note xml:id="fn11" type="footnote" n="11">Vgl. Hebr 9, 28; 1Petr 3. 18.</note>, des wir hie ingedenck sind, spise, erneere und ersettige uwere lib und seel in das ewig leben<note xml:id="fn12" type="footnote" n="12">Vgl. Joh 6, 27.</note>.</s>
 					<s n="34" xml:lang="de" type="auto">Des glich der gloub in das blut Christi, das er ain mal am crutz fur unsre sünd vergossen hat und des wir hie by des herren tranck ingedenck sind, stercke, trencke und erfrowe uwere lib und seel in das ewig leben.</s>
@@ -183,7 +177,7 @@
 					<s n="40" xml:lang="de" type="auto"><pb type="scan" next="||575v."/><foreign xml:lang="la">In istis sollicitus sum;</foreign> dann ich sich, das der tüfel dannocht gern etwas von der alten abgotery bhalten welt.</s>
 				</p>
 				<p>
-					<s n="41" xml:lang="la" type="auto">Haec raptim ad te et <persName ref="person114">Leonem</persName><note xml:id="fn14" type="footnote" n="14"><persName ref="person114">Leo Jud</persName>.</note>, charissimum confratrem meum.</s>
+					<s n="41" xml:lang="la" type="auto">Haec raptim ad te et <persName ref="p1753">Leonem</persName><note xml:id="fn14" type="footnote" n="14"><persName ref="p2305">Leo Jud</persName>.</note>, charissimum confratrem meum.</s>
 					<s n="42" xml:lang="la" type="auto">Sed expecto censuram vestram<note xml:id="fn15" type="footnote" n="15">Eine Antwort ist nicht erhalten, vgl. aber oben Anm. 2.</note></s>
 				</p>
 				<p>

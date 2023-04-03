@@ -6,32 +6,31 @@
 				<title subtype="file">Theodor Beza / Lausanne AN Heinrich Bullinger / Zürich, [29. März 1554]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3540</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,120 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,13 +42,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XV, S. 96ff, Nr. 1936</title>
+								<title>C.O. XV, S.96ff, Nr. 1936</title>
 							</bibl>
 							<bibl type="Gedruckt">
 								<title>Baum I 433</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Corr. de Bèze I, S. 123f, Nr. 42</title>
+								<title>Corr. de Bèze I, S.123f, Nr. 42</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Teilübersetzung">
 								<title>F. Buisson, Castellion I 359</title>
@@ -63,14 +62,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive13">
+						<repository ref="a13">
 							<name>Bern StA</name>
 							<ref target="https://www.staatsarchiv.sta.be.ch/de/start.html"/>
 						</repository>
-						<settlement ref="place41">Bern</settlement>
+						<settlement ref="l41">Bern</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive13"/>
+						<repository ref="a13"/>
 						<idno subtype="Kopie">B III 62, p. 139-142</idno>
 						<idno subtype="Hinweis">ohne Jahr</idno>
 						<altIdentifier>
@@ -81,14 +80,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 81,139</idno>
 					</msIdentifier>
 				</msDesc>
@@ -97,7 +96,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2243">
 				<correspAction type="sent">
-					<persName ref="person890" cert="high">
+					<persName ref="p890" cert="high">
 						<!--
 						<surname cert="high">Beza</surname>
 						<forename cert="high">Theodor</forename>
@@ -108,11 +107,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11418065"/>
 						-->
 					</persName>
-					<placeName source="place280" cert="high"><orig>Lausanne</orig></placeName>
+					<placeName source="l280" cert="high"><orig>Lausanne</orig></placeName>
 					<date when="1554-03-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -122,7 +121,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2244"/>
@@ -148,7 +147,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

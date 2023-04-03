@@ -6,49 +6,45 @@
 				<title subtype="file">Johannes Calvin / Genf AN Heinrich Bullinger, 21. Februar 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1103</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">153</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Ioannis Calvini opera quae supersunt omnia, hg. v. Guilielmus Baum, Eduardus Cunitz, Eduardus Reuss, 59 Bde., Braunschweig/Berlin 1863-1900 - CR XXIX-LXXXVII.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,287</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Kann über den traurigen Zustand der [<placeName ref="place398">Genfer</placeName>] Kirche nicht
+								Kann über den traurigen Zustand der [<placeName>Genfer</placeName>] Kirche nicht
 								ausführlich schreiben, doch die Briefüberbringer haben zumindest einen Eindruck davon erhalten und können
 								darüber berichten; lieber würde er sich mündlich mit ihm darüber austauschen. Ohne Wiederaufrichtung der
 								apostolischen Ordnung wird die Kirche keinen Bestand haben, aber weder der Kirchenbann noch die Unterteilung
 								der Stadt in Kirchgemeinden konnte bisher durchgesetzt werden, und das Volk sieht die Pfarrer mehr als
 								Prediger denn als Hirten; wenn Einigkeit unter den Kirchen bestünde, könnte eine Synode gemeinsame Lösungen
-								suchen. <persName ref="person165">Pellikan</persName> und <persName ref="person81">Grynäus</persName>
-								haben erwähnt, daß eine Antwort <persName ref="person138">Luthers</persName> eingetroffen sei, doch [die
-								<placeName ref="place121">Berner</placeName>] haben nichts davon verlauten lassen; bittet deshalb um
+								suchen. <persName ref="p8127">Pellikan</persName> und <persName ref="p1365">Grynäus</persName>
+								haben erwähnt, daß eine Antwort <persName ref="p1974">Luthers</persName> eingetroffen sei, doch [die
+								<placeName>Berner</placeName>] haben nichts davon verlauten lassen; bittet deshalb um
 								näheren Aufschluß. Grüße.
 							</p>
 						</summary>
@@ -59,10 +55,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Corr. des réformateurs IV, S. 367–369, Nr. 685</title>
+								<title>Corr. des réformateurs IV, S.367–369, Nr. 685</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>C.O. X/2, S. 153f, Nr. 93</title>
+								<title>C.O. X/2, S.153f, Nr. 93</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>Schwarz, Calvins Lebenswerk I 31f, Nr. 16</title>
@@ -75,7 +71,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11146">
 				<correspAction type="sent">
-					<persName ref="person540" cert="high">
+					<persName ref="p540" cert="high">
 						<!--
 						<surname cert="high">Calvin</surname>
 						<forename cert="high">Johannes</forename>
@@ -85,11 +81,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11418245"/>
 						-->
 					</persName>
-					<placeName source="place167" cert="high"><orig>Genf</orig></placeName>
+					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 					<date when="1538-02-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +115,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -153,12 +149,12 @@
 				<p>
 					<s n="16" xml:lang="la" type="auto">Quid enim tunc impediret, quominus publica aliqua synodus cogeretur, ubi singuli, quid ecclesiis suis maxime conducat, proponerent, ratio efficiendi communi deliberatione dispiceretur, et, si opus foret, civitates ac principes etiam mutua et hortatione se adiuvarent et autoritate confirmarent?</s>
 					<s n="17" xml:lang="la" type="auto">Sed in tanta perplexitate magis rogandus est Dominus ut viam expediat.</s>
-					<s n="18" xml:lang="la" type="auto">Lutheri responsionem ad vos pervenisse admodum benignam et amicam, <persName ref="person165">Pellicanus</persName> nobis indicavit: qua Grynaeus sibi multam spem fieri obtinendae pacis altera ex parte testatur.</s>
+					<s n="18" xml:lang="la" type="auto">Lutheri responsionem ad vos pervenisse admodum benignam et amicam, <persName ref="p8127">Pellicanus</persName> nobis indicavit: qua Grynaeus sibi multam spem fieri obtinendae pacis altera ex parte testatur.</s>
 					<s n="19" xml:lang="la" type="auto">Sed ea qualis sit nondum rescire potuimus.</s>
 					<s n="20" xml:lang="la" type="auto">Quae ob propinquitatem ecclesia nobiscum omnia posset opportunissime communicare, nullo unquam apiculo nos dignata est.</s>
 					<s n="21" xml:lang="la" type="auto">Tu, si qua se offeret occasio, non gravaberis summam saltem nobis exponere.</s>
 					<s n="22" xml:lang="la" type="auto">Farellus te salutat.</s>
-					<s n="23" xml:lang="la" type="auto">Salutabis meo nomine non vulgariter fratres mihi in Domino colendos, tuos collegas, <persName ref="person165">Pellicanum</persName>, Leonem, <persName ref="person14">Bibliandrum</persName>, praeterea Phrisium.</s>
+					<s n="23" xml:lang="la" type="auto">Salutabis meo nomine non vulgariter fratres mihi in Domino colendos, tuos collegas, <persName ref="p8127">Pellicanum</persName>, Leonem, <persName ref="p8171">Bibliandrum</persName>, praeterea Phrisium.</s>
 					<s n="24" xml:lang="la" type="auto">Dominus vos omnes in regni sui propagationem vos incolumes servet.</s>
 				</p>
 				<p>
@@ -168,7 +164,7 @@
 					<s n="26" xml:lang="la" type="auto">Calvinus totus tuus.</s>
 				</p>
 				<p>
-					<s n="27" xml:lang="la" type="auto">H. Bullingero <persName ref="person238">Tigurinae</persName> ecclesiae vigilantissimo pastori fratri et symmystae mihi observando.</s>
+					<s n="27" xml:lang="la" type="auto">H. Bullingero <persName ref="p8459">Tigurinae</persName> ecclesiae vigilantissimo pastori fratri et symmystae mihi observando.</s>
 					<s n="28" xml:lang="la" type="auto">Tiguri.</s>
 				</p>
 			</div>

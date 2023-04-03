@@ -6,32 +6,31 @@
 				<title subtype="file">Philipp Landgraf von Hessen / Ziegenhain AN Heinrich Bullinger / Zürich, 24. Dezember 1552</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3010</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Original">E II 358,208</idno>
 						<idno subtype="Hinweis">mit aut. Unterschrift</idno>
 					</msIdentifier>
@@ -44,7 +43,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Bartholomäi Sastrowen Herkommen, Geburt und Lauff seines gantzen Lebens, hg. u. erläutert v. Gottl. Christ. Friedr. Mohnike, Zweiter Theil, Greifswald 1824, S. 702f</title>
+								<title>Bartholomäi Sastrowen Herkommen, Geburt und Lauff seines gantzen Lebens, hg. u. erläutert v. Gottl. Christ. Friedr. Mohnike, Zweiter Theil, Greifswald 1824, S.702f</title>
 							</bibl>
 							<bibl type="Gedruckt">
 								<title>[Xk in Bull. Corr. 17]</title>
@@ -70,14 +69,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive61">
+						<repository ref="a61">
 							<name>Marburg HStA</name>
 							<ref target="https://landesarchiv.hessen.de/"/>
 						</repository>
-						<settlement ref="place311">Marburg</settlement>
+						<settlement ref="l311">Marburg</settlement>
 						<institution>Hessisches Landesarchiv Abteilung Staatsarchiv</institution>
 						-->
-						<repository ref="archive61"/>
+						<repository ref="a61"/>
 						<idno subtype="Kopie">PA 1797 (= 3,1797) fo 57 r-v</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
 					</msIdentifier>
@@ -85,14 +84,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 78,176</idno>
 					</msIdentifier>
 				</msDesc>
@@ -101,7 +100,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1783">
 				<correspAction type="sent">
-					<persName ref="person1872" cert="high">
+					<persName ref="p1872" cert="high">
 						<!--
 						<surname cert="high">Landgraf von Hessen</surname>
 						<forename cert="high">Philipp</forename>
@@ -111,11 +110,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/11859382X"/>
 						-->
 					</persName>
-					<placeName source="place579" cert="high"><orig>Ziegenhain</orig></placeName>
+					<placeName source="l579" cert="high"><orig>Ziegenhain</orig></placeName>
 					<date when="1552-12-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -125,7 +124,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file1784"/>
@@ -152,7 +151,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">

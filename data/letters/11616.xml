@@ -6,35 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Joachim Vadian, 1. Oktober 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1573</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">74</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Die Vadianische Briefsammlung der Stadtbibliothek St. Gallen, hg. v. Emil Arbenz und Hermann Wartmann, 7 Bde., St. Gallen 1890-1913 - MVG 24-30a.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,107</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,14 +39,14 @@
 								Hat bis jetzt zusammen mit seiner Familie überlebt, ebenso die [Stadt-]Pfarrer mit ihren Familien; die Pest
 								hat nicht nachgelassen, wenn man auch in Anbetracht der Bevölkerungszahl der Stadt nicht von einem
 								eigentlichen Wüten der Seuche sprechen kann; pro Woche sterben bald 30, bald 20, bald 40 Einwohner. Hat
-								nichts Neues aus <placeName ref="place97">Basel</placeName> und
-								<placeName ref="place121">Bern</placeName> zu berichten, außer dass
-								<persName ref="person78">Beat [Gering]</persName>, der [1538] wegen
+								nichts Neues aus <placeName>Basel</placeName> und
+								<placeName>Bern</placeName> zu berichten, außer dass
+								<persName ref="p8364">Beat [Gering]</persName>, der [1538] wegen
 								Ehebruchs aus der Zürcher Pfarrerschaft ausgeschlossen worden war, aus
-								<placeName ref="place1049">Straßburg</placeName> als Pfarrer [an die Münsterkirche] nach
-								<placeName ref="place121">Bern</placeName> berufen worden sein soll; ahnt nichts Gutes, denn
-								<persName ref="person78">Gering</persName> ist überaus hochmütig und von schlechtem Charakter, worauf er
-								führende <placeName ref="place121">Berner</placeName> aufmerksam gemacht hat. Gruß.
+								<placeName>Straßburg</placeName> als Pfarrer [an die Münsterkirche] nach
+								<placeName>Bern</placeName> berufen worden sein soll; ahnt nichts Gutes, denn
+								<persName ref="p8364">Gering</persName> ist überaus hochmütig und von schlechtem Charakter, worauf er
+								führende <placeName>Berner</placeName> aufmerksam gemacht hat. Gruß.
 							</p>
 						</summary>
 						<msItem>
@@ -60,7 +56,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Vadian BW VI, S. 74f, Nr. 1200</title>
+								<title>Vadian BW VI, S.74f, Nr. 1200</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11616">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -80,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1541-10-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -120,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

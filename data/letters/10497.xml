@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Lüthi / [Winterthur] AN Heinrich Bullinger, 21. Oktober 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=462</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">368</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 1,192</idno>
 					</msIdentifier>
 					<msContents>
@@ -54,24 +45,31 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 462, S.368</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10497">
 				<correspAction type="sent">
-					<persName ref="person1868" cert="high">
+					<persName ref="p1868" cert="high">
 						<!--
 						<surname cert="high">Lüthi</surname>
 						<forename cert="high">Heinrich</forename>
 						<persName type="main" ref="person8407>Lüthi, Heinrich</persName>
 						-->
 					</persName>
-					<placeName source="place555" cert="low"><orig>Winterthur</orig></placeName>
+					<placeName source="l555" cert="low"><orig>Winterthur</orig></placeName>
 					<date when="1534-10-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +103,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -119,8 +117,8 @@
 					<s n="1" xml:lang="la" type="auto">Heinricho Bullingero H. Lutius gratiam et pacem a domino exoptat.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Ut peregre modo concedam<note xml:id="fn1" type="footnote" n="1"><persName ref="person141">Lüthi</persName> denkt an die Reise zur Zürcher Herbstsynode, s. Z. 7-9 mit Anm. 3.</note> vel eques vel pedes quoque, mihi sane per adversam valetudinem haud licet, quum noctem proximam insomnem propemodum duxi.</s>
-					<s n="3" xml:lang="la" type="auto">Ita graviter ac nimis atrociter morbus ille meus, quem vulgo <foreign xml:lang="de">das gesuchty<note xml:id="fn2" type="footnote" n="2">Rheumatismus (SI VII 286-288).</note></foreign> vocant, adortus est, qui me subinde misere divexat.</s>
+					<s n="2" xml:lang="la" type="auto">Ut peregre modo concedam<note xml:id="fn1" type="footnote" n="1"><persName>Lüthi</persName> denkt an die Reise zur Zürcher Herbstsynode, s. <bibl>Z</bibl>. 7-9 mit Anm. 3.</note> vel eques vel pedes quoque, mihi sane per adversam valetudinem haud licet, quum noctem proximam insomnem propemodum duxi.</s>
+					<s n="3" xml:lang="la" type="auto">Ita graviter ac nimis atrociter morbus ille meus, quem vulgo <foreign xml:lang="de">das gesuchty<note xml:id="fn2" type="footnote" n="2">Rheumatismus (<bibl>SI</bibl> VII 286-288).</note></foreign> vocant, adortus est, qui me subinde misere divexat.</s>
 					<s n="4" xml:lang="la" type="auto">Is circa iuncturas ac membrorum compagines latitans vim suam exerit gnaviter.</s>
 					<s n="5" xml:lang="la" type="auto">Qui fit, ut modo vel mihi invito domi desidendum sit.</s>
 					<s n="6" xml:lang="la" type="auto">Proinde te etiam atque etiam oro atque obsecro hanc meam absentie iustam causam coram <foreign xml:lang="el">σύνοδῳ</foreign><note xml:id="fn3" type="footnote" n="3">Die Herbst-Synode der Zürcher Pfarrerschaft fand am 20. Oktober 1534 statt, s. Synodalprotokoll, Zürich StA, E II 1, 183.</note> indices, si ita opus facto tibi visum fuerit, ne forte quispiam ex fratribus me contumacem esse existimet.</s>
@@ -131,9 +129,9 @@
 					<s n="9" xml:lang="la" type="auto">Invenias quosdam, quibus satis est - ut ex multis incommoditatibus unam saltem perducam -, quum eis venit puer baptizandus, verbis tantum uti substantialibus ac protinus importatum puerum in manus accipere ac dicere: «Baptizo<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> Bapizo.</note> te in nomine patris etc.», quasi piaculum sit aliqua piarum precum forma praescripta<note xml:id="fnb" type="footnote" n="b">praescripta <hi>am Rande nachgetragen.</hi></note> sacramenta vestire atque exornare.</s>
 					<s n="10" xml:lang="la" type="auto">In multis, mehercle, desidero magnam vigilantiam.</s>
 					<s n="11" xml:lang="la" type="auto">Infirmos non revisunt.</s>
-					<s n="12" xml:lang="la" type="auto">Fratrum, qui in Christo obdormierunt, iuxta constitucionem<note xml:id="fn4" type="footnote" n="4">Die im Herbst 1532 verabschiedete Zürcher Kirchenordnung bestimmt, daß die Namen der verstorbenen Gemeindeglieder in der Kirche verkündet werden sollen (AZürcherRef 1899, S. 832).</note> apud ecclesiam mentionem non faciunt ullam, quibus propemodum hominis ac vacce discessus iuxta est.</s>
+					<s n="12" xml:lang="la" type="auto">Fratrum, qui in Christo obdormierunt, iuxta constitucionem<note xml:id="fn4" type="footnote" n="4">Die im Herbst 1532 verabschiedete Zürcher Kirchenordnung bestimmt, daß die Namen der verstorbenen Gemeindeglieder in der Kirche verkündet werden sollen (<bibl>AZürcherRef</bibl> 1899, S. 832).</note> apud ecclesiam mentionem non faciunt ullam, quibus propemodum hominis ac vacce discessus iuxta est.</s>
 					<s n="13" xml:lang="la" type="auto">Precationem dominicam, symbolum, praecepta Christi, legis summam a contionibus publicis palam rudi populo non praedicunt.</s>
-					<s n="14" xml:lang="la" type="auto">Quotus quisque <foreign xml:lang="el">κατήχησιν</foreign> pro synodi constitutione<note xml:id="fn5" type="footnote" n="5">Zu Kinderzucht und Katechismus in der Kirchenordnung s. AZürcherRef 1899, S. 831. - Der Verbesserung des Katechismus widmete sich ein eigenes Traktandum der Herbst-Synode 1534, s. Zürich StA, E II 1, 189r.</note> observat?</s>
+					<s n="14" xml:lang="la" type="auto">Quotus quisque <foreign xml:lang="el">κατήχησιν</foreign> pro synodi constitutione<note xml:id="fn5" type="footnote" n="5">Zu Kinderzucht und Katechismus in der Kirchenordnung s. <bibl>AZürcherRef</bibl> 1899, S. 831. - Der Verbesserung des Katechismus widmete sich ein eigenes Traktandum der Herbst-Synode 1534, s. Zürich StA, E II 1, 189r.</note> observat?</s>
 					<s n="15" xml:lang="la" type="auto">Plerique huc spectant unice, ut subinde innovent aliquid<note xml:id="fnc" type="footnote" n="c">aliquid <hi>am Rande nachgetragen.</hi></note> vel prorsus abrogent parum interim memores,<pb type="edition" next="369"/> quantam vigilantiam ac prudentiam hic nostra functio requirat quamque circumspecte hic<note xml:id="fnd" type="footnote" n="d">hic <hi>am Rande nachgetragen.</hi></note> agendum sit, ut non modo demoliamur, sed edificamus<note xml:id="fn6" type="footnote" n="6">Vgl. Röm 14, 19f par.</note> ac laudetur deus in omnibus.</s>
 				</p>
 				<p>

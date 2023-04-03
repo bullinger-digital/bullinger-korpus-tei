@@ -3,50 +3,41 @@
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Leo Jud / [Zürich] AN Heinrich Bullinger, zwischen s.d. Mai 1526 und s.d. Juni 1526</title>
+				<title subtype="file">Leo Jud / [Zürich] AN Heinrich Bullinger, [Mai/Juni 1562]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=19</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">117</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,344a 1/2 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Lobt Bullingers Fleiß in der literarischen Bekämpfung der Katholiken, schickt sein Büchlein «Des ... Erasmi
-								von Roterdam und Doctor <persName ref="person138">Luthers</persName> maynung vom Nachtmal ... 1526» und
+								von Roterdam und Doctor <persName ref="p1974">Luthers</persName> maynung vom Nachtmal ... 1526» und
 								bittet um Ergänzungen für eine geplante erweiterte lateinische Auflage.
 							</p>
 						</summary>
@@ -60,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Salomon Hess, Erasmus von Roterdam nach seinem Leben und Schriften. Zweyte Hälfte, Zürich 1790, S. 600f</title>
+								<title>Salomon Hess, Erasmus von Roterdam nach seinem Leben und Schriften. Zweyte Hälfte, Zürich 1790, S.600f</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 19, S.117</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10044">
 				<correspAction type="sent">
-					<persName ref="person1753" cert="high">
+					<persName ref="p1753" cert="high">
 						<!--
 						<surname cert="high">Jud</surname>
 						<forename cert="high">Leo</forename>
@@ -80,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11423330"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
-					<date notBefore="1526-05-01" notAfter="1526-06-12" cert="low"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
+					<date notBefore="1526-05-01" notAfter="1526-06-12" cert="low">[Mai/Juni 1562]</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,27 +127,27 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam ac pacem a deo per Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Diligentiam<note xml:id="fna" type="footnote" n="a"><hi>darüber und weiter unten am Rande Inhaltsnotizen von J. H. Hottinger.</hi></note> tuam in veterum scriptis vehementer laudo, optime frater (sic adpellari volo, nam quod me praeceptorem tuum vocas, minime agnosco), fortia enim sunt contra papistas iacula, nimirum quibus ipsi ut columnis nituntur<note xml:id="fn3" type="footnote" n="3">Der Satz bezieht sich wahrscheinlich auf die kurz vorher erschienene Schrift Bullingers «Vergleichung der uralten und unserer Zeiten Ketzereien» (s. HBBibl 1). Das Manuskript hatte Bullinger am 23. April dem Drucker übergeben. Schon am 2. Mai konnte er ein gedrucktes Exemplar seinem Schulfreund <persName ref="person107">Peter Homphäus</persName> zuschicken (s. oben <ref target="file10042">[Nr. 17]</ref> S. 113,1ff). Das Werk gab er unter dem Pseudonym <persName ref="person846">Octavius Florens</persName> in deutlicher Anlehnung an Q. Septimius Florens Tertullianus heraus (s. <hi>Staedtke</hi> 280). <persName ref="person114">Juds</persName> Anerkennung betrifft offenbar die Tendenz dieser Schrift, die Autorität des Kirchenvaters von den Katholiken nicht mehr für sich in Anspruch nehmen zu lassen, sondern vielmehr die Übereinstimmung <persName ref="person2287">Tertullians</persName> mit der reformatorischen Lehre nachzuweisen.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Diligentiam<note xml:id="fna" type="footnote" n="a"><hi>darüber und weiter unten am Rande Inhaltsnotizen von J. H. Hottinger.</hi></note> tuam in veterum scriptis vehementer laudo, optime frater (sic adpellari volo, nam quod me praeceptorem tuum vocas, minime agnosco), fortia enim sunt contra papistas iacula, nimirum quibus ipsi ut columnis nituntur<note xml:id="fn3" type="footnote" n="3">Der Satz bezieht sich wahrscheinlich auf die kurz vorher erschienene Schrift Bullingers «Vergleichung der uralten und unserer Zeiten Ketzereien» (s. <bibl>HBBibl</bibl> 1). Das Manuskript hatte Bullinger am 23. April dem Drucker übergeben. Schon am 2. Mai konnte er ein gedrucktes Exemplar seinem Schulfreund <persName ref="p18134">Peter Homphäus</persName> zuschicken (s. oben <ref target="file10042">[Nr. 17]</ref> S. 113,1ff). Das Werk gab er unter dem Pseudonym <persName ref="p4369">Octavius Florens</persName> in deutlicher Anlehnung an Q. Septimius Florens Tertullianus heraus (s. <bibl>Staedtke</bibl> 280). <persName ref="p2305">Juds</persName> Anerkennung betrifft offenbar die Tendenz dieser Schrift, die Autorität des Kirchenvaters von den Katholiken nicht mehr für sich in Anspruch nehmen zu lassen, sondern vielmehr die Übereinstimmung <persName>Tertullians</persName> mit der reformatorischen Lehre nachzuweisen.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Sed non video, quid contra insensatos illos ac plane stipites satis forte sit, qui ita omnem humanitatis sensum exuerunt, ita toti ad omnem veritatem obriguerunt, ut non beluas eos ac feras, sed truncos potius dicere possis.</s>
-					<s n="4" xml:lang="la" type="auto">Quedam ferro, quedam sanguine molliuntur, ut de adamante ferunt<note xml:id="fn4" type="footnote" n="4">Vgl. Otto 4, Nr. 17.</note>, neque beneficiis ducuntur neque poenis tenentur<note xml:id="fn5" type="footnote" n="5">Gemeint sind die Katholiken; der Ausbruch <persName ref="person114">Juds</persName> gegen sie wird aus der Atmosphäre um die Badener Disputation (19. Mai bis 8. Juni 1526) verständlich. - Ein Zusammenhang zwischen diesem Brief <persName ref="person114">Juds</persName> und dem kurzen Schreiben Bullingers vom 11. Mai 1526 (s. oben Nr. 18) besteht nicht. Wohl schreibt Bullinger dort in ähnlicher Weise vom Fanatismus der Katholiken, besonders des «blutrünstigen» Generalvikars <persName ref="person805">Johannes Fabri</persName>, doch läßt sich diese Ähnlichkeit aus der allgemeinen Stimmung unter den Evangelischen hinlänglich erklären, s. oben <ref target="file10043">[Nr. 18]</ref> S. 115, Anm. 2-3.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Quedam ferro, quedam sanguine molliuntur, ut de adamante ferunt<note xml:id="fn4" type="footnote" n="4">Vgl. Otto 4, Nr. 17.</note>, neque beneficiis ducuntur neque poenis tenentur<note xml:id="fn5" type="footnote" n="5">Gemeint sind die Katholiken; der Ausbruch <persName ref="p2305">Juds</persName> gegen sie wird aus der Atmosphäre um die Badener Disputation (19. Mai bis 8. Juni 1526) verständlich. - Ein Zusammenhang zwischen diesem Brief <persName ref="p2305">Juds</persName> und dem kurzen Schreiben Bullingers vom 11. Mai 1526 (s. oben Nr. 18) besteht nicht. Wohl schreibt Bullinger dort in ähnlicher Weise vom Fanatismus der Katholiken, besonders des «blutrünstigen» Generalvikars <persName>Johannes Fabri</persName>, doch läßt sich diese Ähnlichkeit aus der allgemeinen Stimmung unter den Evangelischen hinlänglich erklären, s. oben <ref target="file10043">[Nr. 18]</ref> S. 115, Anm. 2-3.</note>.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Iam quoniam te video totum huc spectare, ut gloria Christi quam latissime propagetur, rogo te, ut, si quid ex lectione Erasmica<note xml:id="fn6" type="footnote" n="6">Zu Bullingers Einstellung zu <persName ref="person779">Erasmus</persName> s. oben <ref target="file10038">[Nr. 13]</ref> S. 86,25ff und S. 88, Anm. 45.</note> aut Lutherana<note xml:id="fn7" type="footnote" n="7">Zu <persName ref="person138">Luthers</persName> Einfluß auf Bullinger s. <hi>Staedtke</hi> 46-48 u. ö.; <hi>Hausammann</hi> 23f. 192-198. 203ff. 211ff.</note> collegeris<pb type="edition" next="118"/> atque memorie (qua plurimum vales) mandaveris, quod<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> quod <hi>gestrichen</hi> ut me.</note> ad eucharistiam adtinet, ocyssime ad me mittas.</s>
-					<s n="6" xml:lang="la" type="auto">Nam illorum de eucharistia sententiam hoc libellulo, quem ad te mitto, christianis proposui, ut omnes videant quid ambo de hac re olim apud se senserint, ac si sapere velint, nobis accedant<note xml:id="fn8" type="footnote" n="8">Es handelt sich hier um das unter dem Pseudonym «<persName ref="person114">Ludovicus Leopoldi</persName>, Pfarrer von <placeName ref="place615">Leberau</placeName>» herausgegebene Büchlein <persName ref="person114">Juds</persName>: «Des Hochgelerten Erasmi von Roterdam / und Doctor <persName ref="person138">Luthers</persName> maynung vom Nachtmal unsers Herren Jesu Christi / neuwlich außgangen auff den XVIII. tag Aprellens», 1526 (2. Aufl. 1543). <persName ref="person114">Jud</persName> wollte mit dieser Schrift den Beweis einer Übereinstimmung des <persName ref="person779">Erasmus</persName> mit <persName ref="person138">Luther</persName> und auch <persName ref="person265">Zwingli</persName> in der Abendmahlslehre erbringen. Er versuchte dies auf Grund von Äußerungen in den Frühschriften des <persName ref="person779">Erasmus</persName>, wobei er freilich der Gedankenwelt des Humanisten nicht immer gerecht wurde. Der empörte <persName ref="person779">Erasmus</persName>, der sich nicht einmal über die Identität des Autors im klaren war und <persName ref="person165">Pellikan</persName> (s. unten <ref target="file10065">[Nr. 37]</ref> S. 201f, Anm. 11) in Verdacht hatte, antwortete im Juni mit der Schrift: «Praestigiarum libelli cuiusdam detectio» (LB X 1557-1572). Sie erschien bald auch in deutscher Übersetzung. <persName ref="person779">Erasmus</persName> beteuerte, daß er mit seinen Äußerungen den Boden der katholischen Lehre über die Realpräsenz nie verlassen habe. <persName ref="person114">Jud</persName> antwortete in seinem Büchlein: «Uf entdeckung Doctor Erasmi von Roterdam / der dückischen arglisten / eynes tütschen büchlins / antwurt und entschuldigung Leonis <persName ref="person114">Jud</persName>», 1526. Er wies die Beschuldigungen wegen der anonym herausgegebenen Schrift zurück und suchte die Gegenargumente des <persName ref="person779">Erasmus</persName> zu entkräften. Er würde auf diese Antwort verzichtet haben, hätte man nicht mit einer deutschen Übersetzung, die ungenau und tendenziös verschärft sei, eine Massenwirkung erzielen wollen (Bl. a iij r. - v.). <persName ref="person779">Erasmus</persName> antwortete nicht mehr, so daß die Kontroverse damit ein Ende nahm. Obwohl die Schriften <persName ref="person114">Juds</persName> bei <persName ref="person779">Erasmus</persName> nichts fruchteten, hatte seine Aktion ihr heimliches Ziel erreicht: Die Autorität des großen Gelehrten konnte auf der <placeName ref="place85">Badener</placeName> Disputation nicht gegen die Evangelischen ausgenützt werden. Kurz nach Erscheinen der ersten Schrift <persName ref="person114">Juds</persName> lehnte <persName ref="person779">Erasmus</persName> die Teilnahme an der Disputation mit Berufung auf seine schlechte Gesundheit ab, s. <hi>Köhler,</hi> ZL 1143-150; Willehad Paul <hi>Ecken,</hi> <persName ref="person779">Erasmus von Rotterdam</persName>, Werk und Wirkung, Bd. II, Köln (1967). - Zeugnisse der Buchkunst, 4. Buch, S. 385 f; Schriften und Gegenschriften ausführlicher zitiert bei Salomon <hi>Heß,</hi> <persName ref="person779">Erasmus von Roterdam</persName> nach seinem Leben und Schriften, Zweyte Hälfte, Zürich 1790, S. 271-293. - Auf Grund von <persName ref="person114">Juds</persName> Bitte (s. Brieftext) ist anzunehmen, daß Bullinger zu seiner Antwort an <persName ref="person779">Erasmus</persName> theologisches Material beigesteuert hat, s. <hi>Köhler,</hi> ZL I 149. Diese Bitte erfolgte aber nicht im Hinblick auf die Gegenschrift des <persName ref="person779">Erasmus</persName> vom Juni 1526, da <persName ref="person114">Jud</persName> hier offenbar noch nichts von deren Erscheinen wußte und sogar seine Anonymität gewahrt haben wollte (s. unten), was ja nachher in seiner Antwort nicht mehr der Fall war. Eine Datierung auf Juni <hi>(Köhler,</hi> ZL 1149, Anm. 3) erscheint also schon aus diesem Grunde nicht zwingend.</note>.</s>
-					<s n="7" xml:lang="la" type="auto">Volo enim quae hic breviter congessi et quasi gustanda praebui, diligentius ac fusius tractare, idque latine<note xml:id="fn9" type="footnote" n="9">Dazu hatte <persName ref="person114">Jud</persName> keinen Anlaß mehr, da <persName ref="person779">Erasmus</persName> schwieg und im Abendmahlsstreit keine Rolle mehr spielte (s. oben Anm. 8; auch <hi>Köhler,</hi> ZL 1150).</note>, ut sic vel hypocritis tandem persona detrahatur aut certe infirmitas sanetur.</s>
+					<s n="5" xml:lang="la" type="auto">Iam quoniam te video totum huc spectare, ut gloria Christi quam latissime propagetur, rogo te, ut, si quid ex lectione Erasmica<note xml:id="fn6" type="footnote" n="6">Zu Bullingers Einstellung zu <persName>Erasmus</persName> s. oben <ref target="file10038">[Nr. 13]</ref> S. 86,25ff und S. 88, Anm. 45.</note> aut Lutherana<note xml:id="fn7" type="footnote" n="7">Zu <persName ref="p18889">Luthers</persName> Einfluß auf Bullinger s. <bibl>Staedtke</bibl> 46-48 u. ö.; <bibl>Hausammann</bibl> 23f. 192-198. 203ff. 211ff.</note> collegeris<pb type="edition" next="118"/> atque memorie (qua plurimum vales) mandaveris, quod<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> quod <hi>gestrichen</hi> ut me.</note> ad eucharistiam adtinet, ocyssime ad me mittas.</s>
+					<s n="6" xml:lang="la" type="auto">Nam illorum de eucharistia sententiam hoc libellulo, quem ad te mitto, christianis proposui, ut omnes videant quid ambo de hac re olim apud se senserint, ac si sapere velint, nobis accedant<note xml:id="fn8" type="footnote" n="8">Es handelt sich hier um das unter dem Pseudonym «<persName ref="p2305">Ludovicus Leopoldi</persName>, Pfarrer von <placeName>Leberau</placeName>» herausgegebene Büchlein <persName ref="p2305">Juds</persName>: «Des Hochgelerten Erasmi von Roterdam / und Doctor <persName ref="p18889">Luthers</persName> maynung vom Nachtmal unsers Herren Jesu Christi / neuwlich außgangen auff den XVIII. tag Aprellens», 1526 (2. Aufl. 1543). <persName ref="p2305">Jud</persName> wollte mit dieser Schrift den Beweis einer Übereinstimmung des <persName>Erasmus</persName> mit <persName ref="p18889">Luther</persName> und auch <persName>Zwingli</persName> in der Abendmahlslehre erbringen. Er versuchte dies auf Grund von Äußerungen in den Frühschriften des <persName>Erasmus</persName>, wobei er freilich der Gedankenwelt des Humanisten nicht immer gerecht wurde. Der empörte <persName>Erasmus</persName>, der sich nicht einmal über die Identität des Autors im klaren war und <persName>Pellikan</persName> (s. unten <ref target="file10065">[Nr. 37]</ref> S. 201f, Anm. 11) in Verdacht hatte, antwortete im Juni mit der Schrift: «Praestigiarum libelli cuiusdam detectio» (<bibl>LB</bibl> X 1557-1572). Sie erschien bald auch in deutscher Übersetzung. <persName>Erasmus</persName> beteuerte, daß er mit seinen Äußerungen den Boden der katholischen Lehre über die Realpräsenz nie verlassen habe. <persName ref="p2305">Jud</persName> antwortete in seinem Büchlein: «Uf entdeckung Doctor Erasmi von Roterdam / der dückischen arglisten / eynes tütschen büchlins / antwurt und entschuldigung <persName ref="p2305">Leonis Jud</persName>», 1526. Er wies die Beschuldigungen wegen der anonym herausgegebenen Schrift zurück und suchte die Gegenargumente des <persName>Erasmus</persName> zu entkräften. Er würde auf diese Antwort verzichtet haben, hätte man nicht mit einer deutschen Übersetzung, die ungenau und tendenziös verschärft sei, eine Massenwirkung erzielen wollen (Bl. a iij r. - v.). <persName>Erasmus</persName> antwortete nicht mehr, so daß die Kontroverse damit ein Ende nahm. Obwohl die Schriften <persName ref="p2305">Juds</persName> bei <persName>Erasmus</persName> nichts fruchteten, hatte seine Aktion ihr heimliches Ziel erreicht: Die Autorität des großen Gelehrten konnte auf der <placeName>Badener</placeName> Disputation nicht gegen die Evangelischen ausgenützt werden. Kurz nach Erscheinen der ersten Schrift <persName ref="p2305">Juds</persName> lehnte <persName>Erasmus</persName> die Teilnahme an der Disputation mit Berufung auf seine schlechte Gesundheit ab, s. <hi>Köhler,</hi> ZL 1143-150; Willehad Paul <hi>Ecken,</hi> <persName>Erasmus von Rotterdam</persName>, Werk und Wirkung, Bd. II, Köln (1967). - Zeugnisse der Buchkunst, 4. Buch, S. 385 f; Schriften und Gegenschriften ausführlicher zitiert bei Salomon <hi>Heß,</hi> <persName>Erasmus von Roterdam</persName> nach seinem Leben und Schriften, Zweyte Hälfte, Zürich 1790, S. 271-293. - Auf Grund von <persName ref="p2305">Juds</persName> Bitte (s. Brieftext) ist anzunehmen, daß Bullinger zu seiner Antwort an <persName>Erasmus</persName> theologisches Material beigesteuert hat, s. <hi>Köhler,</hi> ZL I 149. Diese Bitte erfolgte aber nicht im Hinblick auf die Gegenschrift des <persName>Erasmus</persName> vom Juni 1526, da <persName ref="p2305">Jud</persName> hier offenbar noch nichts von deren Erscheinen wußte und sogar seine Anonymität gewahrt haben wollte (s. unten), was ja nachher in seiner Antwort nicht mehr der Fall war. Eine Datierung auf Juni <hi>(Köhler,</hi> ZL 1149, Anm. 3) erscheint also schon aus diesem Grunde nicht zwingend.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Volo enim quae hic breviter congessi et quasi gustanda praebui, diligentius ac fusius tractare, idque latine<note xml:id="fn9" type="footnote" n="9">Dazu hatte <persName ref="p2305">Jud</persName> keinen Anlaß mehr, da <persName>Erasmus</persName> schwieg und im Abendmahlsstreit keine Rolle mehr spielte (s. oben Anm. 8; auch <hi>Köhler,</hi> ZL 1150).</note>, ut sic vel hypocritis tandem persona detrahatur aut certe infirmitas sanetur.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Vale, charissime Henrice.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person114">Leo Jud</persName> tuus.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p1753">Leo Jud</persName> tuus.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Que tibi scripsi, lapidi dixerim<note xml:id="fn10" type="footnote" n="10">Vgl. Otto 185f, Nr. 911. Dieser Wunsch betrifft zweifellos die Geheimhaltung seines Namens als Verfasser.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="11" xml:lang="la" type="auto">Heimr[ycho] fratri suo<note xml:id="fnc" type="footnote" n="c"><hi>in der oberen Ecke rechts</hi> z. <hi>T. unlesbare Notizen <persName ref="person114">Juds</persName>; der Anfang ist abgeschnitten bzw. durch die buchbinderische Einfassung unzugänglich:</hi> - - - meß [?] sye testamentum et signum dei ad vestrum [s. Lk 22,20f; 1 Kor 11,24f u. a.], das ist nitt [?] unser wort noch werk, sondern gottes wort, durch welche er das allein machet, wenn wir sy sprechend [?]. Item dat [?], quod missa non sine [?] - - - bonum opus est [?], edere coenam Christi in fide est bonum opus. Solte er allemal herab vom himmel kommen [?], inen selbs [?]segnen<ptr target="fn11" type="footnote" n="11"/>?</note>.</s>
+					<s n="11" xml:lang="la" type="auto">Heimr[ycho] fratri suo<note xml:id="fnc" type="footnote" n="c"><hi>in der oberen Ecke rechts</hi> z. <hi>T. unlesbare Notizen <persName ref="p2305">Juds</persName>; der Anfang ist abgeschnitten bzw. durch die buchbinderische Einfassung unzugänglich:</hi> - - - meß [?] sye testamentum et signum dei ad vestrum [s. Lk 22,20f; 1 Kor 11,24f u. a.], das ist nitt [?] unser wort noch werk, sondern gottes wort, durch welche er das allein machet, wenn wir sy sprechend [?]. Item dat [?], quod missa non sine [?] - - - bonum opus est [?], edere coenam Christi in fide est bonum opus. Solte er allemal herab vom himmel kommen [?], inen selbs [?]segnen<ptr target="fn11" type="footnote" n="11"/>?</note>.</s>
 				</p>
 			</div>
 		</body>

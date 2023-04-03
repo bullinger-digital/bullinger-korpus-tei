@@ -6,63 +6,61 @@
 				<title subtype="file">Berchtold Haller / [Bern] AN Heinrich Bullinger, 23. Januar 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=180</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">51</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,8b</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Die <placeName ref="place83">Solothurner</placeName> Reformierten wollen, laut eines Briefes von
-								<persName ref="person1244">Hans Hugi</persName> an <persName ref="person90">Haller</persName>,
-								<persName ref="person173">Paul Rasdorfer</persName> zum Pfarrer in einer der Gemeinden der Vogtei
-								<placeName ref="place284">Dorneck</placeName> berufen. <persName ref="person173">Rasdorfer</persName> soll mit dem Überbringer dieses Briefes
-								gleich nach <placeName ref="place284">Dorneck</placeName> reisen. Bitte um Nachrichten.
+								Die <placeName>Solothurner</placeName> Reformierten wollen, laut eines Briefes von
+								<persName ref="p5315">Hans Hugi</persName> an <persName ref="p1391">Haller</persName>,
+								<persName ref="p8426">Paul Rasdorfer</persName> zum Pfarrer in einer der Gemeinden der Vogtei
+								<placeName>Dorneck</placeName> berufen. <persName ref="p8426">Rasdorfer</persName> soll mit dem Überbringer dieses Briefes
+								gleich nach <placeName>Dorneck</placeName> reisen. Bitte um Nachrichten.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 180, S.51</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10211">
 				<correspAction type="sent">
-					<persName ref="person1391" cert="high">
+					<persName ref="p1391" cert="high">
 						<!--
 						<surname cert="high">Haller</surname>
 						<forename cert="high">Berchtold</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413862"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="low"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1533-01-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,11 +123,11 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="de" type="auto">Lieber bruͦder Heinrich.</s>
-					<s n="3" xml:lang="de" type="auto">Es hett mir zuͦgschriben<note xml:id="fn2" type="footnote" n="2">Der Brief ist nicht erhalten.</note> venner Hanß <persName ref="person1244">Hugi</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person1244">Hans Hugi</persName>, gest. 1562, von <placeName ref="place83">Solothurn</placeName>, seit 1519 Großrat, Vogt in verschiedenen Vogteien, wurde 1527 Venner und 1529 Heimlicher. Als Parteigänger der Reformierten wurde er bei der Schultheißenwahl von 1532 übergangen und verlor auch das Amt des Venners. 1533 war er Seckelmeister, verließ aber im Oktober desselben Jahres mit den Reformierten <placeName ref="place83">Solothurn</placeName> und zog 1540 nach <placeName ref="place136">Biel</placeName>. - Lit.: HBRG II 357. III 277; <hi>Haefliger</hi> 144f; Bruno <hi>Amiet</hi> und Hans <hi>Sigrist,</hi> Solothurnische Geschichte, Bd. II: Stadt und Kanton <placeName ref="place83">Solothurn</placeName> von der Reformation bis zum Höhepunkt des patrizischen Regimes, <placeName ref="place83">Solothurn</placeName> 1976, S. 23. 27. 36. 42. 44f; HBLS IV 312. 315.</note> von <placeName ref="place83">Soloturn</placeName> ich sölle verhelfen, so verr möglich, das <persName ref="person173">Paulus</persName> Rasdorffer mitt Zeiger diss brieffs<note xml:id="fn4" type="footnote" n="4">Der Überbringer ist unbekannt.</note> gen Dornegg<note xml:id="fn5" type="footnote" n="5"><placeName ref="place284">Dorneck</placeName> (Kt. <placeName ref="place83">Solothurn</placeName>).</note> uff das schlosß keren welle; der<note xml:id="fn6" type="footnote" n="6">Gemeint ist offenbar der Vogt von <placeName ref="place284">Dorneck</placeName>, s. unten Anm. 11.</note> habe in siner vogty ettlich pfarren, so noch nitt versähen<note xml:id="fn7" type="footnote" n="7">Pfarreien, die noch nicht besetzt, bzw. (mit Pfarrern) versorgt sind.</note>, und so <persName ref="person173">Paulo</persName> gefellig, begärend sy inn also in irem biett ze versähen<note xml:id="fn8" type="footnote" n="8"><persName ref="person90">Haller</persName> hatte davon bereits am 14. Dezember 1532 berichtet, s. HBBW II 283, 11-15.</note>.</s>
-					<s n="4" xml:lang="de" type="auto">Dann die von <placeName ref="place83">Soloturn</placeName> habend ob 35 pfarren, sind nitt über 12, da man meer<note xml:id="fn9" type="footnote" n="9">noch, weiterhin (SI IV 367).</note> mess halte, und bedörfftind eins sömlichen<note xml:id="fn10" type="footnote" n="10">Zur kirchlichen Lage in <placeName ref="place83">Solothurn</placeName> Anfang 1533 s. <hi>Haefliger</hi> 166-173.</note>.</s>
-					<s n="5" xml:lang="de" type="auto">Er hatt ouch mir zuͦgschriben, der vogt uff Dornegg<note xml:id="fn11" type="footnote" n="11"><persName ref="person2221">Urs Stark</persName> (Starch), gest. Ende 1533 oder im Jahre 1534, seit 1504 solothurnischer Großrat, 1512-1515 Vogt im <placeName ref="place197">Bucheggberg</placeName>, dann auf <placeName ref="place103">Bechburg</placeName> und in <placeName ref="place571">Kriegstetten</placeName> (alle Kt. <placeName ref="place83">Solothurn</placeName>). Seit 1525 war er Seckelmeister, 1530-1533 Vogt auf <placeName ref="place284">Dorneck</placeName>. An den eidgenössischen Tagsatzungen vertrat er seine Vaterstadt öfters, so auch beim Friedensschluß von 1531. Stark galt als einer der Wortführer der Reformation in <placeName ref="place83">Solothurn</placeName>, stand aber dem Täufertum nahe. Am Aufstand der Reformierten am 30. Oktober 1533 nahm er nicht teil, schloß sich ihnen aber nach ihrem Auszug aus der Stadt an und wurde mit schwerer Buße belegt. Er starb wahrscheinlich bald danach im Exil. - Lit.: EA IV/1b und 1c, Reg.; HBRG II 185. 212. III 277; Vadian BW V 137f; Z X 452f, Anm. 9; <hi>Haefliger</hi> 142-144 u. a.; <hi>Amiet</hi> und <hi>Sigrist,</hi> aaO, S. 22f. 29. 39. 42. 44f; HBLS VI 505. -Herrn Dr. H. Gutzwiller, Staatsarchiv <placeName ref="place83">Solothurn</placeName>, danken wir für seine freundliche Auskunft.</note> werd imm<note xml:id="fn12" type="footnote" n="12"><persName ref="person173">Rasdorfer</persName>.</note> die zerung abtragen<note xml:id="fn13" type="footnote" n="13">Reisekosten ersetzen (SI XIV 474).</note>.</s>
+					<s n="3" xml:lang="de" type="auto">Es hett mir zuͦgschriben<note xml:id="fn2" type="footnote" n="2">Der Brief ist nicht erhalten.</note> venner <persName ref="p5315">Hanß Hugi</persName><note xml:id="fn3" type="footnote" n="3"><persName>Hans Hugi</persName>, gest. 1562, von <placeName>Solothurn</placeName>, seit 1519 Großrat, Vogt in verschiedenen Vogteien, wurde 1527 Venner und 1529 Heimlicher. Als Parteigänger der Reformierten wurde er bei der Schultheißenwahl von 1532 übergangen und verlor auch das Amt des Venners. 1533 war er Seckelmeister, verließ aber im Oktober desselben Jahres mit den Reformierten <placeName>Solothurn</placeName> und zog 1540 nach <placeName>Biel</placeName>. - Lit.: <bibl>HBRG</bibl> II 357. III 277; <hi>Haefliger</hi> 144f; Bruno <hi>Amiet</hi> und Hans <hi>Sigrist,</hi> Solothurnische Geschichte, Bd. II: Stadt und Kanton <placeName>Solothurn</placeName> von der Reformation bis zum Höhepunkt des patrizischen Regimes, <placeName>Solothurn</placeName> 1976, S. 23. 27. 36. 42. 44f; <bibl>HBLS</bibl> IV 312. 315.</note> von <placeName>Soloturn</placeName> ich sölle verhelfen, so verr möglich, das <persName ref="p8426">Paulus</persName> Rasdorffer mitt Zeiger diss brieffs<note xml:id="fn4" type="footnote" n="4">Der Überbringer ist unbekannt.</note> gen Dornegg<note xml:id="fn5" type="footnote" n="5"><placeName>Dorneck</placeName> (Kt. <placeName>Solothurn</placeName>).</note> uff das schlosß keren welle; der<note xml:id="fn6" type="footnote" n="6">Gemeint ist offenbar der Vogt von <placeName>Dorneck</placeName>, s. unten Anm. 11.</note> habe in siner vogty ettlich pfarren, so noch nitt versähen<note xml:id="fn7" type="footnote" n="7">Pfarreien, die noch nicht besetzt, bzw. (mit Pfarrern) versorgt sind.</note>, und so <persName ref="p8426">Paulo</persName> gefellig, begärend sy inn also in irem biett ze versähen<note xml:id="fn8" type="footnote" n="8"><persName>Haller</persName> hatte davon bereits am 14. Dezember 1532 berichtet, s. <bibl>HBBW</bibl> II 283, 11-15.</note>.</s>
+					<s n="4" xml:lang="de" type="auto">Dann die von <placeName>Soloturn</placeName> habend ob 35 pfarren, sind nitt über 12, da man meer<note xml:id="fn9" type="footnote" n="9">noch, weiterhin (<bibl>SI</bibl> IV 367).</note> mess halte, und bedörfftind eins sömlichen<note xml:id="fn10" type="footnote" n="10">Zur kirchlichen Lage in <placeName>Solothurn</placeName> Anfang 1533 s. <hi>Haefliger</hi> 166-173.</note>.</s>
+					<s n="5" xml:lang="de" type="auto">Er hatt ouch mir zuͦgschriben, der vogt uff Dornegg<note xml:id="fn11" type="footnote" n="11"><persName>Urs Stark (Starch)</persName>, gest. Ende 1533 oder im Jahre 1534, seit 1504 solothurnischer Großrat, 1512-1515 Vogt im <placeName>Bucheggberg</placeName>, dann auf <placeName>Bechburg</placeName> und in <placeName>Kriegstetten</placeName> (alle Kt. <placeName>Solothurn</placeName>). Seit 1525 war er Seckelmeister, 1530-1533 Vogt auf <placeName>Dorneck</placeName>. An den eidgenössischen Tagsatzungen vertrat er seine Vaterstadt öfters, so auch beim Friedensschluß von 1531. Stark galt als einer der Wortführer der Reformation in <placeName>Solothurn</placeName>, stand aber dem Täufertum nahe. Am Aufstand der Reformierten am 30. Oktober 1533 nahm er nicht teil, schloß sich ihnen aber nach ihrem Auszug aus der Stadt an und wurde mit schwerer Buße belegt. Er starb wahrscheinlich bald danach im Exil. - Lit.: <bibl>EA</bibl> IV/1b und 1c, Reg.; <bibl>HBRG</bibl> II 185. 212. III 277; <bibl>Vadian BW V</bibl> 137f; <bibl>Z</bibl> X 452f, Anm. 9; <hi>Haefliger</hi> 142-144 u. a.; <hi>Amiet</hi> und <hi>Sigrist,</hi> aaO, S. 22f. 29. 39. 42. 44f; <bibl>HBLS</bibl> VI 505. -Herrn Dr. H. Gutzwiller, Staatsarchiv <placeName>Solothurn</placeName>, danken wir für seine freundliche Auskunft.</note> werd imm<note xml:id="fn12" type="footnote" n="12"><persName>Rasdorfer</persName>.</note> die zerung abtragen<note xml:id="fn13" type="footnote" n="13">Reisekosten ersetzen (<bibl>SI</bibl> XIV 474).</note>.</s>
 					<s n="6" xml:lang="de" type="auto">Hab ich dir nitt wellen verhalten.</s>
-					<s n="7" xml:lang="de" type="auto">In unserm biet<note xml:id="fn14" type="footnote" n="14">Gemeint ist das bernische Gebiet.</note> ist noch nitt möglich, inn ze versähen, dann wir noch meer stat und land kind<note xml:id="fn15" type="footnote" n="15">Das heißt: Mehrere Kandidaten, die von Stadt und Land <placeName ref="place121">Bern</placeName> stammen.</note> hend, aber so er möcht<note xml:id="fn16" type="footnote" n="16">könnte.</note> ein ingang<note xml:id="fn17" type="footnote" n="17">Zutritt, Anfang (SI II 343).</note> han, in <placeName ref="place83">Soloturner</placeName> biet ze beliben, wär mir träffelich lieb, in hoffnung, wo die andren bruͤder ein sömlichen gehilfen hettind, wurde gottes handel träffelich fürdren.</s>
+					<s n="7" xml:lang="de" type="auto">In unserm biet<note xml:id="fn14" type="footnote" n="14">Gemeint ist das bernische Gebiet.</note> ist noch nitt möglich, inn ze versähen, dann wir noch meer stat und land kind<note xml:id="fn15" type="footnote" n="15">Das heißt: Mehrere Kandidaten, die von Stadt und Land <placeName>Bern</placeName> stammen.</note> hend, aber so er möcht<note xml:id="fn16" type="footnote" n="16">könnte.</note> ein ingang<note xml:id="fn17" type="footnote" n="17">Zutritt, Anfang (<bibl>SI</bibl> II 343).</note> han, in <placeName>Soloturner</placeName> biet ze beliben, wär mir träffelich lieb, in hoffnung, wo die andren bruͤder ein sömlichen gehilfen hettind, wurde gottes handel träffelich fürdren.</s>
 					<s n="8" xml:lang="de" type="auto">Hiemitt bitt ich dich<pb type="edition" next="52"/> umm gots willen, schrib mir, und bi gwisser bottschafft<note xml:id="fn18" type="footnote" n="18">durch einen zuverlässigen Boten.</note>, wie es stande aller dingen halb.</s>
 				</p>
 				<p>
@@ -140,7 +138,7 @@
 				</p>
 				<p>
 					<s n="11" xml:lang="de" type="auto">Er mag allein hinab keren und alle ding besichtigen.</s>
-					<s n="12" xml:lang="de" type="auto">Ich welte inn nitt gern verwysen<note xml:id="fn19" type="footnote" n="19">abweisen, wegschicken (Grimm XIII/I 2184-2186). - Zum weiteren Lebensweg <persName ref="person173">Rasdorfers</persName> im Jahre 1533 s. unten S. 80, 8.</note>.</s>
+					<s n="12" xml:lang="de" type="auto">Ich welte inn nitt gern verwysen<note xml:id="fn19" type="footnote" n="19">abweisen, wegschicken (<bibl>Grimm</bibl> XIII/I 2184-2186). - Zum weiteren Lebensweg <persName>Rasdorfers</persName> im Jahre 1533 s. unten S. 80, 8.</note>.</s>
 					<s n="13" xml:lang="la" type="auto">Si frustra ierit, expostulabo cum Solotur[ensibus].</s>
 				</p>
 				<p>

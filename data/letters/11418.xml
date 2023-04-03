@@ -6,47 +6,38 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, nach 20. März 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1375</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">75</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,201</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Es wird weiter beratschlagt, was aus ihm werden soll, und nun wird wohl sogar
-								<persName ref="person138">Luther</persName> angefragt; er selbst besteht darauf, daß nur eine
+								<persName ref="p1974">Luther</persName> angefragt; er selbst besteht darauf, daß nur eine
 								Doktorpromotion im kirchlichen Rahmen in Frage kommt. Dankt im Namen seiner Frau
 								[Katharina] für das Buch [„Der christliche Ehestand“] und sendet ein
 								Gegengeschenk für Bullingers Frau [Anna]. Mahnung zu brüderlicher Eintracht.
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1375, S.75</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11418">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -75,7 +73,7 @@
 					<date when="1540-03-20" cert="low">nach 20. März 1540</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,15 +122,15 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Nondum scio, quid sum.</s>
 					<s n="3" xml:lang="la" type="auto">Deliberant, quid me velint facere.</s>
-					<s n="4" xml:lang="la" type="auto">Credo, usque ad <persName ref="person138">Lutherum</persName> ipsum consultum mittunt.</s>
-					<s n="5" xml:lang="la" type="auto">Abiit notarius noster procul<note xml:id="fn2" type="footnote" n="2">Stadtschreiber <persName ref="person1991">Ryhiner</persName> reiste nach Wimpfen, wo er bei Kammergerichtsprokurator <persName ref="person1221">Christoph Hoos</persName> einen kaiserlichen Urteilsbrief abholte; s. Basel StA, Finanz G 16, 327, und oben Anm. 1.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Credo, usque ad <persName ref="p1974">Lutherum</persName> ipsum consultum mittunt.</s>
+					<s n="5" xml:lang="la" type="auto">Abiit notarius noster procul<note xml:id="fn2" type="footnote" n="2">Stadtschreiber <persName>Ryhiner</persName> reiste nach Wimpfen, wo er bei Kammergerichtsprokurator <persName>Christoph Hoos</persName> einen kaiserlichen Urteilsbrief abholte; s. Basel StA, Finanz G 16, 327, und oben Anm. 1.</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Expecto, quid denique fiat.</s>
 					<s n="7" xml:lang="la" type="auto">Sum paratus more rituque ecclesięque<note xml:id="fn3" type="footnote" n="3">Falls es sich nicht um eine bloße Verschreibung handelt, ist wohl zu verstehen: more rituque ecclesiae doctor ecclesiae fieri.</note> doctor fieri et nunccupari[!]; pape more et ritu nolo, idque in eo magistratu, qui est proprius ecclesię<note xml:id="fn4" type="footnote" n="4">Vgl. oben <ref target="file11393">Nr. 1350</ref>, 18-34.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Hęc res si non potest valere apud eos, qui ecclesię renovationem profitentur, video tentari nos et aliud malum in hac re inesse.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Mea<note xml:id="fn5" type="footnote" n="5">Katharina, geb. Lompart.</note> agit tibi gratias pro sancto munere<note xml:id="fn6" type="footnote" n="6">Gemeint ist Bullingers Buch "Der christliche Ehestand"; vgl. oben <ref target="file11409">Nr. 1366</ref>, 2-6 mit Anm.1.</note>; legit iam fere totum.</s>
-					<s n="10" xml:lang="la" type="auto">Mitto tuę<note xml:id="fn7" type="footnote" n="7">Anna, geb. Adlischwyler.</note> hic munusculum<note xml:id="fn8" type="footnote" n="8">Worum es sich handelte, ist nicht bekannt.</note>, pro auro puro terrę scoriam.</s>
+					<s n="10" xml:lang="la" type="auto">Mitto tuę<note xml:id="fn7" type="footnote" n="7"><persName>Anna, geb. Adlischwyler</persName>.</note> hic munusculum<note xml:id="fn8" type="footnote" n="8">Worum es sich handelte, ist nicht bekannt.</note>, pro auro puro terrę scoriam.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale in domino.</s>

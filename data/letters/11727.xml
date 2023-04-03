@@ -6,50 +6,40 @@
 				<title subtype="file">Renata von Frankreich / Ferrara AN Heinrich Bullinger, 24. Oktober 1542</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2006</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17431-6</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1683</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">12</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1542</biblScope>
-				<biblScope unit="page">227</biblScope>
-				<biblScope unit="pages">299</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 12 (Briefe des Jahres 1542), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2006, 299 S., ISBN 978-3-290-17431-6.</bibl>
 				<msDesc type="Brief" subtype="Übersetzung" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive13">
+						<repository ref="a13">
 							<name>Bern StA</name>
 							<ref target="https://www.staatsarchiv.sta.be.ch/de/start.html"/>
 						</repository>
-						<settlement ref="place41">Bern</settlement>
+						<settlement ref="l41">Bern</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive13"/>
+						<repository ref="a13"/>
 						<idno subtype="Übersetzung">A V 1456, Nr. 45</idno>
 						<idno subtype="Hinweis">Deutsch</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Dank für das von Celio Secondo
-								[<persName ref="person667">Curione</persName>] übermittelte Schreiben und Geschenk Bullingers; Weiteres
-								wird <persName ref="person667">Curione</persName> mündlich berichten. Bitte um Unterstützung
-								<persName ref="person667">Curiones</persName>.
+								Dank für das von <persName ref="p714">Celio Secondo [Curione]</persName> übermittelte Schreiben und Geschenk Bullingers; Weiteres
+								wird <persName ref="p714">Curione</persName> mündlich berichten. Bitte um Unterstützung
+								<persName ref="p714">Curiones</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -60,7 +50,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
-								<title>Corr. des réformateurs VIII, S. 161– 163, Nr. 1170</title>
+								<title>Corr. des réformateurs VIII, S.161– 163, Nr. 1170</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 12, Nr. 1683, S.227</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,17 +63,17 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11727">
 				<correspAction type="sent">
-					<persName ref="person3855" cert="high">
+					<persName ref="p3855" cert="high">
 						<!--
 						<surname cert="high">von Frankreich</surname>
 						<forename cert="high">Renata</forename>
 						-->
 					</persName>
-					<placeName source="place150" cert="high"><orig>Ferrara</orig></placeName>
+					<placeName source="l150" cert="high"><orig>Ferrara</orig></placeName>
 					<date when="1542-10-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +98,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -115,12 +108,12 @@
 					<s n="1" xml:lang="de" type="auto">Ann h. Bullinger, fürstennder<note xml:id="fn2" type="footnote" n="2">Vorsteher.</note> der kirchen Zürich.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Eerwirdiger herr Bullinger, wir hannd von herr <persName ref="person667">Celio Secondo</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person667">Celio Secondo Curione</persName>, geb. 1503 in <placeName ref="place1905">Ciriè</placeName> (Piemont) als Sohn des <persName ref="person22569">Jacomino Troterio</persName> und der <persName ref="person22515">Carlotta Montrotier</persName>. Nach Studien der Freien Künste und der Jurisprudenz in Turin wurde Curione 1536 an die Universität Pavia berufen, drei Jahre später aber bereits wieder entlassen. Es folgten Aufenthalte in Venedig, <placeName ref="place352">Ferrara</placeName> und Lucca, wo er sich mit Petrus Martyr Vermigli und Girolamo Zanchi anfreundete. Nach seiner Flucht 1542 erhielt er eine Schulmeisterstelle in Lausanne und wurde 1546 als Professor für Rhetorik an die Universität Basel berufen, wo er eine vielfältige und stark beachtete literarische Produktion entfaltete. Neben seiner Editionstätigkeit und den Schriften zur Grammatik, Logik und Rhetorik ragen der "Pasquillus ecstaticus" (1543) und seine unorthodoxe Behandlung der Prädestinationsthematik in "De amplitudine beati regni dei" (1554) hervor. Aus der mit Bullinger rege geführten Korrespondenz Curiones blieben insgesamt 69 Briefe erhalten. - Lit.: <hi>Kutter,</hi> Curione; Albano <hi>Biondi,</hi> in: DBI XXXI 443-449; Emidio <hi>Campi,</hi> in: RGG<note type="sup">4</note> II 506f; <hi>ders.,</hi> in: HLS III 553.</note>, zeiger<note xml:id="fn4" type="footnote" n="4">Überbringer.</note> diß brieffs, üwer schriben<note xml:id="fn5" type="footnote" n="5">Bullingers Schreiben an Renata von <placeName ref="place11">Frankreich</placeName> ist nicht erhalten.</note> unnd fast<note xml:id="fn6" type="footnote" n="6">sehr.</note> früntlichs enbieten sampt der eerlichen<pb type="edition" next="228"/> schenky<note xml:id="fn7" type="footnote" n="7">samt dem ehrenhaften Geschenk. - Beim Geschenk Bullingers handelte es sich um dessen Matthäuskommentar (HBBibl I 144), vgl. Bullinger an Vadian, 19. Dezember 1542 (Vadian BW VI 184, <ref target="file11314">Nr. 1271</ref>; Regest unten <ref target="file11750">Nr. 1705</ref>): "Post mensem rediit e Lausana Coelius, Italiam denuo ingressurus, ut inde curet in Germaniam transportari uxorem ac liberos. Orat, principi scribam Ferrariae, quae Lodovici, regis Franciae, filia est. Obsequor ac inhortor principem ad pietatem et ut pulsos propter Christum benigne foveat. Addo munus Commentarios meos in Matthaeum, quibus acceptis accingitur itineri ac abit."</note> empfangen, so er unns inn üwerem nammen gebracht hatt.</s>
+					<s n="2" xml:lang="de" type="auto">Eerwirdiger herr Bullinger, wir hannd von herr <persName ref="p714">Celio Secondo</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="p7454">Celio Secondo Curione</persName>, geb. 1503 in <placeName>Ciriè (Piemont)</placeName> als Sohn des <persName>Jacomino Troterio</persName> und der <persName>Carlotta Montrotier</persName>. Nach Studien der Freien Künste und der Jurisprudenz in Turin wurde Curione 1536 an die Universität Pavia berufen, drei Jahre später aber bereits wieder entlassen. Es folgten Aufenthalte in Venedig, <placeName>Ferrara</placeName> und Lucca, wo er sich mit Petrus Martyr Vermigli und Girolamo Zanchi anfreundete. Nach seiner Flucht 1542 erhielt er eine Schulmeisterstelle in Lausanne und wurde 1546 als Professor für Rhetorik an die Universität Basel berufen, wo er eine vielfältige und stark beachtete literarische Produktion entfaltete. Neben seiner Editionstätigkeit und den Schriften zur Grammatik, Logik und Rhetorik ragen der "Pasquillus ecstaticus" (1543) und seine unorthodoxe Behandlung der Prädestinationsthematik in "De amplitudine beati regni dei" (1554) hervor. Aus der mit Bullinger rege geführten Korrespondenz Curiones blieben insgesamt 69 Briefe erhalten. - Lit.: <hi>Kutter,</hi> Curione; Albano <hi>Biondi,</hi> in: <bibl>DBI</bibl> XXXI 443-449; Emidio <hi>Campi,</hi> in: RGG<note type="sup">4</note> II 506f; <hi>ders.,</hi> in: <bibl>HLS</bibl> III 553.</note>, zeiger<note xml:id="fn4" type="footnote" n="4">Überbringer.</note> diß brieffs, üwer schriben<note xml:id="fn5" type="footnote" n="5">Bullingers Schreiben an Renata von <placeName>Frankreich</placeName> ist nicht erhalten.</note> unnd fast<note xml:id="fn6" type="footnote" n="6">sehr.</note> früntlichs enbieten sampt der eerlichen<pb type="edition" next="228"/> schenky<note xml:id="fn7" type="footnote" n="7">samt dem ehrenhaften Geschenk. - Beim Geschenk Bullingers handelte es sich um dessen Matthäuskommentar (<bibl>HBBibl</bibl> I 144), vgl. Bullinger an Vadian, 19. Dezember 1542 (<bibl>Vadian BW VI</bibl> 184, <ref target="file11314">Nr. 1271</ref>; Regest unten <ref target="file11750">Nr. 1705</ref>): "Post mensem rediit e Lausana Coelius, Italiam denuo ingressurus, ut inde curet in Germaniam transportari uxorem ac liberos. Orat, principi scribam Ferrariae, quae Lodovici, regis Franciae, filia est. Obsequor ac inhortor principem ad pietatem et ut pulsos propter Christum benigne foveat. Addo munus Commentarios meos in Matthaeum, quibus acceptis accingitur itineri ac abit."</note> empfangen, so er unns inn üwerem nammen gebracht hatt.</s>
 					<s n="3" xml:lang="de" type="auto">Welchem wir jetz gegenwirtig inn empfelch geben, hochlich unnd von hertzen üch zedanken unnd anzuͦzeigen, was großen gefallens wir ann üwerer neuwen zitung<note xml:id="fn8" type="footnote" n="8">Nachricht.</note>, uns zuͦgeschriben, ouch ann üwerer schenky gehept habind, sampt annderen dingen, so ir von imm unserthalben verstan<note xml:id="fn9" type="footnote" n="9">vernehmen.</note> werdint, derhalben wir üch uff sinen guͦten unnd gnuͦgsammen verstand<note xml:id="fn10" type="footnote" n="10">Unterrichtung.</note> wisen unnd üch nitt witer uffziehen<note xml:id="fn11" type="footnote" n="11">aufhalten.</note> wellend.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="de" type="auto">Allein ist unser hertzlich bitt unnd ernnstlich begären ann üch, daß ir disen obgenampten Celium üch inn trüwen wellind laßen empfolhen sin alls einen, der somlichs<note xml:id="fn12" type="footnote" n="12">dessen.</note> wol wirdig unnd dem [der]<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage statt</hi> [der] <hi>ein Zeichen für ein ausgefallenes Wort.</hi></note> herr vil siner gnaden unnd gaaben geben hatt.</s>
-					<s n="5" xml:lang="de" type="auto">Er hatt ein hußfrouwen<note xml:id="fn13" type="footnote" n="13">Margarita Bianca Isacchi, vgl. <hi>Kutter,</hi> <persName ref="person667">Curione</persName> 15.</note> sampt siben kinnden, uß wellichen er die viere<note xml:id="fn14" type="footnote" n="14"><persName ref="person667">Curione</persName> ließ in <placeName ref="place16">Italien</placeName> seine Töchter Violanthis (geb. 1532), Dorothea (geb. 1542) und Margaretha (Geburtsjahr unbekannt) zurück, außerdem seinen Sohn Lactantius (geb. 1539?), der von <persName ref="person667">Curiones</persName> Schüler <persName ref="person22568">Galeazzo Trezio</persName> adoptiert wurde, vgl. <hi>Kutter,</hi> <persName ref="person667">Curione</persName> 24. 53. Gemäß einer Widmungsvorrede von 1550 blieben nur zwei Töchter zurück, vgl. ebd. 53f, Anm. 16.</note> umb irer blöden<note xml:id="fn15" type="footnote" n="15">schwachen.</note> unnd zarten jugend willen uff dise wyte straaß nitt hatt waagen dörffen, sonnder allhie gelaßen, die anderen drü<note xml:id="fn16" type="footnote" n="16"><persName ref="person667">Curione</persName> wurde auf der Flucht von seinen Söhnen Horatio (geb. 1534), Leo (geb. 1536) und Augustin (geb. 1538) begleitet, vgl. <hi>Kutter,</hi> <persName ref="person667">Curione</persName> 53f.</note> mitt sampt der muͦter werdent ir, ob gott wil, mitt imm sehen.<pb type="edition" next="229"/></s>
+					<s n="5" xml:lang="de" type="auto">Er hatt ein hußfrouwen<note xml:id="fn13" type="footnote" n="13">Margarita Bianca Isacchi, vgl. <hi>Kutter,</hi> <persName ref="p7454">Curione</persName> 15.</note> sampt siben kinnden, uß wellichen er die viere<note xml:id="fn14" type="footnote" n="14"><persName ref="p7454">Curione</persName> ließ in <placeName>Italien</placeName> seine Töchter Violanthis (geb. 1532), Dorothea (geb. 1542) und Margaretha (Geburtsjahr unbekannt) zurück, außerdem seinen Sohn Lactantius (geb. 1539?), der von <persName ref="p7454">Curiones</persName> Schüler <persName>Galeazzo Trezio</persName> adoptiert wurde, vgl. <hi>Kutter,</hi> <persName ref="p7454">Curione</persName> 24. 53. Gemäß einer Widmungsvorrede von 1550 blieben nur zwei Töchter zurück, vgl. ebd. 53f, Anm. 16.</note> umb irer blöden<note xml:id="fn15" type="footnote" n="15">schwachen.</note> unnd zarten jugend willen uff dise wyte straaß nitt hatt waagen dörffen, sonnder allhie gelaßen, die anderen drü<note xml:id="fn16" type="footnote" n="16"><persName ref="p7454">Curione</persName> wurde auf der Flucht von seinen Söhnen Horatio (geb. 1534), Leo (geb. 1536) und Augustin (geb. 1538) begleitet, vgl. <hi>Kutter,</hi> <persName ref="p7454">Curione</persName> 53f.</note> mitt sampt der muͦter werdent ir, ob gott wil, mitt imm sehen.<pb type="edition" next="229"/></s>
 				</p>
 				<p>
 					<s n="6" xml:lang="de" type="auto">Darumb bittend wir üch durch die eehr deße, der unns alle inn einen geist verbunden hatt, daß ir imm, who es von nöten ist, behulffen sin wellind, so vil ir dann durch gottes ingebens vermögend; wie wir dann üch genntzlich vertrüwend, daß ir nüt, so christenliche liebe unnd barmmhertzigheit betrifft, underlaßen werdint, mitt ernstlichem enbieten, daß, who wir dann üch unnd üweren fründen liebs unnd guͦts bewyßen könnend, so wellennd wir üch zuͦdienen bereit<note xml:id="fnc" type="footnote" n="c"><hi>In der Vorlage</hi> bereiten.</note> sin.</s>
@@ -129,8 +122,8 @@
 					<s n="7" xml:lang="de" type="auto">Nitt mehr, dann gott welle üch, eerwirdiger herr Bullinger, inn siner göttlichen gnad erhaltenn.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto">Datum inn <placeName ref="place352">Ferrare</placeName>, uff den 24. tag octobris anno etc. 1542.</s>
-					<s n="9" xml:lang="de" type="auto"><persName ref="person1915">Renée</persName> vonn Frankrich.</s>
+					<s n="8" xml:lang="de" type="auto">Datum inn <placeName>Ferrare</placeName>, uff den 24. tag octobris anno etc. 1542.</s>
+					<s n="9" xml:lang="de" type="auto"><persName ref="p3855">Renée</persName> vonn Frankrich.</s>
 				</p>
 			</div>
 		</body>

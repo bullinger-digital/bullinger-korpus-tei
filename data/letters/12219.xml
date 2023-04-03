@@ -6,44 +6,41 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Joachim Vadian, 3. Juni 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2172</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">420</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Die Vadianische Briefsammlung der Stadtbibliothek St. Gallen, hg. v. Emil Arbenz und Hermann Wartmann, 7 Bde., St. Gallen 1890-1913 - MVG 24-30a.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 35 (VBS VI),40</idno>
+						<idno subtype="Quelle">https://swisscollections.ch/Record/991170482062305501/Holdings#tabnav</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person211">Johannes Stumpf</persName> kommt mit [den] 13 Büchern [seiner „Eidgenössischen
-								Chronik“] zu <persName ref="person226">Vadian</persName>, um ihm den Inhalt jedes dieser Bücher zu erklären, <persName ref="person226">Vadians</persName> Meinung darüber einzuholen
-								und die Werke beider<note xml:id="fna" type="footnote" n="a"><hi>In Vadian BW VI 420 ist</hi> utrinque <hi>gemäß der Vorlage in</hi> utriusque <hi>zu korrigieren.</hi></note> ohne widersprüchliche Aussagen hervorbringen zu können. <persName ref="person226">Vadian</persName> möge sich für
-								<persName ref="person211">Stumpf</persName> Zeit nehmen und ihn freundlich empfangen.
+								<persName ref="p6730">Johannes Stumpf</persName> kommt mit [den] 13 Büchern [seiner „Eidgenössischen
+								Chronik“] zu <persName ref="p8049">Vadian</persName>, um ihm den Inhalt jedes dieser Bücher zu erklären, <persName ref="p8049">Vadians</persName> Meinung darüber einzuholen
+								und die Werke beider<note xml:id="fna" type="footnote" n="a"><hi>In <bibl>Vadian BW VI</bibl> 420 ist</hi> utrinque <hi>gemäß der Vorlage in</hi> utriusque <hi>zu korrigieren.</hi></note> ohne widersprüchliche Aussagen hervorbringen zu können. <persName ref="p8049">Vadian</persName> möge sich für
+								<persName ref="p6730">Stumpf</persName> Zeit nehmen und ihn freundlich empfangen.
 							</p>
 						</summary>
 						<msItem>
@@ -53,7 +50,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Vadian BW VI, S. 420, Nr. 1398</title>
+								<title>Vadian BW VI, S.420, Nr. 1398</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
 								<title>Vadian DHS II LIX</title>
@@ -66,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12219">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -76,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1545-06-03" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -116,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

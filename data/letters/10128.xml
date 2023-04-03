@@ -6,60 +6,58 @@
 				<title subtype="file">Kaspar Megander / Bern AN Leo Jud, Heinrich Bullinger, Erasmus Schmid, 25. Mai 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=99</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">125</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,48</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								In <placeName ref="place121">Bern</placeName> wird das Gerücht verbreitet, Zürich wolle die
-								französische Allianz bald erneuern. <persName ref="person145">Megander</persName> warnt davor.
+								In <placeName>Bern</placeName> wird das Gerücht verbreitet, Zürich wolle die
+								französische Allianz bald erneuern. <persName ref="p8412">Megander</persName> warnt davor.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 99, S.125</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10128">
 				<correspAction type="sent">
-					<persName ref="person2263" cert="high">
+					<persName ref="p2263" cert="high">
 						<!--
 						<surname cert="high">Megander</surname>
 						<forename cert="high">Kaspar</forename>
@@ -69,11 +67,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416166"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1532-05-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1753" cert="high">
+					<persName ref="p1753" cert="high">
 						<!--
 						<surname cert="high">Jud</surname>
 						<forename cert="high">Leo</forename>
@@ -83,7 +81,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11423330"/>
 						-->
 					</persName>
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -93,7 +91,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person2838" cert="high">
+					<persName ref="p2838" cert="high">
 						<!--
 						<surname cert="high">Schmid</surname>
 						<forename cert="high">Erasmus</forename>
@@ -120,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -136,7 +134,7 @@
 				<p>
 					<s n="2" xml:lang="la" type="auto">Quem non omnium ecclesiarum solicitudo torquet, fratres charissimi, modo pii, fidi et iuxta Christi comendacionem ministri vigiles<note xml:id="fn1" type="footnote" n="1">Siehe Mt 24,42ff par. 25,1ff.</note> et prudentes dici velimus?</s>
 					<s n="3" xml:lang="la" type="auto">Qum igitur malorum omnium fomentum <foreign xml:lang="el">καὶ ῥίζαν</foreign><note xml:id="fn2" type="footnote" n="2">Vgl. 1 Tim 6,10.</note> ecclesias nostras tentare video, principum inquam corrupcionem, ut res apud nos sese habeat, vobis indicare nequaquam defatigor.</s>
-					<s n="4" xml:lang="la" type="auto">Aurum gallicum in urbe nostra publice sese iactare non veretur Tigurum intra dierum paucorum spacium rege cum Fran[cisco]<note xml:id="fn3" type="footnote" n="3"><persName ref="person859">Franz I.</persName> von <placeName ref="place11">Frankreich</placeName>.</note> foedus iterum et fecisse et firmasse<note xml:id="fn4" type="footnote" n="4">Vgl. oben S. 124,7-12.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Aurum gallicum in urbe nostra publice sese iactare non veretur Tigurum intra dierum paucorum spacium rege cum Fran[cisco]<note xml:id="fn3" type="footnote" n="3"><persName>Franz I. von Frankreich</persName>.</note> foedus iterum et fecisse et firmasse<note xml:id="fn4" type="footnote" n="4">Vgl. oben S. 124,7-12.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Etsi non dubitemus mendacia esse aperta (longe enim alia a Tiguro sancto et syncero nobis promittimus quam stulticiam, ne dicam facinus hoc nephandum), est tamen modus is et unicum medium, quo nobis idem persuadere nititur.</s>
 					<s n="6" xml:lang="la" type="auto">Conetur quidem, sed incassum, id quod certe ex deo vobis promittere possum.</s>
 					<s n="7" xml:lang="la" type="auto">Quare, charissimi fratres, si quis diversum de nostris apud vos ogganit aut iactat, ne credatis soliciteque studete, ne locum apud vos belli homines isti habeant, qui patrię nostrę neque utiles neque honesti sunt.</s>
@@ -146,14 +144,14 @@
 					<s n="9" xml:lang="la" type="auto">Valete, fratres charissimi.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><placeName ref="place121">Bernę</placeName>, 25. maii anno 32.</s>
+					<s n="10" xml:lang="la" type="auto"><placeName>Bernę</placeName>, 25. maii anno 32.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">C. Megand., ex animo vester.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="12" xml:lang="la" type="auto">Tiguri verbi ministris <persName ref="person114">Leoni Jud</persName>, H. Bulling, et <persName ref="person188">Erasmo Fabricio</persName>, fratribus suis charissimis.</s>
+					<s n="12" xml:lang="la" type="auto">Tiguri verbi ministris <persName ref="p1753">Leoni Jud</persName>, H. Bulling, et <persName ref="p8437">Erasmo Fabricio</persName>, fratribus suis charissimis.</s>
 				</p>
 			</div>
 		</body>

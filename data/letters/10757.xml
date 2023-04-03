@@ -6,48 +6,39 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Wolfgang Capito, 10. Januar 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=719</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">60</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Teilkopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Teilkopie">Ms S 40,25</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Kann bezüglich einer Zusammenkunft noch nichts versprechen. Dankt für die Schriften
-								<persName ref="person146">Melanchthons</persName>, möchte aber nicht Stellung dazu nehmen. Ist sich im
-								unklaren über die von <persName ref="person40">Capito</persName> angestrebte Neuordnung der Kirche und
+								<persName ref="p2095">Melanchthons</persName>, möchte aber nicht Stellung dazu nehmen. Ist sich im
+								unklaren über die von <persName ref="p5565">Capito</persName> angestrebte Neuordnung der Kirche und
 								wendet sich gegen eine Konkordie mit den Katholiken, da gegenseitige Anerkennung ausgeschlossen ist und das
 								Reich Christi auch ohne eine solche Übereinkunft wächst.
 							</p>
@@ -61,6 +52,9 @@
 							<bibl type="Gedruckt" subtype="Regest">
 								<title>Capito, Corr. 200, Nr. 589</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 719, S.60</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -69,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10757">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -79,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1536-01-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person578" cert="high">
+					<persName ref="p578" cert="high">
 						<!--
 						<surname cert="high">Capito</surname>
 						<forename cert="high">Wolfgang</forename>
@@ -117,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -127,18 +121,18 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">De conventu<note xml:id="fn2" type="footnote" n="2">Zum Drängen <persName ref="person40">Capitos</persName> auf eine Zusammenkunft vergleiche zuletzt HBBW V <ref target="file10710">[Nr. 672]</ref>, S. 415, 21-25.</note> in praesenti, observande <persName ref="person40">Capito</persName>, nil certi<note xml:id="fnb" type="footnote" n="b">certi <hi>korrigiert aus</hi> certe.</note> polliceri possum.</s>
+					<s n="2" xml:lang="la" type="auto">De conventu<note xml:id="fn2" type="footnote" n="2">Zum Drängen <persName>Capitos</persName> auf eine Zusammenkunft vergleiche zuletzt <bibl>HBBW V</bibl> <ref target="file10710">[Nr. 672]</ref>, S. 415, 21-25.</note> in praesenti, observande <persName>Capito</persName>, nil certi<note xml:id="fnb" type="footnote" n="b">certi <hi>korrigiert aus</hi> certe.</note> polliceri possum.</s>
 					<s n="3" xml:lang="la" type="auto">Negotium ad multos pertinet, ego privatas modo epistolas scribo.</s>
 					<s n="4" xml:lang="la" type="auto">Habebitis fortasse certiorem brevi responsionem.</s>
 					<s n="5" xml:lang="la" type="auto">Verum nihil polliceor, ne spe mea frustratus inconstantiae postea insimuler.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Pro libellis <persName ref="person146">Philippi</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person40">Capito</persName> hatte Bullinger am 18. Oktober 1535 zwei Schriften <persName ref="person146">Melanchthons</persName> zugesandt; vgl. HBBW V, S. 396, 46; 417, 19.</note> maximas tibi gratias ago.</s>
+					<s n="6" xml:lang="la" type="auto">Pro libellis <persName ref="p2095">Philippi</persName><note xml:id="fn3" type="footnote" n="3"><persName>Capito</persName> hatte Bullinger am 18. Oktober 1535 zwei Schriften <persName ref="p6490">Melanchthons</persName> zugesandt; vgl. <bibl>HBBW</bibl> V, S. 396, 46; 417, 19.</note> maximas tibi gratias ago.</s>
 					<s n="7" xml:lang="la" type="auto">Hos cum nondum legerim cum iudicio, nil pronuncio; cursim perlegi.</s>
 					<s n="8" xml:lang="la" type="auto">Disco autem indies circumspectius pronuntiare.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">De oeconomia ecclesiastica constituenda non intelligo, quid velis<note xml:id="fn4" type="footnote" n="4">Bullinger bezieht sich auf eine ihm von <persName ref="person154">Myconius</persName> mitgeteilte Äusserung <persName ref="person40">Capitos</persName>, wonach über die Kirchenordnung und über Zugeständnisse an die Katholiken verhandelt werden musse; s. oben <ref target="file10751">Nr. 713</ref>, 14-18 und unten <ref target="file10759">Nr. 721</ref>, 7-10.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">De oeconomia ecclesiastica constituenda non intelligo, quid velis<note xml:id="fn4" type="footnote" n="4">Bullinger bezieht sich auf eine ihm von <persName>Myconius</persName> mitgeteilte Äusserung <persName>Capitos</persName>, wonach über die Kirchenordnung und über Zugeständnisse an die Katholiken verhandelt werden musse; s. oben <ref target="file10751">Nr. 713</ref>, 14-18 und unten <ref target="file10759">Nr. 721</ref>, 7-10.</note>.</s>
 					<s n="10" xml:lang="la" type="auto">De concordia cum pontificiis ineunda non placet consilium.</s>
 					<s n="11" xml:lang="la" type="auto">Isti non recipient nos neque tales sunt, ut nobis recipi possint.</s>
 					<s n="12" xml:lang="la" type="auto">Monarchia pontificis antichristi regnum est.</s>

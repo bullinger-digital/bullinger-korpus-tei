@@ -6,35 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 9. Juli 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1015</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">113</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Ioannis Calvini opera quae supersunt omnia, hg. v. Guilielmus Baum, Eduardus Cunitz, Eduardus Reuss, 59 Bde., Braunschweig/Berlin 1863-1900 - CR XXIX-LXXXVII.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,183</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,164</idno>
@@ -43,14 +39,14 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Übersendet im Auftrag <persName ref="person39">Calvins</persName> ein Bekenntnis [der
-								<placeName ref="place398">Genfer</placeName> zur Trinitätslehre] und nimmt kritisch dazu Stellung.
-								Mißbilligt die - auch früher schon von <persName ref="person60">Farel</persName> - vorgetragenen Angriffe
-								auf <persName ref="person602">Caroli</persName>. Hatte keine Gelegenheit, diesen Brief dem Scherer
+								Übersendet im Auftrag <persName ref="p540">Calvins</persName> ein Bekenntnis [der
+								<placeName>Genfer</placeName> zur Trinitätslehre] und nimmt kritisch dazu Stellung.
+								Mißbilligt die - auch früher schon von <persName ref="p4750">Farel</persName> - vorgetragenen Angriffe
+								auf <persName ref="p4518">Caroli</persName>. Hatte keine Gelegenheit, diesen Brief dem Scherer
 								Philipp [...] oder Sebastian
-								[...] mitzugeben. Ist sich zwar bewußt, in Zürich und <placeName ref="place121">Bern</placeName> nichts
+								[...] mitzugeben. Ist sich zwar bewußt, in Zürich und <placeName>Bern</placeName> nichts
 								zu gelten, bittet Bullinger aber dennoch um Vermittlung im Streit unter den
-								<placeName ref="place121">Berner</placeName> Pfarrern.
+								<placeName>Berner</placeName> Pfarrern.
 							</p>
 						</summary>
 						<msItem>
@@ -60,10 +56,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Corr. des réformateurs IV, S. 254-256, Nr. 640</title>
+								<title>Corr. des réformateurs IV, S.254-256, Nr. 640</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>C.O. X/2, S. 113f, Nr. 69</title>
+								<title>C.O. X/2, S.113f, Nr. 69</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -73,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11057">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -84,11 +80,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1537-07-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -123,7 +119,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -153,13 +149,13 @@
 					<s n="13" xml:lang="la" type="auto">Equidem Carolum non defendo, quamvis olim, id est ante annos duos, ipse se apud me coram defenderit, postquam a Farello turpissimis literis huc scriptis esset accusatus de iisdem criminibus: non tamen probare possum, taliter eum tractari apud bonos et pios viros.</s>
 					<s n="14" xml:lang="la" type="auto">Et quid, putas, evangelici Galli confecerunt, si Carolus se publico scripto defenderit?</s>
 					<s n="15" xml:lang="la" type="auto">Hic erit evangelio consultum egregie.</s>
-					<s n="16" xml:lang="la" type="auto">Scio Cardum publice dixisse: Si consenseritis in confessionem <placeName ref="place97">Basileae</placeName> communiter scriptam, vel in eam quae oblata est Caesari in comitiis <placeName ref="place70">Augustanis</placeName>, et subscripseritis Athanasii symbolo, ego vester ero, nihil contra vos movebor: sin aliter, erit quod ferre non licebit.</s>
+					<s n="16" xml:lang="la" type="auto">Scio Cardum publice dixisse: Si consenseritis in confessionem <placeName>Basileae</placeName> communiter scriptam, vel in eam quae oblata est Caesari in comitiis <placeName>Augustanis</placeName>, et subscripseritis Athanasii symbolo, ego vester ero, nihil contra vos movebor: sin aliter, erit quod ferre non licebit.</s>
 					<s n="17" xml:lang="la" type="auto">Quid est igitur quod istos movet, nisi spiritus dissidii, ne quid dicam aliud?</s>
 					<s n="18" xml:lang="la" type="auto">Utinam vel evangelium non tractaremus, vel pacis in Domino spiritum recto animo quaereremus.</s>
 					<s n="19" xml:lang="la" type="auto">Yerum de his satis rerum omnium ignaro et stulto viro.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 9. Iulii anno 1537.</s>
+					<s n="20" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 9. Iulii anno 1537.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Os. Myco. tuus.</s>

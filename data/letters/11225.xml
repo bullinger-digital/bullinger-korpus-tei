@@ -6,64 +6,62 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN Heinrich Bullinger, 28. September 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1182</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">232</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,107</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Hat brieflich vernommen, die Konkordie werde behindert, und erkundigt sich, ob wohl die Zürcher gemeint
-								seien; weiß nur, daß sie die <placeName ref="place1049">Straßburger</placeName> nicht zufriedengestellt
-								haben. Der seit fünf Jahren in <placeName ref="place688">Meersburg</placeName> inhaftierte [Geistliche]
+								seien; weiß nur, daß sie die <placeName>Straßburger</placeName> nicht zufriedengestellt
+								haben. Der seit fünf Jahren in <placeName>Meersburg</placeName> inhaftierte [Geistliche]
 								hat sich unter dem Einfluß seiner Verwandten von seiner Frau losgesagt und auf die Messe geschworen.
-								<persName ref="person1562">Joachim [Maler]</persName> wird
-								berichten, wie es in <placeName ref="place565">Konstanz</placeName> steht.
+								<persName ref="p5741">Joachim [Maler]</persName> wird
+								berichten, wie es in <placeName>Konstanz</placeName> steht.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1182, S.232</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11225">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1538-09-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,22 +125,22 @@
 				<p>
 					<s n="2" xml:lang="la" type="auto">Scribit ad me quidam bonus vir<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note> iterum atque iterum turbari concordiam; quis culpam aut causam praestet huius periculosae difficultatis, unum deum nosse.</s>
 					<s n="3" xml:lang="la" type="auto">Quoniam vero iam diu apud nos nihil auditum est de hoc negotio, miror, an fortassis vos Tigurinos notare voluerit.</s>
-					<s n="4" xml:lang="la" type="auto">Unum hoc scio, <placeName ref="place1049">Argentoratensibus</placeName> per vos non satisfieri.</s>
+					<s n="4" xml:lang="la" type="auto">Unum hoc scio, <placeName>Argentoratensibus</placeName> per vos non satisfieri.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Deinde captivus ille<note xml:id="fn2" type="footnote" n="2">Nicht namentlich bekannt; vgl. HBBW V, S. 223, 32f mit Anm. 16; VI 55, 14-16.</note>, qui quinquennio Merspurgi fuit in carcere, emissus est, sed impiissimis conditionibus, in quas cognatorum et consanguiniorum blanditiis victus consensit.</s>
+					<s n="5" xml:lang="la" type="auto">Deinde captivus ille<note xml:id="fn2" type="footnote" n="2">Nicht namentlich bekannt; vgl. <bibl>HBBW</bibl> V, S. 223, 32f mit Anm. 16; VI 55, 14-16.</note>, qui quinquennio Merspurgi fuit in carcere, emissus est, sed impiissimis conditionibus, in quas cognatorum et consanguiniorum blanditiis victus consensit.</s>
 					<s n="6" xml:lang="la" type="auto">Abiuravit enim uxorem et ab ea papistico more absolutus est, deinde vero in missam iuravit datis sponsoribus, qui ducentos aureos pendant, nisi stet sententiae.</s>
 					<s n="7" xml:lang="la" type="auto">Quam horrendum est, mi Bullingere, ferre crucem<note xml:id="fn3" type="footnote" n="3">Vgl. Mt 10, 38 par und 16, 24 par.</note> tanto tempore fortiter (nam primo mense sic poterat liberari) et tandem bonis verbis misere admodum et periculose deiici!</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Ut res apud nos habeant, ex viva epistola <persName ref="person1562">Ioachimo</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person1562">Joachim Maler</persName>.</note> nostro sciscitari potes.</s>
+					<s n="8" xml:lang="la" type="auto">Ut res apud nos habeant, ex viva epistola <persName ref="p5741">Ioachimo</persName><note xml:id="fn4" type="footnote" n="4"><persName>Joachim Maler</persName>.</note> nostro sciscitari potes.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Vale cum tota domo et bonis omnibus.</s>
 					<s n="10" xml:lang="de" type="auto">28. septembris 1538.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zwick</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zwick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

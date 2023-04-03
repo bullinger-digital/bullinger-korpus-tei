@@ -6,48 +6,42 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Johannes Stumpf, 1. März 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=332</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">77</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
-						<idno subtype="Autograph">Ms A 70,635</idno>
+						<repository ref="a96"/>
+						<idno subtype="Autograph">Ms A 70,54</idno>
+						<altIdentifier>
+							<idno subtype="Autograph">Ms A 70,635</idno>
+						</altIdentifier>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat <persName ref="person211">Stumpfs</persName> Brief erhalten, kann aber aus Zeitmangel nicht handeln.
-								Der Pfleger [<persName ref="person120">Hans Kilchrat</persName>] wollte wohl etwas unternehmen, doch
-								mißlang es ihm. Die Tat der Mönche [von <placeName ref="place928">Rüti</placeName>] ist schlimm. Will
+								Hat <persName ref="p6730">Stumpfs</persName> Brief erhalten, kann aber aus Zeitmangel nicht handeln.
+								Der Pfleger [<persName ref="p1758">Hans Kilchrat</persName>] wollte wohl etwas unternehmen, doch
+								mißlang es ihm. Die Tat der Mönche [von <placeName>Rüti</placeName>] ist schlimm. Will
 								mit dem Bürgermeister verhandeln.
 							</p>
 						</summary>
@@ -55,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 332, S.77</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10364">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -71,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1534-03-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3067" cert="high">
+					<persName ref="p3067" cert="high">
 						<!--
 						<surname cert="high">Stumpf</surname>
 						<forename cert="high">Johannes</forename>
@@ -106,9 +107,13 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="10364/Autograph/00__Ms__A__70__(54)_00001.tif" n="1"/>
+		<graphic xml:id="img2" url="10364/Autograph/01__Ms__A__70__(54)_00002.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="de">
 		<body>
 			<div xml:id="div1" corresp="regest1">
@@ -116,15 +121,15 @@
 					<s n="1" xml:lang="de" type="auto">Gnad und frid von gott.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Üwer schryben<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> hab ich empfangen und verstanden<note xml:id="fn4" type="footnote" n="4">zur Kenntnis genommen (SI XI 658).</note>.</s>
-					<s n="3" xml:lang="de" type="auto">Ist mir nitt müglich unmuͦssen<note xml:id="fn5" type="footnote" n="5">zu ergänzen wäre wohl: uß unmussen; aus Zeitmangel (SI IV 497f).</note> jetzund ützid<note xml:id="fn6" type="footnote" n="6">etwas.</note> zuͦ handlen.</s>
+					<s n="2" xml:lang="de" type="auto">Üwer schryben<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> hab ich empfangen und verstanden<note xml:id="fn4" type="footnote" n="4">zur Kenntnis genommen (<bibl>SI</bibl> XI 658).</note>.</s>
+					<s n="3" xml:lang="de" type="auto">Ist mir nitt müglich unmuͦssen<note xml:id="fn5" type="footnote" n="5">zu ergänzen wäre wohl: uß unmussen; aus Zeitmangel (<bibl>SI</bibl> IV 497f).</note> jetzund ützid<note xml:id="fn6" type="footnote" n="6">etwas.</note> zuͦ handlen.</s>
 					<s n="4" xml:lang="de" type="auto">Ich muͦß zweymal predgen.</s>
-					<s n="5" xml:lang="de" type="auto">Der pfläger<note xml:id="fn7" type="footnote" n="7">Sicher der Pfleger (Amtmann) des Klosters <placeName ref="place928">Rüti</placeName>, <persName ref="person120">Hans Kilchrat</persName>, gest. 1552, aus Zürich, Zunftmeister zu Schuhmachern, seit Ende 1531 Mitglied des Kleinen Rats, am 19. Juni 1532 zum Pfleger in <placeName ref="place928">Rüti</placeName> ernannt. Am 18. April 1534 entließ ihn der Rat auf eigenes Bitten hin aus diesem Amt (Zürich StA, B VI 254, 13v.). 1536 war Kilchrat nochmals kurz Mitglied des Kleinen Rats, wurde aber noch im selben Jahr zum obersten Ratsdiener gewählt, s. Die Zürcher Ratslisten 1225 bis 1798, hg. v. Staatsarchiv des Kantons Zürich, bearb. v. Werner Schinyder. Zürich 1962, S. 292. 294. 297f. 587; AZürcherRef 1861.</note> hat nüt uffgäben.</s>
+					<s n="5" xml:lang="de" type="auto">Der pfläger<note xml:id="fn7" type="footnote" n="7">Sicher der Pfleger (Amtmann) des Klosters <placeName>Rüti</placeName>, <persName ref="p5985">Hans Kilchrat</persName>, gest. 1552, aus Zürich, Zunftmeister zu Schuhmachern, seit Ende 1531 Mitglied des Kleinen Rats, am 19. Juni 1532 zum Pfleger in <placeName>Rüti</placeName> ernannt. Am 18. April 1534 entließ ihn der Rat auf eigenes Bitten hin aus diesem Amt (Zürich StA, B VI 254, 13v.). 1536 war Kilchrat nochmals kurz Mitglied des Kleinen Rats, wurde aber noch im selben Jahr zum obersten Ratsdiener gewählt, s. Die Zürcher Ratslisten 1225 bis 1798, hg. v. Staatsarchiv des Kantons Zürich, bearb. v. Werner Schinyder. Zürich 1962, S. 292. 294. 297f. 587; <bibl>AZürcherRef</bibl> 1861.</note> hat nüt uffgäben.</s>
 					<s n="6" xml:lang="de" type="auto">Ist wol willens xin, ettwas zuͦ thuͦn.</s>
 					<s n="7" xml:lang="de" type="auto">Ist imm mißradten.</s>
-					<s n="8" xml:lang="de" type="auto">Der münchen<note xml:id="fn8" type="footnote" n="8">Es waren <persName ref="person2209">Rudolf Spänli</persName>, genannt Gwerb, <persName ref="person1128">Sebastian Hegner</persName> (Hegnauer), <persName ref="person1237">Wolfgang Huber</persName> (s. unten <ref target="file10403">[Nr. 371]</ref> S. 161-163, Anm. 4, 21 und 37).</note> thaat ist arg gnuͦg<note xml:id="fn9" type="footnote" n="9">Auf welchen aktuellen Anlaß Bullinger anspielt, ließ sich nicht genauer nachweisen. Zu den Vergehen, die den Mönchen im Frühjahr 1534 zur Last gelegt wurden, s. unten <ref target="file10403">Nr. 371</ref>.</note>.</s>
-					<s n="9" xml:lang="de" type="auto">Aber der tüfel schyst allwäg uff die großen huffen<note xml:id="fn10" type="footnote" n="10">Zur sprichwörtlichen Redensart s. <hi>Röhrich</hi> II 810.</note>.</s>
-					<s n="10" xml:lang="de" type="auto">Doch wil ich luͦgen, was und wie ich handle mitt dem burgermeister<note xml:id="fn11" type="footnote" n="11"><persName ref="person180">Diethelm Röist</persName>.</note>.</s>
+					<s n="8" xml:lang="de" type="auto">Der münchen<note xml:id="fn8" type="footnote" n="8">Es waren <persName>Rudolf Spänli</persName>, genannt Gwerb, <persName>Sebastian Hegner (Hegnauer)</persName>, <persName>Wolfgang Huber</persName> (s. unten <ref target="file10403">[Nr. 371]</ref> S. 161-163, Anm. 4, 21 und 37).</note> thaat ist arg gnuͦg<note xml:id="fn9" type="footnote" n="9">Auf welchen aktuellen Anlaß Bullinger anspielt, ließ sich nicht genauer nachweisen. Zu den Vergehen, die den Mönchen im Frühjahr 1534 zur Last gelegt wurden, s. unten <ref target="file10403">Nr. 371</ref>.</note>.</s>
+					<s n="9" xml:lang="de" type="auto">Aber der tüfel schyst allwäg uff die großen huffen<note xml:id="fn10" type="footnote" n="10">Zur sprichwörtlichen Redensart s. <bibl>Röhrich</bibl> II 810.</note>.</s>
+					<s n="10" xml:lang="de" type="auto">Doch wil ich luͦgen, was und wie ich handle mitt dem burgermeister<note xml:id="fn11" type="footnote" n="11"><persName>Diethelm Röist</persName>.</note>.</s>
 					<s n="11" xml:lang="de" type="auto">Wyter kan ich nitt.</s>
 					<s n="12" xml:lang="de" type="auto">Hiemitt sind gott befollen.</s>
 					<s n="13" xml:lang="de" type="auto">Dem buͤchlin<note xml:id="fn12" type="footnote" n="12">Unbekannt.</note> wil ich nachvragen.</s>
@@ -137,7 +142,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person211">Stumpfio</persName> suo, decano, Buͦbikon.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p6730">Stumpfio</persName> suo, decano, Buͦbikon.</s>
 				</p>
 			</div>
 		</body>

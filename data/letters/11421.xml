@@ -6,49 +6,45 @@
 				<title subtype="file">John Butler / Basel AN Heinrich Bullinger, 29. März 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1378</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">628</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Epistolae Tigurinae de rebus potissimum ad ecclesiae Anglicanae reformationem pertinentibus conscriptae A. D. 1531-1558. Ex schedis manuscriptis in bibliotheca Tigurina aliisque servatis Parkerianae societatis auspiciis editae, Cambridge 1848 (Nachdruck: New York 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,159</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person1811">[William] Peterson</persName> berichtet
+								<persName ref="p6063">[William] Peterson</persName> berichtet
 								in seinem Brief vom 31. Januar, der am 24. Februar eintraf, nichts Neues; noch befindet sich
-								<placeName ref="place9">England</placeName> im bereits früher [<ref target="file11404">Nr. 1361</ref>]
+								<placeName>England</placeName> im bereits früher [<ref target="file11404">Nr. 1361</ref>]
 								geschilderten Zustand, aber es besteht Grund zur Hoffnung, daß sich die Lage bald stabilisiert. Der Schaden,
-								den <persName ref="person1811">Peterson</persName> erlitten hat und über den er Bullinger bald selbst
+								den <persName ref="p6063">Peterson</persName> erlitten hat und über den er Bullinger bald selbst
 								erzählen wird, ist selbstverschuldet und war vorhersehbar, denn kaum eines der aus
-								<placeName ref="place22">Glarus</placeName> gelieferten Hölzer hatte die geforderten Eigenschaften -
+								<placeName>Glarus</placeName> gelieferten Hölzer hatte die geforderten Eigenschaften -
 								vierkantig, drei Finger dick, sieben Fuß lang, astfrei und gehobelt -;
-								<persName ref="person1811">Peterson</persName> wünscht, daß Bullinger - hoffentlich nicht schon zu spät -
+								<persName ref="p6063">Peterson</persName> wünscht, daß Bullinger - hoffentlich nicht schon zu spät -
 								bei den Lieferanten interveniert. Grüße. Wundert sich, ob Bullinger die römischen Münzen wohl erhalten hat.
 							</p>
 						</summary>
@@ -70,18 +66,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11421">
 				<correspAction type="sent">
-					<persName ref="person506" cert="high">
+					<persName ref="p506" cert="high">
 						<!--
 						<surname cert="high">Butler</surname>
 						<forename cert="high">John</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1184625476"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1540-03-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

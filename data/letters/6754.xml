@@ -1,37 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file6754" type="Nachschrift" source="TUSTEP" n="36058">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file6754" type="Brief" source="TUSTEP" n="36058">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
 				<title subtype="file">Johannes Fabricius / Chur AN [Heinrich Bullinger], 9. April 1566</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6819/70</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Nachschrift" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 350,197 ff.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW II, S. 695f R, Nr. 773</title>
+								<title>Graubünden BW II, S.695f R, Nr. 773</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -53,7 +52,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6754">
 				<correspAction type="sent">
-					<persName ref="person1075" cert="high">
+					<persName ref="p1075" cert="high">
 						<!--
 						<surname cert="high">Fabricius</surname>
 						<forename cert="high">Johannes</forename>
@@ -64,11 +63,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414870"/>
 						-->
 					</persName>
-					<placeName source="place98" cert="high"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1566-04-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -96,7 +95,6 @@
 					<ref type="prev_with_sender_as_addressee" target="file6751"/>
 					<ref type="next_with_addressee_as_sender" target="file6761"/>
 					<ref type="prev_with_addressee_as_sender" target="file6750"/>
-					<ref type="parent" target="file6755"/>
 				</correspContext>
 			</correspDesc>
 			<langUsage>
@@ -105,7 +103,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

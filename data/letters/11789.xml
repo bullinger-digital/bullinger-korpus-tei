@@ -6,50 +6,41 @@
 				<title subtype="file">Ambrosius Blarer / [Konstanz] AN Heinrich Bullinger, 5. Mai 1543</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1743</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">130</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,278</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bullinger mag mit diesem Brief vorlieb nehmen; <persName ref="person19">Blarer</persName> war den ganzen
+								Bullinger mag mit diesem Brief vorlieb nehmen; <persName ref="p8055">Blarer</persName> war den ganzen
 								Tag beschäftigt; sein Arm ist wieder kräftiger, aber nun ist alles nachzuholen, was er den ganzen Monat
 								vernachlässigt hat. Es gab nichts Neues zu berichten; übersendet, was er heute und vorgestern empfangen hat,
 								und bemüht sich weiterhin um Informationsaustausch. Grüße, besonders an
-								<persName ref="person84">Gwalther</persName>, dem er bisher noch nicht schreiben konnte.
+								<persName ref="p8011">Gwalther</persName>, dem er bisher noch nicht schreiben konnte.
 							</p>
 						</summary>
 						<msItem>
@@ -59,7 +50,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 181, Nr. 1006</title>
+								<title>Blarer BW II, S.181, Nr. 1006</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1743, S.130</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -69,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11789">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -80,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1543-05-05" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -135,7 +129,7 @@
 				<p>
 					<s n="2" xml:lang="la" type="auto">Ego te per dominum nostrum Iesum Christum obtestor, ut literas hasce boni consulas.</s>
 					<s n="3" xml:lang="la" type="auto">Sic toto illo die distentus fui, ut nihil praeterea virium supersit, quo animum meum tibi probem.</s>
-					<s n="4" xml:lang="la" type="auto">Confirmatius quidem nunc brachium<note xml:id="fn1" type="footnote" n="1">Zu <persName ref="person19">Blarers</persName> Erkrankung vgl. oben <ref target="file11786">Nr. 1740</ref>.</note> est.</s>
+					<s n="4" xml:lang="la" type="auto">Confirmatius quidem nunc brachium<note xml:id="fn1" type="footnote" n="1">Zu <persName>Blarers</persName> Erkrankung vgl. oben <ref target="file11786">Nr. 1740</ref>.</note> est.</s>
 					<s n="5" xml:lang="la" type="auto">Sed nunc compensare magna molestia, velim nolim<note xml:id="fn2" type="footnote" n="2">Otto 362, Nr. 1852.</note>, cogor, que toto mense neglexi.</s>
 				</p>
 				<p>
@@ -145,11 +139,11 @@
 				<p>
 					<s n="8" xml:lang="la" type="auto">Commenda nos domino et amicis.</s>
 					<s n="9" xml:lang="la" type="auto">Bene vale iterum atque iterum cum tota tua domo, quam dominus perpetuo ędificet.</s>
-					<s n="10" xml:lang="la" type="auto">In primis <persName ref="person84">Gvaltherum</persName> meum officiosissime salutabis, ad quem omnino scribere opportebat; sed nulla prorsus data opportunitas.</s>
+					<s n="10" xml:lang="la" type="auto">In primis <persName ref="p8011">Gvaltherum</persName> meum officiosissime salutabis, ad quem omnino scribere opportebat; sed nulla prorsus data opportunitas.</s>
 					<s n="11" xml:lang="la" type="auto">5. maii 1543.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Tuus <persName ref="person19">Ambr. Blaurerus</persName>.</s>
+					<s n="12" xml:lang="la" type="auto">Tuus <persName ref="p8055">Ambr. Blaurerus</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

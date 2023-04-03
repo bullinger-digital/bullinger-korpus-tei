@@ -6,40 +6,31 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, gegen Ende Juli 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1552</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">290</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,50</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,37</idno>
@@ -48,7 +39,7 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt Glaubensbrüder, die zum Medizinstudium nach <placeName ref="place16">Italien</placeName>
+								Empfiehlt Glaubensbrüder, die zum Medizinstudium nach <placeName>Italien</placeName>
 								reisen und bei dieser Gelegenheit [die Zürcher Gelehrten] kennen lernen möchten. Gruß.
 							</p>
 						</summary>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1552, S.290</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11595">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -75,7 +73,7 @@
 					<date notBefore="1541-07-15" notAfter="1541-07-31" cert="low">gegen Ende Juli 1541</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,15 +120,15 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Hos fratres<note xml:id="fn2" type="footnote" n="2">Einer der nicht namentlich genannten Reisenden war möglicherweise jener <persName ref="person22821">Johannes Arlius Paldinus</persName> (Spaldinus, Spalding? Name nicht zweifelsfrei lesbar), der am 27. April 1542 als Medizinstudent aus <placeName ref="place158">Bologna</placeName> an Bullinger schrieb und dabei sowohl auf den Tod von <persName ref="person81">Grynäus</persName> als auch auf einen nicht weit zurückliegenden Besuch in Zürich zu sprechen kam (s. Zürich StA, E II 361, 121).</note> commendo vobis.</s>
+					<s n="2" xml:lang="la" type="auto">Hos fratres<note xml:id="fn2" type="footnote" n="2">Einer der nicht namentlich genannten Reisenden war möglicherweise jener <persName>Johannes Arlius Paldinus</persName> (Spaldinus, Spalding? Name nicht zweifelsfrei lesbar), der am 27. April 1542 als Medizinstudent aus <placeName>Bologna</placeName> an Bullinger schrieb und dabei sowohl auf den Tod von <persName>Grynäus</persName> als auch auf einen nicht weit zurückliegenden Besuch in Zürich zu sprechen kam (s. Zürich StA, E II 361, 121).</note> commendo vobis.</s>
 					<s n="3" xml:lang="la" type="auto">Colloqui vobiscum cupiunt et vos nosse.</s>
 					<s n="4" xml:lang="la" type="auto">Christum et norunt et amant; itaque digni sunt vestro favore.</s>
-					<s n="5" xml:lang="la" type="auto">Pergunt in <placeName ref="place16">Italiam</placeName> propter medicinę<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> mediciae.</note> studium.</s>
+					<s n="5" xml:lang="la" type="auto">Pergunt in <placeName>Italiam</placeName> propter medicinę<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> mediciae.</note> studium.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Vale in Christo domino et me ama.</s>
 					<s n="7" xml:lang="la" type="auto">Vale cum omnibus.</s>
-					<s n="8" xml:lang="la" type="auto">S. <persName ref="person81">Grynęus</persName> tuus<note xml:id="fnb" type="footnote" n="b"><hi>Darunter Notiz von Bullingers Hand:</hi> Ultimum Grynaei scriptum. Nam mortuus est 1. augusti anno 1541.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">S. <persName ref="p1365">Grynęus</persName> tuus<note xml:id="fnb" type="footnote" n="b"><hi>Darunter Notiz von Bullingers Hand:</hi> Ultimum Grynaei scriptum. Nam mortuus est 1. augusti anno 1541.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

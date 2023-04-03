@@ -6,45 +6,41 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Joachim Vadian, 16. Juni 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2181</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">422</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Die Vadianische Briefsammlung der Stadtbibliothek St. Gallen, hg. v. Emil Arbenz und Hermann Wartmann, 7 Bde., St. Gallen 1890-1913 - MVG 24-30a.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,136</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Im Wissen, dass <persName ref="person226">Vadian</persName> fromme und den Studien ergebene Menschen sonst immer willkommen sind, dass aber doch
+								Im Wissen, dass <persName ref="p8049">Vadian</persName> fromme und den Studien ergebene Menschen sonst immer willkommen sind, dass aber doch
 								viele Landstreicher sich als Gelehrte ausgeben und gute Männer täuschen, empfiehlt Bullinger den den
-								Zürchern liebgewordenen [Überbringer] <persName ref="person20835">Gerhard [thom Camph</persName>], einen adligen Friesen, der in Zürich studierte
-								und bei <persName ref="person165">[Konrad] Pellikan</persName>
-								wohnte. Auf der Rückkehr in seine Heimat möchte er besonders <persName ref="person226">Vadian</persName>, die Stadt [St. Gallen] und die dortige
+								Zürchern liebgewordenen [Überbringer] <persName ref="p4112">Gerhard [thom Camph]</persName>, einen adligen Friesen, der in Zürich studierte
+								und bei <persName ref="p8127">[Konrad] Pellikan</persName>
+								wohnte. Auf der Rückkehr in seine Heimat möchte er besonders <persName ref="p8049">Vadian</persName>, die Stadt [St. Gallen] und die dortige
 								Kirche besuchen. Er bedarf keiner [finanziellen] Unterstützung.
 							</p>
 						</summary>
@@ -55,7 +51,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Vadian BW VI, S. 422f, Nr. 1401</title>
+								<title>Vadian BW VI, S.422f, Nr. 1401</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -65,7 +61,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12228">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -75,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1545-06-16" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -115,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

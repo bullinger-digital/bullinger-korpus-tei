@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive70">
+						<repository ref="a70">
 							<name>Paris BFP</name>
 							<ref target="https://www.shpf.fr/bibliotheque/"/>
 						</repository>
-						<settlement ref="place378">Paris</settlement>
+						<settlement ref="l378">Paris</settlement>
 						<institution>Bibliothèque du Protestantisme Français</institution>
 						-->
-						<repository ref="archive70"/>
+						<repository ref="a70"/>
 						<idno subtype="Autograph">(Mcs 756/1 ?), fol 356</idno>
 						<idno subtype="Mikrofilm">IRG, von B. Hertenstein am 1. April 1971 an Gäbler gesandt</idno>
 						<idno subtype="Hinweis">Collection Labouchère</idno>
@@ -46,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive49">
+						<repository ref="a49">
 							<name>Kopenhagen KB</name>
 							<ref target="https://www.kb.dk/"/>
 						</repository>
-						<settlement ref="place258">Kopenhagen</settlement>
+						<settlement ref="l258">Kopenhagen</settlement>
 						<institution>Königliche Bibliothek</institution>
 						-->
-						<repository ref="archive49"/>
+						<repository ref="a49"/>
 						<idno subtype="Kopie">Thott. 484, 2°, Nr. 608</idno>
 						<idno subtype="Mikrofilm">IRG, Rüetschi</idno>
 						<idno subtype="Hinweis">1/2 Seite</idno>
@@ -62,43 +59,46 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
+						<repository ref="a6"/>
 						<idno subtype="Kopie">G II 20,6</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
-						<idno subtype="Autograph">G II, fol 356f</idno>
+						<repository ref="a6"/>
+						<idno subtype="Autograph">G II 47:Bl.6</idno>
 						<idno subtype="Hinweis">Photoaufnahme von Rainer Henrich mitgeteilt Ende Juli 2010 anlässlich seines Besuchtes in Paris. (s. Ordner Bullinger-Brief-Kopien / Frankreich unter Paris BPF und im Computer I/08-Aufnahmen von HBBriefe) [Interna]</idno>
+						<altIdentifier>
+							<idno subtype="Autograph">G II, fol 356f</idno>
+						</altIdentifier>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,222</idno>
 						<idno subtype="Hinweis">1550 eingereiht!</idno>
 					</msIdentifier>
@@ -108,7 +108,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8367">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,11 +118,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1570-08-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1343" cert="high">
+					<persName ref="p1343" cert="high">
 						<!--
 						<surname cert="high">Grynaeus</surname>
 						<forename cert="high">Johann Jakob</forename>
@@ -133,7 +133,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415275"/>
 						-->
 					</persName>
-					<placeName source="place434" cert="high"><orig>Rötteln</orig></placeName>
+					<placeName source="l434" cert="high"><orig>Rötteln</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8368"/>
@@ -155,7 +155,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

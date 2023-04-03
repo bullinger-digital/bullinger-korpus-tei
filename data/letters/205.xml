@@ -6,32 +6,31 @@
 				<title subtype="file">Wolfgang Musculus / Basel AN Heinrich Bullinger / Zürich, [19. Juli 1548]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">997</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Beilage" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,252</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Beilage" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 67,105</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,7 +59,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/205">
 				<correspAction type="sent">
-					<persName ref="person2229" cert="high">
+					<persName ref="p2229" cert="high">
 						<!--
 						<surname cert="high">Musculus</surname>
 						<forename cert="high">Wolfgang</forename>
@@ -71,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413916"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1548-07-19" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -85,7 +84,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file206"/>
@@ -111,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,7 +131,7 @@
 					<s n="6" xml:lang="la" type="auto">Hinc periculum subesse putant, si adversariorum pars nunc deiecta per te, si involute talia tractares, erigi possit."</s>
 					<s n="7" xml:lang="la" type="auto">Haec ad me Hallerus cum nonnullis aliis ad eundem scopum pertinentibus satis fuse scribit, quę animum meum nonnihil remorantur, ut ad hanc se ecclesiam gravatim accommodet.</s>
 					<s n="8" xml:lang="la" type="auto">Cogito quippe, quantę sit futurum molestię conversari inter fratres, quorum animi sinistra de me suspicione laborant, quamque difficile futurum sit sic agere inter eos, qui adhuc contentionis spiritu occupantur, ut neutram partem offendam, praesertim homo extraneus et morum eius gentis ignarus, ad quod accedit et illud, quod Hallerus noster, cuius praesentia aliquandiu forsan recreari possem, isthic non est mansurus.</s>
-					<s n="9" xml:lang="la" type="auto">Quod ad cuasam sacramentariam attinet, de qua certarunt, hoc de me in conspectu Christi bona cum conscientia testari possum, quod, quicquid carnalium, crassiorum et absurdiorum sensuum quasi quoddam coenum illi infertur, ex animo detestor sciens rem ipsam ut spiritualem, de qua Chrysostomus dicit: (Griechisch), spirituales quoque syncerę fidei requirere sensus, et quicquid illius symbolo externo ac visibili tribuitur, non proprie, sed symbolice et sacramentaliter esse intelligendum.</s>
+					<s n="9" xml:lang="la" type="auto">Quod ad cuasam sacramentariam attinet, de qua certarunt, hoc de me in conspectu Christi bona cum conscientia testari possum, quod, quicquid carnalium, crassiorum et absurdiorum sensuum quasi quoddam coenum illi infertur, ex animo detestor sciens rem ipsam ut spiritualem, de qua Chrysostomus dicit: <foreign xml:lang="el">[Griechisch]</foreign> spirituales quoque syncerę fidei requirere sensus, et quicquid illius symbolo externo ac visibili tribuitur, non proprie, sed symbolice et sacramentaliter esse intelligendum.</s>
 					<s n="10" xml:lang="la" type="auto">Verum quamvis ad hunc modum sentio, aegerrime tamen illis satisfacere potero, qui scripta mea iudicio non satis defecato legunt.</s>
 					<s n="11" xml:lang="la" type="auto">Haec me cogitatio in praesenti torquet, quam tibi ut fratri in Christo syncero et iuxta cordato aperire volui, ut tecum ipse, quid faciendum putes, haud secus expendas, quam si meo loco esses, a qua tamen sorte oro dominum ut conserveris in sempiternum.</s>
 					<s n="12" xml:lang="la" type="auto">Amo Hallerum plurimum scioque, quam ille erga me sit animo candido, ut optatissimum merito futurum sit, si quo loco simul utrique convivere detur.</s>

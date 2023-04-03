@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4496" type="Rückseite" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4496" type="Brief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Rückseite" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms A 65, S. 11 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -51,14 +48,14 @@
 				<msDesc type="Rückseite" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 98,116</idno>
 						<idno subtype="Hinweis">dat.: ca. 16. Oktober 1560</idno>
 					</msIdentifier>
@@ -68,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4496">
 				<correspAction type="sent">
-					<persName ref="person503" cert="low">
+					<persName ref="p503" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">s.n.</forename>
@@ -79,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1560-10-12" cert="low"><note>Datum unsicher  s.d. [1560, Okt. 12. - 27.]</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person392" cert="low">
+					<persName ref="p392" cert="low">
 						<!--
 						<surname cert="low">Blarer</surname>
 						<forename cert="low">Ambrosius</forename>
@@ -94,7 +91,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place555" cert="low"><orig>Winterthur</orig></placeName>
+					<placeName source="l555" cert="low"><orig>Winterthur</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file4495"/>
@@ -113,12 +110,12 @@
 					<ref type="prev_with_sender_as_addressee" target="file4490"/>
 					<ref type="next_with_addressee_as_sender" target="file4495"/>
 					<ref type="prev_with_addressee_as_sender" target="file4491"/>
-					<ref type="parent" target="file4497"/>
+					<ref type="child" target="file4497"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

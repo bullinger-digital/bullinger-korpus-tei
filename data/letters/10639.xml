@@ -6,48 +6,39 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 24. Juni 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=601</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">250</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,142</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Freut sich über das ihm entgegengebrachte Vertrauen. Bittet um sein Urteil über eine Stelle aus
-								<persName ref="person779">Erasmus</persName>' "Ecclesiastes". Empfiehlt
-								<persName ref="person172">[Thomas] Platter</persName> als neuen
+								<persName ref="p18722">Erasmus</persName>' "Ecclesiastes". Empfiehlt
+								<persName ref="p6117">[Thomas] Platter</persName> als neuen
 								Buchdrucker.
 							</p>
 						</summary>
@@ -58,7 +49,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>C.O. X/2, S. 47f</title>
+								<title>C.O. X/2, S.47f</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 601, S.250</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -68,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10639">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -79,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1535-06-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -130,20 +124,20 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Quod etiam mysteria, ut ita vocem, tua talia non vis esse mihi<note xml:id="fn1" type="footnote" n="1">Bullinger hatte <persName ref="person154">Myconius</persName> eine Abschrift seines Briefes an <persName ref="person28">Bucer</persName> anvertraut, s. oben <ref target="file10632">Nr. 594</ref>, 27-30.</note>, intelligo animum tuum erga me.</s>
+					<s n="2" xml:lang="la" type="auto">Quod etiam mysteria, ut ita vocem, tua talia non vis esse mihi<note xml:id="fn1" type="footnote" n="1">Bullinger hatte <persName>Myconius</persName> eine Abschrift seines Briefes an <persName ref="p18198">Bucer</persName> anvertraut, s. oben <ref target="file10632">Nr. 594</ref>, 27-30.</note>, intelligo animum tuum erga me.</s>
 					<s n="3" xml:lang="la" type="auto">Gaudeo, ut magis nequeam.</s>
 					<s n="4" xml:lang="la" type="auto">Dolet deinde tot esse ubique terrores, verum deus ut hactenus tuebitur suos, atque id est, unde dolor omnis absumitur.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Duo vero sunt, quę scribere cogor ob temporis angustiam, unum de <persName ref="person779">Erasmo</persName>, alterum de Blattero<note xml:id="fn2" type="footnote" n="2"><persName ref="person172">Thomas Platter</persName>, geb. 1499 oder vielleicht erst nach 1507, gest. 1582, aus <placeName ref="place428">Grächen</placeName> (Kt. Wallis), war zuerst Ziegenhirt und zog darauf als fahrender Schüler durch <placeName ref="place7">Deutschland</placeName>. Unter dem Einfluß <persName ref="person265">Zwinglis</persName> schloß er sich in Zürich der Reformation an. Während der <placeName ref="place85">Badener</placeName> Disputation von 1526 vermittelte er geheime Nachrichten zwischen <persName ref="person160">Oekolampad</persName> und <persName ref="person265">Zwingli</persName>. Von <persName ref="person154">Myconius</persName> und <persName ref="person14">Theodor Bibliander</persName> wurde er in den alten Sprachen unterrichtet und erlernte daneben das Seilerhandwerk. Während er in <placeName ref="place97">Basel</placeName> als Seilergeselle arbeitete, setzte er seine Studien fort und unterrichtete auf Veranlassung von Johannes Oporin hebräische Grammatik. Er nahm am Ersten Kappelerkrieg teil, heiratete die Magd von <persName ref="person154">Myconius</persName> und wurde Provisor bei Oporin. 1531 ließ er sich endgültig in <placeName ref="place97">Basel</placeName> nieder, wo er nun Griechisch lehrte und als Korrektor in der Druckerei von Johannes Herwagen arbeitete. 1535 gründete er mit Oporin, Balthasar Lasius und Ruprecht Winter eine Druckergemeinschaft, zu deren ersten Erzeugnissen Calvins "Institutio" gehörte; nach dem Auseinanderbrechen dieser Gesellschaft war er noch bis 1544 als selbständiger Drucker tätig. 1541-1578 leitete er die Lateinschule auf Burg. Die von ihm selbst verfaßte Lebensbeschreibung gilt als eine der besten des 16. Jahrhunderts. Von seiner Korrespondenz mit Bullinger sind drei Briefe aus den Jahren 1536/37 erhalten. - Lit.: <persName ref="person172">Thomas Platter</persName>, Lebensbeschreibung. Mit einem Vorwort von Walter <hi>Muschg</hi> hg. v. Alfred Hartmann, <placeName ref="place97">Basel</placeName> 1944; Friedrich <hi>Rudolf,</hi> Zürich und <persName ref="person172">Thomas Platters</persName> Anfänge als Buchdrucker, in: Schweizerisches Gutenbergmuseum XXX, 1944, S. 153-156; <hi>Benzing,</hi> Buchdrucker 37f; <hi>Grimm,</hi> Buchführer 1398f; Jakob <hi>Bächtold,</hi> in: ADB XXVI 265f; HBLS V 453.</note> meo.</s>
+					<s n="5" xml:lang="la" type="auto">Duo vero sunt, quę scribere cogor ob temporis angustiam, unum de <persName ref="p18722">Erasmo</persName>, alterum de Blattero<note xml:id="fn2" type="footnote" n="2"><persName>Thomas Platter</persName>, geb. 1499 oder vielleicht erst nach 1507, gest. 1582, aus <placeName>Grächen</placeName> (Kt. Wallis), war zuerst Ziegenhirt und zog darauf als fahrender Schüler durch <placeName>Deutschland</placeName>. Unter dem Einfluß <persName>Zwinglis</persName> schloß er sich in Zürich der Reformation an. Während der <placeName>Badener</placeName> Disputation von 1526 vermittelte er geheime Nachrichten zwischen <persName>Oekolampad</persName> und <persName>Zwingli</persName>. Von <persName>Myconius</persName> und <persName>Theodor Bibliander</persName> wurde er in den alten Sprachen unterrichtet und erlernte daneben das Seilerhandwerk. Während er in <placeName>Basel</placeName> als Seilergeselle arbeitete, setzte er seine Studien fort und unterrichtete auf Veranlassung von Johannes Oporin hebräische Grammatik. Er nahm am Ersten Kappelerkrieg teil, heiratete die Magd von <persName>Myconius</persName> und wurde Provisor bei Oporin. 1531 ließ er sich endgültig in <placeName>Basel</placeName> nieder, wo er nun Griechisch lehrte und als Korrektor in der Druckerei von Johannes Herwagen arbeitete. 1535 gründete er mit Oporin, Balthasar Lasius und Ruprecht Winter eine Druckergemeinschaft, zu deren ersten Erzeugnissen Calvins "Institutio" gehörte; nach dem Auseinanderbrechen dieser Gesellschaft war er noch bis 1544 als selbständiger Drucker tätig. 1541-1578 leitete er die Lateinschule auf Burg. Die von ihm selbst verfaßte Lebensbeschreibung gilt als eine der besten des 16. Jahrhunderts. Von seiner Korrespondenz mit Bullinger sind drei Briefe aus den Jahren 1536/37 erhalten. - Lit.: <persName>Thomas Platter</persName>, Lebensbeschreibung. Mit einem Vorwort von Walter <hi>Muschg</hi> hg. v. Alfred Hartmann, <placeName>Basel</placeName> 1944; Friedrich <hi>Rudolf,</hi> Zürich und <persName>Thomas Platters</persName> Anfänge als Buchdrucker, in: Schweizerisches Gutenbergmuseum XXX, 1944, S. 153-156; <hi>Benzing,</hi> Buchdrucker 37f; <hi>Grimm,</hi> Buchführer 1398f; Jakob <hi>Bächtold,</hi> in: <bibl>ADB</bibl> XXVI 265f; <bibl>HBLS</bibl> V 453.</note> meo.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto"><pb type="edition" next="251"/>Ecclesiastes <persName ref="person779">Erasmi</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person779">Erasmus</persName>, Ecclesiastae sive de ratione concionandi libri IV (LB V 767-1100).</note>, qui clam<note xml:id="fna" type="footnote" n="a"><hi>nach</hi> clam <hi>gestrichenes</hi> mihi.</note>, nondum quidem perfectus ad me venit, inter caetera sic habet post commendationem sacerdotii novi testamenti tandem ex collatione sacerdotii Aaronis et filiorum eius: "Quanta vero dignitas decet novi testamenti ministros, qui quotidie immolant illam coelestem hostiam angelicis quoque spiritibus adorandam, qui contrectant manibus carnem agni immaculati?"<note xml:id="fn4" type="footnote" n="4">LB V 797.</note></s>
-					<s n="7" xml:lang="la" type="manual">Non videtur permittendum, ut tale quidpiam in urbe christiana imprimatur<note xml:id="fn5" type="footnote" n="5">Obwohl <persName ref="person154">Myconius</persName> den Druck zu verhindern suchte (vgl. unten <ref target="file10645">Nr. 607</ref>, 6-21 sowie Amerbach, Korr. IV 360-363; Capito, Corr. 189-191; <hi>Pollet,</hi> Bucer II 366f), konnte das Buch Ende August 1535 bei <persName ref="person888">Froben</persName> erscheinen (vgl. <persName ref="person779">Erasmus</persName>, Corr. XI 189f).</note>.</s>
+					<s n="6" xml:lang="la" type="auto"><pb type="edition" next="251"/>Ecclesiastes <persName ref="p18722">Erasmi</persName><note xml:id="fn3" type="footnote" n="3"><persName>Erasmus</persName>, Ecclesiastae sive de ratione concionandi libri IV (<bibl>LB</bibl> V 767-1100).</note>, qui clam<note xml:id="fna" type="footnote" n="a"><hi>nach</hi> clam <hi>gestrichenes</hi> mihi.</note>, nondum quidem perfectus ad me venit, inter caetera sic habet post commendationem sacerdotii novi testamenti tandem ex collatione sacerdotii Aaronis et filiorum eius: "Quanta vero dignitas decet novi testamenti ministros, qui quotidie immolant illam coelestem hostiam angelicis quoque spiritibus adorandam, qui contrectant manibus carnem agni immaculati?"<note xml:id="fn4" type="footnote" n="4"><bibl>LB</bibl> V 797.</note></s>
+					<s n="7" xml:lang="la" type="manual">Non videtur permittendum, ut tale quidpiam in urbe christiana imprimatur<note xml:id="fn5" type="footnote" n="5">Obwohl <persName>Myconius</persName> den Druck zu verhindern suchte (vgl. unten <ref target="file10645">Nr. 607</ref>, 6-21 sowie Amerbach, Korr. IV 360-363; <bibl>Capito, Corr.</bibl> 189-191; <hi>Pollet,</hi> Bucer II 366f), konnte das Buch Ende August 1535 bei <persName>Froben</persName> erscheinen (vgl. <persName>Erasmus</persName>, Corr. XI 189f).</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Fac sciam sententiam tuam.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Blatterum autem novum impressorem tibi commendatum volo, ut si quid possis illi mox praeter offensionem <persName ref="person891">Froschoweri</persName> commodare, ne detrectes.</s>
+					<s n="9" xml:lang="la" type="auto">Blatterum autem novum impressorem tibi commendatum volo, ut si quid possis illi mox praeter offensionem <persName ref="p1227">Froschoweri</persName> commodare, ne detrectes.</s>
 					<s n="10" xml:lang="la" type="auto">Quae scribis, chara sunt atque adeo vendibilia.</s>
 					<s n="11" xml:lang="la" type="auto">Potes igitur promovere tuis scriptis illius usum.</s>
 					<s n="12" xml:lang="la" type="auto">Quod breviter dico, ne videar non confidere tibi.</s>
@@ -156,7 +150,7 @@
 					<s n="15" xml:lang="la" type="auto">Vale per Christum.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, 24. iunii anno 1535.</s>
+					<s n="16" xml:lang="la" type="auto"><placeName>Basileę</placeName>, 24. iunii anno 1535.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Os. Myc. tuus.</s>

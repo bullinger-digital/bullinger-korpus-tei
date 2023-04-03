@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 1. Mai 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=216</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">115</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,130</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,23 +38,30 @@
 							<p xml:id="regest1">
 								Bittet um sichere Nachrichten über den von Zürich angenommenen Schiedspruch zur Beendigung des
 								Mandatstreites. Schlimme Gerüchte: Zürich habe den katholischen als den wahren Glauben wieder anerkannt,
-								eine weitere Vereinbarung mit <placeName ref="place51">den V Orten</placeName> sei in Sicht, Zürich habe versprochen, nie wieder solche
+								eine weitere Vereinbarung mit <placeName>den V Orten</placeName> sei in Sicht, Zürich habe versprochen, nie wieder solche
 								Religionsmandate zu erlassen, die nächste eidgenössische Tagsatzung solle in Zürich stattfinden etc. Wenn
-								das alles wahr ist, soll Bullinger die Briefe von <persName ref="person154">Myconius</persName> gut
-								verwahren. Bittet um Information über <persName ref="person28">Bucers</persName> Besuch. Grüße.
+								das alles wahr ist, soll Bullinger die Briefe von <persName ref="p8418">Myconius</persName> gut
+								verwahren. Bittet um Information über <persName ref="p467">Bucers</persName> Besuch. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 216, S.115</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10247">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1533-05-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -130,26 +128,26 @@
 					<s n="3" xml:lang="la" type="auto">Nemo non pessima quaeque de vobis ingerit.</s>
 					<s n="4" xml:lang="la" type="auto">Ego vero, ut sum adfectu sano erga Tigurinos, non facile credo, dum mala de eis et impia dicuntur.</s>
 					<s n="5" xml:lang="la" type="auto">Priusquam igitur quicquam recipiam, cupio certior abs te fieri.</s>
-					<s n="6" xml:lang="la" type="auto">Verum quo me clarius intelligas, sic accepimus: Concordiam talem inter vos et Pagos<note xml:id="fn1" type="footnote" n="1"><placeName ref="place51">Die V Orte</placeName>.</note> conflatam<note xml:id="fn2" type="footnote" n="2">Zur Beendigung des Mandatstreites mit dem Schiedspruch vom 22. April 1533 s. oben <ref target="file10245">[Nr. 214]</ref> S. 113, Anm. 12.</note>, ut deinceps neutiquam vos verbis aut scriptis aut factis fidem papisticam contingatis, corripiatis, improbetis, sed teneatis, ut sitis confessi, pro vetere, indubia etc. fide.</s>
+					<s n="6" xml:lang="la" type="auto">Verum quo me clarius intelligas, sic accepimus: Concordiam talem inter vos et Pagos<note xml:id="fn1" type="footnote" n="1"><placeName>Die V Orte</placeName>.</note> conflatam<note xml:id="fn2" type="footnote" n="2">Zur Beendigung des Mandatstreites mit dem Schiedspruch vom 22. April 1533 s. oben <ref target="file10245">[Nr. 214]</ref> S. 113, Anm. 12.</note>, ut deinceps neutiquam vos verbis aut scriptis aut factis fidem papisticam contingatis, corripiatis, improbetis, sed teneatis, ut sitis confessi, pro vetere, indubia etc. fide.</s>
 					<s n="7" xml:lang="la" type="auto">Similiter autem et istos promisisse non passuros, ut fides vestra vituperetur.</s>
 					<s n="8" xml:lang="la" type="auto">Insuper autem istos permisisse, ut cum opus sit militibus Franco, de suis accipiant, quotquot fuerit libitum.</s>
 					<s n="9" xml:lang="la" type="auto">Alii dicunt audisse Pagos defectionem Tigur[inorum] futuram, nisi se praebeant quam hactenus mitiores, et ob id commodissime ad concordiam accessisse.</s>
 					<s n="10" xml:lang="la" type="auto">At qualis haec sit, nondum comperi.</s>
 					<s n="11" xml:lang="la" type="auto">Alii dicunt iurasse vos post recantatum mandatum nihil unquam tale missuros in publicum deinceps esse.</s>
-					<s n="12" xml:lang="la" type="auto">Tum institutum, ut proxima comitia foederatorum habeantur Tiguri<note xml:id="fn3" type="footnote" n="3">Zum tatsächlichen Inhalt des Urteils s. EA IV/1c 63f und HBRG III 341f.</note>.</s>
+					<s n="12" xml:lang="la" type="auto">Tum institutum, ut proxima comitia foederatorum habeantur Tiguri<note xml:id="fn3" type="footnote" n="3">Zum tatsächlichen Inhalt des Urteils s. <bibl>EA</bibl> IV/1c 63f und <bibl>HBRG</bibl> III 341f.</note>.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Ut erga ista adficiar, dicerem, si crederem esse vera.</s>
 					<s n="14" xml:lang="la" type="auto">Nunc cum res habeat, ut dixi, ne verbum quidem adiiciam.</s>
 					<s n="15" xml:lang="la" type="auto">Usque dum certior factus, nihil temere dicam.</s>
-					<s n="16" xml:lang="la" type="auto">Quid aliud nunc velim, non est, nisi ut, si tui tales essent, quales praedicantur, caveas, ne literae, quas hactenus misi, fraudi sint aliquando nobis, tum vero, ut dum licebit per ocium, perscribas de <persName ref="person28">Bucero</persName> et rebus, quae gesserit apud vos<note xml:id="fn4" type="footnote" n="4">Zum Besuch <persName ref="person28">Bucers</persName> in Zürich vom 4. oder 5. bis 8. Mai 1533 s. HBRG III 343; oben S. 112, Anm. 3.</note>.</s>
+					<s n="16" xml:lang="la" type="auto">Quid aliud nunc velim, non est, nisi ut, si tui tales essent, quales praedicantur, caveas, ne literae, quas hactenus misi, fraudi sint aliquando nobis, tum vero, ut dum licebit per ocium, perscribas de <persName ref="p467">Bucero</persName> et rebus, quae gesserit apud vos<note xml:id="fn4" type="footnote" n="4">Zum Besuch <persName ref="p18198">Bucers</persName> in Zürich vom 4. oder 5. bis 8. Mai 1533 s. <bibl>HBRG</bibl> III 343; oben S. 112, Anm. 3.</note>.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Vale per dominum et age fortiter pro veritate, ut soles, coronam certam recepturus ab eo, cui militasti<note xml:id="fn5" type="footnote" n="5">Vgl. 2Tim 4, 8; 1Petr 5, 4.</note>.</s>
-					<s n="18" xml:lang="la" type="auto"><persName ref="person225">Utingerum</persName>, <persName ref="person165">Pellicanum</persName>, <persName ref="person14">Theodorum</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person14">Theodor Bibliander</persName>.</note> opto salvos.</s>
+					<s n="18" xml:lang="la" type="auto"><persName ref="p3242">Utingerum</persName>, <persName ref="p8127">Pellicanum</persName>, <persName ref="p8171">Theodorum</persName><note xml:id="fn6" type="footnote" n="6"><persName>Theodor Bibliander</persName>.</note> opto salvos.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, kalendas maii anno 33.</s>
+					<s n="19" xml:lang="la" type="auto"><placeName>Basileae</placeName>, kalendas maii anno 33.</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="la" type="auto">Os. My. tuus.</s>

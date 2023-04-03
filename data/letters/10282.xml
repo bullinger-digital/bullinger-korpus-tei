@@ -6,54 +6,45 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius, 18. August 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=251</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">166</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,12</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Wehrt sich gegen die ihm von <persName ref="person154">Myconius</persName> mitgeteilten Gerüchte über die
-								Entwicklung in Zürich: von geheimen Verhandlungen mit <placeName ref="place11">Frankreich</placeName>
+								Wehrt sich gegen die ihm von <persName ref="p8418">Myconius</persName> mitgeteilten Gerüchte über die
+								Entwicklung in Zürich: von geheimen Verhandlungen mit <placeName>Frankreich</placeName>
 								kann gar keine Rede sein; Fremde und Flüchtlinge werden von Zürich nicht ausgewiesen; Zürich plant auch
-								nichts Nachteiliges gegen <placeName ref="place121">Bern</placeName>. Bullinger sendet
-								<persName ref="person154">Myconius</persName> sein Buch «Von dem unverschämten Frevel der Wiedertäufer» zu.
-								<persName ref="person1479">[Heinrich] Lavater</persName> bleibt in
+								nichts Nachteiliges gegen <placeName>Bern</placeName>. Bullinger sendet
+								<persName ref="p8418">Myconius</persName> sein Buch «Von dem unverschämten Frevel der Wiedertäufer» zu.
+								<persName ref="p5618">[Heinrich] Lavater</persName> bleibt in
 								Zürich bei Bullinger. In Zürich ist man trotz der erlittenen Erniedrigungen nicht verzagt, sondern hofft auf
 								Gottes Hilfe. Bullinger fragt nach einer Möglichkeit, den beiden Zürcher Stipendiaten in
-								<placeName ref="place165">Bourges</placeName> Geld zu senden.
+								<placeName>Bourges</placeName> Geld zu senden.
 							</p>
 						</summary>
 						<msItem>
@@ -68,6 +59,9 @@
 							<bibl type="Gedruckt" subtype="Teilübersetzung">
 								<title>Rudolf, Aussöhnungsversuch 508</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 251, S.166</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -76,7 +70,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10282">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -86,11 +80,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1533-08-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -127,7 +121,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -141,7 +135,7 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et vitae innocentiam a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Negotia hactenus obstiterunt, quominus scripserim, at nunc paucis ad singula<note xml:id="fn1" type="footnote" n="1">Nämlich im Brief von <persName ref="person154">Myconius</persName> an ihn, 20. Juli 1533, oben <ref target="file10275">Nr. 244</ref>.</note> respondebo.</s>
+					<s n="2" xml:lang="la" type="auto">Negotia hactenus obstiterunt, quominus scripserim, at nunc paucis ad singula<note xml:id="fn1" type="footnote" n="1">Nämlich im Brief von <persName>Myconius</persName> an ihn, 20. Juli 1533, oben <ref target="file10275">Nr. 244</ref>.</note> respondebo.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Video autem nimis verum esse, quod trito fertur proverbio, de calamitosis inauspicatissima quaeque narrari semper<note xml:id="fn2" type="footnote" n="2">Etwa im Sinne des deutschen Sprichwortes: «Wer Unglück hat, braucht für Spott nicht zu sorgen.»</note>.</s>
@@ -151,16 +145,16 @@
 				<p>
 					<s n="6" xml:lang="la" type="auto"><pb type="edition" next="167"/>Cur autem nuper<note xml:id="fna" type="footnote" n="a">nuper <hi>am Rande nachgetragen.</hi></note> receperint nuncii nostri viri alias boni coronatos aliquot, et quid praeterea actum sit super eo negotio<note xml:id="fn3" type="footnote" n="3">Siehe oben S. 164, 10f.</note>, procul dubio non nescis.</s>
 					<s n="7" xml:lang="la" type="auto">Iam quod de advenis et exulibus et profugis urbe et agro expellendis narrasti, longe alio instituto coeptum<note xml:id="fnb" type="footnote" n="b">coeptum <hi>am Rande nachgetragen.</hi></note> est, quod lator<note xml:id="fn4" type="footnote" n="4">Unbekannt.</note> praesentium exponet.</s>
-					<s n="8" xml:lang="la" type="auto">Quodsi praeterea adversum <placeName ref="place121">Bern[enses]</placeName> a nostris quidpiam<note xml:id="fnc" type="footnote" n="c">quidpiam <hi>am Rande nachgetragen.</hi></note> institui coepit, universi nescimus, nec timemus quidpiam posse institui.</s>
-					<s n="9" xml:lang="la" type="auto">Ager enim totus, denique cives universi <placeName ref="place121">Bernatibus</placeName> melius volunt, quam ut paucorum (quam tamen nescimus) conspiratio nocere possit.</s>
+					<s n="8" xml:lang="la" type="auto">Quodsi praeterea adversum <placeName>Bern[enses]</placeName> a nostris quidpiam<note xml:id="fnc" type="footnote" n="c">quidpiam <hi>am Rande nachgetragen.</hi></note> institui coepit, universi nescimus, nec timemus quidpiam posse institui.</s>
+					<s n="9" xml:lang="la" type="auto">Ager enim totus, denique cives universi <placeName>Bernatibus</placeName> melius volunt, quam ut paucorum (quam tamen nescimus) conspiratio nocere possit.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Libros nostros olim adversus catabaptistas<note xml:id="fn5" type="footnote" n="5">«Von dem unverschämten Frevel der Wiedertäufer», 1531 (HBBibl I 28).</note> rudi Minerva<note xml:id="fn6" type="footnote" n="6">Mit roher Hand oder derbem Verstand, vgl. Adagia, 1, 1, 37 (LB II 42); Otto 224, Nr. 1119.</note> conscriptos mitto.</s>
+					<s n="10" xml:lang="la" type="auto">Libros nostros olim adversus catabaptistas<note xml:id="fn5" type="footnote" n="5">«Von dem unverschämten Frevel der Wiedertäufer», 1531 (<bibl>HBBibl</bibl> I 28).</note> rudi Minerva<note xml:id="fn6" type="footnote" n="6">Mit roher Hand oder derbem Verstand, vgl. <bibl>Adagia</bibl>, 1, 1, 37 (<bibl>LB</bibl> II 42); Otto 224, Nr. 1119.</note> conscriptos mitto.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">De <persName ref="person132">Lavatero</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person1479">Heinrich Lavater</persName>, s. oben S. 157, 28f.</note> non est, quod aliud expectes.</s>
+					<s n="11" xml:lang="la" type="auto">De <persName ref="p1888">Lavatero</persName><note xml:id="fn7" type="footnote" n="7"><persName>Heinrich Lavater</persName>, s. oben S. 157, 28f.</note> non est, quod aliud expectes.</s>
 					<s n="12" xml:lang="la" type="auto">Manebit adhuc apud me.</s>
-					<s n="13" xml:lang="la" type="auto">Egit tamen gratias <persName ref="person132">Lavaterus</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="person132">Hans Rudolf Lavater</persName>, s. ebenda.</note>.</s>
+					<s n="13" xml:lang="la" type="auto">Egit tamen gratias <persName ref="p1888">Lavaterus</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="p6155">Hans Rudolf Lavater</persName>, s. ebenda.</note>.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Non desperamus, de gratia domini subinde meliora speramus.</s>
@@ -172,14 +166,14 @@
 					<s n="18" xml:lang="la" type="auto">Tiguri, 18. augusti 1533.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><persName ref="person1479">Heinrychus</persName> tuus.</s>
+					<s n="19" xml:lang="la" type="auto"><persName ref="p5618">Heinrychus</persName> tuus.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="de" type="auto">Lieber, habend ir gewüsse bottschaff[t] gen Burgis inn Franckrych, so lassend michs wüssen; so wölltend wir unsernn knaben<note xml:id="fn11" type="footnote" n="11"><persName ref="person79">Konrad Geßner</persName> und <persName ref="person69">Johannes Fries</persName>, die seit April 1533 in <placeName ref="place165">Bourges</placeName> studierten, s. oben <ref target="file10241">Nr. 210</ref> und 224.</note> gällt rüsten, inen ze schickenn.</s>
+					<s n="20" xml:lang="de" type="auto">Lieber, habend ir gewüsse bottschaff[t] gen Burgis inn Franckrych, so lassend michs wüssen; so wölltend wir unsernn knaben<note xml:id="fn11" type="footnote" n="11"><persName>Konrad Geßner</persName> und <persName>Johannes Fries</persName>, die seit April 1533 in <placeName>Bourges</placeName> studierten, s. oben <ref target="file10241">Nr. 210</ref> und 224.</note> gällt rüsten, inen ze schickenn.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="21" xml:lang="la" type="auto">Domino <persName ref="person154">Oswaldo Myconio</persName>, <placeName ref="place97">Basileiensis</placeName> ecclesiae praesuli vigilantissimo, fratri in domino observando.</s>
+					<s n="21" xml:lang="la" type="auto">Domino <persName ref="p8418">Oswaldo Myconio</persName>, <placeName>Basileiensis</placeName> ecclesiae praesuli vigilantissimo, fratri in domino observando.</s>
 				</p>
 			</div>
 		</body>

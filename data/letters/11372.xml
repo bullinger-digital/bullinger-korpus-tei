@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius AN Heinrich Bullinger, Mitte Novemeber 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1329</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">249</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,382</idno>
 					</msIdentifier>
 					<msContents>
@@ -48,25 +39,32 @@
 								Hat noch keinen Zuspruch erhalten, obwohl er über die hoffnungslose Zerstrittenheit der Basler Kirche
 								geklagt hat und seine Frau schon vierzehn Tage an der Pest darniederliegt. In aller Bedrängnis ist Gott
 								seine einzige Zuflucht; er ist verzweifelter als während des [Zweiten
-								<placeName ref="place534">Kappeler</placeName>] Kriegs, weil
-								[<persName ref="person117">Karlstadt</persName>] die Kirche verwüstet und keine Besserung zu erwarten ist.
+								<placeName>Kappeler</placeName>] Kriegs, weil
+								[<persName ref="p4349">Karlstadt</persName>] die Kirche verwüstet und keine Besserung zu erwarten ist.
 								Bullinger braucht ihn nicht mehr als „Bischof“ anzureden, da die Kirchenleitung neuerdings vierteljährlich
 								wechselt; ausgerechnet er, der sein Amt nie gesucht hat, wurde beschuldigt, nach Alleinherrschaft zu
 								streben. Bittet, ihn zu trösten und für den kranken [Alt-]Bürgermeister
-								<persName ref="person148">Jakob Meyer</persName> zu beten.
+								<persName ref="p18678">Jakob Meyer</persName> zu beten.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1329, S.249</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11372">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -80,7 +78,7 @@
 					<date notBefore="1539-11-01" notAfter="1539-11-12" cert="low">Mitte Novemeber 1539</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,7 +127,7 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Quo sum perturbatior, eo minus consolationis a vobis accipio.</s>
 					<s n="3" xml:lang="la" type="auto">Conquestus sum<note xml:id="fn2" type="footnote" n="2">Im Brief vom 29. Oktober (oben <ref target="file11367">Nr. 1324</ref>, 4-27).</note> de summo malo, quod potest ecclesiam invadere dei, puta dissidium fratrum, et quod peius, inquietorum, ne quid aliud dicam, praelatio, imo quod adhuc peius, nulla spes concordię.</s>
-					<s n="4" xml:lang="la" type="auto">Talis est enim adversarii<note xml:id="fn3" type="footnote" n="3">Gemeint ist <persName ref="person117">Karlstadt</persName>.</note> natura, ut, nisi dominetur, non quiescat.</s>
+					<s n="4" xml:lang="la" type="auto">Talis est enim adversarii<note xml:id="fn3" type="footnote" n="3">Gemeint ist <persName>Karlstadt</persName>.</note> natura, ut, nisi dominetur, non quiescat.</s>
 					<s n="5" xml:lang="la" type="auto">Interim accedit pestis<note xml:id="fn4" type="footnote" n="4">Vgl. auch oben <ref target="file11369">Nr. 1326</ref>, 7f und <ref target="file11370">Nr. 1327</ref>.</note>, nec accedit communiter, sed invadit carnem meam gravissime; uxor<note xml:id="fn5" type="footnote" n="5">Margret.</note> nanque decumbit quatuordecim iam integros dies<note xml:id="fn6" type="footnote" n="6">Vgl. oben Anm. 1.</note>, et finem non video, tam laborat crudeliter.</s>
 					<s n="6" xml:lang="la" type="auto">Quid tu putas me inter hęc pati, quibus adfectibus quati, quantis doloribus angi?</s>
 					<s n="7" xml:lang="la" type="auto">Possum vere dicere cum Davide: „Circumdederunt me dolores mortis“<note xml:id="fn7" type="footnote" n="7">Ps 18, 5 (17.5 Vulgi.</note> etc.</s>
@@ -137,16 +135,16 @@
 				<p>
 					<s n="8" xml:lang="la" type="auto">Cogor videre ecclesiam pereuntem, audire convicia in me, manere mortem vel saltem longam infirmitatem uxoris, sentire defectionem amicorum, a domino tolli christianissimos quosque, imo desperare de evangelio.</s>
 					<s n="9" xml:lang="la" type="auto">„Et ubi“, inquis, „interea quiescis?“</s>
-					<s n="10" xml:lang="la" type="auto">Crede mihi, non est quies nisi in domino<note xml:id="fn8" type="footnote" n="8">Vgl. <persName ref="person371">Augustin</persName>, Confessiones, 1, 1, 1 (CChr XXVIII. 1, 7).</note>; nam amici etiam, qui supersunt, dum adeunt me, perturbati perturbatiora reddunt omnia.</s>
+					<s n="10" xml:lang="la" type="auto">Crede mihi, non est quies nisi in domino<note xml:id="fn8" type="footnote" n="8">Vgl. <persName>Augustin</persName>, Confessiones, 1, 1, 1 (CChr XXVIII. 1, 7).</note>; nam amici etiam, qui supersunt, dum adeunt me, perturbati perturbatiora reddunt omnia.</s>
 					<s n="11" xml:lang="la" type="auto">Aliter non licet; non est enim vir bonus, qui non fleat statum communem ecclesię et reipublicę, quoties intuetur, nec audire est aliud verbum<pb type="edition" next="250"/> quam: „Actum est“.</s>
-					<s n="12" xml:lang="la" type="auto">„In bello contra nos<note xml:id="fn9" type="footnote" n="9">Gemeint ist der Zweite <placeName ref="place534">Kappeler</placeName> Krieg von 1531.</note>“, respondes, „nunquam ita desperavimus.“</s>
-					<s n="13" xml:lang="la" type="auto">Ego vero una cum viris piis desperavi, postquam aper iste<note xml:id="fn10" type="footnote" n="10"><persName ref="person117">Karlstadt</persName>.</note> coepit devastare agrum ecclesię nostrę, et spes esse non potest, ut emendetur, maxime dum favorem invenit a sui similibus, hoc est papistis, catabaptistis, male evangelicis, et qui sub fidei titulo suis indulgent adfectibus; hi nanque simul intentant tumultum, si quis contra doctorem aliquid praesumat mali.</s>
+					<s n="12" xml:lang="la" type="auto">„In bello contra nos<note xml:id="fn9" type="footnote" n="9">Gemeint ist der Zweite <placeName>Kappeler</placeName> Krieg von 1531.</note>“, respondes, „nunquam ita desperavimus.“</s>
+					<s n="13" xml:lang="la" type="auto">Ego vero una cum viris piis desperavi, postquam aper iste<note xml:id="fn10" type="footnote" n="10"><persName>Karlstadt</persName>.</note> coepit devastare agrum ecclesię nostrę, et spes esse non potest, ut emendetur, maxime dum favorem invenit a sui similibus, hoc est papistis, catabaptistis, male evangelicis, et qui sub fidei titulo suis indulgent adfectibus; hi nanque simul intentant tumultum, si quis contra doctorem aliquid praesumat mali.</s>
 					<s n="14" xml:lang="la" type="auto">Alioqui timidior est lepore, qualem se dixit egisse Tiguri; ne dicas: „Bonum hic virum eum sensimus.“</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Hactenus scripsisti ad me „episcopo <placeName ref="place97">Basiliensi</placeName>“; cave deinceps, nam effectum, ut per angarias<note xml:id="fn11" type="footnote" n="11">d. h. pro Vierteljahr (Quatember).</note> vicissim parochi gerant curam ecclesię<note xml:id="fn12" type="footnote" n="12">Im Dekret vom 7. Oktober (s. oben <ref target="file11367">Nr. 1324</ref>, Anm. 3) hatte der Rat festgelegt, daß sich die Pfarrer bei der Einberufung der wöchentlichen Kolloquien reihum abwechseln sollten, damit nicht der Eindruck entstehe, als ob einer von ihnen eine Vorrangstellung hätte.</note>, non unus solus, ne detur papatui reditus occasio, dein ne pro monarcha ecclesiastico se venditet <persName ref="person154">Myconius</persName>, qua ratione clam apud senatum - a quo, nescio - fueram accusatus.</s>
+					<s n="15" xml:lang="la" type="auto">Hactenus scripsisti ad me „episcopo <placeName>Basiliensi</placeName>“; cave deinceps, nam effectum, ut per angarias<note xml:id="fn11" type="footnote" n="11">d. h. pro Vierteljahr (Quatember).</note> vicissim parochi gerant curam ecclesię<note xml:id="fn12" type="footnote" n="12">Im Dekret vom 7. Oktober (s. oben <ref target="file11367">Nr. 1324</ref>, Anm. 3) hatte der Rat festgelegt, daß sich die Pfarrer bei der Einberufung der wöchentlichen Kolloquien reihum abwechseln sollten, damit nicht der Eindruck entstehe, als ob einer von ihnen eine Vorrangstellung hätte.</note>, non unus solus, ne detur papatui reditus occasio, dein ne pro monarcha ecclesiastico se venditet <persName ref="p8418">Myconius</persName>, qua ratione clam apud senatum - a quo, nescio - fueram accusatus.</s>
 					<s n="16" xml:lang="la" type="auto">Cogeris dicere, quia me nosti: diligens, imo curiosa contra miserum inquisitio; signum, quod libenter nocuissent, imo quod nocituri sunt adepti ansam.</s>
-					<s n="17" xml:lang="la" type="auto"><persName ref="person154">Myconius</persName> monarchiam peteret, postquam didicit per omnem vitam nil nisi subiectus esse?</s>
+					<s n="17" xml:lang="la" type="auto"><persName ref="p8418">Myconius</persName> monarchiam peteret, postquam didicit per omnem vitam nil nisi subiectus esse?</s>
 					<s n="18" xml:lang="la" type="auto">Imo quem pudet a domino in hoc fastigium esse positum, ut cui nunquam studuit et cui se satisfacere posse nunquam putavit, etiamsi maxime studuisset.</s>
 					<s n="19" xml:lang="la" type="auto">Parcat dominus illis, qui tantum flagitium adversus me excogitarunt; constat enim coram oculis domini, quod de me iudicarunt ex suis ipsorum fastuosis et ambitiosis animis.</s>
 					<s n="20" xml:lang="la" type="auto">Age, habent, quod quęsierunt.</s>
@@ -156,12 +154,12 @@
 					<s n="24" xml:lang="la" type="auto">Te cum tuis, item et fratribus dominus conservet in perpetua tranquillitate.</s>
 				</p>
 				<p>
-					<s n="25" xml:lang="la" type="auto">Decumbit consul noster <persName ref="person148">Iacobus</persName> Maior<note xml:id="fn13" type="footnote" n="13">Vgl. oben <ref target="file11356">Nr. 1313</ref>, 7 mit Anm. 6.</note>; orabis cum ecclesia tua dominum, ne nos tanto spoliet bono.</s>
+					<s n="25" xml:lang="la" type="auto">Decumbit consul noster <persName ref="p18678">Iacobus</persName> Maior<note xml:id="fn13" type="footnote" n="13">Vgl. oben <ref target="file11356">Nr. 1313</ref>, 7 mit Anm. 6.</note>; orabis cum ecclesia tua dominum, ne nos tanto spoliet bono.</s>
 				</p>
 				<p>
 					<s n="26" xml:lang="la" type="auto">Vale cum domo tua et fratribus omnibus.</s>
 					<s n="27" xml:lang="la" type="auto">Querimoniam hanc tibi uni etc.</s>
-					<s n="28" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="28" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

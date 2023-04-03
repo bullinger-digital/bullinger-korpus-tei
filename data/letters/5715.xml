@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Briefanfang" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 15 (= Wickiana 4), f. 280v</idno>
 						<idno subtype="Hinweis">ohne Absender</idno>
 					</msIdentifier>
@@ -45,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Corr. de Bèze VI, S. 311f, Nr. 268 bis.</title>
+								<title>Corr. de Bèze VI, S.311f, Nr. 268 bis.</title>
 							</bibl>
 							<bibl type="Gedruckt">
 								<title>nach Ms S 204</title>
@@ -53,18 +50,19 @@
 						</listBibl>
 					</additional>
 				</msDesc>
-				<msDesc type="Briefanfang" subtype="Teilkopie" xml:lang="">
+				<msDesc type="Brief" subtype="Teilkopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Teilkopie">Ms S 204, I, fo 117</idno>
+						<idno subtype="Hinweis">Anfang fehlt</idno>
 					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
@@ -72,7 +70,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5715">
 				<correspAction type="sent">
-					<persName ref="person890" cert="low">
+					<persName ref="p890" cert="low">
 						<!--
 						<surname cert="low">Beza</surname>
 						<forename cert="low">Theodor</forename>
@@ -83,11 +81,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11418065"/>
 						-->
 					</persName>
-					<placeName source="place167" cert="low"><orig>Genf</orig></placeName>
+					<placeName source="l167" cert="low"><orig>Genf</orig></placeName>
 					<date notBefore="1563-05-01" notAfter="1563-05-12" cert="low"><note>Tag unsicher  s.d. (1563 Mai ..)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -97,7 +95,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file5749"/>
@@ -120,7 +118,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

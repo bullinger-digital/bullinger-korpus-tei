@@ -6,40 +6,31 @@
 				<title subtype="file">Dietrich Bitter / Köln AN Heinrich Bullinger, 12. August 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=120</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">174</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,98</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,10 +38,10 @@
 							<p xml:id="regest1">
 								Schickt diesen Brief durch einen Kaufmann, der nach Zürich reist. Ist selbst bei guter Gesundheit. Wünscht
 								Bullingers Johannesbriefkommentar. Sein Neffe studiert in
-								<placeName ref="place1205">Wittenberg</placeName> und hat über den Streit zwischen
-								<persName ref="person138">Luther</persName> und den Zürchern berichtet. Eine Schrift, in der Bullinger
-								seinen Standpunkt darlegt, will <persName ref="person18">Bitter</persName> an
-								<persName ref="person138">Luther</persName> und <persName ref="person146">Melanchthon</persName> senden.
+								<placeName>Wittenberg</placeName> und hat über den Streit zwischen
+								<persName ref="p1974">Luther</persName> und den Zürchern berichtet. Eine Schrift, in der Bullinger
+								seinen Standpunkt darlegt, will <persName ref="p8175">Bitter</persName> an
+								<persName ref="p1974">Luther</persName> und <persName ref="p2095">Melanchthon</persName> senden.
 							</p>
 						</summary>
 						<msItem>
@@ -62,6 +53,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Krafft 108f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 120, S.174</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -70,18 +64,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10151">
 				<correspAction type="sent">
-					<persName ref="person391" cert="high">
+					<persName ref="p391" cert="high">
 						<!--
 						<surname cert="high">Bitter</surname>
 						<forename cert="high">Dietrich</forename>
 						<persName type="main" ref="person8175>Bitter, Dietrich</persName>
 						-->
 					</persName>
-					<placeName source="place267" cert="high"><orig>Köln</orig></placeName>
+					<placeName source="l267" cert="high"><orig>Köln</orig></placeName>
 					<date when="1532-08-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,7 +120,7 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Mein williger dienst myns kleynen vermoegens altzeit zofoern<note xml:id="fn1" type="footnote" n="1">In <persName ref="person18">Bitters</persName> Rechtschreibung zeigen e und i nach Vokalen oft deren Dehnung an.</note>.</s>
+					<s n="1" xml:lang="de" type="auto">Mein williger dienst myns kleynen vermoegens altzeit zofoern<note xml:id="fn1" type="footnote" n="1">In <persName>Bitters</persName> Rechtschreibung zeigen e und i nach Vokalen oft deren Dehnung an.</note>.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="de" type="auto">Lieber Heinriche, dusser<note xml:id="fn2" type="footnote" n="2">dieser.</note> myn guder frunt<note xml:id="fn3" type="footnote" n="3">Freund; unbekannt.</note> plegt<note xml:id="fn4" type="footnote" n="4">pflegt.</note> bin uch zo handelen.</s>
@@ -139,29 +133,29 @@
 					<s n="7" xml:lang="de" type="auto">Moigt ir im gude anwysung syner hendel thoin, beger ich synent wegen.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto">Wyder ist myn bitt, das tu na fridden<note xml:id="fn9" type="footnote" n="9">nach Frieden.</note>, so vill durch gott moegelich, arbeitz<note xml:id="fn10" type="footnote" n="10">arbeitest, dich bemühst.</note>, und laiß mich verstain<note xml:id="fn11" type="footnote" n="11">wissen.</note>, ab uch myn letste brieb behandicht<note xml:id="fn12" type="footnote" n="12">Ob euch mein letzter Brief ausgehändigt worden ist. - Der letzterhaltene Brief <persName ref="person18">Bitters</persName> ist vom 16. April 1532 datiert (s. oben Nr. 88).</note>.</s>
+					<s n="8" xml:lang="de" type="auto">Wyder ist myn bitt, das tu na fridden<note xml:id="fn9" type="footnote" n="9">nach Frieden.</note>, so vill durch gott moegelich, arbeitz<note xml:id="fn10" type="footnote" n="10">arbeitest, dich bemühst.</note>, und laiß mich verstain<note xml:id="fn11" type="footnote" n="11">wissen.</note>, ab uch myn letste brieb behandicht<note xml:id="fn12" type="footnote" n="12">Ob euch mein letzter Brief ausgehändigt worden ist. - Der letzterhaltene Brief <persName>Bitters</persName> ist vom 16. April 1532 datiert (s. oben Nr. 88).</note>.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="auto"><pb type="edition" next="175"/>Ur<note xml:id="fn13" type="footnote" n="13">Eure.</note> <foreign xml:lang="la">Annotaciones in canonicam epistolam Ioannis<note xml:id="fn14" type="footnote" n="14">Bullingers «Expositio in epistolam Ioannis», erschienen 1532 (HBBibl I 37).</note></foreign> schickt myr doch tzo, dan ich habe die lest gesanten<note xml:id="fn15" type="footnote" n="15">letzthin, kürzlich geschickten; vgl. oben S. 105, 38 und Anm. 18.</note> eynem Augustiner monnich<note xml:id="fn16" type="footnote" n="16">Wer dieser Augustinermönch war, ließ sich nicht ermitteln.</note> in fruntschaff geleint<note xml:id="fn17" type="footnote" n="17">geliehen.</note>, kan si nitt widder krygen, und was ir sunst gefertigt<note xml:id="fn18" type="footnote" n="18">Was Bullinger sonst noch geschrieben und publiziert hat.</note>.</s>
-					<s n="10" xml:lang="de" type="auto">Und enbuet myr dairgegen<note xml:id="fn19" type="footnote" n="19">tu mir dafür zu wissen (Grimm III 494f).</note>, was du gern von myr hettes.</s>
+					<s n="9" xml:lang="de" type="auto"><pb type="edition" next="175"/>Ur<note xml:id="fn13" type="footnote" n="13">Eure.</note> <foreign xml:lang="la">Annotaciones in canonicam epistolam Ioannis<note xml:id="fn14" type="footnote" n="14">Bullingers «Expositio in epistolam Ioannis», erschienen 1532 (<bibl>HBBibl</bibl> I 37).</note></foreign> schickt myr doch tzo, dan ich habe die lest gesanten<note xml:id="fn15" type="footnote" n="15">letzthin, kürzlich geschickten; vgl. oben S. 105, 38 und Anm. 18.</note> eynem Augustiner monnich<note xml:id="fn16" type="footnote" n="16">Wer dieser Augustinermönch war, ließ sich nicht ermitteln.</note> in fruntschaff geleint<note xml:id="fn17" type="footnote" n="17">geliehen.</note>, kan si nitt widder krygen, und was ir sunst gefertigt<note xml:id="fn18" type="footnote" n="18">Was Bullinger sonst noch geschrieben und publiziert hat.</note>.</s>
+					<s n="10" xml:lang="de" type="auto">Und enbuet myr dairgegen<note xml:id="fn19" type="footnote" n="19">tu mir dafür zu wissen (<bibl>Grimm</bibl> III 494f).</note>, was du gern von myr hettes.</s>
 					<s n="11" xml:lang="de" type="auto">Will mich in glychen und merrem altzeit vlyssigen.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="de" type="auto">Groitz myr all gute frunde.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="de" type="auto"><persName ref="person2636">Adolfus</persName><note xml:id="fn20" type="footnote" n="20">Die <placeName ref="place1205">Wittenberger</placeName> Matrikel enthält zur fraglichen Zeit keinen Studenten dieses Namens, es sei denn, man bringe die Eintragung vom 25. Januar 1529: «Magister A P C» (<placeName ref="place1205">Wittenberg</placeName>, Matrikel I 133) mit <persName ref="person18">Bitters</persName> Neffen in Verbindung, über den sonst nichts Näheres bekannt ist; vgl. <hi>Krafft</hi> 109.</note>, myn neye, hait zo <placeName ref="place1205">Wittenberg</placeName> und Bruyswick<note xml:id="fn21" type="footnote" n="21"><placeName ref="place172">Braunschweig</placeName>.</note> studiert, ist neulich by uns gesyn und widder gereist.</s>
-					<s n="14" xml:lang="de" type="auto">Laist dich seyr groitzen und spricht, das <persName ref="person138">Martinus</persName><note xml:id="fn22" type="footnote" n="22"><persName ref="person138">Martin Luther</persName>.</note>, Ph[ilippus]<note xml:id="fn23" type="footnote" n="23"><persName ref="person146">Philipp Melanchthon</persName>.</note>, <persName ref="person549">Pomeranus</persName><note xml:id="fn24" type="footnote" n="24"><persName ref="person549">Johannes Bugenhagen</persName>, 1485-1558; s. Oskar <hi>Thulin,</hi> in: RGG I 1504 und Ernst <hi>Wolf,</hi> in: NDB III 9f.</note>, <persName ref="person525">Otto</persName> Brunsfeldius<note xml:id="fn25" type="footnote" n="25">Ein <persName ref="person531">Otto Brunsfeld</persName> oder Braunsfeld läßt sich nicht nachweisen. Wahrscheinlich liegt eine Verwechslung mit dem Humanisten <persName ref="person525">Otto Brunfels</persName> (1488-1534) vor, der sich allerdings zu jener Zeit in <placeName ref="place1049">Straßburg</placeName> bzw. <placeName ref="place97">Basel</placeName> aufhielt und nie als Gegner der schweizerischen Abendmahlsauffassung auftrat; s. Heinrich <hi>Grimm,</hi> in: NDB II 677f.</note> und etliche mehr anderen hefftig widder uch kempffen [in] yren sermonen<note xml:id="fna" type="footnote" n="a">yren sermonen <hi>am Rande nachgetragen.</hi></note> des sacramentz halber<note xml:id="fn26" type="footnote" n="26">Zur Haltung der <placeName ref="place1205">Wittenberger</placeName> in der Abendmahlsfrage und der durch <persName ref="person138">Luthers</persName> Sendschreiben an Herzog <persName ref="person4">Albrecht von Brandenburg</persName> neu entfachten Kontroverse s. oben <ref target="file10135">Nr. 106</ref>.</note>.</s>
-					<s n="15" xml:lang="de" type="auto">Moigt ir myr kortz verfaste schrifft<note xml:id="fn27" type="footnote" n="27">Ob damit «kurz abgefaßte» oder «kürzlich verfaßte» Schrift gemeint ist, läßt sich nicht sicher entscheiden. Im zweiten Fall käme der Sendbrief an <persName ref="person4">Albrecht von Brandenburg</persName> (oben <ref target="file10135">Nr. 106</ref>) in Frage, wie <hi>Köhler,</hi> ZL II 296, Anm. 1 annimmt.</note> und scharffe<note xml:id="fn28" type="footnote" n="28">Auf «schrifft» bezogen, also «kurz abgefaßte und scharfe Schrift»? Der unbeholfene Stil läßt eine Deutung kaum zu.</note> zostellen.</s>
-					<s n="16" xml:lang="de" type="auto">Will verschaffen, das sy <persName ref="person138">Martino</persName> ach<note xml:id="fn29" type="footnote" n="29">auch.</note> Ph[ilipp]o uberantvort werden, mit anhangender bitt, daruff zo antworden.</s>
+					<s n="13" xml:lang="de" type="auto"><persName>Adolfus [Bitter]</persName><note xml:id="fn20" type="footnote" n="20">Die <placeName>Wittenberger</placeName> Matrikel enthält zur fraglichen Zeit keinen Studenten dieses Namens, es sei denn, man bringe die Eintragung vom 25. Januar 1529: «Magister A P C» (<placeName>Wittenberg</placeName>, Matrikel I 133) mit <persName>Bitters</persName> Neffen in Verbindung, über den sonst nichts Näheres bekannt ist; vgl. <hi>Krafft</hi> 109.</note>, myn neye, hait zo <placeName>Wittenberg</placeName> und Bruyswick<note xml:id="fn21" type="footnote" n="21"><placeName>Braunschweig</placeName>.</note> studiert, ist neulich by uns gesyn und widder gereist.</s>
+					<s n="14" xml:lang="de" type="auto">Laist dich seyr groitzen und spricht, das <persName ref="p1974">Martinus</persName><note xml:id="fn22" type="footnote" n="22"><persName ref="p18889">Martin Luther</persName>.</note>, Ph[ilippus]<note xml:id="fn23" type="footnote" n="23"><persName ref="p6490">Philipp Melanchthon</persName>.</note>, <persName ref="p4443">Pomeranus</persName><note xml:id="fn24" type="footnote" n="24"><persName>Johannes Bugenhagen</persName>, 1485-1558; s. Oskar <hi>Thulin,</hi> in: RGG I 1504 und Ernst <hi>Wolf,</hi> in: <bibl>NDB</bibl> III 9f.</note>, <persName ref="p4409">Otto</persName> Brunsfeldius<note xml:id="fn25" type="footnote" n="25">Ein <persName>Otto Brunsfeld</persName> oder Braunsfeld läßt sich nicht nachweisen. Wahrscheinlich liegt eine Verwechslung mit dem Humanisten <persName>Otto Brunfels</persName> (1488-1534) vor, der sich allerdings zu jener Zeit in <placeName>Straßburg</placeName> bzw. <placeName>Basel</placeName> aufhielt und nie als Gegner der schweizerischen Abendmahlsauffassung auftrat; s. Heinrich <hi>Grimm,</hi> in: <bibl>NDB</bibl> II 677f.</note> und etliche mehr anderen hefftig widder uch kempffen [in] yren sermonen<note xml:id="fna" type="footnote" n="a">yren sermonen <hi>am Rande nachgetragen.</hi></note> des sacramentz halber<note xml:id="fn26" type="footnote" n="26">Zur Haltung der <placeName>Wittenberger</placeName> in der Abendmahlsfrage und der durch <persName ref="p18889">Luthers</persName> Sendschreiben an <persName>Herzog Albrecht von Brandenburg</persName> neu entfachten Kontroverse s. oben <ref target="file10135">Nr. 106</ref>.</note>.</s>
+					<s n="15" xml:lang="de" type="auto">Moigt ir myr kortz verfaste schrifft<note xml:id="fn27" type="footnote" n="27">Ob damit «kurz abgefaßte» oder «kürzlich verfaßte» Schrift gemeint ist, läßt sich nicht sicher entscheiden. Im zweiten Fall käme der Sendbrief an <persName>Albrecht von Brandenburg</persName> (oben <ref target="file10135">Nr. 106</ref>) in Frage, wie <hi>Köhler,</hi> ZL II 296, Anm. 1 annimmt.</note> und scharffe<note xml:id="fn28" type="footnote" n="28">Auf «schrifft» bezogen, also «kurz abgefaßte und scharfe Schrift»? Der unbeholfene Stil läßt eine Deutung kaum zu.</note> zostellen.</s>
+					<s n="16" xml:lang="de" type="auto">Will verschaffen, das sy <persName ref="p1974">Martino</persName> ach<note xml:id="fn29" type="footnote" n="29">auch.</note> Ph[ilipp]o uberantvort werden, mit anhangender bitt, daruff zo antworden.</s>
 					<s n="17" xml:lang="de" type="auto">Will dich mitt dussen kortzen dem almechtigen befollen haben.</s>
-					<s n="18" xml:lang="de" type="auto">Laist mich doch verstain von uren handelen, anslegen<note xml:id="fn30" type="footnote" n="30">Vorhaben, Absichten (Lexer I 77).</note> und fridden der Eydgnossen.</s>
+					<s n="18" xml:lang="de" type="auto">Laist mich doch verstain von uren handelen, anslegen<note xml:id="fn30" type="footnote" n="30">Vorhaben, Absichten (<bibl>Lexer</bibl> I 77).</note> und fridden der Eydgnossen.</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Datum zo Coln, 12. augusti anno 32.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="de" type="manual">Dirich [!] <persName ref="person18">Bitter</persName> van Wipperfoird, scholmeister zo Sant Ursulen<note xml:id="fn31" type="footnote" n="31">Über die Aufgaben des Schulmeisters am <placeName ref="place577">Kölner</placeName> Damenstift St. Ursula s. Gertrud <hi>Wegener,</hi> Geschichte des Stiftes St. Ursula in <placeName ref="place577">Köln</placeName>, <placeName ref="place577">Köln</placeName> 1971. -Veröffentlichungen des Kölnischen Geschichtsvereins e. V. 31, S. 113.</note>.</s>
+					<s n="20" xml:lang="de" type="manual">Dirich [!] <persName ref="p8175">Bitter</persName> van Wipperfoird, scholmeister zo Sant Ursulen<note xml:id="fn31" type="footnote" n="31">Über die Aufgaben des Schulmeisters am <placeName>Kölner</placeName> Damenstift St. Ursula s. Gertrud <hi>Wegener,</hi> Geschichte des Stiftes St. Ursula in <placeName>Köln</placeName>, <placeName>Köln</placeName> 1971. -Veröffentlichungen des Kölnischen Geschichtsvereins e. V. 31, S. 113.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

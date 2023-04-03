@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN [Johannes Haller d.J.], 23. Mai 1570</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7606/154</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 46,613</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +45,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8269">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -56,11 +55,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1570-05-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person8018" cert="low">
+					<persName ref="p8018" cert="low">
 						<!--
 						<surname cert="low">Haller d.J.</surname>
 						<forename cert="low">Johannes</forename>
@@ -96,7 +95,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -116,7 +115,7 @@
 					<s n="9" xml:lang="la" type="auto">Habet certe deus rationes<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> rationem.</note> varias suos conservandi in pace.</s>
 					<s n="10" xml:lang="la" type="auto">Interim vero, dum trahitur tempus, colliquescunt etiam animi et mutantur.</s>
 					<s n="11" xml:lang="de" type="auto"><foreign xml:lang="la">Recte vulgo dicitur:</foreign> "Rom ward nit eins tags gebuwen."</s>
-					<s n="12" xml:lang="la" type="auto"><note xml:id="fn3" type="footnote" n="3">Vgl. Wander III 1716, Nr. 52.</note> Neque vero ecclesia per orbem paucos intra annos et crevit et pacem est consecuta.</s>
+					<s n="12" xml:lang="la" type="auto"><note xml:id="fn3" type="footnote" n="3">Vgl. <bibl>Wander</bibl> III 1716, Nr. 52.</note> Neque vero ecclesia per orbem paucos intra annos et crevit et pacem est consecuta.</s>
 					<s n="13" xml:lang="la" type="auto">Conatus illorum, qui pacem vel turbare vel prorsus evertere voluerunt, modis omnibus displicet.</s>
 					<s n="14" xml:lang="la" type="auto">Verissimum enim illud servatoris esse credo: "Beati pacifici, quoniam filii dei vocabuntur."</s>
 					<s n="15" xml:lang="de" type="auto">So hat das heimlich hinderlistig pratitzieren nie nüt guͦts gebracht.</s>

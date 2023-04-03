@@ -6,48 +6,39 @@
 				<title subtype="file">Hans Vogler / Elgg AN Heinrich Bullinger, 11. November 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=147</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">256</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 351,148</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Nachricht über seine Angelegenheiten auf der Tagsatzung in
-								<placeName ref="place363">Frauenfeld</placeName>. Will selbst an einem Tag in Zürich erscheinen und dort
-								mit <persName ref="person2447">Peter Weber</persName> zusammentreffen. Grüße.
+								<placeName>Frauenfeld</placeName>. Will selbst an einem Tag in Zürich erscheinen und dort
+								mit <persName ref="p6984">Peter Weber</persName> zusammentreffen. Grüße.
 							</p>
 						</summary>
 						<msItem>
@@ -59,6 +50,9 @@
 							<bibl type="Gedruckt" subtype="Regest">
 								<title>ASchweizerRef IV 1976</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 147, S.256</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -67,7 +61,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10178">
 				<correspAction type="sent">
-					<persName ref="person3446" cert="high">
+					<persName ref="p3446" cert="high">
 						<!--
 						<surname cert="high">Vogler</surname>
 						<forename cert="high">Hans</forename>
@@ -76,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11094904"/>
 						-->
 					</persName>
-					<placeName source="place134" cert="high"><orig>Elgg</orig></placeName>
+					<placeName source="l134" cert="high"><orig>Elgg</orig></placeName>
 					<date when="1532-11-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,38 +123,38 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="de" type="auto">Min herr, gliepter bruͤder.</s>
-					<s n="3" xml:lang="de" type="auto">Mins handels<note xml:id="fn2" type="footnote" n="2">Über <persName ref="person228">Voglers</persName> Rechtshandel mit den Rheintalern und den katholischen Orten vgl. oben S. 33, Anm. 5.</note> halb stat es also in der sum<note xml:id="fn3" type="footnote" n="3">in der Hauptsache, Zusammenfassung (SI VII 971).</note>, daß ich nie gen Frowenfeld<note xml:id="fn4" type="footnote" n="4">In <placeName ref="place363">Frauenfeld</placeName> fand vom 4. bis 10. November 1532 eine Tagsatzung statt. <persName ref="person228">Vogler</persName>, der schon auf der Septembertagsatzung in <placeName ref="place85">Baden</placeName> erschienen war (EA IV/1b 1398 g.), wurde auf diesen Tag verwiesen. <persName ref="person228">Vogler</persName> bat in <placeName ref="place85">Baden</placeName> auch um Verlängerung seines Geleits (EA IV/1b 1400 t.).</note> komen bin, sonder min husfrowen<note xml:id="fn5" type="footnote" n="5">Ehefrau. -Appolonia Baumgartner.</note> dar<note xml:id="fn6" type="footnote" n="6">dahin.</note> geschickt mit den fründen<note xml:id="fn7" type="footnote" n="7">Verwandten (SI I 1303f).</note>.</s>
-					<s n="4" xml:lang="de" type="auto">Also haind<note xml:id="fn8" type="footnote" n="8">haben.</note> die übrigen ortt, <placeName ref="place121">Bern</placeName>, <placeName ref="place97">Basel</placeName>, Schafhusen, für mich mit mi[ne]r husfrowen petten<note xml:id="fn9" type="footnote" n="9">gebeten.</note>, der gstalt: so sy mich der ernn<note xml:id="fn10" type="footnote" n="10">Ehren.</note>, lips und lebens sichren<note xml:id="fn11" type="footnote" n="11">sicheres Geleit zugestehen.</note>, so welt<note xml:id="fn12" type="footnote" n="12">wolle.</note> ich mich ergeben<note xml:id="fn13" type="footnote" n="13">Vgl. EA IV/1b 1424 I.</note>.</s>
+					<s n="3" xml:lang="de" type="auto">Mins handels<note xml:id="fn2" type="footnote" n="2">Über <persName>Voglers</persName> Rechtshandel mit den Rheintalern und den katholischen Orten vgl. oben S. 33, Anm. 5.</note> halb stat es also in der sum<note xml:id="fn3" type="footnote" n="3">in der Hauptsache, Zusammenfassung (<bibl>SI</bibl> VII 971).</note>, daß ich nie gen Frowenfeld<note xml:id="fn4" type="footnote" n="4">In <placeName>Frauenfeld</placeName> fand vom 4. bis 10. November 1532 eine Tagsatzung statt. <persName>Vogler</persName>, der schon auf der Septembertagsatzung in <placeName>Baden</placeName> erschienen war (<bibl>EA</bibl> IV/1b 1398 g.), wurde auf diesen Tag verwiesen. <persName>Vogler</persName> bat in <placeName>Baden</placeName> auch um Verlängerung seines Geleits (<bibl>EA</bibl> IV/1b 1400 t.).</note> komen bin, sonder min husfrowen<note xml:id="fn5" type="footnote" n="5">Ehefrau. -Appolonia Baumgartner.</note> dar<note xml:id="fn6" type="footnote" n="6">dahin.</note> geschickt mit den fründen<note xml:id="fn7" type="footnote" n="7">Verwandten (<bibl>SI</bibl> I 1303f).</note>.</s>
+					<s n="4" xml:lang="de" type="auto">Also haind<note xml:id="fn8" type="footnote" n="8">haben.</note> die übrigen ortt, <placeName>Bern</placeName>, <placeName>Basel</placeName>, Schafhusen, für mich mit mi[ne]r husfrowen petten<note xml:id="fn9" type="footnote" n="9">gebeten.</note>, der gstalt: so sy mich der ernn<note xml:id="fn10" type="footnote" n="10">Ehren.</note>, lips und lebens sichren<note xml:id="fn11" type="footnote" n="11">sicheres Geleit zugestehen.</note>, so welt<note xml:id="fn12" type="footnote" n="12">wolle.</note> ich mich ergeben<note xml:id="fn13" type="footnote" n="13">Vgl. <bibl>EA</bibl> IV/1b 1424 I.</note>.</s>
 					<s n="5" xml:lang="de" type="auto">Welches mi[ner]herren botten und aller gfallen also gsin.</s>
-					<s n="6" xml:lang="de" type="auto">Also haind sy das pitt<note xml:id="fn14" type="footnote" n="14">die Bitte von Frau <persName ref="person228">Vogler</persName> und der genannten Städte.</note> inn abschaid<note xml:id="fn15" type="footnote" n="15">das Verhandlungsprotokoll der Tagsatzung (SI VIII 202).</note> genomen an ir herren und uff nächsten täg zuͦ <placeName ref="place85">Baden</placeName>, sontag über 4 wochen<note xml:id="fn16" type="footnote" n="16">Diese Tagsatzung in <placeName ref="place85">Baden</placeName> begann am 16. Dezember 1532. Zur Sache vgl. EA IV/1b 1452 k.</note>, gsetztt<note xml:id="fn17" type="footnote" n="17">festgesetzt, bestimmt.</note> zuͤ antwurten.</s>
-					<s n="7" xml:lang="de" type="auto">Doch haind m[in] g[nädig] h[erren] die acht ortt<note xml:id="fn18" type="footnote" n="18">die acht im Rheintal regierenden Orte.</note> min widerpart haim lassen gon<note xml:id="fn19" type="footnote" n="19">gehen.</note> und inen kain witer uftrag geben, welches<note xml:id="fn20" type="footnote" n="20">dessen.</note> sy fast<note xml:id="fn21" type="footnote" n="21">fest, heftig, sehr (SI I 1111).</note> unwillig sind gsin.</s>
+					<s n="6" xml:lang="de" type="auto">Also haind sy das pitt<note xml:id="fn14" type="footnote" n="14">die Bitte von Frau <persName>Vogler</persName> und der genannten Städte.</note> inn abschaid<note xml:id="fn15" type="footnote" n="15">das Verhandlungsprotokoll der Tagsatzung (<bibl>SI</bibl> VIII 202).</note> genomen an ir herren und uff nächsten täg zuͦ <placeName>Baden</placeName>, sontag über 4 wochen<note xml:id="fn16" type="footnote" n="16">Diese Tagsatzung in <placeName>Baden</placeName> begann am 16. Dezember 1532. Zur Sache vgl. <bibl>EA</bibl> IV/1b 1452 k.</note>, gsetztt<note xml:id="fn17" type="footnote" n="17">festgesetzt, bestimmt.</note> zuͤ antwurten.</s>
+					<s n="7" xml:lang="de" type="auto">Doch haind m[in] g[nädig] h[erren] die acht ortt<note xml:id="fn18" type="footnote" n="18">die acht im Rheintal regierenden Orte.</note> min widerpart haim lassen gon<note xml:id="fn19" type="footnote" n="19">gehen.</note> und inen kain witer uftrag geben, welches<note xml:id="fn20" type="footnote" n="20">dessen.</note> sy fast<note xml:id="fn21" type="footnote" n="21">fest, heftig, sehr (<bibl>SI</bibl> I 1111).</note> unwillig sind gsin.</s>
 					<s n="8" xml:lang="de" type="auto">Des übrigen, wils gott, wil ich üch muntlich brichten.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="auto"><pb type="edition" next="257"/>Witer hör ich, m[iner] g[nädigen] h[erren] von Zürich und h[err] apt S. <persName ref="person463">Gallen</persName> sach<note xml:id="fn22" type="footnote" n="22">Dazu EA IV/1b 1425 s.; ferner auch ASchweizerRef <hi>IV</hi> 1966 und 1977.</note> syg überhe<note xml:id="fn23" type="footnote" n="23">wohl «überhin» im Sinne von: vorbei, erledigt.</note>.</s>
-					<s n="10" xml:lang="de" type="auto">Item ich hör, m[iner] heren botten habend für Peter <persName ref="person2447">Weber</persName><note xml:id="fn24" type="footnote" n="24"><persName ref="person2447">Peter Weber</persName>, Statthalter von <placeName ref="place1196">Wil</placeName> (Kt. St. Gallen), spielte hier eine ähnliche Rolle wie <persName ref="person228">Vogler</persName> im Rheintal und erlitt ein analoges Schicksal. Nach der Wende von <placeName ref="place534">Kappel</placeName> wurde er sowohl durch den Abt von St. Gallen als auch durch seine Untertanen mit Rechtsansprüchen bedrängt. Zürich machte sich dabei in allerdings zurückhaltender Weise zum Anwalt der Interessen Webers, vgl. dazu EA IV/1b 1325.1333; ASchweizerRef <hi>IV</hi> 1565.1655; Vadian, Diarium 320,25-39.</note> petten.</s>
+					<s n="9" xml:lang="de" type="auto"><pb type="edition" next="257"/>Witer hör ich, m[iner] g[nädigen] h[erren] von Zürich und h[err] apt S. Gallen sach<note xml:id="fn22" type="footnote" n="22">Dazu <bibl>EA</bibl> IV/1b 1425 s.; ferner auch ASchweizerRef <hi>IV</hi> 1966 und 1977.</note> syg überhe<note xml:id="fn23" type="footnote" n="23">wohl «überhin» im Sinne von: vorbei, erledigt.</note>.</s>
+					<s n="10" xml:lang="de" type="auto">Item ich hör, m[iner] heren botten habend für <persName>Peter Weber</persName><note xml:id="fn24" type="footnote" n="24"><persName>Peter Weber</persName>, Statthalter von <placeName>Wil</placeName> (Kt. St. Gallen), spielte hier eine ähnliche Rolle wie <persName>Vogler</persName> im Rheintal und erlitt ein analoges Schicksal. Nach der Wende von <placeName>Kappel</placeName> wurde er sowohl durch den Abt von St. Gallen als auch durch seine Untertanen mit Rechtsansprüchen bedrängt. Zürich machte sich dabei in allerdings zurückhaltender Weise zum Anwalt der Interessen Webers, vgl. dazu <bibl>EA</bibl> IV/1b 1325.1333; ASchweizerRef <hi>IV</hi> 1565.1655; Vadian, Diarium 320,25-39.</note> petten.</s>
 					<s n="11" xml:lang="de" type="auto">Hab h[erren] apt geantwurt, sinthalb<note xml:id="fn25" type="footnote" n="25">seinetwegen.</note> dörff nit sorg<note xml:id="fn26" type="footnote" n="26">wohl: bedürfe es keiner Sorge.</note>; desglich well er gegen den puren<note xml:id="fn27" type="footnote" n="27">gegen die Bauern.</note>, welche der handel betreffe, das best thon<note xml:id="fn28" type="footnote" n="28">Vgl. das Schreiben des Abtes von St. Gallen an Zürich vom 17. November 1532 (ASchweizerRef <hi>IV</hi> 1994).</note>.</s>
 					<s n="12" xml:lang="de" type="auto">Doch werden potten alle ding gruntlich ansagen.</s>
-					<s n="13" xml:lang="de" type="auto">Pitt üch, so es üch komlich<note xml:id="fn29" type="footnote" n="29">passend, gelegen (SI III 285).</note> ist, Petern <persName ref="person2447">Weber</persName>, wie ich hör<note xml:id="fn30" type="footnote" n="30">gehört habe.</note>, zu offnen<note xml:id="fn31" type="footnote" n="31">eröffnen, bekanntgeben.</note>, bis ich korn.</s>
+					<s n="13" xml:lang="de" type="auto">Pitt üch, so es üch komlich<note xml:id="fn29" type="footnote" n="29">passend, gelegen (<bibl>SI</bibl> III 285).</note> ist, <persName ref="p6984">Petern Weber</persName>, wie ich hör<note xml:id="fn30" type="footnote" n="30">gehört habe.</note>, zu offnen<note xml:id="fn31" type="footnote" n="31">eröffnen, bekanntgeben.</note>, bis ich korn.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="de" type="auto">Item ich hör, es syg ain tag gen Zürich uff Othmary<note xml:id="fn32" type="footnote" n="32">16. November.</note> gsetzt<note xml:id="fn33" type="footnote" n="33">Eine Tagsatzung fand in Zürich vom 19. bis 21. November statt (s. EA IV/1b 1435-1440).</note>, von Müsser gelt wegen<note xml:id="fn34" type="footnote" n="34">Tatsächlich ging es auf dieser Tagsatzung um die Frage von Entschädigungen für Auslagen anläßlich des Müsserkrieges. Über den Krieg selbst vgl. Heinrich <hi>Zeller-Werdmüller,</hi> Der Kampf gegen den Tyrannen von <placeName ref="place730">Musso</placeName> am Comersee in den Jahren 1531-1532, Zürich 1883.-78. Njbl., hg. v. der Feuerwerker-Gesellschaft in Zürich auf das Jahr 1883.</note>.</s>
-					<s n="15" xml:lang="de" type="auto">Ich acht, hoptmann <persName ref="person431">Berweger</persName> kom dar bott<note xml:id="fn35" type="footnote" n="35">komme dahin als Bote. - Ob <persName ref="person431">Bartholomäus Berweger</persName> tatsächlich an diese Tagsatzung abgeordnet wurde, ist nicht bekannt.</note> von Apenzell.</s>
+					<s n="14" xml:lang="de" type="auto">Item ich hör, es syg ain tag gen Zürich uff Othmary<note xml:id="fn32" type="footnote" n="32">16. November.</note> gsetzt<note xml:id="fn33" type="footnote" n="33">Eine Tagsatzung fand in Zürich vom 19. bis 21. November statt (s. <bibl>EA</bibl> IV/1b 1435-1440).</note>, von Müsser gelt wegen<note xml:id="fn34" type="footnote" n="34">Tatsächlich ging es auf dieser Tagsatzung um die Frage von Entschädigungen für Auslagen anläßlich des Müsserkrieges. Über den Krieg selbst vgl. Heinrich <hi>Zeller-Werdmüller,</hi> Der Kampf gegen den Tyrannen von <placeName>Musso</placeName> am Comersee in den Jahren 1531-1532, Zürich 1883.-78. Njbl., hg. v. der Feuerwerker-Gesellschaft in Zürich auf das Jahr 1883.</note>.</s>
+					<s n="15" xml:lang="de" type="auto">Ich acht, hoptmann <persName ref="p4283">Berweger</persName> kom dar bott<note xml:id="fn35" type="footnote" n="35">komme dahin als Bote. - Ob <persName>Bartholomäus Berweger</persName> tatsächlich an diese Tagsatzung abgeordnet wurde, ist nicht bekannt.</note> von Apenzell.</s>
 					<s n="16" xml:lang="de" type="auto">Des wil ich warten, wils gott, mit im komen.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="de" type="auto">M[ine] h[erren] die aidtgnossen kond<note xml:id="fn36" type="footnote" n="36">kommen.</note> morn erst gen Tänicken<note xml:id="fn37" type="footnote" n="37"><placeName ref="place1105">Tänikon</placeName> (Kt. Thurgau). Das dortige Zisterzienserinnenkloster wurde seit 1532 von einem weltlichen Vogt verwaltet, dessen Rechnung am 12. November 1532 abgenommen wurde (vgl. EA IV/1b 1429 b.).</note>.</s>
+					<s n="17" xml:lang="de" type="auto">M[ine] h[erren] die aidtgnossen kond<note xml:id="fn36" type="footnote" n="36">kommen.</note> morn erst gen Tänicken<note xml:id="fn37" type="footnote" n="37"><placeName>Tänikon</placeName> (Kt. Thurgau). Das dortige Zisterzienserinnenkloster wurde seit 1532 von einem weltlichen Vogt verwaltet, dessen Rechnung am 12. November 1532 abgenommen wurde (vgl. <bibl>EA</bibl> IV/1b 1429 b.).</note>.</s>
 				</p>
 				<p>
 					<s n="18" xml:lang="de" type="auto">Gott sterck üch und uns.</s>
-					<s n="19" xml:lang="de" type="auto">Grützend mir üwer lieb husfrowen<note xml:id="fn38" type="footnote" n="38"><persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note>, fatter<note xml:id="fn39" type="footnote" n="39">Dekan Heinrich Bullinger.</note>, muter<note xml:id="fn40" type="footnote" n="40"><persName ref="person32">Anna Bullinger</persName>, geb. Wiederkehr.</note>, gsind.</s>
+					<s n="19" xml:lang="de" type="auto">Grützend mir üwer lieb husfrowen<note xml:id="fn38" type="footnote" n="38"><persName>Anna Bullinger, geb. Adlischwyler</persName>.</note>, fatter<note xml:id="fn39" type="footnote" n="39"><persName ref="p4369">Dekan Heinrich Bullinger</persName>.</note>, muter<note xml:id="fn40" type="footnote" n="40"><persName>Anna Bullinger, geb. Wiederkehr</persName>.</note>, gsind.</s>
 					<s n="20" xml:lang="de" type="auto">Bittend gott für uns.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="de" type="manual">Actum Elgow, uff Martini anno 32 jar.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="de" type="auto">Ü[wer] armer <persName ref="person228">Hans Vogler</persName>.</s>
+					<s n="22" xml:lang="de" type="auto">Ü[wer] armer <persName ref="p8071">Hans Vogler</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

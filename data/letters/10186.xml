@@ -6,47 +6,38 @@
 				<title subtype="file">Berchtold Haller / [Bern] AN Heinrich Bullinger, 30. November 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=155</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">273</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,101</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Gleichzeitig mit einer Anfrage des <placeName ref="place121">Berner</placeName> Rates an Zürich wegen
-								zwei Problemen der Ehegesetzgebung stellt <persName ref="person90">Haller</persName> dieselben Fragen an
+								Gleichzeitig mit einer Anfrage des <placeName>Berner</placeName> Rates an Zürich wegen
+								zwei Problemen der Ehegesetzgebung stellt <persName ref="p1391">Haller</persName> dieselben Fragen an
 								Bullinger: 1. Ob die Heirat eines schuldig Geschiedenen, wenn sie ohne Erlaubnis, gegen das im Gesetz
 								ausgesprochene Verbot geschieht, eine Ehe bewirke. 2. Ob wegen Ehebruch Geschiedene jene Person heiraten
 								dürfen, mit der sie die Ehe gebrochen haben.
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 155, S.273</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10186">
 				<correspAction type="sent">
-					<persName ref="person1391" cert="high">
+					<persName ref="p1391" cert="high">
 						<!--
 						<surname cert="high">Haller</surname>
 						<forename cert="high">Berchtold</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413862"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="low"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1532-11-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,14 +122,14 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Querit consilia senatus noster a vestrate in negocio iudicii censorii, quod consistorium vocant<note xml:id="fn1" type="footnote" n="1">Zusammenfassung der Anfrage aus <placeName ref="place121">Bern</placeName> vom 29. November 1532 sowie des Gutachtens des Zürcher Ehegerichtes und der danach erfolgten Antwort Zürichs: AZürcherRef 1908; ASchweizerRef <hi>IV</hi> 2022. Gutachten der Zürcher Prediger: ABernerRef 2929. - Zur ganzen Frage s. <hi>de Quervain</hi> 40f; <hi>Köhler,</hi> Ehegericht I 334-337.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Duae sunt sanctiones ante biennium institutae<note xml:id="fn2" type="footnote" n="2">In den Erläuterungen zur Ehegerichtsordnung, 13. November 1530, s. ABernerRef 2905; <hi>de Quervain</hi> 217; <hi>Köhler,</hi> Ehegericht I 330-334.</note>, quibus casibus experientia quottidiana obvenientibus imposterum occurrere volebamus; sed crescente hominum malicia ita nihil effęcimus, quod quottidie novis conatibus impellant nos, quorum malicia nullo obice impediri potest.</s>
+					<s n="2" xml:lang="la" type="auto">Querit consilia senatus noster a vestrate in negocio iudicii censorii, quod consistorium vocant<note xml:id="fn1" type="footnote" n="1">Zusammenfassung der Anfrage aus <placeName>Bern</placeName> vom 29. November 1532 sowie des Gutachtens des Zürcher Ehegerichtes und der danach erfolgten Antwort Zürichs: <bibl>AZürcherRef</bibl> 1908; ASchweizerRef <hi>IV</hi> 2022. Gutachten der Zürcher Prediger: <bibl>ABernerRef</bibl> 2929. - Zur ganzen Frage s. <hi>de Quervain</hi> 40f; <hi>Köhler,</hi> Ehegericht I 334-337.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Duae sunt sanctiones ante biennium institutae<note xml:id="fn2" type="footnote" n="2">In den Erläuterungen zur Ehegerichtsordnung, 13. November 1530, s. <bibl>ABernerRef</bibl> 2905; <hi>de Quervain</hi> 217; <hi>Köhler,</hi> Ehegericht I 330-334.</note>, quibus casibus experientia quottidiana obvenientibus imposterum occurrere volebamus; sed crescente hominum malicia ita nihil effęcimus, quod quottidie novis conatibus impellant nos, quorum malicia nullo obice impediri potest.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="de" type="auto"><foreign xml:lang="la">Prior sanctio hęc est:</foreign> die dess eescheidenß schuld tragend, söllend zuͤ dem minsten ein jar lang still stan<note xml:id="fn3" type="footnote" n="3">zuwarten (SI XI 730).</note>, sich eerlich und frommklich tragen, sich onn dess egrichts erlouben und gnuͤgsame [k]untschafft<note xml:id="fn4" type="footnote" n="4">Zeugnis, Beweis (SI III 353).</note> der<note xml:id="fna" type="footnote" n="a">[k]untschafft der <hi>am Rande nachgetragen.</hi></note> besserung nitt<note xml:id="fnb" type="footnote" n="b">nitt <hi>übergeschrieben.</hi></note> vereelichen; welche es aber tätind wider das verbott, sollend unser statt und land miden, doch uff unser gnad und straff<note xml:id="fn5" type="footnote" n="5">mit Vorbehalt von Begnadigung oder Bestrafung.</note>.</s>
+					<s n="4" xml:lang="de" type="auto"><foreign xml:lang="la">Prior sanctio hęc est:</foreign> die dess eescheidenß schuld tragend, söllend zuͤ dem minsten ein jar lang still stan<note xml:id="fn3" type="footnote" n="3">zuwarten (<bibl>SI</bibl> XI 730).</note>, sich eerlich und frommklich tragen, sich onn dess egrichts erlouben und gnuͤgsame [k]untschafft<note xml:id="fn4" type="footnote" n="4">Zeugnis, Beweis (<bibl>SI</bibl> III 353).</note> der<note xml:id="fna" type="footnote" n="a">[k]untschafft der <hi>am Rande nachgetragen.</hi></note> besserung nitt<note xml:id="fnb" type="footnote" n="b">nitt <hi>übergeschrieben.</hi></note> vereelichen; welche es aber tätind wider das verbott, sollend unser statt und land miden, doch uff unser gnad und straff<note xml:id="fn5" type="footnote" n="5">mit Vorbehalt von Begnadigung oder Bestrafung.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Hic sunt duę declarationes, super quibus senatus concordari non potuit.</s>
-					<s n="6" xml:lang="de" type="auto">Ein teil wil es nütt dess minder für ein ee han, diewil sy von gott niemant verspert soll sin<note xml:id="fn6" type="footnote" n="6">Vgl. Gen 2,24; Dtn 24,1ff; 1 Kor 7,9.</note>, und die leistung<note xml:id="fn7" type="footnote" n="7">Verbannung, Verweisung (SI III 1473).</note> von der statt für ein straff der ungehorsami lassen sin.</s>
-					<s n="7" xml:lang="de" type="auto"><foreign xml:lang="la">Altera pars:</foreign> diewil eebruch so ein lichte straff hab, die ze besorgen<note xml:id="fn8" type="footnote" n="8">(wie) zu befürchten; «ze besorgen» = eine Art Parenthese (SI VII 1313).</note> nitt grösser gmachet werde, muͤsse man den zuͤgang ad secundas nuptias nitt so gmein lassen sin; sust wurde ursach und anlasß gäben zu huͤry, eescheiden und eebrechen.</s>
+					<s n="6" xml:lang="de" type="auto">Ein teil wil es nütt dess minder für ein ee han, diewil sy von gott niemant verspert soll sin<note xml:id="fn6" type="footnote" n="6">Vgl. Gen 2,24; Dtn 24,1ff; 1 Kor 7,9.</note>, und die leistung<note xml:id="fn7" type="footnote" n="7">Verbannung, Verweisung (<bibl>SI</bibl> III 1473).</note> von der statt für ein straff der ungehorsami lassen sin.</s>
+					<s n="7" xml:lang="de" type="auto"><foreign xml:lang="la">Altera pars:</foreign> diewil eebruch so ein lichte straff hab, die ze besorgen<note xml:id="fn8" type="footnote" n="8">(wie) zu befürchten; «ze besorgen» = eine Art Parenthese (<bibl>SI</bibl> VII 1313).</note> nitt grösser gmachet werde, muͤsse man den zuͤgang ad secundas nuptias nitt so gmein lassen sin; sust wurde ursach und anlasß gäben zu huͤry, eescheiden und eebrechen.</s>
 					<s n="8" xml:lang="de" type="auto">Desshalb, diewil ouch der jugent under jaren<note xml:id="fn9" type="footnote" n="9">minderjährigen.</note> die ee verspert, so si bezugind<note xml:id="fnc" type="footnote" n="c">so si bezugind <hi>am Rande nachgetragen.</hi></note><note xml:id="fn10" type="footnote" n="10">die sie eingehen.</note> on verwilgung der eltren, und so sy sich vereelichetend, nitt gestattet, sölle ouch das kein ee sin noch bliben, sunder ein huͤry, deren, so scheides schuld treyt und über<note xml:id="fn11" type="footnote" n="11">gegen.</note> das verbott sich vereelichet.</s>
 					<s n="9" xml:lang="de" type="auto">Zühend sy uss unser herren biet, halte man sy, worfür man welle, an andren orten.</s>
 					<s n="10" xml:lang="la" type="auto">Faciles sunt magistratus, personas accipere et semel proscriptos rursus in urbem admittere, quo fieret, ut quisque sic ad divortium anhelaret.</s>
@@ -139,12 +137,12 @@
 				</p>
 				<p>
 					<s n="12" xml:lang="de" type="auto">Posterior lex: es sol hinfür kein person sich mitt der person vereelichen, mitt deren sy geebrechet hett, si trage scheidenß schuld oder nitt.</s>
-					<s n="13" xml:lang="de" type="auto">Dise satzung wil sich so wyttleuffig zuͤtragen, daß die gscheidnen ire huͤren oder buͤben<note xml:id="fn13" type="footnote" n="13">Huren-Buben, Hurer (SI IV 928).</note> nämend, vermeinend, wenn es nitt in klag oder recht kummen sye <foreign xml:lang="la">ab innocente<note xml:id="fn14" type="footnote" n="14">wenn es von Seiten des unschuldigen Teils nicht zu Klage oder Prozeß gekommen sei.</note></foreign> und scheidens kein schuld trage, sölle inen nitt verspert sin<note xml:id="fn15" type="footnote" n="15">soll ihnen (die Ehe) nicht verboten sein.</note>, <foreign xml:lang="la">quantumvis notorium fuerit adulterium.</foreign></s>
-					<s n="14" xml:lang="de" type="auto">Ettlich meinend, ergernuß ze vermiden, söllen man <foreign xml:lang="la">salutem ecclesię</foreign> höher<pb type="edition" next="274"/> schätzen, dann sunderer<note xml:id="fn16" type="footnote" n="16">einzelner (SI VII 1140).</note> lüten.</s>
-					<s n="15" xml:lang="de" type="auto">Begärend ettlich by der satzung styfft<note xml:id="fn17" type="footnote" n="17">fest, beharrlich (SI X 1426f).</note> ze bliben on allen inbruch<note xml:id="fn18" type="footnote" n="18">ohne Schmälerung (des bisherigen Rechtes; SI V 371).</note>.</s>
-					<s n="16" xml:lang="de" type="auto">Ettlich ouch, aber mitt dem zuͤsatz, daß ein chorgricht gwalt hab, nach billicheit und gstalt der sachen<note xml:id="fn19" type="footnote" n="19">nach den Umständen (SI XI 344).</note> ze urteilen.</s>
-					<s n="17" xml:lang="la" type="auto">Hoc quoque perpende et scribe sententiam tuam fulciasque argumentis, quibus potes<note xml:id="fn20" type="footnote" n="20">Die Zürcher Prädikanten beantworteten in ihrem Gutachten beide Fragen negativ, s. ABernerRef 2929 und die oben (Anm. 1) angeführte Lit.</note>.</s>
-					<s n="18" xml:lang="la" type="auto">Non dubito <persName ref="person145">Megandrum</persName> <persName ref="person114">Leoni</persName> etiam scripsisse<note xml:id="fn21" type="footnote" n="21">Ein Brief <persName ref="person145">Meganders</persName> an <persName ref="person114">Jud</persName> aus dieser Zeit ist nicht erhalten.</note>.</s>
+					<s n="13" xml:lang="de" type="auto">Dise satzung wil sich so wyttleuffig zuͤtragen, daß die gscheidnen ire huͤren oder buͤben<note xml:id="fn13" type="footnote" n="13">Huren-Buben, Hurer (<bibl>SI</bibl> IV 928).</note> nämend, vermeinend, wenn es nitt in klag oder recht kummen sye <foreign xml:lang="la">ab innocente<note xml:id="fn14" type="footnote" n="14">wenn es von Seiten des unschuldigen Teils nicht zu Klage oder Prozeß gekommen sei.</note></foreign> und scheidens kein schuld trage, sölle inen nitt verspert sin<note xml:id="fn15" type="footnote" n="15">soll ihnen (die Ehe) nicht verboten sein.</note>, <foreign xml:lang="la">quantumvis notorium fuerit adulterium.</foreign></s>
+					<s n="14" xml:lang="de" type="auto">Ettlich meinend, ergernuß ze vermiden, söllen man <foreign xml:lang="la">salutem ecclesię</foreign> höher<pb type="edition" next="274"/> schätzen, dann sunderer<note xml:id="fn16" type="footnote" n="16">einzelner (<bibl>SI</bibl> VII 1140).</note> lüten.</s>
+					<s n="15" xml:lang="de" type="auto">Begärend ettlich by der satzung styfft<note xml:id="fn17" type="footnote" n="17">fest, beharrlich (<bibl>SI</bibl> X 1426f).</note> ze bliben on allen inbruch<note xml:id="fn18" type="footnote" n="18">ohne Schmälerung (des bisherigen Rechtes; <bibl>SI</bibl> V 371).</note>.</s>
+					<s n="16" xml:lang="de" type="auto">Ettlich ouch, aber mitt dem zuͤsatz, daß ein chorgricht gwalt hab, nach billicheit und gstalt der sachen<note xml:id="fn19" type="footnote" n="19">nach den Umständen (<bibl>SI</bibl> XI 344).</note> ze urteilen.</s>
+					<s n="17" xml:lang="la" type="auto">Hoc quoque perpende et scribe sententiam tuam fulciasque argumentis, quibus potes<note xml:id="fn20" type="footnote" n="20">Die Zürcher Prädikanten beantworteten in ihrem Gutachten beide Fragen negativ, s. <bibl>ABernerRef</bibl> 2929 und die oben (Anm. 1) angeführte Lit.</note>.</s>
+					<s n="18" xml:lang="la" type="auto">Non dubito <persName ref="p8412">Megandrum</persName> <persName ref="p1753">Leoni</persName> etiam scripsisse<note xml:id="fn21" type="footnote" n="21">Ein Brief <persName>Meganders</persName> an <persName ref="p2305">Jud</persName> aus dieser Zeit ist nicht erhalten.</note>.</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Vale; nulla alia sunt apud nos nova.</s>

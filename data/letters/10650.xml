@@ -6,51 +6,41 @@
 				<title subtype="file">Otto Werdmüller / Strassburg AN Heinrich Bullinger, 9. Juli 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=612</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">272</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2747</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Berichtet, daß [Heinrich]
-								<persName ref="person1479">Lavater</persName> am Abend [des 4. Juli] - wegen der sommerlichen Hitze, aber
+								Berichtet, daß <persName ref="p5618">[Heinrich] Lavater</persName> am Abend [des 4. Juli] - wegen der sommerlichen Hitze, aber
 								auch wegen der Hautreizungen, unter denen er litt - in der nahen
-								<placeName ref="place510">Ill</placeName> baden ging, den Fluß zusammen mit zwei andern Schülern
+								<placeName>Ill</placeName> baden ging, den Fluß zusammen mit zwei andern Schülern
 								überquerte, beim Zurückschwimmen aber von einem Krampf befallen wurde und unter den Augen des Vorstehers des
-								Kollegiums [<persName ref="person664">Melchior Cumanus</persName>] und anderer Zuschauer ertrank; sein
+								Kollegiums [<persName ref="p4590">Melchior Cumanus</persName>] und anderer Zuschauer ertrank; sein
 								Leichnam wurde erst am Tage darauf gefunden und bestattet.
 							</p>
 						</summary>
@@ -61,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Teilübersetzung">
-								<title>Hans Heinrich Füssli in: Njbl. der Chorherren auf das Jahr 1781, 3. Stück, Zürich 1780 S. 7</title>
+								<title>Hans Heinrich Füssli in: Njbl. der Chorherren auf das Jahr 1781, 3. Stück, Zürich 1780 S.7</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 612, S.272</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -71,18 +64,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10650">
 				<correspAction type="sent">
-					<persName ref="person3875" cert="high">
+					<persName ref="p3875" cert="high">
 						<!--
 						<surname cert="high">Werdmüller</surname>
 						<forename cert="high">Otto</forename>
 						<persName type="main" ref="person8459>Werdmüller, Otto</persName>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1535-07-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +104,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,41 +115,41 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Domino <persName ref="person1479">Henrico</persName> Bullingero, patri suo inprimis colendo, s. p.</s>
+					<s n="1" xml:lang="la" type="auto">Domino <persName ref="p5618">Henrico</persName> Bullingero, patri suo inprimis colendo, s. p.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Non equidem arbitror multis ambagibus apud te opus fore, partim quia omnes fortunae casus non tam fortiter ferre, quam faeliciter superare didicisti, partim vero, cum has literas alii nuntii plurimi et ipsa denique fama, quae est ipsius velocitas, anteverterit forsan omni generi virtutum sanctissimisque literarum studiis consecratum vixisse <persName ref="person1479">Lavaterum</persName><note xml:id="fn1" type="footnote" n="1">Zum Ertrinkungstod von <persName ref="person1479">Heinrich Lavater</persName> in <placeName ref="place1049">Straßburg</placeName> vgl. auch oben <ref target="file10649">Nr. 611</ref> mit Anm. 2.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Abiit frigida lavatum iterum atque iterum cum uno et altero convictorum, qui simul omnes in unis aedibus conversamur<note xml:id="fn2" type="footnote" n="2">Wer noch, außer <persName ref="person1479">Heinrich Lavater</persName> und <persName ref="person238">Otto Werdmüller</persName>, als Kostgänger bei <persName ref="person9">Jakob Bedrot</persName> wohnte, ist nicht bekannt.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Non equidem arbitror multis ambagibus apud te opus fore, partim quia omnes fortunae casus non tam fortiter ferre, quam faeliciter superare didicisti, partim vero, cum has literas alii nuntii plurimi et ipsa denique fama, quae est ipsius velocitas, anteverterit forsan omni generi virtutum sanctissimisque literarum studiis consecratum vixisse <persName ref="p5618">Lavaterum</persName><note xml:id="fn1" type="footnote" n="1">Zum Ertrinkungstod von <persName>Heinrich Lavater</persName> in <placeName>Straßburg</placeName> vgl. auch oben <ref target="file10649">Nr. 611</ref> mit Anm. 2.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Abiit frigida lavatum iterum atque iterum cum uno et altero convictorum, qui simul omnes in unis aedibus conversamur<note xml:id="fn2" type="footnote" n="2">Wer noch, außer <persName>Heinrich Lavater</persName> und <persName>Otto Werdmüller</persName>, als Kostgänger bei <persName>Jakob Bedrot</persName> wohnte, ist nicht bekannt.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Hominem eo insaniae perduxit vehemens calor aestivus, impulerunt et scabiei reliquiae, qua se tota liberatum in hac ratione sperabat, in hyeme quoque praeterita renuens aliam adhibere medicinam, quamlibet diris modis a scabie vexaretur.</s>
-					<s n="5" xml:lang="la" type="auto">Itaque repetit flumen prope urbem<note xml:id="fn3" type="footnote" n="3">die III, ein Nebenfluß des <placeName ref="place11">Rheins</placeName>.</note>, quod antea quoque bis vel ter ingressus erat, sed iam confidentius non lavare contentus, nisi et traiiceret.</s>
+					<s n="5" xml:lang="la" type="auto">Itaque repetit flumen prope urbem<note xml:id="fn3" type="footnote" n="3">die III, ein Nebenfluß des <placeName>Rheins</placeName>.</note>, quod antea quoque bis vel ter ingressus erat, sed iam confidentius non lavare contentus, nisi et traiiceret.</s>
 					<s n="6" xml:lang="la" type="auto">Atque utinam, o deus immortalis, eadem faelicitate contigisset emergere, qua cum duobus aliis studiosis<note xml:id="fn4" type="footnote" n="4">Nicht bekannt.</note> traiecit.</s>
-					<s n="7" xml:lang="la" type="auto">In ripa stetit cum aliis multis, qui toti collegio praefectus est<note xml:id="fn5" type="footnote" n="5">Dem 1534 im ehemaligen Dominikanerkloster eingerichteten Internat, dem "Collegium praedicatorum", stand seit Anfang 1535 <persName ref="person664">Melchior Cumanus</persName> vor (vgl. Carl <hi>Engel,</hi> Das Schulwesen in Strassburg vor der Gründung des protestantischen Gymnasiums 1538, Strassburg 1886, S. 53, und Johannes <hi>Ficker,</hi> Erste Lehr- und Lernbücher des höheren Unterrichts in <placeName ref="place1049">Straßburg</placeName> (1534-1542), in: [Festschrift] Heinrich Wallau, dem Meister, zum sechzigsten Geburtstag, dargeboten von der Hofdruckerei Philipp von Zabern, Mainz 1912, S. 13).</note>.</s>
+					<s n="7" xml:lang="la" type="auto">In ripa stetit cum aliis multis, qui toti collegio praefectus est<note xml:id="fn5" type="footnote" n="5">Dem 1534 im ehemaligen Dominikanerkloster eingerichteten Internat, dem "Collegium praedicatorum", stand seit Anfang 1535 <persName>Melchior Cumanus</persName> vor (vgl. Carl <hi>Engel,</hi> Das Schulwesen in Strassburg vor der Gründung des protestantischen Gymnasiums 1538, Strassburg 1886, S. 53, und Johannes <hi>Ficker,</hi> Erste Lehr- und Lernbücher des höheren Unterrichts in <placeName>Straßburg</placeName> (1534-1542), in: [Festschrift] Heinrich Wallau, dem Meister, zum sechzigsten Geburtstag, dargeboten von der Hofdruckerei Philipp von Zabern, Mainz 1912, S. 13).</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Sed quid multis?</s>
-					<s n="9" xml:lang="la" type="auto">Nemo potuit, vel si vitam in ultimum discrimen vocasset, <persName ref="person1479">Lavaterum</persName> in tanta fluvii profunditate (proh dolor) nutantem e periculo mortis eripere.</s>
+					<s n="9" xml:lang="la" type="auto">Nemo potuit, vel si vitam in ultimum discrimen vocasset, <persName ref="p5618">Lavaterum</persName> in tanta fluvii profunditate (proh dolor) nutantem e periculo mortis eripere.</s>
 					<s n="10" xml:lang="la" type="auto">Non est adeo difficilis traiectus eo loci, sed a spasmo nimirum subito correptum, utcunque natare quidem<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> quidem <hi>gestrichenes</hi> sed.</note>, sed enatare non erat reliquarum virium.</s>
 					<s n="11" xml:lang="la" type="auto">Nam eiusmodi se timere morbum,<pb type="edition" next="273"/> utpote quo saepius laborasset, non solum alias, verum et interea, dum exueretur, questus est.</s>
 					<s n="12" xml:lang="la" type="auto">Horrendum spectaculum<note xml:id="fnb" type="footnote" n="b">Horrendum spectaculum <hi>über gestrichenem</hi> In hoc - - - horrendo spectaculo - - - animadversum est.</note>.</s>
 					<s n="13" xml:lang="la" type="auto">Cum enim plusquam laboriose diuque corpus iactitasset strenue pugnans evadere, et cum nulla salutis spes affulgeret, solis manibus eminentibus iisque iunctis aliquandiu et in coelum sublatis non multo post inferior torrentis violentia oppressus est.</s>
 					<s n="14" xml:lang="la" type="auto">Nec vel mortuus eo die amplius inveniri potuit, sed postridie demum et inventum et honeste sepultum est cadaver.</s>
 					<s n="15" xml:lang="la" type="auto">Habes omnem rem optima fide perscriptam, quamvis ego ipse nequaquam interfuerim nec interfuisse vellem, nisi etiam adesse opemque ferre potuissem.</s>
-					<s n="16" xml:lang="la" type="auto">Istius calamitosi balnei illi fuerunt soli conscii, qui una laverunt; caeteri sodales<note xml:id="fn6" type="footnote" n="6">Im "Collegium praedicatorum" waren neben den <placeName ref="place1049">Straßburger</placeName> Stipendiaten noch acht schwäbische Studenten der Bufflerschen Schulstiftung untergebracht (vgl. <hi>Ficker,</hi> Erste Lehr- und Lernbücher, aaO, S. 9-13, und BucerDS VII 537).</note> e collegio ipseque in collegio summus forte fortuna intervenerunt.</s>
+					<s n="16" xml:lang="la" type="auto">Istius calamitosi balnei illi fuerunt soli conscii, qui una laverunt; caeteri sodales<note xml:id="fn6" type="footnote" n="6">Im "Collegium praedicatorum" waren neben den <placeName>Straßburger</placeName> Stipendiaten noch acht schwäbische Studenten der Bufflerschen Schulstiftung untergebracht (vgl. <hi>Ficker,</hi> Erste Lehr- und Lernbücher, aaO, S. 9-13, und <bibl>BucerDS</bibl> VII 537).</note> e collegio ipseque in collegio summus forte fortuna intervenerunt.</s>
 					<s n="17" xml:lang="la" type="auto">Quid ego nunc apud te querelas effundam?</s>
 					<s n="18" xml:lang="la" type="auto">Equidem invitum me contineo.</s>
 					<s n="19" xml:lang="la" type="auto">Quae etenim consolatio tanto poterit esse dolore superior, cum (ut virtutes ipsius praeteream et summum studium in bonis literis domestice tibi cognitum) omnium meorum sodalium plurimis nominibus coniunctissimo et tantum non solatio vitae miserabiliter spoliatus sim.</s>
-					<s n="20" xml:lang="la" type="auto">Verum audi potius d. <persName ref="person9">Bedrotum</persName>, qui haec omnia literis ad te diligenter exequetur<note xml:id="fn7" type="footnote" n="7">Unten <ref target="file10651">Nr. 613</ref>.</note>.</s>
+					<s n="20" xml:lang="la" type="auto">Verum audi potius d. <persName ref="p315">Bedrotum</persName>, qui haec omnia literis ad te diligenter exequetur<note xml:id="fn7" type="footnote" n="7">Unten <ref target="file10651">Nr. 613</ref>.</note>.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Vale faelicissime cum tota ecclesia Tigurina.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto">Scriptum <placeName ref="place1049">Argentorati</placeName> in aedibus d. <persName ref="person9">Bedroti</persName> anno 1535, 9. julii.</s>
+					<s n="22" xml:lang="la" type="auto">Scriptum <placeName>Argentorati</placeName> in aedibus d. <persName ref="p315">Bedroti</persName> anno 1535, 9. julii.</s>
 				</p>
 				<p>
-					<s n="23" xml:lang="la" type="auto"><persName ref="person238">Otho Werdmüllerus</persName> tibi obsequentissimus.</s>
+					<s n="23" xml:lang="la" type="auto"><persName ref="p8459">Otho Werdmüllerus</persName> tibi obsequentissimus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="24" xml:lang="la" type="auto">Solidae ac verae doctrinae explorataeque fidei d. Henrico Bullingero, verbi ministro <persName ref="person238">Tigurinae</persName> ecclesiae praestantissimo suo patri semper venerando.</s>
+					<s n="24" xml:lang="la" type="auto">Solidae ac verae doctrinae explorataeque fidei d. Henrico Bullingero, verbi ministro <persName ref="p8459">Tigurinae</persName> ecclesiae praestantissimo suo patri semper venerando.</s>
 				</p>
 			</div>
 		</body>

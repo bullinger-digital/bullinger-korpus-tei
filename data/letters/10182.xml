@@ -6,62 +6,60 @@
 				<title subtype="file">Wolfgang Capito / Strassburg AN Heinrich Bullinger, Leo Jud, 17. November 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=151</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">261</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,33</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Lobt <persName ref="person79">Konrad Geßner</persName>, der als Briefüberbringer von
-								<placeName ref="place1049">Straßburg</placeName> nach Zürich kommt, und rät, ihn mit einem Stipendium in
+								Lobt <persName ref="p4951">Konrad Geßner</persName>, der als Briefüberbringer von
+								<placeName>Straßburg</placeName> nach Zürich kommt, und rät, ihn mit einem Stipendium in
 								der Fremde studieren zu lassen. Angeblich überwintert der Kaiser mit spanischen Truppen zur Einschüchterung
-								der Eidgenossen in <placeName ref="place667">Mailand</placeName>. Grüße.
+								der Eidgenossen in <placeName>Mailand</placeName>. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 151, S.261</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10182">
 				<correspAction type="sent">
-					<persName ref="person578" cert="high">
+					<persName ref="p578" cert="high">
 						<!--
 						<surname cert="high">Capito</surname>
 						<forename cert="high">Wolfgang</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414573"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1532-11-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -86,7 +84,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1753" cert="high">
+					<persName ref="p1753" cert="high">
 						<!--
 						<surname cert="high">Jud</surname>
 						<forename cert="high">Leo</forename>
@@ -115,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,17 +127,17 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Cur nunc vos adeat <persName ref="person79">Conradus</persName> meus, adolescens non solum spei summę, sed rei non penitendę, ipse coram exponet<note xml:id="fn1" type="footnote" n="1">Zu <persName ref="person79">Konrad Geßners</persName> Wunsch, nach Zürich zurückzukehren s. oben S. 253, 14f.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Quem oro curabitis aut provisum stipendio<note xml:id="fn2" type="footnote" n="2">Tatsächlich erhielt <persName ref="person79">Geßner</persName> im folgenden Jahr ein Stipendium und verließ im Februar 1533 zusammen mit <persName ref="person69">Johannes Fries</persName> für zwei Jahre Zürich, s. <hi>Fischer</hi> 13f.</note> aut velut emancipatum factumque sui iuris.</s>
+					<s n="2" xml:lang="la" type="auto">Cur nunc vos adeat <persName ref="p4951">Conradus</persName> meus, adolescens non solum spei summę, sed rei non penitendę, ipse coram exponet<note xml:id="fn1" type="footnote" n="1">Zu <persName>Konrad Geßners</persName> Wunsch, nach Zürich zurückzukehren s. oben S. 253, 14f.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Quem oro curabitis aut provisum stipendio<note xml:id="fn2" type="footnote" n="2">Tatsächlich erhielt <persName>Geßner</persName> im folgenden Jahr ein Stipendium und verließ im Februar 1533 zusammen mit <persName>Johannes Fries</persName> für zwei Jahre Zürich, s. <bibl>Fischer</bibl> 13f.</note> aut velut emancipatum factumque sui iuris.</s>
 					<s n="4" xml:lang="la" type="auto">Ego tum eius indolis primę curam in me suscipiam daboque operam, ut praeter ingenii cultum et fructum pietatis conditionem vivendi opportunam inveniat.</s>
 					<s n="5" xml:lang="la" type="auto">Comites<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> itineris invenit me non sperante.</s>
 					<s n="6" xml:lang="la" type="auto">Iccirco paucis vix licuit.</s>
 					<s n="7" xml:lang="la" type="auto">Alioqui fortassis avidum consilium iuvenis meamque indulgentiam levem dicetis, qui ex abrupto in iter nos coniecimus.</s>
-					<s n="8" xml:lang="la" type="auto">Verum existimo pensitaturos vos, quid iuveni<note xml:id="fna" type="footnote" n="a">iuveni <hi>statt gestrichenem</hi> amanti.</note> tum patriam, tum parentem<note xml:id="fn4" type="footnote" n="4"><persName ref="person79">Geßners</persName> Mutter Agathe, geb. Frick. Der Vater fiel in der Schlacht von <placeName ref="place534">Kappel</placeName>, s. <hi>Fischer</hi> 9.11f.</note> solatio destitutum amanti<note xml:id="fnb" type="footnote" n="b">amanti <hi>übergeschrieben.</hi></note> permittendum.</s>
+					<s n="8" xml:lang="la" type="auto">Verum existimo pensitaturos vos, quid iuveni<note xml:id="fna" type="footnote" n="a">iuveni <hi>statt gestrichenem</hi> amanti.</note> tum patriam, tum parentem<note xml:id="fn4" type="footnote" n="4"><persName>Geßners</persName> Mutter Agathe, geb. Frick. Der Vater fiel in der Schlacht von <placeName>Kappel</placeName>, s. <bibl>Fischer</bibl> 9.11f.</note> solatio destitutum amanti<note xml:id="fnb" type="footnote" n="b">amanti <hi>übergeschrieben.</hi></note> permittendum.</s>
 					<s n="9" xml:lang="la" type="auto">Valete, et communem foeturam nostram - nam eius partem et mihi vendico - absolvite tandem in perfectum, id est, operam date, ut honesto pro voto stipendio adornatus aliquo abmandetur invisurus varios hominum mores et urbes.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Rumor, scio, istic adversus est cesarem cum suis <placeName ref="place29">Hispanis</placeName> <placeName ref="place667">Mediolani</placeName> hiematurum causa territandę gentis Elveticae<note xml:id="fn5" type="footnote" n="5"><persName ref="person1332">Karl V.</persName> verbrachte von <placeName ref="place1192">Wien</placeName> kommend die Zeit zwischen 6. November und 7. Dezember 1532 in <persName ref="person1576">Mantua</persName> und hielt sich hernach in <placeName ref="place158">Bologna</placeName> auf, um mit <persName ref="person635">Clemens VII.</persName> zu verhandeln, <hi>s.</hi> Karl <hi>Brandi,</hi> Kaiser <persName ref="person1332">Karl V.</persName> Werden und Schicksal einer Persönlichkeit und eines Weltreiches, Bd. I, München 1937, S. 299. Bd. II, München 1941, S. 241; <hi>Müller</hi> 229-237. -Über das Gerücht von der Überwinterung des kaiserlichen Heeres in <placeName ref="place667">Mailand</placeName> s. oben <ref target="file10181">[Nr. 150]</ref> S. 260, 3f, und Anm. 4.</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Rumor, scio, istic adversus est cesarem cum suis <placeName>Hispanis</placeName> <placeName>Mediolani</placeName> hiematurum causa territandę gentis Elveticae<note xml:id="fn5" type="footnote" n="5"><persName>Karl V.</persName> verbrachte von <placeName>Wien</placeName> kommend die Zeit zwischen 6. November und 7. Dezember 1532 in <placeName>Mantua</placeName> und hielt sich hernach in <placeName>Bologna</placeName> auf, um mit <persName>Clemens VII.</persName> zu verhandeln, <hi>s.</hi> Karl <hi>Brandi,</hi> <persName>Kaiser Karl V.</persName> Werden und Schicksal einer Persönlichkeit und eines Weltreiches, Bd. I, München 1937, S. 299. Bd. II, München 1941, S. 241; <bibl>Müller</bibl> 229-237. -Über das Gerücht von der Überwinterung des kaiserlichen Heeres in <placeName>Mailand</placeName> s. oben <ref target="file10181">[Nr. 150]</ref> S. 260, 3f, und Anm. 4.</note>.</s>
 					<s n="11" xml:lang="la" type="auto">In consiliis cesareanis talia multa iactantur, nihil addubito, et forte terrores in speciem intentabunt adversarii.</s>
 					<s n="12" xml:lang="la" type="auto">Atqui nihil serii adversum vos geretur gnaviter ac pie conantes.</s>
 					<s n="13" xml:lang="la" type="auto">Duo sunt, quę considero in cesare, animum a bellis abhorrentem et studium thesauri infiniti aggerendi.</s>
@@ -148,21 +146,21 @@
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto">Iterum valete.</s>
-					<s n="17" xml:lang="la" type="auto">Reliqua ex <persName ref="person79">Gesnero</persName> nostro.</s>
+					<s n="17" xml:lang="la" type="auto">Reliqua ex <persName ref="p4951">Gesnero</persName> nostro.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto"><placeName ref="place1049">Argentorati</placeName>, 17. novembris anno 1532.</s>
+					<s n="18" xml:lang="la" type="auto"><placeName>Argentorati</placeName>, 17. novembris anno 1532.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">Professores et concionatores omnes, in primis <persName ref="person14">Theodorum</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person14">Theodor Bibliander</persName>.</note>, ex me salutate.</s>
-					<s n="20" xml:lang="la" type="auto"><persName ref="person180">Diethelmum</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person180">Diethelm Röist</persName>.</note> consulem et optimum quemque ex me salutabitis.</s>
+					<s n="19" xml:lang="la" type="auto">Professores et concionatores omnes, in primis <persName ref="p8171">Theodorum</persName><note xml:id="fn6" type="footnote" n="6"><persName>Theodor Bibliander</persName>.</note>, ex me salutate.</s>
+					<s n="20" xml:lang="la" type="auto"><persName ref="p2816">Diethelmum</persName><note xml:id="fn7" type="footnote" n="7"><persName>Diethelm Röist</persName>.</note> consulem et optimum quemque ex me salutabitis.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto">V. <persName ref="person40">Capito</persName>, vester ex animo.</s>
+					<s n="21" xml:lang="la" type="auto">V. <persName ref="p5565">Capito</persName>, vester ex animo.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="22" xml:lang="la" type="auto">Viris integerrimis iuxta ac pie eruditis Hen[rico] Bullingero et <persName ref="person114">Leoni Jud</persName>, ecclesiastis Tigurinis, dominis ac fratribus in Christo observandis.</s>
+					<s n="22" xml:lang="la" type="auto">Viris integerrimis iuxta ac pie eruditis Hen[rico] Bullingero et <persName ref="p1753">Leoni Jud</persName>, ecclesiastis Tigurinis, dominis ac fratribus in Christo observandis.</s>
 				</p>
 			</div>
 		</body>

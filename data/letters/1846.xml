@@ -6,32 +6,31 @@
 				<title subtype="file">Philipp Landgraf von Hessen / Marburg AN Heinrich Bullinger / Zürich, 14. April 1553</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3099</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Original">E II 337,554</idno>
 						<idno subtype="Hinweis">mit aut. Unterschrift</idno>
 					</msIdentifier>
@@ -58,14 +57,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive61">
+						<repository ref="a61">
 							<name>Marburg HStA</name>
 							<ref target="https://landesarchiv.hessen.de/"/>
 						</repository>
-						<settlement ref="place311">Marburg</settlement>
+						<settlement ref="l311">Marburg</settlement>
 						<institution>Hessisches Landesarchiv Abteilung Staatsarchiv</institution>
 						-->
-						<repository ref="archive61"/>
+						<repository ref="a61"/>
 						<idno subtype="Kopie">PA 1797 (3, 1797), fo 61-62v (62r leer)</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
 					</msIdentifier>
@@ -73,14 +72,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 79,80</idno>
 						<idno subtype="Hinweis">Kassel LMB, 4° Ms hist. litt. 19</idno>
 					</msIdentifier>
@@ -90,7 +89,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1846">
 				<correspAction type="sent">
-					<persName ref="person1872" cert="high">
+					<persName ref="p1872" cert="high">
 						<!--
 						<surname cert="high">Landgraf von Hessen</surname>
 						<forename cert="high">Philipp</forename>
@@ -100,11 +99,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/11859382X"/>
 						-->
 					</persName>
-					<placeName source="place311" cert="high"><orig>Marburg</orig></placeName>
+					<placeName source="l311" cert="high"><orig>Marburg</orig></placeName>
 					<date when="1553-04-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +113,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file1847"/>
@@ -141,7 +140,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

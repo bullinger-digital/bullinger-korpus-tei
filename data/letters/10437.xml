@@ -6,50 +6,40 @@
 				<title subtype="file">(Synode) / Zürich AN Johannes Blum, 1. Juli 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=402</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">224</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 1,126-128</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person23">Johannes Blum</persName> soll sich nach
-								<placeName ref="place1202">Winterthur</placeName> begeben und, im Beisein des Pfarrers
-								[<persName ref="person101">Matthias Hirsgarter</persName>] und des Stadtschreibers
-								[<persName ref="person96">Gebhart Hegner</persName>], Hans
-								[<persName ref="person1454">Landenberg</persName>] gemäß anschließender Instruktion zur Besserung seines
+								<persName ref="p8182">Johannes Blum</persName> soll sich nach
+								<placeName>Winterthur</placeName> begeben und, im Beisein des Pfarrers
+								[<persName ref="p1550">Matthias Hirsgarter</persName>] und des Stadtschreibers
+								[<persName ref="p1393">Gebhart Hegner</persName>], <persName ref="p8402">Hans [Landenberg]</persName> gemäß anschließender Instruktion zur Besserung seines
 								und seiner Frau Lebenswandel ermahnen.
 							</p>
 						</summary>
@@ -58,21 +48,28 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 402, S.224</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10437">
 				<correspAction type="sent">
-					<roleName ref="role4" type="pl" role="Synodenverordnete" cert="high">
+					<roleName ref="g4" type="pl" role="Synodenverordnete" cert="high">
 						<orig>Verordnete der Zürcher Synode</orig>
-							<orgName ref="org25" type="sg" role="Synode" cert="high"/>
+							<orgName ref="i25" type="sg" role="Synode" cert="high"/>
 					</roleName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1534-07-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person415" cert="high">
+					<persName ref="p415" cert="high">
 						<!--
 						<surname cert="high">Blum</surname>
 						<forename cert="high">Johannes</forename>
@@ -92,7 +89,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -104,43 +101,43 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Dem ersamen, frommen und wolgelerten Floro, dechan des capitels <placeName ref="place1202">Wintertur</placeName>, unserem gunstigen, lieben.</s>
+					<s n="1" xml:lang="de" type="auto">Dem ersamen, frommen und wolgelerten Floro, dechan des capitels <placeName>Wintertur</placeName>, unserem gunstigen, lieben.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="de" type="auto">Gnad und frid von got etc.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Lieber her und bruͦder, uch ist noch unvergessen, wie im nechstgehaltnen<note xml:id="fn3" type="footnote" n="3">in der letzten Synode.</note> synodo vil ungeschikter artiklen wider her <persName ref="person23">Hansen</persName> Stattschriber ingeleit<note xml:id="fn4" type="footnote" n="4">vorgebracht, eingereicht (SI III 1184).</note>, sin geschrifftliche verantwurtung<note xml:id="fn5" type="footnote" n="5">Rechtfertigung (Grimm XII/I 82).</note> dagegen verhört<note xml:id="fn6" type="footnote" n="6">verlesen lassen (SI II 1574).</note> und wir verordnet, der handlung nachzetrachten<note xml:id="fn7" type="footnote" n="7">zu bedenken, einen Vorschlag auszuarbeiten.</note>.</s>
-					<s n="4" xml:lang="de" type="auto">Das nun beschehen ist<note xml:id="fn8" type="footnote" n="8">Zur Klage gegen <persName ref="person1454">Hans Landenberg</persName> (genannt Stattschriber) in der Synode vom 5. Mai 1534, zu dessen Rechtfertigung und zum Briefwechsel der Synodalverordneten mit Schultheiß und Rat von <placeName ref="place1202">Winterthur</placeName> s. oben <ref target="file10432">[Nr. 397]</ref> S. 216, Anm. 3 und 4.</note>.</s>
-					<s n="5" xml:lang="de" type="auto">Hierum were jetzund unser will und meinung, das ir gen <placeName ref="place1202">Wintertur</placeName> hinzu kartind<note xml:id="fn9" type="footnote" n="9">sich begeben, gehen (SI III 435).</note>, den pfarrer<note xml:id="fn10" type="footnote" n="10"><persName ref="person101">Matthias Hirsgarter</persName>.</note> daselbs zuͦ uch nemind und ir bed den stattschriber<note xml:id="fn11" type="footnote" n="11"><persName ref="person96">Gebhart Hegner</persName>.</note> daselb erbätind, das er zuͦ üch stuͤnde und demnach ir dry nach vermög hie bygelegter instruction handlind, wie wir uch vertruwend.</s>
+					<s n="3" xml:lang="de" type="auto">Lieber her und bruͦder, uch ist noch unvergessen, wie im nechstgehaltnen<note xml:id="fn3" type="footnote" n="3">in der letzten Synode.</note> synodo vil ungeschikter artiklen wider her <persName ref="p8182">Hansen</persName> Stattschriber ingeleit<note xml:id="fn4" type="footnote" n="4">vorgebracht, eingereicht (<bibl>SI</bibl> III 1184).</note>, sin geschrifftliche verantwurtung<note xml:id="fn5" type="footnote" n="5">Rechtfertigung (<bibl>Grimm</bibl> XII/I 82).</note> dagegen verhört<note xml:id="fn6" type="footnote" n="6">verlesen lassen (<bibl>SI</bibl> II 1574).</note> und wir verordnet, der handlung nachzetrachten<note xml:id="fn7" type="footnote" n="7">zu bedenken, einen Vorschlag auszuarbeiten.</note>.</s>
+					<s n="4" xml:lang="de" type="auto">Das nun beschehen ist<note xml:id="fn8" type="footnote" n="8">Zur Klage gegen <persName>Hans Landenberg</persName> (genannt Stattschriber) in der Synode vom 5. Mai 1534, zu dessen Rechtfertigung und zum Briefwechsel der Synodalverordneten mit Schultheiß und Rat von <placeName>Winterthur</placeName> s. oben <ref target="file10432">[Nr. 397]</ref> S. 216, Anm. 3 und 4.</note>.</s>
+					<s n="5" xml:lang="de" type="auto">Hierum were jetzund unser will und meinung, das ir gen <placeName>Wintertur</placeName> hinzu kartind<note xml:id="fn9" type="footnote" n="9">sich begeben, gehen (<bibl>SI</bibl> III 435).</note>, den pfarrer<note xml:id="fn10" type="footnote" n="10"><persName ref="p7640">Matthias Hirsgarter</persName>.</note> daselbs zuͦ uch nemind und ir bed den stattschriber<note xml:id="fn11" type="footnote" n="11"><persName ref="p5497">Gebhart Hegner</persName>.</note> daselb erbätind, das er zuͦ üch stuͤnde und demnach ir dry nach vermög hie bygelegter instruction handlind, wie wir uch vertruwend.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="de" type="auto">Hiemitt sind got bevolhen.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto">Datum Zürich, 1. julii 1534. jar.</s>
+					<s n="7" xml:lang="de" type="auto">Datum <placeName>Zürich</placeName>, 1. julii 1534. jar.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="de" type="auto">Verordnete von den räten und predicanten vom synodo.</s>
 				</p>
 				<p>
 					<note>[Instruktion:]</note>
-					<s n="9" xml:lang="de" type="auto">Florus, der dechan in <placeName ref="place1202">Winterturer</placeName> capitel, Mathias Hirßgarter<note xml:id="fn12" type="footnote" n="12"><persName ref="person101">Matthias Hirsgarter</persName>, geb. 1486 (s. Blarer BW III 667 und 702) oder 1490 (s. ebd. 671), gest. 1563, wurde als Diakon am St. Peter in Zürich ein früher Anhänger Zwinglis. Im Jahre 1519 nahm er seine Tätigkeit in <placeName ref="place1202">Winterthur</placeName> auf, wo er am 10. Januar 1524 heiratete. 1537 wurde er Dekan des <placeName ref="place1202">Winterthurer</placeName> Kapitels, nachdem er anscheinend vorher schon als Stellvertreter von <persName ref="person23">Johannes Blum</persName> gewirkt hatte (s. <hi>Bächtold,</hi> Bullinger vor dem Rat 42). 1544 ging er eine zweite Ehe ein (s. Bosshart 102). Hirsgarter war ein schwieriger Charakter. Rechthaberei und eine heftige Wesensart machten offensichtlich den Umgang mit ihm, besonders im höheren Alter, unangenehm. Zu dieser Unverträglichkeit dürfte auch ein schweres Steinleiden, unter dem Hirsgarter litt, beigetragen haben (s. Blarer BW III Reg.). Im Jahr 1559 wurde er als Dekan von <persName ref="person2519">Christian Wirth</persName> in <placeName ref="place758">Neftenbach</placeName> abgelöst. Es sind zwei Briefe Hirsgarters an Bullinger, der eine davon von <persName ref="person141">Heinrich Lüthi</persName> mitunterzeichnet, überliefert. Außerdem liegt ein Brief der beiden an die Examinatoren in Zürich vor. - Lit.: Z IX 217. X 376; Rudolf <hi>Pfister,</hi> Ambrosius Blarer in der Schweiz, 1548-1564, in: Der Konstanzer Reformator Ambrosius Blarer 1492-1564. Gedenkschrift zu seinem 400. Todestag, hg. v. Bernd Moeller, Konstanz 1964, S. 208-210. 216f; Hermann <hi>Walser,</hi> Geschichte der Laurenzen- oder Stadtkirche <placeName ref="place1202">Winterthur</placeName>, 2. Teil, <placeName ref="place1202">Winterthur</placeName> 1944. - 278. Neujahrsblatt der Stadtbibliothek <placeName ref="place1202">Winterthur</placeName> 1945, S. 29f; HBLS IV 229; Pfarrerbuch 343.</note>, pfarrer ze <placeName ref="place1202">Wintertur</placeName>, und her stattschryber daselbs söllend her <persName ref="person23">Hansen</persName><pb type="edition" next="225"/> Stattschryberen beruͤffen<note xml:id="fn13" type="footnote" n="13">herbeirufen, kommen lassen (SI VI 707f).</note> und dem mitt ernst, nach notturfft zuͦm ruhisten<note xml:id="fn14" type="footnote" n="14">wenn nötig in aller Strenge, Schärfe.</note>, volgende meinung fürhalten:</s>
+					<s n="9" xml:lang="de" type="auto">Florus, der dechan in <placeName>Winterturer</placeName> capitel, Mathias Hirßgarter<note xml:id="fn12" type="footnote" n="12"><persName ref="p7640">Matthias Hirsgarter</persName>, geb. 1486 (s. <bibl>Blarer BW</bibl> III 667 und 702) oder 1490 (s. ebd. 671), gest. 1563, wurde als Diakon am St. Peter in <placeName>Zürich</placeName> ein früher Anhänger Zwinglis. Im Jahre 1519 nahm er seine Tätigkeit in <placeName>Winterthur</placeName> auf, wo er am 10. Januar 1524 heiratete. 1537 wurde er Dekan des <placeName>Winterthurer</placeName> Kapitels, nachdem er anscheinend vorher schon als Stellvertreter von <persName>Johannes Blum</persName> gewirkt hatte (s. <hi>Bächtold,</hi> Bullinger vor dem Rat 42). 1544 ging er eine zweite Ehe ein (s. <bibl>Bosshart</bibl> 102). Hirsgarter war ein schwieriger Charakter. Rechthaberei und eine heftige Wesensart machten offensichtlich den Umgang mit ihm, besonders im höheren Alter, unangenehm. Zu dieser Unverträglichkeit dürfte auch ein schweres Steinleiden, unter dem Hirsgarter litt, beigetragen haben (s. <bibl>Blarer BW</bibl> III Reg.). Im Jahr 1559 wurde er als Dekan von <persName>Christian Wirth</persName> in <placeName>Neftenbach</placeName> abgelöst. Es sind zwei Briefe Hirsgarters an Bullinger, der eine davon von <persName>Heinrich Lüthi</persName> mitunterzeichnet, überliefert. Außerdem liegt ein Brief der beiden an die Examinatoren in <placeName>Zürich</placeName> vor. - Lit.: <bibl>Z</bibl> IX 217. X 376; Rudolf <hi>Pfister,</hi> Ambrosius Blarer in der Schweiz, 1548-1564, in: Der Konstanzer Reformator Ambrosius Blarer 1492-1564. Gedenkschrift zu seinem 400. Todestag, hg. v. Bernd Moeller, Konstanz 1964, S. 208-210. 216f; Hermann <hi>Walser,</hi> Geschichte der Laurenzen- oder Stadtkirche <placeName>Winterthur</placeName>, 2. Teil, <placeName>Winterthur</placeName> 1944. - 278. Neujahrsblatt der Stadtbibliothek <placeName>Winterthur</placeName> 1945, S. 29f; <bibl>HBLS</bibl> IV 229; Pfarrerbuch 343.</note>, pfarrer ze <placeName>Wintertur</placeName>, und her stattschryber daselbs söllend her <persName ref="p8182">Hansen</persName><pb type="edition" next="225"/> Stattschryberen beruͤffen<note xml:id="fn13" type="footnote" n="13">herbeirufen, kommen lassen (<bibl>SI</bibl> VI 707f).</note> und dem mitt ernst, nach notturfft zuͦm ruhisten<note xml:id="fn14" type="footnote" n="14">wenn nötig in aller Strenge, Schärfe.</note>, volgende meinung fürhalten:</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto"><pb type="scan" next="||127"/>Die verordneten von eim ersamen synodo von räten und burgeren und predicanten habend wenig gefallens und vernuͤgens<note xml:id="fn15" type="footnote" n="15">Befriedigung (vgl. SI IV 701).</note> an siner geschrifftlichen veranwurtung<note xml:id="fn16" type="footnote" n="16">Rechtfertigung (Grimm XII/I 82).</note> als die sines und insunders siner husfrowen, ungeschikten<note xml:id="fn17" type="footnote" n="17">unschicklich, ungehörig (SI VIII 517).</note> wäsens halben gruntlich und wol bericht, ab dem sy ouch grossen mißfal tragend.</s>
-					<s n="11" xml:lang="de" type="auto">Doch diewil er kurtzlich von eim ersamen rat oder zuchtherren ze <placeName ref="place1202">Wintertur</placeName> geschuͦlet<note xml:id="fn18" type="footnote" n="18">zurechtgewiesen, getadelt (SI VIII 625). - Zu dieser Zurechtweisung s. oben <ref target="file10432">[Nr. 397]</ref> S. 217, 40-45.</note>, lassend sy es jetzzuͦmal daby blyben des styffen<note xml:id="fn19" type="footnote" n="19">festen, beständigen (SI X 1427).</note> vertruwens, erstgemelter ersamer rat werde ouch ein flyssig ufsähen uff inn haben.</s>
+					<s n="10" xml:lang="de" type="auto"><pb type="scan" next="||127"/>Die verordneten von eim ersamen synodo von räten und burgeren und predicanten habend wenig gefallens und vernuͤgens<note xml:id="fn15" type="footnote" n="15">Befriedigung (vgl. <bibl>SI</bibl> IV 701).</note> an siner geschrifftlichen veranwurtung<note xml:id="fn16" type="footnote" n="16">Rechtfertigung (<bibl>Grimm</bibl> XII/I 82).</note> als die sines und insunders siner husfrowen, ungeschikten<note xml:id="fn17" type="footnote" n="17">unschicklich, ungehörig (<bibl>SI</bibl> VIII 517).</note> wäsens halben gruntlich und wol bericht, ab dem sy ouch grossen mißfal tragend.</s>
+					<s n="11" xml:lang="de" type="auto">Doch diewil er kurtzlich von eim ersamen rat oder zuchtherren ze <placeName>Wintertur</placeName> geschuͦlet<note xml:id="fn18" type="footnote" n="18">zurechtgewiesen, getadelt (<bibl>SI</bibl> VIII 625). - Zu dieser Zurechtweisung s. oben <ref target="file10432">[Nr. 397]</ref> S. 217, 40-45.</note>, lassend sy es jetzzuͦmal daby blyben des styffen<note xml:id="fn19" type="footnote" n="19">festen, beständigen (<bibl>SI</bibl> X 1427).</note> vertruwens, erstgemelter ersamer rat werde ouch ein flyssig ufsähen uff inn haben.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="de" type="auto">Daby lassend wir imm ernstlich ansagen, das er und sin frow ernstlicher und geflissner zuͦ der kilchen und predigen gangid, das wirten, inzühen<note xml:id="fn20" type="footnote" n="20">an sich locken.</note> der gsellschafften, insunders deren, so unserem waren, heiligen, begründten, christenlichen glouben zewider sind und ubel redend, underlassind, unvergriffen<note xml:id="fn21" type="footnote" n="21">unbeschadet, ausgenommen (vgl. SI II 717).</note> was, ungefarlicher wyß zuͦ eren zuͦn zyten mitt eerenlüten oder gegen armen oder ouch främden redlichen lüten beschäche, das er sich allweg<note xml:id="fn22" type="footnote" n="22">immer, überall (Grimm I 241f).</note> der warheit flisse, lychtferige<note xml:id="fn23" type="footnote" n="23">Leichtfertigkeit (vgl. SI I 919f).</note> in worten myde, ouch kleidung halben sich erberlich<note xml:id="fn24" type="footnote" n="24">anständig, sittsam (SI I 396).</note> halte, nit in einem roten schläppli<note xml:id="fn25" type="footnote" n="25">Kopfbedeckung (SI IX 612).</note> und hurris<note xml:id="fn26" type="footnote" n="26">hurerischen, unanständigen, Anstoß erregenden (s. SI II 1591).</note> jüppli<note xml:id="fn27" type="footnote" n="27">Kleidungsstück für Männer, Kittel (SI III 54).</note> dahar fare, insonders aber mitt der frowen rede, das sy inn und nebend der metzge beschnittner<note xml:id="fn28" type="footnote" n="28">gemäßigter (vgl. SI IX 111 8f), s. auch unbeschnitten: roh, ungeschliffen (ebd. 1120).</note> und<note xml:id="fnb" type="footnote" n="b">und <hi>irrtümlich wiederholt.</hi></note> züchtiger worten sye, kleider trage, die iren gezimmend und schlechts<note xml:id="fn29" type="footnote" n="29">schlechtweg, unbedingt (SI IX 62f).</note> den pracht hinlege, das sy bedi gedenkind, wie sy uss der armen schweiß, uß dem kilchenguͦt lebind<note xml:id="fn30" type="footnote" n="30">Als ehemaliges Glied des Stiftes zu <placeName ref="place319">Embrach</placeName> hatte <persName ref="person1454">Hans Landenberg</persName> sicher noch die Nutzung an einer Chorherrenpfrund bis an sein Lebensende - wie das von der Obrigkeit bei der Aufhebung der Klöster üblicherweise zugestanden worden war. Die Klostergüter - daran wollten die Verordneten hier erinnern - waren aber grundsätzlich Kirchen- und Armengut.</note> da, schlecht<note xml:id="fn31" type="footnote" n="31">durchaus (SI IX 63).</note> min herren die hoffart und den pracht nit getulden wellend.</s>
-					<s n="13" xml:lang="de" type="auto">Und ob er und sy sich hieran nit stiessind<note xml:id="fn32" type="footnote" n="32">belehren, warnen ließen (SI XI 161 1f).</note> söllend, sy sich keins anderen nit versehen<note xml:id="fn33" type="footnote" n="33">gewärtig sein (SI VII 566).</note>, dann das man es fürohin nit gestatten wil, dann ein ersame oberkeit je nit gedulden wil, das man also mitt dem kilchen guͦt prachte<note xml:id="fn34" type="footnote" n="34">prunke, stolziere (SI V 392).</note>.<pb type="edition" next="226"/></s>
+					<s n="12" xml:lang="de" type="auto">Daby lassend wir imm ernstlich ansagen, das er und sin frow ernstlicher und geflissner zuͦ der kilchen und predigen gangid, das wirten, inzühen<note xml:id="fn20" type="footnote" n="20">an sich locken.</note> der gsellschafften, insunders deren, so unserem waren, heiligen, begründten, christenlichen glouben zewider sind und ubel redend, underlassind, unvergriffen<note xml:id="fn21" type="footnote" n="21">unbeschadet, ausgenommen (vgl. <bibl>SI</bibl> II 717).</note> was, ungefarlicher wyß zuͦ eren zuͦn zyten mitt eerenlüten oder gegen armen oder ouch främden redlichen lüten beschäche, das er sich allweg<note xml:id="fn22" type="footnote" n="22">immer, überall (<bibl>Grimm</bibl> I 241f).</note> der warheit flisse, lychtferige<note xml:id="fn23" type="footnote" n="23">Leichtfertigkeit (vgl. <bibl>SI</bibl> I 919f).</note> in worten myde, ouch kleidung halben sich erberlich<note xml:id="fn24" type="footnote" n="24">anständig, sittsam (<bibl>SI</bibl> I 396).</note> halte, nit in einem roten schläppli<note xml:id="fn25" type="footnote" n="25">Kopfbedeckung (<bibl>SI</bibl> IX 612).</note> und hurris<note xml:id="fn26" type="footnote" n="26">hurerischen, unanständigen, Anstoß erregenden (s. <bibl>SI</bibl> II 1591).</note> jüppli<note xml:id="fn27" type="footnote" n="27">Kleidungsstück für Männer, Kittel (<bibl>SI</bibl> III 54).</note> dahar fare, insonders aber mitt der frowen rede, das sy inn und nebend der metzge beschnittner<note xml:id="fn28" type="footnote" n="28">gemäßigter (vgl. <bibl>SI</bibl> IX 111 8f), s. auch unbeschnitten: roh, ungeschliffen (ebd. 1120).</note> und<note xml:id="fnb" type="footnote" n="b">und <hi>irrtümlich wiederholt.</hi></note> züchtiger worten sye, kleider trage, die iren gezimmend und schlechts<note xml:id="fn29" type="footnote" n="29">schlechtweg, unbedingt (<bibl>SI</bibl> IX 62f).</note> den pracht hinlege, das sy bedi gedenkind, wie sy uss der armen schweiß, uß dem kilchenguͦt lebind<note xml:id="fn30" type="footnote" n="30">Als ehemaliges Glied des Stiftes zu <placeName>Embrach</placeName> hatte <persName>Hans Landenberg</persName> sicher noch die Nutzung an einer Chorherrenpfrund bis an sein Lebensende - wie das von der Obrigkeit bei der Aufhebung der Klöster üblicherweise zugestanden worden war. Die Klostergüter - daran wollten die Verordneten hier erinnern - waren aber grundsätzlich Kirchen- und Armengut.</note> da, schlecht<note xml:id="fn31" type="footnote" n="31">durchaus (<bibl>SI</bibl> IX 63).</note> min herren die hoffart und den pracht nit getulden wellend.</s>
+					<s n="13" xml:lang="de" type="auto">Und ob er und sy sich hieran nit stiessind<note xml:id="fn32" type="footnote" n="32">belehren, warnen ließen (<bibl>SI</bibl> XI 161 1f).</note> söllend, sy sich keins anderen nit versehen<note xml:id="fn33" type="footnote" n="33">gewärtig sein (<bibl>SI</bibl> VII 566).</note>, dann das man es fürohin nit gestatten wil, dann ein ersame oberkeit je nit gedulden wil, das man also mitt dem kilchen guͦt prachte<note xml:id="fn34" type="footnote" n="34">prunke, stolziere (<bibl>SI</bibl> V 392).</note>.<pb type="edition" next="226"/></s>
 				</p>
 				<p>
-					<s n="14" xml:lang="de" type="auto"><pb type="scan" next="||128"/>Es sol ouch der decanus und pfarrer ze <placeName ref="place1202">Wintertur</placeName> daruf acht haben, und wo nit schynbare<note xml:id="fn35" type="footnote" n="35">sichtbare, deutliche (SI VIII 816f).</note> besserung volgte, im nechstvolgenden synodo anzeigen, inn betagen<note xml:id="fn36" type="footnote" n="36">auf einen Tag laden (SI XII 1080f).</note>, und sol er, her <persName ref="person23">Hans</persName> Stattschryber, erschynen, sich ze verantwurten<note xml:id="fn37" type="footnote" n="37">sich rechtfertigen, verteidigen (Grimm XII/I 80).</note>.</s>
+					<s n="14" xml:lang="de" type="auto"><pb type="scan" next="||128"/>Es sol ouch der decanus und pfarrer ze <placeName>Wintertur</placeName> daruf acht haben, und wo nit schynbare<note xml:id="fn35" type="footnote" n="35">sichtbare, deutliche (<bibl>SI</bibl> VIII 816f).</note> besserung volgte, im nechstvolgenden synodo anzeigen, inn betagen<note xml:id="fn36" type="footnote" n="36">auf einen Tag laden (<bibl>SI</bibl> XII 1080f).</note>, und sol er, her <persName ref="p8182">Hans</persName> Stattschryber, erschynen, sich ze verantwurten<note xml:id="fn37" type="footnote" n="37">sich rechtfertigen, verteidigen (<bibl>Grimm</bibl> XII/I 80).</note>.</s>
 					<s n="15" xml:lang="de" type="auto">Söllend je alles in trüwen ußrichten<note xml:id="fn38" type="footnote" n="38">gewissenhaft (wie aufgetragen) ausführen.</note>.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="de" type="auto">Verordnete von dem synodo: m[eister] Cuͦnrat Äscher, m[eister] <persName ref="person215">Itelhans</persName> Dumysen, doctor Christoffel <persName ref="person121">Klauser</persName>, Heinrich Bullinger, <persName ref="person114">Leo</persName> Judę.</s>
+					<s n="16" xml:lang="de" type="auto">Verordnete von dem synodo: m[eister] Cuͦnrat Äscher, m[eister] <persName ref="p6793">Itelhans</persName> Dumysen, doctor Christoffel <persName ref="p8397">Klauser</persName>, Heinrich Bullinger, <persName ref="p1753">Leo</persName> Judę.</s>
 				</p>
 			</div>
 		</body>

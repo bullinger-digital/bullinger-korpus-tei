@@ -6,46 +6,42 @@
 				<title subtype="file">Joachim Vadian / St. Gallen AN Heinrich Bullinger, 10. Mai 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1518</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">26</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Die Vadianische Briefsammlung der Stadtbibliothek St. Gallen, hg. v. Emil Arbenz und Hermann Wartmann, 7 Bde., St. Gallen 1890-1913 - MVG 24-30a.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 350,487</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person22429">[Gasparo] Contarini</persName>, der päpstliche Legat am <placeName ref="place880">Regensburger</placeName>
+								<persName ref="p4558">[Gasparo] Contarini</persName>, der päpstliche Legat am <placeName>Regensburger</placeName>
 								Reichstag, ist mit seiner Forderung nach Anerkennung und Bewahrung der Autorität des apostolischen Stuhls
-								bei den Ständen und sogar bei Kaiser [<persName ref="person1332">Karl V.</persName>] auf Ablehnung
+								bei den Ständen und sogar bei <persName ref="p18538">Kaiser [Karl V.]</persName> auf Ablehnung
 								gestoßen; es heißt, der Kaiser verstehe allmählich, welche Lehre der Lehre Christi und der Schrift
 								entspricht und sich zu Recht auf die Apostel und die Väter berufen kann; Gott möge ihm Weisheit verleihen.
-								<persName ref="person226">Vadian</persName> verspricht sich von den Verhandlungen mindestens eine temporäre Milderung des Druckes, der auf den
+								<persName ref="p8049">Vadian</persName> verspricht sich von den Verhandlungen mindestens eine temporäre Milderung des Druckes, der auf den
 								Protestanten lastet.
 							</p>
 						</summary>
@@ -56,7 +52,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Vadian BW VI, S. 26, Nr. 1170</title>
+								<title>Vadian BW VI, S.26, Nr. 1170</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -66,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11561">
 				<correspAction type="sent">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -77,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11425832"/>
 						-->
 					</persName>
-					<placeName source="place474" cert="high"><orig>St. Gallen</orig></placeName>
+					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 					<date when="1541-05-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

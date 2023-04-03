@@ -6,32 +6,31 @@
 				<title subtype="file">Pierre Viret, Kirche, Akademie / Lausanne AN Heinrich Bullinger / Zürich, 29. Dezember 1553</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3418</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,242</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XIV, S. 720f, Nr. 1882</title>
+								<title>C.O. XIV, S.720f, Nr. 1882</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -51,28 +50,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 80,221</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive39">
+						<repository ref="a39">
 							<name>Genf MHR</name>
 							<ref target="https://www.unige.ch/ihr/fr/aide-a-la-recherche/bibliotheque/"/>
 						</repository>
-						<settlement ref="place167">Genf</settlement>
+						<settlement ref="l167">Genf</settlement>
 						<institution>Musée historique de la Réformation</institution>
 						-->
-						<repository ref="archive39"/>
+						<repository ref="a39"/>
 						<idno subtype="Kopie">Herminjard-Dossier 1553-1556, 154</idno>
 					</msIdentifier>
 				</msDesc>
@@ -81,7 +80,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2131">
 				<correspAction type="sent">
-					<persName ref="person3429" cert="high">
+					<persName ref="p3429" cert="high">
 						<!--
 						<surname cert="high">Viret</surname>
 						<forename cert="high">Pierre</forename>
@@ -92,13 +91,13 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11419865"/>
 						-->
 					</persName>
-					<orgName ref="org19" type="sg" role="Kirche" cert="high"/>
-					<orgName ref="org34" type="sg" role="Akademie" cert="high"/>
-					<placeName source="place366" cert="high"><orig>Orbe</orig></placeName>
+					<orgName ref="i19" type="sg" role="Kirche" cert="high"/>
+					<orgName ref="i34" type="sg" role="Akademie" cert="high"/>
+					<placeName source="l366" cert="high"><orig>Orbe</orig></placeName>
 					<date when="1553-12-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +107,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2132"/>
@@ -130,7 +129,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

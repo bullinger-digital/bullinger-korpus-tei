@@ -6,32 +6,31 @@
 				<title subtype="file">Martin Micronius / Norden AN Heinrich Bullinger / Zürich, 5. März 1556</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">4165/59</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 375,487</idno>
 					</msIdentifier>
 					<msContents>
@@ -60,28 +59,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 87,14</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Teilkopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive39">
+						<repository ref="a39">
 							<name>Genf MHR</name>
 							<ref target="https://www.unige.ch/ihr/fr/aide-a-la-recherche/bibliotheque/"/>
 						</repository>
-						<settlement ref="place167">Genf</settlement>
+						<settlement ref="l167">Genf</settlement>
 						<institution>Musée historique de la Réformation</institution>
 						-->
-						<repository ref="archive39"/>
+						<repository ref="a39"/>
 						<idno subtype="Teilkopie">Herminjard-Dossier 1553-1556, 495 verso</idno>
 						<idno subtype="Hinweis">franz. Teilübersetzung</idno>
 					</msIdentifier>
@@ -91,18 +90,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2847">
 				<correspAction type="sent">
-					<persName ref="person2123" cert="high">
+					<persName ref="p2123" cert="high">
 						<!--
 						<surname cert="high">Micronius</surname>
 						<forename cert="high">Martin</forename>
 						<persName type="main" ref="person8415>Micronius, Martin</persName>
 						-->
 					</persName>
-					<placeName source="place351" cert="high"><orig>Norden</orig></placeName>
+					<placeName source="l351" cert="high"><orig>Norden</orig></placeName>
 					<date when="1556-03-05" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +111,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2848"/>
@@ -136,7 +135,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -164,7 +163,7 @@
 					<s n="11" xml:lang="la" type="auto">Ac proinde miror d. Musculum in 17. caput Geneseos ita scribere perinde ac si propagatio humani generis ex masculino dumtaxat esset semine sicque mulieri semen adimere videtur.</s>
 					<s n="12" xml:lang="la" type="auto">Id si adversarii nostri semel in scriptis Musculi observarent, nemo credat, quas effarent glorias atque iam non etiam victoriam apud omnes sibi pollicerentur.</s>
 					<s n="13" xml:lang="la" type="auto">Magna est ubique Musculi autoritas, cuius pręiudicio si caussa nostra gravabitur, ęgrius antagonistis nostris, hominibus versatissimis, os obturabitur.</s>
-					<s n="14" xml:lang="la" type="auto">Te igitur per Christi nomen rogatum volumus, ut de his d. Musculum commone- facere digneris, ut, si in ea est sententia, ut existi-met mulier non inesse semen, id tamen in suis scriptis silentio prętereat, praesertim cum nos a partibus nostris Galenum et plurima scripturę loca habeamus, ne illius autoritate Menno adversum nos abutatur.</s>
+					<s n="14" xml:lang="la" type="auto">Te igitur per Christi nomen rogatum volumus, ut de his d. Musculum commonefacere digneris, ut, si in ea est sententia, ut existi-met mulier non inesse semen, id tamen in suis scriptis silentio prętereat, praesertim cum nos a partibus nostris Galenum et plurima scripturę loca habeamus, ne illius autoritate Menno adversum nos abutatur.</s>
 					<s n="15" xml:lang="la" type="auto">Sin vero d. Musculus in eadem est nobiscum sententia, admonendus, ut prima quaque occasione illam publicet mentemque suam circa illa in 17. capite Geneseos verba explicet.</s>
 					<s n="16" xml:lang="la" type="auto">Velis, obsecro, in gratiarum ecclesiarum Christi, quae hic et per universam Germaniam Inferiorem a Mennitis graviter turbantur et infestantur ob hanc de incarnatione Christi doctrinam, de his d. Musculum admonere, ut hic laboranti ecclesię primo quoque tempore succurrat.</s>
 					<s n="17" xml:lang="la" type="auto">Ego de his fratrum etiam aliquot rogatu ad d. Musculum scripturus eram, si ego ipsi ęque atque tibi notus fuissem, nisi etiam existimassem illum tua autoritate ad eam rem facilius inductum iri.</s>

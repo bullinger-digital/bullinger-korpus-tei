@@ -6,50 +6,41 @@
 				<title subtype="file">Rudolf Frey / Lenzburg AN Heinrich Bullinger, 13. Februar 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=325</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">62</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 360,273</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Ist krank. Wegen des Glaubens ist er von <placeName ref="place694">Mellingen</placeName> nach
-								<placeName ref="place623">Lenzburg</placeName> übersiedelt. Sein Bruder aus
-								<placeName ref="place97">Basel</placeName> [Fridli?] kam, um mit
+								Ist krank. Wegen des Glaubens ist er von <placeName>Mellingen</placeName> nach
+								<placeName>Lenzburg</placeName> übersiedelt. Sein Bruder aus
+								<placeName>Basel</placeName> [Fridli?] kam, um mit
 								den Mellingern über die Abzugsentschädigung zu verhandeln. Bittet Bullinger, dem wegen seines Glaubens
-								verfolgten <persName ref="person1289">Joachim</persName> zu einer Stelle zu verhelfen. Wünscht Nachrichten
+								verfolgten <persName>Joachim</persName> zu einer Stelle zu verhelfen. Wünscht Nachrichten
 								von Bullinger. Grüße.
 							</p>
 						</summary>
@@ -57,24 +48,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 325, S.62</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10356">
 				<correspAction type="sent">
-					<persName ref="person2295" cert="high">
+					<persName ref="p2295" cert="high">
 						<!--
 						<surname cert="high">Frey</surname>
 						<forename cert="high">Rudolf</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1161873716"/>
 						-->
 					</persName>
-					<placeName source="place285" cert="high"><orig>Lenzburg</orig></placeName>
+					<placeName source="l285" cert="high"><orig>Lenzburg</orig></placeName>
 					<date when="1534-02-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -99,7 +97,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -113,27 +111,27 @@
 					<s n="1" xml:lang="de" type="auto">Gnad und frid von gott dem vatter durch Cristum etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Min früntlich gruos und alles güots<note xml:id="fna" type="footnote" n="a"><hi><persName ref="person67">Rudolf Frey</persName> setzt oft ü für u.</hi></note>, lieber Meyster Heinrich.</s>
-					<s n="3" xml:lang="de" type="auto">Ich lan üch wüssen, das ich deß lips halb kranck bin, aber der sel halb von gnaden gottes trüw ich gott, es stande wol, und bin wol zefriden, dann ich bin von <placeName ref="place694">Mellingen</placeName><note xml:id="fn3" type="footnote" n="3"><placeName ref="place694">Mellingen</placeName> (Kt. Aargau) wurde wie das benachbarte <placeName ref="place178">Bremgarten</placeName> nach 1531 vollständig rekatholisiert.</note> gen Lentzburg uß ursach deß gloubens, damit ich by Cristo und sinem wortt möchti<note xml:id="fn4" type="footnote" n="4">könne.</note> bliben, und wil mit siner hilff die angeleitte hand an pfluog<note xml:id="fn5" type="footnote" n="5">Vgl. Lk 9, 62.</note> nit abziehen.</s>
+					<s n="2" xml:lang="de" type="auto">Min früntlich gruos und alles güots<note xml:id="fna" type="footnote" n="a"><hi><persName>Rudolf Frey</persName> setzt oft ü für u.</hi></note>, lieber Meyster Heinrich.</s>
+					<s n="3" xml:lang="de" type="auto">Ich lan üch wüssen, das ich deß lips halb kranck bin, aber der sel halb von gnaden gottes trüw ich gott, es stande wol, und bin wol zefriden, dann ich bin von <placeName>Mellingen</placeName><note xml:id="fn3" type="footnote" n="3"><placeName>Mellingen</placeName> (Kt. Aargau) wurde wie das benachbarte <placeName>Bremgarten</placeName> nach 1531 vollständig rekatholisiert.</note> gen Lentzburg uß ursach deß gloubens, damit ich by Cristo und sinem wortt möchti<note xml:id="fn4" type="footnote" n="4">könne.</note> bliben, und wil mit siner hilff die angeleitte hand an pfluog<note xml:id="fn5" type="footnote" n="5">Vgl. Lk 9, 62.</note> nit abziehen.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="de" type="auto">Witter, lieber Heinrich und güotter frund, lan ich üch wussen, das min brüoder<note xml:id="fn6" type="footnote" n="6">Folgende Mitglieder der Mellinger Familie Frey sind in <placeName ref="place97">Basel</placeName> nachweisbar: Hans Rudolf, der sich bereits 1501 einbürgerte (s. HBBW I <ref target="file10079">[Nr. 51]</ref> 240, Anm. 7); der Glasmaler <persName ref="person873">Fridli Frey</persName> (Fry), der vielleicht aus Glaubensgründen <placeName ref="place694">Mellingen</placeName> verließ und 1532 das Basler Bürgerrecht erwarb, s. <hi>Stöckli,</hi> aaO, S. 262f mit Anm. 87 und Fritz <hi>Weiß-<persName ref="person65">Frey</persName>,</hi> Das Basler Geschlecht <persName ref="person65">Frey</persName> aus <placeName ref="place694">Mellingen</placeName> und <placeName ref="place623">Lenzburg</placeName>, in: Argovia, XXXIX. Bd., 1922, S. XI. <hi>Stöckli</hi> schließt nicht aus, daß Fridli der Sohn des Mellinger Schultheißen <persName ref="person874">Hans Frey</persName> ist. Stimmt die Annahme, daß es sich beim Schreiber des vorliegenden Briefes um den Mellinger Schultheißen <persName ref="person67">Rudolf Frey</persName> handelt (s. Anm. 1), so kann als Bruder am ehesten Fridli in Betracht gezogen werden.</note> von <placeName ref="place97">Basel</placeName> ist in kürtzen verschinen tagen by mir zuͦ Lentzbürg gsin und hatt von minetwegen gehandlett mit denen von <placeName ref="place694">Mellingen</placeName> von deß abzugs<note xml:id="fn7" type="footnote" n="7">Steuer, die beim Fortziehen von Personen in eine andere Herrschaft erhoben wurde.</note> wegen, und forderent für den abzüg zweyhundertt gl. <placeName ref="place121">Berner</placeName> wärüng.</s>
-					<s n="5" xml:lang="de" type="auto">Aber ich bin nach nit mit ynen uberkommen<note xml:id="fn8" type="footnote" n="8">übereingekommen (SI III 272).</note>; aber ich wil sy zefriden stellend, und sol mich oüch kein verlüst oder verlassung deß zittlichen duren<note xml:id="fn9" type="footnote" n="9">reuen (SI XIII 1304).</note> um Cristus willen.</s>
+					<s n="4" xml:lang="de" type="auto">Witter, lieber Heinrich und güotter frund, lan ich üch wussen, das min brüoder<note xml:id="fn6" type="footnote" n="6">Folgende Mitglieder der Mellinger Familie Frey sind in <placeName>Basel</placeName> nachweisbar: Hans Rudolf, der sich bereits 1501 einbürgerte (s. <bibl>HBBW I</bibl> <ref target="file10079">[Nr. 51]</ref> 240, Anm. 7); der Glasmaler <persName>Fridli Frey (Fry)</persName>, der vielleicht aus Glaubensgründen <placeName>Mellingen</placeName> verließ und 1532 das Basler Bürgerrecht erwarb, s. <hi>Stöckli,</hi> aaO, S. 262f mit Anm. 87 und Fritz <hi>Weiß-<persName>Frey</persName>,</hi> Das Basler Geschlecht <persName>Frey</persName> aus <placeName>Mellingen</placeName> und <placeName>Lenzburg</placeName>, in: Argovia, XXXIX. Bd., 1922, S. XI. <hi>Stöckli</hi> schließt nicht aus, daß Fridli der Sohn des Mellinger Schultheißen <persName>Hans Frey</persName> ist. Stimmt die Annahme, daß es sich beim Schreiber des vorliegenden Briefes um den Mellinger Schultheißen <persName>Rudolf Frey</persName> handelt (s. Anm. 1), so kann als Bruder am ehesten Fridli in Betracht gezogen werden.</note> von <placeName>Basel</placeName> ist in kürtzen verschinen tagen by mir zuͦ Lentzbürg gsin und hatt von minetwegen gehandlett mit denen von <placeName>Mellingen</placeName> von deß abzugs<note xml:id="fn7" type="footnote" n="7">Steuer, die beim Fortziehen von Personen in eine andere Herrschaft erhoben wurde.</note> wegen, und forderent für den abzüg zweyhundertt gl. <placeName>Berner</placeName> wärüng.</s>
+					<s n="5" xml:lang="de" type="auto">Aber ich bin nach nit mit ynen uberkommen<note xml:id="fn8" type="footnote" n="8">übereingekommen (<bibl>SI</bibl> III 272).</note>; aber ich wil sy zefriden stellend, und sol mich oüch kein verlüst oder verlassung deß zittlichen duren<note xml:id="fn9" type="footnote" n="9">reuen (<bibl>SI</bibl> XIII 1304).</note> um Cristus willen.</s>
 					<s n="6" xml:lang="de" type="auto">Ich bin ouch bereitt, um sinet und sines worts willen mit siner hilff noch me ze liden, wo es der will gottes wäre, dann es statt wol, gott sigi lob.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto">Witter, lieber her und frund, so ist min früntlich, ernstlich und trülich pitt an üch, das ir üch züm höchsten wellind unseren brüoder und fründ her<pb type="edition" next="63"/><persName ref="person1289">Joachim</persName><note xml:id="fn10" type="footnote" n="10">Unbekannt.</note> lassen bepholen sin und im helffen, als ir oüch wol mogent<note xml:id="fn11" type="footnote" n="11">vermögt, könnt, fähig seid (SI IV 107f).</note>, und das best thüon, das er versehen werde<note xml:id="fn12" type="footnote" n="12">daß er eine Stellung, ein Amt erhalte.</note>, angesehen sin verfolgüng um deß worts deß herren.</s>
+					<s n="7" xml:lang="de" type="auto">Witter, lieber her und frund, so ist min früntlich, ernstlich und trülich pitt an üch, das ir üch züm höchsten wellind unseren brüoder und fründ her<pb type="edition" next="63"/><persName>Joachim</persName><note xml:id="fn10" type="footnote" n="10">Unbekannt.</note> lassen bepholen sin und im helffen, als ir oüch wol mogent<note xml:id="fn11" type="footnote" n="11">vermögt, könnt, fähig seid (<bibl>SI</bibl> IV 107f).</note>, und das best thüon, das er versehen werde<note xml:id="fn12" type="footnote" n="12">daß er eine Stellung, ein Amt erhalte.</note>, angesehen sin verfolgüng um deß worts deß herren.</s>
 					<s n="8" xml:lang="de" type="auto">Dann billich söllend wir unß yren annemen nach der leer Pauli zun Heb. am 10.</s>
 					<s n="9" xml:lang="de" type="auto">Deß o sind ingedenck und miner fürbitt.</s>
 					<s n="10" xml:lang="de" type="auto">Wo ich und oüch die unseren alle könttend und möchtent semlichs mit unseren vermogen verdienen, wetten wir allzit gern und guotwillig thüon und sin.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="de" type="auto">Der her gebe üch oüch gnad und stercke, das ir trülich und handtlich<note xml:id="fn13" type="footnote" n="13">rührig, ernstlich (SI II 1405).</note> in sinem wortt mögind fürfaren biß in das end.</s>
+					<s n="11" xml:lang="de" type="auto">Der her gebe üch oüch gnad und stercke, das ir trülich und handtlich<note xml:id="fn13" type="footnote" n="13">rührig, ernstlich (<bibl>SI</bibl> II 1405).</note> in sinem wortt mögind fürfaren biß in das end.</s>
 					<s n="12" xml:lang="de" type="auto">Wellind oüch den herren für mich bitten und üch lassen bepholen sin, daß er mir gedült verlihe in miner kranckheit deß lips und erhalte under dem crütz.</s>
 					<s n="13" xml:lang="de" type="auto">Züoleczt pitt ich üch, ir wellint mich oüch lassen wüssen, wie ir lebind, wie es um üch und by üch stande.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="de" type="auto">Min hußfrow<note xml:id="fn14" type="footnote" n="14"><persName ref="person877">Freys</persName> Ehefrau ist dem Namen nach nicht bekant.</note> und wir alle lassend üch alle vast grüessen.</s>
+					<s n="14" xml:lang="de" type="auto">Min hußfrow<note xml:id="fn14" type="footnote" n="14"><persName>Freys</persName> Ehefrau ist dem Namen nach nicht bekant.</note> und wir alle lassend üch alle vast grüessen.</s>
 					<s n="15" xml:lang="de" type="auto">Grüessend unß üwer hußgsind, und wär üch lieb ist.</s>
 					<s n="16" xml:lang="de" type="auto">Lassend unß üch allen allzitt bepholen sin.</s>
 					<s n="17" xml:lang="de" type="auto">Der frid gottes sigi mitt üch allen zuͦ aller zitt.</s>
@@ -142,7 +140,7 @@
 					<s n="18" xml:lang="de" type="auto">Geben zuͦ Lentzbürg, am 13. hornung im 1534 jar.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="de" type="auto">Und grüeßend unß üwer müotter<note xml:id="fn15" type="footnote" n="15"><persName ref="person32">Anna Bullinger</persName>, geb. Wiederkehr.</note> sünderlich, unsere liebe baß<note xml:id="fn16" type="footnote" n="16">Die Verwandtschaft zwischen <persName ref="person32">Anna Bullinger</persName> und <persName ref="person67">Rudolf Frey</persName> ließ sich nicht genauer nachweisen.</note>.</s>
+					<s n="19" xml:lang="de" type="auto">Und grüeßend unß üwer müotter<note xml:id="fn15" type="footnote" n="15"><persName>Anna Bullinger, geb. Wiederkehr</persName>.</note> sünderlich, unsere liebe baß<note xml:id="fn16" type="footnote" n="16">Die Verwandtschaft zwischen <persName>Anna Bullinger</persName> und <persName>Rudolf Frey</persName> ließ sich nicht genauer nachweisen.</note>.</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="de" type="auto">Von mir, Ruodolff Fryg, burger zuͦ Lentzburg, üwer allzitt williger.</s>

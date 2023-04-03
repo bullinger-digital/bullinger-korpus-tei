@@ -6,47 +6,38 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN [Heinrich Bullinger], [Leo Jud], [Konrad Pellikan], [Theodor Bibliander], 24. November 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=915</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">472</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive48">
+						<repository ref="a48">
 							<name>Konstanz SA</name>
 							<ref target="https://www.konstanz.de/start/kultur+_+freizeit/stadtarchiv.html"/>
 						</repository>
-						<settlement ref="place257">Konstanz</settlement>
+						<settlement ref="l257">Konstanz</settlement>
 						<institution>Stadtarchiv</institution>
 						-->
-						<repository ref="archive48"/>
+						<repository ref="a48"/>
 						<idno subtype="Kopie">Ref. A. Fasc. 10, 298 r, Nr.67a</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								[Die <placeName ref="place565">Konstanzer</placeName> Pfarrer]
-								senden den Entwurf eines an <persName ref="person138">Luther</persName> gerichteten Briefes und bitten um
+								[Die <placeName>Konstanzer</placeName> Pfarrer]
+								senden den Entwurf eines an <persName ref="p1974">Luther</persName> gerichteten Briefes und bitten um
 								Stellungnahme; die darin enthaltenen Unklarheiten wurden der in Aussicht stehenden Konkordie zuliebe in Kauf
 								genommen.
 							</p>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 915, S.472</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10957">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<orig>[Johannes Zwick im Namen der Pfarrer von Konstanz]</orig>
 						<!--
 						<surname cert="high">Zwick</surname>
@@ -72,12 +70,12 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<roleName ref="role49" type="pl" role="Pfarrer" cert="high"/>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1536-11-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -87,7 +85,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1753" cert="low">
+					<persName ref="p1753" cert="low">
 						<!--
 						<surname cert="low">Jud</surname>
 						<forename cert="low">Leo</forename>
@@ -97,7 +95,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11423330"/>
 						-->
 					</persName>
-					<persName ref="person2508" cert="low">
+					<persName ref="p2508" cert="low">
 						<!--
 						<surname cert="low">Pellikan</surname>
 						<forename cert="low">Konrad</forename>
@@ -108,7 +106,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416391"/>
 						-->
 					</persName>
-					<persName ref="person341" cert="low">
+					<persName ref="p341" cert="low">
 						<!--
 						<surname cert="low">Bibliander</surname>
 						<forename cert="low">Theodor</forename>
@@ -136,7 +134,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -146,7 +144,7 @@
 					<s n="1" xml:lang="la" type="auto">Tigurinis, 24. novembris.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">En, observandissimi et charissimi omnium fratres, magistratus nostri assensu proprio tabellario isto<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note> ad vos mittimus, quicquid tandem ecclesia nostra <persName ref="person138">Luthero</persName> scribere et respondere statuit<note xml:id="fn6" type="footnote" n="6">Der nach Zürich gesandte Entwurf des Schreibens von <placeName ref="place565">Konstanz</placeName> an <persName ref="person138">Luther</persName> findet sich in Zürich ZB, Ms T 106, Nr. 22, und tragt Bullingers Vermerk: "Varia de concordiae negotio et quaedam Constantien[sium] de concordia et reponsione Luthero danda". Die Ausfertigung vom 30. Dezember 1536 ist gedruckt in: WA Briefwechsel XII 224-235, Nr. 4266.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">En, observandissimi et charissimi omnium fratres, magistratus nostri assensu proprio tabellario isto<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note> ad vos mittimus, quicquid tandem ecclesia nostra <persName ref="p1974">Luthero</persName> scribere et respondere statuit<note xml:id="fn6" type="footnote" n="6">Der nach Zürich gesandte Entwurf des Schreibens von <placeName>Konstanz</placeName> an <persName ref="p18889">Luther</persName> findet sich in Zürich ZB, Ms T 106, Nr. 22, und tragt Bullingers Vermerk: "Varia de concordiae negotio et quaedam Constantien[sium] de concordia et reponsione Luthero danda". Die Ausfertigung vom 30. Dezember 1536 ist gedruckt in: <bibl>WA</bibl> Briefwechsel XII 224-235, Nr. 4266.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Petimus autem a vobis coniunctissimis nobis fratribus, hoc ipsum responsum nostrum diligenter legatis et relegatis, deinde significetis, quid fatiendum videatur.</s>
 					<s n="4" xml:lang="la" type="auto">Sic enim nos urget conscientia nostra, ne scilicet quid temere a nobis.</s>
 					<s n="5" xml:lang="la" type="auto">Cavete vero, ne<note xml:id="fna" type="footnote" n="a">ne <hi>über der Zeile nachgetragen.</hi></note> quid sinistri in mentem vobis veniat.</s>
@@ -155,7 +153,7 @@
 					<s n="8" xml:lang="la" type="auto">Nos satis dilucide expressimus nostram mentem.</s>
 					<s n="9" xml:lang="la" type="auto">Ceterum, curia hec non nobis, sed aliis sit exprimenda, cupimus charitatis intuitu nichil negligere.</s>
 					<s n="10" xml:lang="la" type="auto">Cum autem veritati et Christo primas debeamus, obstruendum est, ne quid cum illius offensa demus.</s>
-					<s n="11" xml:lang="la" type="auto">Itaque dedimus operam, ut quam proxime imitaremur <persName ref="person138">Luthero</persName> acceptas locutiones, id quod extorsit concordie desyderium.</s>
+					<s n="11" xml:lang="la" type="auto">Itaque dedimus operam, ut quam proxime imitaremur <persName ref="p1974">Luthero</persName> acceptas locutiones, id quod extorsit concordie desyderium.</s>
 					<s n="12" xml:lang="la" type="auto">Rursus obstitit veritas, quo minus dederimus omnino.</s>
 					<s n="13" xml:lang="la" type="auto">Sed, o deus, quam dolet nobis in tam miseram infelicitatem nos incedisse, ut, cum verba propter exprimendam mentem sint inventa, iam vix satis mentis sit<note xml:id="fnb" type="footnote" n="b">sit <hi>über der Zeile nachgetragen.</hi></note> ad exprimenda verba.</s>
 					<s n="14" xml:lang="la" type="auto">Atque utinam<note xml:id="fnc" type="footnote" n="c">utinam <hi>zuerst gestrichen, dann wiederholt.</hi></note> non piaculum sit apertum esse!</s>

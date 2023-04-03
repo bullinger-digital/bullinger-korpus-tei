@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Pincier / Frankfurt am Main AN Heinrich Bullinger, 7. April 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1887</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">180</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2801</idno>
 					</msIdentifier>
 					<msContents>
@@ -54,24 +45,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1887, S.180</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11933">
 				<correspAction type="sent">
-					<persName ref="person2608" cert="high">
+					<persName ref="p2608" cert="high">
 						<!--
 						<surname cert="high">Pincier</surname>
 						<forename cert="high">Johannes</forename>
 						<persName type="main" ref="person8115>Pincier, Johannes</persName>
 						-->
 					</persName>
-					<placeName source="place157" cert="high"><orig>Frankfurt am Main</orig></placeName>
+					<placeName source="l157" cert="high"><orig>Frankfurt am Main</orig></placeName>
 					<date when="1544-04-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -101,7 +99,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -115,7 +113,7 @@
 					<s n="1" xml:lang="la" type="auto">D. Heynricho Bullingero gratiam ac pacem a domino<note xml:id="fna" type="footnote" n="a"><hi>Nach</hi> domino <hi>ein unklares, vielleicht als</hi> p[recor] <hi>zu lesendes Zeichen.</hi></note>.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Ultima tua verba, quae pie admodum et docte ad me peculiariter et singulari quadam oratione faciebas in via, quum nos<note xml:id="fn2" type="footnote" n="2">Außer <persName ref="person20674">Pincier</persName> hatte sich ab 6. Mai bis etwa Anfang Oktober 1543 (s. HBBW XIII 294, 27) auch <persName ref="person20571">Wigand Happel</persName> im Haus von <persName ref="person165">Konrad Pellikan</persName> aufgehalten; s. <hi>Pellikan,</hi> Chronikon 156. Über ihre Rückkehr nach Hessen berichtete <persName ref="person20674">Pincier</persName> ausführlich in einem Brief an Pellikan vom 7. April 1544 (Zürich ZB, Ms F 47, 81f).</note> deduceres ex urbe vestra non sine magna humanitate, illa, quoniam de meo officio erant et ad me proprie spectabant necnon maximo usui esse possunt, si a me recte observentur, illa, inquam, monent me ac impellunt prae caeteris in me beneficiis tuis, quae tamen et multa et magna existunt, ut, quanquam satis certo sciam alias occupationes tuas et voluptatem, quam ex aliorum literis percipies, velim tamen et haec rudia et inculta ad eruditas aures tuas pervenire, saltem ut sentias haec et similia, quae nobis benigne fecisti, minime in ingratos esse collocata.</s>
+					<s n="2" xml:lang="la" type="auto">Ultima tua verba, quae pie admodum et docte ad me peculiariter et singulari quadam oratione faciebas in via, quum nos<note xml:id="fn2" type="footnote" n="2">Außer <persName>Pincier</persName> hatte sich ab 6. Mai bis etwa Anfang Oktober 1543 (s. <bibl>HBBW XIII</bibl> 294, 27) auch <persName ref="p7618">Wigand Happel</persName> im Haus von <persName>Konrad Pellikan</persName> aufgehalten; s. <hi>Pellikan,</hi> Chronikon 156. Über ihre Rückkehr nach Hessen berichtete <persName>Pincier</persName> ausführlich in einem Brief an Pellikan vom 7. April 1544 (Zürich ZB, Ms F 47, 81f).</note> deduceres ex urbe vestra non sine magna humanitate, illa, quoniam de meo officio erant et ad me proprie spectabant necnon maximo usui esse possunt, si a me recte observentur, illa, inquam, monent me ac impellunt prae caeteris in me beneficiis tuis, quae tamen et multa et magna existunt, ut, quanquam satis certo sciam alias occupationes tuas et voluptatem, quam ex aliorum literis percipies, velim tamen et haec rudia et inculta ad eruditas aures tuas pervenire, saltem ut sentias haec et similia, quae nobis benigne fecisti, minime in ingratos esse collocata.</s>
 					<s n="3" xml:lang="la" type="auto">Semper enim meminerimus summae istius benevolentiae, quam non pro nostra dignitate aut meritis, sed ex propria virtute propter patriam praestitisti nobis abunde.</s>
 					<s n="4" xml:lang="la" type="auto">Et si forte dignas gratias non egerimus - quis enim tantam beneficentiam vel mente solum et cogitatione complectatur?</s>
 					<s n="5" xml:lang="la" type="auto">-, scies tamen ac pro certo habebis tibi persuasum de nobis, quod valde optemus in vestram gratiam, quaecunque possumus, facere, modo tam bonis atque prudentibus viris non in speciem, sed vere probemur.</s>

@@ -6,48 +6,38 @@
 				<title subtype="file">Jakob Bedrot / Strassburg AN Heinrich Bullinger, 8. Juli 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=611</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">271</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356a,882</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Ist untröstlich über den Tod von [Heinrich] <persName ref="person132">Lavater</persName>, der ihm sehr lieb
-								war; verweist auf die ausführliche Schilderung von
-								<persName ref="person238">Otto [Werdmüller]</persName> im Brief an dessen Vater und verspricht, in den nächsten
+								Ist untröstlich über den Tod von <persName ref="p5618">[Heinrich] Lavater</persName>, der ihm sehr lieb war; verweist auf die ausführliche
+								Schilderung von <persName ref="p8459">Otto [Werdmüller]</persName> im Brief an dessen Vater und verspricht, in den nächsten
 								Tagen nochmals zu schreiben.
 							</p>
 						</summary>
@@ -58,10 +48,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
-								<title>Hans Heinrich Füssli in: Njbl. der Chorherren auf das Jahr 1781, 3. Stück, Zürich 1780 S. 5f</title>
+								<title>Hans Heinrich Füssli in: Njbl. der Chorherren auf das Jahr 1781, 3. Stück, Zürich 1780 S.5f</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>Pestalozzi Lavater 26</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 611, S.271</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -71,18 +64,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10649">
 				<correspAction type="sent">
-					<persName ref="person315" cert="high">
+					<persName ref="p315" cert="high">
 						<!--
 						<surname cert="high">Bedrot</surname>
 						<forename cert="high">Jakob</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/130815004"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1535-07-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,14 +119,14 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">S. O me infelicem, qui <persName ref="person132">Lavateri</persName> nostri mortem<note xml:id="fn2" type="footnote" n="2"><persName ref="person1479">Heinrich Lavater</persName>, der zum Studium in <placeName ref="place1049">Straßburg</placeName> weilte und bei <persName ref="person9">Jakob Bedrot</persName> wohnte, ertrank am Abend des 4. Juli 1535 beim Schwimmen in der III; vgl. <hi>Stucki</hi> 134-137 und <hi>[Pestalozzi],</hi> <persName ref="person132">Lavater</persName> 25-30, sowie die Briefe von <persName ref="person238">Otto Werdmüller</persName> an Bullinger vom 9. Juli (unten <ref target="file10650">Nr. 612</ref>), von <persName ref="person9">Jakob Bedrot</persName> an Bullinger vom 11. Juli (unten <ref target="file10651">Nr. 613</ref>) und von <persName ref="person47">Petrus Dasypodius</persName> an Bullinger vom 12. Juli 1535 (unten <ref target="file10652">Nr. 614</ref>).</note> renunciare tibi cogor.</s>
+					<s n="1" xml:lang="la" type="auto">S. O me infelicem, qui <persName ref="p1888">Lavateri</persName> nostri mortem<note xml:id="fn2" type="footnote" n="2"><persName>Heinrich Lavater</persName>, der zum Studium in <placeName>Straßburg</placeName> weilte und bei <persName>Jakob Bedrot</persName> wohnte, ertrank am Abend des 4. Juli 1535 beim Schwimmen in der III; vgl. <bibl>Stucki</bibl> 134-137 und <hi>[Pestalozzi],</hi> <persName ref="p6155">Lavater</persName> 25-30, sowie die Briefe von <persName>Otto Werdmüller</persName> an Bullinger vom 9. Juli (unten <ref target="file10650">Nr. 612</ref>), von <persName>Jakob Bedrot</persName> an Bullinger vom 11. Juli (unten <ref target="file10651">Nr. 613</ref>) und von <persName>Petrus Dasypodius</persName> an Bullinger vom 12. Juli 1535 (unten <ref target="file10652">Nr. 614</ref>).</note> renunciare tibi cogor.</s>
 					<s n="2" xml:lang="la" type="auto">Lacrymis certe istud<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> istuc.</note> facilius quam atramento possem, adeo amavi adolescentem moribus innocentissimis.</s>
-					<s n="3" xml:lang="la" type="auto">Nullum ex ternis liberis<note xml:id="fn3" type="footnote" n="3">Zwei Söhne <persName ref="person406">Bedrots</persName> sind bekannt: der 1541 oder früher an der Pest gestorbene Johannes oder Jonas und Eusebius (vgl. Conradin <hi>Bonorand,</hi> Jacobus Bedrotus Pludentius. Beiträge zur Biographie eines Vorarlberger Humanisten, in: Jahrbuch des Vorarlberger Landesmuseumsvereins 1962, Bregenz 1963, S. 111).</note> habeo, cuius mors tantum mihi conciliasset moerorem, cuius rei<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> rei <hi>gestrichenes</hi> rei.</note> deus<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> deus <hi>gestrichenes unleserliches Wort.</hi></note> atque adeo mea conscientia mihi testis est.</s>
+					<s n="3" xml:lang="la" type="auto">Nullum ex ternis liberis<note xml:id="fn3" type="footnote" n="3">Zwei Söhne <persName>Bedrots</persName> sind bekannt: der 1541 oder früher an der Pest gestorbene Johannes oder Jonas und Eusebius (vgl. Conradin <hi>Bonorand,</hi> Jacobus Bedrotus Pludentius. Beiträge zur Biographie eines Vorarlberger Humanisten, in: Jahrbuch des Vorarlberger Landesmuseumsvereins 1962, Bregenz 1963, S. 111).</note> habeo, cuius mors tantum mihi conciliasset moerorem, cuius rei<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> rei <hi>gestrichenes</hi> rei.</note> deus<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> deus <hi>gestrichenes unleserliches Wort.</hi></note> atque adeo mea conscientia mihi testis est.</s>
 					<s n="4" xml:lang="la" type="auto">Unicum me solatur, quod bona dei voluntate, nulla mea culpa, hoc mortis genere periit.</s>
-					<s n="5" xml:lang="la" type="auto">Historiam omnem fide optima patri suo<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> suo <hi>gestrichenes</hi> suo[?].</note> scripsit <persName ref="person238">Otho</persName><note xml:id="fn4" type="footnote" n="4">Vgl. <persName ref="person238">Otto Werdmüller</persName> an seinen Vater <persName ref="person2472">Heinrich Werdmüller</persName>, 7. Juli 1535, Zürich ZB: Ms S 38, 156, z. T. abgedruckt bei: [Hans Heinrich <hi>Füssli],</hi> aaO, S. 6f, und <hi>[Pestalozzi],</hi> <persName ref="person132">Lavater</persName> 26f.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Historiam omnem fide optima patri suo<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> suo <hi>gestrichenes</hi> suo[?].</note> scripsit <persName ref="p8459">Otho</persName><note xml:id="fn4" type="footnote" n="4">Vgl. <persName>Otto Werdmüller</persName> an seinen Vater <persName>Heinrich Werdmüller</persName>, 7. Juli 1535, Zürich ZB: Ms S 38, 156, z. T. abgedruckt bei: [Hans Heinrich <hi>Füssli],</hi> aaO, S. 6f, und <hi>[Pestalozzi],</hi> <persName ref="p6155">Lavater</persName> 26f.</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Ego idem volui et tibi, sed per luctum non licebat.</s>
 					<s n="7" xml:lang="la" type="auto">Scribam tum post triduum.</s>
-					<s n="8" xml:lang="la" type="auto">Tu interea pro tua prudentia parentem<note xml:id="fn5" type="footnote" n="5"><persName ref="person132">Hans Rudolf Lavater</persName> (vgl. auch seine Briefe in dieser Sache, unten <ref target="file10653">Nr. 615</ref>f).</note> optimum consolare.</s>
+					<s n="8" xml:lang="la" type="auto">Tu interea pro tua prudentia parentem<note xml:id="fn5" type="footnote" n="5"><persName ref="p6155">Hans Rudolf Lavater</persName> (vgl. auch seine Briefe in dieser Sache, unten <ref target="file10653">Nr. 615</ref>f).</note> optimum consolare.</s>
 					<s n="9" xml:lang="la" type="auto">Ego enim id non possum moerore adeo recrudescente, quoties ego cunque in manus calamum accipio.</s>
 					<s n="10" xml:lang="la" type="auto">Ex literis Othonis ad parentem rem omnem intelliges<note xml:id="fn6" type="footnote" n="6">Vgl. oben Anm. 4.</note>.</s>
 				</p>
@@ -146,11 +139,11 @@
 					<s n="14" xml:lang="la" type="auto">Argen[torati].</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person406">Bedrotus</persName> tuus.</s>
+					<s n="15" xml:lang="la" type="auto"><persName>Bedrotus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="16" xml:lang="la" type="auto">Domino Henrycho Bullingero, ecclesiastae <persName ref="person238">Tigurino</persName>, amico et fratri suo syncerissimo.</s>
+					<s n="16" xml:lang="la" type="auto">Domino Henrycho Bullingero, ecclesiastae <persName ref="p8459">Tigurino</persName>, amico et fratri suo syncerissimo.</s>
 					<s n="17" xml:lang="la" type="auto">Tiguri.</s>
 				</p>
 			</div>

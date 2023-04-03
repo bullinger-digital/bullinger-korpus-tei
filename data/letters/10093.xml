@@ -6,46 +6,37 @@
 				<title subtype="file">Balthasar Hirt / Lichtensteig AN Heinrich Bullinger, 13. Februar 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=64</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">48</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,37r-v</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Ermuntert Bullinger, <persName ref="person265">Zwinglis</persName> Werk in dessen Geiste fortzuführen auch
+								Ermuntert Bullinger, <persName ref="p4091">Zwinglis</persName> Werk in dessen Geiste fortzuführen auch
 								gegen die Widerstände aller Gegner. Beklagt seine Amtsenthebung und die Schwierigkeiten, die er als Fremder
 								hat. Versichert, sich weiter für die Sache der Reformation einzusetzen und bittet um Hilfe. Grüße. Empfiehlt
 								den Boten, der Weiteres berichten kann.
@@ -55,23 +46,30 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 64, S.48</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10093">
 				<correspAction type="sent">
-					<persName ref="person1396" cert="high">
+					<persName ref="p1396" cert="high">
 						<!--
 						<surname cert="high">Hirt</surname>
 						<forename cert="high">Balthasar</forename>
 						-->
 					</persName>
-					<placeName source="place289" cert="high"><orig>Lichtensteig</orig></placeName>
+					<placeName source="l289" cert="high"><orig>Lichtensteig</orig></placeName>
 					<date when="1532-02-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -97,7 +95,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -111,22 +109,22 @@
 					<s n="1" xml:lang="la" type="auto">Salutem et in Christi cognicione perseverare.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quod pro virili tuo sumopere huc anniteris, ut labefactatam nonnihil immaturo beatissimi viri <persName ref="person265">Ulrichi Zuinglii</persName> [obitu] christianam eamque veram pietatem repares, adornes et vindices, bene teque dignissime facis, Heinrice suavissime.</s>
+					<s n="2" xml:lang="la" type="auto">Quod pro virili tuo sumopere huc anniteris, ut labefactatam nonnihil immaturo beatissimi viri <persName ref="p4091">Ulrichi Zuinglii</persName> [obitu] christianam eamque veram pietatem repares, adornes et vindices, bene teque dignissime facis, Heinrice suavissime.</s>
 					<s n="3" xml:lang="la" type="auto">Foelices istos tuos conatus foveat, augeat, secundet, qui incrementa dat omnium dominus.</s>
 					<s n="4" xml:lang="la" type="auto">Addit enim spes ingentes animis nostris, quum (quod foelix faustumque sit) in locum<note xml:id="fn3" type="footnote" n="3">In Zürich.</note> et in functionem succedis viri celeberrimi pariter et candidissimi pridem, non minus ipse futurus et ipse celebris[!].</s>
-					<s n="5" xml:lang="la" type="auto">Stupidos ac bardos homines videas trophea ferentes<note xml:id="fn4" type="footnote" n="4">Gemeint sind die im Kappelerkrieg siegreichen V Orte.</note>, paeana<note xml:id="fn5" type="footnote" n="5">Siegesgesang (vgl. Vergil, Aeneis VI 657).</note> canentes, triumphos (sed iuxta proverbium[?] ante victoriam encomium<note xml:id="fn6" type="footnote" n="6">Siehe Adagia, 1,7,55 (LB II 283 D).</note>) iactantes, quibus iniectam in os pilam facile brevique constabit, si intrepide pergas, coeptis inhereas animoque, qui, ut inquit ille, solus omnia vincit<note xml:id="fn7" type="footnote" n="7">Vgl. Adagia, 1,9,33 (LB II 347 C).</note>, neutiquam te indigno id prestiteris, quod pollicentur sibi de te plurimi.</s>
+					<s n="5" xml:lang="la" type="auto">Stupidos ac bardos homines videas trophea ferentes<note xml:id="fn4" type="footnote" n="4">Gemeint sind die im Kappelerkrieg siegreichen V Orte.</note>, paeana<note xml:id="fn5" type="footnote" n="5">Siegesgesang (vgl. Vergil, Aeneis VI 657).</note> canentes, triumphos (sed iuxta proverbium[?] ante victoriam encomium<note xml:id="fn6" type="footnote" n="6">Siehe Adagia, 1,7,55 (<bibl>LB</bibl> II 283 D).</note>) iactantes, quibus iniectam in os pilam facile brevique constabit, si intrepide pergas, coeptis inhereas animoque, qui, ut inquit ille, solus omnia vincit<note xml:id="fn7" type="footnote" n="7">Vgl. Adagia, 1,9,33 (<bibl>LB</bibl> II 347 C).</note>, neutiquam te indigno id prestiteris, quod pollicentur sibi de te plurimi.</s>
 					<s n="6" xml:lang="la" type="auto">Pollicentur autem et pia quadam dexteritate te superaturum et crudeliter et acerbe nimis ingruentes pietati molestias et (ne quid, quod spero, impudencius celem) non minus<pb type="edition" next="49"/> pia integritate levaturum et suffragio et ope, quicquid undequaque aerumnarum pios impetit, urget, cruciat.</s>
-					<s n="7" xml:lang="la" type="auto">Tu omnium votis pociora prestare conare, et ita conabere, ut ego quoque ipse exilii mei statu<note xml:id="fn8" type="footnote" n="8">Bezieht sich wahrscheinlich auf die Amtsentsetzung <persName ref="person102">Hirts</persName> in <placeName ref="place631">Lichtensteig</placeName>.</note> (quem per atheos<note xml:id="fn9" type="footnote" n="9">Gemeint sind die Gegner der Reformation.</note> quosdam ob unam missae abhominandissimam impietatem presentes mihi peperere aerumnae) experiar et senciam tuum in adipiscenda functione officium.</s>
-					<s n="8" xml:lang="la" type="auto">Egit hac in re pientissime pariter et foelicissime antecessor tuus beatissimus <persName ref="person265">Zuinglius</persName> vel ob hoc ipsum apud posteros immortali nomine donandus.</s>
-					<s n="9" xml:lang="la" type="auto">Cuius in iuvandis fratribus operam et industriam ut noves<note xml:id="fn10" type="footnote" n="10"><persName ref="person102">Hirt</persName> selbst hatte ja dank <persName ref="person265">Zwinglis</persName> Hilfe die Stelle in <placeName ref="place631">Lichtensteig</placeName> erhalten (s. oben Anm. 1).</note> data eciam opera, oportet omnino.</s>
-					<s n="10" xml:lang="la" type="auto">Sum ego quidem ex eorum numero, quos alienigenas<note xml:id="fn11" type="footnote" n="11">Sowohl von Seiten der katholischen Orte wie innerhalb des reformierten Lagers selbst setzte nach der Niederlage von <placeName ref="place534">Kappel</placeName> eine Kampagne gegen die «fremden, hergelaufenen Pfaffen» ein (vgl. HBRG III 286).</note> vocant.</s>
+					<s n="7" xml:lang="la" type="auto">Tu omnium votis pociora prestare conare, et ita conabere, ut ego quoque ipse exilii mei statu<note xml:id="fn8" type="footnote" n="8">Bezieht sich wahrscheinlich auf die Amtsentsetzung <persName>Hirts</persName> in <placeName>Lichtensteig</placeName>.</note> (quem per atheos<note xml:id="fn9" type="footnote" n="9">Gemeint sind die Gegner der Reformation.</note> quosdam ob unam missae abhominandissimam impietatem presentes mihi peperere aerumnae) experiar et senciam tuum in adipiscenda functione officium.</s>
+					<s n="8" xml:lang="la" type="auto">Egit hac in re pientissime pariter et foelicissime antecessor tuus beatissimus <persName ref="p4091">Zuinglius</persName> vel ob hoc ipsum apud posteros immortali nomine donandus.</s>
+					<s n="9" xml:lang="la" type="auto">Cuius in iuvandis fratribus operam et industriam ut noves<note xml:id="fn10" type="footnote" n="10"><persName>Hirt</persName> selbst hatte ja dank <persName>Zwinglis</persName> Hilfe die Stelle in <placeName>Lichtensteig</placeName> erhalten (s. oben Anm. 1).</note> data eciam opera, oportet omnino.</s>
+					<s n="10" xml:lang="la" type="auto">Sum ego quidem ex eorum numero, quos alienigenas<note xml:id="fn11" type="footnote" n="11">Sowohl von Seiten der katholischen Orte wie innerhalb des reformierten Lagers selbst setzte nach der Niederlage von <placeName>Kappel</placeName> eine Kampagne gegen die «fremden, hergelaufenen Pfaffen» ein (vgl. <bibl>HBRG</bibl> III 286).</note> vocant.</s>
 					<s n="11" xml:lang="la" type="auto">(Quam autem sit christianus christiano et evangelii ministro alienus cominister, ipse pro animi tui candore facile nosti.)</s>
 					<s n="12" xml:lang="la" type="manual">Et hoc certe nomine video et experior (expertus enim loquor) non nullos non satis pios adeoque fraternarum calamitatum inexpertos eoque compacientes minus nos negligere, fastidire, contemnere.</s>
 					<s n="13" xml:lang="la" type="auto">Quod quo animo faciant, ipsis<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> ipsus.</note> curae fuerit.</s>
 					<s n="14" xml:lang="la" type="auto">Certe, quibus animus parum sincerior incorrupciorque, huc intendunt, ut pro christiano candore usui sint, quotquot opus habent.</s>
-					<s n="15" xml:lang="la" type="auto">Habent autem opus potissimum (quod me melius nosti), qui pro Christi gloria relicta, imo pulsi patria aliquando<note xml:id="fn12" type="footnote" n="12"><persName ref="person102">Hirt</persName> spielt auf seine eigene Vertreibung aus dem Badischen 1529 an.</note> nunc demum malis obnoxii plurimis fortassis et gnaviter et fortiter pro eadem fulcienda depugnant.</s>
+					<s n="15" xml:lang="la" type="auto">Habent autem opus potissimum (quod me melius nosti), qui pro Christi gloria relicta, imo pulsi patria aliquando<note xml:id="fn12" type="footnote" n="12"><persName>Hirt</persName> spielt auf seine eigene Vertreibung aus dem Badischen 1529 an.</note> nunc demum malis obnoxii plurimis fortassis et gnaviter et fortiter pro eadem fulcienda depugnant.</s>
 					<s n="16" xml:lang="la" type="auto">Id quod aliis de me referentibus velim compertum foret.</s>
-					<s n="17" xml:lang="la" type="auto">Nosti enim illud de foetu rectius iudicare obstetricem quam matrem ipsam<note xml:id="fn13" type="footnote" n="13">Die sprichwörtlich klingende Wendung findet sich weder in den Adagia noch bei Otto.</note>.</s>
+					<s n="17" xml:lang="la" type="auto">Nosti enim illud de foetu rectius iudicare obstetricem quam matrem ipsam<note xml:id="fn13" type="footnote" n="13">Die sprichwörtlich klingende Wendung findet sich weder in den <bibl>Adagia</bibl> noch bei Otto.</note>.</s>
 					<s n="18" xml:lang="la" type="auto">Plane (imprudencius forte refero) eo agebam loco, ubi pro ratione temporis impietati non obstetisse, consensisse<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> consensse.</note> etiam, non reclamasse, abhominacioni inclamasse et vitae eciam periculo non repugnasse ansas etiam praebuisse multorum perdicioni.</s>
 					<s n="19" xml:lang="la" type="auto">Adeo nobis facessebat negocium male negociosa libido.</s>
 					<s n="20" xml:lang="la" type="auto">Et huc certe profeci, ut quamquam ipse loco cedere cogar, ipsa tamen abhominatio successura sit minime, nisi inversis denuo rerum vicibus peiora quam nunc eveniant.</s>
@@ -139,13 +137,13 @@
 				<p>
 					<s n="26" xml:lang="la" type="auto">Tu vale (deficiet enim charta scribentem) meque intime commendatum habe.</s>
 					<s n="27" xml:lang="la" type="auto">Et si quo poteris modo et ratione, fove, tuere, serva.</s>
-					<s n="28" xml:lang="la" type="auto">Salvos iubeto apud te et leonum fortissimum <persName ref="person114">Leonem</persName> et pios quosque conversacione ignotos, Christi nomine notissimos.<pb type="edition" next="50"/></s>
+					<s n="28" xml:lang="la" type="auto">Salvos iubeto apud te et leonum fortissimum <persName ref="p1753">Leonem</persName> et pios quosque conversacione ignotos, Christi nomine notissimos.<pb type="edition" next="50"/></s>
 				</p>
 				<p>
 					<s n="29" xml:lang="la" type="auto">Ex Liechtenstaig, idibus februarii anno etc. 32.</s>
 				</p>
 				<p>
-					<s n="30" xml:lang="la" type="auto">Balthassar Hirtt <placeName ref="place849">Phorcensis</placeName><note xml:id="fn18" type="footnote" n="18">Aus <placeName ref="place849">Pforzheim</placeName> (s. oben Anm. 1).</note>, ecclesiastes pridem ecclesiae Liechtenstaig.</s>
+					<s n="30" xml:lang="la" type="auto">Balthassar Hirtt <placeName>Phorcensis</placeName><note xml:id="fn18" type="footnote" n="18">Aus <placeName>Pforzheim</placeName> (s. oben Anm. 1).</note>, ecclesiastes pridem ecclesiae Liechtenstaig.</s>
 				</p>
 				<p>
 					<s n="31" xml:lang="la" type="auto"><pb type="scan" next="||37v."/>Ab eo<note xml:id="fn19" type="footnote" n="19">Der Briefüberbringer ist nicht bekannt.</note>, qui has tibi defert literas, queso, si per ocium tibi vacat, diligencius exquirito, utut nobiscum agatur.</s>

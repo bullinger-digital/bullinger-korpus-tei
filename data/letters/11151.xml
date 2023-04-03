@@ -6,46 +6,37 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, s.d. [März 1538]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1108</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">100</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,207</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Da er davon ausgeht, daß der Konflikt mit <persName ref="person28">Bucer</persName> auf Mißverständnissen
+								Da er davon ausgeht, daß der Konflikt mit <persName ref="p467">Bucer</persName> auf Mißverständnissen
 								beruhen muß, bittet er, dessen Rechtfertigung sorgfältig zu prüfen, und vertraut darauf, daß sie als Glieder
 								des Leibes Christi bald wieder zusammenfinden werden.
 							</p>
@@ -54,13 +45,20 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1108, S.100</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11151">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -73,7 +71,7 @@
 					<date notBefore="1538-03-01" notAfter="1538-03-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,7 +121,7 @@
 					<s n="2" xml:lang="la" type="auto">Si duę sunt res, Bullingere, quę distinguunt dividuntque<note xml:id="fna" type="footnote" n="a"><hi>vom Schreiber korrigiert aus</hi> quibus distinguuntur dividunturque.</note> homines, error et pravitas - amicos et bonos error, improbos et malos pravitas -, haud vereor, ne perpetuo nos dividamur, quos a pravitate Christi bonitas liberavit.</s>
 					<s n="3" xml:lang="la" type="auto">Superest enim, puto, nobis quidem, qui eundem unumque<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> unumque <hi>gestrichenes</hi> ac.</note> in Christum tendentes errore<note xml:id="fnc" type="footnote" n="c">errore <hi>vom Schreiber korrigiert aus</hi> errorem.</note> ceu nebula disiungimur hactenus, ut nos diligentius recognoscamus.</s>
 					<s n="4" xml:lang="la" type="auto">Hoc possumus nos; pravi non possunt.</s>
-					<s n="5" xml:lang="la" type="auto">Age igitur, mi Bullingere, vide, aliquane sit in his argumentis fides, quibus diluere amolirique a se <persName ref="person28">Bucerus</persName> noster suspitionem tam gravem<note xml:id="fnd" type="footnote" n="d"><hi>nach</hi> gravem <hi>gestrichenes</hi> malitiae conatur[?].</note> et sese vobis fratribus approbare<note xml:id="fne" type="footnote" n="e">appro-bare <hi>am Zeilenende bzw. - anfang nachgetragen.</hi></note><pb type="edition" next="101"/> conatur<note xml:id="fn2" type="footnote" n="2">Auch <persName ref="person28">Bucer</persName> spricht in seinem Brief von "suspiciones" (s. oben <ref target="file11148">Nr. 1105</ref>, 53. 904). Er wendet sich damit nicht nur gegen die von Bullinger, sondern auch gegen die von Jud vorgebrachte Kritik (s. ebd., besonders Z. 1068-1096).</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Age igitur, mi Bullingere, vide, aliquane sit in his argumentis fides, quibus diluere amolirique a se <persName ref="p467">Bucerus</persName> noster suspitionem tam gravem<note xml:id="fnd" type="footnote" n="d"><hi>nach</hi> gravem <hi>gestrichenes</hi> malitiae conatur[?].</note> et sese vobis fratribus approbare<note xml:id="fne" type="footnote" n="e">appro-bare <hi>am Zeilenende bzw. - anfang nachgetragen.</hi></note><pb type="edition" next="101"/> conatur<note xml:id="fn2" type="footnote" n="2">Auch <persName ref="p18198">Bucer</persName> spricht in seinem Brief von "suspiciones" (s. oben <ref target="file11148">Nr. 1105</ref>, 53. 904). Er wendet sich damit nicht nur gegen die von Bullinger, sondern auch gegen die von Jud vorgebrachte Kritik (s. ebd., besonders Z. 1068-1096).</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Ego, cum me non sinat charitas male de alterutro vestrum suspicari, suspicari vero de utroque bene cogat, nec te illi impingere falsum<note xml:id="fnf" type="footnote" n="f"><hi>vor</hi> falsum <hi>gestrichenes</hi> credo.</note> nec illum tibi fucum facere conari credo, sed, si quid est, nebulam erroris ortam esse credo, quę mox solis radiis discutienda fugitura sit.</s>
 					<s n="7" xml:lang="la" type="auto">Certe insita in Christi Iesu corpus membra in mutuum membrorum omnium complexum nativus calor et eiusdem corporis <foreign xml:lang="el">ἁρµογὴ</foreign> devincta reducet.</s>
 				</p>
@@ -131,7 +129,7 @@
 					<s n="8" xml:lang="la" type="auto">Valebis igitur bene cum fratribus omnibus in domino, quos omnes nominatim mihi salutabis.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person81">Gryneus</persName> tuus.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p1365">Gryneus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

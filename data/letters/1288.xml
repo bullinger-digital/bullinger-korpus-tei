@@ -6,32 +6,31 @@
 				<title subtype="file">Johannes Kessler / St. Gallen AN Heinrich Bullinger / Zürich, 22. Mai 1551</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">2454</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 351,220</idno>
 					</msIdentifier>
 					<msContents>
@@ -54,14 +53,14 @@
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph__(Entwurf)">Ms XI 138</idno>
 					</msIdentifier>
 				</msDesc>
@@ -70,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1288">
 				<correspAction type="sent">
-					<persName ref="person1789" cert="high">
+					<persName ref="p1789" cert="high">
 						<!--
 						<surname cert="high">Kessler</surname>
 						<forename cert="high">Johannes</forename>
@@ -79,11 +78,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415734"/>
 						-->
 					</persName>
-					<placeName source="place474" cert="high"><orig>St. Gallen</orig></placeName>
+					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 					<date when="1551-05-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -93,7 +92,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file1289"/>
@@ -119,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -139,8 +138,8 @@
 					<s n="5" xml:lang="la" type="auto">Ex iis vero elegi, quae inter colligendum in manus venerunt, ubi lucubrationum tuarum facta fuit mentio, sicubi polliceris commentaria in epistolas Pauli, evangelium Mathei et Ioannis etc.</s>
 					<s n="6" xml:lang="la" type="auto">Blande enim me afficit hic ipsum tuum <foreign xml:lang="el">αθτογραξον</foreign> atque ex eo cognoscere polliceri ea, quae tanta fide, eruditione, perspicuitate ac summo iudicio infinitis testibus pręstitisti.</s>
 					<s n="7" xml:lang="la" type="auto">Hoc nomine hęsit quoque apud me illa, qua quęris, an corpus Christi propter coniunctionem cum verbo inseperabilem sumat sibi alienas a corpore conditiones, hoc vero gratior, quod ad hanc legimus responsionem, ut luculentam et eruditam, ita adversus pestiferas quorundam hominum maleferiatorum opiniones longe saluberrimam.</s>
-					<s n="8" xml:lang="la" type="auto">Hęsit et illa<note xml:id="fn1" type="footnote" n="1">Überliefert (nicht original erhalten!) ist (anscheinend) die Antwort (mit falschem Datum): Vadian BW V 675-677, Nachtrag Nr. 11 = HBBW ...?</note>, in qua connumeras admirandę vetustatis numismata, quae mihi Vadianus non ignarus me antiquitatis sitientissimum esse, perhumaniter ostendit.</s>
-					<s n="9" xml:lang="la" type="auto">Ubi vidi siclum illum, cuius in Matheo<note xml:id="fn2" type="footnote" n="2">Im Matthäuskommentar von 1542, S. 170, diskutiert Bullinger die drei hier erwähnten Münzen. Die Beschreibung des Schekel entspricht allerdings nicht jenem in Vadian BW V 676, Münze Nr. 51.</note> facis mentionem, Themistoclem quoque et bovem illum Atheniensem<note xml:id="fn3" type="footnote" n="3">Vgl. den erwähnten Vadian-Brief. Die dort zitierte Erklärung aus den Adagia beruht wohl auf einem Mißverständnis; es handelte sich kaum um eine Athener Münze, sondern um irgendeine griechische mit Ochsenbild.</note> summa cum observatione et admiratione.</s>
+					<s n="8" xml:lang="la" type="auto">Hęsit et illa<note xml:id="fn1" type="footnote" n="1">Überliefert (nicht original erhalten!) ist (anscheinend) die Antwort (mit falschem Datum): <bibl>Vadian BW V</bibl> 675-677, Nachtrag Nr. 11 = <bibl>HBBW</bibl> ...?</note>, in qua connumeras admirandę vetustatis numismata, quae mihi Vadianus non ignarus me antiquitatis sitientissimum esse, perhumaniter ostendit.</s>
+					<s n="9" xml:lang="la" type="auto">Ubi vidi siclum illum, cuius in Matheo<note xml:id="fn2" type="footnote" n="2">Im Matthäuskommentar von 1542, S. 170, diskutiert Bullinger die drei hier erwähnten Münzen. Die Beschreibung des Schekel entspricht allerdings nicht jenem in <bibl>Vadian BW V</bibl> 676, Münze Nr. 51.</note> facis mentionem, Themistoclem quoque et bovem illum Atheniensem<note xml:id="fn3" type="footnote" n="3">Vgl. den erwähnten Vadian-Brief. Die dort zitierte Erklärung aus den <bibl>Adagia</bibl> beruht wohl auf einem Mißverständnis; es handelte sich kaum um eine Athener Münze, sondern um irgendeine griechische mit Ochsenbild.</note> summa cum observatione et admiratione.</s>
 					<s n="10" xml:lang="la" type="auto">Iucundissima igitur epistola, quod monumenta commemorat, quae ex illa antiquitate habemus residua.</s>
 					<s n="11" xml:lang="la" type="auto">Retinui quoque <foreign xml:lang="el">αθτογραξον</foreign> epistolae ad te Philippi Melanchtonis, in qua extat, quam candide de tuis in Ioannis evangelium commentaria iudicarit vir doctissimus, et si qua sunt alia id genus, in quibus nihil periculi, sed splendoris et gratiae multum.</s>
 				</p>

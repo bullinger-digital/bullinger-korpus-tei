@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 29. Oktober 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1324</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">243</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,154</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,15 +38,14 @@
 							<p xml:id="regest1">
 								Dankt für seinen Trostbrief [<ref target="file11364">Nr. 1321</ref>]. Die Lage der [Basler] Kirche hat sich
 								weiter verschlechtert, da der unangreifbar gewordene Schönredner
-								[<persName ref="person117">Karlstadt</persName>] und die Kreise, die hinter ihm stehen, offenbar das
-								Pfarramt entwerten wollen; <persName ref="person154">Myconius</persName> hält es für seine Pflicht, als
+								[<persName ref="p4349">Karlstadt</persName>] und die Kreise, die hinter ihm stehen, offenbar das
+								Pfarramt entwerten wollen; <persName ref="p8418">Myconius</persName> hält es für seine Pflicht, als
 								Prediger die Laster anzuprangern, während sich jener in seinen Predigten zu Josua über biblische Geographie
-								ausläßt. Ist dankbar für die Nachrichten über [<persName ref="person621">Cheireddin</persName>]
+								ausläßt. Ist dankbar für die Nachrichten über [<persName>Cheireddin</persName>]
 								Barbarossa und fürchtet, wegen des angeschlagenen Rufs der Basler
 								keine Briefe mehr zu erhalten. Daß das Gerücht über einen Konflikt zwischen
-								<persName ref="person145">Kaspar [Megander]</persName> und Bullinger
-								falsch war, freut ihn. Ist [Adam]
-								<persName ref="person867">Frey</persName> wohlgesonnen. Seine Frau
+								<persName ref="p8412">Kaspar [Megander]</persName> und Bullinger
+								falsch war, freut ihn. Ist <persName ref="p4830">[Adam] Frey</persName> wohlgesonnen. Seine Frau
 								[Margret] ist krank. Grüße.
 							</p>
 						</summary>
@@ -63,13 +53,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1324, S.243</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11367">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -80,11 +77,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1539-10-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,11 +128,11 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Tametsi nos egregie consolatur dominus, libenter tamen et magno cum gaudio, dum a piis consolamur<note xml:id="fn1" type="footnote" n="1"><persName ref="person154">Myconius</persName> bezieht sich auf Bullingers Brief vom 25. Oktober (oben <ref target="file11364">Nr. 1321</ref>).</note>, accipimus.</s>
+					<s n="2" xml:lang="la" type="auto">Tametsi nos egregie consolatur dominus, libenter tamen et magno cum gaudio, dum a piis consolamur<note xml:id="fn1" type="footnote" n="1"><persName>Myconius</persName> bezieht sich auf Bullingers Brief vom 25. Oktober (oben <ref target="file11364">Nr. 1321</ref>).</note>, accipimus.</s>
 					<s n="3" xml:lang="la" type="auto">Quamobrem velim istudipsum esse quam frequentissimum; adeo non est, ut alter alterum hic possit uno verbo erigere.</s>
 					<s n="4" xml:lang="la" type="auto">Iacet ecclesia; id quod dum conquestus sum<note xml:id="fn2" type="footnote" n="2">Siehe oben <ref target="file11356">Nr. 1313</ref>.</note>, poenitus est<pb type="edition" next="244"/> subversa<note xml:id="fn3" type="footnote" n="3">Die Verschärfung der Spannungen ist ablesbar am Ratsdekret vom 7. Oktober, mit dem die Pfarrer an ihre Unterstellung unter die neue Universitätsordnung erinnert und in verschiedenen Punkten ermahnt wurden (gedruckt in: Peter <hi>Ochs,</hi> Geschichte der Stadt und Landschaft Basel, Bd. VI, Basel 1821, S. 145-147; vgl. <hi>Burckhardt-</hi> Biedermann 476).</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Verbum adhuc habet sic quidem liberum, ut verear, ne et hoc propediem tollatur; scopus enim totius tentationis fuit in animis malorum libertatem e suggestu praecipitem dare.</s>
-					<s n="6" xml:lang="la" type="auto">Ad quam rem usi sunt isthoc viro<note xml:id="fn4" type="footnote" n="4">Gemeint ist <persName ref="person117">Karlstadt</persName>.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Ad quam rem usi sunt isthoc viro<note xml:id="fn4" type="footnote" n="4">Gemeint ist <persName>Karlstadt</persName>.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">De quo ne quid pluribus dicam, ex his est, ad quos sermo pertinet prophetę: „Dicite placentia.“<note xml:id="fn5" type="footnote" n="5">Jes 30, ID.</note></s>
 					<s n="8" xml:lang="la" type="auto">Hic tam est diligens, ut credere nequeam alium scopum esse praefixum<note xml:id="fna" type="footnote" n="a"><hi>nach</hi> praefixum <hi>gestrichenes</hi> ei[?].</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Hodie venit ad me bonus vir<note xml:id="fn6" type="footnote" n="6">Unbekannt.</note> eiusmodi verbis: „Cavendum est, ne vir iste lędatur; nam hac est authoritate apud suos, ut, si hominem occidisset, ablaturus esset impune.“</s>
@@ -147,7 +144,7 @@
 					<s n="15" xml:lang="la" type="auto">Quid velint, plane me fugit.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Audiunt veterem <persName ref="person154">Myconium</persName> et in corripiendis vitiis etiam diligentiorem quam antea.</s>
+					<s n="16" xml:lang="la" type="auto">Audiunt veterem <persName ref="p8418">Myconium</persName> et in corripiendis vitiis etiam diligentiorem quam antea.</s>
 					<s n="17" xml:lang="la" type="auto">Pati malum quam ferre hominum iniquitatem, quantum in me est, malo.</s>
 					<s n="18" xml:lang="la" type="auto">Satis est, quod ipse pecco, non valeo portare peccata aliena; sic iubet officium, et pugnant cum praeceptis dei dehonestantque nomen eius.</s>
 				</p>
@@ -159,26 +156,26 @@
 					<s n="23" xml:lang="la" type="auto">Dominus det illi cor bonum et mentem sanam, quod ex animo precor.</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="la" type="auto">Quę scribis de <persName ref="person621">Barbarossa</persName><note xml:id="fn8" type="footnote" n="8">Oben <ref target="file11364">Nr. 1321</ref>, 17-21.</note>, mirum quam gratum feceris; adeo nihil novarum rerum hic est.</s>
+					<s n="24" xml:lang="la" type="auto">Quę scribis de <persName>Barbarossa</persName><note xml:id="fn8" type="footnote" n="8">Oben <ref target="file11364">Nr. 1321</ref>, 17-21.</note>, mirum quam gratum feceris; adeo nihil novarum rerum hic est.</s>
 					<s n="25" xml:lang="la" type="auto">Credo famam pessimam de nobis a scribendo pios et amicos viros deterrere<note xml:id="fnb" type="footnote" n="b"><hi>nach</hi> deterrere <hi>gestrichenes a</hi> scribendo.</note>.</s>
 					<s n="26" xml:lang="la" type="auto">Quęso, ne tu quoque absterrearis.</s>
 				</p>
 				<p>
 					<s n="27" xml:lang="la" type="auto">De dissensione in ędibus nostris audieram; qui narrabat, ex concionatoribus vestris est, si recte novi; nomen nescio.</s>
-					<s n="28" xml:lang="la" type="auto">Aiebat <persName ref="person145">Gasparem</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person145">Kaspar Megander</persName>; vgl. ebd., Z. 26-29.</note> abolere velle multa, quę instituisset<note xml:id="fnc" type="footnote" n="c"><hi>korrigiert aus</hi> instuisset.</note> <persName ref="person265">Zvinglius</persName>, te reniti et<note xml:id="fnd" type="footnote" n="d">et <hi>über gestrichenem</hi> te.</note> pauciores habere fautores quam alterum, et nescio quę alia.</s>
+					<s n="28" xml:lang="la" type="auto">Aiebat <persName ref="p8412">Gasparem</persName><note xml:id="fn9" type="footnote" n="9"><persName>Kaspar Megander</persName>; vgl. ebd., Z. 26-29.</note> abolere velle multa, quę instituisset<note xml:id="fnc" type="footnote" n="c"><hi>korrigiert aus</hi> instuisset.</note> <persName ref="p4091">Zvinglius</persName>, te reniti et<note xml:id="fnd" type="footnote" n="d">et <hi>über gestrichenem</hi> te.</note> pauciores habere fautores quam alterum, et nescio quę alia.</s>
 					<s n="29" xml:lang="la" type="auto">Gaudeo mentitum esse nebulonem, quisquis est.</s>
 				</p>
 				<p>
-					<s n="30" xml:lang="la" type="auto">Phrygioni<note xml:id="fn10" type="footnote" n="10"><persName ref="person867">Adam Frey</persName>; vgl. oben Nr. ebd., Z. 30f.</note> equidem bene volo; dominus adsit causę eius, si egerit in ipso.<pb type="edition" next="245"/></s>
+					<s n="30" xml:lang="la" type="auto">Phrygioni<note xml:id="fn10" type="footnote" n="10"><persName>Adam Frey</persName>; vgl. oben Nr. ebd., Z. 30f.</note> equidem bene volo; dominus adsit causę eius, si egerit in ipso.<pb type="edition" next="245"/></s>
 					<s n="31" xml:lang="la" type="auto">Uxor<note xml:id="fn11" type="footnote" n="11">Margret.</note> mea decumbit gravissime; dominum orabis pro utroque.</s>
 				</p>
 				<p>
 					<s n="32" xml:lang="la" type="auto">Vale cum tuis in Christo domino.</s>
-					<s n="33" xml:lang="la" type="auto">Salutabis <persName ref="person165">Pellicanum</persName> et <persName ref="person14">Theodorum</persName><note xml:id="fn12" type="footnote" n="12"><persName ref="person14">Theodor Bibliander</persName>.</note>.</s>
-					<s n="34" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, raptim, 29. octobris anno 39.</s>
+					<s n="33" xml:lang="la" type="auto">Salutabis <persName ref="p8127">Pellicanum</persName> et <persName ref="p8171">Theodorum</persName><note xml:id="fn12" type="footnote" n="12"><persName>Theodor Bibliander</persName>.</note>.</s>
+					<s n="34" xml:lang="la" type="auto"><placeName>Basileę</placeName>, raptim, 29. octobris anno 39.</s>
 				</p>
 				<p>
-					<s n="35" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus ex animo.</s>
+					<s n="35" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus ex animo.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

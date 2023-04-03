@@ -6,67 +6,64 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Oswald Myconius, 22. April 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=360</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">135</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,34</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet <persName ref="person154">Myconius</persName>, die redlichen, aber armen Gesellen, die nach
-								<placeName ref="place97">Basel</placeName> kommen, zu unterstützen. Diese werden beim Rat um einen
+								Bittet <persName ref="p8418">Myconius</persName>, die redlichen, aber armen Gesellen, die nach
+								<placeName>Basel</placeName> kommen, zu unterstützen. Diese werden beim Rat um einen
 								Beitrag an die Summe bitten, welche sie [dem ehemaligen Schultheiß von
-								<placeName ref="place178">Bremgarten</placeName>, Johannes]
-								<persName ref="person1218">Honegger</persName> zu erlegen haben. Zürich und
-								<placeName ref="place121">Bern</placeName> haben bereits je 100 Pfund beigesteuert.
-								<persName ref="person1218">Honegger</persName>, den sie im Ersten Kappelerkrieg umsonst zur Rechenschaft zu
+								<placeName>Bremgarten</placeName>, <persName ref="p5283">Johannes] Honegger</persName> zu erlegen haben. Zürich und
+								<placeName>Bern</placeName> haben bereits je 100 Pfund beigesteuert.
+								<persName ref="p5283">Honegger</persName>, den sie im Ersten Kappelerkrieg umsonst zur Rechenschaft zu
 								ziehen versuchten, nutzt jetzt seinen Vorteil gegen diese Burschen. Der Salzherr
-								[<persName ref="person980">Jakob Goetz</persName>] und andere Basler wissen Bescheid.
+								[<persName ref="p4978">Jakob Goetz</persName>] und andere Basler wissen Bescheid.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 360, S.135</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10392">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -76,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1534-04-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -117,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,17 +128,17 @@
 					<s n="1" xml:lang="de" type="auto">Gnad und frid vonn gott.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Fürgeliepter bruͦder, ich bitt üch früntlich, ir wöllend üch dise arme xellen<note xml:id="fn1" type="footnote" n="1">junge Männer (vgl. Grimm IV 1/2, 4033).</note> bevolhen<note xml:id="fn2" type="footnote" n="2">empfohlen (SI I 799).</note> haben inn üwer fürpitt gägen<note xml:id="fn3" type="footnote" n="3">gegenüber.</note> minen herrenn vonn <placeName ref="place97">Basel</placeName>, ann die sy ein bitt umb ein stür<note xml:id="fn4" type="footnote" n="4">Gabe, Beisteuer (SI XI 1280-1282).</note> thuͦn werdent.</s>
-					<s n="3" xml:lang="de" type="auto">Dann sy dem <persName ref="person1218">Honegger</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person1218">Johannes Honegger</persName>, geb. um 1480, bezog, nach dem Besuch der Bremgartner Schulen, im Wintersemester 1496/97 die Universität <placeName ref="place97">Basel</placeName> (s. <placeName ref="place97">Basel</placeName>, Matrikel I 246); nach LL X 285 erwarb er sich den Grad eines Magisters. Ab 1516 war Honegger Schultheiß von <placeName ref="place178">Bremgarten</placeName>. In den zwanziger Jahren wurde er zum führenden Kopf der Opposition gegen Zürich und die Reformierten. Gegen Dekan Bullinger tat er sich im Februar 1519 durch die Unterstützung des Ablaßhändlers <persName ref="person2026">Samson</persName> und 1529 bei des Dekans Verdrängung hervor. Er war einer der vier Präsidenten der <placeName ref="place85">Badener</placeName> Disputation. Während des Ersten Kappelerkrieges wurde er der antizürcherischen Umtriebe bezichtigt, aus dem Rat ausgeschlossen, gefangengenommen und - unter dem Drucke Zürichs - «peinlich» verhört. Nach seiner Freilassung flüchtete er und ließ sich in <placeName ref="place908">Root</placeName> (Kt. Luzern) nieder, unterhielt aber weiterhin Beziehungen zur katholischen Partei in seiner Vaterstadt (s. HBBW I <ref target="file10068">[Nr. 40]</ref> 217f, Anm. 22). Nach dem Zweiten Kappelerkrieg machte er mit Erfolg Schadenersatzansprüche geltend, vorerst gegenüber <placeName ref="place178">Bremgarten</placeName> für Weinverlust, den ihm schließlich Zürich und <placeName ref="place121">Bern</placeName> vergüteten (s. ASchweizerRef IV, <ref target="file11810">Nr. 1764</ref>, S. 619), sodann Forderungen, die im vorliegenden Brief angesprochen sind. - Lit.: HBRG I 16. 350. II 60f. 370; ASchweizerRef Reg.; EA IV/Ia, b und c, Reg.; Pl. <hi>Weissenbach,</hi> Die Reformation in <placeName ref="place178">Bremgarten</placeName>, in: Argovia VI, 1871, <hi>S.</hi> 12. 14. 21. 79-88; Eugen <hi>Bürgisser,</hi> Geschichte der Stadt <placeName ref="place178">Bremgarten</placeName> im Mittelalter. Beiträge zur Geschichte einer mittelalterlichen Stadt, Aarau 1937, S. 102f. 179. 182; HBLS IV 286.</note></s>
+					<s n="2" xml:lang="de" type="auto">Fürgeliepter bruͦder, ich bitt üch früntlich, ir wöllend üch dise arme xellen<note xml:id="fn1" type="footnote" n="1">junge Männer (vgl. <bibl>Grimm</bibl> IV 1/2, 4033).</note> bevolhen<note xml:id="fn2" type="footnote" n="2">empfohlen (<bibl>SI</bibl> I 799).</note> haben inn üwer fürpitt gägen<note xml:id="fn3" type="footnote" n="3">gegenüber.</note> minen herrenn vonn <placeName>Basel</placeName>, ann die sy ein bitt umb ein stür<note xml:id="fn4" type="footnote" n="4">Gabe, Beisteuer (<bibl>SI</bibl> XI 1280-1282).</note> thuͦn werdent.</s>
+					<s n="3" xml:lang="de" type="auto">Dann sy dem <persName>Honegger</persName><note xml:id="fn5" type="footnote" n="5"><persName>Johannes Honegger</persName>, geb. um 1480, bezog, nach dem Besuch der Bremgartner Schulen, im Wintersemester 1496/97 die Universität <placeName>Basel</placeName> (s. <placeName>Basel</placeName>, Matrikel I 246); nach <bibl>LL</bibl> X 285 erwarb er sich den Grad eines Magisters. Ab 1516 war Honegger Schultheiß von <placeName>Bremgarten</placeName>. In den zwanziger Jahren wurde er zum führenden Kopf der Opposition gegen Zürich und die Reformierten. Gegen Dekan Bullinger tat er sich im Februar 1519 durch die Unterstützung des <persName>Ablaßhändlers Samson</persName> und 1529 bei des Dekans Verdrängung hervor. Er war einer der vier Präsidenten der <placeName>Badener</placeName> Disputation. Während des Ersten Kappelerkrieges wurde er der antizürcherischen Umtriebe bezichtigt, aus dem Rat ausgeschlossen, gefangengenommen und - unter dem Drucke Zürichs - «peinlich» verhört. Nach seiner Freilassung flüchtete er und ließ sich in <placeName>Root</placeName> (Kt. Luzern) nieder, unterhielt aber weiterhin Beziehungen zur katholischen Partei in seiner Vaterstadt (s. <bibl>HBBW I</bibl> <ref target="file10068">[Nr. 40]</ref> 217f, Anm. 22). Nach dem Zweiten Kappelerkrieg machte er mit Erfolg Schadenersatzansprüche geltend, vorerst gegenüber <placeName>Bremgarten</placeName> für Weinverlust, den ihm schließlich Zürich und <placeName>Bern</placeName> vergüteten (s. ASchweizerRef IV, <ref target="file11810">Nr. 1764</ref>, S. 619), sodann Forderungen, die im vorliegenden Brief angesprochen sind. - Lit.: <bibl>HBRG</bibl> I 16. 350. II 60f. 370; ASchweizerRef Reg.; <bibl>EA</bibl> IV/Ia, b und c, Reg.; Pl. <hi>Weissenbach,</hi> Die Reformation in <placeName>Bremgarten</placeName>, in: Argovia VI, 1871, <hi>S.</hi> 12. 14. 21. 79-88; Eugen <hi>Bürgisser,</hi> Geschichte der Stadt <placeName>Bremgarten</placeName> im Mittelalter. Beiträge zur Geschichte einer mittelalterlichen Stadt, Aarau 1937, S. 102f. 179. 182; <bibl>HBLS</bibl> IV 286.</note></s>
 				</p>
 				<p>
-					<s n="4" xml:lang="de" type="auto"><pb type="edition" next="136"/>200 g[uld]en gäben muͤssend, da sy aber wenig schuldig wärend, wann sust die sachen rächt zuͦgiengen<note xml:id="fn6" type="footnote" n="6">Die katholischen Orte beschlossen an der Juli-Tagsatzung 1533 in <placeName ref="place85">Baden</placeName>, denjenigen, die [1529]die Freilassung <persName ref="person1218">Honeggers</persName> verhindert hatten, den Prozeß zu machen (s. EA IV/IC 132 [12.]). Zu den Vorgängen im Juni 1529 in <placeName ref="place178">Bremgarten</placeName> - Entlassung <persName ref="person1218">Honeggers</persName> durch den Rat nach kurzer Haft und erneute Gefangennahme durch die Reformierten - s. den Brief von Hauptmann <persName ref="person1236">Heinrich Huber</persName> und den Reformierten zu <placeName ref="place178">Bremgarten</placeName> vom 13. Juni 1529 an Zürich in: ASchweizerRef II, <ref target="file10569">Nr. 533</ref>, S. 212 und <hi>Bucher</hi> 109f.</note>.</s>
-					<s n="5" xml:lang="de" type="auto">Min herren vonn Zürych habend inen geschenckt 100 lb<note xml:id="fn7" type="footnote" n="7">100 Pfund entsprachen ungefähr 50 Gulden; den; vgl. HBBW I <ref target="file10050">[Nr. 24]</ref> 134f, Anm. 176, und SI V 1156.</note> min herren vonn <placeName ref="place121">Bernn</placeName> 100 lb.</s>
+					<s n="4" xml:lang="de" type="auto"><pb type="edition" next="136"/>200 g[uld]en gäben muͤssend, da sy aber wenig schuldig wärend, wann sust die sachen rächt zuͦgiengen<note xml:id="fn6" type="footnote" n="6">Die katholischen Orte beschlossen an der Juli-Tagsatzung 1533 in <placeName>Baden</placeName>, denjenigen, die [1529]die Freilassung <persName>Honeggers</persName> verhindert hatten, den Prozeß zu machen (s. <bibl>EA</bibl> IV/IC 132 [12.]). Zu den Vorgängen im Juni 1529 in <placeName>Bremgarten</placeName> - Entlassung <persName>Honeggers</persName> durch den Rat nach kurzer Haft und erneute Gefangennahme durch die Reformierten - s. den Brief von Hauptmann <persName>Heinrich Huber</persName> und den Reformierten zu <placeName>Bremgarten</placeName> vom 13. Juni 1529 an Zürich in: ASchweizerRef II, <ref target="file10569">Nr. 533</ref>, S. 212 und <bibl>Bucher</bibl> 109f.</note>.</s>
+					<s n="5" xml:lang="de" type="auto">Min herren vonn Zürych habend inen geschenckt 100 lb<note xml:id="fn7" type="footnote" n="7">100 Pfund entsprachen ungefähr 50 Gulden; den; vgl. <bibl>HBBW</bibl> I <ref target="file10050">[Nr. 24]</ref> 134f, Anm. 176, und <bibl>SI</bibl> V 1156.</note> min herren vonn <placeName>Bernn</placeName> 100 lb.</s>
 					<s n="6" xml:lang="de" type="auto">Dann, meerteyls dero, so inn der schuld, sind redlich xellen, aber armm<note xml:id="fna" type="footnote" n="a"><hi>nach</hi> armm <hi>gestrichen</hi> sind.</note>.</s>
-					<s n="7" xml:lang="de" type="auto">Sy hättend gernn geholfen, daß der <persName ref="person1218">Honegger</persName> gestraafft were, ruͦfftennd deßhalb min herren vonn Zürych an imm ersten Cappler zug<note xml:id="fn8" type="footnote" n="8">Siehe die Briefe <persName ref="person1236">Heinrich Hubers</persName> und der «Gutwilligen» [Reformierten] zu <placeName ref="place178">Bremgarten</placeName> vom 13. und 15. Juni 1529 an Zürich, bzw. ins Zürcher Feldlager bei <placeName ref="place534">Kappel</placeName>, ASchweizerRef II, <ref target="file10569">Nr. 533</ref>, S. 212, und <ref target="file10593">Nr. 557</ref>b und c, S. 220. <persName ref="person1218">Honegger</persName> wurde auf Drängen Zürichs gefoltert; doch die Verhöre blieben ergebnislos, sodaß er nach einigen Tagen freigelassen werden mußte und aus der Stadt flüchten konnte (s. ASchweizerRef, aaO, und <ref target="file10593">Nr. 557</ref>a, S. 220. <ref target="file10601">Nr. 565</ref>, S. 223. <ref target="file10611">Nr. 573</ref>a und b, S. 226. <ref target="file10621">Nr. 583</ref>a, S. 229). Bullinger hatte gerade damals sein Pfarramt in <placeName ref="place178">Bremgarten</placeName> angetreten (s. HBD 17), war also selber mitten im Geschehen gewesen und kannte die nun Gestraften zweifellos gut.</note>.</s>
-					<s n="8" xml:lang="de" type="auto">Es ward aber dem <persName ref="person1218">Honegger</persName> verschonet.</s>
-					<s n="9" xml:lang="de" type="auto">Jetzund, so der wurff imm und sins gelychen in die hand worden<note xml:id="fn9" type="footnote" n="9">Jetzt, da sie ans Ruder gekommen sind (s. Grimm XIV/II 2145f).</note>, trybend sy iro muͦtwillen mitt sömlichen<note xml:id="fn10" type="footnote" n="10">solchen.</note> armen xellen.</s>
-					<s n="10" xml:lang="de" type="auto">Der saltzherr<note xml:id="fn11" type="footnote" n="11"><persName ref="person980">Jakob Goetz</persName>, ca. 1490 bis nach 1535, Ratsherr der Weinleutezunft, Anführer der Basler im Müsserkrieg; s. ABaslerRef V Reg. und HBLS III 589.</note> und andere Baßler wüssend wol vonn dem handel<note xml:id="fn12" type="footnote" n="12">Angelegenheit, Sache (SI II 1397).</note>.</s>
+					<s n="7" xml:lang="de" type="auto">Sy hättend gernn geholfen, daß der <persName>Honegger</persName> gestraafft were, ruͦfftennd deßhalb min herren vonn Zürych an imm ersten Cappler zug<note xml:id="fn8" type="footnote" n="8">Siehe die Briefe <persName>Heinrich Hubers</persName> und der «Gutwilligen» [Reformierten] zu <placeName>Bremgarten</placeName> vom 13. und 15. Juni 1529 an Zürich, bzw. ins Zürcher Feldlager bei <placeName>Kappel</placeName>, ASchweizerRef II, <ref target="file10569">Nr. 533</ref>, S. 212, und <ref target="file10593">Nr. 557</ref>b und c, S. 220. <persName>Honegger</persName> wurde auf Drängen Zürichs gefoltert; doch die Verhöre blieben ergebnislos, sodaß er nach einigen Tagen freigelassen werden mußte und aus der Stadt flüchten konnte (s. ASchweizerRef, aaO, und <ref target="file10593">Nr. 557</ref>a, S. 220. <ref target="file10601">Nr. 565</ref>, S. 223. <ref target="file10611">Nr. 573</ref>a und b, S. 226. <ref target="file10621">Nr. 583</ref>a, S. 229). Bullinger hatte gerade damals sein Pfarramt in <placeName>Bremgarten</placeName> angetreten (s. <bibl>HBD</bibl> 17), war also selber mitten im Geschehen gewesen und kannte die nun Gestraften zweifellos gut.</note>.</s>
+					<s n="8" xml:lang="de" type="auto">Es ward aber dem <persName>Honegger</persName> verschonet.</s>
+					<s n="9" xml:lang="de" type="auto">Jetzund, so der wurff imm und sins gelychen in die hand worden<note xml:id="fn9" type="footnote" n="9">Jetzt, da sie ans Ruder gekommen sind (s. <bibl>Grimm</bibl> XIV/II 2145f).</note>, trybend sy iro muͦtwillen mitt sömlichen<note xml:id="fn10" type="footnote" n="10">solchen.</note> armen xellen.</s>
+					<s n="10" xml:lang="de" type="auto">Der saltzherr<note xml:id="fn11" type="footnote" n="11"><persName>Jakob Goetz</persName>, ca. 1490 bis nach 1535, Ratsherr der Weinleutezunft, Anführer der Basler im Müsserkrieg; s. <bibl>ABaslerRef</bibl> V Reg. und <bibl>HBLS</bibl> III 589.</note> und andere Baßler wüssend wol vonn dem handel<note xml:id="fn12" type="footnote" n="12">Angelegenheit, Sache (<bibl>SI</bibl> II 1397).</note>.</s>
 					<s n="11" xml:lang="de" type="auto">So könnend üch zöuger diß brieffs<note xml:id="fn13" type="footnote" n="13">Die Überbringer des Briefes waren wohl die oben erwähnten Gesellen.</note> wol berichten.</s>
 					<s n="12" xml:lang="de" type="auto">Thund üwernn müglichen flyß, pitt ich.</s>
 					<s n="13" xml:lang="de" type="auto">Sind gott befolhen.</s>
@@ -154,7 +151,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="16" xml:lang="de" type="auto">Dem wolgelerten frommen und achtbarnn herren <persName ref="person154">Oswalden Myconien</persName>, prädicanten zum domstifft <placeName ref="place97">Basel</placeName>, sinem günstigen lieben herren unnd bruͦder.</s>
+					<s n="16" xml:lang="de" type="auto">Dem wolgelerten frommen und achtbarnn herren <persName ref="p8418">Oswalden Myconien</persName>, prädicanten zum domstifft <placeName>Basel</placeName>, sinem günstigen lieben herren unnd bruͦder.</s>
 				</p>
 			</div>
 		</body>

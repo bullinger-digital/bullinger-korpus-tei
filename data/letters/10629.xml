@@ -6,50 +6,41 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Johannes Stumpf, 11. Juni 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=591</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">230</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 313,8r</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person923">Hans Füßli</persName>, der an einem Zweitagefieber leidet, ist nicht in
-								Lebensgefahr; sollte er dennoch sterben, wird Bullinger an <persName ref="person211">Stumpfs</persName>
-								Brief [<ref target="file10628">Nr. 590</ref>] denken. Hat <persName ref="person1776">Georg Ottlis</persName>
-								Aufzeichnung erhalten und wird für <persName ref="person211">Stumpf</persName> die Schlacht [am
-								<placeName ref="place435">Gubel</placeName>] darstellen; sollte er nicht dazu kommen, wird er ihm die
+								<persName ref="p4891">Hans Füßli</persName>, der an einem Zweitagefieber leidet, ist nicht in
+								Lebensgefahr; sollte er dennoch sterben, wird Bullinger an <persName ref="p6730">Stumpfs</persName>
+								Brief [<ref target="file10628">Nr. 590</ref>] denken. Hat <persName ref="p6023">Georg Ottlis</persName>
+								Aufzeichnung erhalten und wird für <persName ref="p6730">Stumpf</persName> die Schlacht [am
+								<placeName>Gubel</placeName>] darstellen; sollte er nicht dazu kommen, wird er ihm die
 								Unterlagen überlassen.
 							</p>
 						</summary>
@@ -63,6 +54,9 @@
 							<bibl type="Gedruckt" subtype="Teildruck">
 								<title>Johannes Stumpfs Schweizer- und Reformationschronik, I. Teil, hg. v Ernst Gagliardi, Hans Müller und Fritz Büsser, Basel 1952. QSG I/V, S. XVII</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 591, S.230</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -71,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10629">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1535-06-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3067" cert="high">
+					<persName ref="p3067" cert="high">
 						<!--
 						<surname cert="high">Stumpf</surname>
 						<forename cert="high">Johannes</forename>
@@ -120,25 +114,25 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Heinricus Bullingerus <persName ref="person211">Ioanni Stumpfio</persName> suo<note xml:id="fna" type="footnote" n="a"><hi>Von</hi> Heinricus <hi>bis</hi> suo <hi>mit roter Tinte geschrieben, von <persName ref="person211">Stumpfs</persName> Hand.</hi></note>.</s>
+					<s n="1" xml:lang="la" type="auto">Heinricus Bullingerus <persName ref="p6730">Ioanni Stumpfio</persName> suo<note xml:id="fna" type="footnote" n="a"><hi>Von</hi> Heinricus <hi>bis</hi> suo <hi>mit roter Tinte geschrieben, von <persName>Stumpfs</persName> Hand.</hi></note>.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Gratiam et pacem etc.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Recte valet <persName ref="person923">Füeßlius</persName><note xml:id="fnb" type="footnote" n="b"><hi>von <persName ref="person211">Stumpf</persName> am Rande:</hi> <persName ref="person923">Ioannes Füßli</persName>, civis Tigurinus.</note><note xml:id="fn1" type="footnote" n="1"><persName ref="person923">Hans Füßli</persName>.</note>, charissimus frater, sequundana modo febri obnoxius nonnihil laborat.</s>
+					<s n="3" xml:lang="la" type="auto">Recte valet <persName ref="p4891">Füeßlius</persName><note xml:id="fnb" type="footnote" n="b"><hi>von <persName>Stumpf</persName> am Rande:</hi> <persName>Ioannes Füßli</persName>, civis Tigurinus.</note><note xml:id="fn1" type="footnote" n="1"><persName>Hans Füßli</persName>.</note>, charissimus frater, sequundana modo febri obnoxius nonnihil laborat.</s>
 					<s n="4" xml:lang="la" type="auto">De vita non est periculum.</s>
-					<s n="5" xml:lang="la" type="auto">Ac si vocaretur a domino, memor ero literarum tuarum<note xml:id="fn2" type="footnote" n="2"><persName ref="person211">Johannes Stumpf</persName> an Bullinger, 9. Juni 1535 (oben <ref target="file10628">Nr. 590</ref>).</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Ac si vocaretur a domino, memor ero literarum tuarum<note xml:id="fn2" type="footnote" n="2"><persName>Johannes Stumpf</persName> an Bullinger, 9. Juni 1535 (oben <ref target="file10628">Nr. 590</ref>).</note>.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Georgius Ottelius scriptam historiam<note xml:id="fn3" type="footnote" n="3">Zu <persName ref="person1776">Georg Ottlis</persName> Bericht über die Schlacht am <placeName ref="place435">Gubel</placeName> vgl. ebd., Z. 14-17 und Anm. 10.</note> mihi ante mensem propemodum tradidit.</s>
+					<s n="6" xml:lang="la" type="auto">Georgius Ottelius scriptam historiam<note xml:id="fn3" type="footnote" n="3">Zu <persName>Georg Ottlis</persName> Bericht über die Schlacht am <placeName>Gubel</placeName> vgl. ebd., Z. 14-17 und Anm. 10.</note> mihi ante mensem propemodum tradidit.</s>
 					<s n="7" xml:lang="la" type="auto">Perscrutatus sum etiam ipse quaedam a parte adversa.</s>
 					<s n="8" xml:lang="la" type="auto">Conor ipse tibi faciem eius pugnae delineare.</s>
 					<s n="9" xml:lang="la" type="auto">Negotia hactenus prohibuere.</s>

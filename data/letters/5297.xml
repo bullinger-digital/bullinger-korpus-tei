@@ -6,32 +6,31 @@
 				<title subtype="file">[Engelbert Fabricius] / [Wolfsheim] AN [Heinrich Bullinger], 23. April 1562</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5991/79</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 377,2364</idno>
 						<idno subtype="Hinweis">Autograph (gem. Benachrichtigung von Herrn Schatorjé, 18. Nov. 2010; s. Briefordner)</idno>
 					</msIdentifier>
@@ -61,28 +60,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 104,75</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive81">
+						<repository ref="a81">
 							<name>Strassburg BNU</name>
 							<ref target="https://www.bnu.fr/fr"/>
 						</repository>
-						<settlement ref="place492">Strassburg</settlement>
+						<settlement ref="l492">Strassburg</settlement>
 						<institution>National- und Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive81"/>
+						<repository ref="a81"/>
 						<idno subtype="Kopie">Ms 0.682 = STB Bd. 23,363</idno>
 					</msIdentifier>
 				</msDesc>
@@ -91,18 +90,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5297">
 				<correspAction type="sent">
-					<persName ref="person1095" cert="low">
+					<persName ref="p1095" cert="low">
 						<!--
 						<surname cert="low">Fabricius</surname>
 						<forename cert="low">Engelbert</forename>
 						<note type="person">Wolfsheim, Pfalz // Alias: Faber, Engelbert</note>
 						-->
 					</persName>
-					<placeName source="place565" cert="low"><orig>Wolfsheim</orig></placeName>
+					<placeName source="l565" cert="low"><orig>Wolfsheim</orig></placeName>
 					<date when="1562-04-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -128,7 +127,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

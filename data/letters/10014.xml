@@ -6,51 +6,42 @@
 				<title subtype="file">Christoph Stiltz / Wildberg AN Johannes Enzlin, 31. Januar 1526</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I (Anhang 1)</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">251</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531, Anhang 1), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph__(Kopie)">Ms A 82,98v 100r 3 1/2 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								In Beantwortung der Briefe Bullingers und <persName ref="person56">Enzlins</persName> lehnt
-								<persName ref="person206">Stiltz</persName> deren reformatorischen Standpunkt ab und versucht einzelne
+								In Beantwortung der Briefe Bullingers und <persName ref="p4198">Enzlins</persName> lehnt
+								<persName ref="p2832">Stiltz</persName> deren reformatorischen Standpunkt ab und versucht einzelne
 								Punkte zu widerlegen: Die Rechtfertigung aus Glauben allein, die Ablehnung der Messe, die ungünstige
-								Beurteilung von <persName ref="person779">Erasmus</persName>' Schrift «De libero arbitrio». Er wirft den
+								Beurteilung von <persName ref="p18722">Erasmus</persName>' Schrift «De libero arbitrio». Er wirft den
 								Reformatoren Uneinigkeit und Streitsucht vor und wendet sich vor allem gegen
-								<persName ref="person265">Zwinglis</persName> symbolische Abendmahlsauffassung.
+								<persName ref="p4091">Zwinglis</persName> symbolische Abendmahlsauffassung.
 							</p>
 						</summary>
 						<msItem>
@@ -61,24 +52,31 @@
 					<physDesc>
 						<objectDesc><p>sehr gut erhalten</p></objectDesc>
 					</physDesc>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 1c, S.251</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10014">
 				<correspAction type="sent">
-					<persName ref="person2832" cert="high">
+					<persName ref="p2832" cert="high">
 						<!--
 						<surname cert="high">Stiltz</surname>
 						<forename cert="high">Christoph</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/119840170"/>
 						-->
 					</persName>
-					<placeName source="place551" cert="high"><orig>Wildberg</orig></placeName>
+					<placeName source="l551" cert="high"><orig>Wildberg</orig></placeName>
 					<date when="1526-01-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1043" cert="high">
+					<persName ref="p1043" cert="high">
 						<!--
 						<surname cert="high">Enzlin</surname>
 						<forename cert="high">Johannes</forename>
@@ -97,24 +95,24 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person206">Christophorus</persName><note xml:id="fna" type="footnote" n="a"><hi>oben aRvB als fortlaufende Überschrift:</hi> Copia epistolae Christophyli Stiltzii Ferimontani</note> <persName ref="person206">Stiltz</persName> <persName ref="person56">Ioanni Enslino</persName> presbytero suo salutem in Christo Iesu domino nostro.</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p2832">Christophorus</persName><note xml:id="fna" type="footnote" n="a"><hi>oben aRvB als fortlaufende Überschrift:</hi> Copia epistolae Christophyli Stiltzii Ferimontani</note> <persName>Stiltz</persName> <persName ref="p4198">Ioanni Enslino</persName> presbytero suo salutem in Christo Iesu domino nostro.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Litteras tuas<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> una cum alteris<note xml:id="fn4" type="footnote" n="4">Oben Nr. 13.</note> aliena manu descriptas accepi legique.</s>
 					<s n="3" xml:lang="la" type="auto">In quibus animum in me tuum sentio quidem et amplector, verum institutum tuum non undiquaque probo, vel quod tu tuique similes vobis ipsis plus satis tribuitis, vel quod ceteros prę vobis quasi umbellas contemnatis; illos, inquam, qui pulmentum a vobis intritum exedere nolunt.</s>
-					<s n="4" xml:lang="la" type="auto">Omnibus modis contemnis M. <persName ref="person1095">Ioannem Hagnoverum</persName><note xml:id="fn5" type="footnote" n="5">Grund für das negative Urteil <persName ref="person56">Enzlins</persName> könnte die zurückhaltende Einstellung Hagnauers gegenüber der Reformation gewesen sein. <persName ref="person1095">Johannes Hagnauer</persName> (Hagnower), Magister, seit 1501 Chorherr am Großmünster (Regesten zur Schweizergeschichte aus den päpstlichen Archiven 1447-1513, gesammelt und hg. v. Bundesarchiv in Bern, H. 6, Die Pontifikate Alexanders VI., 1492-1503 und Pius' III., 1503, bearb. v. Caspar Wirz, Bern [1918], <ref target="file10766">Nr. 728</ref>, S. 276f), später auch Schenkhofer (Vinarius) und Pfleger (AZürcherRef 889. 1833). Er stimmte 1518 gegen <persName ref="person265">Zwinglis</persName> Berufung als Leutpriester (<hi>Farner</hi> II 304), auf der Zweiten Züricher Disputation 1523 zeigte er mit wenigen Worten seine Zustimmung zum Votum <persName ref="person1241">Hubmaiers</persName> gegen die Bilder an (Z II 764, 1 ff), 1526 zusammen mit dem Chorherrn <persName ref="person2565">Erhard Wyß</persName> wegen seines Widerstandes gegen die Reformation des Stiftes eingesperrt, doch bald wieder freigelassen (AZürcherRef 1064; Theodor <hi>Pestalozzi</hi>, Die Gegner <persName ref="person265">Zwinglis</persName> am Großmünsterstift in Zürich, Diss. phil. Zürich 1918, S. 81 ff.; Jaques <hi>Figi</hi>, Die innere Reorganisation des Großmünsterstiftes in Zürich von 1519 bis 1531, Diss. phil. Zürich, Affoltern am Albis 1951, S. 62), auf der Synode vom 19. Mai 1528 wurde seine reformationsfeindliche Haltung festgestellt («M. Hans Hagnower ist widerig dem helgen Gotteswort; ouch hat er einen zuogang mit lüten, die dem Gottswort widerstrebent» AZürcherRef 1414, S. 621), er starb am 1.. Oktober 1539. Außer der erwähnten Literatur s. noch: Leo <hi>Weisz</hi>, Quellen zur Reformationsgeschichte des Großmünsters in Zürich, in: Zwas VII 69f. 79. 87; Jakob <hi>Wipf</hi>, Michael Eggenstorfer, der letzte Abt des Klosters Allerheiligen, und die Anfänge der Reformation in Schaffhausen, in: Zwa IV 161-163; Die Statutenbücher der Propstei St. Felix und Regula (Großmünster) zu Zürich, hg. v. Dietrich W. H. Schwarz, Zürich 1952, S. 309. 326; Pfarrerbuch 318.</note> Tigurinum, id quod Paulus, imo Christus vester non docuit.</s>
+					<s n="4" xml:lang="la" type="auto">Omnibus modis contemnis M. <persName ref="p18734">Ioannem Hagnoverum</persName><note xml:id="fn5" type="footnote" n="5">Grund für das negative Urteil <persName>Enzlins</persName> könnte die zurückhaltende Einstellung <persName>Hagnauers</persName> gegenüber der Reformation gewesen sein. <persName>Johannes Hagnauer (Hagnower)</persName>, Magister, seit 1501 Chorherr am Großmünster (Regesten zur Schweizergeschichte aus den päpstlichen Archiven 1447-1513, gesammelt und hg. v. Bundesarchiv in Bern, H. 6, Die Pontifikate Alexanders VI., 1492-1503 und Pius' III., 1503, bearb. v. Caspar Wirz, Bern [1918], <ref target="file10766">Nr. 728</ref>, S. 276f), später auch Schenkhofer (Vinarius) und Pfleger (AZürcherRef 889. 1833). Er stimmte 1518 gegen <persName>Zwinglis</persName> Berufung als Leutpriester (<bibl>Farner</bibl> II 304), auf der Zweiten Züricher Disputation 1523 zeigte er mit wenigen Worten seine Zustimmung zum Votum <persName>Hubmaiers</persName> gegen die Bilder an (Z II 764, 1 ff), 1526 zusammen mit dem Chorherrn <persName>Erhard Wyß</persName> wegen seines Widerstandes gegen die Reformation des Stiftes eingesperrt, doch bald wieder freigelassen (AZürcherRef 1064; Theodor <bibl>Pestalozzi</bibl>, Die Gegner <persName>Zwinglis</persName> am Großmünsterstift in Zürich, Diss. phil. Zürich 1918, S. 81 ff.; Jaques <hi>Figi</hi>, Die innere Reorganisation des Großmünsterstiftes in Zürich von 1519 bis 1531, Diss. phil. Zürich, Affoltern am Albis 1951, S. 62), auf der Synode vom 19. Mai 1528 wurde seine reformationsfeindliche Haltung festgestellt («M. Hans Hagnower ist widerig dem helgen Gotteswort; ouch hat er einen zuogang mit lüten, die dem Gottswort widerstrebent» AZürcherRef 1414, S. 621), er starb am 1.. Oktober 1539. Außer der erwähnten Literatur s. noch: Leo <hi>Weisz</hi>, Quellen zur Reformationsgeschichte des Großmünsters in Zürich, in: Zwas VII 69f. 79. 87; Jakob <hi>Wipf</hi>, Michael Eggenstorfer, der letzte Abt des Klosters Allerheiligen, und die Anfänge der Reformation in Schaffhausen, in: Zwa IV 161-163; Die Statutenbücher der Propstei St. Felix und Regula (Großmünster) zu Zürich, hg. v. Dietrich W. H. Schwarz, Zürich 1952, S. 309. 326; Pfarrerbuch 318.</note> Tigurinum, id quod Paulus, imo Christus vester non docuit.</s>
 					<s n="5" xml:lang="la" type="auto">Quid autem?</s>
 					<s n="6" xml:lang="la" type="auto">Nempe ut humilitate, tollerantia [!], familiaritate, atque (ne omnia prosequar) christiana mansuetudine et exemplo eos, qui mali sunt aut certe Christum non noverunt, meliores reddamus et Iesum vindicem nostrum etiam moribus illo dignis, nedum ore exprimamus<pb type="scan" next="99r."/>.</s>
-					<s n="7" xml:lang="la" type="auto">Multa scribis de verbo dei, quod si tu tuique similes tantam gratiam a deo patre nacti estis, ut etiam Divus <persName ref="person1173">Hieronymus</persName>, <persName ref="person371">Augustinus</persName> ceterique id genus homines et eruditi et pii prae vobis nihil sint.</s>
+					<s n="7" xml:lang="la" type="auto">Multa scribis de verbo dei, quod si tu tuique similes tantam gratiam a deo patre nacti estis, ut etiam Divus <persName>Hieronymus</persName>, <persName ref="p18700">Augustinus</persName> ceterique id genus homines et eruditi et pii prae vobis nihil sint.</s>
 					<s n="8" xml:lang="la" type="auto">Unde, queso tibi,<pb type="edition" next="252"/> haec superstitio?</s>
-					<s n="9" xml:lang="la" type="auto">An non credam <persName ref="person1173">Hieronymo</persName>, et vobis credam?</s>
+					<s n="9" xml:lang="la" type="auto">An non credam <persName>Hieronymo</persName>, et vobis credam?</s>
 					<s n="10" xml:lang="la" type="auto">Ille Christum etiam factis expressit et suam doctrinam confirmavit, vos vero non facta Christo digna, sed fidem (nescio qualem) etiam sine operibus praefigitis.</s>
 					<s n="11" xml:lang="la" type="auto">Sed audi, mi fili, non me, imo Christum in evangelio loquentem: «Ex operibus eorum cognoscetis eos» [Mt 7,16], et iterum: «Luceat», inquit, «lux vestra coram hominibus, ut videant vestra bona opera glorificentque patrem vestrum, qui est i coelis» [Mt 5,16].</s>
 					<s n="12" xml:lang="la" type="auto">An nescis, si fisi fuerimus deo, opera bona ultro consequi? - quae quidem non a nobis, imo a deo patre proficiscuntur per Iesum Christum.</s>
@@ -122,18 +120,18 @@
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Conquereris de me, quod non scripserim; at ego conqueror et expostulo, quod tu non rescripseris.</s>
-					<s n="15" xml:lang="la" type="auto">Ceterum nihil est quod <persName ref="person1095">Ioanni Hagnover</persName><note xml:id="fn6" type="footnote" n="6">Siehe oben, Anm. 5; der Brief an <persName ref="person1095">Hagnauer</persName> ist nicht erhalten, die Beziehung zwischen <persName ref="person206">Stiltz</persName> und <persName ref="person1095">Hagnauer</persName> lißen sich anderweitig nicht aufhellen.</note> scripserim, quam quod institutum tuum displiceat; non inquam, quod uxorem duxeris, quod quidem Christus non prohibuit, sed quod sic dixeris, ut ipsi adhereas, Christum vero dimittas.</s>
+					<s n="15" xml:lang="la" type="auto">Ceterum nihil est quod <persName ref="p18734">Ioanni Hagnover</persName><note xml:id="fn6" type="footnote" n="6">Siehe oben, Anm. 5; der Brief an <persName>Hagnauer</persName> ist nicht erhalten, die Beziehung zwischen <persName>Stiltz</persName> und <persName>Hagnauer</persName> lißen sich anderweitig nicht aufhellen.</note> scripserim, quam quod institutum tuum displiceat; non inquam, quod uxorem duxeris, quod quidem Christus non prohibuit, sed quod sic dixeris, ut ipsi adhereas, Christum vero dimittas.</s>
 					<s n="16" xml:lang="la" type="auto">Qui sic inquies?</s>
 					<s n="17" xml:lang="la" type="auto">Nempe quid eo dementiae delapsus es, ut cum ceteris non sacrifices, hoc est missam, ut dicitur, aut legas aut decantes.</s>
 					<s n="18" xml:lang="la" type="auto">Hui, iam plenis lateribus paratus es et iam quasi exurgis in me, scio; sed ausculta per Christum Iesum, mi fili.</s>
-					<s n="19" xml:lang="la" type="auto">Christum in missa non offerimus aut sacrificamus, qui semel pro peccatis nostris oblatus est, sed preces nostras, quiad extra consecrationem effunduntur ad patrem, etiam ipso <persName ref="person138">Luthero</persName> teste; ipsum lege de sacramento altaris<note xml:id="fn7" type="footnote" n="7">Wahrscheinlich bezieht sich <persName ref="person206">Stiltz</persName> auf <persName ref="person138">Luthers</persName> «Sermon von dem neuen Testament, das ist von der heiligen Messe», 1520, wo unter anderem gesagt wird «Was sollen wir den opffern? Uns selb und allis was wir haben mit vleyssigem gepeet, wie wir sagen "dein will geschehe auff der erden als ym hymel", Hie mit wir uns dargeben sollen gottlichem willen, das er von und auß uns mache, was er wil noch seynem gottlichen wolgefallen, dartzu, yhm lob und danck opffern auß gantzem hertzen fur sein unaussprechliche suͤsse gnade und barmhertzickeit die er uns in dißem sacrament zugesagt und geben hat. Und wie woll solchs opffer auch aussen der muß geschicht und geschehen sol, denn es nit noͤtlich und weßenlich zur meß gehoͤrt, wie gesagt ist, ßo ists doch koͤstlicher, fuglicher, stercker unnd auch angenhemer, wo es mit dme hauffen und in der samlung geschicht, da eyns das ander reytzt, bewegt und erhitzt, das es starck zu gott dringt und damit erlanget on allen zweyffel, was es wil», WA VI, 368,5-16; s. den Abschnitt «Gebetospfer» bei Vilmos <hi>Vajita</hi>, Die Theologie des Gottesdienstes bei <persName ref="person138">Luther</persName>, Göttingen 1959<note type="sup">3</note>. - Forschungen zur Kirchen- und Dogmengeschichte, Bd. I, S. 295-309.</note>.</s>
-					<s n="20" xml:lang="la" type="auto">Quod si <persName ref="person138">Lutherus</persName> non suffitiat (id quod tamen apud nos increbuit), ecce iam tuo te iugulo gladio<note xml:id="fn8" type="footnote" n="8">Siehe Otto 154, Nr. 759.</note>, necquicquam est, quod possis praetexere, quam fidem tuam, nescio quam, non secus ac Rütlingius quidam coriarius<note xml:id="fn9" type="footnote" n="9">Der hier beschriebene Vorfall liess sich anderweitig nicht nachweisen.</note>, qui in Tagerscheim<note xml:id="fn10" type="footnote" n="10"><placeName ref="place258">Dagersheim</placeName>, Kreis Böblingen, Baden-Württemberg.</note> cum rusticis inter pocula disputans de fide, ut fit, coram me et ceteris adseruit non esse infernum nec infernum ex scriptura posse probari, cumque ego adsererem ex scriptura, eo perversitatis delapsus, ut etiam negaret regnum coelorum.</s>
+					<s n="19" xml:lang="la" type="auto">Christum in missa non offerimus aut sacrificamus, qui semel pro peccatis nostris oblatus est, sed preces nostras, quiad extra consecrationem effunduntur ad patrem, etiam ipso <persName ref="p1974">Luthero</persName> teste; ipsum lege de sacramento altaris<note xml:id="fn7" type="footnote" n="7">Wahrscheinlich bezieht sich <persName>Stiltz</persName> auf <persName ref="p18889">Luthers</persName> «Sermon von dem neuen Testament, das ist von der heiligen Messe», 1520, wo unter anderem gesagt wird «Was sollen wir den opffern? Uns selb und allis was wir haben mit vleyssigem gepeet, wie wir sagen "dein will geschehe auff der erden als ym hymel", Hie mit wir uns dargeben sollen gottlichem willen, das er von und auß uns mache, was er wil noch seynem gottlichen wolgefallen, dartzu, yhm lob und danck opffern auß gantzem hertzen fur sein unaussprechliche suͤsse gnade und barmhertzickeit die er uns in dißem sacrament zugesagt und geben hat. Und wie woll solchs opffer auch aussen der muß geschicht und geschehen sol, denn es nit noͤtlich und weßenlich zur meß gehoͤrt, wie gesagt ist, ßo ists doch koͤstlicher, fuglicher, stercker unnd auch angenhemer, wo es mit dme hauffen und in der samlung geschicht, da eyns das ander reytzt, bewegt und erhitzt, das es starck zu gott dringt und damit erlanget on allen zweyffel, was es wil», WA VI, 368,5-16; s. den Abschnitt «Gebetospfer» bei Vilmos <hi>Vajita</hi>, Die Theologie des Gottesdienstes bei <persName ref="p18889">Luther</persName>, Göttingen 1959<note type="sup">3</note>. - Forschungen zur Kirchen- und Dogmengeschichte, Bd. I, S. 295-309.</note>.</s>
+					<s n="20" xml:lang="la" type="auto">Quod si <persName ref="p1974">Lutherus</persName> non suffitiat (id quod tamen apud nos increbuit), ecce iam tuo te iugulo gladio<note xml:id="fn8" type="footnote" n="8">Siehe Otto 154, Nr. 759.</note>, necquicquam est, quod possis praetexere, quam fidem tuam, nescio quam, non secus ac Rütlingius quidam coriarius<note xml:id="fn9" type="footnote" n="9">Der hier beschriebene Vorfall liess sich anderweitig nicht nachweisen.</note>, qui in Tagerscheim<note xml:id="fn10" type="footnote" n="10"><placeName>Dagersheim</placeName>, Kreis Böblingen, Baden-Württemberg.</note> cum rusticis inter pocula disputans de fide, ut fit, coram me et ceteris adseruit non esse infernum nec infernum ex scriptura posse probari, cumque ego adsererem ex scriptura, eo perversitatis delapsus, ut etiam negaret regnum coelorum.</s>
 					<s n="21" xml:lang="la" type="auto">Vide, mi fili, quam facile credimus ac a vero recedimus.</s>
 					<s n="22" xml:lang="la" type="auto">Verum est quod refero, etiam 20 testibus aut plus probabile.</s>
 				</p>
 				<p>
-					<s n="23" xml:lang="la" type="auto">Porro suboriuntur quidam rumores apud nos, quod <persName ref="person138">Lutherus</persName>, <persName ref="person549">Pomeranus</persName>, <persName ref="person265">Zuinglius</persName>, Matheus <persName ref="person295">Alber</persName> Rütlingensis et fortassis quidam alii digladientur inter sese mutuo etiam pessimis convitiis<note xml:id="fn11" type="footnote" n="11">Zu den Auseinandersetzungen zwischen <persName ref="person138">Luther</persName>, <persName ref="person549">Bugenhagen</persName>, <persName ref="person265">Zwingli</persName>, <persName ref="person295">Alber</persName> u.a. über das Abendmahl s. <hi>Köhler</hi>, ZL I 61 ff.</note>.</s>
-					<s n="24" xml:lang="la" type="auto"><persName ref="person138">Lutherus</persName> adserit missam<note xml:id="fn12" type="footnote" n="12"><persName ref="person138">Luther</persName> behält zwar den Namen «Messe» bei und lässt diese als Gabe Gottes gelten, wendet sich aber scharf gegen ihren Opfercharakter, s. <hi>Vajita</hi>, aaO, S. 43 ff.</note>, ceteri contemnunt,<pb type="edition" next="253"/> confessionem atiam auricularem ille admitit<note xml:id="fn13" type="footnote" n="13">Siehe z.B. «De captivitate Babylonica ecclesiae praeludium», 1520: «Occulta autem confessio, quae modo celebratur, et si probari ex scriptura non possit, miro modo tamen placet et utilis, imo neccessaria est, nec vellem eam non esse, immo gaudeo eam esse in Ecclesia Christi, cum sit ipsa afflictis conscientiis, unicum remedium», WA VI 546,11-14. <persName ref="person138">Luther</persName> anerkennt die guten Seiten der Privatbeichte, doch macht er mehrere Einwände gegen die traditionella Ohrenbeichte geltend, s. den Abschnitt «Ohrenbeichte - Privatbeichte» bei Erich <hi>Roth</hi>, Die Privatbeichte und die Schlüsselgewalt in der Theologie der Reformatoren, Gütersloh 1952, S. 42 ff.</note><pb type="scan" next="99v."/>, hi consternunt.</s>
+					<s n="23" xml:lang="la" type="auto">Porro suboriuntur quidam rumores apud nos, quod <persName ref="p1974">Lutherus</persName>, <persName ref="p4443">Pomeranus</persName>, <persName ref="p4091">Zuinglius</persName>, Matheus <persName>Alber</persName> Rütlingensis et fortassis quidam alii digladientur inter sese mutuo etiam pessimis convitiis<note xml:id="fn11" type="footnote" n="11">Zu den Auseinandersetzungen zwischen <persName ref="p18889">Luther</persName>, <persName>Bugenhagen</persName>, <persName>Zwingli</persName>, <persName>Alber</persName> u.a. über das Abendmahl s. <hi>Köhler</hi>, ZL I 61 ff.</note>.</s>
+					<s n="24" xml:lang="la" type="auto"><persName ref="p1974">Lutherus</persName> adserit missam<note xml:id="fn12" type="footnote" n="12"><persName ref="p18889">Luther</persName> behält zwar den Namen «Messe» bei und lässt diese als Gabe Gottes gelten, wendet sich aber scharf gegen ihren Opfercharakter, s. <hi>Vajita</hi>, aaO, S. 43 ff.</note>, ceteri contemnunt,<pb type="edition" next="253"/> confessionem atiam auricularem ille admitit<note xml:id="fn13" type="footnote" n="13">Siehe z.B. «De captivitate Babylonica ecclesiae praeludium», 1520: «Occulta autem confessio, quae modo celebratur, et si probari ex scriptura non possit, miro modo tamen placet et utilis, imo neccessaria est, nec vellem eam non esse, immo gaudeo eam esse in Ecclesia Christi, cum sit ipsa afflictis conscientiis, unicum remedium», WA VI 546,11-14. <persName ref="p18889">Luther</persName> anerkennt die guten Seiten der Privatbeichte, doch macht er mehrere Einwände gegen die traditionella Ohrenbeichte geltend, s. den Abschnitt «Ohrenbeichte - Privatbeichte» bei Erich <hi>Roth</hi>, Die Privatbeichte und die Schlüsselgewalt in der Theologie der Reformatoren, Gütersloh 1952, S. 42 ff.</note><pb type="scan" next="99v."/>, hi consternunt.</s>
 					<s n="25" xml:lang="la" type="auto">Cui credam?</s>
 					<s n="26" xml:lang="la" type="auto">Ubi scriptura illa facilis, quam vel idiotae intelligere debent, ut homines illi doctissimi non intelligant aut certe non consentiant?</s>
 					<s n="27" xml:lang="la" type="auto">Sed quid effecerunt suis illis temere scriptis?</s>
@@ -146,24 +144,24 @@
 				<p>
 					<s n="33" xml:lang="la" type="auto">Sed quid ago?</s>
 					<s n="34" xml:lang="la" type="auto">Tute me compulisti talia scribere illa tua eleganti satisque pia epistola<note xml:id="fn14" type="footnote" n="14">Oben Nr. 13, zu der folgenden Auseinandersetzung mit Bullingers Brief s. die Erläuterungen oben S. 85-88.</note>, quam tuo nomine quidam eruditus homo conscripsit, cui et meo nonmine salutem dicas, rogo, in Christo, atque hortare, ut stilum illum suum exerceat in gloriam Christi, non hominum.</s>
-					<s n="35" xml:lang="la" type="auto">Familiariter scripsit, sed in hoc uno duriusculus videtur, quod mihi tribuit me Divo <persName ref="person1173">Hieronymo</persName> aut «patribus spiritum ita tribuere, ut nihil fere reliqui faciam deploratissimi nostri aeci hominibus».</s>
+					<s n="35" xml:lang="la" type="auto">Familiariter scripsit, sed in hoc uno duriusculus videtur, quod mihi tribuit me Divo <persName>Hieronymo</persName> aut «patribus spiritum ita tribuere, ut nihil fere reliqui faciam deploratissimi nostri aeci hominibus».</s>
 					<s n="36" xml:lang="la" type="auto">Non ita sane stat mea sententia, imo nulli hominum quicquam tribuo, ni sua probarit ex scriptura.</s>
-					<s n="37" xml:lang="la" type="auto">At <persName ref="person1173">Hieronymum</persName> et <persName ref="person371">Augustinum</persName> reliquosque patres, qui scripta sua etiam exemplo et vita homine christiano dignis confirmaverunt, praefero iis, qui fidem etiam sine operibus bonis astruunt, quasi homini christiano sufficiat credidisse sine consequentibus operibus.</s>
+					<s n="37" xml:lang="la" type="auto">At <persName>Hieronymum</persName> et <persName ref="p18700">Augustinum</persName> reliquosque patres, qui scripta sua etiam exemplo et vita homine christiano dignis confirmaverunt, praefero iis, qui fidem etiam sine operibus bonis astruunt, quasi homini christiano sufficiat credidisse sine consequentibus operibus.</s>
 					<s n="38" xml:lang="la" type="auto">Verum hoc Christus non docuit, ut supra patuit.</s>
 					<s n="39" xml:lang="la" type="auto">Ceterum, quod scribit, vos propterea non cantaturos palinodiam, nec ego propter vos palinodiam canam, nisi probaveritis vestra scripturis, sed non adseretis, opinor, omnia.</s>
 				</p>
 				<p>
-					<s n="40" xml:lang="la" type="auto">Et haec quidem de <persName ref="person779">Erasmo</persName> nortro, cuius opusculum «De libero arbitrio» mirum est quam contemnat, non tamen eiusmodi nervis, ut mihi persuadere<note xml:id="fnd" type="footnote" n="d"><hi>aus</hi> persuadeat <hi>korrigiert.</hi></note> possit, ut <persName ref="person779">Erasmum</persName> aut culpem aut contemnam.</s>
-					<s n="41" xml:lang="la" type="auto">Adserit libellum hunc «nedum impium sed blasphemum», non autem addit rationem; hoc est, quod sibi plus tribuit quam <persName ref="person779">Erasmo</persName>.</s>
+					<s n="40" xml:lang="la" type="auto">Et haec quidem de <persName ref="p18722">Erasmo</persName> nortro, cuius opusculum «De libero arbitrio» mirum est quam contemnat, non tamen eiusmodi nervis, ut mihi persuadere<note xml:id="fnd" type="footnote" n="d"><hi>aus</hi> persuadeat <hi>korrigiert.</hi></note> possit, ut <persName ref="p18722">Erasmum</persName> aut culpem aut contemnam.</s>
+					<s n="41" xml:lang="la" type="auto">Adserit libellum hunc «nedum impium sed blasphemum», non autem addit rationem; hoc est, quod sibi plus tribuit quam <persName ref="p18722">Erasmo</persName>.</s>
 					<s n="42" xml:lang="la" type="auto">At ego nulli quicquam impudentius tribuo, Christo omnia tribuo.</s>
-					<s n="43" xml:lang="la" type="auto">Verum <persName ref="person779">Erasmus</persName> noster illis verbis fucatis nondum cecinit palinodiam, quamvis ille dicat eum plus curare de numero quam de energia, hoc est efficatia.</s>
-					<s n="44" xml:lang="la" type="auto">Quod si hoc verbo aliquid probavit: «Ubi vero Gordii aliquis se offert nodus, deus bone, quam misere se misellus torquet Erasmiolus» - iam plane convictus est meus <persName ref="person779">Erasmus</persName>.</s>
+					<s n="43" xml:lang="la" type="auto">Verum <persName ref="p18722">Erasmus</persName> noster illis verbis fucatis nondum cecinit palinodiam, quamvis ille dicat eum plus curare de numero quam de energia, hoc est efficatia.</s>
+					<s n="44" xml:lang="la" type="auto">Quod si hoc verbo aliquid probavit: «Ubi vero Gordii aliquis se offert nodus, deus bone, quam misere se misellus torquet Erasmiolus» - iam plane convictus est meus <persName ref="p18722">Erasmus</persName>.</s>
 					<s n="45" xml:lang="la" type="auto">Pollicetur quidem scripturas, nullas autem profert, quasi sibi<pb type="edition" next="254"/> etiam sine scriptura credendum sit.</s>
-					<s n="46" xml:lang="la" type="auto"><pb type="scan" next="100r."/><persName ref="person779">Erasmum</persName> non defendo, qui hominem non novi, nec eum culpo, qui par efficere nequeam.</s>
+					<s n="46" xml:lang="la" type="auto"><pb type="scan" next="100r."/><persName ref="p18722">Erasmum</persName> non defendo, qui hominem non novi, nec eum culpo, qui par efficere nequeam.</s>
 					<s n="47" xml:lang="la" type="auto">Porro de libero arbitrio illis relinquo questionem, qui pulmentum intriverunt, atque nihil omnino est, quod non boni consulam, quam si convitiis incesseris optime de nobis meritos.</s>
-					<s n="48" xml:lang="la" type="auto">Quod si <persName ref="person779">Erasmum</persName> adeo in theologia spernit, cur non spernit et alios, qui novos ritus re arduissima etiam sine scripuris inducunt?</s>
-					<s n="49" xml:lang="la" type="auto">Veluti <persName ref="person265">Zuinglius</persName> tuus, cuius libellum seu epistolam de eucharistia<note xml:id="fn15" type="footnote" n="15">«Ad Metthaeum Alberum, Rutlingensium ecclesiasten, de coena dominica Huldrychi Zuinglii epistola», 1524, gedruckt März 1525, Z II 322 ff.</note> vel praecursu videre licuit, et casu incidi in locum, ubi de cardine rei<note xml:id="fn16" type="footnote" n="16">Adagia, 1, 1, 19 (LB II 33 F); Otto 76, Nr. 351; an der von <persName ref="person206">Stiltz</persName> angeführten Stelle benützt <persName ref="person265">Zwingli</persName> selbst den Ausdruck «cardo rei», «Nos [345] cardinem huius rei in brevissima syllaba versari arbitramur: videlicet in hoc verbo "est", cuius significantia non perpetuo pro "esse" accipitur, sed etiam pro "significatur"», Z III 344,9-345,3.</note> disserit et adducit duos, ut opinor, locos, ubi «est» ponitur pro «significat», ac continuo infert «est» in hac propositione «Hoc est corpus meum» [Mt 26,26; 1 Korr 11,24] poni pro «significat»<note xml:id="fn17" type="footnote" n="17">Z III 344,9 ff.</note>.</s>
-					<s n="50" xml:lang="la" type="manual">Ceterum pari ratione consequetur, quod «est» in hac oratione «<persName ref="person56">Ioannes Enslin</persName> est homo niger» etiam poneretur pro «significat» sensuusque esset: <foreign xml:lang="de">«<persName ref="person56">Ioannes Enslin</persName> bedeut ein schwartzen menschen».</foreign></s>
+					<s n="48" xml:lang="la" type="auto">Quod si <persName ref="p18722">Erasmum</persName> adeo in theologia spernit, cur non spernit et alios, qui novos ritus re arduissima etiam sine scripuris inducunt?</s>
+					<s n="49" xml:lang="la" type="auto">Veluti <persName ref="p4091">Zuinglius</persName> tuus, cuius libellum seu epistolam de eucharistia<note xml:id="fn15" type="footnote" n="15">«Ad Metthaeum Alberum, Rutlingensium ecclesiasten, de coena dominica Huldrychi Zuinglii epistola», 1524, gedruckt März 1525, Z II 322 ff.</note> vel praecursu videre licuit, et casu incidi in locum, ubi de cardine rei<note xml:id="fn16" type="footnote" n="16">Adagia, 1, 1, 19 (LB II 33 F); Otto 76, Nr. 351; an der von <persName>Stiltz</persName> angeführten Stelle benützt <persName>Zwingli</persName> selbst den Ausdruck «cardo rei», «Nos [345] cardinem huius rei in brevissima syllaba versari arbitramur: videlicet in hoc verbo "est", cuius significantia non perpetuo pro "esse" accipitur, sed etiam pro "significatur"», Z III 344,9-345,3.</note> disserit et adducit duos, ut opinor, locos, ubi «est» ponitur pro «significat», ac continuo infert «est» in hac propositione «Hoc est corpus meum» [Mt 26,26; 1 Korr 11,24] poni pro «significat»<note xml:id="fn17" type="footnote" n="17">Z III 344,9 ff.</note>.</s>
+					<s n="50" xml:lang="la" type="manual">Ceterum pari ratione consequetur, quod «est» in hac oratione «<persName ref="p4198">Ioannes Enslin</persName> est homo niger» etiam poneretur pro «significat» sensuusque esset: <foreign xml:lang="de">«<persName ref="p4198">Ioannes Enslin</persName> bedeut ein schwartzen menschen».</foreign></s>
 					<s n="51" xml:lang="la" type="auto">Ex hoc consequeretur te non esse nigrum, et tamen es niger, ni cutem novam una cum fide nova indueris.</s>
 					<s n="52" xml:lang="la" type="auto">Simili consequentia sequerentur sex mille propositiones, et in summa sequeretur, quod «est» non significaret «est» et iam deesset vocabulum, quo mentis adfectum exprimeremus, nisi malis «existit» aut «forem».</s>
 					<s n="53" xml:lang="la" type="auto">Et, ut sophistam interim agam, ex singularibus non consequitur universale<note xml:id="fn18" type="footnote" n="18">Siehe oben S. 111, Anm. 72.</note>.</s>

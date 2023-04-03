@@ -6,51 +6,42 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 31. März 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1485</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">118</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,225</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Schickt einen Bericht [<persName ref="person28">Bucers</persName>] vom Reichstag; mit einem Erfolg ist
-								nicht zu rechnen. Klagt über die Verhältnisse in <placeName ref="place97">Basel</placeName> und
+								Schickt einen Bericht [<persName ref="p467">Bucers</persName>] vom Reichstag; mit einem Erfolg ist
+								nicht zu rechnen. Klagt über die Verhältnisse in <placeName>Basel</placeName> und
 								bedauert, dass die schuldigen [Zürcher Studenten] geschont wurden -
-								<persName ref="person1959">Christoph [Rotacher]</persName> hätte
-								<placeName ref="place97">Basel</placeName> wegen der [diesbezüglichen] Äußerungen von
-								<persName ref="person14">Theodor [Bibliander]</persName> beinahe
+								<persName ref="p2811">Christoph [Rotacher]</persName> hätte
+								<placeName>Basel</placeName> wegen der [diesbezüglichen] Äußerungen von
+								<persName ref="p8171">Theodor [Bibliander]</persName> beinahe
 								verlassen -; heute wurden weitere Bakkalaurei promoviert.
 							</p>
 						</summary>
@@ -58,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1485, S.118</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11528">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -75,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1541-03-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,16 +124,16 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Accipe, quę nudiustertius ad nos missa sunt de comitiis,<note xml:id="fn1" type="footnote" n="1">Laut einer Bemerkung von <persName ref="person81">Grynäus</persName> (s. oben <ref target="file11527">Nr. 1484</ref>, 26-28) handelte es sich um einen Bericht <persName ref="person28">Bucers</persName> aus <placeName ref="place880">Regensburg</placeName>. Ein Auszug aus einem Brief <persName ref="person28">Bucers</persName> vom 15. März findet sich in Zürich StA, E II 350, 453f. 459f (von unbekannter Hand, von <persName ref="person154">Myconius</persName> an Bullinger adressiert; der gleiche Auszug als Teil einer von <persName ref="person154">Myconius</persName> eigenhändig geschriebenen Zusammenstellung von Nachrichten aus <placeName ref="place880">Regensburg</placeName> auch in Zürich ZB, Ms F 80, 119r.-120r.). Darin eingefaltet war auch der Brief <persName ref="person9">Bedrots</persName> an <persName ref="person81">Grynäus</persName> vom 21. März mit Nachrichten aus einem Schreiben Calvins vom 11. März (Zürich StA, E II 350, 425f, von einer zweiten unbekannten Hand; Teildruck [nach dieser Vorlage] in Corr. des réformateurs VII 48-51, <ref target="file10997">Nr. 955</ref>, sowie [nach der erwähnten Nachrichtensammlung von <persName ref="person154">Myconius</persName>] in CO XI 171-173, <ref target="file10319">Nr. 288</ref>).</note> et divina.</s>
+					<s n="2" xml:lang="la" type="auto">Accipe, quę nudiustertius ad nos missa sunt de comitiis,<note xml:id="fn1" type="footnote" n="1">Laut einer Bemerkung von <persName>Grynäus</persName> (s. oben <ref target="file11527">Nr. 1484</ref>, 26-28) handelte es sich um einen Bericht <persName ref="p18198">Bucers</persName> aus <placeName>Regensburg</placeName>. Ein Auszug aus einem Brief <persName ref="p18198">Bucers</persName> vom 15. März findet sich in Zürich StA, E II 350, 453f. 459f (von unbekannter Hand, von <persName>Myconius</persName> an Bullinger adressiert; der gleiche Auszug als Teil einer von <persName>Myconius</persName> eigenhändig geschriebenen Zusammenstellung von Nachrichten aus <placeName>Regensburg</placeName> auch in Zürich ZB, Ms F 80, 119r.-120r.). Darin eingefaltet war auch der Brief <persName>Bedrots</persName> an <persName>Grynäus</persName> vom 21. März mit Nachrichten aus einem Schreiben Calvins vom 11. März (Zürich StA, E II 350, 425f, von einer zweiten unbekannten Hand; Teildruck [nach dieser Vorlage] in Corr. des réformateurs VII 48-51, <ref target="file10997">Nr. 955</ref>, sowie [nach der erwähnten Nachrichtensammlung von <persName>Myconius</persName>] in <bibl>CO</bibl> XI 171-173, <ref target="file10319">Nr. 288</ref>).</note> et divina.</s>
 					<s n="3" xml:lang="la" type="auto">Equidem spero dominum conservaturum verbum suum; at de reformatione nihil fiet.<pb type="edition" next="119"/></s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Dolet illud supra modum, quod religio ubique deficit.</s>
 					<s n="5" xml:lang="la" type="auto">Novi quid fiat apud nos: In peius labimur in dies magis ac magis.</s>
-					<s n="6" xml:lang="la" type="auto">Aegre ferunt boni viri, quod duobus istis<note xml:id="fn2" type="footnote" n="2">Gemeint sind wohl <persName ref="person2519">Christian Wirth</persName> und <persName ref="person2274">Konrad Suter</persName>; vgl. oben <ref target="file11518">Nr. 1475</ref>, 7-15 mit Anm. 5.</note> tam anxie favetis, cum hic agant pessime.</s>
+					<s n="6" xml:lang="la" type="auto">Aegre ferunt boni viri, quod duobus istis<note xml:id="fn2" type="footnote" n="2">Gemeint sind wohl <persName>Christian Wirth</persName> und <persName>Konrad Suter</persName>; vgl. oben <ref target="file11518">Nr. 1475</ref>, 7-15 mit Anm. 5.</note> tam anxie favetis, cum hic agant pessime.</s>
 					<s n="7" xml:lang="la" type="auto">Sed vos videbitis.</s>
-					<s n="8" xml:lang="la" type="auto">Christophorus<note xml:id="fn3" type="footnote" n="3"><persName ref="person1959">Christoph Rotacher</persName>.</note> tantum non pararat abitum ex verbis <persName ref="person14">Theodori</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person14">Theodor Bibliander</persName>. - <persName ref="person1959">Rotacher</persName> fühlte sich ungerecht behandelt (vgl. oben <ref target="file11518">Nr. 1475</ref>, 9-12), entsprechende Äußerungen Biblianders sind jedoch nicht überliefert.</note>, sed falsus est; nescio, quid causę sit.</s>
-					<s n="9" xml:lang="la" type="auto">Nos fecimus hodie iterum baccalaureos<note xml:id="fn5" type="footnote" n="5"><persName ref="person21046">Johann Heinrich Munzinger</persName>, <persName ref="person22874">Wiprecht Schießer</persName> (Sagittarius) und <persName ref="person21246">Philipp Bächi</persName>; s. <placeName ref="place97">Basel</placeName>, Matrikel II 4, Nr. 15; 10, Nr. 27; 17, Nr. 20 (als Datum ist in der Matrikel der 1. April genannt).</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Christophorus<note xml:id="fn3" type="footnote" n="3"><persName>Christoph Rotacher</persName>.</note> tantum non pararat abitum ex verbis <persName ref="p8171">Theodori</persName><note xml:id="fn4" type="footnote" n="4"><persName>Theodor Bibliander</persName>. - <persName>Rotacher</persName> fühlte sich ungerecht behandelt (vgl. oben <ref target="file11518">Nr. 1475</ref>, 9-12), entsprechende Äußerungen Biblianders sind jedoch nicht überliefert.</note>, sed falsus est; nescio, quid causę sit.</s>
+					<s n="9" xml:lang="la" type="auto">Nos fecimus hodie iterum baccalaureos<note xml:id="fn5" type="footnote" n="5"><persName>Johann Heinrich Munzinger</persName>, <persName>Wiprecht Schießer (Sagittarius)</persName> und <persName>Philipp Bächi</persName>; s. <placeName>Basel</placeName>, Matrikel II 4, Nr. 15; 10, Nr. 27; 17, Nr. 20 (als Datum ist in der Matrikel der 1. April genannt).</note>.</s>
 					<s n="10" xml:lang="la" type="auto">Gaudebis nobiscum.</s>
 					<s n="11" xml:lang="la" type="auto">Vix vivo prę miseria, quam quotidie graviorem intueor.</s>
 				</p>
@@ -144,13 +142,13 @@
 					<s n="13" xml:lang="la" type="auto">Nil aliud possum.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Vale cum tuis omnibus, <persName ref="person14">Theodoro</persName>, <persName ref="person165">Pellicano</persName>, reliquis.</s>
+					<s n="14" xml:lang="la" type="auto">Vale cum tuis omnibus, <persName ref="p8171">Theodoro</persName>, <persName ref="p8127">Pellicano</persName>, reliquis.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, ultima martii anno 41.</s>
+					<s n="15" xml:lang="la" type="auto"><placeName>Basileę</placeName>, ultima martii anno 41.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

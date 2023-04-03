@@ -6,49 +6,40 @@
 				<title subtype="file">Erasmus Ritter / Schaffhausen AN Heinrich Bullinger, 15. Januar 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=726</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">72</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 362,37</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Ist mit <persName ref="person36">Benedikt Burgauer</persName> zur Teilnahme an der Basler Zusammenkunft
+								Ist mit <persName ref="p264">Benedikt Burgauer</persName> zur Teilnahme an der Basler Zusammenkunft
 								aufgeboten worden - allerdings auf eigene Kosten; Bürgermeister von
-								<persName ref="person232">Waldkirch</persName> und Zunftmeister
-								[<persName ref="person2071">Hans Schmid</persName>] werden sie begleiten. Bittet um Mitteilung der zu
+								<persName ref="p2299">Waldkirch</persName> und Zunftmeister
+								[<persName ref="p8009">Hans Schmid</persName>] werden sie begleiten. Bittet um Mitteilung der zu
 								behandelnden Geschäfte.
 							</p>
 						</summary>
@@ -56,13 +47,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 726, S.72</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10764">
 				<correspAction type="sent">
-					<persName ref="person2810" cert="high">
+					<persName ref="p2810" cert="high">
 						<!--
 						<surname cert="high">Ritter</surname>
 						<forename cert="high">Erasmus</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416562"/>
 						-->
 					</persName>
-					<placeName source="place441" cert="high"><orig>Schaffhausen</orig></placeName>
+					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1536-01-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,7 +122,7 @@
 					<s n="1" xml:lang="la" type="auto">Gracia et pax etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Ego et <persName ref="person36">Benedictus</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="person36">Benedikt Burgauer</persName>.</note> una destinati sumus <placeName ref="place97">Basileam</placeName><note xml:id="fn2" type="footnote" n="2">Vgl. oben <ref target="file10762">Nr. 724</ref>, Anm. 3; zu den Einladungsschreiben <placeName ref="place97">Basels</placeName> an Zürich vom 4. Januar und Zürichs an <placeName ref="place943">Schaffhausen</placeName> vom 10. Januar vgl. EA IV/1c 598.</note> - comites erunt consul Waldkilchius et ex tribunis unus<note xml:id="fn3" type="footnote" n="3">Zunftmeister <persName ref="person2071">Hans Schmid</persName> (s. Stumpf, Abendmahlsstreit 75).</note> -, ea tamen lege, quod ego et <persName ref="person36">Benedictus</persName> proprio et reliquorum conpresbiterorum sumptu pergamus.</s>
+					<s n="2" xml:lang="la" type="auto">Ego et <persName ref="p264">Benedictus</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="p4082">Benedikt Burgauer</persName>.</note> una destinati sumus <placeName>Basileam</placeName><note xml:id="fn2" type="footnote" n="2">Vgl. oben <ref target="file10762">Nr. 724</ref>, Anm. 3; zu den Einladungsschreiben <placeName>Basels</placeName> an Zürich vom 4. Januar und Zürichs an <placeName>Schaffhausen</placeName> vom 10. Januar vgl. <bibl>EA</bibl> IV/1c 598.</note> - comites erunt consul Waldkilchius et ex tribunis unus<note xml:id="fn3" type="footnote" n="3">Zunftmeister <persName>Hans Schmid</persName> (s. Stumpf, Abendmahlsstreit 75).</note> -, ea tamen lege, quod ego et <persName ref="p264">Benedictus</persName> proprio et reliquorum conpresbiterorum sumptu pergamus.</s>
 					<s n="3" xml:lang="la" type="auto">Viden, charissime frater, et prudentiam et pietatem nostri senatus?</s>
 					<s n="4" xml:lang="la" type="auto">Decreverant, quod neminem illuc vellent mittere ex ministris, sed tantum ex senatoribus duos.</s>
 					<s n="5" xml:lang="la" type="auto">Nescio, quid tandem illis in mentem venerit, quod et nos addiderunt.</s>
@@ -136,7 +134,7 @@
 					<s n="7" xml:lang="la" type="auto"><pb type="edition" next="73"/>Vale, 15. ianuarii 1536.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><persName ref="person176">Erasmus Ritter</persName>, ex animo tuus.</s>
+					<s n="8" xml:lang="la" type="auto"><persName ref="p2810">Erasmus Ritter</persName>, ex animo tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

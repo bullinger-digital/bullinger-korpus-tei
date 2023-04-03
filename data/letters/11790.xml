@@ -6,51 +6,42 @@
 				<title subtype="file">Anna Hilles / Straßburg AN Heinrich Bullinger, 9. Mai 1543</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1744</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">131</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Original">E II 369,74</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Entschuldigt sich für ihr Schreiben, da Bullinger sehr beschäftigt sein wird, aber es ergab sich in der
-								Abwesenheit ihres Mannes [<persName ref="person1176">Richard Hilles</persName>] die Notwendigkeit. Der
-								Grund für ihr Schreiben ist dieser: Da <persName ref="person570">John Burcher</persName> darum gebeten hat,
+								Abwesenheit ihres Mannes [<persName ref="p1548">Richard Hilles</persName>] die Notwendigkeit. Der
+								Grund für ihr Schreiben ist dieser: Da <persName ref="p505">John Burcher</persName> darum gebeten hat,
 								bei Bullinger 30 Gulden für ihn zu hinterlegen, übersendet sie hierbei 21 Kronen zu treuen Händen. Grüße und
 								Übersendung einen kleinen Geschenkes; sie bediente sich beim Abfassen dieses Briefes der Hilfe ihres Dieners
-								[<persName ref="person22377">Francis Warner</persName>], der auch grüßen lässt.
+								[<persName ref="p3872">Francis Warner</persName>], der auch grüßen lässt.
 							</p>
 						</summary>
 						<msItem>
@@ -62,6 +53,9 @@
 							<bibl type="Gedruckt" subtype="Maschinenschriftliche__Transkription">
 								<title>Hildebrandt, Exiles 294f.</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1744, S.131</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -70,17 +64,17 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11790">
 				<correspAction type="sent">
-					<persName ref="person1413" cert="high">
+					<persName ref="p1413" cert="high">
 						<!--
 						<surname cert="high">Hilles</surname>
 						<forename cert="high">Anna</forename>
 						-->
 					</persName>
-					<placeName source="place491" cert="high"><orig>Straßburg</orig></placeName>
+					<placeName source="l491" cert="high"><orig>Straßburg</orig></placeName>
 					<date when="1543-05-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +99,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -116,7 +110,7 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><placeName ref="place1049">Argentorati</placeName>, 9. maii anno 1543.</s>
+					<s n="1" xml:lang="la" type="auto"><placeName>Argentorati</placeName>, 9. maii anno 1543.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Salutem atque in vinea domini profectum.</s>
@@ -125,25 +119,25 @@
 					<s n="5" xml:lang="la" type="auto">Immo obversabatur ob oculos interdum nimium stultam futuram fuisse me, nisi cogitarem isthac (nempe tacendo) non minus in te quoque peccari irreverentia quam illac imprudentia ceu importunitate.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Itaque tua humanitate freta piorumque officiorum, que ultro marito meo<note xml:id="fn3" type="footnote" n="3"><persName ref="person1176">Richard Hilles</persName>.</note> et obtulisti et etiam prestitisti, non immemor fiduciam sumpsi nunc eo absente paucula ad te perscribendi.</s>
+					<s n="6" xml:lang="la" type="auto">Itaque tua humanitate freta piorumque officiorum, que ultro marito meo<note xml:id="fn3" type="footnote" n="3"><persName>Richard Hilles</persName>.</note> et obtulisti et etiam prestitisti, non immemor fiduciam sumpsi nunc eo absente paucula ad te perscribendi.</s>
 					<s n="7" xml:lang="la" type="auto">Quo pacto spero, ut nec ob loquacitatem videar nullam tuorum sanctissimorum negociorum habuisse rationem nec e contra propter silentium intempestivum et indecorum negligentiae aut contemptus merito debeam condemnari.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Verum ne diutius te detineam, occasionem mearum literarum brevibus accipe: Misit ad nos nuper <persName ref="person570">Ioannes Burcherus</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person570">Burcher</persName> scheint sich seit Herbst 1542 wegen Holzgeschäften in Zürich und Umland aufgehalten zu haben (vgl. HBBW XII, <ref target="file11734">Nr. 1689</ref> und 1704); ein gewisser Thomas [Rose?]ließ im November 1542 durch Myconius ebenfalls eine Zahlung an <persName ref="person570">Burcher</persName> durch Bullinger vermitteln (s. HBBW XII, <ref target="file11735">Nr. 1690</ref>).</note>, conterraneus noster, rogans,<pb type="edition" next="132"/> ut illi vir meus 30 florenos domum tuam<note xml:id="fnb" type="footnote" n="b">tuam <hi>über der Zeile nachgetragen.</hi></note> perferri curaret ibi tantisper asservandos, quoad iisdem opus haberet.</s>
+					<s n="8" xml:lang="la" type="auto">Verum ne diutius te detineam, occasionem mearum literarum brevibus accipe: Misit ad nos nuper <persName ref="p505">Ioannes Burcherus</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="p7419">Burcher</persName> scheint sich seit Herbst 1542 wegen Holzgeschäften in Zürich und Umland aufgehalten zu haben (vgl. <bibl>HBBW</bibl> XII, <ref target="file11734">Nr. 1689</ref> und 1704); ein gewisser Thomas [Rose?]ließ im November 1542 durch Myconius ebenfalls eine Zahlung an <persName ref="p7419">Burcher</persName> durch Bullinger vermitteln (s. <bibl>HBBW</bibl> XII, <ref target="file11735">Nr. 1690</ref>).</note>, conterraneus noster, rogans,<pb type="edition" next="132"/> ut illi vir meus 30 florenos domum tuam<note xml:id="fnb" type="footnote" n="b">tuam <hi>über der Zeile nachgetragen.</hi></note> perferri curaret ibi tantisper asservandos, quoad iisdem opus haberet.</s>
 					<s n="9" xml:lang="la" type="auto">Mittimus igitur tibi ex eius sententia una cum hoc epistolio coronatos 21, quos si tamdiu apud te servaveris, donec iuvenis repoposcerit, rem facies cum mihi gratam, tum illi utilissimam.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Salutabis praeterea (queso) meis verbis uxorem tuam<note xml:id="fn5" type="footnote" n="5">Anna, geb. Adlischwyler.</note> in domino charissimam, pro qua etiam xeniolum<note xml:id="fn6" type="footnote" n="6">Es ist unbekannt, um was für ein Geschenk es sich handelte.</note> recipies inclusum in amicitię signum<note xml:id="fnc" type="footnote" n="c"><hi>Von</hi> pro <hi>bis</hi> signum <hi>über der Zeile nachgetragen.</hi></note>.</s>
-					<s n="11" xml:lang="la" type="auto">Salutat te ex familia nostra famulus meus<note xml:id="fn7" type="footnote" n="7"><persName ref="person22377">Francis Warner</persName>.</note>, quamvis de facie ignotus, cuius opera ad has literas componendas sum usus.</s>
+					<s n="10" xml:lang="la" type="auto">Salutabis praeterea (queso) meis verbis uxorem tuam<note xml:id="fn5" type="footnote" n="5"><persName>Anna, geb. Adlischwyler</persName>.</note> in domino charissimam, pro qua etiam xeniolum<note xml:id="fn6" type="footnote" n="6">Es ist unbekannt, um was für ein Geschenk es sich handelte.</note> recipies inclusum in amicitię signum<note xml:id="fnc" type="footnote" n="c"><hi>Von</hi> pro <hi>bis</hi> signum <hi>über der Zeile nachgetragen.</hi></note>.</s>
+					<s n="11" xml:lang="la" type="auto">Salutat te ex familia nostra famulus meus<note xml:id="fn7" type="footnote" n="7"><persName>Francis Warner</persName>.</note>, quamvis de facie ignotus, cuius opera ad has literas componendas sum usus.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Tua in Christo soror <persName ref="person22213">Anna</persName></s>
+					<s n="13" xml:lang="la" type="auto">Tua in Christo soror <persName ref="p1413">Anna</persName></s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Hils, Angla.</s>
+					<s n="14" xml:lang="la" type="auto"><persName ref="p1413">Hils, Angla</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

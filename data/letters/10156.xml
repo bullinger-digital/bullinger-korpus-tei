@@ -6,47 +6,38 @@
 				<title subtype="file">Georg Distel / Zofingen AN Heinrich Bullinger, 21. August 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=125</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">186</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 360,259</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Dankt für die von Bullinger früher empfangenen Wohltaten. Berichtet über seine jetzige Lage in
-								<placeName ref="place1234">Zofingen</placeName>, wo er als Sprachlehrer tätig ist. Bullinger soll seiner
+								<placeName>Zofingen</placeName>, wo er als Sprachlehrer tätig ist. Bullinger soll seiner
 								gedenken. Grüße.
 							</p>
 						</summary>
@@ -54,24 +45,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 125, S.186</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10156">
 				<correspAction type="sent">
-					<persName ref="person756" cert="high">
+					<persName ref="p756" cert="high">
 						<!--
 						<surname cert="high">Distel</surname>
 						<forename cert="high">Georg</forename>
 						<persName type="main" ref="person8330>Distel, Georg</persName>
 						-->
 					</persName>
-					<placeName source="place582" cert="high"><orig>Zofingen</orig></placeName>
+					<placeName source="l582" cert="high"><orig>Zofingen</orig></placeName>
 					<date when="1532-08-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -101,7 +99,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -115,8 +113,8 @@
 					<s n="1" xml:lang="la" type="auto">Gracia tibi et pax a deo patre et domino Iesu Christo.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quod tam officiose me tuis literis erga <placeName ref="place121">Bernenses</placeName> ministros ac meiis comodis tantopere studuisti<note xml:id="fn2" type="footnote" n="2">Ein Brief Bullingers an die <placeName ref="place121">Berner</placeName> Prediger, in dem er sich für <persName ref="person48">Distel</persName> einsetzt, ist nicht erhalten.</note>, gracias habeo et habiturus immortales, Heinrice humanissime.</s>
-					<s n="3" xml:lang="la" type="auto">Tua in me multa, cum apud te <placeName ref="place178">Bremgarten</placeName> agerem<note xml:id="fn3" type="footnote" n="3">Wann und unter welchen Umständen <persName ref="person48">Distel</persName> im Hause Bullingers weilte, ist nicht bekannt.</note>, et maxima.</s>
+					<s n="2" xml:lang="la" type="auto">Quod tam officiose me tuis literis erga <placeName>Bernenses</placeName> ministros ac meiis comodis tantopere studuisti<note xml:id="fn2" type="footnote" n="2">Ein Brief Bullingers an die <placeName>Berner</placeName> Prediger, in dem er sich für <persName>Distel</persName> einsetzt, ist nicht erhalten.</note>, gracias habeo et habiturus immortales, Heinrice humanissime.</s>
+					<s n="3" xml:lang="la" type="auto">Tua in me multa, cum apud te <placeName>Bremgarten</placeName> agerem<note xml:id="fn3" type="footnote" n="3">Wann und unter welchen Umständen <persName>Distel</persName> im Hause Bullingers weilte, ist nicht bekannt.</note>, et maxima.</s>
 					<s n="4" xml:lang="la" type="auto">Quibus sacrarum literarum muneribus me non donasti?</s>
 					<s n="5" xml:lang="la" type="auto">Quibus me salibus inter ambulando non alloquutus?</s>
 					<s n="6" xml:lang="la" type="auto">Quibus me refectionibus in edibus tuis non saciasti?</s>
@@ -125,17 +123,17 @@
 					<s n="9" xml:lang="la" type="auto">Huiusmodi omnium nulla unquam deletura erit oblivio.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><pb type="edition" next="187"/>Item, ut eciam te de meo statu cerciorem reddam, me scias adhuc<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> aduc.</note> Zofigen inhabitare, iuventutem lingua vernacula ibidem instituere et aliquantisper evangelii ministris in oppido<note xml:id="fn4" type="footnote" n="4">In der Stadt <placeName ref="place1234">Zofingen</placeName>.</note> et circum me dei verbo, ut solitus tecum, inservire.</s>
+					<s n="10" xml:lang="la" type="auto"><pb type="edition" next="187"/>Item, ut eciam te de meo statu cerciorem reddam, me scias adhuc<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> aduc.</note> Zofigen inhabitare, iuventutem lingua vernacula ibidem instituere et aliquantisper evangelii ministris in oppido<note xml:id="fn4" type="footnote" n="4">In der Stadt <placeName>Zofingen</placeName>.</note> et circum me dei verbo, ut solitus tecum, inservire.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Uxor<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note> vero proxima partui, quatuor puelle, annona exigua<note xml:id="fn6" type="footnote" n="6">Über die spärlichen Einkünfte des Helfers von <placeName ref="place1234">Zofingen</placeName> vgl. Pfister 168.</note>, onus ad laborandum vel lucrandum quasi nullum.</s>
+					<s n="11" xml:lang="la" type="auto">Uxor<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note> vero proxima partui, quatuor puelle, annona exigua<note xml:id="fn6" type="footnote" n="6">Über die spärlichen Einkünfte des Helfers von <placeName>Zofingen</placeName> vgl. Pfister 168.</note>, onus ad laborandum vel lucrandum quasi nullum.</s>
 					<s n="12" xml:lang="la" type="auto">Tamen auxilium a domino et spes fortissima in deum, qua me et domum meam hactenus mirabiliter enutrivit.</s>
-					<s n="13" xml:lang="la" type="auto">Domini <placeName ref="place121">Bernenses</placeName><note xml:id="fn7" type="footnote" n="7">Der Rat.</note> me in Zofigen manere iusserunt ad expectandum<note xml:id="fn8" type="footnote" n="8">Vgl. die Bezeichnung «Exspectanten» für junge Geistliche, die auf eine Pfründe warten müssen.</note> etc.</s>
+					<s n="13" xml:lang="la" type="auto">Domini <placeName>Bernenses</placeName><note xml:id="fn7" type="footnote" n="7">Der Rat.</note> me in Zofigen manere iusserunt ad expectandum<note xml:id="fn8" type="footnote" n="8">Vgl. die Bezeichnung «Exspectanten» für junge Geistliche, die auf eine Pfründe warten müssen.</note> etc.</s>
 					<s n="14" xml:lang="la" type="auto">Quare multum t[uam] h[umanitatem] rogatam facio nostre mutue familiaritatis memor, uti non diffido te fore: Mihi et meiis in adiumento tanquam dei instrumentum esse, ubi comodum et faciendum, velis, iterum oro.</s>
-					<s n="15" xml:lang="la" type="auto">Quod autem me adhortatus es per certos nuncios, videlicet <persName ref="person1196">Sebastianum Oeconomum</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person1196">Sebastian Hofmeister</persName>, der Pfarrer von <placeName ref="place1234">Zofingen</placeName>.</note> et <persName ref="person2620">Iohannem Bryttnow</persName><note xml:id="fn10" type="footnote" n="10">Johannes zur Mühle, der 1528-1560 Pfarrer in <placeName ref="place184">Brittnau</placeName> (Kt. Aargau) war (s. Pfister 70).</note>, tuis expensis circa autumnum deo favente fiet, vel quo tempore me tuis literis expostules: Mox tuus Guͤtschenckel<note xml:id="fn11" type="footnote" n="11">Beiname eines bekannten Possenreißers (SI VIII 970).</note> et tue uxori Fenderli<note xml:id="fn12" type="footnote" n="12">Mensch, welcher herumreist, statt bei seiner Arbeit zu bleiben (SI I 832).</note> praesto ero.</s>
+					<s n="15" xml:lang="la" type="auto">Quod autem me adhortatus es per certos nuncios, videlicet <persName ref="p5261">Sebastianum Oeconomum</persName><note xml:id="fn9" type="footnote" n="9"><persName>Sebastian Hofmeister</persName>, der Pfarrer von <placeName>Zofingen</placeName>.</note> et <persName ref="p18054">Iohannem Bryttnow</persName><note xml:id="fn10" type="footnote" n="10">Johannes zur Mühle, der 1528-1560 Pfarrer in <placeName>Brittnau</placeName> (Kt. Aargau) war (s. Pfister 70).</note>, tuis expensis circa autumnum deo favente fiet, vel quo tempore me tuis literis expostules: Mox tuus Guͤtschenckel<note xml:id="fn11" type="footnote" n="11">Beiname eines bekannten Possenreißers (<bibl>SI</bibl> VIII 970).</note> et tue uxori Fenderli<note xml:id="fn12" type="footnote" n="12">Mensch, welcher herumreist, statt bei seiner Arbeit zu bleiben (<bibl>SI</bibl> I 832).</note> praesto ero.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Ceterum est, ut salvere iubeas, flagito tuam dilectissimam Pęnolopen<note xml:id="fn13" type="footnote" n="13">Penelope, die treue Gattin des Odysseus. Gemeint ist <persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note> [!] ac Syrenem<note xml:id="fn14" type="footnote" n="14">Der Vergleich mit einer Sirene ist etwas befremdlich. Der Briefschreiber will wohl das anziehende Wesen von Bullingers Frau loben.</note>, parentem illum Griseum<note xml:id="fn15" type="footnote" n="15">Greis, wohl aus dem Mundartlichen latinisiert (SI II 800); zweifellos ist Bullingers Vater gemeint; vgl. die folgenden Attribute, die auf dessen Jagdleidenschaft hinweisen, s. <hi>Pestalozzi</hi> 6.</note>, <foreign xml:lang="de">den wyldpret verjäger, den vogel schöcher<note xml:id="fn16" type="footnote" n="16">der die Vögel scheu macht, der den Vögeln nachstellt (vgl. SI VIII 111).</note>, den visch verderber<note xml:id="fn17" type="footnote" n="17">der die Fische tötet (vgl. SI XIII 1421 und 1431f).</note>,</foreign> et episcopum Iohannem<note xml:id="fn18" type="footnote" n="18"><persName ref="person562">Johannes Bullinger</persName>, Heinrichs älterer Bruder. Demnach wäre er (entgegen <hi>Egli,</hi> Analecta II 165 und HBBW I <ref target="file10042">[Nr. 17]</ref> 114, Anm. 17) schon vor November 1532 als Pfarrer in <placeName ref="place831">Ottenbach</placeName> im Reußtal tätig gewesen. Dies stünde im Einklang mit der Angabe in Verzeichnis 1 101, er sei im Januar 1532 dorthin gekommen. Die Absetzung des früheren Pfarrers <persName ref="person1086">Joseph Haas</persName> durch den Rat am 6. November 1532 (AZürcherRef 1903) wäre dann nur als nachträgliche, offizielle Bestätigung eines bereits bestehenden Zustandes zu verstehen (s. auch oben S. 47,46).</note> fratrem tuum de valle lacrimarum<note xml:id="fn19" type="footnote" n="19">Vielleicht eine Anspielung auf die Schwierigkeiten in <placeName ref="place831">Ottenbach</placeName>.</note> von <placeName ref="place831">Ottenbach</placeName>, dilectissimam ac suavissimam matrem tuam<note xml:id="fn20" type="footnote" n="20"><persName ref="person32">Anna Bullinger</persName>, geb. Wiederkehr.</note>, dominum <persName ref="person204">Wernherum Steyner</persName><note xml:id="fn21" type="footnote" n="21">Möglicherweise lernten sich <persName ref="person711">Distel</persName> und <persName ref="person204">Steiner</persName> im Hause Bullingers kennen, den <persName ref="person204">Steiner</persName> wiederholt besuchte (s. HBBW I <ref target="file10016">[Nr. 1]</ref> 45, Anm. 1).</note>, prothonotarium civitatis, <persName ref="person914">Iacobum Funck</persName><note xml:id="fn22" type="footnote" n="22"><persName ref="person914">Jakob II. Funk</persName>, gest. 1564, gehörte zur berühmten Glasmalerfamilie. Jacob war der Bruder von Hans (s. HBBW I <ref target="file10080">[Nr. 52]</ref> 242, Anm. 2). <persName ref="person914">Jakob Funks</persName> erste Frau, Magdalena Lüscher, stammte aus <placeName ref="place1234">Zofingen</placeName>. In welchem Verhältnis <persName ref="person914">Funk</persName> zu Bullinger stand, konnte nicht geklärt werden. - Lit.: <hi>Jacob</hi> 159-164 (über Hans und <persName ref="person916">Ulrich Funk</persName>); SKL I 533.</note>, denique totam familiam tuam.</s>
+					<s n="16" xml:lang="la" type="auto">Ceterum est, ut salvere iubeas, flagito tuam dilectissimam Pęnolopen<note xml:id="fn13" type="footnote" n="13">Penelope, die treue Gattin des Odysseus. Gemeint ist <persName>Anna Bullinger, geb. Adlischwyler</persName>.</note> [!] ac Syrenem<note xml:id="fn14" type="footnote" n="14">Der Vergleich mit einer Sirene ist etwas befremdlich. Der Briefschreiber will wohl das anziehende Wesen von Bullingers Frau loben.</note>, parentem illum Griseum<note xml:id="fn15" type="footnote" n="15">Greis, wohl aus dem Mundartlichen latinisiert (<bibl>SI</bibl> II 800); zweifellos ist Bullingers Vater gemeint; vgl. die folgenden Attribute, die auf dessen Jagdleidenschaft hinweisen, s. <bibl>Pestalozzi</bibl> 6.</note>, <foreign xml:lang="de">den wyldpret verjäger, den vogel schöcher<note xml:id="fn16" type="footnote" n="16">der die Vögel scheu macht, der den Vögeln nachstellt (vgl. <bibl>SI</bibl> VIII 111).</note>, den visch verderber<note xml:id="fn17" type="footnote" n="17">der die Fische tötet (vgl. <bibl>SI</bibl> XIII 1421 und 1431f).</note>,</foreign> et episcopum Iohannem<note xml:id="fn18" type="footnote" n="18"><persName>Johannes Bullinger</persName>, Heinrichs älterer Bruder. Demnach wäre er (entgegen <hi>Egli,</hi> Analecta II 165 und <bibl>HBBW I</bibl> <ref target="file10042">[Nr. 17]</ref> 114, Anm. 17) schon vor November 1532 als Pfarrer in <placeName>Ottenbach</placeName> im Reußtal tätig gewesen. Dies stünde im Einklang mit der Angabe in Verzeichnis 1 101, er sei im Januar 1532 dorthin gekommen. Die Absetzung des früheren Pfarrers <persName>Joseph Haas</persName> durch den Rat am 6. November 1532 (<bibl>AZürcherRef</bibl> 1903) wäre dann nur als nachträgliche, offizielle Bestätigung eines bereits bestehenden Zustandes zu verstehen (s. auch oben S. 47,46).</note> fratrem tuum de valle lacrimarum<note xml:id="fn19" type="footnote" n="19">Vielleicht eine Anspielung auf die Schwierigkeiten in <placeName>Ottenbach</placeName>.</note> von <placeName>Ottenbach</placeName>, dilectissimam ac suavissimam matrem tuam<note xml:id="fn20" type="footnote" n="20"><persName>Anna Bullinger, geb. Wiederkehr</persName>.</note>, dominum <persName ref="p8447">Wernherum Steyner</persName><note xml:id="fn21" type="footnote" n="21">Möglicherweise lernten sich <persName>Distel</persName> und <persName>Steiner</persName> im Hause Bullingers kennen, den <persName>Steiner</persName> wiederholt besuchte (s. <bibl>HBBW I</bibl> <ref target="file10016">[Nr. 1]</ref> 45, Anm. 1).</note>, prothonotarium civitatis, <persName>Iacobum Funck</persName><note xml:id="fn22" type="footnote" n="22"><persName>Jakob II. Funk</persName>, gest. 1564, gehörte zur berühmten Glasmalerfamilie. Jacob war der Bruder von Hans (s. <bibl>HBBW I</bibl> <ref target="file10080">[Nr. 52]</ref> 242, Anm. 2). <persName>Jakob Funks</persName> erste Frau, Magdalena Lüscher, stammte aus <placeName>Zofingen</placeName>. In welchem Verhältnis <persName>Funk</persName> zu Bullinger stand, konnte nicht geklärt werden. - Lit.: <hi>Jacob</hi> 159-164 (über Hans und <persName>Ulrich Funk</persName>); <bibl>SKL</bibl> I 533.</note>, denique totam familiam tuam.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Vale incolumis et me commendatum habe.</s>
@@ -148,7 +146,7 @@
 					<s n="20" xml:lang="la" type="auto">Tuus humilis</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto">Georius [!] Cardelius<note xml:id="fn23" type="footnote" n="23">Nach dem Wort carduelis bzw. cardelis = Distelfink gebildete Latinisierung des Familiennamens <persName ref="person48">Distel</persName> oder Disteli (vgl. Georges I 998).</note> Eripolitanus<note xml:id="fn24" type="footnote" n="24">Die dem Ton des Briefendes entsprechend wohl scherzhaft gemeinte Gräzisierung der Herkunftsbezeichnung läßt sich nicht mit Sicherheit auflösen. Vielleicht könnte das solothurnische <placeName ref="place571">Kriegstetten</placeName> gemeint sein.</note>.</s>
+					<s n="21" xml:lang="la" type="auto">Georius [!] Cardelius<note xml:id="fn23" type="footnote" n="23">Nach dem Wort carduelis bzw. cardelis = Distelfink gebildete Latinisierung des Familiennamens <persName>Distel</persName> oder Disteli (vgl. <bibl>Georges</bibl> I 998).</note> Eripolitanus<note xml:id="fn24" type="footnote" n="24">Die dem Ton des Briefendes entsprechend wohl scherzhaft gemeinte Gräzisierung der Herkunftsbezeichnung läßt sich nicht mit Sicherheit auflösen. Vielleicht könnte das solothurnische <placeName>Kriegstetten</placeName> gemeint sein.</note>.</s>
 				</p>
 				<p>
 					<s n="22" xml:lang="la" type="auto">Sepe ad me scribe, ut ansam scribendi ad te habeam.</s>

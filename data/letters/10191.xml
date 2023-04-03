@@ -6,48 +6,39 @@
 				<title subtype="file">Petrus Dasypodius / Frauenfeld AN Heinrich Bullinger, 13. Dezember 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=160</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">281</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 358,96</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Ist mit dem Zürcher Landvogt im <placeName ref="place87">Thurgau</placeName>
-								[<persName ref="person53">Hans Edlibach</persName>] zusammengekommen und hat mit ihm über Bullinger
-								gesprochen. Empfiehlt diesem, im Interesse der evangelischen Sache bei Gelegenheit mit <persName ref="person53">Edlibach</persName> persönlich
+								Ist mit dem Zürcher Landvogt im <placeName>Thurgau</placeName>
+								[<persName ref="p1041">Hans Edlibach</persName>] zusammengekommen und hat mit ihm über Bullinger
+								gesprochen. Empfiehlt diesem, im Interesse der evangelischen Sache bei Gelegenheit mit <persName ref="p1041">Edlibach</persName> persönlich
 								in Verbindung zu treten.
 							</p>
 						</summary>
@@ -60,6 +51,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Büeler 33</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 160, S.281</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -68,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10191">
 				<correspAction type="sent">
-					<persName ref="person771" cert="high">
+					<persName ref="p771" cert="high">
 						<!--
 						<surname cert="high">Dasypodius</surname>
 						<forename cert="high">Petrus</forename>
@@ -79,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11421746"/>
 						-->
 					</persName>
-					<placeName source="place159" cert="high"><orig>Frauenfeld</orig></placeName>
+					<placeName source="l159" cert="high"><orig>Frauenfeld</orig></placeName>
 					<date when="1532-12-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -126,12 +120,12 @@
 					<s n="1" xml:lang="la" type="auto">Salutem et conscientię pacem per Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Cum nuper ad colloquium me pręfectus<note xml:id="fn1" type="footnote" n="1">Landvogt im <placeName ref="place87">Thurgau</placeName> war zu jener Zeit <persName ref="person53">Hans Edlibach</persName>, s. oben <ref target="file10147">[Nr. 117]</ref> S. 170, Anm. 3.</note> admisisset, accidit, ut dum ultro citroque<note xml:id="fn2" type="footnote" n="2">Vgl. Adagia, 1,3,84 (LB II 142 F-143 A); Otto 354, Nr. 1814.</note> familiarius quędam inter nos iactarentur, in tui quoque mentionem inciderimus.</s>
+					<s n="2" xml:lang="la" type="auto">Cum nuper ad colloquium me pręfectus<note xml:id="fn1" type="footnote" n="1">Landvogt im <placeName>Thurgau</placeName> war zu jener Zeit <persName ref="p5061">Hans Edlibach</persName>, s. oben <ref target="file10147">[Nr. 117]</ref> S. 170, Anm. 3.</note> admisisset, accidit, ut dum ultro citroque<note xml:id="fn2" type="footnote" n="2">Vgl. Adagia, 1,3,84 (<bibl>LB</bibl> II 142 F-143 A); Otto 354, Nr. 1814.</note> familiarius quędam inter nos iactarentur, in tui quoque mentionem inciderimus.</s>
 					<s n="3" xml:lang="la" type="auto">Ibi post multa dixit ille congressum tuum non mediocriter se iam pridem expetivisse, sed nescio quo genio deterritum fuisse hactenus.</s>
 					<s n="4" xml:lang="la" type="auto">Tum ego: «Atqui nihil est, quod te prohiberi a Bullingeri colloquio debeat amplius, si cupis.</s>
 					<s n="5" xml:lang="la" type="auto">Facilem et paratum quovis cum loco tum tempore scio illum se tibi prębiturum esse».</s>
 					<s n="6" xml:lang="la" type="auto">- «Non dubito», inquit, «sed nolo impudenter illi me ingerere, si desit iusta occasio».</s>
-					<s n="7" xml:lang="la" type="auto">- Quod cum ille serio prę se ferret, non abs re facturum esse putavi me, si te huius rei submonerem clanculum, ita ut quam primum audires illum Tiguri esse, non expectando illius occasionem, quam forsan observat, quemadmodum lunam Accessęus<note xml:id="fn3" type="footnote" n="3">Die Redensart gilt Zauderern, die immer glauben, die günstigste Gelegenheit abwarten zu müssen, s. Adagia, 1,5,85 (LB II 214 D).</note> ille, qui locum fecit adagio, prior hominem compellares atque quomodocumque iniecto sermone de singulis paulatim rebus ad negotium evangelicum pertinentibus exacte cum illo colloquereris, constanter tamen interim dissimulando me instigatore hoc fieri.</s>
+					<s n="7" xml:lang="la" type="auto">- Quod cum ille serio prę se ferret, non abs re facturum esse putavi me, si te huius rei submonerem clanculum, ita ut quam primum audires illum Tiguri esse, non expectando illius occasionem, quam forsan observat, quemadmodum lunam Accessęus<note xml:id="fn3" type="footnote" n="3">Die Redensart gilt Zauderern, die immer glauben, die günstigste Gelegenheit abwarten zu müssen, s. <bibl>Adagia</bibl>, 1,5,85 (<bibl>LB</bibl> II 214 D).</note> ille, qui locum fecit adagio, prior hominem compellares atque quomodocumque iniecto sermone de singulis paulatim rebus ad negotium evangelicum pertinentibus exacte cum illo colloquereris, constanter tamen interim dissimulando me instigatore hoc fieri.</s>
 					<s n="8" xml:lang="la" type="auto">Protinus ille, qua est facilitate dicam an imprudentia nescio, sese tibi aperiet.</s>
 				</p>
 				<p>
@@ -145,7 +139,7 @@
 					<s n="12" xml:lang="la" type="auto">Frowenfeldię, idibus decembris anno 1532.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><persName ref="person47">Petrus Dasypodius</persName> tuus.</s>
+					<s n="13" xml:lang="la" type="auto"><persName ref="p8320">Petrus Dasypodius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

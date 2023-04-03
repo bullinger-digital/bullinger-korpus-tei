@@ -6,47 +6,38 @@
 				<title subtype="file">Matthias Hirsgarter, Heinrich Lüthi / Winterthur AN s.n. / [Zürich], 8. März 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=761</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">163</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,67</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Wie verlangt, stellen sie <persName ref="person208">Heinrich Stoll</persName> ein Zeugnis aus; dieser,
-								seit drei Jahren in <placeName ref="place1202">Winterthur</placeName> ansässig, ist ein ehrbarer,
+								Wie verlangt, stellen sie <persName ref="p8448">Heinrich Stoll</persName> ein Zeugnis aus; dieser,
+								seit drei Jahren in <placeName>Winterthur</placeName> ansässig, ist ein ehrbarer,
 								frommer und bildungsbeflissener Mann.
 							</p>
 						</summary>
@@ -55,32 +46,39 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 761, S.163</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10799">
 				<correspAction type="sent">
-					<persName ref="person1551" cert="high">
+					<persName ref="p1551" cert="high">
 						<!--
 						<surname cert="high">Hirsgarter</surname>
 						<forename cert="high">Matthias</forename>
 						<persName type="main" ref="person8380>Hirsgarter, Matthias</persName>
 						-->
 					</persName>
-					<persName ref="person1868" cert="high">
+					<persName ref="p1868" cert="high">
 						<!--
 						<surname cert="high">Lüthi</surname>
 						<forename cert="high">Heinrich</forename>
 						<persName type="main" ref="person8407>Lüthi, Heinrich</persName>
 						-->
 					</persName>
-					<placeName source="place555" cert="low"><orig>Winterthur</orig></placeName>
+					<placeName source="l555" cert="low"><orig>Winterthur</orig></placeName>
 					<date when="1536-03-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role22" type="pl" role="Examinatoren" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<roleName ref="g22" type="pl" role="Examinatoren" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10800"/>
@@ -96,7 +94,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -110,15 +108,15 @@
 					<s n="1" xml:lang="de" type="auto">Gnad und frid von got etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Fromm, eersam, wyß, günstige, lieb heren, diewyl der heilig Paulus gar ernstlich anzeigt, wie der sol sin, der zuͦ eim pfarer erweit sol werden, daruss in eim eersamen synodo ouch nach der selbigen leer Pauli beschlossen ist und von unsren gnädigen heren bestättet<note xml:id="fn3" type="footnote" n="3">Vgl. die Beschreibung der Anforderungen an den Pfarrer in der vom Grossen Rat am 22. Okt. 1532 erlassenen Prädikanten- und Synodalordnung (AZürcherRef 1899, S. 829-833), wo auf Stellen wie 1Tim 3, 1-12 und Tit 1, 5-9 Bezug genommen wird.</note>, das keiner sol angnommen werden zuͦ einem predicanten, er hab dan vorhin gnuͦgsame anzeigung sines wandels<note xml:id="fn4" type="footnote" n="4">seines sittlichen Verhaltens (Grimm XIII 1534f).</note> und läbens, das er eerlich<note xml:id="fn5" type="footnote" n="5">anständig (SI I 393f).</note> geläbt hab<note xml:id="fn6" type="footnote" n="6">Zum Wahlverfahren, das die Überprüfung des Lebenswandels eines Kandidaten durch die Examinatoren verlangte, s. AZürcherRef 1899, S. 827f.</note>.</s>
-					<s n="3" xml:lang="de" type="auto">Heruff ist an uns angelangt von her <persName ref="person208">Heinrich Stoll</persName> (der ein her und apt zuͦ <placeName ref="place354">Fischingen</placeName> ist gsin, jetz uff drü jar by uns gewont ze <placeName ref="place1202">Winterthur</placeName>), das wir im (als vil uns ze wüssen sye und mit der warheit könnind von im reden) zügnuss gebind.</s>
+					<s n="2" xml:lang="de" type="auto">Fromm, eersam, wyß, günstige, lieb heren, diewyl der heilig Paulus gar ernstlich anzeigt, wie der sol sin, der zuͦ eim pfarer erweit sol werden, daruss in eim eersamen synodo ouch nach der selbigen leer Pauli beschlossen ist und von unsren gnädigen heren bestättet<note xml:id="fn3" type="footnote" n="3">Vgl. die Beschreibung der Anforderungen an den Pfarrer in der vom Grossen Rat am 22. Okt. 1532 erlassenen Prädikanten- und Synodalordnung (<bibl>AZürcherRef</bibl> 1899, S. 829-833), wo auf Stellen wie 1Tim 3, 1-12 und Tit 1, 5-9 Bezug genommen wird.</note>, das keiner sol angnommen werden zuͦ einem predicanten, er hab dan vorhin gnuͦgsame anzeigung sines wandels<note xml:id="fn4" type="footnote" n="4">seines sittlichen Verhaltens (<bibl>Grimm</bibl> XIII 1534f).</note> und läbens, das er eerlich<note xml:id="fn5" type="footnote" n="5">anständig (<bibl>SI</bibl> I 393f).</note> geläbt hab<note xml:id="fn6" type="footnote" n="6">Zum Wahlverfahren, das die Überprüfung des Lebenswandels eines Kandidaten durch die Examinatoren verlangte, s. <bibl>AZürcherRef</bibl> 1899, S. 827f.</note>.</s>
+					<s n="3" xml:lang="de" type="auto">Heruff ist an uns angelangt von her <persName ref="p8448">Heinrich Stoll</persName> (der ein her und apt zuͦ <placeName>Fischingen</placeName> ist gsin, jetz uff drü jar by uns gewont ze <placeName>Winterthur</placeName>), das wir im (als vil uns ze wüssen sye und mit der warheit könnind von im reden) zügnuss gebind.</s>
 					<s n="4" xml:lang="de" type="auto">Hierumm tringt uns bruͤderliche liebe, ouch die warheit, im sines wandels zügnuss ze gen, wo<note xml:id="fn7" type="footnote" n="7">falls.</note> er hernach erfordret wurd zuͦ einem diener göttliches worts, das man wüss, wass sin thuͦn und lan<note xml:id="fn8" type="footnote" n="8">lassen.</note> sye gsin.</s>
-					<s n="5" xml:lang="de" type="auto">Und gebend im also zügnuss: Als lang er by uns ist zuͦ <placeName ref="place1202">Winterthur</placeName> gsin, ist er gantz fridlich, züchtig, eins eerbren<note xml:id="fn9" type="footnote" n="9">ehrbaren.</note> wandels gsin, wol gehaltten uff got und sinem wortt, sich ernstlich gflyssen, an<note xml:id="fn10" type="footnote" n="10">ohne.</note> underlass gottes wortt zefürdren, ja gottes wort alle tag zehören, ja ouch ernstlich geläsen etc.</s>
+					<s n="5" xml:lang="de" type="auto">Und gebend im also zügnuss: Als lang er by uns ist zuͦ <placeName>Winterthur</placeName> gsin, ist er gantz fridlich, züchtig, eins eerbren<note xml:id="fn9" type="footnote" n="9">ehrbaren.</note> wandels gsin, wol gehaltten uff got und sinem wortt, sich ernstlich gflyssen, an<note xml:id="fn10" type="footnote" n="10">ohne.</note> underlass gottes wortt zefürdren, ja gottes wort alle tag zehören, ja ouch ernstlich geläsen etc.</s>
 					<s n="6" xml:lang="de" type="auto">In summa, als vil uns zewüssen ist mit guͦtter conscientz, wüssend wir an im nüt zescheltten an sinem thuͦn und lassen, das einem hirtten nit wol anstand,<pb type="edition" next="164"/> ist ouch nit wyt schweiff<note xml:id="fn11" type="footnote" n="11">er treibt sich auch nicht herum.</note>, hatt kein böß oder uneerlich gselschafften.</s>
 					<s n="7" xml:lang="de" type="auto">Das ist uffs kürtzest die zügnuss, die wir im gend.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto">Mathias Hirsgartter, Heinricus Lüty, diener des worts zuͦ <placeName ref="place1202">Winterthur</placeName>.</s>
+					<s n="8" xml:lang="de" type="auto">Mathias Hirsgartter, Heinricus Lüty, diener des worts zuͦ <placeName>Winterthur</placeName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

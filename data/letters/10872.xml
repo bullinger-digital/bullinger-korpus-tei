@@ -6,40 +6,31 @@
 				<title subtype="file">Peter Schnyder / Laufen AN Heinrich Bullinger, 31. Mai 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=833</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">308</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,300</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,37 +38,44 @@
 							<p xml:id="regest1">
 								Im Hinblick auf den Rechtstag, der ihm auf den 12. Juni gesetzt wurde, braucht er Bullingers Unterstützung,
 								da ihn Hans Wilhelm [von
-								<persName ref="person901">Fulach</persName>] in Zürich verleumdet hat; der Rat sollte bedenken, daß
-								<persName ref="person194">Schnyder</persName> nur seine Amtspflicht erfüllt hat.
-								<persName ref="person176">Erasmus [Ritter]</persName> und
-								<persName ref="person36">Benedikt [Burgauer]</persName> sind auf [3.
-								Juni] vor den Schaffhauser Großen Rat geladen. In <placeName ref="place943">Schaffhausen</placeName>
+								<persName ref="p7484">Fulach</persName>] in Zürich verleumdet hat; der Rat sollte bedenken, daß
+								<persName ref="p8014">Schnyder</persName> nur seine Amtspflicht erfüllt hat.
+								<persName ref="p2810">Erasmus [Ritter]</persName> und
+								<persName ref="p264">Benedikt [Burgauer]</persName> sind auf [3.
+								Juni] vor den Schaffhauser Großen Rat geladen. In <placeName>Schaffhausen</placeName>
 								werden, ohne Rücksicht auf obrigkeitliche Gebote, Söldner für
-								<placeName ref="place11">Frankreich</placeName> geworben.
+								<placeName>Frankreich</placeName> geworben.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 833, S.308</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10872">
 				<correspAction type="sent">
-					<persName ref="person2841" cert="high">
+					<persName ref="p2841" cert="high">
 						<!--
 						<surname cert="high">Schnyder</surname>
 						<forename cert="high">Peter</forename>
 						<persName type="main" ref="person8014>Schnyder, Peter</persName>
 						-->
 					</persName>
-					<placeName source="place278" cert="high"><orig>Laufen</orig></placeName>
+					<placeName source="l278" cert="high"><orig>Laufen</orig></placeName>
 					<date when="1536-05-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,25 +123,25 @@
 					<s n="1" xml:lang="de" type="auto">Gnad unnd frid verlich unns der allmechtig gott durch Iesum Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Lieber herr unnd trewer bruoder, euch sey zewuissen, das mir tagsatzung komen<note xml:id="fn2" type="footnote" n="2">mir wurde ein Rechtstag angesetzt (SI VII 1564. 1598f).</note>, anlain von juncker Hans Wilhalmen<note xml:id="fn3" type="footnote" n="3"><persName ref="person901">Hans Wilhelm von Fulach</persName>.</note> wegen, uff 12. tag junii.</s>
-					<s n="3" xml:lang="de" type="auto">Deßhalben vermanen unnd bitten ich euch als minen trewen bruoder unnd lieben herren, ir wellind mich euch lassen befolet sin, wie ir dann miner dingen juncker Hans Wilhalmen yetzmal<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> yetzmal <hi>gestrichenes</hi> be.</note> betreffend bericht sind<note xml:id="fn4" type="footnote" n="4">unterrichtet seid (SI VI 441). -Zur Sache s. oben <ref target="file10780">Nr. 742</ref> und 792.</note>, dann er sampt sinem bystand unnd anhang mir dermassen in dem Zurich die schällen geschlagen<note xml:id="fn5" type="footnote" n="5">mich schlecht gemacht (SI VIII 561 und Grimm VIII 2493f).</note>, das ich götlicher hilff unnd trewer bruöderen ratt<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> ratt <hi>gestrichenes</hi> hilff unnd.</note> wuol bedarff.</s>
+					<s n="2" xml:lang="de" type="auto">Lieber herr unnd trewer bruoder, euch sey zewuissen, das mir tagsatzung komen<note xml:id="fn2" type="footnote" n="2">mir wurde ein Rechtstag angesetzt (<bibl>SI</bibl> VII 1564. 1598f).</note>, anlain von juncker Hans Wilhalmen<note xml:id="fn3" type="footnote" n="3"><persName>Hans Wilhelm von Fulach</persName>.</note> wegen, uff 12. tag junii.</s>
+					<s n="3" xml:lang="de" type="auto">Deßhalben vermanen unnd bitten ich euch als minen trewen bruoder unnd lieben herren, ir wellind mich euch lassen befolet sin, wie ir dann miner dingen juncker Hans Wilhalmen yetzmal<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> yetzmal <hi>gestrichenes</hi> be.</note> betreffend bericht sind<note xml:id="fn4" type="footnote" n="4">unterrichtet seid (<bibl>SI</bibl> VI 441). -Zur Sache s. oben <ref target="file10780">Nr. 742</ref> und 792.</note>, dann er sampt sinem bystand unnd anhang mir dermassen in dem Zurich die schällen geschlagen<note xml:id="fn5" type="footnote" n="5">mich schlecht gemacht (<bibl>SI</bibl> VIII 561 und <bibl>Grimm</bibl> VIII 2493f).</note>, das ich götlicher hilff unnd trewer bruöderen ratt<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> ratt <hi>gestrichenes</hi> hilff unnd.</note> wuol bedarff.</s>
 					<s n="4" xml:lang="de" type="auto">Bin aber der guoten hoffnung, der guötig gott werd min unschuld in dem weg ansähen und mich nit ze spott unnd schanden<note xml:id="fn6" type="footnote" n="6">Vgl. z. B. Jes 41, 11.</note> richten by minem ampt.</s>
-					<s n="5" xml:lang="de" type="auto">Min herren werdind ouch betrachten<note xml:id="fn7" type="footnote" n="7">berücksichtigen (vgl. SI XIV 308f).</note>, was ich doch eren, eyds unnd ampts halben ze thuon schuldig gewesen sey etc.</s>
+					<s n="5" xml:lang="de" type="auto">Min herren werdind ouch betrachten<note xml:id="fn7" type="footnote" n="7">berücksichtigen (vgl. <bibl>SI</bibl> XIV 308f).</note>, was ich doch eren, eyds unnd ampts halben ze thuon schuldig gewesen sey etc.</s>
 					<s n="6" xml:lang="de" type="auto">Bitten euch dabey, ir wellind den herren gott trulich fur mich bitten, <foreign xml:lang="la">ut det michi os et sapientiam, cui non valeant eciam inferorum porte obsistere etc<note xml:id="fn8" type="footnote" n="8">Vgl. Mt 16, 18.</note></foreign>.; der bewar unns mit sinem halgen gayst zuo aller zitt.</s>
 					<s n="7" xml:lang="de" type="auto">Amen.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto"><pb type="edition" next="309"/><persName ref="person176">Erasmo</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person176">Erasmus Ritter</persName>.</note> unnd <persName ref="person36">Benedicto</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="person36">Benedikt Burgauer</persName>.</note> ist furtaget<note xml:id="fn11" type="footnote" n="11">Termin gegeben (SI XII 1076f).</note> von ir sach wegen yetz uff sampstag zuo Schaf[husen] fur rätt unnd burger<note xml:id="fn12" type="footnote" n="12">Zum Streit der Schaffhauser Pfarrer, der an diesem Samstag, dem 3. Juni 1536, vom Großen Rat mit der Entlassung der beiden beendet wurde, vgl. <hi>Wipf</hi> 303- 310.</note>.</s>
+					<s n="8" xml:lang="de" type="auto"><pb type="edition" next="309"/><persName ref="p2810">Erasmo</persName><note xml:id="fn9" type="footnote" n="9"><persName>Erasmus Ritter</persName>.</note> unnd <persName ref="p264">Benedicto</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="p4082">Benedikt Burgauer</persName>.</note> ist furtaget<note xml:id="fn11" type="footnote" n="11">Termin gegeben (<bibl>SI</bibl> XII 1076f).</note> von ir sach wegen yetz uff sampstag zuo Schaf[husen] fur rätt unnd burger<note xml:id="fn12" type="footnote" n="12">Zum Streit der Schaffhauser Pfarrer, der an diesem Samstag, dem 3. Juni 1536, vom Großen Rat mit der Entlassung der beiden beendet wurde, vgl. <hi>Wipf</hi> 303- 310.</note>.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Ceterum, mi frater, omnis populus Schaff[husianus] tam in urbe quam in agro venalis est et ad militiam paratus, et nemo cogitat obedientiam iuratam, omnes nihi[li]pendunt[?] magistratus decreta, uxores una cum liberis defflent parentum recessum<note xml:id="fn13" type="footnote" n="13">Die Schaffhauser Hauptleute <persName ref="person1940">Kaspar Ringk</persName> und <persName ref="person2200">Thomas Spiegelberg</persName> hatten dem französischen Gesandten am 27. Mai vertraglich zugesichert, bis zum 1. Juni je 500 Söldner anzuwerben (vgl. oben <ref target="file10871">Nr. 832</ref>, bes. Anm. 2). Sie wurden dafür in der Folge vom Rat gebüßt (vgl. Rüeger II 954, Anm. 2).</note>.</s>
-					<s n="10" xml:lang="de" type="auto">Das hatt der Frantzsos<note xml:id="fn14" type="footnote" n="14">Der französische Gesandte Louis Daugerant de <persName ref="person487">Boisrigaut</persName>, der im Mai im benachbarten <placeName ref="place87">Thurgau</placeName> Söldner anwarb (vgl. EA IV/1c 694 a), hielt sich wohl auch in <placeName ref="place943">Schaffhausen</placeName> auf; denn Vogt <persName ref="person2110">Cornel Schultheiß</persName> in <placeName ref="place530">Kaiserstuhl</placeName> berichtete Bürgermeister <persName ref="person180">Röist</persName> am 24. Mai 1536 heimlich, die französische Botschaft, die sich einige Zeit in <placeName ref="place943">Schaffhausen</placeName> aufgehalten habe, sei zum Frühstück in <placeName ref="place530">Kaiserstuhl</placeName> angekommen (Zürich StA, A 166. 2).</note> außgebruotet die zitt, wie er zuo Schaff[husen] gelegen.</s>
+					<s n="9" xml:lang="la" type="auto">Ceterum, mi frater, omnis populus Schaff[husianus] tam in urbe quam in agro venalis est et ad militiam paratus, et nemo cogitat obedientiam iuratam, omnes nihi[li]pendunt[?] magistratus decreta, uxores una cum liberis defflent parentum recessum<note xml:id="fn13" type="footnote" n="13">Die Schaffhauser Hauptleute <persName>Kaspar Ringk</persName> und <persName>Thomas Spiegelberg</persName> hatten dem französischen Gesandten am 27. Mai vertraglich zugesichert, bis zum 1. Juni je 500 Söldner anzuwerben (vgl. oben <ref target="file10871">Nr. 832</ref>, bes. Anm. 2). Sie wurden dafür in der Folge vom Rat gebüßt (vgl. Rüeger II 954, Anm. 2).</note>.</s>
+					<s n="10" xml:lang="de" type="auto">Das hatt der Frantzsos<note xml:id="fn14" type="footnote" n="14">Der französische Gesandte Louis Daugerant de <persName>Boisrigaut</persName>, der im Mai im benachbarten <placeName>Thurgau</placeName> Söldner anwarb (vgl. <bibl>EA</bibl> IV/1c 694 a), hielt sich wohl auch in <placeName>Schaffhausen</placeName> auf; denn Vogt <persName>Cornel Schultheiß</persName> in <placeName>Kaiserstuhl</placeName> berichtete Bürgermeister <persName>Röist</persName> am 24. Mai 1536 heimlich, die französische Botschaft, die sich einige Zeit in <placeName>Schaffhausen</placeName> aufgehalten habe, sei zum Frühstück in <placeName>Kaiserstuhl</placeName> angekommen (Zürich StA, A 166. 2).</note> außgebruotet die zitt, wie er zuo Schaff[husen] gelegen.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="de" type="auto">Datum 31. mai, Luoffen.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="de" type="auto"><persName ref="person194">Petrus Schnider</persName>, ewer trewer bruoder.</s>
+					<s n="12" xml:lang="de" type="auto"><persName ref="p8014">Petrus Schnider</persName>, ewer trewer bruoder.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

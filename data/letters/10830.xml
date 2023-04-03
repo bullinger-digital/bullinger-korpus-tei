@@ -6,78 +6,76 @@
 				<title subtype="file">Hans Maler, Kirchgemeinde / Frauenfeld AN Heinrich Bullinger, 14. April 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=791</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">223</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,79</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Da ihr Pfarrer <persName ref="person181">Peter [Rümeli]</persName>
+								Da ihr Pfarrer <persName ref="p2813">Peter [Rümeli]</persName>
 								seinen Rücktritt zurückgenommen hat und da [Markus von
-								<persName ref="person1390">Knöringen</persName>], der Abt des Klosters Reichenau [und Kirchherr in
+								<persName ref="p7598">Knöringen</persName>], der Abt des Klosters Reichenau [und Kirchherr in
 								Frauenfeld], durch Obervogt
-								<persName ref="person676">Burkard von Dankenschweil</persName> sein Einverständnis gegeben hat, bitten sie
-								nun auch Zürich, ihnen <persName ref="person181">Rümeli</persName> zu belassen.
+								<persName ref="p17834">Burkard von Dankenschweil</persName> sein Einverständnis gegeben hat, bitten sie
+								nun auch Zürich, ihnen <persName ref="p2813">Rümeli</persName> zu belassen.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 791, S.223</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10830">
 				<correspAction type="sent">
-					<persName ref="person2000" cert="high">
+					<persName ref="p2000" cert="high">
 						<!--
 						<surname cert="high">Maler</surname>
 						<forename cert="high">Hans</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/134104919"/>
 						-->
 					</persName>
-					<orgName ref="org20" type="sg" role="Kirchgemeinde" cert="high">
+					<orgName ref="i20" type="sg" role="Kirchgemeinde" cert="high">
 						<orig>weitere Mitglieder der Kirchgemeinde Frauenfeld</orig>
 					</orgName>
-					<placeName source="place159" cert="high"><orig>Frauenfeld</orig></placeName>
+					<placeName source="l159" cert="high"><orig>Frauenfeld</orig></placeName>
 					<date when="1536-04-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -102,7 +100,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,22 +115,22 @@
 					<s n="2" xml:lang="de" type="auto">Amen.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Erwirdiger herr, alls dann her Petter<note xml:id="fn2" type="footnote" n="2"><persName ref="person181">Peter Rümeli</persName>.</note>, unnser predicant, von unns hat wellen stellen<note xml:id="fn3" type="footnote" n="3">sich von uns trennen wollte (Grimm X/II 2 2254). -Vgl. dazu oben <ref target="file10826">Nr. 787</ref>.</note>, deß wir nit wenig beduret, aber in mit fruntlicher pitt ankert<note xml:id="fn4" type="footnote" n="4">angegangen (SI III 438).</note>, by unns zeblyben.</s>
+					<s n="3" xml:lang="de" type="auto">Erwirdiger herr, alls dann her Petter<note xml:id="fn2" type="footnote" n="2"><persName>Peter Rümeli</persName>.</note>, unnser predicant, von unns hat wellen stellen<note xml:id="fn3" type="footnote" n="3">sich von uns trennen wollte (<bibl>Grimm</bibl> X/II 2 2254). - Vgl. dazu oben <ref target="file10826">Nr. 787</ref>.</note>, deß wir nit wenig beduret, aber in mit fruntlicher pitt ankert<note xml:id="fn4" type="footnote" n="4">angegangen (<bibl>SI</bibl> III 438).</note>, by unns zeblyben.</s>
 					<s n="4" xml:lang="de" type="auto">Deß er nach vil getonen worten bewillgett, doch solicher gestallt, daß er deß by uch alls sinen gebiettenden herren rat haben.</s>
-					<s n="5" xml:lang="de" type="auto">Unnd hand wir uff solichs zuͦ unnserm her lantvogt<note xml:id="fn5" type="footnote" n="5"><persName ref="person2194">Christoph von Sonnenberg</persName>, von <placeName ref="place652">Luzern</placeName>, eidgenössischer Landvogt im <placeName ref="place87">Thurgau</placeName>.</note> kert (diewil wir ain abschaid von unnsern gne[dig]en hem, den aidgnossen, hand, daß unns der herr von Ow<note xml:id="fn6" type="footnote" n="6"><persName ref="person1390">Markus von Knöringen</persName>, Abt des Klosters Reichenau.</note> mit aim predicanten, der aim lantvogt unnd biderben lüten gefellig, versechen sölle<note xml:id="fn7" type="footnote" n="7">Vgl. EA IV/Ic 408f ff (Abschied der Tagsatzung in <placeName ref="place85">Baden</placeName>, 29. September 1534).</note>), inne umb hilf unnd rat angeruͤfft.</s>
-					<s n="6" xml:lang="de" type="auto">Der unns zuͦ deß heren von Ow amptman<note xml:id="fn8" type="footnote" n="8">Reichenauischer Amtmann in Frauenfeld war Sigmund Joner, gen. <persName ref="person2000">Rüplin</persName> (vgl. HBLS V 744, <hi>Knittel,</hi> Kirche 120. 383, und HBBW I <ref target="file10023">[Nr. 5]</ref>, S. 65, Anm. 162).</note> gewisen, unnser beger an in lassen langen; dann er, lantvogt, kam klag ab dem predicanten vernime, ouch ain ersamen, stillen wandel fuͤre.</s>
-					<s n="7" xml:lang="de" type="auto">Uff das ist solichs an den herren von Ow durch sin obervogt, juncker Burkart<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> Burkat.</note> von Danckerschwil<note xml:id="fn9" type="footnote" n="9"><persName ref="person676">Burkard von Dankenschweil</persName> (Dankertswiler), gest. 1553, aus hegauischem Rittergeschlecht stammend, erscheint bereits 1526 und noch 1540 als Obervogt des Klosters Reichenau wie auch zwischen 1543 und 1552 als Vogt zu <placeName ref="place156">Bohlingen</placeName> (Singen am Hohentwiel). Er war in erster Ehe mit Corona, der Schwester von Abt <persName ref="person1390">Markus von Knöringen</persName>, verheiratet. 1548 wurde er vor <placeName ref="place565">Konstanz</placeName> von den Spaniern verwundet und beraubt. - Lit.: Gerwig Blarer BA, Reg.; RsQ I, Reg.; Kindler von Knobloch I 196.</note>, gelangt.</s>
-					<s n="8" xml:lang="de" type="auto">Der hat sim amptman zul Frowenfelld geschriben uff<pb type="edition" next="224"/> unser anlangen und beger, diewil im kain klag ab dem predicanten furkome<note xml:id="fn10" type="footnote" n="10">gemeldet worden sei (SI III 279).</note>, sy sin will unnd mainung, daß er das kunfftig jar nach Johannis Babtiste<note xml:id="fn11" type="footnote" n="11">24.Juni.</note> witer dienen sölle; so well er verschaffen, daß im die erhalltung<note xml:id="fn12" type="footnote" n="12">Unterhalt, Besoldung (vgl. SI II 1232).</note>, wie er die ditz jar gehept, im wyter verfollge<note xml:id="fn13" type="footnote" n="13">verabfolgt werde (SI I 812).</note> unnd die innemer der pfarr pfrund, wer die je syend, im solichs geben muͤssend etc.</s>
-					<s n="9" xml:lang="de" type="auto">Die dan unnser schulthais <persName ref="person826">Federli</persName> jetz kurtz verruckter<note xml:id="fn14" type="footnote" n="14">vergangener (SI VI 856).</note> tagen ouch zuͦ Zurich diser hanndlung halb mit üch geredt, alls ir mitainander uß der kilchen gangen, ist unnser aller ernstlich bitt unnd beger:</s>
+					<s n="5" xml:lang="de" type="auto">Unnd hand wir uff solichs zuͦ unnserm her lantvogt<note xml:id="fn5" type="footnote" n="5"><persName>Christoph von Sonnenberg</persName>, von <placeName>Luzern</placeName>, eidgenössischer Landvogt im <placeName>Thurgau</placeName>.</note> kert (diewil wir ain abschaid von unnsern gne[dig]en hem, den aidgnossen, hand, daß unns der herr von Ow<note xml:id="fn6" type="footnote" n="6"><persName>Markus von Knöringen</persName>, Abt des Klosters Reichenau.</note> mit aim predicanten, der aim lantvogt unnd biderben lüten gefellig, versechen sölle<note xml:id="fn7" type="footnote" n="7">Vgl. <bibl>EA</bibl> IV/Ic 408f ff (Abschied der Tagsatzung in <placeName>Baden</placeName>, 29. September 1534).</note>), inne umb hilf unnd rat angeruͤfft.</s>
+					<s n="6" xml:lang="de" type="auto">Der unns zuͦ deß heren von Ow amptman<note xml:id="fn8" type="footnote" n="8">Reichenauischer Amtmann in Frauenfeld war Sigmund Joner, gen. <persName>Rüplin</persName> (vgl. <bibl>HBLS</bibl> V 744, <hi>Knittel,</hi> Kirche 120. 383, und <bibl>HBBW I</bibl> <ref target="file10023">[Nr. 5]</ref>, S. 65, Anm. 162).</note> gewisen, unnser beger an in lassen langen; dann er, lantvogt, kam klag ab dem predicanten vernime, ouch ain ersamen, stillen wandel fuͤre.</s>
+					<s n="7" xml:lang="de" type="auto">Uff das ist solichs an den herren von Ow durch sin obervogt, juncker Burkart<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> Burkat.</note> von Danckerschwil<note xml:id="fn9" type="footnote" n="9"><persName>Burkard von Dankenschweil (Dankertswiler)</persName>, gest. 1553, aus hegauischem Rittergeschlecht stammend, erscheint bereits 1526 und noch 1540 als Obervogt des Klosters Reichenau wie auch zwischen 1543 und 1552 als Vogt zu <placeName>Bohlingen</placeName> (Singen am Hohentwiel). Er war in erster Ehe mit Corona, der Schwester von Abt <persName>Markus von Knöringen</persName>, verheiratet. 1548 wurde er vor <placeName>Konstanz</placeName> von den Spaniern verwundet und beraubt. - Lit.: Gerwig Blarer BA, Reg.; RsQ I, Reg.; <bibl>Kindler von Knobloch</bibl> I 196.</note>, gelangt.</s>
+					<s n="8" xml:lang="de" type="auto">Der hat sim amptman zul Frowenfelld geschriben uff<pb type="edition" next="224"/> unser anlangen und beger, diewil im kain klag ab dem predicanten furkome<note xml:id="fn10" type="footnote" n="10">gemeldet worden sei (<bibl>SI</bibl> III 279).</note>, sy sin will unnd mainung, daß er das kunfftig jar nach Johannis Babtiste<note xml:id="fn11" type="footnote" n="11">24.Juni.</note> witer dienen sölle; so well er verschaffen, daß im die erhalltung<note xml:id="fn12" type="footnote" n="12">Unterhalt, Besoldung (vgl. <bibl>SI</bibl> II 1232).</note>, wie er die ditz jar gehept, im wyter verfollge<note xml:id="fn13" type="footnote" n="13">verabfolgt werde (<bibl>SI</bibl> I 812).</note> unnd die innemer der pfarr pfrund, wer die je syend, im solichs geben muͤssend etc.</s>
+					<s n="9" xml:lang="de" type="auto">Die dan unnser schulthais <persName>Federli</persName> jetz kurtz verruckter<note xml:id="fn14" type="footnote" n="14">vergangener (<bibl>SI</bibl> VI 856).</note> tagen ouch zuͦ Zurich diser hanndlung halb mit üch geredt, alls ir mitainander uß der kilchen gangen, ist unnser aller ernstlich bitt unnd beger:</s>
 					<s n="10" xml:lang="de" type="manual">Diewil der lantvogt unnd der lechenher kain klag ab in fuͤrend unnd unns ouch lieb ist unnd wolgefallt, ouch sider<note xml:id="fn15" type="footnote" n="15">seit, solange.</note> er by unß gsin, kain mentsch von unns abtretten noch gewychen ist<note xml:id="fn16" type="footnote" n="16">den reformierten Glauben, bzw. die Kirchgemeinde verlassen hat.</note> unnd wir gern weilten, das zuͦ furdrung der warhait diente, erhallten, wann wir ruggen unnd schirm hetten als<note xml:id="fn17" type="footnote" n="17">wie.</note> unnser widertail.</s>
-					<s n="11" xml:lang="de" type="auto">Des wir aber hoffend, diewil wir umb all spänn in rechtzpott für unser herren, die aidgnossen, veranlassett sind<note xml:id="fn18" type="footnote" n="18">weil wir alle Streitigkeiten zur rechtlichen Beurteilung der Tagsatzung übergeben müssen.</note>, ir wellen mit üwerm rat, alls wyr üch on das, ouch voran unnsern gnädigen hem von Zürich, vertrüwend, unns disen man nit abfuͤren<note xml:id="fn19" type="footnote" n="19">wegnehmen (SI I 978).</note>, sonnder in daruff wysy, daß er by unns blybe unnd uns alls bisher trülich unnd vätterlich lere.</s>
+					<s n="11" xml:lang="de" type="auto">Des wir aber hoffend, diewil wir umb all spänn in rechtzpott für unser herren, die aidgnossen, veranlassett sind<note xml:id="fn18" type="footnote" n="18">weil wir alle Streitigkeiten zur rechtlichen Beurteilung der Tagsatzung übergeben müssen.</note>, ir wellen mit üwerm rat, alls wyr üch on das, ouch voran unnsern gnädigen hem von Zürich, vertrüwend, unns disen man nit abfuͤren<note xml:id="fn19" type="footnote" n="19">wegnehmen (<bibl>SI</bibl> I 978).</note>, sonnder in daruff wysy, daß er by unns blybe unnd uns alls bisher trülich unnd vätterlich lere.</s>
 					<s n="12" xml:lang="de" type="auto">Statt unns in allem guten zebeschulden etc.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="de" type="auto">Datum am karfrytag anno etc. 36.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="de" type="auto">Hanns <persName ref="person142">Maler</persName> sampt andern mitglöbigen des helgen wort gottes zuͦ Frowenfeld.</s>
+					<s n="14" xml:lang="de" type="auto"><persName ref="p2000">Hanns Maler</persName> sampt andern mitglöbigen des helgen wort gottes zuͦ Frowenfeld.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

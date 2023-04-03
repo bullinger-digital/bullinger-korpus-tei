@@ -6,40 +6,31 @@
 				<title subtype="file">Melchior Volmar / Isny AN Heinrich Bullinger, Kirche / [Zürich], 1. Juli 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=605</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">260</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 345,208</idno>
 					</msIdentifier>
 					<msContents>
@@ -54,13 +45,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 605, S.260</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10643">
 				<correspAction type="sent">
-					<persName ref="person3462" cert="high">
+					<persName ref="p3462" cert="high">
 						<!--
 						<surname cert="high">Volmar</surname>
 						<forename cert="high">Melchior</forename>
@@ -70,11 +68,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/117704954"/>
 						-->
 					</persName>
-					<placeName source="place234" cert="high"><orig>Isny</orig></placeName>
+					<placeName source="l234" cert="high"><orig>Isny</orig></placeName>
 					<date when="1535-07-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -84,16 +82,16 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<orgName ref="org19" type="sg" role="Kirche" cert="high">
+					<orgName ref="i19" type="sg" role="Kirche" cert="high">
 						<orig>die Zürcher Kirche</orig>
-													<placeName ref="place587" cert="low">
+													<placeName ref="l587" cert="low">
 								<settlement>Zürich</settlement>
 								<district>Zürich</district>
 								<country>Schweiz</country>
 								<location><geo>47.370093 8.544054</geo></location>
 							</placeName>
 					</orgName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10644"/>
@@ -113,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,12 +127,12 @@
 					<s n="1" xml:lang="la" type="auto">S[alutem] d[ico].</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Benevolentia erga me vestra, optimi ac candidissimi fratres, officiumque illud singulare, quibus me, dum isthic essem<note xml:id="fn1" type="footnote" n="1"><persName ref="person2409">Volmar</persName> hatte seine Rückreise nach <placeName ref="place7">Deutschland</placeName> in <placeName ref="place165">Bourges</placeName> am 1. Mai 1535 angetreten (vgl. Barbara <hi>Zeller-Lorenz,</hi> <persName ref="person230">Melchior Volmar</persName> [1497-1560], in: Ferdinandina. FS Ferdinand Elsener, hg. v. Friedrich Ebel u. a., 2., erw. Aufl., Tübingen 1973, S. 153 mit Anm. 63) und war über <placeName ref="place121">Bern</placeName>, [Zürich] und <placeName ref="place1011">St. Gallen</placeName> nach <placeName ref="place520">Isny</placeName> gereist. Er muß sich kurz nach dem 17. Mai in Zürich aufgehalten haben (vgl. <persName ref="person90">Berchtold Hallers</persName> Empfehlungsschreiben an <persName ref="person226">Vadian</persName> vom 17. Mai 1535, <persName ref="person226">Vadian</persName> BW V 218).</note>, estis prosecuti, tantum effecerunt apud me, ut, ubicumque terrarum sim aut etiam futurus sim, nunquam profecto interitura sit in animo meo iucundissima vestri memoria, idque adeo iure ac merito fit, cum ea praecipua lex amicitiae esse debeat, ut amicis ac benefactoribus nostris, si re ipsa et officiis respondere<note xml:id="fna" type="footnote" n="a">respondere <hi>über gestrichenem</hi> paria cum illis facere.</note> non possumus, memoriam certe eorum, quoad licet, perpetuo conservemus.</s>
+					<s n="2" xml:lang="la" type="auto">Benevolentia erga me vestra, optimi ac candidissimi fratres, officiumque illud singulare, quibus me, dum isthic essem<note xml:id="fn1" type="footnote" n="1"><persName>Volmar</persName> hatte seine Rückreise nach <placeName>Deutschland</placeName> in <placeName>Bourges</placeName> am 1. Mai 1535 angetreten (vgl. Barbara <hi>Zeller-Lorenz,</hi> <persName>Melchior Volmar</persName> [1497-1560], in: Ferdinandina. FS Ferdinand Elsener, hg. v. Friedrich Ebel u. a., 2., erw. Aufl., Tübingen 1973, S. 153 mit Anm. 63) und war über <placeName>Bern</placeName>, [Zürich] und <placeName>St. Gallen</placeName> nach <placeName>Isny</placeName> gereist. Er muß sich kurz nach dem 17. Mai in Zürich aufgehalten haben (vgl. <persName>Berchtold Hallers</persName> Empfehlungsschreiben an <persName>Vadian</persName> vom 17. Mai 1535, <persName>Vadian</persName> BW V 218).</note>, estis prosecuti, tantum effecerunt apud me, ut, ubicumque terrarum sim aut etiam futurus sim, nunquam profecto interitura sit in animo meo iucundissima vestri memoria, idque adeo iure ac merito fit, cum ea praecipua lex amicitiae esse debeat, ut amicis ac benefactoribus nostris, si re ipsa et officiis respondere<note xml:id="fna" type="footnote" n="a">respondere <hi>über gestrichenem</hi> paria cum illis facere.</note> non possumus, memoriam certe eorum, quoad licet, perpetuo conservemus.</s>
 					<s n="3" xml:lang="la" type="auto">Neque sane ego adeo stupidi sum ingenii, ut officia erga me vestra, hoc est totius ecclesię Tigurinae atque adeo senatus ipsius, non agnoscam, neque rursus tam ingratus, ut ea ipsa parvifaciam, quapropter, sicubi fortasse animum erga vos meum pleniori aliquo argumento testatus fuero, aliquid profecto me dignum fecisse videbor.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">De rebus meis scribere nihildum certi possum.</s>
-					<s n="5" xml:lang="la" type="auto">Hic adhuc residemus, ego atque uxor<note xml:id="fn2" type="footnote" n="2">Margaretha, geb. Edel (vgl. Correspondance de Théodore de Bèze, hg. v. H. Aubert, F. Aubert und H. Meylan, Bd. I, Genf 1960. - Travaux d'Humanisme et Renaissance 40, S. 189, und Barbara <hi>Zeller-Lorenz,</hi> aaO, S. 152, Anm. 61).</note>, apud socerum<note xml:id="fn3" type="footnote" n="3"><persName ref="person230">Volmars</persName> Schwiegervater war Münzmeister in <placeName ref="place520">Isny</placeName> (vgl. ebd.).</note> expectantes voluntatem domini, cuius pax semper vobiscum.</s>
+					<s n="5" xml:lang="la" type="auto">Hic adhuc residemus, ego atque uxor<note xml:id="fn2" type="footnote" n="2">Margaretha, geb. Edel (vgl. Correspondance de Théodore de Bèze, hg. v. H. Aubert, F. Aubert und H. Meylan, Bd. I, Genf 1960. - Travaux d'Humanisme et Renaissance 40, S. 189, und Barbara <hi>Zeller-Lorenz,</hi> aaO, S. 152, Anm. 61).</note>, apud socerum<note xml:id="fn3" type="footnote" n="3"><persName>Volmars</persName> Schwiegervater war Münzmeister in <placeName>Isny</placeName> (vgl. ebd.).</note> expectantes voluntatem domini, cuius pax semper vobiscum.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Datum Isnę, Rhetiae oppido, calendis iulii 1535.</s>
@@ -143,7 +141,7 @@
 					<s n="7" xml:lang="la" type="auto">Vester ex animo</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><persName ref="person230">Melchior Rufus Volmarius</persName>.</s>
+					<s n="8" xml:lang="la" type="auto"><persName ref="p8113">Melchior Rufus Volmarius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -6,52 +6,42 @@
 				<title subtype="file">Johannes Schlegel / [Elgg] AN Heinrich Bullinger, 21. Juli 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=867</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">370</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,120</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Pfarrer <persName ref="person829">Jakob Fehr</persName> in
-								<placeName ref="place144">Bischofszell</placeName> ist in Bedrängnis und möchte durch Bullinger zu einem
+								Pfarrer <persName ref="p1120">Jakob Fehr</persName> in
+								<placeName>Bischofszell</placeName> ist in Bedrängnis und möchte durch Bullinger zu einem
 								anderen Pfarramt kommen, da ihm sonst nur der Ausweg nach
-								<placeName ref="place100">Württemberg</placeName> bleibt;
-								<persName ref="person14">Theodor Bibliander</persName> und Peter
-								[<persName ref="person2078">Schmid</persName>], Korrektor bei
-								<persName ref="person891">Froschauer</persName>, werden über <persName ref="person829">Fehr</persName> Auskunft geben können, wobei sie bedauern
+								<placeName>Württemberg</placeName> bleibt;
+								<persName ref="p8171">Theodor Bibliander</persName> und <persName ref="p6451">Peter [Schmid]</persName>, Korrektor bei
+								<persName ref="p1227">Froschauer</persName>, werden über <persName ref="p1120">Fehr</persName> Auskunft geben können, wobei sie bedauern
 								werden, daß die Kirche ihrer Heimat von so vielen Pfarrern verlassen wird. Wünscht Bullinger
 								Standhaftigkeit.
 							</p>
@@ -60,24 +50,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 867, S.370</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10907">
 				<correspAction type="sent">
-					<persName ref="person2920" cert="high">
+					<persName ref="p2920" cert="high">
 						<!--
 						<surname cert="high">Schlegel</surname>
 						<forename cert="high">Johannes</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1089312288"/>
 						-->
 					</persName>
-					<placeName source="place134" cert="low"><orig>Elgg</orig></placeName>
+					<placeName source="l134" cert="low"><orig>Elgg</orig></placeName>
 					<date when="1536-07-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -104,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -119,20 +116,20 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Haud tam praesumptuosus fuissem, ut te occuparem meis insulsis literis, nisi se occasio adeo praegnans obtulisset, fratrum charissime.</s>
-					<s n="3" xml:lang="la" type="auto">Accepi namque literas 18. iulii a domino <persName ref="person2002">Iacobo</persName> Fer<note xml:id="fn2" type="footnote" n="2">Der Brief ist nicht erhalten. - <persName ref="person829">Jakob Fehr</persName> (Lepus), von <placeName ref="place144">Bischofszell</placeName>, gest. 1566, immatrikulierte sich im Herbst 1510 an der Universität <placeName ref="place1107">Tübingen</placeName> (vgl. <placeName ref="place1107">Tübingen</placeName>, Matrikel I 180, Nr. 94). 1520-1529 war er Chorherr und Pfarrer am Stift St. Pelagius in <placeName ref="place144">Bischofszell</placeName>. Nach dem Tod von Pfarrer <persName ref="person2002">Jakob Rütz</persName> (gest. 1528) übernahm er dessen Leutpriesterei. Im Verlaufe des Jahres 1536 wurde er zweimal nach <placeName ref="place1113">Ulm</placeName> berufen (vgl. Blarer BW I 769f. 822), doch er blieb in <placeName ref="place144">Bischofszell</placeName> und versuchte mit Hilfe <persName ref="person226">Vadians</persName> und Bullingers, zu einem anderen Pfarramt zu gelangen (vgl. <persName ref="person226">Vadian</persName> BW V 395f. 416. 427). Noch 1538 schrieb er aus <placeName ref="place144">Bischofszell</placeName> (vgl. ebd., S. 473). Die Anspielung unten z. 11f belegt, daß Fehr mit dem von 1539 bis 1566 in <placeName ref="place636">Lindau</placeName> tätigen Pfarrer Jakob Lepus identisch ist. Aus <placeName ref="place636">Lindau</placeName> schrieb er 1547 und 1548 noch zweimal an Bullinger. - Lit.: Konrad <hi>Kuhn,</hi> Thurgovia Sacra. Geschichte der katholischen Pfarrgemeinden des Kantons Thurgau, Bd. I, 2. Lieferung, Frauenfeld 1869, S. 36f; Sulzberger 150f; Arthur <hi>Geiger,</hi> Das Chorherrenstift St. Pelagius zu <placeName ref="place144">Bischofszell</placeName> im Zeitalter der Katholischen Reform, 1500-1700, Diss. phil. Freiburg i. Üe., <placeName ref="place121">Bern</placeName> 1958, S. 17. 61; Albert <hi>Schulze,</hi> Bekenntnisbildung und Politik <placeName ref="place636">Lindaus</placeName> im Zeitalter der Reformation, Diss. theol. Erlangen-Nürnberg, o. O. 1971. - Einzelarbeiten aus der Kirchengeschichte Bayerns, Fotodruckreihe 3, S. 109. 144. 171. 176. 178. 184.</note>, et pio et docto fratrę, ex Bischoffi Zell, quarum tenor is est: Post salutacionem ait, "obsecro eundem" (vult dicere<pb type="edition" next="371"/> amorem meum fratenum) "erga<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> erga <hi>zu ergänzen</hi> quem.</note> me tete praestitisse sentiam, cumque me meo officio defungi res haud leviculę urgeant<note xml:id="fn3" type="footnote" n="3">Der Druck <hi>auf</hi> <persName ref="person829">Fehr</persName> und die reformierte Mehrheit der <placeName ref="place144">Bischofszeller</placeName> von seiten des bischöflichen Vogtes, der katholischen eidgenössischen Orte und der Priester hatte sich deutlich verstärkt, seitdem im Februar 1535 die Messe eingeführt und ein Jahr darauf der katholische Kultus zum erstberechtigten erklärt worden war (vgl. Blarer BW I 649. 651 und <hi>Geiger,</hi> aaO, S. 23-25).</note>, id nostro Heinricho Bullingero insignificare eique supplicare meo nominę ut tibi fortassis notion, pro viribus accingas, quo mihi, si qua functio vacua aut benedictio superstes fuerit vestris in oris, illuc vocandum curasses; sin minus, iter facere paro ad <placeName ref="place100">Wirtenbergenses</placeName>, idque brevi.</s>
-					<s n="4" xml:lang="la" type="auto">Et quanquam omne solum, ut fertur, forti patria<note xml:id="fn4" type="footnote" n="4"><persName ref="person1780">Ovid</persName>, Fasti 1, 493; s. Otto 268, Nr. 1356.</note>, leporibus attamen pęnatibus nil dulcius unquam.</s>
+					<s n="3" xml:lang="la" type="auto">Accepi namque literas 18. iulii a domino <persName ref="p6345">Iacobo</persName> Fer<note xml:id="fn2" type="footnote" n="2">Der Brief ist nicht erhalten. - <persName ref="p5164">Jakob Fehr (Lepus)</persName>, von <placeName>Bischofszell</placeName>, gest. 1566, immatrikulierte sich im Herbst 1510 an der Universität <placeName>Tübingen</placeName> (vgl. <placeName>Tübingen</placeName>, Matrikel I 180, Nr. 94). 1520-1529 war er Chorherr und Pfarrer am Stift St. Pelagius in <placeName>Bischofszell</placeName>. Nach dem Tod von Pfarrer <persName>Jakob Rütz</persName> (gest. 1528) übernahm er dessen Leutpriesterei. Im Verlaufe des Jahres 1536 wurde er zweimal nach <placeName>Ulm</placeName> berufen (vgl. <bibl>Blarer BW</bibl> I 769f. 822), doch er blieb in <placeName>Bischofszell</placeName> und versuchte mit Hilfe <persName>Vadians</persName> und Bullingers, zu einem anderen Pfarramt zu gelangen (vgl. <persName>Vadian</persName> BW V 395f. 416. 427). Noch 1538 schrieb er aus <placeName>Bischofszell</placeName> (vgl. ebd., S. 473). Die Anspielung unten z. 11f belegt, daß Fehr mit dem von 1539 bis 1566 in <placeName>Lindau</placeName> tätigen Pfarrer Jakob Lepus identisch ist. Aus <placeName>Lindau</placeName> schrieb er 1547 und 1548 noch zweimal an Bullinger. - Lit.: Konrad <hi>Kuhn,</hi> Thurgovia Sacra. Geschichte der katholischen Pfarrgemeinden des Kantons Thurgau, Bd. I, 2. Lieferung, Frauenfeld 1869, S. 36f; Sulzberger 150f; Arthur <hi>Geiger,</hi> Das Chorherrenstift St. Pelagius zu <placeName>Bischofszell</placeName> im Zeitalter der Katholischen Reform, 1500-1700, Diss. phil. Freiburg i. Üe., <placeName>Bern</placeName> 1958, S. 17. 61; Albert <hi>Schulze,</hi> Bekenntnisbildung und Politik <placeName>Lindaus</placeName> im Zeitalter der Reformation, Diss. theol. Erlangen-Nürnberg, o. O. 1971. - Einzelarbeiten aus der Kirchengeschichte Bayerns, Fotodruckreihe 3, S. 109. 144. 171. 176. 178. 184.</note>, et pio et docto fratrę, ex Bischoffi Zell, quarum tenor is est: Post salutacionem ait, "obsecro eundem" (vult dicere<pb type="edition" next="371"/> amorem meum fratenum) "erga<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> erga <hi>zu ergänzen</hi> quem.</note> me tete praestitisse sentiam, cumque me meo officio defungi res haud leviculę urgeant<note xml:id="fn3" type="footnote" n="3">Der Druck <hi>auf</hi> <persName ref="p5164">Fehr</persName> und die reformierte Mehrheit der <placeName>Bischofszeller</placeName> von seiten des bischöflichen Vogtes, der katholischen eidgenössischen Orte und der Priester hatte sich deutlich verstärkt, seitdem im Februar 1535 die Messe eingeführt und ein Jahr darauf der katholische Kultus zum erstberechtigten erklärt worden war (vgl. <bibl>Blarer BW</bibl> I 649. 651 und <hi>Geiger,</hi> aaO, S. 23-25).</note>, id nostro Heinricho Bullingero insignificare eique supplicare meo nominę ut tibi fortassis notion, pro viribus accingas, quo mihi, si qua functio vacua aut benedictio superstes fuerit vestris in oris, illuc vocandum curasses; sin minus, iter facere paro ad <placeName>Wirtenbergenses</placeName>, idque brevi.</s>
+					<s n="4" xml:lang="la" type="auto">Et quanquam omne solum, ut fertur, forti patria<note xml:id="fn4" type="footnote" n="4"><persName>Ovid</persName>, Fasti 1, 493; s. Otto 268, Nr. 1356.</note>, leporibus attamen pęnatibus nil dulcius unquam.</s>
 					<s n="5" xml:lang="la" type="auto">Haec allusione in me dicta expendas.</s>
 					<s n="6" xml:lang="la" type="auto">Fac itaque, fidissime pater, in me, quod tibi a me fieri persuasum habes; ne igitur cuncteris omnino, maxime oro; nam omnis hac in re mora nocentissima.</s>
 					<s n="7" xml:lang="la" type="auto">Valae."</s>
 					<s n="8" xml:lang="la" type="auto">Hec illae, e quibus, optime frater, ipse intelligis, quid facto opus sit.</s>
 					<s n="9" xml:lang="la" type="auto">Supplico itaque tuę charitati quam intimę, ut huic et pio et docto fratri, si quo modo potes, succurras.</s>
-					<s n="10" xml:lang="la" type="auto">Haud opus, ut eum multum tibi commendem, cum satis testimonii de ipso reperies apud <persName ref="person14">Theodorum Bibliandrum</persName> et Petrum, correctorem <persName ref="person891">Froschoweri</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person2078">Peter Schmid</persName> (Fabricius), von <placeName ref="place144">Bischofszell</placeName>, gest. 1560, studierte von 1517 an in <placeName ref="place1192">Wien</placeName>, wo er wohl den Magistergrad erwarb. Danach stand er offenbar als Korrektor im Dienste von <persName ref="person1033">Sebastian Gryphius</persName>, Buchdrucker in <placeName ref="place653">Lyon</placeName>. In Zürich, wo er sich 1534 einbürgerte, war er dem Drucker <persName ref="person891">Christoph Froschauer</persName> 25 Jahre lang ein kompetenter Mitarbeiter; sein Brief an <persName ref="person211">Johannes Stumpf</persName> vom 28. Januar 1540 (Zürich ZB, Ms S 313, 10v.), in dem er die Verschiebung einer Besprechung über ein Druckvorhaben vorschlug, wirft etwas Licht auf seine Stellung und auf sein Arbeitsfeld. - Lit.: Rainer <hi>Henrich,</hi> Neues über Froschauers Korrektor <persName ref="person2078">Peter Schmid</persName> von <placeName ref="place144">Bischofszell</placeName>, in: Zwa XVIII/4+5, 1990/91, S. 390-392.</note>; sed non dubito eos rem hanc cum dolore ingenti accepturos, ubi audierint ecclesiam patriae suae tanto destitui pastore.</s>
+					<s n="10" xml:lang="la" type="auto">Haud opus, ut eum multum tibi commendem, cum satis testimonii de ipso reperies apud <persName ref="p8171">Theodorum Bibliandrum</persName> et Petrum, correctorem <persName ref="p1227">Froschoweri</persName><note xml:id="fn5" type="footnote" n="5"><persName>Peter Schmid (Fabricius)</persName>, von <placeName>Bischofszell</placeName>, gest. 1560, studierte von 1517 an in <placeName>Wien</placeName>, wo er wohl den Magistergrad erwarb. Danach stand er offenbar als Korrektor im Dienste von <persName>Sebastian Gryphius</persName>, Buchdrucker in <placeName>Lyon</placeName>. In Zürich, wo er sich 1534 einbürgerte, war er dem Drucker <persName ref="p5295">Christoph Froschauer</persName> 25 Jahre lang ein kompetenter Mitarbeiter; sein Brief an <persName>Johannes Stumpf</persName> vom 28. Januar 1540 (Zürich ZB, Ms S 313, 10v.), in dem er die Verschiebung einer Besprechung über ein Druckvorhaben vorschlug, wirft etwas Licht auf seine Stellung und auf sein Arbeitsfeld. - Lit.: Rainer <hi>Henrich,</hi> Neues über Froschauers Korrektor <persName>Peter Schmid</persName> von <placeName>Bischofszell</placeName>, in: <bibl>Zwa</bibl> XVIII/4+5, 1990/91, S. 390-392.</note>; sed non dubito eos rem hanc cum dolore ingenti accepturos, ubi audierint ecclesiam patriae suae tanto destitui pastore.</s>
 					<s n="11" xml:lang="la" type="auto">Acceptus enim et senatui et ecclesiae suae tote.</s>
 					<s n="12" xml:lang="la" type="auto">Ego rescripsi bono illi fratri plurimumque adhortatus sum, ut non deserat oves fidei suę creditas.</s>
-					<s n="13" xml:lang="la" type="auto">Tuam igitur sentenciam per praesentem nuncium<note xml:id="fn6" type="footnote" n="6">Unbekannt.</note>, quaeso, accipiam; sive mavis, illi responde vel per te vel per <persName ref="person14">Theodorum</persName>, et ego illi literas probe praesentabo.</s>
+					<s n="13" xml:lang="la" type="auto">Tuam igitur sentenciam per praesentem nuncium<note xml:id="fn6" type="footnote" n="6">Unbekannt.</note>, quaeso, accipiam; sive mavis, illi responde vel per te vel per <persName ref="p8171">Theodorum</persName>, et ego illi literas probe praesentabo.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Vale in domino, inimicis tuis semper robustior et murus aeneus<note xml:id="fn7" type="footnote" n="7">Vgl. Jer 1, 18; auch Adagia, 2, 10, 25 (LB II 690).</note>.</s>
+					<s n="14" xml:lang="la" type="auto">Vale in domino, inimicis tuis semper robustior et murus aeneus<note xml:id="fn7" type="footnote" n="7">Vgl. Jer 1, 18; auch Adagia, 2, 10, 25 (<bibl>LB</bibl> II 690).</note>.</s>
 					<s n="15" xml:lang="la" type="auto">Sed parce quoque rusticitati meae.</s>
 					<s n="16" xml:lang="la" type="auto">Iterum vale.</s>
 				</p>
@@ -143,7 +140,7 @@
 					<s n="18" xml:lang="la" type="auto">Tuus semper officiosus</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><persName ref="person186">Ioannes Schlegelius</persName> in</s>
+					<s n="19" xml:lang="la" type="auto"><persName ref="p2920">Ioannes Schlegelius</persName> in</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="la" type="auto">Olgöw.<pb type="edition" next="372"/></s>

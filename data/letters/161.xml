@@ -6,32 +6,31 @@
 				<title subtype="file">Richard Hilles / Strassburg AN Heinrich Bullinger / Zürich, 18. Juni 1548</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">926</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,376</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,10 +42,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Ep. Tig. III, S. 172f, Nr. 120</title>
+								<title>Ep. Tig. III, S.172f, Nr. 120</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Zurich Letters III, S. 261-264, Nr. 120</title>
+								<title>Zurich Letters III, S.261-264, Nr. 120</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>Ott, Annales Anabaptistici 110</title>
@@ -57,14 +56,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 67,36</idno>
 					</msIdentifier>
 				</msDesc>
@@ -73,18 +72,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/161">
 				<correspAction type="sent">
-					<persName ref="person1548" cert="high">
+					<persName ref="p1548" cert="high">
 						<!--
 						<surname cert="high">Hilles</surname>
 						<forename cert="high">Richard</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1089472722"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1548-06-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -94,7 +93,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file162"/>
@@ -120,7 +119,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -176,7 +175,7 @@
 					<s n="31" xml:lang="la" type="auto">Sunt alioqui Anglice impressa.</s>
 				</p>
 				<p>
-					<s n="32" xml:lang="la" type="auto">Antequam has obsignavi, ex Anglia accepi episcopum Wintoniensem<note xml:id="fn1" type="footnote" n="1">Stephen Gardiner.</note>, doctorem Edmundum Redmannum et alium quendam Robenson Lundinum a concilio regio advocatos nescio adhuc quam ob causam.</s>
+					<s n="32" xml:lang="la" type="auto">Antequam has obsignavi, ex Anglia accepi episcopum Wintoniensem<note xml:id="fn1" type="footnote" n="1"><persName>Stephen Gardiner</persName>.</note>, doctorem Edmundum Redmannum et alium quendam Robenson Lundinum a concilio regio advocatos nescio adhuc quam ob causam.</s>
 					<s n="33" xml:lang="la" type="auto">Bullonia pueri et mulieres omnes emisse sunt; timor enim forte ex parte est Gallum Bulloniam oppugnaturum.</s>
 					<s n="34" xml:lang="la" type="auto">Scripsit tamen hac mense ad me dominus de Cobham regie maiestatis Anglie Caleto deputatus se non plane intelligere verisimile esse Gallos cum nostratibus hoc anno velle belligerare.</s>
 					<s n="35" xml:lang="la" type="auto">Preterea nostros magnam preparationem in Scotiam pre manibus habere ibique nuper oppidum quoddam, quod vocatur Haddington, devicerunt, et distat ab Edingburg 12 solummodo miliaria Anglicana et idem Angli quotidie muniunt sicut et plura alia castra in Scotia.</s>

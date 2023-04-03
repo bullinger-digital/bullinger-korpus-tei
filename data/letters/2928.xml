@@ -6,32 +6,31 @@
 				<title subtype="file">Gereon Sailer / Augsburg AN Heinrich Bullinger / Zürich, 21. Mai 1556</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">4264/158</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,326 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +45,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2928">
 				<correspAction type="sent">
-					<persName ref="person2856" cert="high">
+					<persName ref="p2856" cert="high">
 						<!--
 						<surname cert="high">Sailer</surname>
 						<forename cert="high">Gereon</forename>
@@ -55,11 +54,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/116758627"/>
 						-->
 					</persName>
-					<placeName source="place18" cert="high"><orig>Augsburg</orig></placeName>
+					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 					<date when="1556-05-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -69,7 +68,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2929"/>
@@ -94,9 +93,15 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="2928/Autograph/00__E_II_346__fol__327_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="2928/Autograph/01__E_II_346__fol__327_v_.tif" n="2"/>
+		<graphic xml:id="img3" url="2928/Autograph/02__E_II_346__fol__328_r_.tif" n="3"/>
+		<graphic xml:id="img4" url="2928/Autograph/03__E_II_346__fol__328_v_.tif" n="4"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
@@ -114,7 +119,7 @@
 					<s n="9" xml:lang="la" type="auto">Turcam hodie Austriam cum portentoso exercitu in Hungariam grassaturum adfirmant et cras negant, ita ut nihil certi habeamus; hoc tamen certo certius autumo Turcam et viribus et industria nostro Ferdinando esse potentiorem, etiamsi nullum vel peditem vel equitem mittat, tamen tot habet in Ungaria civitates, oppida, castra et munitiones, in quibus tantam bellacissimorum hominum turbam alere potest, ut nullis nostris conatibus debellari possit.</s>
 					<s n="10" xml:lang="la" type="auto">Polwilerus nomine regis Maximiliani conscribere debuit exercitum 3000 peditum, quos ad tuitionem Ungariae Viennam mittere voluit.</s>
 					<s n="11" xml:lang="la" type="auto">Is per imprudentiam, forte etiam per maliciam tantum concitavit tympano ubique per Alzatiam, Lacum Badensem, Tyrolium, Sueviam et Bavariam personante accursum Werdeam usque, ubi delectum militum se habiturum palam significavit, ut iam plus minus 15000 peditum totam vallem et rippam utramque Danubii Werdea Lauingam et Höchstet versus occupent, depredentur et dilacerent.</s>
-					<s n="12" xml:lang="la" type="auto">Polweilerus nervo belli<note xml:id="fn1" type="footnote" n="1">Vgl. <hi>Cicero,</hi> Orationes Philippicae, 5, 5 und s. HBBW XIV *** .</note> non munitus abiit neque quempiam ex suis post se reliquit, qui militum ferociam cohiberet.</s>
+					<s n="12" xml:lang="la" type="auto">Polweilerus nervo belli<note xml:id="fn1" type="footnote" n="1">Vgl. <hi>Cicero,</hi> Orationes Philippicae, 5, 5 und s. <bibl>HBBW</bibl> XIV *** .</note> non munitus abiit neque quempiam ex suis post se reliquit, qui militum ferociam cohiberet.</s>
 					<s n="13" xml:lang="la" type="auto">Quare miseri agricolae ea velint nolint, impartiri coguntur, ex quibus annuus victus eis constare debuisset.</s>
 					<s n="14" xml:lang="la" type="auto">Ea grassatio iam 14 duravit duratura procul dubio diutius.</s>
 					<s n="15" xml:lang="la" type="auto">Indignitate rei commoti nostri per Schertlinum conscribunt 8 vexilla ad tuendam urbem.</s>

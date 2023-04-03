@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 9. April 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=571</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">195</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,66</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,20 +38,27 @@
 							<p xml:id="regest1">
 								Hat von dem in Zürich in Gewahrsam genommenen [Uli Bruder] schon
 								früher nichts Gutes vernommen. Warnt vor der vom Kaiser ausgehenden Gefahr für die Freiheit
-								<placeName ref="place7">Deutschlands</placeName>.
+								<placeName>Deutschlands</placeName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 571, S.195</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10609">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1535-04-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,17 +123,17 @@
 					<s n="2" xml:lang="la" type="auto">Nugas putavi, quod serium esse nunc ex literis tuis<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file10607">Nr. 569</ref>.</note> intelligo - de tumultu loquor.</s>
 					<s n="3" xml:lang="la" type="auto">Habent in vinculis tui, quem si recte examinabunt, audient nimirum, quod nosse proderit.</s>
 					<s n="4" xml:lang="la" type="auto">Nomen<note xml:id="fn2" type="footnote" n="2">Uli Bruder.</note> est mihi notum, ut de quo nihil unquam quicquam audierim boni.</s>
-					<s n="5" xml:lang="la" type="auto">Miror, quod nomen sit alteri<note xml:id="fn3" type="footnote" n="3">Gemeint ist wohl der in Zug inhaftierte <persName ref="person394">Jakob Baumann</persName> (s. oben <ref target="file10607">Nr. 569</ref>, Anm. 8); in Bullingers Brief war allerdings nur von Uli Bruder die Rede.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Miror, quod nomen sit alteri<note xml:id="fn3" type="footnote" n="3">Gemeint ist wohl der in Zug inhaftierte <persName>Jakob Baumann</persName> (s. oben <ref target="file10607">Nr. 569</ref>, Anm. 8); in Bullingers Brief war allerdings nur von Uli Bruder die Rede.</note>.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">De Gallo<note xml:id="fn4" type="footnote" n="4"><persName ref="person859">Franz I.</persName></note> sentis pessime et iure quidem, de caesare<note xml:id="fn5" type="footnote" n="5"><persName ref="person1332">Karl V.</persName></note> melius, qui si maneret, ut fuit hactenus, aeque sentirem et ego.</s>
-					<s n="7" xml:lang="la" type="auto">Verum audi et iudica: Ambit uterque<pb type="edition" next="196"/>Germanos et serio profecto.</s>
-					<s n="8" xml:lang="la" type="auto">Quos si in amiciciam pellexerit Gallus, nihil erit aliud, manebit sui iuris <persName ref="person1332">Germania</persName>.</s>
+					<s n="6" xml:lang="la" type="auto">De Gallo<note xml:id="fn4" type="footnote" n="4"><persName>Franz I.</persName></note> sentis pessime et iure quidem, de caesare<note xml:id="fn5" type="footnote" n="5"><persName>Karl V.</persName></note> melius, qui si maneret, ut fuit hactenus, aeque sentirem et ego.</s>
+					<s n="7" xml:lang="la" type="auto">Verum audi et iudica: Ambit uterque <pb type="edition" next="196"/>Germanos et serio profecto.</s>
+					<s n="8" xml:lang="la" type="auto">Quos si in amiciciam pellexerit Gallus, nihil erit aliud, manebit sui iuris Germania.</s>
 					<s n="9" xml:lang="la" type="auto">Sin caesar Germanos obtinuerit, tentabit constituere monarchiam in toto orbe christiano.</s>
 					<s n="10" xml:lang="la" type="auto">Quod dum intelligit nobilitas, in dubio est, utro nam se inclinet, imo dolet, quod timet de libertate germanica.</s>
 					<s n="11" xml:lang="la" type="auto">Haec non ex me, sed ex nobili quodam viro et evangelico<note xml:id="fn6" type="footnote" n="6">Unbekannt.</note> nudius tertius animadverti, cui res germanicę sunt admodum curae.</s>
-					<s n="12" xml:lang="la" type="auto">Hisce pene verbis loquebatur: "Si victus fuerit Gallus, constat <placeName ref="place29">Hispanum</placeName> tentaturum esse libertatem nostram haud aliter, quam coepit in <persName ref="person1332">Germania</persName> Inferiore.</s>
-					<s n="13" xml:lang="la" type="auto">Absit a <persName ref="person146">Germanis</persName>, ut hoc oneris subeant, quod parat iste."</s>
+					<s n="12" xml:lang="la" type="auto">Hisce pene verbis loquebatur: "Si victus fuerit Gallus, constat <placeName>Hispanum</placeName> tentaturum esse libertatem nostram haud aliter, quam coepit in Germania Inferiore.</s>
+					<s n="13" xml:lang="la" type="auto">Absit a Germanis, ut hoc oneris subeant, quod parat iste."</s>
 					<s n="14" xml:lang="la" type="auto">Coniecit hic me in dubium, ut nesciam fere e duobus malis eligere.</s>
 					<s n="15" xml:lang="la" type="auto">Haec tibi, ut videas, quę sint huius temporis pericula.</s>
 				</p>
@@ -146,10 +144,10 @@
 					<s n="17" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 9. aprilis anno 35.</s>
+					<s n="18" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 9. aprilis anno 35.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">O. <persName ref="person154">Myconius</persName> tuus.</s>
+					<s n="19" xml:lang="la" type="auto">O. <persName ref="p8418">Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der, Rückseite:]</note>

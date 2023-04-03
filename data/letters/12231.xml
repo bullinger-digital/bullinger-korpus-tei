@@ -6,50 +6,41 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Ambrosius Blarer, 20. Juni 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2184</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">370</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 15 (Briefe des Jahres 1545), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2013, 746 S., ISBN 978-3-290-17664-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 35 (VBS VI),43</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bullinger hat <persName ref="person19">Blarers</persName> Brief [<ref target="file12229">Nr. 2182</ref>]
-								durch seinen Neffen [<persName ref="person563">Josua Bullinger</persName>] erhalten und bedankt sich für
+								Bullinger hat <persName ref="p8055">Blarers</persName> Brief [<ref target="file12229">Nr. 2182</ref>]
+								durch seinen Neffen [<persName ref="p499">Josua Bullinger</persName>] erhalten und bedankt sich für
 								die dem Josua erwiesenen Wohltaten wie auch für die Nachrichten aus
-								<placeName ref="place1214">Worms</placeName>. - Er bittet, das beiliegende Paket [mit seinen Schriften
-								„Der alt gloub“, „Hoffnung der Glöubigen“ und „Bericht der krancken“] an <persName ref="person896">Georg Frölich</persName> weiterzuleiten. -
+								<placeName>Worms</placeName>. - Er bittet, das beiliegende Paket [mit seinen Schriften
+								„Der alt gloub“, „Hoffnung der Glöubigen“ und „Bericht der krancken“] an <persName ref="p8354">Georg Frölich</persName> weiterzuleiten. -
 								Grüße an die Gattin [Katharina, geb. Ryff] und an die anderen Angehörigen.
 							</p>
 						</summary>
@@ -60,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 370, Nr. 1192</title>
+								<title>Blarer BW II, S.370, Nr. 1192</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 15, Nr. 2184, S.370</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12231">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -80,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1545-06-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -120,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -128,12 +122,12 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S[alutem] d[ico].</s>
-					<s n="2" xml:lang="la" type="auto">Literas tuas<note xml:id="fn1" type="footnote" n="1">Oben Nr.2182.</note>, vir colende et frater in domino charissime, per nepotem meum<note xml:id="fn2" type="footnote" n="2"><persName ref="person563">Josua Bullinger</persName>. Über ihn s. zuletzt <ref target="file12229">Nr. 2182</ref>, 1-3.</note> ex fratre<note xml:id="fn3" type="footnote" n="3">Johannes [Reinhart] Bullinger.</note> accepi, ac ago tuae humanitati gratias principio pro beneficiis exhibitis nepoti (dominus sit merces tua!)<note xml:id="fna" type="footnote" n="a">meo <hi>fehlt in der Vorlage.</hi></note>, deinde pro literis, quibus diligenter, quae <placeName ref="place1214">Wormatiae</placeName> agantur, perscribis<note xml:id="fn4" type="footnote" n="4">Oben <ref target="file12229">Nr. 2182</ref>, 7-33.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Literas tuas<note xml:id="fn1" type="footnote" n="1">Oben Nr.2182.</note>, vir colende et frater in domino charissime, per nepotem meum<note xml:id="fn2" type="footnote" n="2"><persName>Josua Bullinger</persName>. Über ihn s. zuletzt <ref target="file12229">Nr. 2182</ref>, 1-3.</note> ex fratre<note xml:id="fn3" type="footnote" n="3">Johannes [Reinhart] Bullinger.</note> accepi, ac ago tuae humanitati gratias principio pro beneficiis exhibitis nepoti (dominus sit merces tua!)<note xml:id="fna" type="footnote" n="a">meo <hi>fehlt in der Vorlage.</hi></note>, deinde pro literis, quibus diligenter, quae <placeName>Wormatiae</placeName> agantur, perscribis<note xml:id="fn4" type="footnote" n="4">Oben <ref target="file12229">Nr. 2182</ref>, 7-33.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Perge, oro, talis esse in me et nostros.</s>
 					<s n="4" xml:lang="la" type="auto">Ego, quod in praesenti scribam, non habeo.<pb type="edition" next="371"/></s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Hoc oro, ut fasciculum<note xml:id="fn5" type="footnote" n="5">Die Sendung enthielt: "Der alt gloub", den "Bericht der krancken" und die "Hoffnung der Glöubigen"; s. unten <ref target="file12242">Nr. 2195</ref>, 4-21. Die ersten beiden Schriften wurden 1544 neu aufgelegt, während die dritte im gleichen Jahr zum ersten Mal auf Deutsch erschien.</note> hunc cures bona fide perferri d. <persName ref="person896">Georgio Laeto</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person896">Georg Frölich</persName>.</note>, amico et fratri nostro.</s>
+					<s n="5" xml:lang="la" type="auto">Hoc oro, ut fasciculum<note xml:id="fn5" type="footnote" n="5">Die Sendung enthielt: "Der alt gloub", den "Bericht der krancken" und die "Hoffnung der Glöubigen"; s. unten <ref target="file12242">Nr. 2195</ref>, 4-21. Die ersten beiden Schriften wurden 1544 neu aufgelegt, während die dritte im gleichen Jahr zum ersten Mal auf Deutsch erschien.</note> hunc cures bona fide perferri d. <persName ref="p8354">Georgio Laeto</persName><note xml:id="fn6" type="footnote" n="6"><persName>Georg Frölich</persName>.</note>, amico et fratri nostro.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Dominus Iesus servet te, uxorem<note xml:id="fn7" type="footnote" n="7">Katharina, geb. Ryff.</note> et omnes tuos.</s>
@@ -144,7 +138,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="9" xml:lang="la" type="auto">D. <persName ref="person19">Ambrosio Blaurero</persName>, fratri suo.</s>
+					<s n="9" xml:lang="la" type="auto">D. <persName ref="p8055">Ambrosio Blaurero</persName>, fratri suo.</s>
 				</p>
 			</div>
 		</body>

@@ -6,63 +6,64 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Thomas Platter, 13. Juni 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=844</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">330</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
-						<idno subtype="Autograph">Fr. Gr. II 9, Nr.80</idno>
+						<repository ref="a6"/>
+						<idno subtype="Autograph">Frey-Gryn Mscr II 9:Br.80</idno>
+						<altIdentifier>
+							<idno subtype="Autograph">Fr. Gr. II 9, Nr.80</idno>
+						</altIdentifier>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Schickt eine <persName ref="person2142">Sedulius</persName>-Handschrift zur eventuellen Drucklegung;
+								Schickt eine <persName ref="p6571">Sedulius</persName>-Handschrift zur eventuellen Drucklegung;
 								wünscht sie später zurückzuerhalten. Bittet um Zusendung der "Novellen"
 								Justinians und des "Codex Theodosianus" sowie um die Rechnung für die
-								Briefsammlung [<persName ref="person160">Oekolampads</persName> und
-								<persName ref="person265">Zwinglis</persName>]; erkundigt sich nach Neuerscheinungen.
+								Briefsammlung [<persName ref="p2442">Oekolampads</persName> und
+								<persName ref="p4091">Zwinglis</persName>]; erkundigt sich nach Neuerscheinungen.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 844, S.330</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10883">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -72,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1536-06-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2458" cert="high">
+					<persName ref="p2458" cert="high">
 						<!--
 						<surname cert="high">Platter</surname>
 						<forename cert="high">Thomas</forename>
@@ -104,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -114,20 +115,20 @@
 					<s n="1" xml:lang="de" type="auto">Gnad und frid vonn gott durch Jesum Christum, unsernn herren.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Ich schick üch hie, fürgeliepter Thoma, uß unser libery 4 divinorum mirabilium libellos <persName ref="person2142">Sedulii</persName><note xml:id="fn1" type="footnote" n="1">Gemeint ist das "Carmen paschale" des <persName ref="person2142">Coelius Sedulius</persName> (CSEL X). Entgegen Bullingers Annahme wurde dieses Werk schon früh gedruckt; möglicherweise wurde es 1537 von <persName ref="person161">Oporin</persName>, sicher aber 1541 von <persName ref="person240">Bartholomäus Westheimer</persName> neu verlegt. Die heute verschollene Handschrift aus der Zürcher Stiftsbibliothek befand sich noch 1539 in <placeName ref="place97">Basel</placeName>; vgl. die Briefe Bullingers an <persName ref="person172">Platter</persName> vom 3. November 1537 (<placeName ref="place97">Basel</placeName> UB, Fr. Gr. II 9, Nr. 81) sowie <persName ref="person84">Gwalthers</persName> an Bullinger vom 26. April und 23. Mai 1539 (Zürich StA, E II 359, 2781 bzw. 2786).</note>, ein uralte geschrifft, und, allß vil mir zuͦ wüssen, bißhar nienan getruckt; das ir üch umb ein ander exemplar ouch bewerbind, ob ir es drucktind.</s>
+					<s n="2" xml:lang="de" type="auto">Ich schick üch hie, fürgeliepter Thoma, uß unser libery 4 divinorum mirabilium libellos <persName ref="p6571">Sedulii</persName><note xml:id="fn1" type="footnote" n="1">Gemeint ist das "Carmen paschale" des <persName>Coelius Sedulius</persName> (<bibl>CSEL</bibl> X). Entgegen Bullingers Annahme wurde dieses Werk schon früh gedruckt; möglicherweise wurde es 1537 von <persName>Oporin</persName>, sicher aber 1541 von <persName>Bartholomäus Westheimer</persName> neu verlegt. Die heute verschollene Handschrift aus der Zürcher Stiftsbibliothek befand sich noch 1539 in <placeName>Basel</placeName>; vgl. die Briefe Bullingers an <persName>Platter</persName> vom 3. November 1537 (<placeName>Basel</placeName> UB, Fr. Gr. II 9, Nr. 81) sowie <persName>Gwalthers</persName> an Bullinger vom 26. April und 23. Mai 1539 (Zürich StA, E II 359, 2781 bzw. 2786).</note>, ein uralte geschrifft, und, allß vil mir zuͦ wüssen, bißhar nienan getruckt; das ir üch umb ein ander exemplar ouch bewerbind, ob ir es drucktind.</s>
 					<s n="3" xml:lang="de" type="auto">Doch sölichs beschäch oder nitt, ist min begär, das ir mir das alit exemplar allwäg widerumb zuͦ handen stellind.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="de" type="auto">Demnach ist min ernstlich pitt, ir wollind mir umb diß volgende buͤcher verhälffen und die, so bald ir mögind, wol bewart, wenn üch komliche<note xml:id="fn2" type="footnote" n="2">passende (SI III 285).</note> fuͦr oder bottschafft ann die hand stiesse, mir zuͦ schicken und anzeygen, was sy mitt sampt dem epistolar<note xml:id="fn3" type="footnote" n="3">Vgl. oben <ref target="file10822">Nr. 783</ref>, 31f.</note> kostind:</s>
+					<s n="4" xml:lang="de" type="auto">Demnach ist min ernstlich pitt, ir wollind mir umb diß volgende buͤcher verhälffen und die, so bald ir mögind, wol bewart, wenn üch komliche<note xml:id="fn2" type="footnote" n="2">passende (<bibl>SI</bibl> III 285).</note> fuͦr oder bottschafft ann die hand stiesse, mir zuͦ schicken und anzeygen, was sy mitt sampt dem epistolar<note xml:id="fn3" type="footnote" n="3">Vgl. oben <ref target="file10822">Nr. 783</ref>, 31f.</note> kostind:</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Novellarum constitutionum domini <persName ref="person1314">Iustiniani</persName> etc., <foreign xml:lang="de">zuͦ <placeName ref="place795">Nürenberg</placeName> getruckt<note xml:id="fn4" type="footnote" n="4">Gemeint ist die 1531 bei <persName ref="person1814">Johann Petreius</persName> gedruckte griechisch-lateinische Ausgabe der "Novellae constitutiones" Justinians. Zu einem von Bullinger annotierten Exemplar (Zürich ZB, XI 75,) vgl. <hi>Bächtold,</hi> Bullinger vor dem Rat 31-34.</note>.</foreign></s>
+					<s n="5" xml:lang="la" type="auto">Novellarum constitutionum domini <persName>Iustiniani</persName> etc., <foreign xml:lang="de">zuͦ <placeName>Nürenberg</placeName> getruckt<note xml:id="fn4" type="footnote" n="4">Gemeint ist die 1531 bei <persName>Johann Petreius</persName> gedruckte griechisch-lateinische Ausgabe der "Novellae constitutiones" Justinians. Zu einem von Bullinger annotierten Exemplar (Zürich ZB, XI 75,) vgl. <hi>Bächtold,</hi> Bullinger vor dem Rat 31-34.</note>.</foreign></s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Codicis Theodosiani libri 16, <foreign xml:lang="de">zuͦ <persName ref="person1816">Basel</persName> getruckt<note xml:id="fn5" type="footnote" n="5">Unter diesem irrtümlichen Titel erschien 1528 bei <persName ref="person1816">Heinrich Petri</persName> die von <persName ref="person2165">Johann Sichard</persName> besorgte Erstausgabe des Breviarium Alaricianum (vgl. Guido <hi>Kisch,</hi> <persName ref="person2165">Johannes Sichardus</persName> als Basler Rechtshistoriker, <placeName ref="place97">Basel</placeName> 1952. - Basler Studien zur Rechtswissenschaft 34, S. 36f. 67). Das den Novellen Justinians beigebundene Exemplar in Zürich ZB, XI 75 I (vgl. Anm. 4) stammt wohl ebenfalls aus Bullingers Besitz.</note>.</foreign></s>
+					<s n="6" xml:lang="la" type="auto">Codicis Theodosiani libri 16, <foreign xml:lang="de">zuͦ <placeName>Basel</placeName> getruckt<note xml:id="fn5" type="footnote" n="5">Unter diesem irrtümlichen Titel erschien 1528 bei <persName>Heinrich Petri</persName> die von <persName>Johann Sichard</persName> besorgte Erstausgabe des Breviarium Alaricianum (vgl. Guido <hi>Kisch,</hi> <persName>Johannes Sichardus</persName> als Basler Rechtshistoriker, <placeName>Basel</placeName> 1952. - Basler Studien zur Rechtswissenschaft 34, S. 36f. 67). Das den Novellen Justinians beigebundene Exemplar in Zürich ZB, XI 75 I (vgl. Anm. 4) stammt wohl ebenfalls aus Bullingers Besitz.</note>.</foreign></s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto"><pb type="edition" next="331"/>Wo ich dann söliche dienst umb üch beschulden<note xml:id="fn6" type="footnote" n="6">vergelten (SI VIII 659f).</note> und verdienen könde, wölte ich nitt sparen.</s>
+					<s n="7" xml:lang="de" type="auto"><pb type="edition" next="331"/>Wo ich dann söliche dienst umb üch beschulden<note xml:id="fn6" type="footnote" n="6">vergelten (<bibl>SI</bibl> VIII 659f).</note> und verdienen könde, wölte ich nitt sparen.</s>
 					<s n="8" xml:lang="de" type="auto">Lassend mich ouch wüssen, was nüws vor handen sye, das ir truckind.</s>
 					<s n="9" xml:lang="de" type="auto">Sind gott befolhen.</s>
 				</p>
@@ -139,7 +140,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="12" xml:lang="de" type="auto">An den frommen unn[d]<note xml:id="fna" type="footnote" n="a"><hi>Rand abgeschnitten.</hi></note> truwen Thoman B[lat]tern<note xml:id="fnb" type="footnote" n="b"><hi>Rand abgeschnitten.</hi></note>, truckerherr[n]<note xml:id="fnc" type="footnote" n="c"><hi>Rand abgeschnitten.</hi></note> zuͦ <placeName ref="place97">Basel</placeName>, sinen liebe[n]<note xml:id="fnd" type="footnote" n="d"><hi>Rand abgeschnitten.</hi></note> unnd guͦten fründ.</s>
+					<s n="12" xml:lang="de" type="auto">An den frommen unn[d]<note xml:id="fna" type="footnote" n="a"><hi>Rand abgeschnitten.</hi></note> truwen Thoman B[lat]tern<note xml:id="fnb" type="footnote" n="b"><hi>Rand abgeschnitten.</hi></note>, truckerherr[n]<note xml:id="fnc" type="footnote" n="c"><hi>Rand abgeschnitten.</hi></note> zuͦ <placeName>Basel</placeName>, sinen liebe[n]<note xml:id="fnd" type="footnote" n="d"><hi>Rand abgeschnitten.</hi></note> unnd guͦten fründ.</s>
 				</p>
 			</div>
 		</body>

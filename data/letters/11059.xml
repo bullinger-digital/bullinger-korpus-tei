@@ -6,51 +6,42 @@
 				<title subtype="file">Petrus Dasypodius / Strassburg AN Heinrich Bullinger, 10. Juli 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1017</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">187</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 358,119</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Gibt Auskunft über den Lehrmeister von
-								<persName ref="person121">Christoph Klausers</persName> Sohn: Es
+								<persName ref="p8397">Christoph Klausers</persName> Sohn: Es
 								handelt sich um einen wenig erfahrenen Apotheker, der ein hohes Lehrgeld von ihm verlangt, während ihn der
-								beste Apotheker der Stadt kostenlos ausbilden würde; <persName ref="person47">Dasypodius</persName> rät
+								beste Apotheker der Stadt kostenlos ausbilden würde; <persName ref="p8320">Dasypodius</persName> rät
 								deshalb zum Wechsel der Lehrstelle und verweist im übrigen auf das parallele Schreiben
-								<persName ref="person9">Bedrots</persName>. Grüße.
+								<persName ref="p315">Bedrots</persName>. Grüße.
 							</p>
 						</summary>
 						<msItem>
@@ -65,6 +56,9 @@
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>Büeler 35 bzw. 46f, Nr. 9</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 1017, S.187</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -73,7 +67,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11059">
 				<correspAction type="sent">
-					<persName ref="person771" cert="high">
+					<persName ref="p771" cert="high">
 						<!--
 						<surname cert="high">Dasypodius</surname>
 						<forename cert="high">Petrus</forename>
@@ -84,11 +78,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11421746"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1537-07-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -121,7 +115,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -129,22 +123,22 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Cupis per me et <persName ref="person9">Bedrotum</persName> fieri certior, aliquone suo emolumento Christophori <persName ref="person1374">Clauseri</persName> filius apud nos operam in myropolio navet<note xml:id="fn1" type="footnote" n="1">Bullingers Anfrage ist nicht erhalten. Zur Sache s. HBBW VI <ref target="file10786">[Nr. 748]</ref>, S. 132, 25-29 mit Anm. 9.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Cupis per me et <persName ref="p315">Bedrotum</persName> fieri certior, aliquone suo emolumento Christophori <persName ref="p8397">Clauseri</persName> filius apud nos operam in myropolio navet<note xml:id="fn1" type="footnote" n="1">Bullingers Anfrage ist nicht erhalten. Zur Sache s. <bibl>HBBW</bibl> VI <ref target="file10786">[Nr. 748]</ref>, S. 132, 25-29 mit Anm. 9.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Ego, ut paucis dicam, quod sentio, principio statim, cum huc veniret adolescens, valde mirabar, cur celebrioribus pręteritis in hac potissimum voluerit servire officina.</s>
 					<s n="4" xml:lang="la" type="auto">Et nisi credidissem quasdam familiaritatis inter doctorem Christophorum et hunc myropolam<note xml:id="fn2" type="footnote" n="2">Der Name des Lehrmeisters ist nicht bekannt.</note> intercessisse causas, iam tunc dissuasissem adolescenti, ne se homini manciparet, qui, si cętera probus et integer sit, tamen, quod certo constat, propter artis imperitiam ęgre potuit a senatu impetrare, ut in urbe nostra myropolam ageret, quod etiam hinc facile colligitur, cum alii apud nos satis celebres habeant officinas, ipse propter suae officinę infrequentiam aromatibus vendendis interim dat operam; taceo quod, quantum ego intelligo, plus a suis discipulis exigit mercedis quam alius quisquam, imo, ut rem totam uno habeas verbo: Qui primas inter myropolas in urbe nostra tenere putatur<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note>, serio (nam multum habet mecum familiaritatis propter convictorem meum<note xml:id="fn4" type="footnote" n="4">Unbekannt.</note>, illi ex fratre nepotem) mihi dixit se gratis velle talem adolescentem, si detur, multo fidelius instituere.</s>
 					<s n="5" xml:lang="la" type="auto">Quare,<pb type="edition" next="188"/> optime Bullingere, quod ad hanc rem attinet, si doctor Christophorus filio suo consultum vult, non patietur eum diutius apud talem magistrum et pecunię et temporis facere dispendium.</s>
 					<s n="6" xml:lang="la" type="auto">Haec bono animo scribo, non quod civi meo lucrum, si quod facit per adolescentem, invideam, sed quod tibi, qui hęc scire voluisti, libentissime volui morem gerere et doctorem Christophorum de suo damno vehementer admonitum cupio.</s>
-					<s n="7" xml:lang="la" type="auto">Non multum his dissimilia, puto, <persName ref="person9">Bedrotus</persName> scribet<note xml:id="fn5" type="footnote" n="5"><persName ref="person9">Bedrots</persName> Brief ist nicht erhalten.</note>, qui et alia, quę fuerant referenda, adiiciet.</s>
+					<s n="7" xml:lang="la" type="auto">Non multum his dissimilia, puto, <persName ref="p315">Bedrotus</persName> scribet<note xml:id="fn5" type="footnote" n="5"><persName>Bedrots</persName> Brief ist nicht erhalten.</note>, qui et alia, quę fuerant referenda, adiiciet.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Vale, et me ut hactenus amare ne cesses.</s>
-					<s n="9" xml:lang="la" type="auto">Saluta fratres et amicos omnes apud vos, pręcipue <persName ref="person114">Leonem</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person114">Leo Jud</persName>.</note> et <persName ref="person165">Pellicanum</persName>.</s>
+					<s n="9" xml:lang="la" type="auto">Saluta fratres et amicos omnes apud vos, pręcipue <persName ref="p1753">Leonem</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="p2305">Leo Jud</persName>.</note> et <persName ref="p8127">Pellicanum</persName>.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><placeName ref="place1049">Argentorati</placeName>, sexto idus iulii anno 1537.</s>
+					<s n="10" xml:lang="la" type="auto"><placeName>Argentorati</placeName>, sexto idus iulii anno 1537.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto"><persName ref="person47">Petrus Dasypodius</persName>.</s>
+					<s n="11" xml:lang="la" type="auto"><persName ref="p8320">Petrus Dasypodius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -6,52 +6,43 @@
 				<title subtype="file">Wolfgang Capito / Strassburg AN Heinrich Bullinger, 9. November [1535]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=672</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">415</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,383</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Sendet die Kopie eines Schreibens von <persName ref="person138">Luther</persName>, den die
-								<placeName ref="place1049">Straßburger</placeName> umgehend aufgefordert haben, Tag und Ort für einen
+								Sendet die Kopie eines Schreibens von <persName ref="p1974">Luther</persName>, den die
+								<placeName>Straßburger</placeName> umgehend aufgefordert haben, Tag und Ort für einen
 								Konvent zu benennen; sie wünschen einen Termin nicht vor dem Frühjahr und haben angedeutet, daß auch [die
-								<placeName ref="place28">Schweizer</placeName>] nicht abgeneigt seien, muß diesen doch angesichts des
+								<placeName>Schweizer</placeName>] nicht abgeneigt seien, muß diesen doch angesichts des
 								Autoritätsverlustes der Theologen ebensosehr daran gelegen sein. Dringt darauf, der Ausbildung von Predigern
 								mehr Beachtung zu schenken. Grüße. Es ist nun an [den Zürcher und
-								<placeName ref="place28">Schweizer</placeName> Theologen], sich um ein Vorbereitungstreffen zu
+								<placeName>Schweizer</placeName> Theologen], sich um ein Vorbereitungstreffen zu
 								bemühen, da sie sonst ausgeschlossen bleiben könnten.
 							</p>
 						</summary>
@@ -64,6 +55,9 @@
 							<bibl type="Gedruckt" subtype="Regest">
 								<title>Capito, Corr. 198, Nr. 582</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 672, S.415</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -72,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10710">
 				<correspAction type="sent">
-					<persName ref="person578" cert="high">
+					<persName ref="p578" cert="high">
 						<!--
 						<surname cert="high">Capito</surname>
 						<forename cert="high">Wolfgang</forename>
@@ -83,11 +77,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414573"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1535-11-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -121,7 +115,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,8 +127,8 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Cum pridie a <placeName ref="place97">Basilea</placeName> domum rediissem<note xml:id="fn2" type="footnote" n="2">Zum Aufenthalt <persName ref="person40">Capitos</persName> in <placeName ref="place97">Basel</placeName> vgl. unten <ref target="file10711">Nr. 673</ref>, 1-18.</note>, non ita multum post literę a <persName ref="person138">Luthero</persName> adferuntur, quarum exemplum mitto<note xml:id="fn3" type="footnote" n="3"><persName ref="person138">Luther</persName> an die Geistlichen in <placeName ref="place1049">Straßburg</placeName>, 5. Oktober 1535 <hi>(Pollet,</hi> Bucer I 152f; WA Briefwechsel VII 286f); die nach Zürich gesandte Abschrift von unbekannter Hand ist erhalten (Zürich StA, E II 337, 115r.).</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Rescripsimus<note xml:id="fn4" type="footnote" n="4">Die Antwort der <placeName ref="place1049">Straßburger</placeName> an <persName ref="person138">Luther</persName> ist nicht erhalten; vgl. WA Briefwechsel VII 286.</note> proprio nuntio, ut diem conventus condiceret et locum, et tamen non videri facile commodum nostris ante vernum tempus.</s>
+					<s n="2" xml:lang="la" type="auto">Cum pridie a <placeName>Basilea</placeName> domum rediissem<note xml:id="fn2" type="footnote" n="2">Zum Aufenthalt <persName>Capitos</persName> in <placeName>Basel</placeName> vgl. unten <ref target="file10711">Nr. 673</ref>, 1-18.</note>, non ita multum post literę a <persName ref="p1974">Luthero</persName> adferuntur, quarum exemplum mitto<note xml:id="fn3" type="footnote" n="3"><persName ref="p18889">Luther</persName> an die Geistlichen in <placeName>Straßburg</placeName>, 5. Oktober 1535 <hi>(Pollet,</hi> Bucer I 152f; <bibl>WA</bibl> Briefwechsel VII 286f); die nach Zürich gesandte Abschrift von unbekannter Hand ist erhalten (Zürich StA, E II 337, 115r.).</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Rescripsimus<note xml:id="fn4" type="footnote" n="4">Die Antwort der <placeName>Straßburger</placeName> an <persName ref="p18889">Luther</persName> ist nicht erhalten; vgl. <bibl>WA</bibl> Briefwechsel VII 286.</note> proprio nuntio, ut diem conventus condiceret et locum, et tamen non videri facile commodum nostris ante vernum tempus.</s>
 					<s n="4" xml:lang="la" type="auto">Respondimus et vestros ad concordiam similiter spectare neque detractare admodum conventum.</s>
 					<s n="5" xml:lang="la" type="auto">Iccirco, mi Bullingere, da operam, ne occasioni huic defuerimus.</s>
 					<s n="6" xml:lang="la" type="auto">Scimus, quam imbecillia omnia non minus hic quam vobiscum, etsi fortassis aliqua ex parte nos praestare videmur.</s>
@@ -144,7 +138,7 @@
 				<p>
 					<s n="9" xml:lang="la" type="auto">Sed et studia intercidere; quantulum enim est prae mole negociorum, quod ingeniorum apud vos alitur.</s>
 					<s n="10" xml:lang="la" type="auto">Unde pestilentia per pagos grassante et abripiente aliquos ex illis locos vacantes implebitis?</s>
-					<s n="11" xml:lang="la" type="auto">Sex alitis<note xml:id="fn6" type="footnote" n="6">Wie aus den Rechnungen des Studentenamtes (Zürich StA, G II 39. 1) hervorgeht, betrug die Zahl der Stipendiaten 1535 zunächst elf, dann noch zehn. Vielleicht bezieht sich <persName ref="person40">Capito</persName> aber darauf, daß in diesem Jahr sechs neue Schüler in die Schule zu <placeName ref="place534">Kappel</placeName> aufgenommen wurden; vgl. Zürich StA, E 114. 1, Faszikel 2, S. 33.</note>, sexaginta nondum essent iustus numerus.</s>
+					<s n="11" xml:lang="la" type="auto">Sex alitis<note xml:id="fn6" type="footnote" n="6">Wie aus den Rechnungen des Studentenamtes (Zürich StA, G II 39. 1) hervorgeht, betrug die Zahl der Stipendiaten 1535 zunächst elf, dann noch zehn. Vielleicht bezieht sich <persName>Capito</persName> aber darauf, daß in diesem Jahr sechs neue Schüler in die Schule zu <placeName>Kappel</placeName> aufgenommen wurden; vgl. Zürich StA, E 114. 1, Faszikel 2, S. 33.</note>, sexaginta nondum essent iustus numerus.</s>
 					<s n="12" xml:lang="la" type="auto">Tam rarus est, qui ad functionem ecclesiasticam animam apponit.</s>
 					<s n="13" xml:lang="la" type="auto">Mundus adolescentiori ętati adlubescit.</s>
 					<s n="14" xml:lang="la" type="auto">Quare oro, mi Bullingere, fac, salutarem et pacificum episcopum te praebeas, et instiga animis pacis studia, quę apud multos nimium refrixerunt.</s>
@@ -157,12 +151,12 @@
 					<s n="17" xml:lang="la" type="auto">Argen[torati], 9. novembris.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">V. <persName ref="person40">Capito</persName>.</s>
+					<s n="18" xml:lang="la" type="auto">V. <persName>Capito</persName>.</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Opus est, ut et nos conveniamus, qua in re tua sit cura.</s>
 					<s n="20" xml:lang="la" type="auto">Toties nos sumptum et tempus perdidimus communis salutis causa; non pigeat et vos aliquid iustum molestię pro redintegrandis ecclesiis.</s>
-					<s n="21" xml:lang="la" type="auto">Rescribe, obsecro, et quidem cito<note xml:id="fn8" type="footnote" n="8">Bullinger scheint erst am 10. Januar 1536 geantwortet zu haben; vgl. <persName ref="person40">Capito</persName>, Corr. 200, <ref target="file10627">Nr. 589</ref>.</note>; nam oportet, ut et nos apparati simus, nisi velles ut alienus a consortio ecclesiarum aliarum haberi<note xml:id="fnb" type="footnote" n="b">haben <hi>korr. aus</hi> habeamus[?].</note>, quod scio te non velle.</s>
+					<s n="21" xml:lang="la" type="auto">Rescribe, obsecro, et quidem cito<note xml:id="fn8" type="footnote" n="8">Bullinger scheint erst am 10. Januar 1536 geantwortet zu haben; vgl. <persName>Capito</persName>, Corr. 200, <ref target="file10627">Nr. 589</ref>.</note>; nam oportet, ut et nos apparati simus, nisi velles ut alienus a consortio ecclesiarum aliarum haberi<note xml:id="fnb" type="footnote" n="b">haben <hi>korr. aus</hi> habeamus[?].</note>, quod scio te non velle.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

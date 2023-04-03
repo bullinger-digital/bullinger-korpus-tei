@@ -6,46 +6,37 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN [Werner Beyel], [18.] Mai 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=823</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">291</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E I 12.1</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet Stadtschreiber [<persName ref="person12">Beyel</persName>], dafür zu sorgen, daß die Frage der
+								Bittet Stadtschreiber [<persName ref="p4295">Beyel</persName>], dafür zu sorgen, daß die Frage der
 								Pfarrer[-Besoldungen] noch vor dem 24. Juni behandelt wird.
 							</p>
 						</summary>
@@ -58,6 +49,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Bächtold, Bullinger vor dem Rat 156, Anm. 79</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 823, S.291</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -66,7 +60,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10862">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -76,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1536-05-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person257" cert="low">
+					<persName ref="p257" cert="low">
 						<!--
 						<surname cert="low">Beyel</surname>
 						<forename cert="low">Werner</forename>
@@ -106,7 +100,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,13 +111,13 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Lieber h[err] stattschryber, verhälffend, das die sach der pfarreren, von dero wagen ich üch brieff<note xml:id="fn2" type="footnote" n="2">Siehe <ref target="file10861">Nr. 822</ref>.</note> gäben, ußgemacht<note xml:id="fn3" type="footnote" n="3">vor dem 24. Juni, d. h. vor dem Ratswechsel.</note> werde vor Ioannis, und das sy nitt also lang uffzogen<note xml:id="fn4" type="footnote" n="4">aufgeschoben (Grimm I 784f).</note> werde.</s>
+					<s n="1" xml:lang="de" type="auto">Lieber h[err] stattschryber, verhälffend, das die sach der pfarreren, von dero wagen ich üch brieff<note xml:id="fn2" type="footnote" n="2">Siehe <ref target="file10861">Nr. 822</ref>.</note> gäben, ußgemacht<note xml:id="fn3" type="footnote" n="3">vor dem 24. Juni, d. h. vor dem Ratswechsel.</note> werde vor Ioannis, und das sy nitt also lang uffzogen<note xml:id="fn4" type="footnote" n="4">aufgeschoben (<bibl>Grimm</bibl> I 784f).</note> werde.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="de" type="auto">Wil ich umb üch, wo ich könde, verdienen.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">H. Bullinger, der uwer<note xml:id="fna" type="footnote" n="a"><hi>Darunter von der Hand des Stadtschreibers:</hi> M. <persName ref="person87">[Johannes] Hab</persName>, m. [Ulrich] Cambli, m. Conradt Escher, m. Peter Meyger, m. Jörg <persName ref="person1709">Müller</persName> stattschryber; <hi>auf der Rückseite:</hi> Der competentzen [Einkünfte] halb.</note>.</s>
+					<s n="3" xml:lang="de" type="auto">H. Bullinger, der uwer<note xml:id="fna" type="footnote" n="a"><hi>Darunter von der Hand des Stadtschreibers:</hi> M. <persName ref="p5543">[Johannes] Hab</persName>, m. [Ulrich] Cambli, m. Conradt Escher, m. Peter Meyger, m. <persName>Jörg Müller</persName> stattschryber; <hi>auf der Rückseite:</hi> Der competentzen [Einkünfte] halb.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Ohne Adresse.]</note>

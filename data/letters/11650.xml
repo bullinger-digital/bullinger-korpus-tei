@@ -6,53 +6,42 @@
 				<title subtype="file">Ambrosius Blarer / [Konstanz] AN Heinrich Bullinger, 28. Februar 1542</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2006</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17431-6</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1607</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">12</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1542</biblScope>
-				<biblScope unit="page">46</biblScope>
-				<biblScope unit="pages">299</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 12 (Briefe des Jahres 1542), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2006, 299 S., ISBN 978-3-290-17431-6.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,43r.-v.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Kann in der Eile nur wenig schreiben; [Martin]
-								<persName ref="person28">Bucer</persName> ist nach <placeName ref="place577">Köln</placeName>
-								abgereist, um Erzbischof [<persName ref="person2488">Hermann von Wied</persName>] bei den Kirchenreformen
-								zu helfen; möge dieses Vorhaben gelingen; <persName ref="person19">Blarer</persName> leidet unter seinem
+								Kann in der Eile nur wenig schreiben; <persName ref="p467">[Martin] Bucer</persName> ist nach <placeName>Köln</placeName>
+								abgereist, um Erzbischof [<persName ref="p8462">Hermann von Wied</persName>] bei den Kirchenreformen
+								zu helfen; möge dieses Vorhaben gelingen; <persName ref="p8055">Blarer</persName> leidet unter seinem
 								Ungenügen und ist des irdischen Lebens überdrüssig. Grüße. Findet keine Zeit, dem verdienstvollen
-								<persName ref="person84">[Rudolf] Gwalther</persName> zu schreiben.
-								Bittet um Rücksendung des „Dialogus [Neobuli]“ durch [Gregor]
-								<persName ref="person143">Mangolt</persName>.
+								<persName ref="p8011">[Rudolf] Gwalther</persName> zu schreiben.
+								Bittet um Rücksendung des „Dialogus [Neobuli]“ durch <persName ref="p2259">[Gregor] Mangolt</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -62,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 104, Nr. 930</title>
+								<title>Blarer BW II, S.104, Nr. 930</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 12, Nr. 1607, S.46</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -72,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11650">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -83,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1542-02-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -122,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -136,7 +128,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Non vacat quicquam ad te nunc perscribere, colendissime Bullingere, nisi quod <persName ref="person28">Bucerus</persName> ante sesquimensem ad <placeName ref="place577">Coloniensem</placeName> episcopum<note xml:id="fn3" type="footnote" n="3"><persName ref="person2488">Hermann von Wied</persName>.</note>, qui elector<pb type="edition" next="47"/> <placeName ref="place906">Romani</placeName> imperii est, vocatus abiit<note xml:id="fn4" type="footnote" n="4">Bucer traf nicht vor anderthalb Monaten, sondern erst vor einem halben Monat, nämlich am 5. Februar, in der Nähe von <placeName ref="place577">Köln</placeName> ein. Zur "<placeName ref="place577">Kölner</placeName> Reformation" vgl. Marijn de <hi>Kroon,</hi> Bucer und die <placeName ref="place577">Kölner</placeName> Reformation, in: Christian Krieger und Marc Lienhard (Hg.), <persName ref="person28">Martin Bucer</persName> and Sixteenth-Century Europe. Actes du Colloque de Strasbourg, Leiden u. a. 1993, Bd. II, S. 493-506; zu Bucers Berufung: BucerDS XI/1 17, Anm. 8; PC III 223, Anm. 2; unten <ref target="file11657">Nr. 1614</ref>, 9-24.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Non vacat quicquam ad te nunc perscribere, colendissime Bullingere, nisi quod <persName ref="p467">Bucerus</persName> ante sesquimensem ad <placeName>Coloniensem</placeName> episcopum<note xml:id="fn3" type="footnote" n="3"><persName>Hermann von Wied</persName>.</note>, qui elector<pb type="edition" next="47"/> <placeName>Romani</placeName> imperii est, vocatus abiit<note xml:id="fn4" type="footnote" n="4">Bucer traf nicht vor anderthalb Monaten, sondern erst vor einem halben Monat, nämlich am 5. Februar, in der Nähe von <placeName>Köln</placeName> ein. Zur "<placeName>Kölner</placeName> Reformation" vgl. Marijn de <hi>Kroon,</hi> Bucer und die <placeName>Kölner</placeName> Reformation, in: Christian Krieger und Marc Lienhard (Hg.), <persName ref="p18198">Martin Bucer</persName> and Sixteenth-Century Europe. Actes du Colloque de Strasbourg, Leiden u. a. 1993, Bd. II, S. 493-506; zu Bucers Berufung: <bibl>BucerDS</bibl> XI/1 17, Anm. 8; <bibl>PC</bibl> III 223, Anm. 2; unten <ref target="file11657">Nr. 1614</ref>, 9-24.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Meditatur iamdudum et parturit evangelicum quiddam archiepiscopus ille, ut dominum precari merito debeamus, ne infeliciter enitatur neve, quod multi solent, monstrosum aliquid pariat verbi puritate pharisaico et papistico fermento macerata<note xml:id="fn5" type="footnote" n="5">Vgl. Mt 16, 6. 11f; Mk 8, 15; Lk 12, 1.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Ah, quam est hodie supra modum mirus et prodigiosus apud multos christianismus sic abhorrens a genuina illa sua et prima synceritate, ut nec Christus nec huius apostoli hunc, si redeant, agnituri sint.</s>
 					<s n="5" xml:lang="la" type="auto">Dominus nostri misereatur, quem pro me misero et multis modis afflicto peccatore pertinacibus votis interpellabis, ut me mihi prorsus aliquando auferens sibi<note xml:id="fnb" type="footnote" n="b"><hi>Vor</hi> sibi <hi>ein oder mehrere unlesbare, gestrichene Wörter.</hi></note> suęque sanctissimę voluntati totum restituat.</s>
@@ -145,16 +137,16 @@
 					<s n="8" xml:lang="la" type="auto">Valde huius vitę pertęsus sum, postquam video nihil me aut certe quam minimum in domanda carne mea, in qua nihil est boni, promovere, ut nihil dicam de gravibus istis omnium rerum huius nostrę tempestatis turbinibus et periculis, quibus miserrime exercemur, quę ipsa quoque sic omnes bonos conficiunt, ut, qua hinc quam primum exire possint, anxie dispiciant.</s>
 					<s n="9" xml:lang="la" type="auto">Veni, o domine Iesu, et libera nos a malo<note xml:id="fn7" type="footnote" n="7">Mt 6, 13.</note>!</s>
 					<s n="10" xml:lang="la" type="auto">In illo bene perpetuoque, mi frater, vale.</s>
-					<s n="11" xml:lang="la" type="auto">Salutant te nostri omnes; tu nobis doctissimos et optimos viros Pell[icanum], <persName ref="person114">Leonem</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="person114">Leo Jud</persName>.</note>, Theodorum<note xml:id="fn9" type="footnote" n="9">Theodor Bibliander.</note>, <persName ref="person145">Megandrum</persName> accuratissime saluta, nos illis diligenter<pb type="scan" next="43v."/> commenda.</s>
-					<s n="12" xml:lang="la" type="auto">Salvere te tuamque<note xml:id="fn10" type="footnote" n="10">Anna, geb. Adlischwyler.</note> mea<note xml:id="fn11" type="footnote" n="11">Katharina, geb. Ryff.</note> et ego iubemus.</s>
-					<s n="13" xml:lang="la" type="auto"><persName ref="person84">Gvalthero</persName> ita de nobis merito omnino nunc scripturus eram, si ulla ratione per negocia, quę nunc multa me premunt, licuisset.</s>
-					<s n="14" xml:lang="la" type="auto">Tu vicem meam apud optimum virum et charissimum fratrem imple[bis]<note xml:id="fnc" type="footnote" n="c"><hi>Am beschädigten Rand nicht lesbar.</hi></note> atque hunc plusquam amantissime fratris<note xml:id="fn12" type="footnote" n="12"><persName ref="person20">Thomas Blarer</persName>.</note> pariter et meis verbis salvere iubebis; ubi primum vacabit officium, qua possum diligentia non ingratus fuero.</s>
+					<s n="11" xml:lang="la" type="auto">Salutant te nostri omnes; tu nobis doctissimos et optimos viros Pell[icanum], <persName ref="p1753">Leonem</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="p2305">Leo Jud</persName>.</note>, Theodorum<note xml:id="fn9" type="footnote" n="9"><persName>Theodor Bibliander</persName>.</note>, <persName ref="p8412">Megandrum</persName> accuratissime saluta, nos illis diligenter<pb type="scan" next="43v."/> commenda.</s>
+					<s n="12" xml:lang="la" type="auto">Salvere te tuamque<note xml:id="fn10" type="footnote" n="10"><persName>Anna, geb. Adlischwyler</persName>.</note> mea<note xml:id="fn11" type="footnote" n="11">Katharina, geb. Ryff.</note> et ego iubemus.</s>
+					<s n="13" xml:lang="la" type="auto"><persName ref="p8011">Gvalthero</persName> ita de nobis merito omnino nunc scripturus eram, si ulla ratione per negocia, quę nunc multa me premunt, licuisset.</s>
+					<s n="14" xml:lang="la" type="auto">Tu vicem meam apud optimum virum et charissimum fratrem imple[bis]<note xml:id="fnc" type="footnote" n="c"><hi>Am beschädigten Rand nicht lesbar.</hi></note> atque hunc plusquam amantissime fratris<note xml:id="fn12" type="footnote" n="12"><persName>Thomas Blarer</persName>.</note> pariter et meis verbis salvere iubebis; ubi primum vacabit officium, qua possum diligentia non ingratus fuero.</s>
 					<s n="15" xml:lang="la" type="auto">Bene vale iterum atque iterum, cor meum et anima mea in domino.</s>
 					<s n="16" xml:lang="la" type="auto">28.<note xml:id="fnd" type="footnote" n="d"><hi>Datum aus 24. in 28. Februar korrigiert.</hi></note> februarii anno 1542.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Tuus <persName ref="person19">Ambrosius Blaurerus</persName>.<pb type="edition" next="48"/></s>
-					<s n="18" xml:lang="la" type="auto">Dialogum illum<note xml:id="fn13" type="footnote" n="13">Der "Dialogus Neobuli", vgl. oben <ref target="file11638">Nr. 1595</ref>, 2-10.</note>, quem nosti, valde te rogo, ut per hunc <persName ref="person143">Mangoldum</persName><note xml:id="fn14" type="footnote" n="14"><persName ref="person143">Gregor Mangolt</persName>.</note> nostrum remittas, id quod cave tibi excidat<note xml:id="fne" type="footnote" n="e"><hi>Ein Zeigehändchen deutet auf diesen</hi> Absatz.</note>.</s>
+					<s n="17" xml:lang="la" type="auto">Tuus <persName ref="p8055">Ambrosius Blaurerus</persName>.<pb type="edition" next="48"/></s>
+					<s n="18" xml:lang="la" type="auto">Dialogum illum<note xml:id="fn13" type="footnote" n="13">Der "Dialogus Neobuli", vgl. oben <ref target="file11638">Nr. 1595</ref>, 2-10.</note>, quem nosti, valde te rogo, ut per hunc <persName ref="p2259">Mangoldum</persName><note xml:id="fn14" type="footnote" n="14"><persName ref="p6739">Gregor Mangolt</persName>.</note> nostrum remittas, id quod cave tibi excidat<note xml:id="fne" type="footnote" n="e"><hi>Ein Zeigehändchen deutet auf diesen</hi> Absatz.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Ohne Adresse.]</note>

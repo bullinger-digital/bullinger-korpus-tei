@@ -6,32 +6,31 @@
 				<title subtype="file">Louis Ier de Bourbon / St. Germain en Laye AN Heinrich Bullinger / Zürich, 3. März 1562</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5948/36</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="fr">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,544</idno>
 					</msIdentifier>
 					<msContents>
@@ -54,14 +53,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="fr">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 99,106</idno>
 						<idno subtype="Hinweis">3. März 1561</idno>
 					</msIdentifier>
@@ -69,28 +68,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="fr">
 					<msIdentifier>
 						<!--
-						<repository ref="archive81">
+						<repository ref="a81">
 							<name>Strassburg BNU</name>
 							<ref target="https://www.bnu.fr/fr"/>
 						</repository>
-						<settlement ref="place492">Strassburg</settlement>
+						<settlement ref="l492">Strassburg</settlement>
 						<institution>National- und Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive81"/>
+						<repository ref="a81"/>
 						<idno subtype="Kopie">Ms 0.686 = STB Bd. 27,310</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="fr">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 100, 114</idno>
 						<idno subtype="Hinweis">eingereiht: Ende Mai 1561; nur Hinweis</idno>
 					</msIdentifier>
@@ -100,7 +99,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5202">
 				<correspAction type="sent">
-					<persName ref="person909" cert="high">
+					<persName ref="p909" cert="high">
 						<!--
 						<surname cert="high">de Bourbon</surname>
 						<forename cert="high">Louis Ier</forename>
@@ -108,11 +107,11 @@
 						<note type="person">Prince de Condé</note>
 						-->
 					</persName>
-					<placeName source="place478" cert="high"><orig>St. Germain en Laye</orig></placeName>
+					<placeName source="l478" cert="high"><orig>St. Germain en Laye</orig></placeName>
 					<date when="1562-03-03" cert="low"><note>Jahr so nach Bullingers Anmerkungen korrigiert, Condé selbst schrieb «1561» als Datum.</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -122,7 +121,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file5203"/>
@@ -146,7 +145,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

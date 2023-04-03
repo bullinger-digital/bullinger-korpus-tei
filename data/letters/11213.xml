@@ -6,40 +6,31 @@
 				<title subtype="file">Beat Gering / Basel AN Heinrich Bullinger, 8. September 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1170</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">211</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,45r.-v.</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,33r.-v.</idno>
@@ -57,24 +48,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1170, S.211</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11213">
 				<correspAction type="sent">
-					<persName ref="person1385" cert="high">
+					<persName ref="p1385" cert="high">
 						<!--
 						<surname cert="high">Gering</surname>
 						<forename cert="high">Beat</forename>
 						<persName type="main" ref="person8364>Gering, Beat</persName>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1538-09-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,12 +101,14 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="11213/Autograph/00__E_II_336__fol__46_r_.tif" n="1"/>
-		<graphic xml:id="img2" url="11213/Autograph/01__E_II_336__fol__46_v_.tif" n="2"/>
+		<graphic xml:id="img1" url="11213/Autograph/00__E_II_336__fol__45_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="11213/Autograph/01__E_II_336__fol__45_v_.tif" n="2"/>
+		<graphic xml:id="img3" url="11213/Autograph/02__E_II_336__fol__46_r_.tif" n="3"/>
+		<graphic xml:id="img4" url="11213/Autograph/03__E_II_336__fol__46_v_.tif" n="4"/>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -117,25 +117,25 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Haudquaquam, vir doctissime, videtur recte sentire Athenęus ille, qui paręmiam istam: „Non sunt amici, amici qui degunt procul“ omnium inhumanissimam esse adserit<note xml:id="fn1" type="footnote" n="1"><persName ref="person367">Athenaios</persName>, Deipnosophistai, 4, 187; Adagia, 2, 3, 86 (LB II 517).</note>, quasi scilicet absentium amicorum memoriam e cordis humani tabella expungere soleat, quum non adagium ipsum hominibus occasionem inhumaniter agendi prębuerit, sed inhumana quorundam levium amiculorum oblivio et locum et usum invenerit proverbio.</s>
+					<s n="2" xml:lang="la" type="auto">Haudquaquam, vir doctissime, videtur recte sentire Athenęus ille, qui paręmiam istam: „Non sunt amici, amici qui degunt procul“ omnium inhumanissimam esse adserit<note xml:id="fn1" type="footnote" n="1"><persName>Athenaios</persName>, Deipnosophistai, 4, 187; Adagia, 2, 3, 86 (<bibl>LB</bibl> II 517).</note>, quasi scilicet absentium amicorum memoriam e cordis humani tabella expungere soleat, quum non adagium ipsum hominibus occasionem inhumaniter agendi prębuerit, sed inhumana quorundam levium amiculorum oblivio et locum et usum invenerit proverbio.</s>
 					<s n="3" xml:lang="la" type="auto">Redduntur etenim quidam tepidi amatores adeo statim torpidi ac fere etiam lethargici, ut, amici ubi primum ex oculis illorum longiore paululum loci intervallo fuerint semoti, oblivia in eorum animis subrepant etiam repentina, non aliter atque prioris vitę pręteritarumque rerum inmemores fieri adserunt eos, ex Lethęo qui biberunt amne<note xml:id="fn2" type="footnote" n="2">Vgl. Otto 192, Nr. 943.</note>.</s>
-					<s n="4" xml:lang="la" type="auto">Talem itaque internecinam meę notitię excidionem in<pb type="edition" next="212"/> mente tua factam quum timuerim, propterea quod audiveram ultro citroque et salutationes et epistolas mitti et tamen nullam penitus fieri mentionem <persName ref="person78">Beati</persName>, licet nunc non amici charissimi, tamen olim commilitonis tui fidelissimi ac laboriosissimi, non potui temperare mihi, quin istis meis literis novum mei memoraculum suppeditarem ac suppeditatam excitarem, ne diutius inani spe flagrando et pręstolatione frustranea anhelando nihil aliud facerem quam hi, qui hyperberetęos et admodum serotinos<note xml:id="fn3" type="footnote" n="3">Adagia, 2, 10, 61 (LB II 698).</note> expectant fructus, siquidem non tam molestus tamque importunus fuissem, ut te scribendo sic praevertissem, si meum nomen nondum ex amicorum tuorum albo deletum autumassem.</s>
+					<s n="4" xml:lang="la" type="auto">Talem itaque internecinam meę notitię excidionem in<pb type="edition" next="212"/> mente tua factam quum timuerim, propterea quod audiveram ultro citroque et salutationes et epistolas mitti et tamen nullam penitus fieri mentionem <persName ref="p8364">Beati</persName>, licet nunc non amici charissimi, tamen olim commilitonis tui fidelissimi ac laboriosissimi, non potui temperare mihi, quin istis meis literis novum mei memoraculum suppeditarem ac suppeditatam excitarem, ne diutius inani spe flagrando et pręstolatione frustranea anhelando nihil aliud facerem quam hi, qui hyperberetęos et admodum serotinos<note xml:id="fn3" type="footnote" n="3">Adagia, 2, 10, 61 (<bibl>LB</bibl> II 698).</note> expectant fructus, siquidem non tam molestus tamque importunus fuissem, ut te scribendo sic praevertissem, si meum nomen nondum ex amicorum tuorum albo deletum autumassem.</s>
 					<s n="5" xml:lang="la" type="auto">Nolo hic (ut multi otiosissimi laboratores prętendere consueverunt) negotia tam ardua prętexere, quasi vel mihi non tantillum otii super<pb type="scan" next="33v."/> fuerit, quo scribere potuerim ego, aut tu amicorum literas legere vix<note xml:id="fna" type="footnote" n="a">vix <hi>am Rande nachgetragen.</hi></note> queas.</s>
 					<s n="6" xml:lang="la" type="auto">Ambobus enim vacat utrunque agere, si id modo voluerimus.</s>
-					<s n="7" xml:lang="la" type="auto">Prior itaque quum non solum te pręveniam, sed procaciter provocem, adprime rogo, ut id boni consulas et respondeas ac mihi instructionem sive informationem ministres, quo modo vestrę synodo reconciliari queam<note xml:id="fn4" type="footnote" n="4">Zu <persName ref="person78">Gerings</persName> Amtsenthebung in Zürich im Frühjahr 1538 s. oben <ref target="file11160">Nr. 1117</ref>, Anm. 1.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Prior itaque quum non solum te pręveniam, sed procaciter provocem, adprime rogo, ut id boni consulas et respondeas ac mihi instructionem sive informationem ministres, quo modo vestrę synodo reconciliari queam<note xml:id="fn4" type="footnote" n="4">Zu <persName>Gerings</persName> Amtsenthebung in Zürich im Frühjahr 1538 s. oben <ref target="file11160">Nr. 1117</ref>, Anm. 1.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Vix enim mihi res ulla magis dolet, quam quod excludor a presbyterorum congregatione.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Sed frugiferum mihi fortassis est, ut veluti excommunicatus inter sordes delitescam ad tempus ibique cum labore mihi utcunque victum parem, quo spiritus meus salvus fiat in die domini, ut ergo non pereat iste sicuti corpus, adeoque totus homo meus externus cum universis rebus temporaneis ferme interiere.</s>
-					<s n="10" xml:lang="la" type="auto">Tu pro christiana charitate quantum poteris satagere iuvando et auxiliando in negotiis istis perquam difficillimis summopere rogo velis ac digneris; id ubi feceris, et Christum pastorem nostrum imitaberis et <persName ref="person78">Beato</persName> rem gratissimam exhibebis.</s>
+					<s n="10" xml:lang="la" type="auto">Tu pro christiana charitate quantum poteris satagere iuvando et auxiliando in negotiis istis perquam difficillimis summopere rogo velis ac digneris; id ubi feceris, et Christum pastorem nostrum imitaberis et <persName ref="p8364">Beato</persName> rem gratissimam exhibebis.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale, et mei semper sis memor.</s>
-					<s n="12" xml:lang="la" type="auto">Saluta, quęso, meo nomine fratrem tuum<note xml:id="fn5" type="footnote" n="5">Johannes Bullinger.</note>, charissimum meum socium ac compatrem, matrem tuam<note xml:id="fn6" type="footnote" n="6">Anna, geb. Wiederkehr.</note> et uxorem<note xml:id="fn7" type="footnote" n="7">Anna, geb. Adlischwyler.</note> cum omnibus tibi charis.</s>
+					<s n="12" xml:lang="la" type="auto">Saluta, quęso, meo nomine fratrem tuum<note xml:id="fn5" type="footnote" n="5"><persName>Johannes Bullinger</persName>.</note>, charissimum meum socium ac compatrem, matrem tuam<note xml:id="fn6" type="footnote" n="6"><persName>Anna, geb. Wiederkehr</persName>.</note> et uxorem<note xml:id="fn7" type="footnote" n="7"><persName>Anna, geb. Adlischwyler</persName>.</note> cum omnibus tibi charis.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, ex officina Hervagiana, 8. septembris anno 1538.</s>
-					<s n="14" xml:lang="la" type="auto"><persName ref="person78">Beatus</persName> Gerungius tibi deditissimus.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName>Basileę</placeName>, ex officina Hervagiana, 8. septembris anno 1538.</s>
+					<s n="14" xml:lang="la" type="auto"><persName ref="p8364">Beatus</persName> Gerungius tibi deditissimus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf fol. 33a v. (neu: 46v.):]</note>

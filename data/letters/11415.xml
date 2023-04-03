@@ -6,50 +6,41 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Johannes Stumpf, 13. März 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1372</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">69</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 313,10r.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Was bezüglich des Amtmanns [des Klosters <placeName ref="place928">Rüti</placeName>,
-								<persName ref="person1089">Hans Habersaat</persName>] geschah, beruhte kaum auf Arglist; auch
-								<persName ref="person1709">Georg Müller</persName> hat sich für ein entsprechendes Vorgehen ausgesprochen,
-								und Bullinger billigt es ebenfalls; rechnet nicht damit, daß es <persName ref="person1571">Martin [Manhart]</persName> zum
-								Nachteil<pb type="edition" next="69"/> gereichen wird, und will gemäß <persName ref="person211">Stumpfs</persName> Bitte vertrauenswürdige
+								Was bezüglich des Amtmanns [des Klosters <placeName>Rüti</placeName>,
+								<persName ref="p5115">Hans Habersaat</persName>] geschah, beruhte kaum auf Arglist; auch
+								<persName ref="p2267">Georg Müller</persName> hat sich für ein entsprechendes Vorgehen ausgesprochen,
+								und Bullinger billigt es ebenfalls; rechnet nicht damit, daß es <persName ref="p5750">Martin [Manhart]</persName> zum
+								Nachteil<pb type="edition" next="69"/> gereichen wird, und will gemäß <persName ref="p6730">Stumpfs</persName> Bitte vertrauenswürdige
 								[Ratsherren] ins Bild setzen. Wer andern eine Grube gräbt, fällt selbst hinein.
 							</p>
 						</summary>
@@ -58,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1372, S.69</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11415">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1540-03-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3067" cert="high">
+					<persName ref="p3067" cert="high">
 						<!--
 						<surname cert="high">Stumpf</surname>
 						<forename cert="high">Johannes</forename>
@@ -113,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -126,10 +124,10 @@
 					<s n="2" xml:lang="la" type="auto">Gratia et pax a domino.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Ego vero, charissime frater, non arbitror dolo malo factum esse, quod<note xml:id="fna" type="footnote" n="a"><hi>Johann Jakob Simler ergänzt in seiner Abschrift (Zürich ZB, Ms S 47, 165):</hi> scribis.</note> de oeconomo<note xml:id="fn1" type="footnote" n="1"><persName ref="person1089">Hans Habersaat</persName>, 1538-1544 Amtmann des Klosters <placeName ref="place928">Rüti</placeName>; vgl. LL IX 382 und XV 544.</note> hisce diebus factum<note xml:id="fn2" type="footnote" n="2">Die besprochene Angelegenheit gehört offenbar zum Streit <persName ref="person1571">Martin Manharts</persName>, des Pfarrers in <placeName ref="place1149">Wald</placeName> (Kt. Zürich), mit dem Kloster <placeName ref="place928">Rüti</placeName>, der wohl durch Probleme bei der Ausrichtung des Pfrundgutes ausgelöst worden war. Manhart wurde in der Synode vom 2. Mai 1540 der Streitsucht bezichtigt, im Gegenzug aber mit dem Hinweis auf die Provokationen und Angriffe durch die Konventherren verteidigt. Dieser Fall führte unter den Synodalen schließlich zu einer Debatte über das ehemalige Kloster <placeName ref="place928">Rüti</placeName> und zum Antrag an den Rat, die drei verbliebenen Mönche (<persName ref="person1237">Wolfgang Huber</persName>, <persName ref="person1128">Sebastian Hegner</persName> und Rudolf Sjauli von <placeName ref="place928">Rüti</placeName> abzuziehen; s. Zürich StA, E II 1, 244-246, vgl. auch HBBW IV <ref target="file10403">[Nr. 371]</ref>, S. 160-168.</note>.</s>
-					<s n="4" xml:lang="la" type="auto">Nam priusquam certum esset, ubi negotium iure<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> iurae.</note> esset decidendum, et mox post ipsum factum, cum primo huc veniret oeconomus, narrabat mihi, quod Georgio <persName ref="person1709">Müllero</persName><note xml:id="fn3" type="footnote" n="3">Georg (Jörg) Müller, von Zürich, 1504-1567, war Goldschmied und Angehöriger der Zunft zur Meisen. 1527 wurde er Mitglied des Großen, 1532 des Kleinen Rates. 1533 übernahm er das neugeschaffene, wichtige Amt des Klosterobmanns, das er neben mehreren anderen Ämtern bis 1557 versah. In diesem Jahr ließ er sich, widerwillig zwar, doch u. a. von Bullinger ermuntert, zum Bürgermeister wählen. Müller gilt als gewissenhafter, skrupulöser Verwalter und Politiker; 1566 gründete er eine Stiftung für die Armen, in die er sein angespartes Bürgermeistergehalt einbrachte, weil es ohnehin den Armen gehöre. - Lit.: Conrad <hi>Escher,</hi> Bürgermeister <persName ref="person1709">Georg Müller</persName> (1504-1567), in: ZTB 1904, NF 27, S. 77-120; A. <hi>Corrodi-Sulzer,</hi> Neues aus dem Leben des Bürgermeisters Jörg Müller, in: Festgabe Hermann Escher, Zürich 1927, S. 212-238; <hi>Bächtold,</hi> Bullinger vor dem Rat, Reg.</note>, viro, ut nosti, optimo, bonum videretur, si id fieret protinus, quod tu nunc factum scribis, idque propter ominosarum avium illarum<note xml:id="fn4" type="footnote" n="4">Gemeint sind die Mönche.</note> ferotiam et importunitatem.</s>
+					<s n="3" xml:lang="la" type="auto">Ego vero, charissime frater, non arbitror dolo malo factum esse, quod<note xml:id="fna" type="footnote" n="a"><hi>Johann Jakob Simler ergänzt in seiner Abschrift (Zürich ZB, Ms S 47, 165):</hi> scribis.</note> de oeconomo<note xml:id="fn1" type="footnote" n="1"><persName>Hans Habersaat</persName>, 1538-1544 Amtmann des Klosters <placeName>Rüti</placeName>; vgl. <bibl>LL</bibl> IX 382 und XV 544.</note> hisce diebus factum<note xml:id="fn2" type="footnote" n="2">Die besprochene Angelegenheit gehört offenbar zum Streit <persName>Martin Manharts</persName>, des Pfarrers in <placeName>Wald</placeName> (Kt. Zürich), mit dem Kloster <placeName>Rüti</placeName>, der wohl durch Probleme bei der Ausrichtung des Pfrundgutes ausgelöst worden war. Manhart wurde in der Synode vom 2. Mai 1540 der Streitsucht bezichtigt, im Gegenzug aber mit dem Hinweis auf die Provokationen und Angriffe durch die Konventherren verteidigt. Dieser Fall führte unter den Synodalen schließlich zu einer Debatte über das ehemalige Kloster <placeName>Rüti</placeName> und zum Antrag an den Rat, die drei verbliebenen Mönche (<persName>Wolfgang Huber</persName>, <persName>Sebastian Hegner</persName> und Rudolf Sjauli von <placeName>Rüti</placeName> abzuziehen; s. Zürich StA, E II 1, 244-246, vgl. auch <bibl>HBBW IV</bibl> <ref target="file10403">[Nr. 371]</ref>, S. 160-168.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Nam priusquam certum esset, ubi negotium iure<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> iurae.</note> esset decidendum, et mox post ipsum factum, cum primo huc veniret oeconomus, narrabat mihi, quod Georgio <persName ref="p2267">Müllero</persName><note xml:id="fn3" type="footnote" n="3">Georg (Jörg) Müller, von Zürich, 1504-1567, war Goldschmied und Angehöriger der Zunft zur Meisen. 1527 wurde er Mitglied des Großen, 1532 des Kleinen Rates. 1533 übernahm er das neugeschaffene, wichtige Amt des Klosterobmanns, das er neben mehreren anderen Ämtern bis 1557 versah. In diesem Jahr ließ er sich, widerwillig zwar, doch u. a. von Bullinger ermuntert, zum Bürgermeister wählen. Müller gilt als gewissenhafter, skrupulöser Verwalter und Politiker; 1566 gründete er eine Stiftung für die Armen, in die er sein angespartes Bürgermeistergehalt einbrachte, weil es ohnehin den Armen gehöre. - Lit.: Conrad <hi>Escher,</hi> Bürgermeister <persName>Georg Müller</persName> (1504-1567), in: <bibl>ZTB</bibl> 1904, NF 27, S. 77-120; A. <hi>Corrodi-Sulzer,</hi> Neues aus dem Leben des Bürgermeisters Jörg Müller, in: Festgabe Hermann Escher, Zürich 1927, S. 212-238; <hi>Bächtold,</hi> Bullinger vor dem Rat, Reg.</note>, viro, ut nosti, optimo, bonum videretur, si id fieret protinus, quod tu nunc factum scribis, idque propter ominosarum avium illarum<note xml:id="fn4" type="footnote" n="4">Gemeint sind die Mönche.</note> ferotiam et importunitatem.</s>
 					<s n="5" xml:lang="la" type="auto">Neque mihi tantum displicuit neque displicet modo.</s>
-					<s n="6" xml:lang="la" type="auto">Non erit fraudi <persName ref="person1571">Martino</persName><note xml:id="fnc" type="footnote" n="c"><hi>Am Rande</hi> Martinus Mannhart, Waldensis pastor.</note><note xml:id="fn5" type="footnote" n="5"><persName ref="person1571">Martin Manhart</persName>.</note>, arbitror, apud clarissimum senatum, quod post illud factum, de quo iurę concertabitur, admissum est.</s>
+					<s n="6" xml:lang="la" type="auto">Non erit fraudi <persName ref="p5750">Martino</persName><note xml:id="fnc" type="footnote" n="c"><hi>Am Rande</hi> Martinus Mannhart, Waldensis pastor.</note><note xml:id="fn5" type="footnote" n="5"><persName>Martin Manhart</persName>.</note>, arbitror, apud clarissimum senatum, quod post illud factum, de quo iurę concertabitur, admissum est.</s>
 					<s n="7" xml:lang="la" type="auto">Ceterum pro virili (quod petis) vigilabo et optimos quosque istarum rerum faciam participes.</s>
 					<s n="8" xml:lang="la" type="auto">Quodsi caro pro ingenio suo mentita fuerit, non tamen de divina constantia, veritate protectioneque desperandum est.</s>
 				</p>

@@ -6,32 +6,31 @@
 				<title subtype="file">Johannes Calvin / Genf AN [Heinrich Bullinger], [27. Dezember 1562]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6148/235</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Nachschrift" subtype="Autograph__(Entwurf)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive38">
+						<repository ref="a38">
 							<name>Genf BPU</name>
 							<ref target="http://institutions.ville-geneve.ch/fr/bge/"/>
 						</repository>
-						<settlement ref="place167">Genf</settlement>
+						<settlement ref="l167">Genf</settlement>
 						<institution>Bibliothèque publique et universitaire</institution>
 						-->
-						<repository ref="archive38"/>
+						<repository ref="a38"/>
 						<idno subtype="Autograph__(Entwurf)">Ms. lat. 107 A, fo 279-280</idno>
 						<idno subtype="Hinweis">Entwurf und Kopien irrt. datiert «1563» Dezember 27.</idno>
 					</msIdentifier>
@@ -45,7 +44,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XIX, S. 600ff, Nr. 3886</title>
+								<title>C.O. XIX, S.600ff, Nr. 3886</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>Schwarz, Calvins Lebenswerk II 416-..., Nr. 716</title>
@@ -56,28 +55,28 @@
 				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive38">
+						<repository ref="a38">
 							<name>Genf BPU</name>
 							<ref target="http://institutions.ville-geneve.ch/fr/bge/"/>
 						</repository>
-						<settlement ref="place167">Genf</settlement>
+						<settlement ref="l167">Genf</settlement>
 						<institution>Bibliothèque publique et universitaire</institution>
 						-->
-						<repository ref="archive38"/>
+						<repository ref="a38"/>
 						<idno subtype="Kopie">Ms. lat. 107 A, fo 289</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive13">
+						<repository ref="a13">
 							<name>Bern StA</name>
 							<ref target="https://www.staatsarchiv.sta.be.ch/de/start.html"/>
 						</repository>
-						<settlement ref="place41">Bern</settlement>
+						<settlement ref="l41">Bern</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive13"/>
+						<repository ref="a13"/>
 						<idno subtype="Kopie">B III 61, p. 1150-1153</idno>
 						<altIdentifier>
 							<idno subtype="Kopie">CA VI 32</idno>
@@ -89,7 +88,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5557">
 				<correspAction type="sent">
-					<persName ref="person540" cert="high">
+					<persName ref="p540" cert="high">
 						<!--
 						<surname cert="high">Calvin</surname>
 						<forename cert="high">Johannes</forename>
@@ -99,11 +98,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11418245"/>
 						-->
 					</persName>
-					<placeName source="place167" cert="high"><orig>Genf</orig></placeName>
+					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 					<date when="1562-12-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -140,7 +139,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

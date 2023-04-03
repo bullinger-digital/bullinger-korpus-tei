@@ -6,32 +6,31 @@
 				<title subtype="file">[Franciscus Hotomannus] / [Strassburg] AN Heinrich Bullinger / Zürich, 22. September 1556</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">4368/262</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive71">
+						<repository ref="a71">
 							<name>Paris BN</name>
 							<ref target="https://www.bnf.fr/fr"/>
 						</repository>
-						<settlement ref="place378">Paris</settlement>
+						<settlement ref="l378">Paris</settlement>
 						<institution>Nationalbibliothek</institution>
 						-->
-						<repository ref="archive71"/>
+						<repository ref="a71"/>
 						<idno subtype="Autograph">Cod. lat. 8586, f. 9r-v</idno>
 						<idno subtype="Xeroxkopie">IRG</idno>
 					</msIdentifier>
@@ -44,7 +43,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>C.O. XVI, S. 301f, Nr. 2839</title>
+								<title>C.O. XVI, S.301f, Nr. 2839</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
 								<title>Hotomanorum Epistolae 9-10, Nr. 8</title>
@@ -61,15 +60,16 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 358,240b, 242</idno>
+						<idno subtype="Hinweis">Beginn Blattmitte</idno>
 					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
@@ -77,7 +77,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3019">
 				<correspAction type="sent">
-					<persName ref="person1614" cert="low">
+					<persName ref="p1614" cert="low">
 						<!--
 						<surname cert="low">Hotomannus</surname>
 						<forename cert="low">Franciscus</forename>
@@ -88,11 +88,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11452751"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="low"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="low"><orig>Strassburg</orig></placeName>
 					<date when="1556-09-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -102,7 +102,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file3020"/>
@@ -128,7 +128,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

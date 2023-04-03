@@ -18,23 +18,21 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Briefanfang" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive61">
+						<repository ref="a61">
 							<name>Marburg HStA</name>
 							<ref target="https://landesarchiv.hessen.de/"/>
 						</repository>
-						<settlement ref="place311">Marburg</settlement>
+						<settlement ref="l311">Marburg</settlement>
 						<institution>Hessisches Landesarchiv Abteilung Staatsarchiv</institution>
 						-->
-						<repository ref="archive61"/>
-						<idno subtype="Autograph">3 (= PA) 1797, fo 258-259v (259r leer)</idno>
+						<repository ref="a61"/>
+						<idno subtype="Autograph">3 (= PA) 1797, fo 258-259v</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
+						<idno subtype="Hinweis">(259r leer)</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -45,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 178, p 145-163</idno>
 					</msIdentifier>
 				</msDesc>
@@ -61,7 +59,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6841">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1566-07-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1872" cert="high">
+					<persName ref="p1872" cert="high">
 						<!--
 						<surname cert="high">Landgraf von Hessen</surname>
 						<forename cert="high">Philipp</forename>
@@ -85,7 +83,7 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/11859382X"/>
 						-->
 					</persName>
-					<placeName source="place408" cert="high"><orig>Rauschenberg</orig></placeName>
+					<placeName source="l408" cert="high"><orig>Rauschenberg</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file6842"/>
@@ -108,7 +106,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Oporin / Basel AN Heinrich Bullinger, 22. Juli 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1410</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">137</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,48r.-v.</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,35r.-v.</idno>
@@ -48,11 +39,11 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Über die bei <persName ref="person154">Myconius</persName> wohnenden Zürcher Studenten kann dieser selbst
-								besser Auskunft geben. Zählt die in <placeName ref="place97">Basel</placeName> angebotenen Vorlesungen
+								Über die bei <persName ref="p8418">Myconius</persName> wohnenden Zürcher Studenten kann dieser selbst
+								besser Auskunft geben. Zählt die in <placeName>Basel</placeName> angebotenen Vorlesungen
 								auf. Seine eigene Vorlesung besucht nur ein einziger Zürcher; die übrigen ziehen vielleicht das
 								Selbststudium vor. Bei den Medizinern kommen Unterbrechungen des Lehrbetriebs häufig vor; er selbst versucht
-								die wenigen Ausfälle zu kompensieren. Vom Tag zu <placeName ref="place447">Hagenau</placeName> können
+								die wenigen Ausfälle zu kompensieren. Vom Tag zu <placeName>Hagenau</placeName> können
 								andere mehr berichten.
 							</p>
 						</summary>
@@ -60,13 +51,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1410, S.137</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11453">
 				<correspAction type="sent">
-					<persName ref="person2380" cert="high">
+					<persName ref="p2380" cert="high">
 						<!--
 						<surname cert="high">Oporin</surname>
 						<forename cert="high">Johannes</forename>
@@ -77,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11483819"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1540-07-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,30 +113,34 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="11453/Autograph/00__E_II_336__fol__48_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="11453/Autograph/01__E_II_336__fol__48_v_.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Quod me hortaris<note xml:id="fn1" type="footnote" n="1">Ein entsprechender Brief Bullingers ist nicht vorhanden.</note>, doctissime Bullingere, ut de puerorum vestrorum apud <persName ref="person154">Myconium</persName> iam agentium<note xml:id="fn2" type="footnote" n="2"><persName ref="person2274">Konrad Suter</persName>, <persName ref="person1959">Christoph Rotacher</persName> und <persName ref="person2519">Christian Wirth</persName>; vgl. oben <ref target="file11420">Nr. 1377</ref>, Anm.1.</note> studiis deque publicis etiam lectionibus nostris ad te certi aliquid scribam, libenter certe facerem, nisi vel odiosum esset de aliorum vel neglectu vel etiam diligentia nimis curiose inquirere, eorum dico, quorum cura sit aliis commissa, vel si per privatas etiam occupationes mihi, quid ab aliis agatur, inspicere atque observare liberum esset.</s>
+					<s n="2" xml:lang="la" type="auto">Quod me hortaris<note xml:id="fn1" type="footnote" n="1">Ein entsprechender Brief Bullingers ist nicht vorhanden.</note>, doctissime Bullingere, ut de puerorum vestrorum apud <persName ref="p8418">Myconium</persName> iam agentium<note xml:id="fn2" type="footnote" n="2"><persName>Konrad Suter</persName>, <persName>Christoph Rotacher</persName> und <persName>Christian Wirth</persName>; vgl. oben <ref target="file11420">Nr. 1377</ref>, Anm.1.</note> studiis deque publicis etiam lectionibus nostris ad te certi aliquid scribam, libenter certe facerem, nisi vel odiosum esset de aliorum vel neglectu vel etiam diligentia nimis curiose inquirere, eorum dico, quorum cura sit aliis commissa, vel si per privatas etiam occupationes mihi, quid ab aliis agatur, inspicere atque observare liberum esset.</s>
 					<s n="3" xml:lang="la" type="auto">Itaque, quas lectiones vel audiant vel non audiant, affirmare citius ac verius ignorare me quam scire possim.</s>
-					<s n="4" xml:lang="la" type="auto">Puto autem <persName ref="person154">Myconium</persName>, eorum hospitem, nequaquam ipsos negligere.</s>
+					<s n="4" xml:lang="la" type="auto">Puto autem <persName ref="p8418">Myconium</persName>, eorum hospitem, nequaquam ipsos negligere.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Alioqui certe lectiones publicę sunt satis multae: In dialecticis quotidie praelegit <persName ref="person360">Hieronymus</persName> Rhetus<note xml:id="fn3" type="footnote" n="3"><persName ref="person360">Hieronymus Artulf</persName>.</note>, in iure <persName ref="person6">Amerbachius</persName>, in philosophia Aristotelica <persName ref="person950">Gemusaeus</persName>, in oratoria sive <persName ref="person632">Ciceronis</persName> orationibus Affinius<note xml:id="fn4" type="footnote" n="4"><persName ref="person283">Johannes Afinius</persName> (Affinius, Avinius), gest. 1541, aus <placeName ref="place93">Uri</placeName>, immatrikulierte sich 1538 an der Basler Universität und wurde 1540 Professor für Rhetorik, Dekan der Artistenfakultät sowie Corregens des Augustinerkollegs. - Lit.: <placeName ref="place97">Basel</placeName>, Matrikel II 18, Nr. 30; Rudolf <hi>Thommen,</hi> Geschichte der Universität <placeName ref="place97">Basel</placeName> 1532-1632, <placeName ref="place97">Basel</placeName> 1889, S. 355f, Nr. 11.</note>, in mathematicis Vitus<note xml:id="fn5" type="footnote" n="5"><persName ref="person56">Veit Ardüser</persName>.</note>, in Hebraicis Monsterus<note xml:id="fn6" type="footnote" n="6"><persName ref="person158">Sebastian Münster</persName>.</note>, in Gręcis ego, in theologia <persName ref="person117">Carolstadius</persName> et <persName ref="person81">Grynaeus</persName> alternis septimanis.</s>
+					<s n="5" xml:lang="la" type="auto">Alioqui certe lectiones publicę sunt satis multae: In dialecticis quotidie praelegit <persName ref="p4208">Hieronymus</persName> Rhetus<note xml:id="fn3" type="footnote" n="3"><persName>Hieronymus Artulf</persName>.</note>, in iure <persName ref="p164">Amerbachius</persName>, in philosophia Aristotelica <persName ref="p4924">Gemusaeus</persName>, in oratoria sive <persName>Ciceronis</persName> orationibus Affinius<note xml:id="fn4" type="footnote" n="4"><persName>Johannes Afinius (Affinius, Avinius)</persName>, gest. 1541, aus <placeName>Uri</placeName>, immatrikulierte sich 1538 an der Basler Universität und wurde 1540 Professor für Rhetorik, Dekan der Artistenfakultät sowie Corregens des Augustinerkollegs. - Lit.: <placeName>Basel</placeName>, Matrikel II 18, Nr. 30; Rudolf <hi>Thommen,</hi> Geschichte der Universität <placeName>Basel</placeName> 1532-1632, <placeName>Basel</placeName> 1889, S. 355f, Nr. 11.</note>, in mathematicis Vitus<note xml:id="fn5" type="footnote" n="5"><persName>Veit Ardüser</persName>.</note>, in Hebraicis Monsterus<note xml:id="fn6" type="footnote" n="6"><persName>Sebastian Münster</persName>.</note>, in Gręcis ego, in theologia <persName ref="p4349">Carolstadius</persName> et <persName ref="p1365">Grynaeus</persName> alternis septimanis.</s>
 					<s n="6" xml:lang="la" type="auto">Taceo lectiones paedagogii, quas omnium minime cessare arbitror.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">De mea possum dicere puerorum vestrorum unum tantum adesse ei interdum solere, et ita facilis alioqui est autor, quem praelegimus, ut privato studio assequi facillime possint neque interprete forte alio aut viva enarrantis voce habere opus videantur.</s>
 					<s n="8" xml:lang="la" type="auto">Forsitan autem domi privatis studiis, qui fere Tigurinorum hactenus apud nos degentium mos fuit, plus se proficere quam<pb type="edition" next="138"/> audiendis aliis posse putant.<pb type="scan" next="35v."/></s>
-					<s n="9" xml:lang="la" type="auto">Quicquid est, dicere certo nec possum nec, si possem, libenter in alterius messem falcem immittere meam vellem<note xml:id="fn7" type="footnote" n="7">Vgl. Adagia, 1, 4, 41 (LB II 167f).</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Quicquid est, dicere certo nec possum nec, si possem, libenter in alterius messem falcem immittere meam vellem<note xml:id="fn7" type="footnote" n="7">Vgl. Adagia, 1, 4, 41 (<bibl>LB</bibl> II 167f).</note>.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">De cessatione item aliorum professorum nihil affirmare certi queo, nisi solorum medicorum, quibus a praelectionibus abstinere, cum duo<note xml:id="fn8" type="footnote" n="8"><persName ref="person578">Oswald Bär</persName> und <persName ref="person2181">Sebastian Sinckeler</persName>; vgl. <hi>Thommen,</hi> aaO, S. 212f.</note> tamen sint, ita<note xml:id="fnb" type="footnote" n="b"><hi>nach</hi> ita <hi>ein gestrichener Wortanfang.</hi></note> frequens est ut nihil magis.</s>
-					<s n="11" xml:lang="la" type="auto">Ego toto hoc anno non cessavi quam eo tempore, quo et apud vos fui, et nunc per octo dies, dum Hagenoam essem profectus, pro qua neglectione totum iam mensem, quo alioqui quiescere etiam academię privilegio licebat<note xml:id="fn9" type="footnote" n="9">Vgl. <hi>Thommen,</hi> aaO, S. 40.</note>, lectionem meam continuo, nempe quia summo mane minus nobis infestus esse calor ille<note xml:id="fn10" type="footnote" n="10">Die außergewöhnliche Hitze dieses Sommers vermerkt auch Bullinger in seinem Diarium; s. HBD 28, 1-30.</note> potest.</s>
+					<s n="10" xml:lang="la" type="auto">De cessatione item aliorum professorum nihil affirmare certi queo, nisi solorum medicorum, quibus a praelectionibus abstinere, cum duo<note xml:id="fn8" type="footnote" n="8"><persName>Oswald Bär</persName> und <persName>Sebastian Sinckeler</persName>; vgl. <hi>Thommen,</hi> aaO, S. 212f.</note> tamen sint, ita<note xml:id="fnb" type="footnote" n="b"><hi>nach</hi> ita <hi>ein gestrichener Wortanfang.</hi></note> frequens est ut nihil magis.</s>
+					<s n="11" xml:lang="la" type="auto">Ego toto hoc anno non cessavi quam eo tempore, quo et apud vos fui, et nunc per octo dies, dum Hagenoam essem profectus, pro qua neglectione totum iam mensem, quo alioqui quiescere etiam academię privilegio licebat<note xml:id="fn9" type="footnote" n="9">Vgl. <hi>Thommen,</hi> aaO, S. 40.</note>, lectionem meam continuo, nempe quia summo mane minus nobis infestus esse calor ille<note xml:id="fn10" type="footnote" n="10">Die außergewöhnliche Hitze dieses Sommers vermerkt auch Bullinger in seinem Diarium; s. <bibl>HBD</bibl> 28, 1-30.</note> potest.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Haec habui, doctissime atque humanissime Bullingere, quę super interrogatis tuis subito<note xml:id="fnc" type="footnote" n="c"><hi>nach</hi> subito <hi>ein gestrichener Wortanfang.</hi></note> nimisque tumultuanter responderem.</s>
@@ -148,13 +150,13 @@
 					<s n="14" xml:lang="la" type="auto">Vale meque redamare, ut facis, perge.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, 22. iulii 1540.</s>
+					<s n="15" xml:lang="la" type="auto"><placeName>Basileę</placeName>, 22. iulii 1540.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person161">Ioan. Oporinus</persName> tuus.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8126">Ioan. Oporinus</persName> tuus.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">De rebus Hagenoicis melius ex Quirino<note xml:id="fn11" type="footnote" n="11">Quirinus von Leiden.</note> intelliges et amicorum literis; nam ego, quod vel narratione dignum sit, nihil vidi.</s>
+					<s n="17" xml:lang="la" type="auto">De rebus Hagenoicis melius ex Quirino<note xml:id="fn11" type="footnote" n="11"><persName>Quirinus von Leiden</persName>.</note> intelliges et amicorum literis; nam ego, quod vel narratione dignum sit, nihil vidi.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>

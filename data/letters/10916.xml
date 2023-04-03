@@ -6,40 +6,31 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, kurz vor 11. August 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2004</date>
-				<idno subtype="ISBN">ISBN 3-290-17316-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=876</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X (Ergänzungsband)</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Addenda und Gesamtregister zu Band 1-10</biblScope>
-				<biblScope unit="page">61</biblScope>
-				<biblScope unit="pages">175</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Ergänzungsband A (Addenda und Gesamtregister zu Band 1-10), Bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2004, 175 S., ISBN 3-290-17316-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,213</idno>
 					</msIdentifier>
 					<msContents>
@@ -54,13 +45,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10A, Nr. 876a, S.61</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10916">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -73,7 +71,7 @@
 					<date when="1536-08-11" cert="low">kurz vor 11. August 1536</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -107,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,7 +124,7 @@
 				<p>
 					<s n="5" xml:lang="la" type="auto">Proinde, sicubi convenire vis, adero magno studio.</s>
 					<s n="6" xml:lang="la" type="auto">Utinam Bernatibus esset concordię studium amplius!</s>
-					<s n="7" xml:lang="la" type="auto">Quid opus adeo est sine nobis de concordia statuere atque tumultuari, quasi decedere nos a<pb type="edition" next="62"/> confessione recepta velimus<note xml:id="fn3" type="footnote" n="3">Vermutlich bezieht sich Grynäus auf den Widerstand Berns gegen eine Anerkennung der Confessio Tetrapolitana; vgl. HBBW VI <ref target="file10856">[Nr. 817]</ref>, S. 282, Anm. 5.</note>?</s>
+					<s n="7" xml:lang="la" type="auto">Quid opus adeo est sine nobis de concordia statuere atque tumultuari, quasi decedere nos a<pb type="edition" next="62"/> confessione recepta velimus<note xml:id="fn3" type="footnote" n="3">Vermutlich bezieht sich Grynäus auf den Widerstand Berns gegen eine Anerkennung der Confessio Tetrapolitana; vgl. <bibl>HBBW</bibl> VI <ref target="file10856">[Nr. 817]</ref>, S. 282, Anm. 5.</note>?</s>
 					<s n="8" xml:lang="la" type="auto">Sed frustra iam hęc.</s>
 					<s n="9" xml:lang="la" type="auto">Da operam, ut vere in domino coalescamus animis, quae difficultas summa semper fuit ac, nisi fallor, futura est semper.</s>
 					<s n="10" xml:lang="la" type="auto">Haud multum nobis res discrepat, si non sit aliquid in animis semper infestum.</s>
@@ -141,7 +139,7 @@
 					<s n="15" xml:lang="la" type="auto">Tuus frater in Christo Gryneus.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Saluta Theodorum<note xml:id="fn5" type="footnote" n="5">Theodor Bibliander.</note>, fratres omnes.</s>
+					<s n="16" xml:lang="la" type="auto">Saluta Theodorum<note xml:id="fn5" type="footnote" n="5"><persName>Theodor Bibliander</persName>.</note>, fratres omnes.</s>
 					<s n="17" xml:lang="la" type="auto">Valete in domino omnes.</s>
 				</p>
 				<p>

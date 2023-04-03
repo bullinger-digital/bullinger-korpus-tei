@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 7. April 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=786</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">215</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,170</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,151</idno>
@@ -49,10 +40,10 @@
 						<summary>
 							<p xml:id="regest1">
 								Der angebliche Plan des Papstes, den Kaiser gefangenzunehmen, hat ihn erheitert. Hat das Bekenntnis
-								<placeName ref="place1049">Straßburgs</placeName> [die Confessio Tetrapolitana] einst gesehen, von
-								<persName ref="person28">Bucers</persName> Apologie [des Bekenntnisses] jedoch noch nie gehört; keine
-								dieser Schriften ist in <placeName ref="place97">Basel</placeName> zu finden. Mehr kann er zurzeit nicht
-								schreiben. Einige Buchhändler haben Schiffbruch erlitten. <persName ref="person81">Grynäus</persName> hat
+								<placeName>Straßburgs</placeName> [die Confessio Tetrapolitana] einst gesehen, von
+								<persName ref="p467">Bucers</persName> Apologie [des Bekenntnisses] jedoch noch nie gehört; keine
+								dieser Schriften ist in <placeName>Basel</placeName> zu finden. Mehr kann er zurzeit nicht
+								schreiben. Einige Buchhändler haben Schiffbruch erlitten. <persName ref="p1365">Grynäus</persName> hat
 								als sein Nachfolger die Professur für Neues Testament übernommen.
 							</p>
 						</summary>
@@ -60,13 +51,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 786, S.215</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10825">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -77,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1536-04-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,8 +130,8 @@
 					<s n="3" xml:lang="la" type="auto">Timeo, ne verum sit facinus tam nobile.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Argentinensium confessionem<note xml:id="fn2" type="footnote" n="2">Die Confessio Tetrapolitana; s. ebd., Z. 7-17 mit Anm. 3.</note> aliquando vidi, de apologia<note xml:id="fn3" type="footnote" n="3"><persName ref="person28">Bucers</persName> Apologie der Tetrapolitana; s. ebd., Anm. 4.</note> ne verbum quidem audivi unquam.</s>
-					<s n="5" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName> nec confessio est nec apologia.</s>
+					<s n="4" xml:lang="la" type="auto">Argentinensium confessionem<note xml:id="fn2" type="footnote" n="2">Die Confessio Tetrapolitana; s. ebd., Z. 7-17 mit Anm. 3.</note> aliquando vidi, de apologia<note xml:id="fn3" type="footnote" n="3"><persName ref="p18198">Bucers</persName> Apologie der Tetrapolitana; s. ebd., Anm. 4.</note> ne verbum quidem audivi unquam.</s>
+					<s n="5" xml:lang="la" type="auto"><placeName>Basileae</placeName> nec confessio est nec apologia.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Quod et rarius et brevius scribo, quęso, ne te moveat.</s>
@@ -141,20 +139,20 @@
 					<s n="8" xml:lang="la" type="auto">Dabitur, ut omnia sarciam.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Naufragium librarii quidam fecerunt infra Argentinam<note xml:id="fn4" type="footnote" n="4">Über das Unglück, das den Buchhändlern offenbar auf dem Weg zur <placeName ref="place361">Frankfurter</placeName> Frühjahrsmesse zugestoßen war, ist nichts Näheres bekannt.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Naufragium librarii quidam fecerunt infra Argentinam<note xml:id="fn4" type="footnote" n="4">Über das Unglück, das den Buchhändlern offenbar auf dem Weg zur <placeName>Frankfurter</placeName> Frühjahrsmesse zugestoßen war, ist nichts Näheres bekannt.</note>.</s>
 					<s n="10" xml:lang="la" type="auto">Grave dicunt, at nondum constat, quibus id mali acciderit.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto"><persName ref="person81">Grynęus</persName> theologus factus in praelegendo novo testamento mihi successit<note xml:id="fn5" type="footnote" n="5">Vgl. oben <ref target="file10815">Nr. 777</ref>, 19-21 mit Anm. 7.</note>.</s>
+					<s n="11" xml:lang="la" type="auto"><persName ref="p1365">Grynęus</persName> theologus factus in praelegendo novo testamento mihi successit<note xml:id="fn5" type="footnote" n="5">Vgl. oben <ref target="file10815">Nr. 777</ref>, 19-21 mit Anm. 7.</note>.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Raptim, <placeName ref="place97">Basileae</placeName>, 7. aprilis anno 36.</s>
+					<s n="13" xml:lang="la" type="auto">Raptim, <placeName>Basileae</placeName>, 7. aprilis anno 36.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="person154">Myconius</persName>.</s>
+					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="p8418">Myconius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

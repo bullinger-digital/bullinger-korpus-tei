@@ -6,46 +6,37 @@
 				<title subtype="file">[Heinrich Bullinger] / Kappel am Albis AN Rudolf Weingartner, 15. Oktober 1524</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">48</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph__(Kopie)">Ms A 82,50r-52v 5 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Freut sich über <persName ref="person237">Weingartners</persName> Neigung zur Reformation, erinnert ihn an
+								Freut sich über <persName ref="p3873">Weingartners</persName> Neigung zur Reformation, erinnert ihn an
 								seine Pflichten als Hirte und Verkünder des Gotteswortes, und beschwört ihn, im begonnenen Werk mutig
 								fortzufahren.
 							</p>
@@ -58,13 +49,20 @@
 					<physDesc>
 						<objectDesc><p>sehr gut erhalten</p></objectDesc>
 					</physDesc>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 2, S.48</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10017">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place242" cert="high"><orig>Kappel am Albis</orig></placeName>
+					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1524-10-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3873" cert="high">
+					<persName ref="p3873" cert="high">
 						<!--
 						<surname cert="high">Weingartner</surname>
 						<forename cert="high">Rudolf</forename>
@@ -105,14 +103,14 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person237">Rodolpho Wingartero</persName> suo in Christo fratri dilectissimo.</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p3873">Rodolpho Wingartero</persName> suo in Christo fratri dilectissimo.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Benedictio filli dei et domini nostri Jesu Christi sit super te, frater in Christo charissime.</s>
@@ -122,7 +120,7 @@
 					<s n="4" xml:lang="la" type="auto">Macte ergo virtute dei, sic itur ad astra<note xml:id="fn2" type="footnote" n="2">Vgl. Otto 43, Nr. 197.</note>!</s>
 					<s n="5" xml:lang="la" type="auto">Evangelion predicas, egregie facis: spetiosissima tuae tuorumque<note xml:id="fn3" type="footnote" n="3">nämlich seiner Gemeinde.</note> salutis iacta sunt fundamenta.</s>
 					<s n="6" xml:lang="la" type="auto">Quid autem hortari incipiam, ut rem divino spiritu inchoatam absolvas, qui id animo moribusque tuis de te spondeas, nihil recusaturum, quod faciat et ad gloriam Christi et ad tuarum ovium salutem?</s>
-					<s n="7" xml:lang="la" type="auto">Sic enim ab ineunte juventute seminaria que-<pb type="scan" next="50v."/>dam<note xml:id="fna" type="footnote" n="a"><hi>oben aRvB als fortlaufende Überschrift:</hi> Exhortatio, ut fidelem pastorem agat Wingarterus.</note> exhibuisti, quod dei gloriam et proximi compendium spires, atque ob eam rem mirum, quoties te mecaenas [!] noster Volcatius<note xml:id="fn4" type="footnote" n="4"><persName ref="person113">Wolfgang Joner</persName> (Rüplin, Rüppli), ca. 1471-1531, aus alter Thurgauer Familie, Sohn des Schultheißen von <placeName ref="place363">Frauenfeld</placeName>, gehörte bereits vor dem großen Brand vom 15. Januar 1493 dem Zisterzienserkloster Kappel an (HBAC 443), wahrscheinlich sogar schon seit 1490/91 (AZürcherRef 1735), wurde später Großkellner, 1509 war er Prior (UBZug II 1939), 1519 wurde er an Stelle des an der Pest gestorbenen <persName ref="person2578">Ulrich Wüst</persName> zum Abt gewählt. Anfang 1521 erscheint er als Mitglied des pazifistischen Humanistenkreises um <persName ref="person265">Zwingli</persName>. Die «Querela pacis» des <persName ref="person779">Erasmus</persName> wurde auf seinen Wunsch von <persName ref="person114">Leo Jud</persName> übersetzt (s. Z VII 439 f; Emil <hi>Egli,</hi> <persName ref="person114">Leo Jud</persName> und seine Propagandaschriften, in: Zwa II 165). Auf der Ersten Zürcher Disputation stellte sich Joner entschieden auf <persName ref="person265">Zwinglis</persName> Seite (vgl. Z I 568, 13-16), auf der Zweiten erklärte er sich mit der reformatorischen Lehre «der götzen und bilden halb» und «die meß betreffend ..., das es nit ein opffer ist» völlig einverstanden (Z II 734, 15-32). Zusammen mit <persName ref="person2074">Konrad Schmid</persName> und <persName ref="person24">Heinrich Brennwald</persName> wurde er vom Zürcher Rat mehrmals zu Beratungen bei der Durchführung der Reformation beigezogen (AZürcherRef 456. 532.567; HBRG I 142. 162.295f) und beauftragt, auf der Landschaft zu predigen (s. Z VIII 129f). Ein entscheidender Schritt des Abtes war die Gründung der Klosterschule. Er berief Bullinger am 17. Januar 1523 zum Schulmeister, hielt die Mönche zum Studium der Hl. Schrift und zum züchtigen, frommen Leben an und lud auch andere Schüler zum Studium in Kappel ein, einige sogar aus seiner Heimatstadt <placeName ref="place363">Frauenfeld</placeName> (HBAC 453). An den öffentlichen Vorlesungen, die nicht wenig zur Reformation des Klosters beitrugen, nahm Joner selbst teil und tat alles, um «die guten Kunst und das Heilige Evangelion ze fürdern» (HBAC 452). Vorsichtig und schrittweise führte er die Reformation durch: Am 9. März 1525 wurden die Bilder aus der Klosterkirche entfernt, am 4. September 1525 die Messe abgeschafft und am 29. März 1526 das Abendmahl nach zürcherisch-reformierter Art gefeiert (HBD 10, 16f). Mehrere Mönche heirateten, Joner selbst am 25. Februar 1527, wurden Pfarrer oder erlernten ein Handwerk. Im Jahre 1527 erfolgte die freiwillige Übergabe des Klosters an die Stadt Zürich. In der Urkunde der Übergabe (Zürich StA, C II 4, <ref target="file10647">Nr. 609</ref>; auszugsweise gedruckt bei <hi>Hausammann</hi> 19f) verlangte Joner u. a. weitere Verpflegung und Kleidung für seine Frau im Kloster; sonst bat er um keinen Lohn für sich, bis es mit den Finanzen des Klosters besser stünde, für später stellte er die Lohnfrage dem Zürcher Rat anheim. Das Kloster wurde zu einer Schule für Knaben, die zu Pfarrern oder für den Staatsdienst ausgebildet werden sollten, umgestaltet. Joner behielt die Leitung als Prediger und Verwalter, zusammen mit Prior <persName ref="person200">Peter Simler</persName> (s. unten <ref target="file10020">[Nr. 3]</ref> S. 53, Anm. 2; HBRG II 164). Joner predigte viel und kann als eigentlicher Reformator der Gegend gelten. Seine Rechte als Visitator der Frauenklöster <placeName ref="place1105">Tänikon</placeName> (Kt. Thurgau) und Frauental (Kt. Zug) stellte er ebenfalls in den Dienst der evangelischen Sache (s. unten <ref target="file10023">[Nr. 5]</ref> S. 57, Anm. 1; <hi>Hausammann</hi> 33; ASchweizerRef II 855). An der Reformation des Zisterzienserstiftes <placeName ref="place1186">Wettingen</placeName> (Kt. Aargau) hatte er persönlich Anteil und richtete dort eine Schule nach dem Muster Kappels ein. In recht exponierter Lage an der zugerischen Grenze leistete er Zürich gute Dienste durch Informationen über die Stimmung oder Kriegsvorbereitungen in der feindlichen Nachbarschaft. Seine Verdienste um Zürich wurden am 11. Januar 1531 in einem Leibdingbrief ausdrücklich gewürdigt (AZürcherRef 1735); hier wie auch schon in Gerichtsakten vom 11. Juni 1527 (UBZug II 2360) wird er als Zürcher Bürger bezeichnet. Joner fiel in der Schlacht bei Kappel. Bullinger gegenüber war Joner ein väterlicher Freund (HBD 8,21f), 1530 wurde er Taufpate von dessen Tochter Anna (HBD 19,15); Bullinger verfaßte mehrere Schriften für oder an ihn (s. unten Nr. 3.10.20; Anhang II, Nr. 1.10; vgl. auch Einleitung S. 27); Joner schrieb vertraulich an Bullinger kurz vor dem Zweiten Kappeler Krieg (s. unten Nr. 40). - Lit.: Z X 314f; ASchweizerRef III 264.1522; HBRG I 91f; III 87.104.151; <hi>Pestalozzi</hi> 21. 49f; <hi>Egli,</hi> Affoltern, mit älterer Lit.; Wyss 80; Pfarrerbuch 367; LL X 585; HBLS V 744.</note> pie quidem laudibus vehat; proinde non erat, quod calcaria tibi<pb type="edition" next="49"/> admovere<note xml:id="fn5" type="footnote" n="5">Vgl. Otto 103, Nr. 486.</note> necessarium ducerem.</s>
+					<s n="7" xml:lang="la" type="auto">Sic enim ab ineunte juventute seminaria que-<pb type="scan" next="50v."/>dam<note xml:id="fna" type="footnote" n="a"><hi>oben aRvB als fortlaufende Überschrift:</hi> Exhortatio, ut fidelem pastorem agat Wingarterus.</note> exhibuisti, quod dei gloriam et proximi compendium spires, atque ob eam rem mirum, quoties te mecaenas [!] noster Volcatius<note xml:id="fn4" type="footnote" n="4"><persName>Wolfgang Joner (Rüplin, Rüppli)</persName>, ca. 1471-1531, aus alter Thurgauer Familie, Sohn des Schultheißen von <placeName>Frauenfeld</placeName>, gehörte bereits vor dem großen Brand vom 15. Januar 1493 dem Zisterzienserkloster Kappel an (<bibl>HBAC</bibl> 443), wahrscheinlich sogar schon seit 1490/91 (<bibl>AZürcherRef</bibl> 1735), wurde später Großkellner, 1509 war er Prior (<bibl>UBZug</bibl> II 1939), 1519 wurde er an Stelle des an der Pest gestorbenen <persName>Ulrich Wüst</persName> zum Abt gewählt. Anfang 1521 erscheint er als Mitglied des pazifistischen Humanistenkreises um <persName>Zwingli</persName>. Die «Querela pacis» des <persName>Erasmus</persName> wurde auf seinen Wunsch von <persName ref="p2305">Leo Jud</persName> übersetzt (s. <bibl>Z</bibl> VII 439 f; Emil <hi>Egli,</hi> <persName ref="p2305">Leo Jud</persName> und seine Propagandaschriften, in: <bibl>Zwa</bibl> II 165). Auf der Ersten Zürcher Disputation stellte sich Joner entschieden auf <persName>Zwinglis</persName> Seite (vgl. <bibl>Z</bibl> I 568, 13-16), auf der Zweiten erklärte er sich mit der reformatorischen Lehre «der götzen und bilden halb» und «die meß betreffend ..., das es nit ein opffer ist» völlig einverstanden (<bibl>Z</bibl> II 734, 15-32). Zusammen mit <persName>Konrad Schmid</persName> und <persName ref="p4315">Heinrich Brennwald</persName> wurde er vom Zürcher Rat mehrmals zu Beratungen bei der Durchführung der Reformation beigezogen (<bibl>AZürcherRef</bibl> 456. 532.567; <bibl>HBRG</bibl> I 142. 162.295f) und beauftragt, auf der Landschaft zu predigen (s. <bibl>Z</bibl> VIII 129f). Ein entscheidender Schritt des Abtes war die Gründung der Klosterschule. Er berief Bullinger am 17. Januar 1523 zum Schulmeister, hielt die Mönche zum Studium der Hl. Schrift und zum züchtigen, frommen Leben an und lud auch andere Schüler zum Studium in Kappel ein, einige sogar aus seiner Heimatstadt <placeName>Frauenfeld</placeName> (<bibl>HBAC</bibl> 453). An den öffentlichen Vorlesungen, die nicht wenig zur Reformation des Klosters beitrugen, nahm Joner selbst teil und tat alles, um «die guten Kunst und das Heilige Evangelion ze fürdern» (<bibl>HBAC</bibl> 452). Vorsichtig und schrittweise führte er die Reformation durch: Am 9. März 1525 wurden die Bilder aus der Klosterkirche entfernt, am 4. September 1525 die Messe abgeschafft und am 29. März 1526 das Abendmahl nach zürcherisch-reformierter Art gefeiert (<bibl>HBD</bibl> 10, 16f). Mehrere Mönche heirateten, Joner selbst am 25. Februar 1527, wurden Pfarrer oder erlernten ein Handwerk. Im Jahre 1527 erfolgte die freiwillige Übergabe des Klosters an die Stadt Zürich. In der Urkunde der Übergabe (Zürich StA, C II 4, <ref target="file10647">Nr. 609</ref>; auszugsweise gedruckt bei <bibl>Hausammann</bibl> 19f) verlangte Joner u. a. weitere Verpflegung und Kleidung für seine Frau im Kloster; sonst bat er um keinen Lohn für sich, bis es mit den Finanzen des Klosters besser stünde, für später stellte er die Lohnfrage dem Zürcher Rat anheim. Das Kloster wurde zu einer Schule für Knaben, die zu Pfarrern oder für den Staatsdienst ausgebildet werden sollten, umgestaltet. Joner behielt die Leitung als Prediger und Verwalter, zusammen mit Prior <persName>Peter Simler</persName> (s. unten <ref target="file10020">[Nr. 3]</ref> S. 53, Anm. 2; <bibl>HBRG</bibl> II 164). Joner predigte viel und kann als eigentlicher Reformator der Gegend gelten. Seine Rechte als Visitator der Frauenklöster <placeName>Tänikon</placeName> (Kt. Thurgau) und Frauental (Kt. Zug) stellte er ebenfalls in den Dienst der evangelischen Sache (s. unten <ref target="file10023">[Nr. 5]</ref> S. 57, Anm. 1; <bibl>Hausammann</bibl> 33; ASchweizerRef II 855). An der Reformation des Zisterzienserstiftes <placeName>Wettingen</placeName> (Kt. Aargau) hatte er persönlich Anteil und richtete dort eine Schule nach dem Muster Kappels ein. In recht exponierter Lage an der zugerischen Grenze leistete er Zürich gute Dienste durch Informationen über die Stimmung oder Kriegsvorbereitungen in der feindlichen Nachbarschaft. Seine Verdienste um Zürich wurden am 11. Januar 1531 in einem Leibdingbrief ausdrücklich gewürdigt (<bibl>AZürcherRef</bibl> 1735); hier wie auch schon in Gerichtsakten vom 11. Juni 1527 (<bibl>UBZug</bibl> II 2360) wird er als Zürcher Bürger bezeichnet. Joner fiel in der Schlacht bei Kappel. Bullinger gegenüber war Joner ein väterlicher Freund (<bibl>HBD</bibl> 8,21f), 1530 wurde er Taufpate von dessen Tochter Anna (<bibl>HBD</bibl> 19,15); Bullinger verfaßte mehrere Schriften für oder an ihn (s. unten Nr. 3.10.20; Anhang II, Nr. 1.10; vgl. auch Einleitung S. 27); Joner schrieb vertraulich an Bullinger kurz vor dem Zweiten Kappeler Krieg (s. unten Nr. 40). - Lit.: <bibl>Z</bibl> X 314f; ASchweizerRef III 264.1522; <bibl>HBRG</bibl> I 91f; III 87.104.151; <bibl>Pestalozzi</bibl> 21. 49f; <hi>Egli,</hi> Affoltern, mit älterer Lit.; Wyss 80; Pfarrerbuch 367; <bibl>LL</bibl> X 585; <bibl>HBLS</bibl> V 744.</note> pie quidem laudibus vehat; proinde non erat, quod calcaria tibi<pb type="edition" next="49"/> admovere<note xml:id="fn5" type="footnote" n="5">Vgl. Otto 103, Nr. 486.</note> necessarium ducerem.</s>
 					<s n="8" xml:lang="la" type="auto">Facit tamen incredibilis quidam erga te ardor meus, ut currentem, quod aiunt, incitare<note xml:id="fn6" type="footnote" n="6">Vgl. Otto 102, Nr. 486.</note> compellar.</s>
 					<s n="9" xml:lang="la" type="auto">I bone, quo virtus dei te vocat, i pede fausto!</s>
 					<s n="10" xml:lang="la" type="auto">Ea certe te nunc aetas tenet, ut possis judicare extincto calore et praecipitantia iuvenili, quae vera piaque doctrina et quid ovibus tuis aut comodo sit aut incomodo.</s>
@@ -199,7 +197,7 @@
 					<s n="71" xml:lang="la" type="auto">Et quid durum, quid difficile reputares, quod mollit et levigat spiritus ille dei corda nostra renovans et fortificans?<note xml:id="fn16" type="footnote" n="16">Vgl. Joh 14,16ff u. ö.</note></s>
 					<s n="72" xml:lang="la" type="auto">Clamat Paulus: «Omnia possum in eo, qui me confortat».</s>
 					<s n="73" xml:lang="la" type="auto">Quid vero praemium describere pergam, cum «oculus non viderit nec auris audierit, quae dominus praeparaverit diligentibus se»?</s>
-					<s n="74" xml:lang="la" type="auto">Et si non plura, certe vel hoc pręstat diligens ovium custodia et digna verbi dei tractatio, ut cum Paulo possimus in ultima illa necessitate, quando mundus nutat, amici ad auxilium torpent, divitiae evanescunt et omnia mundana pereunt<note xml:id="fn18" type="footnote" n="18">Vgl. Mt 24,5ff u. par.</note>, interim sola et misera anima nunquam moriens<note xml:id="fn19" type="footnote" n="19">Zur Lehre von der Unsterblichkeit der Seele bei Bullinger s. <hi>Staedtke</hi> 258 f.</note> et tamen morti destinata ei sistitur iudici, qui unicuique retribuit iuxta sua studia; ut, inquam, tum possimus dicere: «Mihi vita Christus est et mors lucrum», «cupio dissolvi et esse cum Christo».</s>
+					<s n="74" xml:lang="la" type="auto">Et si non plura, certe vel hoc pręstat diligens ovium custodia et digna verbi dei tractatio, ut cum Paulo possimus in ultima illa necessitate, quando mundus nutat, amici ad auxilium torpent, divitiae evanescunt et omnia mundana pereunt<note xml:id="fn18" type="footnote" n="18">Vgl. Mt 24,5ff u. par.</note>, interim sola et misera anima nunquam moriens<note xml:id="fn19" type="footnote" n="19">Zur Lehre von der Unsterblichkeit der Seele bei Bullinger s. <bibl>Staedtke</bibl> 258 f.</note> et tamen morti destinata ei sistitur iudici, qui unicuique retribuit iuxta sua studia; ut, inquam, tum possimus dicere: «Mihi vita Christus est et mors lucrum», «cupio dissolvi et esse cum Christo».</s>
 					<s n="75" xml:lang="la" type="auto">Nam «bonum certamen certavi, cursum consumavi, fidem servavi.</s>
 					<s n="76" xml:lang="la" type="auto">Quod superest, reposita est mihi iustitiae corona, quam reddet mihi dominus <pb type="scan" next="||__52v."/> in<note xml:id="fnh" type="footnote" n="h"><hi>oben aRvB als Überschrift:</hi> Epistola paranetica [!] ad Wingarterum.</note> illa die, qui est iustus iudex, non solum autem mihi, sed et omnibus, qui diligunt adventum ipsius».</s>
 				</p>
@@ -208,7 +206,7 @@
 					<s n="78" xml:lang="la" type="auto">Deus pacis, misericordiae et infinitae gratiae corroboret te et instituat iuxta ipsius sanctissimam voluntatem<note xml:id="fn25" type="footnote" n="25">Vgl. Hebr 13,20f; 1 Petr 5, 10.</note>.</s>
 				</p>
 				<p>
-					<s n="79" xml:lang="la" type="auto"><placeName ref="place534">Cappellae</placeName>, 15. octobris anno ab orbe redempto 1524.</s>
+					<s n="79" xml:lang="la" type="auto"><placeName>Cappellae</placeName>, 15. octobris anno ab orbe redempto 1524.</s>
 				</p>
 				<p>
 					<s n="80" xml:lang="la" type="auto">Salvum te volunt fratres in Christo omnes.</s>

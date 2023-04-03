@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file237" type="Nachschrift" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file237" type="Verweis" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Joachim Vadian] / [St. Gallen] AN [Heinrich Bullinger] / [Zürich], s.d.</title>
+				<title subtype="file">[Joachim Vadian] / [St. Gallen] AN [Heinrich Bullinger] / [Zürich], [20. August 1548]</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -18,22 +18,20 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Verweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 351,138</idno>
+						<idno subtype="Hinweis">Nachschrift zu: 1548 August 20. (= ID 236)</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -46,7 +44,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/237">
 				<correspAction type="sent">
-					<persName ref="person3306" cert="low">
+					<persName ref="p3306" cert="low">
 						<!--
 						<surname cert="low">Vadian</surname>
 						<forename cert="low">Joachim</forename>
@@ -57,11 +55,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11425832"/>
 						-->
 					</persName>
-					<placeName source="place474" cert="low"><orig>St. Gallen</orig></placeName>
-					<date notBefore="1504-01-01" notAfter="1575-12-12" cert="low"><note>Nachschrift zu: 1548 August 20. (= ID 236)</note></date>
+					<placeName source="l474" cert="low"><orig>St. Gallen</orig></placeName>
+					<date when="1548-08-20" cert="low"><note>Nachschrift zu: 1548 August 20. (= ID 236)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -71,24 +69,31 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
-					<ref type="next_chronologically" target="file548"/>
-					<ref type="next_correspondence" target="file11492"/>
-					<ref type="next_correspondence_request" target="file11492"/>
-					<ref type="next_correspondence_reaction" target="file10228"/>
-					<ref type="next_same_sender" target="file11492"/>
-					<ref type="next_same_addressee" target="file3049"/>
-					<ref type="next_with_sender_as_addressee" target="file11492"/>
-					<ref type="next_with_addressee_as_sender" target="file3049"/>
-					<ref type="child" target="file236"/>
+					<ref type="next_chronologically" target="file238"/>
+					<ref type="prev_chronologically" target="file236"/>
+					<ref type="next_correspondence" target="file249"/>
+					<ref type="prev_correspondence" target="file236"/>
+					<ref type="next_correspondence_request" target="file249"/>
+					<ref type="prev_correspondence_request" target="file236"/>
+					<ref type="next_correspondence_reaction" target="file454"/>
+					<ref type="prev_correspondence_reaction" target="file11"/>
+					<ref type="next_same_sender" target="file249"/>
+					<ref type="prev_same_sender" target="file236"/>
+					<ref type="next_same_addressee" target="file240"/>
+					<ref type="prev_same_addressee" target="file216"/>
+					<ref type="next_with_sender_as_addressee" target="file249"/>
+					<ref type="prev_with_sender_as_addressee" target="file236"/>
+					<ref type="next_with_addressee_as_sender" target="file240"/>
+					<ref type="prev_with_addressee_as_sender" target="file216"/>
 					<ref type="parent" target="file236"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

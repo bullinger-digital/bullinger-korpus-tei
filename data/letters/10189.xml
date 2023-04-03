@@ -6,40 +6,31 @@
 				<title subtype="file">Lorenz Meyer / Stammheim AN Heinrich Bullinger, 4. Dezember 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=158</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">277</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,39</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,9 +38,9 @@
 							<p xml:id="regest1">
 								Die Synodaldekrete haben unter den Pfarrern in seiner Gegend Uneinigkeit ausgelöst. Bullinger soll weitere
 								Anweisungen schicken. Berichtet von einer Zusammenkunft der Pfarrer des
-								<placeName ref="place1032">Steiner</placeName> Kapitels, bei der die Verhältnisse in
-								<placeName ref="place604">Laufen</placeName>, <placeName ref="place824">Ossingen</placeName>,
-								<placeName ref="place1025">Stammheim</placeName> und <placeName ref="place1032">Stein</placeName> am
+								<placeName>Steiner</placeName> Kapitels, bei der die Verhältnisse in
+								<placeName>Laufen</placeName>, <placeName>Ossingen</placeName>,
+								<placeName>Stammheim</placeName> und <placeName>Stein</placeName> am
 								Rhein besprochen wurden.
 							</p>
 						</summary>
@@ -57,24 +48,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 158, S.277</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10189">
 				<correspAction type="sent">
-					<persName ref="person2115" cert="high">
+					<persName ref="p2115" cert="high">
 						<!--
 						<surname cert="high">Meyer</surname>
 						<forename cert="high">Lorenz</forename>
 						<persName type="main" ref="person8130>Meyer, Lorenz</persName>
 						-->
 					</persName>
-					<placeName source="place486" cert="high"><orig>Stammheim</orig></placeName>
+					<placeName source="l486" cert="high"><orig>Stammheim</orig></placeName>
 					<date when="1532-12-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,23 +120,23 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem per Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Decreta synodalia tandem habemus, Bullingere doctissime, tuo et Leonis auspitiis emissa<note xml:id="fn2" type="footnote" n="2">Die von Bullinger in Zusammenarbeit mit <persName ref="person114">Jud</persName> verfaßte Prediger- und Synodalordnung wurde von der Herbstsynode am 22. Oktober 1532 verabschiedet und erschien anfangs November desselben Jahres im Druck (HBBibl I 605; gedruckt: AZürcherRef 1899; vgl. auch <hi>Pestalozzi</hi> 132-140; Ulrich <hi>Gäbler,</hi> Heinrich Bullinger und das Verhältnis von Staat und Kirche im Zürich des 16. Jahrhunderts, in: Volkshochschule, 10. Jg., 1976, S. 22-25; Kurt <hi>Maeder,</hi> Bullinger und die Synode, in: Bullinger-Tagung 1975. Vorträge, gehalten aus Anlaß von Heinrich Bullingers 400. Todestag, im Auftrag des Instituts für Schweizerische Reformationsgeschichte hg. v. Ulrich Gäbler und Endre Zsindely, Zürich 1977, S. 72-75).</note>, authoritate senatus munita<note xml:id="fn3" type="footnote" n="3">Die Prediger- und Synodalordnung wurde vom Rat in Form eines Mandates veröffentlicht und erhielt dadurch Rechtskraft, vgl. AZürcherRef 1899, S. 825f.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Decreta synodalia tandem habemus, Bullingere doctissime, tuo et Leonis auspitiis emissa<note xml:id="fn2" type="footnote" n="2">Die von Bullinger in Zusammenarbeit mit <persName ref="p2305">Jud</persName> verfaßte Prediger- und Synodalordnung wurde von der Herbstsynode am 22. Oktober 1532 verabschiedet und erschien anfangs November desselben Jahres im Druck (<bibl>HBBibl</bibl> I 605; gedruckt: <bibl>AZürcherRef</bibl> 1899; vgl. auch <bibl>Pestalozzi</bibl> 132-140; Ulrich <hi>Gäbler,</hi> Heinrich Bullinger und das Verhältnis von Staat und Kirche im Zürich des 16. Jahrhunderts, in: Volkshochschule, 10. Jg., 1976, S. 22-25; Kurt <hi>Maeder,</hi> Bullinger und die Synode, in: Bullinger-Tagung 1975. Vorträge, gehalten aus Anlaß von Heinrich Bullingers 400. Todestag, im Auftrag des Instituts für Schweizerische Reformationsgeschichte hg. v. Ulrich Gäbler und Endre Zsindely, Zürich 1977, S. 72-75).</note>, authoritate senatus munita<note xml:id="fn3" type="footnote" n="3">Die Prediger- und Synodalordnung wurde vom Rat in Form eines Mandates veröffentlicht und erhielt dadurch Rechtskraft, vgl. <bibl>AZürcherRef</bibl> 1899, S. 825f.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Nunc sic fratrum feruntur manibus, sic ancipiti et diverso multorum consilio onerantur, ut quidam ea in sententia, ecclesiis<pb type="edition" next="278"/> minime promulganda, quidam vero maxime, versentur.</s>
 					<s n="4" xml:lang="la" type="auto">Sic alia discordia nata est.</s>
 					<s n="5" xml:lang="la" type="auto">Is perhibet ei inhibitam publicam lectionem, alter contendit nihil minus oportere fieri quam nudam et apertam earum rerum, quę in usum spectent ecclesiarum inhibitionem.</s>
 					<s n="6" xml:lang="la" type="auto">Lucis esse res, non tenebrarum, veritatis, non mendacii, honestatis, non turpitudinis.</s>
 					<s n="7" xml:lang="la" type="auto">Tuum nunc erit et Leonis et fratrum urbis<note xml:id="fn4" type="footnote" n="4">Die Prediger der Stadt Zürich.</note>, hanc sopire novę discordiae discordiam.</s>
-					<s n="8" xml:lang="la" type="auto">Diligentiam, curam et vigilantiam ex epistolis senatus<note xml:id="fn5" type="footnote" n="5">Wohl die Vorrede zur Predigerordnung (AZürcherRef 1899, <hi>S.</hi> 825f).</note> ego collegi, taciturnitatem rerum actarum minime.</s>
+					<s n="8" xml:lang="la" type="auto">Diligentiam, curam et vigilantiam ex epistolis senatus<note xml:id="fn5" type="footnote" n="5">Wohl die Vorrede zur Predigerordnung (<bibl>AZürcherRef</bibl> 1899, <hi>S.</hi> 825f).</note> ego collegi, taciturnitatem rerum actarum minime.</s>
 					<s n="9" xml:lang="la" type="auto">Quapropter ne peccemus omnes, ille vel negligentia, alter vero temeritate, occurrite.</s>
 					<s n="10" xml:lang="la" type="auto">Decanis, fratribus vestris, quid faciundum, rescribite omnes vel tu solus<note xml:id="fn6" type="footnote" n="6">Eine Antwort der Pfarrer oder Bullingers ist nicht bekannt.</note>.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Cęterum et nos, qui ad Rheni fluenta et Durae<note xml:id="fn7" type="footnote" n="7">die <placeName ref="place15">Thur</placeName>.</note> siti sumus, de diacono<note xml:id="fn8" type="footnote" n="8">Unbekannt.</note> pridie congregati<note xml:id="fn9" type="footnote" n="9">Über diese Zusammenkunft ist sonst nichts bekannt.</note> nonnihil tractavimus, rem siquidem honestam, gravem vero propter sustentationem et vitę rationem, hoc est victus tractantes.</s>
+					<s n="11" xml:lang="la" type="auto">Cęterum et nos, qui ad Rheni fluenta et Durae<note xml:id="fn7" type="footnote" n="7">die <placeName>Thur</placeName>.</note> siti sumus, de diacono<note xml:id="fn8" type="footnote" n="8">Unbekannt.</note> pridie congregati<note xml:id="fn9" type="footnote" n="9">Über diese Zusammenkunft ist sonst nichts bekannt.</note> nonnihil tractavimus, rem siquidem honestam, gravem vero propter sustentationem et vitę rationem, hoc est victus tractantes.</s>
 					<s n="12" xml:lang="la" type="auto">Summam negotii ad te remittere placuit.</s>
-					<s n="13" xml:lang="la" type="auto">Aiunt otiosam ad Rheni catapultas sive cataractas<note xml:id="fn10" type="footnote" n="10"><placeName ref="place12">Rheinfall</placeName>. Gemeint ist die Pfarrei <placeName ref="place604">Laufen</placeName> (Kt. Zürich).</note> esse sacellani, ut dicunt, prebendam.</s>
+					<s n="13" xml:lang="la" type="auto">Aiunt otiosam ad Rheni catapultas sive cataractas<note xml:id="fn10" type="footnote" n="10"><placeName>Rheinfall</placeName>. Gemeint ist die Pfarrei <placeName>Laufen</placeName> (Kt. Zürich).</note> esse sacellani, ut dicunt, prebendam.</s>
 					<s n="14" xml:lang="la" type="auto">Macra sitne, pinguis, ignoro.</s>
 					<s n="15" xml:lang="la" type="auto">Hinc iuvari ministrum provincię satis latę et populose non satis potuimus discernere.</s>
-					<s n="16" xml:lang="la" type="auto">Ossingae<note xml:id="fn11" type="footnote" n="11"><placeName ref="place824">Ossingen</placeName> (Kt. Zürich).</note> alia est, sed trunco<note xml:id="fn12" type="footnote" n="12">schwerfälliger, stumpfsinniger Mensch, s. Otto 332, Nr. 1695.</note> potius quam homine gravata<note xml:id="fn13" type="footnote" n="13">Pfarrer von <placeName ref="place824">Ossingen</placeName> war zu jener Zeit <persName ref="person927">Thomas von Gachnang</persName> (s. AZürcherRef 1391.1714, S. 732.1757; Pfarrerbuch 66.290).</note>, Sthammę una, nunc vero sic onerata, ut minime possit tam grave onus<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage irrtümlich</hi> omus.</note> abiicere, Stainiae caenobium<note xml:id="fn14" type="footnote" n="14">Das Benediktinerkloster St. Georgen in <placeName ref="place1032">Stein am Rhein</placeName> (Kt. Schaffhausen) war 1525 aufgehoben worden, doch blieben einige Mönche auch nachher im Kloster, vgl. Wipf 336-339.</note> - quid hinc spei, rerum statu nostrarum sic fluctuante?</s>
+					<s n="16" xml:lang="la" type="auto">Ossingae<note xml:id="fn11" type="footnote" n="11"><placeName>Ossingen</placeName> (Kt. Zürich).</note> alia est, sed trunco<note xml:id="fn12" type="footnote" n="12">schwerfälliger, stumpfsinniger Mensch, s. Otto 332, Nr. 1695.</note> potius quam homine gravata<note xml:id="fn13" type="footnote" n="13">Pfarrer von <placeName>Ossingen</placeName> war zu jener Zeit <persName>Thomas von Gachnang</persName> (s. <bibl>AZürcherRef</bibl> 1391.1714, S. 732.1757; Pfarrerbuch 66.290).</note>, Sthammę una, nunc vero sic onerata, ut minime possit tam grave onus<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage irrtümlich</hi> omus.</note> abiicere, Stainiae caenobium<note xml:id="fn14" type="footnote" n="14">Das Benediktinerkloster St. Georgen in <placeName>Stein am Rhein</placeName> (Kt. Schaffhausen) war 1525 aufgehoben worden, doch blieben einige Mönche auch nachher im Kloster, vgl. Wipf 336-339.</note> - quid hinc spei, rerum statu nostrarum sic fluctuante?</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Voluimus hęc tibi, optime vir, literis significare, fidei tuę et orationi res nostras et nos cum ecclesiis commendare.</s>
@@ -152,7 +150,7 @@
 					<s n="21" xml:lang="la" type="auto">Sthammę, raptim, 4. decembris anno 32.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto"><persName ref="person151">Laurentius</persName> Agrico. tuus etc.</s>
+					<s n="22" xml:lang="la" type="auto"><persName ref="p8130">Laurentius</persName> Agrico. tuus etc.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

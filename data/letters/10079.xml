@@ -6,48 +6,39 @@
 				<title subtype="file">Gervasius Schuler / [Basel] AN Heinrich Bullinger, 18. Dezember 1531</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=51</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">240</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,328 3/4 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Obwohl er noch nichts Sicheres über seine Anstellung in <placeName ref="place97">Basel</placeName>
+								Obwohl er noch nichts Sicheres über seine Anstellung in <placeName>Basel</placeName>
 								weiß, bittet er Bullinger, seine in Zürich gebliebene Frau zu ermutigen, und übermittelt Nachrichten und
-								Grüße aus <placeName ref="place97">Basel</placeName>.
+								Grüße aus <placeName>Basel</placeName>.
 							</p>
 						</summary>
 						<msItem>
@@ -57,13 +48,20 @@
 					<physDesc>
 						<objectDesc><p>sehr gut erhalten</p></objectDesc>
 					</physDesc>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 51, S.240</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10079">
 				<correspAction type="sent">
-					<persName ref="person2943" cert="high">
+					<persName ref="p2943" cert="high">
 						<!--
 						<surname cert="high">Schuler</surname>
 						<forename cert="high">Gervasius</forename>
@@ -72,11 +70,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/130955264"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1531-12-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -106,7 +104,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,8 +118,8 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto"><placeName ref="place97">Basileam</placeName> misisti, charissime frater, sicque litteris tractasti, ut plane non peregrinari, sed in animi delitiis michi vivere videar, tametsi nondum ex voto michi successerit iuxtaque id, quod magno desiderio tu quoque michi eventurum speras.</s>
-					<s n="3" xml:lang="la" type="auto">Sic tamen spe fruor, ut indotatus abire neutiquam verear<note xml:id="fn2" type="footnote" n="2">Tatsächlich erhielt er eine Stelle als Diakon zu St. Leonhard in <placeName ref="place97">Basel</placeName> (s. oben <ref target="file10061">[Nr. 34]</ref> S. 193f, Anm. 5).</note>.</s>
+					<s n="2" xml:lang="la" type="auto"><placeName>Basileam</placeName> misisti, charissime frater, sicque litteris tractasti, ut plane non peregrinari, sed in animi delitiis michi vivere videar, tametsi nondum ex voto michi successerit iuxtaque id, quod magno desiderio tu quoque michi eventurum speras.</s>
+					<s n="3" xml:lang="la" type="auto">Sic tamen spe fruor, ut indotatus abire neutiquam verear<note xml:id="fn2" type="footnote" n="2">Tatsächlich erhielt er eine Stelle als Diakon zu St. Leonhard in <placeName>Basel</placeName> (s. oben <ref target="file10061">[Nr. 34]</ref> S. 193f, Anm. 5).</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Quod vero iam tibi quid certi significem, non habeo.</s>
 					<s n="5" xml:lang="la" type="auto">Interim sese michi obtulit nuncius<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> quem nolui vacuum abire; si per occasionem liberiorem licuerit, scribam.</s>
 					<s n="6" xml:lang="la" type="auto">Tu interim perge, ut coepisti, atque uxorem meam<note xml:id="fn4" type="footnote" n="4">Siehe oben, S. 222, Anm. 4.</note> satis ampliter adflictam consolare; brevi me non absque foenore uberioris fortunae rediturum nuncia nomine meo.</s>
@@ -129,7 +127,7 @@
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Nichil habeo novarum, que scribam rerum.</s>
-					<s n="9" xml:lang="la" type="auto"><placeName ref="place97">Basilienses</placeName> pridie Argentinam perrexerunt, letum nuncium deferentes votique plane compotes facti<note xml:id="fn6" type="footnote" n="6">Diese Gesandtschaft wird in den Aktensammlungen nicht erwähnt. Möglicherweise stand sie in Zusammenhang mit <placeName ref="place97">Basels</placeName> Verhandlungen mit <placeName ref="place51">den V Orten</placeName>, die am 22. Dezember 1531 zum Friedensschluß führten (EA IV/1b, 1575); wahrscheinlich suchte <placeName ref="place97">Basel</placeName> in <placeName ref="place1049">Straßburg</placeName> Verständnis für diese Politik, vgl. u. a. Hermann <hi>Escher,</hi> Die Glaubensparteien in der Eidgenossenschaft und ihre Beziehungen zum Ausland, vornehmlich zum Hause Habsburg und zu den deutschen Protestanten 1527-1531, Diss. phil. Zürich, Frauenfeld 1882, S. 300-302 und Ferdinand <hi>Schmid,</hi> Die Vermittlungsbemühungen des In- und Auslandes während der beiden Kappeler Kriege, Diss. phil. Zürich, <placeName ref="place97">Basel</placeName> 1946, S. 79.</note>, quemadmodum Ruͤdolphus Fry<note xml:id="fn7" type="footnote" n="7"><persName ref="person65">Hans Rudolf Frey</persName>, etwa 1475-1551, von <placeName ref="place694">Mellingen</placeName> (Kt. Aargau), Kaufmann, seit 1501 Bürger von <placeName ref="place97">Basel</placeName>, zünftig zu Safran und zum Schlüssel, seit 1529 Zunftmeister zum Schlüssel und Ratsherr. 1521 verweigerte er die Annahme französischer Pensionsgelder. Er war einer der Vorsitzenden der ersten evangelischen Synode in <placeName ref="place97">Basel</placeName> vom Mai 1529 (ABaslerRef III 558). 1529 begleitete er <persName ref="person160">Oekolampad</persName> zum <placeName ref="place672">Marburger</placeName> Gespräch und trat zu Zwingli in ein freundschaftliches Verhältnis. Frey war Abgeordneter an Tagsatzungen 1529/30 (s. EA IV/1b 298; Z XI 160, Anm. 16) und 1531 Hauptmann der Basler in der Schlacht am <placeName ref="place435">Gubel</placeName>. Ob ihn Bullinger schon damals persönlich kannte, ist ungewiß. Ein Brief von Frey an Bullinger vom 4. Januar 1536 ist erhalten geblieben. - Lit.: Z X 288f, Anm. 5-6; <persName ref="person160">Oekolampad</persName> BA I 363, Anm. 1; HBLS III 244.</note>, vir pius, retulit fratribus.</s>
+					<s n="9" xml:lang="la" type="auto"><placeName>Basilienses</placeName> pridie Argentinam perrexerunt, letum nuncium deferentes votique plane compotes facti<note xml:id="fn6" type="footnote" n="6">Diese Gesandtschaft wird in den Aktensammlungen nicht erwähnt. Möglicherweise stand sie in Zusammenhang mit <placeName>Basels</placeName> Verhandlungen mit <placeName>den V Orten</placeName>, die am 22. Dezember 1531 zum Friedensschluß führten (<bibl>EA</bibl> IV/1b, 1575); wahrscheinlich suchte <placeName>Basel</placeName> in <placeName>Straßburg</placeName> Verständnis für diese Politik, vgl. u. a. Hermann <hi>Escher,</hi> Die Glaubensparteien in der Eidgenossenschaft und ihre Beziehungen zum Ausland, vornehmlich zum Hause Habsburg und zu den deutschen Protestanten 1527-1531, Diss. phil. Zürich, Frauenfeld 1882, S. 300-302 und Ferdinand <hi>Schmid,</hi> Die Vermittlungsbemühungen des In- und Auslandes während der beiden Kappeler Kriege, Diss. phil. Zürich, <placeName>Basel</placeName> 1946, S. 79.</note>, quemadmodum Ruͤdolphus Fry<note xml:id="fn7" type="footnote" n="7"><persName>Hans Rudolf Frey</persName>, etwa 1475-1551, von <placeName>Mellingen</placeName> (Kt. Aargau), Kaufmann, seit 1501 Bürger von <placeName>Basel</placeName>, zünftig zu Safran und zum Schlüssel, seit 1529 Zunftmeister zum Schlüssel und Ratsherr. 1521 verweigerte er die Annahme französischer Pensionsgelder. Er war einer der Vorsitzenden der ersten evangelischen Synode in <placeName>Basel</placeName> vom Mai 1529 (<bibl>ABaslerRef</bibl> III 558). 1529 begleitete er <persName>Oekolampad</persName> zum <placeName>Marburger</placeName> Gespräch und trat zu Zwingli in ein freundschaftliches Verhältnis. Frey war Abgeordneter an Tagsatzungen 1529/30 (s. <bibl>EA</bibl> IV/1b 298; <bibl>Z</bibl> XI 160, Anm. 16) und 1531 Hauptmann der Basler in der Schlacht am <placeName>Gubel</placeName>. Ob ihn Bullinger schon damals persönlich kannte, ist ungewiß. Ein Brief von Frey an Bullinger vom 4. Januar 1536 ist erhalten geblieben. - Lit.: <bibl>Z</bibl> X 288f, Anm. 5-6; <persName>Oekolampad</persName> BA I 363, Anm. 1; <bibl>HBLS</bibl> III 244.</note>, vir pius, retulit fratribus.</s>
 					<s n="10" xml:lang="la" type="auto">Speramus propediem omnium rerum conditorem tam lamentabilem casum magno potentie sue foenore reparaturum.</s>
 					<s n="11" xml:lang="la" type="auto">Cuius causa negotii et tu quoque omnes conatus animi accomodare ne desinas neque formides.</s>
 					<s n="12" xml:lang="la" type="auto">Ego pro mei spiritus dono orationibus tam sanctis conatibus numquam deero.</s>
@@ -141,11 +139,11 @@
 					<s n="14" xml:lang="la" type="manual">Datum 18. die decembris anno 1531.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person195">Gervasius</persName> Scolasticus, ex animo tuus.</s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p8440">Gervasius</persName> Scolasticus, ex animo tuus.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Saluta fratres in Christo, maxime <persName ref="person188">Erasmum</persName><note xml:id="fn8" type="footnote" n="8">Wahrscheinlich <persName ref="person188">Erasmus Schmid</persName> (Fabricius), etwa 1495-1546, geboren in <placeName ref="place1032">Stein am Rhein</placeName> (damals zürcherisch, heute Kt. Schaffhausen), 1509 an der Universität <placeName ref="place367">Freiburg</placeName> immatrikuliert, 1513/14 Magister (<placeName ref="place367">Freiburg</placeName>, Matrikel I 189). Vorübergehend wirkte er als Schulmeister in <placeName ref="place992">Sitten</placeName>. 1516 setzte er seine Studien an der Universität <placeName ref="place97">Basel</placeName> fort (<placeName ref="place97">Basel</placeName>, Matrikel I 330), bald danach wurde er zum Priester geweiht und ließ sich - vermutlich ohne feste Anstellung - in <placeName ref="place1032">Stein am Rhein</placeName> nieder. 1518 nahm Schmid mit <persName ref="person265">Zwingli</persName> Verbindung auf (Z VII 84-86) und erhielt eine Chorherrenpfründe am Großmünsterstift in Zürich, ohne jedoch vorerst Stein zu verlassen. Ungefähr seit 1520 übten die Schriften <persName ref="person138">Luthers</persName> und <persName ref="person117">Karlstadts</persName> auf ihn einen großen Einfluß aus und bewirkten sein radikales Eintreten für die Reformation. Nach der Übersiedlung nach Zürich 1522 schloß sich Schmid <persName ref="person265">Zwingli</persName> an: er unterschrieb die Eingabe an Bischof <persName ref="person1200">Hugo von Hohenlandenberg</persName> vom 2. Juli 1522 (Z I 208,22) und nahm an der Ersten Zürcher Disputation teil (Z I 566,8ff). Vermutlich im folgenden Jahr kehrte Schmid als Prädikant nach Stein zurück. Wegen seiner führenden Rolle im Ittinger Sturm 1524 wurde er zeitweilig aus zürcherischem Gebiet verbannt (AZürcherRef 1450). 1528 erhielt er seine Chorherrenpfründe zurück (AZürcherRef 1450; vgl. HBRG III 291). Nach 1528 versah er die Pfarrstelle in <placeName ref="place1236">Zollikon</placeName> (AZürcherRef 1492.1714, S. 730. 1757, S. 752. 2002, S. 884). 1535-1538 amtete Schmid als Pfarrer in <placeName ref="place884">Reichenweier</placeName> (Elsaß), vgl. Vadian BW V 253; er kam dann als Archidiakon am Großmünster wieder nach Zürich, wo er kurz vor seinem Tode das Bürgerrecht geschenkt bekam. Bullinger zählt Schmid unter seinen Freunden auf (HBD 128,17). Ein Gedicht Schmids auf <persName ref="person265">Zwinglis</persName> Tod ist erhalten geblieben. - Lit.: Georg <hi>Finsler,</hi> Epitaphien auf <persName ref="person265">Huldreich Zwingli</persName>, in: Zwa II 421; HBD 34,4f; Blarer BW, Reg.; Z VII 84, Anm. 1; <hi>Bopp</hi> <ref target="file11340">Nr. 1297</ref>; Frieda Maria <hi>Huggenberg,</hi> Ein Helfer <persName ref="person265">Zwinglis</persName>. Zum Jubiläum von <placeName ref="place1032">Stein am Rhein</placeName> im Frühjahr 1957, in: Reformatio, Jg. 6, 1957, S. 97-102; Oskar <hi>Vasella,</hi> Zur Biographie des Prädikanten <persName ref="person188">Erasmus Schmid</persName>, in: ZSKG L, 1956, 353-366; Oskar <hi>Vasella,</hi> Der Ittinger Sturm im Lichte österreichischer Berichte (1524), in: Reformata reformanda, Festg. f. Hubert Jedin zum 17. Juni 1965. Hg. v. Erwin Iserloh und Konrad Repgen, I, Münster Westf. (1965). - RGST, Suppl. bd. I/1, S. 365-392; HBLS VI 205; Pfarrerbuch 506; s. oben <ref target="file10041">[Nr. 16]</ref>, S. 104, Anm. 27.</note> meum, qui miris conatibus animi adflictiones meas onere liberavit.</s>
-					<s n="17" xml:lang="la" type="auto">Salutat te <persName ref="person11">Marcus Berzius</persName><note xml:id="fn9" type="footnote" n="9">Siehe oben, S. 219, Anm. 1.</note> fratrum studiosus.</s>
+					<s n="16" xml:lang="la" type="auto">Saluta fratres in Christo, maxime <persName ref="p8437">Erasmum</persName><note xml:id="fn8" type="footnote" n="8">Wahrscheinlich <persName>Erasmus Schmid (Fabricius)</persName>, etwa 1495-1546, geboren in <placeName>Stein am Rhein</placeName> (damals zürcherisch, heute Kt. Schaffhausen), 1509 an der Universität <placeName>Freiburg</placeName> immatrikuliert, 1513/14 Magister (<placeName>Freiburg</placeName>, Matrikel I 189). Vorübergehend wirkte er als Schulmeister in <placeName>Sitten</placeName>. 1516 setzte er seine Studien an der Universität <placeName>Basel</placeName> fort (<placeName>Basel</placeName>, Matrikel I 330), bald danach wurde er zum Priester geweiht und ließ sich - vermutlich ohne feste Anstellung - in <placeName>Stein am Rhein</placeName> nieder. 1518 nahm Schmid mit <persName>Zwingli</persName> Verbindung auf (<bibl>Z</bibl> VII 84-86) und erhielt eine Chorherrenpfründe am Großmünsterstift in Zürich, ohne jedoch vorerst Stein zu verlassen. Ungefähr seit 1520 übten die Schriften <persName ref="p18889">Luthers</persName> und <persName>Karlstadts</persName> auf ihn einen großen Einfluß aus und bewirkten sein radikales Eintreten für die Reformation. Nach der Übersiedlung nach Zürich 1522 schloß sich Schmid <persName>Zwingli</persName> an: er unterschrieb die Eingabe an Bischof <persName>Hugo von Hohenlandenberg</persName> vom 2. Juli 1522 (<bibl>Z</bibl> I 208,22) und nahm an der Ersten Zürcher Disputation teil (<bibl>Z</bibl> I 566,8ff). Vermutlich im folgenden Jahr kehrte Schmid als Prädikant nach Stein zurück. Wegen seiner führenden Rolle im Ittinger Sturm 1524 wurde er zeitweilig aus zürcherischem Gebiet verbannt (<bibl>AZürcherRef</bibl> 1450). 1528 erhielt er seine Chorherrenpfründe zurück (<bibl>AZürcherRef</bibl> 1450; vgl. <bibl>HBRG</bibl> III 291). Nach 1528 versah er die Pfarrstelle in <placeName>Zollikon</placeName> (<bibl>AZürcherRef</bibl> 1492.1714, S. 730. 1757, S. 752. 2002, S. 884). 1535-1538 amtete Schmid als Pfarrer in <placeName>Reichenweier</placeName> (Elsaß), vgl. <bibl>Vadian BW V</bibl> 253; er kam dann als Archidiakon am Großmünster wieder nach Zürich, wo er kurz vor seinem Tode das Bürgerrecht geschenkt bekam. Bullinger zählt Schmid unter seinen Freunden auf (<bibl>HBD</bibl> 128,17). Ein Gedicht Schmids auf <persName>Zwinglis</persName> Tod ist erhalten geblieben. - Lit.: Georg <hi>Finsler,</hi> Epitaphien auf <persName>Huldreich Zwingli</persName>, in: <bibl>Zwa</bibl> II 421; <bibl>HBD</bibl> 34,4f; Blarer BW, Reg.; <bibl>Z</bibl> VII 84, Anm. 1; <hi>Bopp</hi> <ref target="file11340">Nr. 1297</ref>; Frieda Maria <hi>Huggenberg,</hi> Ein Helfer <persName>Zwinglis</persName>. Zum Jubiläum von <placeName>Stein am Rhein</placeName> im Frühjahr 1957, in: Reformatio, Jg. 6, 1957, S. 97-102; Oskar <hi>Vasella,</hi> Zur Biographie des Prädikanten <persName>Erasmus Schmid</persName>, in: <bibl>ZSKG</bibl> L, 1956, 353-366; Oskar <hi>Vasella,</hi> Der Ittinger Sturm im Lichte österreichischer Berichte (1524), in: Reformata reformanda, Festg. f. Hubert Jedin zum 17. Juni 1965. Hg. v. Erwin Iserloh und Konrad Repgen, I, Münster Westf. (1965). - RGST, Suppl. bd. I/1, S. 365-392; <bibl>HBLS</bibl> VI 205; Pfarrerbuch 506; s. oben <ref target="file10041">[Nr. 16]</ref>, S. 104, Anm. 27.</note> meum, qui miris conatibus animi adflictiones meas onere liberavit.</s>
+					<s n="17" xml:lang="la" type="auto">Salutat te <persName ref="p8054">Marcus Berzius</persName><note xml:id="fn9" type="footnote" n="9">Siehe oben, S. 219, Anm. 1.</note> fratrum studiosus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

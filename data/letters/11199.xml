@@ -6,51 +6,41 @@
 				<title subtype="file">Erasmus Ritter, Peter Kunz / Bern AN Heinrich Bullinger, 6. August 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1156</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">190</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2754</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Haben Verständnis für die überraschend erfolgte Abberufung von
-								<persName ref="person1347">Hieronymus [Kaufmann]</persName>; die
-								dadurch freigewordene Stelle [eines Schulmeisters in <placeName ref="place1234">Zofingen</placeName>]
-								war bereits an einen Glaubensflüchtling aus dem <placeName ref="place98">Wallis</placeName> vergeben,
-								als die Empfehlung für [Konrad]
-								<persName ref="person122">Klauser</persName> eintraf. Versichern, daß sie zu der [an der Zürcher Tagung]
+								<persName ref="p8393">Hieronymus [Kaufmann]</persName>; die
+								dadurch freigewordene Stelle [eines Schulmeisters in <placeName>Zofingen</placeName>]
+								war bereits an einen Glaubensflüchtling aus dem <placeName>Wallis</placeName> vergeben,
+								als die Empfehlung für <persName ref="p8398">[Konrad] Klauser</persName> eintraf. Versichern, daß sie zu der [an der Zürcher Tagung]
 								getroffenen Vereinbarung stehen werden.
 							</p>
 						</summary>
@@ -59,13 +49,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1156, S.190</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11199">
 				<correspAction type="sent">
-					<persName ref="person2810" cert="high">
+					<persName ref="p2810" cert="high">
 						<!--
 						<surname cert="high">Ritter</surname>
 						<forename cert="high">Erasmus</forename>
@@ -74,18 +71,18 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416562"/>
 						-->
 					</persName>
-					<persName ref="person1866" cert="high">
+					<persName ref="p1866" cert="high">
 						<!--
 						<surname cert="high">Kunz</surname>
 						<forename cert="high">Peter</forename>
 						<persName type="main" ref="person8401>Kunz, Peter</persName>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1538-08-06" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,7 +122,7 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Nisi tam commodam scribis pro <persName ref="person1347">Hieronymo</persName><note xml:id="fn1" type="footnote" n="1">Gemeint ist <persName ref="person1347">Hieronymus Kaufmann</persName> (Emporus), gest. 1562, Provisor bzw. ab 1535 Schulmeister in <placeName ref="place1234">Zofingen</placeName> (s. Zwa IX/7. 1952, S. 426; <hi>de Quervain</hi> 70). Nach seiner Ordination 1538 wirkte er als Pfarrer in <placeName ref="place113">Berg am Irchel</placeName> (Kt. Zürich), ab 1544 bis zu seinem Tod in <placeName ref="place627">Leutmerken</placeName> (Kt. Thurgau). Ab 1548 übermittelte er oft Briefe zwischen <persName ref="person19">Ambrosius Blarer</persName> und Bullinger; Blarer wohnte zeitweise in seinem Haus in <placeName ref="place1202">Winterthur</placeName> und versah nach Kaufmanns Tod die verwaiste Pfarrstelle. Ein Brief Kaufmanns an Bullinger ist erhalten (Zürich StA, E II 441, 750; 1. März [1555]). - Lit.: Blarer BW II und III, Reg.; Pfarrerbuch 373; Sulzberger 33.</note> excusationem<note xml:id="fn2" type="footnote" n="2">Ein Schreiben Bullingers in dieser Sache ist nicht erhalten.</note>, frater in domino amande, minimo certe minus aberat, quin in suspitionem trahi poterat usque adeo festina illius vocatio.</s>
+					<s n="2" xml:lang="la" type="auto">Nisi tam commodam scribis pro <persName ref="p8393">Hieronymo</persName><note xml:id="fn1" type="footnote" n="1">Gemeint ist <persName>Hieronymus Kaufmann (Emporus)</persName>, gest. 1562, Provisor bzw. ab 1535 Schulmeister in <placeName>Zofingen</placeName> (s. <bibl>Zwa</bibl> IX/7. 1952, S. 426; <hi>de Quervain</hi> 70). Nach seiner Ordination 1538 wirkte er als Pfarrer in <placeName>Berg am Irchel</placeName> (Kt. Zürich), ab 1544 bis zu seinem Tod in <placeName>Leutmerken</placeName> (Kt. Thurgau). Ab 1548 übermittelte er oft Briefe zwischen <persName>Ambrosius Blarer</persName> und Bullinger; Blarer wohnte zeitweise in seinem Haus in <placeName>Winterthur</placeName> und versah nach Kaufmanns Tod die verwaiste Pfarrstelle. Ein Brief Kaufmanns an Bullinger ist erhalten (Zürich StA, E II 441, 750; 1. März [1555]). - Lit.: <bibl>Blarer BW</bibl> II und III, Reg.; Pfarrerbuch 373; Sulzberger 33.</note> excusationem<note xml:id="fn2" type="footnote" n="2">Ein Schreiben Bullingers in dieser Sache ist nicht erhalten.</note>, frater in domino amande, minimo certe minus aberat, quin in suspitionem trahi poterat usque adeo festina illius vocatio.</s>
 					<s n="3" xml:lang="la" type="auto">Sed audimus facti rationem bonique consulimus.</s>
 				</p>
 				<p>
@@ -133,21 +130,21 @@
 					<s n="5" xml:lang="la" type="auto">Utinam gratificari vobis contingat aliquando!</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Sed quo minus suffectus sit <persName ref="person1347">Hieronymo</persName> <persName ref="person122">Clauserus</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person122">Konrad Klauser</persName>.</note>, et tu audi.</s>
-					<s n="7" xml:lang="la" type="auto">Perlatae sunt literae tuae ad nos vix tandem 5. augusti, alio iam in vicem prioris subrogato<note xml:id="fn4" type="footnote" n="4">Der Name des neuen Schulmeisters ist nicht bekannt; auch im <placeName ref="place121">Berner</placeName> Ratsmanual, wo die Bestätigung seiner Wahl unter dem 7. August vermerkt ist, wird er nur als "der <placeName ref="place98">Walliser</placeName>" bezeichnet (s. <placeName ref="place121">Bern</placeName> StA, A II 134, S. 116, vgl. auch S. 91 und 110).</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Sed quo minus suffectus sit <persName ref="p8393">Hieronymo</persName> <persName ref="p8398">Clauserus</persName><note xml:id="fn3" type="footnote" n="3"><persName>Konrad Klauser</persName>.</note>, et tu audi.</s>
+					<s n="7" xml:lang="la" type="auto">Perlatae sunt literae tuae ad nos vix tandem 5. augusti, alio iam in vicem prioris subrogato<note xml:id="fn4" type="footnote" n="4">Der Name des neuen Schulmeisters ist nicht bekannt; auch im <placeName>Berner</placeName> Ratsmanual, wo die Bestätigung seiner Wahl unter dem 7. August vermerkt ist, wird er nur als "der <placeName>Walliser</placeName>" bezeichnet (s. <placeName>Bern</placeName> StA, A II 134, S. 116, vgl. auch S. 91 und 110).</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Is Vallesianus est ob Christi confessionem patria pulsus, quem iam commiserari oportuit, quo minus desponderet animum homo pius.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Caetera vero nihil addubitandum erat, quo non exceptus fuisset <persName ref="person122">Clauserus</persName>, si modo in tempore venisset.</s>
+					<s n="9" xml:lang="la" type="auto">Caetera vero nihil addubitandum erat, quo non exceptus fuisset <persName ref="p8398">Clauserus</persName>, si modo in tempore venisset.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Vale et conscriptionis<note xml:id="fn5" type="footnote" n="5">Gemeint ist wohl der Abschied der Zürcher Tagung vom 28. April bis 3. Mai (vgl. oben <ref target="file11171">Nr. 1128</ref>, Anm. 1).</note> nos optime<note xml:id="fna" type="footnote" n="a">optime <hi>am Rande nachgetragen.</hi></note> memores et constanter perseveraturos scitote fideliter.</s>
 					<s n="11" xml:lang="la" type="auto">Dispereant ii, qui hanc interturbaturi sunt.</s>
 					<s n="12" xml:lang="la" type="auto">Salutato symmistas<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> symmstas.</note> tuos omnes.<pb type="edition" next="191"/></s>
-					<s n="13" xml:lang="la" type="auto">6. augusti 1538, <placeName ref="place121">Bernae</placeName>.</s>
+					<s n="13" xml:lang="la" type="auto">6. augusti 1538, <placeName>Bernae</placeName>.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto"><persName ref="person176">Erasmus Ritter</persName> et <persName ref="person126">Petrus Conzenus</persName>, tui in domino.</s>
+					<s n="14" xml:lang="la" type="auto"><persName ref="p2810">Erasmus Ritter</persName> et <persName ref="p8401">Petrus Conzenus</persName>, tui in domino.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

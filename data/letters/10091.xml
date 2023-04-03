@@ -6,40 +6,31 @@
 				<title subtype="file">[Heinrich Bullinger] / [Zürich] AN [Martin Bucer], zwischen s.d. [Januar] 1532 und s.d. [Februar] 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=62</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">43</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 31,3</idno>
 					</msIdentifier>
 					<msContents>
@@ -49,10 +40,10 @@
 								begehrte Friede stellt sich jetzt als trügerisch heraus. Zürich hat keinen Entschuldigungsbrief verfaßt und
 								verbreitet. Der Vorwurf, die Prädikanten Zürichs hätten in unchristlicher Weise die Obrigkeit zu gewaltsamem
 								Vorgehen aufgerufen, trifft nicht zu, wie die Predigt der Propheten lehrt. Nicht bloß
-								<persName ref="person265">Zwingli</persName>, auch Jesaja, Sacharja, Stephanus und Jakobus starben eines
+								<persName ref="p4091">Zwingli</persName>, auch Jesaja, Sacharja, Stephanus und Jakobus starben eines
 								gewaltsamen Todes. Eine genauere Darlegung der Haltung der Theologen wird sich in dem
-								<persName ref="person2603">[Jakob] Ziegler</persName> übersandten
-								Lebensbild <persName ref="person265">Zwinglis</persName> finden.
+								<persName ref="p7187">[Jakob] Ziegler</persName> übersandten
+								Lebensbild <persName ref="p4091">Zwinglis</persName> finden.
 							</p>
 						</summary>
 						<msItem>
@@ -71,6 +62,9 @@
 							<bibl type="Gedruckt" subtype="Teilübersetzung">
 								<title>Pestalozzi 92</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 62, S.43</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -79,7 +73,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10091">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -89,11 +83,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date notBefore="1532-01-01" notAfter="1532-02-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person467" cert="low">
+					<persName ref="p467" cert="low">
 						<!--
 						<surname cert="low">Bucer</surname>
 						<forename cert="low">Martin</forename>
@@ -124,25 +118,25 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Doles<note xml:id="fn4" type="footnote" n="4">Der Brief <persName ref="person28">Bucers</persName> ist nicht erhalten.</note> vicem meam, doctissime Bullere<note xml:id="fnb" type="footnote" n="b"><hi>Verschreibung für</hi> Butcere [?].</note>, quod sedibus exactus exilium agam apud Tygurinos.</s>
+					<s n="1" xml:lang="la" type="auto">Doles<note xml:id="fn4" type="footnote" n="4">Der Brief <persName ref="p18198">Bucers</persName> ist nicht erhalten.</note> vicem meam, doctissime Bullere<note xml:id="fnb" type="footnote" n="b"><hi>Verschreibung für</hi> Butcere [?].</note>, quod sedibus exactus exilium agam apud Tygurinos.</s>
 					<s n="2" xml:lang="la" type="auto">Qua ex re animum in me tuum aestimo, ut et vicissim eum amem ardentius, quem hactenus ignotum alias dilexi.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Nec minore charitatis adfectu legimus omnes, qui Tyguri praesumus verbo, lamentationem istam vestram perfidiae nostrae, qua fidem prodidimus et foedera, deum et socios<note xml:id="fn5" type="footnote" n="5">Zu den Vorwürfen gegen Zürich nach dem Zweiten Landfrieden vgl. die zusammenfassenden Bemerkungen bei <hi>Pestalozzi</hi> 91-93.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Nec minore charitatis adfectu legimus omnes, qui Tyguri praesumus verbo, lamentationem istam vestram perfidiae nostrae, qua fidem prodidimus et foedera, deum et socios<note xml:id="fn5" type="footnote" n="5">Zu den Vorwürfen gegen Zürich nach dem Zweiten Landfrieden vgl. die zusammenfassenden Bemerkungen bei <bibl>Pestalozzi</bibl> 91-93.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Et sane prodidimus, sed aliena culpa, quamquam et ea sit nostra quoque, qui tanto sceleri capita non opposuimus.</s>
 					<s n="5" xml:lang="la" type="auto">Ceterum sic initio conventionis capita ab imperatoribus et magnatibus tum nostris tum exteris adumbrata sunt, ut mox iureiurando silentium intercesserit et sigillorum obsignatio totusque exercitus nunquam solide edoctus sit, quae essent pacis capita.</s>
 					<s n="6" xml:lang="la" type="auto">Redeuntes enim pacem factam dicebant, sed qualisnam facta esset, nemo aut certe paucissimi edisserebant.</s>
 					<s n="7" xml:lang="la" type="auto">In caussa erat, quod duces nostri et magnates, qui in pace agebant, omnes duobus aut tribus demptis evangelici negocii aut certe osores erant aut simulatores.</s>
 					<s n="8" xml:lang="la" type="auto">Clanculo igitur et impie instituebant omnia.</s>
-					<s n="9" xml:lang="la" type="auto">Ceteris autem, quibus istorum subolebat versutia et quibus cordi erat pietas, omnis adempta erat autoritas, idque propter nuperam cladem ad <placeName ref="place534">Cappellas</placeName> acceptam<note xml:id="fn6" type="footnote" n="6">Der Text des Friedensvertrages zwischen <placeName ref="place51">den V Orten</placeName> und Zürich in: EA IV/1b 1567-1571, vgl. HBRG III 243-253. Über die Friedensverhandlungen s. <hi>Maeder,</hi> Unruhe und Helmut <hi>Meyer,</hi> Stadt und Landschaft Zürich nach dem Zweiten Kappelerkrieg, in: HBGesA I 251-267.</note>.</s>
-					<s n="10" xml:lang="la" type="auto">Perpetuo enim, si quid cordatioris ingerebatur, audiebant, an nondum satis civium et christiani sanguinis sit effusum, invitis Marte et Minerva pugnam appeti, victores non sine maximo detrimento vinci, interim perire agrum, vastari aedificia et exhauriri cum privatas tum publicas opes futurumque, ut post maximam famem nunc triennio perpessam<note xml:id="fn7" type="footnote" n="7">Die große Teuerung der Jahre 1527 bis 1533 erreichte tatsächlich 1529-1531 ihren Höhepunkt, s. dazu Hugo <hi>Wermelinger,</hi> Lebensmittelteuerungen, ihre Bekämpfung und ihre politischen Rückwirkungen in Bern. Vom ausgehenden 15. Jahrhundert bis in die Zeit der Kappelerkriege, Bern 1971. - AHVB LV, bes. S. 210-274.</note> maior subsequtura sit lues, neque vero posse montanos debellari et extingui homines, at nos posse diutino bello absumi non hostium, sed nostro ipso infortunio.</s>
+					<s n="9" xml:lang="la" type="auto">Ceteris autem, quibus istorum subolebat versutia et quibus cordi erat pietas, omnis adempta erat autoritas, idque propter nuperam cladem ad <placeName>Cappellas</placeName> acceptam<note xml:id="fn6" type="footnote" n="6">Der Text des Friedensvertrages zwischen <placeName>den V Orten</placeName> und Zürich in: <bibl>EA</bibl> IV/1b 1567-1571, vgl. <bibl>HBRG</bibl> III 243-253. Über die Friedensverhandlungen s. <hi>Maeder,</hi> Unruhe und Helmut <hi>Meyer,</hi> Stadt und Landschaft Zürich nach dem Zweiten Kappelerkrieg, in: <bibl>HBGesA</bibl> I 251-267.</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Perpetuo enim, si quid cordatioris ingerebatur, audiebant, an nondum satis civium et christiani sanguinis sit effusum, invitis Marte et Minerva pugnam appeti, victores non sine maximo detrimento vinci, interim perire agrum, vastari aedificia et exhauriri cum privatas tum publicas opes futurumque, ut post maximam famem nunc triennio perpessam<note xml:id="fn7" type="footnote" n="7">Die große Teuerung der Jahre 1527 bis 1533 erreichte tatsächlich 1529-1531 ihren Höhepunkt, s. dazu Hugo <hi>Wermelinger,</hi> Lebensmittelteuerungen, ihre Bekämpfung und ihre politischen Rückwirkungen in Bern. Vom ausgehenden 15. Jahrhundert bis in die Zeit der Kappelerkriege, Bern 1971. - <bibl>AHVB</bibl> LV, bes. S. 210-274.</note> maior subsequtura sit lues, neque vero posse montanos debellari et extingui homines, at nos posse diutino bello absumi non hostium, sed nostro ipso infortunio.</s>
 					<s n="11" xml:lang="la" type="auto">Astabat attonitus populus, secundo iam caesus<pb type="scan" next="||1v."/> et fugatus, in universum stupidus, ducibus peritis, piis et iustis destitutus, rerum bellicarum pertaesus, denique et pacis qualiscunque percupidus.</s>
 					<s n="12" xml:lang="la" type="auto">His autem occasionibus freti veteratores id, quod parabant, citra omnem difficultatem patrabant.</s>
 					<s n="13" xml:lang="la" type="auto">Hinc vero emersit nobis egregia illa pax, qua et deum et homines prodidimus.</s>
@@ -155,19 +149,19 @@
 				<p>
 					<s n="19" xml:lang="la" type="auto"><pb type="edition" next="44"/>Deinde, quod scribis Tigurinam excusationem literis et instrumento per omnem volitare Germaniam satis quidem impudenter, ut quae necessitatem et populi praetexat voluntatem, miramur.</s>
 					<s n="20" xml:lang="la" type="auto">Ab aliis enim quam Tigurinis fictam et evulgatam credite.</s>
-					<s n="21" xml:lang="la" type="auto">Certo enim scimus Tigurinos earum rerum nihil edidisse, nisi vestratibus apologiam<note xml:id="fn9" type="footnote" n="9">Der Zürcher Rat sandte am 27. November 1531 <persName ref="person2240">Rudolf Stoll</persName> nach <placeName ref="place1049">Straßburg</placeName>, wo dieser u. a. den Verlauf des Krieges sowie den Friedensschluß zu erläutern hatte, s. PC II 84. Ein besonderer Brief nach <placeName ref="place1049">Straßburg</placeName> ist anscheinend nicht erhalten, doch werden die Zürcher eine Mitteilung unter Beifügung des Textes des Zweiten Landfriedens («instrumentum»), ähnlich wie nach <placeName ref="place565">Konstanz</placeName> (20. November 1531, ASchweizerRef IV 1046), gemacht haben.</note> miserint, quam illi toti communicent Germaniae.</s>
+					<s n="21" xml:lang="la" type="auto">Certo enim scimus Tigurinos earum rerum nihil edidisse, nisi vestratibus apologiam<note xml:id="fn9" type="footnote" n="9">Der Zürcher Rat sandte am 27. November 1531 <persName>Rudolf Stoll</persName> nach <placeName>Straßburg</placeName>, wo dieser u. a. den Verlauf des Krieges sowie den Friedensschluß zu erläutern hatte, s. <bibl>PC</bibl> II 84. Ein besonderer Brief nach <placeName>Straßburg</placeName> ist anscheinend nicht erhalten, doch werden die Zürcher eine Mitteilung unter Beifügung des Textes des Zweiten Landfriedens («instrumentum»), ähnlich wie nach <placeName>Konstanz</placeName> (20. November 1531, ASchweizerRef IV 1046), gemacht haben.</note> miserint, quam illi toti communicent Germaniae.</s>
 					<s n="22" xml:lang="la" type="auto">Quod tarnen nescimus nec credimus.</s>
 					<s n="23" xml:lang="la" type="auto">«Sed eam nos cladem hasce proditiones et civiles simultates», inquis, «praescivimus.</s>
 					<s n="24" xml:lang="la" type="auto">Hinc pacem per nostros componere voluimus.</s>
 					<s n="25" xml:lang="la" type="auto">Quare non audistis sancta commonentes?»</s>
 					<s n="26" xml:lang="la" type="manual">Audivissemus equidem, si unquam sperare potuissemus efferos homines potuisse ulla mitigari longanimitate, ut qui ne nunc quidem et sanguine nostro et longanimitate post tot accepta damna molliuntur, imo iam tum, cum nostri pacem ambirent, prorsus decreverant vi et armis rem aggredi.</s>
 					<s n="27" xml:lang="la" type="auto">Quid vero multis?</s>
-					<s n="28" xml:lang="la" type="auto">Videbitis aliquando iustas caussas, videbitis longanimem patien-<pb type="scan" next="||2r."/>tiam nostrorum, cum <persName ref="person265">Zuinglii</persName> nostri vitam<note xml:id="fn10" type="footnote" n="10">Welche «Vita Zwinglii» Bullinger meint, ist nicht klar ersichtlich. Möglicherweise wollte er seine eigene Schrift «De prophetae officio» (HBBibl I 33; s. oben <ref target="file10090">[Nr. 61]</ref> S. 41, Anm. 1), die einen besonderen Abschnitt über <persName ref="person265">Zwinglis</persName> Leben enthält, übersenden. Dieser ist gedruckt bei <hi>Büsser,</hi> De prophetae officio 254-257. Vielleicht verschweigt Bullinger deshalb den Verfasser. Jedenfalls spielt <persName ref="person40">Capito</persName> später offensichtlich auf dieses Werk Bullingers an, s. unten S. 67, 25-27.</note> <persName ref="person2603">Zieglero</persName><note xml:id="fn11" type="footnote" n="11">Wahrscheinlich <persName ref="person2603">Jakob Ziegler</persName>, der aus <placeName ref="place1133">Venedig</placeName> kommend im November 1531 in <placeName ref="place1049">Straßburg</placeName> anlangte. Sein ursprünglich freundschaftliches Verhältnis zu den <placeName ref="place1049">Straßburger</placeName> Theologen kühlte sich indes bald ab und zerbrach im Jahre 1533. Möglicherweise hatte Ziegler auf der Durchreise von <placeName ref="place16">Italien</placeName> mit Bullinger und den Zürcher Theologen Bekanntschaft geschlossen, s. Karl <hi>Schottenloher, Jakob</hi> Ziegler aus Landau an der Isar. Ein Gelehrtenleben aus der Zeit des Humanismus und der Reformation. Mit sechs Federzeichnungen Martin Richters, des Schreibgehilfen Zieglers, Münster i. W. 1910. - RGST 8-10, bes. S. 277-296. Für <persName ref="person265">Zwingli</persName> war Ziegler kein Unbekannter, s. Walter <hi>Köhler,</hi> Zu unserer Tafel, in: Zwa III 500-503 mit der Interpretation des Briefes <persName ref="person28">Bucers</persName> an <persName ref="person265">Zwingli</persName> vom 14. Januar 1531, wo über Ziegler berichtet wird, Z XI 304,3-305,11.</note> mittemus.</s>
+					<s n="28" xml:lang="la" type="auto">Videbitis aliquando iustas caussas, videbitis longanimem patien-<pb type="scan" next="||2r."/>tiam nostrorum, cum <persName ref="p4091">Zuinglii</persName> nostri vitam<note xml:id="fn10" type="footnote" n="10">Welche «Vita Zwinglii» Bullinger meint, ist nicht klar ersichtlich. Möglicherweise wollte er seine eigene Schrift «De prophetae officio» (<bibl>HBBibl</bibl> I 33; s. oben <ref target="file10090">[Nr. 61]</ref> S. 41, Anm. 1), die einen besonderen Abschnitt über <persName>Zwinglis</persName> Leben enthält, übersenden. Dieser ist gedruckt bei <hi>Büsser,</hi> De prophetae officio 254-257. Vielleicht verschweigt Bullinger deshalb den Verfasser. Jedenfalls spielt <persName>Capito</persName> später offensichtlich auf dieses Werk Bullingers an, s. unten S. 67, 25-27.</note> <persName ref="p7187">Zieglero</persName><note xml:id="fn11" type="footnote" n="11">Wahrscheinlich <persName>Jakob Ziegler</persName>, der aus <placeName>Venedig</placeName> kommend im November 1531 in <placeName>Straßburg</placeName> anlangte. Sein ursprünglich freundschaftliches Verhältnis zu den <placeName>Straßburger</placeName> Theologen kühlte sich indes bald ab und zerbrach im Jahre 1533. Möglicherweise hatte Ziegler auf der Durchreise von <placeName>Italien</placeName> mit Bullinger und den Zürcher Theologen Bekanntschaft geschlossen, s. Karl <hi>Schottenloher, Jakob</hi> Ziegler aus <placeName>Landau an der Isar</placeName>. Ein Gelehrtenleben aus der Zeit des Humanismus und der Reformation. Mit sechs Federzeichnungen Martin Richters, des Schreibgehilfen Zieglers, Münster i. W. 1910. - <bibl>RGST</bibl> 8-10, bes. S. 277-296. Für <persName>Zwingli</persName> war Ziegler kein Unbekannter, s. Walter <hi>Köhler,</hi> Zu unserer Tafel, in: <bibl>Zwa</bibl> III 500-503 mit der Interpretation des Briefes <persName ref="p18198">Bucers</persName> an <persName>Zwingli</persName> vom 14. Januar 1531, wo über Ziegler berichtet wird, <bibl>Z</bibl> XI 304,3-305,11.</note> mittemus.</s>
 					<s n="29" xml:lang="la" type="auto">Hac enim in re nihil a parte nostra peccatum est.</s>
 					<s n="30" xml:lang="la" type="auto">A domino malum egressum est, ut tentaremur, non ut prorsus perderemur.</s>
 					<s n="31" xml:lang="la" type="auto">At domini voluntas sancta est et iusta.</s>
 					<s n="32" xml:lang="la" type="auto">Hinc, cum scribitis nescire, quid civile et humanum resipere visa sit ratio doctrinae ecclesiasticae apud nos, quae et male nobis cesserit, non modo miramur, fratres charissimi, sed et obstupescimus.</s>
-					<s n="33" xml:lang="la" type="auto">Si enim ex eventu ac infortunio quaevis res aestimanda erit, quem tandem non poeniteat prophetiae christianae, ut quae post multos exantlatos labores non rude donat, sed vita privat privavitque optimos in domino viros, Isaiam, Zachariam, Stephanum<note xml:id="fn12" type="footnote" n="12">In der erwähnten Schrift (oben Anm. 10) weist Bullinger ebenfalls auf den Tod von Jesaia, Sacharja und Stephanus hin, s. <hi>Büsser,</hi> De prophetae officio 257.</note>, <persName ref="person2603">Iacobum</persName> aliosque heroas innumeros; quibus omnibus religio vera pessime cessit?</s>
+					<s n="33" xml:lang="la" type="auto">Si enim ex eventu ac infortunio quaevis res aestimanda erit, quem tandem non poeniteat prophetiae christianae, ut quae post multos exantlatos labores non rude donat, sed vita privat privavitque optimos in domino viros, Isaiam, Zachariam, Stephanum<note xml:id="fn12" type="footnote" n="12">In der erwähnten Schrift (oben Anm. 10) weist Bullinger ebenfalls auf den Tod von Jesaia, Sacharja und Stephanus hin, s. <hi>Büsser,</hi> De prophetae officio 257.</note>, <persName ref="p7187">Iacobum</persName> aliosque heroas innumeros; quibus omnibus religio vera pessime cessit?</s>
 					<s n="34" xml:lang="la" type="auto">Quod si doctrina nostra humanum et civile propterea resipit, quod cohortati sumus christianum magistratum oppressos liberare, aequitatem servare, et iustitiam colere, scelera et sceleratos plectere, quid, oro, divini praedicaverunt prophetae?</s>
 					<s n="35" xml:lang="la" type="auto">N[ec] enim damnat etc<note xml:id="fn13" type="footnote" n="13">Vgl. Ps 37,33.</note>.</s>
 					<s n="36" xml:lang="la" type="auto">An vero respondebimus aliam fuisse illorum functionem, aliam vero nostram, cum ne communis sensus id permittat?</s>

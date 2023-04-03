@@ -6,46 +6,37 @@
 				<title subtype="file">Wolfgang Capito / [Strassburg] AN Heinrich Bullinger, 19. April 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=802</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">247</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,63</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Drängt Bullinger, [am Theologenkonvent in <placeName ref="place310">Eisenach</placeName>] teilzunehmen,
+								Drängt Bullinger, [am Theologenkonvent in <placeName>Eisenach</placeName>] teilzunehmen,
 								da Gespräche mehr Erkenntnis bringen als Lektüre; wird selbst trotz Krankheit anwesend sein und verspricht
 								sich um so mehr von der Zusammenkunft, als diese ohne Vertreter der Obrigkeit stattfindet. Grüße.
 							</p>
@@ -59,6 +50,9 @@
 							<bibl type="Gedruckt" subtype="Regest">
 								<title>Capito, Corr. 208, Nr. 606</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 802, S.247</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -67,7 +61,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10841">
 				<correspAction type="sent">
-					<persName ref="person578" cert="high">
+					<persName ref="p578" cert="high">
 						<!--
 						<surname cert="high">Capito</surname>
 						<forename cert="high">Wolfgang</forename>
@@ -78,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414573"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="low"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="low"><orig>Strassburg</orig></placeName>
 					<date when="1536-04-19" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,7 +122,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Hoc certius statuo non omittendum, quin adfueris<note xml:id="fn1" type="footnote" n="1">Nämlich am Theologenkonvent, der am 14. Mai in <placeName ref="place310">Eisenach</placeName> beginnen sollte; vgl. oben <ref target="file10835">Nr. 796</ref>, 1-7 mit Anm. 1.</note>, quo cogito expendoque diutius.</s>
+					<s n="2" xml:lang="la" type="auto">Hoc certius statuo non omittendum, quin adfueris<note xml:id="fn1" type="footnote" n="1">Nämlich am Theologenkonvent, der am 14. Mai in <placeName>Eisenach</placeName> beginnen sollte; vgl. oben <ref target="file10835">Nr. 796</ref>, 1-7 mit Anm. 1.</note>, quo cogito expendoque diutius.</s>
 					<s n="3" xml:lang="la" type="auto">Nam es, quo utetur deus ad maxima adeoque iam utitur.</s>
 					<s n="4" xml:lang="la" type="auto">Iuvenis es et autoritate canus<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage irrtümlich</hi> cano.</note> non unis Tigurinis.</s>
 					<s n="5" xml:lang="la" type="auto">Illic autem esses auditurus et reliquos, quorum existimatio vigebit apud posteros, nec sine fructu auditurus; nam parvi temporis colloquium plus intelligentię utrinque prodit, quam multorum mensium lectio aperuerit.</s>
@@ -140,7 +134,7 @@
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale.</s>
-					<s n="12" xml:lang="la" type="auto"><persName ref="person14">Bibliandro</persName> et <persName ref="person165">Pellicano</persName> ex nobis salutem dicas.</s>
+					<s n="12" xml:lang="la" type="auto"><persName ref="p8171">Bibliandro</persName> et <persName ref="p8127">Pellicano</persName> ex nobis salutem dicas.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">19.<note xml:id="fnb" type="footnote" n="b"><hi>Die zweite Ziffer undeutlich (aus a?) korrigiert.</hi></note> aprilis anno 1536.</s>

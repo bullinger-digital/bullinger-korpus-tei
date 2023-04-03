@@ -6,32 +6,31 @@
 				<title subtype="file">Franz Hotman / Genf AN Heinrich Bullinger / Zürich, [12. November 1572]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7984/231</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,268</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,7 +52,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9095">
 				<correspAction type="sent">
-					<persName ref="person1588" cert="high">
+					<persName ref="p1588" cert="high">
 						<!--
 						<surname cert="high">Hotman</surname>
 						<forename cert="high">Franz</forename>
@@ -64,11 +63,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11452751"/>
 						-->
 					</persName>
-					<placeName source="place167" cert="high"><orig>Genf</orig></placeName>
+					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 					<date when="1572-11-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -78,7 +77,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file9096"/>
@@ -105,7 +104,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,7 +131,7 @@
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Utinam, quemadmodum Tridentini f... fecerunt atque adeo sanguine tot victimarum sanxerunt, vos quoque una cum Palatino cum nostris Genevensibus foedus aliquod pium et defensivum (ut aiunt) iniretis!</s>
-					<s n="11" xml:lang="la" type="auto">Quod institutum, nisi Minervam docere<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 1, 40 (LB II 43).</note> nollem, auderem affirmare religioni et literis sanctis fore consentaneum.</s>
+					<s n="11" xml:lang="la" type="auto">Quod institutum, nisi Minervam docere<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 1, 40 (<bibl>LB</bibl> II 43).</note> nollem, auderem affirmare religioni et literis sanctis fore consentaneum.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Vale, venerande pater, et salve.</s>

@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN [Franciscus Lismaninus], 29. April 1563</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6214/58</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 367,223 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke BW, Polen, S. 181, Nr. 280</title>
+								<title>Wotschke BW, Polen, S.181, Nr. 280</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>A. Mühling, HB's europ. Kirchenpolitik 254, 257</title>
@@ -60,14 +59,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 36,541 f.</idno>
 					</msIdentifier>
 				</msDesc>
@@ -76,7 +75,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5709">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -86,11 +85,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1563-04-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1929" cert="low">
+					<persName ref="p1929" cert="low">
 						<!--
 						<surname cert="low">Lismaninus</surname>
 						<forename cert="low">Franciscus</forename>
@@ -124,7 +123,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -143,7 +142,7 @@
 					<s n="3" xml:lang="la" type="auto">Multo iam tempore nihil ad te, Francisce Lysmanine, literarum dedi, nulla alia de causa magis, quam quod significabatur mihi ex Polonia, te non usquequaque respondere nostro testimonio nostraeque commendationi, qua te liberaliter discedentem a nobis commendaveramus ecclesiis et ecclesiarum ministris Poloniae.</s>
 					<s n="4" xml:lang="la" type="auto">Etenim prout eo tempore, quo apud nos habitabas, prae te ferebas, arbitrati sumus te animo syncero complecti puram nostrarum ecclesiarum doctrinam de religione christiana aversarique magna constantia omnes, quotquot diversam doctrinam et falso pectore fovent et artibus pravis aliis instillare contendunt.</s>
 					<s n="5" xml:lang="la" type="auto">Et ne existimes me aenigmata proponere, de illis loquor, qui aliter sentiunt, aliter docent de adoranda trinitate et domino nostro Iesu Christo, quam in nostris ecclesiis vel credatur vel doceatur.</s>
-					<s n="6" xml:lang="la" type="auto">Et quidem quid de his capitibus credamus et doceamus, si non in aliis libris nostris, saltem breviter et dilucide exposuimus in epistola illa nostra, quam mense martio anno 1561 scriptam ad vos misimus, typis etiam excusam, quam eandem nunc defendit a Stancari calumniis Iosias ille noster,<note xml:id="fna" type="footnote" n="a">Josias <hi>Simler</hi>, Responsio ad maledicum Francisci Stancari Mantuani librum adversus Tigurinae ecclesiae ministros, de trinitate et mediatore domino nostro Iesu Christo, Zürich 1563 (VD16 S6516).</note> ut nihil iam opus sit eadem cum fastidio repetere.</s>
+					<s n="6" xml:lang="la" type="auto">Et quidem quid de his capitibus credamus et doceamus, si non in aliis libris nostris, saltem breviter et dilucide exposuimus in epistola illa nostra, quam mense martio anno 1561 scriptam ad vos misimus, typis etiam excusam, quam eandem nunc defendit a Stancari calumniis Iosias ille noster,<note xml:id="fna" type="footnote" n="a">Josias <bibl>Simler</bibl>, Responsio ad maledicum Francisci Stancari Mantuani librum adversus Tigurinae ecclesiae ministros, de trinitate et mediatore domino nostro Iesu Christo, Zürich 1563 (<bibl>VD16</bibl> S6516).</note> ut nihil iam opus sit eadem cum fastidio repetere.</s>
 					<s n="7" xml:lang="la" type="auto">Et tu quidem, qui aliquanto tempore apud nos habitasti et mores nostros perspexisti, scis non illum nobis morem esse, qui nonnullis est, ut singulis prope annis et genus doctrinae mutent et aliter atque aliter efferant.</s>
 					<s n="8" xml:lang="la" type="auto">Scimus enim, cui credidimus, et quod ea, quae credimus, verissima sunt et certissima.</s>
 					<s n="9" xml:lang="la" type="auto">Proinde iisdem adhuc insistentes vestigiis non aliud nunc sentimus, quam quod tunc sentiebamus, cum esses apud nos, et quando illa scribebatur epistola.</s>

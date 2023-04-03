@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Gast AN Heinrich Bullinger, Erste Hälfte September 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1967</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">354</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,109</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,9 +38,8 @@
 							<p xml:id="regest1">
 								Dankt für die zugeschickten Büchlein [Bullingers]; das deutsche [„Hoffnung der Glöubigen“] wird Luther
 								trotz schriftgemäßer Argumentation verärgern, das lateinische [„Antiquissima fides“] will
-								<persName ref="person74">Gast</persName> durch den Bruder von <persName ref="person20061">Gilbert Cousin</persName> an diesen übersenden. [Thomas]
-								<persName ref="person172">Platter</persName> ist von den Deputaten und dem Rat zum Schulmeister der Münsterschule gewählt [eigentlich: bestätigt]
-								worden, obwohl ihm der [Magister-]Titel fehlt, und das „Magisterlein“ [<persName ref="person20595">Markus Hopper</persName>] ist bereits nicht mehr
+								<persName ref="p1278">Gast</persName> durch den Bruder von <persName ref="p8073">Gilbert Cousin</persName> an diesen übersenden. <persName ref="p6117">[Thomas] Platter</persName> ist von den Deputaten und dem Rat zum Schulmeister der Münsterschule gewählt [eigentlich: bestätigt]
+								worden, obwohl ihm der [Magister-]Titel fehlt, und das „Magisterlein“ [<persName ref="p5290">Markus Hopper</persName>] ist bereits nicht mehr
 								im Amt; die Vertreter der Universität sind empört, doch der Rat beginnt, ihren Hochmut zu durchschauen.
 							</p>
 						</summary>
@@ -57,13 +47,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1967, S.354</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12014">
 				<correspAction type="sent">
-					<persName ref="person1278" cert="high">
+					<persName ref="p1278" cert="high">
 						<!--
 						<surname cert="high">Gast</surname>
 						<forename cert="high">Johannes</forename>
@@ -75,7 +72,7 @@
 					<date notBefore="1544-09-01" notAfter="1544-09-15" cert="low">Erste Hälfte September 1544</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,11 +121,11 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Ago tibi immensas gratias pro libellis missis.</s>
 					<s n="3" xml:lang="la" type="auto">Germanico libello<note xml:id="fn2" type="footnote" n="2">Die Rede ist wohl von Bullingers Schrift "Hoffnung der Glöubigen"; s. oben <ref target="file12000">Nr. 1953</ref>, Anm. 9.</note> Lutherum exacerbabis; nam mihi non videtur tecum consentire in omnibus, etsi christianissime tu omnia dicas et scripturis argumenta tua stabilias.</s>
-					<s n="4" xml:lang="la" type="auto">Libellum <persName ref="person21820">Cognato</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person20061">Gilbert Cousin</persName>.</note> Latinum<note xml:id="fn4" type="footnote" n="4">Gemeint ist vermutlich die ebenfalls im August 1544 unter dem Titel "Antiquissima fides" erschienene lateinische Übersetzung von Bullingers "Der alte Glaube"; s. oben <ref target="file12006">Nr. 1959</ref>, Anm. 13.</note> mittam; nam in singulos dies illius fratrem<note xml:id="fn5" type="footnote" n="5">Zum Bruder von <persName ref="person20061">Gilbert Cousin</persName> s. oben <ref target="file11998">Nr. 1951</ref>, Anm. 3.</note> expecto, qui ad me scripsit se hac hebdomada adfuturum.</s>
+					<s n="4" xml:lang="la" type="auto">Libellum <persName>Cognato</persName><note xml:id="fn3" type="footnote" n="3"><persName>Gilbert Cousin</persName>.</note> Latinum<note xml:id="fn4" type="footnote" n="4">Gemeint ist vermutlich die ebenfalls im August 1544 unter dem Titel "Antiquissima fides" erschienene lateinische Übersetzung von Bullingers "Der alte Glaube"; s. oben <ref target="file12006">Nr. 1959</ref>, Anm. 13.</note> mittam; nam in singulos dies illius fratrem<note xml:id="fn5" type="footnote" n="5">Zum Bruder von <persName>Gilbert Cousin</persName> s. oben <ref target="file11998">Nr. 1951</ref>, Anm. 3.</note> expecto, qui ad me scripsit se hac hebdomada adfuturum.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Blatterus in ludimagistrum summi templi electus est,<note xml:id="fn6" type="footnote" n="6"><persName ref="person172">Thomas Platter</persName> setzt seinen Amtsantritt als Schulmeister an der Münsterschule "auf Burg" auf Fronfasten Crucis 1541 und berichtet in seinen Aufzeichnungen, wie er dafür angeworben wurde (s. <persName ref="person172">Thomas Platter</persName>, Lebensbeschreibung, hg. v. Alfred Hartmann, 3. Aufl. <placeName ref="place97">Basel</placeName> 2006, S. 130f). Vom Winter 1541 bis zum Herbst 1544 versah jedoch <persName ref="person20595">Markus Hopper</persName> dieses Amt; Platter kann es demnach erst auf Fronfasten Crucis 1544 angetreten haben; s. Theophil <hi>Burckhardt-Biedermann,</hi> Geschichte des Gymnasiums zu <placeName ref="place97">Basel</placeName>, <placeName ref="place97">Basel</placeName> 1889, S. 240f (Anm. 1 zu S. 35); Platter, aaO, S. 176f (Anm. zuS. 130).</note> non ab academicis nostris, quia caret fastuoso titulo,<note xml:id="fn7" type="footnote" n="7"><persName ref="person172">Platter</persName> weigerte sich, den für das Schulmeisteramt verlangten Magistergrad zu erwerben; s. <persName ref="person172">Platter</persName>, aaO, S. 132.</note> sed a deputatis<note xml:id="fn8" type="footnote" n="8">Oberster Deputat war zu diesem Zeitpunkt Hans Rudolf Frey; s. <persName ref="person172">Platter</persName>, aaO, S. 130; HBBW IX <ref target="file11258">[Nr. 1215]</ref> 33, Anm. 4.</note> et a senatu approbatus.<pb type="edition" next="355"/></s>
-					<s n="6" xml:lang="la" type="auto">Magistellus<note xml:id="fn9" type="footnote" n="9">Magister <persName ref="person20595">Markus Hopper</persName>, Schulmeister auf Burg von 1541 bis 1544; s. <persName ref="person172">Platter</persName>, aaO. S. 176f (Anm. zu S. 130); Amerbach, Korr. VI 429f.</note> iam suo defungitur officio.</s>
+					<s n="5" xml:lang="la" type="auto">Blatterus in ludimagistrum summi templi electus est,<note xml:id="fn6" type="footnote" n="6"><persName>Thomas Platter</persName> setzt seinen Amtsantritt als Schulmeister an der Münsterschule "auf Burg" auf Fronfasten Crucis 1541 und berichtet in seinen Aufzeichnungen, wie er dafür angeworben wurde (s. <persName>Thomas Platter</persName>, Lebensbeschreibung, hg. v. Alfred Hartmann, 3. Aufl. <placeName>Basel</placeName> 2006, S. 130f). Vom Winter 1541 bis zum Herbst 1544 versah jedoch <persName>Markus Hopper</persName> dieses Amt; Platter kann es demnach erst auf Fronfasten Crucis 1544 angetreten haben; s. Theophil <hi>Burckhardt-Biedermann,</hi> Geschichte des Gymnasiums zu <placeName>Basel</placeName>, <placeName>Basel</placeName> 1889, S. 240f (Anm. 1 zu S. 35); Platter, aaO, S. 176f (Anm. zuS. 130).</note> non ab academicis nostris, quia caret fastuoso titulo,<note xml:id="fn7" type="footnote" n="7"><persName>Platter</persName> weigerte sich, den für das Schulmeisteramt verlangten Magistergrad zu erwerben; s. <persName>Platter</persName>, aaO, S. 132.</note> sed a deputatis<note xml:id="fn8" type="footnote" n="8">Oberster Deputat war zu diesem Zeitpunkt Hans Rudolf Frey; s. <persName>Platter</persName>, aaO, S. 130; <bibl>HBBW IX</bibl> <ref target="file11258">[Nr. 1215]</ref> 33, Anm. 4.</note> et a senatu approbatus.<pb type="edition" next="355"/></s>
+					<s n="6" xml:lang="la" type="auto">Magistellus<note xml:id="fn9" type="footnote" n="9">Magister <persName>Markus Hopper</persName>, Schulmeister auf Burg von 1541 bis 1544; s. <persName>Platter</persName>, aaO. S. 176f (Anm. zu S. 130); Amerbach, Korr. VI 429f.</note> iam suo defungitur officio.</s>
 					<s n="7" xml:lang="la" type="auto">Frendent dentibus universales<note xml:id="fn10" type="footnote" n="10">D.h. die Vertreter der Universität.</note> nostri, conantur impedire istud institutum, sed nihil deo volente efficient.</s>
 					<s n="8" xml:lang="la" type="auto">Iam apparet, cuius gratia titulos affectarint: quo asininam ruditatem commodius tegerent.</s>
 					<s n="9" xml:lang="la" type="auto">Erit, neque dubito, mutatio harum rerum nunquam sperata; nam senatus olfacit illorum technas.</s>

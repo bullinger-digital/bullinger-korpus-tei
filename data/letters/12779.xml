@@ -6,40 +6,31 @@
 				<title subtype="file">Jodocus Kilchmeyer / Bern AN Heinrich Bullinger, 30. Dezember [1546]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2021</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18354-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2731</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XX (Anhang)</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Häfner, Yvonne; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">20</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">April bis Dezember 1547</biblScope>
-				<biblScope unit="page">772</biblScope>
-				<biblScope unit="pages">807</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 20 (Anhang), Bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 360,423</idno>
 					</msIdentifier>
 					<msContents>
@@ -81,10 +72,10 @@
 								</p>
 								<p xml:id="regest3">
 								[3] Zusammen mit Rümlang, Pfister und dem Helfer Johannes Wäber (die alle regelmäßige Briefe von Bullinger
-								und Rudolf Gwalther sehnsüchtig erwarten) lässt Kilchmeyer Bullinger, dessen Frau Anna [geb. Adlischwyler],
+								und Rudolf Gwalther sehnsüchtig erwarten) lässt Kilchmeyer Bullinger, dessen Frau <persName ref="p8051">Anna [geb. Adlischwyler]</persName>,
 								Gwalther, den Gevatter Johann Jakob Ammann, Theodor Bibliander, Fries, Rudolf Collin und die anderen
 								Kollegen grüßen. Bullinger möge sich mit dem hier Mitgeteilten begnügen, bis Kilchmeyer es weniger streng
-								hat, und nicht vergessen, ihn den Bürgermeistern Hans Rudolf Lavater und Johannes Haab sowie dem ganzen Rat
+								hat, und nicht vergessen, ihn den Bürgermeistern <persName ref="p1888">Hans Rudolf Lavater</persName> und Johannes Haab sowie dem ganzen Rat
 								zu empfehlen.
 							</p>
 						</summary>
@@ -92,13 +83,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 20A, Nr. 2731a, S.772</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12779">
 				<correspAction type="sent">
-					<persName ref="person1804" cert="high">
+					<persName ref="p1804" cert="high">
 						<!--
 						<surname cert="high">Kilchmeyer</surname>
 						<forename cert="high">Jodocus</forename>
@@ -108,11 +106,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415743"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1546-12-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -146,7 +144,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -158,8 +156,8 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">Salutem et pacem.</s>
-					<s n="2" xml:lang="la" type="auto">Doctissime et in domino charissime frater, scias velim impossibile prorsus vel per horas multas rerum hactenus Bernę gestarum plenam tibi seriem significare.<note xml:id="fn2" type="footnote" n="2">Kilchmeyer war in Bern erst seit Ende Oktober 1546 tätig (nämlich als Dekan); s. HBBW XVII <ref target="file12630">[Nr. 2583]</ref> 457, Anm. 5.</note></s>
-					<s n="3" xml:lang="la" type="auto">Quare, ut breve quidem scribendi ocium nactus sum, ita et breviter tibi ex multis unum aperio, e quo tu pro solercia tua facile iudicare poteris, quam foelicissime apud nos Christi negotium currat subindeque triumphet, cuius sane gratia assiduum mihi bellum est cum bestiis ore quidem acerrimis,<note xml:id="fn3" type="footnote" n="3">Vgl. Dan 7, 19f; Apok 13, 5. - Kilchmeyer scheint die Lutheraner mit dem Antichristen in Verbindung gebracht zu haben.</note> sed unguibus armisque ad victoriam congruentibus adeo infirmis, ut hactenus Daretes duo me unum Entellum ne in fugam quidem vertere,<note xml:id="fn4" type="footnote" n="4">Vgl. Adagia 3, 1, 69 (ASD II/5 78, <ref target="file12116">Nr. 2069</ref>). - Der alte Entellus (hier Kilchmeyer) besiegte wider Erwarten den jüngeren Faustkämpfer Dares (die zwei „Daretes“ stehen hier für die lutherisch gesinnten, damals noch in Bern wirkenden Simon Sulzer und Beat Gering).</note> tam abest vincere potuerint.</s>
+					<s n="2" xml:lang="la" type="auto">Doctissime et in domino charissime frater, scias velim impossibile prorsus vel per horas multas rerum hactenus Bernę gestarum plenam tibi seriem significare.<note xml:id="fn2" type="footnote" n="2">Kilchmeyer war in Bern erst seit Ende Oktober 1546 tätig (nämlich als Dekan); s. <bibl>HBBW</bibl> XVII <ref target="file12630">[Nr. 2583]</ref> 457, Anm. 5.</note></s>
+					<s n="3" xml:lang="la" type="auto">Quare, ut breve quidem scribendi ocium nactus sum, ita et breviter tibi ex multis unum aperio, e quo tu pro solercia tua facile iudicare poteris, quam foelicissime apud nos Christi negotium currat subindeque triumphet, cuius sane gratia assiduum mihi bellum est cum bestiis ore quidem acerrimis,<note xml:id="fn3" type="footnote" n="3">Vgl. Dan 7, 19f; Apok 13, 5. - Kilchmeyer scheint die Lutheraner mit dem Antichristen in Verbindung gebracht zu haben.</note> sed unguibus armisque ad victoriam congruentibus adeo infirmis, ut hactenus Daretes duo me unum Entellum ne in fugam quidem vertere,<note xml:id="fn4" type="footnote" n="4">Vgl. <bibl>Adagia</bibl> 3, 1, 69 (<bibl>ASD</bibl> II/5 78, <ref target="file12116">Nr. 2069</ref>). - Der alte Entellus (hier Kilchmeyer) besiegte wider Erwarten den jüngeren Faustkämpfer Dares (die zwei „Daretes“ stehen hier für die lutherisch gesinnten, damals noch in Bern wirkenden Simon Sulzer und Beat Gering).</note> tam abest vincere potuerint.</s>
 					<s n="4" xml:lang="la" type="auto">Neque aliud sencio, ut sancte cum apostolo<note xml:id="fn5" type="footnote" n="5">Paulus. - Vgl. 1Kor 1, 31; 2Kor 10, 17.</note> in domino glorier, quam senectutem meam velut aquilę a domino renovari<note xml:id="fn6" type="footnote" n="6">Vgl. Jes 40, 30f.</note> illoque sancto exercicio, uti fieri plerumque solet, me subinde magis animo iuvenem alacrem satisque robustum ad futuros assultus fieri, in quo et tibi tuisque lucubrationibus plurimum debeo.<note xml:id="fn7" type="footnote" n="7">Gemeint ist wahrscheinlich Bullingers damals nur handschriftlich vorhandene Schrift „De sacramentis“, die Kilchmeyer entweder von Bullinger selbst erhalten oder von dem schon in Bern wirkenden Johannes Wäber ausgeborgt haben könnte; vgl. <ref target="file12988">Nr. 2939</ref>,[5].</note></s>
 					<s n="5" xml:lang="la" type="auto">Frater in domino charissime, nullum mihi ocium, quies nulla est, ne capiendi quidem cibi: In die respondere pluribus compellor, per noctem cogitationes, lectiones sanctaque studia me torquent, sollicitant macerantque.<note xml:id="fn8" type="footnote" n="8">Vgl. <ref target="file13105">Nr. 3056</ref>,[1].</note></s>
 					<s n="6" xml:lang="la" type="auto">Sed quid queror?</s>
@@ -171,16 +169,16 @@
 				<p>
 					<s n="9" xml:lang="la" type="auto">Clarissimus magistratus noster nunc admodum fervens in regnum Christi, ut illud vindicetur, tueatur ac denique propagetur.</s>
 					<s n="10" xml:lang="la" type="auto">Unanimi consensu hisce diebus decrevit, ut ad ministerium ecclesię publico aerario educandi Tigurum mittantur, id quod e literis amplissimo senatui Tigurino per publicum <pb type="edition" next="773"/> tabellionem<note xml:id="fn13" type="footnote" n="13">Unbekannt.</note> missis<note xml:id="fna" type="footnote" n="a">Am Rande nachgetragen.</note> abunde satis percipies.<note xml:id="fn14" type="footnote" n="14">Anspielung auf den am 29. Dezember 1546 abgefassten Brief des Berner Rats an den Zürcher Rat: „Wir sind willens, die schüler, so wir uf unsern kosten hievor zu Basel, Strassburg, Markpurg und Wittenberg versöldet und verlegt, hinfür zu üch ze schicken.“ (Adolf Fluri, Die bernische Schulordnung von 1548, in: Mitteilungen der Gesellschaft für deutsche Erziehungsund Schulgeschichte XI, 1901, S. 195 und Anm. 1).</note></s>
-					<s n="11" xml:lang="la" type="auto">Tuum ergo erit, ut, quod rex regum<note xml:id="fn15" type="footnote" n="15">rex regum: Jesus; vgl. z.B. Apok 19, 16.</note> fortassis<note xml:id="fnb" type="footnote" n="b">Am Rande nachgetragen.</note> per me apud Bernenses impetravit, idem et tu efficias atque impetres a tuis, imo et meis dominis Tiguri, quo vicissim et suos ad nos mittant,<note xml:id="fn16" type="footnote" n="16">Vgl. auch HBBW XIX 219,43f.</note> maxime quod ludi sive scholę iam apud nos a fecibus Lutheranis repurgatę optimis doctissimisque viris comissę sint, Eberhardo videlicet a Rumlang et domino Nicolao Artopęo,<note xml:id="fn17" type="footnote" n="17">Eberhard von Rümlang war im Dezember 1546 Kollege des im November 1546 neu angestellten Lehrers Nikolaus Pfister (Artopeus) geworden; s. <ref target="file12988">Nr. 2939</ref>, Anm. 1 und 10. - Dabei übernahmen die beiden die Stellen der lutherisch gesinnten Lehrer Thomas Grynäus und Johann Heinrich Meyer.</note> quorum sancta probitas et iuventutis sancte ac libere instituendę sedulitas tibi nocior<note xml:id="fn18" type="footnote" n="18">= notior.</note>, quam meo testimonio et declaratione opus sit.</s>
+					<s n="11" xml:lang="la" type="auto">Tuum ergo erit, ut, quod rex regum<note xml:id="fn15" type="footnote" n="15">rex regum: Jesus; vgl. z.B. Apok 19, 16.</note> fortassis<note xml:id="fnb" type="footnote" n="b">Am Rande nachgetragen.</note> per me apud Bernenses impetravit, idem et tu efficias atque impetres a tuis, imo et meis dominis Tiguri, quo vicissim et suos ad nos mittant,<note xml:id="fn16" type="footnote" n="16">Vgl. auch <bibl>HBBW XIX</bibl> 219,43f.</note> maxime quod ludi sive scholę iam apud nos a fecibus Lutheranis repurgatę optimis doctissimisque viris comissę sint, Eberhardo videlicet a Rumlang et domino Nicolao Artopęo,<note xml:id="fn17" type="footnote" n="17">Eberhard von Rümlang war im Dezember 1546 Kollege des im November 1546 neu angestellten Lehrers Nikolaus Pfister (Artopeus) geworden; s. <ref target="file12988">Nr. 2939</ref>, Anm. 1 und 10. - Dabei übernahmen die beiden die Stellen der lutherisch gesinnten Lehrer Thomas Grynäus und Johann Heinrich Meyer.</note> quorum sancta probitas et iuventutis sancte ac libere instituendę sedulitas tibi nocior<note xml:id="fn18" type="footnote" n="18">= notior.</note>, quam meo testimonio et declaratione opus sit.</s>
 					<s n="12" xml:lang="la" type="auto">In quo si obtemperaveris tuamque operam adhibueris (de quo minime dubito)<note xml:id="fnc" type="footnote" n="c">Klammern ergänzt.</note>, cędet<note xml:id="fn19" type="footnote" n="19">= cedet.</note> nimirum illud ad excitandam alendamque duarum illarum urbium concordiam mutuamque dilectionem, quibus istis nostris turbulentis temporibus plus pane et vino egemus.</s>
-					<s n="13" xml:lang="la" type="auto">Iam, ut semel finiam, rogatus rogo, ut cures iuvenes illos<note xml:id="fn20" type="footnote" n="20">Die Jugendlichen, die man künftig für das Studium von Bern nach Zürich zu senden gedachte. - Bald darauf wurden Johann (Hans) Knechtenhofer, Johannes Fädminger, Abel Mühlhofer und Jonas Danmatter nach Zürich entsandt; s. HBBW XIX 172.</note>, dum comparuerint, quatenus attinet vitę alimenta, pro dignitate tractari, utque inprimis sive per Frisium nostrum<note xml:id="fn21" type="footnote" n="21">Johannes Fries, Schulmeister an der Großmünsterschule.</note> sive aliquem alium e doctorum corona scientiam hauriant salutis aeternę, quo tandem revocati ecclesię dei utiles vobisque laudem ac gratiarum actionem parere possint.</s>
+					<s n="13" xml:lang="la" type="auto">Iam, ut semel finiam, rogatus rogo, ut cures iuvenes illos<note xml:id="fn20" type="footnote" n="20">Die Jugendlichen, die man künftig für das Studium von Bern nach Zürich zu senden gedachte. - Bald darauf wurden Johann (Hans) Knechtenhofer, Johannes Fädminger, Abel Mühlhofer und Jonas Danmatter nach Zürich entsandt; s. <bibl>HBBW</bibl> XIX 172.</note>, dum comparuerint, quatenus attinet vitę alimenta, pro dignitate tractari, utque inprimis sive per Frisium nostrum<note xml:id="fn21" type="footnote" n="21">Johannes Fries, Schulmeister an der Großmünsterschule.</note> sive aliquem alium e doctorum corona scientiam hauriant salutis aeternę, quo tandem revocati ecclesię dei utiles vobisque laudem ac gratiarum actionem parere possint.</s>
 				</p>
 			</div>
 			<div xml:id="div3" corresp="regest3">
 				<p>
-					<s n="14" xml:lang="la" type="auto">Salutant te una<note xml:id="fnd" type="footnote" n="d">In der Vorlage unam.</note> mecum et uxorem tuam<note xml:id="fn22" type="footnote" n="22">Anna, geb. Adlischwyler.</note>, d. Rudolfum<note xml:id="fne" type="footnote" n="e">In der Vorlage Rudofum.</note> Gwaltherum, Ammanum, fidelem compatrem meum,<note xml:id="fn23" type="footnote" n="23">Johann Jakob Ammann, Zürcher Schulherr, der auch in <ref target="file12986">Nr. 2937</ref>,[5], von Kilchmeyer als Gevatter bezeichnet wird.</note> <ptr target="fnf" type="footnote" n="f"/>Theodorum Bibliandrum<note xml:id="fnf" type="footnote" n="f">Am Rande nachgetragen.</note>, Frisium, Collinum<note xml:id="fn24" type="footnote" n="24">Der Griechischlehrer Rudolf Collin.</note> cęterosque in domino fratres omnes Eberhardus a Rumlang, dominus Artopeus, Ioannes Textorius diaconus,<note xml:id="fn25" type="footnote" n="25">Johannes Wäber, Kilchmeyers Helfer am Berner Münster.</note> omnes literas assiduas et a te et a domino Rudolfo cum summo desyderio expectantes.</s>
+					<s n="14" xml:lang="la" type="auto">Salutant te una<note xml:id="fnd" type="footnote" n="d">In der Vorlage unam.</note> mecum et uxorem tuam<note xml:id="fn22" type="footnote" n="22"><persName>Anna, geb. Adlischwyler</persName>.</note>, d. Rudolfum<note xml:id="fne" type="footnote" n="e">In der Vorlage Rudofum.</note> Gwaltherum, Ammanum, fidelem compatrem meum,<note xml:id="fn23" type="footnote" n="23">Johann Jakob Ammann, Zürcher Schulherr, der auch in <ref target="file12986">Nr. 2937</ref>,[5], von Kilchmeyer als Gevatter bezeichnet wird.</note> <ptr target="fnf" type="footnote" n="f"/>Theodorum Bibliandrum<note xml:id="fnf" type="footnote" n="f">Am Rande nachgetragen.</note>, Frisium, Collinum<note xml:id="fn24" type="footnote" n="24">Der Griechischlehrer Rudolf Collin.</note> cęterosque in domino fratres omnes Eberhardus a Rumlang, dominus Artopeus, Ioannes Textorius diaconus,<note xml:id="fn25" type="footnote" n="25">Johannes Wäber, Kilchmeyers Helfer am Berner Münster.</note> omnes literas assiduas et a te et a domino Rudolfo cum summo desyderio expectantes.</s>
 					<s n="15" xml:lang="de" type="auto">Vale in domino, und hend uff jetz verguͦt, bys ich ruͤwiger wyrden.<note xml:id="fn26" type="footnote" n="26">bys ich ruͤwiger wyrden: bis ich es weniger streng habe.</note></s>
-					<s n="16" xml:lang="la" type="auto">Ne negligas, quaeso, me <pb type="edition" next="774"/> consulibus<note xml:id="fn27" type="footnote" n="27">Hans Rudolf Lavater und Johannes Haab. - Vgl. oben Z. 21-24.</note> atque senatui commendatum habere semper.</s>
+					<s n="16" xml:lang="la" type="auto">Ne negligas, quaeso, me <pb type="edition" next="774"/> consulibus<note xml:id="fn27" type="footnote" n="27"><persName ref="p6155">Hans Rudolf Lavater</persName> und Johannes Haab. - Vgl. oben Z. 21-24.</note> atque senatui commendatum habere semper.</s>
 					<s n="17" xml:lang="la" type="auto">Iterum vale.</s>
 					<s n="18" xml:lang="de" type="auto">Datum Bernę, 30. die decembris anno 1547.<note xml:id="fn28" type="footnote" n="28">Damals begann in der deutschsprachigen Eidgenossenschaft das neue Jahr am 25. Dezember, so dass hier nach unserer Zeitrechnung das Jahr 1546 gemeint ist, was auch die oben in Z. 27-30 und Anm. 14 übermittelten Angaben bestätigen!</note></s>
 					<s n="19" xml:lang="la" type="auto">Iodocus Kilchmeyerus tibi deditissimus.</s>

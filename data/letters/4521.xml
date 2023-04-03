@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4521" type="Brief" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4521" type="Hinweis" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -18,23 +18,20 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Brief" subtype="Autograph" xml:lang="">
+				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms A 66,635-642</idno>
-						<idno subtype="Hinweis">Adresse von Bullingers Hand</idno>
+						<idno subtype="Hinweis">Kein Brief, sondern Sendung einer Abhandlung zur Vorgeschichte des Glarnerhandels; Adresse von Bullingers Hand</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -48,7 +45,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4521">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -58,11 +55,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1560-10-28" cert="low"><note>1560 nach Oktober 28</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person252" cert="high">
+					<persName ref="p252" cert="high">
 						<!--
 						<surname cert="high">Bäldi</surname>
 						<forename cert="high">Joachim</forename>
@@ -71,7 +68,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11078816"/>
 						-->
 					</persName>
-					<placeName source="place176" cert="high"><orig>Glarus</orig></placeName>
+					<placeName source="l176" cert="high"><orig>Glarus</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file4522"/>
@@ -93,7 +90,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

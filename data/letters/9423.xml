@@ -18,22 +18,22 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
-						<idno subtype="Autograph">G I 25, f. 112-113 (112v, 113r leer)</idno>
+						<repository ref="a6"/>
+						<idno subtype="Autograph">G I 25:Bl.112-113</idno>
+						<altIdentifier>
+							<idno subtype="Autograph">G I 25, f. 112-113 (112v, 113r leer)</idno>
+						</altIdentifier>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -44,14 +44,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
+						<repository ref="a6"/>
 						<idno subtype="Kopie">Fr. Gr. Ms.VIII 34, f. 64</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,7 +60,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9423">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -70,17 +70,17 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1573-08-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3737" cert="high">
+					<persName ref="p3737" cert="high">
 						<!--
 						<surname cert="high">von Stetten</surname>
 						<forename cert="high">Albert</forename>
 						-->
 					</persName>
-					<placeName source="place18" cert="high"><orig>Augsburg</orig></placeName>
+					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file9424"/>
@@ -99,7 +99,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

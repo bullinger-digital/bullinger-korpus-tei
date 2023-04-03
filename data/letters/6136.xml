@@ -6,32 +6,31 @@
 				<title subtype="file">Johannes Fabricius / Chur AN [Heinrich Bullinger], 15. Mai 1564</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6447/83</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 376,121 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW II, S. 507-209 E, Nr. 606</title>
+								<title>Graubünden BW II, S.507-209 E, Nr. 606</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -51,14 +50,14 @@
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 378,1680</idno>
 					</msIdentifier>
 				</msDesc>
@@ -67,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6136">
 				<correspAction type="sent">
-					<persName ref="person1075" cert="high">
+					<persName ref="p1075" cert="high">
 						<!--
 						<surname cert="high">Fabricius</surname>
 						<forename cert="high">Johannes</forename>
@@ -78,11 +77,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414870"/>
 						-->
 					</persName>
-					<placeName source="place98" cert="high"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1564-05-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -118,7 +117,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -145,13 +144,13 @@
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Et quod ad tua attinet, permagnas tibi gratias ago, qui singularium amicorum literas mihi legendas miseris.</s>
-					<s n="7" xml:lang="la" type="auto">Cohorresco toto pectore<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 4, 26 (LB II 160f).</note>, cum video, quid diabolus in doctis alioquin viris iusto dei iudicio possit; haec nos ad humilitatem exercere debent, ne sopiamus ultra sobrietatem et modum.</s>
+					<s n="7" xml:lang="la" type="auto">Cohorresco toto pectore<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 4, 26 (<bibl>LB</bibl> II 160f).</note>, cum video, quid diabolus in doctis alioquin viris iusto dei iudicio possit; haec nos ad humilitatem exercere debent, ne sopiamus ultra sobrietatem et modum.</s>
 					<s n="8" xml:lang="la" type="auto">Sed adversario mascule omnino respondendum puto, ut ferocia eius tandem plene retundatur.</s>
 					<s n="9" xml:lang="la" type="auto">Tua singularis modestia omnibus piis est nota; sed tamen fuerunt non mali viri, qui in ultimo responso tuo plusculum acrimoniae desiderarunt.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Scio consilii tui sanctos illos fines; sed cogitare debes, in quos homines incideris.</s>
-					<s n="11" xml:lang="la" type="auto">Sed quid sus Minervam<note xml:id="fn2" type="footnote" n="2">Adagia, 1, 1, 40 (LB II 43).</note>?</s>
+					<s n="11" xml:lang="la" type="auto">Sed quid sus Minervam<note xml:id="fn2" type="footnote" n="2">Adagia, 1, 1, 40 (<bibl>LB</bibl> II 43).</note>?</s>
 					<s n="12" xml:lang="la" type="auto">Si quando ad d. d. Erastum scribis, quaeso digneris meis verbis eum officiose salutare; ipse non semel familiarissime ad me scribit, quare non est, ut metuas te ei salutem ab ignoto denunciare etc.</s>
 				</p>
 				<p>

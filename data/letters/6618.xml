@@ -6,32 +6,31 @@
 				<title subtype="file">[Matthias Erb] / [Rappoltsweiler] AN Heinrich Bullinger / Zürich, [25. Dezember 1565]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6737/157</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,230</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive80">
+						<repository ref="a80">
 							<name>Strassburg AST</name>
 							<ref target="https://archives.strasbourg.eu/"/>
 						</repository>
-						<settlement ref="place492">Strassburg</settlement>
+						<settlement ref="l492">Strassburg</settlement>
 						<institution>Archiv von Sankt-Thomas</institution>
 						-->
-						<repository ref="archive80"/>
+						<repository ref="a80"/>
 						<idno subtype="Kopie">Nr.139, Carton 73 p. 184</idno>
 						<idno subtype="Hinweis">dat.: 23. Dez 1565</idno>
 					</msIdentifier>
@@ -61,7 +60,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6618">
 				<correspAction type="sent">
-					<persName ref="person1010" cert="low">
+					<persName ref="p1010" cert="low">
 						<!--
 						<surname cert="low">Erb</surname>
 						<forename cert="low">Matthias</forename>
@@ -69,11 +68,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/100972160"/>
 						-->
 					</persName>
-					<placeName source="place405" cert="low"><orig>Rappoltsweiler</orig></placeName>
+					<placeName source="l405" cert="low"><orig>Rappoltsweiler</orig></placeName>
 					<date when="1565-12-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -83,7 +82,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file6619"/>
@@ -109,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,7 +121,7 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">Gratia filii dei tecum.</s>
 					<s n="2" xml:lang="la" type="auto">Ne mirere, doctissime Bullingere, meum diuturnum silentium, ne dicam, quod te non reddiderim certiorem, an is quem tuis literis domine commendaras, posset abeunti succedere Voglero.<note type="margin">a.R.: Joh.Vogler von 1562–67 Schaffner in Rappoltsweiler</note></s>
-					<s n="3" xml:lang="la" type="auto">At Vertumnus<note xml:id="fn1" type="footnote" n="1">Gott des steten Wandels; vgl. Adagia, 2, 2, 74 (LB II 473).</note> ille noster ex uno ore calidum et frigidum spirans responsum distulit, neque Voglerus suum abdicabit munus, tametsi dicat se sub autumno paraturum discessum.</s>
+					<s n="3" xml:lang="la" type="auto">At Vertumnus<note xml:id="fn1" type="footnote" n="1">Gott des steten Wandels; vgl. <bibl>Adagia</bibl>, 2, 2, 74 (<bibl>LB</bibl> II 473).</note> ille noster ex uno ore calidum et frigidum spirans responsum distulit, neque Voglerus suum abdicabit munus, tametsi dicat se sub autumno paraturum discessum.</s>
 					<s n="4" xml:lang="la" type="auto">Hodie tibi scripturus rursum scripsi domine; sed ex inserta schedula intelliges negotium; ita arridet illi lucellum etc.</s>
 					<s n="5" xml:lang="la" type="auto">Ecclesiola nostra lente festinat.</s>
 				</p>

@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Oswald Myconius, 14. Dezember 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=297</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">250</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,17</idno>
 					</msIdentifier>
 					<msContents>
@@ -60,6 +51,9 @@
 							<bibl type="Gedruckt" subtype="Teilübersetzung">
 								<title>Rudolf, Aussöhnungsversuch 511</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 297, S.250</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -68,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10328">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -78,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1533-12-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -134,11 +128,11 @@
 				<p>
 					<s n="2" xml:lang="la" type="auto">Scripsi superioribus litteris<note xml:id="fn1" type="footnote" n="1">Nr. 296, oben S. 248-250.</note> ex maxima animi perturbatione, quid urgebat[!].</s>
 					<s n="3" xml:lang="la" type="auto">Nunc vicissim accipe, quid animi curas paulo liberius discusserit.</s>
-					<s n="4" xml:lang="la" type="auto">13. decembris contra pontificiorum vota optimi in senatum lecti sunt: Nicolaus <persName ref="person529">Brunner</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person529">Niklaus Brunner</persName>, zwischen 1480 und 1490-1542, von Zürich, war 1521 Mitglied des Großen Rates, wurde im Jahr darauf zum Zunftmeister der Kämbelzunft gewählt und gehörte als solcher bis 1531 dem Kleinen Rat an. Darauf amtete er zwei Jahre als Vogt von <placeName ref="place879">Regensberg</placeName> und wurde im Dezember 1533 wieder in den Kleinen Rat gewählt (s. den vorliegenden Brief). Brunner lehnte das Pensionswesen ab und trat schon früh entschieden für die Reformation ein, womit er sich <persName ref="person265">Zwinglis</persName> Vertrauen erwarb. Nach 1528 wurde er oft als Bote Zürichs in die Gemeinen Herrschaften geschickt, um dort die Reformation zu stärken. - Lit.: HBRG II und III, Reg.; Z VIII 134, Anm. 4; E[mil] <hi>Egli,</hi> Eine Fürsprache <persName ref="person265">Zwinglis</persName> in Bern, in: Zwa II 1-5; <hi>Jacob</hi> 139-141.</note>, Schneebergius<note xml:id="fn3" type="footnote" n="3"><persName ref="person2086">Hans Schneeberger</persName>, um 1470-1558, von Zurich, Tuchhändler, war seit 1521 Mitglied des Großen Rates und wirkte seit 1523 als Almosenpfleger. Nach der vorliegenden Mitteilung Bullingers wurde er im Dezember 1533 in den Kleinen Rat gewählt. Der Reformation stand er wohlwollend gegenüber, ohne sich jedoch politisch allzu sehr zu exponieren. - Lit.: <hi>Jacob</hi> 244f; HBLS VI 216 (zum hier angegebenen Todesjahr 1537 <hi>s. Jacob</hi> 245, Anm. 7).</note> quidam, non malus homo, et ex diacosiis<note xml:id="fn4" type="footnote" n="4">aus dem Rat der Zweihundert, dem Großen Rat.</note> aliquot viri boni.</s>
+					<s n="4" xml:lang="la" type="auto">13. decembris contra pontificiorum vota optimi in senatum lecti sunt: <persName ref="p4414">Nicolaus Brunner</persName><note xml:id="fn2" type="footnote" n="2"><persName>Niklaus Brunner</persName>, zwischen 1480 und 1490-1542, von Zürich, war 1521 Mitglied des Großen Rates, wurde im Jahr darauf zum Zunftmeister der Kämbelzunft gewählt und gehörte als solcher bis 1531 dem Kleinen Rat an. Darauf amtete er zwei Jahre als Vogt von <placeName>Regensberg</placeName> und wurde im Dezember 1533 wieder in den Kleinen Rat gewählt (s. den vorliegenden Brief). Brunner lehnte das Pensionswesen ab und trat schon früh entschieden für die Reformation ein, womit er sich <persName>Zwinglis</persName> Vertrauen erwarb. Nach 1528 wurde er oft als Bote Zürichs in die Gemeinen Herrschaften geschickt, um dort die Reformation zu stärken. - Lit.: <bibl>HBRG</bibl> II und III, Reg.; <bibl>Z</bibl> VIII 134, Anm. 4; E[mil] <hi>Egli,</hi> Eine Fürsprache <persName>Zwinglis</persName> in Bern, in: <bibl>Zwa</bibl> II 1-5; <hi>Jacob</hi> 139-141.</note>, Schneebergius<note xml:id="fn3" type="footnote" n="3"><persName>Hans Schneeberger</persName>, um 1470-1558, von Zurich, Tuchhändler, war seit 1521 Mitglied des Großen Rates und wirkte seit 1523 als Almosenpfleger. Nach der vorliegenden Mitteilung Bullingers wurde er im Dezember 1533 in den Kleinen Rat gewählt. Der Reformation stand er wohlwollend gegenüber, ohne sich jedoch politisch allzu sehr zu exponieren. - Lit.: <hi>Jacob</hi> 244f; <bibl>HBLS</bibl> VI 216 (zum hier angegebenen Todesjahr 1537 <hi>s. Jacob</hi> 245, Anm. 7).</note> quidam, non malus homo, et ex diacosiis<note xml:id="fn4" type="footnote" n="4">aus dem Rat der Zweihundert, dem Großen Rat.</note> aliquot viri boni.</s>
 					<s n="5" xml:lang="la" type="auto">Inventum praeterea auri pondus, de quo, si vera narrant ipseque omnem perrimaro veritatem, admiranda quaedam referam<note xml:id="fn5" type="footnote" n="5">Über die Angelegenheit ist weiter nichts bekannt.</note>.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Si quid habes a comitiis <placeName ref="place70">Augustanis</placeName><note xml:id="fn6" type="footnote" n="6">Zur letzten Tagung des Schwäbischen Bundes in <placeName ref="place70">Augsburg</placeName> s. oben <ref target="file10325">[Nr. 294]</ref> S. 245, Anm. 4.</note> aut de foedere pontificis et Galli<note xml:id="fn7" type="footnote" n="7">Zur Zusammenkunft von <persName ref="person635">Papst Clemens VII.</persName> und dem französischen König <persName ref="person859">Franz I.</persName> <hi>s. Müller</hi> 249-253.</note>, protinus scribe.</s>
+					<s n="6" xml:lang="la" type="auto">Si quid habes a comitiis <placeName>Augustanis</placeName><note xml:id="fn6" type="footnote" n="6">Zur letzten Tagung des Schwäbischen Bundes in <placeName>Augsburg</placeName> s. oben <ref target="file10325">[Nr. 294]</ref> S. 245, Anm. 4.</note> aut de foedere pontificis et Galli<note xml:id="fn7" type="footnote" n="7">Zur Zusammenkunft von <persName>Papst Clemens VII.</persName> und dem französischen <persName>König Franz I.</persName> <hi>s. Müller</hi> 249-253.</note>, protinus scribe.</s>
 					<s n="7" xml:lang="la" type="auto">Nihil novarum rerum apud nos habemus.</s>
 				</p>
 				<p>
@@ -152,7 +146,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="11" xml:lang="la" type="auto">Vigilantissimo <placeName ref="place97">Basileiensis</placeName> ecclesiae praesidi d. <persName ref="person154">Osvaldo Myconio</persName>, fratri et symmistae charissimo.</s>
+					<s n="11" xml:lang="la" type="auto">Vigilantissimo <placeName>Basileiensis</placeName> ecclesiae praesidi d. <persName ref="p8418">Osvaldo Myconio</persName>, fratri et symmistae charissimo.</s>
 				</p>
 			</div>
 		</body>

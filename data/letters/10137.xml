@@ -6,40 +6,31 @@
 				<title subtype="file">s.n. / [Zürich] AN Albrecht von Brandenburg, nach Juni 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2004</date>
-				<idno subtype="ISBN">ISBN 3-290-17316-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=108</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X (Ergänzungsband)</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Addenda und Gesamtregister zu Band 1-10</biblScope>
-				<biblScope unit="page">40</biblScope>
-				<biblScope unit="pages">175</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Ergänzungsband A (Addenda und Gesamtregister zu Band 1-10), Bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2004, 175 S., ISBN 3-290-17316-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph__(Entwurf)">Ms K 40,61r.-v.</idno>
 					</msIdentifier>
 					<msContents>
@@ -56,18 +47,25 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10A, Nr. 108a, S.40</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10137">
 				<correspAction type="sent">
-					<roleName ref="role49" type="pl" role="Pfarrer" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date notBefore="1532-06-01" notAfter="1532-06-12" cert="low">nach Juni 1532</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3490" cert="high">
+					<persName ref="p3490" cert="high">
 						<!--
 						<surname cert="high">von Brandenburg</surname>
 						<forename cert="high">Albrecht</forename>
@@ -91,7 +89,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">

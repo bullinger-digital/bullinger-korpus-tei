@@ -6,32 +6,31 @@
 				<title subtype="file">John Burcher / Krakau AN Heinrich Bullinger / Zürich, 27. Oktober 1558</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5072/181</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 375,553</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,17 +42,17 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Ep. Tig. III, S. 452ff, Nr. 332</title>
+								<title>Ep. Tig. III, S.452ff, Nr. 332</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Zurich Letters III, S. 698-701, Nr. 332</title>
+								<title>Zurich Letters III, S.698-701, Nr. 332</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke BW, Polen, S. 82 R., Nr. 145</title>
+								<title>Wotschke BW, Polen, S.82 R., Nr. 145</title>
 								<note type="Hinweis">24. Okt. statt 27. Okt</note>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke, Thretius, S. 93 (Dr.!) (24. Okt. statt 27. Okt.)</title>
+								<title>Wotschke, Thretius, S.93 (Dr.!) (24. Okt. statt 27. Okt.)</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -61,14 +60,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 93,93</idno>
 					</msIdentifier>
 				</msDesc>
@@ -77,17 +76,17 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3740">
 				<correspAction type="sent">
-					<persName ref="person505" cert="high">
+					<persName ref="p505" cert="high">
 						<!--
 						<surname cert="high">Burcher</surname>
 						<forename cert="high">John</forename>
 						-->
 					</persName>
-					<placeName source="place260" cert="high"><orig>Krakau</orig></placeName>
+					<placeName source="l260" cert="high"><orig>Krakau</orig></placeName>
 					<date when="1558-10-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -97,7 +96,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file3741"/>
@@ -123,7 +122,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -138,7 +137,7 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">S. P. D.</s>
-					<s n="3" xml:lang="la" type="auto">A Vienna scripsi humanitati tuae, Bullingere amice et domine charissime, tum de filiorum tuorum debito tum de Christophori Rotocheri<note xml:id="fn1" type="footnote" n="1">Christoph Rotacher.</note>, affinis mei, parum candido minusque christiano in me affectu.</s>
+					<s n="3" xml:lang="la" type="auto">A Vienna scripsi humanitati tuae, Bullingere amice et domine charissime, tum de filiorum tuorum debito tum de Christophori Rotocheri<note xml:id="fn1" type="footnote" n="1"><persName>Christoph Rotacher</persName>.</note>, affinis mei, parum candido minusque christiano in me affectu.</s>
 					<s n="4" xml:lang="la" type="auto">Hi (Ii?) mihi debent residuum, quod certe nondum, nisi me eo pelleret necessitas extrema, repostulassem; is contra offitium christiani, ne dicam concionatoris, quaerit artem detinendi mea, quae pro subvenienda necessitate sua ab uxore mea me inscio et absente ei amice mutuo data sunt.</s>
 					<s n="5" xml:lang="la" type="auto">Filiorum tuorum debitum pro candore tuo uxori meae, si necessitas expostulaverit, reddito atque affinem meum Christophorum christiani atque concionatoris offitii commonefatias obsecro; nam si non restituerit uxori meae, quod iam anno fere elapso quasi per insidias ab ea extorserat, certo sciat me iure mea repetiturum, quum rediero.</s>
 					<s n="6" xml:lang="la" type="auto">Hucusque dissimulavi ne omnium in nos moverem sermonem, atque fabula futuri essemus omnibus; idque eo lubentius egi, quod ipsemet id rogaverat, et mecum candide transacturum promiserat.</s>

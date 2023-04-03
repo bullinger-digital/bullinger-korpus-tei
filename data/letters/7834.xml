@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file7834" type="Briefanfang" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file7834" type="Brief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Thomas Erastus] / [Heidelberg] AN [Heinrich Bullinger] / [Zürich], [1. April 1569]</title>
+				<title subtype="file">[Thomas Erastus] / [Heidelberg] AN [Heinrich Bullinger] / [Zürich], Zwischen 1. und 13. April 1569</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Briefanfang" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,70</idno>
 					</msIdentifier>
 					<msContents>
@@ -48,17 +45,17 @@
 						</listBibl>
 					</additional>
 				</msDesc>
-				<msDesc type="Briefanfang" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 119,151</idno>
 					</msIdentifier>
 				</msDesc>
@@ -67,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7834">
 				<correspAction type="sent">
-					<persName ref="person1006" cert="low">
+					<persName ref="p1006" cert="low">
 						<!--
 						<surname cert="low">Erastus</surname>
 						<forename cert="low">Thomas</forename>
@@ -78,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11503025"/>
 						-->
 					</persName>
-					<placeName source="place210" cert="low"><orig>Heidelberg</orig></placeName>
-					<date when="1569-04-01" cert="low"><note>Datum unsicher  [Anfang April 1569]  (zwichen 1. u. 13.)</note></date>
+					<placeName source="l210" cert="low"><orig>Heidelberg</orig></placeName>
+					<date notBefore="1569-04-01" notAfter="1569-04-13" cert="low">Zwischen 1. und 13. April 1569<note type="Datum">Datum unsicher  [Anfang April 1569]  (zwischen 1. u. 13.)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -92,7 +89,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file7835"/>
@@ -115,7 +112,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

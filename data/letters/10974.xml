@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN Heinrich Bullinger, 10. Januar 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=932</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">30</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,32</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,25 +38,31 @@
 							<p xml:id="regest1">
 								Wegen der Erkrankung seines Bruders [Konrad] und der Ausschreibung
 								eines Bundestages, an dem über ein Konzil beraten werden soll, ist seine Entsendung nach
-								<placeName ref="place1049">Straßburg</placeName> unterblieben. Wird bald wieder schreiben, reist aber
-								zunächst zu <persName ref="person19">Ambrosius [Blarer</persName> nach
-								<placeName ref="place1107">Tübingen</placeName>]. Gruß. Sendet im Auftrag
-								<persName ref="person260">Wilhelms von Zell</persName> Geld für
-								<persName ref="person114">Leo [Jud]</persName>. Fragt nach Beispielen
-								für fatale Konzilien.
+								<placeName>Straßburg</placeName> unterblieben. Wird bald wieder schreiben, reist aber
+								zunächst zu <persName ref="p8055">Ambrosius [Blarer]</persName> [nach
+								<placeName>Tübingen</placeName>]. Gruß. Sendet im Auftrag
+								<persName ref="p3866">Wilhelms von Zell</persName> Geld für
+								<persName ref="p1753">Leo [Jud]</persName>. Fragt nach Beispielen für fatale Konzilien.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 932, S.30</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10974">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -74,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1537-01-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,14 +122,14 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Scripsi nuper<note xml:id="fn1" type="footnote" n="1">Am 30. Dezember 1536 (HBBW VI, <ref target="file10972">Nr. 930</ref>).</note> me amandatum cum fratre germano<note xml:id="fn2" type="footnote" n="2"><persName ref="person264">Konrad Zwick</persName>.</note> <placeName ref="place1049">Argentoratum</placeName>.</s>
+					<s n="2" xml:lang="la" type="auto">Scripsi nuper<note xml:id="fn1" type="footnote" n="1">Am 30. Dezember 1536 (<bibl>HBBW</bibl> VI, <ref target="file10972">Nr. 930</ref>).</note> me amandatum cum fratre germano<note xml:id="fn2" type="footnote" n="2"><persName>Konrad Zwick</persName>.</note> <placeName>Argentoratum</placeName>.</s>
 					<s n="3" xml:lang="la" type="auto">Sed mala valetudo primum fratris impedivit legationem.</s>
-					<s n="4" xml:lang="la" type="auto">Deinde, postquam restitutus est frater, veniunt litterę a principe electore<note xml:id="fn3" type="footnote" n="3">Gemeint ist die von Kurfürst Johann Friedrich von Sachsen und Landgraf Philipp von Hessen unterzeichnete Einladung zu einem Bundestag in <placeName ref="place958">Schmalkalden</placeName> (Volz, Urkunden 79-81), die am 6. Januar in <placeName ref="place565">Konstanz</placeName> eintraf; s. <hi>Moeller,</hi> <persName ref="person263">Zwick</persName> 192.</note>, in quibus convocat, quicunque in evangelico illo fędere, ad consultandum de futuro concilio.</s>
+					<s n="4" xml:lang="la" type="auto">Deinde, postquam restitutus est frater, veniunt litterę a principe electore<note xml:id="fn3" type="footnote" n="3">Gemeint ist die von Kurfürst Johann Friedrich von Sachsen und Landgraf Philipp von Hessen unterzeichnete Einladung zu einem Bundestag in <placeName>Schmalkalden</placeName> (<bibl>Volz, Urkunden</bibl> 79-81), die am 6. Januar in <placeName>Konstanz</placeName> eintraf; s. <hi>Moeller,</hi> <persName>Zwick</persName> 192.</note>, in quibus convocat, quicunque in evangelico illo fędere, ad consultandum de futuro concilio.</s>
 					<s n="5" xml:lang="la" type="auto">Hinc nostri sumpta occasione legationem ad Argentinenses omnino differendam existimaverunt.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Haec paucis scire te volui.</s>
-					<s n="7" xml:lang="la" type="auto">Brevi addam alia<note xml:id="fn4" type="footnote" n="4">Siehe unten <ref target="file10982">Nr. 940</ref>.</note>; iam enim ad <persName ref="person19">Ambrosium</persName><note xml:id="fn5" type="footnote" n="5">Zu <persName ref="person19">Ambrosius Blarer</persName> nach <placeName ref="place1107">Tübingen</placeName>.</note> proficiscor.</s>
+					<s n="7" xml:lang="la" type="auto">Brevi addam alia<note xml:id="fn4" type="footnote" n="4">Siehe unten <ref target="file10982">Nr. 940</ref>.</note>; iam enim ad <persName ref="p8055">Ambrosium</persName><note xml:id="fn5" type="footnote" n="5">Zu <persName>Ambrosius Blarer</persName> nach <placeName>Tübingen</placeName>.</note> proficiscor.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Vale millies cum omnibus fratribus.</s>
@@ -141,8 +138,8 @@
 					<s n="9" xml:lang="la" type="auto">10. ianuarii 1537.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zwick</persName>.</s>
-					<s n="11" xml:lang="la" type="auto">Hanc pecuniam dato <persName ref="person114">Leoni</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person114">Leo Jud</persName>.</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zwick</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Hanc pecuniam dato <persName ref="p1753">Leoni</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="p2305">Leo Jud</persName>.</note>.</s>
 					<s n="12" xml:lang="la" type="auto">Sunt, ni fallor, aurei quinque, quos mittendos illi misit Wilhelmus a Zell.</s>
 					<s n="13" xml:lang="la" type="auto">Caeterum nullas litteras accepi pecuniae coniunctas.</s>
 				</p>

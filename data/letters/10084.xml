@@ -6,47 +6,38 @@
 				<title subtype="file">Petrus Dasypodius / Frauenfeld AN Heinrich Bullinger, 10. Januar 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=55</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">28</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 358,92</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Bewirbt sich um eine Anstellung in Zürich, schildert seine aussichtslose Lage in
-								<placeName ref="place363">Frauenfeld</placeName> und bittet Bullinger, seine Kandidatur zu unterstützen.
+								<placeName>Frauenfeld</placeName> und bittet Bullinger, seine Kandidatur zu unterstützen.
 							</p>
 						</summary>
 						<msItem>
@@ -58,6 +49,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Büeler 32</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 55, S.28</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -66,7 +60,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10084">
 				<correspAction type="sent">
-					<persName ref="person771" cert="high">
+					<persName ref="p771" cert="high">
 						<!--
 						<surname cert="high">Dasypodius</surname>
 						<forename cert="high">Petrus</forename>
@@ -77,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11421746"/>
 						-->
 					</persName>
-					<placeName source="place159" cert="high"><orig>Frauenfeld</orig></placeName>
+					<placeName source="l159" cert="high"><orig>Frauenfeld</orig></placeName>
 					<date when="1532-01-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -124,41 +118,41 @@
 					<s n="2" xml:lang="la" type="auto">Non te clam est, charissime Bullingere, quid nuper quamvis non per otium ac iuxta animi votum utpote spaciis exclusus iniquis tecum sim locutus.</s>
 					<s n="3" xml:lang="la" type="auto">Eius adeo rei curam te velim habere maximam.</s>
 					<s n="4" xml:lang="la" type="auto">Dei munere eo loco nunc es, ubi non parum commodare potes amico periclitanti.</s>
-					<s n="5" xml:lang="la" type="auto">Si ambitio vel alius animi morbus et non duris urgens in rebus egestas me candidatum redderet, dignus vel mea sententia fuero, qui repulsam patiar; cęterum, quum in arctum adeo res meę redactę sint, iure hoc a vobis, non ambire dico sed petere videri debeo<note xml:id="fn2" type="footnote" n="2"><persName ref="person47">Dasypodius</persName> bewarb sich wahrscheinlich um die nach dem Weggang von <persName ref="person154">Oswald Myconius</persName> vakant gewordene Lehrerstelle an der Fraumünsterschule in Zürich, vgl. <hi>Büeler</hi> 18, Anm. 1.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Si ambitio vel alius animi morbus et non duris urgens in rebus egestas me candidatum redderet, dignus vel mea sententia fuero, qui repulsam patiar; cęterum, quum in arctum adeo res meę redactę sint, iure hoc a vobis, non ambire dico sed petere videri debeo<note xml:id="fn2" type="footnote" n="2"><persName>Dasypodius</persName> bewarb sich wahrscheinlich um die nach dem Weggang von <persName>Oswald Myconius</persName> vakant gewordene Lehrerstelle an der Fraumünsterschule in Zürich, vgl. <hi>Büeler</hi> 18, Anm. 1.</note>.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Nemini competitorum invideo, minime <persName ref="person175">Rhellicano</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person175">Johannes Rhellikan</persName> war seit 1528 als Schulmeister in <placeName ref="place121">Bern</placeName> tätig.</note>, quocum magna dudum intercessit mihi amicitia, cuius iure, credo, qua ipse est fide ac modestia, ultro mihi cederet, si quanto sim in discrimine, satis haberet cognitum.</s>
+					<s n="6" xml:lang="la" type="auto">Nemini competitorum invideo, minime <persName ref="p8428">Rhellicano</persName><note xml:id="fn3" type="footnote" n="3"><persName>Johannes Rhellikan</persName> war seit 1528 als Schulmeister in <placeName>Bern</placeName> tätig.</note>, quocum magna dudum intercessit mihi amicitia, cuius iure, credo, qua ipse est fide ac modestia, ultro mihi cederet, si quanto sim in discrimine, satis haberet cognitum.</s>
 					<s n="7" xml:lang="la" type="auto">Illud tantum ęquo censeatur, quęso, iuditio, cuius deterior fortuna sit cuique magis nunc consultum esse conveniat.</s>
 					<s n="8" xml:lang="la" type="auto">Caeterorum, quos competitores habeo, nulliusdum, quod ego sciam, status diminuitur, meus vero adeo non manet integer, ut pręter exilium nihil mihi sit reliquum.</s>
 					<s n="9" xml:lang="la" type="auto">Nam qua fronte missantibus adcinere, vel ut ipsi loquuntur, pro choro canere possim Christum professus?</s>
 					<s n="10" xml:lang="la" type="auto">Id quod prope diem faciendum erit aut offitio<pb type="edition" next="29"/> cedendum, ut aliorum interim malorum, quę sese mihi adglomerant undique, nullam hic mentionem faciam.</s>
 					<s n="11" xml:lang="la" type="auto">Huc adde, quod vel maxime consyderandum fuerit.</s>
-					<s n="12" xml:lang="la" type="auto">Si bonarum literarum rationem habere debemus omnes, quotquot illarum studiosi sumus, cavendum scilicet, ne quam uspiam faciant iacturam, porro num citra literarum dispendium <persName ref="person175">Rhellicanus</persName> <placeName ref="place121">Berna</placeName> revocetur, tuum esto iuditium.</s>
-					<s n="13" xml:lang="la" type="auto">Mihi profecto non minus videtur referre, ut illic, dum potest, maneat ad promovenda bona studia<note xml:id="fn4" type="footnote" n="4"><persName ref="person175">Rhellikan</persName> blieb damals tatsächlich in <placeName ref="place121">Bern</placeName>. Er wurde erst 1538 an die Fraumünsterschule in Zürich berufen.</note>, quam <persName ref="person145">Megander</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person145">Kaspar Megander</persName> war 1528-1537 als Pfarrer und Professor in <placeName ref="place121">Bern</placeName> tätig.</note> adserendę causa pietatis.</s>
+					<s n="12" xml:lang="la" type="auto">Si bonarum literarum rationem habere debemus omnes, quotquot illarum studiosi sumus, cavendum scilicet, ne quam uspiam faciant iacturam, porro num citra literarum dispendium <persName ref="p8428">Rhellicanus</persName> <placeName>Berna</placeName> revocetur, tuum esto iuditium.</s>
+					<s n="13" xml:lang="la" type="auto">Mihi profecto non minus videtur referre, ut illic, dum potest, maneat ad promovenda bona studia<note xml:id="fn4" type="footnote" n="4"><persName>Rhellikan</persName> blieb damals tatsächlich in <placeName>Bern</placeName>. Er wurde erst 1538 an die Fraumünsterschule in Zürich berufen.</note>, quam <persName ref="p8412">Megander</persName><note xml:id="fn5" type="footnote" n="5"><persName>Kaspar Megander</persName> war 1528-1537 als Pfarrer und Professor in <placeName>Bern</placeName> tätig.</note> adserendę causa pietatis.</s>
 					<s n="14" xml:lang="la" type="auto">Hoc si quis in me retorquendum esse censeat, respondeo neutiquam parem utriusque conditionem esse.</s>
 					<s n="15" xml:lang="la" type="auto">Ille cum magno studiorum fructu nec minore suarum rerum compendio tutus agit in libera civitate.</s>
 					<s n="16" xml:lang="la" type="auto">Ego contra misera servitute pressus non modo nihil iuvo literas, sed pręter fortunarum mearum dispendium caput tam meum quam aliorum in discrimen adduco.</s>
 					<s n="17" xml:lang="la" type="auto">Quod quidam civibus tantum ad huiusmodi functiones gradum faciunt, in pręsentia nec laudo nec vitupero.</s>
 					<s n="18" xml:lang="la" type="auto">Hoc solum dico, me non omnino externum esse.</s>
-					<s n="19" xml:lang="la" type="auto">Civis Tigurina est uxor mea<note xml:id="fn6" type="footnote" n="6">Der Name der Gattin des <persName ref="person680">Dasypodius</persName> ist nicht bekannt, s. <hi>Büeler 6</hi> und <hi>Knittel,</hi> Reformation 344.</note>, nec ego minus illorum autoritatem strenue semper defendi, id quod multi testari possunt, quam si illic natus sim, cuius nomine hanc etiam, qua nunc flagro, invidiam contraxi.</s>
+					<s n="19" xml:lang="la" type="auto">Civis Tigurina est uxor mea<note xml:id="fn6" type="footnote" n="6">Der Name der Gattin des <persName>Dasypodius</persName> ist nicht bekannt, s. <hi>Büeler 6</hi> und <hi>Knittel,</hi> Reformation 344.</note>, nec ego minus illorum autoritatem strenue semper defendi, id quod multi testari possunt, quam si illic natus sim, cuius nomine hanc etiam, qua nunc flagro, invidiam contraxi.</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="la" type="auto">Proinde fac per Christum pro viribus labores, ne quis mihi pręferatur.</s>
-					<s n="21" xml:lang="la" type="auto">Etiam <persName ref="person175">Rhellicanum</persName>, si forte advenerit, admone, si pace sua fieri potest, veteri nostrę condonet amicitiae.</s>
+					<s n="21" xml:lang="la" type="auto">Etiam <persName ref="p8428">Rhellicanum</persName>, si forte advenerit, admone, si pace sua fieri potest, veteri nostrę condonet amicitiae.</s>
 					<s n="22" xml:lang="la" type="auto">Tum cęteris etiam hęc, quam potes diligenter, expone.</s>
 					<s n="23" xml:lang="la" type="auto">Non possum esse prolixior in mea causa forsan in aliena magis facundus futurus.</s>
 					<s n="24" xml:lang="la" type="auto">Te mihi patronum eligo.</s>
-					<s n="25" xml:lang="la" type="auto">Tu quod potes presta<note xml:id="fn7" type="footnote" n="7">Bullinger konnte die Anstellung von <persName ref="person680">Dasypodius</persName> offenbar nicht durchsetzen. Dieser blieb bis zu seiner Berufung nach <placeName ref="place1049">Straßburg</placeName> in einer mißlichen Lage: Das Einkommen wurde stark gekürzt, seine Predigten kaum besucht; 1533 unterrichtete er nur noch drei Knaben. Neben der allgemeinen Mißstimmung in <placeName ref="place363">Frauenfeld</placeName> nach dem Zweiten Kappelerkrieg (s. <hi>Knittel,</hi> Kirche 95-98) war dies vor allem eine Folge seiner Freundschaft mit dem vertriebenen Landvogt <persName ref="person530">Philipp Brunner</persName>, s. <hi>Büeler</hi> 18.</note>.</s>
+					<s n="25" xml:lang="la" type="auto">Tu quod potes presta<note xml:id="fn7" type="footnote" n="7">Bullinger konnte die Anstellung von <persName>Dasypodius</persName> offenbar nicht durchsetzen. Dieser blieb bis zu seiner Berufung nach <placeName>Straßburg</placeName> in einer mißlichen Lage: Das Einkommen wurde stark gekürzt, seine Predigten kaum besucht; 1533 unterrichtete er nur noch drei Knaben. Neben der allgemeinen Mißstimmung in <placeName>Frauenfeld</placeName> nach dem Zweiten Kappelerkrieg (s. <hi>Knittel,</hi> Kirche 95-98) war dies vor allem eine Folge seiner Freundschaft mit dem vertriebenen Landvogt <persName>Philipp Brunner</persName>, s. <hi>Büeler</hi> 18.</note>.</s>
 				</p>
 				<p>
-					<s n="26" xml:lang="la" type="auto"><persName ref="person165">Pellicano</persName><note xml:id="fn8" type="footnote" n="8">Zu der in HBBW I 201f, Anm. II genannten Lit. ist als neueste Darstellung ergänzend hinzuzufügen: <hi>Zürcher.</hi></note> cęterisque lubens scripsissem, si per tabellionem mihi tantum otii datum fuisset.</s>
+					<s n="26" xml:lang="la" type="auto"><persName ref="p8127">Pellicano</persName><note xml:id="fn8" type="footnote" n="8">Zu der in <bibl>HBBW I</bibl> 201f, Anm. II genannten Lit. ist als neueste Darstellung ergänzend hinzuzufügen: <hi>Zürcher.</hi></note> cęterisque lubens scripsissem, si per tabellionem mihi tantum otii datum fuisset.</s>
 					<s n="27" xml:lang="la" type="auto">Saluta igitur eos meo nomine, ac si videtur, etiam hęc legenda trade, ac vale feliciter.</s>
 				</p>
 				<p>
 					<s n="28" xml:lang="la" type="auto">Frouvenfeldię, decima ianuarii anno 1532.</s>
 				</p>
 				<p>
-					<s n="29" xml:lang="la" type="auto"><persName ref="person47">Petrus Dasypodius</persName> tuus.</s>
+					<s n="29" xml:lang="la" type="auto"><persName ref="p8320">Petrus Dasypodius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -6,35 +6,31 @@
 				<title subtype="file">Nicholas Eliott / [Genf] AN Heinrich Bullinger, zwischen s.d. [November] 1537 und s.d. [Dezember] 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1075</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">619</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Epistolae Tigurinae de rebus potissimum ad ecclesiae Anglicanae reformationem pertinentibus conscriptae A. D. 1531-1558. Ex schedis manuscriptis in bibliotheca Tigurina aliisque servatis Parkerianae societatis auspiciis editae, Cambridge 1848 (Nachdruck: New York 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,23r-24r</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,13 +40,13 @@
 								Schüler erweisen. Hofft, daß Bullinger, der zu übertriebener Bescheidenheit neigt, seine Kommentare zu
 								Jesaja und zu weiteren Schriften veröffentlichen wird; besonders seine Auslegung der Paulusbriefe wird
 								überall gerühmt; und allein schon der buchhändlerische Erfolg bezeugt die Wertschätzung seiner Werke, die
-								der Kirche noch großen Nutzen bringen werden. Grüßt <persName ref="person14">Bibliander</persName>,
-								<persName ref="person114">Jud</persName>, <persName ref="person165">Pellikan</persName>,
-								<persName ref="person78">Beat [Gering]</persName> und
-								<persName ref="person16">[Georg] Binder</persName> und bedauert, daß
+								der Kirche noch großen Nutzen bringen werden. Grüßt <persName ref="p8171">Bibliander</persName>,
+								<persName ref="p1753">Jud</persName>, <persName ref="p8127">Pellikan</persName>,
+								<persName ref="p8364">Beat [Gering]</persName> und
+								<persName ref="p344">[Georg] Binder</persName> und bedauert, daß
 								er ihnen noch nicht schreiben konnte. Grüßt außerdem Bullingers Bruder
 								[Johannes] und übermittelt einen Gruß seines Gastgebers
-								<persName ref="person2035">Antoine Saunier</persName>.
+								<persName ref="p6376">Antoine Saunier</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -71,17 +67,17 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11118">
 				<correspAction type="sent">
-					<persName ref="person1001" cert="high">
+					<persName ref="p1001" cert="high">
 						<!--
 						<surname cert="high">Eliott</surname>
 						<forename cert="high">Nicholas</forename>
 						-->
 					</persName>
-					<placeName source="place167" cert="low"><orig>Genf</orig></placeName>
+					<placeName source="l167" cert="low"><orig>Genf</orig></placeName>
 					<date notBefore="1537-11-01" notAfter="1537-12-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

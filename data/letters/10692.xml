@@ -6,40 +6,31 @@
 				<title subtype="file">Jakob Meyer / Basel AN Heinrich Bullinger, 30. September 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=654</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">374</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2016</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,24 +44,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 654, S.374</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10692">
 				<correspAction type="sent">
-					<persName ref="person2272" cert="high">
+					<persName ref="p2272" cert="high">
 						<!--
 						<surname cert="high">Meyer</surname>
 						<forename cert="high">Jakob</forename>
 						<persName type="main" ref="person8129>Meyer, Jakob</persName>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1535-09-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,22 +115,22 @@
 					<s n="1" xml:lang="de" type="auto">Die gnad des herren und merung des gloubens sampt minen willigen diensten wünsch ich euch zuͦvor, geliepter herr und bruͦder.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Wie die sachen des gloubens in der Eidgnoschaft mit der zyt ston werden, zöigen die<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> die <hi>gestrichenes unleserliches Wort.</hi></note> wunderbaren<note xml:id="fn1" type="footnote" n="1">merkwürdigen, befremdlichen (Grimm XIV/II 1846).</note>, seltzamen sachen zuͦ diser zyt<note xml:id="fnb" type="footnote" n="b">zyt <hi>fehlt in der Vorlage.</hi></note> wol an, die yetz in der Eidgnoschaft furgond<note xml:id="fn2" type="footnote" n="2">Das politische Klima in der Eidgenossenschaft verschlechterte sich in jenen Tagen spürbar, seitdem die Mehrheit der Orte Mitte September in <placeName ref="place85">Baden</placeName> die Absicht bekundet hatte, die sogenannten <placeName ref="place83">Solothurner</placeName> Banditen (vgl. dazu oben <ref target="file10681">Nr. 643</ref>, Anm. 13) ins bernische und baslerische Gebiet hinein zu verfolgen (vgl. EA IV/1c 558f 1 und 561 zu 1). <placeName ref="place97">Basel</placeName> verwahrte sich an diesem 30. September in einem Schreiben an Zürich gegen dieses Ansinnen (Zürich ZB, Ms S 39, 82), <placeName ref="place121">Bern</placeName> tat dies am 3. Oktober (ebd., Nr. 83). Kurz zuvor hatte <persName ref="person154">Myconius</persName> Zürichs ängstliche Haltung <placeName ref="place51">den V Orten</placeName> gegenüber getadelt (vgl. oben <ref target="file10690">Nr. 652</ref>, 34-40), während <persName ref="person90">Berchtold Haller</persName> am 3. Oktober sogar vor einem Krieg dieser Sache wegen warnte (vgl. unten <ref target="file10695">Nr. 657</ref>, 42-56).</note>.</s>
+					<s n="2" xml:lang="de" type="auto">Wie die sachen des gloubens in der Eidgnoschaft mit der zyt ston werden, zöigen die<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> die <hi>gestrichenes unleserliches Wort.</hi></note> wunderbaren<note xml:id="fn1" type="footnote" n="1">merkwürdigen, befremdlichen (<bibl>Grimm</bibl> XIV/II 1846).</note>, seltzamen sachen zuͦ diser zyt<note xml:id="fnb" type="footnote" n="b">zyt <hi>fehlt in der Vorlage.</hi></note> wol an, die yetz in der Eidgnoschaft furgond<note xml:id="fn2" type="footnote" n="2">Das politische Klima in der Eidgenossenschaft verschlechterte sich in jenen Tagen spürbar, seitdem die Mehrheit der Orte Mitte September in <placeName>Baden</placeName> die Absicht bekundet hatte, die sogenannten <placeName>Solothurner</placeName> Banditen (vgl. dazu oben <ref target="file10681">Nr. 643</ref>, Anm. 13) ins bernische und baslerische Gebiet hinein zu verfolgen (vgl. <bibl>EA</bibl> IV/1c 558f 1 und 561 zu 1). <placeName>Basel</placeName> verwahrte sich an diesem 30. September in einem Schreiben an Zürich gegen dieses Ansinnen (Zürich ZB, Ms S 39, 82), <placeName>Bern</placeName> tat dies am 3. Oktober (ebd., Nr. 83). Kurz zuvor hatte <persName>Myconius</persName> Zürichs ängstliche Haltung <placeName>den V Orten</placeName> gegenüber getadelt (vgl. oben <ref target="file10690">Nr. 652</ref>, 34-40), während <persName>Berchtold Haller</persName> am 3. Oktober sogar vor einem Krieg dieser Sache wegen warnte (vgl. unten <ref target="file10695">Nr. 657</ref>, 42-56).</note>.</s>
 					<s n="3" xml:lang="de" type="auto">Wo unß der guetig herr und vatter nit bewart, besorg ich, wir werdens bald mit grossem jamer erfaren.</s>
-					<s n="4" xml:lang="de" type="auto">Nun erkenn<note xml:id="fn3" type="footnote" n="3">kenne (SI III 313).</note> ich euch, wie ir umm solichs sampt euweren brüedern und viler frommen nit wenig sorg tragen, mögens aber alles mit den solichen frommen leider nit wenden.</s>
-					<s n="5" xml:lang="de" type="auto">Von welchen dingen, so<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> so <hi>gestrichenes</hi> ich.</note> ich by euch wäre, vil mit<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> mit <hi>gestrichenes</hi> zereden.</note> euch ze reden hette, das ich uff diß mol der feder nit habe können bevelhen; hab aber disem zöiger<note xml:id="fn4" type="footnote" n="4">Der Briefüberbringer ist unbekannt.</note>, minem guͦten fründ (der sonst in sinen geschefften hatt gon Zürich müssen)<pb type="edition" next="375"/> etwas (solicher sachen), doch nit alles, angehengt<note xml:id="fn5" type="footnote" n="5">aufgebürdet, als Pflicht überbunden (SI II 1459).</note>, mit euch zereden, welchem ir glouben geben sollen.</s>
+					<s n="4" xml:lang="de" type="auto">Nun erkenn<note xml:id="fn3" type="footnote" n="3">kenne (<bibl>SI</bibl> III 313).</note> ich euch, wie ir umm solichs sampt euweren brüedern und viler frommen nit wenig sorg tragen, mögens aber alles mit den solichen frommen leider nit wenden.</s>
+					<s n="5" xml:lang="de" type="auto">Von welchen dingen, so<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> so <hi>gestrichenes</hi> ich.</note> ich by euch wäre, vil mit<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> mit <hi>gestrichenes</hi> zereden.</note> euch ze reden hette, das ich uff diß mol der feder nit habe können bevelhen; hab aber disem zöiger<note xml:id="fn4" type="footnote" n="4">Der Briefüberbringer ist unbekannt.</note>, minem guͦten fründ (der sonst in sinen geschefften hatt gon Zürich müssen)<pb type="edition" next="375"/> etwas (solicher sachen), doch nit alles, angehengt<note xml:id="fn5" type="footnote" n="5">aufgebürdet, als Pflicht überbunden (<bibl>SI</bibl> II 1459).</note>, mit euch zereden, welchem ir glouben geben sollen.</s>
 					<s n="6" xml:lang="de" type="auto">Er würt vertrüwlich mit euch reden.</s>
 					<s n="7" xml:lang="de" type="auto">Das mögen ir mit im (als ob ich selbs do were) ouch thuͦn und euch das selbig und die sachen des ewangeli trüwlich lassen bevolhen sin, wie ich weiß, ir selbs zethuͦnd vast willig und geneigt sind.</s>
 					<s n="8" xml:lang="de" type="auto">Bevilch euch hiemit dem herren.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="auto">Gruessen mir<note xml:id="fne" type="footnote" n="e">mir <hi>am Rande nachgetragen.</hi></note> <persName ref="person114">Leonem Jud</persName>, Pellicanum und die brueder gemeinlich, den alten abt von <placeName ref="place1186">Wettingen</placeName><note xml:id="fn6" type="footnote" n="6">Georg (Jörg) <persName ref="person1710">Müller</persName>, gest. 1542 oder später, stammte aus <placeName ref="place85">Baden</placeName>. In seiner Amtszeit als Abt von <placeName ref="place1186">Wettingen</placeName> (Kt. Aargau), 1528-1532 (ab 1529 als Verwalter), setzte sich die Reformation im Kloster durch. Nach der Schlacht von <placeName ref="place534">Kappel</placeName> verließ er <placeName ref="place1186">Wettingen</placeName> und nahm in Zürich Wohnsitz. - Lit.: HBRG II 221f; André <hi>Hägler</hi> und Anton <hi>Kottmann,</hi> <placeName ref="place1186">Wettingen</placeName>, in: Die Zisterzienser und Zisterzienserinnen, die reformierten Bernhardinerinnen, die Trappisten und Trappistinnen und die Wilhelmiten in der Schweiz, red. v. Cécile Sommer-Ramer und Patrick Braun, 1. Teil, Bern 1982. - Helvetia Sacra III, 3, 1, S. 462; Alfons <hi>Bugmann,</hi> Zürich und die Abtei <placeName ref="place1186">Wettingen</placeName> zur Zeit der Reformation und der Gegen-Reformation (1519-1656), Dietikon 1949, S. 35-49; Album Wettingense oder Verzeichniss der Mitglieder des exemten und consistorialen Stiftes <placeName ref="place1186">Wettingen</placeName>-Mehrerau, 1227-1891, hg. v. Dominicus Willi, Limburg a. L. 1892, S. 46f, <ref target="file10494">Nr. 459</ref>.</note>, den <persName ref="person204">Steiner</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person204">Werner Steiner</persName>.</note> von <placeName ref="place1238">Zug</placeName>, ouch alle, so den herren von hertzen lieben, und, ists möglich, den Laveter<note xml:id="fn8" type="footnote" n="8"><persName ref="person132">Hans Rudolf Lavater</persName>.</note> ouch.</s>
+					<s n="9" xml:lang="de" type="auto">Gruessen mir<note xml:id="fne" type="footnote" n="e">mir <hi>am Rande nachgetragen.</hi></note> <persName ref="p1753">Leonem Jud</persName>, Pellicanum und die brueder gemeinlich, den alten abt von <placeName>Wettingen</placeName><note xml:id="fn6" type="footnote" n="6"><persName>Georg (Jörg) Müller</persName>, gest. 1542 oder später, stammte aus <placeName>Baden</placeName>. In seiner Amtszeit als Abt von <placeName>Wettingen</placeName> (Kt. Aargau), 1528-1532 (ab 1529 als Verwalter), setzte sich die Reformation im Kloster durch. Nach der Schlacht von <placeName>Kappel</placeName> verließ er <placeName>Wettingen</placeName> und nahm in Zürich Wohnsitz. - Lit.: <bibl>HBRG</bibl> II 221f; André <hi>Hägler</hi> und Anton <hi>Kottmann,</hi> <placeName>Wettingen</placeName>, in: Die Zisterzienser und Zisterzienserinnen, die reformierten Bernhardinerinnen, die Trappisten und Trappistinnen und die Wilhelmiten in der Schweiz, red. v. Cécile Sommer-Ramer und Patrick Braun, 1. Teil, Bern 1982. - <bibl>Helvetia Sacra</bibl> III, 3, 1, S. 462; Alfons <hi>Bugmann,</hi> Zürich und die Abtei <placeName>Wettingen</placeName> zur Zeit der Reformation und der Gegen-Reformation (1519-1656), Dietikon 1949, S. 35-49; Album Wettingense oder Verzeichniss der Mitglieder des exemten und consistorialen Stiftes <placeName>Wettingen</placeName>-Mehrerau, 1227-1891, hg. v. Dominicus Willi, Limburg a. L. 1892, S. 46f, <ref target="file10494">Nr. 459</ref>.</note>, den <persName ref="p8447">Steiner</persName><note xml:id="fn7" type="footnote" n="7"><persName>Werner Steiner</persName>.</note> von <placeName>Zug</placeName>, ouch alle, so den herren von hertzen lieben, und, ists möglich, den Laveter<note xml:id="fn8" type="footnote" n="8"><persName ref="p6155">Hans Rudolf Lavater</persName>.</note> ouch.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">Datum <placeName ref="place97">Basel</placeName>, den letsten september anno etc. 35.</s>
+					<s n="10" xml:lang="de" type="auto">Datum <placeName>Basel</placeName>, den letsten september anno etc. 35.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="de" type="auto">U[wer] williger <persName ref="person148">Jacob</persName> Meyger, alt burgermeister zu <placeName ref="place97">Basel</placeName>.</s>
+					<s n="11" xml:lang="de" type="auto">U[wer] williger <persName ref="p18678">Jacob Meyger</persName>, alt burgermeister zu <placeName>Basel</placeName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

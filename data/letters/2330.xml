@@ -6,32 +6,31 @@
 				<title subtype="file">[Ambrosius Blarer] / [Biel] AN Heinrich Bullinger / Zürich, 5. Juli 1554</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3618</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,404 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +45,7 @@
 								<title>Zusammenfassende Übersetzung</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW III, S. 262, Nr. 1934</title>
+								<title>Blarer BW III, S.262, Nr. 1934</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -54,14 +53,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 82,90</idno>
 					</msIdentifier>
 				</msDesc>
@@ -70,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2330">
 				<correspAction type="sent">
-					<persName ref="person392" cert="low">
+					<persName ref="p392" cert="low">
 						<!--
 						<surname cert="low">Blarer</surname>
 						<forename cert="low">Ambrosius</forename>
@@ -81,11 +80,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place49" cert="low"><orig>Biel</orig></placeName>
+					<placeName source="l49" cert="low"><orig>Biel</orig></placeName>
 					<date when="1554-07-05" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,7 +94,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2331"/>
@@ -121,7 +120,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -156,7 +155,7 @@
 					<s n="14" xml:lang="la" type="auto">Salvere te iubent valde quam honorifice Funclius meus, qui nunc uxorculam suam Badenum ducit, unde hasce ad te perferendas cur[abit].</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Salutem itidem adscribere iubent Fuchsius<note xml:id="fn1" type="footnote" n="1">Peter Fuchs.</note>, Valerius<note xml:id="fn2" type="footnote" n="2">Göuffi.</note> etc.</s>
+					<s n="15" xml:lang="la" type="auto">Salutem itidem adscribere iubent Fuchsius<note xml:id="fn1" type="footnote" n="1"><persName>Peter Fuchs</persName>.</note>, Valerius<note xml:id="fn2" type="footnote" n="2">Göuffi.</note> etc.</s>
 					<s n="16" xml:lang="la" type="auto">Commenda nos domino diligenter, cui ministerium nostrum utinam, ut par est, probare possimus advigilantes in domo ipsius, quę est ecclesia dei viventis, sed lacera pro dolor, dissipata ac prorsus disiecta, cum adeo miserandum in modum omnis in illa cesset disciplina, ad quam feliciter restaurandam tua tuique similium magnopere virorum opera opus esse video, quibus totis animis opto, ut dominus consilii ac zeli sui spiritum largiatur, ut impendio istuc velint ac conentur, simul et prospere, quod conantur, efficiant, quod nisi mature fiat, brevi futurum video, ut peius quam olim Sodoma habitura sit excultissima quidem domini donis, sed interim ingratissima, nostra Germania.</s>
 				</p>
 				<p>

@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN [(Erzbischof) Edmund Grindal], [(Bischof) Richard Cox], [(Bischof) John Jewel] / [York], s.d. Februar 1571</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7628/21</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 123,165</idno>
 						<idno subtype="Hinweis">(nach Druck in HBBibl I 562) *</idno>
 					</msIdentifier>
@@ -44,7 +43,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Ep. Tig. II, S. 106f, Nr. 72</title>
+								<title>Ep. Tig. II, S.106f, Nr. 72</title>
 							</bibl>
 							<bibl type="Gedruckt">
 								<title>HB: Refutatio Bullae papisticae 1571 [= HBBibl I 562, Bl 2r-v]</title>
@@ -64,14 +63,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive58">
+						<repository ref="a58">
 							<name>London LPL</name>
 							<ref target="https://lambethpalacelibrary.org/"/>
 						</repository>
-						<settlement ref="place296">London</settlement>
+						<settlement ref="l296">London</settlement>
 						<institution>Lambeth Palace Library</institution>
 						-->
-						<repository ref="archive58"/>
+						<repository ref="a58"/>
 						<idno subtype="Kopie">Ms 2010, fo 49r (Nr. 32)</idno>
 						<idno subtype="Mikrofilm">48 IRG</idno>
 					</msIdentifier>
@@ -81,7 +80,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8480">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -91,11 +90,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date notBefore="1571-02-01" notAfter="1571-02-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1341" cert="low">
+					<persName ref="p1341" cert="low">
 						<!--
 						<surname cert="low">Grindal</surname>
 						<forename cert="low">Edmund</forename>
@@ -103,9 +102,9 @@
 						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Edmund_Grindal"/>
 						<ref type="gnd" target="https://d-nb.info/gnd/139364749"/>
 						-->
-						<roleName ref="role81" type="sg" role="Erzbischof" cert="low"/>
+						<roleName ref="g81" type="sg" role="Erzbischof" cert="low"/>
 					</persName>
-					<persName ref="person672" cert="low">
+					<persName ref="p672" cert="low">
 						<!--
 						<surname cert="low">Cox</surname>
 						<forename cert="low">Richard</forename>
@@ -113,9 +112,9 @@
 						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Richard_Cox_(Bischof)"/>
 						<ref type="gnd" target="https://d-nb.info/gnd/118670409"/>
 						-->
-						<roleName ref="role10" type="sg" role="Bischof" cert="low"/>
+						<roleName ref="g10" type="sg" role="Bischof" cert="low"/>
 					</persName>
-					<persName ref="person1750" cert="low">
+					<persName ref="p1750" cert="low">
 						<!--
 						<surname cert="low">Jewel</surname>
 						<forename cert="low">John</forename>
@@ -124,9 +123,9 @@
 						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/John_Jewel"/>
 						<ref type="gnd" target="https://d-nb.info/gnd/12126100X"/>
 						-->
-						<roleName ref="role10" type="sg" role="Bischof" cert="low"/>
+						<roleName ref="g10" type="sg" role="Bischof" cert="low"/>
 					</persName>
-					<placeName source="place574" cert="low"><orig>York</orig></placeName>
+					<placeName source="l574" cert="low"><orig>York</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8481"/>
@@ -144,7 +143,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

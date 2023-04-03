@@ -6,47 +6,38 @@
 				<title subtype="file">Simon Grynäus / Basel AN s.n. / [Zürich], 28. Januar [1541]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1456</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">38</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 33 (VBS IV),111</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Kam gestern nach Hause; wird einen Bericht über die Verhandlungen in
-								<placeName ref="place1214">Worms</placeName> schicken, sobald dieser abgeschrieben ist. Hofft auf
+								<placeName>Worms</placeName> schicken, sobald dieser abgeschrieben ist. Hofft auf
 								bleibende Verbundenheit.
 							</p>
 						</summary>
@@ -54,13 +45,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1456, S.38</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11499">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -70,12 +68,12 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1541-01-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role49" type="pl" role="Pfarrer" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11500"/>
@@ -99,7 +97,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -107,8 +105,8 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Veni heri domum<note xml:id="fn2" type="footnote" n="2">Zur Rückkehr von <persName ref="person81">Grynäus</persName> aus <placeName ref="place1214">Worms</placeName> vgl. das Dankschreiben <placeName ref="place1049">Straßburgs</placeName> an <placeName ref="place97">Basel</placeName> vom 24. Januar in PC III 162f.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Acta <placeName ref="place1214">Vormatię</placeName> voluissem mittere ad vos, sed describi subito non potuerunt.</s>
+					<s n="2" xml:lang="la" type="auto">Veni heri domum<note xml:id="fn2" type="footnote" n="2">Zur Rückkehr von <persName>Grynäus</persName> aus <placeName>Worms</placeName> vgl. das Dankschreiben <placeName>Straßburgs</placeName> an <placeName>Basel</placeName> vom 24. Januar in <bibl>PC</bibl> III 162f.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Acta <placeName>Vormatię</placeName> voluissem mittere ad vos, sed describi subito non potuerunt.</s>
 					<s n="4" xml:lang="la" type="auto">Mittam, cum primum descripta fuerint<note xml:id="fn3" type="footnote" n="3">Vgl. unten <ref target="file11512">Nr. 1469</ref>.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Interea hoc significare saltem volui.</s>
 				</p>
@@ -119,10 +117,10 @@
 					<s n="9" xml:lang="la" type="manual">Amen.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Datum <placeName ref="place97">Basileae</placeName>, 28. ianuarii.</s>
+					<s n="10" xml:lang="la" type="auto">Datum <placeName>Basileae</placeName>, 28. ianuarii.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">S. <persName ref="person81">Grynęus</persName> vester in domino frater.</s>
+					<s n="11" xml:lang="la" type="auto">S. <persName ref="p1365">Grynęus</persName> vester in domino frater.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

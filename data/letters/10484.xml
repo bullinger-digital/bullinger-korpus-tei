@@ -6,29 +6,20 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN s.n. / [Zürich], 1. Oktober 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=449</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">336</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief">
 					<msIdentifier/>
 					<msContents>
@@ -51,6 +42,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Heinrich Bullinger, Utriusque in Christo naturae tam divinae quam humanae, contra varias haereses, pro confessione Christi catholica, Assertio orthodoxa, Zürich 1534, f. A2r-A3r (Widmungsvorrede)</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 449, S.336</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -59,7 +53,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10484">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -69,12 +63,12 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1534-10-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role49" type="pl" role="Pfarrer" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10485"/>
@@ -94,7 +88,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -115,10 +109,10 @@
 					<s n="8" xml:lang="la" type="auto">Proinde neque singulis haereticorum argutiis, obiectionibus et blasphemiis respondi.</s>
 					<s n="9" xml:lang="la" type="auto">Nam simplicem veritatem perspicue<pb type="scan" next="||A2v."/> proposuisse exposuisseve<pb type="edition" next="337"/> est argumentis hęreticorum mendacium astruentibus respondisse.</s>
 					<s n="10" xml:lang="la" type="auto">Et haec disputatio de essentia dei instituitur, quam nemo hominum facile exposuerit.</s>
-					<s n="11" xml:lang="la" type="auto">Recte enim dictum est deum comprehensibilem non esse deum<note xml:id="fn6" type="footnote" n="6">Vgl. <persName ref="person371">Augustin</persName>, Sermo CVII, 3, 5 (MPL XXXVIII 663).</note>.</s>
-					<s n="12" xml:lang="la" type="auto">Dei enim proprium est incomprehensibilem<note xml:id="fn7" type="footnote" n="7">Vgl. <persName ref="person365">Athanasius von Alexandrien</persName>, Oratio contra gentes, 35 (MPG XXV 69).</note> esse.</s>
+					<s n="11" xml:lang="la" type="auto">Recte enim dictum est deum comprehensibilem non esse deum<note xml:id="fn6" type="footnote" n="6">Vgl. <persName>Augustin</persName>, Sermo CVII, 3, 5 (<bibl>MPL</bibl> XXXVIII 663).</note>.</s>
+					<s n="12" xml:lang="la" type="auto">Dei enim proprium est incomprehensibilem<note xml:id="fn7" type="footnote" n="7">Vgl. <persName>Athanasius von Alexandrien</persName>, Oratio contra gentes, 35 (<bibl>MPG</bibl> XXV 69).</note> esse.</s>
 					<s n="13" xml:lang="la" type="auto">Recte item dictum est abyssum palma mensuratos esse, qui essentiam dei, uti est, concipere et humanis verbis efferre voluere<note xml:id="fn8" type="footnote" n="8">Vgl. Jes 40, 12.</note>.</s>
-					<s n="14" xml:lang="la" type="auto">Quanto prudentius consuluit <persName ref="person365">Ecclesiasticus</persName> dicens: «Altiora te ne quaesieris et fortiora te ne scrutatus fueris, sed quae praecepit tibi deus, illa cogita semper et in pluribus operibus eius ne fueris curiosus.</s>
+					<s n="14" xml:lang="la" type="auto">Quanto prudentius consuluit <persName>Ecclesiasticus</persName> dicens: «Altiora te ne quaesieris et fortiora te ne scrutatus fueris, sed quae praecepit tibi deus, illa cogita semper et in pluribus operibus eius ne fueris curiosus.</s>
 					<s n="15" xml:lang="la" type="auto">Non est enim tibi necessarium ea, quae abscondita sunt, videre oculis tuis, ne ergo in pluribus operibus eius fueris curiosus» [Sir 3, 21-23].</s>
 					<s n="16" xml:lang="la" type="auto">Haec, inquam, expendamus, o fratres, in his simus.</s>
 					<s n="17" xml:lang="la" type="auto">Nostrum est clementiam, bonitatem, veritatem, omnipotentiam, sapientiam et iustitiam dei inculcare, mysterium Christi<note xml:id="fn9" type="footnote" n="9">Kol 4, 3.</note>, meritum redemptionis eius et fidei virtutem commendare, item charitatis et innocentiae studium urgere.</s>

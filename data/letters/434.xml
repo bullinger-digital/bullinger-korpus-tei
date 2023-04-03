@@ -6,32 +6,31 @@
 				<title subtype="file">[Ambrosius Blarer] / [Griesenberg] AN Heinrich Bullinger / Zürich, 14. Februar 1549</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">1336</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Beilage" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,321</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW III, S. 10ff</title>
+								<title>Blarer BW III, S.10ff</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -51,14 +50,14 @@
 				<msDesc type="Beilage" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 69,108</idno>
 						<idno subtype="Hinweis">dat.: ca. Feb. 19.</idno>
 					</msIdentifier>
@@ -66,14 +65,14 @@
 				<msDesc type="Brief" subtype="Beilage" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Beilage">E II 357,319 Bl. III, 12R.</idno>
 						<idno subtype="Hinweis">Schluss</idno>
 					</msIdentifier>
@@ -83,7 +82,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/434">
 				<correspAction type="sent">
-					<persName ref="person392" cert="low">
+					<persName ref="p392" cert="low">
 						<!--
 						<surname cert="low">Blarer</surname>
 						<forename cert="low">Ambrosius</forename>
@@ -94,11 +93,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place184" cert="low"><orig>Griesenberg</orig></placeName>
+					<placeName source="l184" cert="low"><orig>Griesenberg</orig></placeName>
 					<date when="1549-02-14" cert="low"><note>Beilage zu: (1549 Februar 14.) (= ID 433) gemäss Schiess</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +107,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file435"/>
@@ -137,7 +136,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -191,39 +190,37 @@
 					<s n="25" xml:lang="de" type="auto">Der Eckle, hoptman, so ouch zuͦ Costentz lygt, wirt yetz von dem kaiserliche fiskal um 2000 fl. angefordert, umb das er wirtempergisch gewesen und widern kaiser, desglichen herr Felchär von Knöringen um 8000 fl.</s>
 				</p>
 				<p>
-					<s n="26" xml:lang="de" type="auto">Man hat mit Schwerttänzen und dergleichen ein so tolles wesen getrieben, daß es verboten wurde; die frau eines kriegers sagt, es werde etwas grausames darauf folgen; sie habe es oft erlebt.</s>
+					<note  type="regest">Man hat mit Schwerttänzen und dergleichen ein so tolles Wesen getrieben, daß es verboten wurde; die Frau eines Kriegers sagt, es werde etwas Grausames darauf folgen; sie habe es oft erlebt.</note>
 				</p>
 				<p>
-					<s n="27" xml:lang="de" type="auto">Manche behaupten, es sollen Spanier nach Konstanz gelegt werden; andre sagen, daß die kommissare darüber spotten und versichern, man werde die bürger diese Fasten noch zu nichts zwingen.</s>
-					<s n="28" xml:lang="de" type="auto">Es ist ein doctor von Freiburg (Fabri) hingekommen, der soll da predigen; "ain gschwinder aubenturer" mit viel glatten Worten, der seine sache geschickt vorzubringen weiß.</s>
-					<s n="29" xml:lang="de" type="auto">Gott wehre ihm!</s>
-					<s n="30" xml:lang="de" type="auto">Er ist bei Hans Kupferschmid einlogiert, der bürgermeister Gaisbergs selig schwester zur frau hat und jetzt auch aus dem rat gestoßen ist; sie sind fromme leute und empfinden es sehr schwer, diesen mann bei sich haben zu müssen.</s>
+					<note type="regest">Manche behaupten, es sollen Spanier nach Konstanz gelegt werden; andre sagen, daß die Kommissare darüber spotten und versichern, man werde die Bürger diese Fasten noch zu nichts zwingen.
+					Es ist ein Doktor von Freiburg (Fabri) hingekommen, der soll da predigen; "ain gschwinder aubenturer" mit viel glatten Worten, der seine Sache geschickt vorzubringen weiß.
+					Gott wehre ihm!
+					Er ist bei Hans Kupferschmid einlogiert, der Bürgermeister Gaisbergs selig Schwester zur Frau hat und jetzt auch aus dem Rat gestoßen ist; sie sind fromme Leute und empfinden es sehr schwer, diesen Mann bei sich haben zu müssen.</note>
 				</p>
 				<p>
-					<s n="31" xml:lang="de" type="auto">Den Matthäus Flar, früheren ratsherrn, jetzt nahe bei St. Gallen wohnhaft, wollten etliche mit drohungen zur rückkehr nötigen; er hat es aber verweigert und sein burgrecht aufgeschrieben.</s>
-					<s n="32" xml:lang="de" type="auto">Da befürchtet man, er könnte beim bürgereid behaftet werden, so daß er sich bessernicht als bürger bekannt hätte, da er ja dieser obrigkeit nichts geschworen hat, der eid dem bürgermeister an Weihnachten nur je auf ein jahr geleistet wird und am Neujahrstag erneuert werden muß.</s>
+					<note type="regest">Den Matthäus Flar, früheren Ratsherrn, jetzt nahe bei St. Gallen wohnhaft, wollten etliche mit Drohungen zur Rückkehr nötigen; er hat es aber verweigert und sein Burgrecht aufgeschrieben.
+					Da befürchtet man, er könnte beim Bürgereid behaftet werden, so daß er sich besser nicht als Bürger bekannt hätte, da er ja dieser Obrigkeit nichts geschworen hat, der eid dem Bürgermeister an Weihnachten nur je auf ein Jahr geleistet wird und am Neujahrstag erneuert werden muß.</note>
 				</p>
 				<p>
-					<s n="33" xml:lang="de" type="auto">Man glaubt, der könig werde auf dem tag zu Baden bei den Eidgenossen darauf dringen, daß die ausgetretenen nirgends geduldet werden, und hofft, daß die boten, wenn es geschieht, dies nur <foreign xml:lang="la">ad referendum</foreign> annehmen, so daß zeit bleibe zu überlegen, was zu tun sei.</s>
-					<s n="34" xml:lang="de" type="auto">Gottes wille geschehe!</s>
-					<s n="35" xml:lang="de" type="auto">Er wird uns sicher einen unterschlupf weisen, bis er uns zu sich ruft.</s>
+					<note type="regest">Man glaubt, der König werde auf dem Tag zu Baden bei den Eidgenossen darauf dringen, daß die Ausgetretenen nirgends geduldet werden, und hofft, daß die boten, wenn es geschieht, dies nur <foreign xml:lang="la">ad referendum</foreign> annehmen, so daß Zeit bleibe zu überlegen, was zu tun sei.
+					Gottes Wille geschehe!
+					Er wird uns sicher einen Wnterschlupf weisen, bis er uns zu sich ruft.</note>
 				</p>
 				<p>
-					<s n="36" xml:lang="de" type="auto">Hans Albrecht von Anwyl, jetzt bürgermeister in Freiburg, war kürzlich in Bischofszell und sagte, er wolle seinen gaul gegen ein paar gulden wetten, daß die Basler das Interim bald annehmen; besonders der stadtschreiber, früher der beste, werde sich gewinnen lassen.</s>
+					<note type="regest">Hans Albrecht von Anwyl, jetzt Bürgermeister in Freiburg, war kürzlich in Bischofszell und sagte, er wolle seinen Gaul gegen ein paar Gulden wetten, daß die Basler das Interim bald annehmen; besonders der Stadtschreiber, früher der beste, werde sich gewinnen lassen.</note>
 				</p>
 				<p>
-					<s n="37" xml:lang="de" type="auto">Gestern nacht erhielt ich briefe aus Konstanz, der oberst sei gestern wieder von Innsbruck zurückgekommen.</s>
-					<s n="38" xml:lang="de" type="auto">Der von Landau und zwei ratsherren, auch Dr.</s>
+					<note type="regest">Gestern nacht erhielt ich Briefe aus Konstanz, der Oberst sei gestern wieder von Innsbruck zurückgekommen.
+					Der von Landau und zwei Ratsherren, auch Dr. Valentin (Fabri) waren am Montag im Kloster St. Peter, muteten den Frauen wie schon früher zu, die Kutten wieder anzuziehen, den Orden zu halten und junge aufzunehmen etc.; der König wolle es so etc.
+					Doch als sie einzeln befragt wurden, haben sich alle tapfer gehalten und erklärt, lieber alles zu erdulden.</note>
 				</p>
 				<p>
-					<s n="39" xml:lang="de" type="auto">Valentin (Fabri) waren am montag im Kloster St. Peter, muteten den frauen wie schon früher zu, die kutten wieder anzuziehen, den orden zu halten und junge aufzunehmen etc.; der könig wolle es so etc.</s>
-					<s n="40" xml:lang="de" type="auto">Doch als sie einzeln befragt wurden, haben sich alle tapfer gehalten und erklärt, lieber alles zu erdulden.</s>
+					<note type="regest">Betet für die frommen Frauen; sie haben mir gestern nachts einen eigenen Boten geschickt.</note>
 				</p>
 				<p>
-					<s n="41" xml:lang="de" type="auto">Betet für die frommen frauen; sie haben mir gestern nachts einen eigenen boten geschickt.</s>
-				</p>
-				<p>
-					<s n="42" xml:lang="la" type="auto"><foreign xml:lang="de">Butzer schreibt in gestern erhaltenen briefen vom 3. Februar:</foreign> a suis iudicatum ultima iudicatione opportere recipi Interim; multa tentata apud episcopum sed frustra; se cum aliis ministris 22 daturos responsum senatui etc.</s>
+					<note type="regest">Butzer schreibt in gestern erhaltenen Briefen vom 3. Februar:</note>
+					<s n="42" xml:lang="la" type="auto">a suis iudicatum ultima iudicatione opportere recipi Interim; multa tentata apud episcopum sed frustra; se cum aliis ministris 22 daturos responsum senatui etc.</s>
 				</p>
 				<p>
 					<s n="43" xml:lang="la" type="auto"><foreign xml:lang="de">Er trachtet hinzeziechen,</foreign> quamquam nescit quo; liberos habet sex, decrepitam secum socrum et uxorem haud firmę valetuidinis.</s>

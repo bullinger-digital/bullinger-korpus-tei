@@ -6,63 +6,61 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN Heinrich Bullinger, 21. Juli 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=245</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">158</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,3 f.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Die Geistlichen des Bistums <placeName ref="place565">Konstanz</placeName> freuen sich über das gegen
+								Die Geistlichen des Bistums <placeName>Konstanz</placeName> freuen sich über das gegen
 								die Reformierten gerichtete Urteil. Papst und Kaiser sind für die
 								Einberufung des Konzils. Es wird erzählt, der französische König lasse
-								zu, daß das Evangelium gepredigt wird. Was <persName ref="person1189">Melchior Hoffman</persName> in
-								<placeName ref="place1049">Straßburg</placeName> treibt, wird Bullinger erfahren haben. Grüße.
+								zu, daß das Evangelium gepredigt wird. Was <persName ref="p5250">Melchior Hoffman</persName> in
+								<placeName>Straßburg</placeName> treibt, wird Bullinger erfahren haben. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 245, S.158</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10276">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1533-07-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -109,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,7 +123,7 @@
 					<s n="1" xml:lang="la" type="auto">Salus et pax Christi.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Sacrifici, quibuscum iam longa nobis lis est<note xml:id="fn1" type="footnote" n="1">Gemeint ist der Streit zwischen der Stadt <placeName ref="place565">Konstanz</placeName> und den Geistlichen des Bistums wegen der <placeName ref="place87">Thurgauer</placeName> Zinseinkünfte, <hi>s.</hi> oben S. 131, Anm. 9.</note>, triumphant suo iuditio, quanquam non ideo albis equis vehantur<note xml:id="fn2" type="footnote" n="2">Wie bei einem Triumph auf weißen Pferden vorausreiten; bei weitem übertreffen, vgl. Adagia, 1, 4, 21 (LB II 159f) und Georges I 291. -Hier vielleicht eher im Sinne von «auf dem hohen Roß sitzen».</note>, quod a vestris sententiam contra nostros obtinuerunt<note xml:id="fn3" type="footnote" n="3">Offenbar hatte die <placeName ref="place85">Badener</placeName> Tagsatzung vom 25. Juni 1533 das früher vom Landgericht in <placeName ref="place363">Frauenfeld</placeName> gefällte Urteil bestätigt, in welchem die Zinseinkünfte den Geistlichen zugesprochen worden waren. Der Entscheid ist zwar in den Abschieden selbst nicht enthalten, geht aber aus einem Brief der <placeName ref="place1049">Straßburger</placeName> Dreizehn an <placeName ref="place565">Konstanz</placeName> vom 15. Juli (PC II 195) und einem Schreiben <placeName ref="place121">Berns</placeName> an <placeName ref="place565">Konstanz</placeName> vom 25. Juli (EA IV/1c 107) hervor; s. auch die diesbezügliche Mitteilung im Brief <persName ref="person19">Blarers</persName> an <persName ref="person28">Bucer</persName> vom 19. Juli 1533 (<persName ref="person19">Blarer</persName> BW I 405).</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Sacrifici, quibuscum iam longa nobis lis est<note xml:id="fn1" type="footnote" n="1">Gemeint ist der Streit zwischen der Stadt <placeName>Konstanz</placeName> und den Geistlichen des Bistums wegen der <placeName>Thurgauer</placeName> Zinseinkünfte, <hi>s.</hi> oben S. 131, Anm. 9.</note>, triumphant suo iuditio, quanquam non ideo albis equis vehantur<note xml:id="fn2" type="footnote" n="2">Wie bei einem Triumph auf weißen Pferden vorausreiten; bei weitem übertreffen, vgl. <bibl>Adagia</bibl>, 1, 4, 21 (<bibl>LB</bibl> II 159f) und <bibl>Georges</bibl> I 291. -Hier vielleicht eher im Sinne von «auf dem hohen Roß sitzen».</note>, quod a vestris sententiam contra nostros obtinuerunt<note xml:id="fn3" type="footnote" n="3">Offenbar hatte die <placeName>Badener</placeName> Tagsatzung vom 25. Juni 1533 das früher vom Landgericht in <placeName>Frauenfeld</placeName> gefällte Urteil bestätigt, in welchem die Zinseinkünfte den Geistlichen zugesprochen worden waren. Der Entscheid ist zwar in den Abschieden selbst nicht enthalten, geht aber aus einem Brief der <placeName>Straßburger</placeName> Dreizehn an <placeName>Konstanz</placeName> vom 15. Juli (<bibl>PC</bibl> II 195) und einem Schreiben <placeName>Berns</placeName> an <placeName>Konstanz</placeName> vom 25. Juli (<bibl>EA</bibl> IV/1c 107) hervor; s. auch die diesbezügliche Mitteilung im Brief <persName>Blarers</persName> an <persName ref="p18198">Bucer</persName> vom 19. Juli 1533 (<persName>Blarer</persName> BW I 405).</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Mirum est certe in tanta gratia esse posse eos, qui tanta vafritie imponunt toti mundo.</s>
 					<s n="4" xml:lang="la" type="auto">Quanta vero est mundi cęcitas, quod perpetuo tenebras amat pro luce<note xml:id="fn4" type="footnote" n="4">Vgl. Joh 3, 19.</note> et mendatium complectitur pro veritate<note xml:id="fn5" type="footnote" n="5">Vgl. Röm 1, 25.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Sed videbimus, quid futurum sit.</s>
@@ -133,14 +131,14 @@
 					<s n="7" xml:lang="la" type="auto">Quodsi post nostram patientiam nostri miserebitur dominus, adiutor in tempore<note xml:id="fn6" type="footnote" n="6">Vgl. 2Kor 6, 2.</note>, sentient sacrifici, quam intollerabile sit in domini manus incidisse<note xml:id="fn7" type="footnote" n="7">Vgl. Hebr 10, 31.</note>.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Pontifex cum cęsare parati sunt concilium celebrare, sed non aliis conditionibus, quam quę in rem suam faciant, scilicet ut actores sint, testes et iudices<note xml:id="fn8" type="footnote" n="8">Zu den zwischen <persName ref="person635">Clemens VII.</persName> und <persName ref="person1332">Karl V.</persName> ausgehandelten Bedingungen für die Einberufung eines Konzils, die hier frei interpretiert werden, s. im einzelnen oben S.,46f, 14-22 und Anm. 10.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Pontifex cum cęsare parati sunt concilium celebrare, sed non aliis conditionibus, quam quę in rem suam faciant, scilicet ut actores sint, testes et iudices<note xml:id="fn8" type="footnote" n="8">Zu den zwischen <persName>Clemens VII.</persName> und <persName>Karl V.</persName> ausgehandelten Bedingungen für die Einberufung eines Konzils, die hier frei interpretiert werden, s. im einzelnen oben S.,46f, 14-22 und Anm. 10.</note>.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">De rege Galliae non infoelitia narrantur, si vera sunt, nempe quod sua autoritate evangelium Christi iam aliquandiu praedicatum sit<note xml:id="fn9" type="footnote" n="9">Grundlage für solche Gerüchte und für die Hoffnungen der Reformierten waren wohl die Vorgänge in <placeName ref="place836">Paris</placeName> im April und Mai 1533. <persName ref="person1964">Gérard Roussel</persName>, der Hofprediger der evangelisch gesinnten Schwester Franz' I., Marguerite Königin von Navarra, predigte während der Fastenzeit 1533 im Louvre, worauf er von den Theologen der Sorbonne scharf angegriffen wurde, die seine Predigten als häretisch verurteilten. Auf den Rat des Bischofs von <placeName ref="place836">Paris</placeName> verbannte <persName ref="person859">Franz I.</persName> im Mai den Wortführer, Noel Bédier, mit einigen Kollegen aus <placeName ref="place836">Paris</placeName>, s. Alexandre <hi>Ganoczy,</hi> Le jeune Calvin. Genèse et évolution de sa vocation réformatrice, Wiesbaden 1966. - Veröffentlichungen des Instituts für europäische Geschichte Mainz, Bd. 40, S. 62f; s. noch unten S. 179, 45-180, 52.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">De rege Galliae non infoelitia narrantur, si vera sunt, nempe quod sua autoritate evangelium Christi iam aliquandiu praedicatum sit<note xml:id="fn9" type="footnote" n="9">Grundlage für solche Gerüchte und für die Hoffnungen der Reformierten waren wohl die Vorgänge in <placeName>Paris</placeName> im April und Mai 1533. <persName>Gérard Roussel</persName>, der Hofprediger der evangelisch gesinnten Schwester Franz' I., Marguerite Königin von Navarra, predigte während der Fastenzeit 1533 im Louvre, worauf er von den Theologen der Sorbonne scharf angegriffen wurde, die seine Predigten als häretisch verurteilten. Auf den Rat des Bischofs von <placeName>Paris</placeName> verbannte <persName>Franz I.</persName> im Mai den Wortführer, Noel Bédier, mit einigen Kollegen aus <placeName>Paris</placeName>, s. Alexandre <hi>Ganoczy,</hi> Le jeune Calvin. Genèse et évolution de sa vocation réformatrice, Wiesbaden 1966. - Veröffentlichungen des Instituts für europäische Geschichte Mainz, Bd. 40, S. 62f; s. noch unten S. 179, 45-180, 52.</note>.</s>
 					<s n="10" xml:lang="la" type="auto">Quod si fabula est, utinam fiat hystoria, si hystoria, utinam hanc confirmet dominus cęlesti spiritu.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Quae monstra<note xml:id="fn10" type="footnote" n="10">Vgl. unten S. 160, 16-19.</note> pariat <persName ref="person1189">Melchior</persName> ille <persName ref="person1189">Hoffman</persName>, forte ex <placeName ref="place1049">Argentorato</placeName> cognovisti<note xml:id="fn11" type="footnote" n="11">Siehe oben S. 146, 2-5.</note>.</s>
+					<s n="11" xml:lang="la" type="auto">Quae monstra<note xml:id="fn10" type="footnote" n="10">Vgl. unten S. 160, 16-19.</note> pariat <persName ref="p5250">Melchior</persName> ille <persName ref="p5250">Hoffman</persName>, forte ex <placeName>Argentorato</placeName> cognovisti<note xml:id="fn11" type="footnote" n="11">Siehe oben S. 146, 2-5.</note>.</s>
 					<s n="12" xml:lang="la" type="auto">Dominus Iesus Christus tueatur seipsum contra nocentissimas et omnis generis sectas, tueatur quoque - nam satis tutus est ipse -, quotquot nomen dederunt suae iustitiae, ut per hanc solam salvi fiant.</s>
 					<s n="13" xml:lang="la" type="manual">Amen.</s>
 				</p>
@@ -149,7 +147,7 @@
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Commendo precibus tuis me, fratrem tuum, praecipue vero ecclesiam Constantiensem.</s>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person19">Ambrosius</persName><note xml:id="fn12" type="footnote" n="12"><persName ref="person19">Ambrosius Blarer</persName>.</note> iussit tibi multam<pb type="scan" next="||4"/> salutem adscribere.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8055">Ambrosius</persName><note xml:id="fn12" type="footnote" n="12"><persName>Ambrosius Blarer</persName>.</note> iussit tibi multam<pb type="scan" next="||4"/> salutem adscribere.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Vale.</s>
@@ -158,10 +156,10 @@
 					<s n="18" xml:lang="la" type="auto">21. iulii 1533.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><pb type="edition" next="159"/>Salutabis meo nomine <persName ref="person114">Leonem</persName><note xml:id="fn13" type="footnote" n="13"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person117">Carolstadium</persName> et bonos quosvis, praecipue <persName ref="person14">Theodorum</persName><note xml:id="fn14" type="footnote" n="14"><persName ref="person14">Theodor Bibliander</persName>.</note>.</s>
+					<s n="19" xml:lang="la" type="auto"><pb type="edition" next="159"/>Salutabis meo nomine <persName ref="p1753">Leonem</persName><note xml:id="fn13" type="footnote" n="13"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p4349">Carolstadium</persName> et bonos quosvis, praecipue <persName ref="p8171">Theodorum</persName><note xml:id="fn14" type="footnote" n="14"><persName>Theodor Bibliander</persName>.</note>.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Ex pectore tuus <persName ref="person263">Io. Zuick</persName>.</s>
+					<s n="20" xml:lang="la" type="auto">Ex pectore tuus <persName ref="p4079">Io. Zuick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>

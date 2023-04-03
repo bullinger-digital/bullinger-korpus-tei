@@ -6,40 +6,31 @@
 				<title subtype="file">[Johannes Zwick] / [Konstanz] AN [Heinrich Bullinger], zwischen s.d. [Januar 1533] und s.d. [Februar 1533]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=185</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">57</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,17 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -48,20 +39,27 @@
 								Antwortet auf zwei Briefe Bullingers. Konnte nichts Sicheres über die Aktivitäten der gottlosen Gegner in
 								Erfahrung bringen, deren Vorhaben ja allerdings bekannt ist. Versichert, die Zürcher auf dem Laufenden zu
 								halten. Diesen wünscht er Geduld und Gottes Unterstützung in der gegenwärtigen Bedrängnis. Teilt ein in
-								<placeName ref="place906">Rom</placeName> veröffentlichtes Pasquill mit. Grüße.
+								<placeName>Rom</placeName> veröffentlichtes Pasquill mit. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 185, S.57</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10216">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="low">
+					<persName ref="p4079" cert="low">
 						<!--
 						<surname cert="low">Zwick</surname>
 						<forename cert="low">Johannes</forename>
@@ -70,11 +68,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date notBefore="1533-01-01" notAfter="1533-02-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,14 +118,14 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">Salus.</s>
-					<s n="2" xml:lang="la" type="auto">Recepi binas literas<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> abs te, quibus uno verbo respondeo nihil me explorare potuisse certi, quid conentur impii<note xml:id="fn4" type="footnote" n="4">Vielleicht sind die von <persName ref="person263">Zwick</persName> am 13. Januar 1533 erwähnten «nobiles» gemeint, die in <placeName ref="place1246">Überlingen</placeName> zusammengetreten waren, s. oben <ref target="file10206">[Nr. 175]</ref> S. 38, 12-14 und Anm. 6.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Recepi binas literas<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> abs te, quibus uno verbo respondeo nihil me explorare potuisse certi, quid conentur impii<note xml:id="fn4" type="footnote" n="4">Vielleicht sind die von <persName>Zwick</persName> am 13. Januar 1533 erwähnten «nobiles» gemeint, die in <placeName>Überlingen</placeName> zusammengetreten waren, s. oben <ref target="file10206">[Nr. 175]</ref> S. 38, 12-14 und Anm. 6.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Tamen quia non ignoras, quid habeant in animo<note xml:id="fn5" type="footnote" n="5">nämlich: die Wiedereinführung des katholischen Glaubens.</note>, etiam suspicari potes, quid sibi velint ipsorum conciliabula.</s>
 					<s n="4" xml:lang="la" type="auto">Animus certus est, via vero, qua satisfaciant animo, non est certa.</s>
 					<s n="5" xml:lang="la" type="auto">Ego ubi audiero, quod vos scire oporteat, dabo operam, ut brevi sciatis, neque dubito plures esse apud nos, qui vestro nomine solliciti sint, ut et per illos possitis adversariorum technas ediscere.</s>
 					<s n="6" xml:lang="la" type="auto">Dominus autem, a cuius voluntate pendemus<note xml:id="fn6" type="footnote" n="6">Vgl. Mt 6, 10.</note>, nihil non manifestabit, quod nos possit offendere, si modo curabimus, ne illum offendat ingratitudo nostra.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Quod persequutiones vos premant<note xml:id="fn7" type="footnote" n="7">Möglicherweise spielt <persName ref="person263">Zwick</persName> auf die für Zürich ungünstige Entwicklung im Mandatstreit Anfang des Jahres 1533 an, als Zürich mit seiner Einwilligung in ein Schiedsgericht sich auch im reformierten Lager isoliert sah, s. oben <ref target="file10204">[Nr. 173]</ref> S. 35, Anm. 11. Befürchtungen über einen neuen Krieg mit <placeName ref="place51">den V Orten</placeName> hatte Bullinger offenbar auch gegenüber <persName ref="person90">Haller</persName> (vgl. oben <ref target="file10205">Nr. 174</ref> mit Anm. 5) und <persName ref="person28">Bucer</persName> (vgl. oben <ref target="file10207">Nr. 176</ref>) geäußert, und sie wurden damals auch in <placeName ref="place97">Basel</placeName> gehegt (s. oben <ref target="file10212">Nr. 181</ref>).</note>, certe meo iuditio in rem vestram est.</s>
+					<s n="7" xml:lang="la" type="auto">Quod persequutiones vos premant<note xml:id="fn7" type="footnote" n="7">Möglicherweise spielt <persName>Zwick</persName> auf die für Zürich ungünstige Entwicklung im Mandatstreit Anfang des Jahres 1533 an, als Zürich mit seiner Einwilligung in ein Schiedsgericht sich auch im reformierten Lager isoliert sah, s. oben <ref target="file10204">[Nr. 173]</ref> S. 35, Anm. 11. Befürchtungen über einen neuen Krieg mit <placeName>den V Orten</placeName> hatte Bullinger offenbar auch gegenüber <persName>Haller</persName> (vgl. oben <ref target="file10205">Nr. 174</ref> mit Anm. 5) und <persName ref="p18198">Bucer</persName> (vgl. oben <ref target="file10207">Nr. 176</ref>) geäußert, und sie wurden damals auch in <placeName>Basel</placeName> gehegt (s. oben <ref target="file10212">Nr. 181</ref>).</note>, certe meo iuditio in rem vestram est.</s>
 					<s n="8" xml:lang="la" type="auto">Date operam, ut in patientia multum fructum adferatis<note xml:id="fn8" type="footnote" n="8">Vgl. Lk 8, 15.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Dabit deus istis tentationibus finem aut dabit, ut magno vestro commodo istas perferatis.</s>
 					<s n="10" xml:lang="la" type="auto">Dominus confirmet vos, ut spretis huius mundi conatibus intrepidi perseveretis in finem usque<note xml:id="fn9" type="footnote" n="9">Vgl. Mt 24, 13.</note>.</s>
@@ -136,38 +134,38 @@
 					<s n="13" xml:lang="la" type="auto">Interim orate deum, ut erigat cornu salutis<note xml:id="fn10" type="footnote" n="10">Vgl. Lk 1, 69.</note> in cordibus nostris, quacumque tandem pergat mundus, ut nos salvi fiamus et non cum illo pereamus.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Sed ecce, lepidissimum sane dialogum <persName ref="person14">Theodoro</persName><note xml:id="fn11" type="footnote" n="11"><persName ref="person14">Theodor Bibliander</persName>.</note> et tibi mitto, ex quo intelligetis etiam <placeName ref="place906">Romanos</placeName> et exteras nationes sapere et idem sentire nobiscum, quanquam<pb type="edition" next="58"/> nemo se possit sine periculo prodere.</s>
-					<s n="15" xml:lang="la" type="auto">Uni <persName ref="person667">Pasquillo</persName><note xml:id="fn12" type="footnote" n="12">Verkleinerungsform für Pasquino; Name eines antiken Marmortorsos in <placeName ref="place906">Rom</placeName>, an dessen Sockel seit Anfang des 16. Jahrhunderts Zettel mit satirischen und gesellschaftskritischen Texten geheftet wurden. Bald galt Pasquino, bzw. Pasquillus als personifizierter Wortführer für die anonym geübte Kritik, für welche als häufigste Form der Dialog gewählt wurde, s. Enciclopedia Italiana di scienze, lettere cd arti, Bd. XXVI, <placeName ref="place906">Rom</placeName> 1935, S. 451f. - Das im folgenden zitierte Pasquill ist mit einigen geringfügigen Abweichungen ohne Angabe eines Datums abgedruckt in «Pasquillorum tomi duo», hg. wohl von <persName ref="person667">Celio Secondo Curione</persName>, Eleutheropoli (<placeName ref="place97">Basel</placeName>?) 1544, S. 296 (freundliche Mitteilung von Herrn Prof. Antonio Rotondò, Florenz).</note> omnia licent impune.</s>
-					<s n="16" xml:lang="la" type="auto">Is cum Mercurio<note xml:id="fn13" type="footnote" n="13">Mißverstandene Schreibung für Marforio, das antike Standbild eines Flußgottes in <placeName ref="place906">Rom</placeName> und der häufigste Dialogpartner des <persName ref="person667">Pasquillus</persName>, s. Enciclopedia Italiana, aaO.</note> verba facit, quemadmodum sequitur:</s>
+					<s n="14" xml:lang="la" type="auto">Sed ecce, lepidissimum sane dialogum <persName ref="p8171">Theodoro</persName><note xml:id="fn11" type="footnote" n="11"><persName>Theodor Bibliander</persName>.</note> et tibi mitto, ex quo intelligetis etiam <placeName>Romanos</placeName> et exteras nationes sapere et idem sentire nobiscum, quanquam<pb type="edition" next="58"/> nemo se possit sine periculo prodere.</s>
+					<s n="15" xml:lang="la" type="auto">Uni <persName ref="p714">Pasquillo</persName><note xml:id="fn12" type="footnote" n="12">Verkleinerungsform für Pasquino; Name eines antiken Marmortorsos in <placeName>Rom</placeName>, an dessen Sockel seit Anfang des 16. Jahrhunderts Zettel mit satirischen und gesellschaftskritischen Texten geheftet wurden. Bald galt Pasquino, bzw. Pasquillus als personifizierter Wortführer für die anonym geübte Kritik, für welche als häufigste Form der Dialog gewählt wurde, s. Enciclopedia Italiana di scienze, lettere cd arti, Bd. XXVI, <placeName>Rom</placeName> 1935, S. 451f. - Das im folgenden zitierte Pasquill ist mit einigen geringfügigen Abweichungen ohne Angabe eines Datums abgedruckt in «Pasquillorum tomi duo», hg. wohl von <persName ref="p7454">Celio Secondo Curione</persName>, Eleutheropoli (<placeName>Basel</placeName>?) 1544, S. 296 (freundliche Mitteilung von Herrn Prof. Antonio Rotondò, Florenz).</note> omnia licent impune.</s>
+					<s n="16" xml:lang="la" type="auto">Is cum Mercurio<note xml:id="fn13" type="footnote" n="13">Mißverstandene Schreibung für Marforio, das antike Standbild eines Flußgottes in <placeName>Rom</placeName> und der häufigste Dialogpartner des <persName ref="p7454">Pasquillus</persName>, s. Enciclopedia Italiana, aaO.</note> verba facit, quemadmodum sequitur:</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Mercurius: Quid suspiras, <persName ref="person667">Pasquille</persName>?</s>
+					<s n="17" xml:lang="la" type="auto">Mercurius: Quid suspiras, <persName ref="p714">Pasquille</persName>?</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto"><persName ref="person667">Pasquillus</persName>: Video rem publicam cum principum tum privatorum culpa perditum ire.</s>
+					<s n="18" xml:lang="la" type="auto"><persName ref="p714">Pasquillus</persName>: Video rem publicam cum principum tum privatorum culpa perditum ire.</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Mercurius: Est, quod in his forte desideres?</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto"><persName ref="person667">Pasquillus</persName>: Multa et multa.</s>
+					<s n="20" xml:lang="la" type="auto"><persName ref="p714">Pasquillus</persName>: Multa et multa.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Mercurius: Si deus esses, quidnam his concederes?</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto"><persName ref="person667">Pasquillus</persName>: Clementi<note xml:id="fn14" type="footnote" n="14"><persName ref="person635">Papst Clemens VII.</persName></note> clementiam et pietatem, <persName ref="person1332">Carolo</persName><note xml:id="fn15" type="footnote" n="15">Kaiser <persName ref="person1332">Karl V.</persName></note> magnanimitatem et vigilantiam, <persName ref="person832">Ferdinando</persName><note xml:id="fn16" type="footnote" n="16"><persName ref="person832">König Ferdinand</persName> I.</note> comici sententiam, ut velit, quod possit<note xml:id="fn17" type="footnote" n="17"><persName ref="person2286">Terenz</persName>, Andria 305; s. Otto 285, Nr. 1456.</note>, Francisco<note xml:id="fn18" type="footnote" n="18">König <persName ref="person859">Franz I.</persName> von Frankreich.</note> fortunam, iuditium et fidem, Hainrico<note xml:id="fn19" type="footnote" n="19">König <persName ref="person98">Heinrich VIII.</persName> von England.</note> religionem et sanam mentem, Lusitano<note xml:id="fn20" type="footnote" n="20">König <persName ref="person1293">Johann III.</persName> von Portugal.</note> tantum potentiae, quantum arrogantiae modo per me pręstare possit, senatui purpureo literas et Venerem non praeposteram.</s>
+					<s n="22" xml:lang="la" type="auto"><persName ref="p714">Pasquillus</persName>: Clementi<note xml:id="fn14" type="footnote" n="14"><persName>Papst Clemens VII.</persName></note> clementiam et pietatem, <persName ref="p18538">Carolo</persName><note xml:id="fn15" type="footnote" n="15"><persName>Kaiser Karl V.</persName></note> magnanimitatem et vigilantiam, <persName ref="p18477">Ferdinando</persName><note xml:id="fn16" type="footnote" n="16"><persName>König Ferdinand I.</persName></note> comici sententiam, ut velit, quod possit<note xml:id="fn17" type="footnote" n="17"><persName>Terenz</persName>, Andria 305; s. Otto 285, Nr. 1456.</note>, Francisco<note xml:id="fn18" type="footnote" n="18"><persName>König Franz I. von Frankreich</persName>.</note> fortunam, iuditium et fidem, Hainrico<note xml:id="fn19" type="footnote" n="19"><persName>König Heinrich VIII. von England</persName>.</note> religionem et sanam mentem, Lusitano<note xml:id="fn20" type="footnote" n="20"><persName>König Johann III. von Portugal</persName>.</note> tantum potentiae, quantum arrogantiae modo per me pręstare possit, senatui purpureo literas et Venerem non praeposteram.</s>
 					<s n="23" xml:lang="la" type="auto">Episcopis darem, quod nolunt, scientiam, tollerem autem, quod ambiunt, dominia et voluptates.</s>
 					<s n="24" xml:lang="la" type="auto">Sacerdotibus darem uxores, ut abiicerent concubinas, monachis concubinas, ut uxores invicem et mariti esse desinant.</s>
 				</p>
 				<p>
-					<s n="25" xml:lang="la" type="auto"><placeName ref="place906">Romae</placeName> <persName ref="person667">Pasquillo</persName> affixum.</s>
+					<s n="25" xml:lang="la" type="auto"><placeName>Romae</placeName> <persName ref="p714">Pasquillo</persName> affixum.</s>
 				</p>
 				<p>
-					<s n="26" xml:lang="la" type="auto"><persName ref="person165">Pellicanus</persName> quoque novi aliquid ex me habet<note xml:id="fn21" type="footnote" n="21">Zwischen 1532 und 1534 sind keine Briefe <persName ref="person263">Zwicks</persName> an <persName ref="person165">Pellikan</persName> erhalten.</note>, quibus etiam per te et bonos quosvis perlectis intelligetis, quid moliatur satan, et orabitis deum, ne una infidelitate et discordia sopita multae aliae nascantur.</s>
+					<s n="26" xml:lang="la" type="auto"><persName ref="p8127">Pellicanus</persName> quoque novi aliquid ex me habet<note xml:id="fn21" type="footnote" n="21">Zwischen 1532 und 1534 sind keine Briefe <persName>Zwicks</persName> an <persName>Pellikan</persName> erhalten.</note>, quibus etiam per te et bonos quosvis perlectis intelligetis, quid moliatur satan, et orabitis deum, ne una infidelitate et discordia sopita multae aliae nascantur.</s>
 				</p>
 				<p>
-					<s n="27" xml:lang="la" type="auto">Vale quam optime cum omnibus bonis fratribus, Leone, <persName ref="person14">Theodoro</persName>, <persName ref="person117">Carolstadio</persName> et reliquis.</s>
+					<s n="27" xml:lang="la" type="auto">Vale quam optime cum omnibus bonis fratribus, Leone, <persName ref="p8171">Theodoro</persName>, <persName ref="p4349">Carolstadio</persName> et reliquis.</s>
 				</p>
 				<p>
 					<note type="signature">[Ohne Unterschrift und Adresse.]</note>

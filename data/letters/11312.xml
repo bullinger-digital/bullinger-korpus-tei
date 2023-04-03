@@ -6,48 +6,38 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, nach 7. Mai 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1269</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">136</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,180</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat <persName ref="person226">Vadians</persName> Brief [<ref target="file10936">Nr. 894</ref>] erhalten und
-								verspricht, ihn zurückzusenden. Empfiehlt Michael
-								[<persName ref="person276">Adam</persName>?]. Fand noch keine Zeit, um Bullingers [„De origine erroris“] zu
+								Hat <persName ref="p8049">Vadians</persName> Brief [<ref target="file10936">Nr. 894</ref>] erhalten und
+								verspricht, ihn zurückzusenden. Empfiehlt <persName ref="p41">Michael [Adam?]</persName>. Fand noch keine Zeit, um Bullingers [„De origine erroris“] zu
 								lesen.
 							</p>
 						</summary>
@@ -55,13 +45,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1269, S.136</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11312">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -74,7 +71,7 @@
 					<date when="1539-05-07" cert="low">nach 7. Mai 1539</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -109,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -121,20 +118,20 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto"><persName ref="person226">Vadiani</persName> epistolam<note xml:id="fn2" type="footnote" n="2">Gemeint ist zweifellos <persName ref="person226">Vadians</persName> christologische Abhandlung in Briefform vom September 1536 (Teildruck: HBBW VI, <ref target="file10936">Nr. 894</ref>), die Bullinger am 7. Mai übersandt hatte; vgl. oben <ref target="file11310">Nr. 1267</ref>, 3-5.</note> accepi; curabo, ut fide bona restituatur tibi ac ut non sine commodo ecclesię perveniat ad quosdam.</s>
+					<s n="2" xml:lang="la" type="auto"><persName ref="p8049">Vadiani</persName> epistolam<note xml:id="fn2" type="footnote" n="2">Gemeint ist zweifellos <persName>Vadians</persName> christologische Abhandlung in Briefform vom September 1536 (Teildruck: <bibl>HBBW</bibl> VI, <ref target="file10936">Nr. 894</ref>), die Bullinger am 7. Mai übersandt hatte; vgl. oben <ref target="file11310">Nr. 1267</ref>, 3-5.</note> accepi; curabo, ut fide bona restituatur tibi ac ut non sine commodo ecclesię perveniat ad quosdam.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Commendo tibi hunc <persName ref="person276">Michaelem</persName><note xml:id="fn3" type="footnote" n="3">Zu denken ist an <persName ref="person276">Michael Adam</persName>, der <persName ref="person226">Vadians</persName> Brief und Bullingers Begleitschreiben übermittelt hatte (vgl. oben <ref target="file11310">Nr. 1267</ref>, 6-8); es könnte sich aber auch um einen Briefüberbringer handeln, der Bullinger noch unbekannt war und deshalb einer Empfehlung bedurfte.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Commendo tibi hunc <persName ref="p41">Michaelem</persName><note xml:id="fn3" type="footnote" n="3">Zu denken ist an <persName ref="p8310">Michael Adam</persName>, der <persName>Vadians</persName> Brief und Bullingers Begleitschreiben übermittelt hatte (vgl. oben <ref target="file11310">Nr. 1267</ref>, 6-8); es könnte sich aber auch um einen Briefüberbringer handeln, der Bullinger noch unbekannt war und deshalb einer Empfehlung bedurfte.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Vale in domino Christo.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Libellum<note xml:id="fn4" type="footnote" n="4">Nämlich die Neubearbeitung von Bullingers "De origine erroris libri duo" (HBBibl I 12); vgl. oben <ref target="file11301">Nr. 1258</ref>, 1-4.</note> tuum nondum legi; dominus novit, quod hactenus nullum tempus ad eam rem fuit commodum, sic negotia, quanquam levia et puerilia, me abripiunt<note xml:id="fn5" type="footnote" n="5">Anspielung auf den Streit um die Universitätsordnung; vgl. unten <ref target="file11313">Nr. 1270</ref>, 13-22.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Libellum<note xml:id="fn4" type="footnote" n="4">Nämlich die Neubearbeitung von Bullingers "De origine erroris libri duo" (<bibl>HBBibl</bibl> I 12); vgl. oben <ref target="file11301">Nr. 1258</ref>, 1-4.</note> tuum nondum legi; dominus novit, quod hactenus nullum tempus ad eam rem fuit commodum, sic negotia, quanquam levia et puerilia, me abripiunt<note xml:id="fn5" type="footnote" n="5">Anspielung auf den Streit um die Universitätsordnung; vgl. unten <ref target="file11313">Nr. 1270</ref>, 13-22.</note>.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Iterum vale et me in domino ama.</s>
 					<s n="7" xml:lang="la" type="auto">Dominus Christus servet nos.</s>
 					<s n="8" xml:lang="la" type="manual">Amen.</s>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person81">Gryneus</persName> tuus.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p1365">Gryneus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

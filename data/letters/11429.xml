@@ -6,50 +6,41 @@
 				<title subtype="file">Otto Werdmüller / Orléans AN Heinrich Bullinger, 18. April 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1386</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">96</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,93</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Fragt sich, warum Bullinger nichts von sich hören läßt; hat <placeName ref="place97">Basel</placeName>
-								ohne Rückfrage verlassen, weil er in <placeName ref="place836">Paris</placeName> andere Lehrer hören
-								wollte. Dort sahen sie die Pracht beim Empfang von Kaiser <persName ref="person1332">Karl V.</persName> In
-								<placeName ref="place819">Orléans</placeName> kann er Vorlesungen über Rhetorik halten; hätte die
-								Möglichkeit, nach <placeName ref="place9">England</placeName> zu ziehen, wo er bei einem Herrn nur
+								Fragt sich, warum Bullinger nichts von sich hören läßt; hat <placeName>Basel</placeName>
+								ohne Rückfrage verlassen, weil er in <placeName>Paris</placeName> andere Lehrer hören
+								wollte. Dort sahen sie die Pracht beim Empfang von <persName ref="p18538">Kaiser Karl V.</persName> In
+								<placeName>Orléans</placeName> kann er Vorlesungen über Rhetorik halten; hätte die
+								Möglichkeit, nach <placeName>England</placeName> zu ziehen, wo er bei einem Herrn nur
 								Mathematik unterrichten müßte, wartet aber Bullingers Urteil über den Nutzen einer solchen Reise ab. Grüße.
 							</p>
 						</summary>
@@ -57,24 +48,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1386, S.96</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11429">
 				<correspAction type="sent">
-					<persName ref="person3875" cert="high">
+					<persName ref="p3875" cert="high">
 						<!--
 						<surname cert="high">Werdmüller</surname>
 						<forename cert="high">Otto</forename>
 						<persName type="main" ref="person8459>Werdmüller, Otto</persName>
 						-->
 					</persName>
-					<placeName source="place367" cert="high"><orig>Orléans</orig></placeName>
+					<placeName source="l367" cert="high"><orig>Orléans</orig></placeName>
 					<date when="1540-04-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,27 +120,27 @@
 					<s n="1" xml:lang="la" type="auto">Vehementer doleo, pater observandissime, nihil amplius iam a longo tempore me a vobis accipere.</s>
 					<s n="2" xml:lang="la" type="auto">Id qui fiat aut qua ratione commeruerim, adhuc ignoro.</s>
 					<s n="3" xml:lang="la" type="auto">Is enim ero semper, qui, quos deus mihi maiores, quos patres reverendos dedit, illis per omnia morem geram.</s>
-					<s n="4" xml:lang="la" type="auto">Si quid offendit inconsultus abitus meus<note xml:id="fn1" type="footnote" n="1"><persName ref="person238">Werdmüller</persName> hatte <placeName ref="place97">Basel</placeName> offenbar schon zu Ende des Jahres 1539 verlassen; er war in <placeName ref="place836">Paris</placeName>, als Kaiser <persName ref="person1332">Karl V.</persName> Anfang Januar 1540 dort einzog (s. unten Z. 9-11 mit Anm. 2).</note>, vel hoc nomine veniam spero, quod a nemine revocatus in patriam longius discessi nec ob aliam causam reliqui <placeName ref="place97">Basileam</placeName>, nisi ut et alios disciplinarum professores audirem, quorum magnus est <placeName ref="place836">Lutetiae</placeName> numerus.</s>
+					<s n="4" xml:lang="la" type="auto">Si quid offendit inconsultus abitus meus<note xml:id="fn1" type="footnote" n="1"><persName>Werdmüller</persName> hatte <placeName>Basel</placeName> offenbar schon zu Ende des Jahres 1539 verlassen; er war in <placeName>Paris</placeName>, als <persName>Kaiser Karl V.</persName> Anfang Januar 1540 dort einzog (s. unten Z. 9-11 mit Anm. 2).</note>, vel hoc nomine veniam spero, quod a nemine revocatus in patriam longius discessi nec ob aliam causam reliqui <placeName>Basileam</placeName>, nisi ut et alios disciplinarum professores audirem, quorum magnus est <placeName>Lutetiae</placeName> numerus.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Atque ut studia literarum ommittam, vidimus regiam pompam et plusquam regiam, qua <persName ref="person1332">Carolus</persName> imperator tum in aliis Galliae partibus, tum vero<pb type="edition" next="97"/> Parrisiis exceptus est<note xml:id="fn2" type="footnote" n="2">Kaiser <persName ref="person1332">Karl V.</persName> weilte vom 1. bis 7. Januar 1540 in <placeName ref="place836">Paris</placeName>; s. <hi>Stälin 574; Brandi</hi> I 365 und II 291.</note>.</s>
-					<s n="6" xml:lang="la" type="auto">Conspicias ibi revera, quod de <placeName ref="place906">Roma</placeName> iactabatur: urbem et orbem<note xml:id="fn3" type="footnote" n="3">Vgl. Otto 358f, Nr. 1834.</note>, quo nihil illustrius uno et altero quodam<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> quodam <hi>gestrichenes</hi> quib.</note> dempto in universa (quod ego sciam) extat <persName ref="person1332">Germania</persName>.</s>
+					<s n="5" xml:lang="la" type="auto">Atque ut studia literarum ommittam, vidimus regiam pompam et plusquam regiam, qua <persName ref="p18538">Carolus</persName> imperator tum in aliis Galliae partibus, tum vero<pb type="edition" next="97"/> Parrisiis exceptus est<note xml:id="fn2" type="footnote" n="2"><persName>Kaiser Karl V.</persName> weilte vom 1. bis 7. Januar 1540 in <placeName>Paris</placeName>; s. <hi>Stälin 574; Brandi</hi> I 365 und II 291.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Conspicias ibi revera, quod de <placeName>Roma</placeName> iactabatur: urbem et orbem<note xml:id="fn3" type="footnote" n="3">Vgl. Otto 358f, Nr. 1834.</note>, quo nihil illustrius uno et altero quodam<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> quodam <hi>gestrichenes</hi> quib.</note> dempto in universa (quod ego sciam) extat Germania.</s>
 					<s n="7" xml:lang="la" type="auto">Sed sanctissima negotia tua nugis istis obtundo.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Breviter in festis pascatis<note xml:id="fn4" type="footnote" n="4">Ostern (28. März 1540).</note> <placeName ref="place836">Lutetia</placeName> relicta <placeName ref="place819">Aureliam</placeName> veni, ubi iam iterum honesta conditione fruor rhetoricem praelegendo.</s>
+					<s n="8" xml:lang="la" type="auto">Breviter in festis pascatis<note xml:id="fn4" type="footnote" n="4">Ostern (28. März 1540).</note> <placeName>Lutetia</placeName> relicta <placeName>Aureliam</placeName> veni, ubi iam iterum honesta conditione fruor rhetoricem praelegendo.</s>
 					<s n="9" xml:lang="la" type="auto">Constituique literas tuas vere paternas hic expectare, ut sciam, quid porro sit agendum.</s>
-					<s n="10" xml:lang="la" type="auto">Nam quidam Parrisiis mihi summe amicus pollicitus est se scire dominum quendam in Anglia<note xml:id="fn5" type="footnote" n="5">Weder der Freund noch der Herr in <placeName ref="place9">England</placeName> sind weiter bekannt.</note>, apud quem honeste vivam nihil aliud quam mathematicam docens, unde, si libeat eo proficisci, daturum se cum viatico etiam equum.</s>
+					<s n="10" xml:lang="la" type="auto">Nam quidam Parrisiis mihi summe amicus pollicitus est se scire dominum quendam in Anglia<note xml:id="fn5" type="footnote" n="5">Weder der Freund noch der Herr in <placeName>England</placeName> sind weiter bekannt.</note>, apud quem honeste vivam nihil aliud quam mathematicam docens, unde, si libeat eo proficisci, daturum se cum viatico etiam equum.</s>
 					<s n="11" xml:lang="la" type="auto">Ego vero differre consultius arbitror, donec literis tuis certior factus fuero, utrum ex Anglia penitius introspecta fructum aliquem percipere possimus.</s>
 					<s n="12" xml:lang="la" type="auto">Nam pro tua prudentia non potes ignorare, quantam non dico voluptatem, sed etiam utilitatem capimus e longinqua et diuturna peregrinatione.</s>
 					<s n="13" xml:lang="la" type="auto">Sed haec tota est sita in vestro arbitrio, cui lubens acquiescam.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Vale cum tua familia, cum d. <persName ref="person165">Pellicano</persName>, d. <persName ref="person14">Theodoro</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person14">Theodor Bibliander</persName>.</note>, d. Ammanio et reliquis omnibus dominis et praeceptoribus meis.</s>
-					<s n="15" xml:lang="la" type="auto">1540, 18. aprilis, <placeName ref="place819">Aureliae</placeName>.</s>
+					<s n="14" xml:lang="la" type="auto">Vale cum tua familia, cum d. <persName ref="p8127">Pellicano</persName>, d. <persName ref="p8171">Theodoro</persName><note xml:id="fn6" type="footnote" n="6"><persName>Theodor Bibliander</persName>.</note>, d. Ammanio et reliquis omnibus dominis et praeceptoribus meis.</s>
+					<s n="15" xml:lang="la" type="auto">1540, 18. aprilis, <placeName>Aureliae</placeName>.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person238">Otho Werdmüllerus</persName> tibi deditissimus.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8459">Otho Werdmüllerus</persName> tibi deditissimus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

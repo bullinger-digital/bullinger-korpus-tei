@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Johannes Rhellikan, 12. Mai 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=817</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">281</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph__(Kopie)">E II 345,159</idno>
 						<idno subtype="Hinweis">Autographe Kopie oder Konzept</idno>
 					</msIdentifier>
@@ -49,22 +40,28 @@
 								[Die Zürcher Gelehrten] haben zwar dem Rat ein zustimmendes Gutachten zur Confessio Tetrapolitana
 								vorgelegt, stehen aber weiterhin zum [Ersten Helvetischen] Bekenntnis und sehen darin keinen Widerspruch,
 								sofern die Tetrapolitana und deren Apologie recht verstanden werden; im übrigen ist Zürich dem Vorschlag
-								<placeName ref="place121">Berns</placeName> gefolgt, sich ausschließlich auf das [Erste Helvetische]
-								Bekenntnis festzulegen. Kaspar
-								[<persName ref="person145">Megander</persName>] hat eine Abschrift des Gutachtens erhalten.
+								<placeName>Berns</placeName> gefolgt, sich ausschließlich auf das [Erste Helvetische]
+								Bekenntnis festzulegen. <persName ref="p8412">Kaspar [Megander]</persName> hat eine Abschrift des Gutachtens erhalten.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 817, S.281</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10856">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -74,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1536-05-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2808" cert="high">
+					<persName ref="p2808" cert="high">
 						<!--
 						<surname cert="high">Rhellikan</surname>
 						<forename cert="high">Johannes</forename>
@@ -109,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -119,28 +116,28 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person175">Ioanni Rhellicano</persName>.</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p8428">Ioanni Rhellicano</persName>.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">G[ratiam et] p[acem] a d[omino].</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Non debes turban, praeceptor venerande et frater in domino multum dilecte, propter consilium nostrum senatui nostro oblatum<note xml:id="fn1" type="footnote" n="1">Gemeint ist der Fürtrag der Zürcher Gelehrten vom 24. April, s. oben <ref target="file10852">Nr. 813</ref>, 3f mit Anm. 2.</note>.</s>
-					<s n="4" xml:lang="la" type="auto">Non subsenipsimus confessioni 4 urbium ita, ut <placeName ref="place97">Basileiensem</placeName> reiecerimus<note xml:id="fn2" type="footnote" n="2">Im genannten Gutachten wurde die Confessio Tetrapolitana als mit dem Ersten Helvetischen Bekenntnis übereinstimmend anerkannt; vgl. oben <ref target="file10853">Nr. 814</ref>, 2-4.</note>.</s>
-					<s n="5" xml:lang="la" type="auto">In <placeName ref="place97">Basileiensi</placeName> enim confessione perseveramus.</s>
+					<s n="4" xml:lang="la" type="auto">Non subsenipsimus confessioni 4 urbium ita, ut <placeName>Basileiensem</placeName> reiecerimus<note xml:id="fn2" type="footnote" n="2">Im genannten Gutachten wurde die Confessio Tetrapolitana als mit dem Ersten Helvetischen Bekenntnis übereinstimmend anerkannt; vgl. oben <ref target="file10853">Nr. 814</ref>, 2-4.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">In <placeName>Basileiensi</placeName> enim confessione perseveramus.</s>
 					<s n="6" xml:lang="la" type="auto">Istam autem urbium 4 ferre possumus et agnoscimus ut nostrae non adversam.</s>
 					<s n="7" xml:lang="la" type="auto">Et si subscribamus, etiam nullum inde nobis erit periculum metuendum.</s>
-					<s n="8" xml:lang="la" type="auto">In apologia enim confessionis huius palam et disertis verbis traditur Christi corpus extra hunc mundum in coelis esse et proinde in coena non nisi virtute et efficatia, tum demum etiam, si accedat huiusque<pb type="edition" next="282"/> coenae conviva sit fidelis<note xml:id="fn3" type="footnote" n="3">Siehe <persName ref="person28">Bucers</persName> Apologie des 18. Artikels der Confessio Tetrapolitana, <persName ref="person28">Bucer</persName> DS III 274-287 (besonders 277, 4-17 und 282, 4-31).</note>.</s>
-					<s n="9" xml:lang="la" type="auto">Quid vero aliud confessi sumus in <placeName ref="place97">Basileiensi</placeName> nostra?</s>
+					<s n="8" xml:lang="la" type="auto">In apologia enim confessionis huius palam et disertis verbis traditur Christi corpus extra hunc mundum in coelis esse et proinde in coena non nisi virtute et efficatia, tum demum etiam, si accedat huiusque<pb type="edition" next="282"/> coenae conviva sit fidelis<note xml:id="fn3" type="footnote" n="3">Siehe <persName ref="p18198">Bucers</persName> Apologie des 18. Artikels der Confessio Tetrapolitana, <persName ref="p18198">Bucer</persName> DS III 274-287 (besonders 277, 4-17 und 282, 4-31).</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Quid vero aliud confessi sumus in <placeName>Basileiensi</placeName> nostra?</s>
 					<s n="10" xml:lang="la" type="auto">Verum, quod dixi: recepimus confessionem urbium 4, sed nostram interim non abnegavimus.</s>
 					<s n="11" xml:lang="la" type="auto">Ideoque apertis verbis diximus<note xml:id="fn4" type="footnote" n="4">im Fürtrag vom 24. April.</note>:</s> 
 					<s n="12" xml:lang="de" type="manual">"Wir findent nützid darinn, dann das unser confession, leer und glouben nitt zuͦ wider; darumb wir sy wol mögend tulden und<note xml:id="fnb" type="footnote" n="b"><hi>von</hi> und <hi>bis</hi> annemmen <hi>mit Paragraphzeichen eingeklammert.</hi></note> in rächtem christlichem verstand annemmen<note xml:id="fnc" type="footnote" n="c"><hi>von</hi> und <hi>bis</hi> annemmen <hi>mit Paragraphzeichen eingeklammert.</hi></note>."</s>
-					<s n="13" xml:lang="la" type="auto">Si haec expendas, <persName ref="person175">Rhellicane</persName> mi, nihil dices vel peccatum vel praeiudicium veritatis esse factum.</s>
-					<s n="14" xml:lang="la" type="auto">Praeterea cum vestris visum fuit melius esse, si receptio nostra dissimuletur et <placeName ref="place97">Basileiensis</placeName> confessio sola perpetuo obtendatur, nostri quoque in vestrorum descenderunt sententiam nec separarunt se a vestris<note xml:id="fn5" type="footnote" n="5"><placeName ref="place121">Bern</placeName> lehnte an der Aarauer Tagsatzung vom 1. Mai die Anerkennung des Vierstädtebekenntnisses ab, während Zürich zunächst eine abwartende Haltung eingenommen hatte; vgl. EA IV/1c 683 b. 685 zu b; oben <ref target="file10852">Nr. 813</ref>, Anm. 5.</note>.</s>
+					<s n="13" xml:lang="la" type="auto">Si haec expendas, <persName ref="p8428">Rhellicane</persName> mi, nihil dices vel peccatum vel praeiudicium veritatis esse factum.</s>
+					<s n="14" xml:lang="la" type="auto">Praeterea cum vestris visum fuit melius esse, si receptio nostra dissimuletur et <placeName>Basileiensis</placeName> confessio sola perpetuo obtendatur, nostri quoque in vestrorum descenderunt sententiam nec separarunt se a vestris<note xml:id="fn5" type="footnote" n="5"><placeName>Bern</placeName> lehnte an der Aarauer Tagsatzung vom 1. Mai die Anerkennung des Vierstädtebekenntnisses ab, während Zürich zunächst eine abwartende Haltung eingenommen hatte; vgl. <bibl>EA</bibl> IV/1c 683 b. 685 zu b; oben <ref target="file10852">Nr. 813</ref>, Anm. 5.</note>.</s>
 					<s n="15" xml:lang="la" type="auto">Bono igitur animo sis et hoc tibi de nobis pollicere, quod de fidis, veracibus et constantibus verbi ministris.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person145">Gaspar</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person145">Kaspar Megander</persName>.</note> habet apographum consilii nostri.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8412">Gaspar</persName><note xml:id="fn6" type="footnote" n="6"><persName>Kaspar Megander</persName>.</note> habet apographum consilii nostri.</s>
 					<s n="17" xml:lang="la" type="auto">Omnia enim nostra illi communicamus.</s>
 					<s n="18" xml:lang="la" type="auto">Salutem illi ex me dices.</s>
 				</p>

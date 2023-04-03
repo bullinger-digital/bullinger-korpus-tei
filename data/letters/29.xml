@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius / Basel, Ende Januar 1548</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">765</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Verweis" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,433</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +45,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/29">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -56,11 +55,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date notBefore="1548-01-20" notAfter="1548-01-31" cert="low">Ende Januar 1548</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -71,7 +70,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file19"/>
@@ -100,7 +99,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,7 +122,7 @@
 					<s n="8" xml:lang="la" type="auto">Singulis tuis non respondebo ordine, postremas dumtaxat arripiam; videntur hae omnia continere et renovare, quae praecipua sunt in caeteris etiam.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="auto">Die von Ländern<note xml:id="fn1" type="footnote" n="1">Die drei katholischen Landorte Uri, Schwyz und Unterwalden (vgl. SI III 1298).</note> wandlend diser zyt vil under uns gar früntlich, so wandlend die unsern zuͦ inen gen Ury, Schwytz, Zug, könnend anders nitt finden dann ein gar guͦten willen, gemeines vatterland ze schirmen, unangesähen, was gloubens jederman sye.</s>
+					<s n="9" xml:lang="de" type="auto">Die von Ländern<note xml:id="fn1" type="footnote" n="1">Die drei katholischen Landorte Uri, Schwyz und Unterwalden (vgl. <bibl>SI</bibl> III 1298).</note> wandlend diser zyt vil under uns gar früntlich, so wandlend die unsern zuͦ inen gen Ury, Schwytz, Zug, könnend anders nitt finden dann ein gar guͦten willen, gemeines vatterland ze schirmen, unangesähen, was gloubens jederman sye.</s>
 					<s n="10" xml:lang="de" type="auto">So bin ich selbs vor einem monat gesin zuͦ Cappel, hab mitt Zugern allerley geredt.</s>
 					<s n="11" xml:lang="de" type="auto">Houptman Erb von Ury, Troger und ein gesellschafft von Ury sind hie Zürych xin; hab nitt gehört von einigem unwillen, onet das sy under inen selbs ettliche grosse Hansen, doch in gar kleiner anzal, habend, die verdacht werdent ettwas guͦt keyserisch sin, denen ouch offentlich tröwt wirdt, so sich ettwas wurde vomm keyser erheben.</s>
 				</p>

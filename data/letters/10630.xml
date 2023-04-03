@@ -6,40 +6,31 @@
 				<title subtype="file">Thomas Blarer / Konstanz AN Heinrich Bullinger, 16. Juni 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=592</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">231</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,16r-v</idno>
 					</msIdentifier>
 					<msContents>
@@ -49,7 +40,7 @@
 								wurde. Stimmt inhaltlich zu; wenn Bullinger jedoch von "Mäßigung" und "Einschränkung" redet, könnte er in
 								Verdacht geraten, so wie gewisse andere [Theologen] durch Vermittlungsversuche das klare Zeugnis der Schrift
 								zu verwässern. Es muß auch der Eindruck vermieden werden, als ob das Wort Gottes der Bestätigung durch
-								Lehrer wie <persName ref="person371">Augustin</persName> bedurfte. Empfiehlt, die Veröffentlichung
+								Lehrer wie <persName ref="p18700">Augustin</persName> bedurfte. Empfiehlt, die Veröffentlichung
 								aufzuschieben und beispielsweise die Übersetzung von [Gen 1,26] nochmals zu prüfen, um keinen Anstoß zu
 								erregen. Grüße.
 							</p>
@@ -61,7 +52,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW I, S. 708</title>
+								<title>Blarer BW I, S.708</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 592, S.231</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -71,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10630">
 				<correspAction type="sent">
-					<persName ref="person405" cert="high">
+					<persName ref="p405" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Thomas</forename>
@@ -80,11 +74,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/120270234"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1535-06-16" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,7 +121,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Tametsi nec nostri muneris nec nostrę facultatis id erat, honorifice Bullingere, tamen abs te invitatus, Tiguri nuper cum essem<note xml:id="fn1" type="footnote" n="1">Über einen Besuch <persName ref="person20">Thomas Blarers</persName> in Zürich kurz vor Mitte Juni (vgl. unten <ref target="file10646">Nr. 608</ref>, 4f) ist sonst nichts bekannt. Ein Gespräch mit den Zürcher Theologen hatte ungefähr am 18. April stattgefunden; vgl. Blarer BW I 684f.</note>, ut perspecto libello tuo de prędestinatione<note xml:id="fn2" type="footnote" n="2">Bullingers Rede zum Karlstag (28. Januar) 1535, "Quae moderatio servanda sit in negotio providentiae, praedestinationis, gratiae ac liberi arbitrii", ist erhalten in <persName ref="person165">Konrad Pellikans</persName> Nachschrift (Zürich ZB, Ms A 137, Nr. 1, f. 2r.-16r., mit Marginalien von anderer Hand) und in Kopie <persName ref="person1101">Wolfgang Hallers</persName> von 1549 (Bern, Burgerbibliothek, Ms B 7, f. 63r.-84r.) sowie gedruckt (mit dem falschen Datum 1536) in: Hottinger VIII 763-827. Vgl. HBBibl I 721; Alexander <hi>Schweizer,</hi> Die protestantischen Centraldogmen in ihrer Entwicklung innerhalb der reformirten Kirche, Bd. I, Zürich 1854, S. 258-265 (mit Teilübersetzung); Peter <hi>Walser,</hi> Die Prädestination bei Heinrich Bullinger im Zusammenhang mit seiner Gotteslehre, Zürich 1957. — Studien zur Dogmengeschichte und systematischen Theologie 11, S. 22. 163-167 u. ö.</note> iudicium meum adaperirem, placuit obiter magis quam ex certa sententia, quicquid animo<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> animo <hi>gestrichenes</hi> habeo.</note> incidit, tibi significare.</s>
+					<s n="2" xml:lang="la" type="auto">Tametsi nec nostri muneris nec nostrę facultatis id erat, honorifice Bullingere, tamen abs te invitatus, Tiguri nuper cum essem<note xml:id="fn1" type="footnote" n="1">Über einen Besuch <persName>Thomas Blarers</persName> in Zürich kurz vor Mitte Juni (vgl. unten <ref target="file10646">Nr. 608</ref>, 4f) ist sonst nichts bekannt. Ein Gespräch mit den Zürcher Theologen hatte ungefähr am 18. April stattgefunden; vgl. <bibl>Blarer BW</bibl> I 684f.</note>, ut perspecto libello tuo de prędestinatione<note xml:id="fn2" type="footnote" n="2">Bullingers Rede zum Karlstag (28. Januar) 1535, "Quae moderatio servanda sit in negotio providentiae, praedestinationis, gratiae ac liberi arbitrii", ist erhalten in <persName>Konrad Pellikans</persName> Nachschrift (Zürich ZB, Ms A 137, Nr. 1, f. 2r.-16r., mit Marginalien von anderer Hand) und in Kopie <persName ref="p7614">Wolfgang Hallers</persName> von 1549 (Bern, Burgerbibliothek, Ms B 7, f. 63r.-84r.) sowie gedruckt (mit dem falschen Datum 1536) in: Hottinger VIII 763-827. Vgl. <bibl>HBBibl</bibl> I 721; Alexander <hi>Schweizer,</hi> Die protestantischen Centraldogmen in ihrer Entwicklung innerhalb der reformirten Kirche, Bd. I, Zürich 1854, S. 258-265 (mit Teilübersetzung); Peter <hi>Walser,</hi> Die Prädestination bei Heinrich Bullinger im Zusammenhang mit seiner Gotteslehre, Zürich 1957. - Studien zur Dogmengeschichte und systematischen Theologie 11, S. 22. 163-167 u. ö.</note> iudicium meum adaperirem, placuit obiter magis quam ex certa sententia, quicquid animo<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> animo <hi>gestrichenes</hi> habeo.</note> incidit, tibi significare.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Nam, que dissens, visa mihi sunt valde solida, utpote suffulta divini sermonis oraculis.</s>
@@ -142,7 +136,7 @@
 					<s n="12" xml:lang="la" type="auto">Tu judica, quod solidum est.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Quod argumentis tuis accedunt <persName ref="person371">Augustini</persName> et aliorum dicta<note xml:id="fn5" type="footnote" n="5">Bullinger beruft sich an mehreren Stellen auf <persName ref="person371">Augustin</persName> und <persName ref="person315">Ambrosius</persName>; vgl. z. B. Hottinger VIII 802-804. 821-826.</note>, non displicet.</s>
+					<s n="13" xml:lang="la" type="auto">Quod argumentis tuis accedunt <persName ref="p18700">Augustini</persName> et aliorum dicta<note xml:id="fn5" type="footnote" n="5">Bullinger beruft sich an mehreren Stellen auf <persName>Augustin</persName> und <persName>Ambrosius</persName>; vgl. z. B. Hottinger VIII 802-804. 821-826.</note>, non displicet.</s>
 					<s n="14" xml:lang="la" type="auto">Tantum vitetur, ne, ut novi quidam ex nost[ris]<note xml:id="fnl" type="footnote" n="l"><hi>Textverlust durch Beschädigung des Randes.</hi></note> vix aliquid porro concedunt, nisi adsint<note xml:id="fnm" type="footnote" n="m"><hi>vor</hi> adsint <hi>gestrichenes</hi> accedente.</note> istiusmodi doctorum suffragia, tu quoque idem quesisse videaris.</s>
 					<s n="15" xml:lang="la" type="auto">Quod lucidum est ex verbo domini, talium testimoniis non eget, quę tamen confirmabant nostra et reiiciebant subsequentis seculi impudentiam, nisi et hoc loco hec etas nostra offenderetur his calculis.</s>
 					<s n="16" xml:lang="la" type="auto">Mox enim obtento alicuius doctoris sano iudicio in aliquo dictato petitur et in aliis.</s>
@@ -155,14 +149,14 @@
 					<s n="21" xml:lang="la" type="auto">Parce, obsecro, mi Boulingere, quod tam libere aut potius fortassis inepte meas cogitationes effutio.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto"><pb type="edition" next="233"/>Salutat te soror mea <persName ref="person474">Margaretha</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person474">Margaretha Blarer</persName>, geb. um 1494, gest. 1541, stand wegen ihrer Bildung und Wohltätigkeit in hohem Ansehen. Um sich ganz den Bedürftigen und Kranken widmen zu können, verzichtete sie freiwillig auf die Ehe. Mit <persName ref="person28">Martin Bucer</persName> pflegte sie einen ausgedehnten, freundschaftlichen Briefwechsel in lateinischer Sprache; im Februar 1535 bat er sie um Vermittlung in seinem Konflikt mit den Konstanzern. Als sie 1537 einen großen Vermögensverlust erlitt, erhielt sie Unterstützung von ihrem Bruder Ambrosius. Die "archidiaconissa" der <placeName ref="place565">Konstanzer</placeName> Kirche starb bei der Pflege Pestkranker; <persName ref="person19">Ambrosius Blarer</persName> widmete ihr eine ergreifende Totenklage. Bullinger kannte und schätzte sie seit seinem Besuch in <placeName ref="place565">Konstanz</placeName> im Oktober 1533; aufgrund von Bemerkungen in anderen Briefen ist ein sporadischer Briefwechsel anzunehmen, von dem aber nichts erhalten ist. - Lit.: <persName ref="person20">Blarer</persName> BW I. II, Reg. (bes. Bd. II, S. XIV-XVII); Maria <hi>Heinsius,</hi> Das unüberwindliche Wort. Frauen der Reformationszeit, München 1953, S. 37-67; Alice <hi>Zimmerli-Witschi,</hi> Frauen der Reformationszeit, Diss. Zürich, Zürich 1981, S. 103-110; Ilse <hi>Guenther,</hi> in: Contemporaries I 153.</note> cum uxorcula mea<note xml:id="fn8" type="footnote" n="8"><persName ref="person474">Margaretha Blarer</persName>, geb. Ehinger.</note>.</s>
+					<s n="22" xml:lang="la" type="auto"><pb type="edition" next="233"/>Salutat te soror mea <persName ref="p4334">Margaretha</persName><note xml:id="fn7" type="footnote" n="7"><persName>Margaretha Blarer</persName>, geb. um 1494, gest. 1541, stand wegen ihrer Bildung und Wohltätigkeit in hohem Ansehen. Um sich ganz den Bedürftigen und Kranken widmen zu können, verzichtete sie freiwillig auf die Ehe. Mit <persName ref="p18198">Martin Bucer</persName> pflegte sie einen ausgedehnten, freundschaftlichen Briefwechsel in lateinischer Sprache; im Februar 1535 bat er sie um Vermittlung in seinem Konflikt mit den Konstanzern. Als sie 1537 einen großen Vermögensverlust erlitt, erhielt sie Unterstützung von ihrem Bruder Ambrosius. Die "archidiaconissa" der <placeName>Konstanzer</placeName> Kirche starb bei der Pflege Pestkranker; <persName>Ambrosius Blarer</persName> widmete ihr eine ergreifende Totenklage. Bullinger kannte und schätzte sie seit seinem Besuch in <placeName>Konstanz</placeName> im Oktober 1533; aufgrund von Bemerkungen in anderen Briefen ist ein sporadischer Briefwechsel anzunehmen, von dem aber nichts erhalten ist. - Lit.: <persName>Blarer</persName> BW I. II, Reg. (bes. Bd. II, S. XIV-XVII); Maria <hi>Heinsius,</hi> Das unüberwindliche Wort. Frauen der Reformationszeit, München 1953, S. 37-67; Alice <hi>Zimmerli-Witschi,</hi> Frauen der Reformationszeit, Diss. Zürich, Zürich 1981, S. 103-110; Ilse <hi>Guenther,</hi> in: <bibl>Contemporaries</bibl> I 153.</note> cum uxorcula mea<note xml:id="fn8" type="footnote" n="8"><persName>Margaretha Blarer</persName>, geb. Ehinger.</note>.</s>
 					<s n="23" xml:lang="la" type="auto">Vale in domino cum tuis omnibus.</s>
 				</p>
 				<p>
 					<s n="24" xml:lang="la" type="auto">Constantie, 16. iunii die 1535.</s>
 				</p>
 				<p>
-					<s n="25" xml:lang="la" type="auto"><persName ref="person20">Thomas Blaurerus</persName> tuus.</s>
+					<s n="25" xml:lang="la" type="auto"><persName>Thomas Blaurerus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>

@@ -3,7 +3,7 @@
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Heinrich Bullinger] / [Zürich] AN [(Bürgermeister) Johannes Kambli] / [Zürich], s.d. [September 1572]</title>
+				<title subtype="file">[Heinrich Bullinger] / [Zürich] AN [(Bürgermeister) Johannes Kambli] / [Zürich], nach 1. September 1572</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms A 44, p.709-710</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +43,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9008">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -56,19 +53,19 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
-					<date notBefore="1572-09-01" notAfter="1572-09-12" cert="low"><note>Datum unsicher: 1572 September nach 1.</note></date>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
+					<date notBefore="1572-09-01" notAfter="1572-09-12" cert="low">nach 1. September 1572</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1764" cert="low">
+					<persName ref="p1764" cert="low">
 						<!--
 						<surname cert="low">Kambli</surname>
 						<forename cert="low">Johannes</forename>
 						<persName type="main" ref="person8392>Kambli, Johannes</persName>
 						-->
-						<roleName ref="role14" type="pl" role="Bürgermeister" cert="low"/>
+						<roleName ref="g14" type="pl" role="Bürgermeister" cert="low"/>
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file9006"/>
@@ -88,7 +85,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

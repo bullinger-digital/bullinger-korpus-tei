@@ -6,32 +6,31 @@
 				<title subtype="file">[Thomas Erastus] / [Heidelberg] AN [Heinrich Bullinger] / [Zürich], 1. März 1572</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7798/45</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Hinweis" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
+						<repository ref="a6"/>
 						<idno subtype="Autograph">G II 4, f. 180r-v</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
 						<idno subtype="Hinweis">G II 4 = Briefe an Johann Jakob Grynaeus</idno>
@@ -46,14 +45,14 @@
 				<msDesc type="Hinweis" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
+						<repository ref="a6"/>
 						<idno subtype="Kopie">G2 II 5, f. 1</idno>
 					</msIdentifier>
 				</msDesc>
@@ -62,7 +61,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8799">
 				<correspAction type="sent">
-					<persName ref="person1006" cert="low">
+					<persName ref="p1006" cert="low">
 						<!--
 						<surname cert="low">Erastus</surname>
 						<forename cert="low">Thomas</forename>
@@ -73,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11503025"/>
 						-->
 					</persName>
-					<placeName source="place210" cert="low"><orig>Heidelberg</orig></placeName>
+					<placeName source="l210" cert="low"><orig>Heidelberg</orig></placeName>
 					<date when="1572-03-01" cert="low"><note>Hinweis</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<orig>Brief ist adressiert an Grynaeus Joh. Jakob, Rötteln</orig>
 						<!--
 						<surname cert="low">Bullinger</surname>
@@ -89,7 +88,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8800"/>
@@ -115,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

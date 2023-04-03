@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, [20.] Januar 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=732</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">93</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,178</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,159</idno>
@@ -48,25 +39,32 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person40">Capito</persName> scheint die Basler Pfarrer geringzuschätzen, da er dem
-								Briefüberbringer nichts für sie mitgab. <persName ref="person154">Myconius</persName> mahnt unter Berufung
-								auf die <placeName ref="place565">Konstanzer</placeName> zur Vorsicht gegenüber
-								<persName ref="person28">Bucer</persName>, er selbst hat aber mit seiner Warnung in
-								<placeName ref="place97">Basel</placeName> eher das Gegenteil erreicht. Ist verärgert darüber, dass die
-								<placeName ref="place1049">Straßburger</placeName> von der bevorstehenden Tagung erfahren haben.
+								<persName ref="p5565">Capito</persName> scheint die Basler Pfarrer geringzuschätzen, da er dem
+								Briefüberbringer nichts für sie mitgab. <persName ref="p8418">Myconius</persName> mahnt unter Berufung
+								auf die <placeName>Konstanzer</placeName> zur Vorsicht gegenüber
+								<persName ref="p467">Bucer</persName>, er selbst hat aber mit seiner Warnung in
+								<placeName>Basel</placeName> eher das Gegenteil erreicht. Ist verärgert darüber, dass die
+								<placeName>Straßburger</placeName> von der bevorstehenden Tagung erfahren haben.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 732, S.93</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10770">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -77,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1536-01-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,14 +126,14 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Ne iota quidem <persName ref="person40">Capito</persName> ad nos per hunc<note xml:id="fn2" type="footnote" n="2">Unbekannt; vgl. Anm. 1.</note> - contemptor, ut interpretor, ministrorum <placeName ref="place97">Basiliensium</placeName>.</s>
-					<s n="3" xml:lang="la" type="auto">Cave tibi pro Constantiensium pia admonitione<note xml:id="fn3" type="footnote" n="3">Besonders <persName ref="person264">Konrad Zwick</persName> hatte bei seinem Besuch in Zürich vor den Konkordienplänen <persName ref="person28">Bucers</persName> gewarnt; vgl. oben <ref target="file10763">Nr. 725</ref>, 2-6 und 731, 59-81.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Ne iota quidem <persName ref="p5565">Capito</persName> ad nos per hunc<note xml:id="fn2" type="footnote" n="2">Unbekannt; vgl. Anm. 1.</note> - contemptor, ut interpretor, ministrorum <placeName>Basiliensium</placeName>.</s>
+					<s n="3" xml:lang="la" type="auto">Cave tibi pro Constantiensium pia admonitione<note xml:id="fn3" type="footnote" n="3">Besonders <persName>Konrad Zwick</persName> hatte bei seinem Besuch in Zürich vor den Konkordienplänen <persName ref="p18198">Bucers</persName> gewarnt; vgl. oben <ref target="file10763">Nr. 725</ref>, 2-6 und 731, 59-81.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Ego enim hęreo.</s>
-					<s n="5" xml:lang="la" type="auto">Quo pluribus de diligenti a <persName ref="person28">Bucero</persName> cautione hic dico, eo, credo, magis ipsi favent.</s>
-					<s n="6" xml:lang="la" type="auto">Quamvis nemini quicquam ego nisi patri<note xml:id="fn4" type="footnote" n="4"><persName ref="person148">Jakob Meyer zum Hirzen</persName> (vgl. HBBW IV, s. 448, Anm. c).</note> et <persName ref="person81">Grynęo</persName> et <persName ref="person11">Marco</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person11">Markus Bertschi</persName>.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Quo pluribus de diligenti a <persName ref="p467">Bucero</persName> cautione hic dico, eo, credo, magis ipsi favent.</s>
+					<s n="6" xml:lang="la" type="auto">Quamvis nemini quicquam ego nisi patri<note xml:id="fn4" type="footnote" n="4"><persName>Jakob Meyer zum Hirzen</persName> (vgl. <bibl>HBBW</bibl> IV, s. 448, Anm. c).</note> et <persName ref="p1365">Grynęo</persName> et <persName ref="p8054">Marco</persName><note xml:id="fn5" type="footnote" n="5"><persName>Markus Bertschi</persName>.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Age; equidem, prout deus dederit, faciam.</s>
 					<s n="8" xml:lang="la" type="auto">Tedet, quod Argentinenses nil nisi nugas ad nos.</s>
-					<s n="9" xml:lang="la" type="auto">Nescio quis malus dęmon de conventu futuro omnia dederit ad Argentinenses<note xml:id="fn6" type="footnote" n="6">Gemeint ist zweifellos die auf den 30. Januar nach <placeName ref="place97">Basel</placeName> einberufene Tagung, von der die <placeName ref="place1049">Straßburger</placeName> zunächst ausgeschlossen bleiben sollten; vgl. oben <ref target="file10751">Nr. 713</ref>, 6-12.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Nescio quis malus dęmon de conventu futuro omnia dederit ad Argentinenses<note xml:id="fn6" type="footnote" n="6">Gemeint ist zweifellos die auf den 30. Januar nach <placeName>Basel</placeName> einberufene Tagung, von der die <placeName>Straßburger</placeName> zunächst ausgeschlossen bleiben sollten; vgl. oben <ref target="file10751">Nr. 713</ref>, 6-12.</note>.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Vale et hunccine stomachum, nemini nocentem tamen, ęqui consule.</s>
@@ -144,7 +142,7 @@
 					<s n="11" xml:lang="la" type="auto">Vale iterum.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, anno 1536.</s>
+					<s n="12" xml:lang="la" type="auto"><placeName>Basileę</placeName>, anno 1536.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">T. Myco.</s>

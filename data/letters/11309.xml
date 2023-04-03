@@ -6,48 +6,39 @@
 				<title subtype="file">Georg Hoch AN Heinrich Bullinger, kurz vor 6. Mai 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1266</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">132</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,156</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Da die Feiertagsordnung auf der Landschaft weitherum nicht befolgt wird, bittet
-								<persName ref="person103">Hoch</persName> - mit Verweis auf <placeName ref="place121">Bern</placeName>,
-								<placeName ref="place97">Basel</placeName> und <placeName ref="place1011">St. Gallen</placeName> und
+								<persName ref="p1415">Hoch</persName> - mit Verweis auf <placeName>Bern</placeName>,
+								<placeName>Basel</placeName> und <placeName>St. Gallen</placeName> und
 								auf die Folgen der Bußenpraxis - dringend um Bullingers Rat; dieser möge ihm das sprachliche Ungeschick
 								nachsehen.
 							</p>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1266, S.132</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11309">
 				<correspAction type="sent">
-					<persName ref="person1415" cert="high">
+					<persName ref="p1415" cert="high">
 						<!--
 						<surname cert="high">Hoch</surname>
 						<forename cert="high">Georg</forename>
@@ -71,7 +69,7 @@
 					<date when="1539-05-06" cert="low">kurz vor 6. Mai 1539</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -96,7 +94,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -114,13 +112,13 @@
 					<s n="3" xml:lang="la" type="auto">Inobedientia in servandis festis<note xml:id="fn3" type="footnote" n="3">Zu den Zürcher Feiertagsmandaten vom 28. März 1526 und vom 26. März 1530 vgl. <hi>Largiadèr,</hi> aaO, S. 510-513.</note> sic in multos ac loca multa insiliit, ut difficile, immo impossibile sit penam ab singulis insumere, cum multorum ac communis argumentatio et querela sit iam maius in rure scandalum non vivere festis.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Quo bene sensati vicini nostri, <placeName ref="place121">Bernenses</placeName>, <placeName ref="place97">Basilienses</placeName> et (si bene percepimus) apud S. Gallum viri evangelici moti ea omnia praeter diem dominicum aboleverint exceptis extraneis, ultraque querulose sic argumentantur (cui et ego faveo) damnum<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> dampnum.</note> in pauperes semper recidere eo, quod divitibus ac multis mechanicis (ut puta) sutoribus, sartoribus etc. semper abundet labor ocultandus, qui ceteris desit.</s>
+					<s n="4" xml:lang="la" type="auto">Quo bene sensati vicini nostri, <placeName>Bernenses</placeName>, <placeName>Basilienses</placeName> et (si bene percepimus) apud S. Gallum viri evangelici moti ea omnia praeter diem dominicum aboleverint exceptis extraneis, ultraque querulose sic argumentantur (cui et ego faveo) damnum<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> dampnum.</note> in pauperes semper recidere eo, quod divitibus ac multis mechanicis (ut puta) sutoribus, sartoribus etc. semper abundet labor ocultandus, qui ceteris desit.</s>
 					<s n="5" xml:lang="la" type="auto">Que tue charitati in charitate offerre non erubui, non quod vota nostra aliquid velint aut debeant, sed quod semper iuramento satisfacere haud nec magistratui obedire gliscimus.</s>
 					<s n="6" xml:lang="la" type="auto">Obnixe te patrem, ut consulas, flagitamus.</s>
-					<s n="7" xml:lang="la" type="auto">Inerti <persName ref="person1872">Prisciano</persName><note xml:id="fn4" type="footnote" n="4">Anspielung auf den lateinischen Grammatiker des 6. Jahrhunderts n. Chr. (vgl. LAW 2437).</note> indulge et fave ac cum omnibus tuis foeliciter vale.</s>
+					<s n="7" xml:lang="la" type="auto">Inerti <persName>Prisciano</persName><note xml:id="fn4" type="footnote" n="4">Anspielung auf den lateinischen Grammatiker des 6. Jahrhunderts n. Chr. (vgl. <bibl>LAW</bibl> 2437).</note> indulge et fave ac cum omnibus tuis foeliciter vale.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Georgius <persName ref="person103">Hoch</persName>, in Enbrach ecclesiae minister verbi.</s>
+					<s n="8" xml:lang="la" type="auto">Georgius <persName ref="p1415">Hoch</persName>, in Enbrach ecclesiae minister verbi.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

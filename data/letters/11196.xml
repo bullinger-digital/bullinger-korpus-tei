@@ -6,52 +6,43 @@
 				<title subtype="file">Michael Drome / Oxford AN Heinrich Bullinger, 31. Juli 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1153</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">182</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,189r.–189a r.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Nur weil <persName ref="person164">Nicholas [Partridge]</persName> Bullingers Freundlichkeit so gerühmt hat, wagt er zu schreiben. Weiß von
-								<persName ref="person164">Partridge</persName>, daß die deutschen Theologen sich nicht nur um die Reform der Kirche bemühen, sondern auch in
+								Nur weil <persName ref="p8422">Nicholas [Partridge]</persName> Bullingers Freundlichkeit so gerühmt hat, wagt er zu schreiben. Weiß von
+								<persName ref="p8422">Partridge</persName>, daß die deutschen Theologen sich nicht nur um die Reform der Kirche bemühen, sondern auch in
 								vorbildlicher Weise auf Ratsuchende eingehen; bittet deshalb gemeinsam mit [seinen Freunden], ihn bei Bedarf
 								um Rat fragen zu dürfen. Viele werden durch die deutschen, zürcherischen und besonders durch Bullingers
 								Publikationen in ihrem Glauben bestärkt; sogar die Reformationsgegner verstummen vor Staunen über seine
 								Schriftauslegung,<pb type="edition" next="182"/> und viele, die bisher durch die Drohungen ihrer Lehrer
-								abgehalten wurden, lesen jetzt die Schriften Bullingers und anderer, die König [<persName ref="person98">Heinrich VIII.</persName>] und andern
+								abgehalten wurden, lesen jetzt die Schriften Bullingers und anderer, die <persName ref="p18505">König [Heinrich VIII.]</persName> und andern
 								Vornehmen des Landes gewidmet wurden; bittet ihn, weiter zu publizieren.
 							</p>
 						</summary>
@@ -59,23 +50,30 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1153, S.182</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11196">
 				<correspAction type="sent">
-					<persName ref="person840" cert="high">
+					<persName ref="p840" cert="high">
 						<!--
 						<surname cert="high">Drome</surname>
 						<forename cert="high">Michael</forename>
 						-->
 					</persName>
-					<placeName source="place376" cert="high"><orig>Oxford</orig></placeName>
+					<placeName source="l376" cert="high"><orig>Oxford</orig></placeName>
 					<date when="1538-07-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -100,7 +98,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -116,7 +114,7 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et salutem a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Etsi nulla mihi tecum intercessit unquam familiaritas, virorum doctissime, quae ad scribendum subinvitare iam posset, attamen generosus ille animi tui candor, comitas tanta ac suavitas, quae mihi Nicolaus<note xml:id="fn2" type="footnote" n="2"><persName ref="person164">Nicholas Partridge</persName>. -Partridge hielt sich zweimal mehrere Monate lang in Zürich auf, erstmals von August bis Dezember 1536 (s. HBBW VI, S. 386, 2f, und 493, 78f), ein zweites Mal von Juni bis November 1537 (s. HBBW VII. S. 173, <ref target="file11049">Nr. 1007</ref>, und S. 289, <ref target="file11103">Nr. 1060</ref>).</note> meus summopere praedicaverat in te apud tuos tam praeclaro loco viro, extorserunt hanc impresentiarum epistolam, ut quod nullo hactenus veteris amicitiae titulo ausus essem tentare, hae tuae egregiae virtutes et in amicum praeterea exhibita humanitas vel ab ignotissimo alias evincere valebant.</s>
+					<s n="2" xml:lang="la" type="auto">Etsi nulla mihi tecum intercessit unquam familiaritas, virorum doctissime, quae ad scribendum subinvitare iam posset, attamen generosus ille animi tui candor, comitas tanta ac suavitas, quae mihi Nicolaus<note xml:id="fn2" type="footnote" n="2"><persName>Nicholas Partridge</persName>. -Partridge hielt sich zweimal mehrere Monate lang in Zürich auf, erstmals von August bis Dezember 1536 (s. <bibl>HBBW</bibl> VI, S. 386, 2f, und 493, 78f), ein zweites Mal von Juni bis November 1537 (s. <bibl>HBBW</bibl> VII. S. 173, <ref target="file11049">Nr. 1007</ref>, und S. 289, <ref target="file11103">Nr. 1060</ref>).</note> meus summopere praedicaverat in te apud tuos tam praeclaro loco viro, extorserunt hanc impresentiarum epistolam, ut quod nullo hactenus veteris amicitiae titulo ausus essem tentare, hae tuae egregiae virtutes et in amicum praeterea exhibita humanitas vel ab ignotissimo alias evincere valebant.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Semper fui hac opinione eos, qui ex animo faverent evangelio, maxime vero, qui antesignani essent in illo pure praedicando, non solere admodum morosos esse vel aditu difficiles.</s>
@@ -141,20 +139,20 @@
 					<s n="18" xml:lang="la" type="auto">Nam nulli vehementius Germaniam falsis suis premunt accusationibus, quam qui praelectiones suas totas fere e Germanorum petunt libris, astuti quidem viri, qui hinc imperitos auditores avocant, ubi aliquando praeceptorum suorum furta deprehendant.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">Sed regi et proceribus quibusdam nostris dedicati nuper tui et aliorum labores<note xml:id="fn3" type="footnote" n="3">Bullinger hatte sein Werk "De scripturae sanctae authoritate" König <persName ref="person98">Heinrich VIII.</persName> gewidmet (s. oben <ref target="file11150">Nr. 1107</ref>). Zu denken ist im weiteren etwa an <persName ref="person146">Melanchthons</persName> Neuausgabe der "Loci communes" von 1535 (VD 16, M 3614) und an <persName ref="person40">Capitos</persName> "Responsio de missa" von 1537 (VD 16, C 838), die ebenfalls <persName ref="person98">Heinrich VIII.</persName> gewidmet sind, oder an <persName ref="person28">Bucers</persName> Römerbriefkommentar von 1536 (VD 16, B 8899), der Erzbischof <persName ref="person45">Cranmer</persName> zugeeignet ist.</note> ac tanto applausu ab eruditioribus quibusque accepti aeternum fere nugonibus istis indixere silentium; illos praeterea animarunt ad vestra scripta tractanda, quos hactenus deterruerunt praelectorum tam horrendae minae.</s>
+					<s n="19" xml:lang="la" type="auto">Sed regi et proceribus quibusdam nostris dedicati nuper tui et aliorum labores<note xml:id="fn3" type="footnote" n="3">Bullinger hatte sein Werk "De scripturae sanctae authoritate" <persName>König Heinrich VIII.</persName> gewidmet (s. oben <ref target="file11150">Nr. 1107</ref>). Zu denken ist im weiteren etwa an <persName ref="p6490">Melanchthons</persName> Neuausgabe der "Loci communes" von 1535 (VD 16, M 3614) und an <persName>Capitos</persName> "Responsio de missa" von 1537 (VD 16, C 838), die ebenfalls <persName>Heinrich VIII.</persName> gewidmet sind, oder an <persName ref="p18198">Bucers</persName> Römerbriefkommentar von 1536 (VD 16, B 8899), der Erzbischof <persName ref="p4613">Cranmer</persName> zugeeignet ist.</note> ac tanto applausu ab eruditioribus quibusque accepti aeternum fere nugonibus istis indixere silentium; illos praeterea animarunt ad vestra scripta tractanda, quos hactenus deterruerunt praelectorum tam horrendae minae.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Quare, doctissime vir<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> vir <hi>ein gestrichener Buchstabe.</hi></note>, perge foelicibus avibus<note xml:id="fn4" type="footnote" n="4">Adagia, 1, 1, 75 (LB II 57).</note> hostibus tuis esse molestus et veritatis patrocinium non desere, et, si quae habeas alia studiorum tuorum monumenta, in communem omnium utilitatem publicato.</s>
+					<s n="20" xml:lang="la" type="auto">Quare, doctissime vir<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> vir <hi>ein gestrichener Buchstabe.</hi></note>, perge foelicibus avibus<note xml:id="fn4" type="footnote" n="4">Adagia, 1, 1, 75 (<bibl>LB</bibl> II 57).</note> hostibus tuis esse molestus et veritatis patrocinium non desere, et, si quae habeas alia studiorum tuorum monumenta, in communem omnium utilitatem publicato.</s>
 					<s n="21" xml:lang="la" type="auto">Ita demereberis tibi indies magis magisque omnium studiosorum animos et deo optimo maximo acceptissimum haud dubie sacrificium reddes.</s>
 				</p>
 				<p>
 					<s n="22" xml:lang="la" type="auto">Vale et temeritati meae parce.</s>
 				</p>
 				<p>
-					<s n="23" xml:lang="la" type="auto"><placeName ref="place833">Oxoniae</placeName>, e collegio Magdaleniano, pridie kalendas augusti.</s>
+					<s n="23" xml:lang="la" type="auto"><placeName>Oxoniae</placeName>, e collegio Magdaleniano, pridie kalendas augusti.</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="la" type="auto">Tuus <persName ref="person49">Michael</persName> Drumaeus.</s>
+					<s n="24" xml:lang="la" type="auto">Tuus <persName ref="p840">Michael</persName> Drumaeus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

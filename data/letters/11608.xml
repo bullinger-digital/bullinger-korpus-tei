@@ -6,50 +6,41 @@
 				<title subtype="file">Johannes Haller d.J. / Frankfurt am Main AN Heinrich Bullinger, 15. September 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1565</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">310</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1381</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bedankt sich für Bullingers Wohlwollen. Wird [mit <persName ref="person251">Johannes Wolf</persName> und
-								<persName ref="person242">Johann Jakob Wick</persName>] [zum Studium] nach
-								<placeName ref="place617">Leipzig</placeName> gehen und will zusammen mit <persName ref="person251">Wolf</persName> ein Jahr bleiben, falls
-								er keine andere Anweisung erhält; <persName ref="person242">Wick</persName> wurde nach Zürich zurückbeordert und kehrt auf die [Frühjahrs-]Messe
-								hin zurück. <persName ref="person91">Haller</persName> richtet sein Studium ganz auf seine künftige
+								Bedankt sich für Bullingers Wohlwollen. Wird [mit <persName ref="p3988">Johannes Wolf</persName> und
+								<persName ref="p8461">Johann Jakob Wick</persName>] [zum Studium] nach
+								<placeName>Leipzig</placeName> gehen und will zusammen mit <persName ref="p3988">Wolf</persName> ein Jahr bleiben, falls
+								er keine andere Anweisung erhält; <persName ref="p8461">Wick</persName> wurde nach Zürich zurückbeordert und kehrt auf die [Frühjahrs-]Messe
+								hin zurück. <persName ref="p8018">Haller</persName> richtet sein Studium ganz auf seine künftige
 								Funktion als Pfarrer aus, eine Berufung, für die er sehr dankbar ist. Weitere Neuigkeiten wird Bullinger von
 								anderen erhalten; entschuldigt sich für sein unkluges Verhalten und für Kürze und Stil seines Briefes.
 								Grüße.
@@ -59,13 +50,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1565, S.310</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11608">
 				<correspAction type="sent">
-					<persName ref="person8018" cert="high">
+					<persName ref="p8018" cert="high">
 						<!--
 						<surname cert="high">Haller d.J.</surname>
 						<forename cert="high">Johannes</forename>
@@ -75,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
 						-->
 					</persName>
-					<placeName source="place157" cert="high"><orig>Frankfurt am Main</orig></placeName>
+					<placeName source="l157" cert="high"><orig>Frankfurt am Main</orig></placeName>
 					<date when="1541-09-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,9 +112,13 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="11608/Autograph/00__E_II_338__fol__1381_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="11608/Autograph/01__E_II_338__fol__1381_v_.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
@@ -124,12 +126,12 @@
 					<s n="1" xml:lang="la" type="auto">Salutem a domino nostro etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Saepe deliberanti mihi, quibus potissimum rationibus, Bullingere dilecte pater, tecum in gratiam redire possem,<note xml:id="fn1" type="footnote" n="1"><persName ref="person91">Haller</persName> spielt auf die gewährte Verlängerung seines Auslandstudiums trotz verschiedener Vergehen an; vgl. oben <ref target="file11496">Nr. 1453</ref>, 1-37.</note> omnes tamen cogitationes meas et consilia tua superavit humanitas, benignitas et clementia, pro qua humanitate gratias tibi, quantas possum, et ago et habeo vicissimque polliceor me talem erga te futurum, qualem me expectas.</s>
+					<s n="2" xml:lang="la" type="auto">Saepe deliberanti mihi, quibus potissimum rationibus, Bullingere dilecte pater, tecum in gratiam redire possem,<note xml:id="fn1" type="footnote" n="1"><persName>Haller</persName> spielt auf die gewährte Verlängerung seines Auslandstudiums trotz verschiedener Vergehen an; vgl. oben <ref target="file11496">Nr. 1453</ref>, 1-37.</note> omnes tamen cogitationes meas et consilia tua superavit humanitas, benignitas et clementia, pro qua humanitate gratias tibi, quantas possum, et ago et habeo vicissimque polliceor me talem erga te futurum, qualem me expectas.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Lypsiam, quo proficisci iussi sumus, proficiscemur, ad proximas nundinas<note xml:id="fn2" type="footnote" n="2">Gemeint ist die <placeName ref="place361">Frankfurter</placeName> Frühjahrsmesse 1542, vgl. oben <ref target="file11607">Nr. 1564</ref>, 241.</note> alia vestra decreta expectantes.</s>
-					<s n="4" xml:lang="la" type="auto">Rogamus tamen, dilecte pater, ut <persName ref="person251">Wolphio</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person251">Johannes Wolf</persName>.</note> et mihi Lypsiae per integrum annum degere permittatis.</s>
-					<s n="5" xml:lang="la" type="auto">Wickius enim<pb type="edition" next="311"/> propter certas causas<note xml:id="fn4" type="footnote" n="4"><persName ref="person242">Johann Jakob Wick</persName> hatte unerlaubt einem Mädchen die Ehe versprochen; s. oben <ref target="file11607">Nr. 1564</ref>, 2-18.</note> a vobis vocatus ad proximas nundinas redire statuit.</s>
+					<s n="3" xml:lang="la" type="auto">Lypsiam, quo proficisci iussi sumus, proficiscemur, ad proximas nundinas<note xml:id="fn2" type="footnote" n="2">Gemeint ist die <placeName>Frankfurter</placeName> Frühjahrsmesse 1542, vgl. oben <ref target="file11607">Nr. 1564</ref>, 241.</note> alia vestra decreta expectantes.</s>
+					<s n="4" xml:lang="la" type="auto">Rogamus tamen, dilecte pater, ut <persName ref="p3988">Wolphio</persName><note xml:id="fn3" type="footnote" n="3"><persName>Johannes Wolf</persName>.</note> et mihi Lypsiae per integrum annum degere permittatis.</s>
+					<s n="5" xml:lang="la" type="auto">Wickius enim<pb type="edition" next="311"/> propter certas causas<note xml:id="fn4" type="footnote" n="4"><persName>Johann Jakob Wick</persName> hatte unerlaubt einem Mädchen die Ehe versprochen; s. oben <ref target="file11607">Nr. 1564</ref>, 2-18.</note> a vobis vocatus ad proximas nundinas redire statuit.</s>
 					<s n="6" xml:lang="la" type="auto">Nos, si permiseritis, post redibimus.</s>
 					<s n="7" xml:lang="la" type="auto">Sed haec vobis decernenda, nobis exequenda erunt.</s>
 				</p>
@@ -139,7 +141,7 @@
 					<s n="10" xml:lang="la" type="auto">Sed haec alias.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Cętera, quae nova sunt, alii<note xml:id="fn6" type="footnote" n="6">Gemeint sind wohl <persName ref="person251">Wolf</persName> und <persName ref="person242">Wick</persName>; vgl. deren Briefe <ref target="file11607">Nr. 1564</ref> und 1568.</note> (ut opinor) scribunt.</s>
+					<s n="11" xml:lang="la" type="auto">Cętera, quae nova sunt, alii<note xml:id="fn6" type="footnote" n="6">Gemeint sind wohl <persName>Wolf</persName> und <persName>Wick</persName>; vgl. deren Briefe <ref target="file11607">Nr. 1564</ref> und 1568.</note> (ut opinor) scribunt.</s>
 					<s n="12" xml:lang="la" type="auto">Tu, quae antea commisi imprudentius, ignosce, rogo; pia enim quędam simplicitas, ut errarem (deum testor) causa fuit.</s>
 					<s n="13" xml:lang="la" type="auto">Ignosce etiam, rogo, dilecte pater, quod ita raptim scribo; brevi meliora dabo.</s>
 				</p>
@@ -150,7 +152,7 @@
 					<s n="15" xml:lang="la" type="auto">Datum Francofurti, 15. septembris 1541.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person91">Ioan. Haller</persName>.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8018">Ioan. Haller</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

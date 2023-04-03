@@ -6,47 +6,38 @@
 				<title subtype="file">Hans Jakob Adlischwyler / [Rötteln] AN Heinrich Bullinger, 4. Januar 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=711</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">38</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,76</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Möchte, dass ihm Bullinger in Zürich zu einer Stelle verhilft; ist beim Landschreiber von
-								<placeName ref="place925">Rötteln</placeName>. Lässt seine Base, Bullingers Ehefrau, grüssen und bittet,
+								<placeName>Rötteln</placeName>. Lässt seine Base, Bullingers Ehefrau, grüssen und bittet,
 								ihm umgehend durch den Briefboten zurückzuschreiben.
 							</p>
 						</summary>
@@ -54,24 +45,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 711, S.38</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10749">
 				<correspAction type="sent">
-					<persName ref="person49" cert="high">
+					<persName ref="p49" cert="high">
 						<!--
 						<surname cert="high">Adlischwyler</surname>
 						<forename cert="high">Hans Jakob</forename>
 						<persName type="main" ref="person8036>Adlischwyler, Hans Jakob</persName>
 						-->
 					</persName>
-					<placeName source="place434" cert="low"><orig>Rötteln</orig></placeName>
+					<placeName source="l434" cert="low"><orig>Rötteln</orig></placeName>
 					<date when="1536-01-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -101,7 +99,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -115,11 +113,11 @@
 					<s n="1" xml:lang="de" type="auto">Mein underthenig, gehorsam, willig dienst zuvor.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Hochgelerter, lieber her vetter<note xml:id="fn3" type="footnote" n="3">Onkel, männlicher Verwandter (SI I 1133).</note>, ich laß uch wüssen, das ich frusch und gesundt bin, gott hab lob etc.</s>
+					<s n="2" xml:lang="de" type="auto">Hochgelerter, lieber her vetter<note xml:id="fn3" type="footnote" n="3">Onkel, männlicher Verwandter (<bibl>SI</bibl> I 1133).</note>, ich laß uch wüssen, das ich frusch und gesundt bin, gott hab lob etc.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Lieber her vetter, ich bitt uch fruntlich, wo es ye gesein mag, das ir mir umb ein herren hulffen, damit ich by uch, auch by meiner lieben besin<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> besin <hi>gestrichenes</hi> bess.</note><note xml:id="fn4" type="footnote" n="4">Tante, weibliche Verwandte (SI IV 1648); gemeint ist Bullingers Frau Anna.</note> sein möchte; dann ich ein groß verlangen nach uch und iren hab.</s>
-					<s n="4" xml:lang="de" type="auto">Furs ander loß ich wissen, das ich zu Roteln by dem landtschriber<note xml:id="fn5" type="footnote" n="5"><persName ref="person940">Petermann Gebwiler</persName> (ursprünglich Petermann Sattler, bzw. Petrus Sellatoris) scheint 1536, vielleicht schon im Jahr 1535, Landschreiber der Herrschaft <placeName ref="place925">Rötteln</placeName> gewesen zu sein; sein Vorgänger <persName ref="person2586">Johannes Zech</persName> hatte wohl bis zum Jahr 1535 geamtet; vgl. Christian Martin <hi>Vortisch,</hi> Landschreiber und Juristen der Oberen badischen Herrschaften, in: Das Markgräfler-Land 2/1988, S. 164.</note> bin.</s>
+					<s n="3" xml:lang="de" type="auto">Lieber her vetter, ich bitt uch fruntlich, wo es ye gesein mag, das ir mir umb ein herren hulffen, damit ich by uch, auch by meiner lieben besin<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> besin <hi>gestrichenes</hi> bess.</note><note xml:id="fn4" type="footnote" n="4">Tante, weibliche Verwandte (<bibl>SI</bibl> IV 1648); gemeint ist Bullingers Frau Anna.</note> sein möchte; dann ich ein groß verlangen nach uch und iren hab.</s>
+					<s n="4" xml:lang="de" type="auto">Furs ander loß ich wissen, das ich zu Roteln by dem landtschriber<note xml:id="fn5" type="footnote" n="5"><persName>Petermann Gebwiler</persName> (ursprünglich Petermann Sattler, bzw. Petrus Sellatoris) scheint 1536, vielleicht schon im Jahr 1535, Landschreiber der Herrschaft <placeName>Rötteln</placeName> gewesen zu sein; sein Vorgänger <persName>Johannes Zech</persName> hatte wohl bis zum Jahr 1535 geamtet; vgl. Christian Martin <hi>Vortisch,</hi> Landschreiber und Juristen der Oberen badischen Herrschaften, in: Das Markgräfler-Land 2/1988, S. 164.</note> bin.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="de" type="auto">Nit me, dann griessen mir mein hertzliebe bese, uwer husfrouwen.</s>
@@ -129,11 +127,11 @@
 					<s n="7" xml:lang="de" type="auto">Datum Roteln, inn il, uff zinstag nach dem neuwen jar anno etc. 36.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto">E[wer] gehorsamer vetter <persName ref="person2">Hans Jacob Adelschwiler</persName>.</s>
+					<s n="8" xml:lang="de" type="auto">E[wer] gehorsamer vetter <persName ref="p8036">Hans Jacob Adelschwiler</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="9" xml:lang="de" type="auto">Dem hochgelerten herren hern <persName ref="person1775">Heinrichen</persName> N., bredicant zu Zurich, meinem hertzlieben vettern zu handen.</s>
+					<s n="9" xml:lang="de" type="auto">Dem hochgelerten herren hern <persName ref="p2411">Heinrichen</persName> N., bredicant zu Zurich, meinem hertzlieben vettern zu handen.</s>
 				</p>
 			</div>
 		</body>

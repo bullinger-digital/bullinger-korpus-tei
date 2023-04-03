@@ -6,48 +6,39 @@
 				<title subtype="file">Erasmus Ritter / Bern AN Heinrich Bullinger, 14. März 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1478</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">104</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 362,42</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Der Drucker [<persName ref="person339">Mathias Apiarius</persName>] hat entgegen einer Verfügung den [von
-								<persName ref="person28">Bucer</persName> bearbeiteten] Katechismus
-								[<persName ref="person145">Meganders</persName>] nachgedruckt, während die [zwinglische] Gegenpartei einen
+								Der Drucker [<persName ref="p4191">Mathias Apiarius</persName>] hat entgegen einer Verfügung den [von
+								<persName ref="p467">Bucer</persName> bearbeiteten] Katechismus
+								[<persName ref="p8412">Meganders</persName>] nachgedruckt, während die [zwinglische] Gegenpartei einen
 								Neudruck der Agende veranlasst hat, bei dem der originale Wortlaut beibehalten wurde; wenn Bullinger bald
 								schreibt, könnte dies viel bewirken. Es besteht Hoffnung, die Neuerer mit Hilfe Zürichs loszuwerden.
 							</p>
@@ -56,13 +47,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1478, S.104</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11521">
 				<correspAction type="sent">
-					<persName ref="person2810" cert="high">
+					<persName ref="p2810" cert="high">
 						<!--
 						<surname cert="high">Ritter</surname>
 						<forename cert="high">Erasmus</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416562"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1541-03-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,17 +123,17 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax a deo per Iesum Christum etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Nichil habeo, quod scribam, quoniam id, de quo percunctabaris aliquando, videlicet quid imprimeretur etc., tunc respondi,<note xml:id="fn1" type="footnote" n="1">Am 11. Februar, s. oben <ref target="file11506">Nr. 1463</ref>, 21-25.</note> quod calcographus<note xml:id="fn2" type="footnote" n="2"><persName ref="person339">Mathias Apiarius</persName>.</note> iussus esset subsistere.</s>
-					<s n="3" xml:lang="la" type="auto">Sed interim nescio quo consilio fretus perrexit et catechismum excussit<note xml:id="fn3" type="footnote" n="3">Vgl. Rainer <hi>Henrich,</hi> Ein <placeName ref="place121">Berner</placeName> "Kunzechismus" von 1541. <persName ref="person28">Bucers</persName> verloren geglaubte Bearbeitung des Meganderschen Katechismus, in: Zwa XXIV, 1997, S. 81-94. - Ein weiteres Exemplar dieser Ausgabe findet sich in der Universitätsbibliothek Edinburgh (freundlicher Hinweis von Dr. Thomas Wilhelmi, Heidelberg).</note>.</s>
-					<s n="4" xml:lang="la" type="auto">At pars altera iussit quoque, ut libellus agendarum statim imprimeretur, qui veterem modum loquendi observat,<note xml:id="fn4" type="footnote" n="4">Zum Streit um eine Formulierung in der <placeName ref="place121">Berner</placeName> Abendmahlsliturgie s. HBBW IX, S. 238 und 252, 15-18. Zur Neuausgabe des "Cancell unnd Agend büchly der Kilchen Bärn" von 1541 vgl. Adolf <hi>Fluri,</hi> <persName ref="person339">Mathias Apiarius</persName>, der erste Buchdrucker <placeName ref="place121">Berns</placeName> (1537-1544), in: Neues <placeName ref="place121">Berner</placeName> Taschenbuch auf das Jahr 1897, <placeName ref="place121">Bern</placeName> 1896, S. 232f; Hans <hi>Kaufmann /</hi> Peter <hi>Nabholz,</hi> Verzeichnis schweizerischer Inkunabeln und Frühdrucke, Fasz. III, Zürich 1969, S. 13, <ref target="file11097">Nr. 1054</ref>.</note> quapropter nos una ex officina et calidum et frigidum<note xml:id="fn5" type="footnote" n="5">Vgl. Adagia, 1, 8, 30 (LB II 309f).</note> evulgabimus.</s>
-					<s n="5" xml:lang="la" type="auto">Sed id unice quaeso, ut possim abs te impetrare, quatinus tua scripta non differas ad eos, de quibus admonitus es,<note xml:id="fn6" type="footnote" n="6"><persName ref="person176">Ritter</persName> erwartete offenbar briefliche Unterstützung in der Auseinandersetzung mit seinen theologisch mehr von <persName ref="person28">Bucer</persName> geprägten Amtsbrüdern (besonders <persName ref="person1647">Sebastian Meyer</persName> und <persName ref="person126">Peter Kunz</persName>); vgl. oben <ref target="file11511">Nr. 1468</ref>, 2-42.</note> quoniam tu non<note xml:id="fna" type="footnote" n="a">non <hi>über der Zeile nachgetragen.</hi></note> credis, quantum ecclesie nostre utilitatis adferre possis.</s>
+					<s n="2" xml:lang="la" type="auto">Nichil habeo, quod scribam, quoniam id, de quo percunctabaris aliquando, videlicet quid imprimeretur etc., tunc respondi,<note xml:id="fn1" type="footnote" n="1">Am 11. Februar, s. oben <ref target="file11506">Nr. 1463</ref>, 21-25.</note> quod calcographus<note xml:id="fn2" type="footnote" n="2"><persName>Mathias Apiarius</persName>.</note> iussus esset subsistere.</s>
+					<s n="3" xml:lang="la" type="auto">Sed interim nescio quo consilio fretus perrexit et catechismum excussit<note xml:id="fn3" type="footnote" n="3">Vgl. Rainer <hi>Henrich,</hi> Ein <placeName>Berner</placeName> "Kunzechismus" von 1541. <persName ref="p18198">Bucers</persName> verloren geglaubte Bearbeitung des Meganderschen Katechismus, in: <bibl>Zwa</bibl> XXIV, 1997, S. 81-94. - Ein weiteres Exemplar dieser Ausgabe findet sich in der Universitätsbibliothek Edinburgh (freundlicher Hinweis von Dr. Thomas Wilhelmi, Heidelberg).</note>.</s>
+					<s n="4" xml:lang="la" type="auto">At pars altera iussit quoque, ut libellus agendarum statim imprimeretur, qui veterem modum loquendi observat,<note xml:id="fn4" type="footnote" n="4">Zum Streit um eine Formulierung in der <placeName>Berner</placeName> Abendmahlsliturgie s. <bibl>HBBW</bibl> IX, S. 238 und 252, 15-18. Zur Neuausgabe des "Cancell unnd Agend büchly der Kilchen Bärn" von 1541 vgl. Adolf <hi>Fluri,</hi> <persName>Mathias Apiarius</persName>, der erste Buchdrucker <placeName>Berns</placeName> (1537-1544), in: Neues <placeName>Berner</placeName> Taschenbuch auf das Jahr 1897, <placeName>Bern</placeName> 1896, S. 232f; Hans <hi>Kaufmann /</hi> Peter <hi>Nabholz,</hi> Verzeichnis schweizerischer Inkunabeln und Frühdrucke, Fasz. III, Zürich 1969, S. 13, <ref target="file11097">Nr. 1054</ref>.</note> quapropter nos una ex officina et calidum et frigidum<note xml:id="fn5" type="footnote" n="5">Vgl. Adagia, 1, 8, 30 (<bibl>LB</bibl> II 309f).</note> evulgabimus.</s>
+					<s n="5" xml:lang="la" type="auto">Sed id unice quaeso, ut possim abs te impetrare, quatinus tua scripta non differas ad eos, de quibus admonitus es,<note xml:id="fn6" type="footnote" n="6"><persName>Ritter</persName> erwartete offenbar briefliche Unterstützung in der Auseinandersetzung mit seinen theologisch mehr von <persName ref="p18198">Bucer</persName> geprägten Amtsbrüdern (besonders <persName>Sebastian Meyer</persName> und <persName>Peter Kunz</persName>); vgl. oben <ref target="file11511">Nr. 1468</ref>, 2-42.</note> quoniam tu non<note xml:id="fna" type="footnote" n="a">non <hi>über der Zeile nachgetragen.</hi></note> credis, quantum ecclesie nostre utilitatis adferre possis.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Vale<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> Valae.</note>, ex [<placeName ref="place121">Berna</placeName>]<note xml:id="fnc" type="footnote" n="c">Berna <hi>fehlt in der Vorlage.</hi></note>, 14. martii 1541.</s>
+					<s n="6" xml:lang="la" type="auto">Vale<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> Valae.</note>, ex [<placeName>Berna</placeName>]<note xml:id="fnc" type="footnote" n="c">Berna <hi>fehlt in der Vorlage.</hi></note>, 14. martii 1541.</s>
 					<s n="7" xml:lang="la" type="auto">Res se optime haberet, modo vos vestram operam adiungeretis; non dubito brevi fore, ut a novatoribus illis liberaremur etc.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><persName ref="person176">Erasmus Ritter</persName>, ex animo tuus.<pb type="edition" next="105"/></s>
+					<s n="8" xml:lang="la" type="auto"><persName ref="p2810">Erasmus Ritter</persName>, ex animo tuus.<pb type="edition" next="105"/></s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

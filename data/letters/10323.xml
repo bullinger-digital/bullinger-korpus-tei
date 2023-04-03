@@ -6,52 +6,43 @@
 				<title subtype="file">Berchtold Haller / [Bern] AN Heinrich Bullinger, 3. Dezember 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=292</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">240</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 360,37</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Bullingers tröstlichen Brief hat er erhalten. Unterdrückung und Belästigung der Reformierten in
-								<placeName ref="place83">Solothurn</placeName>. <placeName ref="place51">Die V Orte</placeName>
+								<placeName>Solothurn</placeName>. <placeName>Die V Orte</placeName>
 								wollen die reformierten Orte dazu reizen, daß sie den Krieg
 								anfangen. Der Christ, im Gegensatz zum Volk des Alten Testamentes, siegt nur, indem er auf dieser Welt
 								Unrecht erleidet und sein Kreuz trägt. Auch die Geschichte der Märtyrer lehrt uns, daß das Christentum nicht
 								mit Waffen verteidigt werden kann: über dieses Problem wünscht sich
-								<persName ref="person90">Haller</persName> dringend eine Auskunft von Bullinger. Grüße. Erkundigt sich nach
+								<persName ref="p1391">Haller</persName> dringend eine Auskunft von Bullinger. Grüße. Erkundigt sich nach
 								dem Fortgang der Arbeit an Bullingers Kommentar zum 1. Korintherbrief.
 							</p>
 						</summary>
@@ -59,13 +50,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 292, S.240</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10323">
 				<correspAction type="sent">
-					<persName ref="person1391" cert="high">
+					<persName ref="p1391" cert="high">
 						<!--
 						<surname cert="high">Haller</surname>
 						<forename cert="high">Berchtold</forename>
@@ -75,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413862"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="low"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1533-12-03" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,17 +125,17 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Literas tuas<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> consolationis plenas, charissime frater, accępi iisque didici, quid pro contione faciundum sit hisce periculosis temporibus.</s>
-					<s n="3" xml:lang="la" type="auto">Profligantur Salodori<note xml:id="fn3" type="footnote" n="3">Zur Krise der Reformation in <placeName ref="place83">Solothurn</placeName> <hi>s. Haefliger</hi> 166-199 und oben <ref target="file10314">Nr. 283</ref>. 285. 286. 288.</note> contionatores, ut audio, singuli, adigitur plebs ad suffragia urbis recipienda.</s>
+					<s n="3" xml:lang="la" type="auto">Profligantur Salodori<note xml:id="fn3" type="footnote" n="3">Zur Krise der Reformation in <placeName>Solothurn</placeName> <hi>s. Haefliger</hi> 166-199 und oben <ref target="file10314">Nr. 283</ref>. 285. 286. 288.</note> contionatores, ut audio, singuli, adigitur plebs ad suffragia urbis recipienda.</s>
 					<s n="4" xml:lang="la" type="auto">Interea multi sua sponte ex oppido aliorsum migrant.</s>
 					<s n="5" xml:lang="la" type="auto">Qui vero in urbe sunt, ita convitiis proscinduntur, ut vix tuto in angulis suis delitescant.</s>
 					<s n="6" xml:lang="de" type="auto">Klopfend und schryend inen vor den hüsern: «Verräter, kätzer.»</s>
-					<s n="7" xml:lang="de" type="manual">Statt in der massen so übel, daß sy selbs, <foreign xml:lang="la">utcunque furiant et insaniant,</foreign> redend, es werde nitt mögen bston<note xml:id="fn4" type="footnote" n="4">Bestand haben, dauern (SI XI 707f).</note>.</s>
-					<s n="8" xml:lang="la" type="auto">Obtruditur nunc <placeName ref="place121">Bernatibus</placeName> tota tragędia, tum quod ab ipsis animati hanc seditionem ceperint, id quod papistae nimirum ogganniunt, tum a nostris, quod non solum eos deseruerimus, sed desertione fidem et verbum prodiderimus.</s>
+					<s n="7" xml:lang="de" type="manual">Statt in der massen so übel, daß sy selbs, <foreign xml:lang="la">utcunque furiant et insaniant,</foreign> redend, es werde nitt mögen bston<note xml:id="fn4" type="footnote" n="4">Bestand haben, dauern (<bibl>SI</bibl> XI 707f).</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Obtruditur nunc <placeName>Bernatibus</placeName> tota tragędia, tum quod ab ipsis animati hanc seditionem ceperint, id quod papistae nimirum ogganniunt, tum a nostris, quod non solum eos deseruerimus, sed desertione fidem et verbum prodiderimus.</s>
 					<s n="9" xml:lang="la" type="auto">Ecce hęc est merces nostra: Quod omni cavere voluimus studio, id nobis impingitur.</s>
-					<s n="10" xml:lang="la" type="auto">In seditione ipsa rumor ille per magnam agri <placeName ref="place121">Bernensis</placeName> partem spargebatur, nos omnem movere lapidem<note xml:id="fn5" type="footnote" n="5">Adagia, 1, 4, 30 (LB II 161f).</note>, ut bellum novum excitaremus.</s>
+					<s n="10" xml:lang="la" type="auto">In seditione ipsa rumor ille per magnam agri <placeName>Bernensis</placeName> partem spargebatur, nos omnem movere lapidem<note xml:id="fn5" type="footnote" n="5">Adagia, 1, 4, 30 (<bibl>LB</bibl> II 161f).</note>, ut bellum novum excitaremus.</s>
 					<s n="11" xml:lang="la" type="auto">Id cum nemo vere de nobis dicere possit, non minus malum nostri nobis impingunt.</s>
-					<s n="12" xml:lang="la" type="auto">Adde, quod et pontificem et Gallum, <placeName ref="place667">Mediolanenses</placeName>, <placeName ref="place332">Eschentalios</placeName><note xml:id="fn6" type="footnote" n="6">Bewohner des <placeName ref="place332">Eschentals</placeName> (Val d'Ossola/Italien).</note>, <placeName ref="place75">Sabaudos</placeName>,<pb type="edition" next="241"/> Valesianos ad arma paratos esse adversum nos omnes<note xml:id="fna" type="footnote" n="a"><hi>von</hi> omnes <hi>bis</hi> pollicentur <hi>am Rande nachgetragen.</hi></note> palam minantur et pollicentur<note xml:id="fnb" type="footnote" n="b"><hi>von</hi> omnes <hi>bis</hi> pollicentur <hi>am Rande nachgetragen.</hi></note>, sic tamen, ut Antronii<note xml:id="fn7" type="footnote" n="7">Ein von <persName ref="person90">Haller</persName> oft gebrauchter Spottname für <placeName ref="place51">die V Orte</placeName>, s. HBBW II <ref target="file10110">[Nr. 81]</ref> 88, Anm. 3.</note> bellum non incipiant.</s>
-					<s n="13" xml:lang="la" type="auto">Sed nos sic lacessunt, ut vel ipsi cogamur pro voto illorum omnia facere et pati aut primi bello nos tueri, id quod postea in aures agri<note xml:id="fn8" type="footnote" n="8">Gemeint ist die Landschaft <placeName ref="place121">Bern</placeName>.</note> susurrabunt, quo eos invitos magis reddant, qui alioqui ad bella hęc inviti sunt.</s>
+					<s n="12" xml:lang="la" type="auto">Adde, quod et pontificem et Gallum, <placeName>Mediolanenses</placeName>, <placeName>Eschentalios</placeName><note xml:id="fn6" type="footnote" n="6">Bewohner des <placeName>Eschentals</placeName> (Val d'Ossola/Italien).</note>, <placeName>Sabaudos</placeName>,<pb type="edition" next="241"/> Valesianos ad arma paratos esse adversum nos omnes<note xml:id="fna" type="footnote" n="a"><hi>von</hi> omnes <hi>bis</hi> pollicentur <hi>am Rande nachgetragen.</hi></note> palam minantur et pollicentur<note xml:id="fnb" type="footnote" n="b"><hi>von</hi> omnes <hi>bis</hi> pollicentur <hi>am Rande nachgetragen.</hi></note>, sic tamen, ut Antronii<note xml:id="fn7" type="footnote" n="7">Ein von <persName>Haller</persName> oft gebrauchter Spottname für <placeName>die V Orte</placeName>, s. <bibl>HBBW</bibl> II <ref target="file10110">[Nr. 81]</ref> 88, Anm. 3.</note> bellum non incipiant.</s>
+					<s n="13" xml:lang="la" type="auto">Sed nos sic lacessunt, ut vel ipsi cogamur pro voto illorum omnia facere et pati aut primi bello nos tueri, id quod postea in aures agri<note xml:id="fn8" type="footnote" n="8">Gemeint ist die Landschaft <placeName>Bern</placeName>.</note> susurrabunt, quo eos invitos magis reddant, qui alioqui ad bella hęc inviti sunt.</s>
 					<s n="14" xml:lang="la" type="auto">Vicini nostri Frib[urgenses] - mirum quam illi sitiant sanguinem nostrum.</s>
 					<s n="15" xml:lang="la" type="auto">Interim senatus noster vigilat et omnia agit, ut pacis cupidissimus eam nolentibus resistat.</s>
 					<s n="16" xml:lang="la" type="auto">Quodsi apud vos essent dictatores<note xml:id="fn9" type="footnote" n="9">Gemeint ist offenbar die nach dem Zweiten Kappelerkrieg aufgehobene Einrichtung der Geheimen Räte in Zürich.</note> quemadmodum olim, iam dudum omnia resciretis.</s>
@@ -160,21 +158,21 @@
 					<s n="31" xml:lang="la" type="auto">Confirmabantur Israelitę adversus hostes suos delectu militum, pręsenti et admiranda dei victoria, tametsi fiducię in deum interim admoniti sint.</s>
 					<s n="32" xml:lang="la" type="auto">Nobis vinci ab universo mundo summa promittitur esse victoria.</s>
 					<s n="33" xml:lang="la" type="auto">Nec ullo exemplo probatur, quod ego legerim, christianismum unquam feliciter armis et bello defensum.</s>
-					<s n="34" xml:lang="la" type="auto">Si vera est legenda 10 millium martirum<note xml:id="fn15" type="footnote" n="15">Zur Legende der 10000 Märtyrer oder Ritter, die auf dem Berg Ararat gekreuzigt wurden, s. Bernhard <hi>Kötting,</hi> in: LThK X 1321.</note>, si vera sunt, quae <persName ref="person801">Eusebius</persName> in ecclesiastica recenset hystoria<note xml:id="fn16" type="footnote" n="16"><persName ref="person90">Haller</persName> meint die in der Kirchengeschichte des <persName ref="person801">Eusebius</persName> vorkommenden Berichte über Märtyrer und Christenverfolgungen.</note> certe nos nulla, quam similis manet victoria, crucis scilicet.</s>
-					<s n="35" xml:lang="la" type="auto">Decem legimus primitiva ecclesię persecutiones<note xml:id="fn17" type="footnote" n="17">In der Kirchengeschichte und der Chronik des <persName ref="person801">Eusebius</persName> werden zehn Verfolgungen genannt, die <persName ref="person1173">Hieronymus</persName> in seiner Übersetzung der Chronik erstmals durchgehend zählt. Diese Zählung wurde von späteren Autoren immer wieder übernommen, s. Karl <hi>Groß,</hi> in: LThK II 1117f.</note>.</s>
+					<s n="34" xml:lang="la" type="auto">Si vera est legenda 10 millium martirum<note xml:id="fn15" type="footnote" n="15">Zur Legende der 10000 Märtyrer oder Ritter, die auf dem Berg Ararat gekreuzigt wurden, s. Bernhard <hi>Kötting,</hi> in: LThK X 1321.</note>, si vera sunt, quae <persName>Eusebius</persName> in ecclesiastica recenset hystoria<note xml:id="fn16" type="footnote" n="16"><persName>Haller</persName> meint die in der Kirchengeschichte des <persName>Eusebius</persName> vorkommenden Berichte über Märtyrer und Christenverfolgungen.</note> certe nos nulla, quam similis manet victoria, crucis scilicet.</s>
+					<s n="35" xml:lang="la" type="auto">Decem legimus primitiva ecclesię persecutiones<note xml:id="fn17" type="footnote" n="17">In der Kirchengeschichte und der Chronik des <persName>Eusebius</persName> werden zehn Verfolgungen genannt, die <persName>Hieronymus</persName> in seiner Übersetzung der Chronik erstmals durchgehend zählt. Diese Zählung wurde von späteren Autoren immer wieder übernommen, s. Karl <hi>Groß,</hi> in: LThK II 1117f.</note>.</s>
 					<s n="36" xml:lang="la" type="auto">Quid, si has nobis praesagirem, qui, quod ad doctrinam et externam religionem attinet, primitivę accedimus, quo et fides nostra probetur et multorum cordium cogitationes revelentur?</s>
 					<s n="37" xml:lang="la" type="auto">Tu nunc, charissime frater, videris, quid in hac parte docendum sit, dum scilicet ob nullam aliam causam quam religionem sic lacessimur, ut aut a fide deficere cogamur aut bellico tumultu nos defendere,<pb type="edition" next="242"/> num liceat armis uti aut hosti nos dedere, quandoquidem non omnibus datum est relinquere uxorem, patrem, matrem, liberos, agros et vitam ipsam.</s>
 					<s n="38" xml:lang="la" type="auto">Ab utraque parte pro sua simplicitate urgentur multi ex fratribus et plebe, quibus difficillimum est vel ad arma ob religionem hortari vel dehortari.</s>
 					<s n="39" xml:lang="la" type="auto">Contulimus hęc aliquando pro colloquiis nostris, sed mihi et multis satisfactum nondum est.</s>
 					<s n="40" xml:lang="la" type="auto">Audiam ergo ea in re dominum mihi per Bullingerum loquentem, ut instructior aliquando sim in functione mea exequenda nec plebem doceam, cui ipse minus fidem adhibeam vel quod ipse nondum didicerim.</s>
-					<s n="41" xml:lang="la" type="auto">Obsecro igitur te per miserationem dei, quam primum liceat, me huius instituas<note xml:id="fn18" type="footnote" n="18">Schon am 17. März 1533 hatte <persName ref="person90">Haller</persName> die Meinung Bullingers zu dieser Problematik erbeten <hi>(s.</hi> oben S. 86, 85-87), und am 30. Dezember 1533 kommt er nochmals darauf zurück (s. unten S. 274, 4-275, 18).</note>.</s>
+					<s n="41" xml:lang="la" type="auto">Obsecro igitur te per miserationem dei, quam primum liceat, me huius instituas<note xml:id="fn18" type="footnote" n="18">Schon am 17. März 1533 hatte <persName>Haller</persName> die Meinung Bullingers zu dieser Problematik erbeten <hi>(s.</hi> oben S. 86, 85-87), und am 30. Dezember 1533 kommt er nochmals darauf zurück (s. unten S. 274, 4-275, 18).</note>.</s>
 					<s n="42" xml:lang="la" type="manual">Ante mensem alterum atque alterum effuderam in sinum tuum affectus meos, quibus cum nihildum responderis, silentio tuo video eos non esse dignos, ut ad respondendum illis occuperis.</s>
 					<s n="43" xml:lang="la" type="auto">Essent adhuc alia, quae te scire vellem, sed satius est obticuisse quam quibusvis cartis committere.</s>
 				</p>
 				<p>
 					<s n="44" xml:lang="la" type="auto">Vale et me tibi commendatum amare non desinas.</s>
-					<s n="45" xml:lang="la" type="auto">Valeant <persName ref="person165">Pellicanus</persName>, <persName ref="person114">Leo</persName><note xml:id="fn19" type="footnote" n="19"><persName ref="person114">Leo Jud</persName>.</note> et cęteri fratres.</s>
-					<s n="46" xml:lang="la" type="auto">Sed num tu in Chorintiis [!] illustrandis progrederis<note xml:id="fn20" type="footnote" n="20">Bullingers Kommentar zum 1. Korintherbrief erschien im Juni 1534 (HBBibl I 53).</note>?</s>
+					<s n="45" xml:lang="la" type="auto">Valeant <persName ref="p8127">Pellicanus</persName>, <persName ref="p1753">Leo</persName><note xml:id="fn19" type="footnote" n="19"><persName ref="p2305">Leo Jud</persName>.</note> et cęteri fratres.</s>
+					<s n="46" xml:lang="la" type="auto">Sed num tu in Chorintiis [!] illustrandis progrederis<note xml:id="fn20" type="footnote" n="20">Bullingers Kommentar zum 1. Korintherbrief erschien im Juni 1534 (<bibl>HBBibl</bibl> I 53).</note>?</s>
 					<s n="47" xml:lang="la" type="auto">Rursum vale.</s>
 				</p>
 				<p>

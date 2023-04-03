@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 31. Oktober 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1193</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">257</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,198</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,180</idno>
@@ -48,10 +39,10 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat <persName ref="person84">Rudolf Gwalther</persName> an <persName ref="person40">Capito</persName>
+								Hat <persName ref="p8011">Rudolf Gwalther</persName> an <persName ref="p5565">Capito</persName>
 								empfohlen; dieser will sich seiner annehmen. Die Briefüberbringer sind Fürsprecher der Waldenser; er hält
 								deren Lehre für unbedenklich und bittet, das Anliegen zu unterstützen.
-								<placeName ref="place710">Minden</placeName> wurde in die Acht getan; dies könnte Krieg bedeuten. Sein
+								<placeName>Minden</placeName> wurde in die Acht getan; dies könnte Krieg bedeuten. Sein
 								Haus ist von der Pest betroffen.
 							</p>
 						</summary>
@@ -59,13 +50,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1193, S.257</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11236">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -76,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1538-10-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,15 +124,15 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person84">Rodulfum</persName><note xml:id="fnb" type="footnote" n="b"><hi>über der Zeile von späterer Hand:</hi> Gvalterum.</note><note xml:id="fn1" type="footnote" n="1"><persName ref="person84">Rudolf Gwalther</persName>.</note> dimisi Argentinam; commendavi <persName ref="person40">Capitoni</persName>, qui rescripsit<note xml:id="fn2" type="footnote" n="2">Weder das Empfehlungsschreiben noch <persName ref="person40">Capitos</persName> Antwort ist erhalten.</note> se iuveni liberali amoenoque ingenio exhibiturum studiosissime, quicquid possit officii et humanitatis.</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p8011">Rodulfum</persName><note xml:id="fnb" type="footnote" n="b"><hi>über der Zeile von späterer Hand:</hi> Gvalterum.</note><note xml:id="fn1" type="footnote" n="1"><persName>Rudolf Gwalther</persName>.</note> dimisi Argentinam; commendavi <persName ref="p5565">Capitoni</persName>, qui rescripsit<note xml:id="fn2" type="footnote" n="2">Weder das Empfehlungsschreiben noch <persName>Capitos</persName> Antwort ist erhalten.</note> se iuveni liberali amoenoque ingenio exhibiturum studiosissime, quicquid possit officii et humanitatis.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Adsunt vero iterum, quos coram adspicis, Waldensium nomine<note xml:id="fn3" type="footnote" n="3"><persName ref="person2035">Antoine Saunier</persName> hatte zuvor bereits <placeName ref="place1049">Straßburg</placeName> aufgesucht, um Unterstützung für die verfolgten Waldenser im <placeName ref="place66">Piemont</placeName> zu mobilisieren, wobei ihn mindestens ein weiterer <placeName ref="place398">Genfer</placeName> begleitete; s. Corr. des réformateurs V 170f und unten <ref target="file11238">Nr. 1195</ref>, 10-21.</note>; qui ut tyrannide premantur, ex ipsis audies.</s>
-					<s n="3" xml:lang="la" type="auto">Vidimus hic dogmata eorum<note xml:id="fn4" type="footnote" n="4"><persName ref="person39">Calvin</persName> scheint auf Wunsch der <placeName ref="place1049">Straßburger</placeName> eine Darlegung der waldensischen Lehre verfaßt zu haben (s. Corr. des réformateurs V 170f mit Anm. 17-19). Möglicherweise handelt es sich um das Dokument mit dem Titel "Quam doctrinam teneant homines falso Valdensium nomine infamati" in Zürich StA, E II 337a, 321r.-322v.</note> a Christo certe non abhorrentia, quamobrem videtur propter dominum, uti iubet charitas,<pb type="edition" next="258"/> illis subveniendum.</s>
-					<s n="4" xml:lang="la" type="auto">Opera tua opus habent certe apud senatum istum<note xml:id="fn5" type="footnote" n="5">Bürgermeister und Rat von Zürich wandten sich am 4. November an <placeName ref="place121">Bern</placeName> und schlugen vor, nochmals zusammen mit <placeName ref="place97">Basel</placeName> bei König <persName ref="person859">Franz I.</persName> zugunsten der verfolgten Glaubengenossen zu intervenieren; s. Zürich StA, E I 25. 1, Nr. 9 (Regest: EA IV/1c 1035).</note>; hic, quęso, te fratrem ostendas fidelem.</s>
+					<s n="2" xml:lang="la" type="auto">Adsunt vero iterum, quos coram adspicis, Waldensium nomine<note xml:id="fn3" type="footnote" n="3"><persName>Antoine Saunier</persName> hatte zuvor bereits <placeName>Straßburg</placeName> aufgesucht, um Unterstützung für die verfolgten Waldenser im <placeName>Piemont</placeName> zu mobilisieren, wobei ihn mindestens ein weiterer <placeName>Genfer</placeName> begleitete; s. Corr. des réformateurs V 170f und unten <ref target="file11238">Nr. 1195</ref>, 10-21.</note>; qui ut tyrannide premantur, ex ipsis audies.</s>
+					<s n="3" xml:lang="la" type="auto">Vidimus hic dogmata eorum<note xml:id="fn4" type="footnote" n="4"><persName>Calvin</persName> scheint auf Wunsch der <placeName>Straßburger</placeName> eine Darlegung der waldensischen Lehre verfaßt zu haben (s. Corr. des réformateurs V 170f mit Anm. 17-19). Möglicherweise handelt es sich um das Dokument mit dem Titel "Quam doctrinam teneant homines falso Valdensium nomine infamati" in Zürich StA, E II 337a, 321r.-322v.</note> a Christo certe non abhorrentia, quamobrem videtur propter dominum, uti iubet charitas,<pb type="edition" next="258"/> illis subveniendum.</s>
+					<s n="4" xml:lang="la" type="auto">Opera tua opus habent certe apud senatum istum<note xml:id="fn5" type="footnote" n="5">Bürgermeister und Rat von Zürich wandten sich am 4. November an <placeName>Bern</placeName> und schlugen vor, nochmals zusammen mit <placeName>Basel</placeName> bei <persName>König Franz I.</persName> zugunsten der verfolgten Glaubengenossen zu intervenieren; s. Zürich StA, E I 25. 1, Nr. 9 (Regest: <bibl>EA</bibl> IV/1c 1035).</note>; hic, quęso, te fratrem ostendas fidelem.</s>
 					<s n="5" xml:lang="la" type="auto">Brevior sum, quod ex tabellionibus his omnia fusissime sis percepturus.</s>
 					<s n="6" xml:lang="la" type="auto">Causam eorum habebis igitur commendatissimam.</s>
-					<s n="7" xml:lang="la" type="auto">Scis forsitan, ut iudicium camerę Mindam, urbem foederis evangelici, privarit pace publica; si hands ind acht gthon<note xml:id="fn6" type="footnote" n="6">Am 9. Oktober hatte das Kammergericht über <placeName ref="place710">Minden</placeName> die Acht verhängt, da die Stadt die Restitution der Kirchengüter und die Wiederzulassung des früheren Kultus verweigerte; s. <hi>Schlütter-Schindler</hi> 155-163.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Scis forsitan, ut iudicium camerę Mindam, urbem foederis evangelici, privarit pace publica; si hands ind acht gthon<note xml:id="fn6" type="footnote" n="6">Am 9. Oktober hatte das Kammergericht über <placeName>Minden</placeName> die Acht verhängt, da die Stadt die Restitution der Kirchengüter und die Wiederzulassung des früheren Kultus verweigerte; s. <bibl>Schlütter-Schindler</bibl> 155-163.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Bellum timetur.</s>
 					<s n="9" xml:lang="la" type="auto">Consultant principes, quid opus sit facto; post hanc consultationem fiet aliquid<note xml:id="fn7" type="footnote" n="7">Da es sich um eine Religionssache handelte, waren die Mitglieder des Schmalkaldischen Bundes zum Beistand verpflichtet.</note>.</s>
 					<s n="10" xml:lang="la" type="auto">Domum ego habeo peste adfectam<note xml:id="fn8" type="footnote" n="8">Vgl. oben <ref target="file11232">Nr. 1189</ref>, 11f.</note>.</s>
@@ -144,10 +142,10 @@
 					<s n="12" xml:lang="la" type="auto">Vale cum tuis et fratribus omnibus.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, ultima octobris anno 38.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName>Basileę</placeName>, ultima octobris anno 38.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="person154">Os. Myconius</persName>.</s>
+					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="p8418">Os. Myconius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

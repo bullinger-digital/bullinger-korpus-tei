@@ -6,50 +6,41 @@
 				<title subtype="file">Ambrosius Blarer / [Konstanz] AN Heinrich Bullinger, 12. März [1547]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2019</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18186-4</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2843</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIX</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">19</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Januar bis März 1547</biblScope>
-				<biblScope unit="page">411</biblScope>
-				<biblScope unit="pages">496</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 19 (Briefe von Januar bis März 1547), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2019, 496 S., ISBN 978-3-290-18186-4.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357a,588</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								[1] Nachdem <persName ref="person19">Blarer</persName> bereits am Vortag [ausführlich mit
+								[1] Nachdem <persName ref="p8055">Blarer</persName> bereits am Vortag [ausführlich mit
 								<ref target="file12890">Nr. 2841</ref>] geschrieben hat, möchte er nur kurz etwas in Bezug auf
-								<persName ref="person264">Konrad Zwick</persName> anbringen. Dieser ist nämlich aus den Gründen, die er in
-								seinem gestrigen Brief [an <persName ref="person20131">Johannes Haab</persName>] erörtert hat, sehr betrübt. Die Zürcher mögen doch umsichtiger
-								handeln, damit <persName ref="person264">Zwick</persName> nicht verzagt und seine Bemühungen umsonst sind.
+								<persName ref="p4082">Konrad Zwick</persName> anbringen. Dieser ist nämlich aus den Gründen, die er in
+								seinem gestrigen Brief [an <persName ref="p1419">Johannes Haab</persName>] erörtert hat, sehr betrübt. Die Zürcher mögen doch umsichtiger
+								handeln, damit <persName ref="p4082">Zwick</persName> nicht verzagt und seine Bemühungen umsonst sind.
 								Die Angelegenheit ist wichtig.
 							</p>
 						</summary>
@@ -60,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 605, Nr. 1420</title>
+								<title>Blarer BW II, S.605, Nr. 1420</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 19, Nr. 2843, S.411</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12892">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1547-03-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,8 +126,8 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="de" type="auto">Furgeliepter herr und bruͦder, ich hab euch uff gestert geschriben.<note xml:id="fn2" type="footnote" n="2">Mit <ref target="file12890">Nr. 2841</ref> vom 11. März.</note></s>
-					<s n="2" xml:lang="de" type="auto">Diß allain von meines vetters<note xml:id="fn3" type="footnote" n="3"><persName ref="person264">Konrad Zwick</persName>.</note> wegen: Der ist doch gar betrupt usß ursachen, wie ir auss sinem schriben<note xml:id="fn4" type="footnote" n="4">Gemeint ist <persName ref="person264">Zwicks</persName> Brief mit zwei Anhängen an <persName ref="person20131">Johannes Haab</persName> vom 11. März (Zürich StA, A 205.2, Nr. 10 mit 10 a und lob).</note> vernemmen.</s>
-					<s n="3" xml:lang="de" type="auto">Bitt euch um gottes willen, darob und daran<note xml:id="fn5" type="footnote" n="5">darob und daran: darauf bedacht; s. <hi>SI</hi> VII 1041.</note> ze sein, damitt gwarsamlicher<note xml:id="fn6" type="footnote" n="6">umsichtiger. -Die <placeName ref="place565">Konstanzer</placeName> waren unzufrieden, dass die Zürcher auf der Tagsatzung zu <placeName ref="place85">Baden</placeName> vom 28. Februar bei ihrem Versuch, die Eidgenossen zu einer Hilfe für <placeName ref="place565">Konstanz</placeName> zu verpflichten, sich darauf beschränkten, nur eine Belagerung oder einen Angriff der Stadt von eidgenössischem Gebiet aus (also nicht auch von deutscher Seite aus) nicht zuzulassen.</note> gehandelt und der guͦt fromm mann nitt unlustig<note xml:id="fn7" type="footnote" n="7">unlustig werde: verzagt (angesichts eines ungenügenden Einsatzes der Zürcher für <placeName ref="place565">Konstanz</placeName>). - Im Entwurf Nr. 10b seines oben in Anm. 4 erwähnten Briefs schlug <persName ref="person264">Zwick</persName> den Zürchern vor, einen von den vier protestantischen Städte unterschriebenen Brief zu bewirken, in dem <placeName ref="place565">Konstanz</placeName> finanzielle Hilfe angeboten würde, damit die Stadt Truppen annehmen könne.</note> und allso alle sach verderbt werde.</s>
+					<s n="2" xml:lang="de" type="auto">Diß allain von meines vetters<note xml:id="fn3" type="footnote" n="3"><persName>Konrad Zwick</persName>.</note> wegen: Der ist doch gar betrupt usß ursachen, wie ir auss sinem schriben<note xml:id="fn4" type="footnote" n="4">Gemeint ist <persName>Zwicks</persName> Brief mit zwei Anhängen an <persName ref="p5543">Johannes Haab</persName> vom 11. März (Zürich StA, A 205.2, Nr. 10 mit 10 a und lob).</note> vernemmen.</s>
+					<s n="3" xml:lang="de" type="auto">Bitt euch um gottes willen, darob und daran<note xml:id="fn5" type="footnote" n="5">darob und daran: darauf bedacht; s. <bibl>SI</bibl> VII 1041.</note> ze sein, damitt gwarsamlicher<note xml:id="fn6" type="footnote" n="6">umsichtiger. -Die <placeName>Konstanzer</placeName> waren unzufrieden, dass die Zürcher auf der Tagsatzung zu <placeName>Baden</placeName> vom 28. Februar bei ihrem Versuch, die Eidgenossen zu einer Hilfe für <placeName>Konstanz</placeName> zu verpflichten, sich darauf beschränkten, nur eine Belagerung oder einen Angriff der Stadt von eidgenössischem Gebiet aus (also nicht auch von deutscher Seite aus) nicht zuzulassen.</note> gehandelt und der guͦt fromm mann nitt unlustig<note xml:id="fn7" type="footnote" n="7">unlustig werde: verzagt (angesichts eines ungenügenden Einsatzes der Zürcher für <placeName>Konstanz</placeName>). - Im Entwurf Nr. 10b seines oben in Anm. 4 erwähnten Briefs schlug <persName>Zwick</persName> den Zürchern vor, einen von den vier protestantischen Städte unterschriebenen Brief zu bewirken, in dem <placeName>Konstanz</placeName> finanzielle Hilfe angeboten würde, damit die Stadt Truppen annehmen könne.</note> und allso alle sach verderbt werde.</s>
 					<s n="4" xml:lang="de" type="auto">Ir köndt bessers nitt thain<note xml:id="fn8" type="footnote" n="8">tun.</note>, dann<note xml:id="fn9" type="footnote" n="9">denn.</note> vyl an der sach gelegen.</s>
 					<s n="5" xml:lang="de" type="auto">Thaind meinem hertzlichen vertrauwen<note xml:id="fn10" type="footnote" n="10">Erwartung.</note> nach.</s>
 					<s n="6" xml:lang="de" type="auto">Datum 12. martii.</s>

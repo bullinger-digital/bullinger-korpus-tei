@@ -6,47 +6,38 @@
 				<title subtype="file">Ambrosius Blarer / Tübingen AN Heinrich Bullinger, 7. Juli 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=859</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">356</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,12</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet Bullinger, <persName ref="person379">Michael Back</persName>, den Überbringer des Briefes, gut
-								aufzunehmen; denn dieser ist in <placeName ref="place1107">Tübingen</placeName> durch ein fragwürdiges
+								Bittet Bullinger, <persName ref="p4225">Michael Back</persName>, den Überbringer des Briefes, gut
+								aufzunehmen; denn dieser ist in <placeName>Tübingen</placeName> durch ein fragwürdiges
 								Urteil mit Haft, Auspeitschung und Landesverweis bestraft worden, während seine Frau
 								Margareta wegen Bigamie ertränkt wurde.
 							</p>
@@ -58,7 +49,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW I, S. 807f</title>
+								<title>Blarer BW I, S.807f</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 859, S.356</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -68,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10899">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -79,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place512" cert="high"><orig>Tübingen</orig></placeName>
+					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1536-07-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,8 +126,8 @@
 					<s n="1" xml:lang="la" type="auto">Gratia Christi tecum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Habes hic, Bullingere frater, <persName ref="person379">Michaelem Back</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="person379">Michael Back</persName>, aus Cannstatt (Stuttgart), gest. nach 1548, 1509-1511 auf der Universität <placeName ref="place1107">Tübingen</placeName>, war vorerst Helfer in Cannstatt, ab 1519 an verschiedenen anderen Orten. In der Eidgenossenschaft tätig, nahm er um 1525 die vor ihrem Ehemann geflüchtete Margareta Trinkler bei sich auf; er heiratete sie in <placeName ref="place508">Hüttwilen</placeName> (Kt. Thurgau), nachdem ihre Ehe in Zürich geschieden worden war. 1530 tat er für einige Wochen Dienst in der Pfarrei Elgg (Kt. Zürich). Bald darauf muss <persName ref="person378">Back</persName> das Pfarramt in Veltheim (Winterthur) übernommen haben, denn diese Gemeinde verließ er 1535, von <persName ref="person19">Ambrosius Blarer</persName> nach Dußlingen (Kr. <placeName ref="place1107">Tübingen</placeName>, Baden-Württemberg) berufen (vgl. Zürich StA, B IV 6, 51. 56). Kurz danach kam gegen die Eheleute ein Gerichtsverfahren wegen Entführung bzw. Doppelehe in Gang, das im Sommer 1536 mit den im vorliegenden Brief beschriebenen Strafen endete. <persName ref="person378">Back</persName> scheint in der Zürcher Kirche keine Anstellung erhalten zu haben; möglicherweise ist er mit jenem von Johannes Zwick erwähnten Michael identisch, der in Österreich tätig war (vgl. Zwicks Brief an Bullinger, 27. Jan. 1539, Zürich StA, E II 364, 55). Von 1540 bis 1548 war <persName ref="person378">Back</persName> Pfarrer in Konstanz. Aus Konstanz vertrieben, starb er in Trogen (Kt. Appenzell-Außerrhoden). - Lit.: Gustav <hi>Bossert,</hi> D. Johann Mantels Lebensende und der Eheprozeß des <persName ref="person379">Michael Back</persName> und seiner Gattin, in: ARG XII, 1915, 161-204; <hi>Rublack,</hi> Konstanz 148; Werner <hi>Kuhn,</hi> Die Studenten der Universität <placeName ref="place1107">Tübingen</placeName> zwischen 1477 und 1534. Ihr Studium und ihre spätere Lebensstellung (Teil I), Göppingen 1971. - Göppinger akademische Beitrage 37/38, S. 101, Nr. 92; Anna <hi>Feyler,</hi> Die Beziehungen des Hauses Württemberg zur schweizerischen Eidgenossenschaft in der ersten Hälfte des XVI. Jahrhunderts, Diss. Zürich 1905, S. 369f.</note>, hic in carcerem ac vincula coniectum, iam virgis cesum et proscriptum ob caussam, quę apud bonos ac evangelii Christi intelligentes nunquam possit tam mala videri.</s>
-					<s n="3" xml:lang="la" type="auto">Uxor huius,<pb type="edition" next="357"/> <persName ref="person378">Margareta</persName><note xml:id="fn2" type="footnote" n="2">Margareta Trinkler, aus Urach, gest. 1536, war seit der Jahrhundertwende mit dem Stadtschreiber Cannstatts, <persName ref="person764">Matthäus Encker</persName>, verheiratet. Untreue und Grobianismus des Ehemannes führten zu Streitereien und schließlich, 1516, zu Margareta Trinklers Flucht. Nach neun Jahren im Dienste adliger und bürgerlicher Familien wurde sie auf eidgenössischem Gebiet von <persName ref="person379">Michael Back</persName>, den sie von Cannstatt her kannte, aufgenommen und - nachdem sie 1530 durch das Zürcher Ehegericht von Encker geschieden worden war - geheiratet. Als die beiden 1535 ins Herzogtum <placeName ref="place100">Württemberg</placeName> zurückkehrten, wurde ihnen in <placeName ref="place1107">Tübingen</placeName> der Prozess gemacht, der mit einer Körperstrafe und mit Landesverweis gegen <persName ref="person378">Back</persName> wegen Entführung, gegen dessen Frau aber, da das Zürcher Scheidungsurteil nicht anerkannt wurde, wegen Bigamie mit der Todesstrafe endete. - Lit.: <hi>Bossert,</hi> aaO, S. 161-204.</note>, aquis praefocata, quod duobus nupserit maritis, sic suum illum diem obiit, ut ad Christum migrasse nemo dubitet.</s>
+					<s n="2" xml:lang="la" type="auto">Habes hic, Bullingere frater, <persName ref="p4225">Michaelem Back</persName><note xml:id="fn1" type="footnote" n="1"><persName>Michael Back</persName>, aus Cannstatt (Stuttgart), gest. nach 1548, 1509-1511 auf der Universität <placeName>Tübingen</placeName>, war vorerst Helfer in Cannstatt, ab 1519 an verschiedenen anderen Orten. In der Eidgenossenschaft tätig, nahm er um 1525 die vor ihrem Ehemann geflüchtete Margareta Trinkler bei sich auf; er heiratete sie in <placeName>Hüttwilen</placeName> (Kt. Thurgau), nachdem ihre Ehe in Zürich geschieden worden war. 1530 tat er für einige Wochen Dienst in der Pfarrei Elgg (Kt. Zürich). Bald darauf muss <persName>Back</persName> das Pfarramt in Veltheim (Winterthur) übernommen haben, denn diese Gemeinde verließ er 1535, von <persName>Ambrosius Blarer</persName> nach Dußlingen (Kr. <placeName>Tübingen</placeName>, Baden-Württemberg) berufen (vgl. Zürich StA, B IV 6, 51. 56). Kurz danach kam gegen die Eheleute ein Gerichtsverfahren wegen Entführung bzw. Doppelehe in Gang, das im Sommer 1536 mit den im vorliegenden Brief beschriebenen Strafen endete. <persName>Back</persName> scheint in der Zürcher Kirche keine Anstellung erhalten zu haben; möglicherweise ist er mit jenem von Johannes Zwick erwähnten Michael identisch, der in Österreich tätig war (vgl. Zwicks Brief an Bullinger, 27. Jan. 1539, Zürich StA, E II 364, 55). Von 1540 bis 1548 war <persName>Back</persName> Pfarrer in Konstanz. Aus Konstanz vertrieben, starb er in Trogen (Kt. Appenzell-Außerrhoden). - Lit.: Gustav <hi>Bossert,</hi> D. Johann Mantels Lebensende und der Eheprozeß des <persName>Michael Back</persName> und seiner Gattin, in: <bibl>ARG</bibl> XII, 1915, 161-204; <hi>Rublack,</hi> Konstanz 148; Werner <hi>Kuhn,</hi> Die Studenten der Universität <placeName>Tübingen</placeName> zwischen 1477 und 1534. Ihr Studium und ihre spätere Lebensstellung (Teil I), Göppingen 1971. - Göppinger akademische Beitrage 37/38, S. 101, Nr. 92; Anna <hi>Feyler,</hi> Die Beziehungen des Hauses Württemberg zur schweizerischen Eidgenossenschaft in der ersten Hälfte des XVI. Jahrhunderts, Diss. Zürich 1905, S. 369f.</note>, hic in carcerem ac vincula coniectum, iam virgis cesum et proscriptum ob caussam, quę apud bonos ac evangelii Christi intelligentes nunquam possit tam mala videri.</s>
+					<s n="3" xml:lang="la" type="auto">Uxor huius,<pb type="edition" next="357"/> <persName>Margareta</persName><note xml:id="fn2" type="footnote" n="2">Margareta Trinkler, aus Urach, gest. 1536, war seit der Jahrhundertwende mit dem Stadtschreiber Cannstatts, <persName>Matthäus Encker</persName>, verheiratet. Untreue und Grobianismus des Ehemannes führten zu Streitereien und schließlich, 1516, zu Margareta Trinklers Flucht. Nach neun Jahren im Dienste adliger und bürgerlicher Familien wurde sie auf eidgenössischem Gebiet von <persName>Michael Back</persName>, den sie von Cannstatt her kannte, aufgenommen und - nachdem sie 1530 durch das Zürcher Ehegericht von Encker geschieden worden war - geheiratet. Als die beiden 1535 ins Herzogtum <placeName>Württemberg</placeName> zurückkehrten, wurde ihnen in <placeName>Tübingen</placeName> der Prozess gemacht, der mit einer Körperstrafe und mit Landesverweis gegen <persName>Back</persName> wegen Entführung, gegen dessen Frau aber, da das Zürcher Scheidungsurteil nicht anerkannt wurde, wegen Bigamie mit der Todesstrafe endete. - Lit.: <hi>Bossert,</hi> aaO, S. 161-204.</note>, aquis praefocata, quod duobus nupserit maritis, sic suum illum diem obiit, ut ad Christum migrasse nemo dubitet.</s>
 					<s n="4" xml:lang="la" type="auto">Superstitem maritum tibi tuisque omnibus, nam plane dignus est, quam possum officiose tibi commendo.</s>
 					<s n="5" xml:lang="la" type="auto">Sic suas oves pavit, tanta fide ac diligentia creditam sibi ecclesiam administravit, ut summo omnium dolore interdictum sibi sit hac ditione.</s>
 					<s n="6" xml:lang="la" type="auto">Nihil lubet nec tutum est scribere de ipsa caussa, qua apud plęrosque minime cecidisset.</s>
@@ -143,10 +137,10 @@
 					<s n="8" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><placeName ref="place1107">Tubinge</placeName>, 7. iulii anno 1536.</s>
+					<s n="9" xml:lang="la" type="auto"><placeName>Tubinge</placeName>, 7. iulii anno 1536.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="person19">Ambrosius Blaurerus</persName>.</s>
+					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="p8055">Ambrosius Blaurerus</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

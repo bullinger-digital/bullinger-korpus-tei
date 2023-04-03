@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file9988" type="Verweis" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file9988" type="Begleitbrief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -18,22 +18,19 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Verweis" subtype="Autograph" xml:lang="">
+				<msDesc type="Verweis" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
-						<idno subtype="Autograph">E II 358,409b</idno>
+						<repository ref="a94"/>
+						<idno subtype="Kopie">E II 358,409b</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -53,7 +50,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9988">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -63,20 +60,20 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date notBefore="1575-08-01" notAfter="1575-08-12" cert="low"><note>siehe: ID 9990 (Testament)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1764" cert="high">
+					<persName ref="p1764" cert="high">
 						<!--
 						<surname cert="high">Kambli</surname>
 						<forename cert="high">Johannes</forename>
 						<persName type="main" ref="person8392>Kambli, Johannes</persName>
 						<note type="person">Der im August 1575 amtierende Bürgermeister (des Baptistalrats) war Johannes Kambli (stillstehender, des Natalrats war Joh. Bräm) [gemäss Schnyder, Ratslisten 337].</note>
 						-->
-						<roleName ref="role14" type="sg" role="Bürgermeister" cert="high"/>
+						<roleName ref="g14" type="sg" role="Bürgermeister" cert="high"/>
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file9989"/>
@@ -90,13 +87,12 @@
 					<ref type="next_with_sender_as_addressee" target="file9990"/>
 					<ref type="prev_with_sender_as_addressee" target="file9972"/>
 					<ref type="prev_with_addressee_as_sender" target="file3037"/>
-					<ref type="child" target="file9990"/>
 					<ref type="parent" target="file9990"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

@@ -6,40 +6,31 @@
 				<title subtype="file">Ludwig Lopadius / [Konstanz] AN Heinrich Bullinger, 7. Februar 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=523</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">91</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 358,107</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,8 +38,8 @@
 							<p xml:id="regest1">
 								Hat in tage- und nächtelanger Arbeit sein Griechisch-Lehrbüchlein fertiggestellt und möchte, daß es
 								Bullinger beurteilt und in Zürich oder, falls es an [Griechisch-] Typen mangelt, in
-								<placeName ref="place97">Basel</placeName> zum Druck gibt; er rechnet damit, daß
-								<persName ref="person14">Theodor [Bibliander]</persName> die
+								<placeName>Basel</placeName> zum Druck gibt; er rechnet damit, daß
+								<persName ref="p8171">Theodor [Bibliander]</persName> die
 								Korrekturarbeit übernimmt. Wünscht der Reformation in Zürich guten Bestand und Fortgang. Grüße.
 							</p>
 						</summary>
@@ -56,24 +47,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 523, S.91</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10559">
 				<correspAction type="sent">
-					<persName ref="person1997" cert="high">
+					<persName ref="p1997" cert="high">
 						<!--
 						<surname cert="high">Lopadius</surname>
 						<forename cert="high">Ludwig</forename>
 						<persName type="main" ref="person8405>Lopadius, Ludwig</persName>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1535-02-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -106,7 +104,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -114,15 +112,15 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Factum est, Bullingere integerrime, tuis hortatibus<note xml:id="fn1" type="footnote" n="1">Ein Brief ist nicht erhalten.</note>, ut continuato diurno et nocturno labore hanc breviusculam graecae grammatices institutionem<note xml:id="fn2" type="footnote" n="2">Zur Griechisch-Grammatik des <persName ref="person137">Lopadius</persName> vgl. oben <ref target="file10552">Nr. 516</ref>, Anm. 5.</note> absolverem.</s>
+					<s n="2" xml:lang="la" type="auto">Factum est, Bullingere integerrime, tuis hortatibus<note xml:id="fn1" type="footnote" n="1">Ein Brief ist nicht erhalten.</note>, ut continuato diurno et nocturno labore hanc breviusculam graecae grammatices institutionem<note xml:id="fn2" type="footnote" n="2">Zur Griechisch-Grammatik des <persName>Lopadius</persName> vgl. oben <ref target="file10552">Nr. 516</ref>, Anm. 5.</note> absolverem.</s>
 					<s n="3" xml:lang="la" type="auto">Principio quidem cepi eo animo componere, ut iam adulta ęstate imprimeretur; sed cum in praesens poscitur, haud me quieti dare statui, quoad perficeretur.</s>
 					<s n="4" xml:lang="la" type="auto">Porro peto oroque, si quod datur mihi observiendi temporis, perspicias paululum ac ad animi revoces iudicium.</s>
 					<s n="5" xml:lang="la" type="auto">Depone interim sodes amici personam et indue judicis.</s>
 					<s n="6" xml:lang="la" type="auto">Cum placitus fuerit, libellus servetur.</s>
 					<s n="7" xml:lang="la" type="auto">Sin vero iudicium ferre nequit, abiiciatur velut impurus partus atque foetus adulterinus et suppositius [!], quemad[mod]um<note xml:id="fna" type="footnote" n="a"><hi>Beim Öffnen des Briefes beschädigt.</hi></note> de aquila fertur, cuius pullos ad solis radios admotos probari aiunt in hunc modum, ut si solem ferant adhibiti, habeat pro suis atque vera sobole.</s>
-					<s n="8" xml:lang="la" type="auto">Quodsi ad splendorem solis conniveant, abiicit ceu illegitimos filios<note xml:id="fn3" type="footnote" n="3"><persName ref="person1854">Plinius d</persName>. A. berichtet, daß der Fischadler, der auf seine scharfen Augen angewiesen sei, seine noch ungefiederten Jungen durch Stöße in die Sonne zu sehen zwinge und diejenigen, die blinzelten oder deren Augen tränten, als entartete Bastarde aus dem Nest werfe (vgl. Plinius, Naturalis historia X, 3).</note>.</s>
-					<s n="9" xml:lang="la" type="auto">Si ergo dignus prelo putabitur, detur opera, quo excudatur sive apud vos, sive, si non per typorum licebit inopiam, <placeName ref="place97">Basileae</placeName>.</s>
-					<s n="10" xml:lang="la" type="auto"><persName ref="person14">Theodorus</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person14">Theodor Bibliander</persName>.</note> non defuturus.</s>
+					<s n="8" xml:lang="la" type="auto">Quodsi ad splendorem solis conniveant, abiicit ceu illegitimos filios<note xml:id="fn3" type="footnote" n="3"><persName>Plinius d.Ä.</persName> berichtet, daß der Fischadler, der auf seine scharfen Augen angewiesen sei, seine noch ungefiederten Jungen durch Stöße in die Sonne zu sehen zwinge und diejenigen, die blinzelten oder deren Augen tränten, als entartete Bastarde aus dem Nest werfe (vgl. Plinius, Naturalis historia X, 3).</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Si ergo dignus prelo putabitur, detur opera, quo excudatur sive apud vos, sive, si non per typorum licebit inopiam, <placeName>Basileae</placeName>.</s>
+					<s n="10" xml:lang="la" type="auto"><persName ref="p8171">Theodorus</persName><note xml:id="fn4" type="footnote" n="4"><persName>Theodor Bibliander</persName>.</note> non defuturus.</s>
 					<s n="11" xml:lang="la" type="auto">Ille enim promisit<note xml:id="fn5" type="footnote" n="5">Ein Brief ist nicht erhalten.</note> se velle fungi correctoris officio.</s>
 					<s n="12" xml:lang="la" type="auto">In summa rem totam in vos reiicio.</s>
 					<s n="13" xml:lang="la" type="auto">Ut ut cecederit, boni consulam.</s>
@@ -138,7 +136,7 @@
 					<s n="17" xml:lang="la" type="auto">7. idus februarii 35.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">Tuus <persName ref="person137">Ludovicus Lopadius</persName>.</s>
+					<s n="18" xml:lang="la" type="auto">Tuus <persName ref="p8405">Ludovicus Lopadius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

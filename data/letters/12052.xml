@@ -6,46 +6,37 @@
 				<title subtype="file">Ambrosius Blarer / Konstanz AN Heinrich Bullinger, 7. Oktober 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2005</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">441</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,101</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt Michael [...], den die [<placeName ref="place565">Konstanzer</placeName>] eineinhalb Monate
+								Empfiehlt Michael [...], den die [<placeName>Konstanzer</placeName>] eineinhalb Monate
 								im Armenhaus unterhalten haben; er ist wegen seiner beschädigten Arme für Handarbeit ungeeignet; er scheint
 								abergläubisch [d.h. altgläubig] zu sein, er ist es aber nicht; ist schon von Jugend an dem Militärwesen
 								völlig ergeben und davon nicht abzubringen; doch wird wohl alles Gute, das man ihm tut, auch Christus
@@ -59,7 +50,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 304, Nr. 1130</title>
+								<title>Blarer BW II, S.304, Nr. 1130</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 2005, S.441</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -69,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12052">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -80,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1544-10-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,11 +127,11 @@
 					<s n="1" xml:lang="la" type="auto">Gratia Christi tecum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Commendamus vobis bonum hunc et, quantum iudicare potuimus, solide pium Michaelem<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note>, quem sesquimensem, ni fallor, in ptochodochio<note xml:id="fn2" type="footnote" n="2">Armenhaus (griech. <foreign xml:lang="el">πτωχοδοχεῖον</foreign> s. <persName ref="person47">Dasypodius</persName>, Dic. 192r.</note> nostro fovimus diutius etiam foturi, si diutius hęrere voluisset.</s>
+					<s n="2" xml:lang="la" type="auto">Commendamus vobis bonum hunc et, quantum iudicare potuimus, solide pium Michaelem<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note>, quem sesquimensem, ni fallor, in ptochodochio<note xml:id="fn2" type="footnote" n="2">Armenhaus (griech. <foreign xml:lang="el">πτωχοδοχεῖον</foreign> s. <persName>Dasypodius</persName>, Dic. 192r.</note> nostro fovimus diutius etiam foturi, si diutius hęrere voluisset.</s>
 					<s n="3" xml:lang="la" type="auto">Ad laborandum<pb type="edition" next="442"/> manibus ob lęsum brachium inutilis est redditus; in spetiem superstitiosus videri poterit et nobis profecto primo occursu<note xml:id="fna" type="footnote" n="a">occursu <hi>nach einem gestrichenen, unlesbar gemachten Wort.</hi></note> talis videbatur; sed pressum<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> pressus.</note> intuentes et illius animam, quatenus licuit, discutientes, longe alium invenimus.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Reiicula veste<note xml:id="fn3" type="footnote" n="3">mit einem verbrauchten (s. <persName ref="person47">Dasypodius</persName>, Dic. 96v.) Gewand.</note> et nudis pedibus ingreditur absque caligis, quod vereatur, ne, si decentiore toga et caligis utatur, impotenti [m]ilitandi<note xml:id="fnc" type="footnote" n="c">[m]ilitandi <hi>am Rand nachgetragen und im engen Einband teilweise verdeckt.</hi></note> affectu vincatur; id quod prius etiam accidisse sibi valde conquęritur.</s>
+					<s n="4" xml:lang="la" type="auto">Reiicula veste<note xml:id="fn3" type="footnote" n="3">mit einem verbrauchten (s. <persName>Dasypodius</persName>, Dic. 96v.) Gewand.</note> et nudis pedibus ingreditur absque caligis, quod vereatur, ne, si decentiore toga et caligis utatur, impotenti [m]ilitandi<note xml:id="fnc" type="footnote" n="c">[m]ilitandi <hi>am Rand nachgetragen und im engen Einband teilweise verdeckt.</hi></note> affectu vincatur; id quod prius etiam accidisse sibi valde conquęritur.</s>
 					<s n="5" xml:lang="la" type="auto">Supra modum enim militiam, cuius ab adulescentia assuetus fuit, ardet, ut consilium hoc improbare haudquaquam valeamus.</s>
 					<s n="6" xml:lang="la" type="auto">Puto vere in Christum collocatum, quicquid huic benignitatis exhibetur<note xml:id="fn4" type="footnote" n="4">Vgl. Mt 25, 40.</note>.</s>
 				</p>
@@ -145,7 +139,7 @@
 					<s n="7" xml:lang="la" type="auto">Bene vale, mi charissime frater.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><placeName ref="place565">Constantiae</placeName>, 7. octobris anno 1544.</s>
+					<s n="8" xml:lang="la" type="auto"><placeName>Constantiae</placeName>, 7. octobris anno 1544.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Tuus Ambr. Bl.</s>

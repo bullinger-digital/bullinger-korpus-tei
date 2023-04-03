@@ -6,45 +6,41 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Johannes Travers, 18. Februar 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1466</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">32</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive24">
-							<name>Chur StA</name>
+						<repository ref="a24">
+							<name>StAGR</name>
 							<ref target="https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/sag/Seiten/start.aspx"/>
 						</repository>
-						<settlement ref="place98">Chur</settlement>
+						<settlement ref="l98">Chur</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive24"/>
+						<repository ref="a24"/>
 						<idno subtype="Kopie">A Sp III/11a, VI. B. 7. 4, S. 336</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Dank für die übersandten Murmeltiere [vgl. <ref target="file11505">Nr. 1462</ref>]. Die neuesten Nachrichten
-								über das <placeName ref="place1214">Wormser</placeName> Religionsgespräch hat er an
-								<persName ref="person43">[Johannes] Comander</persName> gesandt, der
-								<persName ref="person220">Travers</persName> informieren wird [vgl. <ref target="file11508">Nr. 1465</ref>].
-								Falls <persName ref="person220">Travers</persName> das in <placeName ref="place97">Basel</placeName>
+								über das <placeName>Wormser</placeName> Religionsgespräch hat er an
+								<persName ref="p654">[Johannes] Comander</persName> gesandt, der
+								<persName ref="p6831">Travers</persName> informieren wird [vgl. <ref target="file11508">Nr. 1465</ref>].
+								Falls <persName ref="p6831">Travers</persName> das in <placeName>Basel</placeName>
 								abgefasste [Erste Helvetische] Bekenntnis und dessen Erläuterung noch nicht zu Gesicht bekommen hat, wird
 								Bullinger ihm eine Abschrift zukommen lassen. Gruß.
 							</p>
@@ -57,7 +53,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 32, Nr. 23</title>
+								<title>Graubünden BW I, S.32, Nr. 23</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -67,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11509">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -77,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1541-02-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3184" cert="high">
+					<persName ref="p3184" cert="high">
 						<!--
 						<surname cert="high">Travers</surname>
 						<forename cert="high">Johannes</forename>
@@ -116,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -128,7 +124,7 @@
 					<s n="3" xml:lang="la" type="auto">Tu quidem muneris nomine indignos putas; ego vero pro munere egregio, quod misisti, habeo.</s>
 					<s n="4" xml:lang="la" type="auto">Cuperem autem animum tibi gratum ostendere officio aliquo et praestabo, sicubi sese obtulerit occasio.</s>
 					<s n="5" xml:lang="la" type="auto">Quae a comitiis Wormatiensibus accepi a proximis litteris, scripsi D. Comandro, at ea lege, ut lectas litteras tibi protinus mittat atque communicet.</s>
-					<s n="6" xml:lang="la" type="auto">Caeterum de confessione ecclesiarum Helveticarum <placeName ref="place97">Basileae</placeName> conscripta et eius declaratione nihil respondes, an illam videris an non videris.</s>
+					<s n="6" xml:lang="la" type="auto">Caeterum de confessione ecclesiarum Helveticarum <placeName>Basileae</placeName> conscripta et eius declaratione nihil respondes, an illam videris an non videris.</s>
 					<s n="7" xml:lang="la" type="auto">Si non vidisti et Comander ipsam tibi non communicat, significa, et curabo eam tibi describi.</s>
 					<s n="8" xml:lang="la" type="auto">Vale, vir clarissime, et religionem bonaque studia tibi habeto commendatissima.</s>
 					<s n="9" xml:lang="la" type="auto">Tiguri, 18. Februarii 1541.</s>

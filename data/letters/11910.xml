@@ -6,53 +6,43 @@
 				<title subtype="file">Eberhard von Rümlang / Bern AN Heinrich Bullinger, 11. März 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1864</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">125</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 360,375</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat das von Bullinger übersandte Bündel für Celio
-								[Secondo <persName ref="person667">Curione</persName>] einem
-								Lausanner mitgegeben. Der Vicomte [Franc¸ois von Luxemburg], der im Herzogtum
-								<placeName ref="place75">Savoyen</placeName> an zweitoberster Stelle steht und mit
+								Hat das von Bullinger übersandte Bündel für <persName ref="p714">Celio [Secondo Curione]</persName> einem
+								Lausanner mitgegeben. Der Vicomte [François von Luxemburg], der im Herzogtum
+								<placeName>Savoyen</placeName> an zweitoberster Stelle steht und mit
 								Herzog [Karl
 								III.] verwandt ist, hat in
-								<placeName ref="place121">Bern</placeName> die Rückgabe von
-								<placeName ref="place1136">Vevey</placeName> und <placeName ref="place1712">Ternier</placeName>
+								<placeName>Bern</placeName> die Rückgabe von
+								<placeName>Vevey</placeName> und <placeName>Ternier</placeName>
 								unter Anerkennung der bernischen Oberhoheit gefordert; man hat ihn auf später vertröstet, da man mit dem
 								Herzog noch im Krieg stehe, ist sich aber einig, dass man so mächtige
 								Vasallen fremder Fürsten, die unserer Religion und Freiheit abgeneigt sind, ausschließen will. Grüße.
@@ -62,24 +52,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1864, S.125</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11910">
 				<correspAction type="sent">
-					<persName ref="person3700" cert="high">
+					<persName ref="p3700" cert="high">
 						<!--
 						<surname cert="high">von Rümlang</surname>
 						<forename cert="high">Eberhard</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1089804970"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1544-03-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,27 +124,27 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Fasciculum, quem funiculis convolutum misisti, commisi cuidam Lausanensi<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note> ad <persName ref="person667">Coelium</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person667">Celio Secondo Curione</persName>.</note> perferendum;<note xml:id="fn3" type="footnote" n="3">Zu Bullingers Sendung s. oben <ref target="file11887">Nr. 1841</ref>, 230f mit Anm. 69. -Die für <persName ref="person44">Béat Comte</persName> bestimmte Schrift Bullingers gegen Cochläus (s. unten <ref target="file11956">Nr. 1909</ref>), die Ende Februar erschienen war (s. oben <ref target="file11904">Nr. 1858</ref>, Anm. 1) ist offensichtlich hier nicht gemeint.</note> confido ipsum hoc satis fideliter exequuturum etc.</s>
+					<s n="2" xml:lang="la" type="auto">Fasciculum, quem funiculis convolutum misisti, commisi cuidam Lausanensi<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note> ad <persName ref="p714">Coelium</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="p7454">Celio Secondo Curione</persName>.</note> perferendum;<note xml:id="fn3" type="footnote" n="3">Zu Bullingers Sendung s. oben <ref target="file11887">Nr. 1841</ref>, 230f mit Anm. 69. -Die für <persName>Béat Comte</persName> bestimmte Schrift Bullingers gegen Cochläus (s. unten <ref target="file11956">Nr. 1909</ref>), die Ende Februar erschienen war (s. oben <ref target="file11904">Nr. 1858</ref>, Anm. 1) ist offensichtlich hier nicht gemeint.</note> confido ipsum hoc satis fideliter exequuturum etc.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Adfuit vicecomes<note xml:id="fn4" type="footnote" n="4"><persName ref="person21852">François II.</persName> von Luxemburg, Vicomte von Martigues, Sohn von <persName ref="person21851">François I.</persName> von Luxemburg-Martigues und Louise von <placeName ref="place75">Savoyen</placeName>, 1534 als Generalgouverneur von <placeName ref="place75">Savoyen</placeName> nachweisbar, hatte durch den bernischen Feldzug von 1536 seine Herrschaften und Einkünfte in der Waadt sowie im <persName ref="person21862">Genevois</persName> und im <persName ref="person617">Chablais</persName> verloren. Am 13. Februar 1544 machte er seine Forderungen persönlich vor dem <placeName ref="place121">Berner</placeName> Rat geltend. 1547 erhielt er <placeName ref="place1310">Belmont</placeName>, <placeName ref="place1712">Ternier</placeName> und <placeName ref="place1136">Vevey</placeName> unter einigen Vorbehalten zurück. Er starb 1553. - Lit.: Olivier <hi>Dessemontet,</hi> Les Luxembourg-Martigues, seigneurs au Pays de Vaud 1487-1558, in: Schweizerische Zeitschrift für Geschichte IV/1, 1954, S. 88-123.</note>, quem vulgo dicimus visconten, qui secundus est a duce <placeName ref="place75">Sabaudiensi</placeName><note xml:id="fn5" type="footnote" n="5">Herzog <persName ref="person1330">Karl III.</persName> von <placeName ref="place75">Savoyen</placeName>.</note> illique consanguinitate coniunctus, qui restitui sibi iura censusque suos in <placeName ref="place1136">Viviaco</placeName><note xml:id="fn6" type="footnote" n="6"><placeName ref="place1136">Vevey</placeName> (Kt. Waadt).</note> et Dernie<note xml:id="fn7" type="footnote" n="7"><placeName ref="place1712">Ternier</placeName> bei <placeName ref="place1005">Saint</placeName>-Julien-en-<persName ref="person21862">Genevois</persName> (Dép. Haute-Savoie).</note> postulavit idque ea causa, quod nullam belli exacti culpam habuerit neque unquam quicquam hostile adversus <placeName ref="place121">Bernates</placeName> gesserit; cupere itaque se in nostra esse gratia et illorum locorum nomine posthac <placeName ref="place121">Bernatibus</placeName> omnia prestiturum, quę antea duci tanquam superiori suo debuerit.</s>
-					<s n="4" xml:lang="la" type="auto">Et quamvis hęc petitio non usquequaque iniqua sit visa, ut quę <placeName ref="place121">Bernatibus</placeName> nihil dominii in homines et ad expeditiones bellicas nec item in illis plantatę religionis detraheret, quod census duntaxat et dominia inferiora attineret, tamen suspensum est negotium et sic illi responsum datum: nos adhuc in aperto bello esse cum duce <placeName ref="place75">Sabaudiensi</placeName> nec cum illo reconciliatos; nemini itaque nos quicquam reddituros, et si conciliati cum duce fuerimus, nos deinde, quod commodum videatur, facturos.</s>
+					<s n="3" xml:lang="la" type="auto">Adfuit vicecomes<note xml:id="fn4" type="footnote" n="4"><persName>François II. von Luxemburg</persName>, Vicomte von Martigues, Sohn von <persName>François I. von Luxemburg-Martigues</persName> und Louise von <placeName>Savoyen</placeName>, 1534 als Generalgouverneur von <placeName>Savoyen</placeName> nachweisbar, hatte durch den bernischen Feldzug von 1536 seine Herrschaften und Einkünfte in der Waadt sowie im <persName>Genevois</persName> und im <persName>Chablais</persName> verloren. Am 13. Februar 1544 machte er seine Forderungen persönlich vor dem <placeName>Berner</placeName> Rat geltend. 1547 erhielt er <placeName>Belmont</placeName>, <placeName>Ternier</placeName> und <placeName>Vevey</placeName> unter einigen Vorbehalten zurück. Er starb 1553. - Lit.: Olivier <hi>Dessemontet,</hi> Les Luxembourg-Martigues, seigneurs au Pays de Vaud 1487-1558, in: Schweizerische Zeitschrift für Geschichte IV/1, 1954, S. 88-123.</note>, quem vulgo dicimus visconten, qui secundus est a duce <placeName>Sabaudiensi</placeName><note xml:id="fn5" type="footnote" n="5">Herzog <persName>Karl III. von Savoyen</persName>.</note> illique consanguinitate coniunctus, qui restitui sibi iura censusque suos in <placeName>Viviaco</placeName><note xml:id="fn6" type="footnote" n="6"><placeName>Vevey</placeName> (Kt. Waadt).</note> et Dernie<note xml:id="fn7" type="footnote" n="7"><placeName>Ternier</placeName> bei <placeName>Saint-Julien-en-</placeName><persName>Genevois</persName> (Dép. Haute-Savoie).</note> postulavit idque ea causa, quod nullam belli exacti culpam habuerit neque unquam quicquam hostile adversus <placeName>Bernates</placeName> gesserit; cupere itaque se in nostra esse gratia et illorum locorum nomine posthac <placeName>Bernatibus</placeName> omnia prestiturum, quę antea duci tanquam superiori suo debuerit.</s>
+					<s n="4" xml:lang="la" type="auto">Et quamvis hęc petitio non usquequaque iniqua sit visa, ut quę <placeName>Bernatibus</placeName> nihil dominii in homines et ad expeditiones bellicas nec item in illis plantatę religionis detraheret, quod census duntaxat et dominia inferiora attineret, tamen suspensum est negotium et sic illi responsum datum: nos adhuc in aperto bello esse cum duce <placeName>Sabaudiensi</placeName> nec cum illo reconciliatos; nemini itaque nos quicquam reddituros, et si conciliati cum duce fuerimus, nos deinde, quod commodum videatur, facturos.</s>
 					<s n="5" xml:lang="la" type="auto">Sic abiit.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Constat inter nos excludendos esse, qui tam potentes sunt in principum aulis, quod contagio nociva in subditos inde serpat, ut qui nec religioni<note xml:id="fna" type="footnote" n="a"><hi>Am Wortanfang gestrichenes</hi> n.</note> nostrę nec libertati nostrę faveant.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Vale cum omnibus doctis, quos omnes meo nomine salutatos cupio, et tu rursus cum uxore<note xml:id="fn8" type="footnote" n="8">Anna, geb. Adlischwyler.</note>, liberis<note xml:id="fn9" type="footnote" n="9">Zu Bullingers Kindern s. oben <ref target="file11884">Nr. 1838</ref>, Anm. 19.</note> universaque familia optime vale meque commendatum habeto.</s>
+					<s n="7" xml:lang="la" type="auto">Vale cum omnibus doctis, quos omnes meo nomine salutatos cupio, et tu rursus cum uxore<note xml:id="fn8" type="footnote" n="8"><persName>Anna, geb. Adlischwyler</persName>.</note>, liberis<note xml:id="fn9" type="footnote" n="9">Zu Bullingers Kindern s. oben <ref target="file11884">Nr. 1838</ref>, Anm. 19.</note> universaque familia optime vale meque commendatum habeto.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Datum <placeName ref="place121">Bernę</placeName>, 11. martii anno 44.</s>
+					<s n="8" xml:lang="la" type="auto">Datum <placeName>Bernę</placeName>, 11. martii anno 44.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Ex animo tuus Eberart a</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto"><persName ref="person182">Rumlang</persName>.</s>
+					<s n="10" xml:lang="de" type="auto"><persName ref="p3700">Rumlang</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -6,49 +6,40 @@
 				<title subtype="file">Dietrich Bitter / Köln AN Heinrich Bullinger, 13. September 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=133</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">238</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,100r-v</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Erklärt die Schwierigkeiten der Briefübermittlung über <placeName ref="place361">Frankfurt</placeName>;
+								Erklärt die Schwierigkeiten der Briefübermittlung über <placeName>Frankfurt</placeName>;
 								erwähnt seinen früheren Brief [<ref target="file10151">Nr. 120</ref>] und die darin enthaltene Bitte um
 								Zustellung von Werken Bullingers. Freut sich über die günstige Situation der Kirche in Zürich und äußert
-								sich über die Schwierigkeiten der Evangelischen in <placeName ref="place577">Köln</placeName>.
+								sich über die Schwierigkeiten der Evangelischen in <placeName>Köln</placeName>.
 								Nachrichten über Kaiser und den Türken sind ungewiß.
 							</p>
 						</summary>
@@ -61,6 +52,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Krafft 109f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 133, S.238</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -69,18 +63,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10164">
 				<correspAction type="sent">
-					<persName ref="person391" cert="high">
+					<persName ref="p391" cert="high">
 						<!--
 						<surname cert="high">Bitter</surname>
 						<forename cert="high">Dietrich</forename>
 						<persName type="main" ref="person8175>Bitter, Dietrich</persName>
 						-->
 					</persName>
-					<placeName source="place267" cert="high"><orig>Köln</orig></placeName>
+					<placeName source="l267" cert="high"><orig>Köln</orig></placeName>
 					<date when="1532-09-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,16 +123,16 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Accepi tuas literas<note xml:id="fn1" type="footnote" n="1">Die erwähnten Briefe Bullingers sind nicht erhalten.</note> una cum iis, quorum in iisdem facis mentionem, quibus supra modum ut ante crebro<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage irrtümlich</hi> crebo.</note> delectatus sum.</s>
-					<s n="3" xml:lang="la" type="auto">Sed vereor illa, que Franfordiam<note xml:id="fn2" type="footnote" n="2">Bullinger und <persName ref="person18">Bitter</persName> scheinen ihre Verbindungen durch Besucher der <placeName ref="place361">Frankfurter</placeName> Buchmesse aufrecht erhalten zu haben.</note> miseris, egrius ad me perventura, eo quod desit, qui meas tradat et tuas, ut constitueram, reposcat et referat.</s>
+					<s n="3" xml:lang="la" type="auto">Sed vereor illa, que Franfordiam<note xml:id="fn2" type="footnote" n="2">Bullinger und <persName>Bitter</persName> scheinen ihre Verbindungen durch Besucher der <placeName>Frankfurter</placeName> Buchmesse aufrecht erhalten zu haben.</note> miseris, egrius ad me perventura, eo quod desit, qui meas tradat et tuas, ut constitueram, reposcat et referat.</s>
 					<s n="4" xml:lang="la" type="auto">Nam ille<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note>, quem subornaram, interea, quod sororiis nuptiis in patria intereram, insperato citius discessit.</s>
 					<s n="5" xml:lang="la" type="auto">Solet is cum libris venalibus singulis interesse nundinis inque eodem cum Tigurinis versari hospitio, si vera mihi relata sunt.</s>
 					<s n="6" xml:lang="la" type="auto">Posthac, si deus vitam dederit, rectius curabitur.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Dedi ad te in mense augusto proxime elapso literas<note xml:id="fn4" type="footnote" n="4">Siehe oben <ref target="file10151">Nr. 120</ref>.</note> cum quodam cive <placeName ref="place577">Coloniensi</placeName><note xml:id="fn5" type="footnote" n="5">Unbekannt.</note>, qui mihi sancte recepit easdem ad tuas manus perlaturas [!], quibus petieram, ut annotaciones tuas [!] in Epistolam Ioannis secundario<note xml:id="fn6" type="footnote" n="6">Zu Bullingers Johannesbrief-Kommentar (HBBibl I 37) s. noch oben S. 175, Anm. 14.</note> mitterentur.</s>
-					<s n="8" xml:lang="la" type="auto">Nam priores fraterculo cuidam concredidi, qui eas non reddit<note xml:id="fn7" type="footnote" n="7">Siehe oben, S. 175, 11-13.</note>, nec prostant adhuc <placeName ref="place577">Colonie</placeName> ut nuper.</s>
+					<s n="7" xml:lang="la" type="auto">Dedi ad te in mense augusto proxime elapso literas<note xml:id="fn4" type="footnote" n="4">Siehe oben <ref target="file10151">Nr. 120</ref>.</note> cum quodam cive <placeName>Coloniensi</placeName><note xml:id="fn5" type="footnote" n="5">Unbekannt.</note>, qui mihi sancte recepit easdem ad tuas manus perlaturas [!], quibus petieram, ut annotaciones tuas [!] in Epistolam Ioannis secundario<note xml:id="fn6" type="footnote" n="6">Zu Bullingers Johannesbrief-Kommentar (<bibl>HBBibl</bibl> I 37) s. noch oben S. 175, Anm. 14.</note> mitterentur.</s>
+					<s n="8" xml:lang="la" type="auto">Nam priores fraterculo cuidam concredidi, qui eas non reddit<note xml:id="fn7" type="footnote" n="7">Siehe oben, S. 175, 11-13.</note>, nec prostant adhuc <placeName>Colonie</placeName> ut nuper.</s>
 					<s n="9" xml:lang="la" type="auto">Alioqui huius gratia te minime gravarem.</s>
-					<s n="10" xml:lang="la" type="auto">Commentarios in Epistolam ad Hebreos<note xml:id="fn8" type="footnote" n="8">Zu Bullingers Hebräerbrief-Kommentar (HBBibl I 38) s. noch oben S. 167, Anm. 6 und <ref target="file10155">Nr. 124</ref>.</note> anxie cum charissimis tuis<note xml:id="fnb" type="footnote" n="b">tuis <hi>übergeschrieben.</hi></note> scriptis adhuc<note xml:id="fnc" type="footnote" n="c">adhuc <hi>übergeschrieben. Darunter gestrichen</hi> causas ex scriptis.</note> expecto, et si, ut spero, non assequor, nemini quam mihi ipsi imputabo.</s>
+					<s n="10" xml:lang="la" type="auto">Commentarios in Epistolam ad Hebreos<note xml:id="fn8" type="footnote" n="8">Zu Bullingers Hebräerbrief-Kommentar (<bibl>HBBibl</bibl> I 38) s. noch oben S. 167, Anm. 6 und <ref target="file10155">Nr. 124</ref>.</note> anxie cum charissimis tuis<note xml:id="fnb" type="footnote" n="b">tuis <hi>übergeschrieben.</hi></note> scriptis adhuc<note xml:id="fnc" type="footnote" n="c">adhuc <hi>übergeschrieben. Darunter gestrichen</hi> causas ex scriptis.</note> expecto, et si, ut spero, non assequor, nemini quam mihi ipsi imputabo.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Congratulor sane de successu et pace ecclesie vestre precorque, ut idem nobis quandoque liceret scribere.</s>
@@ -152,21 +146,21 @@
 				<p>
 					<s n="18" xml:lang="la" type="auto">Apud nos<pb type="scan" next="||100v."/> nihil novi est.</s>
 					<s n="19" xml:lang="la" type="auto">Ea, quae sparguntur de imperatore et Turca, incerta adhuc sunt<note xml:id="fn9" type="footnote" n="9">Über die Türkengefahr und die diesbezügliche kaiserliche Politik in den Sommermonaten 1532 s. <hi>Westermann.</hi></note>.</s>
-					<s n="20" xml:lang="la" type="auto">Ut fertur, brevi publicus habebitur conflictus, cui in propria affuturum se scripsit imperator<note xml:id="fn10" type="footnote" n="10">Tatsächlich hielt sich der Kaiser vom 23. September bis 4. Oktober 1532 in <placeName ref="place1192">Wien</placeName> auf, s. <hi>Turetschek 334.</hi></note>.</s>
+					<s n="20" xml:lang="la" type="auto">Ut fertur, brevi publicus habebitur conflictus, cui in propria affuturum se scripsit imperator<note xml:id="fn10" type="footnote" n="10">Tatsächlich hielt sich der Kaiser vom 23. September bis 4. Oktober 1532 in <placeName>Wien</placeName> auf, s. <hi>Turetschek 334.</hi></note>.</s>
 					<s n="21" xml:lang="la" type="auto">Sit gloria domini in secula.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto">His vale et fratrem<note xml:id="fn11" type="footnote" n="11">Johannes Bullinger, der ebenfalls in <placeName ref="place321">Emmerich</placeName> und <placeName ref="place577">Köln</placeName> studiert hatte und aus dieser Zeit auch mit <persName ref="person18">Bitter</persName> befreundet gewesen sein dürfte.</note> meo nomine salutes.</s>
+					<s n="22" xml:lang="la" type="auto">His vale et fratrem<note xml:id="fn11" type="footnote" n="11">Johannes Bullinger, der ebenfalls in <placeName>Emmerich</placeName> und <placeName>Köln</placeName> studiert hatte und aus dieser Zeit auch mit <persName>Bitter</persName> befreundet gewesen sein dürfte.</note> meo nomine salutes.</s>
 				</p>
 				<p>
-					<s n="23" xml:lang="la" type="auto"><placeName ref="place577">Colonie</placeName>, 13. septembris 1532.</s>
+					<s n="23" xml:lang="la" type="auto"><placeName>Colonie</placeName>, 13. septembris 1532.</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="la" type="auto">Theodericus <persName ref="person18">Bitter</persName> tuus.</s>
+					<s n="24" xml:lang="la" type="auto">Theodericus <persName ref="p8175">Bitter</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>
-					<s n="25" xml:lang="de" type="auto">Dem ersamen unnd wolgelertenn Meister <persName ref="person33">Heinrichen Bullinger</persName>, meinem geliepten frundt zon handenn.</s>
+					<s n="25" xml:lang="de" type="auto">Dem ersamen unnd wolgelertenn Meister Heinrichen Bullinger, meinem geliepten frundt zon handenn.</s>
 					<s n="26" xml:lang="de" type="auto">Gen Zuͤrich.</s>
 				</p>
 			</div>

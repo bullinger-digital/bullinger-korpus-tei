@@ -6,66 +6,62 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN Heinrich Bullinger, 31. Oktober 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1325</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">245</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,61</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Konnte sich nicht um den von [Werner]
-								<persName ref="person204">Steiner</persName> empfohlenen Briefüberbringer kümmern, da dieser sich gleich
-								wieder verabschiedete; bittet, ihn deshalb bei <persName ref="person204">Steiner</persName> zu
+								Konnte sich nicht um den von <persName ref="p8447">[Werner] Steiner</persName> empfohlenen Briefüberbringer kümmern, da dieser sich gleich
+								wieder verabschiedete; bittet, ihn deshalb bei <persName ref="p8447">Steiner</persName> zu
 								entschuldigen. Gegen Bullinger ist der Vorwurf laut geworden, er habe in seiner Vorrede [an
-								<persName ref="person220">Johannes Travers</persName>, <ref target="file11326">Nr. 1283</ref>] indirekt
-								<persName ref="person28">Bucer</persName> und <persName ref="person138">Luther</persName> angegriffen und
-								gefährde damit die Konkordie. [Martin]
-								<persName ref="person64">Frecht</persName> läßt Bullinger und die Zürcher grüßen.
+								<persName ref="p6831">Johannes Travers</persName>, <ref target="file11326">Nr. 1283</ref>] indirekt
+								<persName ref="p467">Bucer</persName> und <persName ref="p1974">Luther</persName> angegriffen und
+								gefährde damit die Konkordie. <persName ref="p1055">[Martin] Frecht</persName> läßt Bullinger und die Zürcher grüßen.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1325, S.245</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11368">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -74,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1539-10-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,14 +120,14 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Commendat mihi Stainerus<note xml:id="fn1" type="footnote" n="1"><persName ref="person204">Werner Steiners</persName> Empfehlungsschreiben ist nicht erhalten.</note> optimum illum virum<note xml:id="fna" type="footnote" n="a"><hi>nach</hi> virum <hi>gestrichenes</hi> Stai.</note><note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> praesentium latorem; sed simulatque literas reddit, statim valedicit, ut nihil benevolentiae illi exhibere aut quicquam conferre cum illo quiverim.</s>
+					<s n="2" xml:lang="la" type="auto">Commendat mihi Stainerus<note xml:id="fn1" type="footnote" n="1"><persName>Werner Steiners</persName> Empfehlungsschreiben ist nicht erhalten.</note> optimum illum virum<note xml:id="fna" type="footnote" n="a"><hi>nach</hi> virum <hi>gestrichenes</hi> Stai.</note><note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> praesentium latorem; sed simulatque literas reddit, statim valedicit, ut nihil benevolentiae illi exhibere aut quicquam conferre cum illo quiverim.</s>
 					<s n="3" xml:lang="la" type="auto">Excusatum itaque me volo Stainero per te.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Ad te vero nichil est, quod scribam, cum novi nichil sit excepto hoc uno, quod putant quidam praefationem tuam ad epistolam <persName ref="person226">Vadiani</persName><note xml:id="fn3" type="footnote" n="3">Gemeint ist die Widmungsvorrede (oben <ref target="file11326">Nr. 1283</ref>) zu <persName ref="person226">Vadians</persName> "Orthodoxa et erudita ... epistola" (HBBibl I 113), über die besonders <persName ref="person28">Bucer</persName> verärgert war (vgl. oben <ref target="file11326">Nr. 1283</ref>, Anm. 9). Siehe auch <persName ref="person263">Zwicks</persName> Brief an <persName ref="person40">Capito</persName> vom 11. Dezember (CO X/2 432f, <ref target="file10229">Nr. 198</ref>; <persName ref="person40">Capito</persName>, Con. 255f, <ref target="file10758">Nr. 720</ref>).</note> satis esse odiosam neminemque non intelligere, quem petas, scilicet <persName ref="person28">Bucerum</persName> tibi Vertumnum esse et <persName ref="person138">Lutherum</persName> Thrasonem<note xml:id="fn4" type="footnote" n="4">Vgl. oben <ref target="file11326">Nr. 1283</ref>, Anm. d bzw. Z. 65.</note>, idque te facere post initam concordiam et bona parte sopitis contentionibus, denique tempore tam difficile etc.<pb type="edition" next="246"/></s>
+					<s n="4" xml:lang="la" type="auto">Ad te vero nichil est, quod scribam, cum novi nichil sit excepto hoc uno, quod putant quidam praefationem tuam ad epistolam <persName ref="p8049">Vadiani</persName><note xml:id="fn3" type="footnote" n="3">Gemeint ist die Widmungsvorrede (oben <ref target="file11326">Nr. 1283</ref>) zu <persName>Vadians</persName> "Orthodoxa et erudita ... epistola" (<bibl>HBBibl</bibl> I 113), über die besonders <persName ref="p18198">Bucer</persName> verärgert war (vgl. oben <ref target="file11326">Nr. 1283</ref>, Anm. 9). Siehe auch <persName>Zwicks</persName> Brief an <persName>Capito</persName> vom 11. Dezember (<bibl>CO</bibl> X/2 432f, <ref target="file10229">Nr. 198</ref>; <persName>Capito</persName>, Con. 255f, <ref target="file10758">Nr. 720</ref>).</note> satis esse odiosam neminemque non intelligere, quem petas, scilicet <persName ref="p467">Bucerum</persName> tibi Vertumnum esse et <persName ref="p1974">Lutherum</persName> Thrasonem<note xml:id="fn4" type="footnote" n="4">Vgl. oben <ref target="file11326">Nr. 1283</ref>, Anm. d bzw. Z. 65.</note>, idque te facere post initam concordiam et bona parte sopitis contentionibus, denique tempore tam difficile etc.<pb type="edition" next="246"/></s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto"><persName ref="person64">Frechtus</persName> ad me nuper scribens<note xml:id="fn5" type="footnote" n="5"><persName ref="person64">Frechts</persName> Brief ist nicht erhalten.</note> rogat, ut se tibi et Tigurinis offitiose commendem.</s>
+					<s n="5" xml:lang="la" type="auto"><persName ref="p1055">Frechtus</persName> ad me nuper scribens<note xml:id="fn5" type="footnote" n="5"><persName ref="p5074">Frechts</persName> Brief ist nicht erhalten.</note> rogat, ut se tibi et Tigurinis offitiose commendem.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Vale cum fratribus et tota domo.</s>
@@ -140,7 +136,7 @@
 					<s n="7" xml:lang="la" type="auto">Raptim, 31. octobris 1539.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zvick</persName>.</s>
+					<s n="8" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zvick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

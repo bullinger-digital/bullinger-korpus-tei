@@ -6,53 +6,44 @@
 				<title subtype="file">Thomas Blarer / Konstanz AN Heinrich Bullinger, 12. Mai 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=819</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">284</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,21</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Nimmt an, daß die Werbungen des Kaisers mit den Spannungen um
-								<placeName ref="place667">Mailand</placeName> in Zusammenhang stehen. Der Theologenkonvent in
-								<placeName ref="place310">Eisenach</placeName> beunruhigt ihn allerdings mehr. Hat das Schreiben
-								Bullingers und <persName ref="person165">Pellikans</persName> an
-								<persName ref="person263">[Johannes] Zwick</persName>, das diesen
-								nicht mehr erreicht hat, mit Freude gelesen. Empfiehlt <persName ref="person898">Jakob Frömbd</persName>.
-								<persName ref="person19">Ambrosius [Blarer]</persName> war heimlich zu
-								Besuch in <placeName ref="place565">Konstanz</placeName>.
+								<placeName>Mailand</placeName> in Zusammenhang stehen. Der Theologenkonvent in
+								<placeName>Eisenach</placeName> beunruhigt ihn allerdings mehr. Hat das Schreiben
+								Bullingers und <persName ref="p8127">Pellikans</persName> an
+								<persName ref="p4079">[Johannes] Zwick</persName>, das diesen
+								nicht mehr erreicht hat, mit Freude gelesen. Empfiehlt <persName ref="p18678">Jakob Frömbd</persName>.
+								<persName ref="p8055">Ambrosius [Blarer]</persName> war heimlich zu
+								Besuch in <placeName>Konstanz</placeName>.
 							</p>
 						</summary>
 						<msItem>
@@ -62,10 +53,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>Blarer BW I, S. 800</title>
+								<title>Blarer BW I, S.800</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW I, S. 800</title>
+								<title>Blarer BW I, S.800</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 819, S.284</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -75,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10858">
 				<correspAction type="sent">
-					<persName ref="person405" cert="high">
+					<persName ref="p405" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Thomas</forename>
@@ -84,11 +78,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/120270234"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1536-05-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -124,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -136,20 +130,20 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">De expeditionibus <persName ref="person1332">Caroli</persName><note xml:id="fn1" type="footnote" n="1">Kaiser <persName ref="person1332">Karl V.</persName> hatte am 18. April <placeName ref="place906">Rom</placeName> verlassen und befand sich auf dem Weg nach Oberitalien; s. <hi>Brandi</hi> II 261.</note> quod scribam, non habeo.</s>
-					<s n="3" xml:lang="la" type="auto">Nisi enim subest aliquid maius adeoque latentius (quo non suspicor), patent cęsaris et Galli de <placeName ref="place667">Mediolano</placeName> inimiciciae<note xml:id="fn2" type="footnote" n="2">Der französische König <persName ref="person859">Franz I.</persName>, der Anspruch auf <placeName ref="place667">Mailand</placeName> erhob, war bereits Anfang April bis <placeName ref="place1100">Turin</placeName> vorgerückt; s. <hi>Brandi</hi> I 322.</note>, idque bellum quoniam nullo constanti rumore accipio posse transigi, metuenda est utriusque partis victoria.</s>
-					<s n="4" xml:lang="la" type="auto"><persName ref="person1332">Caesar</persName> copias auget valde.</s>
-					<s n="5" xml:lang="la" type="auto">Conquiruntur trans Rhenum equites quam possunt plurimi<note xml:id="fn3" type="footnote" n="3">Zur Anwerbung von Reitern für das kaiserliche Heer vgl. PC II 351, <ref target="file10399">Nr. 367</ref>, und 353, <ref target="file10403">Nr. 371</ref>.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">De expeditionibus <persName ref="p18538">Caroli</persName><note xml:id="fn1" type="footnote" n="1"><persName>Kaiser Karl V.</persName> hatte am 18. April <placeName>Rom</placeName> verlassen und befand sich auf dem Weg nach Oberitalien; s. <hi>Brandi</hi> II 261.</note> quod scribam, non habeo.</s>
+					<s n="3" xml:lang="la" type="auto">Nisi enim subest aliquid maius adeoque latentius (quo non suspicor), patent cęsaris et Galli de <placeName>Mediolano</placeName> inimiciciae<note xml:id="fn2" type="footnote" n="2">Der französische <persName>König Franz I.</persName>, der Anspruch auf <placeName>Mailand</placeName> erhob, war bereits Anfang April bis <placeName>Turin</placeName> vorgerückt; s. <hi>Brandi</hi> I 322.</note>, idque bellum quoniam nullo constanti rumore accipio posse transigi, metuenda est utriusque partis victoria.</s>
+					<s n="4" xml:lang="la" type="auto"><persName ref="p18538">Caesar</persName> copias auget valde.</s>
+					<s n="5" xml:lang="la" type="auto">Conquiruntur trans Rhenum equites quam possunt plurimi<note xml:id="fn3" type="footnote" n="3">Zur Anwerbung von Reitern für das kaiserliche Heer vgl. <bibl>PC</bibl> II 351, <ref target="file10399">Nr. 367</ref>, und 353, <ref target="file10403">Nr. 371</ref>.</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Gallo plęrique hominum non bene ominantur et affirmant Gallos ipsos difficile ad hoc bellum suscipiendum accingi.</s>
 					<s n="7" xml:lang="la" type="auto">Expectanda voluntas domini est, qui, suis quid expediat, novit.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Magis tamen<note xml:id="fna" type="footnote" n="a">tamen <hi>über der Zeile nachgetragen.</hi></note> me angit pręsens conventus Isnacensis, cui optarim ex vestris aliquem interfuisse<note xml:id="fn4" type="footnote" n="4">Zürich hatte die Entsendung Bullingers zum Theologenkonvent in <placeName ref="place310">Eisenach</placeName> abgelehnt; s. oben <ref target="file10852">Nr. 813</ref>, Anm. 5.</note>, quanquam, quod abestis, rationem et emolumentum suum quoddam habebit.</s>
+					<s n="8" xml:lang="la" type="auto">Magis tamen<note xml:id="fna" type="footnote" n="a">tamen <hi>über der Zeile nachgetragen.</hi></note> me angit pręsens conventus Isnacensis, cui optarim ex vestris aliquem interfuisse<note xml:id="fn4" type="footnote" n="4">Zürich hatte die Entsendung Bullingers zum Theologenkonvent in <placeName>Eisenach</placeName> abgelehnt; s. oben <ref target="file10852">Nr. 813</ref>, Anm. 5.</note>, quanquam, quod abestis, rationem et emolumentum suum quoddam habebit.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Litere tue et Pelicani <persName ref="person263">Zviccium</persName> non pertigerunt<note xml:id="fn5" type="footnote" n="5"><persName ref="person263">Johannes Zwick</persName> war bereits zur Tagung vom 1. Mai in <placeName ref="place5">Aarau</placeName> aufgebrochen (s. <hi>Moeller,</hi> Zwick 182), als die (nicht erhaltene) Antwort auf semen Brief vom 27. April (oben <ref target="file10847">Nr. 808</ref>) in <placeName ref="place565">Konstanz</placeName> eintraf.</note> nec illi mittendas putavi, cum ipsum ad vos venturum esse pręsciverim.</s>
+					<s n="9" xml:lang="la" type="auto">Litere tue et Pelicani <persName ref="p4079">Zviccium</persName> non pertigerunt<note xml:id="fn5" type="footnote" n="5"><persName>Johannes Zwick</persName> war bereits zur Tagung vom 1. Mai in <placeName>Aarau</placeName> aufgebrochen (s. <hi>Moeller,</hi> Zwick 182), als die (nicht erhaltene) Antwort auf semen Brief vom 27. April (oben <ref target="file10847">Nr. 808</ref>) in <placeName>Konstanz</placeName> eintraf.</note> nec illi mittendas putavi, cum ipsum ad vos venturum esse pręsciverim.</s>
 					<s n="10" xml:lang="la" type="auto">Eas ex illius iussu apertas legi singulari cum lęticia, quod intellexerim vos studium ingenuę castęque pietatis christianę nondum minuisse.</s>
-					<s n="11" xml:lang="la" type="auto"><persName ref="person898">Iacobum</persName> hunc cognomine Peregrinum<note xml:id="fn6" type="footnote" n="6"><persName ref="person898">Jakob Frömbd</persName> (Peregrinus, gen. Bechermacher, Marras) von <placeName ref="place565">Konstanz</placeName>, gest. spätestens 1567 (s. <placeName ref="place565">Konstanz</placeName> Stadtarchiv, Abzugbuch A IV 10. S. 86), immatrikulierte sich 1520 als Jacobus Frend in <placeName ref="place1107">Tübingen</placeName>. Zunächst wurde er Pfarrer in <placeName ref="place797">Oberalpfen</placeName> (Waldshut-Tiengen); spater kehrte er nach <placeName ref="place565">Konstanz</placeName> zurück, wo er heiratete. 1533 wurde er wegen Ehebruchs vom Abendmahl ausgeschlossen. 1540 schlug ihn <persName ref="person94">Kaspar von Hallwyl</persName> in einem Brief an Bullinger (Zürich StA, E II 360, 365) als Diakon für Pfäffikon (Kt. Zürich) vor; in diesem Schreiben wird er als alt Schulmeister von <placeName ref="place5">Aarau</placeName> bezeichnet. 1542 war er in <placeName ref="place565">Konstanz</placeName> als Seelsorger im Pesthaus tätig. Ab 1543 wirkte er als letzter reformierter Pfarrer in Rheinau (Kt. Zürich), wofür er vorübergehend auf sein <placeName ref="place565">Konstanzer</placeName> Bürgerrecht verzichten mußte. 1547 ließ er sich wieder einbürgern und blieb auch in <placeName ref="place565">Konstanz</placeName>, als die evangelischen Prediger 1548 die Stadt verlassen mußten. Er scheint jedoch der Rekatholisierung unwillig gegenübergestanden zu sein und geriet mehrfach mit der Obrigkeit in Konflikt, verarmte und lebte zeitweise im Siechenhaus. - Lit.: <placeName ref="place1107">Tübingen</placeName>, Matrikel I 227, Nr. 17; Martin <hi>Burkhardt,</hi> Wolfgang <hi>Dobras,</hi> Wolfgang <hi>Zimmermann,</hi> <placeName ref="place565">Konstanz</placeName> in der frühen Neuzeit. Reformation - Verlust der Reichsfreiheit - Österreichische Zeit, <placeName ref="place565">Konstanz</placeName> 1991. - Geschichte der Stadt <placeName ref="place565">Konstanz</placeName> 3, S. 158f; Wolfgang <hi>Zimmermann,</hi> Rekatholisierung, Konfessionalisierung und Ratsregiment. Der Prozeß des politischen und religiösen Wandels in der österreichischen Stadt <placeName ref="place565">Konstanz</placeName> 1548-1637, Diss. <placeName ref="place1107">Tübingen</placeName> 1992, Sigmaringen 1994. - <placeName ref="place565">Konstanzer</placeName> Geschichts und Rechtsquellen XXXIV, S. 50-52. 225f. 236; Wolfgang <hi>Dobras,</hi> Ratsregiment, Sittenpolizei und Kirchenzucht in der Reichsstadt <placeName ref="place565">Konstanz</placeName> 1531-1548. Ein Beitrag zur Geschichte der oberdeutschschweizerischen Reformation, Gütersloh 1993. - QFRG LIX, S. 198; August <hi>Waldburger,</hi> Rheinau und die Reformation, in: Jahrbuch für Schweizerische Geschichte 25, 1900, S. 327f.</note>, civem nostrum, tibi commendo; nam et pius mihi semper est visus et dignus, qui adiuvetur.</s>
+					<s n="11" xml:lang="la" type="auto"><persName ref="p18678">Iacobum</persName> hunc cognomine Peregrinum<note xml:id="fn6" type="footnote" n="6"><persName>Jakob Frömbd</persName> (Peregrinus, gen. Bechermacher, Marras) von <placeName>Konstanz</placeName>, gest. spätestens 1567 (s. <placeName>Konstanz</placeName> Stadtarchiv, Abzugbuch A IV 10. S. 86), immatrikulierte sich 1520 als Jacobus Frend in <placeName>Tübingen</placeName>. Zunächst wurde er Pfarrer in <placeName>Oberalpfen (Waldshut-Tiengen)</placeName>; spater kehrte er nach <placeName>Konstanz</placeName> zurück, wo er heiratete. 1533 wurde er wegen Ehebruchs vom Abendmahl ausgeschlossen. 1540 schlug ihn <persName>Kaspar von Hallwyl</persName> in einem Brief an Bullinger (Zürich StA, E II 360, 365) als Diakon für Pfäffikon (Kt. Zürich) vor; in diesem Schreiben wird er als alt Schulmeister von <placeName>Aarau</placeName> bezeichnet. 1542 war er in <placeName>Konstanz</placeName> als Seelsorger im Pesthaus tätig. Ab 1543 wirkte er als letzter reformierter Pfarrer in Rheinau (Kt. Zürich), wofür er vorübergehend auf sein <placeName>Konstanzer</placeName> Bürgerrecht verzichten mußte. 1547 ließ er sich wieder einbürgern und blieb auch in <placeName>Konstanz</placeName>, als die evangelischen Prediger 1548 die Stadt verlassen mußten. Er scheint jedoch der Rekatholisierung unwillig gegenübergestanden zu sein und geriet mehrfach mit der Obrigkeit in Konflikt, verarmte und lebte zeitweise im Siechenhaus. - Lit.: <placeName>Tübingen</placeName>, Matrikel I 227, Nr. 17; Martin <hi>Burkhardt,</hi> Wolfgang <hi>Dobras,</hi> Wolfgang <hi>Zimmermann,</hi> <placeName>Konstanz</placeName> in der frühen Neuzeit. Reformation - Verlust der Reichsfreiheit - Österreichische Zeit, <placeName>Konstanz</placeName> 1991. - Geschichte der Stadt <placeName>Konstanz</placeName> 3, S. 158f; Wolfgang <hi>Zimmermann,</hi> Rekatholisierung, Konfessionalisierung und Ratsregiment. Der Prozeß des politischen und religiösen Wandels in der österreichischen Stadt <placeName>Konstanz</placeName> 1548-1637, Diss. <placeName>Tübingen</placeName> 1992, Sigmaringen 1994. - <placeName>Konstanzer</placeName> Geschichts und Rechtsquellen XXXIV, S. 50-52. 225f. 236; Wolfgang <hi>Dobras,</hi> Ratsregiment, Sittenpolizei und Kirchenzucht in der Reichsstadt <placeName>Konstanz</placeName> 1531-1548. Ein Beitrag zur Geschichte der oberdeutschschweizerischen Reformation, Gütersloh 1993. - <bibl>QFRG</bibl> LIX, S. 198; August <hi>Waldburger,</hi> Rheinau und die Reformation, in: Jahrbuch für Schweizerische Geschichte 25, 1900, S. 327f.</note>, civem nostrum, tibi commendo; nam et pius mihi semper est visus et dignus, qui adiuvetur.</s>
 					<s n="12" xml:lang="la" type="auto">Victum ęgre hic<pb type="edition" next="285"/> parat.</s>
 					<s n="13" xml:lang="la" type="auto">Si quę apud vos illi condicio obtigerit, non gravabitur ad vos migrare.</s>
 					<s n="14" xml:lang="la" type="auto">Fidum esse, quantum illum cognovi, comperi.</s>
@@ -158,7 +152,7 @@
 					<s n="15" xml:lang="la" type="auto">Saluta fratres omnes.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person19">Ambrosius</persName>, frater meus, superioribus diebus hic latuit obiectans se cum intimis amicis et fratribus, cuius animum in pręsentibus negociis, puto, ex <persName ref="person263">Zviccio</persName> percepisti.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8055">Ambrosius</persName>, frater meus, superioribus diebus hic latuit obiectans se cum intimis amicis et fratribus, cuius animum in pręsentibus negociis, puto, ex <persName ref="p4079">Zviccio</persName> percepisti.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Vale in domino, colende Bullingere; in quo me ama, ut facis.</s>

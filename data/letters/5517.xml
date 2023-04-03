@@ -6,32 +6,31 @@
 				<title subtype="file">Stanislaus Paklepka, Martin Krowicki, Niklaus Zitinius / Zürich AN s.n. / Zürich, 21. November 1562</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6126/213</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Beilage" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 371,925-930</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,7 +43,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke, BW der Schweizer mit Polen, S. 156-163, Nr. 264</title>
+								<title>Wotschke, BW der Schweizer mit Polen, S.156-163, Nr. 264</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>A. Mühling, HB's europ. Kirchenpolitik 255</title>
@@ -58,28 +57,28 @@
 				<msDesc type="Beilage" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 106,4</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Beilage" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 106,3</idno>
 					</msIdentifier>
 				</msDesc>
@@ -88,33 +87,33 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5517">
 				<correspAction type="sent">
-					<persName ref="person2462" cert="high">
+					<persName ref="p2462" cert="high">
 						<!--
 						<surname cert="high">Paklepka</surname>
 						<forename cert="high">Stanislaus</forename>
 						<persName type="main" ref="person8491>Paklepka, Stanislaus</persName>
 						-->
 					</persName>
-					<persName ref="person1842" cert="high">
+					<persName ref="p1842" cert="high">
 						<!--
 						<surname cert="high">Krowicki</surname>
 						<forename cert="high">Martin</forename>
 						<persName type="main" ref="person8480>Krowicki, Martin</persName>
 						-->
 					</persName>
-					<persName ref="person4076" cert="high">
+					<persName ref="p4076" cert="high">
 						<!--
 						<surname cert="high">Zitinius</surname>
 						<forename cert="high">Niklaus</forename>
 						<persName type="main" ref="person8294>Zitinius, Niklaus</persName>
 						-->
 					</persName>
-					<placeName source="place298" cert="high"><orig>Lublin</orig></placeName>
+					<placeName source="l298" cert="high"><orig>Lublin</orig></placeName>
 					<date when="1562-11-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role26" type="pl" role="Geistliche" cert="high"/>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file5518"/>
@@ -131,7 +130,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -210,7 +209,7 @@
 					<s n="44" xml:lang="la" type="auto">Nostrae fidei confessio ingenue apud vos, fratres, deponenda erat, cum ita visum est fratribus nostris, qui vobis plurimum et merito deferunt, ut quos non dubitant sine praeiuditio sententiam pro veritate et simplicitate fidei laturos.</s>
 				</p>
 				<p>
-					<s n="45" xml:lang="la" type="auto">At dum patri unius dei epiteton attribuitur, periculum est, ne dum evitamus Scyllam, incidamus in Charibdim<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 5, 4 (LB II 183).</note>, ne sc.</s>
+					<s n="45" xml:lang="la" type="auto">At dum patri unius dei epiteton attribuitur, periculum est, ne dum evitamus Scyllam, incidamus in Charibdim<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 5, 4 (<bibl>LB</bibl> II 183).</note>, ne sc.</s>
 					<s n="46" xml:lang="la" type="auto">aut minorem patre filium aut partes substantiarum aut tres deos constituamus, quorum singuli partem divinitatis obtineant.</s>
 					<s n="47" xml:lang="la" type="auto">Testis est deus nostrae conscientiae, qui nec in maiestatem dei penetrare volumus nec minima ignominia filium dei afficere studemus nec de deo iuxta corporum rationes quidquam pervestigamus, quin potius pert[a]esi illius philosophiae ex theologia scholastica deprompta in Christi petram nos abdimus, in quo malumus stultescere et huius, ut isti putant, imitari negligentiam potius, quam horum, obscuram et mortiferam diligentiam.</s>
 					<s n="48" xml:lang="la" type="auto">Unitatem filii et spiritus sancti cum patre ita simpliciter agnoscimus, nempe quod filius sit splendor gloriae dei et character substantiae eius.</s>

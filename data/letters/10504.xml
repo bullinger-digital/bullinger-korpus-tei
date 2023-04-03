@@ -6,40 +6,31 @@
 				<title subtype="file">Guillaume Du Bellay, Seigneur de Langey / Paris AN Konrad Pellikan, Heinrich Bullinger, 31. Oktober 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=469</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">387</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,514</idno>
 					</msIdentifier>
 					<msContents>
@@ -49,7 +40,7 @@
 								Situation der Kirche ist, hat Bullinger früher schon von du Bellay
 								erfahren. Es gibt Hoffnung, daß in der Religionsangelegenheit Einigkeit erreicht wird. Du
 								Bellay scheint es gut,
-								<persName ref="person41">Ulrich Chelius</persName> nach Zürich zu entsenden, der weitere Ratschläge
+								<persName ref="p8310">Ulrich Chelius</persName> nach Zürich zu entsenden, der weitere Ratschläge
 								übermitteln wird.
 							</p>
 						</summary>
@@ -60,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Corr. des réformateurs III, S. 207, Anm. 7</title>
+								<title>Corr. des réformateurs III, S.207, Anm. 7</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 469, S.387</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,17 +64,17 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10504">
 				<correspAction type="sent">
-					<persName ref="person2298" cert="high">
+					<persName ref="p2298" cert="high">
 						<!--
 						<surname cert="high">Du Bellay, Seigneur de Langey</surname>
 						<forename cert="high">Guillaume</forename>
 						-->
 					</persName>
-					<placeName source="place378" cert="high"><orig>Paris</orig></placeName>
+					<placeName source="l378" cert="high"><orig>Paris</orig></placeName>
 					<date when="1534-10-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2508" cert="high">
+					<persName ref="p2508" cert="high">
 						<!--
 						<surname cert="high">Pellikan</surname>
 						<forename cert="high">Konrad</forename>
@@ -91,7 +85,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416391"/>
 						-->
 					</persName>
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,25 +121,25 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">S. D. quae sit regis mei<note xml:id="fn1" type="footnote" n="1">König <persName ref="person859">Franz I.</persName> von <placeName ref="place11">Frankreich</placeName>.</note> circa statum ecclesię componendum mens, sensus, animus et cogitatio, antea quidem ex me audivistis<note xml:id="fn2" type="footnote" n="2">Wohl anläßlich von du Bellays Besuch in Zürich im Mai 1534, s. Bullingers Bericht an <persName ref="person154">Myconius</persName>, oben S. 179f, 27-53, und an <persName ref="person226">Vadian</persName>, oben S. 183, 2-17. Der Sondergesandte des französischen Königs propagierte in Zürich die Idee einer Vereinigung der deutschen Protestanten mit <placeName ref="place11">Frankreich</placeName>, wobei er an einem Ausgleich zwischen Lutheranern und Zwinglianern interessiert war, sowie den Gedanken der Einberufung eines allgemeinen Konzils zur Überwindung der kirchlichen Spaltung, s. noch <hi>Zürcher</hi> 57.</note>.</s>
-					<s n="2" xml:lang="la" type="auto">Res ipsa etiam brevi fidem est factura, neque non haud<note xml:id="fna" type="footnote" n="a">haud <hi>übergeschrieben.</hi></note> parvus illi stimulus est additus aut spes potius iniecta conficiendi ex bonorum sententia negocii, quod ex verbis vestris<note xml:id="fn3" type="footnote" n="3">Zu Bullingers und <persName ref="person165">Pellikans</persName> zurückhaltender Antwort auf du Bellays Vorschläge s. oben <ref target="file10409">[Nr. 376]</ref> S. 179f, 33-45 und 183, 10-17.</note> illum docuerim multa tempus, multa vestrum aliquot consilium mollivisse, quę ut duriora nostris videbantur, ita sarciendę unitati moram afferebant.</s>
-					<s n="3" xml:lang="la" type="auto">Interim mihi et re ipsa fore visum est, si hunc ad vos D. <persName ref="person265">Ulricum</persName> Chęlium<note xml:id="fn4" type="footnote" n="4"><persName ref="person41">Ulrich Chelius</persName> (Geiger), gest. 1561, stammte aus <placeName ref="place849">Pforzheim</placeName>, studierte in <placeName ref="place1205">Wittenberg</placeName> und war Famulus des <persName ref="person1787">Paracelsus</persName>. Seit 1529 ist er als Stadtarzt in <placeName ref="place83">Solothurn</placeName> nachweisbar, wo er auch als Leibarzt des französischen Gesandten de <persName ref="person487">Boisrigaut</persName> wirkte. Als Anhänger des evangelischen Glaubens verließ er <placeName ref="place83">Solothurn</placeName> offenbar nach dem Scheitern der Reformation im Herbst 1533 und ging nach <placeName ref="place1049">Straßburg</placeName>. Von dort aus war er als Agent der beiden Brüder Jean und <persName ref="person50">Guillaume du Bellay</persName> tätig. Im Auftrag von <placeName ref="place1049">Straßburg</placeName> unternahm er wiederholt diplomatische Missionen, war 1539 als Gesandter am kaiserlichen Hof in <placeName ref="place29">Spanien</placeName>, 1541 am Reichstag in <placeName ref="place880">Regensburg</placeName>, 1542 an jenem in <placeName ref="place1001">Speyer</placeName>. Dabei brachte ihn seine fortgesetzte Tatigkeit für die Interessen <placeName ref="place11">Frankreichs</placeName> immer wieder in Konflikt mit den Parteigängern des Kaisers. 1555 wurde er Leibarzt des Kurfürsten Friedrich von der Pfalz. Unter dem Pseudonym «Petermann» korrespondierte er mit <placeName ref="place97">Basels</placeName> Bürgermeister <persName ref="person1642">Bernhard Meyer</persName>. - Lit.: ASchweizerRef II 1854; PC IV/I 37. 165. 229f. 712. 719 und Reg.; Oekolampad BA II 1006, Anm. 3; Handschriftenproben des sechzehnten Jahrhunderts nach <placeName ref="place1049">Straßburger</placeName> Originalen, hg. v. Johannes Ficker und Otto Winckelmann, Bd. I, <placeName ref="place1049">Straßburg</placeName> 1902, S. 25; Z XI 220, Anm. 11; Felix Platter, Tagebuch (Lebensbeschreibung) 1536-1567, hg. v. Valentin Lötscher, <placeName ref="place97">Basel</placeName>-Stuttgart 1976. - Basler Chroniken 10, S. 218, Anm. 552.</note> dimitterem<note xml:id="fn5" type="footnote" n="5">Der hier angekündigte Besuch von <persName ref="person41">Chelius</persName> in Zürich fand am 17. Januar 1535 statt, s. <hi>Seidel</hi> 78f.</note>, qui et nonnullorum super eo negocio consilia et cogitationes<pb type="edition" next="388"/> vobis communicet et ad eandem vos adhortetur curam, quę maxime omnium, etiam omnium esse debet.</s>
+					<s n="1" xml:lang="la" type="auto">S. D. quae sit regis mei<note xml:id="fn1" type="footnote" n="1"><persName>König Franz I. von Frankreich</persName>.</note> circa statum ecclesię componendum mens, sensus, animus et cogitatio, antea quidem ex me audivistis<note xml:id="fn2" type="footnote" n="2">Wohl anläßlich von du Bellays Besuch in Zürich im Mai 1534, s. Bullingers Bericht an <persName>Myconius</persName>, oben S. 179f, 27-53, und an <persName>Vadian</persName>, oben S. 183, 2-17. Der Sondergesandte des französischen Königs propagierte in Zürich die Idee einer Vereinigung der deutschen Protestanten mit <placeName>Frankreich</placeName>, wobei er an einem Ausgleich zwischen Lutheranern und Zwinglianern interessiert war, sowie den Gedanken der Einberufung eines allgemeinen Konzils zur Überwindung der kirchlichen Spaltung, s. noch <hi>Zürcher</hi> 57.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Res ipsa etiam brevi fidem est factura, neque non haud<note xml:id="fna" type="footnote" n="a">haud <hi>übergeschrieben.</hi></note> parvus illi stimulus est additus aut spes potius iniecta conficiendi ex bonorum sententia negocii, quod ex verbis vestris<note xml:id="fn3" type="footnote" n="3">Zu Bullingers und <persName>Pellikans</persName> zurückhaltender Antwort auf du Bellays Vorschläge s. oben <ref target="file10409">[Nr. 376]</ref> S. 179f, 33-45 und 183, 10-17.</note> illum docuerim multa tempus, multa vestrum aliquot consilium mollivisse, quę ut duriora nostris videbantur, ita sarciendę unitati moram afferebant.</s>
+					<s n="3" xml:lang="la" type="auto">Interim mihi et re ipsa fore visum est, si hunc ad vos D. <persName ref="p4091">Ulricum</persName> Chęlium<note xml:id="fn4" type="footnote" n="4"><persName>Ulrich Chelius (Geiger)</persName>, gest. 1561, stammte aus <placeName>Pforzheim</placeName>, studierte in <placeName>Wittenberg</placeName> und war Famulus des <persName>Paracelsus</persName>. Seit 1529 ist er als Stadtarzt in <placeName>Solothurn</placeName> nachweisbar, wo er auch als Leibarzt des französischen Gesandten de <persName>Boisrigaut</persName> wirkte. Als Anhänger des evangelischen Glaubens verließ er <placeName>Solothurn</placeName> offenbar nach dem Scheitern der Reformation im Herbst 1533 und ging nach <placeName>Straßburg</placeName>. Von dort aus war er als Agent der beiden Brüder Jean und <persName>Guillaume du Bellay</persName> tätig. Im Auftrag von <placeName>Straßburg</placeName> unternahm er wiederholt diplomatische Missionen, war 1539 als Gesandter am kaiserlichen Hof in <placeName>Spanien</placeName>, 1541 am Reichstag in <placeName>Regensburg</placeName>, 1542 an jenem in <placeName>Speyer</placeName>. Dabei brachte ihn seine fortgesetzte Tatigkeit für die Interessen <placeName>Frankreichs</placeName> immer wieder in Konflikt mit den Parteigängern des Kaisers. 1555 wurde er Leibarzt des Kurfürsten Friedrich von der Pfalz. Unter dem Pseudonym «Petermann» korrespondierte er mit <placeName>Basels</placeName> Bürgermeister <persName>Bernhard Meyer</persName>. - Lit.: ASchweizerRef II 1854; <bibl>PC</bibl> IV/I 37. 165. 229f. 712. 719 und Reg.; <bibl>Oekolampad BA</bibl> II 1006, Anm. 3; Handschriftenproben des sechzehnten Jahrhunderts nach <placeName>Straßburger</placeName> Originalen, hg. v. Johannes Ficker und Otto Winckelmann, Bd. I, <placeName>Straßburg</placeName> 1902, S. 25; <bibl>Z</bibl> XI 220, Anm. 11; <bibl>Felix Platter, Tagebuch</bibl> (Lebensbeschreibung) 1536-1567, hg. v. Valentin Lötscher, <placeName>Basel</placeName>-Stuttgart 1976. - Basler Chroniken 10, S. 218, Anm. 552.</note> dimitterem<note xml:id="fn5" type="footnote" n="5">Der hier angekündigte Besuch von <persName>Chelius</persName> in Zürich fand am 17. Januar 1535 statt, s. <bibl>Seidel</bibl> 78f.</note>, qui et nonnullorum super eo negocio consilia et cogitationes<pb type="edition" next="388"/> vobis communicet et ad eandem vos adhortetur curam, quę maxime omnium, etiam omnium esse debet.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Valete.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Ex Lutęcia <placeName ref="place836">Parisiorum</placeName>, pridie calendas novembris 1534.</s>
+					<s n="5" xml:lang="la" type="auto">Ex Lutęcia <placeName>Parisiorum</placeName>, pridie calendas novembris 1534.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Vobis ex animo deditissimus</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto"><persName ref="person50">Gulielmus Bellaius</persName>.</s>
+					<s n="7" xml:lang="la" type="auto"><persName ref="p17970">Gulielmus Bellaius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="8" xml:lang="la" type="auto">Eruditissimis viris d. d. Corrado [!] <persName ref="person165">Pellicano</persName> et Henrico Bullingero<note xml:id="fnb" type="footnote" n="b"><hi>darunter von Bullingers Hand:</hi> Guil. Bellaius, Langii dominus.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Eruditissimis viris d. d. Corrado [!] <persName ref="p8127">Pellicano</persName> et Henrico Bullingero<note xml:id="fnb" type="footnote" n="b"><hi>darunter von Bullingers Hand:</hi> Guil. Bellaius, Langii dominus.</note>.</s>
 				</p>
 			</div>
 		</body>

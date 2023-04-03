@@ -6,60 +6,58 @@
 				<title subtype="file">Heinrich Brennwald / Töss AN Heinrich Bullinger, 2. Januar 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=168</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">26</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,56</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Hat sich vergeblich bemüht, mit Michael [Schlatter] zusammenzukommen, um ihm bei der Stellensuche zu
-								helfen. Dieser hat eine Pfarrstelle bei <placeName ref="place354">Fischingen</placeName> ausgeschlagen.
+								helfen. Dieser hat eine Pfarrstelle bei <placeName>Fischingen</placeName> ausgeschlagen.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 168, S.26</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10199">
 				<correspAction type="sent">
-					<persName ref="person459" cert="high">
+					<persName ref="p459" cert="high">
 						<!--
 						<surname cert="high">Brennwald</surname>
 						<forename cert="high">Heinrich</forename>
@@ -68,11 +66,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11468447"/>
 						-->
 					</persName>
-					<placeName source="place510" cert="high"><orig>Töss</orig></placeName>
+					<placeName source="l510" cert="high"><orig>Töss</orig></placeName>
 					<date when="1533-01-02" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -97,7 +95,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -111,12 +109,12 @@
 					<s n="1" xml:lang="de" type="auto">Vil guͦter jar, und was uns dient zuͦ gesuntheit des libs und der sel.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Sunders günstiger her und bruͦder, ich han durch Meister Heirich Luͦti<note xml:id="fn2" type="footnote" n="2">Als Pfarrer an der <placeName ref="place1202">Winterthurer</placeName> Stadtkirche befand sich <persName ref="person141">Lüthi</persName>, der sich bereits Ende 1531 für Schlatter eingesetzt hatte (s. HBBW I 246), in <persName ref="person24">Brennwalds</persName> Nähe.</note> und her Cuͦrat <persName ref="person2096">Schreyvogel</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person2096">Konrad Schreivogel</persName>, gest. nach 1557, stammte aus dem Bernbiet. Als Helfer in <placeName ref="place432">Gsteig bei Interlaken</placeName> hatte er wesentlichen Anteil an der Vorbereitung der Reformation in jener Gegend. 1526/27 wirkte er als Pfarrhelfer in <placeName ref="place512">Illnau</placeName> (Kt. Zürich), wo er sich offenbar auch verheiratete. Seine Bemühung um eine Stelle im 1528 reformiert gewordenen <placeName ref="place121">Bern</placeName> blieb erfolglos (Z IX 474). 1530 trat Schreivogel die Pfarrstelle in <placeName ref="place1196">Wil</placeName> (Kt. St. Gallen) an. Wie lange er in <placeName ref="place1196">Wil</placeName>, das nach dem Zweiten Kappelerkrieg rekatholisiert wurde, blieb, ist unbekannt. Jedenfalls wurde er 1533/34 als einer der aus äbtischem Gebiet vertriebenen Prädikanten mit Mitteln aus dem <placeName ref="place1106">Tößer</placeName> Klostergut unterstützt (Zürich StA, F III 37, Fasz. 5: 1533,f. 25v.). Seit 1534 bekleidete er verschiedene Pfarrämter in <placeName ref="place100">Württemberg</placeName>. - Lit.: Z IX 474, Anm. 9. X 408f, Anm. 1; Blarer BW I 590-592; ASchweizerRef II 1072. 1927f; AZürcherRef 1391, S. 601. 1714, S. 729; <hi>Egli,</hi> Analecta I 126. 133; E[mil] <hi>Egli,</hi> <persName ref="person2096">Konrad Schreivogel</persName>, in: Zwa I 408-413; Lohner 219; Gustav <hi>Bossert,</hi> Die württembergischen Kirchendiener bis 1556, in: Blätter für württembergische Kirchengeschichte, Neue Folge, 9. Jg., Stuttgart 1905, S. 20. 35; Pfarrerbuch 515.</note> dem Michel<note xml:id="fn4" type="footnote" n="4">Michael Schlatter.</note> die epistel, üch<note xml:id="fn5" type="footnote" n="5">Bezieht sich möglicherweise auf <persName ref="person90">Berchtold Hallers</persName> Brief an Bullinger vom 28. Dezember 1532 (HBBW II <ref target="file10195">Nr. 164</ref>), in welchem Haller um die Entsendung eines Lehrers nach <placeName ref="place121">Bern</placeName> bittet.</note> von <placeName ref="place121">Bernn</placeName> zuͦgeschikt, fürgehaltenn und darby üwers willens berichtenn lassenn und vermeint, er sölte zuͦ mir genn Thöss komen sin, diewil ich doch im (vom podagra verhindert) nüt nachkomen mogen.</s>
+					<s n="2" xml:lang="de" type="auto">Sunders günstiger her und bruͦder, ich han durch Meister Heirich Luͦti<note xml:id="fn2" type="footnote" n="2">Als Pfarrer an der <placeName>Winterthurer</placeName> Stadtkirche befand sich <persName>Lüthi</persName>, der sich bereits Ende 1531 für Schlatter eingesetzt hatte (s. <bibl>HBBW I</bibl> 246), in <persName ref="p4315">Brennwalds</persName> Nähe.</note> und her Cuͦrat <persName ref="p6492">Schreyvogel</persName><note xml:id="fn3" type="footnote" n="3"><persName>Konrad Schreivogel</persName>, gest. nach 1557, stammte aus dem Bernbiet. Als Helfer in <placeName>Gsteig bei Interlaken</placeName> hatte er wesentlichen Anteil an der Vorbereitung der Reformation in jener Gegend. 1526/27 wirkte er als Pfarrhelfer in <placeName>Illnau</placeName> (Kt. Zürich), wo er sich offenbar auch verheiratete. Seine Bemühung um eine Stelle im 1528 reformiert gewordenen <placeName>Bern</placeName> blieb erfolglos (<bibl>Z</bibl> IX 474). 1530 trat Schreivogel die Pfarrstelle in <placeName>Wil</placeName> (Kt. St. Gallen) an. Wie lange er in <placeName>Wil</placeName>, das nach dem Zweiten Kappelerkrieg rekatholisiert wurde, blieb, ist unbekannt. Jedenfalls wurde er 1533/34 als einer der aus äbtischem Gebiet vertriebenen Prädikanten mit Mitteln aus dem <placeName>Tößer</placeName> Klostergut unterstützt (Zürich StA, F III 37, Fasz. 5: 1533,f. 25v.). Seit 1534 bekleidete er verschiedene Pfarrämter in <placeName>Württemberg</placeName>. - Lit.: <bibl>Z</bibl> IX 474, Anm. 9. X 408f, Anm. 1; <bibl>Blarer BW</bibl> I 590-592; ASchweizerRef II 1072. 1927f; <bibl>AZürcherRef</bibl> 1391, S. 601. 1714, S. 729; <hi>Egli,</hi> Analecta I 126. 133; E[mil] <hi>Egli,</hi> <persName>Konrad Schreivogel</persName>, in: <bibl>Zwa</bibl> I 408-413; Lohner 219; Gustav <hi>Bossert,</hi> Die württembergischen Kirchendiener bis 1556, in: Blätter für württembergische Kirchengeschichte, Neue Folge, 9. Jg., Stuttgart 1905, S. 20. 35; Pfarrerbuch 515.</note> dem Michel<note xml:id="fn4" type="footnote" n="4"><persName>Michael Schlatter</persName>.</note> die epistel, üch<note xml:id="fn5" type="footnote" n="5">Bezieht sich möglicherweise auf <persName>Berchtold Hallers</persName> Brief an Bullinger vom 28. Dezember 1532 (<bibl>HBBW II</bibl> <ref target="file10195">Nr. 164</ref>), in welchem Haller um die Entsendung eines Lehrers nach <placeName>Bern</placeName> bittet.</note> von <placeName>Bernn</placeName> zuͦgeschikt, fürgehaltenn und darby üwers willens berichtenn lassenn und vermeint, er sölte zuͦ mir genn Thöss komen sin, diewil ich doch im (vom podagra verhindert) nüt nachkomen mogen.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="de" type="auto"><pb type="edition" next="27"/>Das aber bishar noch nüt beschechen, sonder gegen menklichen die sach abschlecht<note xml:id="fn6" type="footnote" n="6">abschlägt, zurückweist.</note> mit etwas ungeschiktenn worten etc.</s>
-					<s n="4" xml:lang="de" type="auto">Nun were im in kurtz verukten tagen ein pfruͦnd oder predicatur by Fischigen<note xml:id="fn7" type="footnote" n="7"><placeName ref="place354">Fischingen</placeName> (Kt. Thurgau), wo Schlatter früher gewirkt hatte, bis er im Sommer 1532 weichen mußte (s. Schlauer an Bullinger, [nach dem 19. Juli 1532], HBBW II <ref target="file10143">Nr. 113</ref>).</note> zuͦhinderst<note xml:id="fn8" type="footnote" n="8"><placeName ref="place506">Hörnli</placeName>, Berg im Zürcher Oberland.</note> am Hürnnli och worden, aber er hett sy och usgeschlagenn, dann ich besorg, sin frow<note xml:id="fn9" type="footnote" n="9">Unbekannt.</note> welle an dem ort meister sin, die nienen anders dann zuͦ <placeName ref="place1202">Winterthur</placeName>, Zürich, oder inn der nehe da um mit im ziehen welle etc.</s>
-					<s n="5" xml:lang="de" type="auto">Schrib ich üch allso, ob<note xml:id="fn10" type="footnote" n="10">für den Fall daß.</note> er sich gegen üch in ander weg usreden wölte, das ir im dest bas konnint<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> komint.</note> begegnen, darzuͦ, so ich im, das er bishar von Thöss genomen<note xml:id="fn11" type="footnote" n="11">Der stellenlose Schlatter wurde mit Mitteln aus dem <placeName ref="place1106">Tößer</placeName> Klostergut unterstützt (Zürich StA, F III 37, Fasz. 5: 1533,f. 25v.).</note>, abschlach, mich och enntschuldigot haben wellint etc.</s>
+					<s n="4" xml:lang="de" type="auto">Nun were im in kurtz verukten tagen ein pfruͦnd oder predicatur by Fischigen<note xml:id="fn7" type="footnote" n="7"><placeName>Fischingen</placeName> (Kt. Thurgau), wo Schlatter früher gewirkt hatte, bis er im Sommer 1532 weichen mußte (s. Schlauer an Bullinger, [nach dem 19. Juli 1532], <bibl>HBBW II</bibl> <ref target="file10143">Nr. 113</ref>).</note> zuͦhinderst<note xml:id="fn8" type="footnote" n="8"><placeName>Hörnli</placeName>, Berg im Zürcher Oberland.</note> am Hürnnli och worden, aber er hett sy och usgeschlagenn, dann ich besorg, sin frow<note xml:id="fn9" type="footnote" n="9">Unbekannt.</note> welle an dem ort meister sin, die nienen anders dann zuͦ <placeName>Winterthur</placeName>, Zürich, oder inn der nehe da um mit im ziehen welle etc.</s>
+					<s n="5" xml:lang="de" type="auto">Schrib ich üch allso, ob<note xml:id="fn10" type="footnote" n="10">für den Fall daß.</note> er sich gegen üch in ander weg usreden wölte, das ir im dest bas konnint<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> komint.</note> begegnen, darzuͦ, so ich im, das er bishar von Thöss genomen<note xml:id="fn11" type="footnote" n="11">Der stellenlose Schlatter wurde mit Mitteln aus dem <placeName>Tößer</placeName> Klostergut unterstützt (Zürich StA, F III 37, Fasz. 5: 1533,f. 25v.).</note>, abschlach, mich och enntschuldigot haben wellint etc.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="de" type="auto">Datum in ill, dan der bott<note xml:id="fn12" type="footnote" n="12">Unbekannt, vielleicht ein Zürcher Ratsbote.</note> was wegfertig, 2. ianuarii anno 1533<note xml:id="fnb" type="footnote" n="b"><hi>aus</hi> 1532 <hi>korrigiert.</hi></note>.</s>

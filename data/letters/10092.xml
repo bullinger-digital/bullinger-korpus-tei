@@ -6,52 +6,43 @@
 				<title subtype="file">Berchtold Haller / Bern AN Heinrich Bullinger, 9. Februar 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=63</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">45</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 360,59r-v</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Berichtet von der Lage nach der <placeName ref="place121">Berner</placeName> Synode, deren Akten bald
+								Berichtet von der Lage nach der <placeName>Berner</placeName> Synode, deren Akten bald
 								im Druck erscheinen werden und worüber er Bullingers Meinung erfahren möchte. Bittet um Antwort auf
-								verschiedene Fragen, um die Zusendung von Bullingers und <persName ref="person165">Pellikans</persName>
-								Werken, macht Vorschläge für eine Annäherung zwischen <placeName ref="place121">Bern</placeName> und
-								Zürich und betont, daß <persName ref="person2631">Zwinglis</persName> Sohn
-								Wilhelm in <placeName ref="place121">Bern</placeName> unter den
-								besten Voraussetzungen erzogen wird. Grüße.
+								verschiedene Fragen, um die Zusendung von Bullingers und <persName ref="p8127">Pellikans</persName>
+								Werken, macht Vorschläge für eine Annäherung zwischen <placeName>Bern</placeName> und
+								Zürich und betont, daß <persName ref="p4091">Zwinglis</persName>
+								Sohn <persName ref="p7232">Wilhelm</persName> in <placeName>Bern</placeName>
+								unter den besten Voraussetzungen erzogen wird. Grüße.
 							</p>
 						</summary>
 						<msItem>
@@ -63,6 +54,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Füssli I 96-98</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 63, S.45</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -71,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10092">
 				<correspAction type="sent">
-					<persName ref="person1391" cert="high">
+					<persName ref="p1391" cert="high">
 						<!--
 						<surname cert="high">Haller</surname>
 						<forename cert="high">Berchtold</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413862"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1532-02-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -139,57 +133,57 @@
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Primum commendasti duos<note xml:id="fn4" type="footnote" n="4">Beide unbekannt.</note>, et si plures commendaveris, erunt tuo nomine mihi commendatissimi.</s>
-					<s n="5" xml:lang="la" type="auto">Synodo finita<note xml:id="fn5" type="footnote" n="5">Die <placeName ref="place121">Berner</placeName> Synode endete am 13. Januar 1532, s. oben <ref target="file10085">[Nr. 56]</ref> S. 30, Anm. 2.</note> provincię omnes ministris delegatę sunt, ut iam locus nullus<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> ullus, <hi>was keinen Sinn ergibt.</hi></note> supersit; tamen non oberit fratres syncęros nobis esse cognitos, ut posthac, cum in ministerio desiderentur, tutius subordinari possint.</s>
+					<s n="5" xml:lang="la" type="auto">Synodo finita<note xml:id="fn5" type="footnote" n="5">Die <placeName>Berner</placeName> Synode endete am 13. Januar 1532, s. oben <ref target="file10085">[Nr. 56]</ref> S. 30, Anm. 2.</note> provincię omnes ministris delegatę sunt, ut iam locus nullus<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> ullus, <hi>was keinen Sinn ergibt.</hi></note> supersit; tamen non oberit fratres syncęros nobis esse cognitos, ut posthac, cum in ministerio desiderentur, tutius subordinari possint.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Deinde, quae et qualia <persName ref="person40">Capito</persName> nobiscum egerit, videbis propediem, cum e prelo Frobeniano<note xml:id="fn6" type="footnote" n="6">Zur Geschichte der in <placeName ref="place97">Basel</placeName> von <persName ref="person889">Johann Froben</persName> (1460-1527) gegründeten Druckerei s. <hi>Benzing,</hi> Buchdrucker 30 und <hi>Grimm,</hi> Buchführer 1372-1378.</note> exierint<note xml:id="fn7" type="footnote" n="7">Der Druck der Synodalakten wurde noch vor dem 13. Februar vollendet, s. Straßer 83.</note>.</s>
-					<s n="7" xml:lang="la" type="auto">Totus eram in hoc, ut <persName ref="person145">Megandri</persName> causa, quę mirum in modum et inter ministros et inter senatum, diacosios<note xml:id="fn8" type="footnote" n="8">Der Rat der Zweihundert.</note> ac plebem factiosa fuisset, feliciter citra propheticę libertatis iudicium transigi posset et ministri agnoscerent non acerbis scommatis, sed suavi et salsa modestia rem maxime promoveri<note xml:id="fn9" type="footnote" n="9">Siehe oben S. 30, Anm. 3.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Deinde, quae et qualia <persName>Capito</persName> nobiscum egerit, videbis propediem, cum e prelo Frobeniano<note xml:id="fn6" type="footnote" n="6">Zur Geschichte der in <placeName>Basel</placeName> von <persName>Johann Froben</persName> (1460-1527) gegründeten Druckerei s. <hi>Benzing,</hi> Buchdrucker 30 und <hi>Grimm,</hi> Buchführer 1372-1378.</note> exierint<note xml:id="fn7" type="footnote" n="7">Der Druck der Synodalakten wurde noch vor dem 13. Februar vollendet, s. Straßer 83.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Totus eram in hoc, ut <persName ref="p8412">Megandri</persName> causa, quę mirum in modum et inter ministros et inter senatum, diacosios<note xml:id="fn8" type="footnote" n="8">Der Rat der Zweihundert.</note> ac plebem factiosa fuisset, feliciter citra propheticę libertatis iudicium transigi posset et ministri agnoscerent non acerbis scommatis, sed suavi et salsa modestia rem maxime promoveri<note xml:id="fn9" type="footnote" n="9">Siehe oben S. 30, Anm. 3.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Divisit acta per capita et pro hominis imbecillitate plus insumpsit laboris, quam exigere quisquam fuisset ausus.</s>
-					<s n="9" xml:lang="la" type="auto">Donabit latinitate eadem <persName ref="person213">Simon Sulcerus</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="person213">Simon Sulzer</persName>, 1508-1585, aus <placeName ref="place691">Meiringen</placeName>, studierte in <placeName ref="place121">Bern</placeName>, <placeName ref="place652">Luzern</placeName>, <placeName ref="place1049">Straßburg</placeName> und <placeName ref="place97">Basel</placeName>, wo er 1532 Professor der Logik und Vorsteher des Unteren Kollegiums wurde. 1533 kam er als Lektor an der Lateinschule und Prediger nach <placeName ref="place121">Bern</placeName> und wurde 1537 in <placeName ref="place97">Basel</placeName> Magister. Seit einem Besuch bei <persName ref="person138">Luther</persName> in <placeName ref="place1205">Wittenberg</placeName> 1536 war er dessen entschiedener Anhänger. 1538-1548 wirkte Sulzer als Lehrer, Münsterpfarrer und schließlich als Dekan in <placeName ref="place121">Bern</placeName>; die lutheranisierende Richtung gewann durch ihn die Überhand. 1548 abgesetzt, wurde er 1549 Pfarrer zu St. Peter in <placeName ref="place97">Basel</placeName>, 1552 Professor der hebräischen Sprache, 1554 des Alten und Neuen Testaments. Als Antistes seit 1553 suchte er eine Annäherung an die Lutheraner, betrieb den Beitritt zur <placeName ref="place1205">Wittenberger</placeName> Konkordie und verhinderte die Annahme der Zweiten Helvetischen Konfession in <placeName ref="place97">Basel</placeName>. Mit Bullinger stand Sulzer in regem brieflichem Verkehr. - Lit.: <placeName ref="place97">Basel</placeName>, Matrikel II 1; Gottlieb <hi>Linder,</hi> <persName ref="person213">Simon Sulzer</persName> und sein Antheil an der Reformation im Lande Baden, sowie an den Unionsbestrebungen, Heidelberg 1890; <hi>Guggisberg</hi> 207-210; <hi>Bonorand, Studierende</hi> 230f; Hans <hi>Berner,</hi> <placeName ref="place97">Basel</placeName> und das Zweite Helvetische Bekenntnis, in: Zwa XV 8-39; Paul <hi>Tschackert,</hi> in: ADB XXXVII 154f; Wilhelm <hi>Hadorn,</hi> in: RE XIX 159-162; HBLS VI 604; Otto Erich <hi>Straßer,</hi> in: RGG VI 523.</note>, adulescens maxime<pb type="edition" next="46"/> spei, urbis nostrę in studiis alumnus, <persName ref="person81">Grinęi</persName> discipulus, ut senatus noster suorum studiorum primitias habeat<note xml:id="fn11" type="footnote" n="11"><persName ref="person213">Sulzers</persName> Übersetzung des Synodus erschien Ende März 1532, s. oben <ref target="file10085">[Nr. 56]</ref> S. 30, Anm. 5.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Donabit latinitate eadem <persName ref="p3099">Simon Sulcerus</persName><note xml:id="fn10" type="footnote" n="10"><persName>Simon Sulzer</persName>, 1508-1585, aus <placeName>Meiringen</placeName>, studierte in <placeName>Bern</placeName>, <placeName>Luzern</placeName>, <placeName>Straßburg</placeName> und <placeName>Basel</placeName>, wo er 1532 Professor der Logik und Vorsteher des Unteren Kollegiums wurde. 1533 kam er als Lektor an der Lateinschule und Prediger nach <placeName>Bern</placeName> und wurde 1537 in <placeName>Basel</placeName> Magister. Seit einem Besuch bei <persName ref="p18889">Luther</persName> in <placeName>Wittenberg</placeName> 1536 war er dessen entschiedener Anhänger. 1538-1548 wirkte Sulzer als Lehrer, Münsterpfarrer und schließlich als Dekan in <placeName>Bern</placeName>; die lutheranisierende Richtung gewann durch ihn die Überhand. 1548 abgesetzt, wurde er 1549 Pfarrer zu St. Peter in <placeName>Basel</placeName>, 1552 Professor der hebräischen Sprache, 1554 des Alten und Neuen Testaments. Als Antistes seit 1553 suchte er eine Annäherung an die Lutheraner, betrieb den Beitritt zur <placeName>Wittenberger</placeName> Konkordie und verhinderte die Annahme der Zweiten Helvetischen Konfession in <placeName>Basel</placeName>. Mit Bullinger stand Sulzer in regem brieflichem Verkehr. - Lit.: <placeName>Basel</placeName>, Matrikel II 1; Gottlieb <hi>Linder,</hi> <persName>Simon Sulzer</persName> und sein Antheil an der Reformation im Lande Baden, sowie an den Unionsbestrebungen, Heidelberg 1890; <bibl>Guggisberg</bibl> 207-210; <hi>Bonorand, Studierende</hi> 230f; Hans <hi>Berner,</hi> <placeName>Basel</placeName> und das Zweite Helvetische Bekenntnis, in: <bibl>Zwa</bibl> XV 8-39; Paul <hi>Tschackert,</hi> in: <bibl>ADB</bibl> XXXVII 154f; Wilhelm <hi>Hadorn,</hi> in: RE XIX 159-162; <bibl>HBLS</bibl> VI 604; Otto Erich <hi>Straßer,</hi> in: RGG VI 523.</note>, adulescens maxime<pb type="edition" next="46"/> spei, urbis nostrę in studiis alumnus, <persName ref="p1365">Grinęi</persName> discipulus, ut senatus noster suorum studiorum primitias habeat<note xml:id="fn11" type="footnote" n="11"><persName>Sulzers</persName> Übersetzung des Synodus erschien Ende März 1532, s. oben <ref target="file10085">[Nr. 56]</ref> S. 30, Anm. 5.</note>.</s>
 					<s n="10" xml:lang="la" type="auto">Quicquid proinde tibi placuerit vel displicuerit, libere commentaberis nobiscum<note xml:id="fn12" type="footnote" n="12">Bullingers Antwort ist nicht bekannt, vgl. <hi>Straßer</hi> 82-85.</note>.</s>
 					<s n="11" xml:lang="la" type="auto">Aperte et ex corde velim omnia agi tanquam in conspectu unius dei et domini Iesu Christi, quem etiam unum in omnibus spectare debemus.</s>
 					<s n="12" xml:lang="la" type="auto">Hoc scias, hominem magistratui, plebi et ministris ita gratum fuisse, ac si numen e cęlo delapsum fuisset, et ita omnia egit, ut videantur pacatissima.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Sed rationem studii<note xml:id="fn13" type="footnote" n="13">Siehe unten Nr. 83.</note> et pharaonis obdurationem<note xml:id="fn14" type="footnote" n="14">Siehe oben S. 31, Anm. 12.</note> nondum cum habeam explicatam, velim tamen, cum tantum tibi ocii possis suffurari<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> suffurrari.</note>, habeam.</s>
-					<s n="14" xml:lang="la" type="auto">Quod promittis prophetici officii<note xml:id="fn15" type="footnote" n="15">Siehe oben S. 41, Anm. 1.</note> simul et Hebreorum explicationem<note xml:id="fn16" type="footnote" n="16">Zu Bullingers Hebräerbrief-Kommentar (HBBibl I 38) s. unten <ref target="file10145">[Nr. 115]</ref> S. 167, Anm. 6.</note>, velim quam fęliciter praestes; nam vix credis, quam mihi et tuus et <persName ref="person165">Pellicani</persName> spiritus arrideat.</s>
+					<s n="14" xml:lang="la" type="auto">Quod promittis prophetici officii<note xml:id="fn15" type="footnote" n="15">Siehe oben S. 41, Anm. 1.</note> simul et Hebreorum explicationem<note xml:id="fn16" type="footnote" n="16">Zu Bullingers Hebräerbrief-Kommentar (<bibl>HBBibl</bibl> I 38) s. unten <ref target="file10145">[Nr. 115]</ref> S. 167, Anm. 6.</note>, velim quam fęliciter praestes; nam vix credis, quam mihi et tuus et <persName ref="p8127">Pellicani</persName> spiritus arrideat.</s>
 					<s n="15" xml:lang="la" type="auto">Non vult forte dominus, ut hi, qui optime inter se convenirent, simul sint, quo discamus affectus infringi et alter alteri subiici et deferre.</s>
-					<s n="16" xml:lang="la" type="auto">Miror, quid <persName ref="person165">Pellicanum</persName> nostrum remoretur, quod sua tandem tam diu expectata non prodeunt<note xml:id="fn17" type="footnote" n="17">Gemeint sind <persName ref="person165">Pellikans</persName> Kommentare zum Alten Testament, deren Drucklegung <persName ref="person90">Haller</persName> bereits im Dezember 1531 ungeduldig erwartet hatte (s. HBBW I 243,15f); der erste Band erschien im August 1532 (s. ebenda, Anm. 17; vgl. AZürcherRef 2002, S. 886; <hi>Zürcher</hi> 111f).</note>; hortare hominem, ne talentum creditum sepeliat<note xml:id="fn18" type="footnote" n="18">Vgl. Mt 25,18.25.</note>, et cogitet, ut dum etiam praestiterit orbi, quae habet, adhuc maiora alios quoque manere.</s>
+					<s n="16" xml:lang="la" type="auto">Miror, quid <persName ref="p8127">Pellicanum</persName> nostrum remoretur, quod sua tandem tam diu expectata non prodeunt<note xml:id="fn17" type="footnote" n="17">Gemeint sind <persName>Pellikans</persName> Kommentare zum Alten Testament, deren Drucklegung <persName>Haller</persName> bereits im Dezember 1531 ungeduldig erwartet hatte (s. <bibl>HBBW I</bibl> 243,15f); der erste Band erschien im August 1532 (s. ebenda, Anm. 17; vgl. <bibl>AZürcherRef</bibl> 2002, S. 886; <hi>Zürcher</hi> 111f).</note>; hortare hominem, ne talentum creditum sepeliat<note xml:id="fn18" type="footnote" n="18">Vgl. Mt 25,18.25.</note>, et cogitet, ut dum etiam praestiterit orbi, quae habet, adhuc maiora alios quoque manere.</s>
 					<s n="17" xml:lang="la" type="auto">Serviat et dispenset sua fratribus, nec cogitet exanclari scripturę thesaurum.</s>
 					<s n="18" xml:lang="la" type="auto">Et tu quoque non diutius nos suspendas.</s>
-					<s n="19" xml:lang="la" type="auto"><persName ref="person891">Froschowero</persName> locutus sum <placeName ref="place121">Bernę</placeName>, ut quicquid vel tua vel <persName ref="person165">Pellicani</persName> officina suis prodierit typis, ab initio mittat.</s>
+					<s n="19" xml:lang="la" type="auto"><persName ref="p1227">Froschowero</persName> locutus sum <placeName>Bernę</placeName>, ut quicquid vel tua vel <persName ref="p8127">Pellicani</persName> officina suis prodierit typis, ab initio mittat.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Cęterum <persName ref="person145">Megander</persName> bene se habet pro contione atque etiam nobiscum.</s>
+					<s n="20" xml:lang="la" type="auto">Cęterum <persName ref="p8412">Megander</persName> bene se habet pro contione atque etiam nobiscum.</s>
 					<s n="21" xml:lang="la" type="auto">Omnia reddita sunt pacatiora.</s>
 					<s n="22" xml:lang="la" type="auto">Quod vero sollicitus es pro utriusque civitatis concordia, sollicitus sum et ego, quod noverim utramque sine altera facile perituram.</s>
-					<s n="23" xml:lang="la" type="auto">Scripsit ex vestratibus quidam domino In Hag per <placeName ref="place97">Basilienses</placeName> optime fieri posse.</s>
+					<s n="23" xml:lang="la" type="auto">Scripsit ex vestratibus quidam domino In Hag per <placeName>Basilienses</placeName> optime fieri posse.</s>
 					<s n="24" xml:lang="la" type="auto">Sed aliis initiis opus erit.</s>
 					<s n="25" xml:lang="la" type="auto">Utinam Röstius vester, homo nostris gratissimus<note xml:id="fn19" type="footnote" n="19">Siehe oben S. 32,33-35.</note>, apud nos vel minima haberet negocia et quasi suopte instituto paucis nostrum et cordatioribus loqueretur; facilia forent pacis ineundę initia<note xml:id="fn20" type="footnote" n="20">Vgl. oben S. 32,33-35 und Anm. 31.</note>.</s>
 					<s n="26" xml:lang="la" type="auto">Tu cogita et iube, quae velis.</s>
 				</p>
 				<p>
-					<s n="27" xml:lang="la" type="auto">Postremo velim, ubi nam literę nostrę tuto <persName ref="person40">Capitoni</persName> reddi possent, ocius indicares.</s>
-					<s n="28" xml:lang="la" type="auto">Nam seria illi scripturus eram<note xml:id="fn21" type="footnote" n="21">Der erste erhaltene Brief von <persName ref="person90">Haller</persName> an <persName ref="person40">Capito</persName> ist am 16. März 1532 datiert, vgl. <hi>Straßer</hi> 74.84.</note>.</s>
-					<s n="29" xml:lang="la" type="auto"><persName ref="person2637">Andreas</persName> ex Vilmäringen in diaconum vocatus est<note xml:id="fn22" type="footnote" n="22">Ein neu eingestellter Pfarrer oder Diakon mit diesem Vornamen ist um diese Zeit nicht feststellbar. Falls jedoch «Andreas» ein Familiennamen sein sollte, könnte es sich um den Vater des 1548 in <placeName ref="place121">Bern</placeName> studierenden <persName ref="person323">Johann Andreas</persName> handeln; dieser war 1557-1577 Pfarrer in <placeName ref="place660">Lützelflüh</placeName>, <placeName ref="place551">Kirchberg</placeName> und <placeName ref="place1234">Zofingen</placeName>, dazwischen auch Helfer am Münster zu <placeName ref="place121">Bern</placeName> (freundliche Mitteilung von Herrn Dr. Hermann Specker, Staatsarchiv <placeName ref="place121">Bern</placeName>). Auch läßt sich kein Pfarrer in <placeName ref="place1141">Villmergen</placeName> mit dem Namen Andreas zur Reformationszeit feststellen.</note>.</s>
+					<s n="27" xml:lang="la" type="auto">Postremo velim, ubi nam literę nostrę tuto <persName ref="p5565">Capitoni</persName> reddi possent, ocius indicares.</s>
+					<s n="28" xml:lang="la" type="auto">Nam seria illi scripturus eram<note xml:id="fn21" type="footnote" n="21">Der erste erhaltene Brief von <persName>Haller</persName> an <persName>Capito</persName> ist am 16. März 1532 datiert, vgl. <hi>Straßer</hi> 74.84.</note>.</s>
+					<s n="29" xml:lang="la" type="auto"><persName ref="p4181">Andreas</persName> ex Vilmäringen in diaconum vocatus est<note xml:id="fn22" type="footnote" n="22">Ein neu eingestellter Pfarrer oder Diakon mit diesem Vornamen ist um diese Zeit nicht feststellbar. Falls jedoch «Andreas» ein Familiennamen sein sollte, könnte es sich um den Vater des 1548 in <placeName>Bern</placeName> studierenden <persName>Johann Andreas</persName> handeln; dieser war 1557-1577 Pfarrer in <placeName>Lützelflüh</placeName>, <placeName>Kirchberg</placeName> und <placeName>Zofingen</placeName>, dazwischen auch Helfer am Münster zu <placeName>Bern</placeName> (freundliche Mitteilung von Herrn Dr. Hermann Specker, Staatsarchiv <placeName>Bern</placeName>). Auch läßt sich kein Pfarrer in <placeName>Villmergen</placeName> mit dem Namen Andreas zur Reformationszeit feststellen.</note>.</s>
 					<s n="30" xml:lang="la" type="auto">Apud quem scribere poteris.</s>
-					<s n="31" xml:lang="la" type="auto"><persName ref="person114">Leonem</persName>, <persName ref="person165">Pellicanum</persName>, parentem<pb type="scan" next="||59v"/> tuum<note xml:id="fn23" type="footnote" n="23">Dekan Heinrich Bullinger.</note> et <persName ref="person265">Zuinglii</persName><pb type="edition" next="47"/> uxorem viduam<note xml:id="fn24" type="footnote" n="24"><persName ref="person2628">Anna Zwingli</persName>, geb. Reinhart, etwa 1484-1538, Gattin des Reformators, der die 1522 zunächst heimlich geschlossene Ehe am 2. April 1524 mit öffentlichem Kirchgang besiegelte. Aus der Ehe gingen drei Kinder hervor: Regula, Wilhelm und Ulrich. Obwohl sich die Tradition, <persName ref="person265">Zwinglis</persName> Witwe habe nach 1531 verarmt in Bullingers Haus gelebt, als unhaltbar erwies, hat sich dieser doch sonst um sie und ihre Kinder gekümmert. - Lit.: Oskar <hi>Farner,</hi> Anna Reinhart, die Gattin <persName ref="person265">Ulrich Zwinglis</persName>, in: Zwa III 197-211. 229-245, mit älterer Lit.; Adrian <hi>Corrodi-Sulzer,</hi> <persName ref="person265">Zwinglis</persName> Vermögensverhältnisse, in: Zwa IV 185-188; <hi>Farner III</hi> 288-291.476-479.</note> salutabis.</s>
-					<s n="32" xml:lang="la" type="auto">Nihil sit anxia pro filiolo<note xml:id="fn25" type="footnote" n="25"><persName ref="person2631">Wilhelm Zwingli</persName>, 1526-1541, älterer Sohn des Reformators, wurde nach <persName ref="person2628">Zwinglis</persName> Tod in <placeName ref="place121">Bern</placeName> durch <persName ref="person221">Lienhard Tremp</persName> und <persName ref="person90">Berchtold Haller</persName> erzogen. Er starb als Student in <placeName ref="place1049">Straßburg</placeName> an der Pest. - Lit.: Z VIII 538, Anm. 9; <hi>Farner,</hi> aaO, in: Zwa III 244; <hi>Farner</hi> III 73; Paul <hi>Boesch,</hi> <persName ref="person2631">Wilhelm Zwingli</persName> in <placeName ref="place1049">Straßburg</placeName>, in: Zwa IX 52f; <hi>Bonorand,</hi> Studierende 233.</note>; noster est totus et bonę indolis puer; officia paterna praestabit Trempius<note xml:id="fn26" type="footnote" n="26">Lienhard (Leonhard) <persName ref="person221">Tremp</persName>, gest. 1561, aus <placeName ref="place121">Bern</placeName>, Schneider. Seit 1503 Mitglied des Großen Rates, wurde er 1528 Spitalmeister, 1529 des Kleinen Rates, nahm an zahlreichen diplomatischen Missionen, darunter auch an den Friedensverhandlungen mit <placeName ref="place51">den V Orten</placeName> 1529 und 1531, teil. <persName ref="person221">Tremp</persName> war ein überzeugter Förderer der Reformation, mit <persName ref="person2628">Zwingli</persName> befreundet und durch seine Frau Ursula auch verwandt; während der <placeName ref="place121">Berner</placeName> Disputation 1528 wohnte der Reformator in dessen Haus. Bullinger kannte <persName ref="person221">Tremp</persName> wahrscheinlich seit der <placeName ref="place121">Berner</placeName> Disputation persönlich; einige Briefe von <persName ref="person221">Tremp</persName> an Bullinger sind erhalten. - Lit.: ABernerRef, Reg.; Z VIII 547, Anm. 1; Eduard <hi>Bähler,</hi> War <persName ref="person2333">Ursula Tremp</persName> die Schwester <persName ref="person2628">Zwinglis</persName>?, in: Zwa IV 21-26; Rudolf <hi>Steck,</hi> <persName ref="person2333">Ursula Tremp</persName>, <persName ref="person2628">Zwinglis</persName> Base, in: Zwa IV 46; HBLS VII 44, mit weiterer Lit.</note>, praestabimus et nos, ubi opera nostra indiguerit.</s>
-					<s n="33" xml:lang="la" type="auto">Fratri tuo audio provinciam demandatam<note xml:id="fn27" type="footnote" n="27">Johannes Bullinger wurde Anfang 1532 Pfarrer in <placeName ref="place831">Ottenbach</placeName> (s. unten <ref target="file10156">[Nr. 125]</ref> S. 187, Anm. 18).</note>.</s>
+					<s n="31" xml:lang="la" type="auto"><persName ref="p1753">Leonem</persName>, <persName ref="p8127">Pellicanum</persName>, parentem<pb type="scan" next="||59v"/> tuum<note xml:id="fn23" type="footnote" n="23"><persName ref="p4369">Dekan Heinrich Bullinger</persName>.</note> et <persName ref="p4091">Zuinglii</persName><pb type="edition" next="47"/> uxorem viduam<note xml:id="fn24" type="footnote" n="24"><persName>Anna Zwingli, geb. Reinhart</persName>, etwa 1484-1538, Gattin des Reformators, der die 1522 zunächst heimlich geschlossene Ehe am 2. April 1524 mit öffentlichem Kirchgang besiegelte. Aus der Ehe gingen drei Kinder hervor: Regula, Wilhelm und Ulrich. Obwohl sich die Tradition, <persName>Zwinglis</persName> Witwe habe nach 1531 verarmt in Bullingers Haus gelebt, als unhaltbar erwies, hat sich dieser doch sonst um sie und ihre Kinder gekümmert. - Lit.: Oskar <hi>Farner,</hi> Anna Reinhart, die Gattin <persName>Ulrich Zwinglis</persName>, in: <bibl>Zwa</bibl> III 197-211. 229-245, mit älterer Lit.; Adrian <hi>Corrodi-Sulzer,</hi> <persName>Zwinglis</persName> Vermögensverhältnisse, in: <bibl>Zwa</bibl> IV 185-188; <hi>Farner III</hi> 288-291.476-479.</note> salutabis.</s>
+					<s n="32" xml:lang="la" type="auto">Nihil sit anxia pro filiolo<note xml:id="fn25" type="footnote" n="25"><persName>Wilhelm Zwingli</persName>, 1526-1541, älterer Sohn des Reformators, wurde nach <persName>Zwinglis</persName> Tod in <placeName>Bern</placeName> durch <persName>Lienhard Tremp</persName> und <persName>Berchtold Haller</persName> erzogen. Er starb als Student in <placeName>Straßburg</placeName> an der Pest. - Lit.: <bibl>Z</bibl> VIII 538, Anm. 9; <hi>Farner,</hi> aaO, in: <bibl>Zwa</bibl> III 244; <bibl>Farner</bibl> III 73; Paul <hi>Boesch,</hi> <persName>Wilhelm Zwingli</persName> in <placeName>Straßburg</placeName>, in: <bibl>Zwa</bibl> IX 52f; <hi>Bonorand,</hi> Studierende 233.</note>; noster est totus et bonę indolis puer; officia paterna praestabit Trempius<note xml:id="fn26" type="footnote" n="26"><persName>Lienhard (Leonhard) Tremp</persName>, gest. 1561, aus <placeName>Bern</placeName>, Schneider. Seit 1503 Mitglied des Großen Rates, wurde er 1528 Spitalmeister, 1529 des Kleinen Rates, nahm an zahlreichen diplomatischen Missionen, darunter auch an den Friedensverhandlungen mit <placeName>den V Orten</placeName> 1529 und 1531, teil. <persName>Tremp</persName> war ein überzeugter Förderer der Reformation, mit <persName>Zwingli</persName> befreundet und durch seine Frau Ursula auch verwandt; während der <placeName>Berner</placeName> Disputation 1528 wohnte der Reformator in dessen Haus. Bullinger kannte <persName>Tremp</persName> wahrscheinlich seit der <placeName>Berner</placeName> Disputation persönlich; einige Briefe von <persName>Tremp</persName> an Bullinger sind erhalten. - Lit.: ABernerRef, Reg.; <bibl>Z</bibl> VIII 547, Anm. 1; Eduard <hi>Bähler,</hi> War <persName>Ursula Tremp</persName> die Schwester <persName>Zwinglis</persName>?, in: <bibl>Zwa</bibl> IV 21-26; Rudolf <hi>Steck,</hi> <persName>Ursula Tremp</persName>, <persName>Zwinglis</persName> Base, in: <bibl>Zwa</bibl> IV 46; <bibl>HBLS</bibl> VII 44, mit weiterer Lit.</note>, praestabimus et nos, ubi opera nostra indiguerit.</s>
+					<s n="33" xml:lang="la" type="auto">Fratri tuo audio provinciam demandatam<note xml:id="fn27" type="footnote" n="27">Johannes Bullinger wurde Anfang 1532 Pfarrer in <placeName>Ottenbach</placeName> (s. unten <ref target="file10156">[Nr. 125]</ref> S. 187, Anm. 18).</note>.</s>
 				</p>
 				<p>
 					<s n="34" xml:lang="la" type="auto">Vale, ut sepius scribamus.</s>
 					<s n="35" xml:lang="la" type="auto">Tempora et temporum atque hominum turbę et pericula id exigunt.</s>
 				</p>
 				<p>
-					<s n="36" xml:lang="la" type="auto"><placeName ref="place121">Bernae</placeName>, 9. februarii anno 32.</s>
+					<s n="36" xml:lang="la" type="auto"><placeName>Bernae</placeName>, 9. februarii anno 32.</s>
 				</p>
 				<p>
 					<s n="37" xml:lang="la" type="auto">Tuus ut suus Berch. H.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>
-					<s n="38" xml:lang="la" type="auto"><persName ref="person265">Huldricho</persName> [!] Bullinger, verbi dei praeconi apud Tigurum, viro ins[igniter] docto atque pio, fratri longe omnium et perpetim charissimo.</s>
+					<s n="38" xml:lang="la" type="auto"><persName ref="p4091">Huldricho</persName> [!] Bullinger, verbi dei praeconi apud Tigurum, viro ins[igniter] docto atque pio, fratri longe omnium et perpetim charissimo.</s>
 				</p>
 			</div>
 		</body>

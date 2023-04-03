@@ -6,32 +6,31 @@
 				<title subtype="file">Simon Sulzer / Basel AN Heinrich Bullinger / Zürich, 28. September 1553</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3298</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,354</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XIV, S. 627, Nr. 1808 Exc.</title>
+								<title>C.O. XIV, S.627, Nr. 1808 Exc.</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Zitat">
 								<title>F. Buisson, Seb. Castellion I 344</title>
@@ -54,14 +53,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 80,99</idno>
 					</msIdentifier>
 				</msDesc>
@@ -70,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2025">
 				<correspAction type="sent">
-					<persName ref="person3099" cert="high">
+					<persName ref="p3099" cert="high">
 						<!--
 						<surname cert="high">Sulzer</surname>
 						<forename cert="high">Simon</forename>
@@ -80,11 +79,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417120"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1553-09-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -94,7 +93,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2026"/>
@@ -121,7 +120,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -142,7 +141,7 @@
 					<s n="6" xml:lang="la" type="auto">De Germanicis ego certi nihil habeo, nisi id unum, quod ordo equestris sub Augusto Saxone pacem modis omnibus cum Alberto suadet urgetque, contra vero Ferdinandus in bellum pertendat.</s>
 					<s n="7" xml:lang="la" type="auto">Ioannes Fridericus ablatorem restitutionem flagitat per filium ad Cęsarem missum aliosque legatos ad Ferdinandum ordinesque imperii destinatos, et quamquam non desint, qui Augustum hortentur, ne vi possideat aliena, aeque tamen alii instant, ut per omnia succedat Mauricio; <foreign xml:lang="de">nun es sige nit der bruch, land und lüt wider ze geben; opfel und byren sölle man wider geben.</foreign></s>
 					<s n="8" xml:lang="la" type="auto">Dicitur vero et imperator noluisse electoratum Augusto confirmare<note type="margin">a.R.: dahinter "noluisse" wiederholt.</note> remque eam ad ordines imperii se relaturum respondisse.</s>
-					<s n="9" xml:lang="la" type="auto">Caeterum quid comicia principum in Heldprunn moliantur, non constat, et sunt, qui per literas me bene sperare iusserint; visurum enim mox mirabilem <foreign xml:lang="el">μεταμορξςσιν;ΕΓΡ<note type="misc">α.Ρ.: μορξοσιν</note></foreign> eamque auspicatissimam, si piis consiliis aspiret dominus; esse vero arcana summa, sed in lucem subito eruptura.</s>
+					<s n="9" xml:lang="la" type="auto">Caeterum quid comicia principum in Heldprunn moliantur, non constat, et sunt, qui per literas me bene sperare iusserint; visurum enim mox mirabilem <foreign xml:lang="el">μεταμορφοσιν</foreign> eamque auspicatissimam, si piis consiliis aspiret dominus; esse vero arcana summa, sed in lucem subito eruptura.</s>
 					<s n="10" xml:lang="la" type="auto">Ego vero id unum metuo, ne ista piorum principum ordinumque cum manifeste impiis Christique hostibus <foreign xml:lang="el">σθμβοθλια</foreign> et confoederatio arctior benedictionem dei habitura non sit neve versutia filiorum Belial simplicitate filiorum lucis abusuri sint ad suum commodum veraeque religionis subversionem.</s>
 					<s n="11" xml:lang="la" type="auto">Retulit bibliopola Parrhisinus se ex fide dignis accepisse de pace inter Caesarem et Gallum sic agitari serio, ut in spe sint haud dubia aut iam factam esse aut certe mox perficiendam.</s>
 					<s n="12" xml:lang="de" type="auto">Ist zglouben, der Frantzoß werde die Tütschen im bad lassen sitzen.</s>

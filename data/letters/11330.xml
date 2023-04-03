@@ -6,48 +6,43 @@
 				<title subtype="file">Philipp Gallicius / Malans AN Heinrich Bullinger, 13. Juli 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1287</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">14</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,12 f.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Dankt Bullinger, wenn auch verspätet, für das geschenkte Buch [„De origine erroris“?] und rühmt seine
-								Fähigkeiten, für die ganz <placeName ref="place10">Europa</placeName> dankbar sein kann; sieht ihn
-								als Propheten und Bewahrer des Erbes von <persName ref="person265">Zwingli</persName> und
-								<persName ref="person160">Oekolampad</persName> und bewundert ihn mehr noch als so hervorragende Männer wie
-								<persName ref="person226">Vadian</persName> und andere. Über die Errichtung der Schule wird
-								<persName ref="person21">Johannes Blasius</persName>, der
-								<persName ref="person168">Nikolaus [Pfister</persName>, gen.] Baling
-								zurückholt, mündlich berichten.
+								Fähigkeiten, für die ganz <placeName>Europa</placeName> dankbar sein kann; sieht ihn
+								als Propheten und Bewahrer des Erbes von <persName ref="p4091">Zwingli</persName> und
+								<persName ref="p2442">Oekolampad</persName> und bewundert ihn mehr noch als so hervorragende Männer wie
+								<persName ref="p8049">Vadian</persName> und andere. Über die Errichtung der Schule wird
+								<persName ref="p396">Johannes Blasius</persName>, der
+								<persName ref="p2600">Nikolaus [Pfister, gen.] Baling</persName> zurückholt, mündlich berichten.
 							</p>
 						</summary>
 						<msItem>
@@ -57,7 +52,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 14–16, Nr. 13</title>
+								<title>Graubünden BW I, S.14–16, Nr. 13</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -67,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11330">
 				<correspAction type="sent">
-					<persName ref="person1262" cert="high">
+					<persName ref="p1262" cert="high">
 						<!--
 						<surname cert="high">Gallicius</surname>
 						<forename cert="high">Philipp</forename>
@@ -77,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415068"/>
 						-->
 					</persName>
-					<placeName source="place308" cert="high"><orig>Malans</orig></placeName>
+					<placeName source="l308" cert="high"><orig>Malans</orig></placeName>
 					<date when="1539-07-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

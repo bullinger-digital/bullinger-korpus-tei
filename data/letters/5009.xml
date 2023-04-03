@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN [Johannes Calvin], 5. Oktober 1561</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5859/194</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,451</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XIX, S. 16f, Nr. 3549</title>
+								<title>C.O. XIX, S.16f, Nr. 3549</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Teilregest">
 								<title>H. Gmiterek, Marcin Czechowic, in: Bibl. dissidentium 14 (1992), 21</title>
@@ -54,14 +53,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 102,18</idno>
 					</msIdentifier>
 				</msDesc>
@@ -70,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5009">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -80,11 +79,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1561-10-05" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person540" cert="low">
+					<persName ref="p540" cert="low">
 						<!--
 						<surname cert="low">Calvin</surname>
 						<forename cert="low">Johannes</forename>
@@ -119,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -135,7 +134,7 @@
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Oro autem dominum ut is dirigat negotium sane exspectationis maximę.</s>
-					<s n="4" xml:lang="la" type="auto">Nihil sane a te dissentio qui toto coelo eos errare<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 1, 49 (LB II 48).</note> arbitraris qui iam sibi sequritatem pollicentur et veritatem vicisse in Gallia.</s>
+					<s n="4" xml:lang="la" type="auto">Nihil sane a te dissentio qui toto coelo eos errare<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 1, 49 (<bibl>LB</bibl> II 48).</note> arbitraris qui iam sibi sequritatem pollicentur et veritatem vicisse in Gallia.</s>
 					<s n="5" xml:lang="la" type="auto">Agnosco sane veritatem Christi nunquam non vincere, sed historia omnium temporum testatur quanta cum molestia, quantis cum difficultatibus mendacium loco depulsum sit sua.</s>
 				</p>
 				<p>

@@ -6,62 +6,60 @@
 				<title subtype="file">Johannes Frosch / Reichenweier AN s.n. / [Zürich], 15. Juni 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=846</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">333</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,127</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Gibt <persName ref="person188">Erasmus [Schmid]</persName> diesen
+								Gibt <persName ref="p8437">Erasmus [Schmid]</persName> diesen
 								Brief mit, weil er für dessen Arbeit danken, aber auch um dessen Rückkehr bitten möchte, denn der
 								vorzügliche Mann hat unter dem rauhen Volk äußerst fruchtbar gewirkt; ersucht die Zürcher eindringlich, den
-								Rat dazu zu bewegen, <persName ref="person188">Schmid</persName> noch für einige Jahre freizustellen.
+								Rat dazu zu bewegen, <persName ref="p8437">Schmid</persName> noch für einige Jahre freizustellen.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 846, S.333</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10885">
 				<correspAction type="sent">
-					<persName ref="person1047" cert="high">
+					<persName ref="p1047" cert="high">
 						<!--
 						<surname cert="high">Frosch</surname>
 						<forename cert="high">Johannes</forename>
@@ -69,13 +67,13 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/122468368"/>
 						-->
 					</persName>
-					<placeName source="place411" cert="high"><orig>Reichenweier</orig></placeName>
+					<placeName source="l411" cert="high"><orig>Reichenweier</orig></placeName>
 					<date when="1536-06-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role49" type="pl" role="Pfarrer" cert="high"/>
-					<roleName ref="role45" type="pl" role="Lehrer" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<roleName ref="g45" type="pl" role="Lehrer" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10886"/>
@@ -91,7 +89,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -103,11 +101,11 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">Salutem a deo per suum ipsius Christum.</s>
-					<s n="2" xml:lang="la" type="auto">Veritus sum, ne vos (venerabiles viri, pręceptores et fratres in Christo dilectissimi) vel ingratitudinis vel negligentię me accusaretis, si <persName ref="person188">Erasmo</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="person188">Erasmus Schmid</persName>.</note> illi nostro ad vos proficiscenti literas non dedissem, quum tot menses iam literas ad vos dederim nullas<note xml:id="fn2" type="footnote" n="2">Bekannt sind nur die von <persName ref="person70">Froschs</persName> Hand stammenden Briefe der Reichenweirer Pfarrer an die Zürcher vom 16. September und vom 4. Oktober 1535 (HBBW V, <ref target="file10688">Nr. 650</ref> und 658).</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Quanquam sane mei causa nullis modo literis apud vos opus erat, quod <persName ref="person188">Erasmus</persName> ipse mea sit apud vos futurus epistola, ut qui optime cognovit, quo ingenio quove sim in vos animo, tamen non potui non scribere, modo gratarer vobis super <persName ref="person188">Erasmo</persName> hactenus ad nos deducto, modo iterum expeterem illum a vobis apostolum nobis remittendum<note xml:id="fn3" type="footnote" n="3">Der vom Zürcher Rat bewilligte Einsatz <persName ref="person188">Schmids</persName> im Herrschaftsgebiet von <persName ref="person77">Georg</persName> von Württemberg war bis zum 24. Juni 1536 befristet (vgl. oben <ref target="file10875">Nr. 836</ref> mit Anm. 11).</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Veritus sum, ne vos (venerabiles viri, pręceptores et fratres in Christo dilectissimi) vel ingratitudinis vel negligentię me accusaretis, si <persName ref="p8437">Erasmo</persName><note xml:id="fn1" type="footnote" n="1"><persName>Erasmus Schmid</persName>.</note> illi nostro ad vos proficiscenti literas non dedissem, quum tot menses iam literas ad vos dederim nullas<note xml:id="fn2" type="footnote" n="2">Bekannt sind nur die von <persName ref="p5066">Froschs</persName> Hand stammenden Briefe der Reichenweirer Pfarrer an die Zürcher vom 16. September und vom 4. Oktober 1535 (<bibl>HBBW</bibl> V, <ref target="file10688">Nr. 650</ref> und 658).</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Quanquam sane mei causa nullis modo literis apud vos opus erat, quod <persName ref="p8437">Erasmus</persName> ipse mea sit apud vos futurus epistola, ut qui optime cognovit, quo ingenio quove sim in vos animo, tamen non potui non scribere, modo gratarer vobis super <persName ref="p8437">Erasmo</persName> hactenus ad nos deducto, modo iterum expeterem illum a vobis apostolum nobis remittendum<note xml:id="fn3" type="footnote" n="3">Der vom Zürcher Rat bewilligte Einsatz <persName>Schmids</persName> im Herrschaftsgebiet von <persName>Georg von Württemberg</persName> war bis zum 24. Juni 1536 befristet (vgl. oben <ref target="file10875">Nr. 836</ref> mit Anm. 11).</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Nam illud haudquaquam silentio prętereundum est, quod ille non solum eruditione, pietate ac omnis generis virtutibus commendatum se pręstitit, verum etiam sudando, docendo, vigilando et sufferendo sese talem exhibuit, ut omnes in admirationem sui rapuerit, et non potuerit non multum fructus Christo adtulisse, id quod in rudi plebecula nos officiis pręfecti quotidie experimur.</s>
 					<s n="5" xml:lang="la" type="auto">Et hoc est testimonium, quod nos illi damus.</s>
-					<s n="6" xml:lang="la" type="auto">Quamobrem, quoad mea interest, vos omnes (viri doctissimi simul atque integerrimi) per necessitudinem et unionem illam, quam nostra, <persName ref="person188">Erasmo</persName> mediante, cum vestra contraxit ecclesia, obsecro et obtestor, velitis apud inclytum urbis Tigurinę senatum et magistratus huius negocii curam arripere et, si quid Poteritis, persuadere et efficere, ut <persName ref="person188">Erasmus</persName> noster nobis in aliquot annos a piis magistratibus vestris remittatur<note xml:id="fn4" type="footnote" n="4">Zur Sache vgl. im weiteren die Briefe <ref target="file10887">Nr. 848</ref> und 854.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Quamobrem, quoad mea interest, vos omnes (viri doctissimi simul atque integerrimi) per necessitudinem et unionem illam, quam nostra, <persName ref="p8437">Erasmo</persName> mediante, cum vestra contraxit ecclesia, obsecro et obtestor, velitis apud inclytum urbis Tigurinę senatum et magistratus huius negocii curam arripere et, si quid Poteritis, persuadere et efficere, ut <persName ref="p8437">Erasmus</persName> noster nobis in aliquot annos a piis magistratibus vestris remittatur<note xml:id="fn4" type="footnote" n="4">Zur Sache vgl. im weiteren die Briefe <ref target="file10887">Nr. 848</ref> und 854.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Quod quidem in laudem et gloriam nominis dei et animarum salutem fęliciter est cessurum; vos vero vestro verbi divini propagandi officio hac ratione minime deeritis, quod michi tam gratum futurum est quam quę gratissima.</s>
 				</p>
 				<p>
@@ -117,7 +115,7 @@
 					<s n="9" xml:lang="la" type="auto">Ex Richevilla, 15. iunii anno etc. 36.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><persName ref="person70">Johannes Froschius</persName>, quęstor et annonę Richevillensis pręfectus.</s>
+					<s n="10" xml:lang="la" type="auto"><persName ref="p1047">Johannes Froschius</persName>, quęstor et annonę Richevillensis pręfectus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

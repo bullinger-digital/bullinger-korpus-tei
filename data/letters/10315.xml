@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 10. November 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=284</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">227</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,125</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,9 +38,8 @@
 							<p xml:id="regest1">
 								Die Feinde der Reformation betreiben ihr Werk konsequent, die Reformierten dagegen sind ratlos. Gott hilft
 								nur dem, der sich selbst hilft; das sollte dem Volk beigebracht werden. In der kritischen Lage der
-								Reformation in <placeName ref="place83">Solothurn</placeName> ist von Zürich wenig Gutes zu erwarten,
-								wenn sich neulich sogar der Tagsatzungsbote [Johannes]
-								<persName ref="person87">Haab</persName> für die Nachgiebigkeit und gegen «die Pfaffen» geäußert hat. Bitte
+								Reformation in <placeName>Solothurn</placeName> ist von Zürich wenig Gutes zu erwarten,
+								wenn sich neulich sogar der Tagsatzungsbote <persName ref="p1419">[Johannes] Haab</persName> für die Nachgiebigkeit und gegen «die Pfaffen» geäußert hat. Bitte
 								um Nachrichten.
 							</p>
 						</summary>
@@ -62,6 +52,9 @@
 							<bibl type="Gedruckt" subtype="Teilübersetzung">
 								<title>Rudolf, Aussöhnungsversuch 509f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 284, S.227</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -70,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10315">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -81,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1533-11-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -121,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -141,10 +134,10 @@
 					<s n="7" xml:lang="la" type="auto">Impietas videtur haec mihi potius quam quidpiam aliud, quia tentatur deus haud aliter, atque si in aquam decidens, ubi natando queas emergere, expectas, dum deus te servet et extrahat.</s>
 					<s n="8" xml:lang="la" type="auto">Haec docenda sunt apud populum, usque dum rem paenitus habeant cognitam.</s>
 					<s n="9" xml:lang="la" type="auto">Hisce diebus dum rogo, quonam pacto se gerat senatus Tigurinus in tumultu Salodorensium<note xml:id="fn1" type="footnote" n="1">Vgl. <hi>Haefliger</hi> 166-199.</note>, respondet vir<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> bonus, integer, authoritatis magnae: «Nihil equidem pii iamdum audivi, sed quid audirem?</s>
-					<s n="10" xml:lang="la" type="auto">Habeus<note xml:id="fn3" type="footnote" n="3"><persName ref="person87">Johannes Haab</persName>.</note>, alter ex legatis, qui iam Salodori versantur<note xml:id="fn4" type="footnote" n="4">Vgl. EA IV/1c 175.</note>, nuper in <placeName ref="place85">Baden</placeName> dixit:</s> 
-					<s n="11" xml:lang="de" type="manual">Sammir botz<note xml:id="fn5" type="footnote" n="5">Fluchformel (s. SI IV 1996-1999 und VII 904-906).</note> etc., man wirt uns nummen als bald über einandren richten<note xml:id="fn6" type="footnote" n="6">Man wird uns nicht mehr sobald gegeneinander aufhetzen (SI VI 377).</note> von der pfaffen wegen!»</s> 
+					<s n="10" xml:lang="la" type="auto">Habeus<note xml:id="fn3" type="footnote" n="3"><persName ref="p5543">Johannes Haab</persName>.</note>, alter ex legatis, qui iam Salodori versantur<note xml:id="fn4" type="footnote" n="4">Vgl. <bibl>EA</bibl> IV/1c 175.</note>, nuper in <placeName>Baden</placeName> dixit:</s> 
+					<s n="11" xml:lang="de" type="manual">Sammir botz<note xml:id="fn5" type="footnote" n="5">Fluchformel (s. <bibl>SI</bibl> IV 1996-1999 und VII 904-906).</note> etc., man wirt uns nummen als bald über einandren richten<note xml:id="fn6" type="footnote" n="6">Man wird uns nicht mehr sobald gegeneinander aufhetzen (<bibl>SI</bibl> VI 377).</note> von der pfaffen wegen!»</s> 
 					<s n="12" xml:lang="la" type="auto">Vide, mi Bullingere, quid sit in hominibus pravi.</s>
-					<s n="13" xml:lang="la" type="auto">Si ille hoc dicit, et coram bonis viris quidem, qui putatur evangeliciss[imus]<note xml:id="fn7" type="footnote" n="7">Siehe HBBW II <ref target="file10121">[Nr. 92]</ref> 114, Anm. 20; vgl. <hi>Jacob</hi> 182.</note>, quid latet in aliis?</s>
+					<s n="13" xml:lang="la" type="auto">Si ille hoc dicit, et coram bonis viris quidem, qui putatur evangeliciss[imus]<note xml:id="fn7" type="footnote" n="7">Siehe <bibl>HBBW II</bibl> <ref target="file10121">[Nr. 92]</ref> 114, Anm. 20; vgl. <hi>Jacob</hi> 182.</note>, quid latet in aliis?</s>
 					<s n="14" xml:lang="la" type="auto">An propter nos isthaec miseria?</s>
 					<s n="15" xml:lang="la" type="auto">An dissensionem nos causa?</s>
 					<s n="16" xml:lang="la" type="auto">Misereatur nostri dominus<pb type="edition" next="228"/> et det, ut postquam semel didicimus misericordiae eius in nos magnitudinem, cognitio in nobis augescat ad vitae perfectionem, usque dum satis in hoc mundo pro nutu ipsius toleratum est.</s>
@@ -155,10 +148,10 @@
 					<s n="19" xml:lang="la" type="auto">Non est enim mihi solatium, si literas bonorum virorum dempseris.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 10. novembris anno 33.</s>
+					<s n="20" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 10. novembris anno 33.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="21" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

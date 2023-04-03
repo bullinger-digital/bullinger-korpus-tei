@@ -6,32 +6,31 @@
 				<title subtype="file">[Johannes a Lasco] / [London] AN Heinrich Bullinger / Zürich, s.d. Juni 1550</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">2031</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 80,250 f., 253 f. Nr. 131</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,10 +42,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XIII, S. 578ff, Nr. 1375</title>
+								<title>C.O. XIII, S.578ff, Nr. 1375</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Dalton, Lasciana, S. 321-329, Nr. 92</title>
+								<title>Dalton, Lasciana, S.321-329, Nr. 92</title>
 							</bibl>
 							<bibl type="Gedruckt">
 								<title>Scrinium IV 1, Groningen 1754, S. ? (nach alph. Schiess)</title>
@@ -62,7 +61,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/920">
 				<correspAction type="sent">
-					<persName ref="person224" cert="low">
+					<persName ref="p224" cert="low">
 						<!--
 						<surname cert="low">a Lasco</surname>
 						<forename cert="low">Johannes</forename>
@@ -72,11 +71,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/118726633"/>
 						-->
 					</persName>
-					<placeName source="place296" cert="low"><orig>London</orig></placeName>
+					<placeName source="l296" cert="low"><orig>London</orig></placeName>
 					<date notBefore="1550-06-01" notAfter="1550-06-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -86,7 +85,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file921"/>
@@ -114,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

@@ -6,67 +6,65 @@
 				<title subtype="file">Johannes Zwick / Konstanz AN [Heinrich Bullinger], 10. März 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=198</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">80</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,90v-r</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person51">Ulrich Eckstein</persName> ist undankbar für erwiesene Wohltaten.
-								<persName ref="person173">Paul Rasdorfer</persName> ist als Pfarrer nach
-								<placeName ref="place544">Kempten</placeName> gewählt worden. Die dortigen Streitigkeiten. Der
-								<placeName ref="place917">Rottweiler</placeName> Pfarrer
-								[<persName ref="person2264">Stücklin</persName>] ist wieder zur päpstlichen Lehre zurückgekehrt.
-								Zusammenkunft zwischen <persName ref="person1332">Karl V</persName> und
-								<persName ref="person635">Clemens VII.</persName>
-								<persName ref="person138">Luthers</persName> Schrift an die
-								<placeName ref="place361">Frankfurter</placeName>.
+								<persName ref="p1040">Ulrich Eckstein</persName> ist undankbar für erwiesene Wohltaten.
+								<persName ref="p8426">Paul Rasdorfer</persName> ist als Pfarrer nach
+								<placeName>Kempten</placeName> gewählt worden. Die dortigen Streitigkeiten. Der
+								<placeName>Rottweiler</placeName> Pfarrer
+								[<persName>Stücklin</persName>] ist wieder zur päpstlichen Lehre zurückgekehrt.
+								Zusammenkunft zwischen <persName ref="p18538">Karl V</persName> und
+								<persName ref="p18451">Clemens VII.</persName>
+								<persName ref="p1974">Luthers</persName> Schrift an die
+								<placeName>Frankfurter</placeName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 198, S.80</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10229">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -75,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1533-03-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,35 +126,35 @@
 					<s n="1" xml:lang="la" type="auto">Salus per Christum, captivitatum nostrarum omnium liberatorem.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quod <persName ref="person265">Hulderichus</persName> Eckstain<note xml:id="fn1" type="footnote" n="1"><persName ref="person51">Ulrich Eckstein</persName> war aller Wahrscheinlichkeit nach im Herbst 1532 nach <placeName ref="place565">Konstanz</placeName> gekommen, wo er <persName ref="person263">Zwick</persName> kennenlernte, s. HBBW II 244, 2 und Anm. 2. 292, Anm. 1 und 3. 293, 15f.</note> literas meas<note xml:id="fn2" type="footnote" n="2">Wohl ein an Bullinger gerichteter, nicht erhaltener Brief, den <persName ref="person51">Eckstein</persName> hätte überbringen sollen.</note> perdidit, aut negligentia aut malitia hominis factum est.</s>
+					<s n="2" xml:lang="la" type="auto">Quod <persName ref="p4091">Hulderichus</persName> Eckstain<note xml:id="fn1" type="footnote" n="1"><persName>Ulrich Eckstein</persName> war aller Wahrscheinlichkeit nach im Herbst 1532 nach <placeName>Konstanz</placeName> gekommen, wo er <persName>Zwick</persName> kennenlernte, s. <bibl>HBBW</bibl> II 244, 2 und Anm. 2. 292, Anm. 1 und 3. 293, 15f.</note> literas meas<note xml:id="fn2" type="footnote" n="2">Wohl ein an Bullinger gerichteter, nicht erhaltener Brief, den <persName>Eckstein</persName> hätte überbringen sollen.</note> perdidit, aut negligentia aut malitia hominis factum est.</s>
 					<s n="3" xml:lang="la" type="auto">Negligentiae indulgendum quidem, malicię non item.</s>
 					<s n="4" xml:lang="la" type="auto">Ego vero neutram culpam timeo.</s>
 					<s n="5" xml:lang="la" type="auto">Quamvis enim nesciam, quid scripserim, tamen scio me nihil mendaciter scripsisse.</s>
-					<s n="6" xml:lang="la" type="auto">Amavi hominem non ob ingenium, sed miseriam<note xml:id="fn3" type="footnote" n="3">Über <persName ref="person51">Ecksteins</persName> Schicksal s. dessen Brief an Bullinger von Ende 1532 (HBBW II <ref target="file10197">Nr. 166</ref>).</note>, et quotquot nostrum sunt, studuimus in bono vincere malum<note xml:id="fn4" type="footnote" n="4">Vgl. Röm 12, 21.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Amavi hominem non ob ingenium, sed miseriam<note xml:id="fn3" type="footnote" n="3">Über <persName>Ecksteins</persName> Schicksal s. dessen Brief an Bullinger von Ende 1532 (<bibl>HBBW II</bibl> <ref target="file10197">Nr. 166</ref>).</note>, et quotquot nostrum sunt, studuimus in bono vincere malum<note xml:id="fn4" type="footnote" n="4">Vgl. Röm 12, 21.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Nunc audio illum nostrę beneficentiae insigniter ingratum, sed hoc non nisi suo malo<note xml:id="fn5" type="footnote" n="5">Zur Angelegenheit ist sonst nichts bekannt.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Valeat autem in domino.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person173">Paulus Rasdorfer</persName> Campidone<note xml:id="fn6" type="footnote" n="6">Zu den unten geschilderten Streitigkeiten zwischen Zwinglianern und Lutheranern in <placeName ref="place544">Kempten</placeName> im Allgäu s. <hi>Erhard,</hi> Sakramentsstreitigkeiten und <hi>Köhler,</hi> ZL II 315-319.</note> electus est in ministrum verbi dei ablegatis duobus istis<note xml:id="fn7" type="footnote" n="7">Am 31. Januar 1533 wurden die lutherisch gesinnten Prediger <persName ref="person2145">Johannes Seger</persName> und <persName ref="person1962">Johannes Rottach</persName> vom <placeName ref="place544">Kemptener</placeName> Rat ihres Amtes entsetzt, s. <hi>Erhard,</hi> Sakramentsstreitigkeiten 168f; <hi>Erhard,</hi> Reformation 37; <hi>Köhler,</hi> ZL II 318.</note>, qui partes foverunt Lutheranas, idque divino consilio.</s>
-					<s n="10" xml:lang="la" type="auto">Scripserant enim Campidonenses Nurenbergensibus, <placeName ref="place70">Augustanis</placeName> et <placeName ref="place1049">Argentoratensibus</placeName>, ut pro ecclesiae suae concordia consulerent, quę verior esset in negotio sacramenti sententia<note xml:id="fn8" type="footnote" n="8">Am 29. November 1532 waren die Abendmahlsbekenntnisse der drei <placeName ref="place544">Kemptener</placeName> Prediger Haistung, <persName ref="person2145">Seger</persName> und <persName ref="person1962">Rottach</persName> nach <placeName ref="place795">Nürnberg</placeName>, <placeName ref="place70">Augsburg</placeName> und <placeName ref="place1049">Straßburg</placeName> geschickt worden, um von den dortigen Theologen begutachtet zu werden, s. <hi>Erhard,</hi> Sakramentsstreitigkeiten 161f; <hi>Erhard,</hi> Reformation 34f; <hi>Köhler,</hi> ZL II 317.</note>.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p8426">Paulus Rasdorfer</persName> Campidone<note xml:id="fn6" type="footnote" n="6">Zu den unten geschilderten Streitigkeiten zwischen Zwinglianern und Lutheranern in <placeName>Kempten</placeName> im Allgäu s. <hi>Erhard,</hi> Sakramentsstreitigkeiten und <hi>Köhler,</hi> ZL II 315-319.</note> electus est in ministrum verbi dei ablegatis duobus istis<note xml:id="fn7" type="footnote" n="7">Am 31. Januar 1533 wurden die lutherisch gesinnten Prediger <persName>Johannes Seger</persName> und <persName>Johannes Rottach</persName> vom <placeName>Kemptener</placeName> Rat ihres Amtes entsetzt, s. <hi>Erhard,</hi> Sakramentsstreitigkeiten 168f; <hi>Erhard,</hi> Reformation 37; <hi>Köhler,</hi> ZL II 318.</note>, qui partes foverunt Lutheranas, idque divino consilio.</s>
+					<s n="10" xml:lang="la" type="auto">Scripserant enim Campidonenses Nurenbergensibus, <placeName>Augustanis</placeName> et <placeName>Argentoratensibus</placeName>, ut pro ecclesiae suae concordia consulerent, quę verior esset in negotio sacramenti sententia<note xml:id="fn8" type="footnote" n="8">Am 29. November 1532 waren die Abendmahlsbekenntnisse der drei <placeName>Kemptener</placeName> Prediger Haistung, <persName>Seger</persName> und <persName>Rottach</persName> nach <placeName>Nürnberg</placeName>, <placeName>Augsburg</placeName> und <placeName>Straßburg</placeName> geschickt worden, um von den dortigen Theologen begutachtet zu werden, s. <hi>Erhard,</hi> Sakramentsstreitigkeiten 161f; <hi>Erhard,</hi> Reformation 34f; <hi>Köhler,</hi> ZL II 317.</note>.</s>
 					<s n="11" xml:lang="la" type="auto">Nam<pb type="edition" next="81"/> et ministri ecclesiae in hoc negotio dissenserunt obtinentibus tamen Lutheranis.</s>
-					<s n="12" xml:lang="la" type="auto"><placeName ref="place70">Augustani</placeName> toti consenserunt sententiae nostrae<note xml:id="fn9" type="footnote" n="9"><placeName ref="place70">Augsburgs</placeName> Antwort ist nicht erhalten, war aber offenbar ganz zugunsten der zwinglianischen Auffassung <persName ref="person89">Haistungs</persName> abgefaßt, s. <hi>Erhard,</hi> Sakramentsstreitigkeiten 162.</note>, Nurenbergenses toti sententiae contrariae<note xml:id="fn10" type="footnote" n="10"><placeName ref="place795">Nürnbergs</placeName> Gutachten vom 13. Dezember 1532 unterstützte deutlich die Lutheraner <persName ref="person2145">Seger</persName> und <persName ref="person1962">Rottach</persName>, s. <hi>Erhard,</hi> Sakramentsstreitigkeiten 162-164.</note><note xml:id="fn11" type="footnote" n="11">Das <placeName ref="place1049">Straßburger</placeName> Gutachten, datiert vom 31. Dezember 1532 (Abschrift in Zürich ZB, Ms S 32, <ref target="file10224">Nr. 193</ref>), enthielt eine vermittelnde Stellungnahme Bucerscher Art, die als Grundlage für eine Einigung zwischen den <placeName ref="place544">Kemptener</placeName> Pfarrern diente, s. die Zusammenfassung durch <persName ref="person28">Bucer</persName> in dessen Brief an <persName ref="person19">Blarer</persName> vom 4. Januar 1533 (<persName ref="person19">Blarer</persName> BW I 375-377); <hi>Erhard,</hi> Sakramentsstreitigkeiten 165-167; <hi>Köhler,</hi> ZL II 318.</note>.</s>
-					<s n="13" xml:lang="la" type="auto"><placeName ref="place1049">Argentoratenses</placeName> nostrę quoque adstipulati sunt firmiter adiuncta tamen amica exhortatione pro ecclesiae pace, et illorum consilium (neglectis prioribus<note xml:id="fn12" type="footnote" n="12">Die beiden andern Gutachten wurden vom Rat geheim gehalten, s. <persName ref="person19">Blarer</persName> an <persName ref="person28">Bucer</persName>, 15. März 1533 (<persName ref="person19">Blarer</persName> BW I 386); <hi>Erhard,</hi> Sakramentsstreitigkeiten 167.</note>) ministris utriusque partis praelectum est.</s>
+					<s n="12" xml:lang="la" type="auto"><placeName>Augustani</placeName> toti consenserunt sententiae nostrae<note xml:id="fn9" type="footnote" n="9"><placeName>Augsburgs</placeName> Antwort ist nicht erhalten, war aber offenbar ganz zugunsten der zwinglianischen Auffassung <persName ref="p7598">Haistungs</persName> abgefaßt, s. <hi>Erhard,</hi> Sakramentsstreitigkeiten 162.</note>, Nurenbergenses toti sententiae contrariae<note xml:id="fn10" type="footnote" n="10"><placeName>Nürnbergs</placeName> Gutachten vom 13. Dezember 1532 unterstützte deutlich die Lutheraner <persName>Seger</persName> und <persName>Rottach</persName>, s. <hi>Erhard,</hi> Sakramentsstreitigkeiten 162-164.</note><note xml:id="fn11" type="footnote" n="11">Das <placeName>Straßburger</placeName> Gutachten, datiert vom 31. Dezember 1532 (Abschrift in Zürich ZB, Ms S 32, <ref target="file10224">Nr. 193</ref>), enthielt eine vermittelnde Stellungnahme Bucerscher Art, die als Grundlage für eine Einigung zwischen den <placeName>Kemptener</placeName> Pfarrern diente, s. die Zusammenfassung durch <persName ref="p18198">Bucer</persName> in dessen Brief an <persName>Blarer</persName> vom 4. Januar 1533 (<persName>Blarer</persName> BW I 375-377); <hi>Erhard,</hi> Sakramentsstreitigkeiten 165-167; <hi>Köhler,</hi> ZL II 318.</note>.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName>Argentoratenses</placeName> nostrę quoque adstipulati sunt firmiter adiuncta tamen amica exhortatione pro ecclesiae pace, et illorum consilium (neglectis prioribus<note xml:id="fn12" type="footnote" n="12">Die beiden andern Gutachten wurden vom Rat geheim gehalten, s. <persName>Blarer</persName> an <persName ref="p18198">Bucer</persName>, 15. März 1533 (<persName>Blarer</persName> BW I 386); <hi>Erhard,</hi> Sakramentsstreitigkeiten 167.</note>) ministris utriusque partis praelectum est.</s>
 					<s n="14" xml:lang="la" type="auto">Qui nostrae partis est, obviis ulnis complexus est istud, qui adversariae partis, similiter.</s>
-					<s n="15" xml:lang="la" type="auto">Sed post dies paucos cecinerunt palinodiam<note xml:id="fn13" type="footnote" n="13">widerrufen, s. Adagia, 1, 9, 59 (LB II 356 A-B).</note>.</s>
+					<s n="15" xml:lang="la" type="auto">Sed post dies paucos cecinerunt palinodiam<note xml:id="fn13" type="footnote" n="13">widerrufen, s. <bibl>Adagia</bibl>, 1, 9, 59 (<bibl>LB</bibl> II 356 A-B).</note>.</s>
 					<s n="16" xml:lang="la" type="auto">Magistratus itaque indignatione motus utrosque privarunt officio<note xml:id="fn14" type="footnote" n="14">Siehe oben Anm. 7.</note>.</s>
-					<s n="17" xml:lang="la" type="auto">Hoc sciens ego curavi, ut ex <placeName ref="place1113">Ulma</placeName> vocaretur <persName ref="person173">Paulus</persName><note xml:id="fn15" type="footnote" n="15"><persName ref="person173">Paul Rasdorfer</persName>.</note>.</s>
+					<s n="17" xml:lang="la" type="auto">Hoc sciens ego curavi, ut ex <placeName>Ulma</placeName> vocaretur <persName ref="p8426">Paulus</persName><note xml:id="fn15" type="footnote" n="15"><persName>Paul Rasdorfer</persName>.</note>.</s>
 					<s n="18" xml:lang="la" type="auto">Utinam felix et fausta sit vocatio.</s>
-					<s n="19" xml:lang="la" type="auto">Nunc de Vito<note xml:id="fn16" type="footnote" n="16"><persName ref="person116">Georg Veit Kappeler</persName> (Sacellius), von <placeName ref="place544">Kempten</placeName> (?), gest. nach 1556. 1510 studierte ein «Vitus Koppeler ex <placeName ref="place897">Riedlingen</placeName>» in <placeName ref="place1192">Wien</placeName> (<placeName ref="place1192">Wien</placeName>, Matrikel II 369). Ob er mit Kappeler identisch ist, bleibt ungewiß. Im April 1528 war Kappeler Pfarrer in <placeName ref="place1204">Witikon</placeName> (AZürcherRef 1391, S. 602), seit 1529 im thurgauischen <placeName ref="place272">Dießenhofen</placeName>, wo er im Februar 1533 auf eine Klage der Katholiken hin entlassen wurde. Nach kurzem Aufenthalt in <placeName ref="place565">Konstanz</placeName> kam er im Sommer 1533 als Pfarrer nach <placeName ref="place544">Kempten</placeName>. Seit 1535 versah er Pfarrstellen an verschiedenen Orten <placeName ref="place100">Württembergs</placeName>. 1548 wurde er aus <placeName ref="place579">Köngen</placeName> vertrieben, hielt sich dann in <placeName ref="place336">Esslingen</placeName> auf (Brief an Bullinger vom 27. August 1549, Zürich StA, E II 356, 86) und wurde im selben Jahr Pfarrer in <placeName ref="place147">Bittenfeld</placeName> (<placeName ref="place100">Württemberg</placeName>), später wechselte er in andere Gemeinden. Es ist nicht bekannt, bei welcher Gelegenheit Bullinger und Kappeler sich kennenlernten. Einige Briefe Kappelers an Bullinger sind erhalten. Mit <persName ref="person2007">Vitus Sacellus</persName>, Lehrer in <placeName ref="place243">Chur</placeName>, der Bullinger am 19. Februar 1544 schreibt (Graubünden, Korr. I 61-63), ist Kappeler nicht identisch, wie ein Schriftvergleich ergibt. - Lit.: <persName ref="person19">Blarer</persName> BW I und II, Reg.; <hi>Erhard,</hi> Reformation 38f. 43; <hi>Knittel,</hi> Kirche 107f (hier wird allerdings Kappelers Konflikt in <placeName ref="place272">Dießenhofen</placeName> mit jenem seines Nachfolgers, Heinrich Benker, vermengt); Sulzberger 113; Heinrich Neu, Pfarrerbuch der evangelischen Kirche Badens von der Reformation bis zur Gegenwart, Teil II: Das alphabetische Verzeichnis der Geistlichen mit biographischen Angaben, Lahr 1939, S. 93; Pfarrerbuch 372 (mit widersprüchlichen Angaben).</note> quoque, qui fuit in <placeName ref="place272">Diessenhofen</placeName>, sollicitus sum.</s>
+					<s n="19" xml:lang="la" type="auto">Nunc de Vito<note xml:id="fn16" type="footnote" n="16"><persName>Georg Veit Kappeler (Sacellius)</persName>, von <placeName>Kempten</placeName> (?), gest. nach 1556. 1510 studierte ein «Vitus Koppeler ex <placeName>Riedlingen</placeName>» in <placeName>Wien</placeName> (<placeName>Wien</placeName>, Matrikel II 369). Ob er mit Kappeler identisch ist, bleibt ungewiß. Im April 1528 war Kappeler Pfarrer in <placeName>Witikon</placeName> (<bibl>AZürcherRef</bibl> 1391, S. 602), seit 1529 im thurgauischen <placeName>Dießenhofen</placeName>, wo er im Februar 1533 auf eine Klage der Katholiken hin entlassen wurde. Nach kurzem Aufenthalt in <placeName>Konstanz</placeName> kam er im Sommer 1533 als Pfarrer nach <placeName>Kempten</placeName>. Seit 1535 versah er Pfarrstellen an verschiedenen Orten <placeName>Württembergs</placeName>. 1548 wurde er aus <placeName>Köngen</placeName> vertrieben, hielt sich dann in <placeName>Esslingen</placeName> auf (Brief an Bullinger vom 27. August 1549, Zürich StA, E II 356, 86) und wurde im selben Jahr Pfarrer in <placeName>Bittenfeld</placeName> (<placeName>Württemberg</placeName>), später wechselte er in andere Gemeinden. Es ist nicht bekannt, bei welcher Gelegenheit Bullinger und Kappeler sich kennenlernten. Einige Briefe Kappelers an Bullinger sind erhalten. Mit <persName>Vitus Sacellus</persName>, Lehrer in <placeName>Chur</placeName>, der Bullinger am 19. Februar 1544 schreibt (<bibl>Graubünden, Korr.</bibl> I 61-63), ist Kappeler nicht identisch, wie ein Schriftvergleich ergibt. - Lit.: <persName>Blarer</persName> BW I und II, Reg.; <hi>Erhard,</hi> Reformation 38f. 43; <hi>Knittel,</hi> Kirche 107f (hier wird allerdings Kappelers Konflikt in <placeName>Dießenhofen</placeName> mit jenem seines Nachfolgers, Heinrich Benker, vermengt); Sulzberger 113; Heinrich Neu, Pfarrerbuch der evangelischen Kirche Badens von der Reformation bis zur Gegenwart, Teil II: Das alphabetische Verzeichnis der Geistlichen mit biographischen Angaben, Lahr 1939, S. 93; Pfarrerbuch 372 (mit widersprüchlichen Angaben).</note> quoque, qui fuit in <placeName>Diessenhofen</placeName>, sollicitus sum.</s>
 					<s n="20" xml:lang="la" type="auto">Dominus autem emittat operarios in messem suam<note xml:id="fn17" type="footnote" n="17">Mt 9, 38 par.</note>.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto"><pb type="edition" next="82"/><pb type="scan" next="||90r."/>Parochus Rotwilensis<note xml:id="fn18" type="footnote" n="18"><persName ref="person2264">Konrad Stücklin</persName> (Stuckli) von <placeName ref="place986">Sigmaringen</placeName>, war seit 1527 Pfarrer in <placeName ref="place917">Rottweil</placeName>, wo er für die Reformation eintrat. Streitigkeiten mit der katholischen Mehrheit führten dazu, daß Stücklin Anfang 1529 aus <placeName ref="place917">Rottweil</placeName> verbannt wurde. Im Sommer desselben Jahres hielt er sich in <placeName ref="place565">Konstanz</placeName> auf und kam dann als evangelischer Prädikant ins thurgauische Zisterzienserinnenkloster <placeName ref="place349">Feldbach</placeName>. Stücklins Konversion zum katholischen Glauben 1532/33 erregte Aufsehen. Er erhielt die Absolution durch den in <placeName ref="place652">Luzern</placeName> weilenden Nuntius <persName ref="person835">Ennio Filonardi</persName> und wurde als Priester in <placeName ref="place570">Kreuzlingen</placeName> eingesetzt. - Lit.: Z <hi>X</hi> 249f, Anm. 1; EA IV/1c 6 g.; Anshelm V 376f. VI 151f; Hans <hi>Baur,</hi> <placeName ref="place917">Rottweil</placeName> und Mülhausen. Was diese ehemaligen Schweizerstädte in Reformation und Gegenreformation erlebten, in: Schweizerisches Protestantenblatt, Jg. 55, 1932, S. 13f. 19.</note>, postquam suos misere seduxit multosque fecit exules<note xml:id="fna" type="footnote" n="a">multosque fecit exules <hi>darübergeschrieben.</hi></note><note xml:id="fn19" type="footnote" n="19">Die reformierte Minderheit wurde im Sommer 1529 gefangengenommen und teilweise aus <placeName ref="place917">Rottweil</placeName> verbannt, s. Anshelm V 376f; HBRG II 219f; <hi>Baur,</hi> aaO, S. 21.</note>, nunc in hoc est, ut papatum repetat<note xml:id="fn20" type="footnote" n="20">Zu <persName ref="person2264">Stücklins</persName> Konversion s. oben Anm. 18.</note>.</s>
+					<s n="21" xml:lang="la" type="auto"><pb type="edition" next="82"/><pb type="scan" next="||90r."/>Parochus Rotwilensis<note xml:id="fn18" type="footnote" n="18"><persName>Konrad Stücklin (Stuckli)</persName> von <placeName>Sigmaringen</placeName>, war seit 1527 Pfarrer in <placeName>Rottweil</placeName>, wo er für die Reformation eintrat. Streitigkeiten mit der katholischen Mehrheit führten dazu, daß Stücklin Anfang 1529 aus <placeName>Rottweil</placeName> verbannt wurde. Im Sommer desselben Jahres hielt er sich in <placeName>Konstanz</placeName> auf und kam dann als evangelischer Prädikant ins thurgauische Zisterzienserinnenkloster <placeName>Feldbach</placeName>. Stücklins Konversion zum katholischen Glauben 1532/33 erregte Aufsehen. Er erhielt die Absolution durch den in <placeName>Luzern</placeName> weilenden Nuntius <persName>Ennio Filonardi</persName> und wurde als Priester in <placeName>Kreuzlingen</placeName> eingesetzt. - Lit.: <bibl>Z</bibl> <hi>X</hi> 249f, Anm. 1; <bibl>EA</bibl> IV/1c 6 g.; Anshelm V 376f. VI 151f; Hans <hi>Baur,</hi> <placeName>Rottweil</placeName> und Mülhausen. Was diese ehemaligen Schweizerstädte in Reformation und Gegenreformation erlebten, in: Schweizerisches Protestantenblatt, Jg. 55, 1932, S. 13f. 19.</note>, postquam suos misere seduxit multosque fecit exules<note xml:id="fna" type="footnote" n="a">multosque fecit exules <hi>darübergeschrieben.</hi></note><note xml:id="fn19" type="footnote" n="19">Die reformierte Minderheit wurde im Sommer 1529 gefangengenommen und teilweise aus <placeName>Rottweil</placeName> verbannt, s. Anshelm V 376f; <bibl>HBRG</bibl> II 219f; <hi>Baur,</hi> aaO, S. 21.</note>, nunc in hoc est, ut papatum repetat<note xml:id="fn20" type="footnote" n="20">Zu <persName>Stücklins</persName> Konversion s. oben Anm. 18.</note>.</s>
 					<s n="22" xml:lang="la" type="auto">Utinam nullos habeat comites.</s>
 				</p>
 				<p>
 					<s n="23" xml:lang="la" type="auto">De rebus cęsaris ne verbum audimus.</s>
-					<s n="24" xml:lang="la" type="auto">Tamen aliquid de colloquio cęsaris cum pontifice<note xml:id="fn21" type="footnote" n="21">Eine Zusammenkunft zwischen Kaiser <persName ref="person1332">Karl V.</persName> und <persName ref="person635">Papst Clemens VII.</persName> fand vom 13. Dezember 1532 bis zum 28. Februar 1533 in <placeName ref="place158">Bologna</placeName> statt. Dabei wurde u. a. auch die Frage nach der Einberufung eines Konzils erörtert; s. <hi>Pastor</hi> IV/2 468-473; <hi>Müller</hi> 229-237.</note> referet hic tabellio<note xml:id="fn22" type="footnote" n="22">Unbekannt.</note>.</s>
+					<s n="24" xml:lang="la" type="auto">Tamen aliquid de colloquio cęsaris cum pontifice<note xml:id="fn21" type="footnote" n="21">Eine Zusammenkunft zwischen <persName>Kaiser Karl V.</persName> und <persName>Papst Clemens VII.</persName> fand vom 13. Dezember 1532 bis zum 28. Februar 1533 in <placeName>Bologna</placeName> statt. Dabei wurde u. a. auch die Frage nach der Einberufung eines Konzils erörtert; s. <bibl>Pastor</bibl> IV/2 468-473; <bibl>Müller</bibl> 229-237.</note> referet hic tabellio<note xml:id="fn22" type="footnote" n="22">Unbekannt.</note>.</s>
 					<s n="25" xml:lang="la" type="auto">Quae ipse mihi ex te retulit, forte profutura sunt suo loco.</s>
 					<s n="26" xml:lang="la" type="auto">Habeo gratiam tibi pro sollicitudine.</s>
 					<s n="27" xml:lang="la" type="auto">Sed nos rogemus dominum, ne desit causae suae.</s>
@@ -166,26 +164,26 @@
 					<s n="31" xml:lang="la" type="auto">Utinam nos non sumus [!] ingrati beneficiis dei, et ille non defuturus est necessitatibus nostris.</s>
 				</p>
 				<p>
-					<s n="32" xml:lang="la" type="auto">Parenti meo <persName ref="person165">Pellicano</persName> dic mille salutes.</s>
+					<s n="32" xml:lang="la" type="auto">Parenti meo <persName ref="p8127">Pellicano</persName> dic mille salutes.</s>
 					<s n="33" xml:lang="la" type="auto">Dabit veniam, quod non proprias literas recipiat.</s>
 					<s n="34" xml:lang="la" type="auto">Tu quoque veniam dabis indoctis literis istis.</s>
-					<s n="35" xml:lang="la" type="auto">Vicisti me bonitate tua, ut anxie cupiam te invisere<note xml:id="fn24" type="footnote" n="24"><persName ref="person263">Zwick</persName> sah Bullinger erst bei dessen Besuch in <placeName ref="place565">Konstanz</placeName> im Oktober 1533 (HBD 23, 15-17).</note>.</s>
-					<s n="36" xml:lang="la" type="auto"><persName ref="person114">Leonem</persName><note xml:id="fn25" type="footnote" n="25"><persName ref="person114">Leo Jud</persName>.</note> quoque salvum volo, <persName ref="person14">Theodorum</persName><note xml:id="fn26" type="footnote" n="26"><persName ref="person14">Theodor Bibliander</persName>.</note>, <persName ref="person117">Carolstadium</persName> et omnes bonos fratres.</s>
+					<s n="35" xml:lang="la" type="auto">Vicisti me bonitate tua, ut anxie cupiam te invisere<note xml:id="fn24" type="footnote" n="24"><persName>Zwick</persName> sah Bullinger erst bei dessen Besuch in <placeName>Konstanz</placeName> im Oktober 1533 (<bibl>HBD</bibl> 23, 15-17).</note>.</s>
+					<s n="36" xml:lang="la" type="auto"><persName ref="p1753">Leonem</persName><note xml:id="fn25" type="footnote" n="25"><persName ref="p2305">Leo Jud</persName>.</note> quoque salvum volo, <persName ref="p8171">Theodorum</persName><note xml:id="fn26" type="footnote" n="26"><persName>Theodor Bibliander</persName>.</note>, <persName ref="p4349">Carolstadium</persName> et omnes bonos fratres.</s>
 				</p>
 				<p>
-					<s n="37" xml:lang="la" type="auto"><persName ref="person138">Lutherus</persName> plus quam acerbum librum scripsit<note xml:id="fn27" type="footnote" n="27"><persName ref="person138">Luthers</persName> «Sendschreiben an die zu <placeName ref="place361">Frankfurt</placeName> a.M.», 1533, s. oben <ref target="file10222">[Nr. 191]</ref> S. 69, Anm. 5.</note>, fieri non posse, ut in hoc negotio sacramenti concordemus.</s>
-					<s n="38" xml:lang="de" type="auto">Er maint, mir muͤssind glouben, das wirs och mit dem mul essend, den liplichen lib Christi etc., und schribt, wir gangind mit Mum Mum Mum um<note xml:id="fn28" type="footnote" n="28">Zitat aus <persName ref="person138">Luthers</persName> Schrift, WA XXX/3 561, 4 und 25f.</note> etc.</s>
+					<s n="37" xml:lang="la" type="auto"><persName ref="p1974">Lutherus</persName> plus quam acerbum librum scripsit<note xml:id="fn27" type="footnote" n="27"><persName ref="p18889">Luthers</persName> «Sendschreiben an die zu <placeName>Frankfurt</placeName> a.M.», 1533, s. oben <ref target="file10222">[Nr. 191]</ref> S. 69, Anm. 5.</note>, fieri non posse, ut in hoc negotio sacramenti concordemus.</s>
+					<s n="38" xml:lang="de" type="auto">Er maint, mir muͤssind glouben, das wirs och mit dem mul essend, den liplichen lib Christi etc., und schribt, wir gangind mit Mum Mum Mum um<note xml:id="fn28" type="footnote" n="28">Zitat aus <persName ref="p18889">Luthers</persName> Schrift, <bibl>WA</bibl> XXX/3 561, 4 und 25f.</note> etc.</s>
 					<s n="39" xml:lang="la" type="auto">Sed hoc ad te.</s>
-					<s n="40" xml:lang="la" type="auto">Ego pro meo exiguo iuditio nolim illi quemquam respondere<note xml:id="fn29" type="footnote" n="29">Vgl. die gleichlautenden Ratschläge <persName ref="person19">Blarers</persName> an <persName ref="person28">Bucer</persName> (<persName ref="person19">Blarer</persName> BW I 386) und Bullinger (unten S. 88, 17-29), nicht auf <persName ref="person138">Luthers</persName> Vorwürfe einzugehen, um bei den Gegnern nicht den Eindruck der Uneinigkeit zu erwecken.</note>.</s>
+					<s n="40" xml:lang="la" type="auto">Ego pro meo exiguo iuditio nolim illi quemquam respondere<note xml:id="fn29" type="footnote" n="29">Vgl. die gleichlautenden Ratschläge <persName>Blarers</persName> an <persName ref="p18198">Bucer</persName> (<persName>Blarer</persName> BW I 386) und Bullinger (unten S. 88, 17-29), nicht auf <persName ref="p18889">Luthers</persName> Vorwürfe einzugehen, um bei den Gegnern nicht den Eindruck der Uneinigkeit zu erwecken.</note>.</s>
 				</p>
 				<p>
 					<s n="41" xml:lang="la" type="auto">Parce insubide scriptioni et vale in Christo, servatore nostro.</s>
 				</p>
 				<p>
-					<s n="42" xml:lang="la" type="auto"><placeName ref="place565">Constantiae</placeName> etc., 10. martii 1533.</s>
+					<s n="42" xml:lang="la" type="auto"><placeName>Constantiae</placeName> etc., 10. martii 1533.</s>
 				</p>
 				<p>
-					<s n="43" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zwick</persName>.</s>
+					<s n="43" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zwick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Ohne Adresse.]</note>

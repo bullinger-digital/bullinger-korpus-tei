@@ -6,42 +6,38 @@
 				<title subtype="file">Nikolaus Pfister / Chur AN Heinrich Bullinger, zwischen 28. Oktober [1539] und 28. Oktober [1540]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1323</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">20</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 377,2589</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt den Klostervogt [<persName ref="person2340">Hans Tscharner</persName>]<note xml:id="fn2" type="footnote" n="2">Als Verwalter des aufgehobenen Klosters St. Nikolai war 1538 Hans Tscharner eingesetzt worden; s. <hi>Vasella,</hi> St. Nicolai 81. 148.</note>, der wegen
-								eines Geschäfts zu <persName ref="person891">Christoph Froschauer</persName> nach Zürich reist.
+								Empfiehlt den Klostervogt [<persName ref="p3196">Hans Tscharner</persName>]<note xml:id="fn2" type="footnote" n="2">Als Verwalter des aufgehobenen Klosters St. Nikolai war 1538 Hans Tscharner eingesetzt worden; s. <hi>Vasella,</hi> St. Nicolai 81. 148.</note>, der wegen
+								eines Geschäfts zu <persName ref="p1227">Christoph Froschauer</persName> nach Zürich reist.
 							</p>
 						</summary>
 						<msItem>
@@ -51,7 +47,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 20, Nr. 16, Anhang</title>
+								<title>Graubünden BW I, S.20, Nr. 16, Anhang</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -61,18 +57,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11366">
 				<correspAction type="sent">
-					<persName ref="person2594" cert="high">
+					<persName ref="p2594" cert="high">
 						<!--
 						<surname cert="high">Pfister</surname>
 						<forename cert="high">Nikolaus</forename>
 						<persName type="main" ref="person8114>Pfister, Nikolaus</persName>
 						-->
 					</persName>
-					<placeName source="place98" cert="high"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date notBefore="1539-10-28" notAfter="1540-10-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -101,7 +97,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

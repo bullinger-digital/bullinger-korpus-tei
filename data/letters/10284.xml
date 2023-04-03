@@ -6,49 +6,40 @@
 				<title subtype="file">Veit Kappeler / Kempten im Allgäu AN Heinrich Bullinger, 20. August 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=253</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">169</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 345,207</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Findet in <placeName ref="place544">Kempten</placeName> befriedigende kirchliche Zustände vor und
+								Findet in <placeName>Kempten</placeName> befriedigende kirchliche Zustände vor und
 								glaubt, daß die früheren Streitigkeiten überwunden sind. Bittet inständig um Bullingers Hilfe, daß
-								<persName ref="person59">Benedikt Euander</persName> als Lehrer nach
-								<placeName ref="place544">Kempten</placeName> kommen kann. Ist enttäuscht über den diesbezüglichen
+								<persName ref="p1039">Benedikt Euander</persName> als Lehrer nach
+								<placeName>Kempten</placeName> kommen kann. Ist enttäuscht über den diesbezüglichen
 								negativen Bescheid der Zürcher. Befürchtet, daß ein Gegner der Pfarrer zum Lehrer gewählt werden könnte, was
 								neue Spannungen zur Folge hätte. Grüße. Bitte um Nachrichten aus
 								Zürich.
@@ -58,23 +49,30 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 253, S.169</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10284">
 				<correspAction type="sent">
-					<persName ref="person1767" cert="high">
+					<persName ref="p1767" cert="high">
 						<!--
 						<surname cert="high">Kappeler</surname>
 						<forename cert="high">Veit</forename>
 						-->
 					</persName>
-					<placeName source="place907" cert="high"><orig>Kempten im Allgäu</orig></placeName>
+					<placeName source="l907" cert="high"><orig>Kempten im Allgäu</orig></placeName>
 					<date when="1533-08-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -118,41 +116,41 @@
 					<s n="2" xml:lang="la" type="auto">Si vales, bene est, ego quidem valeo deo sic volente.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">A Constancia ex bona dei voluntate in evangelium Christi Campidonam vocatus<note xml:id="fn1" type="footnote" n="1"><persName ref="person116">Kappeler</persName> war vor dem 14. Juli 1533 nach <placeName ref="place544">Kempten</placeName> gekommen (s. oben <ref target="file10273">Nr. 242</ref>).</note>, ut nosti<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> nostin.</note>, candidissime frater, ecclesiam satis benevolam ex parte reperi, divini verbi avidissimam, quam etiam scito prius opinione Lutheriana dissectam<note xml:id="fn2" type="footnote" n="2">Zu den Streitigkeiten zwischen Lutheranern und Zwinglianern in <placeName ref="place544">Kempten</placeName> s. oben <ref target="file10229">[Nr. 198]</ref> S. 80, Anm. 6 und 7.</note>, nunc tandem gratia dei opitulante recolligendam censeo.</s>
+					<s n="3" xml:lang="la" type="auto">A Constancia ex bona dei voluntate in evangelium Christi Campidonam vocatus<note xml:id="fn1" type="footnote" n="1"><persName>Kappeler</persName> war vor dem 14. Juli 1533 nach <placeName>Kempten</placeName> gekommen (s. oben <ref target="file10273">Nr. 242</ref>).</note>, ut nosti<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> nostin.</note>, candidissime frater, ecclesiam satis benevolam ex parte reperi, divini verbi avidissimam, quam etiam scito prius opinione Lutheriana dissectam<note xml:id="fn2" type="footnote" n="2">Zu den Streitigkeiten zwischen Lutheranern und Zwinglianern in <placeName>Kempten</placeName> s. oben <ref target="file10229">[Nr. 198]</ref> S. 80, Anm. 6 und 7.</note>, nunc tandem gratia dei opitulante recolligendam censeo.</s>
 					<s n="4" xml:lang="la" type="auto">Caeremonie adhuc nonulle prostant.</s>
 					<s n="5" xml:lang="la" type="auto">Brevi aboliture, spero.</s>
 					<s n="6" xml:lang="la" type="auto">Senatus ex parte sincerus ut ubique, alias claudus.</s>
 					<s n="7" xml:lang="la" type="auto">Attamen mira dei ordinatione et citra cogitatum agit in ecclesie nostre augmentum fidei et charitati consona, saltim in constituendis verbi dei ministris et teneri iuventuti viris<pb type="edition" next="170"/> doctis piisque preficiendis.</s>
 					<s n="8" xml:lang="la" type="auto">Tu scis, charissime frater, quam frugi et deo [p]lacitum<note xml:id="fnb" type="footnote" n="b">[p]lacitum <hi>am Rande nachgetragen und wegen engem Einband teilweise nicht zugänglich.</hi></note> et hominibus utile iuventutis summam gerere curam ea nunc tempestate.</s>
-					<s n="9" xml:lang="la" type="auto">Laboravimus itaque totis viribus ex senatus nostri commissione nos fratres pro <persName ref="person59">Benedicto Euandro</persName><note xml:id="fn3" type="footnote" n="3">Zum Auftrag des <placeName ref="place544">Kemptener</placeName> Rates an die Pfarrerschaft, einen Lehrer zu finden, und zu den Anstrengungen, <persName ref="person59">Euander</persName> für diese Stelle zu gewinnen s. oben <ref target="file10273">Nr. 242</ref> und 252.</note>, qui tecum est studii literarii minister<note xml:id="fn4" type="footnote" n="4">nämlich als Lehrer an der Großmünsterschule in Zürich.</note>, quem multis seculis approbatum scimus, hunc accersiri ex sua prestita voluntate provinciam subeundi tenellam iuventutem imbuendi.</s>
+					<s n="9" xml:lang="la" type="auto">Laboravimus itaque totis viribus ex senatus nostri commissione nos fratres pro <persName ref="p1039">Benedicto Euandro</persName><note xml:id="fn3" type="footnote" n="3">Zum Auftrag des <placeName>Kemptener</placeName> Rates an die Pfarrerschaft, einen Lehrer zu finden, und zu den Anstrengungen, <persName ref="p7518">Euander</persName> für diese Stelle zu gewinnen s. oben <ref target="file10273">Nr. 242</ref> und 252.</note>, qui tecum est studii literarii minister<note xml:id="fn4" type="footnote" n="4">nämlich als Lehrer an der Großmünsterschule in Zürich.</note>, quem multis seculis approbatum scimus, hunc accersiri ex sua prestita voluntate provinciam subeundi tenellam iuventutem imbuendi.</s>
 					<s n="10" xml:lang="la" type="auto">Haud renuit condicione pacta coram senatu<note xml:id="fn5" type="footnote" n="5">Siehe oben S. 154, 9-12.</note>.</s>
 					<s n="11" xml:lang="la" type="auto">Quem penitudine duci audio, quod satis admirari non possum.</s>
-					<s n="12" xml:lang="la" type="auto">Scribitis<note xml:id="fn6" type="footnote" n="6">Die Zürcher Pfarrer hatten am 25. Juli 1533 in dieser Sache nach <placeName ref="place544">Kempten</placeName> geschrieben (s. oben S. 167, 2). Der Brief ist aber nicht erhalten.</note> vos fratres etiam ecclesiam vestram illo homine opus habere, ac si nulli sint vobis docti ac pii viri sicut Atheniensibus noctue<note xml:id="fn7" type="footnote" n="7">Vgl. Adagia, 1, 2, 11 (LB II 72 A).</note>.</s>
+					<s n="12" xml:lang="la" type="auto">Scribitis<note xml:id="fn6" type="footnote" n="6">Die Zürcher Pfarrer hatten am 25. Juli 1533 in dieser Sache nach <placeName>Kempten</placeName> geschrieben (s. oben S. 167, 2). Der Brief ist aber nicht erhalten.</note> vos fratres etiam ecclesiam vestram illo homine opus habere, ac si nulli sint vobis docti ac pii viri sicut Atheniensibus noctue<note xml:id="fn7" type="footnote" n="7">Vgl. Adagia, 1, 2, 11 (<bibl>LB</bibl> II 72 A).</note>.</s>
 					<s n="13" xml:lang="la" type="auto">Cur non ipsemet scripsit senatui nostro, cum quo sibi res est agenda, nos etiam excusando?</s>
 					<s n="14" xml:lang="la" type="auto">Certe, frater, certius nihil habui unquam prestita fide coram senatu nostro affirmare ausus, si res expostulasset, ecclesiam vestram omnibus bonis nostre adeo coniunctam, et si pro toto auxilio Tigurino in gloriam dei et nostre ecclesie utilitatem scripsissemus, taceo pro privata persona, summam reperissemus benevolentiam.</s>
 					<s n="15" xml:lang="la" type="auto">Timeo, non sane edocti de incommodo nostre ecclesie.</s>
 					<s n="16" xml:lang="la" type="auto">Scit et ipse examussim.</s>
 					<s n="17" xml:lang="la" type="auto">Taceo scribere.</s>
-					<s n="18" xml:lang="la" type="auto">Age igitur, frater charissime, ut assoles, homo ille <persName ref="person59">Benedictus</persName> restituatur quantocius, ut salva sit nostra ecclesia - et tue honori -, etiam nos ministri ab impostorum<note xml:id="fn8" type="footnote" n="8">Gemeint sind wohl die lutherisch gesinnten Gegner.</note> garrulitate, iactabundi scio, occasione quacunque remoratus: Ecce hec schwermerorum ratio futilis.</s>
+					<s n="18" xml:lang="la" type="auto">Age igitur, frater charissime, ut assoles, homo ille <persName ref="p1039">Benedictus</persName> restituatur quantocius, ut salva sit nostra ecclesia - et tue honori -, etiam nos ministri ab impostorum<note xml:id="fn8" type="footnote" n="8">Gemeint sind wohl die lutherisch gesinnten Gegner.</note> garrulitate, iactabundi scio, occasione quacunque remoratus: Ecce hec schwermerorum ratio futilis.</s>
 					<s n="19" xml:lang="la" type="auto">Hoc malum absit.</s>
 					<s n="20" xml:lang="la" type="auto">Estne alia Tigurinorum ecclesia quam Campidonensium, cui prodesse velitis?</s>
 					<s n="21" xml:lang="la" type="auto">Minime, una est, frater.</s>
-					<s n="22" xml:lang="la" type="auto">Literule vestre<note xml:id="fn9" type="footnote" n="9">Siehe oben Anm. 6.</note> sunt intercepte per unum totum mensem<note xml:id="fn10" type="footnote" n="10">Gründe für die verspätete Ankunft des Zürcher Briefes in <placeName ref="place544">Kempten</placeName> sind nicht bekannt (s. auch oben S. 167f, 3f).</note>. 20. augusti legimus.</s>
+					<s n="22" xml:lang="la" type="auto">Literule vestre<note xml:id="fn9" type="footnote" n="9">Siehe oben Anm. 6.</note> sunt intercepte per unum totum mensem<note xml:id="fn10" type="footnote" n="10">Gründe für die verspätete Ankunft des Zürcher Briefes in <placeName>Kempten</placeName> sind nicht bekannt (s. auch oben S. 167f, 3f).</note>. 20. augusti legimus.</s>
 					<s n="23" xml:lang="la" type="auto">Angaria per foribus est<note xml:id="fn11" type="footnote" n="11">Die nächsten Fronfasten fallen im Jahr 1533 auf den 17. September. Auf diesen Termin sollte der Lehrer wohl angestellt werden.</note>.</s>
 					<s n="24" xml:lang="la" type="auto">Quid agere habemus, ignoramus.</s>
 					<s n="25" xml:lang="la" type="auto">Pudore maximo coram senatu et ecclesia suffundimur.</s>
 					<s n="26" xml:lang="la" type="auto">Ne patiaris, pie frater, quantum in te est, consilio et auxilio nos et ecclesiam nostram in aliquam incidere calumniam.</s>
 					<s n="27" xml:lang="la" type="auto">Alias male parta quies.</s>
-					<s n="28" xml:lang="la" type="auto">Non quod in <persName ref="person59">Benedicti</persName> aut alterius hominis scientiam et pietatem coniurati, sed scimus ex impostoribus aliquem, qui nobiscum sunt, studio triviali preficiendum et sic habebimus scisma et omne malum.</s>
+					<s n="28" xml:lang="la" type="auto">Non quod in <persName ref="p1039">Benedicti</persName> aut alterius hominis scientiam et pietatem coniurati, sed scimus ex impostoribus aliquem, qui nobiscum sunt, studio triviali preficiendum et sic habebimus scisma et omne malum.</s>
 					<s n="29" xml:lang="la" type="auto">Quod avertat deus.</s>
 					<s n="30" xml:lang="la" type="auto">Literas vestras subtraximus, ne male audiatur de nobis.</s>
-					<s n="31" xml:lang="la" type="auto">Videtur mihi, ne satis larga sit stips apud nos <persName ref="person59">Benedicto</persName>.</s>
+					<s n="31" xml:lang="la" type="auto">Videtur mihi, ne satis larga sit stips apud nos <persName ref="p1039">Benedicto</persName>.</s>
 					<s n="32" xml:lang="la" type="auto">Frater, te adhortor, citra omnem controversiam homo ille ad nos redeat fac.</s>
 					<s n="33" xml:lang="la" type="auto">Citius si fiet, bene, sin minus, audies brevi contencionem.</s>
 				</p>
 				<p>
-					<s n="34" xml:lang="la" type="auto">Vale cum adamata tua coniuge<note xml:id="fn12" type="footnote" n="12"><persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note> et matre<note xml:id="fn13" type="footnote" n="13"><persName ref="person32">Anna Bullinger</persName>, geb. Wiederkehr.</note> pia.</s>
-					<s n="35" xml:lang="la" type="auto"><persName ref="person114">Leonem</persName><note xml:id="fn14" type="footnote" n="14"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person165">Pellicanum</persName>, <persName ref="person188">Erasmum</persName> Fabri[tium], <persName ref="person117">Carolstadium</persName> cupio salvos ex animo.</s>
+					<s n="34" xml:lang="la" type="auto">Vale cum adamata tua coniuge<note xml:id="fn12" type="footnote" n="12"><persName>Anna Bullinger, geb. Adlischwyler</persName>.</note> et matre<note xml:id="fn13" type="footnote" n="13"><persName>Anna Bullinger, geb. Wiederkehr</persName>.</note> pia.</s>
+					<s n="35" xml:lang="la" type="auto"><persName ref="p1753">Leonem</persName><note xml:id="fn14" type="footnote" n="14"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p8127">Pellicanum</persName>, <persName ref="p8437">Erasmum</persName> Fabri[tium], <persName ref="p4349">Carolstadium</persName> cupio salvos ex animo.</s>
 					<s n="36" xml:lang="la" type="auto">Volo, ut nos tue ecclesie commendare velis.</s>
 					<s n="37" xml:lang="la" type="auto">Scribito etiam, si aliquando vacas, ad nos de statu rerum vestrarum.</s>
 					<s n="38" xml:lang="la" type="auto">Audimus aliquando absona et multa agi perperam, quod absit.</s>

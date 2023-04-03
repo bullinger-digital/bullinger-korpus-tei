@@ -6,68 +6,66 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Ambrosius Blarer, zwischen [7.] September 1546 und [8.] September 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2015</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17782-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2570</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVII</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">17</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Juni bis September 1546</biblScope>
-				<biblScope unit="page">410</biblScope>
-				<biblScope unit="pages">547</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 17 (Briefe von Juni bis September 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2015, 547 S., ISBN 978-3-290-17782-9.</bibl>
 				<msDesc type="Beilage" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive48">
+						<repository ref="a48">
 							<name>Konstanz SA</name>
 							<ref target="https://www.konstanz.de/start/kultur+_+freizeit/stadtarchiv.html"/>
 						</repository>
-						<settlement ref="place257">Konstanz</settlement>
+						<settlement ref="l257">Konstanz</settlement>
 						<institution>Stadtarchiv</institution>
 						-->
-						<repository ref="archive48"/>
+						<repository ref="a48"/>
 						<idno subtype="Autograph">Ref. A. Fasc. 27, S. 889</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Vor zwei Wochen fuhr ein Wagen auf dem Weg von Italien nach den
-								<placeName ref="place20">Niederlanden</placeName> durch [Zürich]. Dabei platzte ein [auf dem Wagen befindlicher Waren]ballen auf, und der Inhalt
+								<placeName>Niederlanden</placeName> durch [Zürich]. Dabei platzte ein [auf dem Wagen befindlicher Waren]ballen auf, und der Inhalt
 								fiel heraus. Als diejenigen, die beim Aufräumen geholfen hatten, sich mit den Händen berührten, litten sie
-								an Schmerzen. <persName ref="person2216">[Hans] Jakob Stampfer</persName> identifizierte [daraufhin] das Produkt als giftiges, mit Schwefelsäure
+								an Schmerzen. <persName ref="p6670">[Hans] Jakob Stampfer</persName> identifizierte [daraufhin] das Produkt als giftiges, mit Schwefelsäure
 								vermischtes Quecksilber.
 								</p>
 								<p xml:id="regest2">
-								- Man soll <placeName ref="place70">Augsburg</placeName> benachrichtigen,<pb type="edition" next="410"/>
+								- Man soll <placeName>Augsburg</placeName> benachrichtigen,<pb type="edition" next="410"/>
 								damit das [schmalkaldische] Lager auf der Hut sei. Bullinger, der erst am Abend zuvor davon erfuhr,
-								befürchtet dabei einen mörderischen Anschlag des Papstes [<persName ref="person1792">Paul III.</persName>].
+								befürchtet dabei einen mörderischen Anschlag des Papstes [<persName ref="p18571">Paul III.</persName>].
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 17, Nr. 2570, S.410</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12617">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -77,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date notBefore="1546-09-07" notAfter="1546-09-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -118,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -129,17 +127,17 @@
 				</p>
 				<p>
 					<note type="attachment">[Beilage:]</note>
-					<s n="1" xml:lang="de" type="auto">Lieber Herr und bruͦder, vor 14 tagen ist hie durch, uß <placeName ref="place16">Italia</placeName> hinab<note xml:id="fn4" type="footnote" n="4">Richtung Norden.</note> in den Niderland, durchgfaren ein wagen.</s>
+					<s n="1" xml:lang="de" type="auto">Lieber Herr und bruͦder, vor 14 tagen ist hie durch, uß <placeName>Italia</placeName> hinab<note xml:id="fn4" type="footnote" n="4">Richtung Norden.</note> in den Niderland, durchgfaren ein wagen.</s>
 					<s n="2" xml:lang="de" type="auto">Ist ein ballen<note xml:id="fn5" type="footnote" n="5">Warenballen.</note> druff brochen.</s>
 					<s n="3" xml:lang="de" type="manual">Ist <foreign xml:lang="la">mercurius sublimatus</foreign><note xml:id="fn6" type="footnote" n="6">mit Vitriolöl (Schwefelsäure) vermischtes Quecksilber; s. Johann Heinrich <hi>Zedler,</hi> Grosses vollständiges Universal-Lexicon Aller Wissenschaften und Künste, Bd. 20, Halle und Leipzig 1739, Sp. 971.</note> hinuß gefallen viel.</s>
 					<s n="4" xml:lang="de" type="auto">Alls ettliche burger zuͦgfaren<note xml:id="fn7" type="footnote" n="7">herbeigelaufen sind.</note> und es uffgescharbet<note xml:id="fn8" type="footnote" n="8">zusammengekratzt haben.</note> und wider in die ballen gelegt, und sich angeruͤrt, hatt es inen weethumb<note xml:id="fn9" type="footnote" n="9">Schmerzen.</note> bracht.</s>
-					<s n="5" xml:lang="de" type="auto">Zeletzt hatt m. <persName ref="person2216">Jacob</persName> Stampff<note xml:id="fn10" type="footnote" n="10"><persName ref="person2216">Hans Jakob Stampfer</persName>. Zürcher Goldschmied, Medailleur und Stempelschneider sowie Ratsmitglied.</note> die Sach besaͤhen und gesagt, das es gifft sye, etc.</s>
+					<s n="5" xml:lang="de" type="auto">Zeletzt hatt m. <persName ref="p6670">Jacob</persName> Stampff<note xml:id="fn10" type="footnote" n="10"><persName>Hans Jakob Stampfer</persName>. Zürcher Goldschmied, Medailleur und Stempelschneider sowie Ratsmitglied.</note> die Sach besaͤhen und gesagt, das es gifft sye, etc.</s>
 					<s n="6" xml:lang="de" type="auto">Des ist vil<note xml:id="fn11" type="footnote" n="11">Des ist vil: Davon gibt es eine große Menge.</note>.</s>
 				</p>
 			</div>
 			<div xml:id="div2" corresp="regest2">
 				<p>
-					<s n="7" xml:lang="de" type="auto">Dorumb schribend hinab uff <placeName ref="place70">Augspurg</placeName>, das man sich huͤt imm leger<note xml:id="fn12" type="footnote" n="12">ins schmalkaldische Truppenlager. - Der <placeName ref="place565">Konstanzer</placeName> Rat benachrichtigte am 10. September den Kriegsrat in <placeName ref="place1113">Ulm</placeName>, der daraufhin nach <placeName ref="place70">Augsburg</placeName> schrieb, damit das schmalkaldische Lager davon in Kenntnis gesetzt würde; s. <hi>PC</hi> IV/1 354, Anm. <hi>6; Roth, <placeName ref="place70">Augsburg</placeName></hi> III 430f, Anm. 81; <hi>PA</hi> III 597, Nr 2984.</note>.</s>
+					<s n="7" xml:lang="de" type="auto">Dorumb schribend hinab uff <placeName>Augspurg</placeName>, das man sich huͤt imm leger<note xml:id="fn12" type="footnote" n="12">ins schmalkaldische Truppenlager. - Der <placeName>Konstanzer</placeName> Rat benachrichtigte am 10. September den Kriegsrat in <placeName>Ulm</placeName>, der daraufhin nach <placeName>Augsburg</placeName> schrieb, damit das schmalkaldische Lager davon in Kenntnis gesetzt würde; s. <bibl>PC</bibl> IV/1 354, Anm. <hi>6; Roth, <placeName>Augsburg</placeName></hi> III 430f, Anm. 81; <bibl>PA</bibl> III 597, Nr 2984.</note>.</s>
 					<s n="8" xml:lang="de" type="auto">Ich fürcht des Bapsts list unnd mord.</s>
 					<s n="9" xml:lang="de" type="auto">Habs erst naͤcht<note xml:id="fn13" type="footnote" n="13">gestern Abend, also am 6. oder 7. September.</note> vernommen.</s>
 				</p>

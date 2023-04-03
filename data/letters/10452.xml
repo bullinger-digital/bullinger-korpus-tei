@@ -6,50 +6,41 @@
 				<title subtype="file">Andreas Karlstadt / Basel AN Heinrich Bullinger, 14. Juli 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=417</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">253</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,21</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Von seiner Lage in <placeName ref="place97">Basel</placeName> wird der Überbringer des Briefes
+								Von seiner Lage in <placeName>Basel</placeName> wird der Überbringer des Briefes
 								berichten. Die Bibliotheken werden auf Anordnung des Basler Rates unter seiner Mitarbeit zusammengelegt. Er
 								hält Vorlesungen über das Deuteronomium. Von den Friedensbedingungen [von
-								<placeName ref="place529">Kaaden</placeName>] weiß in <placeName ref="place97">Basel</placeName>
-								niemand Sicheres. <persName ref="person154">Myconius</persName> ist zu ihm wie ein Vater. Grüße.
+								<placeName>Kaaden</placeName>] weiß in <placeName>Basel</placeName>
+								niemand Sicheres. <persName ref="p8418">Myconius</persName> ist zu ihm wie ein Vater. Grüße.
 							</p>
 						</summary>
 						<msItem>
@@ -61,6 +52,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Barge II 598</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 417, S.253</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -69,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10452">
 				<correspAction type="sent">
-					<persName ref="person1858" cert="high">
+					<persName ref="p1858" cert="high">
 						<!--
 						<surname cert="high">Karlstadt</surname>
 						<forename cert="high">Andreas</forename>
@@ -79,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11560166"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1534-07-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -117,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,24 +125,24 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Si bene vales gaudeo.</s>
 					<s n="3" xml:lang="la" type="auto">Ut nos valeamus et quid agamus, is significabit, qui has ad te perfert<note xml:id="fn1" type="footnote" n="1">Der Überbringer des Briefes ist nicht bekannt.</note>.</s>
-					<s n="4" xml:lang="la" type="auto">Ex multis bibliothecis unam nitimur iussu senatus facere<note xml:id="fn2" type="footnote" n="2">Am 1. Juli 1534 beschloß der Basler Rat, <persName ref="person117">Karlstadt</persName> zum Professor für Altes Testament zu ernennen und ihn zu beauftragen, mit andern den Lehrplan zu begutachten und die Bücher in der «Liberey» zu ordnen. Welche Büchereien in die bis dahin unbedeutende Universitätsbibliothek (diese ist wohl gemeint) kommen sollten, ist nirgends festgehalten. Die bedeutenden Basler Klosterbibliotheken gelangten erst 1559, bzw. 1590 und noch später in die Universität, s. Th[eophil] <hi>Burckhardt-Biedermann,</hi> Die Erneuerung der Universität zu <placeName ref="place97">Basel</placeName> in den Jahren 1529-1539, in: Beiträge zur vaterländischen Geschichte 14 (NF 4), <placeName ref="place97">Basel</placeName> 1896, S. 436f; <hi>Barge</hi> II 460f; Karl <hi>Schwarber,</hi> Die Entwicklung der Universitätsbibliothek zu <placeName ref="place97">Basel</placeName>, <placeName ref="place97">Basel</placeName> 1944 (Sonderdruck aus: Basler Studentenschaft, 25. Jg., 5. Heft, 1944), S. 1f. 6.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Ex multis bibliothecis unam nitimur iussu senatus facere<note xml:id="fn2" type="footnote" n="2">Am 1. Juli 1534 beschloß der Basler Rat, <persName>Karlstadt</persName> zum Professor für Altes Testament zu ernennen und ihn zu beauftragen, mit andern den Lehrplan zu begutachten und die Bücher in der «Liberey» zu ordnen. Welche Büchereien in die bis dahin unbedeutende Universitätsbibliothek (diese ist wohl gemeint) kommen sollten, ist nirgends festgehalten. Die bedeutenden Basler Klosterbibliotheken gelangten erst 1559, bzw. 1590 und noch später in die Universität, s. Th[eophil] <hi>Burckhardt-Biedermann,</hi> Die Erneuerung der Universität zu <placeName>Basel</placeName> in den Jahren 1529-1539, in: Beiträge zur vaterländischen Geschichte 14 (NF 4), <placeName>Basel</placeName> 1896, S. 436f; <bibl>Barge</bibl> II 460f; Karl <hi>Schwarber,</hi> Die Entwicklung der Universitätsbibliothek zu <placeName>Basel</placeName>, <placeName>Basel</placeName> 1944 (Sonderdruck aus: Basler Studentenschaft, 25. Jg., 5. Heft, 1944), S. 1f. 6.</note>.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto"><pb type="edition" next="254"/>Deuteronomion hebraice alternis praelego.</s>
-					<s n="6" xml:lang="la" type="auto">Pacis<note xml:id="fn3" type="footnote" n="3">Zum Frieden von <placeName ref="place529">Kaaden</placeName>, 29. Juni 1534, s. <hi>Heyd</hi> II 493-497; <hi>Wille</hi> 193-234; <hi>Keller</hi> 69-100.</note> conditiones nemo, opinor, hic novit.</s>
+					<s n="6" xml:lang="la" type="auto">Pacis<note xml:id="fn3" type="footnote" n="3">Zum Frieden von <placeName>Kaaden</placeName>, 29. Juni 1534, s. <hi>Heyd</hi> II 493-497; Wille 193-234; <bibl>Keller</bibl> 69-100.</note> conditiones nemo, opinor, hic novit.</s>
 					<s n="7" xml:lang="la" type="auto">Si nosti, communica.</s>
-					<s n="8" xml:lang="la" type="auto"><persName ref="person154">Myconius</persName> mihi parentis loco est.</s>
+					<s n="8" xml:lang="la" type="auto"><persName ref="p8418">Myconius</persName> mihi parentis loco est.</s>
 					<s n="9" xml:lang="la" type="auto">Faxit deus, ut longam, eamque incolumem vitam degat.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Vale feliciter.</s>
-					<s n="11" xml:lang="la" type="auto">Et d. <persName ref="person14">Theodorum</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person14">Theodor Bibliander</persName>.</note>, <persName ref="person114">Leonem</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person165">Pellicanum</persName>, prepos[itum]<note xml:id="fn6" type="footnote" n="6"><persName ref="person872">Felix Frey</persName> (Frei, Fry, Liberianus), magister artium zu <placeName ref="place836">Paris</placeName>, wurde 1505 Chorherr und 1518 der letzte Propst des Großmünsterstiftes in Zürich. Der humanistisch gebildete, kunstliebende Mann setzte sich für die Wahl <persName ref="person265">Zwinglis</persName> und dann aber für die Beibehaltung der Bilder und der Messe ein. Allmählich versöhnte er sich mit der Reformation. Im Jahre 1526 wurde er wegen seines Widerstandes gegen die Konfiskation der Stiftsschätze vorübergehend eingesperrt. Er heiratete 1526 Magdalena Öuglin. Von 1528 bis zu seinem Tod im Jahre 1555 war er Obmann des Almosenamtes und von 1542 bis 1555 Mitglied des Zürcher Ehegerichtes (s. Zürich StA, YY 1.7-1.19). <persName ref="person872">Felix Frey</persName> trat zeit seines Lebens immer wieder streitbar für die Autonomie-Rechte des Stiftes ein: 1530 zusammen mit <persName ref="person265">Zwingli</persName> vor dem Rat, 1532 mit Hilfe Bullingers gegen obrigkeitliche Säkularisierungsabsichten, 1545 mit einer großen apologetischen Schrift und kurz vor seinem Tod in einem Abschiedsbrief an den Rat. Er war Taufzeuge von <persName ref="person265">Zwinglis</persName> Tochter Anna und von Bullingers Tochter Dorothea. - Lit.: AZürcherRef, Reg.; Z VII 103f, Anm. 3; Theodor <hi>Pestalozzi,</hi> Die Gegner <persName ref="person265">Zwinglis</persName> am Großmünsterstift in Zürich, Zürich 1918, S. 90-92. 134f. 161-167; Leo <hi>Weisz,</hi> Quellen zur Reformationsgeschichte des Großmünsters in Zürich, in: Zwa VII/2, 1939, 65-90, und VII/3, 1940, 172-202 (vor S. 137 Bild <persName ref="person876">Freys</persName>); <hi>Bächtold,</hi> Bullinger vor dem Rat, Reg.; HBLS III 246.</note>, <persName ref="person225">Heinrichum Utinger</persName>, Nüschel[er]<note xml:id="fn7" type="footnote" n="7"><persName ref="person1758">Heinrich Nüscheler</persName>, gest. 1558, Magister, Chorherr am Großmünsterstift. Der Reformation gegenüber äußerte er anfänglich Bedenken, gehörte auch zu den fünf Chorherren, mit denen <persName ref="person265">Zwingli</persName> am 19. Januar 1524 disputierte, fügte sich jedoch und verhielt sich loyal zur neuen Ordnung. Seit 1531 war er Verwalter des Studentenamtes, von 1533 an Stiftsverwalter. Mit Bullinger arbeitete er freundschaftlich zusammen und wurde 1547 Pate von dessen Sohn Felix. - Lit.: AZürcherRef, Reg.; Leo <hi>Weisz,</hi> aaO, passim; <hi>Bächtold,</hi> Bullinger vor dem Rat, Reg.; HBLS V 313.</note>, Golden<note xml:id="fn8" type="footnote" n="8">Gemeint ist Johann (Hans) <persName ref="person1067">Heinrich Göldli</persName> (Göldi), seit 1518 Chorherr am Großmünsterstift. Er wurde 1523 wegen des Verdachts politischer Umtriebe in den Wellenberg(-Gefängnisturm) gelegt, gefoltert, aber unschuldig befunden. An der Maisynode 1528 wird über seine hoffärtige Frau geklagt. Lange galt er als römisch-katholisch gesinnt, wurde aber 1533 als gutwillig und brauchbar befunden. Er starb am 6. März 1553. Er darf nicht verwechselt werden mit <persName ref="person1067">Heinrich Göldli</persName>, nach Studien in <placeName ref="place97">Basel</placeName> seit 1504 Kaplan am Großmünsterstift, päpstlicher Schildträger und meistens in <placeName ref="place906">Rom</placeName> lebend und ein großer Pfründenjäger. - Lit. zu beiden: AZürcherRef, Reg.; Friedrich <hi>Hegi,</hi> Dokumente der altgläubigen Chorherrenpartei am zürcherischen Großmünster, in: Zwa II/15, 1912, 472-484; Theodor <hi>Pestalozzi,</hi> aaO, S. 62-64. 68-81. 122-127; HBLS III 582.</note>, d. <persName ref="person318">Ioannem Iacobum Amanum</persName>, Colinum<note xml:id="fn9" type="footnote" n="9"><persName ref="person644">Rudolf Collin</persName>.</note> et reliquos omnes omniumque coniuges meis verbis salutari cupio.</s>
+					<s n="11" xml:lang="la" type="auto">Et d. <persName ref="p8171">Theodorum</persName><note xml:id="fn4" type="footnote" n="4"><persName>Theodor Bibliander</persName>.</note>, <persName ref="p1753">Leonem</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p8127">Pellicanum</persName>, prepos[itum]<note xml:id="fn6" type="footnote" n="6"><persName>Felix Frey (Frei, Fry, Liberianus)</persName>, magister artium zu <placeName>Paris</placeName>, wurde 1505 Chorherr und 1518 der letzte Propst des Großmünsterstiftes in Zürich. Der humanistisch gebildete, kunstliebende Mann setzte sich für die Wahl <persName>Zwinglis</persName> und dann aber für die Beibehaltung der Bilder und der Messe ein. Allmählich versöhnte er sich mit der Reformation. Im Jahre 1526 wurde er wegen seines Widerstandes gegen die Konfiskation der Stiftsschätze vorübergehend eingesperrt. Er heiratete 1526 Magdalena Öuglin. Von 1528 bis zu seinem Tod im Jahre 1555 war er Obmann des Almosenamtes und von 1542 bis 1555 Mitglied des Zürcher Ehegerichtes (s. Zürich StA, YY 1.7-1.19). <persName>Felix Frey</persName> trat zeit seines Lebens immer wieder streitbar für die Autonomie-Rechte des Stiftes ein: 1530 zusammen mit <persName>Zwingli</persName> vor dem Rat, 1532 mit Hilfe Bullingers gegen obrigkeitliche Säkularisierungsabsichten, 1545 mit einer großen apologetischen Schrift und kurz vor seinem Tod in einem Abschiedsbrief an den Rat. Er war Taufzeuge von <persName>Zwinglis</persName> Tochter Anna und von Bullingers Tochter Dorothea. - Lit.: AZürcherRef, Reg.; <bibl>Z</bibl> VII 103f, Anm. 3; Theodor <hi>Pestalozzi,</hi> Die Gegner <persName>Zwinglis</persName> am Großmünsterstift in Zürich, Zürich 1918, S. 90-92. 134f. 161-167; Leo <hi>Weisz,</hi> Quellen zur Reformationsgeschichte des Großmünsters in Zürich, in: <bibl>Zwa</bibl> VII/2, 1939, 65-90, und VII/3, 1940, 172-202 (vor S. 137 Bild <persName>Freys</persName>); <hi>Bächtold,</hi> Bullinger vor dem Rat, Reg.; <bibl>HBLS</bibl> III 246.</note>, <persName ref="p3242">Heinrichum Utinger</persName>, Nüschel[er]<note xml:id="fn7" type="footnote" n="7"><persName>Heinrich Nüscheler</persName>, gest. 1558, Magister, Chorherr am Großmünsterstift. Der Reformation gegenüber äußerte er anfänglich Bedenken, gehörte auch zu den fünf Chorherren, mit denen <persName>Zwingli</persName> am 19. Januar 1524 disputierte, fügte sich jedoch und verhielt sich loyal zur neuen Ordnung. Seit 1531 war er Verwalter des Studentenamtes, von 1533 an Stiftsverwalter. Mit Bullinger arbeitete er freundschaftlich zusammen und wurde 1547 Pate von dessen Sohn Felix. - Lit.: AZürcherRef, Reg.; Leo <hi>Weisz,</hi> aaO, passim; <hi>Bächtold,</hi> Bullinger vor dem Rat, Reg.; <bibl>HBLS</bibl> V 313.</note>, Golden<note xml:id="fn8" type="footnote" n="8">Gemeint ist <persName>Johann (Hans) Heinrich Göldli (Göldi)</persName>, seit 1518 Chorherr am Großmünsterstift. Er wurde 1523 wegen des Verdachts politischer Umtriebe in den Wellenberg(-Gefängnisturm) gelegt, gefoltert, aber unschuldig befunden. An der Maisynode 1528 wird über seine hoffärtige Frau geklagt. Lange galt er als römisch-katholisch gesinnt, wurde aber 1533 als gutwillig und brauchbar befunden. Er starb am 6. März 1553. Er darf nicht verwechselt werden mit <persName>Heinrich Göldli</persName>, nach Studien in <placeName>Basel</placeName> seit 1504 Kaplan am Großmünsterstift, päpstlicher Schildträger und meistens in <placeName>Rom</placeName> lebend und ein großer Pfründenjäger. - Lit. zu beiden: AZürcherRef, Reg.; Friedrich <hi>Hegi,</hi> Dokumente der altgläubigen Chorherrenpartei am zürcherischen Großmünster, in: <bibl>Zwa</bibl> II/15, 1912, 472-484; Theodor <hi>Pestalozzi,</hi> aaO, S. 62-64. 68-81. 122-127; <bibl>HBLS</bibl> III 582.</note>, d. <persName ref="p167">Ioannem Iacobum Amanum</persName>, Colinum<note xml:id="fn9" type="footnote" n="9"><persName>Rudolf Collin</persName>.</note> et reliquos omnes omniumque coniuges meis verbis salutari cupio.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, die 14. iulii anno 34.</s>
+					<s n="12" xml:lang="la" type="auto"><placeName>Basileę</placeName>, die 14. iulii anno 34.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Tuus <persName ref="person117">Carolostadius</persName>.</s>
+					<s n="13" xml:lang="la" type="auto">Tuus <persName ref="p4349">Carolostadius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

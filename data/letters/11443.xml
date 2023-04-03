@@ -6,48 +6,39 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger / [Zürich], 28. Mai 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1400</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">120</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,167</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Unterstützt den durch <persName ref="person81">Grynäus</persName> übermittelten Antrag [auf Entsendung
+								Unterstützt den durch <persName ref="p1365">Grynäus</persName> übermittelten Antrag [auf Entsendung
 								einiger Gelehrter zum geplanten Religionsgespräch]; daß die Eidgenossen an dieser Tagung vertreten sein
-								sollten, meinen nicht nur die <placeName ref="place1049">Straßburger</placeName>, sondern auch
+								sollten, meinen nicht nur die <placeName>Straßburger</placeName>, sondern auch
 								Kurfürst [Johann
 								Friedrich von Sachsen] und
 								[der Landgraf von] Hessen.
@@ -57,13 +48,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1400, S.120</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11443">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1540-05-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -88,8 +86,8 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<roleName ref="role49" type="pl" role="Pfarrer" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11444"/>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,9 +124,9 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Quę d. <persName ref="person81">Grynęus</persName> scribit ex mandato<note xml:id="fn1" type="footnote" n="1"><placeName ref="place1049">Straßburg</placeName> hatte <placeName ref="place97">Basel</placeName> am 26. Mai mitgeteilt, Langraf Philipp von Hessen wünsche die Entsendung von <persName ref="person226">Vadian</persName>, <persName ref="person6">Amerbach</persName>, <persName ref="person81">Grynäus</persName> und eventuell weiteren eidgenössischen Gelehrten nach <placeName ref="place261">Darmstadt</placeName> zur Vorbereitung auf das geplante Religionsgespräch (s. ADRG I/2 825- 827; PC III 59; eine Abschrift der <placeName ref="place1049">Straßburger</placeName> Missive in Zürich StA, E I 1. 3a). Die Delegierten sollten sich auf den 3. oder 4. Juni in <placeName ref="place1049">Straßburg</placeName> einfinden. <persName ref="person81">Grynäus</persName> war offenbar (vom Basler Rat?) beauftragt worden, die Zürcher Theologen zur Teilnahme zu bewegen; sein Brief, der ohne Erfolg blieb, ist verloren. Vgl. auch das Schreiben <placeName ref="place97">Basels</placeName> an Zürich, <placeName ref="place121">Bern</placeName>, <placeName ref="place943">Schaffhausen</placeName> und <placeName ref="place1011">St. Gallen</placeName> vom 28. Mai (ADRG I/2 837).</note>, per dominum communemque causam oro, ut vos moveant.</s>
+					<s n="2" xml:lang="la" type="auto">Quę d. <persName ref="p1365">Grynęus</persName> scribit ex mandato<note xml:id="fn1" type="footnote" n="1"><placeName>Straßburg</placeName> hatte <placeName>Basel</placeName> am 26. Mai mitgeteilt, Langraf Philipp von Hessen wünsche die Entsendung von <persName>Vadian</persName>, <persName ref="p8422">Amerbach</persName>, <persName>Grynäus</persName> und eventuell weiteren eidgenössischen Gelehrten nach <placeName>Darmstadt</placeName> zur Vorbereitung auf das geplante Religionsgespräch (s. <bibl>ADRG</bibl> I/2 825- 827; <bibl>PC</bibl> III 59; eine Abschrift der <placeName>Straßburger</placeName> Missive in Zürich StA, E I 1. 3a). Die Delegierten sollten sich auf den 3. oder 4. Juni in <placeName>Straßburg</placeName> einfinden. <persName>Grynäus</persName> war offenbar (vom Basler Rat?) beauftragt worden, die Zürcher Theologen zur Teilnahme zu bewegen; sein Brief, der ohne Erfolg blieb, ist verloren. Vgl. auch das Schreiben <placeName>Basels</placeName> an Zürich, <placeName>Bern</placeName>, <placeName>Schaffhausen</placeName> und <placeName>St. Gallen</placeName> vom 28. Mai (<bibl>ADRG</bibl> I/2 837).</note>, per dominum communemque causam oro, ut vos moveant.</s>
 					<s n="3" xml:lang="la" type="auto">Mihi videtur rem cessuram in magnum evangelii et patrię nostrę commodum.</s>
-					<s n="4" xml:lang="la" type="auto">Non ignoro, quam odio habeatis conventus<note xml:id="fn2" type="footnote" n="2">Vgl. z. B. HBBW VII 99, 12-28; VIII 59f, 30-32; IX 60f, 14-17. 31-34.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Non ignoro, quam odio habeatis conventus<note xml:id="fn2" type="footnote" n="2">Vgl. z. B. <bibl>HBBW VII</bibl> 99, 12-28; VIII 59f, 30-32; IX 60f, 14-17. 31-34.</note>.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Verum quis non cedat necessitati?</s>
@@ -142,10 +140,10 @@
 					<s n="13" xml:lang="la" type="auto">Valete in Christo.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, raptim, 28. maii anno 1540.</s>
+					<s n="14" xml:lang="la" type="auto"><placeName>Basileę</placeName>, raptim, 28. maii anno 1540.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> vester.</s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> vester.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

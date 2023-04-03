@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Berchtold Haller, [4.] Juni 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=102</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">129</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive12">
+						<repository ref="a12">
 							<name>Bern BB</name>
 							<ref target="https://www.burgerbib.ch/de"/>
 						</repository>
-						<settlement ref="place41">Bern</settlement>
+						<settlement ref="l41">Bern</settlement>
 						<institution>Burgerbibliothek</institution>
 						-->
-						<repository ref="archive12"/>
+						<repository ref="a12"/>
 						<idno subtype="Kopie">Mss. Hist. Helv III. 59,1r 4v</idno>
 					</msIdentifier>
 					<msContents>
@@ -63,6 +54,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>QGTS III, Nr. 379</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 102, S.129</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -71,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10131">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1532-06-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1391" cert="high">
+					<persName ref="p1391" cert="high">
 						<!--
 						<surname cert="high">Haller</surname>
 						<forename cert="high">Berchtold</forename>
@@ -122,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -133,7 +127,7 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="de" type="auto">Ordenlich mitt den töufferen handlen<note xml:id="fn2" type="footnote" n="2">verhandeln. - Zur bevorstehenden Zofinger Disputation s. oben <ref target="file10130">[Nr. 101]</ref> S. 127, Anm. 4.</note> ist halbe arbeit.</s>
-					<s n="3" xml:lang="de" type="auto">Si werdend auch grad imm anfang so gar<note xml:id="fn3" type="footnote" n="3">ganz, völlig (SI II 395f).</note> erleit<note xml:id="fn4" type="footnote" n="4">niedergestreckt, überwältigt, besiegt (SI III 1186f).</note>, das si hernach in der handlung nienen hin kommen mögend.</s>
+					<s n="3" xml:lang="de" type="auto">Si werdend auch grad imm anfang so gar<note xml:id="fn3" type="footnote" n="3">ganz, völlig (<bibl>SI</bibl> II 395f).</note> erleit<note xml:id="fn4" type="footnote" n="4">niedergestreckt, überwältigt, besiegt (<bibl>SI</bibl> III 1186f).</note>, das si hernach in der handlung nienen hin kommen mögend.</s>
 					<s n="4" xml:lang="de" type="auto">Nun wäre aber min rhatschlag, das man also mitt inen handlete.</s>
 				</p>
 				<p>
@@ -141,7 +135,7 @@
 					<s n="6" xml:lang="la" type="auto">Proinde post habitas preces et praefationem protinus proponetis hanc propositionem:</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto">Wenn spän<note xml:id="fn5" type="footnote" n="5">Streitigkeiten (SI X 279).</note> und stöss<note xml:id="fn6" type="footnote" n="6">Wortstreit (SI XI 1581-1583).</note> sich under christen von wägen dess glaubens zuͦtragend, söllend die mitt h[eiliger] biblischer gschrifft alts und nüws testaments entscheiden und erlüteret werden.</s>
+					<s n="7" xml:lang="de" type="auto">Wenn spän<note xml:id="fn5" type="footnote" n="5">Streitigkeiten (<bibl>SI</bibl> X 279).</note> und stöss<note xml:id="fn6" type="footnote" n="6">Wortstreit (<bibl>SI</bibl> XI 1581-1583).</note> sich under christen von wägen dess glaubens zuͦtragend, söllend die mitt h[eiliger] biblischer gschrifft alts und nüws testaments entscheiden und erlüteret werden.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Nudam autem hanc ponatis positionem.</s>
@@ -149,25 +143,25 @@
 					<s n="10" xml:lang="la" type="auto">Extorquebitis igitur, sicubi latuerit veteris testam[enti]negatio.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="de" type="auto">Wenn si nun herfür trättend und disputation anhebend, ort inzfuͤren<note xml:id="fn7" type="footnote" n="7">Bibelstellen zu zitieren.</note>, damitt si vermeinend, das alt testament abgethan sin, so nemmend ir in üwren verantworten das eigentlich war<note xml:id="fn8" type="footnote" n="8">dann achtet in eurer Verteidigung genau darauf.</note>, daß ir üch nitt lassind von der position<note xml:id="fn9" type="footnote" n="9">Hier eher: These, der eingenommene Standpunkt.</note> abfuͤren<note xml:id="fn10" type="footnote" n="10">abbringen, ablenken.</note>, ouch nur das verantworttind<note xml:id="fn11" type="footnote" n="11">verteidigt (Grimm XII/I 80).</note>, das zuͦ verantwortten ist.</s>
+					<s n="11" xml:lang="de" type="auto">Wenn si nun herfür trättend und disputation anhebend, ort inzfuͤren<note xml:id="fn7" type="footnote" n="7">Bibelstellen zu zitieren.</note>, damitt si vermeinend, das alt testament abgethan sin, so nemmend ir in üwren verantworten das eigentlich war<note xml:id="fn8" type="footnote" n="8">dann achtet in eurer Verteidigung genau darauf.</note>, daß ir üch nitt lassind von der position<note xml:id="fn9" type="footnote" n="9">Hier eher: These, der eingenommene Standpunkt.</note> abfuͤren<note xml:id="fn10" type="footnote" n="10">abbringen, ablenken.</note>, ouch nur das verantworttind<note xml:id="fn11" type="footnote" n="11">verteidigt (<bibl>Grimm</bibl> XII/I 80).</note>, das zuͦ verantwortten ist.</s>
 					<s n="12" xml:lang="de" type="auto"><pb type="scan" next="||1v."/>Demnach nemmend war der ortten, die si infuͤrend, und flyssend üch dess zum höchsten, das ir allwäg<note xml:id="fn12" type="footnote" n="12">immer.</note> hell bewysind, das die ingfuͤrten sprüch nitt wider üwer position syend, si auch nitt entkrefftiget habind, und habend allwäg ein oug uff die position.</s>
-					<s n="13" xml:lang="de" type="auto">Das ander, daß ir üch nitt lassind von der gschrifft abfuͤren, ouch nitt von anzognen<note xml:id="fn13" type="footnote" n="13">beigezogenen, zitierten.</note> sprüchen wychen, bis mencklich<note xml:id="fn14" type="footnote" n="14">jedermann.</note> sehe, das si dem ingfuͤrten spruch gwallt habind than und das er dahin nitt diene<note xml:id="fn15" type="footnote" n="15">(zur Sache) nichts beitrage (SI XIII 152f).</note>.</s>
-					<s n="14" xml:lang="de" type="auto">Und da lassend schlecht<note xml:id="fn16" type="footnote" n="16">schlechtweg.</note> nütt nah<note xml:id="fn17" type="footnote" n="17">gebt nichts zu, gesteht nichts zu (SI III 1410f).</note> und trengend sy und haltends im siln<note xml:id="fn18" type="footnote" n="18">im Zaume (SI VII 764).</note> <foreign xml:lang="la">ad statum<note xml:id="fn19" type="footnote" n="19">beim Wortlaut, wörtlich.</note>.</foreign></s>
-					<s n="15" xml:lang="de" type="auto">Da ziehen nur [!] gar nütt inhin<note xml:id="fn20" type="footnote" n="20">Sinn: Zieht keine weiteren Argumente hinein.</note>, allein luͦgend<note xml:id="fn21" type="footnote" n="21">seht zu!</note>, das inen ire gegenwürff<note xml:id="fn22" type="footnote" n="22">Einwände (Grimm IV/I 2 2304).</note> verantwortet<note xml:id="fn23" type="footnote" n="23">beantwortet (Grimm XII/I 79f).</note> werdind.</s>
+					<s n="13" xml:lang="de" type="auto">Das ander, daß ir üch nitt lassind von der gschrifft abfuͤren, ouch nitt von anzognen<note xml:id="fn13" type="footnote" n="13">beigezogenen, zitierten.</note> sprüchen wychen, bis mencklich<note xml:id="fn14" type="footnote" n="14">jedermann.</note> sehe, das si dem ingfuͤrten spruch gwallt habind than und das er dahin nitt diene<note xml:id="fn15" type="footnote" n="15">(zur Sache) nichts beitrage (<bibl>SI</bibl> XIII 152f).</note>.</s>
+					<s n="14" xml:lang="de" type="auto">Und da lassend schlecht<note xml:id="fn16" type="footnote" n="16">schlechtweg.</note> nütt nah<note xml:id="fn17" type="footnote" n="17">gebt nichts zu, gesteht nichts zu (<bibl>SI</bibl> III 1410f).</note> und trengend sy und haltends im siln<note xml:id="fn18" type="footnote" n="18">im Zaume (<bibl>SI</bibl> VII 764).</note> <foreign xml:lang="la">ad statum<note xml:id="fn19" type="footnote" n="19">beim Wortlaut, wörtlich.</note>.</foreign></s>
+					<s n="15" xml:lang="de" type="auto">Da ziehen nur [!] gar nütt inhin<note xml:id="fn20" type="footnote" n="20">Sinn: Zieht keine weiteren Argumente hinein.</note>, allein luͦgend<note xml:id="fn21" type="footnote" n="21">seht zu!</note>, das inen ire gegenwürff<note xml:id="fn22" type="footnote" n="22">Einwände (<bibl>Grimm</bibl> IV/I 2 2304).</note> verantwortet<note xml:id="fn23" type="footnote" n="23">beantwortet (<bibl>Grimm</bibl> XII/I 79f).</note> werdind.</s>
 					<s n="16" xml:lang="la" type="auto">Et ne verbum amplius ullum!</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="de" type="auto">Verwarend aber üch<note xml:id="fn24" type="footnote" n="24">hütet euch, nehmt euch in Acht.</note> zevor<note xml:id="fn25" type="footnote" n="25">vor allem (SI I 933).</note> mitt dem wörttli: lex.</s>
+					<s n="17" xml:lang="de" type="auto">Verwarend aber üch<note xml:id="fn24" type="footnote" n="24">hütet euch, nehmt euch in Acht.</note> zevor<note xml:id="fn25" type="footnote" n="25">vor allem (<bibl>SI</bibl> I 933).</note> mitt dem wörttli: lex.</s>
 					<s n="18" xml:lang="la" type="auto">In hoc vertitur maxima huius partis concertatio, illique impudenter abutentur amphibolia verbi.</s>
 					<s n="19" xml:lang="la" type="auto">Sic enim paralogizabunt: «Lex abrogata est, Ebr. 8 [13].</s>
 					<s n="20" xml:lang="la" type="auto">Ergo nulla est veteris instrumenti in disputando autoritas».</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto">Ecce eo loco Paulus tantummodo loquutus est de lege cerem[oniali] per synechdochen<note xml:id="fn26" type="footnote" n="26">Zum rhetorischen Begriff Synekdoche s. Arbusow 84f; vgl. auch <hi>Fast/Yoder,</hi> aaO, S. 86, Anm. 13.</note>, de sacrificio et sacerdotio, ut patet ex praecedentibus et sequentibus, maxime ex cap. 7.</s>
+					<s n="21" xml:lang="la" type="auto">Ecce eo loco Paulus tantummodo loquutus est de lege cerem[oniali] per synechdochen<note xml:id="fn26" type="footnote" n="26">Zum rhetorischen Begriff Synekdoche s. <bibl>Arbusow</bibl> 84f; vgl. auch <hi>Fast/Yoder,</hi> aaO, S. 86, Anm. 13.</note>, de sacrificio et sacerdotio, ut patet ex praecedentibus et sequentibus, maxime ex cap. 7.</s>
 					<s n="22" xml:lang="la" type="auto">Iterum inferent: «Lex damnat<note xml:id="fn27" type="footnote" n="27">Vgl. Röm 7,5ff; Gal 3,10ff.</note>; ergo vet[us]test[amentum] damnat.»</s>
-					<s n="23" xml:lang="la" type="auto"><pb type="edition" next="131"/>Non enim vident legem heic usurpari per <foreign xml:lang="el">μετάλιψιν</foreign><note xml:id="fn28" type="footnote" n="28"><foreign xml:lang="el">ι</foreign> für <foreign xml:lang="el">η</foreign> (Itazismus); zum rhetorischen Begriff Metalepsis s. Arbusow 47; vgl. auch <hi>Fast/Yoder,</hi> aaO, S. 86, Anm. 14.</note> pro peccato, quod lege patefit Rom. 4 [15ff]. 7 [1ff].</s>
-					<s n="24" xml:lang="la" type="auto">Lex igitur, quatenus accipitur<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> accipitur <hi>gestrichen</hi> patefit.</note> pro scriptura et perpetua voluntate dei, non est abrogata, nisi tropum<note xml:id="fn29" type="footnote" n="29">Zum rhetorischen Begriff der Tropen s. Arbusow 82-91; vgl. auch <hi>Fast/Yoder,</hi> aaO, S. 86, Anm. 15.</note> constituas in dictione «abrogata»,<pb type="scan" next="||2r."/> quod usurpari potest pro «impleta».</s>
-					<s n="25" xml:lang="de" type="auto">Do luͦgend, das ir inen die figgmüli<note xml:id="fn30" type="footnote" n="30">Zwickmühle (SI I 713; s. noch <hi>Fast/Yoder,</hi> aaO, S. 87, Anm. 16).</note> bald <foreign xml:lang="la">per etymon et nomen rei ac vocabuli</foreign> gstellind<note xml:id="fn31" type="footnote" n="31">abstellt, zum Stillstand bringt (SI XI 82).</note>, das man allwäg erlütere, was in dem ingfuͤrten spruch «lex» heisse.</s>
+					<s n="23" xml:lang="la" type="auto"><pb type="edition" next="131"/>Non enim vident legem heic usurpari per <foreign xml:lang="el">μετάλιψιν</foreign><note xml:id="fn28" type="footnote" n="28"><foreign xml:lang="el">ι</foreign> für <foreign xml:lang="el">η</foreign> (Itazismus); zum rhetorischen Begriff Metalepsis s. <bibl>Arbusow</bibl> 47; vgl. auch <hi>Fast/Yoder,</hi> aaO, S. 86, Anm. 14.</note> pro peccato, quod lege patefit Rom. 4 [15ff]. 7 [1ff].</s>
+					<s n="24" xml:lang="la" type="auto">Lex igitur, quatenus accipitur<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> accipitur <hi>gestrichen</hi> patefit.</note> pro scriptura et perpetua voluntate dei, non est abrogata, nisi tropum<note xml:id="fn29" type="footnote" n="29">Zum rhetorischen Begriff der Tropen s. <bibl>Arbusow</bibl> 82-91; vgl. auch <hi>Fast/Yoder,</hi> aaO, S. 86, Anm. 15.</note> constituas in dictione «abrogata»,<pb type="scan" next="||2r."/> quod usurpari potest pro «impleta».</s>
+					<s n="25" xml:lang="de" type="auto">Do luͦgend, das ir inen die figgmüli<note xml:id="fn30" type="footnote" n="30">Zwickmühle (<bibl>SI</bibl> I 713; s. noch <hi>Fast/Yoder,</hi> aaO, S. 87, Anm. 16).</note> bald <foreign xml:lang="la">per etymon et nomen rei ac vocabuli</foreign> gstellind<note xml:id="fn31" type="footnote" n="31">abstellt, zum Stillstand bringt (<bibl>SI</bibl> XI 82).</note>, das man allwäg erlütere, was in dem ingfuͤrten spruch «lex» heisse.</s>
 					<s n="26" xml:lang="la" type="auto">Si enim non significat scripturam s[anctam], iam non quadrabit amplius locus.</s>
 				</p>
 				<p>
@@ -176,16 +170,16 @@
 					<s n="29" xml:lang="la" type="auto">Nam hoc plurimum facit ad plebem.</s>
 				</p>
 				<p>
-					<s n="30" xml:lang="de" type="auto">Hieruff zuͦletst haltend an und sprechend: «Jetz wend mir üch unser gründ, unser position anzeigen, üch zeberichten wyter oder zuͦ hören, ob ir neisswas<note xml:id="fn32" type="footnote" n="32">irgendetwas.</note> darwider mögind<note xml:id="fn33" type="footnote" n="33">dagegen vorzubringen vermögt.</note>, die ir doch bisshar üwer meinung nitt habend mögen befesten<note xml:id="fn34" type="footnote" n="34">stichhaltig machen (SI I 1120).</note>».</s>
+					<s n="30" xml:lang="de" type="auto">Hieruff zuͦletst haltend an und sprechend: «Jetz wend mir üch unser gründ, unser position anzeigen, üch zeberichten wyter oder zuͦ hören, ob ir neisswas<note xml:id="fn32" type="footnote" n="32">irgendetwas.</note> darwider mögind<note xml:id="fn33" type="footnote" n="33">dagegen vorzubringen vermögt.</note>, die ir doch bisshar üwer meinung nitt habend mögen befesten<note xml:id="fn34" type="footnote" n="34">stichhaltig machen (<bibl>SI</bibl> I 1120).</note>».</s>
 					<s n="31" xml:lang="de" type="auto">Und hie luͤgend, das ir üwer gründ zum kürtzsten, stercksten und hellisten, nun<note xml:id="fn35" type="footnote" n="35">nur.</note> die besten gstellt haben, und die mäldend<note xml:id="fn36" type="footnote" n="36">gebt an, nennt.</note> denn all, je einen nach dem andren in der ordnung.</s>
 					<s n="32" xml:lang="de" type="auto">Und wenn si dann all vermäldet, so kherend dann wider zum ersten grund, meldend den wider und sprechend: «Wyll nun jemandts den umstossen, der thuͤye es mitt gschrifft.»</s>
 					<s n="33" xml:lang="de" type="auto">Kömmend si dann mitt dem vorigen gschwätz, so sag man, es sy verantwortt <foreign xml:lang="la">ad statum rei praesentis.</foreign></s>
 					<s n="34" xml:lang="de" type="auto">Und also thuͦnd mitt den volgenden gründen allen.</s>
 				</p>
 				<p>
-					<s n="35" xml:lang="de" type="auto">Zuͦletst so luͦgend nun, das ir starck und dapfer<note xml:id="fn37" type="footnote" n="37">energisch (SI XIII 972).</note> syend in der collection<note xml:id="fn38" type="footnote" n="38">Zusammenfassung.</note>, uff die meinung:<pb type="scan" next="||2v."/></s>
-					<s n="36" xml:lang="de" type="manual">«Sittmal<note xml:id="fn39" type="footnote" n="39">weil, da.</note> es sich dann erfunden<note xml:id="fn40" type="footnote" n="40">herausgestellt, erwiesen.</note> hatt mitt gottswortt, das man die gschrifft erduren<note xml:id="fn41" type="footnote" n="41">prüfen, erforschen (SI XIII 1298-1300).</note>» etc. <foreign xml:lang="la">(hic brevi epilogo recense, quae hactenus probata et quibus argumentis),</foreign> «hoffen wir nunmalen erhalten sin<note xml:id="fn42" type="footnote" n="42">es sei erwiesen (SI II 1232).</note>, daß man alle spän mitt altem und nüwem testament entscheiden sol, und bgärend, das sölichs nun angschriben<note xml:id="fn43" type="footnote" n="43">aufgeschrieben (SI IX 1503).</note> und in aller disputation usshin ghalten<note xml:id="fn44" type="footnote" n="44">ausgehalten, durchgehalten.</note> und darwider nitt ghandlet werde» etc.</s>
-					<s n="37" xml:lang="de" type="auto">Und da lassend nummen<note xml:id="fn45" type="footnote" n="45">nur (SI IV 751f).</note> nütt nah!</s>
+					<s n="35" xml:lang="de" type="auto">Zuͦletst so luͦgend nun, das ir starck und dapfer<note xml:id="fn37" type="footnote" n="37">energisch (<bibl>SI</bibl> XIII 972).</note> syend in der collection<note xml:id="fn38" type="footnote" n="38">Zusammenfassung.</note>, uff die meinung:<pb type="scan" next="||2v."/></s>
+					<s n="36" xml:lang="de" type="manual">«Sittmal<note xml:id="fn39" type="footnote" n="39">weil, da.</note> es sich dann erfunden<note xml:id="fn40" type="footnote" n="40">herausgestellt, erwiesen.</note> hatt mitt gottswortt, das man die gschrifft erduren<note xml:id="fn41" type="footnote" n="41">prüfen, erforschen (<bibl>SI</bibl> XIII 1298-1300).</note>» etc. <foreign xml:lang="la">(hic brevi epilogo recense, quae hactenus probata et quibus argumentis),</foreign> «hoffen wir nunmalen erhalten sin<note xml:id="fn42" type="footnote" n="42">es sei erwiesen (<bibl>SI</bibl> II 1232).</note>, daß man alle spän mitt altem und nüwem testament entscheiden sol, und bgärend, das sölichs nun angschriben<note xml:id="fn43" type="footnote" n="43">aufgeschrieben (<bibl>SI</bibl> IX 1503).</note> und in aller disputation usshin ghalten<note xml:id="fn44" type="footnote" n="44">ausgehalten, durchgehalten.</note> und darwider nitt ghandlet werde» etc.</s>
+					<s n="37" xml:lang="de" type="auto">Und da lassend nummen<note xml:id="fn45" type="footnote" n="45">nur (<bibl>SI</bibl> IV 751f).</note> nütt nah!</s>
 				</p>
 				<p>
 					<s n="38" xml:lang="la" type="auto">Si autem requiras quaedam pro veteri ex<note xml:id="fnc" type="footnote" n="c"><hi>aus</hi> et <hi>korrigiert.</hi></note> novo testamento robora et testimonia, haec accipe.</s>
@@ -238,7 +232,7 @@
 					<s n="59" xml:lang="la" type="auto">Infinita sunt huius generis alia, sed hęc incidenter.</s>
 				</p>
 				<p>
-					<s n="60" xml:lang="de" type="auto">Wenn man nun den artickel eroberet<note xml:id="fn47" type="footnote" n="47">für sich entschieden, gewonnen (SI I 52).</note> hatt, mitt was gwehren<note xml:id="fn48" type="footnote" n="48">Waffen.</note> man fechten sölle, so wirtt dann von nöten sin, das man auch eins werde, wie man die gweer bruchen sölle.</s>
+					<s n="60" xml:lang="de" type="auto">Wenn man nun den artickel eroberet<note xml:id="fn47" type="footnote" n="47">für sich entschieden, gewonnen (<bibl>SI</bibl> I 52).</note> hatt, mitt was gwehren<note xml:id="fn48" type="footnote" n="48">Waffen.</note> man fechten sölle, so wirtt dann von nöten sin, das man auch eins werde, wie man die gweer bruchen sölle.</s>
 					<s n="61" xml:lang="la" type="auto">Secundo ergo loco disputabitis de genuino scripturae sensu.</s>
 					<s n="62" xml:lang="de" type="auto">Dann hierin ist gross span, so einer seit: «Also verstan ichs», ein andrer aber: «Also ich».</s>
 					<s n="63" xml:lang="de" type="auto">Damit mag man nitt wüssen, wers recht verstand oder nitt.</s>
@@ -256,7 +250,7 @@
 					<s n="71" xml:lang="la" type="auto">Ostendant ergo modum.</s>
 					<s n="72" xml:lang="la" type="auto">Si falsum ostendunt, impugnate!</s>
 					<s n="73" xml:lang="la" type="auto">Si verum, in tabulas scribite!</s>
-					<s n="74" xml:lang="de" type="auto">Und luͦgend,<pb type="scan" next="||3v."/> das ir da alle ding klaar machind, wie gnuͤgsam im ersten artickel gmeldet, daß ir allwäg üwer hinderhuͤt<note xml:id="fn49" type="footnote" n="49">Nachhut, Reserve (SI II 1794).</note> zuͦletst fürhin thuͦind<note xml:id="fn50" type="footnote" n="50">vorbringt. -Vgl. auch <hi>Fast/Yoder,</hi> aaO, S. 89, Anm. 24.</note>.</s>
+					<s n="74" xml:lang="de" type="auto">Und luͦgend,<pb type="scan" next="||3v."/> das ir da alle ding klaar machind, wie gnuͤgsam im ersten artickel gmeldet, daß ir allwäg üwer hinderhuͤt<note xml:id="fn49" type="footnote" n="49">Nachhut, Reserve (<bibl>SI</bibl> II 1794).</note> zuͦletst fürhin thuͦind<note xml:id="fn50" type="footnote" n="50">vorbringt. - Vgl. auch <hi>Fast/Yoder,</hi> aaO, S. 89, Anm. 24.</note>.</s>
 					<s n="75" xml:lang="la" type="auto">Quae autem hac in re habeo, vobiscum communico.</s>
 				</p>
 				<p>
@@ -307,7 +301,7 @@
 					<s n="96" xml:lang="la" type="auto">Ad hoc enim utile erit, ut postea in ipsa disputatione neque spiritum suum iactare neque nuda litera uti ausint, et si scripturae locos produxerint, non minus sensum ex scripturis probare atque testimonia ex scripturis petere.</s>
 				</p>
 				<p>
-					<s n="97" xml:lang="de" type="auto">Da werdend ir nun fry allwägen mögen hämen<note xml:id="fn55" type="footnote" n="55">zurückbinden (vgl. SI II 1271.1276).</note>, allweg reden: «Nun bewär<note xml:id="fn56" type="footnote" n="56">beweise.</note> den verstand<note xml:id="fn57" type="footnote" n="57">Auffassung (SI XI 991f).</note> mitt gschrifft oder aber ich will dir mitt gschrifft din verstand umkheren.»</s>
+					<s n="97" xml:lang="de" type="auto">Da werdend ir nun fry allwägen mögen hämen<note xml:id="fn55" type="footnote" n="55">zurückbinden (vgl. <bibl>SI</bibl> II 1271.1276).</note>, allweg reden: «Nun bewär<note xml:id="fn56" type="footnote" n="56">beweise.</note> den verstand<note xml:id="fn57" type="footnote" n="57">Auffassung (<bibl>SI</bibl> XI 991f).</note> mitt gschrifft oder aber ich will dir mitt gschrifft din verstand umkheren.»</s>
 					<s n="98" xml:lang="la" type="auto">Exercitatum quidem haec in scripturis hominem requirunt, sed certissima speranda victoria.</s>
 				</p>
 				<p>
@@ -320,11 +314,11 @@
 				</p>
 				<p>
 					<s n="103" xml:lang="de" type="auto">Darnach nemmend erst die artickel zehand, so werdend ir befinden, daß die arbeit hieruff ringer wirt.</s>
-					<s n="104" xml:lang="de" type="auto">Und ob<note xml:id="fn59" type="footnote" n="59">wenn.</note> sie daran nitt gern kommen<note xml:id="fn60" type="footnote" n="60">nicht damit einverstanden sind, nicht darauf eingehen (SI III 267).</note> und das zevor wellend lassen handlen, so zeigend inen, daß es nitt beschäch uss keinem ufsatz<note xml:id="fn61" type="footnote" n="61">Hinterlist (SI VII 1533-1536).</note>, sonder künfftig spän zvermyden und daß man dapfer<note xml:id="fn62" type="footnote" n="62">wirksam, fruchtbar (SI XIII 972f).</note>, sicher und warlich handlen möge.</s>
+					<s n="104" xml:lang="de" type="auto">Und ob<note xml:id="fn59" type="footnote" n="59">wenn.</note> sie daran nitt gern kommen<note xml:id="fn60" type="footnote" n="60">nicht damit einverstanden sind, nicht darauf eingehen (<bibl>SI</bibl> III 267).</note> und das zevor wellend lassen handlen, so zeigend inen, daß es nitt beschäch uss keinem ufsatz<note xml:id="fn61" type="footnote" n="61">Hinterlist (<bibl>SI</bibl> VII 1533-1536).</note>, sonder künfftig spän zvermyden und daß man dapfer<note xml:id="fn62" type="footnote" n="62">wirksam, fruchtbar (<bibl>SI</bibl> XIII 972f).</note>, sicher und warlich handlen möge.</s>
 				</p>
 				<p>
 					<s n="105" xml:lang="de" type="auto"><pb type="edition" next="134"/><pb type="scan" next="||4v."/>Das hab ich jetzmal gehept, das ich dir rathe.</s>
-					<s n="106" xml:lang="de" type="auto">Gott gäbe dir, <persName ref="person145">Casparen</persName><note xml:id="fn63" type="footnote" n="63"><persName ref="person145">Kaspar Megander</persName>.</note> und <persName ref="person1393">Frantzen</persName><note xml:id="fn64" type="footnote" n="64"><persName ref="person1393">Franz Kolb</persName>.</note>, ouch andren lieben bruͤderen wyssheit, verstand und sig bi sinem wortt.</s>
+					<s n="106" xml:lang="de" type="auto">Gott gäbe dir, <persName ref="p8412">Casparen</persName><note xml:id="fn63" type="footnote" n="63"><persName>Kaspar Megander</persName>.</note> und <persName ref="p5497">Frantzen</persName><note xml:id="fn64" type="footnote" n="64"><persName>Franz Kolb</persName>.</note>, ouch andren lieben bruͤderen wyssheit, verstand und sig bi sinem wortt.</s>
 				</p>
 				<p>
 					<s n="107" xml:lang="de" type="manual">Amen.</s>

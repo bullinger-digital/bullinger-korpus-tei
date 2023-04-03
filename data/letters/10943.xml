@@ -6,46 +6,37 @@
 				<title subtype="file">Georg Distel / Entringen AN Heinrich Bullinger, 10. Oktober 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=901</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">439</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,73</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat durch <persName ref="person19">Ambrosius Blarer</persName> erfahren, daß es Bullinger und den Seinen
+								Hat durch <persName ref="p8055">Ambrosius Blarer</persName> erfahren, daß es Bullinger und den Seinen
 								gut geht. Seine eigene Lage hat sich seit der Visitation gebessert, wie der Briefüberbringer, sein Schwager,
 								berichten wird. Möchte gerne selbst nach Zürich kommen und die neuen Schriften [Bullingers] abholen.
 								Entschuldigt sein mangelhaftes Schreiben mit der überraschenden Verfügbarkeit eines Boten. Grüße.
@@ -55,24 +46,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 901, S.439</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10943">
 				<correspAction type="sent">
-					<persName ref="person756" cert="high">
+					<persName ref="p756" cert="high">
 						<!--
 						<surname cert="high">Distel</surname>
 						<forename cert="high">Georg</forename>
 						<persName type="main" ref="person8330>Distel, Georg</persName>
 						-->
 					</persName>
-					<placeName source="place139" cert="high"><orig>Entringen</orig></placeName>
+					<placeName source="l139" cert="high"><orig>Entringen</orig></placeName>
 					<date when="1536-10-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -102,7 +100,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -114,27 +112,27 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="de" type="auto">Min gantz undertänig dienst etc. zuͦ<note xml:id="fn1" type="footnote" n="1">zuvor.</note>, lieber herr und preceptor.</s>
-					<s n="2" xml:lang="de" type="auto">Ich horte alltzytt gern, das es wol stände um uwer volck etc., wie dann ich gehört hab vonn minem herren und bruͦder <persName ref="person19">Ambrosy Blarern</persName>.</s>
+					<s n="2" xml:lang="de" type="auto">Ich horte alltzytt gern, das es wol stände um uwer volck etc., wie dann ich gehört hab vonn minem herren und bruͦder <persName ref="p8055">Ambrosy Blarern</persName>.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Wie wol ich in armuͦt byhar gsin<note xml:id="fn2" type="footnote" n="2">bisher gewesen bin (vgl. <persName ref="person48">Distels</persName> Brief vorn 24. Juni 1535, HBBW V, <ref target="file10637">Nr. 599</ref>).</note>, doch nach dem visitireren [!]<note xml:id="fn3" type="footnote" n="3">Von der Visitation im Arnt <placeName ref="place1107">Tübingen</placeName> vorn August/September 1536 liegen nur Akten vor, die sich auf die Stadt beziehen; vgl. Württembergische Visitationsakten, Bd. I: (1534) 1536-1540, bearb. v. Julius Rauscher, Stuttgart 1932. - Württembergische Geschichtsquellen 22, S. XXXIV.</note> min sach (uß gunst gotts) wol statt und wol versehen.</s>
-					<s n="4" xml:lang="de" type="auto">Wie wol vyl uffsatz<note xml:id="fn4" type="footnote" n="4">Anfechtung (SI VII 1536-1538).</note> und versuͦchung mir zuͦ gestanden<note xml:id="fn5" type="footnote" n="5">zugestoßen (SI XI 745-747).</note>, ist doch es von gott besser worden, wie dann uch hie zeyger dyß brieff, min lieber schwager<note xml:id="fn6" type="footnote" n="6">Unbekannt.</note>, sagen wirt etc.</s>
+					<s n="3" xml:lang="de" type="auto">Wie wol ich in armuͦt byhar gsin<note xml:id="fn2" type="footnote" n="2">bisher gewesen bin (vgl. <persName>Distels</persName> Brief vorn 24. Juni 1535, <bibl>HBBW</bibl> V, <ref target="file10637">Nr. 599</ref>).</note>, doch nach dem visitireren [!]<note xml:id="fn3" type="footnote" n="3">Von der Visitation im Arnt <placeName>Tübingen</placeName> vorn August/September 1536 liegen nur Akten vor, die sich auf die Stadt beziehen; vgl. Württembergische Visitationsakten, Bd. I: (1534) 1536-1540, bearb. v. Julius Rauscher, Stuttgart 1932. - Württembergische Geschichtsquellen 22, S. XXXIV.</note> min sach (uß gunst gotts) wol statt und wol versehen.</s>
+					<s n="4" xml:lang="de" type="auto">Wie wol vyl uffsatz<note xml:id="fn4" type="footnote" n="4">Anfechtung (<bibl>SI</bibl> VII 1536-1538).</note> und versuͦchung mir zuͦ gestanden<note xml:id="fn5" type="footnote" n="5">zugestoßen (<bibl>SI</bibl> XI 745-747).</note>, ist doch es von gott besser worden, wie dann uch hie zeyger dyß brieff, min lieber schwager<note xml:id="fn6" type="footnote" n="6">Unbekannt.</note>, sagen wirt etc.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="de" type="auto">So gott wolte, wurde der tagen eynist<note xml:id="fn7" type="footnote" n="7">nächstens einmal (SI XII 800).</note> zu üch komen und die exemplar holen, so ir byhar geschryben und gemacht.</s>
+					<s n="5" xml:lang="de" type="auto">So gott wolte, wurde der tagen eynist<note xml:id="fn7" type="footnote" n="7">nächstens einmal (<bibl>SI</bibl> XII 800).</note> zu üch komen und die exemplar holen, so ir byhar geschryben und gemacht.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="de" type="auto">Das[?]<note xml:id="fna" type="footnote" n="a"><hi>Text durch Siegel beschädigt.</hi></note> ich uch so schlechtig<note xml:id="fn8" type="footnote" n="8">mangelhaft (vgl. SI IX 56. 67).</note> geschryben, ist under wegen<note xml:id="fn9" type="footnote" n="9">deswegen, deshalb(?).</note> geschehen, das min schwager im<note xml:id="fn10" type="footnote" n="10">für sich.</note> ain andren weg fri<note xml:id="fn11" type="footnote" n="11">etwa im Sinne von: gerade (vgl. SI I 1260).</note> hat genomen und maint<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> mait[?].</note> er werde, Zürch zuͦ komen.</s>
+					<s n="6" xml:lang="de" type="auto">Das[?]<note xml:id="fna" type="footnote" n="a"><hi>Text durch Siegel beschädigt.</hi></note> ich uch so schlechtig<note xml:id="fn8" type="footnote" n="8">mangelhaft (vgl. <bibl>SI</bibl> IX 56. 67).</note> geschryben, ist under wegen<note xml:id="fn9" type="footnote" n="9">deswegen, deshalb(?).</note> geschehen, das min schwager im<note xml:id="fn10" type="footnote" n="10">für sich.</note> ain andren weg fri<note xml:id="fn11" type="footnote" n="11">etwa im Sinne von: gerade (vgl. <bibl>SI</bibl> I 1260).</note> hat genomen und maint<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> mait[?].</note> er werde, Zürch zuͦ komen.</s>
 					<s n="7" xml:lang="de" type="auto">Damit danck ouch gott uch, der aleyn<note xml:id="fnc" type="footnote" n="c"><hi>in der Vorlage</hi> aleym.</note> um<note xml:id="fnd" type="footnote" n="d"><hi>nach</hi> um <hi>gestrichenes</hi> alltzytt.</note> alles guͦts.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="de" type="auto">Datum zinstag<note xml:id="fn12" type="footnote" n="12">Dienstag.</note> vor Galli anno etc. 1536.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="manual">Görg <persName ref="person48">Distel</persName>, predicant zuͦ <placeName ref="place324">Entringen</placeName>.</s>
+					<s n="9" xml:lang="de" type="manual">Görg <persName ref="p8330">Distel</persName>, predicant zuͦ <placeName>Entringen</placeName>.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">Grießent mir den Leonen<note xml:id="fn13" type="footnote" n="13"><persName ref="person114">Leo Jud</persName>.</note>, Theodorum<note xml:id="fn14" type="footnote" n="14"><persName ref="person14">Theodor Bibliander</persName>.</note> und <foreign xml:lang="la">omnes alios etc.</foreign></s>
+					<s n="10" xml:lang="de" type="auto">Grießent mir den Leonen<note xml:id="fn13" type="footnote" n="13"><persName ref="p2305">Leo Jud</persName>.</note>, Theodorum<note xml:id="fn14" type="footnote" n="14"><persName>Theodor Bibliander</persName>.</note> und <foreign xml:lang="la">omnes alios etc.</foreign></s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

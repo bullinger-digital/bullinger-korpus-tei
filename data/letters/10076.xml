@@ -6,47 +6,38 @@
 				<title subtype="file">s.n. / Bern AN Heinrich Bullinger, 11. Dezember 1531</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=48</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">232</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Original">Ms A 51,16 1/2 doppelfol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Berufung Bullingers nach
-								<placeName ref="place121">Bern</placeName>.
+								<placeName>Bern</placeName>.
 							</p>
 						</summary>
 						<msItem>
@@ -64,6 +55,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>ABernerRef 3255</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 48, S.232</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -72,13 +66,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10076">
 				<correspAction type="sent">
-					<roleName ref="role65" type="pl" role="Schultheissen" cert="high"/>
-					<roleName ref="role59" type="pl" role="Räte" cert="high"/>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<roleName ref="g65" type="pl" role="Schultheissen" cert="high"/>
+					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1531-12-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,18 +123,18 @@
 					<s n="1" xml:lang="de" type="auto">Unnsern früntlichen gruͤß unnd alles guͦtt zuͦvor<note xml:id="fn1" type="footnote" n="1">im voraus.</note>, wolgelerter, wyser, sonders lieber unnd guͤtter fründ.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Uns zwifelt gar nüt, du tragest noch guͤtt wüßen<note xml:id="fn2" type="footnote" n="2">erinnerst dich noch gut.</note>, was Meister <persName ref="person1393">Frantz Kolb</persName><note xml:id="fn3" type="footnote" n="3">Siehe oben S. 215, Anm. 54.</note> unser predicant, mit dir zuͦ Bremgarthen geredt<note xml:id="fn4" type="footnote" n="4"><persName ref="person1393">Kolb</persName> hielt sich als Feldprediger im November 1531 in <placeName ref="place178">Bremgarten</placeName> auf (HBRG III 263).</note>, desglichen was dir der <persName ref="person90">Berchtold Haller</persName><note xml:id="fn5" type="footnote" n="5">Siehe oben S. 205, Anm. 1.</note>, ouch unser predicant, nechster tagen zuͦgeschryben<note xml:id="fn6" type="footnote" n="6">Siehe oben Nr. 46.</note>.</s>
-					<s n="3" xml:lang="de" type="auto">Dwyl nun erstbemeltem <persName ref="person90">Berchtolden</persName> vonn dir schriftlich antwurt daruff zuͦkhomen<note xml:id="fn7" type="footnote" n="7">angekommen, eingetroffen. -Bullingers Antwortbrief an <persName ref="person90">Haller</persName>, den er wahrscheinlich am 9. Dezember schrieb (s. <hi>Zsindely</hi> 672), blieb nicht erhalten.</note>, daruß vermerckt wyrt<note xml:id="fn8" type="footnote" n="8">ersichtlich, zu vernehmen ist (vgl. Wörterverzeichnis in Anshelm VI 346).</note>, mit was fürworten<note xml:id="fn9" type="footnote" n="9">Vorschriften (ebenda 350).</note> und gedingen<note xml:id="fn10" type="footnote" n="10">Bedingungen (ebenda).</note> unser eydgnoßen von Zürich dich unnd ander verkhünder gottes wortt binden wellend, die äben<note xml:id="fn11" type="footnote" n="11">ziemlich, recht (SI I 45).</note> schimpfflich<note xml:id="fna" type="footnote" n="a"><hi>am Rande von fremder Hand:</hi> NB. quid hoc?</note> und unsers bedunckens<note xml:id="fn12" type="footnote" n="12">nach unserer Meinung.</note> keinem prophettenn<note xml:id="fn13" type="footnote" n="13">Nämlich: keinem Verkünder des Gotteswortes, keinem evangelischen Prediger.</note> anemlich<note xml:id="fn14" type="footnote" n="14">annehmbar. - Gemeint ist Art. 4 im «<placeName ref="place690">Meilener</placeName> Verkommnis», das am 28. November 1531 von den Vertretern der Landschaft und am 9. Dezember vom Zürcher Rat angenommen wurde (s. HBRG III 287 und <hi>Blanke</hi> 137ff. 148). Der Text des Artikels wurde Bullinger und seinen Amtsbrüdern, die am 9. Dezember vor dem Bürgermeister und den Räten erschienen waren, gleich nach Bekanntgabe von Bullingers Wahl zum Nachfolger <persName ref="person265">Zwinglis</persName> mitgeteilt. Demnach hatten sie sich fortan nicht nur jeder Einmischung in politische Angelegenheiten zu enthalten, sondern auch in der Predigt ein Schelten der Leute als «gottloß» oder «bößwillig» zu vermeiden. Bullinger erkannte die Tragweite dieses die Verkündigung beschränkenden Beschlusses. Deshalb machte er die Annahme des ihm angebotenen Amtes von einer genauen und befriedigenden Erläuterung dieser Bestimmung abhängig. Den Predigern wurde eine viertägige Bedenkzeit eingeräumt. Diese Vorgänge hatte Bullinger nach <placeName ref="place121">Bern</placeName> berichtet, was zum Anlaß dieser zweiten Berufung wurde (s. <hi>Zsindely</hi> 672f).</note>, deßhalb wir uß günstiger meynung, die wir zuͦ dir tragen<note xml:id="fn15" type="footnote" n="15">von dir haben.</note> von wegen dins erbaren wandels und christenlicher leer, dich hiemit pittlich anzesuͤchen verursachet<note xml:id="fn16" type="footnote" n="16">veranlaßt (wurden), SI VII 121.</note>, ob es dir anmuͤtig<note xml:id="fn17" type="footnote" n="17">angenehm.</note> und als<note xml:id="fn18" type="footnote" n="18">so, ebenso wie ... (SI I 197).</note> gern by uns sin wilt, als wir diner person begeren<note xml:id="fn19" type="footnote" n="19">wünschen.</note> und<pb type="edition" next="233"/> haben wellend, das du dich mit disem unserm harumb allein zuͦ dir abgevertigotten pottenn verfuͤgest<note xml:id="fn20" type="footnote" n="20">zu uns begibst.</note>, unser khilchen in verkhündung gottes wort vorzestan; wellend wir mit dir dermaß diner libß<note xml:id="fn21" type="footnote" n="21">Leibes.</note> narung und wolhaltung halb verkhomen<note xml:id="fn22" type="footnote" n="22">übereinkommen (SI III 277).</note>, das du ein guͤt benuͤgen<note xml:id="fn23" type="footnote" n="23">Genüge, Zufriedenheit (Wörterverzeichnis, Anshelm VI 338; vgl. noch SI IV 701).</note> vonn unns haben solt.</s>
+					<s n="2" xml:lang="de" type="auto">Uns zwifelt gar nüt, du tragest noch guͤtt wüßen<note xml:id="fn2" type="footnote" n="2">erinnerst dich noch gut.</note>, was Meister <persName ref="p5497">Frantz Kolb</persName><note xml:id="fn3" type="footnote" n="3">Siehe oben S. 215, Anm. 54.</note> unser predicant, mit dir zuͦ Bremgarthen geredt<note xml:id="fn4" type="footnote" n="4"><persName>Kolb</persName> hielt sich als Feldprediger im November 1531 in <placeName>Bremgarten</placeName> auf (<bibl>HBRG</bibl> III 263).</note>, desglichen was dir der <persName ref="p1391">Berchtold Haller</persName><note xml:id="fn5" type="footnote" n="5">Siehe oben S. 205, Anm. 1.</note>, ouch unser predicant, nechster tagen zuͦgeschryben<note xml:id="fn6" type="footnote" n="6">Siehe oben Nr. 46.</note>.</s>
+					<s n="3" xml:lang="de" type="auto">Dwyl nun erstbemeltem <persName ref="p1391">Berchtolden</persName> vonn dir schriftlich antwurt daruff zuͦkhomen<note xml:id="fn7" type="footnote" n="7">angekommen, eingetroffen. -Bullingers Antwortbrief an <persName>Haller</persName>, den er wahrscheinlich am 9. Dezember schrieb (s. <bibl>Zsindely</bibl> 672), blieb nicht erhalten.</note>, daruß vermerckt wyrt<note xml:id="fn8" type="footnote" n="8">ersichtlich, zu vernehmen ist (vgl. Wörterverzeichnis in Anshelm VI 346).</note>, mit was fürworten<note xml:id="fn9" type="footnote" n="9">Vorschriften (ebenda 350).</note> und gedingen<note xml:id="fn10" type="footnote" n="10">Bedingungen (ebenda).</note> unser eydgnoßen von Zürich dich unnd ander verkhünder gottes wortt binden wellend, die äben<note xml:id="fn11" type="footnote" n="11">ziemlich, recht (<bibl>SI</bibl> I 45).</note> schimpfflich<note xml:id="fna" type="footnote" n="a"><hi>am Rande von fremder Hand:</hi> NB. quid hoc?</note> und unsers bedunckens<note xml:id="fn12" type="footnote" n="12">nach unserer Meinung.</note> keinem prophettenn<note xml:id="fn13" type="footnote" n="13">Nämlich: keinem Verkünder des Gotteswortes, keinem evangelischen Prediger.</note> anemlich<note xml:id="fn14" type="footnote" n="14">annehmbar. - Gemeint ist Art. 4 im «<placeName>Meilener</placeName> Verkommnis», das am 28. November 1531 von den Vertretern der Landschaft und am 9. Dezember vom Zürcher Rat angenommen wurde (s. <bibl>HBRG</bibl> III 287 und <bibl>Blanke</bibl> 137ff. 148). Der Text des Artikels wurde Bullinger und seinen Amtsbrüdern, die am 9. Dezember vor dem Bürgermeister und den Räten erschienen waren, gleich nach Bekanntgabe von Bullingers Wahl zum Nachfolger <persName>Zwinglis</persName> mitgeteilt. Demnach hatten sie sich fortan nicht nur jeder Einmischung in politische Angelegenheiten zu enthalten, sondern auch in der Predigt ein Schelten der Leute als «gottloß» oder «bößwillig» zu vermeiden. Bullinger erkannte die Tragweite dieses die Verkündigung beschränkenden Beschlusses. Deshalb machte er die Annahme des ihm angebotenen Amtes von einer genauen und befriedigenden Erläuterung dieser Bestimmung abhängig. Den Predigern wurde eine viertägige Bedenkzeit eingeräumt. Diese Vorgänge hatte Bullinger nach <placeName>Bern</placeName> berichtet, was zum Anlaß dieser zweiten Berufung wurde (s. <bibl>Zsindely</bibl> 672f).</note>, deßhalb wir uß günstiger meynung, die wir zuͦ dir tragen<note xml:id="fn15" type="footnote" n="15">von dir haben.</note> von wegen dins erbaren wandels und christenlicher leer, dich hiemit pittlich anzesuͤchen verursachet<note xml:id="fn16" type="footnote" n="16">veranlaßt (wurden), <bibl>SI</bibl> VII 121.</note>, ob es dir anmuͤtig<note xml:id="fn17" type="footnote" n="17">angenehm.</note> und als<note xml:id="fn18" type="footnote" n="18">so, ebenso wie ... (<bibl>SI</bibl> I 197).</note> gern by uns sin wilt, als wir diner person begeren<note xml:id="fn19" type="footnote" n="19">wünschen.</note> und<pb type="edition" next="233"/> haben wellend, das du dich mit disem unserm harumb allein zuͦ dir abgevertigotten pottenn verfuͤgest<note xml:id="fn20" type="footnote" n="20">zu uns begibst.</note>, unser khilchen in verkhündung gottes wort vorzestan; wellend wir mit dir dermaß diner libß<note xml:id="fn21" type="footnote" n="21">Leibes.</note> narung und wolhaltung halb verkhomen<note xml:id="fn22" type="footnote" n="22">übereinkommen (<bibl>SI</bibl> III 277).</note>, das du ein guͤt benuͤgen<note xml:id="fn23" type="footnote" n="23">Genüge, Zufriedenheit (Wörterverzeichnis, Anshelm VI 338; vgl. noch <bibl>SI</bibl> IV 701).</note> vonn unns haben solt.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="de" type="auto">Datumb in yl<note xml:id="fn24" type="footnote" n="24">Eile.</note> 11. decembris anno etc. 31°.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="de" type="auto">Schultheis und rat zuͦ <placeName ref="place121">Bern</placeName>.</s>
+					<s n="5" xml:lang="de" type="auto">Schultheis und rat zuͦ <placeName>Bern</placeName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="6" xml:lang="de" type="auto">Dem wolgelerten wysen Meister Heinrich Bullinger, verjechernn<note xml:id="fn25" type="footnote" n="25">Verkünder, Bekenner, Ausleger (vgl. Wörterverzeichnis in Anshelm VI 345; SI III 50.</note> gottes wort, jetz zuͦ Zürich, oder wo er betretten<note xml:id="fn26" type="footnote" n="26">angetroffen.</note> wirt, unserm liebenn und guͦten fründ<note xml:id="fnb" type="footnote" n="b"><hi>oberhalb und unter der Adresse von fremder Hand:</hi> 11. decembris anno 1531; ein stad <placeName ref="place121">Bern</placeName> begert H. Bullingers, NB.</note>.</s>
+					<s n="6" xml:lang="de" type="auto">Dem wolgelerten wysen Meister Heinrich Bullinger, verjechernn<note xml:id="fn25" type="footnote" n="25">Verkünder, Bekenner, Ausleger (vgl. Wörterverzeichnis in Anshelm VI 345; <bibl>SI</bibl> III 50.</note> gottes wort, jetz zuͦ Zürich, oder wo er betretten<note xml:id="fn26" type="footnote" n="26">angetroffen.</note> wirt, unserm liebenn und guͦten fründ<note xml:id="fnb" type="footnote" n="b"><hi>oberhalb und unter der Adresse von fremder Hand:</hi> 11. decembris anno 1531; ein stad <placeName>Bern</placeName> begert H. Bullingers, NB.</note>.</s>
 				</p>
 			</div>
 		</body>

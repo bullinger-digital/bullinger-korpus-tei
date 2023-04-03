@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 2. Juli 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1284</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">170</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,210</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,192</idno>
@@ -48,13 +39,12 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet um Unterstützung für <persName ref="person867">Adam Frey</persName>, der im Anschluß an eine
-								Behandlung durch Sebastian
-								[<persName ref="person2181">Sinckeler</persName>] vielleicht einen Badeort aufsuchen wird.
-								<persName ref="person84">Rudolf [Gwalther]</persName> ist aus
-								unbekanntem Grund nach <placeName ref="place609">Lausanne</placeName> abgereist. [Der Streit um die
+								Bittet um Unterstützung für <persName ref="p4830">Adam Frey</persName>, der im Anschluß an eine
+								Behandlung durch <persName ref="p6618">Sebastian [Sinckeler]</persName> vielleicht einen Badeort aufsuchen wird.
+								<persName ref="p8011">Rudolf [Gwalther]</persName> ist aus
+								unbekanntem Grund nach <placeName>Lausanne</placeName> abgereist. [Der Streit um die
 								Universitätsordnung] erfordert schon bald ein Eingreifen von Bullinger,
-								<persName ref="person126">[Peter] Kunz</persName> und den
+								<persName ref="p8401">[Peter] Kunz</persName> und den
 								Straßburgern. Grüße.
 							</p>
 						</summary>
@@ -62,13 +52,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1284, S.170</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11327">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -79,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1539-07-02" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,31 +128,31 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto"><persName ref="person867">Adamus</persName> Phry<note xml:id="fn1" type="footnote" n="1"><persName ref="person867">Adam Frey</persName>.</note> apud me est.</s>
+					<s n="2" xml:lang="la" type="auto"><persName ref="p4830">Adamus</persName> Phry<note xml:id="fn1" type="footnote" n="1"><persName>Adam Frey</persName>.</note> apud me est.</s>
 					<s n="3" xml:lang="la" type="auto">Consultamus, quid amplius agendum.</s>
-					<s n="4" xml:lang="la" type="auto">Est medicus doctor <persName ref="person2181">Sebastianus</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person2181">Sebastian Sinckeler</persName>.</note> mihi amicissimus, qui, tametsi nihil promittit ob temporis et morbi longitudinem, tamen tentabit aliquid, quod non nocebit.</s>
+					<s n="4" xml:lang="la" type="auto">Est medicus doctor <persName ref="p6618">Sebastianus</persName><note xml:id="fn2" type="footnote" n="2"><persName>Sebastian Sinckeler</persName>.</note> mihi amicissimus, qui, tametsi nihil promittit ob temporis et morbi longitudinem, tamen tentabit aliquid, quod non nocebit.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Quod si processerit, ibit fortassis <persName ref="person867">Adamus</persName> ad thermas.</s>
+					<s n="5" xml:lang="la" type="auto">Quod si processerit, ibit fortassis <persName ref="p4830">Adamus</persName> ad thermas.</s>
 					<s n="6" xml:lang="la" type="auto">Quęso per dominum te, ut pro tua authoritate sis illi auxilio.</s>
 					<s n="7" xml:lang="la" type="auto">Videtur mihi vir bonus et dei gnarus, unde et dignus, cui praestent omnes boni, quo succurratur.</s>
 					<s n="8" xml:lang="la" type="auto">Apud dominos commendabis more tuo diligenter, quęso, virum.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person84">Rodulfus</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person84">Rudolf Gwalther</persName>.</note> ivit <placeName ref="place609">Lausannam</placeName>, nescio quo consilio<note xml:id="fn4" type="footnote" n="4">In einem Brief an <persName ref="person154">Myconius</persName> entschuldigte sich <persName ref="person84">Gwalther</persName> für seine grußlose Abreise; s. Corr. des réformateurs V 365f, <ref target="file10847">Nr. 808</ref> (Juli 1539).</note>.</s>
-					<s n="10" xml:lang="la" type="auto">Causa nostra<note xml:id="fn5" type="footnote" n="5">Gemeint ist der Konflikt um die neuen Universitätsstatuten; vgl. zuletzt oben <ref target="file11321">Nr. 1278</ref>, 45-57 und 63-66.</note> (nisi mutetur) et te et <persName ref="person126">Conzenum</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person126">Peter Kunz</persName>.</note> et Argentinenses<note xml:id="fn7" type="footnote" n="7"><persName ref="person40">Capito</persName> und <persName ref="person28">Bucer</persName>.</note> expetit et expectat brevi post hęc.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p8011">Rodulfus</persName><note xml:id="fn3" type="footnote" n="3"><persName>Rudolf Gwalther</persName>.</note> ivit <placeName>Lausannam</placeName>, nescio quo consilio<note xml:id="fn4" type="footnote" n="4">In einem Brief an <persName>Myconius</persName> entschuldigte sich <persName>Gwalther</persName> für seine grußlose Abreise; s. Corr. des réformateurs V 365f, <ref target="file10847">Nr. 808</ref> (Juli 1539).</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Causa nostra<note xml:id="fn5" type="footnote" n="5">Gemeint ist der Konflikt um die neuen Universitätsstatuten; vgl. zuletzt oben <ref target="file11321">Nr. 1278</ref>, 45-57 und 63-66.</note> (nisi mutetur) et te et <persName ref="p8401">Conzenum</persName><note xml:id="fn6" type="footnote" n="6"><persName>Peter Kunz</persName>.</note> et Argentinenses<note xml:id="fn7" type="footnote" n="7"><persName>Capito</persName> und <persName ref="p18198">Bucer</persName>.</note> expetit et expectat brevi post hęc.</s>
 					<s n="11" xml:lang="de" type="auto">Der libhaftig tüfel hedt ein ding angehept; ist inn schir gerüwen<note xml:id="fn8" type="footnote" n="8">er bereut es beinahe.</note>.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Vale semper cum tuis et officiosissime salutabis <persName ref="person165">Pellicanum</persName> et <persName ref="person14">Theodorum</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person14">Theodor Bibliander</persName>.</note>.</s>
+					<s n="12" xml:lang="la" type="auto">Vale semper cum tuis et officiosissime salutabis <persName ref="p8127">Pellicanum</persName> et <persName ref="p8171">Theodorum</persName><note xml:id="fn9" type="footnote" n="9"><persName>Theodor Bibliander</persName>.</note>.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName><note xml:id="fnb" type="footnote" n="b"><hi>korrigiert aus</hi> Basilaeae.</note>, 2. iulii anno 39.</s>
-					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="person154">Myconius</persName>.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName>Basileę</placeName><note xml:id="fnb" type="footnote" n="b"><hi>korrigiert aus</hi> Basilaeae.</note>, 2. iulii anno 39.</s>
+					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="p8418">Myconius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="15" xml:lang="la" type="auto">Domino Heinricho Bullingero, antistiti <persName ref="person84">Tigurino</persName>, fratri in Christo observando suo.</s>
+					<s n="15" xml:lang="la" type="auto">Domino Heinricho Bullingero, antistiti <persName ref="p8011">Tigurino</persName>, fratri in Christo observando suo.</s>
 				</p>
 			</div>
 		</body>

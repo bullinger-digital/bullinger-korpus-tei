@@ -6,47 +6,38 @@
 				<title subtype="file">Heinrich Muntprat / Aarau AN Heinrich Bullinger, 25. Februar 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=68</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">54</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2004</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Beklagt die Verfolgung der christlichen Kirche, die nach dem Tod
-								<persName ref="person265">Zwinglis</persName> eingesetzt hat, sowie den Undank vieler Zwinglianhänger.
+								<persName ref="p4091">Zwinglis</persName> eingesetzt hat, sowie den Undank vieler Zwinglianhänger.
 								Bittet Bullinger um Hilfe bei der Suche einer neuen Stelle.
 							</p>
 						</summary>
@@ -54,24 +45,32 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 68, S.54</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10097">
 				<correspAction type="sent">
-					<persName ref="person2003" cert="high">
+					<persName ref="p2003" cert="high">
 						<!--
 						<surname cert="high">Muntprat</surname>
 						<forename cert="high">Heinrich</forename>
+						<persName type="main" ref="person19009>Muntprat, Heinrich</persName>
 						<ref type="gnd" target="https://d-nb.info/gnd/1089451180"/>
 						-->
 					</persName>
-					<placeName source="place2" cert="high"><orig>Aarau</orig></placeName>
+					<placeName source="l2" cert="high"><orig>Aarau</orig></placeName>
 					<date when="1532-02-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -96,7 +95,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -110,14 +109,14 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a deo patre per Iesum Christum, eruditissime Henriche.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quantis hodie Christi ecclesia agitetur persequutionibus<note xml:id="fn2" type="footnote" n="2">Gemeint sind die Rekatholisierungsmaßnahmen <placeName ref="place51">der V Orte</placeName>, die besonders auch das <placeName ref="place365">Freiamt</placeName> und <placeName ref="place484">Hitzkirch</placeName> erfaßten.</note>, vel te testem advoco, et sicuti Christus docuit: «Si me persecuti sunt, et vos persequentur; nec enim futurum est, ut servus sit melior domino suo» [Joh 15,20], sic ego dicere possum.</s>
-					<s n="3" xml:lang="la" type="auto">Occiso enim pientiss[imo] fratre et domino nostro <persName ref="person1921">Huldericho</persName> <persName ref="person265">Zwinglio</persName> a cruentis et<pb type="edition" next="55"/> sanguinariis a nobis minime continuissent manus, modo nos fuissent adsequuti.</s>
+					<s n="2" xml:lang="la" type="auto">Quantis hodie Christi ecclesia agitetur persequutionibus<note xml:id="fn2" type="footnote" n="2">Gemeint sind die Rekatholisierungsmaßnahmen <placeName>der V Orte</placeName>, die besonders auch das <placeName>Freiamt</placeName> und <placeName>Hitzkirch</placeName> erfaßten.</note>, vel te testem advoco, et sicuti Christus docuit: «Si me persecuti sunt, et vos persequentur; nec enim futurum est, ut servus sit melior domino suo» [Joh 15,20], sic ego dicere possum.</s>
+					<s n="3" xml:lang="la" type="auto">Occiso enim pientiss[imo] fratre et domino nostro <persName ref="p6210">Huldericho</persName> <persName ref="p4091">Zwinglio</persName> a cruentis et<pb type="edition" next="55"/> sanguinariis a nobis minime continuissent manus, modo nos fuissent adsequuti.</s>
 					<s n="4" xml:lang="la" type="auto">Et quod plus me male habet: Quem vivum amabant plerique [et] infinitis pręconiis ornabant, iam mortuo maledicunt ob unius predioli aut nummorum amissionem.</s>
 					<s n="5" xml:lang="la" type="auto">Si tanto viro et de patria tam bene merito obloquuntur, quid tandem nobis infime sortis homuncionibus futurum est?</s>
 					<s n="6" xml:lang="la" type="auto">«Spectaculum facti sumus et mundo et angelis» [1 Kor 4,9].</s>
 					<s n="7" xml:lang="la" type="auto">Igitur, Henriche eruditissime, ego iam absolutus a domino meo, quo me vertam, penitus ignoro.</s>
 					<s n="8" xml:lang="la" type="auto">Cum multa sint, quae me remorata sunt, caeli intemperies, adversa valetudo corporis atque, quod grandior sum, quam velim, si ita deo visum esset, et quum omnibus meis sim spoliatus atque pauci supersint nummi, per Christum perque communicationem sancti spiritus obnixe rogo mihi misello et consilio et auxilio subvenire velis, ut in functionem aliquam evangelicam substituar, quo habeam, unde vivam, et qui pluribus es auxiliatus, ne me desolatum ex integro deseras, per communem deum te obtestor.</s>
-					<s n="9" xml:lang="la" type="auto">Caetera Wolffgangus<note xml:id="fn3" type="footnote" n="3">Offenbar der Überbringer des Briefes; vielleicht ein Sohn <persName ref="person152">Muntprats</persName>: Im Jahre 1548 wird ein <persName ref="person1688">Wolfgang Muntprat</persName> als Pfarrer von <placeName ref="place1165">Weiach</placeName> aufgeführt (Pfarrerbuch 445).</note> dicet.</s>
+					<s n="9" xml:lang="la" type="auto">Caetera Wolffgangus<note xml:id="fn3" type="footnote" n="3">Offenbar der Überbringer des Briefes; vielleicht ein Sohn <persName>Muntprats</persName>: Im Jahre 1548 wird ein <persName>Wolfgang Muntprat</persName> als Pfarrer von <placeName>Weiach</placeName> aufgeführt (Pfarrerbuch 445).</note> dicet.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Vale.</s>

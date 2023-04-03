@@ -6,64 +6,60 @@
 				<title subtype="file">Konrad Gessner / [Basel] AN Heinrich Bullinger, [1.] November 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=912</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">468</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 38,342</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Über seine Lage können [Konrad]
-								<persName ref="person165">Pellikan</persName> und [Johann
-								Jakob] <persName ref="person318">Ammann</persName> Auskunft geben.
+								Über seine Lage können <persName ref="p8127">[Konrad] Pellikan</persName> und
+								<persName ref="p167">[Johann Jakob] Ammann</persName> Auskunft geben.
 								Bittet, dafür zu sorgen, daß die ihm auf Martini zustehenden sechs Mütt Kernen dem von ihm Beauftragten
-								ausgehändigt werden, dazu weitere fünf Mütt auf Geheiß von [Johannes]
-								<persName ref="person69">Fries</persName>.
+								ausgehändigt werden, dazu weitere fünf Mütt auf Geheiß von <persName ref="p4844">[Johannes] Fries</persName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 912, S.468</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10954">
 				<correspAction type="sent">
-					<persName ref="person1286" cert="high">
+					<persName ref="p1286" cert="high">
 						<!--
 						<surname cert="high">Gessner</surname>
 						<forename cert="high">Konrad</forename>
@@ -74,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11438405"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1536-11-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -123,21 +119,21 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. d. Non mihi tantum ocii est, vir ornatissime, de rebus meis exacte ut Scribam.</s>
 					<s n="2" xml:lang="la" type="auto">Nam hęc quoque multa nocte ad lucernam depinxi.</s>
-					<s n="3" xml:lang="la" type="auto">Poteris tamen ex d. <persName ref="person165">Pellicano</persName> atque <persName ref="person318">Ammiano</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person318">Johann Jakob Ammann</persName>.</note>, tum<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> tum <hi>gestrichenes</hi> tuis.</note> iis, qui hinc iam ad vos Tigurum venerunt, conditiones meas satis intelligere.</s>
+					<s n="3" xml:lang="la" type="auto">Poteris tamen ex d. <persName ref="p8127">Pellicano</persName> atque <persName ref="p167">Ammiano</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="p8423">Johann Jakob Ammann</persName>.</note>, tum<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> tum <hi>gestrichenes</hi> tuis.</note> iis, qui hinc iam ad vos Tigurum venerunt, conditiones meas satis intelligere.</s>
 					<s n="4" xml:lang="la" type="auto">Id te dubitare non puto, nullis hominum<note xml:id="fnc" type="footnote" n="c"><hi>in der Vorlage</hi> hominem.</note> fidem meam aliter astricturum<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> astricturum <hi>gestrichenes</hi> inst.</note>, quin eam vobis semper integram servem.</s>
 					<s n="5" xml:lang="la" type="auto">O utinam primo quoque tempore aut ingenio aut numinis dono eo perveniam, ut patriae atque vobis omnibus usui esse alicui liceat!</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Hoc vero est, quod in pręsentiarum te rogo: Si quis meo nomine sive ad Martini diem<note xml:id="fn3" type="footnote" n="3">11. November.</note> sive his proximis frumentum<note xml:id="fn4" type="footnote" n="4">Vgl. oben Anm. 1.</note> meo nomine petat<note xml:id="fne" type="footnote" n="e">petat <hi>korrigiert aus</hi> petatur.</note>, tu, ne recusetur, efficias.</s>
-					<s n="7" xml:lang="la" type="auto">Sex mihi debebuntur modii<note xml:id="fnf" type="footnote" n="f">modii <hi>am Rande nachgetragen.</hi></note> et, quinque de suis Frisius<note xml:id="fn5" type="footnote" n="5"><persName ref="person69">Johannes Fries</persName>.</note> accipere mutuo iussit, itaque erunt 11.</s>
+					<s n="7" xml:lang="la" type="auto">Sex mihi debebuntur modii<note xml:id="fnf" type="footnote" n="f">modii <hi>am Rande nachgetragen.</hi></note> et, quinque de suis Frisius<note xml:id="fn5" type="footnote" n="5"><persName>Johannes Fries</persName>.</note> accipere mutuo iussit, itaque erunt 11.</s>
 					<s n="8" xml:lang="la" type="auto">De Frisii voluntate non est, quod dubites, neque opus arbitror, ut ipsus scribat, nisi ego non <foreign xml:lang="el">ἀξιόπιστος</foreign> sim.</s>
 					<s n="9" xml:lang="la" type="auto">De reliquis proxime saepius et prolixius scribam.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Vale, Mecoenas<note xml:id="fn6" type="footnote" n="6">Mäzen (vgl. Pauly/Wissowa XIV/1 207-229).</note> humanissime.</s>
+					<s n="10" xml:lang="la" type="auto">Vale, Mecoenas<note xml:id="fn6" type="footnote" n="6">Mäzen (vgl. <bibl>Pauly/Wissowa</bibl> XIV/1 207-229).</note> humanissime.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="person79">Con. Gessnerus</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="p4951">Con. Gessnerus</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

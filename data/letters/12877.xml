@@ -6,57 +6,48 @@
 				<title subtype="file">Johannes Oporin / Basel AN Heinrich Bullinger, 26. Februar 1547</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2019</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18186-4</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2828</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIX</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">19</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Januar bis März 1547</biblScope>
-				<biblScope unit="page">370</biblScope>
-				<biblScope unit="pages">496</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 19 (Briefe von Januar bis März 1547), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2019, 496 S., ISBN 978-3-290-18186-4.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,415</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								[1] Bullinger möge den beiliegenden Brief <persName ref="person20263">Bernardino Ochinos</persName> nach
-								<placeName ref="place70">Augsburg</placeName> weiterleiten. Dieser wohnt noch bei
-								<persName ref="person161">Oporin</persName>, weiß aber noch nicht, ob er in
-								<placeName ref="place97">Basel</placeName> bleiben wird.
+								[1] Bullinger möge den beiliegenden Brief <persName ref="p2336">Bernardino Ochinos</persName> nach
+								<placeName>Augsburg</placeName> weiterleiten. Dieser wohnt noch bei
+								<persName ref="p8126">Oporin</persName>, weiß aber noch nicht, ob er in
+								<placeName>Basel</placeName> bleiben wird.
 								</p>
 								<p xml:id="regest2">
 								[2] Es wäre schön, wenn die Dinge, die man über die Zürcher hört, falsch wären. Der Herr verherrliche
 								seinen Namen und vernichte die Anhänger Satans!
 								</p>
 								<p xml:id="regest3">
-								[3] Was von den [in Verhandlung mit Kaiser <persName ref="person20184">Karl V.</persName> stehenden] Straßburgern zu erwarten ist, bleibt unklar.
-								Viele aber erhoffen Besseres von <placeName ref="place565">Konstanz</placeName>.
+								[3] Was von den [in Verhandlung mit <persName ref="p18538">Kaiser Karl V.</persName> stehenden] Straßburgern zu erwarten ist, bleibt unklar.
+								Viele aber erhoffen Besseres von <placeName>Konstanz</placeName>.
 								</p>
 								<p xml:id="regest4">
 								[4] Grüße, auch an die gemeinsamen Freunde.
@@ -66,13 +57,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 19, Nr. 2828, S.370</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12877">
 				<correspAction type="sent">
-					<persName ref="person2380" cert="high">
+					<persName ref="p2380" cert="high">
 						<!--
 						<surname cert="high">Oporin</surname>
 						<forename cert="high">Johannes</forename>
@@ -83,11 +81,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11483819"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1547-02-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -121,7 +119,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,33 +131,33 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Literas hasce <persName ref="person20263">Bernardini Ochini</persName> nostri ut curare <placeName ref="place70">Augustam</placeName> velis, uterque te sedulo oramus, mi d. Bullingere.</s>
+					<s n="2" xml:lang="la" type="auto">Literas hasce <persName ref="p2336">Bernardini Ochini</persName> nostri ut curare <placeName>Augustam</placeName> velis, uterque te sedulo oramus, mi d. Bullingere.</s>
 					<s n="3" xml:lang="la" type="auto">Adhuc ille apud me agit, incertus, an hic mansurus sit necne.</s>
 				</p>
 			</div>
 			<div xml:id="div2" corresp="regest2">
 				<p>
-					<s n="4" xml:lang="la" type="auto">Audivimus et de vobis, quę falsa quam vera esse malumus.<note xml:id="fn1" type="footnote" n="1"><persName ref="person161">Oporin</persName> bezieht sich auf die Spannungen, die in <placeName ref="place1248">Zürich</placeName> entstanden (s. dazu <ref target="file12816">Nr. 2767</ref>,97-100; <hi>Henrich, Myconius BW</hi> 940, <ref target="file11099">Nr. 1056</ref>) in Folge der an den Tagsatzungen zu <placeName ref="place85">Baden</placeName> seit 1546 (bis 1548) immer wieder eingeleiteten Verfahren <placeName ref="place51">der Fünf Orte</placeName> gegen die Veröffentlichung von <persName ref="person84">Gwalthers</persName> "Endtchrist" (s. dazu schon <ref target="file12806">Nr. 2757</ref>, Anm. 11; <ref target="file12846">Nr. 2797</ref>, Anm. 6). Mit ihren Verfahren versuchten diese Orte, Einfluss auf die Innenpolitik der Zürcher zu nehmen. An der <placeName ref="place85">Badener</placeName> Tagsatzung von Anfang Dezember 1546 wurde beschlossen, dass jeder mit einer Druckerei versehene Ort künftig darauf achten müsse, dass keine für die anderen Verbündeten beleidigenden Bücher mehr gedruckt würden. Aus Bullingers Briefwechsel wird zudem ersichtlich, dass ein Teil der Bevölkerung der Stadt und Landschaft <placeName ref="place1248">Zürich</placeName> und dementsprechend auch einige Arntsinhaber den "Pfaffen", wie sie ihre Prediger bezeichneten (s. z.B. <ref target="file12835">Nr. 2786</ref>,87-90; <hi>HBBW</hi> XVIII 212,52f), nicht wohlgesinnt waren, sodass es sogar zur Aufforderung kam, die Predigten der Pfarrer von den politischen Behörden besser kontrollieren zu lassen, was wiederum nach <persName ref="person84">Gwalthers</persName> und Bullingers erster Verantwortung vor dem Rat vom 29. Januar 1547 (s. dazu <ref target="file12816">Nr. 2767</ref>, Anm. 82) am 28. Mai 1547 eine erneute Rechtfertigung dieser beiden Pfarrer nötig machte; s. <hi>Bächtold, Rat</hi> 94-103.</note></s>
+					<s n="4" xml:lang="la" type="auto">Audivimus et de vobis, quę falsa quam vera esse malumus.<note xml:id="fn1" type="footnote" n="1"><persName>Oporin</persName> bezieht sich auf die Spannungen, die in <placeName>Zürich</placeName> entstanden (s. dazu <ref target="file12816">Nr. 2767</ref>,97-100; <hi>Henrich, Myconius BW</hi> 940, <ref target="file11099">Nr. 1056</ref>) in Folge der an den Tagsatzungen zu <placeName>Baden</placeName> seit 1546 (bis 1548) immer wieder eingeleiteten Verfahren <placeName>der Fünf Orte</placeName> gegen die Veröffentlichung von <persName>Gwalthers</persName> "Endtchrist" (s. dazu schon <ref target="file12806">Nr. 2757</ref>, Anm. 11; <ref target="file12846">Nr. 2797</ref>, Anm. 6). Mit ihren Verfahren versuchten diese Orte, Einfluss auf die Innenpolitik der Zürcher zu nehmen. An der <placeName>Badener</placeName> Tagsatzung von Anfang Dezember 1546 wurde beschlossen, dass jeder mit einer Druckerei versehene Ort künftig darauf achten müsse, dass keine für die anderen Verbündeten beleidigenden Bücher mehr gedruckt würden. Aus Bullingers Briefwechsel wird zudem ersichtlich, dass ein Teil der Bevölkerung der Stadt und Landschaft <placeName>Zürich</placeName> und dementsprechend auch einige Arntsinhaber den "Pfaffen", wie sie ihre Prediger bezeichneten (s. z.B. <ref target="file12835">Nr. 2786</ref>,87-90; <bibl>HBBW</bibl> XVIII 212,52f), nicht wohlgesinnt waren, sodass es sogar zur Aufforderung kam, die Predigten der Pfarrer von den politischen Behörden besser kontrollieren zu lassen, was wiederum nach <persName>Gwalthers</persName> und Bullingers erster Verantwortung vor dem Rat vom 29. Januar 1547 (s. dazu <ref target="file12816">Nr. 2767</ref>, Anm. 82) am 28. Mai 1547 eine erneute Rechtfertigung dieser beiden Pfarrer nötig machte; s. <hi>Bächtold, Rat</hi> 94-103.</note></s>
 					<s n="5" xml:lang="la" type="auto">Utinam dominus gloriam nominis sui promoveat et sathanae membra conficiat spiritu oris sui!<note xml:id="fn2" type="footnote" n="2">2Thess 2, 8.</note></s>
 				</p>
 			</div>
 			<div xml:id="div3" corresp="regest3">
 				<p>
 					<s n="6" xml:lang="la" type="auto">De Argentina quid sperandum sit, nescio.</s>
-					<s n="7" xml:lang="la" type="auto">De <placeName ref="place565">Constantia</placeName> multos melius sperare audimus.</s>
+					<s n="7" xml:lang="la" type="auto">De <placeName>Constantia</placeName> multos melius sperare audimus.</s>
 					<s n="8" xml:lang="la" type="auto">Novit autem dominus, qui sunt sui;<note xml:id="fn3" type="footnote" n="3">2Tim 2, 19.</note> quem ut pro nobis quoque diligenter ores, ex animo petimus.</s>
 				</p>
 			</div>
 			<div xml:id="div4" corresp="regest4">
 				<p>
 					<s n="9" xml:lang="la" type="auto">Bene vale, optime atque doctissime vir, et amicos nostros communes per occasionem saluta.</s>
-					<s n="10" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 26. februarii 1547.</s>
-					<s n="11" xml:lang="la" type="auto">Io. <persName ref="person161">Oporinus</persName>, tuus ex animo.</s>
+					<s n="10" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 26. februarii 1547.</s>
+					<s n="11" xml:lang="la" type="auto"><persName ref="p8126">Io. Oporinus</persName>, tuus ex animo.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
 					<s n="12" xml:lang="la" type="auto">D. Henrico Bullingero, amico clarissimo suo.</s>
-					<s n="13" xml:lang="la" type="auto"><placeName ref="place1248">Tiguri</placeName>.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName>Tiguri</placeName>.</s>
 				</p>
 			</div>
 		</body>

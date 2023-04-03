@@ -6,35 +6,31 @@
 				<title subtype="file">Bonifacius Amerbach / Basel AN Heinrich Bullinger, 15. April 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2136</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">134</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Die Amerbachkorrespondenz, hg. v. Alfred Hartmann, Beat Rudolf Jenny u.a., 11 Bde., Basel 1942-2010.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,52</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,39</idno>
@@ -43,15 +39,14 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person6">Amerbach</persName> hat Bullingers [„Orthodoxa Tigurinae ecclesiae confessio“]
-								gegen <persName ref="person138">Luthers</persName> [„Kurtz bekentnis“] kürzlich erhalten. Auch wenn er
+								<persName ref="p164">Amerbach</persName> hat Bullingers [„Orthodoxa Tigurinae ecclesiae confessio“]
+								gegen <persName ref="p1974">Luthers</persName> [„Kurtz bekentnis“] kürzlich erhalten. Auch wenn er
 								keine Zeit hatte, die Schrift zu lesen, zweifelt er nicht, dass sie die übliche Gelehrsamkeit und
 								Frömmigkeit der übrigen Arbeiten Bullingers zeigt. Solche Streitereien schmerzen ihn sehr, doch gibt er zu,
 								dass [die Zürcher] gezwungen waren, ihre Ehre zu verteidigen. Christus möge bewirken, dass man sich, wie es
 								nur einen Glauben und nur eine Taufe gibt, in Einmütigkeit verbinde und nur nach dem frage, was sein ist!
-								Bullinger darf an <persName ref="person6">Amerbachs</persName> dankbarer Gesinnung nicht zweifeln; er darf
-								alles von ihm erwarten. Grüße an [Konrad]
-								<persName ref="person165">Pellikan</persName>, <persName ref="person14">[Theodor] Bibliander</persName> und an die Übrigen.
+								Bullinger darf an <persName ref="p164">Amerbachs</persName> dankbarer Gesinnung nicht zweifeln; er darf
+								alles von ihm erwarten. Grüße an <persName ref="p8127">[Konrad] Pellikan</persName>, <persName ref="p8171">[Theodor] Bibliander</persName> und an die Übrigen.
 							</p>
 						</summary>
 						<msItem>
@@ -71,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12183">
 				<correspAction type="sent">
-					<persName ref="person164" cert="high">
+					<persName ref="p164" cert="high">
 						<!--
 						<surname cert="high">Amerbach</surname>
 						<forename cert="high">Bonifacius</forename>
@@ -80,11 +75,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/118502522"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1545-04-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -136,7 +131,7 @@
 					<s n="8" xml:lang="la" type="auto">Pro libello misso tibi gratias ago immortales nec dubites rogo, quin memorem acceptorum subinde munerum animum et inuicem remunerandi gratificandique voluntatem habeam, cȩterum, in quo idipsum, quod iamdudum meditor, re ipsa praestare possim, non satis intelligentem.</s>
 					<s n="9" xml:lang="la" type="auto">Vt uerbo dicam: nihil tibi non de me constanter polliceri debes, quem et nominis tui studiosissimum et candidum tuarum virtutum praeconem ubique experieris.</s>
 					<s n="10" xml:lang="la" type="auto">Bene vale, eruditiss. vir.</s>
-					<s n="11" xml:lang="la" type="auto">XVII. Cal. Maij Anno MDXLV <placeName ref="place97">Basileae</placeName>.</s>
+					<s n="11" xml:lang="la" type="auto">XVII. Cal. Maij Anno MDXLV <placeName>Basileae</placeName>.</s>
 					<s n="12" xml:lang="la" type="auto">Clariss. dnn. Pellicanum, Bibliandrum et cȩteros resalutabis meo nomine reuerenter.</s>
 					<s n="13" xml:lang="la" type="auto">Tuus ex animo Bonifacius Amerbachius</s>
 				</p>

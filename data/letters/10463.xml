@@ -6,49 +6,40 @@
 				<title subtype="file">Konrad Gessner / Paris AN Heinrich Bullinger, 26. August 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=428</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">290</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,257</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Seit fast einem Jahr haben <persName ref="person79">Geßner</persName> [und
-								<persName ref="person69">Johannes Fries</persName>] keinen Brief aus Zürich erhalten. Gespannt warten sie
-								auf Nachrichten über Bullinger und die Heimat. Sie haben [Johann
-								Jakob] <persName ref="person318">Ammann</persName> geschrieben. Bitte
+								Seit fast einem Jahr haben <persName ref="p4951">Geßner</persName> [und
+								<persName ref="p4844">Johannes Fries</persName>] keinen Brief aus Zürich erhalten. Gespannt warten sie
+								auf Nachrichten über Bullinger und die Heimat. Sie haben
+								<persName ref="p167">[Johann Jakob] Ammann</persName> geschrieben. Bitte
 								um Geld, mit dessen Hilfe sie in ihren Studien weiterkommen würden. Versicherung, daß sie sparsam und
 								fleißig sind.
 							</p>
@@ -57,13 +48,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 428, S.290</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10463">
 				<correspAction type="sent">
-					<persName ref="person1286" cert="high">
+					<persName ref="p1286" cert="high">
 						<!--
 						<surname cert="high">Gessner</surname>
 						<forename cert="high">Konrad</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11438405"/>
 						-->
 					</persName>
-					<placeName source="place378" cert="high"><orig>Paris</orig></placeName>
+					<placeName source="l378" cert="high"><orig>Paris</orig></placeName>
 					<date when="1534-08-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,13 +124,13 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Iam fere annus est, qui nobis tamen vel seculum videtur, quod nihil a vobis literarum accepimus<note xml:id="fn2" type="footnote" n="2">Demnach ist anzunehmen, daß <persName ref="person79">Geßner</persName> und <persName ref="person69">Fries</persName> Bullingers Brief vom 12. Mai 1534 (oben <ref target="file10407">Nr. 374</ref>) nicht erhalten haben, obschon dieser sowohl nach <placeName ref="place836">Paris</placeName> als auch nach <placeName ref="place165">Bourges</placeName> adressiert war (s. oben S. 174, 36f).</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Iam fere annus est, qui nobis tamen vel seculum videtur, quod nihil a vobis literarum accepimus<note xml:id="fn2" type="footnote" n="2">Demnach ist anzunehmen, daß <persName>Geßner</persName> und <persName>Fries</persName> Bullingers Brief vom 12. Mai 1534 (oben <ref target="file10407">Nr. 374</ref>) nicht erhalten haben, obschon dieser sowohl nach <placeName>Paris</placeName> als auch nach <placeName>Bourges</placeName> adressiert war (s. oben S. 174, 36f).</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Alii diuturno silentio sepe in alienam atque secus, quam res habeat, opinionem veniunt.</s>
 					<s n="4" xml:lang="la" type="auto">Sed vestra in nos propensa voluntas atque studium etiam sine literis et, ut ita dicam, sine tessera nunquam non testatissima nobis erunt.</s>
-					<s n="5" xml:lang="la" type="auto">Sollicite tamen interim et quasi aperto sinu puerorum instar literas a vobis et avide expectamus et tacite poscimus, quo cum de nostratibus omnibus, tum vero de te pręcipue et patria certiores fiamus: <foreign xml:lang="el">ὡς οὐδὲν γλύκιον ἧς πατρίδος</foreign> - nosti Homerica<note xml:id="fn3" type="footnote" n="3"><persName ref="person1215">Homer</persName>, Odyssee IX, 34.</note>.<pb type="edition" next="291"/></s>
+					<s n="5" xml:lang="la" type="auto">Sollicite tamen interim et quasi aperto sinu puerorum instar literas a vobis et avide expectamus et tacite poscimus, quo cum de nostratibus omnibus, tum vero de te pręcipue et patria certiores fiamus: <foreign xml:lang="el">ὡς οὐδὲν γλύκιον ἧς πατρίδος</foreign> - nosti Homerica<note xml:id="fn3" type="footnote" n="3"><persName>Homer</persName>, Odyssee IX, 34.</note>.<pb type="edition" next="291"/></s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Quod ad nos, <persName ref="person318">Ammiano</persName> scripsimus<note xml:id="fn4" type="footnote" n="4">Ein Brief von <persName ref="person79">Geßner</persName> oder <persName ref="person69">Johannes Fries</persName> an <persName ref="person318">Johann Jakob Ammann</persName> ist nicht erhalten.</note>, quem si modo redditae sunt, rem omnem tibi aperuisse arbitror.</s>
+					<s n="6" xml:lang="la" type="auto">Quod ad nos, <persName ref="p167">Ammiano</persName> scripsimus<note xml:id="fn4" type="footnote" n="4">Ein Brief von <persName>Geßner</persName> oder <persName>Johannes Fries</persName> an <persName ref="p8423">Johann Jakob Ammann</persName> ist nicht erhalten.</note>, quem si modo redditae sunt, rem omnem tibi aperuisse arbitror.</s>
 					<s n="7" xml:lang="la" type="auto">Te cuius es humanitatis clientes non neglecturum speramus atque adeo certi de fide tua sumus.</s>
 					<s n="8" xml:lang="la" type="auto">Spes fere dubia esse solet, <foreign xml:lang="el">ό δὲ ἀνέλπιστος βίος ἄριστος</foreign>.</s>
 					<s n="9" xml:lang="la" type="auto">Nos quoque iam olim multis, iisque magnis, tibi nominibus obligati certam magis tuam benignitatem fidemque quam spe conceptam habemus.</s>
@@ -141,19 +139,19 @@
 					<s n="12" xml:lang="la" type="auto">Non alia musis <foreign xml:lang="el">θρεπτήρια</foreign> reddes, nisi quę in earum studiosos contuleris.</s>
 					<s n="13" xml:lang="la" type="auto">Verum hęc hactenus.</s>
 					<s n="14" xml:lang="la" type="auto">Pecuniam quam maturrime mitti vellemus.</s>
-					<s n="15" xml:lang="la" type="manual">Nosti illud <foreign xml:lang="el">ἡ πενία χωλὸς πρὸς τὸ φιλοσοφεῖν</foreign>, quamvis <foreign xml:lang="el">πενίαν</foreign> <persName ref="person702">Diogenes</persName> <foreign xml:lang="el">φιλοσοφίαν αὐτοδίδακτον</foreign> vocarit<note xml:id="fn5" type="footnote" n="5"><persName ref="person707">Dionysius von Halikarnass</persName>, Antiqu. rom. 5, 12.</note>.</s>
-					<s n="16" xml:lang="la" type="auto">Pergimus in literis pro virili perrecturi amplius, nisi hic etiam ipsę musę pecunia flectendę essent ut aureo malo Hippodameia<note xml:id="fn6" type="footnote" n="6">Hippodamea, Tochter des Önomaus, die, Pelops dank einem durch Bestechung gewonnenen Wagenrennen zur Gattin erhielt (Georges I 3056f).</note>.</s>
-					<s n="17" xml:lang="la" type="auto">Verum et hic et in aliis omnibus argenti Charybdin<note xml:id="fn7" type="footnote" n="7">Charybdis als Inbegriff der Habgier, vgl. Adagia, 3, 7, 41 (LB II 892f).</note> <placeName ref="place836">Parisios</placeName> dixeris.</s>
+					<s n="15" xml:lang="la" type="manual">Nosti illud <foreign xml:lang="el">ἡ πενία χωλὸς πρὸς τὸ φιλοσοφεῖν</foreign>, quamvis <foreign xml:lang="el">πενίαν</foreign> <persName ref="p18457">Diogenes</persName> <foreign xml:lang="el">φιλοσοφίαν αὐτοδίδακτον</foreign> vocarit<note xml:id="fn5" type="footnote" n="5"><persName>Dionysius von Halikarnass</persName>, Antiqu. rom. 5, 12.</note>.</s>
+					<s n="16" xml:lang="la" type="auto">Pergimus in literis pro virili perrecturi amplius, nisi hic etiam ipsę musę pecunia flectendę essent ut aureo malo Hippodameia<note xml:id="fn6" type="footnote" n="6">Hippodamea, Tochter des Önomaus, die, Pelops dank einem durch Bestechung gewonnenen Wagenrennen zur Gattin erhielt (<bibl>Georges</bibl> I 3056f).</note>.</s>
+					<s n="17" xml:lang="la" type="auto">Verum et hic et in aliis omnibus argenti Charybdin<note xml:id="fn7" type="footnote" n="7">Charybdis als Inbegriff der Habgier, vgl. <bibl>Adagia</bibl>, 3, 7, 41 (<bibl>LB</bibl> II 892f).</note> <placeName>Parisios</placeName> dixeris.</s>
 					<s n="18" xml:lang="la" type="auto">Nos interim, quod eius licet, frugaliter et parce, neque id sine musis, aetatem agimus.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">Vale, praesidium et dulce decus<note xml:id="fn8" type="footnote" n="8"><persName ref="person1222">Horaz</persName>, carm. 1, 1, 2.</note> nostrum.</s>
+					<s n="19" xml:lang="la" type="auto">Vale, praesidium et dulce decus<note xml:id="fn8" type="footnote" n="8"><persName>Horaz</persName>, carm. 1, 1, 2.</note> nostrum.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto"><placeName ref="place836">Parisiis</placeName>, 7. calendas septembris 1534.</s>
+					<s n="20" xml:lang="la" type="auto"><placeName>Parisiis</placeName>, 7. calendas septembris 1534.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto"><persName ref="person79">Conradus Gessnerus</persName>, ex animo tuus.</s>
+					<s n="21" xml:lang="la" type="auto"><persName ref="p4951">Conradus Gessnerus</persName>, ex animo tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

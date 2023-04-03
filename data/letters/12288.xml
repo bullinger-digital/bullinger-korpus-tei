@@ -6,45 +6,41 @@
 				<title subtype="file">Johannes Travers / Zuoz AN Heinrich Bullinger, 10. September 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2241</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">80</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365a,446</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person220">Johannes Travers</persName>’ Sohn [Johannes d.J.], der während seines Schuljahrs in Zürich gute Ergebnisse erzielt
-								hat, möchte in <placeName ref="place97">Basel</placeName> weiterstudieren. Demzufolge bittet <persName ref="person220">Travers</persName>
-								Bullinger, <pb type="edition" next="525"/> dessen Briefe in <placeName ref="place97">Basel</placeName> viel
+								<persName ref="p6831">Johannes Travers</persName>’ Sohn [Johannes d.J.], der während seines Schuljahrs in Zürich gute Ergebnisse erzielt
+								hat, möchte in <placeName>Basel</placeName> weiterstudieren. Demzufolge bittet <persName ref="p6831">Travers</persName>
+								Bullinger, <pb type="edition" next="525"/> dessen Briefe in <placeName>Basel</placeName> viel
 								mehr vermögen als seine eigenen, seinen für das Studium geeigneten Sohn und dessen Gefährten [...] einem
-								fähigen Präzeptor in <placeName ref="place97">Basel</placeName> zu empfehlen, um ihn auf das
+								fähigen Präzeptor in <placeName>Basel</placeName> zu empfehlen, um ihn auf das
 								[Universitätsstudium] vorzubereiten. - Mit dem Brief schickt er ferner zwei heimische Käse, die nach
 								Piacenzer Art hergestellt wurden.
 							</p>
@@ -56,7 +52,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 80f, Nr. 60</title>
+								<title>Graubünden BW I, S.80f, Nr. 60</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -66,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12288">
 				<correspAction type="sent">
-					<persName ref="person3184" cert="high">
+					<persName ref="p3184" cert="high">
 						<!--
 						<surname cert="high">Travers</surname>
 						<forename cert="high">Johannes</forename>
@@ -76,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417174"/>
 						-->
 					</persName>
-					<placeName source="place585" cert="high"><orig>Zuoz</orig></placeName>
+					<placeName source="l585" cert="high"><orig>Zuoz</orig></placeName>
 					<date when="1545-09-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

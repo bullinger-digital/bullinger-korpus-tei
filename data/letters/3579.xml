@@ -6,31 +6,30 @@
 				<title subtype="file">John Aylmer / Tübingen AN Heinrich Bullinger / Zürich, 24. April 1558</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">4978/87</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive92">
+						<repository ref="a92">
 							<name>Zizers AVS</name>
 							<ref target="https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/sag/Seiten/start.aspx"/>
 						</repository>
 						<institution>Familienarchiv v. Salis-Zizers (Oberes Schloss)</institution>
 						-->
-						<repository ref="archive92"/>
+						<repository ref="a92"/>
 						<idno subtype="Autograph">Ms. a Porta, Misc. Tom. I B I 1° (Nr. 8)</idno>
 						<idno subtype="Hinweis">nach Schiess (in Chur StA nicht vorhanden gemäß Auskunft von U. Brunold, März 2003) [Interna]</idno>
 					</msIdentifier>
@@ -53,7 +52,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3579">
 				<correspAction type="sent">
-					<persName ref="person186" cert="high">
+					<persName ref="p186" cert="high">
 						<!--
 						<surname cert="high">Aylmer</surname>
 						<forename cert="high">John</forename>
@@ -63,11 +62,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/129014990"/>
 						-->
 					</persName>
-					<placeName source="place512" cert="high"><orig>Tübingen</orig></placeName>
+					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1558-04-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -77,7 +76,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file3580"/>
@@ -97,7 +96,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

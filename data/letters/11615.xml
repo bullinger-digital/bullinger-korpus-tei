@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN (Dekane) Peter Simler (Kapitel), 30. September 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1572</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">326</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Original">Ms F 61,552</idno>
 					</msIdentifier>
 					<msContents>
@@ -49,8 +40,8 @@
 								Zustimmung des Rates beschlossen, die anstehende Synode abzusagen. Dies soll der Dekan den Prädikanten des
 								Kapitels rechtzeitig anzeigen und sie ermahnen, ihr Amt<pb type="edition" next="326"/> gewissenhaft auszuüben,
 								wie es ihnen als Vorbildern der Gläubigen geziemt; Gottes Strafen drohen, wenn wir unseren schlechten
-								Lebenswandel nicht bessern; das Heer <persName ref="person20096">König [Ferdinands]</persName> ist bei
-								<placeName ref="place202">Buda</placeName> von den Türken geschlagen worden; von allen Seiten drängen
+								Lebenswandel nicht bessern; das Heer <persName ref="p18477">König [Ferdinands]</persName> ist bei
+								<placeName>Buda</placeName> von den Türken geschlagen worden; von allen Seiten drängen
 								die Türken und andere Übel auf uns ein. Sollte sich ein Prädikant so schuldig gemacht haben, dass der Fall
 								nicht einfach der nächsten Synode übergeben werden kann, soll der Dekan dies schriftlich melden. Grüße.
 							</p>
@@ -59,13 +50,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1572, S.326</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11615">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -75,12 +73,12 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<roleName ref="role22" type="pl" role="Examinatoren" cert="high"/>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<roleName ref="g22" type="pl" role="Examinatoren" cert="high"/>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1541-09-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2982" cert="high">
+					<persName ref="p2982" cert="high">
 						<orig>Peter Simler, Dekan des Kapitels Freiamt</orig>
 						<!--
 						<surname cert="high">Simler</surname>
@@ -89,8 +87,8 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/1089572158"/>
 						<ref type="histhub" target="https://data.histhub.ch/person/11591747"/>
 						-->
-						<roleName ref="role18" type="pl" role="Dekane" cert="high">
-								<orgName ref="org15" type="sg" role="Kapitel" cert="high"/>
+						<roleName ref="g18" type="pl" role="Dekane" cert="high">
+								<orgName ref="i15" type="sg" role="Kapitel" cert="high"/>
 						</roleName>
 					</persName>
 				</correspAction>
@@ -113,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -123,13 +121,13 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et vitae innocentiam a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Hactenus quidem bis in anno pro ritu veteris ecclesiae<note xml:id="fn3" type="footnote" n="3">Ein Beschluss zur halbjährlichen Abhaltung von Provinzialkonzilien findet sich in den Canones der Konzilien von <placeName ref="place772">Nicäa</placeName> und <persName ref="person618">Chalcedon</persName> (s. Dekrete der ökumenischen Konzilien-Conciliorum Oecumenicorum Decreta, besorgt von Giuseppe <hi>Alberigo</hi> u. a., 3. Aufl., Bd. 1, Paderborn u. a. 1998, S. 8, Z. 14-17; S. 96, Z. 8-12) und fand auch Aufnahme in die Novellen des "Corpus iuris civilis" (Nov. 123, 10). In seinem Handexemplar (zürich ZB, 11.75 2, vgl. HBBibl III 61) der Novellenausgabe "Novellarum constitutionum dn. lustiniani <hi>[...]",</hi> <placeName ref="place795">Nürnberg</placeName> (<persName ref="person1814">Johann Petreius</persName>) 1531 (VD 16 C 5261) hat Bullinger S. 207 die entsprechende Stelle unterstrichen und mit Marginalien versehen. Auch in seinen theologischen Werken verweist Bullinger auf den altkirchlichen Konzilsrhythmus, vgl. etwa "Sermonum decades quinque", Zürich (<persName ref="person891">Christoph Froschauer</persName>) 1552 (HBBibl I 184), f. 384r.</note> sancto et utili celebrare consuevimus synodum in urbe, frater in domino colendissime, et aderit quidem hoc ipso mense definita dies<note xml:id="fn4" type="footnote" n="4">Gemäß der Synodalordnung von 1532 sollte die Herbstsynode jeweils am ersten Montag nach dem Gallustag (16. Okt.) stattfinden (s. AZürcherRef 1899, III).</note>, qua iam altera coiret in domino.</s>
+					<s n="2" xml:lang="la" type="auto">Hactenus quidem bis in anno pro ritu veteris ecclesiae<note xml:id="fn3" type="footnote" n="3">Ein Beschluss zur halbjährlichen Abhaltung von Provinzialkonzilien findet sich in den Canones der Konzilien von <placeName>Nicäa</placeName> und <persName>Chalcedon</persName> (s. Dekrete der ökumenischen Konzilien-Conciliorum Oecumenicorum Decreta, besorgt von Giuseppe <hi>Alberigo</hi> u. a., 3. Aufl., Bd. 1, Paderborn u. a. 1998, S. 8, Z. 14-17; S. 96, Z. 8-12) und fand auch Aufnahme in die Novellen des "Corpus iuris civilis" (Nov. 123, 10). In seinem Handexemplar (zürich ZB, 11.75 2, vgl. <bibl>HBBibl</bibl> III 61) der Novellenausgabe "Novellarum constitutionum dn. lustiniani <hi>[...]",</hi> <placeName>Nürnberg</placeName> (<persName>Johann Petreius</persName>) 1531 (VD 16 C 5261) hat Bullinger S. 207 die entsprechende Stelle unterstrichen und mit Marginalien versehen. Auch in seinen theologischen Werken verweist Bullinger auf den altkirchlichen Konzilsrhythmus, vgl. etwa "Sermonum decades quinque", Zürich (<persName ref="p5295">Christoph Froschauer</persName>) 1552 (<bibl>HBBibl</bibl> I 184), f. 384r.</note> sancto et utili celebrare consuevimus synodum in urbe, frater in domino colendissime, et aderit quidem hoc ipso mense definita dies<note xml:id="fn4" type="footnote" n="4">Gemäß der Synodalordnung von 1532 sollte die Herbstsynode jeweils am ersten Montag nach dem Gallustag (16. Okt.) stattfinden (s. <bibl>AZürcherRef</bibl> 1899, III).</note>, qua iam altera coiret in domino.</s>
 					<s n="3" xml:lang="la" type="auto">Quoniam vero propter vindemiae imminentia negotia, tum maxime propter pestem ubique fere grassari incipientem melius ac utilius est quemlibet domi suae et apud ecclesiam sibi creditam manere, placuit omnibus nobis<note xml:id="fn5" type="footnote" n="5">den Examinatoren, s. Anm. 1.</note> consentiente etiam magistratu nostro futuram ac iam imminentem synodum intermittere prorsus<note xml:id="fn6" type="footnote" n="6">Dass die Herbstsynode 1541 nicht durchgeführt wurde, bestätigen auch die Synodalprotokolle (s. Zürich StA, E II 1, 277), wo ein entsprechender Eintrag fehlt.</note>.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Id quod tibi, charissime in domino frater, in hoc indicamus, ut fratribus per capitulum singulis significes mature eosque nostro, imo Christi domini nomine horteris, ut pro offitio suo Christo serviant fideliter, idest, oves fidei suae creditas verbo veritatis pascant, poenitentiam cum fide doceant, preces assiduas urgeant, ipsi denique sancte et inculpate vivant, ut exemplaria gregis decet.</s>
 					<s n="5" xml:lang="la" type="auto">Imminent enim cervicibus nostris maxima et plurima dei flagella, nisi pessimos mores nostros vita meliore emendemus.</s>
-					<s n="6" xml:lang="la" type="auto">Deletus est exercitus regis <persName ref="person20096">Romanorum</persName> a Turcis ad Budam,<note xml:id="fn7" type="footnote" n="7">Siehe oben <ref target="file11607">Nr. 1564</ref>, Anm. 8.</note> triumphat et insolescit fidei hostis, imo et minatur gravissima, irruunt in nos undique et alia mala quamplurima.</s>
+					<s n="6" xml:lang="la" type="auto">Deletus est exercitus regis <persName ref="p18477">Romanorum</persName> a Turcis ad Budam,<note xml:id="fn7" type="footnote" n="7">Siehe oben <ref target="file11607">Nr. 1564</ref>, Anm. 8.</note> triumphat et insolescit fidei hostis, imo et minatur gravissima, irruunt in nos undique et alia mala quamplurima.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Convertamur ergo ad dominum, ut is vicissim convertatur ad nos iuxta ipsius promissionem per Ieremiam in cap. 18 [7f].<pb type="edition" next="327"/></s>

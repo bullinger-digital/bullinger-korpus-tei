@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Bullinger AN Heinrich Bullinger, kurz nach dem 8. Dezember 1547</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2021</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18354-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=3091</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XX</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Häfner, Yvonne; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">20</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">April bis Dezember 1547</biblScope>
-				<biblScope unit="page">698</biblScope>
-				<biblScope unit="pages">807</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 20 (Briefe von April bis Dezember 1547), bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,92</idno>
 					</msIdentifier>
 					<msContents>
@@ -50,15 +41,15 @@
 								<p xml:id="regest2">
 								[2] Beiliegend, zum neuen Jahr, der Geldanteil, der Heinrich zugutekommt. Hätte Johannes auf die Hilfe
 								anderer zählen dürfen, hätte er mehr erhalten. So muss er sich mit 8 zufriedengeben. 4 davon sind vom Vogt
-								[<persName ref="person23412">Jakob Freytag</persName>]. Sollte in den nächsten Tagen noch etwas dazukommen, wird Heinrich auch seinen Teil davon
+								[<persName ref="p18066">Jakob Freytag</persName>]. Sollte in den nächsten Tagen noch etwas dazukommen, wird Heinrich auch seinen Teil davon
 								erhalten.
 								</p>
 								<p xml:id="regest3">
-								[3] Wer wird denn [als Pfarrer] nach <placeName ref="place549">Kilchberg</placeName> kommen, und was gibt es Neues zu berichten?
+								[3] Wer wird denn [als Pfarrer] nach <placeName>Kilchberg</placeName> kommen, und was gibt es Neues zu berichten?
 								</p>
 								<p xml:id="regest4">
 								[4] Johannes ist derzeit sehr müde. Sollte er in den kommenden Tagen etwas [bei der Jagd] erlegen, wird er
-								sich selbst nach <placeName ref="place1248">Zürich</placeName> begeben.
+								sich selbst nach <placeName>Zürich</placeName> begeben.
 								</p>
 								<p xml:id="regest5">
 								[5] Segenswunsch.
@@ -68,13 +59,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 20, Nr. 3091, S.698</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/13140">
 				<correspAction type="sent">
-					<persName ref="person527" cert="high">
+					<persName ref="p527" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Johannes</forename>
@@ -84,7 +82,7 @@
 					<date when="1547-12-08" cert="low">kurz nach dem 8. Dezember 1547</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -138,20 +136,20 @@
 			</div>
 			<div xml:id="div2" corresp="regest2">
 				<p>
-					<s n="4" xml:lang="de" type="auto">Ich schick uich da ein meining<note xml:id="fn4" type="footnote" n="4">Angesichts der darauffolgenden zwei Sätze ist hier nicht ein Text mit guten Absichten (Wünschen) gemeint, sondern ein für Bullinger bestimmter Geldbetrag (z.B. Bullingers Anteil an einem den beiden Brüdern zugutekommenden Zins oder Mietzins); s. <abbr>SI</abbr> IV 307.</note> zum guͦtten jar.</s>
+					<s n="4" xml:lang="de" type="auto">Ich schick uich da ein meining<note xml:id="fn4" type="footnote" n="4">Angesichts der darauffolgenden zwei Sätze ist hier nicht ein Text mit guten Absichten (Wünschen) gemeint, sondern ein für Bullinger bestimmter Geldbetrag (z.B. Bullingers Anteil an einem den beiden Brüdern zugutekommenden Zins oder Mietzins); s. <bibl>SI</bibl> IV 307.</note> zum guͦtten jar.</s>
 					<s n="5" xml:lang="de" type="auto">Hett ich die<note xml:id="fn5" type="footnote" n="5">diejenigen, die.</note> mir konttendt helffen, wer mir wol mee worden.</s>
-					<s n="6" xml:lang="de" type="auto">Sust<note xml:id="fn6" type="footnote" n="6">So aber.</note> muͦß ich an 8 vergutt han,<note xml:id="fn7" type="footnote" n="7">Zu verstehen: So muss ich mich mit 8 zufriedengeben. - Hier wird von einer Währung die Rede sein.</note> deran<note xml:id="fn8" type="footnote" n="8">davon.</note> myr der vogt<note xml:id="fn9" type="footnote" n="9">Der Vogt der Herrschaft Knonau, der die Ortschaft <placeName ref="place831">Ottenbach</placeName> verwaltete. - Stimmt die Datierung des vorliegenden Briefes, handelt es sich um den im Juni 1547 neu gewählten <persName ref="person23412">Jakob Freytag</persName> (Freitag); s. <abbr>LL</abbr> XI 144; <abbr>Dütsch, Landvögte</abbr> 21 und Anm. 42; 114.</note> 4 hat.</s>
+					<s n="6" xml:lang="de" type="auto">Sust<note xml:id="fn6" type="footnote" n="6">So aber.</note> muͦß ich an 8 vergutt han,<note xml:id="fn7" type="footnote" n="7">Zu verstehen: So muss ich mich mit 8 zufriedengeben. - Hier wird von einer Währung die Rede sein.</note> deran<note xml:id="fn8" type="footnote" n="8">davon.</note> myr der vogt<note xml:id="fn9" type="footnote" n="9">Der Vogt der Herrschaft Knonau, der die Ortschaft <placeName>Ottenbach</placeName> verwaltete. - Stimmt die Datierung des vorliegenden Briefes, handelt es sich um den im Juni 1547 neu gewählten <persName>Jakob Freytag (Freitag)</persName>; s. <bibl>LL</bibl> XI 144; <bibl>Dütsch, Landvögte</bibl> 21 und Anm. 42; 114.</note> 4 hat.</s>
 					<s n="7" xml:lang="de" type="auto">Gitt es die tag mee<note xml:id="fn10" type="footnote" n="10">die tag mee: in nächster Zeit.</note>, ist uwer teil auch darby.<pb type="edition" next="699"/></s>
 				</p>
 			</div>
 			<div xml:id="div3" corresp="regest3">
 				<p>
-					<s n="8" xml:lang="de" type="auto">Laß mich wussen, wer geen<note xml:id="fn11" type="footnote" n="11">nach (gegen).</note> <placeName ref="place549">Kilchberg</placeName> sig kon<note xml:id="fn12" type="footnote" n="12">sig kon: gekommen sei (zu verstehen: ernannt wurde, um dahin zu kommen). - <persName ref="person23820">Albrecht Wecker</persName>, der hier vermutlich gemeint ist (s. oben <qv>fn17358-1</qv>), stammte aus <placeName ref="place363">Frauenfeld</placeName> (s. Zürich StA, E I 30.64, Nr. 4) und hatte zuvor einige Jahre im Thurgau gewirkt; s. <abbr>HBBW</abbr> VI 34. - Johannes' Nachfrage könnte sich insofern erklären, als der vorhergehende Pfarrer, <persName ref="person7">Hans Rudolf Ammann</persName>, welcher altershalber eine kleinere Pfarrei beantragt hatte, bis zu diesem Zeitpunkt ein "Lipding" (Einkommen in Form von Naturalien oder Geldauszahlungen) aus <placeName ref="place831">Ottenbach</placeName> erhalten hatte, auf das er am 21. Dezember 1547 verzichten musste; s. E I 30.64, Nr. 5, den letzten Abschnitt.</note>, ouch waß nuwer meeren<note xml:id="fn13" type="footnote" n="13">Nachrichten.</note> vorhanden sig.</s>
+					<s n="8" xml:lang="de" type="auto">Laß mich wussen, wer geen<note xml:id="fn11" type="footnote" n="11">nach (gegen).</note> <placeName>Kilchberg</placeName> sig kon<note xml:id="fn12" type="footnote" n="12">sig kon: gekommen sei (zu verstehen: ernannt wurde, um dahin zu kommen). - <persName>Albrecht Wecker</persName>, der hier vermutlich gemeint ist (s. oben <ptr target="qvfn17358-1" type="qv"/>), stammte aus <placeName>Frauenfeld</placeName> (s. Zürich StA, E I 30.64, Nr. 4) und hatte zuvor einige Jahre im Thurgau gewirkt; s. <bibl>HBBW</bibl> VI 34. - Johannes' Nachfrage könnte sich insofern erklären, als der vorhergehende Pfarrer, <persName>Hans Rudolf Ammann</persName>, welcher altershalber eine kleinere Pfarrei beantragt hatte, bis zu diesem Zeitpunkt ein "Lipding" (Einkommen in Form von Naturalien oder Geldauszahlungen) aus <placeName>Ottenbach</placeName> erhalten hatte, auf das er am 21. Dezember 1547 verzichten musste; s. E I 30.64, Nr. 5, den letzten Abschnitt.</note>, ouch waß nuwer meeren<note xml:id="fn13" type="footnote" n="13">Nachrichten.</note> vorhanden sig.</s>
 				</p>
 			</div>
 			<div xml:id="div4" corresp="regest4">
 				<p>
-					<s n="9" xml:lang="de" type="auto">Ich weiß dyr jetzt nuit<note xml:id="fn14" type="footnote" n="14">nichts.</note> sunders ze schriben, dan ich vast muidt<note xml:id="fn15" type="footnote" n="15">vast muidt: sehr müde.</note> bin; das ander, faan ich die tag etwaß,<note xml:id="fn16" type="footnote" n="16">Zu verstehen: zum anderen, wenn ich dieser Tage etwas fange (bei der Jagd). - Wie schon Johannes und Heinrich Bullingers Großvater Hans und deren Vater Heinrich d.Ä. (s. Bernhard <hi>Stettler,</hi> Bullingers Familiengeschichte. Edition und Kommentar, in: <abbr>Zwa</abbr> XLII, 2015, 18f. 27. 32), hat offensichtlich auch Johannes gejagt. Vgl. auch <ref target="file12771">Nr. 2724</ref>a,5f, des Anhangs.<zfn>fn17358-2</zfn></note> wil ich selbs inhan.<note xml:id="fn17" type="footnote" n="17">hinein (nach Zürich, zum Bruder, um ihm einen Teil der Jagdbeute zu bringen).</note></s>
+					<s n="9" xml:lang="de" type="auto">Ich weiß dyr jetzt nuit<note xml:id="fn14" type="footnote" n="14">nichts.</note> sunders ze schriben, dan ich vast muidt<note xml:id="fn15" type="footnote" n="15">vast muidt: sehr müde.</note> bin; das ander, faan ich die tag etwaß,<note xml:id="fn16" type="footnote" n="16">Zu verstehen: zum anderen, wenn ich dieser Tage etwas fange (bei der Jagd). - Wie schon Johannes und Heinrich Bullingers Großvater Hans und deren Vater Heinrich d.Ä. (s. Bernhard <hi>Stettler,</hi> Bullingers Familiengeschichte. Edition und Kommentar, in: <bibl>Zwa</bibl> XLII, 2015, 18f. 27. 32), hat offensichtlich auch Johannes gejagt. Vgl. auch <ref target="file12771">Nr. 2724</ref>a,5f, des Anhangs.<ptr target="zfnfn17358-2" type="zfn"/></note> wil ich selbs inhan.<note xml:id="fn17" type="footnote" n="17">hinein (nach Zürich, zum Bruder, um ihm einen Teil der Jagdbeute zu bringen).</note></s>
 				</p>
 			</div>
 			<div xml:id="div5" corresp="regest5">

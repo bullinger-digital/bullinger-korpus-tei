@@ -6,50 +6,41 @@
 				<title subtype="file">Ambrosius Blarer / [Konstanz] AN Heinrich Bullinger, 30. Mai [1543]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1748</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">145</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,280</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Übersendet einen Teil einer Schrift <persName ref="person28">Bucers</persName> [„Was im namen des heiligen
-								evangeli ... zuͦ <placeName ref="place1334">Bonn</placeName> ... gelehret unnd geprediget würdt“], den
+								Übersendet einen Teil einer Schrift <persName ref="p467">Bucers</persName> [„Was im namen des heiligen
+								evangeli ... zuͦ <placeName>Bonn</placeName> ... gelehret unnd geprediget würdt“], den
 								Bullinger wieder zurücksenden soll, der zweite Teil folgt nach; man sollte sich mit
-								<persName ref="person28">Bucers</persName> Lehre zufriedengeben, wenn man die Situation bedenkt, in der er
-								sich [im Erzbistum <placeName ref="place577">Köln</placeName>] befindet, auch wenn er manches - wie er
+								<persName ref="p467">Bucers</persName> Lehre zufriedengeben, wenn man die Situation bedenkt, in der er
+								sich [im Erzbistum <placeName>Köln</placeName>] befindet, auch wenn er manches - wie er
 								selbst zugeben würde - deutlicher hätte ausdrücken können. Bitte um göttlichen Beistand; Grüße.
 							</p>
 						</summary>
@@ -60,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 184, Nr. 1011</title>
+								<title>Blarer BW II, S.184, Nr. 1011</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1748, S.145</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11794">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1543-05-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -121,7 +115,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,19 +127,19 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Quandoquidem non eum, quem putabam, nuncium<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> nactus sum 24. maii<note xml:id="fn3" type="footnote" n="3">Am 24. Mai hatte <persName ref="person19">Blarer</persName> einen Brief an Bullinger geschrieben (oben <ref target="file11793">Nr. 1747</ref>).</note>, mitto partem libelli, quem <persName ref="person28">Bucerus</persName> ędidit<note xml:id="fn4" type="footnote" n="4">Gemeint ist offenbar <persName ref="person28">Bucers</persName> Schrift "Was im namen des heiligen evangeli unsers herrenn Jesu Christi jetzund zu <placeName ref="place1334">Bonn</placeName> im stifft Cöllen gelehret unnd geprediget würdt", Marburg (<persName ref="person22132">Hermann Bastian</persName>) [<placeName ref="place1334">Bonn</placeName> (<persName ref="person21044">Laurenz von der Mülen</persName>)] 1543 (BucerBibl 127), um deren Zusendung <persName ref="person19">Blarer</persName> Konrad Hubert am 7. Mai gebeten hatte (<persName ref="person19">Blarer</persName> BW II, <ref target="file11049">Nr. 1007</ref>; Verdankung der Übersendung in <persName ref="person19">Blarer</persName> BW II, <ref target="file11058">Nr. 1016</ref>).</note> quemque diebus hisce legere licuit<note xml:id="fna" type="footnote" n="a"><hi>Von</hi> quemque <hi>bis</hi> licuit <hi>am Rande nachgetragen.</hi></note>, posteriorem quoque, quę tribus quaternionibus hanc superat, missurus, ubi legero, tuque alteram hanc, quam nemo alius legit, remiseris<note xml:id="fn5" type="footnote" n="5"><persName ref="person19">Blarer</persName> sandte Bullinger den zweiten Teil der Schrift am 15. Juni; vgl. unten <ref target="file11800">Nr. 1754</ref>, 15-20.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Nullum hic est aliud exemplum, quinetiam <placeName ref="place1049">Argentorati</placeName> unum adhuc reliquum est.</s>
-					<s n="4" xml:lang="la" type="auto">Boni, puto, boni consulent hanc <persName ref="person28">Buceri</persName> nostri doctrinam, praesertim ubi diligentius locum atque eos, quibuscum<note xml:id="fnb" type="footnote" n="b">cum <hi>über der Zeile nachgetragen.</hi></note> res<note xml:id="fnc" type="footnote" n="c"><hi>Vor</hi> res <hi>gestrichenes</hi> nunc.</note> illi nunc<note xml:id="fnd" type="footnote" n="d">nunc <hi>über der Zeile nachgetragen.</hi></note> est, expenderint; nam poterant alioqui nonnulla, quod nec <persName ref="person28">Bucerus</persName> diffitebitur, luculentius et solidius tradi.</s>
+					<s n="2" xml:lang="la" type="auto">Quandoquidem non eum, quem putabam, nuncium<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> nactus sum 24. maii<note xml:id="fn3" type="footnote" n="3">Am 24. Mai hatte <persName>Blarer</persName> einen Brief an Bullinger geschrieben (oben <ref target="file11793">Nr. 1747</ref>).</note>, mitto partem libelli, quem <persName ref="p467">Bucerus</persName> ędidit<note xml:id="fn4" type="footnote" n="4">Gemeint ist offenbar <persName ref="p18198">Bucers</persName> Schrift "Was im namen des heiligen evangeli unsers herrenn Jesu Christi jetzund zu <placeName>Bonn</placeName> im stifft Cöllen gelehret unnd geprediget würdt", Marburg (<persName>Hermann Bastian</persName>) [<placeName>Bonn</placeName> (<persName>Laurenz von der Mülen</persName>)] 1543 (BucerBibl 127), um deren Zusendung <persName>Blarer</persName> Konrad Hubert am 7. Mai gebeten hatte (<persName>Blarer</persName> BW II, <ref target="file11049">Nr. 1007</ref>; Verdankung der Übersendung in <persName>Blarer</persName> BW II, <ref target="file11058">Nr. 1016</ref>).</note> quemque diebus hisce legere licuit<note xml:id="fna" type="footnote" n="a"><hi>Von</hi> quemque <hi>bis</hi> licuit <hi>am Rande nachgetragen.</hi></note>, posteriorem quoque, quę tribus quaternionibus hanc superat, missurus, ubi legero, tuque alteram hanc, quam nemo alius legit, remiseris<note xml:id="fn5" type="footnote" n="5"><persName>Blarer</persName> sandte Bullinger den zweiten Teil der Schrift am 15. Juni; vgl. unten <ref target="file11800">Nr. 1754</ref>, 15-20.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Nullum hic est aliud exemplum, quinetiam <placeName>Argentorati</placeName> unum adhuc reliquum est.</s>
+					<s n="4" xml:lang="la" type="auto">Boni, puto, boni consulent hanc <persName ref="p467">Buceri</persName> nostri doctrinam, praesertim ubi diligentius locum atque eos, quibuscum<note xml:id="fnb" type="footnote" n="b">cum <hi>über der Zeile nachgetragen.</hi></note> res<note xml:id="fnc" type="footnote" n="c"><hi>Vor</hi> res <hi>gestrichenes</hi> nunc.</note> illi nunc<note xml:id="fnd" type="footnote" n="d">nunc <hi>über der Zeile nachgetragen.</hi></note> est, expenderint; nam poterant alioqui nonnulla, quod nec <persName ref="p467">Bucerus</persName> diffitebitur, luculentius et solidius tradi.</s>
 					<s n="5" xml:lang="la" type="auto">Ipse vero de meipso coniecturam facio, quid, si hic essem, facerem.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Dominus regni sui pomerio nostro ministerio magis atque magis proferat!</s>
 					<s n="7" xml:lang="la" type="auto">In quo, mi<note xml:id="fne" type="footnote" n="e"><hi>Vor</hi> mi <hi>gestrichenes q.</hi></note> venerande atque optime frater, bene et perpetuo vale.</s>
-					<s n="8" xml:lang="la" type="auto">Saluta fratres et amicos, cum primis <persName ref="person84">Gvaltherum</persName> nostrum.</s>
+					<s n="8" xml:lang="la" type="auto">Saluta fratres et amicos, cum primis <persName ref="p8011">Gvaltherum</persName> nostrum.</s>
 					<s n="9" xml:lang="de" type="auto">30. maii 154[3]<note xml:id="fnf" type="footnote" n="f"><hi>Rand beschnitten.</hi></note>.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="person19">Ambros. Blaurerus</persName>.</s>
+					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="p8055">Ambros. Blaurerus</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

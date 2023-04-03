@@ -18,22 +18,22 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Verweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
-						<idno subtype="Autograph">Fr. Gr. Ms. I 19 Nr. 9 (f. 68)</idno>
+						<repository ref="a6"/>
+						<idno subtype="Autograph">Frey Gryn Mscr. I 19:Br.9</idno>
+						<altIdentifier>
+							<idno subtype="Autograph">Fr. Gr. Ms. I 19 Nr. 9 (f. 68)</idno>
+						</altIdentifier>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -44,14 +44,14 @@
 				<msDesc type="Verweis" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,222a</idno>
 						<idno subtype="Hinweis">1550 eingeordnet</idno>
 					</msIdentifier>
@@ -59,14 +59,14 @@
 				<msDesc type="Verweis" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 87,172</idno>
 						<idno subtype="Hinweis">Rückweis auf 1. Kopie</idno>
 					</msIdentifier>
@@ -76,7 +76,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2946">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -86,11 +86,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1556-06-09" cert="low"><note>Kopie ZB eingeordnet unter 1550 (= ID 930)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1010" cert="high">
+					<persName ref="p1010" cert="high">
 						<!--
 						<surname cert="high">Erb</surname>
 						<forename cert="high">Matthias</forename>
@@ -98,7 +98,7 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/100972160"/>
 						-->
 					</persName>
-					<placeName source="place411" cert="high"><orig>Reichenweier</orig></placeName>
+					<placeName source="l411" cert="high"><orig>Reichenweier</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2947"/>
@@ -122,7 +122,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

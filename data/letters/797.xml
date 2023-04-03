@@ -6,32 +6,31 @@
 				<title subtype="file">Felix Tobler / Bern AN Heinrich Bullinger / Zürich, 7. Januar 1550</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">1856</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,205 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,9</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,17 +59,17 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/797">
 				<correspAction type="sent">
-					<persName ref="person3170" cert="high">
+					<persName ref="p3170" cert="high">
 						<!--
 						<surname cert="high">Tobler</surname>
 						<forename cert="high">Felix</forename>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1550-01-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -80,7 +79,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file798"/>
@@ -96,7 +95,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -112,7 +111,7 @@
 					<s n="1" xml:lang="la" type="auto">Viro magnanimo d. H. Bullingero patri ac mecęnati suo F[elix] Tobler S. D.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Etsi merito accuser, vir doctissime et patrone colendissime, quod in expensis nivibus hanc in harenam descenderim<note xml:id="fn1" type="footnote" n="1">Adagia 1, 9, 83 (ASD II/2 396, Nr. 883).</note> et istam mihi provintiam administrandam susceperim, quam vel omnino vel certe non satis pro dignitate rei sim administraturus, quod te negotiis perquam plurimis prius occupatum, (et quod hactenus non ausus fui) nunc demum meis ineptiis te interturbare et negotium facessere videor.</s>
+					<s n="2" xml:lang="la" type="auto">Etsi merito accuser, vir doctissime et patrone colendissime, quod in expensis nivibus hanc in harenam descenderim<note xml:id="fn1" type="footnote" n="1"><bibl>Adagia</bibl> 1, 9, 83 (<bibl>ASD</bibl> II/2 396, Nr. 883).</note> et istam mihi provintiam administrandam susceperim, quam vel omnino vel certe non satis pro dignitate rei sim administraturus, quod te negotiis perquam plurimis prius occupatum, (et quod hactenus non ausus fui) nunc demum meis ineptiis te interturbare et negotium facessere videor.</s>
 					<s n="3" xml:lang="la" type="auto">Caeterum postquam in mentem subiissent ea, quae scripsisti contubernali meo admodum familiaria molleque dulciora, non potui non oscitari et stimulus aliquis ad currentem addi, quin aliquas ad te literas darem, si non adeo tersas, lepidas, ut aliquid mereantur, tamen eas ex animo scriptas intelligere facile posses.</s>
 					<s n="4" xml:lang="la" type="auto">Simul negligentiae nomen formidans mihi soli hoc imponi veritus, si aliorum pede metiar, cum ipsi me dudum anteverterint.</s>
 					<s n="5" xml:lang="la" type="auto">Verum quoniam parum erat, imo nihil, quod dignum scriptu videretur tuaeque humanitati consentaneum, ad hoc usque temporis intervallum reservavi, quo rationes acceptorum et expensorum d. scolarchae scriberem.</s>

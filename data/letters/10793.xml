@@ -6,73 +6,71 @@
 				<title subtype="file">Benedikt Euander / Isny AN Heinrich Bullinger, 1. März 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=755</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">153</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,3151</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person230">Melchior Volmar</persName>, des Lobes voll für die Zürcher, möchte durch
-								<persName ref="person59">Euanders</persName> Empfehlung die Freundschaft Bullingers,
-								<persName ref="person114">Juds</persName>, <persName ref="person165">Pellikans</persName> und
-								<persName ref="person14">Biblianders</persName> gewinnen; <persName ref="person59">Euander</persName>
-								bittet die Zürcher, mit einem Brief an <persName ref="person230">Volmar</persName> den Anfang zu machen.
+								<persName ref="p8113">Melchior Volmar</persName>, des Lobes voll für die Zürcher, möchte durch
+								<persName ref="p1039">Euanders</persName> Empfehlung die Freundschaft Bullingers,
+								<persName ref="p1753">Juds</persName>, <persName ref="p8127">Pellikans</persName> und
+								<persName ref="p8171">Biblianders</persName> gewinnen; <persName ref="p1039">Euander</persName>
+								bittet die Zürcher, mit einem Brief an <persName ref="p8113">Volmar</persName> den Anfang zu machen.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 755, S.153</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10793">
 				<correspAction type="sent">
-					<persName ref="person1039" cert="high">
+					<persName ref="p1039" cert="high">
 						<!--
 						<surname cert="high">Euander</surname>
 						<forename cert="high">Benedikt</forename>
 						-->
 					</persName>
-					<placeName source="place234" cert="high"><orig>Isny</orig></placeName>
+					<placeName source="l234" cert="high"><orig>Isny</orig></placeName>
 					<date when="1536-03-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +103,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -116,7 +114,7 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Doctor <persName ref="person230">Melchior Volmarius</persName> mihi nuper e <placeName ref="place1107">Tubinga</placeName><note xml:id="fn2" type="footnote" n="2">Zu <persName ref="person230">Volmars</persName> Berufung an die Universität <placeName ref="place1107">Tübingen</placeName> um die Jahreswende 1535/1536 s. HBBW V <ref target="file10667">[Nr. 629]</ref>, S. 325, Anm. 11.</note> hisce verbis scripsit<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note>, quod praeter loci amoenitatem, qua vehementer exhileratus sit, nusquam adhuc invenerit doctiores, magis pios et sinceriores viros quam Tiguri, nusquam etiam ecclesiam melius institutam, cupereque se tuae, Leonis<note xml:id="fn4" type="footnote" n="4"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person165">Pellicani</persName> et <persName ref="person14">Theodori</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person14">Theodor Bibliander</persName>.</note> amicitiae et familiaritati quocunque modo insinuari.</s>
+					<s n="1" xml:lang="la" type="auto">Doctor <persName ref="p8113">Melchior Volmarius</persName> mihi nuper e <placeName>Tubinga</placeName><note xml:id="fn2" type="footnote" n="2">Zu <persName>Volmars</persName> Berufung an die Universität <placeName>Tübingen</placeName> um die Jahreswende 1535/1536 s. <bibl>HBBW</bibl> V <ref target="file10667">[Nr. 629]</ref>, S. 325, Anm. 11.</note> hisce verbis scripsit<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note>, quod praeter loci amoenitatem, qua vehementer exhileratus sit, nusquam adhuc invenerit doctiores, magis pios et sinceriores viros quam Tiguri, nusquam etiam ecclesiam melius institutam, cupereque se tuae, Leonis<note xml:id="fn4" type="footnote" n="4"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p8127">Pellicani</persName> et <persName ref="p8171">Theodori</persName><note xml:id="fn5" type="footnote" n="5"><persName>Theodor Bibliander</persName>.</note> amicitiae et familiaritati quocunque modo insinuari.</s>
 					<s n="2" xml:lang="la" type="auto">Id si meo pręsidio fiat, me maximam ab eo et novam nunc initurum gratiam.</s>
 					<s n="3" xml:lang="la" type="auto">Se quoque interim nihil intermissurum, quod ad hanc necessitudinem contrahendam pertineat, ac priorem se litteris suis vos provocaturum, si ego sperem ipsius litteras vobis fore gratas.</s>
 					<s n="4" xml:lang="la" type="auto">Et quamvis horum nihil opus esse arbitrer, cum vos humaniores sitis, quam ut quenquam (dignos puto) a vestro consortio excludatis, atque ego ineptior, quam ut talem virum vobis commendare aut debeam aut possim, tamen, quia hoc tantopere a me<note xml:id="fna" type="footnote" n="a">a me <hi>am Rande nachgetragen.</hi></note> efflagitat et sibi bis gratum fore putat, si meo beneficio in vestrum gregem recipiatur, diligentissimis praecibus vobis insto, ut me hanc gratiam, quam video velle, ab eo mire patiamini ac virum alias humanissimum litterarum officio et humanitate antevertatis, quo simul cognoscat vos vere eos esse, quos iudicat, simulque me meo hoc officio apud vos non frustra functum esse.</s>
@@ -129,7 +127,7 @@
 					<s n="7" xml:lang="la" type="auto">Isne, calendis martii.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><persName ref="person59">Benedictus Euander</persName> tibi deditissimus<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> deditnsimus; <hi>davor zwei gestrichene, unlesbare Wörter.</hi></note>.<pb type="edition" next="154"/></s>
+					<s n="8" xml:lang="la" type="auto"><persName ref="p1039">Benedictus Euander</persName> tibi deditissimus<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> deditnsimus; <hi>davor zwei gestrichene, unlesbare Wörter.</hi></note>.<pb type="edition" next="154"/></s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

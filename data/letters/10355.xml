@@ -6,40 +6,31 @@
 				<title subtype="file">Ambrosius Blarer / Konstanz AN Heinrich Bullinger, 13. Februar 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=324</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">61</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,6</idno>
 					</msIdentifier>
 					<msContents>
@@ -56,7 +47,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW I, S. 469</title>
+								<title>Blarer BW I, S.469</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 324, S.61</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -66,7 +60,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10355">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -77,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1534-02-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,22 +121,22 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Habes hic literas<note xml:id="fn1" type="footnote" n="1"><persName ref="person19">Blarer</persName> sandte diesen Brief mit Nachrichten über den Schwäbischen Bund gemäß seinem früheren Versprechen (s. oben <ref target="file10348">[Nr. 317]</ref> S. 44, 12-14) und verlangte ihn wieder zurück (unten Z. 10). Bullinger kam offenbar diesem Verlangen nach; der Brief ist nicht mehr erhalten.</note>, unde statum foederis Svevici et quid <placeName ref="place70">Augustensia</placeName> ista comitia nobis pepererint<note xml:id="fn2" type="footnote" n="2">Die letzte Tagung des Schwäbischen Bundes in <placeName ref="place70">Augsburg</placeName> brachte dessen Auflösung, s. unten S. 65f, 2-18.</note>, quantum satis est, discas.</s>
+					<s n="1" xml:lang="la" type="auto">Habes hic literas<note xml:id="fn1" type="footnote" n="1"><persName>Blarer</persName> sandte diesen Brief mit Nachrichten über den Schwäbischen Bund gemäß seinem früheren Versprechen (s. oben <ref target="file10348">[Nr. 317]</ref> S. 44, 12-14) und verlangte ihn wieder zurück (unten Z. 10). Bullinger kam offenbar diesem Verlangen nach; der Brief ist nicht mehr erhalten.</note>, unde statum foederis Svevici et quid <placeName>Augustensia</placeName> ista comitia nobis pepererint<note xml:id="fn2" type="footnote" n="2">Die letzte Tagung des Schwäbischen Bundes in <placeName>Augsburg</placeName> brachte dessen Auflösung, s. unten S. 65f, 2-18.</note>, quantum satis est, discas.</s>
 					<s n="2" xml:lang="la" type="auto">Occupatissimus nunc sum alioqui plura scripturus.</s>
 					<s n="3" xml:lang="la" type="auto">Dedi ad te literas 20. ianuarii<note xml:id="fn3" type="footnote" n="3">Oben Nr.3 17.</note> nec dubito, quin eas acceperis.</s>
-					<s n="4" xml:lang="la" type="auto">Tuas avide expecto<note xml:id="fn4" type="footnote" n="4">Aus dieser Zeit ist kein Brief Bullingers an <persName ref="person19">Ambrosius Blarer</persName> erhalten.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Tuas avide expecto<note xml:id="fn4" type="footnote" n="4">Aus dieser Zeit ist kein Brief Bullingers an <persName>Ambrosius Blarer</persName> erhalten.</note>.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Saluta universum sanctorum, qui isthic sunt, chorum.</s>
-					<s n="6" xml:lang="la" type="auto">Salutant te nostri omnes, inprimis uxorcula<note xml:id="fn5" type="footnote" n="5"><persName ref="person473">Katharina Blarer</persName>, geb. Ryff.</note> et soror<note xml:id="fn6" type="footnote" n="6"><persName ref="person474">Margaretha Blarer</persName>.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Salutant te nostri omnes, inprimis uxorcula<note xml:id="fn5" type="footnote" n="5"><persName>Katharina Blarer, geb. Ryff</persName>.</note> et soror<note xml:id="fn6" type="footnote" n="6"><persName>Margaretha Blarer</persName>.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Bene vale, ornatissime Bullingere, et commenda nos Christo.</s>
-					<s n="8" xml:lang="la" type="auto">Coniugem<note xml:id="fn7" type="footnote" n="7"><persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note> tuam meis verbis diligenter saluta.</s>
+					<s n="8" xml:lang="la" type="auto">Coniugem<note xml:id="fn7" type="footnote" n="7"><persName>Anna Bullinger, geb. Adlischwyler</persName>.</note> tuam meis verbis diligenter saluta.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><placeName ref="place565">Constantiae</placeName>, 13. februarii 1534.</s>
+					<s n="9" xml:lang="la" type="auto"><placeName>Constantiae</placeName>, 13. februarii 1534.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="person19">Ambr. Blaurerus</persName>.</s>
+					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="p8055">Ambr. Blaurerus</persName>.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Proximo nuncio<note xml:id="fn8" type="footnote" n="8">Unbekannt.</note> remitte, obsecro, has literas.</s>

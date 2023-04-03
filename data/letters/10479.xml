@@ -6,49 +6,40 @@
 				<title subtype="file">Andreas Karlstadt / Basel AN Heinrich Bullinger, 27. September 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=444</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">328</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,22b</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Bedankt sich für die ihm zugesandten Geschenke. Er ist besorgt, weil es Gerüchte gibt, wonach Bullinger
-								<persName ref="person19">Ambrosius Blarers</persName>
-								[<placeName ref="place100">Württemberger</placeName> Abendmahlskonkordie] gutheißt und sogar etwas
-								Ähnliches predigen will. <persName ref="person117">Karlstadt</persName> glaubt das natürlich nicht, bittet
+								<persName ref="p8055">Ambrosius Blarers</persName>
+								[<placeName>Württemberger</placeName> Abendmahlskonkordie] gutheißt und sogar etwas
+								Ähnliches predigen will. <persName ref="p4349">Karlstadt</persName> glaubt das natürlich nicht, bittet
 								aber trotzdem um eine kurze schriftliche Erklärung, damit er Bullinger gegen solche Vorwürfe besser in
 								Schutz nehmen kann. Darum bittet er auch um die Zusendung von Bullingers «Assertio [utriusque in Christo
 								naturae]». Grüße.
@@ -63,6 +54,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Barge II 600</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 444, S.328</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -71,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10479">
 				<correspAction type="sent">
-					<persName ref="person1858" cert="high">
+					<persName ref="p1858" cert="high">
 						<!--
 						<surname cert="high">Karlstadt</surname>
 						<forename cert="high">Andreas</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11560166"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1534-09-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,23 +127,23 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Graciam tibi, prudentissime Bullingere, habeo.</s>
 					<s n="3" xml:lang="la" type="auto">Nam munera gratissima<note xml:id="fn1" type="footnote" n="1">Möglicherweise handelte es sich um Büchergeschenke.</note>, quae misisti, cepi.</s>
-					<s n="4" xml:lang="la" type="auto">Caeterum fama est te id, quod infirmitatis caussa fecit d. <pb type="edition" next="329"/>Plaurerus<note xml:id="fn2" type="footnote" n="2">Gemeint ist die von <persName ref="person19">Ambrosius Blarer</persName> mit <persName ref="person2087">Erhard Schnepf</persName> geschlossene <placeName ref="place100">Württemberger</placeName> Abendmahlskonkordie, s. oben <ref target="file10459">[Nr. 424]</ref> S. 279, Anm. 47; vgl. <hi>Köhler,</hi> ZL II 320-358.</note>, immo quod fecit, ut sibi Christum infirmis adnunciare liceret<note xml:id="fn3" type="footnote" n="3">Vgl. Röm 15, 1; 1 Kor 8, 7-12.</note>, sic approbare, quod plerique verentur istic te similia per publicas conciones evulgaturum.</s>
+					<s n="4" xml:lang="la" type="auto">Caeterum fama est te id, quod infirmitatis caussa fecit d. <pb type="edition" next="329"/>Plaurerus<note xml:id="fn2" type="footnote" n="2">Gemeint ist die von <persName>Ambrosius Blarer</persName> mit <persName>Erhard Schnepf</persName> geschlossene <placeName>Württemberger</placeName> Abendmahlskonkordie, s. oben <ref target="file10459">[Nr. 424]</ref> S. 279, Anm. 47; vgl. <hi>Köhler,</hi> ZL II 320-358.</note>, immo quod fecit, ut sibi Christum infirmis adnunciare liceret<note xml:id="fn3" type="footnote" n="3">Vgl. Röm 15, 1; 1 Kor 8, 7-12.</note>, sic approbare, quod plerique verentur istic te similia per publicas conciones evulgaturum.</s>
 					<s n="5" xml:lang="la" type="auto">Quod ego minime credo.</s>
 					<s n="6" xml:lang="la" type="auto">Novi enim tuam et eruditionem et constanciam.</s>
 					<s n="7" xml:lang="la" type="auto">Quare e re tua feceris, si mihi de re ea vel schedam mittes, ut ora quorundam obstruam suspicantium te robustis iam et ędificatis in domino infirmitatis lac inserturum<note xml:id="fn4" type="footnote" n="4">Vgl. 1 Kor 3, 2.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Sic talique lenitate, quod illi paulo durius garriunt, narrare iam libitum fuit.</s>
 					<s n="9" xml:lang="la" type="auto">Si pro vulnere ducis quod dico, scias e charitate profectum nec aliud me quęrere, nisi ut honorem de me bene meriti ratione certa defendam.</s>
-					<s n="10" xml:lang="la" type="auto">Idcirco remittes quam primum Assertionem<note xml:id="fn5" type="footnote" n="5">Gemeint ist Bullingers «Assertio utriusque in Christo naturae», die in Zürich am 1. Oktober 1534 erschien (HBBibl I 62; vgl. unten S.338, 25f).</note>, quoniam honorem et famam tuam omniumque Tigurinorum conservare pro mea semper virili adnitor.</s>
+					<s n="10" xml:lang="la" type="auto">Idcirco remittes quam primum Assertionem<note xml:id="fn5" type="footnote" n="5">Gemeint ist Bullingers «Assertio utriusque in Christo naturae», die in Zürich am 1. Oktober 1534 erschien (<bibl>HBBibl</bibl> I 62; vgl. unten S.338, 25f).</note>, quoniam honorem et famam tuam omniumque Tigurinorum conservare pro mea semper virili adnitor.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale fęliciter.</s>
 					<s n="12" xml:lang="la" type="auto">Saluta dominos et fautores amanter.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, die septembris 27. anno 1534.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName>Basileę</placeName>, die septembris 27. anno 1534.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="person117">Carolostadius</persName>.</s>
+					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="p4349">Carolostadius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

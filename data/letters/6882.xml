@@ -6,32 +6,31 @@
 				<title subtype="file">Edmund Grindal / London AN [Heinrich Bullinger], 27. August 1566</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6879/130</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,141</idno>
 					</msIdentifier>
 					<msContents>
@@ -49,10 +48,10 @@
 								<title>2 L I 168-170</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>John Strype, The History of the Life and Acts of Edmund Grindal, London 1710, Appendix 11, S. 19f / Oxford 1821, S. 490-492</title>
+								<title>John Strype, The History of the Life and Acts of Edmund Grindal, London 1710, Appendix 11, S.19f / Oxford 1821, S.490-492</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Burnet, History III/6, 1715, Anhang 92, S. 361-362 (vgl. vorne 323) / hg. v. N. Pocock, 1865, VI 540-542, Nr. 92 (vgl. III 542).</title>
+								<title>Burnet, History III/6, 1715, Anhang 92, S.361-362 (vgl. vorne 323) / hg. v. N. Pocock, 1865, VI 540-542, Nr. 92 (vgl. III 542).</title>
 							</bibl>
 							<bibl type="Literatur">
 								<title>J.H. Primus, Vestments Controversy 79, 150</title>
@@ -72,14 +71,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive55">
+						<repository ref="a55">
 							<name>London BM</name>
 							<ref target="https://www.britishmuseum.org/"/>
 						</repository>
-						<settlement ref="place296">London</settlement>
+						<settlement ref="l296">London</settlement>
 						<institution>British Museum</institution>
 						-->
-						<repository ref="archive55"/>
+						<repository ref="a55"/>
 						<idno subtype="Kopie">Ms Add. 4277, fo 189v-190v</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
 					</msIdentifier>
@@ -87,14 +86,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive32">
+						<repository ref="a32">
 							<name>Edinburgh UB</name>
 							<ref target="https://www.ed.ac.uk/information-services/library-museum-gallery"/>
 						</repository>
-						<settlement ref="place130">Edinburgh</settlement>
+						<settlement ref="l130">Edinburgh</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive32"/>
+						<repository ref="a32"/>
 						<idno subtype="Kopie">La IV 40, fol 382</idno>
 					</msIdentifier>
 				</msDesc>
@@ -103,7 +102,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6882">
 				<correspAction type="sent">
-					<persName ref="person1341" cert="high">
+					<persName ref="p1341" cert="high">
 						<!--
 						<surname cert="high">Grindal</surname>
 						<forename cert="high">Edmund</forename>
@@ -112,11 +111,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/139364749"/>
 						-->
 					</persName>
-					<placeName source="place296" cert="high"><orig>London</orig></placeName>
+					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1566-08-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -146,7 +145,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -6,50 +6,41 @@
 				<title subtype="file">Erasmus Ritter / [Schaffhausen] AN Heinrich Bullinger, 24. Juni 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=398</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">218</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 362,29</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt den Überbringer des Briefes, den Pfarrer [<persName ref="person1138">Konrad Heinimann</persName>
-								von <placeName ref="place702">Merishausen</placeName>?], der wegen Eheschwierigkeiten seiner Stelle
+								Empfiehlt den Überbringer des Briefes, den Pfarrer [<persName ref="p5184">Konrad Heinimann</persName>
+								von <placeName>Merishausen</placeName>?], der wegen Eheschwierigkeiten seiner Stelle
 								enthoben wurde, sonst aber ein guter Mann ist. Hört, daß die Zürcher
-								<persName ref="person78">Beat [Gering]</persName> zur Rückkehr nach
-								Zürich auffordern. Freilich würde dieser mancher Unannehmlichkeit aus
+								<persName ref="p8364">Beat [Gering]</persName> zur Rückkehr nach
+								<placeName>Zürich</placeName> auffordern. Freilich würde dieser mancher Unannehmlichkeit aus
 								dem Wege gehen, doch wäre es ein großer Schaden für die Schaffhauser Kirche. Deren Wohl mögen die Zürcher
 								bei dieser Sache im Auge behalten.
 							</p>
@@ -58,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 398, S.218</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10433">
 				<correspAction type="sent">
-					<persName ref="person2810" cert="high">
+					<persName ref="p2810" cert="high">
 						<!--
 						<surname cert="high">Ritter</surname>
 						<forename cert="high">Erasmus</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416562"/>
 						-->
 					</persName>
-					<placeName source="place441" cert="low"><orig>Schaffhausen</orig></placeName>
+					<placeName source="l441" cert="low"><orig>Schaffhausen</orig></placeName>
 					<date when="1534-06-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,26 +123,26 @@
 					<s n="1" xml:lang="la" type="auto">Gracia et pax a deo per Iesum Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Qui tibi has reddidit literas, patria Sanctogallensis est in agro <placeName ref="place943">Scaphusiano</placeName> hactenus verbi ministerio functus<note xml:id="fn1" type="footnote" n="1"><persName ref="person176">Ritters</persName> Angabe, daß der erwähnte Pfarrer von <placeName ref="place1011">St. Gallen</placeName> gebürtig sei, läßt vermuten, es handle sich um <persName ref="person1138">Konrad Heinimann</persName> (Haneman), Pfarrer in <placeName ref="place702">Merishausen</placeName>. Ein St. Galler Student gleichen Namens immatrikulierte sich nämlich im Sommersemester 1515 an der Universität in <placeName ref="place1205">Wittenberg</placeName> (s. <hi>Staerkle</hi> 272, <ref target="file10647">Nr. 609</ref>). Die Identität der beiden läßt sich allerdings sonst nicht beweisen. Der Pfarrer von <placeName ref="place702">Merishausen</placeName> hatte sich am 16. April 1534 wegen Mißhandlung seiner Ehefrau, die im Dorf offenbar als leichtlebiges Wesen galt, vor dem Schaffhauser Ehegericht zu verantworten. Wo er sich nach seiner Entlassung aufhielt, ist nicht bekannt. - Lit.: QGTS II 82, <ref target="file10132">Nr. 103</ref> mit Anm. 1; Hans <hi>Lieb</hi> und Karl <hi>Schib,</hi> Beschwerden und Sorgen der Schaffhauser Geistlichkeit um 1540, in: Schaffhauser Beiträge zur vaterländischen Geschichte, 48, 1971, S. 143.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Qui tibi has reddidit literas, patria Sanctogallensis est in agro <placeName>Scaphusiano</placeName> hactenus verbi ministerio functus<note xml:id="fn1" type="footnote" n="1"><persName>Ritters</persName> Angabe, daß der erwähnte Pfarrer von <placeName>St. Gallen</placeName> gebürtig sei, läßt vermuten, es handle sich um <persName>Konrad Heinimann (Haneman)</persName>, Pfarrer in <placeName>Merishausen</placeName>. Ein St. Galler Student gleichen Namens immatrikulierte sich nämlich im Sommersemester 1515 an der Universität in <placeName>Wittenberg</placeName> (s. <hi>Staerkle</hi> 272, <ref target="file10647">Nr. 609</ref>). Die Identität der beiden läßt sich allerdings sonst nicht beweisen. Der Pfarrer von <placeName>Merishausen</placeName> hatte sich am 16. April 1534 wegen Mißhandlung seiner Ehefrau, die im Dorf offenbar als leichtlebiges Wesen galt, vor dem Schaffhauser Ehegericht zu verantworten. Wo er sich nach seiner Entlassung aufhielt, ist nicht bekannt. - Lit.: <bibl>QGTS</bibl> II 82, <ref target="file10132">Nr. 103</ref> mit Anm. 1; Hans <hi>Lieb</hi> und Karl <hi>Schib,</hi> Beschwerden und Sorgen der Schaffhauser Geistlichkeit um 1540, in: Schaffhauser Beiträge zur vaterländischen Geschichte, 48, 1971, S. 143.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Hic post obitum uxoris<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note>, ex qua liberos superstites habet, aliam duxit iuvenculam<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note>, cum qua nonichil contentionis et discordiarum habuit<note xml:id="fn4" type="footnote" n="4">Siehe Anm. 1.</note>, partim propter liberos, ut fit, partim quod illis moribus non fuerit imbuta, qui eam decuissent et marito fuissent placiti.</s>
 					<s n="4" xml:lang="la" type="auto">Quam causam dum pauci iuste perpenderint, occasionem offensionis ecclesie praestitisse senatus noster edoctus est.</s>
 					<s n="5" xml:lang="la" type="auto">Quapropter ab officio est amotus<note xml:id="fn5" type="footnote" n="5">Zur Amtsenthebung sind keine weiteren Akten bekannt.</note> alioqui minime malus homo neque propterea indignus, qui iterum posset admitti.</s>
 					<s n="6" xml:lang="la" type="auto">Hunc tibi ita commendo, ut is intelligat meam commendationem tibi fuisse gratam.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Ceterum intelligo vos nonnichil sollicitare <persName ref="person78">Beatum</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person78">Beat Gering</persName>.</note> nostrum, ut ad vos rediret<note xml:id="fn7" type="footnote" n="7">Zu <persName ref="person78">Gerings</persName> bevorstehender Rückkehr nach Zürich, die Bullinger nach Kräften betrieb, s. oben <ref target="file10429">Nr. 394</ref> und unten <ref target="file10438">Nr. 403</ref>.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Ceterum intelligo vos nonnichil sollicitare <persName ref="p8364">Beatum</persName><note xml:id="fn6" type="footnote" n="6"><persName>Beat Gering</persName>.</note> nostrum, ut ad vos rediret<note xml:id="fn7" type="footnote" n="7">Zu <persName>Gerings</persName> bevorstehender Rückkehr nach <placeName>Zürich</placeName>, die Bullinger nach Kräften betrieb, s. oben <ref target="file10429">Nr. 394</ref> und unten <ref target="file10438">Nr. 403</ref>.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Equidem fateor, si vobis obtemperaret, iniurias, contumelias haud<pb type="edition" next="219"/> vulgares devitare posset, quas hic pati oportet.</s>
 					<s n="9" xml:lang="la" type="auto">Verum quod sine maximo incomodo ecclesie nostre fieri possit, nemo credere debet.</s>
 					<s n="10" xml:lang="la" type="auto">Quare te reliquosque fratres plurimum oro<note xml:id="fna" type="footnote" n="a">oro <hi>am Rande nachgetragen.</hi></note>, ut non tantum vestre ecclesie, sed etiam nostre incrementa spectetis, quae tamen una est, nempe Christi.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Vale et <persName ref="person176">Erasmum</persName>, ut ipse vicissim te unice, ama.</s>
+					<s n="11" xml:lang="la" type="auto">Vale et <persName ref="p2810">Erasmum</persName>, ut ipse vicissim te unice, ama.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">24. iunii 1534.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><persName ref="person176">Erasmus Ritter</persName>, ex animo tuus.</s>
+					<s n="13" xml:lang="la" type="auto"><persName ref="p2810">Erasmus Ritter</persName>, ex animo tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

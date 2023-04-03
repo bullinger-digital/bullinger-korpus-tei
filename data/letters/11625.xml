@@ -6,44 +6,40 @@
 				<title subtype="file">Ambrosius Blarer / Konstanz AN Heinrich Bullinger, 10. November 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1582</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">320</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Ioannis Calvini opera quae supersunt omnia, hg. v. Guilielmus Baum, Eduardus Cunitz, Eduardus Reuss, 59 Bde., Braunschweig/Berlin 1863-1900 - CR XXIX-LXXXVII.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,217</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet um Rücksendung der <placeName ref="place880">Regensburger</placeName> Akten. Empfehlung des
-								Briefüberbringers Erhardus [<persName ref="person22001">Eynard Pichon</persName>], Gesandter der
-								<placeName ref="place764">Neuenburger</placeName> Pfarrer; dem Versuch,
-								<persName ref="person60">[Guillaume] Farel</persName> aus dem Amt zu
+								Bittet um Rücksendung der <placeName>Regensburger</placeName> Akten. Empfehlung des
+								Briefüberbringers Erhardus [<persName ref="p6101">Eynard Pichon</persName>], Gesandter der
+								<placeName>Neuenburger</placeName> Pfarrer; dem Versuch,
+								<persName ref="p4750">[Guillaume] Farel</persName> aus dem Amt zu
 								drängen, muss Widerstand entgegengesetzt werden.
 							</p>
 						</summary>
@@ -54,13 +50,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XI, S. 320f, Nr. 372</title>
+								<title>C.O. XI, S.320f, Nr. 372</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
 								<title>Zusammenfassende Übersetzung: Blarer BW II 91, Nr. 917</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Corr. des réformateurs VII, S. 332f, Nr. 1063</title>
+								<title>Corr. des réformateurs VII, S.332f, Nr. 1063</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11625">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -81,11 +77,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1541-11-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

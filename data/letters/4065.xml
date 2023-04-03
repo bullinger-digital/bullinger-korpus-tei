@@ -6,32 +6,31 @@
 				<title subtype="file">Franciscus Lismaninus / Pinczow AN s.n. / Zürich, 1. September 1559</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5273/155</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 371,743</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke BW, Polen, S. 95-97, Nr. 174</title>
+								<title>Wotschke BW, Polen, S.95-97, Nr. 174</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>Wotschke, Polen 182</title>
@@ -60,14 +59,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 46,637 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -80,14 +79,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 95,146</idno>
 						<idno subtype="Hinweis">nach Autograph</idno>
 					</msIdentifier>
@@ -95,14 +94,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 95,147</idno>
 					</msIdentifier>
 					<msContents>
@@ -117,7 +116,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4065">
 				<correspAction type="sent">
-					<persName ref="person1929" cert="high">
+					<persName ref="p1929" cert="high">
 						<!--
 						<surname cert="high">Lismaninus</surname>
 						<forename cert="high">Franciscus</forename>
@@ -126,12 +125,12 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/1018269576"/>
 						-->
 					</persName>
-					<placeName source="place389" cert="high"><orig>Pinczow</orig></placeName>
+					<placeName source="l389" cert="high"><orig>Pinczow</orig></placeName>
 					<date when="1559-09-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role26" type="pl" role="Geistliche" cert="high"/>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file4066"/>
@@ -153,7 +152,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -180,7 +179,7 @@
 					<s n="8" xml:lang="la" type="auto">Atque inprimis nobiscum aeterno patri per Christum gratias agatis, quod a pestifero Stancari dogmate nostros defendere dignatus est.</s>
 					<s n="9" xml:lang="la" type="auto">Stancarus haud ita pridem huc reversus explosam Nestorii haeresim renovavit, (quod et olim tentavit in Marchia atque Prussia et nuper in Transylvania,) Christi carnem a verbo sic dividens, ut in nostra cum patre reconciliatione sola locum habuerit, quo pacto nudum hominem nobis pro mediatore constituit omnesque Arianae impietatis insimulat, qui in sua verba iurare noluerint cum interim ipse nulli plane coetui adnumerari velit.</s>
 					<s n="10" xml:lang="la" type="auto">Adeoque invaluerit istius impietas, ut coacta synodo explodenda fuerit, ne ullus in fratrum animis scrupulus inhaereret.</s>
-					<s n="11" xml:lang="la" type="auto">Ut autem noveritis, quale sit istius de omnibus ecclesiis christianis iuditium, accipite hanc chartulam famosam ab eo conscriptam et clam inter nos excussam,<note xml:id="fna" type="footnote" n="a">Collatio doctrinae Arrii et Philippi Melanchtonis et sequacium, [Pińczów 1559] (Zürich StA, E II 371, 748-757). - Siehe auch dazu <abbr>Bèze, Corr.</abbr> III 87, Anm. 2.</note> quam cum promulgasset, partim concremata sunt exemplaria, partim etiam asservata, ut ad vos omnes mitterentur.</s>
+					<s n="11" xml:lang="la" type="auto">Ut autem noveritis, quale sit istius de omnibus ecclesiis christianis iuditium, accipite hanc chartulam famosam ab eo conscriptam et clam inter nos excussam,<note xml:id="fna" type="footnote" n="a">Collatio doctrinae Arrii et Philippi Melanchtonis et sequacium, [Pińczów 1559] (Zürich StA, E II 371, 748-757). - Siehe auch dazu <bibl>Bèze, Corr.</bibl> III 87, Anm. 2.</note> quam cum promulgasset, partim concremata sunt exemplaria, partim etiam asservata, ut ad vos omnes mitterentur.</s>
 					<s n="12" xml:lang="la" type="auto">Quamquam vero satis malo huic occursum videri potest, tamen virus tam impii dogmatis adhuc quorundam haeret medullis adeo, ut non incruentam victoriam ecclesia reportarit.</s>
 					<s n="13" xml:lang="la" type="auto">Quam ob rem foelicem et oppurtunam operam collocabitis cum huic ecclesiae tum orbi toto, si edito libello causam mediatoris ex professo explicabitis.</s>
 					<s n="14" xml:lang="la" type="auto">Interea, (sicut iam vos deprecatus sum,) quoniam pr[a]esentia vestra nondum ob locorum intervalla nos iuvare potestis, precibus tamen et consilio adeste, quibus plurimum momenti inesse confidimus.</s>

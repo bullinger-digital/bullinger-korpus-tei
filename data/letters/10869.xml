@@ -6,40 +6,31 @@
 				<title subtype="file">[Bartholomäus Bertlin] / [Waltenhofen] AN Heinrich Bullinger, 25. Mai 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=830</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">302</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356,9</idno>
 					</msIdentifier>
 					<msContents>
@@ -54,23 +45,30 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 830, S.302</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10869">
 				<correspAction type="sent">
-					<persName ref="person330" cert="low">
+					<persName ref="p330" cert="low">
 						<!--
 						<surname cert="low">Bertlin</surname>
 						<forename cert="low">Bartholomäus</forename>
 						-->
 					</persName>
-					<placeName source="place531" cert="low"><orig>Waltenhofen</orig></placeName>
+					<placeName source="l531" cert="low"><orig>Waltenhofen</orig></placeName>
 					<date when="1536-05-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,11 +115,11 @@
 					<s n="1" xml:lang="la" type="auto">Salve, doctissime Bullingere.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Militum turba tum et equitum<note xml:id="fn1" type="footnote" n="1">Zur Anwerbung von Soldaten im Zusammenhang mit den Spannungen um Mailand vgl. oben <ref target="file10858">Nr. 819</ref>, 1-8, und unten <ref target="file10870">Nr. 831</ref>f. Zum Aufbruch von Truppen aus dem <placeName ref="place3">Allgäu</placeName> unter Hauptmann <persName ref="person895">Kaspar von Frundsberg</persName> vgl. Nikolaus Ellenbog, Briefwechsel, hg. v. Andreas Bigelmair und Friedrich Zoepfl, Münster in Westfalen 1938. -Corpus Catholicorum 19/21, S. 374, 30-32.</note> hominum piorum scilicet, ita obrutus et districtus, ut vix respirare liceat, tantum abest ut tibi, que velim et cupiam, scribere queam.</s>
+					<s n="2" xml:lang="la" type="auto">Militum turba tum et equitum<note xml:id="fn1" type="footnote" n="1">Zur Anwerbung von Soldaten im Zusammenhang mit den Spannungen um Mailand vgl. oben <ref target="file10858">Nr. 819</ref>, 1-8, und unten <ref target="file10870">Nr. 831</ref>f. Zum Aufbruch von Truppen aus dem <placeName>Allgäu</placeName> unter Hauptmann <persName>Kaspar von Frundsberg</persName> vgl. Nikolaus Ellenbog, Briefwechsel, hg. v. Andreas Bigelmair und Friedrich Zoepfl, Münster in Westfalen 1938. -Corpus Catholicorum 19/21, S. 374, 30-32.</note> hominum piorum scilicet, ita obrutus et districtus, ut vix respirare liceat, tantum abest ut tibi, que velim et cupiam, scribere queam.</s>
 					<s n="3" xml:lang="la" type="auto">Tu itaque hoc meum salvere et silere boni consule, vir integritate et eruditione excellentissime.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Que tua ex officina prodierunt interim, cura ut cum hoc Petro<note xml:id="fn2" type="footnote" n="2">Ein Peter [...] ist bereits im Brief vom 14. Nov. 1535 als Bote genannt (vgl. HBBW V <ref target="file10715">[Nr. 677]</ref>, S. 425, 13).</note> nunc cognito tibi accipiam ac aliorum tuorum symmistarum.</s>
+					<s n="4" xml:lang="la" type="auto">Que tua ex officina prodierunt interim, cura ut cum hoc Petro<note xml:id="fn2" type="footnote" n="2">Ein Peter [...] ist bereits im Brief vom 14. Nov. 1535 als Bote genannt (vgl. <bibl>HBBW V</bibl> <ref target="file10715">[Nr. 677]</ref>, S. 425, 13).</note> nunc cognito tibi accipiam ac aliorum tuorum symmistarum.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Vale, et Christus in te pergat peragere, quod cepit in suam laudem et gloriam et suę ecclesię profectum et ornamentum.</s>
@@ -132,7 +130,7 @@
 					<s n="8" xml:lang="la" type="auto">Ipsa<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> ipsa <hi>gestrichenes</hi> isp.</note> ascensionis die anno etc. 36.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Barptolomaeus<note xml:id="fnb" type="footnote" n="b"><hi>nach</hi> Barptolomaeus <hi>von späterer Hand</hi> <persName ref="person10">Bertlin</persName>.</note>, tuus discipulus.</s>
+					<s n="9" xml:lang="la" type="auto">Barptolomaeus<note xml:id="fnb" type="footnote" n="b"><hi>nach</hi> Barptolomaeus <hi>von späterer Hand</hi> <persName ref="p17793">Bertlin</persName>.</note>, tuus discipulus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

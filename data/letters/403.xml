@@ -6,32 +6,31 @@
 				<title subtype="file">Johannes Haller d.J. / Bern AN Heinrich Bullinger / Zürich, 14. Januar 1549</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">1296</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2845 und 2847</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>C.O. XIII, S. 154f, Nr. 1122</title>
+								<title>C.O. XIII, S.154f, Nr. 1122</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Zitat">
 								<title>Bähler, Dekan J. Haller, in: NBT 28 (1923), 34, 37 und NBT 29 (1924) 34 f.</title>
@@ -57,14 +56,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 69,26</idno>
 					</msIdentifier>
 				</msDesc>
@@ -73,7 +72,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/403">
 				<correspAction type="sent">
-					<persName ref="person8018" cert="high">
+					<persName ref="p8018" cert="high">
 						<!--
 						<surname cert="high">Haller d.J.</surname>
 						<forename cert="high">Johannes</forename>
@@ -83,11 +82,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1549-01-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -97,7 +96,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file404"/>
@@ -124,7 +123,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -201,7 +200,7 @@
 					<s n="43" xml:lang="de" type="auto">Nun wil ich amm karren han, so lang ich mag.</s>
 					<s n="44" xml:lang="de" type="auto">Es brocket sich ein spil in über die Lausanner, das ich sorg, inen werd ein spröde abfertigung.</s>
 					<s n="45" xml:lang="de" type="auto">Si könnend zuͦ beiden syten nüt denn calumnieren, umb ein jeden habdanck vor rath einanderen zuͦ verleiden.</s>
-					<s n="46" xml:lang="de" type="auto">Nimpt sich eir ir an, so kumpt er mitt inen ins spyl und wirt nimmer grecht; nimpt sich eir ir nüt an, insimulant et traducunt nos neglecti officii.</s>
+					<s n="46" xml:lang="de" type="auto">Nimpt sich eir ir an, so kumpt er mitt inen ins spyl und wirt nimmer grecht; nimpt sich eir ir nüt an, <foreign xml:lang="la">insimulant et traducunt nos neglecti officii.</foreign></s>
 					<s n="47" xml:lang="de" type="auto">Ich bin irs wäsens gar voll und muͤd.</s>
 				</p>
 				<p>

@@ -6,47 +6,43 @@
 				<title subtype="file">Johannes Comander / Chur AN Heinrich Bullinger, 27. April 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2014</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17760-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2434</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVI</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">16</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Januar bis Mai 1546</biblScope>
-				<biblScope unit="page">381</biblScope>
-				<biblScope unit="pages">443</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,328</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person43">Comander</persName> fasst sich kurz, da der verdienstvolle Bote
-								[<persName ref="person21">Johannes Blasius</persName>] alles selbst erzählen kann. Doch bat dieser um eine
+								<persName ref="p654">Comander</persName> fasst sich kurz, da der verdienstvolle Bote
+								[<persName ref="p396">Johannes Blasius</persName>] alles selbst erzählen kann. Doch bat dieser um eine
 								Empfehlung für sich und seinen Sohn [Paulus], auch wenn es ziemlich seltsam ist, dass ein Unbekannter wie
-								<persName ref="person43">Comander</persName> einen bekannteren Menschen empfiehlt.
+								<persName ref="p654">Comander</persName> einen bekannteren Menschen empfiehlt.
 								</p>
 								<p xml:id="regest2">
-								- [<persName ref="person21">Blasius</persName>] bringt seinen einzigen Sohn, der begabt und integer ist, zum Studium nach Zürich und bittet
+								- [<persName ref="p396">Blasius</persName>] bringt seinen einzigen Sohn, der begabt und integer ist, zum Studium nach Zürich und bittet
 								Bullinger, für diesen eine Unterkunft bei einem frommen und gelehrten Mann zu finden. Bullingers Vermittlung
 								wird nicht deshalb gewünscht, um die Kosten geringer halten zu können, sondern weil es wichtig ist, dass
 								[Paulus] in einer Pension unterkommt, die für sein Studium förderlich ist und ihn nicht in schlechte
@@ -60,7 +56,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Druck">
-								<title>Graubünden BW I, S. 95f, Nr. 70</title>
+								<title>Graubünden BW I, S.95f, Nr. 70</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12481">
 				<correspAction type="sent">
-					<persName ref="person654" cert="high">
+					<persName ref="p654" cert="high">
 						<!--
 						<surname cert="high">Comander</surname>
 						<forename cert="high">Johannes</forename>
@@ -79,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413826"/>
 						-->
 					</persName>
-					<placeName source="place98" cert="high"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1546-04-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -117,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -136,16 +132,16 @@
 					<s n="2" xml:lang="la" type="auto">Tabellarium nactus adeo ydoneum paucissimis tecum agere placuit, quod denique superfluum videbatur, cum ipse coram viva voce com[m]inus melius cuncta enarrare posset.</s>
 					<s n="3" xml:lang="la" type="auto">Pro ipso tamen et puero commendatitias darem literas, rogat.</s>
 					<s n="4" xml:lang="la" type="auto">Quid? num ignotus notiorem commendare poterit?</s>
-					<s n="5" xml:lang="la" type="auto">At puero<note xml:id="fn1" type="footnote" n="1">Paulus <persName ref="person21">Blasius</persName>.</note> si quid meis literis prodesse potero, libens faciam.</s>
+					<s n="5" xml:lang="la" type="auto">At puero<note xml:id="fn1" type="footnote" n="1"><persName ref="p4253">Paulus Blasius</persName>.</note> si quid meis literis prodesse potero, libens faciam.</s>
 					<s n="6" xml:lang="la" type="auto">Filium suum unice charum studii gratia ad vos ducit cupiens illum tua ope alicui pio ac docto viro in convictum dare pro annuo pretio, non quod parsurus sit sumptui, saltem ut, quod studium et morum integritatem attinet, bene provisus sit.</s>
 					<s n="7" xml:lang="la" type="auto">Puer bonae indolis est, integer, placidus et studiosus, dignus plane, cui diligenti cura provideatur, ut in coepta institutione pergat et ne aliqua corruptorum hominum contagione vitietur.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Vale, vir humanissime.</s>
-					<s n="9" xml:lang="la" type="auto">Ex Rhetiae <placeName ref="place243">Curia</placeName>, quinto kalendas maias 46.</s>
+					<s n="9" xml:lang="la" type="auto">Ex Rhetiae <placeName>Curia</placeName>, quinto kalendas maias 46.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Tuus totus <persName ref="person43">Ioannes Comander</persName>.</s>
+					<s n="10" xml:lang="la" type="auto">Tuus totus <persName ref="p654">Ioannes Comander</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -6,63 +6,60 @@
 				<title subtype="file">Martin Bucer / [Strassburg] AN Heinrich Bullinger, 30. November 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=290</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">236</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,424</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Hofft, die Einigkeit der Reformierten bleibe bestehen, gegen die Satan nichts ausrichtet. Zweifelt nicht,
-								daß Gott den Bernern beistehen wird. Hofft das Beste für Leo
-								<persName ref="person114">Jud</persName>, der Anfechtungen ausgesetzt ist. Nachrichten über die
-								Verhältnisse in <placeName ref="place276">Dinkelsbühl</placeName> und
-								<placeName ref="place744">Münster</placeName>.
+								daß Gott den Bernern beistehen wird. Hofft das Beste für <persName ref="p1753">Leo Jud</persName>, der Anfechtungen ausgesetzt ist. Nachrichten über die
+								Verhältnisse in <placeName>Dinkelsbühl</placeName> und
+								<placeName>Münster</placeName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 290, S.236</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10321">
 				<correspAction type="sent">
-					<persName ref="person467" cert="high">
+					<persName ref="p467" cert="high">
 						<!--
 						<surname cert="high">Bucer</surname>
 						<forename cert="high">Martin</forename>
@@ -72,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11483585"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="low"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="low"><orig>Strassburg</orig></placeName>
 					<date when="1533-11-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,32 +123,32 @@
 					<s n="1" xml:lang="la" type="auto">Salve in domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Iterum videmus, quam nolit dominus extra ordinaria via suum negocium provehi<note xml:id="fn2" type="footnote" n="2"><persName ref="person28">Bucers</persName> Anspielung gilt dem mißlungenen Versuch, Ende Oktober 1533 in <placeName ref="place83">Solothurn</placeName> dem reformierten Glauben mit Gewalt zum Durchbruch zu verhelfen; vgl. den Brief <persName ref="person28">Bucers</persName> an <persName ref="person19">Ambrosius Blarer</persName> vom 30. November 1533 (Blarer BW I 444), wo diese Ereignisse mit ähnlichen Worten kommentiert werden.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Iterum videmus, quam nolit dominus extra ordinaria via suum negocium provehi<note xml:id="fn2" type="footnote" n="2"><persName ref="p18198">Bucers</persName> Anspielung gilt dem mißlungenen Versuch, Ende Oktober 1533 in <placeName>Solothurn</placeName> dem reformierten Glauben mit Gewalt zum Durchbruch zu verhelfen; vgl. den Brief <persName ref="p18198">Bucers</persName> an <persName>Ambrosius Blarer</persName> vom 30. November 1533 (<bibl>Blarer BW</bibl> I 444), wo diese Ereignisse mit ähnlichen Worten kommentiert werden.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Sed utinam dominus illum a vestris satanam depellat, qui persuadet a societate sanctorum, quibus in domino volunt iuncti esse, tantopere abhorrere.</s>
 					<s n="4" xml:lang="la" type="auto">Videt se coniunctos non posse frangere.</s>
 					<s n="5" xml:lang="la" type="auto">Laborat igitur, ut disiungat.</s>
-					<s n="6" xml:lang="la" type="auto">O senatum vestrum, quam non videtur sui similis<note xml:id="fn3" type="footnote" n="3"><persName ref="person28">Bucer</persName> äußert dies wohl im Hinblick auf Zürichs Zurückhaltung bei der Unterstützung <placeName ref="place121">Berns</placeName> im Zusammenhang mit den <placeName ref="place83">Solothurner</placeName> Unruhen; dazu s. oben <ref target="file10314">[Nr. 283]</ref> S. 225, 32-35 und Anm. 25.</note>.</s>
-					<s n="7" xml:lang="la" type="auto">Sed etiam si omnes <placeName ref="place121">Bernates</placeName> deserant, ita video illis dominum dedisse vel unum consulem<note xml:id="fn4" type="footnote" n="4"><persName ref="person233">Hans Jakob von Wattenwyl</persName>.</note>, verum Davidem, verum Iecheziam<note xml:id="fn5" type="footnote" n="5">Einen Jechezias bzw. Jecheziah gibt es nicht. Jecheziel oder Jahasiel war einer der Helden in Davids Heer (s. 1Chr 12, 4). Wahrscheinlich meint <persName ref="person28">Bucer</persName> jedoch Ezechias (Hiskia, vgl. 2Kön 18-20; 2Chr 29-32; Jes 36-39), der wiederholt als Herrscher mit positiven Eigenschaften aufgeführt wird (HBBW I 153, 16. II 182, 38 u. ö.); s. noch J. J. Simlers Kopie (Zürich ZB, Ms S 34, Nr 123), in welcher der Name als «Ezechiam» wiedergegeben ist.</note>, ut non dubitem illis dominum egregie adfuturum.</s>
+					<s n="6" xml:lang="la" type="auto">O senatum vestrum, quam non videtur sui similis<note xml:id="fn3" type="footnote" n="3"><persName ref="p18198">Bucer</persName> äußert dies wohl im Hinblick auf Zürichs Zurückhaltung bei der Unterstützung <placeName>Berns</placeName> im Zusammenhang mit den <placeName>Solothurner</placeName> Unruhen; dazu s. oben <ref target="file10314">[Nr. 283]</ref> S. 225, 32-35 und Anm. 25.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Sed etiam si omnes <placeName>Bernates</placeName> deserant, ita video illis dominum dedisse vel unum consulem<note xml:id="fn4" type="footnote" n="4"><persName ref="p18594">Hans Jakob von Wattenwyl</persName>.</note>, verum Davidem, verum Iecheziam<note xml:id="fn5" type="footnote" n="5">Einen Jechezias bzw. Jecheziah gibt es nicht. Jecheziel oder Jahasiel war einer der Helden in Davids Heer (s. 1Chr 12, 4). Wahrscheinlich meint <persName ref="p18198">Bucer</persName> jedoch Ezechias (Hiskia, vgl. 2Kön 18-20; 2Chr 29-32; Jes 36-39), der wiederholt als Herrscher mit positiven Eigenschaften aufgeführt wird (<bibl>HBBW I</bibl> 153, 16. II 182, 38 u. ö.); s. noch J. J. Simlers Kopie (Zürich ZB, Ms S 34, Nr 123), in welcher der Name als «Ezechiam» wiedergegeben ist.</note>, ut non dubitem illis dominum egregie adfuturum.</s>
 					<s n="8" xml:lang="la" type="auto">Oremus dominum, ut adsit omnibus!</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">De Leone optime spero.</s>
-					<s n="10" xml:lang="la" type="auto">Est nunc in tentatione<note xml:id="fn6" type="footnote" n="6"><persName ref="person28">Bucer</persName> spielt an auf den Einfluß <persName ref="person2122">Schwenckfelds</persName> auf <persName ref="person114">Leo Jud</persName>. Am 30. November schrieb <persName ref="person28">Bucer</persName> auch an Jud (Original von der Hand <persName ref="person2231">Simon Steiners</persName> mit autographer Unterschrift <persName ref="person28">Bucers</persName> in Zürich StA, E II 347, 39-42; Teildruck: QGT VIII 215-217), um ihn <persName ref="person2122">von Schwenckfelds</persName> Gedanken v. a. betreffend das Verhältnis zwischen Obrigkeit und Kirche abzubringen; s. auch Juds diesbezüglichen Briefwechsel mit Bullinger, unten <ref target="file10331">Nr. 300</ref> und 301.</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Est nunc in tentatione<note xml:id="fn6" type="footnote" n="6"><persName ref="p18198">Bucer</persName> spielt an auf den Einfluß <persName>Schwenckfelds</persName> auf <persName ref="p2305">Leo Jud</persName>. Am 30. November schrieb <persName ref="p18198">Bucer</persName> auch an Jud (Original von der Hand <persName>Simon Steiners</persName> mit autographer Unterschrift <persName ref="p18198">Bucers</persName> in Zürich StA, E II 347, 39-42; Teildruck: <bibl>QGT</bibl> VIII 215-217), um ihn <persName>von Schwenckfelds</persName> Gedanken v. a. betreffend das Verhältnis zwischen Obrigkeit und Kirche abzubringen; s. auch Juds diesbezüglichen Briefwechsel mit Bullinger, unten <ref target="file10331">Nr. 300</ref> und 301.</note>.</s>
 					<s n="11" xml:lang="la" type="auto">Recipiet se.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Dinckelspuhel accesit [!] evangelio tota, etsi lutherano<note xml:id="fn7" type="footnote" n="7">Der Rat der Reichsstadt <placeName ref="place276">Dinkelsbühl</placeName> hatte am 18. September 1533 beschlossen, einen evangelischen Pfarrer zu berufen. Die Wahl, der am 1. November vom Rat zugestimmt wurde, fiel auf den Lutheraner <persName ref="person2559">Bernhard Wurzelmann</persName>. Dieser zog etwa am 19. Dezember in <placeName ref="place276">Dinkelsbühl</placeName> ein; s. Christian <hi>Bürckstümmer,</hi> Geschichte der Reformation und Gegenreformation in der ehemaligen freien Reichsstadt <placeName ref="place276">Dinkelsbühl</placeName> (1524-1648), I. Teil, Leipzig 1914. - SVRG 115/116, S. 69-72.</note>.</s>
-					<s n="14" xml:lang="la" type="auto">Monasterium tumultuatur misere<note xml:id="fn8" type="footnote" n="8">Im Laufe des Sommers 1533 war in <placeName ref="place744">Münster i. W.</placeName> der Einfluß der Täufer und ihres Wortführers <persName ref="person1960">Bernhard Rothmann</persName> immer stärker geworden. Dagegen versuchten die Lutheraner, v. a. Johann van der <persName ref="person2560">Wyck</persName> (von der Wieck), anzukämpfen. Ein am 7. und 8. August abgehaltenes Religionsgespräch führte nicht zur Einigung. Auch die darauffolgenden Bemühungen des Rates, die täuferisch gesinnten Prädikanten aus Münster auszuweisen, mißlangen. Auf Bitten van der <persName ref="person2560">Wycks</persName> sandte Philipp von Hessen Anfang November zwei Prediger nach Münster mit dem Auftrag, eine evangelische Kirchenordnung aufzurichten. Diese wurde Ende November vom Rat in Kraft gesetzt. Viel stärker beachtet wurde jedoch das zur selben Zeit veröffentlichte «Bekenntnis von beiden Sakramenten», die ganz im täuferischen Geiste abgefaßte Rechtfertigungsschrift Rothmanns. In <placeName ref="place1049">Straßburg</placeName> war man durch van der <persName ref="person2560">Wyck</persName>, der mit Jakob Sturm befreundet war, über die Vorgänge gut unterrichtet; s. Ludwig <hi>Keller,</hi> Geschichte der Wiedertäufer und ihres Reichs zu Münster, <placeName ref="place744">Münster i. W.</placeName> 1880, S. 117-121; Die Schriften <persName ref="person1960">Bernhard Rothmanns</persName>, bearb. v. Robert Stupperich, <placeName ref="place744">Münster i. W.</placeName> 1970. - Veröffentlichungen der historischen Kommission Westfalens XXXII, S. XVf; BucerDS V 111f.</note>.</s>
-					<s n="15" xml:lang="la" type="auto">Cui consulimus magno labore<note xml:id="fn9" type="footnote" n="9">Nach dem Religionsgespräch vom 7. und 8. August hatte van der <persName ref="person2560">Wyck</persName> Jakob Sturm um Unterstützung im Kampf gegen die Täufer gebeten. Sturm trug die Bitte am 11. November dem <placeName ref="place1049">Straßburger</placeName> Rat vor. <persName ref="person28">Bucer</persName> arbeitete während des ganzen Monats an einem Sendschreiben an <persName ref="person1960">Rothmann</persName>, das im Dezember unter dem Titel «Quid de baptismate infantium ... sentiendum» (Bibliographia Bucerana, Nr. 42) gedruckt wurde. Gleichzeitig mit dem Sendschreiben begann <persName ref="person28">Bucer</persName> offenbar auch mit der Planung und Niederschrift der den Münsterern gewidmeten Schrift «Bericht auss der Heyligen Geschrift» (s. BucerDS V 111-115).</note>.</s>
+					<s n="13" xml:lang="la" type="auto">Dinckelspuhel accesit [!] evangelio tota, etsi lutherano<note xml:id="fn7" type="footnote" n="7">Der Rat der Reichsstadt <placeName>Dinkelsbühl</placeName> hatte am 18. September 1533 beschlossen, einen evangelischen Pfarrer zu berufen. Die Wahl, der am 1. November vom Rat zugestimmt wurde, fiel auf den Lutheraner <persName>Bernhard Wurzelmann</persName>. Dieser zog etwa am 19. Dezember in <placeName>Dinkelsbühl</placeName> ein; s. Christian <hi>Bürckstümmer,</hi> Geschichte der Reformation und Gegenreformation in der ehemaligen freien Reichsstadt <placeName>Dinkelsbühl</placeName> (1524-1648), I. Teil, Leipzig 1914. - <bibl>SVRG</bibl> 115/116, S. 69-72.</note>.</s>
+					<s n="14" xml:lang="la" type="auto">Monasterium tumultuatur misere<note xml:id="fn8" type="footnote" n="8">Im Laufe des Sommers 1533 war in <placeName>Münster i. W.</placeName> der Einfluß der Täufer und ihres Wortführers <persName>Bernhard Rothmann</persName> immer stärker geworden. Dagegen versuchten die Lutheraner, v. a. <persName>Johann van der Wyck (von der Wieck)</persName>, anzukämpfen. Ein am 7. und 8. August abgehaltenes Religionsgespräch führte nicht zur Einigung. Auch die darauffolgenden Bemühungen des Rates, die täuferisch gesinnten Prädikanten aus Münster auszuweisen, mißlangen. Auf Bitten <persName>van der Wycks</persName> sandte Philipp von Hessen Anfang November zwei Prediger nach Münster mit dem Auftrag, eine evangelische Kirchenordnung aufzurichten. Diese wurde Ende November vom Rat in Kraft gesetzt. Viel stärker beachtet wurde jedoch das zur selben Zeit veröffentlichte «Bekenntnis von beiden Sakramenten», die ganz im täuferischen Geiste abgefaßte Rechtfertigungsschrift Rothmanns. In <placeName>Straßburg</placeName> war man durch <persName>van der Wyck</persName>, der mit Jakob Sturm befreundet war, über die Vorgänge gut unterrichtet; s. Ludwig <hi>Keller,</hi> Geschichte der Wiedertäufer und ihres Reichs zu Münster, <placeName>Münster i. W.</placeName> 1880, S. 117-121; Die Schriften <persName>Bernhard Rothmanns</persName>, bearb. v. Robert Stupperich, <placeName>Münster i. W.</placeName> 1970. - Veröffentlichungen der historischen Kommission Westfalens XXXII, S. XVf; <bibl>BucerDS</bibl> V 111f.</note>.</s>
+					<s n="15" xml:lang="la" type="auto">Cui consulimus magno labore<note xml:id="fn9" type="footnote" n="9">Nach dem Religionsgespräch vom 7. und 8. August hatte <persName>van der Wyck</persName> Jakob Sturm um Unterstützung im Kampf gegen die Täufer gebeten. Sturm trug die Bitte am 11. November dem <placeName>Straßburger</placeName> Rat vor. <persName ref="p18198">Bucer</persName> arbeitete während des ganzen Monats an einem Sendschreiben an <persName>Rothmann</persName>, das im Dezember unter dem Titel «Quid de baptismate infantium ... sentiendum» (Bibliographia Bucerana, Nr. 42) gedruckt wurde. Gleichzeitig mit dem Sendschreiben begann <persName ref="p18198">Bucer</persName> offenbar auch mit der Planung und Niederschrift der den Münsterern gewidmeten Schrift «Bericht auss der Heyligen Geschrift» (s. <bibl>BucerDS</bibl> V 111-115).</note>.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto"><pb type="edition" next="237"/>Saluta optimum Pelicanum, cui alias rescribam.</s>
 					<s n="17" xml:lang="la" type="auto">Nunc vere non licet.</s>
 					<s n="18" xml:lang="la" type="auto">De caesaris adventu nihil.</s>
-					<s n="19" xml:lang="la" type="auto">Quid papa cum Franco<note xml:id="fn10" type="footnote" n="10">Gemeint sind die Verhandlungen und Abmachungen zwischen <persName ref="person635">Clemens VII.</persName> und <persName ref="person859">Franz I.</persName> während des Papst-Besuches in <placeName ref="place677">Marseille</placeName> vom 11. Oktober bis zum 12. November 1533 aus Anlaß der Hochzeit von <persName ref="person1618">Katharina von Medici</persName> und Herzog <persName ref="person1143">Heinrich</persName> von Orléans (s. oben <ref target="file10319">[Nr. 288]</ref> S. 234, Anm. 43).</note>, nondum erupit.</s>
+					<s n="19" xml:lang="la" type="auto">Quid papa cum Franco<note xml:id="fn10" type="footnote" n="10">Gemeint sind die Verhandlungen und Abmachungen zwischen <persName>Clemens VII.</persName> und <persName>Franz I.</persName> während des Papst-Besuches in <placeName>Marseille</placeName> vom 11. Oktober bis zum 12. November 1533 aus Anlaß der Hochzeit von <persName>Katharina von Medici</persName> und <persName>Herzog Heinrich von Orléans</persName> (s. oben <ref target="file10319">[Nr. 288]</ref> S. 234, Anm. 43).</note>, nondum erupit.</s>
 					<s n="20" xml:lang="la" type="auto">Christus nobis rex est.</s>
 					<s n="21" xml:lang="la" type="auto">In eo aeternum vincemus.</s>
 				</p>

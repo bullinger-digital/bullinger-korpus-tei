@@ -6,40 +6,31 @@
 				<title subtype="file">Leonhard Hospinian / Stammheim AN Heinrich Bullinger, 2. August 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=872</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">379</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2749</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,21 +38,27 @@
 							<p xml:id="regest1">
 								Obschon sich Bullinger seiner Sache ohne Zweifel sehr gewissenhaft angenommen hat, befürchtet er einen
 								Mißerfolg und bittet deshalb um Auskunft; wird sich nach einer anderen Aufgabe umsehen müssen, da seine Lage
-								unerträglich ist. Gute Wünsche; Grüße an [Hans]
-								<persName ref="person228">Vogler</persName>.
+								unerträglich ist. Gute Wünsche; Grüße an <persName ref="p8071">[Hans] Vogler</persName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 872, S.379</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10912">
 				<correspAction type="sent">
-					<persName ref="person1417" cert="high">
+					<persName ref="p1417" cert="high">
 						<!--
 						<surname cert="high">Hospinian</surname>
 						<forename cert="high">Leonhard</forename>
@@ -69,11 +66,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/121204618"/>
 						-->
 					</persName>
-					<placeName source="place486" cert="high"><orig>Stammheim</orig></placeName>
+					<placeName source="l486" cert="high"><orig>Stammheim</orig></placeName>
 					<date when="1536-08-02" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -104,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -116,29 +113,29 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Non dubito, clarissime Bullingere ac patrone singularis, quin pro perspecta mihi tua in me benevolentia negocium meum<note xml:id="fn1" type="footnote" n="1">Über die Angelegenheit wie auch über die Lage <persName ref="person108">Hospinians</persName> in jener Zeit ist weiter nichts bekannt. Im Mai des Vorjahres hatte er in <placeName ref="place1032">Stein am Rhein</placeName> das Schulmeisteramt für ein Jahr übernommen: vgl. Stadtarchiv Stein a. Rh., Su 17 (<persName ref="person108">Hospinian</persName> an Stein a. Rh., 15. 4. 1535) und Bü 73, 84r. (Freundliche Mitteilung von Herrn Lic. phil. Peter Scheck, Stein a. Rh.)</note>, quod tibi pluribus, cum isthic essem, proxime exposui, diligentius eciam egeris, quam unquam abs te petere fuissem ausus.</s>
+					<s n="2" xml:lang="la" type="auto">Non dubito, clarissime Bullingere ac patrone singularis, quin pro perspecta mihi tua in me benevolentia negocium meum<note xml:id="fn1" type="footnote" n="1">Über die Angelegenheit wie auch über die Lage <persName>Hospinians</persName> in jener Zeit ist weiter nichts bekannt. Im Mai des Vorjahres hatte er in <placeName>Stein am Rhein</placeName> das Schulmeisteramt für ein Jahr übernommen: vgl. Stadtarchiv Stein a. Rh., Su 17 (<persName>Hospinian</persName> an Stein a. Rh., 15. 4. 1535) und Bü 73, 84r. (Freundliche Mitteilung von Herrn Lic. phil. Peter Scheck, Stein a. Rh.)</note>, quod tibi pluribus, cum isthic essem, proxime exposui, diligentius eciam egeris, quam unquam abs te petere fuissem ausus.</s>
 					<s n="3" xml:lang="la" type="auto">Verum quia nihil adeo de hoc isthinc nobis significatur, misere metuo rem secus, atque expectabamus, evenisse.</s>
 					<s n="4" xml:lang="la" type="auto">Quare te maiorem in modum rogo ac plus eciam, quam a me vis, ne graveris ad me tribus saltem verbis perscribere, quemadmodum res haec ceciderit quoque ea sit loco; nam mea ut sciam, maxime interest.</s>
 					<s n="5" xml:lang="la" type="auto">Necesse enim habuero (siquidem non successerit, quod moliebamur) hinc abrumpere me spesque alias circumspicere.</s>
 					<s n="6" xml:lang="la" type="auto">Qui enim tot laboribus sufficere possim diutius?</s>
 					<s n="7" xml:lang="la" type="auto">Leonardus sum isque valde valetudinarius, <foreign xml:lang="el">οὐχ Ἡρακλῆς</foreign>.</s>
 					<s n="8" xml:lang="la" type="auto">Dabo profecto operam, ne penes ingratum ista tua beneficia collocasse videaris.</s>
-					<s n="9" xml:lang="la" type="auto">Cetera narrabit tibi frater meus<note xml:id="fn2" type="footnote" n="2">Von den Brüdern <persName ref="person108">Hospinians</persName> - Jakob, Adrian, Joachim und <persName ref="person2521">Fridolin Wirth</persName> (vgl. Alfred <hi>Farner,</hi> Altes und Neues. ein Beitrag zur <placeName ref="place1025">Stammheimer</placeName> Reformationsgeschichte, Andelfingen 1899, S. 23-25) - läßt sich keiner mit Bestimmtheit als Überbringer des Briefes ausmachen.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Cetera narrabit tibi frater meus<note xml:id="fn2" type="footnote" n="2">Von den Brüdern <persName>Hospinians</persName> - Jakob, Adrian, Joachim und <persName>Fridolin Wirth</persName> (vgl. Alfred <hi>Farner,</hi> Altes und Neues. ein Beitrag zur <placeName>Stammheimer</placeName> Reformationsgeschichte, Andelfingen 1899, S. 23-25) - läßt sich keiner mit Bestimmtheit als Überbringer des Briefes ausmachen.</note>.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">His igitur bene vale, vir optime, teque eum mihi praestare pergas, quaeso, qui fuisti semper.</s>
-					<s n="11" xml:lang="la" type="auto">Amanum <persName ref="person228">Voglerum</persName><note xml:id="fn3" type="footnote" n="3">Zum Verhältnis zwischen <persName ref="person108">Hospinian</persName> und <persName ref="person228">Vogler</persName> vgl. HBBW II <ref target="file10088">[Nr. 59]</ref>, S. 38, 13-15 mit Anm. 21.</note>, syncerissimi pectoris virum deque me ampliter promeritum, meis verbis, si fors tibi occurrat, plurimum salvere iubeas, oro.</s>
-					<s n="12" xml:lang="la" type="auto">Rursum vale ac <persName ref="person108">Hospiniano</persName> tuo pro animi tui arbitrio utere.</s>
+					<s n="11" xml:lang="la" type="auto">Amanum <persName ref="p8071">Voglerum</persName><note xml:id="fn3" type="footnote" n="3">Zum Verhältnis zwischen <persName>Hospinian</persName> und <persName>Vogler</persName> vgl. <bibl>HBBW</bibl> II <ref target="file10088">[Nr. 59]</ref>, S. 38, 13-15 mit Anm. 21.</note>, syncerissimi pectoris virum deque me ampliter promeritum, meis verbis, si fors tibi occurrat, plurimum salvere iubeas, oro.</s>
+					<s n="12" xml:lang="la" type="auto">Rursum vale ac <persName ref="p7073">Hospiniano</persName> tuo pro animi tui arbitrio utere.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Tumultuarie ex Stammia Tigurinorum, postridie calendas augusti anno 1536.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">L. <persName ref="person108">Hospinianus</persName> toto pectore tuus.</s>
+					<s n="14" xml:lang="la" type="auto">L. <persName ref="p7073">Hospinianus</persName> toto pectore tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="15" xml:lang="la" type="auto">Clarissimo viro Henrycho Bullingero, omnis pietatis ac doctrinae Mecoenati<note xml:id="fn4" type="footnote" n="4">Mäzen (vgl. Pauly/Wissowa XIV/1 207-229).</note> unico, domino suo cum primis observando.</s>
+					<s n="15" xml:lang="la" type="auto">Clarissimo viro Henrycho Bullingero, omnis pietatis ac doctrinae Mecoenati<note xml:id="fn4" type="footnote" n="4">Mäzen (vgl. <bibl>Pauly/Wissowa</bibl> XIV/1 207-229).</note> unico, domino suo cum primis observando.</s>
 					<s n="16" xml:lang="la" type="auto">Tiguri.</s>
 					<s n="17" xml:lang="de" type="auto">Zürich.</s>
 				</p>

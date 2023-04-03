@@ -4,36 +4,30 @@
 import os, requests
 from lxml import etree
 
-
-PATH_DTD = "tei.dtd"
 PATH_LETTERS = "data/letters/"
 PATH_INDEX = "data/index/"
 URL_DTD = 'https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng'
 
 
-class Validation:
+print("validating files...")
+schema = requests.get('https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng').text
+relaxng_doc = etree.fromstring(bytes(schema, encoding='utf-8'))
+tei_relax_rng = etree.RelaxNG(relaxng_doc)
 
-    @staticmethod
-    def validate():
-        schema = requests.get(URL_DTD).text
-        tei_relax_rng = etree.RelaxNG(etree.fromstring(bytes(schema, encoding='utf-8')))
-        if not Validation.validate_files(tei_relax_rng, [PATH_LETTERS, PATH_INDEX]): print("FAILED.")
-        else: print("PASSED.")
+def validateTei(relax_rng, path_corpus):
+    is_valid = True
+    for f in sorted(os.listdir(path_corpus)):
+        if f != ".DS_Store":
+            mytree = etree.parse(open(os.path.join(path_corpus, f)))
+            try:
+                relax_rng.assert_(mytree)
+            except AssertionError as err:
+                is_valid = False
+                print('TEI validation error:', f, err)
+    return is_valid
 
-    @staticmethod
-    def validate_files(relax_rng, dirs):
-        is_valid = False
-        for d in dirs:
-            for f in sorted(os.listdir(d)):
-                if f != ".DS_Store":
-                    try: relax_rng.assert_(etree.parse(open(os.path.join(d, f))))
-                    except AssertionError as err:
-                        is_valid = False
-                        print('TEI validation error:', f, err)
-        return is_valid
+if not validateTei(tei_relax_rng, PATH_LETTERS): print("Letter-Validation FAILED.")
+else: print("Letters valid.")
+if not validateTei(tei_relax_rng, PATH_INDEX): print("Index-Validation FAILED.")
+else: print("Index valid.")
 
-
-if __name__ == '__main__':
-
-    print("Validating files...")
-    Validation.validate()

@@ -6,52 +6,43 @@
 				<title subtype="file">[Rudolf Weingartner] / Zug AN Heinrich Bullinger, 10. September 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1042</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">236</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2015</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Hat lange nicht geschrieben, weil er stets hoffte,
-								<persName ref="person2069">Hans Schmid</persName> als sicheren Boten
+								<persName ref="p8009">Hans Schmid</persName> als sicheren Boten
 								benutzen zu können. Schickt seine Supplikation sowie die Kopie mit der Bitte, seine Sache zu fördern. Wie
-								bereits mit Bullinger und auch mit <persName ref="person165">Pellikan</persName> besprochen, wollte er sich
+								bereits mit Bullinger und auch mit <persName ref="p8127">Pellikan</persName> besprochen, wollte er sich
 								[für die Predigt] einen Evangelisten vornehmen und hat sich nun für Lukas entschieden; wird [die Predigten]
 								- wenn Bullinger der Wahl zustimmt - in der Advents- oder Fastenzeit halten. Schickt die gewünschten
-								Predigten, die er am Kirchweihfest in <placeName ref="place79">Schwyz</placeName> gehalten hat, und
+								Predigten, die er am Kirchweihfest in <placeName>Schwyz</placeName> gehalten hat, und
 								bittet, Mängel zu berichtigen und ihn zu belehren. Grüße.
 							</p>
 						</summary>
@@ -62,7 +53,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Willy Brändly, Bartholomäus Stocker von Zug, in: Zwa IX/3, 1950, S. 175</title>
+								<title>Willy Brändly, Bartholomäus Stocker von Zug, in: Zwa IX/3, 1950, S.175</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 1042, S.236</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -72,18 +66,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11084">
 				<correspAction type="sent">
-					<persName ref="person3873" cert="low">
+					<persName ref="p3873" cert="low">
 						<!--
 						<surname cert="low">Weingartner</surname>
 						<forename cert="low">Rudolf</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1239914407"/>
 						-->
 					</persName>
-					<placeName source="place584" cert="high"><orig>Zug</orig></placeName>
+					<placeName source="l584" cert="high"><orig>Zug</orig></placeName>
 					<date when="1537-09-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,9 +108,13 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="11084/Autograph/00__E_II_335__fol__2015_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="11084/Autograph/01__E_II_335__fol__2015_v_.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="de">
 		<body>
 			<div xml:id="div1" corresp="regest1">
@@ -125,7 +123,7 @@
 					<s n="2" xml:lang="de" type="auto">Lieber, günstiger herr und bruͦder.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Das ich min schriben an üch so lang verzogen hab, ist kein andere ursach, dän daß ich alwegen<note xml:id="fn3" type="footnote" n="3">immer.</note> verhoffett hab, Hans <persName ref="person2069">Schmid</persName><note xml:id="fn4" type="footnote" n="4">Von zwei Zürcher Kirchenmännern dieses Namens ist wohl nicht der in <placeName ref="place294">Dällikon</placeName> tätige Pfarrer (s. HBBW IV <ref target="file10398">[Nr. 366]</ref>, S. 148, Anm. 4), sondern der Helfer am Großmünster gemeint. - <persName ref="person2069">Hans Schmid</persName>, von Zürich, gest. 1549, vorerst Helfer am Fraumünster, erhielt 1522 eine Chorherrenpfrund am Großmünster. Als Diakon hatte er vor allem seelsorgerliche Aufgaben, betreute aber auch die Stiftsfilialen <placeName ref="place963">Schwamendingen</placeName> (1526-1532) und <placeName ref="place21">Albisrieden</placeName> (ab 1527). Im Jahre 1542 trat er zurück und zog aus der "Leutpriesterei" in sein 1535 erworbenes, aus ehemaligem Stiftsbesitz stammendes Haus "Zum großen Paradies". - Lit.: Willy <hi>Wuhrmann,</hi> Zwei Namensvettern als Zwinglis Helfer am Grossmünster, in: Zwa III/5, 1915, S. 148-153, bes. S. 151f; <hi>Meyer,</hi> Zürich und Rom, <ref target="file10732">Nr. 694</ref>; Wyss 27, Anm. 1; Pfarrerbuch 507.</note> wurde hinüber komen,<pb type="edition" next="237"/> das ich mine brief durch ein gwüssen<note xml:id="fn5" type="footnote" n="5">sicheren.</note> botten üch überantwurten möcht; das aber nüt beschechen etc.</s>
+					<s n="3" xml:lang="de" type="auto">Das ich min schriben an üch so lang verzogen hab, ist kein andere ursach, dän daß ich alwegen<note xml:id="fn3" type="footnote" n="3">immer.</note> verhoffett hab, <persName>Hans Schmid</persName><note xml:id="fn4" type="footnote" n="4">Von zwei Zürcher Kirchenmännern dieses Namens ist wohl nicht der in <placeName>Dällikon</placeName> tätige Pfarrer (s. <bibl>HBBW IV</bibl> <ref target="file10398">[Nr. 366]</ref>, S. 148, Anm. 4), sondern der Helfer am Großmünster gemeint. - <persName>Hans Schmid</persName>, von Zürich, gest. 1549, vorerst Helfer am Fraumünster, erhielt 1522 eine Chorherrenpfrund am Großmünster. Als Diakon hatte er vor allem seelsorgerliche Aufgaben, betreute aber auch die Stiftsfilialen <placeName>Schwamendingen</placeName> (1526-1532) und <placeName>Albisrieden</placeName> (ab 1527). Im Jahre 1542 trat er zurück und zog aus der "Leutpriesterei" in sein 1535 erworbenes, aus ehemaligem Stiftsbesitz stammendes Haus "Zum großen Paradies". - Lit.: Willy <hi>Wuhrmann,</hi> Zwei Namensvettern als Zwinglis Helfer am Grossmünster, in: <bibl>Zwa</bibl> III/5, 1915, S. 148-153, bes. S. 151f; <hi>Meyer,</hi> Zürich und Rom, <ref target="file10732">Nr. 694</ref>; Wyss 27, Anm. 1; Pfarrerbuch 507.</note> wurde hinüber komen,<pb type="edition" next="237"/> das ich mine brief durch ein gwüssen<note xml:id="fn5" type="footnote" n="5">sicheren.</note> botten üch überantwurten möcht; das aber nüt beschechen etc.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="de" type="auto">Uff sömlichs so schiken ich üch min sublicacion an mine herren mit sampt der copy<note xml:id="fn6" type="footnote" n="6">Die Dokumente sind nicht erhalten.</note>, wie ir zuͦletst mit mir abgerett hand.</s>
@@ -134,14 +132,14 @@
 				</p>
 				<p>
 					<s n="7" xml:lang="de" type="auto">Witer, lieber herr und bruͦder, so ist üch wol ze wüssen, wie daß ich mit üch gerett hab, wie das ich in willen sye, ein evangelisten für mich ze nemmen<note xml:id="fn10" type="footnote" n="10">mir [für die Predigt] vorzunehmen.</note>.</s>
-					<s n="8" xml:lang="de" type="auto">Ich hab es mitt <persName ref="person165">Pellicano</persName> ouch gerett.</s>
+					<s n="8" xml:lang="de" type="auto">Ich hab es mitt <persName ref="p8127">Pellicano</persName> ouch gerett.</s>
 					<s n="9" xml:lang="de" type="auto">So ichs nun gegen einanderen deren besich<note xml:id="fn11" type="footnote" n="11">ich sie miteinander vergleiche.</note>, ist mir keiner anmuͤtiger<note xml:id="fn12" type="footnote" n="12">keiner, der mir mehr zusagen würde.</note> dann der Lucas, aber uff üwer verbesserung, und bin also deß willens und fürnemens<note xml:id="fn13" type="footnote" n="13">habe die Absicht.</note>, dem selbigen (mitt gottes hilf und gnad) statt zuͦ thuͦn.</s>
 					<s n="10" xml:lang="de" type="auto">Beschicht es nüt uff den nechsten advent, so sol<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> sols.</note> es doch uff die zuͦkünftigen vasten<note xml:id="fn14" type="footnote" n="14">ab 6. März 1538.</note> beschechen.</s>
 					<s n="11" xml:lang="de" type="auto">Bitten üch hierin um rath und hilf, darmit die ding dester fuͦgklicher<note xml:id="fn15" type="footnote" n="15">richtiger, besser.</note> möchtind volfuͤrt und erstattet<note xml:id="fn16" type="footnote" n="16">durchgeführt.</note> werden; dann ich entlich<note xml:id="fn17" type="footnote" n="17">gänzlich.</note> deß fürnemens bin und gott lassen walten.</s>
 					<s n="12" xml:lang="de" type="auto">Will üch aber ein anders besser bedunken, land michs wüssen, so wil ich von minem fürnemen abstan und üwer guͦtdunken annemmen.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="de" type="auto">Witer so schiken ich üch hiemitt die sermon<note xml:id="fn18" type="footnote" n="18">Nicht erhalten.</note>, so ich als ein unkünnender zuͦ Schwitz uff der kilchwihung<note xml:id="fn19" type="footnote" n="19">Das Kirchweihfest in <placeName ref="place79">Schwyz</placeName> fand jeweils am Sonntag nach dem Ulrichstag, im Jahre 1537 also am 8. Juli, statt (vgl. Norbert <hi>Flueler,</hi> Die Feier der Kirchenfeste im 16. Jahrhundert in der Pfarrkirche zu St. Martin in <placeName ref="place79">Schwyz</placeName>, in: Mitteilungen des Historischen Vereins des Kantons <placeName ref="place79">Schwyz</placeName> 30, 1921, S. 28).</note> gethan hab, wie ir begeret hand.</s>
+					<s n="13" xml:lang="de" type="auto">Witer so schiken ich üch hiemitt die sermon<note xml:id="fn18" type="footnote" n="18">Nicht erhalten.</note>, so ich als ein unkünnender zuͦ Schwitz uff der kilchwihung<note xml:id="fn19" type="footnote" n="19">Das Kirchweihfest in <placeName>Schwyz</placeName> fand jeweils am Sonntag nach dem Ulrichstag, im Jahre 1537 also am 8. Juli, statt (vgl. Norbert <hi>Flueler,</hi> Die Feier der Kirchenfeste im 16. Jahrhundert in der Pfarrkirche zu St. Martin in <placeName>Schwyz</placeName>, in: Mitteilungen des Historischen Vereins des Kantons <placeName>Schwyz</placeName> 30, 1921, S. 28).</note> gethan hab, wie ir begeret hand.</s>
 					<s n="14" xml:lang="de" type="auto">Bitten üch, ir wellends im besten uffnemen und nüt alein<note xml:id="fnb" type="footnote" n="b">nüt alein <hi>am</hi> Rande <hi>nachgetragen.</hi></note> den buͦchstaben ansechen, sünder das hertz und den guͦten willen.</s>
 					<s n="15" xml:lang="de" type="auto">Und ob<note xml:id="fn20" type="footnote" n="20">wenn.</note> etwas ungeschiks<note xml:id="fn21" type="footnote" n="21">Unpassendes, Falsches.</note> darin were, das nüt ad formam diente, ist min bitt, ir wellints corigieren, uff daß ich harnachmals dester baß lernete, ein bessere form zuͦ stellen.</s>
 					<s n="16" xml:lang="de" type="auto">Dann alle ding uff das aller einfaltist minentthalb besehen ist<note xml:id="fn22" type="footnote" n="22">Ich habe es so gut gemacht, wie ich konnte.</note>.</s>
@@ -151,14 +149,14 @@
 				<p>
 					<s n="19" xml:lang="de" type="auto"><pb type="edition" next="238"/>Sind alwegen min vatter, und was üch gegen mir anmuͤtig ist<note xml:id="fn23" type="footnote" n="23">und wie ihr gegen mich gesinnt seid.</note>, zeigends mir gschriftlich an, so wil ich mich alzit üwer halten.</s>
 					<s n="20" xml:lang="de" type="auto">Hiemit sind gott befolen.</s>
-					<s n="21" xml:lang="de" type="auto">Grützend mir mine günstigen herren und gebruͤder, Pellicanum, <persName ref="person114">Leonem</persName><note xml:id="fn24" type="footnote" n="24"><persName ref="person114">Leo Jud</persName>.</note> und insunders Meister W[erner] S[teiner].</s>
+					<s n="21" xml:lang="de" type="auto">Grützend mir mine günstigen herren und gebruͤder, Pellicanum, <persName ref="p1753">Leonem</persName><note xml:id="fn24" type="footnote" n="24"><persName ref="p2305">Leo Jud</persName>.</note> und insunders Meister W[erner] S[teiner].</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="de" type="auto">Datum <placeName ref="place1238">Zug</placeName>, 10. septembris 1537.</s>
+					<s n="22" xml:lang="de" type="auto">Datum <placeName>Zug</placeName>, 10. septembris 1537.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="23" xml:lang="de" type="auto">An den wol[gelerten]<note xml:id="fnc" type="footnote" n="c"><hi>Textverlust, da der Brief unten beschnitten wurde. Zu den Ergänzungen vgl. die Adressierung des Briefes vom Dezember 1532 (HBBW II, S. 276, 41-43). Evtl. Siegelspur weggeschnitten.</hi></note> M[eister] Illeinrich B[ullinger], dien[er der]<note xml:id="fnd" type="footnote" n="d"><hi>Textverlust, da der Brief unten beschnitten wurde. Zu den Ergänzungen vgl. die Adressierung des Briefes vom Dezember 1532 (HBBW II, S. 276, 41-43). Evtl. Siegelspur weggeschnitten.</hi></note> kilchen Zürich, [sinen günstigen]<note xml:id="fne" type="footnote" n="e"><hi>Textverlust, da der Brief unten beschnitten wurde. Zu den Ergänzungen vgl. die Adressierung des Briefes vom Dezember 1532 (HBBW II, S. 276, 41-43). Evtl. Siegelspur weggeschnitten.</hi></note> und geliebten.</s>
+					<s n="23" xml:lang="de" type="auto">An den wol[gelerten]<note xml:id="fnc" type="footnote" n="c"><hi>Textverlust, da der Brief unten beschnitten wurde. Zu den Ergänzungen vgl. die Adressierung des Briefes vom Dezember 1532 (<bibl>HBBW</bibl> II, S. 276, 41-43). Evtl. Siegelspur weggeschnitten.</hi></note> M[eister] Illeinrich B[ullinger], dien[er der]<note xml:id="fnd" type="footnote" n="d"><hi>Textverlust, da der Brief unten beschnitten wurde. Zu den Ergänzungen vgl. die Adressierung des Briefes vom Dezember 1532 (<bibl>HBBW</bibl> II, S. 276, 41-43). Evtl. Siegelspur weggeschnitten.</hi></note> kilchen Zürich, [sinen günstigen]<note xml:id="fne" type="footnote" n="e"><hi>Textverlust, da der Brief unten beschnitten wurde. Zu den Ergänzungen vgl. die Adressierung des Briefes vom Dezember 1532 (<bibl>HBBW</bibl> II, S. 276, 41-43). Evtl. Siegelspur weggeschnitten.</hi></note> und geliebten.</s>
 				</p>
 			</div>
 		</body>

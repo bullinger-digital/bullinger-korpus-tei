@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Johann Konrad Ulmer / Schaffhausen, 8. August 1567</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7038/88</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph__(Entwurf)">E II 371,1203</idno>
 						<idno subtype="Hinweis">Beginn Seitenmitte</idno>
 					</msIdentifier>
@@ -45,14 +44,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive63">
+						<repository ref="a63">
 							<name>München BStB</name>
 							<ref target="https://www.bsb-muenchen.de/"/>
 						</repository>
-						<settlement ref="place336">München</settlement>
+						<settlement ref="l336">München</settlement>
 						<institution>Bayerische Staatsbibliothek</institution>
 						-->
-						<repository ref="archive63"/>
+						<repository ref="a63"/>
 						<idno subtype="Kopie">Clm. 11470 a, fo 89-90</idno>
 						<idno subtype="Mikrofilm">Schaffhausen StB</idno>
 					</msIdentifier>
@@ -62,7 +61,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7185">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -72,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1567-08-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3243" cert="high">
+					<persName ref="p3243" cert="high">
 						<!--
 						<surname cert="high">Ulmer</surname>
 						<forename cert="high">Johann Konrad</forename>
@@ -87,7 +86,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417219"/>
 						-->
 					</persName>
-					<placeName source="place441" cert="high"><orig>Schaffhausen</orig></placeName>
+					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file7186"/>
@@ -113,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

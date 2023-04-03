@@ -6,55 +6,46 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 20. Dezember 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=304</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">263</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,123</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Eine Basler Gesandtschaft besuchte <placeName ref="place121">Bern</placeName> und verhandelte unter
-								anderem wegen der Wiederherstellung der Einigkeit zwischen <placeName ref="place121">Bern</placeName>
-								und Zürich. <placeName ref="place121">Bern</placeName> ist bereit, den ersten Schritt zu tun und eine
+								Eine Basler Gesandtschaft besuchte <placeName>Bern</placeName> und verhandelte unter
+								anderem wegen der Wiederherstellung der Einigkeit zwischen <placeName>Bern</placeName>
+								und Zürich. <placeName>Bern</placeName> ist bereit, den ersten Schritt zu tun und eine
 								Abordnung nach Zürich zu senden. Darüber will der Basler Bürgermeister
-								[<persName ref="person148">Jakob Meyer</persName>] in Zürich mit
+								[<persName ref="p18678">Jakob Meyer</persName>] in Zürich mit
 								reformierten Vertrauensmännern geheim verhandeln, obwohl sich die V
 								Orte darüber sicherlich empört zeigen werden. Bullinger soll die
 								Angelegenheit vorbereiten: einerseits die Betroffenen in aller Stille benachrichtigen, andererseits von der
 								Kanzel das christliche Gebot von Vergebung und Versöhnung verkünden. Gruß von
-								<persName ref="person11">Markus Bertschi</persName>.
+								<persName ref="p8054">Markus Bertschi</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -69,6 +60,9 @@
 							<bibl type="Gedruckt" subtype="Teilübersetzung">
 								<title>Max Niehans, Die Bullinger-Briefsammlung, in: Zwa VIII 157f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 304, S.263</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -77,7 +71,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10335">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -88,11 +82,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1533-12-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -128,7 +122,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -140,11 +134,11 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Fuerunt, ut nuper ad te perscripsi<note xml:id="fn1" type="footnote" n="1">Siehe oben S. 248, 21.</note>, legati nostri<note xml:id="fn2" type="footnote" n="2">Zur Delegation, die am 12. Dezember 1533 in <placeName ref="place121">Bern</placeName> gewesen war, s. oben <ref target="file10326">[Nr. 295]</ref> S. 248, Anm. 18.</note> <placeName ref="place121">Bernae</placeName>.</s>
-					<s n="3" xml:lang="la" type="auto">Praeter caetera diligenter egerunt, quae spectant ad communem concordiam<note xml:id="fn3" type="footnote" n="3">Die Einigkeit im reformierten Lager, um die sich gerade <persName ref="person154">Myconius</persName> tatkräftig bemühte, s. <hi>Rudolf,</hi> Aussöhnungsversuch.</note>.</s>
-					<s n="4" xml:lang="la" type="auto">Huc impulit, quod viderunt discordiam nostram et quod nescio quo singulari vitio alter de altero non nisi pessima loquitur et credit Pagorum<note xml:id="fn4" type="footnote" n="4"><placeName ref="place51">der V Orte</placeName>.</note> robur esse tyrannidem in bonos omnes subinde fovens et augens.</s>
-					<s n="5" xml:lang="la" type="auto">Invenerunt autem hoc apud <placeName ref="place121">Bernenses</placeName>, ut moti sint et ad vos proficisci, si quid pro commodo verbi dei et omnium nostrum queant conficere.</s>
-					<s n="6" xml:lang="la" type="auto">Veniet igitur Tigurum consulum alter<note xml:id="fn5" type="footnote" n="5">Der andere, der «alte», d. h. nicht regierende, Basler Bürgermeister war zu jenem Zeitpunkt <persName ref="person148">Jakob Meyer</persName> (s. ABaslerRef VI passim). - Zur Basler Gesandtschaft in Zürich s. unten <ref target="file10341">Nr. 310</ref>.</note>, pater ille piorum, sabbato vel dominica proxima post nativitatem Christi<note xml:id="fn6" type="footnote" n="6">Am 27. oder 28. Dezember 1533.</note> et ea de re pro virili tractabit.</s>
+					<s n="2" xml:lang="la" type="auto">Fuerunt, ut nuper ad te perscripsi<note xml:id="fn1" type="footnote" n="1">Siehe oben S. 248, 21.</note>, legati nostri<note xml:id="fn2" type="footnote" n="2">Zur Delegation, die am 12. Dezember 1533 in <placeName>Bern</placeName> gewesen war, s. oben <ref target="file10326">[Nr. 295]</ref> S. 248, Anm. 18.</note> <placeName>Bernae</placeName>.</s>
+					<s n="3" xml:lang="la" type="auto">Praeter caetera diligenter egerunt, quae spectant ad communem concordiam<note xml:id="fn3" type="footnote" n="3">Die Einigkeit im reformierten Lager, um die sich gerade <persName>Myconius</persName> tatkräftig bemühte, s. <hi>Rudolf,</hi> Aussöhnungsversuch.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Huc impulit, quod viderunt discordiam nostram et quod nescio quo singulari vitio alter de altero non nisi pessima loquitur et credit Pagorum<note xml:id="fn4" type="footnote" n="4"><placeName>der V Orte</placeName>.</note> robur esse tyrannidem in bonos omnes subinde fovens et augens.</s>
+					<s n="5" xml:lang="la" type="auto">Invenerunt autem hoc apud <placeName>Bernenses</placeName>, ut moti sint et ad vos proficisci, si quid pro commodo verbi dei et omnium nostrum queant conficere.</s>
+					<s n="6" xml:lang="la" type="auto">Veniet igitur Tigurum consulum alter<note xml:id="fn5" type="footnote" n="5">Der andere, der «alte», d. h. nicht regierende, Basler Bürgermeister war zu jenem Zeitpunkt <persName>Jakob Meyer</persName> (s. <bibl>ABaslerRef</bibl> VI passim). - Zur Basler Gesandtschaft in Zürich s. unten <ref target="file10341">Nr. 310</ref>.</note>, pater ille piorum, sabbato vel dominica proxima post nativitatem Christi<note xml:id="fn6" type="footnote" n="6">Am 27. oder 28. Dezember 1533.</note> et ea de re pro virili tractabit.</s>
 					<s n="7" xml:lang="la" type="auto">Utinam res cedat in laudem dei et profectum evangelii.</s>
 					<s n="8" xml:lang="la" type="auto">Causa iam, cur hunc nuncium<note xml:id="fn7" type="footnote" n="7">Unbekannt.</note> ad te mittam, haec est: Quia pro ordinatione dei fere omnes, qui huic nostro familiares et amici fuerunt, occisi sunt, nescit, quos primum adeat, cum quibus agat, quibus fidere possit et rem ita ordiri, ut finem optatum consequatur.</s>
 					<s n="9" xml:lang="la" type="auto">Tales ergo tuum erit ita parare, ut postquam advenerit, sint, quos indices ut bonos, probatos et taciturnos viros, usquedum tempus erit omnia<pb type="edition" next="264"/> palam agere.</s>
@@ -154,19 +148,19 @@
 					<s n="13" xml:lang="la" type="auto">Publice tamen in concionibus - nam alterum hoc oneris iam impono - sermonem fac instituas, qui exhortetur ad condonationem, quamvis graviter quis in alium peccaverit, ad spem bonam, etiamsi saepe falsus fueris.</s>
 					<s n="14" xml:lang="la" type="auto">Nam hoc eorum esse, qui titulum ferunt Christi et evangelii eius.</s>
 					<s n="15" xml:lang="la" type="auto">Verum hoc posterius tu pro tua prudentia institues, prout conducere et, ut res clam maneat, videbitur.</s>
-					<s n="16" xml:lang="la" type="auto">Fac igitur, mi Bullingere, sic omnia prosequaris, ut noster hic adveniens<note xml:id="fn8" type="footnote" n="8"><persName ref="person148">Jakob Meyer</persName>.</note> tuam diligentiam sentiat, omnes vero nos simul gaudere possimus, dum ex ea proveniat, quod speramus.</s>
+					<s n="16" xml:lang="la" type="auto">Fac igitur, mi Bullingere, sic omnia prosequaris, ut noster hic adveniens<note xml:id="fn8" type="footnote" n="8"><persName>Jakob Meyer</persName>.</note> tuam diligentiam sentiat, omnes vero nos simul gaudere possimus, dum ex ea proveniat, quod speramus.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Vale semper.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 20. decembris anno 1533.</s>
+					<s n="18" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 20. decembris anno 1533.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="19" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Dominus <persName ref="person11">Marcus</persName> Bersius<note xml:id="fn9" type="footnote" n="9"><persName ref="person11">Markus Bertschi</persName>.</note> noster rogavit diligenter, ut nomine ipsius salutem tibi adscribam.</s>
+					<s n="20" xml:lang="la" type="auto">Dominus <persName ref="p8054">Marcus</persName> Bersius<note xml:id="fn9" type="footnote" n="9"><persName>Markus Bertschi</persName>.</note> noster rogavit diligenter, ut nomine ipsius salutem tibi adscribam.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

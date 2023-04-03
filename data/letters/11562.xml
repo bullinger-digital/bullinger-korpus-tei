@@ -6,63 +6,60 @@
 				<title subtype="file">Simon Grynäus / [Basel] AN Heinrich Bullinger, 14. Mai [1541]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1519</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">188</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,181</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Schickt Bücher, die [Hans]
-								<persName ref="person228">Vogler</persName> [d. J.] zurückließ, und fragt sich, wer sich um dessen
-								restliche Habe kümmern wird; hat wegen <persName ref="person228">Voglers</persName> Schulden an dessen
+								Schickt Bücher, die <persName ref="p8071">[Hans] Vogler [d.J.]</persName> zurückließ, und fragt sich, wer sich um dessen
+								restliche Habe kümmern wird; hat wegen <persName ref="p8071">Voglers</persName> Schulden an dessen
 								Vater [Hans d. Ä.] geschrieben. Erkundigt sich nach dem Reichstag [in
-								<placeName ref="place880">Regensburg</placeName>].
+								<placeName>Regensburg</placeName>].
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1519, S.188</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11562">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -72,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1541-05-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,21 +120,21 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Reliquit hic <persName ref="person228">Voglerus</persName> librum unum et alterum; eos hic cum isto<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> mitto.</s>
+					<s n="2" xml:lang="la" type="auto">Reliquit hic <persName ref="p8071">Voglerus</persName> librum unum et alterum; eos hic cum isto<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> mitto.</s>
 					<s n="3" xml:lang="la" type="auto">Vas, in quo est omnis eius suppellex, nemo hactenus aufert; miror, qui fiat.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Sunt quaedam debita perexigua, quae patri nuper scripsi,<note xml:id="fn3" type="footnote" n="3">Der Brief an <persName ref="person228">Hans Vogler</persName> d. Ä. ist nicht erhalten.</note> et valde cupiam dissolvi.</s>
+					<s n="4" xml:lang="la" type="auto">Sunt quaedam debita perexigua, quae patri nuper scripsi,<note xml:id="fn3" type="footnote" n="3">Der Brief an <persName>Hans Vogler d.Ä.</persName> ist nicht erhalten.</note> et valde cupiam dissolvi.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Vale in domino cum omnibus tuis.</s>
 					<s n="6" xml:lang="la" type="auto">14. maii.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">S. <persName ref="person81">Grynęus</persName> tuus.</s>
+					<s n="7" xml:lang="la" type="auto">S. <persName ref="p1365">Grynęus</persName> tuus.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">A comitiis<note xml:id="fn4" type="footnote" n="4">Gemeint ist zweifellos der Reichstag zu <placeName ref="place880">Regensburg</placeName>.</note> si quid habes, imperti.</s>
+					<s n="8" xml:lang="la" type="auto">A comitiis<note xml:id="fn4" type="footnote" n="4">Gemeint ist zweifellos der Reichstag zu <placeName>Regensburg</placeName>.</note> si quid habes, imperti.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

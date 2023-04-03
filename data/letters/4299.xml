@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4299" type="Briefanfang" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4299" type="Brief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Briefanfang" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,3118-3121v</idno>
 						<idno subtype="Hinweis">Darauf von spätern Händen: scripta ca 1583/84, cf. Hospinian, Hist. Sacram. 266: 1590</idno>
 					</msIdentifier>
@@ -42,17 +39,17 @@
 						</msItem>
 					</msContents>
 				</msDesc>
-				<msDesc type="Briefanfang" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 97,72</idno>
 						<idno subtype="Hinweis">dat.: Mai/Juni 1560</idno>
 					</msIdentifier>
@@ -62,17 +59,17 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4299">
 				<correspAction type="sent">
-					<persName ref="person2800" cert="low">
+					<persName ref="p2800" cert="low">
 						<!--
 						<surname cert="low">Rust</surname>
 						<forename cert="low">Thüring</forename>
 						-->
 					</persName>
-					<placeName source="place210" cert="low"><orig>Heidelberg</orig></placeName>
+					<placeName source="l210" cert="low"><orig>Heidelberg</orig></placeName>
 					<date notBefore="1560-06-01" notAfter="1560-07-12" cert="low"><note>Datum unsicher  [1560 Juni/Juli ..]</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -82,7 +79,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file4331"/>
@@ -95,7 +92,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

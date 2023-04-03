@@ -6,51 +6,42 @@
 				<title subtype="file">(eidgenössische Gesandtenversammlung) / Konstanz AN s.n. / s.l., 9. November 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=911</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">465</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive5">
+						<repository ref="a5">
 							<name>Basel StA</name>
 							<ref target="https://www.staatsarchiv.bs.ch/"/>
 						</repository>
-						<settlement ref="place29">Basel-Stadt</settlement>
+						<settlement ref="l29">Basel-Stadt</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive5"/>
+						<repository ref="a5"/>
 						<idno subtype="Original">Kirchenakten A 9, 247</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Sind von ihren Gesandten über die Basler Tagung [vom 24./25. September] unterrichtet worden. Können der
-								<placeName ref="place1205">Wittenberger</placeName> Konkordie nicht zustimmen. Hätten es vorgezogen,
+								<placeName>Wittenberger</placeName> Konkordie nicht zustimmen. Hätten es vorgezogen,
 								wenn sich die oberdeutschen Städte mit einer gemeinsamen Gesandtschaft an
-								<persName ref="person138">Luther</persName> gewandt hätten, doch hat die Mehrheit von diesen bereits
+								<persName ref="p1974">Luther</persName> gewandt hätten, doch hat die Mehrheit von diesen bereits
 								Stellungnahmen abgeschickt, weshalb sie nun ihre Abendmahlslehre in einem eigenen Brief an
-								<persName ref="person138">Luther</persName> darlegen wollen.
+								<persName ref="p1974">Luther</persName> darlegen wollen.
 							</p>
 						</summary>
 						<msItem>
@@ -62,6 +53,9 @@
 							<bibl type="Gedruckt" subtype="Regest">
 								<title>EA IV/1c 786 (zu c)</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 911, S.465</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -70,12 +64,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10953">
 				<correspAction type="sent">
-					<roleName ref="role14" type="pl" role="Bürgermeister" cert="high"/>
-					<roleName ref="role59" type="pl" role="Räte" cert="high">
+					<roleName ref="g14" type="pl" role="Bürgermeister" cert="high"/>
+					<roleName ref="g59" type="pl" role="Räte" cert="high">
 						<orig>die in Basel versammelten eidgenössischen Gesandten</orig>
-							<orgName ref="org5" type="sg" role="eidgenössische Gesandtenversammlung" cert="high"/>
+							<orgName ref="i5" type="sg" role="eidgenössische Gesandtenversammlung" cert="high"/>
 					</roleName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1536-11-09" cert="low"/>
 				</correspAction>
 				<correspContext>
@@ -92,7 +86,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -102,22 +96,22 @@
 					<s n="1" xml:lang="de" type="auto">Unser früntliche dienst voran, fursichtigen, ersamen, wysen, bsunder lieben und guͦten frund.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Es habent unsere gsanten, die uff nächstgehaltnem tag by uch zuͦ <placeName ref="place97">Basel</placeName> gwesen sind<note xml:id="fn2" type="footnote" n="2">An der Basler Tagung vom 24./25. September wurde <placeName ref="place565">Konstanz</placeName> durch Johannes und <persName ref="person264">Konrad Zwick</persName> vertreten. <persName ref="person211">Stumpf</persName> nennt außerdem <persName ref="person1311">Johannes Jung</persName>, der aber bereits seit einiger Zeit in <placeName ref="place97">Basel</placeName> lebte (s. <persName ref="person211">Stumpf</persName>, Abendmahlsstreit 92; vgl. <hi>Moeller,</hi> <persName ref="person263">Zwick</persName> 187f).</note>, uns<note xml:id="fnb" type="footnote" n="b"><hi>E: uns</hi> über der Zeile nachgetragen.</note> furgebracht, was desselbigen tags gehandelt<note xml:id="fnc" type="footnote" n="c">desselbigen tags gehandelt <hi>in E korrigiert aus:</hi> desselbigen mais gehalt[en] / gehandelt worden.</note>.</s>
-					<s n="3" xml:lang="de" type="manual">Nun ist uns vorhar (als ir wissen mögent) glicher gstalt wie uch zuͦgemuͦtet worden, die artickel zuͦ <placeName ref="place1205">Wittenberg</placeName> gestelt zeunderschriben<note xml:id="fn3" type="footnote" n="3"><placeName ref="place1049">Straßburg</placeName> hatte <placeName ref="place565">Konstanz</placeName> bereits mehrfach zur Einwilligung in die <placeName ref="place1205">Wittenberger</placeName> Konkordie gedrängt; vgl. PC II 691.</note>, uff das die fürgenommen<pb type="edition" next="466"/> concordi<note xml:id="fnd" type="footnote" n="d"><hi>E: nach</hi> concordi <hi>gestrichenes</hi> zu <hi>fur[?].</hi></note> im fürgang<note xml:id="fn4" type="footnote" n="4">Fortgang (SI II 346).</note> haben möcht.</s>
-					<s n="4" xml:lang="de" type="auto">Das ist aber uns uß vilerlay ursachen beswarlich<note xml:id="fne" type="footnote" n="e"><hi>E: nach</hi> beswarlich <hi>gestrichenes</hi> gsin.</note>, und<note xml:id="fnf" type="footnote" n="f"><hi>E: nach</hi> und <hi>gestrichenes</hi> ouch.</note> vorab, diewil<note xml:id="fng" type="footnote" n="g"><hi>E: nach</hi> dwil <hi>gestrichenes</hi> w[ir?] / unser[?] begird dahin stat, das ain bestendige concordi ge.</note> die<note xml:id="fnh" type="footnote" n="h"><hi>E:</hi> dise; <hi>das anschließende</hi> gestelten <hi>über der Zeile nachgetragen.</hi></note> gestelten artickel gar disputierlich<note xml:id="fn5" type="footnote" n="5">strittig, anfechtbar (SI XIII 1975).</note> und unluter, ouch unsers erachtens<note xml:id="fni" type="footnote" n="i"><hi>E:</hi> unsers erachtens <hi>am Rande nachgetragen.</hi></note> nit<note xml:id="fnk" type="footnote" n="k">nit <hi>über der Zeile nachgetragen.</hi></note> dermaßen satt<note xml:id="fnl" type="footnote" n="l"><hi>E:</hi> satt <hi>am Rande nachgetragen.</hi></note><note xml:id="fn6" type="footnote" n="6">klar, vollkommen (SI VII 1425f).</note> sind, das ain bestendige concordi<note xml:id="fnm" type="footnote" n="m"><hi>E: nach</hi> concordi <hi>gestrichenes</hi> deren wir / die bestendig sin und pliben mag.</note> darüber uffgricht werden möge.</s>
-					<s n="5" xml:lang="de" type="auto">Und<note xml:id="fnn" type="footnote" n="n"><hi>am Rande anstelle der folgenden, mehrfach und zum Teil undeutlich korrigierten Fassungen nachgetragen:</hi> In welhes ansehung wir allwegen für gut geachtet hetten, das / Damit aber ain satte / Damit nun ain richtige, satte, bestendige verglichung bschehen mochte, so[?] haben / Wiewol nun wir.</note> wiewol wir zuͦ fürdrung amer bestendigen und richtigen verglichung gantz fruchtbar sin geachtet<note xml:id="fn7" type="footnote" n="7">es für fruchtbar hielten.</note>, das<note xml:id="fno" type="footnote" n="o"><hi>am Rande anstelle der folgenden, mehrfach und zum Teil undeutlich korrigierten Fassungen nachgetragen:</hi> In welhes ansehung wir allwegen für gut geachtet hetten, das / Damit aber ain satte / Damit nun ain richtige, satte, bestendige verglichung bschehen mochte, so[?] haben / Wiewol nun wir.</note> die erbern<note xml:id="fn8" type="footnote" n="8">ehrbaren.</note> stett samptlich ain bottschafft zu doctor <persName ref="person138">Luthern</persName> gschickt<note xml:id="fnp" type="footnote" n="p"><hi>E: vor</hi> gschickt <hi>über der Zeile nachgetragenes, gestrichenes</hi> solten; <hi>nach</hi> gschickt <hi>gestrichenes</hi> solten haben.</note>, die mundtlichen mit im gehandelt, ouch<note xml:id="fnq" type="footnote" n="q"><hi>E:</hi> ouch <hi>am Rande nachgetragen.</hi></note> unsers gloubens, lere<note xml:id="fnr" type="footnote" n="r"><hi>E: vor</hi> lere <hi>gestrichenes</hi> und; <hi>nach</hi> lere <hi>gestrichenes</hi> gotlicher[?].</note> und haltung by disem artickel deß sacraments deß libs und pluͦts Christi ine<note xml:id="fns" type="footnote" n="s"><hi>E:</hi> me <hi>über der Zeile nachgetragen; anem gestrichenes, unleserliches Wort.</hi></note> underrichtet und gebetten hettint, das er daran und an dem bericht, den<note xml:id="fnt" type="footnote" n="t"><hi>E: korrigiert aus:</hi> den im vorhin die prediger diser stett zu <placeName ref="place1205">Wittenberg</placeName> geben betten. <hi>In der Ausfertigung</hi> empfangen <hi>am Rande nachgetragen.</hi></note> er vorhin durch die prediger diser stett zuͦ <placeName ref="place1205">Wittenberg</placeName> empfangen<note xml:id="fnu" type="footnote" n="u"><hi>E: korrigiert aus:</hi> den im vorhin die prediger diser stett zu <placeName ref="place1205">Wittenberg</placeName> geben betten. <hi>In der Ausfertigung</hi> empfangen <hi>am Rande nachgetragen.</hi></note>, benügen<note xml:id="fn9" type="footnote" n="9">Genüge.</note> haben welte etc., so habent doch<note xml:id="fnv" type="footnote" n="v"><hi>E:</hi> so habent doch <hi>am Rande nachgetragen; ersetzt die folgenden, mehrfach korrigierten Fassungen:</hi> diewil sich aber zugetragen hat, das / es hatt sich aber zugetragen, das / so hatt doch sich zugetragen, das.</note> der mererthail diser oberlendischer stett ir antworten schon<note xml:id="fnw" type="footnote" n="w"><hi>E:</hi> schon <hi>über der Zeile nachgetragen; ebenso ein nachträglich gestrichenes</hi> jetzt.</note> gefürdert<note xml:id="fn10" type="footnote" n="10">befördert, abgeschickt (s. oben <ref target="file10950">Nr. 908</ref>, Anm. 5).</note>, derhalben<note xml:id="fnx" type="footnote" n="x"><hi>E: vor</hi> derhalben <hi>gestrichenes</hi> habent und.</note> dise unser mainung kainen fürgang haben mag<note xml:id="fn11" type="footnote" n="11">nicht weiter verfolgt werden kann.</note> sunder<note xml:id="fny" type="footnote" n="y"><hi>E: am Rande nachgetragen anstelle der folgenden, mehrfach korrigierten Fassungen:</hi> so werdent nach / so sind wir nachmals/ so sind wir ouch / in welhes ansehung.</note> wir ouch, verursacht und<note xml:id="fnz" type="footnote" n="z"><hi>E: am Rande nachgetragen anstelle der folgenden, mehrfach korrigierten Fassungen:</hi> so werdent nach / so sind wir nachmals/ so sind wir ouch / in welhes ansehung.</note> willens sind<note xml:id="fnaa" type="footnote" n="aa"><hi>E:</hi> sind <hi>über der Zeile nachgetragen.</hi></note> doctor <persName ref="person138">Luthern</persName> unser<note xml:id="fnab" type="footnote" n="ab"><hi>E:</hi> unser <hi>über der Zeile anstelle von gestrichenem</hi> ouch gen[?] <hi>nachgetragen.</hi></note> antwort zuzeschicken.</s>
+					<s n="2" xml:lang="de" type="auto">Es habent unsere gsanten, die uff nächstgehaltnem tag by uch zuͦ <placeName>Basel</placeName> gwesen sind<note xml:id="fn2" type="footnote" n="2">An der Basler Tagung vom 24./25. September wurde <placeName>Konstanz</placeName> durch Johannes und <persName>Konrad Zwick</persName> vertreten. <persName>Stumpf</persName> nennt außerdem <persName ref="p5980">Johannes Jung</persName>, der aber bereits seit einiger Zeit in <placeName>Basel</placeName> lebte (s. <persName>Stumpf</persName>, Abendmahlsstreit 92; vgl. <hi>Moeller,</hi> <persName>Zwick</persName> 187f).</note>, uns<note xml:id="fnb" type="footnote" n="b"><hi>E: uns</hi> über der Zeile nachgetragen.</note> furgebracht, was desselbigen tags gehandelt<note xml:id="fnc" type="footnote" n="c">desselbigen tags gehandelt <hi>in E korrigiert aus:</hi> desselbigen mais gehalt[en] / gehandelt worden.</note>.</s>
+					<s n="3" xml:lang="de" type="manual">Nun ist uns vorhar (als ir wissen mögent) glicher gstalt wie uch zuͦgemuͦtet worden, die artickel zuͦ <placeName>Wittenberg</placeName> gestelt zeunderschriben<note xml:id="fn3" type="footnote" n="3"><placeName>Straßburg</placeName> hatte <placeName>Konstanz</placeName> bereits mehrfach zur Einwilligung in die <placeName>Wittenberger</placeName> Konkordie gedrängt; vgl. <bibl>PC</bibl> II 691.</note>, uff das die fürgenommen<pb type="edition" next="466"/> concordi<note xml:id="fnd" type="footnote" n="d"><hi>E: nach</hi> concordi <hi>gestrichenes</hi> zu <hi>fur[?].</hi></note> im fürgang<note xml:id="fn4" type="footnote" n="4">Fortgang (<bibl>SI</bibl> II 346).</note> haben möcht.</s>
+					<s n="4" xml:lang="de" type="auto">Das ist aber uns uß vilerlay ursachen beswarlich<note xml:id="fne" type="footnote" n="e"><hi>E: nach</hi> beswarlich <hi>gestrichenes</hi> gsin.</note>, und<note xml:id="fnf" type="footnote" n="f"><hi>E: nach</hi> und <hi>gestrichenes</hi> ouch.</note> vorab, diewil<note xml:id="fng" type="footnote" n="g"><hi>E: nach</hi> dwil <hi>gestrichenes</hi> w[ir?] / unser[?] begird dahin stat, das ain bestendige concordi ge.</note> die<note xml:id="fnh" type="footnote" n="h"><hi>E:</hi> dise; <hi>das anschließende</hi> gestelten <hi>über der Zeile nachgetragen.</hi></note> gestelten artickel gar disputierlich<note xml:id="fn5" type="footnote" n="5">strittig, anfechtbar (<bibl>SI</bibl> XIII 1975).</note> und unluter, ouch unsers erachtens<note xml:id="fni" type="footnote" n="i"><hi>E:</hi> unsers erachtens <hi>am Rande nachgetragen.</hi></note> nit<note xml:id="fnk" type="footnote" n="k">nit <hi>über der Zeile nachgetragen.</hi></note> dermaßen satt<note xml:id="fnl" type="footnote" n="l"><hi>E:</hi> satt <hi>am Rande nachgetragen.</hi></note><note xml:id="fn6" type="footnote" n="6">klar, vollkommen (<bibl>SI</bibl> VII 1425f).</note> sind, das ain bestendige concordi<note xml:id="fnm" type="footnote" n="m"><hi>E: nach</hi> concordi <hi>gestrichenes</hi> deren wir / die bestendig sin und pliben mag.</note> darüber uffgricht werden möge.</s>
+					<s n="5" xml:lang="de" type="auto">Und<note xml:id="fnn" type="footnote" n="n"><hi>am Rande anstelle der folgenden, mehrfach und zum Teil undeutlich korrigierten Fassungen nachgetragen:</hi> In welhes ansehung wir allwegen für gut geachtet hetten, das / Damit aber ain satte / Damit nun ain richtige, satte, bestendige verglichung bschehen mochte, so[?] haben / Wiewol nun wir.</note> wiewol wir zuͦ fürdrung amer bestendigen und richtigen verglichung gantz fruchtbar sin geachtet<note xml:id="fn7" type="footnote" n="7">es für fruchtbar hielten.</note>, das<note xml:id="fno" type="footnote" n="o"><hi>am Rande anstelle der folgenden, mehrfach und zum Teil undeutlich korrigierten Fassungen nachgetragen:</hi> In welhes ansehung wir allwegen für gut geachtet hetten, das / Damit aber ain satte / Damit nun ain richtige, satte, bestendige verglichung bschehen mochte, so[?] haben / Wiewol nun wir.</note> die erbern<note xml:id="fn8" type="footnote" n="8">ehrbaren.</note> stett samptlich ain bottschafft zu doctor <persName ref="p1974">Luthern</persName> gschickt<note xml:id="fnp" type="footnote" n="p"><hi>E: vor</hi> gschickt <hi>über der Zeile nachgetragenes, gestrichenes</hi> solten; <hi>nach</hi> gschickt <hi>gestrichenes</hi> solten haben.</note>, die mundtlichen mit im gehandelt, ouch<note xml:id="fnq" type="footnote" n="q"><hi>E:</hi> ouch <hi>am Rande nachgetragen.</hi></note> unsers gloubens, lere<note xml:id="fnr" type="footnote" n="r"><hi>E: vor</hi> lere <hi>gestrichenes</hi> und; <hi>nach</hi> lere <hi>gestrichenes</hi> gotlicher[?].</note> und haltung by disem artickel deß sacraments deß libs und pluͦts Christi ine<note xml:id="fns" type="footnote" n="s"><hi>E:</hi> me <hi>über der Zeile nachgetragen; anem gestrichenes, unleserliches Wort.</hi></note> underrichtet und gebetten hettint, das er daran und an dem bericht, den<note xml:id="fnt" type="footnote" n="t"><hi>E: korrigiert aus:</hi> den im vorhin die prediger diser stett zu <placeName>Wittenberg</placeName> geben betten. <hi>In der Ausfertigung</hi> empfangen <hi>am Rande nachgetragen.</hi></note> er vorhin durch die prediger diser stett zuͦ <placeName>Wittenberg</placeName> empfangen<note xml:id="fnu" type="footnote" n="u"><hi>E: korrigiert aus:</hi> den im vorhin die prediger diser stett zu <placeName>Wittenberg</placeName> geben betten. <hi>In der Ausfertigung</hi> empfangen <hi>am Rande nachgetragen.</hi></note>, benügen<note xml:id="fn9" type="footnote" n="9">Genüge.</note> haben welte etc., so habent doch<note xml:id="fnv" type="footnote" n="v"><hi>E:</hi> so habent doch <hi>am Rande nachgetragen; ersetzt die folgenden, mehrfach korrigierten Fassungen:</hi> diewil sich aber zugetragen hat, das / es hatt sich aber zugetragen, das / so hatt doch sich zugetragen, das.</note> der mererthail diser oberlendischer stett ir antworten schon<note xml:id="fnw" type="footnote" n="w"><hi>E:</hi> schon <hi>über der Zeile nachgetragen; ebenso ein nachträglich gestrichenes</hi> jetzt.</note> gefürdert<note xml:id="fn10" type="footnote" n="10">befördert, abgeschickt (s. oben <ref target="file10950">Nr. 908</ref>, Anm. 5).</note>, derhalben<note xml:id="fnx" type="footnote" n="x"><hi>E: vor</hi> derhalben <hi>gestrichenes</hi> habent und.</note> dise unser mainung kainen fürgang haben mag<note xml:id="fn11" type="footnote" n="11">nicht weiter verfolgt werden kann.</note> sunder<note xml:id="fny" type="footnote" n="y"><hi>E: am Rande nachgetragen anstelle der folgenden, mehrfach korrigierten Fassungen:</hi> so werdent nach / so sind wir nachmals/ so sind wir ouch / in welhes ansehung.</note> wir ouch, verursacht und<note xml:id="fnz" type="footnote" n="z"><hi>E: am Rande nachgetragen anstelle der folgenden, mehrfach korrigierten Fassungen:</hi> so werdent nach / so sind wir nachmals/ so sind wir ouch / in welhes ansehung.</note> willens sind<note xml:id="fnaa" type="footnote" n="aa"><hi>E:</hi> sind <hi>über der Zeile nachgetragen.</hi></note> doctor <persName ref="p1974">Luthern</persName> unser<note xml:id="fnab" type="footnote" n="ab"><hi>E:</hi> unser <hi>über der Zeile anstelle von gestrichenem</hi> ouch gen[?] <hi>nachgetragen.</hi></note> antwort zuzeschicken.</s>
 					<s n="6" xml:lang="de" type="manual">Diewil uns aber entlegen ist<note xml:id="fn12" type="footnote" n="12">fern liegt.</note> uff die gestelten<note xml:id="fnac" type="footnote" n="ac"><hi>E:</hi> gestelten <hi>über der Zeile nachgetragen.</hi></note> artickel mit lutern worten noch<note xml:id="fnad" type="footnote" n="ad"><hi>E: am Rande nachgetragen anstelle von gestrichenem, nur teilweise lesbarem</hi> ouch z[...] daby ansehende, das die mit ettwas declaration.</note> mit ettwas erclärung derselbigen<note xml:id="fnae" type="footnote" n="ae"><hi>E: am Rande nachgetragen anstelle von gestrichenem, nur teilweise lesbarem</hi> ouch z[...] daby ansehende, das die mit ettwas declaration.</note> antwort zegeben, so werdent wir<pb type="edition" next="467"/> im<note xml:id="fnaf" type="footnote" n="af">im <hi>über der Zeile nachgetragen. In E ist dieses Wort gestrichen und stattdessen am Rande nachgetragen:</hi> dasselbig stillswigend umbgan und im sunst.</note> ain hällen<note xml:id="fnag" type="footnote" n="ag"><hi>E:</hi> hällen <hi>anstelle von gestrichenem</hi> luteren <hi>über der Zeile nachgetragen.</hi></note> bericht, was und wie biß dahar dises artickels halb by uns gelert und gehalten worden ist<note xml:id="fnah" type="footnote" n="ah"><hi>E:</hi> ist <hi>anstelle von gestrichenem syg</hi> über der Zeile <hi>nachgetragen.</hi></note>, zuͦschriben<note xml:id="fnai" type="footnote" n="ai"><hi>E:</hi> zuschicken <hi>(über der Zeile nachgetragen).</hi></note>, damit er deß ain satte und grundtliche underrichtung habe, der zuͦversicht<note xml:id="fnak" type="footnote" n="ak"><hi>E: vor</hi> zuversicht <hi>gestrichenes</hi> guten.</note>, er werde, guts gfallen darab nemmen.</s>
-					<s n="7" xml:lang="de" type="auto">Das wolten wir üch uff nächsten abschid<note xml:id="fn13" type="footnote" n="13">Vgl. den Basler Abschied vom 14. November, EA IV/1c 784f, besonders 785 c.</note> guͦter und früntlicher mainung unverhalten<note xml:id="fn14" type="footnote" n="14">nicht vorenthalten.</note> haben, mit erbietung, uch, wo wir könnent, alles<note xml:id="fnal" type="footnote" n="al"><hi>E: vor</hi> alles <hi>gestrichenes</hi> allw[?].</note> lieb, frundschafft und nachpürliche dienst zebewysen.</s>
+					<s n="7" xml:lang="de" type="auto">Das wolten wir üch uff nächsten abschid<note xml:id="fn13" type="footnote" n="13">Vgl. den Basler Abschied vom 14. November, <bibl>EA</bibl> IV/1c 784f, besonders 785 c.</note> guͦter und früntlicher mainung unverhalten<note xml:id="fn14" type="footnote" n="14">nicht vorenthalten.</note> haben, mit erbietung, uch, wo wir könnent, alles<note xml:id="fnal" type="footnote" n="al"><hi>E: vor</hi> alles <hi>gestrichenes</hi> allw[?].</note> lieb, frundschafft und nachpürliche dienst zebewysen.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="de" type="auto">Datum 9. novembris anno etc. 36.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="auto">Burgermaister<note xml:id="fn15" type="footnote" n="15"><persName ref="person2596">Jakob Zeller</persName> (s. Hermann <hi>Buck</hi> und Ekkehart <hi>Fabian,</hi> <placeName ref="place565">Konstanzer</placeName> Reformationsgeschichte in ihren Grundzügen. I. Teil: 1519-1531, Tübingen 1965. - SKRG 25/26, <hi>S.</hi> 436).</note> und rat der statt <placeName ref="place565">Costanntz</placeName><note xml:id="fnam" type="footnote" n="am"><hi>E:</hi> B. u. r.</note>.</s>
+					<s n="9" xml:lang="de" type="auto">Burgermaister<note xml:id="fn15" type="footnote" n="15"><persName>Jakob Zeller</persName> (s. Hermann <hi>Buck</hi> und Ekkehart <hi>Fabian,</hi> <placeName>Konstanzer</placeName> Reformationsgeschichte in ihren Grundzügen. I. Teil: 1519-1531, Tübingen 1965. - <bibl>SKRG</bibl> 25/26, <hi>S.</hi> 436).</note> und rat der statt <placeName>Costanntz</placeName><note xml:id="fnam" type="footnote" n="am"><hi>E:</hi> B. u. r.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite<note xml:id="fnan" type="footnote" n="an"><hi>In E am Anfang des Briefes.</hi></note>:]</note>
-					<s n="10" xml:lang="de" type="auto">Den fürsichtigen, ersamen und wysen N., der aidgnossischen stetten bottschafften, jetzo zuͦ <placeName ref="place97">Basel</placeName> versamelt, unsern bsunder lieben und guͦten fründen.<note xml:id="fnao" type="footnote" n="ao"><hi>Dorsualvermerk:</hi> Praesentate 14. novembris anno 1536.</note></s>
+					<s n="10" xml:lang="de" type="auto">Den fürsichtigen, ersamen und wysen N., der aidgnossischen stetten bottschafften, jetzo zuͦ <placeName>Basel</placeName> versamelt, unsern bsunder lieben und guͦten fründen.<note xml:id="fnao" type="footnote" n="ao"><hi>Dorsualvermerk:</hi> Praesentate 14. novembris anno 1536.</note></s>
 				</p>
 			</div>
 		</body>

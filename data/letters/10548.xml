@@ -6,40 +6,31 @@
 				<title subtype="file">Simon Grynäus / Tübingen AN Heinrich Bullinger, 14. Januar 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=512</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">61</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,250</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,20 +38,27 @@
 							<p xml:id="regest1">
 								Drängt Bullinger zu verstärkten Bemühungen um eine Übereinkunft der [schweizerischen] Kirchen [in der
 								Abendmahlsfrage], nachdem er von der Uneinigkeit zwischen Zürich und
-								<placeName ref="place121">Bern</placeName> vernommen hat.
+								<placeName>Bern</placeName> vernommen hat.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 512, S.61</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10548">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -70,11 +68,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
 						-->
 					</persName>
-					<placeName source="place512" cert="high"><orig>Tübingen</orig></placeName>
+					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1535-01-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -109,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -121,14 +119,14 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Obsecro, ut in hoc concordiae negotium, non dico cum <persName ref="person138">Luthero</persName>, quod longius fortasse abest adhuc, sed nostrum vere aliquanto incumbas.</s>
+					<s n="2" xml:lang="la" type="auto">Obsecro, ut in hoc concordiae negotium, non dico cum <persName ref="p1974">Luthero</persName>, quod longius fortasse abest adhuc, sed nostrum vere aliquanto incumbas.</s>
 					<s n="3" xml:lang="la" type="auto">Quid enim audio!</s>
-					<s n="4" xml:lang="la" type="auto"><placeName ref="place121">Bernates</placeName> non satis convenire.</s>
+					<s n="4" xml:lang="la" type="auto"><placeName>Bernates</placeName> non satis convenire.</s>
 					<s n="5" xml:lang="la" type="auto">Ah deum immortalem, quam prebemus adversariis nos!</s>
 					<s n="6" xml:lang="la" type="auto">Scribis praeclare de morbis ecclesiae hodie, sed non aeque incumbimus ad tollendum morbos.</s>
 					<s n="7" xml:lang="la" type="auto"><foreign xml:lang="el">Γνῶσιν ἔχομεν ἅπαντες</foreign>,<note xml:id="fn2" type="footnote" n="2">Vgl. 1Kor 8, 1.</note> sed vide, quomodo foede interea secti!</s>
 					<s n="8" xml:lang="la" type="auto">Nusquam convenimus, nemo se alter alteri vere summittit, ut vera animis conspiratio sit.</s>
-					<s n="9" xml:lang="la" type="auto">Non tu <placeName ref="place121">Bernam</placeName> ipse adis, non istic tantisper es, dum plane res conficiatur.</s>
+					<s n="9" xml:lang="la" type="auto">Non tu <placeName>Bernam</placeName> ipse adis, non istic tantisper es, dum plane res conficiatur.</s>
 					<s n="10" xml:lang="la" type="auto">Si vere amamus nos invicem et veritatem, aspirabit dominus nec adversabitur conatus nostros.</s>
 					<s n="11" xml:lang="la" type="auto">Obsecro te, incumbe, ut pax, quę impetrari in omni ecclesia non potest, in nostra saltem constet, ne habeant adversarii perpetuo, quod merito reprehendant.</s>
 					<s n="12" xml:lang="la" type="auto">Volo, si qua est mea apud<note xml:id="fnb" type="footnote" n="b"><hi>zu ergänzen:</hi> te.</note> authoritas, ut in hoc vere incumbas.</s>
@@ -140,7 +138,7 @@
 					<s n="14" xml:lang="la" type="auto">Tub[ingae], 14. ianuarii.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person81">Grynaeus</persName> tuus.</s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p1365">Grynaeus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

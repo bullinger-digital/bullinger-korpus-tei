@@ -6,40 +6,31 @@
 				<title subtype="file">Ambrosius Blarer / Tübingen AN Heinrich Bullinger, 2. Januar 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=708</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">31</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,11</idno>
 					</msIdentifier>
 					<msContents>
@@ -48,9 +39,9 @@
 								Bestätigt den Erhalt des Briefes vom 23. November [1535] und versichert Bullinger seiner Zuneigung und
 								Freundschaft. Hat die Empfohlenen soweit möglich in Pfarrämter eingesetzt. Die Übermittlung eines Briefes in
 								der Erbschaftssache der [...] Welter von Blidegg war äusserst beschwerlich und verursachte beträchtliche
-								Kosten, weil er weder etwas über den Adressaten, einen <persName ref="person2457">von Weiler</persName>,
+								Kosten, weil er weder etwas über den Adressaten, einen <persName>von Weiler</persName>,
 								wusste, noch den Namen des Verstorbenen kannte; der Bote ließ den Brief auf [Schloss]
-								<placeName ref="place629">Lichtenberg</placeName> zurück. Grüsse.
+								<placeName>Lichtenberg</placeName> zurück. Grüsse.
 							</p>
 						</summary>
 						<msItem>
@@ -60,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW I, S. 767</title>
+								<title>Blarer BW I, S.767</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 708, S.31</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10746">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place512" cert="high"><orig>Tübingen</orig></placeName>
+					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1536-01-02" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -141,27 +135,27 @@
 					<s n="4" xml:lang="la" type="auto">Quos commendasti<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note>, quantum licuit, fovi certisque ecclesiis praefeci nec aliud magis in votis habeo, quam tibi modis omnibus gratificari.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Welterae<note xml:id="fn3" type="footnote" n="3">Gemeint ist eine der drei in Zürich eingebürgerten Tochter des <persName ref="person1988">Ludwig Ryff</persName>, genannt Welter von Blidegg: Anna, Margaretha oder Barbara. Diese beanspruchten das Erbe des 1535 im Herzogtum Württemberg verstorbenen <persName ref="person2455">Kaspar von Weiler</persName>. Bereits am 25. September hatte der Zürcher Rat ihrem Anwalt <persName ref="person1094">Hans Hager</persName> ein Empfehlungsschreiben an <persName ref="person224">Herzog Ulrich von Württemberg</persName> ausgestellt (Zürich StA, B IV 6, 119), worauf Bullinger offensichtlich auch <persName ref="person19">Blarer</persName> von der Sache berichtete, wie dessen Bemerkung im Brief vom 29. September zeigt (vgl. HBBW V <ref target="file10691">[Nr. 653]</ref>, S. 373, 12). Am 6. Dezember drängte Zürich in <placeName ref="place1050">Stuttgart</placeName> auf eine raschere Durchführung des Verfahrens (vgl. Zürich StA, B IV 6, 206), und in der Folge wurde vom Hofmeister in <placeName ref="place1050">Stuttgart</placeName> ein Verhandlungstermin auf den 17. Januar 1536 festgesetzt (vgl. ebd., A 195. 1, <ref target="file10257">Nr. 226</ref>).</note> negocium, bone deus, quanto studio feliciter conficere conatus sum; sed nulla prorsus adfulsit mihi occasio.</s>
-					<s n="6" xml:lang="la" type="auto">Culpam partim in illum ipsum Welterum<note xml:id="fn4" type="footnote" n="4">wohl Ludwig, der Vater der drei Erbinnen (vgl. Anm. 3).</note>, pariter et te reiicio, qui neque de nomine neque de loco illorum nobilium a Weyler<note xml:id="fn5" type="footnote" n="5">Welche Vertreter des Geschlechts der <persName ref="person2457">von Weiler</persName> gemeint waren, ist nicht auszumachen.</note> quicquam indicastis, nec literae<note xml:id="fn6" type="footnote" n="6">Nicht erhalten.</note> illis inscriptę tale aliquid prae se ferebant, et demortui<note xml:id="fn7" type="footnote" n="7"><persName ref="person2455">Kaspar von Weiler</persName>, mit Helena von Berlichingen verheiratet, starb im Sommer oder Herbst 1535, ohne männliche Nachkommen zu hinterlassen; seine (1536 nicht mehr lebende) Schwester Amalia war die Ehefrau <persName ref="person1988">Ludwig Ryffs</persName> und damit die Mutter von Anna, Margaretha und Barbara gewesen (vgl. Zürich StA, B IV 6, 119, und Johann Gottfried <hi>Biedermann,</hi> Geschlechts-Register Der Reichs Frey unmittelbaren Ritterschafft, Landes zu Francken, loblichen Orts Ottenwald, Culmbach 1751, Tafel 230 [gibt 1534 als Todesjahr <persName ref="person2457">von Weilers</persName>]).</note> nomen prorsus ignorabam.</s>
+					<s n="5" xml:lang="la" type="auto">Welterae<note xml:id="fn3" type="footnote" n="3">Gemeint ist eine der drei in Zürich eingebürgerten Tochter des <persName>Ludwig Ryff</persName>, genannt Welter von Blidegg: Anna, Margaretha oder Barbara. Diese beanspruchten das Erbe des 1535 im Herzogtum Württemberg verstorbenen <persName>Kaspar von Weiler</persName>. Bereits am 25. September hatte der Zürcher Rat ihrem Anwalt <persName>Hans Hager</persName> ein Empfehlungsschreiben an <persName>Herzog Ulrich von Württemberg</persName> ausgestellt (Zürich StA, B IV 6, 119), worauf Bullinger offensichtlich auch <persName>Blarer</persName> von der Sache berichtete, wie dessen Bemerkung im Brief vom 29. September zeigt (vgl. <bibl>HBBW V</bibl> <ref target="file10691">[Nr. 653]</ref>, S. 373, 12). Am 6. Dezember drängte Zürich in <placeName>Stuttgart</placeName> auf eine raschere Durchführung des Verfahrens (vgl. Zürich StA, B IV 6, 206), und in der Folge wurde vom Hofmeister in <placeName>Stuttgart</placeName> ein Verhandlungstermin auf den 17. Januar 1536 festgesetzt (vgl. ebd., A 195. 1, <ref target="file10257">Nr. 226</ref>).</note> negocium, bone deus, quanto studio feliciter conficere conatus sum; sed nulla prorsus adfulsit mihi occasio.</s>
+					<s n="6" xml:lang="la" type="auto">Culpam partim in illum ipsum Welterum<note xml:id="fn4" type="footnote" n="4">wohl Ludwig, der Vater der drei Erbinnen (vgl. Anm. 3).</note>, pariter et te reiicio, qui neque de nomine neque de loco illorum nobilium a Weyler<note xml:id="fn5" type="footnote" n="5">Welche Vertreter des Geschlechts der <persName>von Weiler</persName> gemeint waren, ist nicht auszumachen.</note> quicquam indicastis, nec literae<note xml:id="fn6" type="footnote" n="6">Nicht erhalten.</note> illis inscriptę tale aliquid prae se ferebant, et demortui<note xml:id="fn7" type="footnote" n="7"><persName>Kaspar von Weiler</persName>, mit Helena von Berlichingen verheiratet, starb im Sommer oder Herbst 1535, ohne männliche Nachkommen zu hinterlassen; seine (1536 nicht mehr lebende) Schwester Amalia war die Ehefrau <persName>Ludwig Ryffs</persName> und damit die Mutter von Anna, Margaretha und Barbara gewesen (vgl. Zürich StA, B IV 6, 119, und Johann Gottfried <hi>Biedermann,</hi> Geschlechts-Register Der Reichs Frey unmittelbaren Ritterschafft, Landes zu Francken, loblichen Orts Ottenwald, Culmbach 1751, Tafel 230 [gibt 1534 als Todesjahr <persName>von Weilers</persName>]).</note> nomen prorsus ignorabam.</s>
 					<s n="7" xml:lang="la" type="auto">Sero praeterea redditae<pb type="edition" next="32"/> mihi fuerunt illę literę, ut non potuerim per temporis angustias diligenter de omnibus quaerere.</s>
-					<s n="8" xml:lang="la" type="auto">Abmandavi tamen nuncium<note xml:id="fn8" type="footnote" n="8">Unbekannt.</note> Liechtenbergum, ad unum quendam nobilem a <persName ref="person2453">Weyler</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person2456">Wolf von Weiler</persName>, 1508-1583, war nach dem Tod seines Vaters Dietrich im Bauernkrieg 1525 zum Stammhalter der Hauptlinie der <persName ref="person2453">von Weiler</persName> geworden, die ihren Wohnsitz seit ca. 1519 auf Schloss <placeName ref="place629">Lichtenberg</placeName> (Kr. Ludwigsburg, Baden-Württemberg) hatten (vgl. Beschreibung des Oberamts Weinsberg, hg. v. dem Königlichen Statistisch-topographischen Bureau, Stuttgart 1861, S. 388f, und Hermann <hi>Neuffer,</hi> Die Freiherren <persName ref="person2453">von Weiler</persName> auf <placeName ref="place629">Lichtenberg</placeName>, in: Beilage der Ludwigsburger Kreiszeitung, 35. Jg., 1984, Nr. 3, S. 221).</note>, quem tabellarius domi non invenit, sed relictis illic literis ad<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> ad <hi>gestrichenes</hi> abiit.</note> me rediit, et quia mira tum erat coeli inclementia, numerare cogebar 12 batzones, quos vocant, plures etiam lubentissime impensurus, si quicquam promovere licuisset.</s>
+					<s n="8" xml:lang="la" type="auto">Abmandavi tamen nuncium<note xml:id="fn8" type="footnote" n="8">Unbekannt.</note> Liechtenbergum, ad unum quendam nobilem a <persName>Weyler</persName><note xml:id="fn9" type="footnote" n="9"><persName>Wolf von Weiler</persName>, 1508-1583, war nach dem Tod seines Vaters Dietrich im Bauernkrieg 1525 zum Stammhalter der Hauptlinie der <persName>von Weiler</persName> geworden, die ihren Wohnsitz seit ca. 1519 auf Schloss <placeName>Lichtenberg</placeName> (Kr. Ludwigsburg, Baden-Württemberg) hatten (vgl. Beschreibung des Oberamts Weinsberg, hg. v. dem Königlichen Statistisch-topographischen Bureau, Stuttgart 1861, S. 388f, und Hermann <hi>Neuffer,</hi> Die Freiherren <persName>von Weiler</persName> auf <placeName>Lichtenberg</placeName>, in: Beilage der Ludwigsburger Kreiszeitung, 35. Jg., 1984, Nr. 3, S. 221).</note>, quem tabellarius domi non invenit, sed relictis illic literis ad<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> ad <hi>gestrichenes</hi> abiit.</note> me rediit, et quia mira tum erat coeli inclementia, numerare cogebar 12 batzones, quos vocant, plures etiam lubentissime impensurus, si quicquam promovere licuisset.</s>
 					<s n="9" xml:lang="la" type="auto">Interim nescio tamen, ecquid effecerim.</s>
 					<s n="10" xml:lang="la" type="auto">Est igitur, ut et tu et Weltera officium meum boni consulatis.</s>
 					<s n="11" xml:lang="la" type="auto">Si quid autem peccatum hic est, vestra negligentia peccatum est; nam si diserte de singulis perscripsissetis, minore negocio, sed feliciore successu essent forte omnia confecta.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Bene vale, venerande mi Bullingere, et domino me, ut facis, scio, diligenter commenda.</s>
-					<s n="13" xml:lang="la" type="auto">Saluta fratres et amicos omnes, praecipue symmystas, <persName ref="person165">Pellicanum</persName>, <persName ref="person114">Leonem</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person14">Theodorum</persName><note xml:id="fn11" type="footnote" n="11"><persName ref="person14">Theodor Bibliander</persName>.</note> inprimis.</s>
+					<s n="13" xml:lang="la" type="auto">Saluta fratres et amicos omnes, praecipue symmystas, <persName ref="p8127">Pellicanum</persName>, <persName ref="p1753">Leonem</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p8171">Theodorum</persName><note xml:id="fn11" type="footnote" n="11"><persName>Theodor Bibliander</persName>.</note> inprimis.</s>
 					<s n="14" xml:lang="la" type="auto">Iterum vale.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><placeName ref="place1107">Tubingę</placeName>, 2. ianuarii 1536.</s>
+					<s n="15" xml:lang="la" type="auto"><placeName>Tubingę</placeName>, 2. ianuarii 1536.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Saluta charissimam uxorem tuam<note xml:id="fn12" type="footnote" n="12">Anna, geb. Adlischwyler.</note>.</s>
+					<s n="16" xml:lang="la" type="auto">Saluta charissimam uxorem tuam<note xml:id="fn12" type="footnote" n="12"><persName>Anna, geb. Adlischwyler</persName>.</note>.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Tuus vere, si quisquam, <persName ref="person19">Ambros[ius] Blaurerus</persName>.</s>
+					<s n="17" xml:lang="la" type="auto">Tuus vere, si quisquam, <persName ref="p8055">Ambros[ius] Blaurerus</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

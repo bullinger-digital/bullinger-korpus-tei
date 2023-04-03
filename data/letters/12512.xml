@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Ryhiner / [Basel] AN Heinrich Bullinger, 19. Juni 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2015</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17782-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2465</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVII</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">17</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Juni bis September 1546</biblScope>
-				<biblScope unit="page">98</biblScope>
-				<biblScope unit="pages">547</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 17 (Briefe von Juni bis September 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2015, 547 S., ISBN 978-3-290-17782-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,144</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,97</idno>
@@ -48,34 +39,41 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Durch einen eigens damit beauftragten Boten [...] übermittelt <persName ref="person20304">Ryhiner</persName> zwei an Bullinger gerichtete Briefe
+								Durch einen eigens damit beauftragten Boten [...] übermittelt <persName ref="p6310">Ryhiner</persName> zwei an Bullinger gerichtete Briefe
 								(darunter einen des Landgrafen [Philipp] von Hessen) [<ref target="file12501">Nr. 2454</ref> und
-								<ref target="file12502">Nr. 2455</ref>], die ihm <persName ref="person20648">Johann Meyer</persName>, der Stadtschreiber von
-								<placeName ref="place1049">Straßburg</placeName>, mit der Bitte um Weiterbeförderung geschickt hat.
+								<ref target="file12502">Nr. 2455</ref>], die ihm <persName ref="p18115">Johann Meyer</persName>, der Stadtschreiber von
+								<placeName>Straßburg</placeName>, mit der Bitte um Weiterbeförderung geschickt hat.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 17, Nr. 2465, S.98</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12512">
 				<correspAction type="sent">
-					<persName ref="person2804" cert="high">
+					<persName ref="p2804" cert="high">
 						<!--
 						<surname cert="high">Ryhiner</surname>
 						<forename cert="high">Heinrich</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/122119711"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1546-06-19" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -104,7 +102,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -118,17 +116,17 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="de" type="auto">Wurdiger, hochgelerter, gunstiger, lieber herr unnd frundt, uch syennd min gutwillig dienst bereit zuvor.</s>
-					<s n="2" xml:lang="de" type="auto">Es hatt mir der furnem, wolgeacht herr Johann Meiger<note xml:id="fn2" type="footnote" n="2"><persName ref="person20648">Johann Meyer</persName>, genannt Motzbeck, aus <placeName ref="place342">Esslingen</placeName>, der im August 1532 zum Stadtschreiber von <placeName ref="place1049">Straßburg</placeName> ernannt wurde und in diesem Amt bis 1552 bezeugt ist; s. <hi>PC</hi> II-V, Reg.; <hi>Bucer BW</hi> VIII 398.</note>, stattschriber zu Straspurg, min lieber herr unnd frund, ditz hieby ligennde bede missiven unnd brieff,<note xml:id="fn3" type="footnote" n="3">Die Briefe <ref target="file12501">Nr. 2454</ref> und <ref target="file12502">Nr. 2455</ref> von <persName ref="person1499">Johannes Lening</persName> bzw. Landgraf Philipp von Hessen, datiert vom 4. bzw. 5. Juni 1546.</note> so an uch gestelt (unnd der ein von<pb type="edition" next="99"/> herren lantgraven zu <persName ref="person169">Hessenn</persName> an uch geschriben sin soll)<note xml:id="fna" type="footnote" n="a"><hi>Klammern ergänzt.</hi></note>, ubersendet unnd, das ich die bede by gwusser<note xml:id="fn4" type="footnote" n="4">zuverlässiger.</note> bottschaftt unnd uff das furderlichest<note xml:id="fn5" type="footnote" n="5">sehr rasch.</note> uch zuschicken wolte, geschriben unnd gepetten.</s>
+					<s n="2" xml:lang="de" type="auto">Es hatt mir der furnem, wolgeacht herr Johann Meiger<note xml:id="fn2" type="footnote" n="2"><persName>Johann Meyer</persName>, genannt Motzbeck, aus <placeName>Esslingen</placeName>, der im August 1532 zum Stadtschreiber von <placeName>Straßburg</placeName> ernannt wurde und in diesem Amt bis 1552 bezeugt ist; s. <bibl>PC</bibl> II-V, Reg.; <bibl>Bucer BW</bibl> VIII 398.</note>, stattschriber zu Straspurg, min lieber herr unnd frund, ditz hieby ligennde bede missiven unnd brieff,<note xml:id="fn3" type="footnote" n="3">Die Briefe <ref target="file12501">Nr. 2454</ref> und <ref target="file12502">Nr. 2455</ref> von <persName ref="p6177">Johannes Lening</persName> bzw. Landgraf Philipp von Hessen, datiert vom 4. bzw. 5. Juni 1546.</note> so an uch gestelt (unnd der ein von<pb type="edition" next="99"/> herren lantgraven zu <persName ref="p18574">Hessenn</persName> an uch geschriben sin soll)<note xml:id="fna" type="footnote" n="a"><hi>Klammern ergänzt.</hi></note>, ubersendet unnd, das ich die bede by gwusser<note xml:id="fn4" type="footnote" n="4">zuverlässiger.</note> bottschaftt unnd uff das furderlichest<note xml:id="fn5" type="footnote" n="5">sehr rasch.</note> uch zuschicken wolte, geschriben unnd gepetten.</s>
 					<s n="3" xml:lang="de" type="auto">Welches ich hiemit thun, euch die brieff by zeigern<note xml:id="fn6" type="footnote" n="6">Unbekannt.</note>, allein darumb gesandthen louffersbottenn, zu senden.</s>
 					<s n="4" xml:lang="de" type="auto">Und bin, uch lieb unnd dienst zu bewisen, gantz woll geneigt und gutwillig.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="de" type="auto">Datum sampstag, den 19. tag iunii anno, etc., 1546.</s>
-					<s n="6" xml:lang="de" type="auto"><persName ref="person20304">Heinrich Ryhiner</persName>, stattschriber zu <placeName ref="place97">Basell</placeName>.</s>
+					<s n="6" xml:lang="de" type="auto"><persName ref="p6310">Heinrich Ryhiner</persName>, stattschriber zu <placeName>Basell</placeName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf f. 97a,v.:]</note>
-					<s n="7" xml:lang="de" type="auto">Dem wurdigen, hochgelerten herren Heinrich Bullinger, der heiligenn schriftt lerern zu Zurich, minem gunstigen, lieben herren und frund<note xml:id="fnb" type="footnote" n="b"><hi>Darüber von Bullingers Hand:</hi> Heinrych Rychiner, Stattschryber ze <placeName ref="place97">Basel</placeName>.</note>.</s>
+					<s n="7" xml:lang="de" type="auto">Dem wurdigen, hochgelerten herren Heinrich Bullinger, der heiligenn schriftt lerern zu Zurich, minem gunstigen, lieben herren und frund<note xml:id="fnb" type="footnote" n="b"><hi>Darüber von Bullingers Hand:</hi> Heinrych Rychiner, Stattschryber ze <placeName>Basel</placeName>.</note>.</s>
 				</p>
 			</div>
 		</body>

@@ -6,48 +6,38 @@
 				<title subtype="file">Ambrosius Blarer / Konstanz AN Heinrich Bullinger, 31. August 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1166</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">205</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,28</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Kehrte am 26. August nach <placeName ref="place565">Konstanz</placeName> zurück; wurde von
-								Herzog [<persName ref="person224">Ulrich</persName> von]
-								Württemberg in Gnaden, jedoch mit schäbiger Bezahlung entlassen und
+								Kehrte am 26. August nach <placeName>Konstanz</placeName> zurück; wurde von
+								Herzog [<persName ref="p6423">Ulrich von] Württemberg</persName> in Gnaden, jedoch mit schäbiger Bezahlung entlassen und
 								bittet Bullinger, Gerüchten, wonach er im Zorn weggeschickt worden sei, entgegenzutreten; hofft auf eine
 								spätere, großzügigere Abgeltung durch den Herzog. Grüße.
 							</p>
@@ -59,10 +49,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>Blarer BW II, S. 2f, Nr. 817</title>
+								<title>Blarer BW II, S.2f, Nr. 817</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 2f, Nr. 817</title>
+								<title>Blarer BW II, S.2f, Nr. 817</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1166, S.205</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -72,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11209">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -83,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1538-08-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -122,7 +115,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -136,22 +129,22 @@
 					<s n="1" xml:lang="la" type="auto">Salve, mi venerande et optime Bullingere.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto"><placeName ref="place565">Constantiam</placeName> nuper, hoc est 26. augusti, cum bona Wirtempergensis principis<note xml:id="fn1" type="footnote" n="1"><persName ref="person224">Ulrich</persName>, Herzog von Württemberg.</note> gratia redii, nisi quod ille malignius ęquo mihi numeravit; nam tantum non 300 aureorum iacturam feci toto illo quadriennio, quo in ipsius ditione non ferendorum laborum molestia oppressus prorsumque enectus sum.</s>
+					<s n="2" xml:lang="la" type="auto"><placeName>Constantiam</placeName> nuper, hoc est 26. augusti, cum bona Wirtempergensis principis<note xml:id="fn1" type="footnote" n="1"><persName>Ulrich, Herzog von Württemberg</persName>.</note> gratia redii, nisi quod ille malignius ęquo mihi numeravit; nam tantum non 300 aureorum iacturam feci toto illo quadriennio, quo in ipsius ditione non ferendorum laborum molestia oppressus prorsumque enectus sum.</s>
 					<s n="3" xml:lang="la" type="auto">Et tamen gratias ago deo meo, quod bona conscientia illinc explicitus iam meis restituor.</s>
-					<s n="4" xml:lang="la" type="auto">Volui autem, licet occupatissimus, istuc tibi paucis indicare, quod sciam, quid amicorum meorum rumusculi iactitent, nempe irato me principe missum factum, ne desit, quod illis obiicias; nam quicquid hic peccavit princeps, non pro ira, sed pro consuetudine fecit<note xml:id="fn2" type="footnote" n="2">Über die Entlassung <persName ref="person20">Blarers</persName> am 30. Mai 1538 und deren unklare Hintergründe vgl. Martin <hi>Brecht,</hi> <persName ref="person19">Ambrosius Blarers</persName> Wirksamkeit in Schwaben, in: Der <placeName ref="place565">Konstanzer</placeName> Reformator <persName ref="person19">Ambrosius Blarer</persName> 1492-1564. Gedenkschrift zu seinem 400. Todestag, hg. v. Bernd Moeller, <placeName ref="place565">Konstanz</placeName>/Stuttgart 1964, S. 140-171, hier 166-168, und Theodor <hi>Pressel,</hi> Ambrosius Blaurer's des schwäbischen Reformators Leben und Schriften, Stuttgart 1861, S. 437f. 441-444.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Volui autem, licet occupatissimus, istuc tibi paucis indicare, quod sciam, quid amicorum meorum rumusculi iactitent, nempe irato me principe missum factum, ne desit, quod illis obiicias; nam quicquid hic peccavit princeps, non pro ira, sed pro consuetudine fecit<note xml:id="fn2" type="footnote" n="2">Über die Entlassung <persName>Blarers</persName> am 30. Mai 1538 und deren unklare Hintergründe vgl. Martin <hi>Brecht,</hi> <persName>Ambrosius Blarers</persName> Wirksamkeit in Schwaben, in: Der <placeName>Konstanzer</placeName> Reformator <persName>Ambrosius Blarer</persName> 1492-1564. Gedenkschrift zu seinem 400. Todestag, hg. v. Bernd Moeller, <placeName>Konstanz</placeName>/Stuttgart 1964, S. 140-171, hier 166-168, und Theodor <hi>Pressel,</hi> Ambrosius Blaurer's des schwäbischen Reformators Leben und Schriften, Stuttgart 1861, S. 437f. 441-444.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Sic enim solet.</s>
 					<s n="6" xml:lang="la" type="auto">Spero autem fore, ut olim per commodam aliquam occasionem, quod nunc desidero, benigne compenset et dignam principe munificentiam exerat, quum sit in me alioqui non iniquo animo.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Commenda me clarissimis viris <persName ref="person165">Pellicano</persName>, <persName ref="person114">Leoni</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person14">Theodoro</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person14">Theodor Bibliander</persName>.</note> ac cęteris fratribus et amicis, quorum me precibus tuis quoque additis apud Christum iuvari vehementer cupio.</s>
-					<s n="8" xml:lang="la" type="auto">Salutant te <persName ref="person263">Zviccii</persName><note xml:id="fn5" type="footnote" n="5">Johannes und <persName ref="person264">Konrad Zwick</persName>.</note> cum germano meo fratre<note xml:id="fn6" type="footnote" n="6"><persName ref="person20">Thomas Blarer</persName>.</note> et sorore<note xml:id="fn7" type="footnote" n="7"><persName ref="person474">Margaretha Blarer</persName>.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Commenda me clarissimis viris <persName ref="p8127">Pellicano</persName>, <persName ref="p1753">Leoni</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p8171">Theodoro</persName><note xml:id="fn4" type="footnote" n="4"><persName>Theodor Bibliander</persName>.</note> ac cęteris fratribus et amicis, quorum me precibus tuis quoque additis apud Christum iuvari vehementer cupio.</s>
+					<s n="8" xml:lang="la" type="auto">Salutant te <persName ref="p4079">Zviccii</persName><note xml:id="fn5" type="footnote" n="5">Johannes und <persName>Konrad Zwick</persName>.</note> cum germano meo fratre<note xml:id="fn6" type="footnote" n="6"><persName>Thomas Blarer</persName>.</note> et sorore<note xml:id="fn7" type="footnote" n="7"><persName>Margaretha Blarer</persName>.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Bene vale, mi plus quam charissime et optime frater.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><placeName ref="place565">Constantiae</placeName>, ultima augusti anno 1538.</s>
+					<s n="10" xml:lang="la" type="auto"><placeName>Constantiae</placeName>, ultima augusti anno 1538.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="person19">Ambrosius Blaurerus</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="p8055">Ambrosius Blaurerus</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -18,22 +18,19 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Briefanfang" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive38">
+						<repository ref="a38">
 							<name>Genf BPU</name>
 							<ref target="http://institutions.ville-geneve.ch/fr/bge/"/>
 						</repository>
-						<settlement ref="place167">Genf</settlement>
+						<settlement ref="l167">Genf</settlement>
 						<institution>Bibliothèque publique et universitaire</institution>
 						-->
-						<repository ref="archive38"/>
-						<idno subtype="Autograph">Ms. lat. 118 A, fo 132</idno>
+						<repository ref="a38"/>
+						<idno subtype="Autograph">Ms. lat. 118 A, fo 132 und fo 48-49</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -43,7 +40,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Corr. de Bèze VII, S. 286-289, Nr. 520</title>
+								<title>Corr. de Bèze VII, S.286-289, Nr. 520</title>
 							</bibl>
 							<bibl type="Gedruckt">
 								<title>J. Knox, works (ed. D. Laing) t.VI, Edinburgh 1864, p. 550 (Hd II 9712: 6)</title>
@@ -54,29 +51,15 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive32">
+						<repository ref="a32">
 							<name>Edinburgh UB</name>
 							<ref target="https://www.ed.ac.uk/information-services/library-museum-gallery"/>
 						</repository>
-						<settlement ref="place130">Edinburgh</settlement>
+						<settlement ref="l130">Edinburgh</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive32"/>
+						<repository ref="a32"/>
 						<idno subtype="Kopie">La. IV. 40, fol. 392</idno>
-					</msIdentifier>
-				</msDesc>
-				<msDesc type="Briefschluss" subtype="Autograph" xml:lang="">
-					<msIdentifier>
-						<!--
-						<repository ref="archive38">
-							<name>Genf BPU</name>
-							<ref target="http://institutions.ville-geneve.ch/fr/bge/"/>
-						</repository>
-						<settlement ref="place167">Genf</settlement>
-						<institution>Bibliothèque publique et universitaire</institution>
-						-->
-						<repository ref="archive38"/>
-						<idno subtype="Autograph">Ms. lat. 118 A, fo 48-49</idno>
 					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
@@ -84,7 +67,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6958">
 				<correspAction type="sent">
-					<persName ref="person890" cert="high">
+					<persName ref="p890" cert="high">
 						<!--
 						<surname cert="high">Beza</surname>
 						<forename cert="high">Theodor</forename>
@@ -95,11 +78,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11418065"/>
 						-->
 					</persName>
-					<placeName source="place167" cert="high"><orig>Genf</orig></placeName>
+					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 					<date when="1566-12-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -109,7 +92,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file6959"/>
@@ -132,7 +115,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

@@ -6,32 +6,31 @@
 				<title subtype="file">Friedrich von Salis / Samaden AN Heinrich Bullinger / Zürich, 8. September 1557</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">4701/272</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Widmung" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2304</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,10 +42,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW II, S. 26 R., Nr. 28</title>
+								<title>Graubünden BW II, S.26 R., Nr. 28</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Jan-Andrea Bernhard, Freundschaft und Kirchenpolitik..., in: Zwingliana 42, 2015, S. 128-132</title>
+								<title>Jan-Andrea Bernhard, Freundschaft und Kirchenpolitik..., in: Zwingliana 42, 2015, S.128-132</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -54,14 +53,14 @@
 				<msDesc type="Widmung" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 90,110</idno>
 					</msIdentifier>
 				</msDesc>
@@ -70,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3306">
 				<correspAction type="sent">
-					<persName ref="person3704" cert="high">
+					<persName ref="p3704" cert="high">
 						<!--
 						<surname cert="high">von Salis</surname>
 						<forename cert="high">Friedrich</forename>
@@ -81,11 +80,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11456135"/>
 						-->
 					</persName>
-					<placeName source="place439" cert="high"><orig>Samaden</orig></placeName>
+					<placeName source="l439" cert="high"><orig>Samaden</orig></placeName>
 					<date when="1557-09-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,7 +94,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file3307"/>
@@ -122,7 +121,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -146,7 +145,7 @@
 					<s n="7" xml:lang="la" type="auto">Gratissimas autem dico, quia abs te, domino et patrono meo colendissimo, sunt profectae exque hiis te cum tota familia et filiolo etiam meo bene valere percepi.</s>
 					<s n="8" xml:lang="la" type="auto">Atqui interim vel dolore me affecere eo, quod ex hiis intellexerim, quam ingenti clade rex christianissimus sit apud Sanctum Quintinum affectus.</s>
 					<s n="9" xml:lang="la" type="auto">Cuius quidem, vel dum essem Venetiis, fama ibidem increbuerat; non tamen referebatur regem christianissimum tantam iacturam esse passum.</s>
-					<s n="10" xml:lang="la" type="auto">Sed cum ita fuerit in fatis, ut haec, qualiacunque sint, evenerint, nec aliqua ratione fieri queat, quin, quod factum est, infectum fiat,<note xml:id="fn1" type="footnote" n="1">Adagia, 2, 3, 72 (ASD II-3 290-292, Nr. 1272).</note> aequo sunt animo ferenda et rogandus dominus deus, ut regi christianissimo in posterum faveat nec eodem cursu, ut inquit ille, respondeant ultima primis etc.</s>
+					<s n="10" xml:lang="la" type="auto">Sed cum ita fuerit in fatis, ut haec, qualiacunque sint, evenerint, nec aliqua ratione fieri queat, quin, quod factum est, infectum fiat,<note xml:id="fn1" type="footnote" n="1">Adagia, 2, 3, 72 (<bibl>ASD</bibl> II-3 290-292, Nr. 1272).</note> aequo sunt animo ferenda et rogandus dominus deus, ut regi christianissimo in posterum faveat nec eodem cursu, ut inquit ille, respondeant ultima primis etc.</s>
 					<s n="11" xml:lang="la" type="auto">De dono autem, quod mihi percelebre et exoptatissimum atque adeo expectatissimum misisti (de Apocalypsi tua loquor) tibi ingentes ago gratias, quasque, si quando detur occasio, partim etiam re ipsa, prout virum gratum decet, referre conabor.</s>
 					<s n="12" xml:lang="la" type="auto">Donum autem ipsum hodie circa meridiem accepi, a cuius lectione vixdum in tantum revelli potui, ut cibum caperem; adeo enim mihi, simul atque opus degustassem, perplacuit, nec destitero, quousque ad calcem perveniam.</s>
 					<s n="13" xml:lang="la" type="auto">Velit dominus deus, ut fructum inde colligam saluberrimum!</s>

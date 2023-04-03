@@ -6,45 +6,41 @@
 				<title subtype="file">Joachim Vadian / [St. Gallen] AN Heinrich Bullinger, 30. Mai [1540]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1401</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">94</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Die Vadianische Briefsammlung der Stadtbibliothek St. Gallen, hg. v. Emil Arbenz und Hermann Wartmann, 7 Bde., St. Gallen 1890-1913 - MVG 24-30a.</bibl>
 				<msDesc type="Brief" subtype="Teilkopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Teilkopie">Ms F 64,646v.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Steht zwar dazu, daß er Bullinger und <persName ref="person891">Froschauer</persName> sein Büchlein über
-								die alten Klöster <placeName ref="place7">Deutschlands</placeName> versprochen hat, kann es aber in
-								Rücksicht auf den Rat, der sich mit [dem Abt von <placeName ref="place1011">St. Gallen</placeName>,
-								<persName ref="person463">Diethelm Blarer von Wartensee</persName>] abmüht, nicht zur
-								[<placeName ref="place361">Frankfurter</placeName>] Herbstmesse erscheinen lassen. Kritisiert darin
+								Steht zwar dazu, daß er Bullinger und <persName ref="p1227">Froschauer</persName> sein Büchlein über
+								die alten Klöster <placeName>Deutschlands</placeName> versprochen hat, kann es aber in
+								Rücksicht auf den Rat, der sich mit [dem Abt von <placeName>St. Gallen</placeName>,
+								<persName ref="p8179">Diethelm Blarer von Wartensee</persName>] abmüht, nicht zur
+								[<placeName>Frankfurter</placeName>] Herbstmesse erscheinen lassen. Kritisiert darin
 								schonungslos die Verkommenheit des - insbesondere benediktinischen - Mönchtums bereits in dessen Frühzeit,
 								während er das wenige, was ihm lobenswert scheint, eher der Fürsorge mancher Fürsten als den Mönchen
 								zuschreibt; obwohl sich andere ebenso klar gegen das Mönchtum ausgesprochen haben, würde eine
@@ -60,7 +56,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Vadian BW VII, S. 94f, Nr. 66</title>
+								<title>Vadian BW VII, S.94f, Nr. 66</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11444">
 				<correspAction type="sent">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -81,11 +77,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11425832"/>
 						-->
 					</persName>
-					<placeName source="place474" cert="low"><orig>St. Gallen</orig></placeName>
+					<placeName source="l474" cert="low"><orig>St. Gallen</orig></placeName>
 					<date when="1540-05-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,14 +116,14 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Ut pactis stem fidemque redimam, ornatissime Bullingere, ea de causa poscis, quia libellum de monasteriis Germaniae veteribus meum tibi et <persName ref="person891">Froschouero</persName> nostro daturum promisi.</s>
+					<s n="1" xml:lang="la" type="auto">Ut pactis stem fidemque redimam, ornatissime Bullingere, ea de causa poscis, quia libellum de monasteriis Germaniae veteribus meum tibi et <persName ref="p1227">Froschouero</persName> nostro daturum promisi.</s>
 					<s n="2" xml:lang="la" type="auto">Fateor sane, promisisse me atque hac inprimis de causa sollicitum in dies magis ac magis, ne non, quod sum pollicitus quodque non sine gravi mei nominis odio dabo, quam commodissime in lucem edatur.</s>
 					<s n="3" xml:lang="la" type="auto">Nequit autem fieri, ut proximis nundinis edatur, cum aliis de causis, quas referre nihil attinet, tum illa maxime, quod certum habeo, senatum nostrum hoc mihi non daturum, ut in lucem exeat, ego vero committere nullo modo ausim, ut ipso vel invito vel ignorante chalcographo vulgandum traderem.</s>
 					<s n="4" xml:lang="la" type="auto">Dabitur autem haud dubie nobis occasio brevi, ut longe opportunius edatur id quicquid est operis, quam in praesentia posset.</s>

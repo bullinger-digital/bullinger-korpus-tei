@@ -6,51 +6,42 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 4. Juli 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1408</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">133</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,168</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Aus <placeName ref="place447">Hagenau</placeName> wird berichtet, [König]
+								Aus <placeName>Hagenau</placeName> wird berichtet, [König]
 								Ferdinand werde zum Krieg gegen die Protestanten gedrängt; die Pfaffen
 								hätten sich über deren vermeintliche Zwietracht gefreut, als sich Gesandte aus
-								<placeName ref="place97">Basel</placeName> nicht zu den Delegierten der [evangelischen] Städte
+								<placeName>Basel</placeName> nicht zu den Delegierten der [evangelischen] Städte
 								gesellten, doch habe man den falschen Eindruck sofort korrigiert. Auch Äußerungen von
-								<persName ref="person805">[Johannes] Fabri</persName> belegen, daß
+								<persName ref="p7936">[Johannes] Fabri</persName> belegen, daß
 								die Bischöfe auf Krieg bedacht sind und daß es die Uneinigkeit im evangelischen Lager ist, die sie stark
 								macht; wer sich jetzt den Bemühungen um Einigung und Gegenwehr verschließt, kann kaum als Christ bezeichnet
 								werden. Genauere Nachrichten stehen noch aus; auch die Türken führen wieder Krieg. Das Gezänk der Theologen
@@ -61,13 +52,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1408, S.133</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11451">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -78,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1540-07-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -130,22 +128,22 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Rediit vir quidam bonus<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note> ex comitiis Haganoensibus<note xml:id="fn2" type="footnote" n="2">Zum Religionsgespräch in <placeName ref="place447">Hagenau</placeName> s. oben <ref target="file11442">Nr. 1399</ref>, Anm. 9.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Is primo dixit sic <persName ref="person832">Ferdinandum</persName> urgeri ad nos excindendos, ut veritus fuerit aliquamdiu bellum<pb type="edition" next="134"/> inceptum, priusquam redire posset domum.</s>
-					<s n="4" xml:lang="la" type="auto">Deinde legatos nostros (quos domini miserunt ob suas causas<note xml:id="fn3" type="footnote" n="3"><persName ref="person1642">Bernhard Meyer</persName> und Stadtschreiber <persName ref="person1991">Ryhiner</persName> waren beauftragt, mit <persName ref="person832">König Ferdinand</persName> über das habsburgische Lehen <placeName ref="place507">Hüningen</placeName> zu verhandeln (s. ADRG 1/2 832-834. 838f; <placeName ref="place97">Basel</placeName> SA. Missiven B 3, 15r. <hi>-v.</hi> 39v.-40r.; Finanz G 16, 359). Dem Religionsgespräch blieb <placeName ref="place97">Basel</placeName> fern (vgl. ADRG I/1 948f; PC III 59).</note>), quia non se adiunxerint diebus aliquot legatis civitatum, sermonem inter pfaffos excitasse, quod dissensio sit inter ipsos, unde mirum, quam sint gavisi et pertinaciores effecti in suo proposito.</s>
+					<s n="2" xml:lang="la" type="auto">Rediit vir quidam bonus<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note> ex comitiis Haganoensibus<note xml:id="fn2" type="footnote" n="2">Zum Religionsgespräch in <placeName>Hagenau</placeName> s. oben <ref target="file11442">Nr. 1399</ref>, Anm. 9.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Is primo dixit sic <persName ref="p18477">Ferdinandum</persName> urgeri ad nos excindendos, ut veritus fuerit aliquamdiu bellum<pb type="edition" next="134"/> inceptum, priusquam redire posset domum.</s>
+					<s n="4" xml:lang="la" type="auto">Deinde legatos nostros (quos domini miserunt ob suas causas<note xml:id="fn3" type="footnote" n="3"><persName>Bernhard Meyer</persName> und Stadtschreiber <persName>Ryhiner</persName> waren beauftragt, mit <persName>König Ferdinand</persName> über das habsburgische Lehen <placeName>Hüningen</placeName> zu verhandeln (s. <bibl>ADRG</bibl> 1/2 832-834. 838f; <placeName>Basel</placeName> SA. Missiven B 3, 15r. <hi>-v.</hi> 39v.-40r.; Finanz G 16, 359). Dem Religionsgespräch blieb <placeName>Basel</placeName> fern (vgl. <bibl>ADRG</bibl> I/1 948f; <bibl>PC</bibl> III 59).</note>), quia non se adiunxerint diebus aliquot legatis civitatum, sermonem inter pfaffos excitasse, quod dissensio sit inter ipsos, unde mirum, quam sint gavisi et pertinaciores effecti in suo proposito.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Venit is rumor ad nostros; hi protinus inter coenandum obruerunt Constantienses<note xml:id="fn4" type="footnote" n="4"><persName ref="person264">Konrad Zwick</persName>, <persName ref="person1562">Joachim Maler</persName> und <persName ref="person19">Ambrosius Blarer</persName>; s. Blarer BW II 52, Anm.1.</note> et qui cum eis erant, et apud eos coenati sunt tanto gaudio, ut iucundum sit audire.</s>
+					<s n="5" xml:lang="la" type="auto">Venit is rumor ad nostros; hi protinus inter coenandum obruerunt Constantienses<note xml:id="fn4" type="footnote" n="4"><persName>Konrad Zwick</persName>, <persName>Joachim Maler</persName> und <persName>Ambrosius Blarer</persName>; s. <bibl>Blarer BW</bibl> II 52, Anm.1.</note> et qui cum eis erant, et apud eos coenati sunt tanto gaudio, ut iucundum sit audire.</s>
 					<s n="6" xml:lang="la" type="auto">Postero die nostri invitarunt Constantienses et reliquos, ut decem et novem legati convenerint.</s>
 					<s n="7" xml:lang="la" type="auto">Tunc vero gaudium pfafforum non parum imminutum est.</s>
-					<s n="8" xml:lang="la" type="auto">Interea venerunt legati a Saxone et Hesso<note xml:id="fn5" type="footnote" n="5">Abgeordnete des Kurfürsten Johann Friedrich von Sachsen waren <persName ref="person2283">Christoph von Taubenheim</persName>, <persName ref="person714">Hans von Dolzig</persName>, <persName ref="person569">Franz Burchart</persName> und <persName ref="person2609">Lorenz Zoch</persName>, während Landgraf Philipp von Hessen die Räte <persName ref="person2280">Alexander von der Tann</persName>, <persName ref="person2046">Rudolf Schenk zu Schweinsberg</persName>, <persName ref="person840">Johann Fischer</persName> (gen. Walther) und <persName ref="person1749">Georg Nußpicker</persName> entsandte; s. ADRG I/1 356 u. ö.</note>, et apud nostros omnes gaudium exortum est, verum parum bonę spei; tam fortes sunt et tam multi episcopi.</s>
+					<s n="8" xml:lang="la" type="auto">Interea venerunt legati a Saxone et Hesso<note xml:id="fn5" type="footnote" n="5">Abgeordnete des Kurfürsten Johann Friedrich von Sachsen waren <persName>Christoph von Taubenheim</persName>, <persName>Hans von Dolzig</persName>, <persName>Franz Burchart</persName> und <persName>Lorenz Zoch</persName>, während Landgraf Philipp von Hessen die Räte <persName>Alexander von der Tann</persName>, <persName>Rudolf Schenk zu Schweinsberg</persName>, <persName>Johann Fischer (gen. Walther)</persName> und <persName>Georg Nußpicker</persName> entsandte; s. <bibl>ADRG</bibl> I/1 356 u. ö.</note>, et apud nostros omnes gaudium exortum est, verum parum bonę spei; tam fortes sunt et tam multi episcopi.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Fuerunt hic pridie, quam hęc scriberem, viri quidam docti, e quibus unus<note xml:id="fn6" type="footnote" n="6">Zu denken ist an <persName ref="person1653">Jakob Micyllus</persName>, für den <persName ref="person6">Amerbach</persName> als Rektor der Universität am 2. Juli ein Gastmahl gab; s. <persName ref="person6">Amerbach</persName>, Korr. V 294.</note> dixit in aurem mihi <persName ref="person592">Camerarium</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person592">Joachim Camerarius</persName>.</note> <placeName ref="place1107">Tubingensem</placeName> narrasse, dum Faber<note xml:id="fn8" type="footnote" n="8"><persName ref="person805">Johannes Fabri</persName>, Bischof von Wien.</note> ad comitia venerit, venisse cum bono quodam viro in colloquium.</s>
+					<s n="9" xml:lang="la" type="auto">Fuerunt hic pridie, quam hęc scriberem, viri quidam docti, e quibus unus<note xml:id="fn6" type="footnote" n="6">Zu denken ist an <persName>Jakob Micyllus</persName>, für den <persName ref="p8422">Amerbach</persName> als Rektor der Universität am 2. Juli ein Gastmahl gab; s. <persName ref="p8422">Amerbach</persName>, Korr. V 294.</note> dixit in aurem mihi <persName ref="p4503">Camerarium</persName><note xml:id="fn7" type="footnote" n="7"><persName>Joachim Camerarius</persName>.</note> <placeName>Tubingensem</placeName> narrasse, dum Faber<note xml:id="fn8" type="footnote" n="8"><persName>Johannes Fabri</persName>, Bischof von Wien.</note> ad comitia venerit, venisse cum bono quodam viro in colloquium.</s>
 					<s n="10" xml:lang="la" type="auto">Hunc inter alia dixisse: „Mirabilis erit disputatio; nam sunt viri certe ab evangelio stantes docti et adprime armati scripturis, ut non sint facile cessuri.“</s>
 					<s n="11" xml:lang="de" type="auto">Tum Fabrum respondisse: „Es darff<note xml:id="fn9" type="footnote" n="9">bedarf.</note> nit vil disputierens; es muͦß mit einr kalten klingen usgericht werden.“<note xml:id="fn10" type="footnote" n="10">Vgl. oben <ref target="file11430">Nr. 1387</ref>, Anm. 2.</note></s>
 					<s n="12" xml:lang="la" type="auto">Hęc deinceps sunt mihi confirmata, ut non possit esse dubium episcopos nihil nisi bellum moliri.</s>
-					<s n="13" xml:lang="la" type="auto">Dum igitur ad superiora respicio, non possum non revocare in memoriam, quod postremo vobis scripsi<note xml:id="fn11" type="footnote" n="11">Siehe oben <ref target="file11443">Nr. 1400</ref>. - Zweifellos war <persName ref="person154">Myconius</persName> enttäuscht darüber, daß Zürich die Entsendung eidgenössischer Theologen nach <placeName ref="place447">Hagenau</placeName> entschieden abgelehnt hatte (vgl. das Schreiben Zürichs an <placeName ref="place97">Basel</placeName> vom 31. Mai, ADRG I/2 829-832).</note> simul famam tantum de vestro, id est <placeName ref="place97">Helvetiorum</placeName> adventu perterrefacere potuisse adversarios; non habent enim, quod eos reddat pertinaciores quam dissidium nostrum.</s>
+					<s n="13" xml:lang="la" type="auto">Dum igitur ad superiora respicio, non possum non revocare in memoriam, quod postremo vobis scripsi<note xml:id="fn11" type="footnote" n="11">Siehe oben <ref target="file11443">Nr. 1400</ref>. - Zweifellos war <persName>Myconius</persName> enttäuscht darüber, daß Zürich die Entsendung eidgenössischer Theologen nach <placeName>Hagenau</placeName> entschieden abgelehnt hatte (vgl. das Schreiben Zürichs an <placeName>Basel</placeName> vom 31. Mai, <bibl>ADRG</bibl> I/2 829-832).</note> simul famam tantum de vestro, id est <placeName>Helvetiorum</placeName> adventu perterrefacere potuisse adversarios; non habent enim, quod eos reddat pertinaciores quam dissidium nostrum.</s>
 					<s n="14" xml:lang="la" type="auto">Et dum hoc tempore nonnihil de nostro omnium concordia foret dictum, ut aliquid spei in speciem reliquum<note xml:id="fna" type="footnote" n="a">in speciem reliquum <hi>am Rande nachgetragen.</hi></note> haberent, dixit Faber: „O concordiam; ficta est, nihil igitur timemus.“</s>
 					<s n="15" xml:lang="la" type="auto">Ex quibus certum est, quod dixi, dissidium nostrum illos reddere fortes.</s>
 					<s n="16" xml:lang="la" type="auto">Velim, ut consultatio<pb type="edition" next="135"/> fieret et de concordia et de obviando malis, quę imminent.</s>
@@ -153,7 +151,7 @@
 				</p>
 				<p>
 					<s n="18" xml:lang="la" type="auto">Possem multa adhuc adiicere, si non certiora expectarem.</s>
-					<s n="19" xml:lang="la" type="auto">Turca<note xml:id="fn12" type="footnote" n="12">Sultan <persName ref="person2269">Suleiman I.</persName></note> certissime damnum grave intulit et bellum instauravit<note xml:id="fn13" type="footnote" n="13">Ein unzutreffendes Gerücht.</note>.</s>
+					<s n="19" xml:lang="la" type="auto">Turca<note xml:id="fn12" type="footnote" n="12"><persName>Sultan Suleiman I.</persName></note> certissime damnum grave intulit et bellum instauravit<note xml:id="fn13" type="footnote" n="13">Ein unzutreffendes Gerücht.</note>.</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="la" type="auto">Vale cum tuis.</s>
@@ -161,10 +159,10 @@
 					<s n="22" xml:lang="la" type="auto">Dominus det spem concordię.</s>
 				</p>
 				<p>
-					<s n="23" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, raptim, 4. iulii anno 40.</s>
+					<s n="23" xml:lang="la" type="auto"><placeName>Basileę</placeName>, raptim, 4. iulii anno 40.</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="24" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

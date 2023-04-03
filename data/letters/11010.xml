@@ -6,53 +6,44 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Oswald Myconius, 12. März 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=968</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">98</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,475</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Weist die Kritik an der angeblich konkordienfeindlichen Haltung ungenannter Kollegen unter Hinweis auf
-								<persName ref="person145">Meganders</persName> Rechtfertigungsschreiben
+								<persName ref="p8412">Meganders</persName> Rechtfertigungsschreiben
 								[<ref target="file11007">Nr. 965</ref>] zurück und wundert sich über das Ausbleiben einer Antwort
-								<persName ref="person138">Luthers</persName> [auf den Brief der reformierten Städte der Eidgenossenschaft].
-								Die von <persName ref="person40">Capito</persName> angeregte Zusammenkunft ist erst dann sinnvoll, wenn die
-								<placeName ref="place1049">Straßburger</placeName> Zürich und
-								<placeName ref="place121">Bern</placeName> schriftlich über
-								<persName ref="person138">Luthers</persName> Stellungnahme zum [Ersten Helvetischen] Bekenntnis
+								<persName ref="p1974">Luthers</persName> [auf den Brief der reformierten Städte der Eidgenossenschaft].
+								Die von <persName ref="p5565">Capito</persName> angeregte Zusammenkunft ist erst dann sinnvoll, wenn die
+								<placeName>Straßburger</placeName> Zürich und
+								<placeName>Bern</placeName> schriftlich über
+								<persName ref="p1974">Luthers</persName> Stellungnahme zum [Ersten Helvetischen] Bekenntnis
 								unterrichtet haben. Zürich erstrebt weiterhin eine diesem Bekenntnis gemäße Konkordie. Grüße und Bitte um
 								Neuigkeiten.
 							</p>
@@ -61,13 +52,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 968, S.98</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11010">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -77,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1537-03-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -118,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,23 +130,23 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et vitae innocentiam a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quibusde loquaris, observandissime <persName ref="person154">Myconi</persName>, cum ais<note xml:id="fn2" type="footnote" n="2">Ebenda, Z. 32f.</note>: "Video quosdam charitatis fraternae tam parum possidere, ut plus reluceat pertinaciae", non video.</s>
-					<s n="3" xml:lang="la" type="auto">Certe 8. martii scribit ad me <persName ref="person145">Megander</persName> in haec verba<note xml:id="fn3" type="footnote" n="3">Siehe oben <ref target="file11007">Nr. 965</ref>, 2-6 (mit Anm. 1f).</note>: "Amicam et fraternam de non proscribendis <persName ref="person28">Buceri</persName> Retractationibus admonitionem quis non boni consulat, charissime mi Bullingere?</s>
-					<s n="4" xml:lang="la" type="auto">Verum id nequaquam agitatum est a nobis, quemadmodum ad te et ad <persName ref="person114">Leonem</persName> intelligo relatum, imo sub conditione omnia, et illa quidem quibusdam solum a fratribus."</s>
+					<s n="2" xml:lang="la" type="auto">Quibusde loquaris, observandissime <persName ref="p8418">Myconi</persName>, cum ais<note xml:id="fn2" type="footnote" n="2">Ebenda, Z. 32f.</note>: "Video quosdam charitatis fraternae tam parum possidere, ut plus reluceat pertinaciae", non video.</s>
+					<s n="3" xml:lang="la" type="auto">Certe 8. martii scribit ad me <persName ref="p8412">Megander</persName> in haec verba<note xml:id="fn3" type="footnote" n="3">Siehe oben <ref target="file11007">Nr. 965</ref>, 2-6 (mit Anm. 1f).</note>: "Amicam et fraternam de non proscribendis <persName ref="p467">Buceri</persName> Retractationibus admonitionem quis non boni consulat, charissime mi Bullingere?</s>
+					<s n="4" xml:lang="la" type="auto">Verum id nequaquam agitatum est a nobis, quemadmodum ad te et ad <persName ref="p1753">Leonem</persName> intelligo relatum, imo sub conditione omnia, et illa quidem quibusdam solum a fratribus."</s>
 					<s n="5" xml:lang="la" type="auto">Haec ille.</s>
 					<s n="6" xml:lang="la" type="auto">Inter nos neminem video insolescere, quantum ego possum iudicare.</s>
-					<s n="7" xml:lang="la" type="auto">Miror autem, si <persName ref="person138">Lutherus</persName> ita nostrum ablegarit a se nuncium, ut ne verbum quidem addiderit, placeatne an displiceat<note xml:id="fn4" type="footnote" n="4">Nämlich das Erste Helvetische Bekenntnis bzw. dessen Auslegung im Brief der reformierten Städte der Eidgenossenschaft an <persName ref="person138">Luther</persName> vom 12. Januar; vgl. oben <ref target="file11002">Nr. 960</ref>, 25f mit Anm. 5f.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Miror autem, si <persName ref="p1974">Lutherus</persName> ita nostrum ablegarit a se nuncium, ut ne verbum quidem addiderit, placeatne an displiceat<note xml:id="fn4" type="footnote" n="4">Nämlich das Erste Helvetische Bekenntnis bzw. dessen Auslegung im Brief der reformierten Städte der Eidgenossenschaft an <persName ref="p18889">Luther</persName> vom 12. Januar; vgl. oben <ref target="file11002">Nr. 960</ref>, 25f mit Anm. 5f.</note>.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><pb type="edition" next="99"/>De iterando conventu, ut scribit <persName ref="person40">Capito</persName><note xml:id="fn5" type="footnote" n="5">Siehe ebd., Z. 27-30.</note>, vereor, ne nostri tandem conventuum et sumptuum pertesi dicant: "Et quis finis?</s>
-					<s n="9" xml:lang="la" type="auto">Toties convenimus, toties responsa expectamus, scribimus <persName ref="person138">Luthero</persName>, audimus <placeName ref="place1049">Argentoratenses</placeName>; sed nemo vel literam a <persName ref="person138">Luthero</persName> refert, nemo certa nunciat."</s>
-					<s n="10" xml:lang="la" type="auto">Si quid ergo certi tulerint a <persName ref="person138">Luthero</persName> vel ex conventu Schmalkaldiae <placeName ref="place1049">Argentoratenses</placeName>, consultissimum videretur, ut horum summam scripto ad nos darent, deinde ad conventum invitarent.</s>
+					<s n="8" xml:lang="la" type="auto"><pb type="edition" next="99"/>De iterando conventu, ut scribit <persName ref="p5565">Capito</persName><note xml:id="fn5" type="footnote" n="5">Siehe ebd., Z. 27-30.</note>, vereor, ne nostri tandem conventuum et sumptuum pertesi dicant: "Et quis finis?</s>
+					<s n="9" xml:lang="la" type="auto">Toties convenimus, toties responsa expectamus, scribimus <persName ref="p1974">Luthero</persName>, audimus <placeName>Argentoratenses</placeName>; sed nemo vel literam a <persName ref="p1974">Luthero</persName> refert, nemo certa nunciat."</s>
+					<s n="10" xml:lang="la" type="auto">Si quid ergo certi tulerint a <persName ref="p1974">Luthero</persName> vel ex conventu Schmalkaldiae <placeName>Argentoratenses</placeName>, consultissimum videretur, ut horum summam scripto ad nos darent, deinde ad conventum invitarent.</s>
 					<s n="11" xml:lang="la" type="auto">Si enim nunc conventus fuerit indictus, nostri aut non venient aut, si veniant, audient tantum.</s>
 					<s n="12" xml:lang="la" type="auto">Itaque oportebit alium conventum indici augebiturque sumptus, adversariorum spes et nostrorum suspitio, scandalum et ira.</s>
 					<s n="13" xml:lang="de" type="auto">Ich wölt, das man uns fry heruß sagte: "Man hat an üwer confession und responsion<note xml:id="fn6" type="footnote" n="6">Siehe oben Anm. 4.</note> ein benuͤgen<note xml:id="fn7" type="footnote" n="7">d. h. man gibt sich damit zufrieden.</note> oder nitt, und dorumb und dorumb habend wirs nitt."</s>
 					<s n="14" xml:lang="de" type="auto">Kan man das nitt mitt gschrifft anzeygen?</s>
-					<s n="15" xml:lang="de" type="auto">Wenn das nitt beschicht<note xml:id="fn8" type="footnote" n="8">geschieht.</note> so möchtend<note xml:id="fn9" type="footnote" n="9">könnten.</note> die unsernn oder <placeName ref="place121">Berner</placeName>, sagen: "Wir wöllend nienan hin<note xml:id="fn10" type="footnote" n="10">nirgends an einer Zusammenkunft teilnehmen.</note>, wir habind den vor ein antwurt".</s>
-					<s n="16" xml:lang="de" type="auto">Und wenn wir schon kummind und <placeName ref="place121">Berner</placeName> nitt, so ists aber<note xml:id="fn11" type="footnote" n="11">wieder.</note> ein unvolckommens, und were dorumb das best, vorhin Zürych und Bernn in eyner summa berichten, was die antwurt etc.</s>
+					<s n="15" xml:lang="de" type="auto">Wenn das nitt beschicht<note xml:id="fn8" type="footnote" n="8">geschieht.</note> so möchtend<note xml:id="fn9" type="footnote" n="9">könnten.</note> die unsernn oder <placeName>Berner</placeName>, sagen: "Wir wöllend nienan hin<note xml:id="fn10" type="footnote" n="10">nirgends an einer Zusammenkunft teilnehmen.</note>, wir habind den vor ein antwurt".</s>
+					<s n="16" xml:lang="de" type="auto">Und wenn wir schon kummind und <placeName>Berner</placeName> nitt, so ists aber<note xml:id="fn11" type="footnote" n="11">wieder.</note> ein unvolckommens, und were dorumb das best, vorhin Zürych und Bernn in eyner summa berichten, was die antwurt etc.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Haec ad te fideli animo perscribo nec temere.</s>
@@ -158,8 +156,8 @@
 					<s n="21" xml:lang="la" type="auto">In his erimus et iuvante Christi gratia perseverabimus in finem<note xml:id="fn12" type="footnote" n="12">Vgl. Mt 10, 22; 24, 13.</note>.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto">Vale una cum tuis, cum uxore<note xml:id="fn13" type="footnote" n="13">Margret, s. HBBW V <ref target="file10694">[Nr. 656]</ref>, S. 380, Anm. 18.</note>, <persName ref="person74">Gastio</persName>, reliquis.</s>
-					<s n="23" xml:lang="la" type="auto">Si quid certi habes ex Schmalcedona<note xml:id="fn14" type="footnote" n="14"><placeName ref="place958">Schmalkalden</placeName> (Wortspiel mit <persName ref="person618">Chalcedon</persName>; vgl. auch Volz. Urkunden 100, Anm. 9).</note>, de<note xml:id="fna" type="footnote" n="a">de <hi>am Rande nachgetragen.</hi></note> Bisantio<note xml:id="fn15" type="footnote" n="15"><placeName ref="place564">Konstantinopel</placeName>.</note>, Gallo<note xml:id="fn16" type="footnote" n="16"><persName ref="person859">Franz I.</persName>, König von <placeName ref="place11">Frankreich</placeName>.</note>, Turca<note xml:id="fn17" type="footnote" n="17">Sultan Suleiman I.</note> aut caesare<note xml:id="fn18" type="footnote" n="18">Kaiser <persName ref="person1332">Karl V.</persName></note> aut etiam morte doctoris <persName ref="person138">Lutheri</persName><note xml:id="fn19" type="footnote" n="19">Zu <persName ref="person138">Luthers</persName> Erkrankung vgl. WA Briefwechsel VIII 46-48.</note>, fac sciam.</s>
+					<s n="22" xml:lang="la" type="auto">Vale una cum tuis, cum uxore<note xml:id="fn13" type="footnote" n="13">Margret, s. <bibl>HBBW</bibl> V <ref target="file10694">[Nr. 656]</ref>, S. 380, Anm. 18.</note>, <persName ref="p1278">Gastio</persName>, reliquis.</s>
+					<s n="23" xml:lang="la" type="auto">Si quid certi habes ex Schmalcedona<note xml:id="fn14" type="footnote" n="14"><placeName>Schmalkalden</placeName> (Wortspiel mit <persName>Chalcedon</persName>; vgl. auch Volz. Urkunden 100, Anm. 9).</note>, de<note xml:id="fna" type="footnote" n="a">de <hi>am Rande nachgetragen.</hi></note> Bisantio<note xml:id="fn15" type="footnote" n="15"><placeName>Konstantinopel</placeName>.</note>, Gallo<note xml:id="fn16" type="footnote" n="16"><persName>Franz I.</persName>, König von <placeName>Frankreich</placeName>.</note>, Turca<note xml:id="fn17" type="footnote" n="17">Sultan Suleiman I.</note> aut caesare<note xml:id="fn18" type="footnote" n="18"><persName>Kaiser Karl V.</persName></note> aut etiam morte doctoris <persName ref="p1974">Lutheri</persName><note xml:id="fn19" type="footnote" n="19">Zu <persName ref="p18889">Luthers</persName> Erkrankung vgl. <bibl>WA</bibl> Briefwechsel VIII 46-48.</note>, fac sciam.</s>
 				</p>
 				<p>
 					<s n="24" xml:lang="la" type="auto">12. martii.</s>
@@ -172,7 +170,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="27" xml:lang="la" type="auto">Praestantissimae eruditionis et pietatis viro d. <persName ref="person154">Osvaldo Myconio</persName>, antistiti ecclesiae <placeName ref="place97">Basileiensis</placeName>, suo in domino colendissimo fratri.</s>
+					<s n="27" xml:lang="la" type="auto">Praestantissimae eruditionis et pietatis viro d. <persName ref="p8418">Osvaldo Myconio</persName>, antistiti ecclesiae <placeName>Basileiensis</placeName>, suo in domino colendissimo fratri.</s>
 				</p>
 			</div>
 		</body>

@@ -6,40 +6,31 @@
 				<title subtype="file">Konrad Müppein / Wädenswil AN Synode / [Zürich], 18. Oktober 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=459</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">357</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 1,190</idno>
 					</msIdentifier>
 					<msContents>
@@ -57,25 +48,32 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 459, S.357</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10494">
 				<correspAction type="sent">
-					<persName ref="person2006" cert="high">
+					<persName ref="p2006" cert="high">
 						<!--
 						<surname cert="high">Müppein</surname>
 						<forename cert="high">Konrad</forename>
 						<persName type="main" ref="person8489>Müppein, Konrad</persName>
 						-->
 					</persName>
-					<placeName source="place570" cert="high"><orig>Wädenswil</orig></placeName>
+					<placeName source="l570" cert="high"><orig>Wädenswil</orig></placeName>
 					<date when="1534-10-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<orgName ref="org25" type="sg" role="Synode" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<orgName ref="i25" type="sg" role="Synode" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10495"/>
@@ -93,7 +91,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -110,14 +108,14 @@
 					<s n="2" xml:lang="la" type="auto">Magnifici patres ac praeceptores mei observandissimi, quanta mihi, humilimo vestro, opus erit paciencia, cum tot in dies nugis, imo falsis accusacionibus coram benignissimis diaconibus vestris mihi tocies falso detrahi percipio.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto"><pb type="edition" next="358"/>Cum igitur antea quamplures falsos accusatores de me experti estis, credetis et illum<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> mihi odiosum, qui de me mentitur me missam nimium extollere<note xml:id="fn4" type="footnote" n="4">Schon im Oktober 1530 war <persName ref="person159">Müppein</persName> von der Synode vorgeworfen worden, er nenne die Messe zu häufig, als ob er noch etwas davon halte, s. AZürcherref 1714, S. 730.</note>.</s>
-					<s n="4" xml:lang="la" type="auto">Incusant me emuli isti ex eo, quia altaria in ecclesia nostra non sunt deposita<note xml:id="fn5" type="footnote" n="5">Dem Mandat vom 15. Juni 1524 entsprechend war es den einzelnen Kirchgemeinden auf dem Land überlassen worden, Altäre und Bildwerke nach erfolgter Abstimmung aus den Kirchen zu entfernen (s. AZürcherRef 546). - <placeName ref="place1218">Wädenswil</placeName> ist wohl eine der wenigen Gemeinden, von denen belegt ist, daß die Altäre weiterhin in der Kirche stehen blieben.</note>, sed id haut meo reatu.</s>
+					<s n="3" xml:lang="la" type="auto"><pb type="edition" next="358"/>Cum igitur antea quamplures falsos accusatores de me experti estis, credetis et illum<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> mihi odiosum, qui de me mentitur me missam nimium extollere<note xml:id="fn4" type="footnote" n="4">Schon im Oktober 1530 war <persName>Müppein</persName> von der Synode vorgeworfen worden, er nenne die Messe zu häufig, als ob er noch etwas davon halte, s. AZürcherref 1714, S. 730.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Incusant me emuli isti ex eo, quia altaria in ecclesia nostra non sunt deposita<note xml:id="fn5" type="footnote" n="5">Dem Mandat vom 15. Juni 1524 entsprechend war es den einzelnen Kirchgemeinden auf dem Land überlassen worden, Altäre und Bildwerke nach erfolgter Abstimmung aus den Kirchen zu entfernen (s. <bibl>AZürcherRef</bibl> 546). - <placeName>Wädenswil</placeName> ist wohl eine der wenigen Gemeinden, von denen belegt ist, daß die Altäre weiterhin in der Kirche stehen blieben.</note>, sed id haut meo reatu.</s>
 					<s n="5" xml:lang="la" type="auto">Scitis non esse meam praecipiendi aut cohibendi potestatem, sed solum pronunciandi verbum dei, quod sane nusquam transeo neque tacui illud Esai.</s>
 					<s n="6" xml:lang="la" type="auto">27[9]: «Ponet dominus omnes lapides altaris sicut lapides cineris.»</s>
 					<s n="7" xml:lang="la" type="auto">Omnia altana devastabit in templo Iudeorum, idque per Ezechiam factum dinoscitur Esai. 36 [7].</s>
 					<s n="8" xml:lang="la" type="auto">Hinc sanctuarium dissipatum Daniele id praedicente, Dan. 9 [27].</s>
 					<s n="9" xml:lang="la" type="auto">Quid Asa, quid losaphat 2 Paralip.</s>
-					<s n="10" xml:lang="la" type="auto">14 [3.5] et 17 [<note xml:id="fn6" type="footnote" n="6">Das Autograph dieser Predigt mit dem Titel «Tractatus de abusibus missae authore Conrado <persName ref="person159">Müppein</persName>, VDM in Wädischwyl, anno 34» befindet sich in Zürich StA, E II 337, 94r. - 101v. (eingereiht zwischen f. 61 und 62 dieses Bandes).</note>]egerint, non preterii etc.</s>
+					<s n="10" xml:lang="la" type="auto">14 [3.5] et 17 [<note xml:id="fn6" type="footnote" n="6">Das Autograph dieser Predigt mit dem Titel «Tractatus de abusibus missae authore Conrado <persName>Müppein</persName>, VDM in Wädischwyl, anno 34» befindet sich in Zürich StA, E II 337, 94r. - 101v. (eingereiht zwischen f. 61 und 62 dieses Bandes).</note>]egerint, non preterii etc.</s>
 					<s n="11" xml:lang="la" type="auto">Hii destruxerunt excelsa atque altana ideo, quia noluit deus ultra offerri sacrificia frustra, Esai. 1 [12].</s>
 					<s n="12" xml:lang="la" type="auto">Magis nostra destruenda sunt altana, quia imolacionem Christi credimus et scimus omnia sacrificia esse impleta.</s>
 					<s n="13" xml:lang="la" type="auto">Quare in dies clamo: «Cur non deponitis?</s>
@@ -127,7 +125,7 @@
 					<s n="17" xml:lang="la" type="auto">Si quopiam et in his simplicissimis scriptis meis erraverim, commendo me emendacioni vestrae obtemperantissimum.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">Demum absencie mee<note xml:id="fn7" type="footnote" n="7">An der Synode vom 5. Mai 1534 war der Schaffner von <placeName ref="place1218">Wädenswil</placeName>, Hans Win d. J. (s. HBLS VII 569), beauftragt worden, <persName ref="person159">Müppein</persName> zur Teilnahme an der Synode aufzufordern (s. Zürich StA, E II 1, 147v.), der er seit einigen Jahren, so auch im Oktober 1530 und im April 1531 (s. AZürcherRef 1714, S. 730 bzw. 1757, S. 751), ferngeblieben war.</note> rationem reddo.</s>
+					<s n="18" xml:lang="la" type="auto">Demum absencie mee<note xml:id="fn7" type="footnote" n="7">An der Synode vom 5. Mai 1534 war der Schaffner von <placeName>Wädenswil</placeName>, Hans Win d. J. (s. <bibl>HBLS</bibl> VII 569), beauftragt worden, <persName>Müppein</persName> zur Teilnahme an der Synode aufzufordern (s. Zürich StA, E II 1, 147v.), der er seit einigen Jahren, so auch im Oktober 1530 und im April 1531 (s. <bibl>AZürcherRef</bibl> 1714, S. 730 bzw. 1757, S. 751), ferngeblieben war.</note> rationem reddo.</s>
 					<s n="19" xml:lang="la" type="auto">Deus scit, quod non mentior spiritui sancto Ananie atque Saphire instar<note xml:id="fn8" type="footnote" n="8">Vgl. Apg 5, 1-11.</note>.</s>
 					<s n="20" xml:lang="la" type="auto">Quemadmodum omni vernali atque autumnali tempore, ita et nunc mea adversa valitudo ambulare me vetat.</s>
 					<s n="21" xml:lang="la" type="auto">Nemo, precor, ad deterius mihi imputare velit.</s>
@@ -138,7 +136,7 @@
 					<s n="24" xml:lang="la" type="auto">Ex Wedischwil, octobris die decima octava 1534.</s>
 				</p>
 				<p>
-					<s n="25" xml:lang="la" type="auto"><persName ref="person159">Conradus Müppein</persName>, evangelii et pauperum eius servitor, obtemperatissimus [!] vester<note xml:id="fn9" type="footnote" n="9">Die Synode akzeptierte <persName ref="person159">Müppeins</persName> Rechtfertigung in beiden Punkten. Sie beschloß, der Schaffner von <placeName ref="place1218">Wädenswil</placeName> solle ermahnt werden, die Altäre abzubrechen, um so dem Mandat von 1524 nachzukommen (s. Zürich StA, E II 1, 183v.). Im Mai 1540 klagte <persName ref="person185">Michael Schlatter</persName> allerdings erneut darüber, daß die Altäre noch in der Kirche stünden (s. Zürich StA, E II 1, 249r.).</note>.<pb type="edition" next="359"/></s>
+					<s n="25" xml:lang="la" type="auto"><persName ref="p8489">Conradus Müppein</persName>, evangelii et pauperum eius servitor, obtemperatissimus [!] vester<note xml:id="fn9" type="footnote" n="9">Die Synode akzeptierte <persName>Müppeins</persName> Rechtfertigung in beiden Punkten. Sie beschloß, der Schaffner von <placeName>Wädenswil</placeName> solle ermahnt werden, die Altäre abzubrechen, um so dem Mandat von 1524 nachzukommen (s. Zürich StA, E II 1, 183v.). Im Mai 1540 klagte <persName>Michael Schlatter</persName> allerdings erneut darüber, daß die Altäre noch in der Kirche stünden (s. Zürich StA, E II 1, 249r.).</note>.<pb type="edition" next="359"/></s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

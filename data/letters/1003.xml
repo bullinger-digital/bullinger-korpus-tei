@@ -6,31 +6,31 @@
 				<title subtype="file">Lorenz Meyer / Schwanden AN Heinrich Bullinger / Zürich, [26. August 1550]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,483</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 71,36</idno>
 						<idno subtype="Hinweis">dat.: [1549]</idno>
 					</msIdentifier>
@@ -60,18 +60,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1003">
 				<correspAction type="sent">
-					<persName ref="person2115" cert="high">
+					<persName ref="p2115" cert="high">
 						<!--
 						<surname cert="high">Meyer</surname>
 						<forename cert="high">Lorenz</forename>
 						<persName type="main" ref="person8130>Meyer, Lorenz</persName>
 						-->
 					</persName>
-					<placeName source="place458" cert="high"><orig>Schwanden</orig></placeName>
+					<placeName source="l458" cert="high"><orig>Schwanden</orig></placeName>
 					<date when="1550-08-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -81,7 +81,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file1004"/>
@@ -108,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -151,7 +151,7 @@
 					<s n="28" xml:lang="de" type="auto">Sind inn disem die pensionarii huffächtig ab offner landsgmeind hinzogen, ettliche heim, die andren inn die wirtzhüser über des ammans<note xml:id="fn8" type="footnote" n="8">Bäldi, oder Bussi(?).</note> vermanen by eer und eyd, habend sich nütt dran keert, hatt inen den weybel nachgschiktt, sy widerum an die gmeind ze machen by iren eyden.</s>
 					<s n="29" xml:lang="de" type="auto">Ist alles umbsunst gsin etc.</s>
 					<s n="30" xml:lang="de" type="auto">Darab ein grosß duren empfangen die gmeind etc.</s>
-					<s n="31" xml:lang="de" type="auto">Hatt sich inn disem Beldius<note xml:id="fn9" type="footnote" n="9">Joachim Bäldi.</note>, so vil er vermögen, gar träffenlich bemuͤytt und abgstelt, damitt nitt nach bösers daruß wurde, und grathen, man sölle yetz das best thuͦn; es söll nitt mer gschähen, es muͤsse uff die zuͦkunfftig Meyengmeind<note xml:id="fn10" type="footnote" n="10">1551.</note> für khommen werden, das niemantz fürhin bym eyd ab kheiner gmeind nitt abwychen etc.</s>
+					<s n="31" xml:lang="de" type="auto">Hatt sich inn disem Beldius<note xml:id="fn9" type="footnote" n="9"><persName>Joachim Bäldi</persName>.</note>, so vil er vermögen, gar träffenlich bemuͤytt und abgstelt, damitt nitt nach bösers daruß wurde, und grathen, man sölle yetz das best thuͦn; es söll nitt mer gschähen, es muͤsse uff die zuͦkunfftig Meyengmeind<note xml:id="fn10" type="footnote" n="10">1551.</note> für khommen werden, das niemantz fürhin bym eyd ab kheiner gmeind nitt abwychen etc.</s>
 					<s n="32" xml:lang="de" type="auto">Und ist mitt grosser arbeytt das landvolk gstillett und ungwüß, ob es das meer sige oder nitt, das niemantz fürhin kein heimlich gelt sölle nemmen.</s>
 					<s n="33" xml:lang="de" type="auto">A[mmann] Bussius sol under andrem gseit han: "Lieben landtlütt, ich sich und spuͤr, das under uns das heimlichgelt vil und schwär unruͦw bringtt.</s>
 					<s n="34" xml:lang="de" type="auto">Ist min ratht und meinung, das wir sy muͤssig gangind etc.</s>

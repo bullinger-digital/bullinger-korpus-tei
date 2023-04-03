@@ -6,48 +6,39 @@
 				<title subtype="file">Leo Jud / Zürich AN Heinrich Bullinger, 1. Dezember 1525</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=11</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">81</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,341 1 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Beantwortet, zum Teil in <persName ref="person265">Zwinglis</persName> Namen, Fragen und Hinweise
-								Bullinger: betreffend gewisse Stellen bei <persName ref="person2287">Tertullian</persName> und
-								<persName ref="person1445">Laktanz</persName> über die Taufe und die Kirche.
+								Beantwortet, zum Teil in <persName ref="p4091">Zwinglis</persName> Namen, Fragen und Hinweise
+								Bullinger: betreffend gewisse Stellen bei <persName ref="p17746">Tertullian</persName> und
+								<persName>Laktanz</persName> über die Taufe und die Kirche.
 							</p>
 						</summary>
 						<msItem>
@@ -57,13 +48,20 @@
 					<physDesc>
 						<objectDesc><p>sehr gut erhalten</p></objectDesc>
 					</physDesc>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 11, S.81</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10036">
 				<correspAction type="sent">
-					<persName ref="person1753" cert="high">
+					<persName ref="p1753" cert="high">
 						<!--
 						<surname cert="high">Jud</surname>
 						<forename cert="high">Leo</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11423330"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1525-12-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,13 +124,13 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem<note xml:id="fna" type="footnote" n="a"><hi>Darüber und am Rande Bemerkungen von J. H. Hottinger.</hi></note>.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Iussus sum a <persName ref="person265">Zuinglio</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person265">Zwingli</persName> war zu dieser Zeit mit der Lektüre von <persName ref="person514">Brenz</persName>' Syngramma beschäftigt, s. seinen Brief an <persName ref="person160">Oekolampad</persName> vom 1. Dezember 1525, Z VIII 446-448.</note>, nam huic non ocium erat tua legendi, frater charissime, epistolam tuam<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> pellegere<note xml:id="fn4" type="footnote" n="4"><persName ref="person114">Leo Jud</persName> war durch seine Mitwirkung in der Bekämpfung der Täufer vorzüglich dazu geeignet, die in diesen Zusammenhang gehörenden Fragen Bullingers zu beantworten, vgl. Heinold <hi>Fast,</hi> On the Beginnings of Bernese Anabaptism, in: MQR XXXI, 1957, 293.</note> Cui lubens parui vidique <persName ref="person2287">Tertulianum</persName> in iis locis<note xml:id="fn5" type="footnote" n="5">Siehe unten Anm. 7. 9. 10.</note>, quę [!] tu adnotaveras.</s>
-					<s n="3" xml:lang="la" type="auto">Et ecce meridiana luce<note xml:id="fn6" type="footnote" n="6">Vgl. Jes 18,4.</note> clarius inveni eum in hac esse sententia, ut intinctionem<note xml:id="fn7" type="footnote" n="7">Vgl. <persName ref="person2287">Tertullian</persName>, De paenitentia 6, 3 (CSEL LXXVI 153, 14) u. ö.</note> (nam hoc est <foreign xml:lang="el">βάπτισμα</foreign>) poenitentie<note xml:id="fn8" type="footnote" n="8">Vgl. Mk 1,4 par.; Apg 19,4.</note> tamquam obsignationem<note xml:id="fn9" type="footnote" n="9">Vgl. <persName ref="person2287">Tertullian</persName>, De paenitentia 6, 16 (CSEL LXXVI 156, 60) u. ö.</note> praemittat iis, qui novam vitam sint inchoaturi, aut (ut suis verbis loquar) iis, qui per gratiam ad promissionem semini Abrahe destinatam vocati essent<note xml:id="fn10" type="footnote" n="10"><persName ref="person2287">Tertullian</persName>, De paenitentia 2, 4 (CSEL LXXVI 142, 19-22): «... praeire intinctionem paenitentiae iussit, si, quos per gratiam vocaret ad promissionem semini Abraham destinatam, per paenitentiae subsignationem ante conponeret.» Vgl. Gal 3,29.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Iussus sum a <persName ref="p4091">Zuinglio</persName><note xml:id="fn2" type="footnote" n="2"><persName>Zwingli</persName> war zu dieser Zeit mit der Lektüre von <persName ref="p17881">Brenz</persName>' Syngramma beschäftigt, s. seinen Brief an <persName>Oekolampad</persName> vom 1. Dezember 1525, <bibl>Z</bibl> VIII 446-448.</note>, nam huic non ocium erat tua legendi, frater charissime, epistolam tuam<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> pellegere<note xml:id="fn4" type="footnote" n="4"><persName ref="p2305">Leo Jud</persName> war durch seine Mitwirkung in der Bekämpfung der Täufer vorzüglich dazu geeignet, die in diesen Zusammenhang gehörenden Fragen Bullingers zu beantworten, vgl. Heinold <hi>Fast,</hi> On the Beginnings of Bernese Anabaptism, in: <bibl>MQR</bibl> XXXI, 1957, 293.</note> Cui lubens parui vidique <persName ref="p17746">Tertulianum</persName> in iis locis<note xml:id="fn5" type="footnote" n="5">Siehe unten Anm. 7. 9. 10.</note>, quę [!] tu adnotaveras.</s>
+					<s n="3" xml:lang="la" type="auto">Et ecce meridiana luce<note xml:id="fn6" type="footnote" n="6">Vgl. Jes 18,4.</note> clarius inveni eum in hac esse sententia, ut intinctionem<note xml:id="fn7" type="footnote" n="7">Vgl. <persName>Tertullian</persName>, De paenitentia 6, 3 (<bibl>CSEL</bibl> LXXVI 153, 14) u. ö.</note> (nam hoc est <foreign xml:lang="el">βάπτισμα</foreign>) poenitentie<note xml:id="fn8" type="footnote" n="8">Vgl. Mk 1,4 par.; Apg 19,4.</note> tamquam obsignationem<note xml:id="fn9" type="footnote" n="9">Vgl. <persName>Tertullian</persName>, De paenitentia 6, 16 (<bibl>CSEL</bibl> LXXVI 156, 60) u. ö.</note> praemittat iis, qui novam vitam sint inchoaturi, aut (ut suis verbis loquar) iis, qui per gratiam ad promissionem semini Abrahe destinatam vocati essent<note xml:id="fn10" type="footnote" n="10"><persName>Tertullian</persName>, De paenitentia 2, 4 (<bibl>CSEL</bibl> LXXVI 142, 19-22): «... praeire intinctionem paenitentiae iussit, si, quos per gratiam vocaret ad promissionem semini Abraham destinatam, per paenitentiae subsignationem ante conponeret.» Vgl. Gal 3,29.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Quid hoc aliud est quam, ut ex Matheo [8, 11] audiebatur, gentes esse vocatas a finibus mundi, ut cum Abraham ceterisque patribus quiete fruerentur?</s>
 					<s n="5" xml:lang="la" type="auto">Ceterum «lex obiter subiit, ut abundaret delictum» [Röm 5,20], quam spem Christus diruit, ut faceret utraque unum.</s>
-					<s n="6" xml:lang="la" type="auto">Deinde Lactantium in eadem esse sententia repperi in capite 15. et 20.<note xml:id="fn11" type="footnote" n="11"><persName ref="person1445">Laktanz</persName>, Divinae institutiones, lib. IV, cap. 15 (CSEL XIX 329, 14ff) und cap. 20 (CSEL XIX 364, 1ff).</note>, quemadmodum tu adsignaras, unam esse fidem, unam ecclesiam et eorum, qui ante, et eorum, qui post Christum per unum Christum salvati sunt<note xml:id="fn12" type="footnote" n="12">Zu dieser Anschauung Bullingers s. Joachim <hi>Staedtke,</hi> Die Juden im historischen und theologischen Urteil des Schweizer Reformators Heinrich Bullinger, in: Judaica. Beiträge zum Verständnis des jüdischen Schicksals in Vergangenheit und Gegenwart, Bd. XI, 1955, S. 236-256.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Deinde Lactantium in eadem esse sententia repperi in capite 15. et 20.<note xml:id="fn11" type="footnote" n="11"><persName>Laktanz</persName>, Divinae institutiones, lib. IV, cap. 15 (<bibl>CSEL</bibl> XIX 329, 14ff) und cap. 20 (<bibl>CSEL</bibl> XIX 364, 1ff).</note>, quemadmodum tu adsignaras, unam esse fidem, unam ecclesiam et eorum, qui ante, et eorum, qui post Christum per unum Christum salvati sunt<note xml:id="fn12" type="footnote" n="12">Zu dieser Anschauung Bullingers s. Joachim <hi>Staedtke,</hi> Die Juden im historischen und theologischen Urteil des Schweizer Reformators Heinrich Bullinger, in: Judaica. Beiträge zum Verständnis des jüdischen Schicksals in Vergangenheit und Gegenwart, Bd. XI, 1955, S. 236-256.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Gratulandum nobis est, charissime Henrice, agendeque simul gratię patri nostro coelesti, qui nos in dies magis atque magis illustrat ac doctiores reddit.</s>
-					<s n="8" xml:lang="la" type="auto">Nam quis antea tam clare, tam aperte hoc docuit, que <persName ref="person265">Zuinglius</persName> noster (nimirum divino spiritu) tam docte et<pb type="edition" next="82"/> adposite protulit<note xml:id="fn13" type="footnote" n="13">Siehe z. B. Z VI/I 163, 8ff; Z XIII 105, 35ff. Zur Sache vgl. <hi>Staedtke</hi> 222 und Gottlob <hi>Schrenk,</hi> Gottesreich und Bund im älteren Protestantismus, vornehmlich bei Johannes Coccejus. Zugleich ein Beitrag zur Geschichte des Pietismus und der heilsgeschichtlichen Theologie. Gütersloh 1923. - Beiträge zur Förderung christlicher Theologie, 2. Reihe, 5. Bd. S. 37ff.</note>?</s>
+					<s n="8" xml:lang="la" type="auto">Nam quis antea tam clare, tam aperte hoc docuit, que <persName ref="p4091">Zuinglius</persName> noster (nimirum divino spiritu) tam docte et<pb type="edition" next="82"/> adposite protulit<note xml:id="fn13" type="footnote" n="13">Siehe z. B. <bibl>Z</bibl> VI/I 163, 8ff; <bibl>Z</bibl> XIII 105, 35ff. Zur Sache vgl. <bibl>Staedtke</bibl> 222 und Gottlob <hi>Schrenk,</hi> Gottesreich und Bund im älteren Protestantismus, vornehmlich bei Johannes Coccejus. Zugleich ein Beitrag zur Geschichte des Pietismus und der heilsgeschichtlichen Theologie. Gütersloh 1923. - Beiträge zur Förderung christlicher Theologie, 2. Reihe, 5. Bd. S. 37ff.</note>?</s>
 					<s n="9" xml:lang="la" type="auto">Ego plane ignorationem meam non vereor fateri et id quidem ingenue.</s>
 					<s n="10" xml:lang="la" type="auto">Error autem hinc natus est, ut puto, quod scripturam<note xml:id="fnb" type="footnote" n="b"><hi>aus</hi> scripturas <hi>korrigiert.</hi></note> evangelicam et apostolicam «Novum Testamentum» adpellaverunt<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> adpellaverunt <hi>gestrichen</hi> quoque.</note>, cum tamen scriptura testamentum non sit, et scriptura nulla est, quam que in libris Mos[aicis] continebatur.</s>
 					<s n="11" xml:lang="la" type="auto">Ceterum evangelium lux est et manifestatio atque adeo impletio scripturarum.</s>
@@ -140,11 +138,11 @@
 					<s n="13" xml:lang="la" type="auto">Cupio te esse salvum.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Haec mea sunt, que quod ad sententiam attinet puto satis esse, quaeque tibi statim misissem, nisi adolescens<note xml:id="fn15" type="footnote" n="15">Unbekannt.</note>, qui mihi tuas attulit litteras<note xml:id="fn16" type="footnote" n="16">Nicht erhalten.</note>, iam abiens de hoc verbo «anteponeret»<note xml:id="fn17" type="footnote" n="17">Siehe oben Anm. 10; statt «ante conponeret» findet sich «anteponeret» in der <persName ref="person2287">Tertullian</persName>-Ausgabe des <persName ref="person1923">Beatus Rhenanus</persName>, Basel 1521, CSEL LXXVI 142.</note> dixisset.</s>
-					<s n="15" xml:lang="la" type="auto">Rogavi ergo <persName ref="person265">Zuinglium</persName>, qui exacti iudicii est homo et in expendendis veterum sententiis vehementer acutus, qui perspecto loco <persName ref="person2287">Tertuliani</persName> putat «anteponere» hoc in loco excellentie et dignitatis esse vocabulum proque «praeponeret»<note xml:id="fnd" type="footnote" n="d"><hi>nach</hi> praeponeret <hi>gestrichen</hi> que [?].</note> esse positum.</s>
-					<s n="16" xml:lang="la" type="auto">Sed verba <persName ref="person2287">Tertuliani</persName> adscribamus: «Preire intinctionem poenitentie iussit, si, quos per gratiam vocaret ad promissionem Abrahe destinatam, per poenitentię subsignationem anteponeret.»</s>
-					<s n="17" xml:lang="la" type="auto">Admonebat <persName ref="person265">Zuinglius</persName> «ut» intelligendum esse ante «si», nam sic breviter loquebantur veteres tempestate <persName ref="person2287">Tertuliani</persName> «ut, si quos per gratiam vocaret etc., anteponeret», scilicet «eos»; per subsignationem, id est per signaculum<note xml:id="fn18" type="footnote" n="18">Der Ausdruck wird von <persName ref="person265">Zwingli</persName> auf die Beschneidung bzw. Taufe angewandt in Z VI/I 171, 28. Das Wort kommt bei <persName ref="person2287">Tertullian</persName>, De pudicitia 9, 11 (CChr II 1298, 48) in der Bedeutung Petschaft vor; vgl. auch <persName ref="person371">Augustin</persName>, Contra Faustum XIX, 11 (CSEL XXV 510, 3).</note>.</s>
-					<s n="18" xml:lang="la" type="auto">Nam veteribus, ut putat <persName ref="person265">Zuinglius</persName>, dictiones cum «sub» diminutivorum loco posita[e] reperiuntur<note xml:id="fn19" type="footnote" n="19"><persName ref="person265">Zwinglis</persName> Beobachtung ist grundsätzlich zutreffend, s. die Komposita mit sub, z. B. subblandior, subdubito, an dieser Stelle jedoch kaum richtig, s. Georges II 2880 und Blaise 786.</note>.</s>
+					<s n="14" xml:lang="la" type="auto">Haec mea sunt, que quod ad sententiam attinet puto satis esse, quaeque tibi statim misissem, nisi adolescens<note xml:id="fn15" type="footnote" n="15">Unbekannt.</note>, qui mihi tuas attulit litteras<note xml:id="fn16" type="footnote" n="16">Nicht erhalten.</note>, iam abiens de hoc verbo «anteponeret»<note xml:id="fn17" type="footnote" n="17">Siehe oben Anm. 10; statt «ante conponeret» findet sich «anteponeret» in der <persName>Tertullian</persName>-Ausgabe des <persName>Beatus Rhenanus</persName>, Basel 1521, <bibl>CSEL</bibl> LXXVI 142.</note> dixisset.</s>
+					<s n="15" xml:lang="la" type="auto">Rogavi ergo <persName ref="p4091">Zuinglium</persName>, qui exacti iudicii est homo et in expendendis veterum sententiis vehementer acutus, qui perspecto loco <persName ref="p17746">Tertuliani</persName> putat «anteponere» hoc in loco excellentie et dignitatis esse vocabulum proque «praeponeret»<note xml:id="fnd" type="footnote" n="d"><hi>nach</hi> praeponeret <hi>gestrichen</hi> que [?].</note> esse positum.</s>
+					<s n="16" xml:lang="la" type="auto">Sed verba <persName ref="p17746">Tertuliani</persName> adscribamus: «Preire intinctionem poenitentie iussit, si, quos per gratiam vocaret ad promissionem Abrahe destinatam, per poenitentię subsignationem anteponeret.»</s>
+					<s n="17" xml:lang="la" type="auto">Admonebat <persName ref="p4091">Zuinglius</persName> «ut» intelligendum esse ante «si», nam sic breviter loquebantur veteres tempestate <persName ref="p17746">Tertuliani</persName> «ut, si quos per gratiam vocaret etc., anteponeret», scilicet «eos»; per subsignationem, id est per signaculum<note xml:id="fn18" type="footnote" n="18">Der Ausdruck wird von <persName>Zwingli</persName> auf die Beschneidung bzw. Taufe angewandt in <bibl>Z</bibl> VI/I 171, 28. Das Wort kommt bei <persName>Tertullian</persName>, De pudicitia 9, 11 (CChr II 1298, 48) in der Bedeutung Petschaft vor; vgl. auch <persName>Augustin</persName>, Contra Faustum XIX, 11 (<bibl>CSEL</bibl> XXV 510, 3).</note>.</s>
+					<s n="18" xml:lang="la" type="auto">Nam veteribus, ut putat <persName ref="p4091">Zuinglius</persName>, dictiones cum «sub» diminutivorum loco posita[e] reperiuntur<note xml:id="fn19" type="footnote" n="19"><persName>Zwinglis</persName> Beobachtung ist grundsätzlich zutreffend, s. die Komposita mit sub, z. B. subblandior, subdubito, an dieser Stelle jedoch kaum richtig, s. <bibl>Georges</bibl> II 2880 und Blaise 786.</note>.</s>
 					<s n="19" xml:lang="la" type="auto">Haec volui meis addere, ut videres, quam sim in rebus tuis anxius, et ut tibi quoque satisfieret.</s>
 				</p>
 				<p>
@@ -154,7 +152,7 @@
 					<s n="21" xml:lang="la" type="auto">Ex Tyguro, altera post Andree 1525.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto"><persName ref="person114">Leo</persName> tuus.</s>
+					<s n="22" xml:lang="la" type="auto"><persName ref="p1753">Leo</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

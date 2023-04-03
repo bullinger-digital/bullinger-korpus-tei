@@ -6,52 +6,43 @@
 				<title subtype="file">[Heinrich Bullinger] / Zürich AN Joachim Vadian, zwischen s.d. [Mai] 1533 und s.d. [Juni] 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=229</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">134</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 40, Nr. 71</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Daß die St. Galler zu einer Zusammenkunft mit <placeName ref="place121">Bern</placeName>,
-								<placeName ref="place97">Basel</placeName> und <placeName ref="place943">Schaffhausen</placeName>
+								Daß die St. Galler zu einer Zusammenkunft mit <placeName>Bern</placeName>,
+								<placeName>Basel</placeName> und <placeName>Schaffhausen</placeName>
 								[nach Zürich] eingeladen wurden, geschah in der besten Absicht und Hoffnung, eine Einigung [in Fragen des
-								Eherechts] zu erreichen. Man möchte <persName ref="person226">Vadian</persName> als Vertreter
-								<placeName ref="place1011">St. Gallens</placeName> dabei haben. Die Zürcher hoffen, das Treffen gebe
+								Eherechts] zu erreichen. Man möchte <persName ref="p8049">Vadian</persName> als Vertreter
+								<placeName>St. Gallens</placeName> dabei haben. Die Zürcher hoffen, das Treffen gebe
 								Anlaß zu neuen freundschaftlichen Gesprächen zwischen den Städten. Bullinger wünscht die baldige
-								Fertigstellung von <persName ref="person226">Vadians</persName> Epitome, für die er ihm die geographischen
+								Fertigstellung von <persName ref="p8049">Vadians</persName> Epitome, für die er ihm die geographischen
 								Teile aus seinem in Arbeit befindlichen Kommentar [zur Apostelgeschichte] überläßt.
 							</p>
 						</summary>
@@ -62,7 +53,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Gedruckt">
-								<title>Vadian BW V, S. 164f, Nr. 767</title>
+								<title>Vadian BW V, S.164f, Nr. 767</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 229, S.134</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -72,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10260">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -82,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date notBefore="1533-05-01" notAfter="1533-06-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -123,7 +117,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -133,23 +127,23 @@
 					<s n="1" xml:lang="de" type="auto">Gnad und frid vonn gott.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Das min herren von <placeName ref="place1011">Sant Gallen</placeName> beschryben<note xml:id="fn3" type="footnote" n="3">schriftlich berufen, eingeladen (SI IX 1521-1523).</note> sind inn allerbester und allerchristenlichster meynung beschryben mitt sampt denen vonn <placeName ref="place121">Bernn</placeName>, <placeName ref="place97">Basel</placeName> und <placeName ref="place943">Schaffhusen</placeName><note xml:id="fn4" type="footnote" n="4">Am 20. Mai 1533 hatten die Zürcher Eherichter den Rat schriftlich aufgefordert, Vertreter der übrigen reformierten Städte einzuladen, um Fragen der Ehegerichtspraxis gemeinsam zu besprechen und gewisse Artikel, vor allem betreffend die Ehescheidung, zu vereinheitlichen, s. <hi>Köhler,</hi> Ehegericht I 418f. Die Einladungsschreiben Zürichs an <placeName ref="place1011">St. Gallen</placeName> und die anderen Städte sind nicht erhalten.</note>, unsers gloubens mittgenossen, und ist nun<note xml:id="fn5" type="footnote" n="5">nur (SI IV 764).</note> von guͦten christen angepracht<note xml:id="fn6" type="footnote" n="6">veranlaßt, angeregt worden (vgl. SI V 714f).</note> <foreign xml:lang="la">(meo maxime instinctu)</foreign> zuͦ guͦtem uns allen, und wirt deßhalb gar nützid fürgenommen <foreign xml:lang="la">adversus confessam veritatem</foreign> sunder <foreign xml:lang="la">ad confirmandam eam.</foreign></s>
+					<s n="2" xml:lang="de" type="auto">Das min herren von <placeName>Sant Gallen</placeName> beschryben<note xml:id="fn3" type="footnote" n="3">schriftlich berufen, eingeladen (<bibl>SI</bibl> IX 1521-1523).</note> sind inn allerbester und allerchristenlichster meynung beschryben mitt sampt denen vonn <placeName>Bernn</placeName>, <placeName>Basel</placeName> und <placeName>Schaffhusen</placeName><note xml:id="fn4" type="footnote" n="4">Am 20. Mai 1533 hatten die Zürcher Eherichter den Rat schriftlich aufgefordert, Vertreter der übrigen reformierten Städte einzuladen, um Fragen der Ehegerichtspraxis gemeinsam zu besprechen und gewisse Artikel, vor allem betreffend die Ehescheidung, zu vereinheitlichen, s. <hi>Köhler,</hi> Ehegericht I 418f. Die Einladungsschreiben Zürichs an <placeName>St. Gallen</placeName> und die anderen Städte sind nicht erhalten.</note>, unsers gloubens mittgenossen, und ist nun<note xml:id="fn5" type="footnote" n="5">nur (<bibl>SI</bibl> IV 764).</note> von guͦten christen angepracht<note xml:id="fn6" type="footnote" n="6">veranlaßt, angeregt worden (vgl. <bibl>SI</bibl> V 714f).</note> <foreign xml:lang="la">(meo maxime instinctu)</foreign> zuͦ guͦtem uns allen, und wirt deßhalb gar nützid fürgenommen <foreign xml:lang="la">adversus confessam veritatem</foreign> sunder <foreign xml:lang="la">ad confirmandam eam.</foreign></s>
 					<s n="3" xml:lang="de" type="auto">Die artickel, so üch zuͦgeschryben<note xml:id="fn7" type="footnote" n="7">Im Einladungsschreiben waren wohl die gleichen Hauptartikel angeführt, welche die Zürcher Eherichter dem Rat zur Verhandlung vorgeschlagen hatten: 1. Der Verwandtschaftsgrad für erlaubte Ehen. 2. Die Frage, ob man Ehen, die durch Verführung, Kuppelei oder Betrug zustande kamen, gelten läßt. 3. Wie man durch Strafen der Verbreitung von Ehebruch und Ehescheidung begegnen kann, s. <hi>Köhler,</hi> Ehegericht I 419.</note>, truckend unß.</s>
-					<s n="4" xml:lang="de" type="auto">Hoffend, gott werde wytere einigung unß verlyhen, daß man joch<note xml:id="fn8" type="footnote" n="8">auch (SI III 6).</note> nitt vonn einet<note xml:id="fn9" type="footnote" n="9">fortwährend (SI I 178f).</note> sage, die statt hallts also, die also<note xml:id="fn10" type="footnote" n="10">Vgl. die im Brief der Zürcher Eherichter vom 20. Mai fast gleichlautende Begründung <hi>(Köhler,</hi> Ehegericht I 419).</note>.</s>
-					<s n="5" xml:lang="de" type="auto">Es möchtend ouch die lieben, guͦten christen hie by unß lyden<note xml:id="fn11" type="footnote" n="11">würden auch die ... Christen ... gern sehen (SI III 1089f).</note>.</s>
-					<s n="6" xml:lang="de" type="auto">Begärend ouch, daß ir der pott wurdint<note xml:id="fn12" type="footnote" n="12">Dieser Wunsch wird auch von <persName ref="person90">Berchtold Haller</persName> ausgesprochen (unten S. 140f, 20f). <persName ref="person226">Vadian</persName> nahm aber an der Zürcher Tagung, die am 10. Juni 1533 stattfand <hi>(Köhler,</hi> Ehegericht I 419), nicht teil. <placeName ref="place1011">St. Gallen</placeName> war durch den Ratsherrn <persName ref="person2249">Franziskus Studer</persName> vertreten, s. unten S. 143, 2-4.</note> mitt ettlichem guͦthertzigen.</s>
-					<s n="7" xml:lang="de" type="auto">Wir hoffend, das gespräch sölle also vil anlasseß gäben, das wir widerumb inn wyter früntlich gespräch kummind<note xml:id="fn13" type="footnote" n="13">Zu den vor allem von <persName ref="person154">Myconius</persName> unternommenen Versuchen, die reformierten Orte gegenseitig wieder näher zu bringen, s. oben <ref target="file10220">[Nr. 189]</ref> S. 65, Anm. 8.</note>.</s>
-					<s n="8" xml:lang="de" type="auto">Hoffend, <placeName ref="place121">Bernn</placeName>, <placeName ref="place97">Basel</placeName> etc. werde deß ouch begären.</s>
-					<s n="9" xml:lang="de" type="auto">In summa, es ist in der allerbesten formm und fürnemmen<note xml:id="fna" type="footnote" n="a">und fürnemmen <hi>am Rande nachgetragen.</hi></note> angeschlagen<note xml:id="fn14" type="footnote" n="14">geplant, beschlossen (SI IX 386-388).</note>.</s>
+					<s n="4" xml:lang="de" type="auto">Hoffend, gott werde wytere einigung unß verlyhen, daß man joch<note xml:id="fn8" type="footnote" n="8">auch (<bibl>SI</bibl> III 6).</note> nitt vonn einet<note xml:id="fn9" type="footnote" n="9">fortwährend (<bibl>SI</bibl> I 178f).</note> sage, die statt hallts also, die also<note xml:id="fn10" type="footnote" n="10">Vgl. die im Brief der Zürcher Eherichter vom 20. Mai fast gleichlautende Begründung <hi>(Köhler,</hi> Ehegericht I 419).</note>.</s>
+					<s n="5" xml:lang="de" type="auto">Es möchtend ouch die lieben, guͦten christen hie by unß lyden<note xml:id="fn11" type="footnote" n="11">würden auch die ... Christen ... gern sehen (<bibl>SI</bibl> III 1089f).</note>.</s>
+					<s n="6" xml:lang="de" type="auto">Begärend ouch, daß ir der pott wurdint<note xml:id="fn12" type="footnote" n="12">Dieser Wunsch wird auch von <persName>Berchtold Haller</persName> ausgesprochen (unten S. 140f, 20f). <persName>Vadian</persName> nahm aber an der Zürcher Tagung, die am 10. Juni 1533 stattfand <hi>(Köhler,</hi> Ehegericht I 419), nicht teil. <placeName>St. Gallen</placeName> war durch den Ratsherrn <persName>Franziskus Studer</persName> vertreten, s. unten S. 143, 2-4.</note> mitt ettlichem guͦthertzigen.</s>
+					<s n="7" xml:lang="de" type="auto">Wir hoffend, das gespräch sölle also vil anlasseß gäben, das wir widerumb inn wyter früntlich gespräch kummind<note xml:id="fn13" type="footnote" n="13">Zu den vor allem von <persName>Myconius</persName> unternommenen Versuchen, die reformierten Orte gegenseitig wieder näher zu bringen, s. oben <ref target="file10220">[Nr. 189]</ref> S. 65, Anm. 8.</note>.</s>
+					<s n="8" xml:lang="de" type="auto">Hoffend, <placeName>Bernn</placeName>, <placeName>Basel</placeName> etc. werde deß ouch begären.</s>
+					<s n="9" xml:lang="de" type="auto">In summa, es ist in der allerbesten formm und fürnemmen<note xml:id="fna" type="footnote" n="a">und fürnemmen <hi>am Rande nachgetragen.</hi></note> angeschlagen<note xml:id="fn14" type="footnote" n="14">geplant, beschlossen (<bibl>SI</bibl> IX 386-388).</note>.</s>
 					<s n="10" xml:lang="de" type="auto">Gott schicke es wol.</s>
-					<s n="11" xml:lang="de" type="auto">Söliche meinung hab ich ouch den andern zuͦgeschryben<note xml:id="fn15" type="footnote" n="15">Diesbezügliche Briefe Bullingers aus dieser Zeit sind nicht erhalten.</note>, ob sy vilicht (maxime <placeName ref="place121">Bernna</placeName>) bewegt, ettwas früntlichen anzug<note xml:id="fn16" type="footnote" n="16">Bitte.</note> wyter an min herren mitt entschuldigen ettlichs verunglimpfens<note xml:id="fn17" type="footnote" n="17">Ob damit ein konkreter Anlaß (s. z. B. oben S. 121, 9f und Anm. 5) oder das im allgemeinen schlechte Klima in den Beziehungen zwischen <placeName ref="place121">Bern</placeName> und Zürich gemeint ist, bleibt unklar.</note> thätend etc.</s>
+					<s n="11" xml:lang="de" type="auto">Söliche meinung hab ich ouch den andern zuͦgeschryben<note xml:id="fn15" type="footnote" n="15">Diesbezügliche Briefe Bullingers aus dieser Zeit sind nicht erhalten.</note>, ob sy vilicht (maxime <placeName>Bernna</placeName>) bewegt, ettwas früntlichen anzug<note xml:id="fn16" type="footnote" n="16">Bitte.</note> wyter an min herren mitt entschuldigen ettlichs verunglimpfens<note xml:id="fn17" type="footnote" n="17">Ob damit ein konkreter Anlaß (s. z. B. oben S. 121, 9f und Anm. 5) oder das im allgemeinen schlechte Klima in den Beziehungen zwischen <placeName>Bern</placeName> und Zürich gemeint ist, bleibt unklar.</note> thätend etc.</s>
 					<s n="12" xml:lang="de" type="auto">Gott gäbe gnad.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Mirum in modum oblectavit me pollicitatio Epitomes<note xml:id="fn18" type="footnote" n="18"><persName ref="person226">Vadians</persName> Schrift «Epitome trium terrae partium» erschien im September 1534 bei <persName ref="person891">Froschauer</persName> in Zürich, versehen mit einer Widmung an Bullinger (Rudolphi 226). Über das geographische Werk, das aus <persName ref="person226">Vadians</persName> Erklärung der Apostelgeschichte von 1523 hervorging, s. <hi>Näf</hi> <persName ref="person226">Vadian</persName> II 372-377; Conradin <hi>Bonorand,</hi> <persName ref="person226">Vadians</persName> Weg vom Humanismus zur Reformation und seine Vorträge über die Apostelgeschichte (1523), <placeName ref="place1011">St. Gallen</placeName> 1962. -<persName ref="person226">Vadian</persName>-Studien 7, S. 91-96.</note>.</s>
+					<s n="13" xml:lang="la" type="auto">Mirum in modum oblectavit me pollicitatio Epitomes<note xml:id="fn18" type="footnote" n="18"><persName>Vadians</persName> Schrift «Epitome trium terrae partium» erschien im September 1534 bei <persName ref="p5295">Froschauer</persName> in Zürich, versehen mit einer Widmung an Bullinger (Rudolphi 226). Über das geographische Werk, das aus <persName>Vadians</persName> Erklärung der Apostelgeschichte von 1523 hervorging, s. <hi>Näf</hi> <persName>Vadian</persName> II 372-377; Conradin <hi>Bonorand,</hi> <persName>Vadians</persName> Weg vom Humanismus zur Reformation und seine Vorträge über die Apostelgeschichte (1523), <placeName>St. Gallen</placeName> 1962. -<persName>Vadian</persName>-Studien 7, S. 91-96.</note>.</s>
 					<s n="14" xml:lang="la" type="auto">Faxit deus, ut minimo negotio rem satis arduam et summe utilem foeliciter absolvas.</s>
-					<s n="15" xml:lang="la" type="auto">Vellem equidem, ad Ioannis natalem<note xml:id="fn19" type="footnote" n="19">24. Juni.</note> parata esset<note xml:id="fn20" type="footnote" n="20">Diese Bitte wiederholt Bullinger am 13. Juni 1533 (unten S. 144, 6-8). Im August ist <persName ref="person891">Froschauer</persName> im Besitz des Manuskriptes, über dessen schlechte Qualität er sich am 22. August 1533 bei <persName ref="person226">Vadian</persName> beklagt (<persName ref="person226">Vadian</persName> BW V 130f).</note>, caeterum si per negotia et instituti difficultatem non<pb type="edition" next="135"/> licet, fiat, quod libet, dummodo scribatur.</s>
-					<s n="16" xml:lang="la" type="auto">Ego interim pergam in scribendo commentario<note xml:id="fn21" type="footnote" n="21">Es kann sich nur um Bullingers «Commentarius in Acta apostolorum» (HBBibl I 43) handeln, der im August 1533 erschien und die selbe Materie wie <persName ref="person226">Vadians</persName> Epitome zum Inhalt hat; zur Widmung des Werkes an die Frankfurters. unten <ref target="file10286">Nr. 255</ref>.</note>, tibi relinquens excutiendum in transcursu et quantum per Epitomen licet, quicquid geographiae ac topographiae est.</s>
+					<s n="15" xml:lang="la" type="auto">Vellem equidem, ad Ioannis natalem<note xml:id="fn19" type="footnote" n="19">24. Juni.</note> parata esset<note xml:id="fn20" type="footnote" n="20">Diese Bitte wiederholt Bullinger am 13. Juni 1533 (unten S. 144, 6-8). Im August ist <persName ref="p5295">Froschauer</persName> im Besitz des Manuskriptes, über dessen schlechte Qualität er sich am 22. August 1533 bei <persName>Vadian</persName> beklagt (<persName>Vadian</persName> BW V 130f).</note>, caeterum si per negotia et instituti difficultatem non<pb type="edition" next="135"/> licet, fiat, quod libet, dummodo scribatur.</s>
+					<s n="16" xml:lang="la" type="auto">Ego interim pergam in scribendo commentario<note xml:id="fn21" type="footnote" n="21">Es kann sich nur um Bullingers «Commentarius in Acta apostolorum» (<bibl>HBBibl</bibl> I 43) handeln, der im August 1533 erschien und die selbe Materie wie <persName>Vadians</persName> Epitome zum Inhalt hat; zur Widmung des Werkes an die Frankfurters. unten <ref target="file10286">Nr. 255</ref>.</note>, tibi relinquens excutiendum in transcursu et quantum per Epitomen licet, quicquid geographiae ac topographiae est.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Dominus te nobis diu servet incolumem.</s>
@@ -159,7 +153,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="19" xml:lang="la" type="auto">Praeclaro et spectabili viro D. <persName ref="person226">Ioachimo Vadiano</persName>, consuli Sanctogallensi prudentissimo, suo imprimis observando domino.</s>
+					<s n="19" xml:lang="la" type="auto">Praeclaro et spectabili viro D. <persName ref="p8049">Ioachimo Vadiano</persName>, consuli Sanctogallensi prudentissimo, suo imprimis observando domino.</s>
 				</p>
 			</div>
 		</body>

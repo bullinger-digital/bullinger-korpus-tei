@@ -6,40 +6,31 @@
 				<title subtype="file">Peter Simler / Kappel am Albis AN Heinrich Bullinger, 23. November 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=685</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">441</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,71b</idno>
 					</msIdentifier>
 					<msContents>
@@ -52,13 +43,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 685, S.441</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10723">
 				<correspAction type="sent">
-					<persName ref="person2982" cert="high">
+					<persName ref="p2982" cert="high">
 						<!--
 						<surname cert="high">Simler</surname>
 						<forename cert="high">Peter</forename>
@@ -67,11 +65,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11591747"/>
 						-->
 					</persName>
-					<placeName source="place242" cert="high"><orig>Kappel am Albis</orig></placeName>
+					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1535-11-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -107,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,7 +122,7 @@
 					<s n="2" xml:lang="de" type="auto">Ersamer, getrüwer, lieber her gfatter<note xml:id="fn1" type="footnote" n="1">Zur verwandtschaftlichen Anrede vgl. <hi>Bächtold,</hi> Bullinger vor dem Rat 208f, Anm. 62.</note>, uff üwer beger schick ich üch ein kalb.</s>
 					<s n="3" xml:lang="de" type="auto">Han ich by einem nachpuren<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> erfragt.</s>
 					<s n="4" xml:lang="de" type="auto">Gott wellt, es wär üch zuͦ diser zit gelegenn.</s>
-					<s n="5" xml:lang="de" type="auto">Ich han aber keiner zit künnen faren; dann<note xml:id="fn3" type="footnote" n="3">deshalb (SI XIII 37).</note>, dwyl sy jetz seltzam<note xml:id="fn4" type="footnote" n="4">rar, knapp (SI VII 872f).</note> sinnd, han ichs gschickt, so bald ichs han ankommen<note xml:id="fn5" type="footnote" n="5">sobald ich es bekommen habe.</note>.</s>
+					<s n="5" xml:lang="de" type="auto">Ich han aber keiner zit künnen faren; dann<note xml:id="fn3" type="footnote" n="3">deshalb (<bibl>SI</bibl> XIII 37).</note>, dwyl sy jetz seltzam<note xml:id="fn4" type="footnote" n="4">rar, knapp (<bibl>SI</bibl> VII 872f).</note> sinnd, han ichs gschickt, so bald ichs han ankommen<note xml:id="fn5" type="footnote" n="5">sobald ich es bekommen habe.</note>.</s>
 					<s n="6" xml:lang="de" type="auto">Darumb nemmend min dienst imbesten an unnd sinnd damit gott bevolhenn.</s>
 					<s n="7" xml:lang="de" type="auto">So ich zuͦ üch komm, wil ich sagen, was es kost.</s>
 				</p>
@@ -132,7 +130,7 @@
 					<s n="8" xml:lang="de" type="auto">Datum zinstags vor Cathrinen 1535.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person200">Petrus Simler</persName>.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p8443">Petrus Simler</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

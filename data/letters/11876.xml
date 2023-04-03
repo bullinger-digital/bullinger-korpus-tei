@@ -6,51 +6,42 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius, 27. Dezember [1543]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1830</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">352</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,120</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person22022">Alexander Rischachers</persName> Sohn [Martin?] ist eingetroffen und wird Unterstützung aus dem Almosen erhalten; sein
+								<persName ref="p18224">Alexander Rischachers</persName> Sohn [Martin?] ist eingetroffen und wird Unterstützung aus dem Almosen erhalten; sein
 								Kostgeber war allerdings nicht bereit, ihn für weniger als 10 Gulden pro Jahr zu beherbergen. Bullinger hat
-								keine Nachricht vom Reichstag zu <placeName ref="place1001">Speyer</placeName> und hofft, von
-								<persName ref="person154">Myconius</persName> darüber zu erfahren; man wird versuchen, die Wahrheit zu
+								keine Nachricht vom Reichstag zu <placeName>Speyer</placeName> und hofft, von
+								<persName ref="p8418">Myconius</persName> darüber zu erfahren; man wird versuchen, die Wahrheit zu
 								unterdrücken, doch wir haben nichts zu fürchten, solange wir an der Hl. Schrift als einziger Richtschnur
-								festhalten. Hat keine Neuigkeiten zu berichten. Grüße. Hat den Brief von <persName ref="person22238">Gebhard [Kuster</persName>?] erhalten und an
+								festhalten. Hat keine Neuigkeiten zu berichten. Grüße. Hat den Brief von <persName ref="p5552">Gebhard [Kuster?]</persName> erhalten und an
 								dessen Vater geschrieben.
 							</p>
 						</summary>
@@ -58,13 +49,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1830, S.352</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11876">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1543-12-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -115,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,17 +127,17 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Venit tandem <persName ref="person22022">Ryschacheri</persName> filius<note xml:id="fn2" type="footnote" n="2">Zum Sohn von <persName ref="person22022">Alexander Rischacher</persName> (Martin?) vgl. oben <ref target="file11850">Nr. 1804</ref>, 1-20; 1823, 1-9.</note> receptusque est in numerum stipendiariorum eleemosynae.</s>
+					<s n="2" xml:lang="la" type="auto">Venit tandem <persName ref="p18224">Ryschacheri</persName> filius<note xml:id="fn2" type="footnote" n="2">Zum Sohn von <persName>Alexander Rischacher</persName> (Martin?) vgl. oben <ref target="file11850">Nr. 1804</ref>, 1-20; 1823, 1-9.</note> receptusque est in numerum stipendiariorum eleemosynae.</s>
 					<s n="3" xml:lang="la" type="auto">Venit autem postera die ab eo, quo tibi de eo scripseram<note xml:id="fn3" type="footnote" n="3">Bullingers Brief ist nicht erhalten.</note>.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Omnem quidem movi lapidem<note xml:id="fn4" type="footnote" n="4">Adagia, 1, 4, 30 (LB II 161f).</note> apud hospitem<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note>, si possem impetrare, ut 8 dumtaxat in annum aureos acciperet, sicuti et, priusquam adveniret, tentaram; sed ille minore precio illum recipere noluit nisi 10 fl.</s>
+					<s n="4" xml:lang="la" type="auto">Omnem quidem movi lapidem<note xml:id="fn4" type="footnote" n="4">Adagia, 1, 4, 30 (<bibl>LB</bibl> II 161f).</note> apud hospitem<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note>, si possem impetrare, ut 8 dumtaxat in annum aureos acciperet, sicuti et, priusquam adveniret, tentaram; sed ille minore precio illum recipere noluit nisi 10 fl.</s>
 					<s n="5" xml:lang="la" type="auto">Caussabatur omnium rerum caritatem.</s>
 					<s n="6" xml:lang="la" type="auto">Pollicebatur item splendide.</s>
-					<s n="7" xml:lang="la" type="auto">Ego itaque homini confisus conditionem recepi, id quod d. Alexandro indicabis, quem et salutabis una cum d. <persName ref="person11">Marco</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person11">Markus Bertschi</persName>.</note> quam familiarissime.</s>
+					<s n="7" xml:lang="la" type="auto">Ego itaque homini confisus conditionem recepi, id quod d. Alexandro indicabis, quem et salutabis una cum d. <persName ref="p8054">Marco</persName><note xml:id="fn6" type="footnote" n="6"><persName>Markus Bertschi</persName>.</note> quam familiarissime.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">De comitiis <placeName ref="place1001">Spirensibus</placeName><note xml:id="fn7" type="footnote" n="7">Vgl. oben <ref target="file11874">Nr. 1828</ref>, 1-6.</note> magnum et perseverans est apud nos silentium.</s>
+					<s n="8" xml:lang="la" type="auto">De comitiis <placeName>Spirensibus</placeName><note xml:id="fn7" type="footnote" n="7">Vgl. oben <ref target="file11874">Nr. 1828</ref>, 1-6.</note> magnum et perseverans est apud nos silentium.</s>
 					<s n="9" xml:lang="la" type="auto">Expectamus, quid tu nobis sis narraturus.</s>
 					<s n="10" xml:lang="la" type="auto">Ubi coierint, sat scio nil aliud tractaturos nisi de opprimenda veritate.</s>
 					<s n="11" xml:lang="la" type="auto">Scio itaque dominum cogitare de opprimendis suis hostibus.</s>
@@ -153,7 +151,7 @@
 					<s n="17" xml:lang="la" type="auto">Nova non habeo ulla.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">Leodigarium<note xml:id="fn10" type="footnote" n="10"><persName ref="person1185">Leodegar Hirsgarter</persName> aus <placeName ref="place1202">Winterthur</placeName>.</note> una cum Tigurinis<note xml:id="fn11" type="footnote" n="11">Gemeint sind die in <placeName ref="place97">Basel</placeName> studierenden Zürcher.</note> studiose tibi commendo.</s>
+					<s n="18" xml:lang="la" type="auto">Leodigarium<note xml:id="fn10" type="footnote" n="10"><persName ref="p7640">Leodegar Hirsgarter</persName> aus <placeName>Winterthur</placeName>.</note> una cum Tigurinis<note xml:id="fn11" type="footnote" n="11">Gemeint sind die in <placeName>Basel</placeName> studierenden Zürcher.</note> studiose tibi commendo.</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Vale.</s>
@@ -165,12 +163,12 @@
 					<s n="21" xml:lang="la" type="auto">H. Bullingerus tuus.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto"><persName ref="person22238">Gebhardi</persName><note xml:id="fn12" type="footnote" n="12">Die Rede ist vermutlich von <persName ref="person22238">Gebhard Kuster</persName> (Custor) aus <placeName ref="place1202">Winterthur</placeName>, der sich am 25. März 1543 in <placeName ref="place97">Basel</placeName> immatrikuliert hatte; s. <placeName ref="place97">Basel</placeName>, Matrikel II 33, Nr. 54.</note> literas accepi ac patri<note xml:id="fn13" type="footnote" n="13">Unbekannt.</note>, sicut postulavit, scripsi fideliter<note xml:id="fn14" type="footnote" n="14">Die erwähnten Briefe sind nicht erhalten.</note>.</s>
+					<s n="22" xml:lang="la" type="auto"><persName ref="p5552">Gebhardi</persName><note xml:id="fn12" type="footnote" n="12">Die Rede ist vermutlich von <persName>Gebhard Kuster (Custor)</persName> aus <placeName>Winterthur</placeName>, der sich am 25. März 1543 in <placeName>Basel</placeName> immatrikuliert hatte; s. <placeName>Basel</placeName>, Matrikel II 33, Nr. 54.</note> literas accepi ac patri<note xml:id="fn13" type="footnote" n="13">Unbekannt.</note>, sicut postulavit, scripsi fideliter<note xml:id="fn14" type="footnote" n="14">Die erwähnten Briefe sind nicht erhalten.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="23" xml:lang="la" type="auto">D. <persName ref="person154">Osvaldo Myconio</persName>, charissimo suo fratri.</s>
-					<s n="24" xml:lang="de" type="auto"><placeName ref="place97">Basel</placeName>.</s>
+					<s n="23" xml:lang="la" type="auto">D. <persName ref="p8418">Osvaldo Myconio</persName>, charissimo suo fratri.</s>
+					<s n="24" xml:lang="de" type="auto"><placeName>Basel</placeName>.</s>
 				</p>
 			</div>
 		</body>

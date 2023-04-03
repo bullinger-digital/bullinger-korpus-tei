@@ -6,40 +6,31 @@
 				<title subtype="file">Philipp von Hessen / Kassel AN Heinrich Bullinger, Hans Rudolf Lavater, 15. Oktober 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=273</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">206</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 341,3521</idno>
 						<idno subtype="Hinweis">zeitgenössische Abschrift</idno>
 					</msIdentifier>
@@ -64,6 +55,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Reformationsbündnisse 107</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 273, S.206</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -72,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10304">
 				<correspAction type="sent">
-					<persName ref="person1871" cert="high">
+					<persName ref="p1871" cert="high">
 						<!--
 						<surname cert="high">von Hessen</surname>
 						<forename cert="high">Philipp</forename>
@@ -82,11 +76,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/11859382X"/>
 						-->
 					</persName>
-					<placeName source="place244" cert="high"><orig>Kassel</orig></placeName>
+					<placeName source="l244" cert="high"><orig>Kassel</orig></placeName>
 					<date when="1533-10-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -96,7 +90,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1888" cert="high">
+					<persName ref="p1888" cert="high">
 						<!--
 						<surname cert="high">Lavater</surname>
 						<forename cert="high">Hans Rudolf</forename>
@@ -126,7 +120,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -137,27 +131,27 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto"><persName ref="person169">Philippus</persName> von gottes gnaden landgrafs zu <persName ref="person169">Hessen</persName>, grasse zu Catzenelenbogen etc.</s>
+					<s n="1" xml:lang="de" type="auto"><persName ref="p18574">Philippus</persName> von gottes gnaden landgrafs zu <persName ref="p18574">Hessen</persName>, grasse zu Catzenelenbogen etc.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="de" type="auto">Unnseren gnedigen gruß zuvor, erberen lieben besunder etc.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Wir habend vernomen, das ir<note xml:id="fn1" type="footnote" n="1">Nämlich: Kirche und Staat Zürich.</note> nach getreuwlich unnd fleißlich am wort gottes hangend unnd darby standhafft bleiben syend, daselbs auch treuwlich treibet<note xml:id="fn2" type="footnote" n="2">betreibt, fördert (Grimm XI/I 2 53).</note> unnd fürdret, unnd das haben wir seer gern gehört<note xml:id="fn3" type="footnote" n="3">Woher diese Information stammte, ist ungewiß, vgl. Reformationsbündnisse 107, Anm. 1.</note>.</s>
-					<s n="4" xml:lang="de" type="auto">Als aber ir darneben auch deshalben in anfechtung unnd widerwillen<note xml:id="fn4" type="footnote" n="4">Ungemach, Unannehmlichkeit (Grimm XIV/I 2 1390).</note> komen<note xml:id="fn5" type="footnote" n="5">Gemeint ist sicherlich der Mandatstreit; dazu s. oben <ref target="file10204">[Nr. 173]</ref> S. 35, Anm. 11. 100, Anm. 4. 113, Anm. 12.</note>, achten wir, das der herr üch als die sinen heimgesuͦcht unnd das ze üwerem besten gethon habe, demnach gesagt ist, das «die der herr liebet, die züchtiget er» [Hebr 12, 6].</s>
+					<s n="3" xml:lang="de" type="auto">Wir habend vernomen, das ir<note xml:id="fn1" type="footnote" n="1">Nämlich: Kirche und Staat Zürich.</note> nach getreuwlich unnd fleißlich am wort gottes hangend unnd darby standhafft bleiben syend, daselbs auch treuwlich treibet<note xml:id="fn2" type="footnote" n="2">betreibt, fördert (<bibl>Grimm</bibl> XI/I 2 53).</note> unnd fürdret, unnd das haben wir seer gern gehört<note xml:id="fn3" type="footnote" n="3">Woher diese Information stammte, ist ungewiß, vgl. Reformationsbündnisse 107, Anm. 1.</note>.</s>
+					<s n="4" xml:lang="de" type="auto">Als aber ir darneben auch deshalben in anfechtung unnd widerwillen<note xml:id="fn4" type="footnote" n="4">Ungemach, Unannehmlichkeit (<bibl>Grimm</bibl> XIV/I 2 1390).</note> komen<note xml:id="fn5" type="footnote" n="5">Gemeint ist sicherlich der Mandatstreit; dazu s. oben <ref target="file10204">[Nr. 173]</ref> S. 35, Anm. 11. 100, Anm. 4. 113, Anm. 12.</note>, achten wir, das der herr üch als die sinen heimgesuͦcht unnd das ze üwerem besten gethon habe, demnach gesagt ist, das «die der herr liebet, die züchtiget er» [Hebr 12, 6].</s>
 					<s n="5" xml:lang="de" type="auto">Und darumb ist unnser gnedig begäre, wie dan wir auch zuͦ üch guͦter zuͦversicht sind, ir wellend am gottes wort unnd evangelio unverdrossen unnd bestendenklichen bleiben unnd beharren, dem herren vertruwen, der wirt das alles zuͦ siner zit zum besten keren unnd euch reichlich mit sinen gnaden belonen.</s>
 					<s n="6" xml:lang="de" type="auto">Und was dan wir noch unserem vermügen üch geradten unnd heissen mogen, daß, unnd üch ze gnaden, seint wir geneigt.</s>
 					<s n="7" xml:lang="de" type="auto">Welches wir üch allso gedenklichen [!]<note xml:id="fn6" type="footnote" n="6">Sollte wahrscheinlich heißen: gnädiglich.</note> wolten zuͦ erkennen geben.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto">Datum in unnser stadt <placeName ref="place537">Cassel</placeName>, mitwuchens noch Dionisii anno etc. 33.</s>
+					<s n="8" xml:lang="de" type="auto">Datum in unnser stadt <placeName>Cassel</placeName>, mitwuchens noch Dionisii anno etc. 33.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person169">Philippus</persName> L. z. <persName ref="person169">Hessen</persName> etc. sst.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p18574">Philippus</persName> L. z. <persName ref="p18574">Hessen</persName> etc. sst.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse über dem Brieftext:]</note>
-					<s n="10" xml:lang="de" type="auto">Dem erbaren wißen lieben besunderen M. Heinrichen Bullinger, prädicanten zum grossenmünster zuͦ Zürich, unnd <persName ref="person132">Hansen</persName> Ruͦdolff Lavather, jetz vogt zuͦ Kiburg.</s>
+					<s n="10" xml:lang="de" type="auto">Dem erbaren wißen lieben besunderen M. Heinrichen Bullinger, prädicanten zum grossenmünster zuͦ Zürich, unnd <persName ref="p1888">Hansen</persName> Ruͦdolff Lavather, jetz vogt zuͦ Kiburg.</s>
 				</p>
 			</div>
 		</body>

@@ -6,46 +6,37 @@
 				<title subtype="file">s.n. / Schaffhausen AN s.n. / [Zürich], 16. Dezember 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=491</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">445</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 337,zu fol. 70</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Obwohl <persName ref="person28">Bucer</persName> ihre Auffassung sehr wohl kennt, bekennen sie, immer
+								Obwohl <persName ref="p467">Bucer</persName> ihre Auffassung sehr wohl kennt, bekennen sie, immer
 								biblisch die Gegenwart Christi beim Abendmahl gelehrt zu haben. Alles Äußerliche ist nur wie ein Instrument,
 								welches den widerstrebenden Körper dem Geist gehorsam macht, indem das Hören, Sehen und Schmecken betroffen
 								werden. Unterschreiben das Zürcher Bekenntnis [<ref target="file10518">Nr. 482</ref>].
@@ -56,20 +47,27 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 491, S.445</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10527">
 				<correspAction type="sent">
-					<roleName ref="role49" type="pl" role="Pfarrer" cert="high"/>
-					<placeName source="place441" cert="high"><orig>Schaffhausen</orig></placeName>
+					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1534-12-16" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role49" type="pl" role="Pfarrer" cert="low"/>
-					<roleName ref="role45" type="pl" role="Lehrer" cert="low"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<roleName ref="g49" type="pl" role="Pfarrer" cert="low"/>
+					<roleName ref="g45" type="pl" role="Lehrer" cert="low"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10528"/>
@@ -92,7 +90,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -103,16 +101,16 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Fratres, qui <placeName ref="place943">Scaphusie</placeName> Christi evangelium adnuncciant<note xml:id="fnb" type="footnote" n="b"><hi>Diese Überschrift fehlt bei A; an ihre Stelle tritt der vor <ref target="file10526">Nr. 490</ref> (S. 444, Anm. a) gesetzte Titel.</hi></note>.</s>
+					<s n="1" xml:lang="la" type="auto">Fratres, qui <placeName>Scaphusie</placeName> Christi evangelium adnuncciant<note xml:id="fnb" type="footnote" n="b"><hi>Diese Überschrift fehlt bei A; an ihre Stelle tritt der vor <ref target="file10526">Nr. 490</ref> (S. 444, Anm. a) gesetzte Titel.</hi></note>.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Tametsi sententiam nostram de sacrosancta cęna dominica charissimus frater noster <persName ref="person28">Martinus</persName> Buccerus probe teneat eamque, ut ecclesie nostre proposuimus, non ignoret<note xml:id="fn2" type="footnote" n="2">Seit seinem Besuch in <placeName ref="place943">Schaffhausen</placeName> vom 18. bis 21. April 1533 (s. HBBW III 112f) kannte <persName ref="person28">Bucer</persName> die dortigen Abendmahlsauffassungen.</note>, tamen - ne videamur aut sensisse aut docuisse unquam, quod sacris litteris non esset<note xml:id="fnc" type="footnote" n="c"><hi>A:</hi> sit <hi>statt</hi> esset.</note> proditum - fatemur primo Christum huic sancte institutioni adesse, quemadmodum<note xml:id="fnd" type="footnote" n="d"><hi>In B für eine im Text gestrichene Stelle am Rande nachgetragen und nach</hi> quemadmodum: ipse <hi>und nach</hi> tres: congregati <hi>eingefügt.</hi></note> promisit Math. 18[20]: «Ubi duo vel tres» etc.<note xml:id="fne" type="footnote" n="e"><hi>In B für eine im Text gestrichene Stelle am Rande nachgetragen und nach</hi> quemadmodum: ipse <hi>und nach</hi> tres: congregati <hi>eingefügt.</hi></note> Deinde ipsum esse summum sacerdotem et pontificem<note xml:id="fn3" type="footnote" n="3">Vgl. Hebr 4, 14-5, 10. 7, 1-28. 9, 11-28.</note>, qui suo vero tradito corpore et vero<note xml:id="fnf" type="footnote" n="f"><hi>B:</hi> vero et tradito.</note> fuso sanguine, qui sibi fidunt, vere pascit et refocillat in vitam eternam<note xml:id="fn4" type="footnote" n="4">Vgl. Joh 6, 53-58.</note> modo, quo anime nostre edere ac bibere possunt.</s>
+					<s n="2" xml:lang="la" type="auto">Tametsi sententiam nostram de sacrosancta cęna dominica charissimus frater noster <persName ref="p467">Martinus</persName> Buccerus probe teneat eamque, ut ecclesie nostre proposuimus, non ignoret<note xml:id="fn2" type="footnote" n="2">Seit seinem Besuch in <placeName>Schaffhausen</placeName> vom 18. bis 21. April 1533 (s. <bibl>HBBW III</bibl> 112f) kannte <persName ref="p18198">Bucer</persName> die dortigen Abendmahlsauffassungen.</note>, tamen - ne videamur aut sensisse aut docuisse unquam, quod sacris litteris non esset<note xml:id="fnc" type="footnote" n="c"><hi>A:</hi> sit <hi>statt</hi> esset.</note> proditum - fatemur primo Christum huic sancte institutioni adesse, quemadmodum<note xml:id="fnd" type="footnote" n="d"><hi>In B für eine im Text gestrichene Stelle am Rande nachgetragen und nach</hi> quemadmodum: ipse <hi>und nach</hi> tres: congregati <hi>eingefügt.</hi></note> promisit Math. 18[20]: «Ubi duo vel tres» etc.<note xml:id="fne" type="footnote" n="e"><hi>In B für eine im Text gestrichene Stelle am Rande nachgetragen und nach</hi> quemadmodum: ipse <hi>und nach</hi> tres: congregati <hi>eingefügt.</hi></note> Deinde ipsum esse summum sacerdotem et pontificem<note xml:id="fn3" type="footnote" n="3">Vgl. Hebr 4, 14-5, 10. 7, 1-28. 9, 11-28.</note>, qui suo vero tradito corpore et vero<note xml:id="fnf" type="footnote" n="f"><hi>B:</hi> vero et tradito.</note> fuso sanguine, qui sibi fidunt, vere pascit et refocillat in vitam eternam<note xml:id="fn4" type="footnote" n="4">Vgl. Joh 6, 53-58.</note> modo, quo anime nostre edere ac bibere possunt.</s>
 					<s n="3" xml:lang="la" type="auto">Ad quod sanctissimum opus externa omnia ceu organa et instrumenta sunt ordinata, quibus sensus externi capiantur et infestum alias corpus obsequiosum spiritui ultra sensibilia evecti reddatur.</s>
 					<s n="4" xml:lang="la" type="auto">Percellitur enim auditus in adnunctiatione mortis dominice, visus in fractione panis, gustus in perceptione sanctissimorum simbolorum etc.</s>
-					<s n="5" xml:lang="la" type="auto">Que omnia a charissimis fratribus nostris Tigurinis quam diligentissime sunt perpensa, quorum confessioni<note xml:id="fn5" type="footnote" n="5">Oben <ref target="file10518">Nr. 482</ref>.</note> plane subscribimus per omnia propriis manibus<note xml:id="fn6" type="footnote" n="6">Im nach <placeName ref="place943">Schaffhausen</placeName> geschickten und dort noch erhaltenen Exemplar von <ref target="file10518">Nr. 482</ref> (s. S. 420, Anm. a) finden sich keine Unterschriften der Schaffhauser Pfarrer. Somit gilt dieser Brief hier mit seinen Unterschriften - das Blatt mit deren Autographa ist nicht mehr erhalten - als Schaffhauser Unterzeichnung von <ref target="file10518">Nr. 482</ref>.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Que omnia a charissimis fratribus nostris Tigurinis quam diligentissime sunt perpensa, quorum confessioni<note xml:id="fn5" type="footnote" n="5">Oben <ref target="file10518">Nr. 482</ref>.</note> plane subscribimus per omnia propriis manibus<note xml:id="fn6" type="footnote" n="6">Im nach <placeName>Schaffhausen</placeName> geschickten und dort noch erhaltenen Exemplar von <ref target="file10518">Nr. 482</ref> (s. S. 420, Anm. a) finden sich keine Unterschriften der Schaffhauser Pfarrer. Somit gilt dieser Brief hier mit seinen Unterschriften - das Blatt mit deren Autographa ist nicht mehr erhalten - als Schaffhauser Unterzeichnung von <ref target="file10518">Nr. 482</ref>.</note>.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto"><persName ref="person36">Benedictus</persName> Burgouer, <persName ref="person176">Erasmus Ritter</persName>, <persName ref="person82">Sebastianus</persName> Grubel, <persName ref="person15">Wolfgangus</persName> Biderman<note xml:id="fn7" type="footnote" n="7"><persName ref="person15">Wolfgang Biedermann</persName> (Bidermann, Bydermann), war Diakon Konrad Stücklins in Rottweil, wurde mit diesem 1529 wegen seiner evangelischen Gesinnung ausgewiesen und fand in <placeName ref="place943">Schaffhausen</placeName> Aufnahme (s. Bittschrift der vertriebenen Rottweiler an die Eidgenossen, 1529. Mitgeteilt von G[eorg Karl Julius] <hi>Rettig,</hi> in: Archiv des Historischen Vereins des Kantons Bern, 11. Bd., Bern 1886, S. 410-422, bes. S. 420; Johann Jakob Simler, Sammlung alter und neuer Urkunden zur Beleuchtung der Kirchen-Geschichte vornemlich des Schweizer-Landes I/II, Zürich 1758, S. 517-543, bes. <hi>S.</hi> 539). Als «Volfgangus Byderman, helffer zu Sanct Johann» unterzeichnete er 1532 mit andern die Eingabe der Schaffhauser Stadt- und Landpfarrer an den Rat, und aufgrund des Ratsbeschlusses vom 4. August 1535 kam er im Tausch mit Ulrich Singer als Helfer nach Neunkirch (s. oben <ref target="file10506">[Nr. 470]</ref> S. 392f, Anm. 37). Am 18. Februar 1536 wurde er dort Pfarrer (<placeName ref="place943">Schaffhausen</placeName> StA, Ratsprotokolle 10, 319. 321) und blieb es bis 1545. (Erst jetzt, und nicht 1540, wie HBBW III <ref target="file10244">[Nr. 213]</ref> 109f, Anm. 1 angibt, kam Johannes Winzürn nach Neunkirch). Am 12. Dezember 1544 nahm der Schaffhauser Rat «Wolfgangen Biderman von Rotwil, der zit predicant zu Nükilch» auf sein Ersuchen zu ihrem Bürger an (Ratsprotokolle 13, 229r.) und sandte ihn 1545 nach Illnau (Kt. Zürich, wo <placeName ref="place943">Schaffhausen</placeName> bis 1834 die Kollatur besaß; vgl. <placeName ref="place943">Schaffhausen</placeName> StA, Allerheiligen AA2, 1545-1546, f.24v.; 1550-1551, f. 22r.; 1551-1552, f. 162r.). Vom Sommer 1552 (ebenda 1552-1553, f. 7r. 102r.) bis zu seinem Tod zwischen 12. November und 13. Dezember 1554 (ebenda 1554-1555, f. 6v. 11 1r. 13 3v.) war Biedermann Sechsuhr-Prediger am Schaffhauser Münster. - Quellenauszüge aus dem Staatsarchiv <placeName ref="place943">Schaffhausen</placeName> verdanken wir Frau Olga Waldvogel. Diese korrigieren teilweise die Lit.: Z X 250-252; C[arl] A[ugust] <hi>Bächtold,</hi> Geschichte der Pfarrpfründen im Kanton <placeName ref="place943">Schaffhausen</placeName>, <placeName ref="place943">Schaffhausen</placeName> 1882, S. 113. 115; Jakob <hi>Wipf,</hi> 289. 293. 321; Hans <hi>Baur,</hi> Rottweil und Mülhausen. Was diese ehemaligen Schweizerstädte in Reformation und Gegenreformation erlebten, in: Schweizerisches Protestantenblatt, Jg. 55, 1932, S. 13; Friedrich <hi>Thöne,</hi> Zwei Risse zu Schaffhauser Prädikantenscheiben von Thomas Schmid (?) und Hans Caspar Lang, in: Schaffhauser Beiträge zur vaterländischen Geschichte, 49. Heft, 1972, S. 57; Pfarrerbuch 45f. 196; HBLS II 236.</note>.</s>
+					<s n="6" xml:lang="la" type="auto"><persName ref="p264">Benedictus</persName> Burgouer, <persName ref="p2810">Erasmus Ritter</persName>, <persName ref="p5056">Sebastianus</persName> Grubel, <persName ref="p8172">Wolfgangus</persName> Biderman<note xml:id="fn7" type="footnote" n="7"><persName>Wolfgang Biedermann (Bidermann, Bydermann)</persName>, war Diakon Konrad Stücklins in Rottweil, wurde mit diesem 1529 wegen seiner evangelischen Gesinnung ausgewiesen und fand in <placeName>Schaffhausen</placeName> Aufnahme (s. Bittschrift der vertriebenen Rottweiler an die Eidgenossen, 1529. Mitgeteilt von G[eorg Karl Julius] <hi>Rettig,</hi> in: Archiv des Historischen Vereins des Kantons Bern, 11. Bd., Bern 1886, S. 410-422, bes. S. 420; Johann Jakob Simler, Sammlung alter und neuer Urkunden zur Beleuchtung der Kirchen-Geschichte vornemlich des Schweizer-Landes I/II, Zürich 1758, S. 517-543, bes. <hi>S.</hi> 539). Als «Volfgangus Byderman, helffer zu Sanct Johann» unterzeichnete er 1532 mit andern die Eingabe der Schaffhauser Stadt- und Landpfarrer an den Rat, und aufgrund des Ratsbeschlusses vom 4. August 1535 kam er im Tausch mit Ulrich Singer als Helfer nach Neunkirch (s. oben <ref target="file10506">[Nr. 470]</ref> S. 392f, Anm. 37). Am 18. Februar 1536 wurde er dort Pfarrer (<placeName>Schaffhausen</placeName> StA, Ratsprotokolle 10, 319. 321) und blieb es bis 1545. (Erst jetzt, und nicht 1540, wie <bibl>HBBW III</bibl> <ref target="file10244">[Nr. 213]</ref> 109f, Anm. 1 angibt, kam Johannes Winzürn nach Neunkirch). Am 12. Dezember 1544 nahm der Schaffhauser Rat «Wolfgangen Biderman von Rotwil, der zit predicant zu Nükilch» auf sein Ersuchen zu ihrem Bürger an (Ratsprotokolle 13, 229r.) und sandte ihn 1545 nach Illnau (Kt. Zürich, wo <placeName>Schaffhausen</placeName> bis 1834 die Kollatur besaß; vgl. <placeName>Schaffhausen</placeName> StA, Allerheiligen AA2, 1545-1546, f.24v.; 1550-1551, f. 22r.; 1551-1552, f. 162r.). Vom Sommer 1552 (ebenda 1552-1553, f. 7r. 102r.) bis zu seinem Tod zwischen 12. November und 13. Dezember 1554 (ebenda 1554-1555, f. 6v. 11 1r. 13 3v.) war Biedermann Sechsuhr-Prediger am Schaffhauser Münster. - Quellenauszüge aus dem Staatsarchiv <placeName>Schaffhausen</placeName> verdanken wir Frau Olga Waldvogel. Diese korrigieren teilweise die Lit.: <bibl>Z</bibl> X 250-252; C[arl] A[ugust] <hi>Bächtold,</hi> Geschichte der Pfarrpfründen im Kanton <placeName>Schaffhausen</placeName>, <placeName>Schaffhausen</placeName> 1882, S. 113. 115; Jakob <hi>Wipf,</hi> 289. 293. 321; Hans <hi>Baur,</hi> Rottweil und Mülhausen. Was diese ehemaligen Schweizerstädte in Reformation und Gegenreformation erlebten, in: Schweizerisches Protestantenblatt, Jg. 55, 1932, S. 13; Friedrich <hi>Thöne,</hi> Zwei Risse zu Schaffhauser Prädikantenscheiben von Thomas Schmid (?) und Hans Caspar Lang, in: Schaffhauser Beiträge zur vaterländischen Geschichte, 49. Heft, 1972, S. 57; Pfarrerbuch 45f. 196; <bibl>HBLS</bibl> II 236.</note>.</s>
 				</p>
 			</div>
 		</body>

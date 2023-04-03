@@ -6,50 +6,41 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Oswald Myconius, Andreas Karlstadt, 17. Dezember 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=492</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">446</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,473-474</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Sendet ihnen eine Abschrift der ablehnenden Antwort der <placeName ref="place121">Berner</placeName>
+								Sendet ihnen eine Abschrift der ablehnenden Antwort der <placeName>Berner</placeName>
 								auf das zürcherische Abendmahlsbekenntnis [<ref target="file10518">Nr. 482</ref>] zu. Bittet sie, in einem
-								Schreiben an die <placeName ref="place121">Berner</placeName> diese der Aufrichtigkeit der zürcherischen
+								Schreiben an die <placeName>Berner</placeName> diese der Aufrichtigkeit der zürcherischen
 								Absichten zu versichern; die Zürcher wollen dasselbe tun. Diese Mitteilung ist vertraulich,
-								<persName ref="person154">Myconius</persName> und <persName ref="person117">Karlstadt</persName> sollen
+								<persName ref="p8418">Myconius</persName> und <persName ref="p4349">Karlstadt</persName> sollen
 								ihm aber ihre Meinung offen kundtun.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 492, S.446</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10528">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1534-12-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -88,7 +86,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<persName ref="person1858" cert="high">
+					<persName ref="p1858" cert="high">
 						<!--
 						<surname cert="high">Karlstadt</surname>
 						<forename cert="high">Andreas</forename>
@@ -118,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,14 +129,14 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Copia epistolae <placeName ref="place121">Bernensis</placeName>: «Quae in confessione vestra nobis displicent [...] novam nobis tragoediam excitetis.</s>
+					<s n="1" xml:lang="la" type="auto">Copia epistolae <placeName>Bernensis</placeName>: «Quae in confessione vestra nobis displicent [...] novam nobis tragoediam excitetis.</s>
 					<s n="2" xml:lang="la" type="auto">Valete.</s>
-					<s n="3" xml:lang="la" type="auto">Fratres et ministri ecclesiae <placeName ref="place121">Bernensis</placeName><note xml:id="fna" type="footnote" n="a"><hi>Teilkopie von <ref target="file10525">Nr. 489</ref>, S. 442, 18-444, 99.</hi></note>.»<pb type="edition" next="447"/></s>
+					<s n="3" xml:lang="la" type="auto">Fratres et ministri ecclesiae <placeName>Bernensis</placeName><note xml:id="fna" type="footnote" n="a"><hi>Teilkopie von <ref target="file10525">Nr. 489</ref>, S. 442, 18-444, 99.</hi></note>.»<pb type="edition" next="447"/></s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Iam expendite nobis, charissimi fratres <persName ref="person154">Myconi</persName> ac <persName ref="person117">Carolstadi</persName>, num syncere nostra intellexerint<note xml:id="fn2" type="footnote" n="2">Nämlich die <placeName ref="place121">Berner</placeName>.</note> Quis ex omni illa confessione<note xml:id="fn3" type="footnote" n="3">Gemeint ist das Bekenntnis der Zürcher (<ref target="file10518">Nr. 482</ref>); vgl. <hi>Köhler,</hi> ZL II 366-369.</note> nostra vel suspicari poterat nos id vel per somnium somniasse, quod illi nos de distributione asserere fingunt, quasi corpus Christi naturaliter pani sit unitum eoque iam primum per symbola distribuatur<note xml:id="fn4" type="footnote" n="4">Bullinger wehrt sich gegen die Beschuldigung, die Zürcher näherten sich der lutherischen Abendmahlslehre, vgl. auch <hi>Köhler</hi> ZL II 370.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Iam expendite nobis, charissimi fratres <persName ref="p8418">Myconi</persName> ac <persName ref="p4349">Carolstadi</persName>, num syncere nostra intellexerint<note xml:id="fn2" type="footnote" n="2">Nämlich die <placeName>Berner</placeName>.</note> Quis ex omni illa confessione<note xml:id="fn3" type="footnote" n="3">Gemeint ist das Bekenntnis der Zürcher (<ref target="file10518">Nr. 482</ref>); vgl. <hi>Köhler,</hi> ZL II 366-369.</note> nostra vel suspicari poterat nos id vel per somnium somniasse, quod illi nos de distributione asserere fingunt, quasi corpus Christi naturaliter pani sit unitum eoque iam primum per symbola distribuatur<note xml:id="fn4" type="footnote" n="4">Bullinger wehrt sich gegen die Beschuldigung, die Zürcher näherten sich der lutherischen Abendmahlslehre, vgl. auch <hi>Köhler</hi> ZL II 370.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Proinde deciarate etiam vos illis synceritatem confessionis nostrae.</s>
-					<s n="6" xml:lang="la" type="auto">Nam et nos amice illis hoc ipsum approbare scriptis nunc annitimur<note xml:id="fn5" type="footnote" n="5">Die Zürcher antworteten den Bernern am 3. und 4. Januar 1535 (Zürich StA, E II 337, 74-80 und 80 b); <persName ref="person154">Myconius</persName> entsprach aber Bullingers Wunsch und suchte die <placeName ref="place121">Berner</placeName> in einem Brief vom 18. Dezember 1534 (St. Gallen Kantonsbibliothek [Vadiana], Ms 32, 266) über die Hintergründe der letzten Konkordienbestrebungen in Kenntnis zu setzen, vgl. <hi>Kirchhofer,</hi> <persName ref="person154">Myconius</persName> 222-231, bes. 227, und <hi>Köhler,</hi> ZL II 370f.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Nam et nos amice illis hoc ipsum approbare scriptis nunc annitimur<note xml:id="fn5" type="footnote" n="5">Die Zürcher antworteten den Bernern am 3. und 4. Januar 1535 (Zürich StA, E II 337, 74-80 und 80 b); <persName>Myconius</persName> entsprach aber Bullingers Wunsch und suchte die <placeName>Berner</placeName> in einem Brief vom 18. Dezember 1534 (St. Gallen Kantonsbibliothek [Vadiana], Ms 32, 266) über die Hintergründe der letzten Konkordienbestrebungen in Kenntnis zu setzen, vgl. <hi>Kirchhofer,</hi> <persName>Myconius</persName> 222-231, bes. 227, und <hi>Köhler,</hi> ZL II 370f.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Interim vobis sous haec scripta putabitis.</s>
 					<s n="8" xml:lang="la" type="auto">Non potuimus haec vos celare, qui cordibus nostris penitius estis insculpti.</s>
 					<s n="9" xml:lang="la" type="auto">Quod si quid temenus et non sine veritatis, simplicitatis veraeque concordiae [damno?]<note xml:id="fnb" type="footnote" n="b"><hi>Das den Genetiven übergeordnete Substantiv zu</hi> sine <hi>ist versehentlich ausgelassen.</hi></note> positum videritis, oramus iam secundo, ut libere moneatis.</s>
@@ -150,7 +148,7 @@
 					<s n="11" xml:lang="la" type="auto">H. Bullingerus etc.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Hasce litteras tu solus una cum <persName ref="person117">Carolostadio</persName> lege.</s>
+					<s n="12" xml:lang="la" type="auto">Hasce litteras tu solus una cum <persName ref="p4349">Carolostadio</persName> lege.</s>
 				</p>
 				<p>
 					<note type="address">[Ohne Adresse.]</note>

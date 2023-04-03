@@ -6,40 +6,31 @@
 				<title subtype="file">Michael Schlatter / Biel AN Heinrich Bullinger, 28. Oktober [1542]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2021</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18354-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1683</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XX (Anhang)</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Häfner, Yvonne; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">20</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">April bis Dezember 1547</biblScope>
-				<biblScope unit="page">761</biblScope>
-				<biblScope unit="pages">807</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 20 (Anhang), Bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 375,816</idno>
 					</msIdentifier>
 					<msContents>
@@ -72,7 +63,7 @@
 								<p xml:id="regest5">
 								[5] So viel für diesmal. Schlatter wird bei Gelegenheit ausführlicher schreiben. Mittlerweile empfiehlt er
 								die Bieler. Er und Johann Leopold Frey grüßen alle Zürcher Professoren und Pfarrkollegen sowie auch
-								Bullingers Gattin Anna [geb. Adlischwyler], deren Kinder und Haushalt. Schlatters frommer Kollege Jakob
+								Bullingers Gattin <persName ref="p8051">Anna [geb. Adlischwyler]</persName>, deren Kinder und Haushalt. Schlatters frommer Kollege Jakob
 								Würben lässt ebenfalls grüßen. Auch Heinrichs Bruder Johannes sei herzlich gegrüßt!
 							</p>
 						</summary>
@@ -80,13 +71,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 20A, Nr. 1683a, S.761</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11728">
 				<correspAction type="sent">
-					<persName ref="person2919" cert="high">
+					<persName ref="p2919" cert="high">
 						<!--
 						<surname cert="high">Schlatter</surname>
 						<forename cert="high">Michael</forename>
@@ -94,11 +92,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/1089471572"/>
 						-->
 					</persName>
-					<placeName source="place49" cert="high"><orig>Biel</orig></placeName>
+					<placeName source="l49" cert="high"><orig>Biel</orig></placeName>
 					<date when="1542-10-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -132,7 +130,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -144,7 +142,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino.</s>
-					<s n="2" xml:lang="la" type="auto">Annotationes tuas in Deuteronomion,<note xml:id="fn2" type="footnote" n="2">Gemeint ist die von Bullinger am 14. Mai 1542 abgeschlossene Predigtreihe über Deuteronomium; s. HBD 30, 27f. - Bullingers Notizen zu Deuteronomium liegen in Zürich ZB, Ms Car XV 26f (Abschriften von Christian Hochholzers Hand, dessen Tätigkeit als Bullingers Kopist z.B. in HBBW XIV 303 und Anm. 9, belegt ist); Ms Car III 203 (autographe Konzepte); und D 6.</note> clarissime vir, tibi remitto, non quidem ad illum diem, quem tu praescripseras, sed ad eum, quem occupationes meae dederunt.</s>
+					<s n="2" xml:lang="la" type="auto">Annotationes tuas in Deuteronomion,<note xml:id="fn2" type="footnote" n="2">Gemeint ist die von Bullinger am 14. Mai 1542 abgeschlossene Predigtreihe über Deuteronomium; s. <bibl>HBD</bibl> 30, 27f. - Bullingers Notizen zu Deuteronomium liegen in Zürich ZB, Ms Car XV 26f (Abschriften von Christian Hochholzers Hand, dessen Tätigkeit als Bullingers Kopist z.B. in <bibl>HBBW XIV</bibl> 303 und Anm. 9, belegt ist); Ms Car III 203 (autographe Konzepte); und D 6.</note> clarissime vir, tibi remitto, non quidem ad illum diem, quem tu praescripseras, sed ad eum, quem occupationes meae dederunt.</s>
 					<s n="3" xml:lang="la" type="auto">Singulis enim septimanis mihi<note xml:id="fna" type="footnote" n="a">mihi am Rande nachgetragen.</note> vicissim nunc quaternis, nunc quinis contionibus defungendum est, non raro etiam catechumenorum gratia sex.</s>
 					<s n="4" xml:lang="la" type="auto">Quocirca tibi cum pro isto singulari benefitio tuo, tum pro aliis tuis benefitiis, quae in me innumera extiterunt, gratias ago amplissimas, deumque precor, ut quando ego non possum, ipse affatim referat etiam.<pb type="edition" next="762"/></s>
 				</p>
@@ -154,16 +152,16 @@
 					<s n="5" xml:lang="la" type="auto">Novarum rerum nihil nunc est, quod scribam.</s>
 					<s n="6" xml:lang="la" type="auto">Apud nos omnia salva sunt.</s>
 					<s n="7" xml:lang="la" type="auto">Habemus novum scribam, sed priori<note xml:id="fn3" type="footnote" n="3">Ulrich Fischer, der das Amt des Stadtschreibers nicht lange innehatte; s. Emil Anton Bloesch, Verfassungsgeschichte der Stadt Biel von der Frühzeit bis zum Sturz des Familienregiments im Jahre 1798, Biel 1977, S. 130.</note> dissimilem, id quod ex moribus eius, tum ex sodalitio quocum crebro versatur, aestimare licet.<note xml:id="fn4" type="footnote" n="4">Die hier übermittelten Angaben über den neuen Stadtschreiber treffen gut auf Johannes des Bois zu, der aus einer adligen Familie aus Delsberg (Kt. Jura) stammte. Er sollte sein neues Amt bis zu seinem Tod 1570 innehaben. 1547 Grosser Rat. 1557 Kleiner Rat. 1566-1567 Chorschreiber; s. Werner und Marcus Bourquin, Biel. Stadtgeschichtliches Lexikon von der Römerzeit (Petinesca) bis Ende der 1930er Jahre, Biel 1999, S. 116. - Dieser Stelle zufolge ist die ungenaue zeitliche Angabe zu des Bois’ Amtsantritt als Stadtschreiber bei Bloesch, aaO, und Bourquin, aaO, von „1543“ auf „Oktober 1542“ zu korrigieren.</note></s>
-					<s n="8" xml:lang="la" type="auto">Certe ex aula episcopi Basiliensis<note xml:id="fn5" type="footnote" n="5">Philipp von Gundelsheim.</note>, cuius commendatione ad istam functionem impetrandam usus est apud nostros, receptus est.</s>
+					<s n="8" xml:lang="la" type="auto">Certe ex aula episcopi Basiliensis<note xml:id="fn5" type="footnote" n="5"><persName>Philipp von Gundelsheim</persName>.</note>, cuius commendatione ad istam functionem impetrandam usus est apud nostros, receptus est.</s>
 					<s n="9" xml:lang="la" type="auto">Quid ab illo nobis expectandum sit, nunc ignoramus, sed brevi dies ac tempus declarabit.</s>
 				</p>
 			</div>
 			<div xml:id="div3" corresp="regest3">
 				<p>
 					<s n="10" xml:lang="la" type="auto">Porro quid Bernae agatur, ut longum esset scribere, ita parum tutum quoque est.</s>
-					<s n="11" xml:lang="la" type="auto">Bonus noster Erasmus<note xml:id="fn6" type="footnote" n="6">Erasmus Ritter.</note> illic gravissimis vexationibus torquetur.</s>
-					<s n="12" xml:lang="la" type="auto">Cogitur in foro tantum non famae causam dicere.<note xml:id="fn7" type="footnote" n="7">Seit September 1542 erduldete Ritter persönliche Angriffe. Am 9. und 16. Oktober 1542 konnte er sich auf rechtlichem Weg verwahren; s. HBBW XII 189 und Anm. 2.</note></s>
-					<s n="13" xml:lang="la" type="auto">Res omnino eo spectare mihi videtur, ut exturbetur, et triumphet pars adversaria.<note xml:id="fn8" type="footnote" n="8">Die bucerisch-lutherische Partei in Bern; s. dazu HBBW XV <ref target="file12110">[Nr. 2063]</ref> 71, Anm. 3.</note></s>
+					<s n="11" xml:lang="la" type="auto">Bonus noster Erasmus<note xml:id="fn6" type="footnote" n="6"><persName>Erasmus Ritter</persName>.</note> illic gravissimis vexationibus torquetur.</s>
+					<s n="12" xml:lang="la" type="auto">Cogitur in foro tantum non famae causam dicere.<note xml:id="fn7" type="footnote" n="7">Seit September 1542 erduldete Ritter persönliche Angriffe. Am 9. und 16. Oktober 1542 konnte er sich auf rechtlichem Weg verwahren; s. <bibl>HBBW</bibl> XII 189 und Anm. 2.</note></s>
+					<s n="13" xml:lang="la" type="auto">Res omnino eo spectare mihi videtur, ut exturbetur, et triumphet pars adversaria.<note xml:id="fn8" type="footnote" n="8">Die bucerisch-lutherische Partei in Bern; s. dazu <bibl>HBBW XV</bibl> <ref target="file12110">[Nr. 2063]</ref> 71, Anm. 3.</note></s>
 					<s n="14" xml:lang="la" type="auto">Quid post hoc futurum sit, non obscurum est.</s>
 					<s n="15" xml:lang="la" type="auto">Cuperem certe te et videre coram et audire, quae illic geruntur.</s>
 					<s n="16" xml:lang="la" type="auto">Haud dubie ecclesiae Bernensis hactenus tam celebris et concordis, nunc autem laceratae, infoelicem statum misere deplorares.</s>
@@ -182,7 +180,7 @@
 					<s n="21" xml:lang="la" type="auto">Haec habui, praestantissime vir, quae tibi in praesentiarum scriberem, posthac copiosiora daturus, ubi per occasionem licebit.</s>
 					<s n="22" xml:lang="la" type="auto">Tu interim pro paterno amore tuo semper habeto nos tibi commendatos.</s>
 					<s n="23" xml:lang="la" type="auto">Vale et foelicissime vive.</s>
-					<s n="24" xml:lang="la" type="auto">Saluta meo Leopoldique<note xml:id="fn9" type="footnote" n="9">Der in Biel wirkende Lateinschulmeister Johann Leopold Frey.</note> nostri nomine patres ac fratres nostros in domino omnes, item uxorem<note xml:id="fn10" type="footnote" n="10">Anna, geb. Adlischwyler.</note> ac liberos tuos<note xml:id="fn11" type="footnote" n="11">Zu den zu dieser Zeit lebenden Kindern s. HBBW XII <ref target="file11701">[Nr. 1658]</ref> 178, Anm. 27.</note> totamque adeo familiam <pb type="edition" next="763"/> tuam.</s>
+					<s n="24" xml:lang="la" type="auto">Saluta meo Leopoldique<note xml:id="fn9" type="footnote" n="9">Der in Biel wirkende Lateinschulmeister Johann Leopold Frey.</note> nostri nomine patres ac fratres nostros in domino omnes, item uxorem<note xml:id="fn10" type="footnote" n="10"><persName>Anna, geb. Adlischwyler</persName>.</note> ac liberos tuos<note xml:id="fn11" type="footnote" n="11">Zu den zu dieser Zeit lebenden Kindern s. <bibl>HBBW</bibl> XII <ref target="file11701">[Nr. 1658]</ref> 178, Anm. 27.</note> totamque adeo familiam <pb type="edition" next="763"/> tuam.</s>
 					<s n="25" xml:lang="la" type="auto">Salutat vos item plurimum piissimus vir Iacobus Wurbenius<note xml:id="fn12" type="footnote" n="12">Pfarrer Jakob Würben, Kirchherr in Biel.</note>, collega meus idemque in domino frater charissimus.</s>
 					<s n="26" xml:lang="la" type="auto">Datum Biellis, 28. octobris.</s>
 					<s n="27" xml:lang="la" type="auto">Tuum quoque fratrem Ioannem Bulingerum<note xml:id="fn13" type="footnote" n="13">Der ältere Bruder Johannes Reinhard Bullinger, damals Pfarrer in Ottenbach (Kt. Zürich).</note> meo nomine plurimum salvere iubeto.</s>

@@ -6,32 +6,31 @@
 				<title subtype="file">Christoph Mont / Strassburg AN Heinrich Bullinger / Zürich, 1. Februar 1550</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">1899</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,719 ff.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>A. Mühling: HB's europ. Kirchenpolitik 312 (Anlage 21); vgl. S. 160</title>
+								<title>A. Mühling: HB's europ. Kirchenpolitik 312 (Anlage 21); vgl. S.160</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -51,28 +50,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,45</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive81">
+						<repository ref="a81">
 							<name>Strassburg BNU</name>
 							<ref target="https://www.bnu.fr/fr"/>
 						</repository>
-						<settlement ref="place492">Strassburg</settlement>
+						<settlement ref="l492">Strassburg</settlement>
 						<institution>National- und Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive81"/>
+						<repository ref="a81"/>
 						<idno subtype="Kopie">Ms 0.679 = STB Bd. XX,165 CS</idno>
 					</msIdentifier>
 				</msDesc>
@@ -81,7 +80,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/828">
 				<correspAction type="sent">
-					<persName ref="person2144" cert="high">
+					<persName ref="p2144" cert="high">
 						<!--
 						<surname cert="high">Mont</surname>
 						<forename cert="high">Christoph</forename>
@@ -90,11 +89,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/1068771844"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1550-02-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -104,7 +103,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file829"/>
@@ -129,7 +128,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -191,7 +190,7 @@
 				</p>
 				<p>
 					<s n="39" xml:lang="la" type="auto">Argentina 1. februarii anno 50.</s>
-					<s n="40" xml:lang="la" type="auto">Commenda me d. Halesio<note xml:id="fn1" type="footnote" n="1">Vgl. Original Letters I 189.</note> Anglo, cui ipse s[t]atum Anglie pręsentem descripsissem, nisi compertum haberem ipsum Burcerum ante biduum omnia ei diligenter significasse.</s>
+					<s n="40" xml:lang="la" type="auto">Commenda me d. Halesio<note xml:id="fn1" type="footnote" n="1">Vgl. <bibl>Original Letters</bibl> I 189.</note> Anglo, cui ipse s[t]atum Anglie pręsentem descripsissem, nisi compertum haberem ipsum Burcerum ante biduum omnia ei diligenter significasse.</s>
 					<s n="41" xml:lang="la" type="auto">Vestro consuli omnia mea officia summa observantia deferas.</s>
 					<s n="42" xml:lang="la" type="auto">D. Gvaltero salutem ex me dicas.</s>
 				</p>

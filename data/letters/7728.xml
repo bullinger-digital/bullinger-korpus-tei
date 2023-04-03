@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms T 406,21</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +43,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7728">
 				<correspAction type="sent">
-					<persName ref="person503" cert="low">
+					<persName ref="p503" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">s.n.</forename>
@@ -60,7 +57,7 @@
 					<date notBefore="1569-12-01" notAfter="1574-12-12" cert="low"><note>Datum unsicher  s.d. [Dez. 1569-1574]</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3194" cert="low">
+					<persName ref="p3194" cert="low">
 						<!--
 						<surname cert="low">Trüb</surname>
 						<forename cert="low">Heinrich</forename>
@@ -75,11 +72,12 @@
 					<ref type="prev_same_sender" target="file8089"/>
 					<ref type="next_with_sender_as_addressee" target="file8093"/>
 					<ref type="prev_with_sender_as_addressee" target="file8089"/>
+					<ref type="child" target="file7729"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

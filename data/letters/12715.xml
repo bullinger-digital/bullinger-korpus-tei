@@ -6,54 +6,44 @@
 				<title subtype="file">Johannes Stumpf / Stammheim AN Heinrich Bullinger, 10. [November] 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2017</date>
-				<idno subtype="ISBN">ISBN 078-3-290-17889-5547</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2668</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVIII</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">18</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Oktober bis Dezember 1546</biblScope>
-				<biblScope unit="page">259</biblScope>
-				<biblScope unit="pages">496</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 18 (Briefe von Oktober bis Dezember 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2017, 496 S., ISBN 978-3-290-17889-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,158</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								[1] Am Dienstag den 9. November übergab ein Soldat [...], der aus dem [schmalkaldischen] Feldlager nach
-								<placeName ref="place1025">Stammheim</placeName> zurückkam, <persName ref="person211">Stumpf</persName>
+								<placeName>Stammheim</placeName> zurückkam, <persName ref="p6730">Stumpf</persName>
 								den beiliegenden Brief [<ref target="file12695">Nr. 2648</ref>] aus
-								<placeName ref="place1113">Ulm</placeName>.
+								<placeName>Ulm</placeName>.
 								</p>
 								<p xml:id="regest2">
-								[2] Bullinger möge <persName ref="person226">Vadians</persName> Buch über die Äbte St. Gallens [„Kleine Chronik“] mittels Meister Christoph
-								[<persName ref="person891">Froschauer</persName>] zurücksenden, damit <persName ref="person211">Stumpf</persName> es zusammen mit anderen
-								Büchern und alten Dokumenten endlich an <persName ref="person226">Vadian</persName> zurückgeben kann.
+								[2] Bullinger möge <persName ref="p8049">Vadians</persName> Buch über die Äbte St. Gallens [„Kleine Chronik“] mittels Meister <persName ref="p1227">Christoph [Froschauer]</persName> zurücksenden, damit <persName ref="p6730">Stumpf</persName> es zusammen mit anderen
+								Büchern und alten Dokumenten endlich an <persName ref="p8049">Vadian</persName> zurückgeben kann.
 								</p>
 								<p xml:id="regest3">
 								[3] Empfehlung an Gott.
@@ -63,13 +53,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 18, Nr. 2668, S.259</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12715">
 				<correspAction type="sent">
-					<persName ref="person3067" cert="high">
+					<persName ref="p3067" cert="high">
 						<!--
 						<surname cert="high">Stumpf</surname>
 						<forename cert="high">Johannes</forename>
@@ -79,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417093"/>
 						-->
 					</persName>
-					<placeName source="place486" cert="high"><orig>Stammheim</orig></placeName>
+					<placeName source="l486" cert="high"><orig>Stammheim</orig></placeName>
 					<date when="1546-11-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,12 +128,12 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">Dominus vobiscum, etc.</s>
-					<s n="2" xml:lang="de" type="auto">Günstiger, lieber herr, es hatt an zinstag den 9. novembris ein kriegßman<note xml:id="fn2" type="footnote" n="2">Der schon in <ref target="file12707">Nr. 2660</ref>,4-7, erwähnte ältere Kriegmann.</note> von Stamheim (so uß dem veld geurloubett mit andren heimkommen ist) mir dißen byligenden brieff<note xml:id="fn3" type="footnote" n="3"><persName ref="person20346">Leonhard Serins</persName> Brief vom 5. November (<ref target="file12695">Nr. 2648</ref>).</note> uberantwort, uch den zuͦzesenden; kumpt von <placeName ref="place1113">Ulm</placeName>, etc.</s>
+					<s n="2" xml:lang="de" type="auto">Günstiger, lieber herr, es hatt an zinstag den 9. novembris ein kriegßman<note xml:id="fn2" type="footnote" n="2">Der schon in <ref target="file12707">Nr. 2660</ref>,4-7, erwähnte ältere Kriegmann.</note> von Stamheim (so uß dem veld geurloubett mit andren heimkommen ist) mir dißen byligenden brieff<note xml:id="fn3" type="footnote" n="3"><persName>Leonhard Serins</persName> Brief vom 5. November (<ref target="file12695">Nr. 2648</ref>).</note> uberantwort, uch den zuͦzesenden; kumpt von <placeName>Ulm</placeName>, etc.</s>
 				</p>
 			</div>
 			<div xml:id="div2" corresp="regest2">
 				<p>
-					<s n="3" xml:lang="de" type="auto">Demnach, wie ir noch habend d. <persName ref="person226">Vadiani</persName> buͦch von aͤpten von <placeName ref="place1011">S. Gallen</placeName>,<note xml:id="fn4" type="footnote" n="4">Gemeint ist die "Kleine Chronik" zu den Abtun St. Gallens, die <persName ref="person226">Vadian</persName> in der ersten Hälfte von Januar 1546 Bullinger zugesandt hatte; s. <hi>HBBW</hi> XVI 61.</note> so ir das gnuͦgsam gebrucht hettind, wer myn beger, das ir es dem m. Christoff<note xml:id="fn5" type="footnote" n="5"><persName ref="person891">Christoph Froschauer</persName>. - Er arbeitete zu dieser Zeit zusammen mit Bullinger an <persName ref="person211">Stumpfs</persName> "Eidgenössischer Chronik" (s. dazu die in <hi>HBBW</hi> XVI 15, Anm. 35, angeführten Briefe) und erscheint auch als "m[eister] Christoffel" z.B. in dem Brief von <persName ref="person226">Vadians</persName> Schwager, <persName ref="person2483">Hans Widenhuber</persName>, an Bullinger vom 14. Mai 1545 <hi>(HBBW XV,</hi> <ref target="file12208">Nr. 2161</ref>). <persName ref="person211">Stumpf</persName> nennt ihn in seinem Brief an <persName ref="person226">Vadian</persName> vom 4. Januar 1547 "m. Christoff Froschower"; s. <hi><persName ref="person226">Vadian</persName> BW</hi> VI 588.</note> gebind, mir zuͦ überschicken, darmit ich es mit vilen andern buͤchern und alten instrumenten<note xml:id="fn6" type="footnote" n="6">Dokumenten; s. <hi>SI</hi> I 349.</note>, mir von bemeltem doctor nun mee dan jar und tag<note xml:id="fn7" type="footnote" n="7">nun mee dan jar und tag: nun schon eine lange Zeit; vgl. <hi>SI</hi> III 57 (unter c).</note> gelyhen, ein mal samentlich<note xml:id="fn8" type="footnote" n="8">zusammen.</note> wider ubersenden moͤcht.<note xml:id="fn9" type="footnote" n="9"><persName ref="person211">Stumpf</persName> sandte die Dokumente am 4. Januar 1547 zusammen mit dem oben in Anm. 5 erwähnten Brief an <persName ref="person226">Vadian</persName> zurück.</note></s>
+					<s n="3" xml:lang="de" type="auto">Demnach, wie ir noch habend d. <persName ref="p8049">Vadiani</persName> buͦch von aͤpten von <placeName>S. Gallen</placeName>,<note xml:id="fn4" type="footnote" n="4">Gemeint ist die "Kleine Chronik" zu den Abtun St. Gallens, die <persName>Vadian</persName> in der ersten Hälfte von Januar 1546 Bullinger zugesandt hatte; s. <bibl>HBBW</bibl> XVI 61.</note> so ir das gnuͦgsam gebrucht hettind, wer myn beger, das ir es dem m. Christoff<note xml:id="fn5" type="footnote" n="5"><persName ref="p5295">Christoph Froschauer</persName>. - Er arbeitete zu dieser Zeit zusammen mit Bullinger an <persName>Stumpfs</persName> "Eidgenössischer Chronik" (s. dazu die in <bibl>HBBW</bibl> XVI 15, Anm. 35, angeführten Briefe) und erscheint auch als "m[eister] Christoffel" z.B. in dem Brief von <persName>Vadians</persName> Schwager, <persName>Hans Widenhuber</persName>, an Bullinger vom 14. Mai 1545 <hi>(HBBW XV,</hi> <ref target="file12208">Nr. 2161</ref>). <persName>Stumpf</persName> nennt ihn in seinem Brief an <persName>Vadian</persName> vom 4. Januar 1547 "m. Christoff Froschower"; s. <hi><persName>Vadian</persName> BW</hi> VI 588.</note> gebind, mir zuͦ überschicken, darmit ich es mit vilen andern buͤchern und alten instrumenten<note xml:id="fn6" type="footnote" n="6">Dokumenten; s. <bibl>SI</bibl> I 349.</note>, mir von bemeltem doctor nun mee dan jar und tag<note xml:id="fn7" type="footnote" n="7">nun mee dan jar und tag: nun schon eine lange Zeit; vgl. <bibl>SI</bibl> III 57 (unter c).</note> gelyhen, ein mal samentlich<note xml:id="fn8" type="footnote" n="8">zusammen.</note> wider ubersenden moͤcht.<note xml:id="fn9" type="footnote" n="9"><persName>Stumpf</persName> sandte die Dokumente am 4. Januar 1547 zusammen mit dem oben in Anm. 5 erwähnten Brief an <persName>Vadian</persName> zurück.</note></s>
 				</p>
 			</div>
 			<div xml:id="div3" corresp="regest3">

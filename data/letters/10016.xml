@@ -6,46 +6,37 @@
 				<title subtype="file">Heinrich Bullinger / Kappel am Albis AN Werner Steiner, 24. Juni 1524</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">45</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph__(Kopie)">Ms K 40,1r 1 S. 4°</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Begleitbrief zu den drei Schulreden Bullingers, die er <persName ref="person204">Steiner</persName> auf
+								Begleitbrief zu den drei Schulreden Bullingers, die er <persName ref="p8447">Steiner</persName> auf
 								dessen Wunsch zuschickt.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 					<physDesc>
 						<objectDesc><p>sehr gut erhalten</p></objectDesc>
 					</physDesc>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 1, S.45</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10016">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place242" cert="high"><orig>Kappel am Albis</orig></placeName>
+					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1524-06-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2831" cert="high">
+					<persName ref="p2831" cert="high">
 						<!--
 						<surname cert="high">Steiner</surname>
 						<forename cert="high">Werner</forename>
@@ -101,17 +99,17 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person204">Wernhero</persName><note xml:id="fna" type="footnote" n="a"><hi>Oben als Titel des ganzen Werkes von Bullingers Hand:</hi> Ad Magistrum Wernherum <persName ref="person204">Steiner</persName> Tuginum, de cruce et patientia, charitate et pace ac de contemptu mundi orationes tres.</note> suo gratiam precatur et pacem.<pb type="edition" next="46"/></s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p8447">Wernhero</persName><note xml:id="fna" type="footnote" n="a"><hi>Oben als Titel des ganzen Werkes von Bullingers Hand:</hi> Ad Magistrum <persName>Wernherum Steiner</persName> Tuginum, de cruce et patientia, charitate et pace ac de contemptu mundi orationes tres.</note> suo gratiam precatur et pacem.<pb type="edition" next="46"/></s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Mitto tibi, mi <persName ref="person204">Wernhere</persName>, declamationes meas<note xml:id="fn2" type="footnote" n="2">Vgl. Schriftenverzeichnis, HBD 14, <hi>Nr.</hi> 17-19; <hi>Staedtke</hi> 267 f. - Von den drei in <placeName ref="place534">Kappel</placeName> gehaltenen Reden ist nur die erste vollständig erhalten, sie folgt in Abschrift gleich nach dem Briefmanuskript auf fol. 1v.; die zweite bricht bereits am Anfang ab (fol. 8v.).</note> elapsas venus quam diligenter conscriptas.</s>
+					<s n="2" xml:lang="la" type="auto">Mitto tibi, mi <persName ref="p8447">Wernhere</persName>, declamationes meas<note xml:id="fn2" type="footnote" n="2">Vgl. Schriftenverzeichnis, <bibl>HBD</bibl> 14, <hi>Nr.</hi> 17-19; <bibl>Staedtke</bibl> 267 f. - Von den drei in <placeName>Kappel</placeName> gehaltenen Reden ist nur die erste vollständig erhalten, sie folgt in Abschrift gleich nach dem Briefmanuskript auf fol. 1v.; die zweite bricht bereits am Anfang ab (fol. 8v.).</note> elapsas venus quam diligenter conscriptas.</s>
 					<s n="3" xml:lang="la" type="auto">Dedico eas nomini tuo, liberum relinquens, num velis opus hoc, quod tu mihi quasi vi extorsisti, boni consulere.</s>
 					<s n="4" xml:lang="la" type="auto">Quod ad me pertinet, non potui quicquam amico tam syncero ac bene faventi denegare; imo animus quidem maiora dedisset, modo licuisset per inopiam.</s>
 					<s n="5" xml:lang="la" type="auto">Ceterum quod habemus, id damus.</s>
@@ -119,7 +117,7 @@
 					<s n="7" xml:lang="la" type="auto">Salvum te volunt fratres universi, et tu omnes vicissim salutabis, quotquot Christi nomen induerunt.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Ex academia nostra <placeName ref="place534">Cappell</placeName>, 8. calendas iulii anno ab incarnato Christo 1524.</s>
+					<s n="8" xml:lang="la" type="auto">Ex academia nostra <placeName>Cappell</placeName>, 8. calendas iulii anno ab incarnato Christo 1524.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Henrichus Bull[ingerus], tuus ex omni parte.</s>

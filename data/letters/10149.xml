@@ -6,40 +6,31 @@
 				<title subtype="file">Konrad Gessner / Straßburg AN Heinrich Bullinger, Theodor Bibliander, 10. August 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2004</date>
-				<idno subtype="ISBN">ISBN 3-290-17316-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=119</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X (Ergänzungsband)</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Addenda und Gesamtregister zu Band 1-10</biblScope>
-				<biblScope unit="page">42</biblScope>
-				<biblScope unit="pages">175</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Ergänzungsband A (Addenda und Gesamtregister zu Band 1-10), Bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2004, 175 S., ISBN 3-290-17316-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms C 50a,335r.–336r.</idno>
 						<idno subtype="Hinweis">Widmungsvorrede</idno>
 					</msIdentifier>
@@ -62,6 +53,9 @@
 							<bibl type="Gedruckt" subtype="Teilübersetzung">
 								<title>Hanhart 16</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10A, Nr. 119a, S.42</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10149">
 				<correspAction type="sent">
-					<persName ref="person1286" cert="high">
+					<persName ref="p1286" cert="high">
 						<!--
 						<surname cert="high">Gessner</surname>
 						<forename cert="high">Konrad</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11438405"/>
 						-->
 					</persName>
-					<placeName source="place491" cert="high"><orig>Straßburg</orig></placeName>
+					<placeName source="l491" cert="high"><orig>Straßburg</orig></placeName>
 					<date when="1532-08-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,7 +89,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person341" cert="high">
+					<persName ref="p341" cert="high">
 						<!--
 						<surname cert="high">Bibliander</surname>
 						<forename cert="high">Theodor</forename>
@@ -126,23 +120,23 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Doctissimis, clarissimis et integerrimis viris Henrico Bullingero et <persName ref="person14">Theodoro Bibliandro</persName>, Tiguri munus Huldrychi Zvinglii, herois invictissimi, sustinentibus<note xml:id="fn2" type="footnote" n="2">Bullinger war Zwinglis Nachfolger im kirchlichen, <persName ref="person14">Bibliander</persName> im schulischen Amt; vgl. HBRG I 306.</note>, praeceptoribus et patronis colendis, Conradus Gessnerus salutem etc.</s>
+					<s n="1" xml:lang="la" type="auto">Doctissimis, clarissimis et integerrimis viris Henrico Bullingero et <persName ref="p8171">Theodoro Bibliandro</persName>, Tiguri munus Huldrychi Zvinglii, herois invictissimi, sustinentibus<note xml:id="fn2" type="footnote" n="2">Bullinger war Zwinglis Nachfolger im kirchlichen, <persName>Bibliander</persName> im schulischen Amt; vgl. <bibl>HBRG</bibl> I 306.</note>, praeceptoribus et patronis colendis, Conradus Gessnerus salutem etc.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Quotiescunque animo meo, praeceptores reverendi, summam illam nostrae aetatis ingratitudinem volutare coepero, dictu mirum, quanto mens mea dolore tota inuratur.</s>
 					<s n="3" xml:lang="la" type="auto">„Tam rara in amicitiis fides, tam parata oblivio mortuorum“, ut Plinii verbis<note xml:id="fn3" type="footnote" n="3">Plinius, Epistulae, 6, 10, 5.</note> utar.</s>
-					<s n="4" xml:lang="la" type="auto">Neque enim ullus est nostrorum, qui vel unico verbulo gratum aperiat animum erga strenuissimum illum heroem, patrem patriae lucemque orbis terrarum Huldrychum Zvinglium<note xml:id="fnb" type="footnote" n="b">Huldrychum Zvinglium <hi>in Majuskeln.</hi></note>, in cuius vestigiis (quod toti <persName ref="person84">Tigurinum</persName> reipublicae foeliciter cedat) vos quoque nunc insistitis.</s>
+					<s n="4" xml:lang="la" type="auto">Neque enim ullus est nostrorum, qui vel unico verbulo gratum aperiat animum erga strenuissimum illum heroem, patrem patriae lucemque orbis terrarum Huldrychum Zvinglium<note xml:id="fnb" type="footnote" n="b">Huldrychum Zvinglium <hi>in Majuskeln.</hi></note>, in cuius vestigiis (quod toti <persName ref="p8011">Tigurinum</persName> reipublicae foeliciter cedat) vos quoque nunc insistitis.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Heroem merito appello, utpote quem nulla unquam vis, nullae minae, nullae insidiae, nulla denique invidia a vero et honesto labefecerit.</s>
-					<s n="6" xml:lang="la" type="auto">Itaque non solum verbis laudari, verum etiam auro, ebore, argento Parioque marmore<note xml:id="fn4" type="footnote" n="4">Der Marmor von der griechischen Insel Paros galt als besonders hochwertig; vgl. HBBW II <ref target="file10150">[Nr. 119]</ref>, S. 173f, Anm. 5.</note> effingi dignissimus erat.</s>
+					<s n="6" xml:lang="la" type="auto">Itaque non solum verbis laudari, verum etiam auro, ebore, argento Parioque marmore<note xml:id="fn4" type="footnote" n="4">Der Marmor von der griechischen Insel Paros galt als besonders hochwertig; vgl. <bibl>HBBW</bibl> II <ref target="file10150">[Nr. 119]</ref>, S. 173f, Anm. 5.</note> effingi dignissimus erat.</s>
 					<s n="7" xml:lang="la" type="auto">Ille, inquam, heros, vir solidae laudis, perfectae cumulataeque virtutis, cum apud exteras gentes summo honore celebretur, apud nos tamen solos, de quibus maxime omnium bene meritus est, iacet; nullus ei honos, reverentia nulla, nulla prorsus benef<pb type="scan" next="335v."/> iciorum ei gratia habetur.</s>
 					<s n="8" xml:lang="la" type="auto">Illud est, quod doleo, quod me maxime movet <foreign xml:lang="el">ϕίλον τετιηµένον ἦτορ</foreign><note xml:id="fn5" type="footnote" n="5">Vgl. Homer, Odyssee, 1, 114 u. ö.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Eius enim dum saltem audio nomen, vox mea fletu debilitatur, mensque tota dolore impeditur.</s>
@@ -174,7 +168,7 @@
 					<s n="25" xml:lang="la" type="auto">Argentinae, in aedibus d[octoris] Wolphgangi Fabritii Capitonis, 10. augusti anno 1532.</s>
 				</p>
 				<p>
-					<s n="26" xml:lang="la" type="auto">V[estrae] c[elsitudini] deditissimus <persName ref="person79">Conradus Gessnerus</persName>.</s>
+					<s n="26" xml:lang="la" type="auto">V[estrae] c[elsitudini] deditissimus <persName ref="p4951">Conradus Gessnerus</persName>.</s>
 				</p>
 			</div>
 		</body>

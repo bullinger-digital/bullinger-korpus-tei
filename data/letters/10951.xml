@@ -6,51 +6,42 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius, Simon Grynäus, 4. November 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=909</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">462</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,73</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Beklagt das Ausbleiben von Briefen. Sendet das Zürcher Gutachten [zur
-								<placeName ref="place1205">Wittenberger</placeName> Konkordie], das der bevorstehenden Tagsatzung
-								vorgelegt werden soll, und hofft, daß <placeName ref="place97">Basel</placeName>, wie schon
-								<placeName ref="place121">Bern</placeName>, die gleiche Haltung einnehmen wird. Wünscht,
-								<persName ref="person154">Myconius</persName> und <persName ref="person81">Grynäus</persName> hätten die
-								unkluge "Retraktation" <persName ref="person28">Bucers</persName> verhindern können. Die Antwort Zürichs
+								<placeName>Wittenberger</placeName> Konkordie], das der bevorstehenden Tagsatzung
+								vorgelegt werden soll, und hofft, daß <placeName>Basel</placeName>, wie schon
+								<placeName>Bern</placeName>, die gleiche Haltung einnehmen wird. Wünscht,
+								<persName ref="p8418">Myconius</persName> und <persName ref="p1365">Grynäus</persName> hätten die
+								unkluge "Retraktation" <persName ref="p467">Bucers</persName> verhindern können. Die Antwort Zürichs
 								ist noch nicht endgültig und deshalb vertraulich zu behandeln.
 							</p>
 						</summary>
@@ -58,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 909, S.462</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10951">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1536-11-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -89,7 +87,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -121,7 +119,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -136,15 +134,15 @@
 					<s n="4" xml:lang="la" type="auto">Ubi amor ille vester in nos quondam ardentissimus?</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Habetis hic responsionem nostram, quam ad <persName ref="person138">Lutheri</persName> articulos oblatos dabit proximis comitiis senatus et ecclesia nostra<note xml:id="fn1" type="footnote" n="1">Gemeint ist die von Bullinger verfaßte, am 24. Oktober von der Zürcher Synode und am 25. vom Kleinen und Großen Rat gebilligte-Deklaration, die an der Basler Tagung vom 12.-14. November in den Entwurf des Briefes der evangelischen Orte der Eidgenossenschaft an <persName ref="person138">Luther</persName> eingearbeitet wurde (lateinischer Text: Zürich StA, E II 337, 187r.-192r.; deutsche Übersetzung [von <persName ref="person114">Leo Jud</persName>?] sowie weitere Einzelheiten s. WA Briefwechsel XII 246-261, Nr. 4268, I). Die Abschrift der deutschen Fassung in Zürich StA, E I 1 2b tragt (von Bullingers Hand?) den Vermerk: D[omino]Myconio.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Habetis hic responsionem nostram, quam ad <persName ref="p1974">Lutheri</persName> articulos oblatos dabit proximis comitiis senatus et ecclesia nostra<note xml:id="fn1" type="footnote" n="1">Gemeint ist die von Bullinger verfaßte, am 24. Oktober von der Zürcher Synode und am 25. vom Kleinen und Großen Rat gebilligte-Deklaration, die an der Basler Tagung vom 12.-14. November in den Entwurf des Briefes der evangelischen Orte der Eidgenossenschaft an <persName ref="p18889">Luther</persName> eingearbeitet wurde (lateinischer Text: Zürich StA, E II 337, 187r.-192r.; deutsche Übersetzung [von <persName ref="p2305">Leo Jud</persName>?] sowie weitere Einzelheiten s. <bibl>WA</bibl> Briefwechsel XII 246-261, Nr. 4268, I). Die Abschrift der deutschen Fassung in Zürich StA, E I 1 2b tragt (von Bullingers Hand?) den Vermerk: D[omino]Myconio.</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Hanc vobis mittimus sperantes nostram vobis non displicituram.</s>
 					<s n="7" xml:lang="la" type="auto">Hanc si nobiscum recipere potestis<note xml:id="fna" type="footnote" n="a">potestis <hi>am Rande nachgetragen.</hi></note> aut diversum ab hac non fueritis sequti, convenit probe omnibus.</s>
-					<s n="8" xml:lang="la" type="auto">Certe nobis convenit cum <placeName ref="place121">Bernatibus</placeName>, quorum responsionem<note xml:id="fn2" type="footnote" n="2">Siehe oben <ref target="file10945">Nr. 903</ref>, Anm. 6.</note> vidistis, opinor.</s>
+					<s n="8" xml:lang="la" type="auto">Certe nobis convenit cum <placeName>Bernatibus</placeName>, quorum responsionem<note xml:id="fn2" type="footnote" n="2">Siehe oben <ref target="file10945">Nr. 903</ref>, Anm. 6.</note> vidistis, opinor.</s>
 					<s n="9" xml:lang="la" type="auto">Non prodesset ecclesiis Helveticis, si scinderemur,<note xml:id="fnb" type="footnote" n="b">scinderemur <hi>korrigiert aus</hi> scinderemus.</note>, qui hactenus summa cohaesimus concordia.</s>
 					<s n="10" xml:lang="la" type="auto">Atqui meliora speramus.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto"><persName ref="person28">Bucerus</persName> optimam concordiae causam apud nostros fecit suspectissimam sua ista (mea quidem sententia) imprudenti Retractation<note xml:id="fn3" type="footnote" n="3">Zu <persName ref="person28">Bucers</persName> Retraktationen s. oben <ref target="file10906">Nr. 866</ref>, Anm. 12.</note>.</s>
+					<s n="11" xml:lang="la" type="auto"><persName ref="p467">Bucerus</persName> optimam concordiae causam apud nostros fecit suspectissimam sua ista (mea quidem sententia) imprudenti Retractation<note xml:id="fn3" type="footnote" n="3">Zu <persName ref="p18198">Bucers</persName> Retraktationen s. oben <ref target="file10906">Nr. 866</ref>, Anm. 12.</note>.</s>
 					<s n="12" xml:lang="la" type="auto">Magnam sane apud nostros plerosque invidiam sibi concitavit.</s>
 					<s n="13" xml:lang="la" type="auto">Quantum animi dederit papistis, quantas calumniandi et blasphemandi ansas praebuerit tam infirmis quam malevolis, ipsi nostis melius.</s>
 					<s n="14" xml:lang="la" type="auto">Ego hoc retractandi studium a vobis impeditum vellem et ratione aliqua commodiori coeptum optarem.</s>
@@ -168,7 +166,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="24" xml:lang="la" type="auto">Domino <persName ref="person154">Osvaldo Myconio</persName> et d. <persName ref="person81">Simoni Grynaeo</persName>, <placeName ref="place97">Basileien[sium]</placeName> ecclesiae antistitibus ornatissimis, charissimis fratribus.</s>
+					<s n="24" xml:lang="la" type="auto">Domino <persName ref="p8418">Osvaldo Myconio</persName> et d. <persName ref="p1365">Simoni Grynaeo</persName>, <placeName>Basileien[sium]</placeName> ecclesiae antistitibus ornatissimis, charissimis fratribus.</s>
 				</p>
 			</div>
 		</body>

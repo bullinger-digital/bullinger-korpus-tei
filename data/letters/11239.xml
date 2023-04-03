@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 9. November 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1196</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">261</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,199</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,181</idno>
@@ -49,25 +40,32 @@
 						<summary>
 							<p xml:id="regest1">
 								Freut sich über Bullingers Brief [<ref target="file11233">Nr. 1190</ref>], der ihn vom Zweifel befreit, ob
-								er ihm noch wohlgesinnt sei; Gerüchte, <persName ref="person154">Myconius</persName> sei vom Glauben
+								er ihm noch wohlgesinnt sei; Gerüchte, <persName ref="p8418">Myconius</persName> sei vom Glauben
 								abgefallen, sind abwegig. Klagt über den erneuten Versuch der Universität, sich die kirchlichen Amtsträger
 								zu unterstellen und sich durch deren Inkorporation ähnlich wie der Papst zum Haupt der Kirche zu machen.
-								Übersendet Brief und Geld aus <placeName ref="place121">Bern</placeName> für
-								<persName ref="person2502">Stephan Willi</persName>, der sich wohl bei
-								<persName ref="person165">Pellikan</persName> aufhält.
+								Übersendet Brief und Geld aus <placeName>Bern</placeName> für
+								<persName ref="p3958">Stephan Willi</persName>, der sich wohl bei
+								<persName ref="p8127">Pellikan</persName> aufhält.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1196, S.261</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11239">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -78,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1538-11-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -117,7 +115,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -142,7 +140,7 @@
 					<s n="8" xml:lang="la" type="auto">Fide sola sustineor; hinc mihi solatium fortissimum.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Pręter cętera de novo me petunt universitatenses hoc conatu, ut ministerium sanctum ecclesię sibi subiectum habeant<note xml:id="fn2" type="footnote" n="2">Die Forderung der Universität, die Lehrer der Theologie hätten den Doktorgrad zu erwerben, war von <persName ref="person154">Myconius</persName> und <persName ref="person81">Grynäus</persName> bereits 1535 bekämpft worden; nun verlangte die Regenz darüber hinaus, die Pfarrer sollten der Universität unterstellt werden. Zum Konflikt, der daraufhin in aller Schärfe neu entbrannte, s. Theophil <hi>Burckhardt-Biedermann,</hi> Die Erneuerung der Universität zu <placeName ref="place97">Basel</placeName> in den Jahren 1529-1539, in: Beiträge zur vaterländischen Geschichte, hg. von der Historischen und Antiquarischen Gesellschaft zu <placeName ref="place97">Basel</placeName>, NF IV, 1892, S. 401-487 (bes. S. 457-465); vgl. auch HBBW V <ref target="file10543">[Nr. 507]</ref>, S. 50, Anm. 7.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Pręter cętera de novo me petunt universitatenses hoc conatu, ut ministerium sanctum ecclesię sibi subiectum habeant<note xml:id="fn2" type="footnote" n="2">Die Forderung der Universität, die Lehrer der Theologie hätten den Doktorgrad zu erwerben, war von <persName>Myconius</persName> und <persName>Grynäus</persName> bereits 1535 bekämpft worden; nun verlangte die Regenz darüber hinaus, die Pfarrer sollten der Universität unterstellt werden. Zum Konflikt, der daraufhin in aller Schärfe neu entbrannte, s. Theophil <hi>Burckhardt-Biedermann,</hi> Die Erneuerung der Universität zu <placeName>Basel</placeName> in den Jahren 1529-1539, in: Beiträge zur vaterländischen Geschichte, hg. von der Historischen und Antiquarischen Gesellschaft zu <placeName>Basel</placeName>, NF IV, 1892, S. 401-487 (bes. S. 457-465); vgl. auch <bibl>HBBW V</bibl> <ref target="file10543">[Nr. 507]</ref>, S. 50, Anm. 7.</note>.</s>
 					<s n="10" xml:lang="la" type="auto">Qualem tu putas hic superbire satanam?</s>
 					<s n="11" xml:lang="la" type="auto">Prętexunt unum corpus se velle suum et ministrorum.</s>
 					<s n="12" xml:lang="la" type="auto">Ergo, inquio, iam non sunt de corpore Christi, hoc est ecclesię; nos enim eius membra sumus<note xml:id="fn3" type="footnote" n="3">Vgl. 1 Kor 12, 12-27.</note>.</s>
@@ -157,15 +155,15 @@
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">In fasciculo literarum invenies literas<note xml:id="fn4" type="footnote" n="4">Nicht erhalten.</note>, in quibus inclusa est pecunia.</s>
-					<s n="22" xml:lang="la" type="auto">Ex <placeName ref="place121">Berna</placeName> venit et <persName ref="person2502">Stephano Willio</persName> pertinet; quęso, reddas.</s>
-					<s n="23" xml:lang="la" type="auto">Arbitror esse apud <persName ref="person165">Pellicanum</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person2502">Willi</persName> war im Winter 1538 Kostgänger <persName ref="person165">Pellikans</persName>; s. <persName ref="person165">Pellikan</persName>, Chronikon 149.</note>.</s>
+					<s n="22" xml:lang="la" type="auto">Ex <placeName>Berna</placeName> venit et <persName ref="p3958">Stephano Willio</persName> pertinet; quęso, reddas.</s>
+					<s n="23" xml:lang="la" type="auto">Arbitror esse apud <persName ref="p8127">Pellicanum</persName><note xml:id="fn5" type="footnote" n="5"><persName>Willi</persName> war im Winter 1538 Kostgänger <persName>Pellikans</persName>; s. <persName>Pellikan</persName>, Chronikon 149.</note>.</s>
 				</p>
 				<p>
 					<s n="24" xml:lang="la" type="auto">Vale per Christum cum tuis et me semper ama.</s>
-					<s n="25" xml:lang="la" type="auto">Raptim, <placeName ref="place97">Basileę</placeName>, 9. novembris anno 38.</s>
+					<s n="25" xml:lang="la" type="auto">Raptim, <placeName>Basileę</placeName>, 9. novembris anno 38.</s>
 				</p>
 				<p>
-					<s n="26" xml:lang="la" type="auto">Tuus <persName ref="person154">Myconius</persName>.</s>
+					<s n="26" xml:lang="la" type="auto">Tuus <persName ref="p8418">Myconius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

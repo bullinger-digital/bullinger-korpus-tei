@@ -6,50 +6,41 @@
 				<title subtype="file">Kaspar Megander / Bern AN Heinrich Bullinger, Leo Jud, 31. Dezember 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1086</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">343</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms E 28,121</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								[<persName ref="person145">Megander</persName> und seine Kollegen] haben ihr Trost- und Mahnschreiben mit
-								großer Rührung gelesen. Er könnte aber ihrem Wunsch, in <placeName ref="place121">Bern</placeName>
+								[<persName ref="p8412">Megander</persName> und seine Kollegen] haben ihr Trost- und Mahnschreiben mit
+								großer Rührung gelesen. Er könnte aber ihrem Wunsch, in <placeName>Bern</placeName>
 								auszuharren, selbst dann nicht entsprechen, wenn er nicht wegen des Katechismus entlassen worden wäre, da
 								seine Gegner auch den längst erledigt geglaubten Streit um sein Verhalten zur Zeit des [Zweiten
-								<placeName ref="place534">Kappeler</placeName>-] Kriegs wieder aufleben lassen; hofft deshalb auf
+								<placeName>Kappeler</placeName>-] Kriegs wieder aufleben lassen; hofft deshalb auf
 								Billigung seines unverrückbaren Entschlusses, noch vor Lichtmeß nach Zürich zurückzukehren, und bittet
 								nochmals um Bereitstellung einer Unterkunft.
 							</p>
@@ -63,6 +54,9 @@
 							<bibl type="Gedruckt" subtype="Teildruck">
 								<title>Hundeshagen 95, Anm. b</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 1086, S.343</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -71,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11129">
 				<correspAction type="sent">
-					<persName ref="person2263" cert="high">
+					<persName ref="p2263" cert="high">
 						<!--
 						<surname cert="high">Megander</surname>
 						<forename cert="high">Kaspar</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416166"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1537-12-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,7 +89,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1753" cert="high">
+					<persName ref="p1753" cert="high">
 						<!--
 						<surname cert="high">Jud</surname>
 						<forename cert="high">Leo</forename>
@@ -128,7 +122,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -138,15 +132,15 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Amica vestra<note xml:id="fn1" type="footnote" n="1">Der Brief, auf den sich <persName ref="person145">Megander</persName> bezieht, ist nicht erhalten.</note>, quę accepimus, suasoria, consolatoria vel expostulatoria, quam fuerint omnibus nobis grata, verbis eloqui non potest; sine lachrimis enim ingentibus a nobis legi non potuere.</s>
-					<s n="3" xml:lang="la" type="auto">Verum esse experti sumus, quod proverbio dicitur<note xml:id="fn2" type="footnote" n="2">Vgl. Wander I 1174, Nr. 58; 1183f, Nr. 252f; V 1278, Nr. 618; Otto 21f. Nr. 92.</note>: "Amici fides rebus in adversis exploratur."</s>
+					<s n="2" xml:lang="la" type="auto">Amica vestra<note xml:id="fn1" type="footnote" n="1">Der Brief, auf den sich <persName>Megander</persName> bezieht, ist nicht erhalten.</note>, quę accepimus, suasoria, consolatoria vel expostulatoria, quam fuerint omnibus nobis grata, verbis eloqui non potest; sine lachrimis enim ingentibus a nobis legi non potuere.</s>
+					<s n="3" xml:lang="la" type="auto">Verum esse experti sumus, quod proverbio dicitur<note xml:id="fn2" type="footnote" n="2">Vgl. <bibl>Wander</bibl> I 1174, Nr. 58; 1183f, Nr. 252f; V 1278, Nr. 618; Otto 21f. Nr. 92.</note>: "Amici fides rebus in adversis exploratur."</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Cęterum, quod ad rem et negocium ipsum attinet: Non sum nescius me maxime quidem decere, ut hac eciam vice petentibus vobis parerem moremque gererem, diutius scilicet <placeName ref="place121">Bernę</placeName> permanendo.</s>
-					<s n="5" xml:lang="la" type="auto">At quin omnia adamussim, ut dicitur<note xml:id="fn3" type="footnote" n="3">Vgl. Adagia, 1, 5, 90 (LB II 216).</note>, expendo atque diiudico, tandem vincit, eciamsi liceret, diutius hic mihi nec durandum nec hęrendum esse.</s>
+					<s n="4" xml:lang="la" type="auto">Cęterum, quod ad rem et negocium ipsum attinet: Non sum nescius me maxime quidem decere, ut hac eciam vice petentibus vobis parerem moremque gererem, diutius scilicet <placeName>Bernę</placeName> permanendo.</s>
+					<s n="5" xml:lang="la" type="auto">At quin omnia adamussim, ut dicitur<note xml:id="fn3" type="footnote" n="3">Vgl. Adagia, 1, 5, 90 (<bibl>LB</bibl> II 216).</note>, expendo atque diiudico, tandem vincit, eciamsi liceret, diutius hic mihi nec durandum nec hęrendum esse.</s>
 					<s n="6" xml:lang="la" type="auto">Neque id solum ob negocium catechizmique causam<note xml:id="fn4" type="footnote" n="4">Siehe oben <ref target="file11127">Nr. 1084</ref>, 2-8.</note>, verum eciam propter ea, quę iam olim senatus populique decreto sopita et posita esse nemo non iudicat.</s>
-					<s n="7" xml:lang="la" type="auto">Omnia enim, quae tempore deploratissimi belli nostri acta sunt<note xml:id="fn5" type="footnote" n="5">Gegen <persName ref="person145">Megander</persName> war am 2. Dezember 1531 ein Predigtverbot ausgesprochen worden, weil er von der Kanzel herab die Haltung <placeName ref="place121">Berns</placeName> im Zweiten Kappelerkrieg kritisiert hatte. Dank <persName ref="person40">Capitos</persName> Vermittlung konnte der Streit am 12. Januar 1532 vor den beiden Räten beigelegt werden; s. Hans Rudolf <hi>Lavater,</hi> Die "Verbesserung der Reformation" zu <placeName ref="place121">Bern</placeName>, in: Der <placeName ref="place121">Berner</placeName> Synodus von 1532. Edition und Abhandlungen zum Jubiläumsjahr 1982, hg. v. Forschungsseminar für Reformationstheologie unter der Leitung von Gottfried W. Locher, Bd. II, Neukirchen-VIuyn 1988, bes. S. 62-64. 74f. 87f. 106-108.</note>, a quibusdam pacis publicae perturbatoribus refricantur ac recrudescunt.</s>
-					<s n="8" xml:lang="la" type="auto">Etsi nemini mortalium non constet, quid actum, comissum et delictum sit, non tamen sine magno malo obiicere et obtrudere mihi conantur omnemque ita lapidem movent<note xml:id="fn6" type="footnote" n="6">alles versuchen; vgl. Adagia, 1, 4, 30 (LB II 161).</note>, quo se vel ulciscantur vel iustam missionis datę causam habere videantur.</s>
+					<s n="7" xml:lang="la" type="auto">Omnia enim, quae tempore deploratissimi belli nostri acta sunt<note xml:id="fn5" type="footnote" n="5">Gegen <persName>Megander</persName> war am 2. Dezember 1531 ein Predigtverbot ausgesprochen worden, weil er von der Kanzel herab die Haltung <placeName>Berns</placeName> im Zweiten Kappelerkrieg kritisiert hatte. Dank <persName>Capitos</persName> Vermittlung konnte der Streit am 12. Januar 1532 vor den beiden Räten beigelegt werden; s. Hans Rudolf <hi>Lavater,</hi> Die "Verbesserung der Reformation" zu <placeName>Bern</placeName>, in: Der <placeName>Berner</placeName> Synodus von 1532. Edition und Abhandlungen zum Jubiläumsjahr 1982, hg. v. Forschungsseminar für Reformationstheologie unter der Leitung von Gottfried W. Locher, Bd. II, Neukirchen-VIuyn 1988, bes. S. 62-64. 74f. 87f. 106-108.</note>, a quibusdam pacis publicae perturbatoribus refricantur ac recrudescunt.</s>
+					<s n="8" xml:lang="la" type="auto">Etsi nemini mortalium non constet, quid actum, comissum et delictum sit, non tamen sine magno malo obiicere et obtrudere mihi conantur omnemque ita lapidem movent<note xml:id="fn6" type="footnote" n="6">alles versuchen; vgl. <bibl>Adagia</bibl>, 1, 4, 30 (<bibl>LB</bibl> II 161).</note>, quo se vel ulciscantur vel iustam missionis datę causam habere videantur.</s>
 					<s n="9" xml:lang="la" type="auto">Quamobrem consultum videtur non modo mihi, sed divinę glorię ecclesięque nostrae,<pb type="edition" next="344"/> eciamsi diutius hic durare et herere possem, ut semel hinc solvam ad vosque me recipiam.</s>
 					<s n="10" xml:lang="la" type="auto">Oro igitur vos per dominum deum nostrum, ut in hoc me iuvetis vestroque consensu id fieri queat.</s>
 					<s n="11" xml:lang="la" type="auto">Ratum, firmum et imutabile consilium hoc meum est.</s>
@@ -158,14 +152,14 @@
 					<s n="15" xml:lang="la" type="auto">Valete itaque in domino, fratres mei charissimi.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><placeName ref="place121">Bernę</placeName>, decembris ultima anno 37.</s>
+					<s n="16" xml:lang="la" type="auto"><placeName>Bernę</placeName>, decembris ultima anno 37.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Megand. totus vester.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="18" xml:lang="la" type="auto">Doctissimis iuxta ac piissimis Bullingero, <persName ref="person114">Leoni</persName> Iudę, Tigurinę ecclesię verbi ministris, dominis ac fratribus suis in domino charissimis.</s>
+					<s n="18" xml:lang="la" type="auto">Doctissimis iuxta ac piissimis Bullingero, <persName ref="p1753">Leoni</persName> Iudę, Tigurinę ecclesię verbi ministris, dominis ac fratribus suis in domino charissimis.</s>
 				</p>
 			</div>
 		</body>

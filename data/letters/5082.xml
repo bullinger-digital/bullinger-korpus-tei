@@ -18,23 +18,19 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
-						<idno subtype="Autograph">E II 453, p. 235</idno>
-						<idno subtype="Hinweis">+Rechnung p. 233f</idno>
+						<repository ref="a94"/>
+						<idno subtype="Autograph">E II 453,235 f.</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -42,23 +38,38 @@
 						</msItem>
 					</msContents>
 				</msDesc>
+				<msDesc type="Beilage" subtype="Beilage" xml:lang="">
+					<msIdentifier>
+						<!--
+						<repository ref="a94">
+							<name>Zürich StA</name>
+							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
+						</repository>
+						<settlement ref="l587">Zürich</settlement>
+						<institution>Staatsarchiv</institution>
+						-->
+						<repository ref="a94"/>
+						<idno subtype="Beilage">E II 453,233 f.</idno>
+						<idno subtype="Hinweis">Rechnung</idno>
+					</msIdentifier>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5082">
 				<correspAction type="sent">
-					<persName ref="person2737" cert="low">
+					<persName ref="p2737" cert="low">
 						<!--
 						<surname cert="low">Rosenstock</surname>
 						<forename cert="low">Hans</forename>
 						<note type="person">(Zürich-Neumarkt)</note>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1561-12-07" cert="low"><note>Datum unsicher  (1561 kurz vor Dez. 7. / event. vor Okt. 29.?)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -68,7 +79,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file5083"/>
@@ -85,7 +96,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

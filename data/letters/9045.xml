@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file9045" type="Briefanfang" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file9045" type="Brief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Johannes Haller d.J. AN Heinrich Bullinger, s.d. Oktober 1572</title>
+				<title subtype="file">Johannes Haller d.J. AN Heinrich Bullinger, Anfang Oktober 1572</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Briefanfang" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 127,57</idno>
 					</msIdentifier>
 					<additional>
@@ -48,7 +45,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9045">
 				<correspAction type="sent">
-					<persName ref="person8018" cert="high">
+					<persName ref="p8018" cert="high">
 						<!--
 						<surname cert="high">Haller d.J.</surname>
 						<forename cert="high">Johannes</forename>
@@ -58,10 +55,10 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
 						-->
 					</persName>
-					<date notBefore="1572-10-01" notAfter="1572-10-12" cert="low"><note>1572 Okt. Anfang</note></date>
+					<date notBefore="1572-10-01" notAfter="1572-10-12" cert="low">Anfang Oktober 1572<note type="Datum">1572 Okt. Anfang</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -93,7 +90,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

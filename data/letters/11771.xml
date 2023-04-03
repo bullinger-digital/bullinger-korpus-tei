@@ -6,49 +6,40 @@
 				<title subtype="file">Johannes Caesarius / Köln AN Heinrich Bullinger, 1. März [1543]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1726</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">95</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1477</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Bullingers großzügige Buchgeschenke überraschen ihn. Hat diesen Winter mit der Lektüre seines
-								Matthäuskommentars [HBBibl I 144] verbracht und kann seine Begeisterung kaum in Worte fassen; wünscht
+								Matthäuskommentars [<bibl>HBBibl</bibl> I 144] verbracht und kann seine Begeisterung kaum in Worte fassen; wünscht
 								besonders, dass Bullinger auch den gründlichsten Evangelisten, Lukas, kommentiert. Grüße, auch an die
-								übrigen Zürcher Pfarrer und besonders an [<persName ref="person84">Rudolf Gwalther</persName>], den
+								übrigen Zürcher Pfarrer und besonders an [<persName ref="p8011">Rudolf Gwalther</persName>], den
 								Bullinger zum Schreiben auffordern soll; bittet Bullinger um eine leserliche Schrift in seinen Briefen.
 							</p>
 						</summary>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1726, S.95</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11771">
 				<correspAction type="sent">
-					<persName ref="person536" cert="high">
+					<persName ref="p536" cert="high">
 						<!--
 						<surname cert="high">Caesarius</surname>
 						<forename cert="high">Johannes</forename>
@@ -70,11 +68,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/100065562"/>
 						-->
 					</persName>
-					<placeName source="place267" cert="high"><orig>Köln</orig></placeName>
+					<placeName source="l267" cert="high"><orig>Köln</orig></placeName>
 					<date when="1543-03-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -107,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -121,25 +119,25 @@
 					<s n="1" xml:lang="la" type="auto">Salutem in Christo Iesu, domino et servatore nostro.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Tuam erga me benevolentiam vix satis admirari possum, utpote quam tam magnam experior, ut ea ipsa motus non desinas mihi mittere tuorum commentariorum<pb type="edition" next="96"/> monumenta aliquot, et iam certe non pauca dono mihi misisti,<note xml:id="fn2" type="footnote" n="2">Zu Bullingers früheren Buchgeschenken an <persName ref="person38">Caesarius</persName> vgl. HBBW VII, <ref target="file11099">Nr. 1056</ref>, und HBBW IX, <ref target="file11349">Nr. 1306</ref>.</note> mihi inquam, qui de te non adeo bene meritus sim, ut debeas.</s>
+					<s n="2" xml:lang="la" type="auto">Tuam erga me benevolentiam vix satis admirari possum, utpote quam tam magnam experior, ut ea ipsa motus non desinas mihi mittere tuorum commentariorum<pb type="edition" next="96"/> monumenta aliquot, et iam certe non pauca dono mihi misisti,<note xml:id="fn2" type="footnote" n="2">Zu Bullingers früheren Buchgeschenken an <persName ref="p4423">Caesarius</persName> vgl. <bibl>HBBW</bibl> VII, <ref target="file11099">Nr. 1056</ref>, und <bibl>HBBW</bibl> IX, <ref target="file11349">Nr. 1306</ref>.</note> mihi inquam, qui de te non adeo bene meritus sim, ut debeas.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Cęterum hac hyeme totus pene fui in lectione commentariorum tuorum in Mattheum,<note xml:id="fn3" type="footnote" n="3">Bullingers Matthäuskommentar (HBBibl I 144) war im August 1542 erschienen.</note> quorum quidem lectio quam me oblectarit, vix oratione exprimere possum; imo usque adeo ea oblectatus sum, ut plane fatear me ex ipsis illis commentariis non parum fructus percepisse cum<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> cum <hi>zwei gestrichene Buchstaben.</hi></note> ad eruditionem tum ad pietatem pręcipue, que utique in ipsis mirifice commendatur abs te<note xml:id="fnb" type="footnote" n="b">abs te <hi>am Rande nachgetragen.</hi></note>.</s>
+					<s n="3" xml:lang="la" type="auto">Cęterum hac hyeme totus pene fui in lectione commentariorum tuorum in Mattheum,<note xml:id="fn3" type="footnote" n="3">Bullingers Matthäuskommentar (<bibl>HBBibl</bibl> I 144) war im August 1542 erschienen.</note> quorum quidem lectio quam me oblectarit, vix oratione exprimere possum; imo usque adeo ea oblectatus sum, ut plane fatear me ex ipsis illis commentariis non parum fructus percepisse cum<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> cum <hi>zwei gestrichene Buchstaben.</hi></note> ad eruditionem tum ad pietatem pręcipue, que utique in ipsis mirifice commendatur abs te<note xml:id="fnb" type="footnote" n="b">abs te <hi>am Rande nachgetragen.</hi></note>.</s>
 					<s n="4" xml:lang="la" type="auto">Proinde nisi scirem te non cessare posse, quin in reliquos quoque evangelistas commentaria scribas, alioqui etiam currentem te stimulis urgerem.</s>
 					<s n="5" xml:lang="la" type="auto">Et quod in voto mihi est, id velim, ut facias atque sumas eum laborem in Lucam, exactissimum evangelii scriptorem.</s>
 					<s n="6" xml:lang="la" type="auto">Pro hac tua erga me benevolentia profecto summa, quid rependam unquam tibi, cum nihil habeam, quod respondeat tantę tuę erga me benevolentię, non desinam te vel summo amore prosequi, pręsertim<note xml:id="fnc" type="footnote" n="c"><hi>Vor</hi> praesertim <hi>gestrichenes</hi> prae[?].</note> ea charitate, qua nos Christus coniunxit ac copulavit.</s>
 					<s n="7" xml:lang="la" type="auto">Bene vale.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><placeName ref="place577">Colonię</placeName>, calendis martii.</s>
+					<s n="8" xml:lang="la" type="auto"><placeName>Colonię</placeName>, calendis martii.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Salutabis (quęso te) meis verbis cęteros isthic concionatores et inprimis dilectissimum filium meum<note xml:id="fn4" type="footnote" n="4">Gemeint ist <persName ref="person84">Rudolf Gwalther</persName>, der <persName ref="person38">Caesarius</persName> im Mai 1537 besucht hatte, vgl. HBBW VII <ref target="file11099">[Nr. 1056]</ref>, S. 283f, 2-14 mit Anm. 2.</note>, qui me <placeName ref="place577">Colonię</placeName> cum convenisset<note xml:id="fnd" type="footnote" n="d">cum convenisset <hi>am Rande nachgetragen.</hi></note>, tam suaviter et iucunde salutavit et conversatus apud me<note xml:id="fne" type="footnote" n="e">apud me <hi>über der Zeile nachgetragen.</hi></note> fuit, ut eius non possim non meminisse, eumque etiam adhorteris, ut ad me aliquando scribat.</s>
+					<s n="9" xml:lang="la" type="auto">Salutabis (quęso te) meis verbis cęteros isthic concionatores et inprimis dilectissimum filium meum<note xml:id="fn4" type="footnote" n="4">Gemeint ist <persName>Rudolf Gwalther</persName>, der <persName ref="p4423">Caesarius</persName> im Mai 1537 besucht hatte, vgl. <bibl>HBBW</bibl> VII <ref target="file11099">[Nr. 1056]</ref>, S. 283f, 2-14 mit Anm. 2.</note>, qui me <placeName>Colonię</placeName> cum convenisset<note xml:id="fnd" type="footnote" n="d">cum convenisset <hi>am Rande nachgetragen.</hi></note>, tam suaviter et iucunde salutavit et conversatus apud me<note xml:id="fne" type="footnote" n="e">apud me <hi>über der Zeile nachgetragen.</hi></note> fuit, ut eius non possim non meminisse, eumque etiam adhorteris, ut ad me aliquando scribat.</s>
 					<s n="10" xml:lang="la" type="auto">At tu velim ut<note xml:id="fnf" type="footnote" n="f">ut <hi>über der Zeile nachgetragen.</hi></note>, si quando ad me scribere volueris, characteribus utaris talibus, ut ex ipsis literas tuas et legere et intelligere possim.</s>
 					<s n="11" xml:lang="la" type="auto">Interim bene vale.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><persName ref="person38">Ioannes Cęsarius</persName> totus tuus.</s>
+					<s n="12" xml:lang="la" type="auto"><persName ref="p536">Ioannes Cęsarius</persName> totus tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

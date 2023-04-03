@@ -6,47 +6,38 @@
 				<title subtype="file">Martin Borrhaus / [Basel] AN Heinrich Bullinger, 14. Juni [1544]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1925</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">264</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,316</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt den gelehrten Briefüberbringer <persName ref="person188">Johannes Fabricius</persName>
-								[Montanus?] und dankt für die freundliche Aufnahme, die Bullinger <persName ref="person493">Borrhaus</persName>’ Sohn <persName ref="person21771">Jakob von Berckheim</persName>
+								Empfiehlt den gelehrten Briefüberbringer <persName ref="p8009">Johannes Fabricius [Montanus?]</persName>
+								und dankt für die freundliche Aufnahme, die Bullinger <persName ref="p8298">Borrhaus</persName>’ Sohn <persName ref="p7398">Jakob von Berckheim</persName>
 								bereitete. Gruß.
 							</p>
 						</summary>
@@ -54,13 +45,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1925, S.264</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11972">
 				<correspAction type="sent">
-					<persName ref="person437" cert="high">
+					<persName ref="p437" cert="high">
 						<!--
 						<surname cert="high">Borrhaus</surname>
 						<forename cert="high">Martin</forename>
@@ -70,11 +68,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414609"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1544-06-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -104,7 +102,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -116,7 +114,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S[alutem] d[ico].</s>
-					<s n="2" xml:lang="la" type="auto">Cur hoc tempore ad te scribam, commovit me partim is, qui has tibi reddit, <persName ref="person188">Ioannes Fabritius</persName><note xml:id="fn2" type="footnote" n="2">Handelt es sich hier<persName ref="person188"> um Fabricius Montanus</persName> (zu ihm zuletzt oben <ref target="file11963">Nr. 1916</ref>, Anm. 1), kann dieser Brief nicht bei dessen Rückreise von <placeName ref="place672">Marburg</placeName> 1547 geschrieben worden sein, da die Rückreise im März (nicht im Juni) erfolgte (s. <persName ref="person188">Schmids</persName> Autobiographie in <hi>Misc. Tig.</hi> III 385). Soweit ermittelt, käme nur die Rückreise <persName ref="person188">Schmids</persName> von seiner mit seinem Vetter Johannes Jud unternommenen Tour im <placeName ref="place16">Elsass</placeName> in Frage, die während des Aufenthalts von Johannes Jud in <placeName ref="place97">Basel</placeName> (Ende 1543-Juni/Juli 1545; s. Joh. Juds Autobiographie, in Zürich ZB, G 329, Bl. [69r.]. 70v.) stattfand und wohl in der Sommerzeit anzusetzen ist, zumal Johannes Jud in den ersten Monaten seines Basler Aufenthaltes nur mit Krücken gehen konnte (aaO, Bl. [69r.]). Da nach Beendigung der Reise <persName ref="person188">Johannes Schmid</persName> allein nach Zürich zurückkehrte, während sein Vetter in <placeName ref="place97">Basel</placeName> blieb, ist das Jahr 1544 dem Jahr 1545 vorzuziehen. In der erwähnten Autobiographie <persName ref="person114">Juds</persName> wird diese Tour mit folgenden Worten geschildert: "In der zyt ungefaar a o 44 kam zu mir gan <placeName ref="place97">Basel</placeName> vetter Ioa. Fabritius. Mit dem zog ich in das Elsäs. Der wot zu sinem vatter gan Bercken [Bergheim]. Mit dem zog ich abhin. Wir landend zu Rychenwyr [Reichenweier] Ioannem Voglerum, einen Züricher. Wz [war] in graaf Jörgen [Graf Georg von Württemberg-Mömpelgard] cantzly. Der thet uns vil guts. Und gschach uns vil eer von den predicanten h. Mathis Erben und Urbano [sic, statt Nikolaus] Regio [König; dieser war 1534-1560 in Hunaweier tätig] zu Honawir und Richenwyr. Wir besachend vil stett, als Tann [Thann], Mülhusen [Mülhausen], Keysersperg [Kaysersberg], Raperschwyr [Rappoltsweiler], Richenwir, Gerner [Gemar], S. Pitt, Schletstatt, Colmar, Brysach [Breisach am Rhein] und Fryburg [Freiburg im Breisgau]. Daaruf zog Fabritius wider gan Zürich" (G 329, Bl. 70r.). Die Erwähnung Hans Voglers d.J. erlaubt eine sichere Datierung auf das Jahr 1544; s. nämlich unten <ref target="file12015">Nr. 1968</ref> mit Anm. 25.</note>, vir literis et eruditione vero, ut tibi<pb type="edition" next="265"/> significarem, quam gratum fuerit mihi, quod filium meum Iacobum a Bercken<note xml:id="fn3" type="footnote" n="3">Anscheinend handelt es sich um einen bisher unbekannten Sohn (oder Stiefsohn?) aus der 1527 geschlossenen ersten Ehe von Borrhaus mit Odile von Berckheim, geb. Utenheim (gest. 1535/36). Ein <persName ref="person21771">Jakob von Berckheim</persName> ist von 1540 bis 1557 mehrmals als Vasall des Basler Bischofs bezeugt; s. Thomas A. <hi>Brady,</hi> Ruling Class, Regime and Reformation at Strasbourg 1520-1555, Leiden 1978. -Studies in Medieval and Reformation Thought XXII, S. 363. Einen evangelischen, 1565 verstorbenen Jakob von Bergheim/Berckheim erwähnt Kindler von Knobloch I 56. Zur Ehe von Borrhaus mit Odile von Berckheim s. Irena <hi>Backus,</hi> <persName ref="person493">Martin Borrhaus</persName> (Cellarius), Baden-Baden 1981. - Bibliotheca dissidentium 2; Bibliotheca Bibliographica Aureliana 88, S. 13.</note> tam humaniter excepisti et exceptum tam benigne et liberaliter pro tua singulari animi bonitate tractasti.</s>
+					<s n="2" xml:lang="la" type="auto">Cur hoc tempore ad te scribam, commovit me partim is, qui has tibi reddit, <persName ref="p8009">Ioannes Fabritius</persName><note xml:id="fn2" type="footnote" n="2">Handelt es sich hier um <persName>Fabricius Montanus</persName> (zu ihm zuletzt oben <ref target="file11963">Nr. 1916</ref>, Anm. 1), kann dieser Brief nicht bei dessen Rückreise von <placeName>Marburg</placeName> 1547 geschrieben worden sein, da die Rückreise im März (nicht im Juni) erfolgte (s. <persName>Schmids</persName> Autobiographie in <hi>Misc. Tig.</hi> III 385). Soweit ermittelt, käme nur die Rückreise <persName>Schmids</persName> von seiner mit seinem Vetter Johannes Jud unternommenen Tour im <placeName>Elsass</placeName> in Frage, die während des Aufenthalts von Johannes Jud in <placeName>Basel</placeName> (Ende 1543-Juni/Juli 1545; s. Joh. Juds Autobiographie, in Zürich ZB, G 329, Bl. [69r.]. 70v.) stattfand und wohl in der Sommerzeit anzusetzen ist, zumal Johannes Jud in den ersten Monaten seines Basler Aufenthaltes nur mit Krücken gehen konnte (aaO, Bl. [69r.]). Da nach Beendigung der Reise <persName>Johannes Schmid</persName> allein nach Zürich zurückkehrte, während sein Vetter in <placeName>Basel</placeName> blieb, ist das Jahr 1544 dem Jahr 1545 vorzuziehen. In der erwähnten Autobiographie <persName ref="p2305">Juds</persName> wird diese Tour mit folgenden Worten geschildert: "In der zyt ungefaar a o 44 kam zu mir gan <placeName>Basel</placeName> vetter Ioa. Fabritius. Mit dem zog ich in das Elsäs. Der wot zu sinem vatter gan Bercken [Bergheim]. Mit dem zog ich abhin. Wir landend zu Rychenwyr [Reichenweier] Ioannem Voglerum, einen Züricher. Wz [war] in graaf Jörgen [Graf Georg von Württemberg-Mömpelgard] cantzly. Der thet uns vil guts. Und gschach uns vil eer von den predicanten h. Mathis Erben und Urbano [sic, statt Nikolaus] Regio [König; dieser war 1534-1560 in Hunaweier tätig] zu Honawir und Richenwyr. Wir besachend vil stett, als Tann [Thann], Mülhusen [Mülhausen], Keysersperg [Kaysersberg], Raperschwyr [Rappoltsweiler], Richenwir, Gerner [Gemar], S. Pitt, Schletstatt, Colmar, Brysach [Breisach am Rhein] und Fryburg [Freiburg im Breisgau]. Daaruf zog Fabritius wider gan Zürich" (G 329, Bl. 70r.). Die Erwähnung Hans Voglers d.J. erlaubt eine sichere Datierung auf das Jahr 1544; s. nämlich unten <ref target="file12015">Nr. 1968</ref> mit Anm. 25.</note>, vir literis et eruditione vero, ut tibi<pb type="edition" next="265"/> significarem, quam gratum fuerit mihi, quod filium meum Iacobum a Bercken<note xml:id="fn3" type="footnote" n="3">Anscheinend handelt es sich um einen bisher unbekannten Sohn (oder Stiefsohn?) aus der 1527 geschlossenen ersten Ehe von Borrhaus mit Odile von Berckheim, geb. Utenheim (gest. 1535/36). Ein <persName>Jakob von Berckheim</persName> ist von 1540 bis 1557 mehrmals als Vasall des Basler Bischofs bezeugt; s. Thomas A. <hi>Brady,</hi> Ruling Class, Regime and Reformation at Strasbourg 1520-1555, Leiden 1978. -Studies in Medieval and Reformation Thought XXII, S. 363. Einen evangelischen, 1565 verstorbenen Jakob von Bergheim/Berckheim erwähnt <bibl>Kindler von Knobloch</bibl> I 56. Zur Ehe von Borrhaus mit Odile von Berckheim s. Irena <hi>Backus,</hi> <persName>Martin Borrhaus (Cellarius)</persName>, Baden-Baden 1981. - <bibl>Bibliotheca dissidentium</bibl> 2; Bibliotheca Bibliographica Aureliana 88, S. 13.</note> tam humaniter excepisti et exceptum tam benigne et liberaliter pro tua singulari animi bonitate tractasti.</s>
 					<s n="3" xml:lang="la" type="auto">Pro quo tuo beneficio par est, ut gratum et memorem me declarem, quo ita me obstrinxisti, ut intelligam veteribus nominibus nova accessisse, ad quę solvenda, versuram ut faciam, mihi sit opus.</s>
 					<s n="4" xml:lang="la" type="auto">At vero, cum is, qui grate beneficium accepit, primam eius pensionem solvisse putetur, ego, ne ingratus videar, non invitus me tibi debere agnoscam.</s>
 				</p>
@@ -126,7 +124,7 @@
 					<s n="7" xml:lang="la" type="auto">14. iunii.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><persName ref="person493">Martinus Borrhaus</persName> tuus.</s>
+					<s n="8" xml:lang="la" type="auto"><persName ref="p8298">Martinus Borrhaus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

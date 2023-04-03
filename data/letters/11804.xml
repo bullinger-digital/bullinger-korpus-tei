@@ -6,65 +6,63 @@
 				<title subtype="file">Georg Maurer AN Heinrich Bullinger, Ende Juni / Anfang Juli 1543</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1758</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">162</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,283a</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person21575">Felix Pfest</persName> wurde auf den Städtetag [vom 8. Juli] in <placeName ref="place361">Frankfurt</placeName> abgeordnet. Kaiser [<persName ref="person1332">Karl V.</persName>] soll wegen des
-								Krieges in den <placeName ref="place20">Niederlanden</placeName> auf dem Weg nach <placeName ref="place119">Süddeutschland</placeName> sein; laut<pb type="edition" next="162"/>
-								zuverlässigen Informationen ist der Türke [Sultan <persName ref="person2269">Suleiman I.</persName>] persönlich mit einem Heer von 300000 Mann am
-								selben Tag in <placeName ref="place105">Belgrad</placeName> angekommen wie der Kaiser in
-								<placeName ref="place401">Genua</placeName> [25. Mai 1543] und zieht auf
-								<placeName ref="place1192">Wien</placeName> zu; er befindet sich jetzt wohl in Ofen
-								[<placeName ref="place202">Buda</placeName>] oder noch weiter [donau-]aufwärts.
+								<persName ref="p6084">Felix Pfest</persName> wurde auf den Städtetag [vom 8. Juli] in <placeName>Frankfurt</placeName> abgeordnet. <persName ref="p18538">Kaiser [Karl V.]</persName> soll wegen des
+								Krieges in den <placeName>Niederlanden</placeName> auf dem Weg nach <placeName>Süddeutschland</placeName> sein; laut<pb type="edition" next="162"/>
+								zuverlässigen Informationen ist der Türke [<persName ref="p18593">Sultan Suleiman I.</persName>] persönlich mit einem Heer von 300000 Mann am
+								selben Tag in <placeName>Belgrad</placeName> angekommen wie der Kaiser in
+								<placeName>Genua</placeName> [25. Mai 1543] und zieht auf
+								<placeName>Wien</placeName> zu; er befindet sich jetzt wohl in Ofen
+								[<placeName>Buda</placeName>] oder noch weiter [donau-]aufwärts.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1758, S.162</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11804">
 				<correspAction type="sent">
-					<persName ref="person2261" cert="high">
+					<persName ref="p2261" cert="high">
 						<!--
 						<surname cert="high">Maurer</surname>
 						<forename cert="high">Georg</forename>
@@ -73,7 +71,7 @@
 					<date notBefore="1543-06-15" notAfter="1543-07-15" cert="low">Ende Juni / Anfang Juli 1543</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -98,7 +96,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -112,9 +110,9 @@
 					<s n="1" xml:lang="de" type="auto">Lieber herr und bruder.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto"><placeName ref="place401">Gen</placeName> Franckfurt ist <persName ref="person21575">Felix Pfest</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person21575">Felix Pfest</persName> war 1532-1533 Mitglied des Memminger Stadtgerichts, Geheimer Rat 1538-1539, 1544, 1546-48 und 1551-1558 sowie Spitalmeister 1538-1548. 1550 bekleidete er das Memminger Bürgermeisteramt. - Lit.: <hi>Frieß,</hi> Außenpolitik, S. 243; Peter <hi>Eitel,</hi> Die oberschwäbischen Reichsstädte im Zeitalter der Zunftherrschaft. Untersuchungen zu ihrer politischen und sozialen Struktur unter besonderer Berücksichtigung der Städte Lindau, <placeName ref="place697">Memmingen</placeName>, Ravensburg und Ueberlingen, Stuttgart 1970. - Schriften zur südwestdeutschen Landeskunde 8, S. 218.</note> uff den stettag<note xml:id="fn4" type="footnote" n="4">Der ursprünglich auf den 17. Juni 1543 festgesetzte Termin für den Städtetag in <placeName ref="place361">Frankfurt</placeName> wurde auf Bitten <placeName ref="place1049">Straßburgs</placeName> auf den 8. Juli verschoben, vgl. PC III 385.</note> verordnet.</s>
-					<s n="3" xml:lang="de" type="auto">Key[serliche] m[ajesta]t soll uff <placeName ref="place544">Kempten</placeName>, <placeName ref="place697">Memmingen</placeName>, <placeName ref="place1113">Ulm</placeName> und Speir zu herauß in Teutschland komen,<note xml:id="fn5" type="footnote" n="5">Kaiser <persName ref="person1332">Karl V.</persName> traf am 16. Juli in <placeName ref="place697">Memmingen</placeName> ein; s. Peer <hi>Frieß,</hi> Der Kaiser kommt in die Stadt. Inszenierte Höhepunkte einer schwierigen Beziehung, in: Das Reich in der Region während des Spätmittelalters und der Frühen Neuzeit, hg. von Rolf Kießling und Sabine Ullmann, Konstanz 2005. -Forum Suevicum 6, S. 27-60, hier S. 46-49.</note> dan der krieg im Niderland hefftig angat.</s>
-					<s n="4" xml:lang="de" type="auto">So ist der Türg<note xml:id="fn6" type="footnote" n="6">Sultan <persName ref="person2269">Suleiman I.</persName></note>, hat man gewiß zeittung, ob 300000 starckh ze Kriechisch Weissenburg<note xml:id="fn7" type="footnote" n="7"><placeName ref="place105">Belgrad</placeName>.</note> aigner person uff den tag ankomen, alls k. mt. ze <placeName ref="place401">Genua</placeName> ankumen,<note xml:id="fn8" type="footnote" n="8">25. Mai 1543, s. <hi>Stälin</hi> 576.</note> und zeucht den nechsten auff <placeName ref="place1192">Wien</placeName> zu; acht<note xml:id="fn9" type="footnote" n="9">ich vermute.</note>, er sy jetz zu Offen<note xml:id="fn10" type="footnote" n="10"><placeName ref="place202">Buda</placeName>.</note> oder noch bas<note xml:id="fn11" type="footnote" n="11">weiter.</note> herauff<note xml:id="fn12" type="footnote" n="12">Zum <placeName ref="place32">Ungarn</placeName>-Feldzug dieses Sommers vgl. <hi>Hammer-Purgstall</hi> III 248-261.</note>.</s>
+					<s n="2" xml:lang="de" type="auto"><placeName>Gen</placeName> Franckfurt ist <persName>Felix Pfest</persName><note xml:id="fn3" type="footnote" n="3"><persName>Felix Pfest</persName> war 1532-1533 Mitglied des Memminger Stadtgerichts, Geheimer Rat 1538-1539, 1544, 1546-48 und 1551-1558 sowie Spitalmeister 1538-1548. 1550 bekleidete er das Memminger Bürgermeisteramt. - Lit.: <hi>Frieß,</hi> Außenpolitik, S. 243; Peter <hi>Eitel,</hi> Die oberschwäbischen Reichsstädte im Zeitalter der Zunftherrschaft. Untersuchungen zu ihrer politischen und sozialen Struktur unter besonderer Berücksichtigung der Städte Lindau, <placeName>Memmingen</placeName>, Ravensburg und Ueberlingen, Stuttgart 1970. - Schriften zur südwestdeutschen Landeskunde 8, S. 218.</note> uff den stettag<note xml:id="fn4" type="footnote" n="4">Der ursprünglich auf den 17. Juni 1543 festgesetzte Termin für den Städtetag in <placeName>Frankfurt</placeName> wurde auf Bitten <placeName>Straßburgs</placeName> auf den 8. Juli verschoben, vgl. <bibl>PC</bibl> III 385.</note> verordnet.</s>
+					<s n="3" xml:lang="de" type="auto">Key[serliche] m[ajesta]t soll uff <placeName>Kempten</placeName>, <placeName>Memmingen</placeName>, <placeName>Ulm</placeName> und Speir zu herauß in Teutschland komen,<note xml:id="fn5" type="footnote" n="5"><persName>Kaiser Karl V.</persName> traf am 16. Juli in <placeName>Memmingen</placeName> ein; s. Peer <hi>Frieß,</hi> Der Kaiser kommt in die Stadt. Inszenierte Höhepunkte einer schwierigen Beziehung, in: Das Reich in der Region während des Spätmittelalters und der Frühen Neuzeit, hg. von Rolf Kießling und Sabine Ullmann, Konstanz 2005. -Forum Suevicum 6, S. 27-60, hier S. 46-49.</note> dan der krieg im Niderland hefftig angat.</s>
+					<s n="4" xml:lang="de" type="auto">So ist der Türg<note xml:id="fn6" type="footnote" n="6"><persName>Sultan Suleiman I.</persName></note>, hat man gewiß zeittung, ob 300000 starckh ze Kriechisch Weissenburg<note xml:id="fn7" type="footnote" n="7"><placeName>Belgrad</placeName>.</note> aigner person uff den tag ankomen, alls k. mt. ze <placeName>Genua</placeName> ankumen,<note xml:id="fn8" type="footnote" n="8">25. Mai 1543, s. <bibl>Stälin</bibl> 576.</note> und zeucht den nechsten auff <placeName>Wien</placeName> zu; acht<note xml:id="fn9" type="footnote" n="9">ich vermute.</note>, er sy jetz zu Offen<note xml:id="fn10" type="footnote" n="10"><placeName>Buda</placeName>.</note> oder noch bas<note xml:id="fn11" type="footnote" n="11">weiter.</note> herauff<note xml:id="fn12" type="footnote" n="12">Zum <placeName>Ungarn</placeName>-Feldzug dieses Sommers vgl. <bibl>Hammer-Purgstall</bibl> III 248-261.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Ohne Adresse.]</note>

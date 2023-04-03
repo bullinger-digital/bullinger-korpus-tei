@@ -6,47 +6,38 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius, 27. Juni 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=399</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">219</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,38</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Versucht <persName ref="person154">Myconius</persName> zu besänftigen, der mit seinem Schüler
-								[Balthasar? <persName ref="person1421">Kuchimeister</persName>] aus
+								Versucht <persName ref="p8418">Myconius</persName> zu besänftigen, der mit seinem Schüler
+								[Balthasar? <persName ref="p5545">Kuchimeister</persName>] aus
 								Zürich offenbar Schwierigkeiten hatte.
 							</p>
 						</summary>
@@ -54,13 +45,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 399, S.219</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10434">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -70,11 +68,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1534-06-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -110,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,10 +122,10 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Audio, vir clarissime, animum tuum nonnihil mutatum erga Wolphgangi<note xml:id="fn1" type="footnote" n="1"><persName ref="person1423">Wolfgang Kuchimeister</persName>.</note> filium<note xml:id="fn2" type="footnote" n="2">Wohl <persName ref="person1421">Balthasar Kuchimeister</persName>, s. oben <ref target="file10391">[Nr. 359]</ref> S. 134, Anm. 27.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Audio, vir clarissime, animum tuum nonnihil mutatum erga Wolphgangi<note xml:id="fn1" type="footnote" n="1"><persName>Wolfgang Kuchimeister</persName>.</note> filium<note xml:id="fn2" type="footnote" n="2">Wohl <persName>Balthasar Kuchimeister</persName>, s. oben <ref target="file10391">[Nr. 359]</ref> S. 134, Anm. 27.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Verum ne an falsum audierim ignoro.</s>
 					<s n="4" xml:lang="la" type="auto">Caeterum unice te oro, ut adulescentulum tibi habeas commendatum.</s>
-					<s n="5" xml:lang="la" type="auto">Viri enim optimi filius est, puer, quod spero, non omnino malus<note xml:id="fn3" type="footnote" n="3">Die Schwierigkeiten mit seinem Kostgänger beschreibt <persName ref="person154">Myconius</persName> zu Beginn von <ref target="file10446">Nr. 411</ref>.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Viri enim optimi filius est, puer, quod spero, non omnino malus<note xml:id="fn3" type="footnote" n="3">Die Schwierigkeiten mit seinem Kostgänger beschreibt <persName>Myconius</persName> zu Beginn von <ref target="file10446">Nr. 411</ref>.</note>.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Vale et haec nostra boni consule.</s>
@@ -136,14 +134,14 @@
 					<s n="7" xml:lang="la" type="auto">Tiguri, iunii 27, 1534.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Salvum volo <persName ref="person117">Carolostadium</persName> nostrum.</s>
+					<s n="8" xml:lang="la" type="auto">Salvum volo <persName ref="p4349">Carolostadium</persName> nostrum.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Hein. tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="10" xml:lang="la" type="auto">Domino <persName ref="person154">Osvaldo Myconio</persName>, fratri suo charissimo.</s>
+					<s n="10" xml:lang="la" type="auto">Domino <persName ref="p8418">Osvaldo Myconio</persName>, fratri suo charissimo.</s>
 				</p>
 			</div>
 		</body>

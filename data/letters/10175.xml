@@ -6,40 +6,31 @@
 				<title subtype="file">Konrad Gessner / [Strassburg] AN Heinrich Bullinger, s.d. Oktober 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=144</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">252</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 32,156</idno>
 					</msIdentifier>
 					<msContents>
@@ -59,6 +50,9 @@
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>Hanhart 17-19</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 144, S.252</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -67,7 +61,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10175">
 				<correspAction type="sent">
-					<persName ref="person1286" cert="high">
+					<persName ref="p1286" cert="high">
 						<!--
 						<surname cert="high">Gessner</surname>
 						<forename cert="high">Konrad</forename>
@@ -78,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11438405"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="low"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="low"><orig>Strassburg</orig></placeName>
 					<date notBefore="1532-10-01" notAfter="1532-10-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -126,32 +120,32 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">S.</s>
-					<s n="3" xml:lang="la" type="auto">Mearum hic rerum plane suspensus haereo, quid agam incertus<note xml:id="fn2" type="footnote" n="2">Zur Situation <persName ref="person79">Geßners</persName> im Hause <persName ref="person40">Capitos</persName> vgl. <hi>Hanhart</hi> 16f.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Mearum hic rerum plane suspensus haereo, quid agam incertus<note xml:id="fn2" type="footnote" n="2">Zur Situation <persName>Geßners</persName> im Hause <persName>Capitos</persName> vgl. <bibl>Hanhart</bibl> 16f.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Ad te confugio, opem imploro tuam.</s>
 					<s n="5" xml:lang="la" type="auto">Spe et consilio destitutus sum omni tu nisi tuteris opem, actum erit de me.</s>
-					<s n="6" xml:lang="la" type="auto">Quid enim misero reliquum esset spei, cui adeo citra omnem fructum iuventutem perit irreparabile tempus<note xml:id="fn3" type="footnote" n="3">Vgl. <persName ref="person2382">Vergil</persName>, Georgica 3,284.</note>?</s>
+					<s n="6" xml:lang="la" type="auto">Quid enim misero reliquum esset spei, cui adeo citra omnem fructum iuventutem perit irreparabile tempus<note xml:id="fn3" type="footnote" n="3">Vgl. <persName>Vergil</persName>, Georgica 3,284.</note>?</s>
 					<s n="7" xml:lang="la" type="auto">Praetervolat, inquam, iuventus<note xml:id="fnb" type="footnote" n="b">iuventus <hi>übergeschrieben, ersetzt ein gestrichenes</hi> tempu.</note>, articulus studendi optimus, meque relicto clamat: <foreign xml:lang="el">οὐδεὶς ἐμὲ δράζεται ἐξόπισθεν</foreign>.</s>
 					<s n="8" xml:lang="la" type="auto">Quantulum studendi relictum sit illis tempus, qui in tantis dominorum versantur negotiis, ipse coniicere potes.</s>
 					<s n="9" xml:lang="la" type="auto">Nulla hora, immo nullum momentum est, quod meum dicere licet, quodve libere musis indulgeam.</s>
-					<s n="10" xml:lang="la" type="manual">Nosti illud Homericum: <foreign xml:lang="el">Ἥμισυ γάρ τ’ ἀπετῆς ἀποαίνυται εὐρύοπα Ζεὺς Ἀνέρος, εὖτ’ ἄν μιν κατὰ δούλιον ἦμαρ ἕλῃσιν</foreign><note xml:id="fn4" type="footnote" n="4"><persName ref="person1215">Homer</persName>, Odyssee 17, 322f.</note>.</s>
+					<s n="10" xml:lang="la" type="manual">Nosti illud Homericum: <foreign xml:lang="el">Ἥμισυ γάρ τ’ ἀπετῆς ἀποαίνυται εὐρύοπα Ζεὺς Ἀνέρος, εὖτ’ ἄν μιν κατὰ δούλιον ἦμαρ ἕλῃσιν</foreign><note xml:id="fn4" type="footnote" n="4"><persName>Homer</persName>, Odyssee 17, 322f.</note>.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Rogo itaque humanitatem tuam, consilium aliquod rerum mearum mihi dubio praestare dignetur.</s>
-					<s n="12" xml:lang="la" type="auto">Si mihi stipendium non tenuius aliorum stipendio permittetur, ad vos, cum licebit, redibo<note xml:id="fn5" type="footnote" n="5">Ende November 1532 war <persName ref="person79">Geßner</persName> wieder in Zürich, s. oben Anm. 1 und <hi>Hanhart</hi> 19f.</note>.</s>
+					<s n="12" xml:lang="la" type="auto">Si mihi stipendium non tenuius aliorum stipendio permittetur, ad vos, cum licebit, redibo<note xml:id="fn5" type="footnote" n="5">Ende November 1532 war <persName>Geßner</persName> wieder in Zürich, s. oben Anm. 1 und <bibl>Hanhart</bibl> 19f.</note>.</s>
 					<s n="13" xml:lang="la" type="auto">Sin minus, musae invito relinquendae erunt.</s>
 					<s n="14" xml:lang="la" type="auto">Certior per te fieri, quam primum licebit, cupio, ut, quid agam, quamprimum sciam.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Vale, et me tuae humanitati commendatum habe.</s>
-					<s n="16" xml:lang="el" type="manual">Γουνοῦμαί σε, ἄναξ, σὺ δέ μ’ ἐντρέπῃ ἠδ’ ἐλέησον<note xml:id="fn6" type="footnote" n="6">Vgl. <persName ref="person1215">Homer</persName>, Ilias 21,74; <foreign xml:lang="el">αἴδεο καί μ’</foreign> bewußt durch <foreign xml:lang="el">ἐντρέπη ἠδ’</foreign> ersetzt.</note>.</s>
+					<s n="16" xml:lang="el" type="manual">Γουνοῦμαί σε, ἄναξ, σὺ δέ μ’ ἐντρέπῃ ἠδ’ ἐλέησον<note xml:id="fn6" type="footnote" n="6">Vgl. <persName>Homer</persName>, Ilias 21,74; <foreign xml:lang="el">αἴδεο καί μ’</foreign> bewußt durch <foreign xml:lang="el">ἐντρέπη ἠδ’</foreign> ersetzt.</note>.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Plurimum te salutat cum reliquis fratribus dominus meus <persName ref="person40">Capito</persName>.</s>
+					<s n="17" xml:lang="la" type="auto">Plurimum te salutat cum reliquis fratribus dominus meus <persName ref="p5565">Capito</persName>.</s>
 					<s n="18" xml:lang="la" type="auto">Vale iterum.</s>
-					<s n="19" xml:lang="la" type="auto">Datum raptim in aedibus <persName ref="person40">Capitonis</persName>.</s>
+					<s n="19" xml:lang="la" type="auto">Datum raptim in aedibus <persName ref="p5565">Capitonis</persName>.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Tuus ad pedes <persName ref="person79">Conradus Gesnerus</persName>.</s>
+					<s n="20" xml:lang="la" type="auto">Tuus ad pedes <persName ref="p4951">Conradus Gesnerus</persName>.</s>
 				</p>
 			</div>
 		</body>

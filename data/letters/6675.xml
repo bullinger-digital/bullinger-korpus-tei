@@ -6,32 +6,31 @@
 				<title subtype="file">John Jewel / Salisbury AN [Heinrich Bullinger], [Ludwig Lavater], 8. Februar 1566</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6767/18</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,137</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,13 +45,13 @@
 								<title>Ep. Tig. 1, 87-90, Nr. 67</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
-								<title>Zurich Letters I, S. 146-150, Nr. 67</title>
+								<title>Zurich Letters I, S.146-150, Nr. 67</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>John Stype, Annals of the Church of England under Elizabeth's ... reign, London 1724, Vol. I. App. 36, S. 81-82 / Oxford 1824, I/II, App. 36, S. 542-545</title>
+								<title>John Stype, Annals of the Church of England under Elizabeth's ... reign, London 1724, Vol. I. App. 36, S.81-82 / Oxford 1824, I/II, App. 36, S.542-545</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>Burnet, History III/6, 1715, Anhang 88, S. 351f (vgl. vorne 317) / hg. v. N. Pocock 1865, VI 526f, Nr. 88 (vgl. III 534)</title>
+								<title>Burnet, History III/6, 1715, Anhang 88, S.351f (vgl. vorne 317) / hg. v. N. Pocock 1865, VI 526f, Nr. 88 (vgl. III 534)</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Zitat">
 								<title>Strype, Annals... I/1, 262 (unter falschem Datum: 8. Feb. 1559)</title>
@@ -69,14 +68,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive55">
+						<repository ref="a55">
 							<name>London BM</name>
 							<ref target="https://www.britishmuseum.org/"/>
 						</repository>
-						<settlement ref="place296">London</settlement>
+						<settlement ref="l296">London</settlement>
 						<institution>British Museum</institution>
 						-->
-						<repository ref="archive55"/>
+						<repository ref="a55"/>
 						<idno subtype="Kopie">Ms. Add. 4277, fo 187-188r</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
 					</msIdentifier>
@@ -86,7 +85,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6675">
 				<correspAction type="sent">
-					<persName ref="person1750" cert="high">
+					<persName ref="p1750" cert="high">
 						<!--
 						<surname cert="high">Jewel</surname>
 						<forename cert="high">John</forename>
@@ -96,11 +95,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/12126100X"/>
 						-->
 					</persName>
-					<placeName source="place951" cert="high"><orig>Salisbury</orig></placeName>
+					<placeName source="l951" cert="high"><orig>Salisbury</orig></placeName>
 					<date when="1566-02-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -110,7 +109,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1884" cert="low">
+					<persName ref="p1884" cert="low">
 						<!--
 						<surname cert="low">Lavater</surname>
 						<forename cert="low">Ludwig</forename>
@@ -141,7 +140,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -6,46 +6,37 @@
 				<title subtype="file">Gervasius Schuler / Memmingen AN Heinrich Bullinger, 24. November 1543</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1820</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">324</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1391</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat gehört, Bullinger bereite ein gegen <persName ref="person138">Luther</persName> gerichtetes Buch über
+								Hat gehört, Bullinger bereite ein gegen <persName ref="p1974">Luther</persName> gerichtetes Buch über
 								die Sakramente vor; mahnt zur Zurückhaltung und fürchtet um den Frieden in den schwäbischen Kirchen. Ist
 								besorgt über die Absicht hessischer Theologen, eine Rechtfertigung der Polygamie zu veröffentlichen. Will
 								bald ausführlicher schreiben. Bullingers Johanneskommentar zeugt von seiner Begabung. Bittet um Antwort.
@@ -55,13 +46,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1820, S.324</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11866">
 				<correspAction type="sent">
-					<persName ref="person2943" cert="high">
+					<persName ref="p2943" cert="high">
 						<!--
 						<surname cert="high">Schuler</surname>
 						<forename cert="high">Gervasius</forename>
@@ -70,11 +68,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/130955264"/>
 						-->
 					</persName>
-					<placeName source="place320" cert="high"><orig>Memmingen</orig></placeName>
+					<placeName source="l320" cert="high"><orig>Memmingen</orig></placeName>
 					<date when="1543-11-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -109,15 +107,19 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="11866/Autograph/00__E_II_338__fol__1391_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="11866/Autograph/01__E_II_338__fol__1391_v_.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Audio, mi charissime Bullingere, te librum adornare contra d. <persName ref="person138">Lutherum</persName> de re sacramentaria<note xml:id="fn1" type="footnote" n="1">Ein unzutreffendes Gerücht; vgl. unten <ref target="file11871">Nr. 1825</ref>, 10-14, sowie <hi>Bizer,</hi> Abendmahlsstreit 231.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Audio, mi charissime Bullingere, te librum adornare contra d. <persName ref="p1974">Lutherum</persName> de re sacramentaria<note xml:id="fn1" type="footnote" n="1">Ein unzutreffendes Gerücht; vgl. unten <ref target="file11871">Nr. 1825</ref>, 10-14, sowie <hi>Bizer,</hi> Abendmahlsstreit 231.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Quod dum verum est, vehementer doleo vulnus pristinum denuo innovari.</s>
 					<s n="4" xml:lang="la" type="auto">Apud nos nemo est, qui corporalem et grossam illam praesentiam corporis in coena amplexetur.</s>
 					<s n="5" xml:lang="la" type="auto">Pacata est nostra ecclesia atque de spirituali corporis praesentia optime grata, contentionis omnis nescia.</s>
@@ -125,8 +127,8 @@
 					<s n="7" xml:lang="la" type="auto">Obsecro igitur per communem servatorem nostrum, ut prudenter agas, cogitando quam horrendum sit in conspectu domini animas Christo lucratas irritare et inquietare.<pb type="edition" next="325"/></s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Aiunt fratres in ditione Catorum<note xml:id="fn2" type="footnote" n="2">D. h. in <placeName ref="place26">Hessen</placeName> (gedacht ist wohl vor allem an <persName ref="person1499">Johannes Lening</persName>).</note> meditari librum pro polygamia<note xml:id="fn3" type="footnote" n="3">Landgraf Philipp hatte zwar im Februar an <persName ref="person28">Bucer</persName> geschrieben, wenn Bullinger in dieser Frage weiter polemisiere, müsse ihm erwidert werden (s. Lenz II 122). Über konkrete Pläne für eine solche Publikation ist jedoch nichts bekannt.</note>.</s>
-					<s n="9" xml:lang="la" type="auto">Quod ubi verum est, quę putas malorum secum plaustra<note xml:id="fn4" type="footnote" n="4">Vgl. Adagia, 1, 3, 32 (LB II 124) am Ende.</note> laturum hunc?</s>
+					<s n="8" xml:lang="la" type="auto">Aiunt fratres in ditione Catorum<note xml:id="fn2" type="footnote" n="2">D. h. in <placeName>Hessen</placeName> (gedacht ist wohl vor allem an <persName ref="p6177">Johannes Lening</persName>).</note> meditari librum pro polygamia<note xml:id="fn3" type="footnote" n="3">Landgraf Philipp hatte zwar im Februar an <persName ref="p18198">Bucer</persName> geschrieben, wenn Bullinger in dieser Frage weiter polemisiere, müsse ihm erwidert werden (s. <bibl>Lenz</bibl> II 122). Über konkrete Pläne für eine solche Publikation ist jedoch nichts bekannt.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Quod ubi verum est, quę putas malorum secum plaustra<note xml:id="fn4" type="footnote" n="4">Vgl. Adagia, 1, 3, 32 (<bibl>LB</bibl> II 124) am Ende.</note> laturum hunc?</s>
 					<s n="10" xml:lang="la" type="auto">Tam nobis omnia videntur tranquilla, ut semel liceat stercosę quoque carnis rationem habere?</s>
 					<s n="11" xml:lang="la" type="auto">O fratres, cogitate, obsecro, quam plena sint omnia turbis, dolis, fraude!</s>
 				</p>
@@ -138,7 +140,7 @@
 					<s n="14" xml:lang="la" type="auto">Vale in domino.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Comentaria in Ioannem<note xml:id="fn6" type="footnote" n="6">Gemeint ist Bullingers Kommentar zum Johannesevangelium (HBBibl I 153).</note> lego, quę profecto summopere mihi placent; spirant enim singulare<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> sigulare.</note> donum a domino tibi collatum.</s>
+					<s n="15" xml:lang="la" type="auto">Comentaria in Ioannem<note xml:id="fn6" type="footnote" n="6">Gemeint ist Bullingers Kommentar zum Johannesevangelium (<bibl>HBBibl</bibl> I 153).</note> lego, quę profecto summopere mihi placent; spirant enim singulare<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> sigulare.</note> donum a domino tibi collatum.</s>
 					<s n="16" xml:lang="la" type="auto">Dominus diu te sue ecclesię servet incolumem.</s>
 				</p>
 				<p>
@@ -146,7 +148,7 @@
 					<s n="18" xml:lang="la" type="auto">Praesente nunctio rescribe<note xml:id="fn7" type="footnote" n="7">Bullingers Antwort ist nicht erhalten.</note>.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><persName ref="person195">Gervasius</persName> tuus <persName ref="person195">Schuler</persName>.</s>
+					<s n="19" xml:lang="la" type="auto"><persName ref="p8440">Gervasius</persName> tuus <persName ref="p8440">Schuler</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

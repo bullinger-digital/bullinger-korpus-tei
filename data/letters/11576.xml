@@ -6,50 +6,41 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Rudolf Gwalther, 15. Juni 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1533</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">218</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 42,23b</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat mit Vertretern der Obrigkeit über die Frage [von <persName ref="person84">Gwalthers</persName>
-								Verbleib in <placeName ref="place880">Regensburg</placeName>] beraten; wenn der Fürst
+								Hat mit Vertretern der Obrigkeit über die Frage [von <persName ref="p8011">Gwalthers</persName>
+								Verbleib in <placeName>Regensburg</placeName>] beraten; wenn der Fürst
 								[Philipp von Hessen] abreist und
-								<persName ref="person84">Gwalthers</persName> Unterhaltskosten deshalb steigen, soll er zurückkehren und
-								versuchen, sich durch die <placeName ref="place565">Konstanzer</placeName> auf dem Laufenden halten zu
+								<persName ref="p8011">Gwalthers</persName> Unterhaltskosten deshalb steigen, soll er zurückkehren und
+								versuchen, sich durch die <placeName>Konstanzer</placeName> auf dem Laufenden halten zu
 								lassen. Soll ein Schreiben des Fürsten an den Zürcher Rat mitbringen. Grüße.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1533, S.218</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11576">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1541-06-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1381" cert="high">
+					<persName ref="p1381" cert="high">
 						<!--
 						<surname cert="high">Gwalther</surname>
 						<forename cert="high">Rudolf</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,14 +126,14 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Cons[uli]<note xml:id="fn1" type="footnote" n="1">Bürgermeister Dietheim <persName ref="person180">Röist</persName> (vielleicht ist das abgekürzte Wort als Plural wiesen; in diesem Fall wäre auch Altbürgermeister <persName ref="person2428">Heinrich Walder</persName> gemeint); s. Fabian, Geheime Räte 242.</note> et quaestoribus<note xml:id="fn2" type="footnote" n="2"><persName ref="person2473">Jakob Werdmüller</persName> und <persName ref="person619">Bernhard von Cham</persName>; s. ebd.</note>, aedili<note xml:id="fn3" type="footnote" n="3">Baumeister <persName ref="person132">Hans Rudolf Lavater</persName>; s. Heinzpeter <hi>Stucki,</hi> Bürgermeister <persName ref="person132">Hans Rudolf Lavater</persName> 1492-1557. Ein Politiker der Reformationszeit, Zürich 1973. - ZBRG III, S. 169-195.</note> et tribuno plebis<note xml:id="fn4" type="footnote" n="4">Gemeint ist wohl Oberstzunftmeister <persName ref="person87">Johannes Haab</persName>; s. Fabian, Geheime Räte 242 mit Anm. 54.</note> quaestionem tuam<note xml:id="fn5" type="footnote" n="5"><persName ref="person84">Gwalther</persName> hatte sich am 31. Mai erkundigt, ober nach der bevorstehenden Abreise des hessischen Fürsten noch länger in <placeName ref="place880">Regensburg</placeName> bleiben solle; s. oben <ref target="file11569">Nr. 1526</ref>,2-17.</note> proposui et consilium petii.</s>
+					<s n="2" xml:lang="la" type="auto">Cons[uli]<note xml:id="fn1" type="footnote" n="1">Bürgermeister Dietheim <persName>Röist</persName> (vielleicht ist das abgekürzte Wort als Plural wiesen; in diesem Fall wäre auch Altbürgermeister <persName>Heinrich Walder</persName> gemeint); s. Fabian, Geheime Räte 242.</note> et quaestoribus<note xml:id="fn2" type="footnote" n="2"><persName>Jakob Werdmüller</persName> und <persName>Bernhard von Cham</persName>; s. ebd.</note>, aedili<note xml:id="fn3" type="footnote" n="3">Baumeister <persName ref="p6155">Hans Rudolf Lavater</persName>; s. Heinzpeter <hi>Stucki,</hi> Bürgermeister <persName ref="p6155">Hans Rudolf Lavater</persName> 1492-1557. Ein Politiker der Reformationszeit, Zürich 1973. - <bibl>ZBRG</bibl> III, S. 169-195.</note> et tribuno plebis<note xml:id="fn4" type="footnote" n="4">Gemeint ist wohl Oberstzunftmeister <persName ref="p5543">Johannes Haab</persName>; s. Fabian, Geheime Räte 242 mit Anm. 54.</note> quaestionem tuam<note xml:id="fn5" type="footnote" n="5"><persName>Gwalther</persName> hatte sich am 31. Mai erkundigt, ober nach der bevorstehenden Abreise des hessischen Fürsten noch länger in <placeName>Regensburg</placeName> bleiben solle; s. oben <ref target="file11569">Nr. 1526</ref>,2-17.</note> proposui et consilium petii.</s>
 					<s n="3" xml:lang="la" type="auto">Placet autem omnibus, ut maneas, quamdiu illustrissimus princeps<note xml:id="fn6" type="footnote" n="6">Landgraf Philipp von Hessen.</note> manet et tu in eius aula haerere potes ita ut hactenus; ubi vero is discesserit, ut tibi vivendum sit tuis sumptibus, redito domum ilico.</s>
 					<s n="4" xml:lang="la" type="auto">Non enim operaepretium est sumptus facere graves in re nihili, quemadmodum ipse iudicas prudenter<note xml:id="fn7" type="footnote" n="7">Ebd., Z. 8-13.</note>.</s>
-					<s n="5" xml:lang="de" type="auto">Kanst aber vertruwte kundtschafft<note xml:id="fn8" type="footnote" n="8">vertrauenswürdige Bekanntschaft.</note> machen mitt getrüwen, dass dir gwüßlich<note xml:id="fn9" type="footnote" n="9">zuverlässig.</note> zuͦgeschriben wurde durch die <placeName ref="place565">Costentzer</placeName><note xml:id="fn10" type="footnote" n="10">Vgl. ebd., Z. 8f mit Anm. 3.</note> etc., thuͦes.</s>
+					<s n="5" xml:lang="de" type="auto">Kanst aber vertruwte kundtschafft<note xml:id="fn8" type="footnote" n="8">vertrauenswürdige Bekanntschaft.</note> machen mitt getrüwen, dass dir gwüßlich<note xml:id="fn9" type="footnote" n="9">zuverlässig.</note> zuͦgeschriben wurde durch die <placeName>Costentzer</placeName><note xml:id="fn10" type="footnote" n="10">Vgl. ebd., Z. 8f mit Anm. 3.</note> etc., thuͦes.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Cuperem, ut literas a principe scriptas ad senatum referres<note xml:id="fn11" type="footnote" n="11">Vgl. oben <ref target="file11566">Nr. 1523</ref>, 16-19 mit Anm. 7.</note>.</s>
-					<s n="7" xml:lang="la" type="auto">Salutabis illustrissimi principis contionatores<note xml:id="fn12" type="footnote" n="12"><persName ref="person656">Corvinus</persName>, <persName ref="person719">Draconites</persName>, <persName ref="person171">Pistorius</persName> und <persName ref="person147">Melander</persName>; vgl. oben <ref target="file11539">Nr. 1496</ref>, Anm. 28.</note> et fratres dilectissimos Constantienses et <placeName ref="place1113">Ulmenses</placeName><note xml:id="fn13" type="footnote" n="13">Gemäß <persName ref="person84">Gwalthers</persName> Verzeichnis (s. ebd.) war von den <placeName ref="place565">Konstanzer</placeName> Pfarrern keiner in <placeName ref="place880">Regensburg</placeName>, von den Ulmern einzig <persName ref="person64">Martin Frecht</persName>.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Salutabis illustrissimi principis contionatores<note xml:id="fn12" type="footnote" n="12"><persName>Corvinus</persName>, <persName>Draconites</persName>, <persName>Pistorius</persName> und <persName>Melander</persName>; vgl. oben <ref target="file11539">Nr. 1496</ref>, Anm. 28.</note> et fratres dilectissimos Constantienses et <placeName>Ulmenses</placeName><note xml:id="fn13" type="footnote" n="13">Gemäß <persName>Gwalthers</persName> Verzeichnis (s. ebd.) war von den <placeName>Konstanzer</placeName> Pfarrern keiner in <placeName>Regensburg</placeName>, von den Ulmern einzig <persName ref="p5074">Martin Frecht</persName>.</note>.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Vale et redi, si princeps discesserit.</s>
@@ -146,7 +144,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="11" xml:lang="la" type="auto"><persName ref="person84">Rodolpho Gvalthero</persName> Tigurino, <placeName ref="place880">Ratisponae</placeName> vel in aula illustrissimi principis Hessi vel apud Constantienses agenti, filio suo.</s>
+					<s n="11" xml:lang="la" type="auto"><persName ref="p8011">Rodolpho Gvalthero</persName> Tigurino, <placeName>Ratisponae</placeName> vel in aula illustrissimi principis Hessi vel apud Constantienses agenti, filio suo.</s>
 				</p>
 			</div>
 		</body>

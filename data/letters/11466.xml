@@ -6,49 +6,40 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, Herbst 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1423</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">169</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,195r.-v.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Mahnt ihn, sich seiner Gesundheit, aber auch der Kirche zuliebe mehr zu schonen.
-								<persName ref="person28">Bucer</persName> hat ihm versichert, weder er noch
-								<persName ref="person146">Philipp [Melanchthon]</persName> oder
-								<persName ref="person138">Luther</persName> sei sich hinsichtlich der Bigamie
+								<persName ref="p467">Bucer</persName> hat ihm versichert, weder er noch
+								<persName ref="p2095">Philipp [Melanchthon]</persName> oder
+								<persName ref="p1974">Luther</persName> sei sich hinsichtlich der Bigamie
 								[Philipps von Hessen] einer
 								Schuld bewußt; eine von dessen Geliebten soll sich gebrüstet haben, seine Gattin zu sein, doch wie es sich
 								wirklich verhält, bleibt ungewiß. In der Frage der kirchlichen Disziplin ist [von den Straßburgern] nichts
@@ -60,13 +51,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1423, S.169</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11466">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -79,7 +77,7 @@
 					<date notBefore="1540-09-01" notAfter="1540-12-12" cert="low">Herbst 1540</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -138,15 +136,15 @@
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">De bigamia quod quaeris<note xml:id="fn2" type="footnote" n="2">Bullingers Brief ist nicht erhalten; zur Nebenehe Philipps von Hessen vgl. die oben Anm. 1 erwähnten Berichte Gwalthers.</note>, etiam me res hęc valde sollicitavit.</s>
-					<s n="11" xml:lang="la" type="auto">Quaesivi ex ipso <persName ref="person28">Bucero</persName>.</s>
-					<s n="12" xml:lang="la" type="auto">Se, <persName ref="person146">Philippum</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person146">Philipp Melanchthon</persName>.</note>, <persName ref="person138">Lutherum</persName> negat conscios illius culpę esse; fecisse, monuisse omnia, quae quidem recta sunt coram deo.</s>
-					<s n="13" xml:lang="la" type="auto">Cęterum fama est orta hoc pacto: Extra uxorem<note xml:id="fn4" type="footnote" n="4">Landgräfin <persName ref="person627">Christine</persName>.</note> duas amavit Hessus; inter has exorta ęmulatio, in qua incensa et quae diutius in amore fuit, ausa est<note xml:id="fnc" type="footnote" n="c">est <hi>über der Zeile nachgetragen.</hi></note> iactare se coniugem esse.</s>
+					<s n="11" xml:lang="la" type="auto">Quaesivi ex ipso <persName ref="p467">Bucero</persName>.</s>
+					<s n="12" xml:lang="la" type="auto">Se, <persName ref="p2095">Philippum</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="p6490">Philipp Melanchthon</persName>.</note>, <persName ref="p1974">Lutherum</persName> negat conscios illius culpę esse; fecisse, monuisse omnia, quae quidem recta sunt coram deo.</s>
+					<s n="13" xml:lang="la" type="auto">Cęterum fama est orta hoc pacto: Extra uxorem<note xml:id="fn4" type="footnote" n="4">Landgräfin <persName>Christine</persName>.</note> duas amavit Hessus; inter has exorta ęmulatio, in qua incensa et quae diutius in amore fuit, ausa est<note xml:id="fnc" type="footnote" n="c">est <hi>über der Zeile nachgetragen.</hi></note> iactare se coniugem esse.</s>
 					<s n="14" xml:lang="la" type="auto">Hęc stultę puellae gloriatio emanavit.</s>
 					<s n="15" xml:lang="la" type="auto">Quid porro in ipsa sit re, scire ego nescius unde<note xml:id="fnd" type="footnote" n="d"><hi>in der Vorlage</hi> nesciusunde[?].</note> [?] non potui.</s>
 					<s n="16" xml:lang="la" type="auto">Hoc scio miseros nos esse propter talia exempla eoque magis miseros, quod tam frigide in summa difficultate rerum inter nos congruimus.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">De disciplina ecclesiae oro te, ne quid credas temere institui aut conari istos<note xml:id="fn5" type="footnote" n="5">Die Rede ist wohl von den <placeName ref="place1049">Straßburger</placeName> Theologen.</note>; hoc solum quaeritur, si qua sit mutua et arctior[?] magis inter ecclesias amicitia, qua melius<pb type="scan" next="195v."/> et posteris evangelium, quod tenemus, relinquere et fortius adversariis liceret<note xml:id="fne" type="footnote" n="e"><hi>vor</hi> liceret <hi>gestrichenes</hi> contraire.</note> occurrere.</s>
+					<s n="17" xml:lang="la" type="auto">De disciplina ecclesiae oro te, ne quid credas temere institui aut conari istos<note xml:id="fn5" type="footnote" n="5">Die Rede ist wohl von den <placeName>Straßburger</placeName> Theologen.</note>; hoc solum quaeritur, si qua sit mutua et arctior[?] magis inter ecclesias amicitia, qua melius<pb type="scan" next="195v."/> et posteris evangelium, quod tenemus, relinquere et fortius adversariis liceret<note xml:id="fne" type="footnote" n="e"><hi>vor</hi> liceret <hi>gestrichenes</hi> contraire.</note> occurrere.</s>
 					<s n="18" xml:lang="la" type="auto">De vobis omnibus omnes humanissime sentiunt.</s>
 				</p>
 				<p>
@@ -159,7 +157,7 @@
 					<s n="23" xml:lang="la" type="auto">Vale in domino.</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="la" type="auto">S. <persName ref="person81">Gryneus</persName> tuus.</s>
+					<s n="24" xml:lang="la" type="auto">S. <persName ref="p1365">Gryneus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>

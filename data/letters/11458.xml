@@ -6,52 +6,42 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, Theodor Bibliander, 20. August 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1415</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">149</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,170</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Wünscht gute Genesung. Empfiehlt den aus <placeName ref="place11">Frankreich</placeName>
-								zurückberufenen Otto
-								[<persName ref="person238">Werdmüller</persName>] und rät dazu, ihn als Lehrer für Dialektik und Mathematik
-								einzusetzen. In <placeName ref="place1049">Straßburg</placeName> hat sich
-								<persName ref="person1681">Ruprecht von Mosham</persName> als hartnäckiger Gegner erwiesen; er lehrt nicht
+								Wünscht gute Genesung. Empfiehlt den aus <placeName>Frankreich</placeName>
+								zurückberufenen <persName ref="p8459">Otto [Werdmüller]</persName> und rät dazu, ihn als Lehrer für Dialektik und Mathematik
+								einzusetzen. In <placeName>Straßburg</placeName> hat sich
+								<persName ref="p7678">Ruprecht von Mosham</persName> als hartnäckiger Gegner erwiesen; er lehrt nicht
 								nur die Rechtfertigung durch Glauben und Werke, sondern hält auch Gottes Gesetz für erfüllbar. [Kaiser]
-								Karl ist immer noch in den <placeName ref="place20">Niederlanden</placeName> und wird gegen die
+								Karl ist immer noch in den <placeName>Niederlanden</placeName> und wird gegen die
 								Protestanten aufgehetzt. Grüße.
 							</p>
 						</summary>
@@ -59,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1415, S.149</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11458">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -76,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1540-08-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -90,7 +87,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person341" cert="high">
+					<persName ref="p341" cert="high">
 						<!--
 						<surname cert="high">Bibliander</surname>
 						<forename cert="high">Theodor</forename>
@@ -124,7 +121,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -139,37 +136,37 @@
 					<s n="2" xml:lang="la" type="auto">Si in dies magis ac magis revalescis, gaudeo.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Ecce, remitto vobis Ottonem<note xml:id="fn1" type="footnote" n="1"><persName ref="person238">Otto Werdmüller</persName>.</note> (nam rogatu parentum<note xml:id="fn2" type="footnote" n="2"><persName ref="person2472">Heinrich Werdmüller</persName> und Anna Schmid (Ottos Stiefmutter); vgl. Leo <hi>Weisz,</hi> Die <persName ref="person238">Werdmüller</persName>. Schicksale eines alten Zürcher Geschlechtes, Zürich 1949, Bd. I, S. 13f; Bd. III, Stammtafel 2.</note> e Gallia revocavi<note xml:id="fn3" type="footnote" n="3">Diesbezügliche Briefe an bzw. von <persName ref="person154">Myconius</persName> sind nicht erhalten.</note>).</s>
+					<s n="3" xml:lang="la" type="auto">Ecce, remitto vobis Ottonem<note xml:id="fn1" type="footnote" n="1"><persName>Otto Werdmüller</persName>.</note> (nam rogatu parentum<note xml:id="fn2" type="footnote" n="2"><persName>Heinrich Werdmüller</persName> und Anna Schmid (Ottos Stiefmutter); vgl. Leo <hi>Weisz,</hi> Die <persName>Werdmüller</persName>. Schicksale eines alten Zürcher Geschlechtes, Zürich 1949, Bd. I, S. 13f; Bd. III, Stammtafel 2.</note> e Gallia revocavi<note xml:id="fn3" type="footnote" n="3">Diesbezügliche Briefe an bzw. von <persName>Myconius</persName> sind nicht erhalten.</note>).</s>
 					<s n="4" xml:lang="la" type="auto">Iuvenis est pius et doctus, et qualem (verbo sit venia) Tigurum hactenus non<pb type="edition" next="150"/> fovit.</s>
 					<s n="5" xml:lang="la" type="auto">Hoc testimonium non ego solus, sed docti viri tribuunt.</s>
 					<s n="6" xml:lang="la" type="auto">Ergo si recte fueritis ipso usi, gaudebit olim non tam schola vestra quam<note xml:id="fna" type="footnote" n="a">quam <hi>für gestrichenes</hi> sed et <hi>am Rande nachgetragen.</hi></note> civitas tota.</s>
-					<s n="7" xml:lang="la" type="auto">Habetis scholam egregiam et cui nihil videtur deesse, verum si<note xml:id="fnb" type="footnote" n="b">si <hi>nachträglich eingefügt.</hi></note> adieceritis dialecticen<note xml:id="fn4" type="footnote" n="4">Bereits seit <persName ref="person265">Zwinglis</persName> Zeit wurde Dialektik durch den Latein-Professor <persName ref="person318">Johann Jakob Ammann</persName> unterrichtet; s. Ulrich <hi>Ernst,</hi> Geschichte des Zürcherischen Schulwesens bis gegen das Ende des sechzehnten Jahrhunderts, Winterthur 1879, S. 57.</note> et mathemata, quibus recte praeerit <persName ref="person238">Otto</persName>, minus deerit<note xml:id="fn5" type="footnote" n="5"><persName ref="person238">Werdmüller</persName> versah zunächst allein, von 1541 bis 1546 zusammen mit <persName ref="person79">Konrad Geßner</persName> (und 1541/42 mit <persName ref="person247">Melchior Wirz</persName>) die neugeschaffene "professio physices", die Philosophie und Naturgeschichte, Mathematik und Ethik umfaßte; s. Bernhard <hi>Milt,</hi> Zürichs Vergangenheit in Naturwissenschaft und Medizin (Mittelalter und 16. Jahrhundert), in: Gesnerus 4, 1947, S. 33-36.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Habetis scholam egregiam et cui nihil videtur deesse, verum si<note xml:id="fnb" type="footnote" n="b">si <hi>nachträglich eingefügt.</hi></note> adieceritis dialecticen<note xml:id="fn4" type="footnote" n="4">Bereits seit <persName>Zwinglis</persName> Zeit wurde Dialektik durch den Latein-Professor <persName ref="p8423">Johann Jakob Ammann</persName> unterrichtet; s. Ulrich <hi>Ernst,</hi> Geschichte des Zürcherischen Schulwesens bis gegen das Ende des sechzehnten Jahrhunderts, Winterthur 1879, S. 57.</note> et mathemata, quibus recte praeerit <persName ref="p8459">Otto</persName>, minus deerit<note xml:id="fn5" type="footnote" n="5"><persName>Werdmüller</persName> versah zunächst allein, von 1541 bis 1546 zusammen mit <persName>Konrad Geßner</persName> (und 1541/42 mit <persName>Melchior Wirz</persName>) die neugeschaffene "professio physices", die Philosophie und Naturgeschichte, Mathematik und Ethik umfaßte; s. Bernhard <hi>Milt,</hi> Zürichs Vergangenheit in Naturwissenschaft und Medizin (Mittelalter und 16. Jahrhundert), in: Gesnerus 4, 1947, S. 33-36.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Artificem hic praestabit; nam non solum illas artes tradere, sed etiam exercere novit.</s>
 					<s n="9" xml:lang="la" type="auto">Qua quidem re si quid possit<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> possit <hi>ein gestrichenes, unlesbares Wort.</hi></note> magis prodesse adulescentię, praesertim hac tempestate, non video (de humanis disciplinis loquor).</s>
 					<s n="10" xml:lang="la" type="auto">Excipite igitur Ottonem et sustinete, quemadmodum dignus<note xml:id="fnd" type="footnote" n="d">dignus <hi>am Rande nachgetragen.</hi></note> est, et nunquam vos poenitebit.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Cum <persName ref="person1681">Rudberto</persName> a <persName ref="person1681">Mosham</persName> egerunt Argentinenses<note xml:id="fn6" type="footnote" n="6">Mitte August verhandelte <persName ref="person1681">Mosham</persName> erfolglos mit <placeName ref="place1049">Straßburger</placeName> Gelehrten und Ratsherren; s. QGT XV 420-424. 427f.</note> et hominem repererunt in consilio suo pertinacissimum; securus est eorum, quę obiecta sunt.</s>
+					<s n="11" xml:lang="la" type="auto">Cum <persName ref="p7678">Rudberto</persName> a <persName>Mosham</persName> egerunt Argentinenses<note xml:id="fn6" type="footnote" n="6">Mitte August verhandelte <persName>Mosham</persName> erfolglos mit <placeName>Straßburger</placeName> Gelehrten und Ratsherren; s. <bibl>QGT</bibl> XV 420-424. 427f.</note> et hominem repererunt in consilio suo pertinacissimum; securus est eorum, quę obiecta sunt.</s>
 					<s n="12" xml:lang="la" type="auto">Dogma eius nuper scripsi, opera videlicet una cum fide iustificare.</s>
 					<s n="13" xml:lang="la" type="auto">Nunc addit hominem in hac vita pervenire posse ad summam perfectionem ideoque legem dei possibilem esse.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto"><persName ref="person1332">Carolus</persName><note xml:id="fn7" type="footnote" n="7">Kaiser <persName ref="person1332">Karl V.</persName></note> adhuc subsistit in Germania Inferiore; quid moliatur, clam est.</s>
-					<s n="15" xml:lang="la" type="auto">Illud certum, quod squamę pontificię<note xml:id="fn8" type="footnote" n="8">Zur Anwendung von Hi 41, 6 auf den Papst und seine Gefolgsleute vgl. etwa Graubünden, Korr. I 39; WA VIII 413, 31.</note> plus satis ipsum<note xml:id="fne" type="footnote" n="e">ipsum <hi>über der Zeile nachgetragen.</hi></note> in nos extimulant.</s>
+					<s n="14" xml:lang="la" type="auto"><persName ref="p18538">Carolus</persName><note xml:id="fn7" type="footnote" n="7"><persName>Kaiser Karl V.</persName></note> adhuc subsistit in Germania Inferiore; quid moliatur, clam est.</s>
+					<s n="15" xml:lang="la" type="auto">Illud certum, quod squamę pontificię<note xml:id="fn8" type="footnote" n="8">Zur Anwendung von Hi 41, 6 auf den Papst und seine Gefolgsleute vgl. etwa <bibl>Graubünden, Korr.</bibl> I 39; <bibl>WA</bibl> VIII 413, 31.</note> plus satis ipsum<note xml:id="fne" type="footnote" n="e">ipsum <hi>über der Zeile nachgetragen.</hi></note> in nos extimulant.</s>
 					<s n="16" xml:lang="la" type="auto">Verum spes est dominum adfuturum nobis, modo nos non deficiamus.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Valete cum liberis<note xml:id="fn9" type="footnote" n="9">Siehe oben <ref target="file11387">Nr. 1344</ref>, Anm. 14 (zu Bullingers Kindern) bzw. <hi>Egli,</hi> Analecta 23 (zu <persName ref="person14">Biblianders</persName> Kindern).</note> et uxoribus<note xml:id="fn10" type="footnote" n="10">Anna Adlischwyler und Rosilla Rordorf.</note>; <persName ref="person165">Pellicano</persName> item et reliquis semper bene opto.</s>
+					<s n="17" xml:lang="la" type="auto">Valete cum liberis<note xml:id="fn9" type="footnote" n="9">Siehe oben <ref target="file11387">Nr. 1344</ref>, Anm. 14 (zu Bullingers Kindern) bzw. <hi>Egli,</hi> Analecta 23 (zu <persName>Biblianders</persName> Kindern).</note> et uxoribus<note xml:id="fn10" type="footnote" n="10">Anna Adlischwyler und Rosilla Rordorf.</note>; <persName ref="p8127">Pellicano</persName> item et reliquis semper bene opto.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, raptim, 20. augusti anno 40.</s>
+					<s n="18" xml:lang="la" type="auto"><placeName>Basileę</placeName>, raptim, 20. augusti anno 40.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> vester.</s>
+					<s n="19" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> vester.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="20" xml:lang="la" type="auto">D[ominis] Heinricho Bullingero et <persName ref="person14">Theodoro Bibliandro</persName>, viris doctissimis, in domino suis.</s>
+					<s n="20" xml:lang="la" type="auto">D[ominis] Heinricho Bullingero et <persName ref="p8171">Theodoro Bibliandro</persName>, viris doctissimis, in domino suis.</s>
 				</p>
 			</div>
 		</body>

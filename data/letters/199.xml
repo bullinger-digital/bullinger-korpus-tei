@@ -6,32 +6,31 @@
 				<title subtype="file">[Ambrosius Blarer] / [Konstanz] AN Heinrich Bullinger / Zürich, 15. Juli 1548</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">985</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Beilage" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,282 ff.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW II, S. 718ff R. Exc.</title>
+								<title>Blarer BW II, S.718ff R. Exc.</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>Polit. Correspondenz Strassburg IV 2, 1021, 1033</title>
@@ -54,14 +53,14 @@
 				<msDesc type="Beilage" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 67,92</idno>
 					</msIdentifier>
 				</msDesc>
@@ -70,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/199">
 				<correspAction type="sent">
-					<persName ref="person392" cert="low">
+					<persName ref="p392" cert="low">
 						<!--
 						<surname cert="low">Blarer</surname>
 						<forename cert="low">Ambrosius</forename>
@@ -81,11 +80,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1548-07-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,7 +94,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file200"/>
@@ -124,7 +123,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -143,7 +142,7 @@
 					<s n="4" xml:lang="la" type="auto">Etsi namque puci quidam apparent reliqui, quorum nondum est impetratus consensus, tamen, qui adhuc stant, omnes propemodum nutare videntur.</s>
 					<s n="5" xml:lang="la" type="auto">Ratisbona et multę alię principio fortiter et syncere respondebant; sed auditis tam horrendis minis omnes fere recedunt.</s>
 					<s n="6" xml:lang="la" type="auto">Civitates Saxonicę nondum in animum induxerunt, ut ad vomitum turpiter adeo redeant;<note xml:id="fn1" type="footnote" n="1">Vgl. Spr 26, 11; 2Petr 2, 22.</note> sed nescitur tamen, quam animorum constantiam ad graviores C[aesaris] interminationes servaturi sint.</s>
-					<s n="7" xml:lang="la" type="auto">A duce Wirtembergensi in dies expectatur responsum, itidem ab Argentoratensibus, et sunt, qui in utrisque non multum constituant spei, quamquam heri mecum fuit haud vanus homo, nobili ab Anwil<note xml:id="fn2" type="footnote" n="2">Hans Kaspar von Anwyl.</note>, Balingensi praefecto, ab epistolis<note xml:id="fn3" type="footnote" n="3">Schreiber.</note>, qui principem plane in eo esse affirmabat, ut nolit post tot tantaque accepta mala corporis et fortunę etiam animae suę ac morum tam enormi defectione iacturam facere.</s>
+					<s n="7" xml:lang="la" type="auto">A duce Wirtembergensi in dies expectatur responsum, itidem ab Argentoratensibus, et sunt, qui in utrisque non multum constituant spei, quamquam heri mecum fuit haud vanus homo, nobili ab Anwil<note xml:id="fn2" type="footnote" n="2"><persName>Hans Kaspar von Anwyl</persName>.</note>, Balingensi praefecto, ab epistolis<note xml:id="fn3" type="footnote" n="3">Schreiber.</note>, qui principem plane in eo esse affirmabat, ut nolit post tot tantaque accepta mala corporis et fortunę etiam animae suę ac morum tam enormi defectione iacturam facere.</s>
 					<s n="8" xml:lang="la" type="auto">Quid Argentoratenses meditentur, spero me intra quatriduum certissimo nunci accepturum.</s>
 				</p>
 				<p>

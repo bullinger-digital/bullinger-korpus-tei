@@ -6,52 +6,43 @@
 				<title subtype="file">Hermann Aquilomontanus / [Oldersum] AN Heinrich Bullinger, 12. März 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1865</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">126</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1389r.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat den wegen Botenmangels liegen gebliebenen Brief [HBBW XIII, <ref target="file11818">Nr. 1772</ref>]
-								geöffnet und ergänzt. Kaiser [<persName ref="person1332">Karl V.</persName>] hat
-								<placeName ref="place21">Geldern</placeName> dem klevischen Hause entzogen, und sogar die Stadt
-								[<placeName ref="place1269">Amersfoort</placeName> oder
-								<placeName ref="place21">Geldern</placeName>?] wurde dem Kaiser überlassen; trotz Friedensschluss mit
-								[Herzog Wilhelm] geht der Krieg gegen [König <persName ref="person20102">Franz I.</persName>] weiter, und vom [Reichs-]Tag [zu
-								<placeName ref="place1001">Speyer</placeName>] erwartet man nichts Gutes. Bittet um Stellungnahme zur
+								Hat den wegen Botenmangels liegen gebliebenen Brief [<bibl>HBBW</bibl> XIII, <ref target="file11818">Nr. 1772</ref>]
+								geöffnet und ergänzt. <persName ref="p18538">Kaiser [Karl V.]</persName> hat
+								<placeName>Geldern</placeName> dem klevischen Hause entzogen, und sogar die Stadt
+								[<placeName>Amersfoort</placeName> oder
+								<placeName>Geldern</placeName>?] wurde dem Kaiser überlassen; trotz Friedensschluss mit
+								[Herzog Wilhelm] geht der Krieg gegen [<persName ref="p18480">König Franz I.</persName>] weiter, und vom [Reichs-]Tag [zu
+								<placeName>Speyer</placeName>] erwartet man nichts Gutes. Bittet um Stellungnahme zur
 								Restitution der Kirchengüter. Bullinger soll öfter schreiben und seine Gesundheit schonen.
 							</p>
 						</summary>
@@ -64,6 +55,9 @@
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>Krömer, Aquilomontanus 55f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1865, S.126</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -72,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11911">
 				<correspAction type="sent">
-					<persName ref="person179" cert="high">
+					<persName ref="p179" cert="high">
 						<!--
 						<surname cert="high">Aquilomontanus</surname>
 						<forename cert="high">Hermann</forename>
@@ -80,11 +74,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/1033718688"/>
 						-->
 					</persName>
-					<placeName source="place364" cert="low"><orig>Oldersum</orig></placeName>
+					<placeName source="l364" cert="low"><orig>Oldersum</orig></placeName>
 					<date when="1544-03-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,8 +122,8 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Postquam hee litere diutius nuntii<note xml:id="fna" type="footnote" n="a">nuntii <hi>korrigiert aus</hi> nuntiis.</note> penuria delituerant, eas<note xml:id="fnb" type="footnote" n="b">eas <hi>über gestrichenem</hi> et.</note> reseravi et hanc appendicem adieci<note xml:id="fn1" type="footnote" n="1">Das hier edierte Schreiben ist eine Nachschrift, die <persName ref="person8">Aquilomontanus</persName> unter seinen Brief vom 14. August 1543 (HBBW XIII, <ref target="file11818">Nr. 1772</ref>) setzte.</note>.</s>
-					<s n="2" xml:lang="la" type="auto">Nosti per cesarem Gelriam devictam et a Clivensi redemptam, civitatem illam<note xml:id="fn2" type="footnote" n="2">Vielleicht <placeName ref="place1269">Amersfoort</placeName>, über dessen Eroberung durch das Haus <placeName ref="place555">Kleve</placeName> <persName ref="person8">Aquilomontanus</persName> im beigelegten Brief berichtet hatte; s. HBBW XIII 191, 8-11, falls man annimmt, dass mit den "Gelri" das Haus <placeName ref="place555">Kleve</placeName> gemeint ist; vielleicht aber auch die Stadt <placeName ref="place21">Geldern</placeName>, nach der das Herzogtum benannt war. Der Gebrauch von "relictam" statt des im Falle von <placeName ref="place1269">Amersfoort</placeName> erwarteten "restitutam" würde für Letztere sprechen.</note> a Gelris ultro relictam cesari, interim pacem compositam cum Clivensi,<note xml:id="fn3" type="footnote" n="3">Zum Friedensschluss zwischen dem Kaiser und Herzog Wilhelm von Jülich s. bes. HBBW XIII <ref target="file11831">[Nr. 1785]</ref> 256, Anm. 23.</note> sed cum Franco ac Gallo<note xml:id="fn4" type="footnote" n="4">König <persName ref="person20102">Franz I.</persName></note> bellum<note xml:id="fnc" type="footnote" n="c"><hi>Vor</hi> bellum <hi>gestrichenes</hi> incruentum.</note> continuari nec quicquam boni a comitiis<note xml:id="fn5" type="footnote" n="5">Gemeint ist der Reichstag zu <placeName ref="place1001">Speyer</placeName>, der am 20. Februar 1544 eröffnet worden war (s. RTA JR XV/1 118).</note> sperari.</s>
+					<s n="1" xml:lang="la" type="auto">Postquam hee litere diutius nuntii<note xml:id="fna" type="footnote" n="a">nuntii <hi>korrigiert aus</hi> nuntiis.</note> penuria delituerant, eas<note xml:id="fnb" type="footnote" n="b">eas <hi>über gestrichenem</hi> et.</note> reseravi et hanc appendicem adieci<note xml:id="fn1" type="footnote" n="1">Das hier edierte Schreiben ist eine Nachschrift, die <persName ref="p6265">Aquilomontanus</persName> unter seinen Brief vom 14. August 1543 (<bibl>HBBW</bibl> XIII, <ref target="file11818">Nr. 1772</ref>) setzte.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Nosti per cesarem Gelriam devictam et a Clivensi redemptam, civitatem illam<note xml:id="fn2" type="footnote" n="2">Vielleicht <placeName>Amersfoort</placeName>, über dessen Eroberung durch das Haus <placeName>Kleve</placeName> <persName ref="p6265">Aquilomontanus</persName> im beigelegten Brief berichtet hatte; s. <bibl>HBBW</bibl> XIII 191, 8-11, falls man annimmt, dass mit den "Gelri" das Haus <placeName>Kleve</placeName> gemeint ist; vielleicht aber auch die Stadt <placeName>Geldern</placeName>, nach der das Herzogtum benannt war. Der Gebrauch von "relictam" statt des im Falle von <placeName>Amersfoort</placeName> erwarteten "restitutam" würde für Letztere sprechen.</note> a Gelris ultro relictam cesari, interim pacem compositam cum Clivensi,<note xml:id="fn3" type="footnote" n="3">Zum Friedensschluss zwischen dem Kaiser und Herzog Wilhelm von Jülich s. bes. <bibl>HBBW XIII</bibl> <ref target="file11831">[Nr. 1785]</ref> 256, Anm. 23.</note> sed cum Franco ac Gallo<note xml:id="fn4" type="footnote" n="4"><persName>König Franz I.</persName></note> bellum<note xml:id="fnc" type="footnote" n="c"><hi>Vor</hi> bellum <hi>gestrichenes</hi> incruentum.</note> continuari nec quicquam boni a comitiis<note xml:id="fn5" type="footnote" n="5">Gemeint ist der Reichstag zu <placeName>Speyer</placeName>, der am 20. Februar 1544 eröffnet worden war (s. RTA JR XV/1 118).</note> sperari.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Utinam consilium mihi perscriberes de restitutione, quam hic respuunt quidem, qui bona ecclesie sub evangelii initio sibi usurparunt!</s>
@@ -141,7 +135,7 @@
 					<s n="5" xml:lang="la" type="auto">Raptim, Gregorii anno 1544.</s>
 				</p>
 				<p>
-					<note>[Ohne eigene Adresse<note xml:id="fne" type="footnote" n="e"><hi>Die Adresse ist Teil des mit obiger Nachschrift ergänzten Briefes vom 14. August 1543; s. HBBW XIII 194, 65-67.</hi></note>.]</note>
+					<note>[Ohne eigene Adresse<note xml:id="fne" type="footnote" n="e"><hi>Die Adresse ist Teil des mit obiger Nachschrift ergänzten Briefes vom 14. August 1543; s. <bibl>HBBW</bibl> XIII 194, 65-67.</hi></note>.]</note>
 				</p>
 			</div>
 		</body>

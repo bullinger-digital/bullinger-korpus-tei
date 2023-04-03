@@ -6,32 +6,31 @@
 				<title subtype="file">[Georg Frölich] / [Augsburg] AN Heinrich Bullinger / Zürich, [20. Mai 1548]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">882</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,242</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 66,203</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,7 +59,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/127">
 				<correspAction type="sent">
-					<persName ref="person1218" cert="low">
+					<persName ref="p1218" cert="low">
 						<!--
 						<surname cert="low">Frölich</surname>
 						<forename cert="low">Georg</forename>
@@ -68,11 +67,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/129465291"/>
 						-->
 					</persName>
-					<placeName source="place18" cert="low"><orig>Augsburg</orig></placeName>
+					<placeName source="l18" cert="low"><orig>Augsburg</orig></placeName>
 					<date when="1548-05-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -82,7 +81,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file128"/>
@@ -108,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,7 +119,7 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Egi tibi gratias pro tua temporum digestione<note xml:id="fna" type="footnote" n="a">Zu dieser Schrift s. auch Wolrads Tagebuch vom Augsburger RT 1548, ed. Tross, S. 37f.</note> adiunxique illis literis meis, quę tum videbantur necessaria; misi autem meas per quendam literatum, qui se Clementem appellabat<note xml:id="fn1" type="footnote" n="1">Ev. Clemens Lenner? Vgl. Vadian BW VI, Reg., und unten Nr. 18125. - Laut e-Mail von Rainer Henrich vom 15.04.2014 handelt es sich eher um den St. Galler "Lesmaister" und Musiker Clemens Hör.</note>; spero eas tibi esse redditas.</s>
+					<s n="2" xml:lang="la" type="auto">Egi tibi gratias pro tua temporum digestione<note xml:id="fna" type="footnote" n="a">Zu dieser Schrift s. auch Wolrads Tagebuch vom Augsburger RT 1548, ed. Tross, S. 37f.</note> adiunxique illis literis meis, quę tum videbantur necessaria; misi autem meas per quendam literatum, qui se Clementem appellabat<note xml:id="fn1" type="footnote" n="1">Ev. Clemens Lenner? Vgl. <bibl>Vadian BW</bibl> VI, Reg., und unten Nr. 18125. - Laut e-Mail von Rainer Henrich vom 15.04.2014 handelt es sich eher um den St. Galler "Lesmaister" und Musiker Clemens Hör.</note>; spero eas tibi esse redditas.</s>
 					<s n="3" xml:lang="la" type="auto">Nunc scias nobis per Cesaream maiestatem esse formulam religionis, quę vocatur Interim, pręscriptam et publicatam, iuxta quam et credi et agi vult Cęsar.</s>
 				</p>
 				<p>

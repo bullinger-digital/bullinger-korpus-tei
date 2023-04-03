@@ -6,32 +6,31 @@
 				<title subtype="file">Edwin Sandys / Worcester AN [Heinrich Bullinger], 3. Januar 1566</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6752/3</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,140</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,13 +42,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Zurich Letters I, S. 86f, Nr. 66</title>
+								<title>Zurich Letters I, S.86f, Nr. 66</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
-								<title>Zurich Letters I, S. 145f, Nr. 66</title>
+								<title>Zurich Letters I, S.145f, Nr. 66</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>John Strype, Annals of the... Church of England under Queen Elizabeth's Happy Reign, London 1724, Vol I, App. 35, S. 80 / Oxford 1824, I/II, App. 35, 540-542</title>
+								<title>John Strype, Annals of the... Church of England under Queen Elizabeth's Happy Reign, London 1724, Vol I, App. 35, S.80 / Oxford 1824, I/II, App. 35, 540-542</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -57,14 +56,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive55">
+						<repository ref="a55">
 							<name>London BM</name>
 							<ref target="https://www.britishmuseum.org/"/>
 						</repository>
-						<settlement ref="place296">London</settlement>
+						<settlement ref="l296">London</settlement>
 						<institution>British Museum</institution>
 						-->
-						<repository ref="archive55"/>
+						<repository ref="a55"/>
 						<idno subtype="Kopie">Ms Add. 4277, fo 189r-v</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
 					</msIdentifier>
@@ -74,7 +73,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6636">
 				<correspAction type="sent">
-					<persName ref="person2867" cert="high">
+					<persName ref="p2867" cert="high">
 						<!--
 						<surname cert="high">Sandys</surname>
 						<forename cert="high">Edwin</forename>
@@ -83,11 +82,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/120649802"/>
 						-->
 					</persName>
-					<placeName source="place567" cert="high"><orig>Worcester</orig></placeName>
+					<placeName source="l567" cert="high"><orig>Worcester</orig></placeName>
 					<date when="1566-01-03" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -121,7 +120,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

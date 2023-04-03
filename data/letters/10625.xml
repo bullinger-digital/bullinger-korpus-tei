@@ -6,50 +6,40 @@
 				<title subtype="file">Berchtold Haller / [Bern] AN Heinrich Bullinger, 5. Juni 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=587</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">224</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,76</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt ihm Konrad
-								[<persName ref="person1152">Hermann</persName>] und [<persName ref="person456">Mauriz Bischof</persName>].
-								Gibt ihm erneut die schwierige Lage der <placeName ref="place121">Berner</placeName> Pfarrer,
+								Empfiehlt ihm <persName ref="p5206">Konrad [Hermann]</persName> und [<persName ref="p18237">Mauriz Bischof</persName>].
+								Gibt ihm erneut die schwierige Lage der <placeName>Berner</placeName> Pfarrer,
 								insbesondere jener schwäbischer Herkunft, zu bedenken. Erkundigt sich nach Neuigkeiten und fragt nach
-								Bullingers Kommentar zu vier Paulusbriefen. <persName ref="person145">Meganders</persName> Kommentar zu den
+								Bullingers Kommentar zu vier Paulusbriefen. <persName ref="p8412">Meganders</persName> Kommentar zu den
 								Timotheusbriefen ist druckfertig.
 							</p>
 						</summary>
@@ -57,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 587, S.224</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10625">
 				<correspAction type="sent">
-					<persName ref="person1391" cert="high">
+					<persName ref="p1391" cert="high">
 						<!--
 						<surname cert="high">Haller</surname>
 						<forename cert="high">Berchtold</forename>
@@ -73,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413862"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="low"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1535-06-05" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,20 +123,20 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Quandoquidem fratres illi ex nostris patrios suos lares invisere et te praeterire statuerunt, nolui eos absque testimonio ad te venire, quod digni sint et iam multis annis in ministerio probati, qui tibi commendentur.</s>
-					<s n="3" xml:lang="la" type="auto">Alter, <persName ref="person1152">Conradus</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="person1152">Konrad Hermann</persName>, s. unten <ref target="file10659">Nr. 621</ref>, 19-37. Zur Reise Hermanns nach <placeName ref="place100">Württemberg</placeName> vgl. <persName ref="person226">Vadian</persName> BW V 234f und unten <ref target="file10637">Nr. 599</ref>, 27f.</note> scilicet, iam pridem tibi cognitus est, alter vero, olim ordinis Teuthonicorum<pb type="edition" next="225"/> prope urbem nostram in Cönitz, cum primis mecum evangelium Christi confessus est<note xml:id="fn2" type="footnote" n="2">Mauriz (auch: Martin) <persName ref="person456">Bischof</persName> d. A., gest. 1568, spätestens 1522 als Leutpriester des Deutschen Ordens in <placeName ref="place582">Köniz</placeName> (Kt. <placeName ref="place121">Bern</placeName>) nachweisbar, hatte 1528 die Thesen der <placeName ref="place121">Berner</placeName> Disputation mitunterzeichnet und war seit 1530 Pfarrer in <placeName ref="place378">Frutigen</placeName> (Kt. <placeName ref="place121">Bern</placeName>). Ein Wechsel nach <placeName ref="place1234">Zofingen</placeName> kam 1543 nicht zustande, doch ließ sich <persName ref="person456">Bischof</persName> 1550 gesundheitshalber nach <placeName ref="place522">Jegenstorf</placeName> (Kt. <placeName ref="place121">Bern</placeName>) versetzen, wo er bis zu seinem Tode blieb. Er darf nicht mit dem gleichnamigen <placeName ref="place121">Berner</placeName> Münsterpfarrer verwechselt werden (vgl. Basel, Matrikel II 13, Nr. 28). - Lit.: ABernerRef 57f. 1105f. 1465 (S. 595); <placeName ref="place121">Bern</placeName> StA, Ratsmanual zum 5. Februar und 17. Mai 1550 sowie zum 23. Februar 1564 (A II 182, S. 159; 183, S. 270; 235, S. 91); Lohner 109. 212. 410; Willy Pfister, Die Prädikanten des bernischen Aargaus im 16.-18. Jahrhundert 1528-1798, Zürich 1943. - Quellen und Studien zur Geschichte der helvetischen Kirche 11, S. 141; René <hi>Moeri,</hi> Die Edlen von Friedingen, in: Zwa XV/7, 1982, S. 557-559.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Alter, <persName ref="p5206">Conradus</persName><note xml:id="fn1" type="footnote" n="1"><persName>Konrad Hermann</persName>, s. unten <ref target="file10659">Nr. 621</ref>, 19-37. Zur Reise Hermanns nach <placeName>Württemberg</placeName> vgl. <persName>Vadian</persName> BW V 234f und unten <ref target="file10637">Nr. 599</ref>, 27f.</note> scilicet, iam pridem tibi cognitus est, alter vero, olim ordinis Teuthonicorum<pb type="edition" next="225"/> prope urbem nostram in Cönitz, cum primis mecum evangelium Christi confessus est<note xml:id="fn2" type="footnote" n="2"><persName>Mauriz (auch: Martin) Bischof</persName> d. A., gest. 1568, spätestens 1522 als Leutpriester des Deutschen Ordens in <placeName>Köniz</placeName> (Kt. <placeName>Bern</placeName>) nachweisbar, hatte 1528 die Thesen der <placeName>Berner</placeName> Disputation mitunterzeichnet und war seit 1530 Pfarrer in <placeName>Frutigen</placeName> (Kt. <placeName>Bern</placeName>). Ein Wechsel nach <placeName>Zofingen</placeName> kam 1543 nicht zustande, doch ließ sich <persName>Bischof</persName> 1550 gesundheitshalber nach <placeName>Jegenstorf</placeName> (Kt. <placeName>Bern</placeName>) versetzen, wo er bis zu seinem Tode blieb. Er darf nicht mit dem gleichnamigen <placeName>Berner</placeName> Münsterpfarrer verwechselt werden (vgl. Basel, Matrikel II 13, Nr. 28). - Lit.: <bibl>ABernerRef</bibl> 57f. 1105f. 1465 (S. 595); <placeName>Bern</placeName> StA, Ratsmanual zum 5. Februar und 17. Mai 1550 sowie zum 23. Februar 1564 (A II 182, S. 159; 183, S. 270; 235, S. 91); Lohner 109. 212. 410; Willy Pfister, Die Prädikanten des bernischen Aargaus im 16.-18. Jahrhundert 1528-1798, Zürich 1943. - Quellen und Studien zur Geschichte der helvetischen Kirche 11, S. 141; René <hi>Moeri,</hi> Die Edlen von Friedingen, in: <bibl>Zwa</bibl> XV/7, 1982, S. 557-559.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Quodsi quid in gratiam illorum feceris, mihi factum esse non dubites.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Cęterum, quod novissimis ad te scripsi<note xml:id="fn3" type="footnote" n="3">Siehe oben <ref target="file10620">Nr. 582</ref>, 37-55.</note>, serius perpendas; nam ecclesiae nostrę calamitatem magnam imminere non possum non vereri, quod hi, qui primi fuerunt tam in senatu quam ab evangelio veluti Sepianus<note xml:id="fn4" type="footnote" n="4"><persName ref="person112">Peter Im Haag</persName>.</note> noster, primi sint omnium ministrorum persecutores, maximo etiam personarum respectu, ut qui Svevus fuerit, etiam in ministerio et conversatione integer, vix inter bubulcos numeretur.</s>
-					<s n="6" xml:lang="la" type="auto">Interim <persName ref="person1393">Franciscus</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person1393">Franz Kolb</persName>.</note> silet, ego propter sinistram valetudinem silentio proximus, cęteri vero passim in agro omnibus exosi habentur.</s>
+					<s n="5" xml:lang="la" type="auto">Cęterum, quod novissimis ad te scripsi<note xml:id="fn3" type="footnote" n="3">Siehe oben <ref target="file10620">Nr. 582</ref>, 37-55.</note>, serius perpendas; nam ecclesiae nostrę calamitatem magnam imminere non possum non vereri, quod hi, qui primi fuerunt tam in senatu quam ab evangelio veluti Sepianus<note xml:id="fn4" type="footnote" n="4"><persName>Peter Im Haag</persName>.</note> noster, primi sint omnium ministrorum persecutores, maximo etiam personarum respectu, ut qui Svevus fuerit, etiam in ministerio et conversatione integer, vix inter bubulcos numeretur.</s>
+					<s n="6" xml:lang="la" type="auto">Interim <persName ref="p5497">Franciscus</persName><note xml:id="fn5" type="footnote" n="5"><persName>Franz Kolb</persName>.</note> silet, ego propter sinistram valetudinem silentio proximus, cęteri vero passim in agro omnibus exosi habentur.</s>
 					<s n="7" xml:lang="la" type="auto">Quid aliud hic dicerem quam deum immissurum famem iis, qui nunc sibi saturi videntur.</s>
 					<s n="8" xml:lang="la" type="auto">Obsecro itaque, charissime Heinrice, mihi tuo amico consilio non desis, quantocius potes.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person145">Megander</persName>, Rellicanus et <persName ref="person213">Simon</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person213">Simon Sulzer</persName>.</note> satis valent.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p8412">Megander</persName>, Rellicanus et <persName ref="p3099">Simon</persName><note xml:id="fn6" type="footnote" n="6"><persName>Simon Sulzer</persName>.</note> satis valent.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Si quid rerum novarum apud te fuerit, adiunge epistolae tuae: de <placeName ref="place100">Wirtenberga</placeName>, Monasteriensibus, <persName ref="person28">Bucero</persName>, concordia cum Lutero atque aliis, subinde etiam, num sub prelo sint tua in Galatas, Ephesios, Colossenses, Philippenses<note xml:id="fn7" type="footnote" n="7">Bullingers "Commentarii in epistolas Pauli ad Galatas, Ephesios, Philippenses et Colossenses" (HBBibl I 72) erschienen im Juli/August 1535, vgl. unten <ref target="file10642">Nr. 604</ref>, Anm. 1.</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Si quid rerum novarum apud te fuerit, adiunge epistolae tuae: de <placeName>Wirtenberga</placeName>, Monasteriensibus, <persName ref="p467">Bucero</persName>, concordia cum Lutero atque aliis, subinde etiam, num sub prelo sint tua in Galatas, Ephesios, Colossenses, Philippenses<note xml:id="fn7" type="footnote" n="7">Bullingers "Commentarii in epistolas Pauli ad Galatas, Ephesios, Philippenses et Colossenses" (<bibl>HBBibl</bibl> I 72) erschienen im Juli/August 1535, vgl. unten <ref target="file10642">Nr. 604</ref>, Anm. 1.</note>.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale.</s>
@@ -151,13 +148,13 @@
 					<s n="13" xml:lang="la" type="auto">5. iunii anno 35.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="person90">B. Hallerus</persName>.</s>
+					<s n="14" xml:lang="la" type="auto">Tuus <persName ref="p1391">B. Hallerus</persName>.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Apographum<note xml:id="fn8" type="footnote" n="8">Siehe unten <ref target="file10647">Nr. 609</ref>, 4.</note> optime reconditum remittam suo nuncio et tempore.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Paravit ad prelum <persName ref="person145">Megander</persName> in utranque ad Timotheum commentarios<note xml:id="fn9" type="footnote" n="9"><persName ref="person145">Kaspar Megander</persName>, In divi Pauli epistolas tres, ad Timotheum et Titum... diligens ac brevis expositio, Basel 1535 (Kolophon: März 1536).</note>.</s>
+					<s n="16" xml:lang="la" type="auto">Paravit ad prelum <persName ref="p8412">Megander</persName> in utranque ad Timotheum commentarios<note xml:id="fn9" type="footnote" n="9"><persName>Kaspar Megander</persName>, In divi Pauli epistolas tres, ad Timotheum et Titum... diligens ac brevis expositio, Basel 1535 (Kolophon: März 1536).</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

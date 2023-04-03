@@ -6,40 +6,31 @@
 				<title subtype="file">Gerhard Geldenhauer / Hagenau AN Heinrich Bullinger, 30. Juni 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1407</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">131</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,99</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,8 +38,8 @@
 							<p xml:id="regest1">
 								Dankt für ein Buchgeschenk und für die freundliche Aufnahme des [von ihm empfohlenen] Britanniers.
 								Beantwortet seine Frage nach der Einrichtung des Schulwesens [in
-								<placeName ref="place672">Marburg</placeName>] und berichtet ausführlich über den Aufbau des Studiums
-								sowie über die Stipendienanstalt. In <placeName ref="place447">Hagenau</placeName>, wohin ihn
+								<placeName>Marburg</placeName>] und berichtet ausführlich über den Aufbau des Studiums
+								sowie über die Stipendienanstalt. In <placeName>Hagenau</placeName>, wohin ihn
 								[Landgraf Philipp] entsandt hat,
 								ist noch nicht über die Religionsfrage verhandelt worden; nennt anwesende Theologen beider Parteien. Bittet
 								um Fürbitte.
@@ -66,6 +57,9 @@
 							<bibl type="Gedruckt" subtype="Teildruck">
 								<title>Köhler, Hessen und die Schweiz 469, Nr. 10</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1407, S.131</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -74,7 +68,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11450">
 				<correspAction type="sent">
-					<persName ref="person1384" cert="high">
+					<persName ref="p1384" cert="high">
 						<!--
 						<surname cert="high">Geldenhauer</surname>
 						<forename cert="high">Gerhard</forename>
@@ -84,11 +78,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/121278875"/>
 						-->
 					</persName>
-					<placeName source="place199" cert="high"><orig>Hagenau</orig></placeName>
+					<placeName source="l199" cert="high"><orig>Hagenau</orig></placeName>
 					<date when="1540-06-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -160,12 +154,12 @@
 					<s n="21" xml:lang="la" type="auto">Tamen non desunt nobis adulescentes corrupti, qui<note xml:id="fni" type="footnote" n="i"><hi>vor</hi> qui <hi>gestrichenes</hi> quo.</note> multum nobis negotii exhibent, quos negligere non decet, cohercere vero difficilimum est.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto">Illustrissimus princeps noster iussit me una cum suis a consiliis<note xml:id="fnk" type="footnote" n="k"><hi>in der Vorlage</hi> aconsiliis.</note><note xml:id="fn6" type="footnote" n="6">Die Namen der nach <placeName ref="place447">Hagenau</placeName> entsandten hessischen Räte unten <ref target="file11451">Nr. 1408</ref>, Anm. 5.</note> adire comitia Hagenoica<note xml:id="fn7" type="footnote" n="7">Zum Religionsgespräch in <placeName ref="place447">Hagenau</placeName> s. oben <ref target="file11442">Nr. 1399</ref>, Anm. 9.</note>, in quibus hactenus, quod sciam, nihil agitur, quod ad religionis dissidia tollenda faciat.</s>
+					<s n="22" xml:lang="la" type="auto">Illustrissimus princeps noster iussit me una cum suis a consiliis<note xml:id="fnk" type="footnote" n="k"><hi>in der Vorlage</hi> aconsiliis.</note><note xml:id="fn6" type="footnote" n="6">Die Namen der nach <placeName>Hagenau</placeName> entsandten hessischen Räte unten <ref target="file11451">Nr. 1408</ref>, Anm. 5.</note> adire comitia Hagenoica<note xml:id="fn7" type="footnote" n="7">Zum Religionsgespräch in <placeName>Hagenau</placeName> s. oben <ref target="file11442">Nr. 1399</ref>, Anm. 9.</note>, in quibus hactenus, quod sciam, nihil agitur, quod ad religionis dissidia tollenda faciat.</s>
 					<s n="23" xml:lang="la" type="auto">Adsunt episcopi Germanię frequenti numero.</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="la" type="auto">Regnant Faber<note xml:id="fn8" type="footnote" n="8"><persName ref="person805">Johannes Fabri</persName>.</note>, Viennensis episcopus, quem nosti, Cochlęus, <persName ref="person1721">Nausea</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person1721">Friedrich Nausea</persName> (Grau, Grave), geb. um 1495, gest. 1552, von <placeName ref="place1148">Waischenfeld</placeName> (Oberfranken), immatrikulierte sich 1514 in <placeName ref="place617">Leipzig</placeName> und setzte sein Studium später in <placeName ref="place16">Italien</placeName> fort, wo er 1523 zum Doktor beider Rechte promovierte. 1524 begleitete er <persName ref="person594">Lorenzo Campeggi</persName> als dessen Sekretär nach <placeName ref="place7">Deutschland</placeName> und <placeName ref="place32">Ungarn</placeName>. Nach <placeName ref="place7">Deutschland</placeName> zurückgekehrt, wurde er 1526 Domprediger in <placeName ref="place668">Mainz</placeName>. Von seinen zahlreichen gedruckten Werken fanden besonders die Predigten viel Beachtung. <persName ref="person832">König Ferdinand</persName> ernannte den angesehenen Reformtheologen, der inzwischen in <persName ref="person2169">Siena</persName> den theologischen Doktorgrad erworben hatte, zum Hofprediger. Im Auftrag des Königs beteiligte er sich 1540 an den Religionsgesprächen von <placeName ref="place447">Hagenau</placeName> und <placeName ref="place1214">Worms</placeName>. Schon 1538 war er Koadjutor <persName ref="person805">Fabris</persName> geworden; 1541 trat er dessen Nachfolge als Bischof von Wien an. Er starb in <placeName ref="place1089">Trient</placeName>, wo er als Orator Ferdinands am Konzil teilnahm. - Lit.: Ilse <hi>Guenther</hi> und Peter G. <hi>Bietenholz,</hi> in: Contemporaries III 7f; Gerhard Philipp <hi>Wolf</hi> in: BBKL VI 506-513; Remigius <hi>Bäumer,</hi> in: NDB XVIII 7751; Herbert <hi>Immenkötter,</hi> in: LThK<note type="sup">3</note> VII 705f.</note>, <persName ref="person1799">Pelargus</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="person1799">Ambrosius Pelargus</persName> (Storch), von <placeName ref="place774">Nidda</placeName> (Hessen), geb. um 1493, gest. 1561, Dominikaner, erhielt seine Ausbildung in <placeName ref="place361">Frankfurt</placeName> und <placeName ref="place465">Heidelberg</placeName>. 1525-1529 predigte er als Gegner <persName ref="person160">Oekolampads</persName> in <placeName ref="place97">Basel</placeName> und wirkte anschließend in <placeName ref="place367">Freiburg</placeName> j. Br., wo er zum Doktor der Theologie promovierte. 1533 wurde er Professor in <placeName ref="place1090">Trier</placeName>; ab 1545 war er auch Domprediger. Außer an den Religionsgesprächen von <placeName ref="place447">Hagenau</placeName> und <placeName ref="place1214">Worms</placeName> nahm er 1545/47 und 1551/52 auch am Tridentinum teil. - Lit.: Josef <hi>Stein ruck,</hi> in: LThK<note type="sup">3</note> VIII 12.</note> et nescio qui alii.</s>
-					<s n="25" xml:lang="la" type="auto">Ex nostris adsunt <persName ref="person28">Bucerus</persName>, <persName ref="person162">Osiander</persName>,<pb type="edition" next="133"/> <persName ref="person19">Blaurerus</persName>, <persName ref="person514">Brencius</persName>, doctores <persName ref="person1511">Ventzelaus Nurenbergensis</persName><note xml:id="fn11" type="footnote" n="11"><persName ref="person1511">Wenzeslaus Linck</persName>.</note>, <persName ref="person1434">Baltazar</persName> <placeName ref="place1107">Tubingensis</placeName><note xml:id="fn12" type="footnote" n="12"><persName ref="person1434">Balthasar Käufelin</persName>.</note>, M. <persName ref="person947">Petrus Geltnerus</persName>, <persName ref="person171">Ioannes Pistorius</persName>, Sneppius<note xml:id="fn13" type="footnote" n="13"><persName ref="person2087">Erhard Schnepf</persName>.</note> etc.; ordinem non observavi vel ętatis vel eruditionis, sed ut memorię occurrerunt, nomina adnotavi.</s>
+					<s n="24" xml:lang="la" type="auto">Regnant Faber<note xml:id="fn8" type="footnote" n="8"><persName>Johannes Fabri</persName>.</note>, Viennensis episcopus, quem nosti, Cochlęus, <persName ref="p7688">Nausea</persName><note xml:id="fn9" type="footnote" n="9"><persName>Friedrich Nausea (Grau, Grave)</persName>, geb. um 1495, gest. 1552, von <placeName>Waischenfeld (Oberfranken)</placeName>, immatrikulierte sich 1514 in <placeName>Leipzig</placeName> und setzte sein Studium später in <placeName>Italien</placeName> fort, wo er 1523 zum Doktor beider Rechte promovierte. 1524 begleitete er <persName>Lorenzo Campeggi</persName> als dessen Sekretär nach <placeName>Deutschland</placeName> und <placeName>Ungarn</placeName>. Nach <placeName>Deutschland</placeName> zurückgekehrt, wurde er 1526 Domprediger in <placeName>Mainz</placeName>. Von seinen zahlreichen gedruckten Werken fanden besonders die Predigten viel Beachtung. <persName>König Ferdinand</persName> ernannte den angesehenen Reformtheologen, der inzwischen in <persName>Siena</persName> den theologischen Doktorgrad erworben hatte, zum Hofprediger. Im Auftrag des Königs beteiligte er sich 1540 an den Religionsgesprächen von <placeName>Hagenau</placeName> und <placeName>Worms</placeName>. Schon 1538 war er Koadjutor <persName>Fabris</persName> geworden; 1541 trat er dessen Nachfolge als Bischof von Wien an. Er starb in <placeName>Trient</placeName>, wo er als Orator Ferdinands am Konzil teilnahm. - Lit.: Ilse <hi>Guenther</hi> und Peter G. <hi>Bietenholz,</hi> in: <bibl>Contemporaries</bibl> III 7f; Gerhard Philipp <hi>Wolf</hi> in: <bibl>BBKL</bibl> VI 506-513; Remigius <hi>Bäumer,</hi> in: <bibl>NDB</bibl> XVIII 7751; Herbert <hi>Immenkötter,</hi> in: LThK<note type="sup">3</note> VII 705f.</note>, <persName ref="p6045">Pelargus</persName><note xml:id="fn10" type="footnote" n="10"><persName>Ambrosius Pelargus (Storch)</persName>, von <placeName>Nidda (Hessen)</placeName>, geb. um 1493, gest. 1561, Dominikaner, erhielt seine Ausbildung in <placeName>Frankfurt</placeName> und <placeName>Heidelberg</placeName>. 1525-1529 predigte er als Gegner <persName>Oekolampads</persName> in <placeName>Basel</placeName> und wirkte anschließend in <placeName>Freiburg</placeName> j. Br., wo er zum Doktor der Theologie promovierte. 1533 wurde er Professor in <placeName>Trier</placeName>; ab 1545 war er auch Domprediger. Außer an den Religionsgesprächen von <placeName>Hagenau</placeName> und <placeName>Worms</placeName> nahm er 1545/47 und 1551/52 auch am Tridentinum teil. - Lit.: Josef <hi>Stein ruck,</hi> in: LThK<note type="sup">3</note> VIII 12.</note> et nescio qui alii.</s>
+					<s n="25" xml:lang="la" type="auto">Ex nostris adsunt <persName ref="p467">Bucerus</persName>, <persName ref="p2301">Osiander</persName>,<pb type="edition" next="133"/> <persName ref="p8055">Blaurerus</persName>, <persName ref="p458">Brencius</persName>, doctores <persName ref="p5667">Ventzelaus Nurenbergensis</persName><note xml:id="fn11" type="footnote" n="11"><persName>Wenzeslaus Linck</persName>.</note>, <persName ref="p5559">Baltazar</persName> <placeName>Tubingensis</placeName><note xml:id="fn12" type="footnote" n="12"><persName>Balthasar Käufelin</persName>.</note>, M. <persName ref="p4922">Petrus Geltnerus</persName>, <persName ref="p9046">Ioannes Pistorius</persName>, Sneppius<note xml:id="fn13" type="footnote" n="13"><persName>Erhard Schnepf</persName>.</note> etc.; ordinem non observavi vel ętatis vel eruditionis, sed ut memorię occurrerunt, nomina adnotavi.</s>
 				</p>
 				<p>
 					<s n="26" xml:lang="la" type="auto">Bene vale et has meas ineptias boni consule.</s>
@@ -173,10 +167,10 @@
 				</p>
 				<p>
 					<s n="28" xml:lang="la" type="auto">Datum Hagenoię, pridie calendas iulias 1540.</s>
-					<s n="29" xml:lang="la" type="auto">Toto pectore<note xml:id="fn14" type="footnote" n="14">Adagia, 1, 4, 26 (LB II 160f).</note> tuus</s>
+					<s n="29" xml:lang="la" type="auto">Toto pectore<note xml:id="fn14" type="footnote" n="14">Adagia, 1, 4, 26 (<bibl>LB</bibl> II 160f).</note> tuus</s>
 				</p>
 				<p>
-					<s n="30" xml:lang="la" type="auto"><persName ref="person76">Gerardus</persName> Noviomagus.</s>
+					<s n="30" xml:lang="la" type="auto"><persName ref="p8363">Gerardus</persName> Noviomagus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

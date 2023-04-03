@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Bullinger AN Heinrich Bullinger, Ende Dezember 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2021</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18354-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2724</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XX (Anhang)</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Häfner, Yvonne; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">20</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">April bis Dezember 1547</biblScope>
-				<biblScope unit="page">768</biblScope>
-				<biblScope unit="pages">807</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 20 (Anhang), Bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 37,186</idno>
 					</msIdentifier>
 					<msContents>
@@ -50,7 +41,7 @@
 								[seine Gattin Margaretha, geb. Berker] danken herzlich dafür. Sobald sich eine gute Beförderungsgelegenheit
 								bietet, hat Letztere vor, sich mit einem für Heinrichs Kinder bestimmten Neujahrsgeschenk entsprechend zu
 								revanchieren. Das Geflügel, das Heinrich als Neujahrsgeschenk erhalten wird, ist noch nicht erlegt. Für die
-								Schwägerin Anna [geb. Adlischwyler] ist als Neujahrsgeschenk die [beigelegte] Münze bestimmt. Johannes und
+								Schwägerin <persName ref="p8051">Anna [geb. Adlischwyler]</persName> ist als Neujahrsgeschenk die [beigelegte] Münze bestimmt. Johannes und
 								seine Gattin wünschen Heinrich und den Seinen ein glückliches neues Jahr - ein <pb type="edition" next="768"/>
 								Wunsch, den man in Anbetracht von Heinrichs Schreiben [nicht erhalten] gut brauchen kann. Man warte aber ab.
 								Gott wird den Gerechten nicht verlassen. Wenigstens sollte man sich im Kampf gegen die Anschläge des Teufels
@@ -89,13 +80,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 20A, Nr. 2724a, S.768</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12772">
 				<correspAction type="sent">
-					<persName ref="person527" cert="high">
+					<persName ref="p527" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Johannes</forename>
@@ -105,7 +103,7 @@
 					<date notBefore="1546-12-15" notAfter="1546-12-31" cert="low">Ende Dezember 1546</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -142,7 +140,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -156,10 +154,10 @@
 					<s n="1" xml:lang="la" type="auto">Salus a Christo, etc.</s>
 					<s n="2" xml:lang="de" type="auto">Es ist nit gnuͦg, das du myr z’drincken gist<note xml:id="fn2" type="footnote" n="2">gibst.</note>, duͦmuͦst ouch<note xml:id="fn3" type="footnote" n="3">duͦ muͦst ouch: du fühlst dich auch dazu veranlasst. - Heinrich hat also dem unten in Z. 21f erwähnten und an seinen Bruder gesandten Wein auch Esswaren beigelegt.</note> z’essen geen!<note xml:id="fn4" type="footnote" n="4">geben.</note></s>
 					<s n="3" xml:lang="de" type="auto">Ist als<note xml:id="fn5" type="footnote" n="5">alles.</note> guͦtt byeinanderen.<note xml:id="fn6" type="footnote" n="6">Zu verstehen: Alles ist gut angekommen.</note></s>
-					<s n="4" xml:lang="de" type="auto">Dorum ich dyr, und besunder myn suppenschmidt<note xml:id="fn7" type="footnote" n="7">Gemeint ist Johannes’ Gattin; vgl. SI IX 866. - Zu dieser s. unten Anm. 18.</note>, uich<note xml:id="fn8" type="footnote" n="8">euch.</note> allen dancket.</s>
-					<s n="5" xml:lang="de" type="auto">Sy wil sich ouch rytterlich und redlich<note xml:id="fn9" type="footnote" n="9">rytterlich und redlich: großzügig und gerecht.</note> mit den kynden<note xml:id="fn10" type="footnote" n="10">Gemeint sind Heinrichs Kinder. - Zu deren Namen zum Zeitpunkt des vorliegenden Briefes s. HBBW XIX 75.</note> mit yrem guͦttjar<note xml:id="fn11" type="footnote" n="11">Neujahrsgeschenk.</note> halten, sobald wyr fuͦr<note xml:id="fn12" type="footnote" n="12">Transportgelegenheit; s. SI I 970.</note> fyndendt und versorget<note xml:id="fn13" type="footnote" n="13">die Vorkehrung (für den Transport) getroffen.</note> ist.</s>
+					<s n="4" xml:lang="de" type="auto">Dorum ich dyr, und besunder myn suppenschmidt<note xml:id="fn7" type="footnote" n="7">Gemeint ist Johannes’ Gattin; vgl. <bibl>SI</bibl> IX 866. - Zu dieser s. unten Anm. 18.</note>, uich<note xml:id="fn8" type="footnote" n="8">euch.</note> allen dancket.</s>
+					<s n="5" xml:lang="de" type="auto">Sy wil sich ouch rytterlich und redlich<note xml:id="fn9" type="footnote" n="9">rytterlich und redlich: großzügig und gerecht.</note> mit den kynden<note xml:id="fn10" type="footnote" n="10">Gemeint sind Heinrichs Kinder. - Zu deren Namen zum Zeitpunkt des vorliegenden Briefes s. <bibl>HBBW</bibl> XIX 75.</note> mit yrem guͦttjar<note xml:id="fn11" type="footnote" n="11">Neujahrsgeschenk.</note> halten, sobald wyr fuͦr<note xml:id="fn12" type="footnote" n="12">Transportgelegenheit; s. <bibl>SI</bibl> I 970.</note> fyndendt und versorget<note xml:id="fn13" type="footnote" n="13">die Vorkehrung (für den Transport) getroffen.</note> ist.</s>
 					<s n="6" xml:lang="de" type="auto">Dyn guͦttjar, das du von myr bist warten, flügt noch<note xml:id="fn14" type="footnote" n="14">Zu verstehen: Ist noch nicht erlegt (die Rede ist von einem Geflügel). - Johannes jagte; vgl. <ref target="file13140">Nr. 3091</ref>,[4]. - Zur damaligen Vogeljagt im Zürcher Gebiet, s. Das Kunst-, Weydnyoder Vogelbuch des Jodok Oesenbry - Zentralbibliothek Zürich, Ms. C 22, Zürich 2016.</note> weiß nit wo.</s>
-					<s n="7" xml:lang="de" type="auto">Der schwester<note xml:id="fn15" type="footnote" n="15">Da Johannes und Heinrich keine Schwester hatten (s. Stettler, aaO, S. 30), wird hier Heinrichs Gattin, Anna, geb. Adlischwyler, Johannes’ Schwägerin, gemeint sein; vgl. SI IX 2229.</note> gib den dicken<note xml:id="fn16" type="footnote" n="16">Damit ist eine vollwertige, konkrete Münze gemeint.</note> zuͦ eynem zeichen eynes guͦtten säligen<note xml:id="fna" type="footnote" n="a">li <hi>über</hi> sägen <hi>eingefügt</hi>.</note> jars, das und<note xml:id="fn17" type="footnote" n="17">auch.</note> min frow<note xml:id="fn18" type="footnote" n="18">Johannes war seit Mai 1532 mit seiner zweiten Frau Margaretha, geb. Berker (gest. 9. Januar 1565), verheiratet; s. Stettler, aaO, S. 35f.</note> uich allen wünsch, dan<note xml:id="fn19" type="footnote" n="19">da.</note> wyr des nach dynem schriben<note xml:id="fn20" type="footnote" n="20">Nicht erhalten (auch unten in Z. 24 erwähnt).</note> wol dörffendt.<note xml:id="fn21" type="footnote" n="21">bedürfen.</note></s>
+					<s n="7" xml:lang="de" type="auto">Der schwester<note xml:id="fn15" type="footnote" n="15">Da Johannes und Heinrich keine Schwester hatten (s. Stettler, aaO, S. 30), wird hier Heinrichs Gattin, <persName>Anna, geb. Adlischwyler</persName>, Johannes’ Schwägerin, gemeint sein; vgl. <bibl>SI</bibl> IX 2229.</note> gib den dicken<note xml:id="fn16" type="footnote" n="16">Damit ist eine vollwertige, konkrete Münze gemeint.</note> zuͦ eynem zeichen eynes guͦtten säligen<note xml:id="fna" type="footnote" n="a">li <hi>über</hi> sägen <hi>eingefügt</hi>.</note> jars, das und<note xml:id="fn17" type="footnote" n="17">auch.</note> min frow<note xml:id="fn18" type="footnote" n="18">Johannes war seit Mai 1532 mit seiner zweiten Frau Margaretha, geb. Berker (gest. 9. Januar 1565), verheiratet; s. Stettler, aaO, S. 35f.</note> uich allen wünsch, dan<note xml:id="fn19" type="footnote" n="19">da.</note> wyr des nach dynem schriben<note xml:id="fn20" type="footnote" n="20">Nicht erhalten (auch unten in Z. 24 erwähnt).</note> wol dörffendt.<note xml:id="fn21" type="footnote" n="21">bedürfen.</note></s>
 					<s n="8" xml:lang="de" type="auto">Laaß här gan!<note xml:id="fn22" type="footnote" n="22">Zu verstehen: Warten wir ab!</note></s>
 					<s n="9" xml:lang="la" type="auto">Non vidi iustum derelictum.<note xml:id="fn23" type="footnote" n="23">Ps 37 (Vulg. 36), 25.</note></s>
 					<s n="10" xml:lang="la" type="auto">Saltem simus fortes in bello contra omnes insultus diaboli,<note xml:id="fn24" type="footnote" n="24">Vgl. Eph 6, 11.</note> etc.<pb type="edition" next="769"/></s>
@@ -182,14 +180,14 @@
 					<s n="15" xml:lang="de" type="auto">An frytag han ich ußgen<note xml:id="fn35" type="footnote" n="35">eingebüßt (nicht erhalten).</note> 17 lib.<note xml:id="fn36" type="footnote" n="36">Pfund (libra).</note> 4 ß.<note xml:id="fn37" type="footnote" n="37">Batzen. - Ein Pfund entsprach 12 Batzen.</note></s>
 					<s n="16" xml:lang="de" type="auto">Han ich vertröschtet<note xml:id="fnb" type="footnote" n="b">In der Vorlage vertröschet. -</note>.<note xml:id="fn38" type="footnote" n="38">Zu verstehen: Ich habe dafür eine Bürgschaft erhalten.</note></s>
 					<s n="17" xml:lang="de" type="auto">Weer myr schier wäger gsyn,<note xml:id="fn39" type="footnote" n="39">Zu verstehen: Es wäre aus meiner Sicht fast besser gewesen.</note> den zenden ze verlychen.<note xml:id="fn40" type="footnote" n="40">den zenden ze verlychen: den Zehnten zu verpachten.</note></s>
-					<s n="18" xml:lang="de" type="auto">Wie ichs anfan, gad es nüt myr uff.<note xml:id="fn41" type="footnote" n="41">Zu verstehen: Egal wie, es wird sich für mich nicht lohnen; vgl. SI II 14 (s.v. „ufgan“).</note></s>
+					<s n="18" xml:lang="de" type="auto">Wie ichs anfan, gad es nüt myr uff.<note xml:id="fn41" type="footnote" n="41">Zu verstehen: Egal wie, es wird sich für mich nicht lohnen; vgl. <bibl>SI</bibl> II 14 (s.v. „ufgan“).</note></s>
 				</p>
 			</div>
 			<div xml:id="div5" corresp="regest5">
 				<p>
-					<s n="19" xml:lang="de" type="auto">Als ich mein,<note xml:id="fn42" type="footnote" n="42">Zu verstehen: Wie ich annehme.</note> schickst<note xml:id="fnc" type="footnote" n="c">In der Vorlage schickt.</note> du myr ein stuck<note xml:id="fn43" type="footnote" n="43">Fass; s. SI X 1800.</note> Capperer.</s>
+					<s n="19" xml:lang="de" type="auto">Als ich mein,<note xml:id="fn42" type="footnote" n="42">Zu verstehen: Wie ich annehme.</note> schickst<note xml:id="fnc" type="footnote" n="c">In der Vorlage schickt.</note> du myr ein stuck<note xml:id="fn43" type="footnote" n="43">Fass; s. <bibl>SI</bibl> X 1800.</note> Capperer.</s>
 					<s n="20" xml:lang="de" type="auto">Dargegen schickt ich dyr ein stuck Murner.</s>
-					<s n="21" xml:lang="de" type="auto">Den versuͦch gegen einanderen.<note xml:id="fn44" type="footnote" n="44">Zu verstehen: Probiere ihn im Vergleich zum anderen aus. - Diese Angabe zusammen mit der unten in Z. 21f gemachten Aussage führt zur Vermutung, dass hier von Weinsorten die Rede ist, zumal aus Johannes’ undatiertem, zwischen 1532 und 1537 verfassten Brief (HBBW Xa, <ref target="file11485">Nr. 1442</ref>) ebenfalls hervorgeht, dass er durch seinen Bruder Wein bezog (vielleicht einen Teil des Weines, den die Stadt Zürich Letzterem jährlich in Naturalien als Lohn ausbezahlte). Mit Capperer wäre demnach ein Wein gemeint, der aus einem dem Kloster Kappel angehörenden Weingut oder noch wahrscheinlicher (s. dazu auf der Webseite „Ortsnamen.ch“ den Eintrag „Kappeller“) aus dem Andelfinger Bezirk kommt, mit Murner ein Wein aus einem dem etwa 5 km westlich von Ottenbach gelegenen Kloster Muri (Aargau) gehörenden Weingut oder aus einem in der Region Muri gelegenen Weinberg, wo die beiden Brüder Verwandte hatten; s. Stettler, aaO, S. 25. 47.</note></s>
+					<s n="21" xml:lang="de" type="auto">Den versuͦch gegen einanderen.<note xml:id="fn44" type="footnote" n="44">Zu verstehen: Probiere ihn im Vergleich zum anderen aus. - Diese Angabe zusammen mit der unten in Z. 21f gemachten Aussage führt zur Vermutung, dass hier von Weinsorten die Rede ist, zumal aus Johannes’ undatiertem, zwischen 1532 und 1537 verfassten Brief (<bibl>HBBW</bibl> Xa, <ref target="file11485">Nr. 1442</ref>) ebenfalls hervorgeht, dass er durch seinen Bruder Wein bezog (vielleicht einen Teil des Weines, den die Stadt Zürich Letzterem jährlich in Naturalien als Lohn ausbezahlte). Mit Capperer wäre demnach ein Wein gemeint, der aus einem dem Kloster Kappel angehörenden Weingut oder noch wahrscheinlicher (s. dazu auf der Webseite „Ortsnamen.ch“ den Eintrag „Kappeller“) aus dem Andelfinger Bezirk kommt, mit Murner ein Wein aus einem dem etwa 5 km westlich von Ottenbach gelegenen Kloster Muri (Aargau) gehörenden Weingut oder aus einem in der Region Muri gelegenen Weinberg, wo die beiden Brüder Verwandte hatten; s. Stettler, aaO, S. 25. 47.</note></s>
 				</p>
 			</div>
 			<div xml:id="div6" corresp="regest6">

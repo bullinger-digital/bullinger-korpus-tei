@@ -6,48 +6,39 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Ambrosius Blarer, 10. August 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2210</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">431</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 15 (Briefe des Jahres 1545), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2013, 746 S., ISBN 978-3-290-17664-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 35 (VBS VI),48</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bullinger empfiehlt <persName ref="person14">Theodor [Bibliander]</persName>, der [aus Zürich] berichten wird. - Falls
-								<persName ref="person19">Blarer</persName> etwas über den Ausgang des Reichstags [zu
-								<placeName ref="place1214">Worms</placeName>] oder über <persName ref="person138">Luther</persName>
+								Bullinger empfiehlt <persName ref="p8171">Theodor [Bibliander]</persName>, der [aus Zürich] berichten wird. - Falls
+								<persName ref="p8055">Blarer</persName> etwas über den Ausgang des Reichstags [zu
+								<placeName>Worms</placeName>] oder über <persName ref="p1974">Luther</persName>
 								weiß, möge er dies mitteilen.
 							</p>
 						</summary>
@@ -58,7 +49,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 377f, Nr. 1203</title>
+								<title>Blarer BW II, S.377f, Nr. 1203</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 15, Nr. 2210, S.431</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -68,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12257">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -78,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1545-08-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -126,13 +120,13 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S[alutem] d[ico].</s>
-					<s n="2" xml:lang="la" type="auto">Cum nihil, quod scriberem, haberem, vir amantissime, hoc unicum tamen unice a te impetratum cupio, ut praeceptorem et fratrem nostrum colendissimum <persName ref="person14">Theodorum</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="person14">Theodor Bibliander</persName>.</note> amice excipias commendatumque habeas<note xml:id="fn2" type="footnote" n="2">Vielleicht hatte sich <persName ref="person14">Bibliander</persName> im Zuge des Dissenses mit den Zürchern (s. oben <ref target="file12236">Nr. 2189</ref> und <ref target="file12240">Nr. 2193</ref>, Anm. 10) nach <placeName ref="place565">Konstanz</placeName> begeben, um schon zu diesem Zeitpunkt über eine Anstellung in <placeName ref="place565">Konstanz</placeName> zu verhandeln. Am 27. Februar 1546 dankte er <persName ref="person19">Blarer</persName> und der <placeName ref="place565">Konstanzer</placeName> Obrigkeit für deren Stellenangebot, lehnte dieses aber ab; s. <persName ref="person19">Blarer</persName> BW II 419, <ref target="file11298">Nr. 1255</ref>; <hi>Egli,</hi> Analecta 1176.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Cum nihil, quod scriberem, haberem, vir amantissime, hoc unicum tamen unice a te impetratum cupio, ut praeceptorem et fratrem nostrum colendissimum <persName ref="p8171">Theodorum</persName><note xml:id="fn1" type="footnote" n="1"><persName>Theodor Bibliander</persName>.</note> amice excipias commendatumque habeas<note xml:id="fn2" type="footnote" n="2">Vielleicht hatte sich <persName>Bibliander</persName> im Zuge des Dissenses mit den Zürchern (s. oben <ref target="file12236">Nr. 2189</ref> und <ref target="file12240">Nr. 2193</ref>, Anm. 10) nach <placeName>Konstanz</placeName> begeben, um schon zu diesem Zeitpunkt über eine Anstellung in <placeName>Konstanz</placeName> zu verhandeln. Am 27. Februar 1546 dankte er <persName>Blarer</persName> und der <placeName>Konstanzer</placeName> Obrigkeit für deren Stellenangebot, lehnte dieses aber ab; s. <persName>Blarer</persName> BW II 419, <ref target="file11298">Nr. 1255</ref>; <hi>Egli,</hi> Analecta 1176.</note>.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Res nostras ex ipso omnes audies.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Si quid certi habes de comitiorum<note xml:id="fn3" type="footnote" n="3">Der Reichstag zu <placeName ref="place1214">Worms</placeName>, der am 4. August beendet worden war; s. oben <ref target="file12232">Nr. 2185</ref>, Anm. 17.</note> exitu et d. <persName ref="person138">Luthero</persName>, significa, quaeso.</s>
+					<s n="4" xml:lang="la" type="auto">Si quid certi habes de comitiorum<note xml:id="fn3" type="footnote" n="3">Der Reichstag zu <placeName>Worms</placeName>, der am 4. August beendet worden war; s. oben <ref target="file12232">Nr. 2185</ref>, Anm. 17.</note> exitu et d. <persName ref="p1974">Luthero</persName>, significa, quaeso.</s>
 					<s n="5" xml:lang="la" type="auto">Vale.</s>
 					<s n="6" xml:lang="la" type="auto">Tiguri, 10. augusti 1545.</s>
 				</p>
@@ -141,8 +135,8 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="8" xml:lang="la" type="auto">Clarissimo viro d. <persName ref="person19">Ambrosio Blaurero</persName>, colendissimo domino suo.</s>
-					<s n="9" xml:lang="la" type="auto"><placeName ref="place565">Constantz</placeName>.</s>
+					<s n="8" xml:lang="la" type="auto">Clarissimo viro d. <persName ref="p8055">Ambrosio Blaurero</persName>, colendissimo domino suo.</s>
+					<s n="9" xml:lang="la" type="auto"><placeName>Constantz</placeName>.</s>
 				</p>
 			</div>
 		</body>

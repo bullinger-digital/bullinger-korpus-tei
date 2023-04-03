@@ -6,62 +6,60 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Oswald Myconius, 21. September 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=262</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">186</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,14</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt den jungen <persName ref="person122">Konrad Klauser</persName>, der
-								<persName ref="person154">Myconius</persName> bereits viel zu verdanken hat. Bullinger bedankt sich für die
-								Zusendung von [<persName ref="person160">Oekolampads</persName>] Johanneskommentar. Unruhig erwartet er den
-								Brief von <persName ref="person154">Myconius</persName>.
+								Empfiehlt den jungen <persName ref="p8398">Konrad Klauser</persName>, der
+								<persName ref="p8418">Myconius</persName> bereits viel zu verdanken hat. Bullinger bedankt sich für die
+								Zusendung von [<persName ref="p2442">Oekolampads</persName>] Johanneskommentar. Unruhig erwartet er den
+								Brief von <persName ref="p8418">Myconius</persName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 262, S.186</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10293">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1533-09-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,13 +124,13 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quae scripturus eram, <persName ref="person122">Conrado Clausero</persName> nuncianda credidi<note xml:id="fn1" type="footnote" n="1">Zweifellos war <persName ref="person122">Klauser</persName> auch der Überbringer dieses Briefes.</note>, quem et unice tibi commendo.</s>
+					<s n="2" xml:lang="la" type="auto">Quae scripturus eram, <persName ref="p8398">Conrado Clausero</persName> nuncianda credidi<note xml:id="fn1" type="footnote" n="1">Zweifellos war <persName>Klauser</persName> auch der Überbringer dieses Briefes.</note>, quem et unice tibi commendo.</s>
 					<s n="3" xml:lang="la" type="auto">Innumera ille de te refert benefitia.</s>
 					<s n="4" xml:lang="la" type="auto">Quae si in illum pro humanitate tua conferre perrexeris, et a deo et a sanctis omnibus laudem consequeris maximam.</s>
 					<s n="5" xml:lang="la" type="auto">Adulescens enim optimae spei esse videtur.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Commentationes in Ioannem<note xml:id="fn2" type="footnote" n="2"><persName ref="person160">Oekolampads</persName> Kommentar zum Johannesevangelium, der von <persName ref="person154">Myconius</persName> 1533 herausgegeben wurde, s. oben <ref target="file10288">[Nr. 257]</ref> S. 181, Anm. 5.</note> accepi.</s>
+					<s n="6" xml:lang="la" type="auto">Commentationes in Ioannem<note xml:id="fn2" type="footnote" n="2"><persName>Oekolampads</persName> Kommentar zum Johannesevangelium, der von <persName>Myconius</persName> 1533 herausgegeben wurde, s. oben <ref target="file10288">[Nr. 257]</ref> S. 181, Anm. 5.</note> accepi.</s>
 					<s n="7" xml:lang="la" type="auto">Pro iis ago gratias.</s>
 				</p>
 				<p>
@@ -147,11 +145,11 @@
 					<s n="14" xml:lang="de" type="auto">21. septembris 1533.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person225">Heinrychus</persName> tuus.<pb type="edition" next="187"/></s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p3242">Heinrychus</persName> tuus.<pb type="edition" next="187"/></s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="16" xml:lang="la" type="auto">Clarissimo viro d. <persName ref="person154">Osvaldo Myconio</persName> <placeName ref="place97">Basileiensis</placeName> ecclesiae antistiti vigilantissimo, symmistae longe charissimo.</s>
+					<s n="16" xml:lang="la" type="auto">Clarissimo viro d. <persName ref="p8418">Osvaldo Myconio</persName> <placeName>Basileiensis</placeName> ecclesiae antistiti vigilantissimo, symmistae longe charissimo.</s>
 				</p>
 			</div>
 		</body>

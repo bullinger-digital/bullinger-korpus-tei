@@ -6,49 +6,40 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Johannes Haller d.J., 20. September 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2015</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17782-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2591</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVII</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">17</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Juni bis September 1546</biblScope>
-				<biblScope unit="page">480</biblScope>
-				<biblScope unit="pages">547</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 17 (Briefe von Juni bis September 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2015, 547 S., ISBN 978-3-290-17782-9.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 46,593</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Das Letzte, was man hörte, war eine briefliche Mitteilung von <persName ref="person896">Georg Frölich</persName>
+								Das Letzte, was man hörte, war eine briefliche Mitteilung von <persName ref="p8354">Georg Frölich</persName>
 								[<ref target="file12621">Nr. 2574</ref>], derzufolge das [schmalkaldische] Heer von
-								<placeName ref="place513">Ingolstadt</placeName> nach
-								<placeName ref="place279">Donauwörth</placeName> gezogen ist. Man fürchtet [in Zürich], dass die
+								<placeName>Ingolstadt</placeName> nach
+								<placeName>Donauwörth</placeName> gezogen ist. Man fürchtet [in Zürich], dass die
 								[Schmalkaldener] nachlässig geworden sein könnten, wo doch ihr Feind verschlagen, mächtig und erfahren ist.
 								Wenn sie weiterhin so umherirren und nichts ausrichten, wer soll dann für die hohen Kriegskosten aufkommen?
 								Bullinger tröstet sich aber mit dem Gedanken an die göttliche Vorsehung und Güte und mit dem Wissen, dass
@@ -64,13 +55,20 @@
 						</msItem>
 					</msContents>
 					<history><origin><p><date>17. Jh.</date></p></origin></history>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 17, Nr. 2591, S.480</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12638">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -80,11 +78,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1546-09-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person8018" cert="high">
+					<persName ref="p8018" cert="high">
 						<!--
 						<surname cert="high">Haller d.J.</surname>
 						<forename cert="high">Johannes</forename>
@@ -119,7 +117,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -127,7 +125,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
-					<s n="2" xml:lang="la" type="auto"><persName ref="person896">Laetus</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person896">Georg Frölich</persName>.</note> scripsit<note xml:id="fn3" type="footnote" n="3">Siehe <ref target="file12621">Nr. 2574</ref>,37-42 (vom 8. oder 9. September).</note> exercitum nostrorum <placeName ref="place513">Ingolstadio</placeName> relicto <placeName ref="place279">Werdam</placeName><note xml:id="fn4" type="footnote" n="4"><placeName ref="place279">Donauwörth</placeName>.</note> contendisse.</s>
+					<s n="2" xml:lang="la" type="auto"><persName ref="p8354">Laetus</persName><note xml:id="fn2" type="footnote" n="2"><persName>Georg Frölich</persName>.</note> scripsit<note xml:id="fn3" type="footnote" n="3">Siehe <ref target="file12621">Nr. 2574</ref>,37-42 (vom 8. oder 9. September).</note> exercitum nostrorum <placeName>Ingolstadio</placeName> relicto <placeName>Werdam</placeName><note xml:id="fn4" type="footnote" n="4"><placeName>Donauwörth</placeName>.</note> contendisse.</s>
 					<s n="3" xml:lang="la" type="auto">Haec ultima sunt, quae habemus.</s>
 					<s n="4" xml:lang="la" type="auto">Nos ergo hic valde solliciti sumus, ne quid nostri negligant.</s>
 					<s n="5" xml:lang="la" type="auto">Vaferrimus est hostis, potens et exercitus.</s>

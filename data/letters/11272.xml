@@ -6,52 +6,43 @@
 				<title subtype="file">Oswald Pergener / Zittau AN Heinrich Bullinger, 21. Februar 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1229</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">63</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 367,14</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person165">Konrad Pellikan</persName> bestätigte in seinem Brief [vom 31. August 1538], daß
-								<persName ref="person166">Pergeners</persName> Schreiben [<ref target="file11154">Nr. 1111</ref>] angekommen
+								<persName ref="p8127">Konrad Pellikan</persName> bestätigte in seinem Brief [vom 31. August 1538], daß
+								<persName ref="p2448">Pergeners</persName> Schreiben [<ref target="file11154">Nr. 1111</ref>] angekommen
 								ist; dieser freut sich über die Zuneigung der Zürcher. Bullinger erhält für das Lob des
-								<persName ref="person779">Erasmus</persName> im zweiten Buch seiner „De scripturae sanctae authoritate ...
+								<persName ref="p18722">Erasmus</persName> im zweiten Buch seiner „De scripturae sanctae authoritate ...
 								libri duo“ auch von katholischer Seite viel Zustimmung, denn vielen mißfällt, daß dieser von manchen
-								verunglimpft wird; bittet Bullinger, weiter zu publizieren. Hat Weiteres an <persName ref="person165">Pellikan</persName> und
-								<persName ref="person891">Christoph Froschauer</persName> geschrieben.
+								verunglimpft wird; bittet Bullinger, weiter zu publizieren. Hat Weiteres an <persName ref="p8127">Pellikan</persName> und
+								<persName ref="p1227">Christoph Froschauer</persName> geschrieben.
 							</p>
 						</summary>
 						<msItem>
@@ -66,6 +57,9 @@
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>Seeliger 38f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1229, S.63</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -74,18 +68,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11272">
 				<correspAction type="sent">
-					<persName ref="person2448" cert="high">
+					<persName ref="p2448" cert="high">
 						<!--
 						<surname cert="high">Pergener</surname>
 						<forename cert="high">Oswald</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1264380135"/>
 						-->
 					</persName>
-					<placeName source="place580" cert="high"><orig>Zittau</orig></placeName>
+					<placeName source="l580" cert="high"><orig>Zittau</orig></placeName>
 					<date when="1539-02-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,17 +126,17 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et vitę innocentiam a patre et domino nostro Iesu Christo.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Nisi christianissimus d. Chuonradus <persName ref="person165">Pellicanus</persName> proximis nundinis Francfordiensibus<note xml:id="fn1" type="footnote" n="1">Die <placeName ref="place361">Frankfurter</placeName> Herbstmesse fand in der Regel zwischen 15. August und 8. September statt; vgl. HBBW VI <ref target="file10925">[Nr. 884]</ref>, S. 406, Anm. 5.</note> ad me litteras plenas pietate et fide misisset<note xml:id="fn2" type="footnote" n="2">Der nicht erhaltene Brief, am 31. August 1538 geschrieben, war am 27. Oktober bei <persName ref="person166">Pergener</persName> eingetroffen, wie aus dem unten Anm. 6 verzeichneten Schreiben hervorgeht.</note>, maxima adfectus essem tristitia; incertus plane fuissem litteras meas<note xml:id="fn3" type="footnote" n="3">HBBW VIII, <ref target="file11154">Nr. 1111</ref>.</note> quantumlibet impolitas Tigurum non pervenisse.</s>
+					<s n="2" xml:lang="la" type="auto">Nisi christianissimus d. Chuonradus <persName ref="p8127">Pellicanus</persName> proximis nundinis Francfordiensibus<note xml:id="fn1" type="footnote" n="1">Die <placeName>Frankfurter</placeName> Herbstmesse fand in der Regel zwischen 15. August und 8. September statt; vgl. <bibl>HBBW</bibl> VI <ref target="file10925">[Nr. 884]</ref>, S. 406, Anm. 5.</note> ad me litteras plenas pietate et fide misisset<note xml:id="fn2" type="footnote" n="2">Der nicht erhaltene Brief, am 31. August 1538 geschrieben, war am 27. Oktober bei <persName ref="p6985">Pergener</persName> eingetroffen, wie aus dem unten Anm. 6 verzeichneten Schreiben hervorgeht.</note>, maxima adfectus essem tristitia; incertus plane fuissem litteras meas<note xml:id="fn3" type="footnote" n="3"><bibl>HBBW</bibl> VIII, <ref target="file11154">Nr. 1111</ref>.</note> quantumlibet impolitas Tigurum non pervenisse.</s>
 					<s n="3" xml:lang="la" type="auto">Nunc autem recepi animum atque gaudio suffundor tam celebres viros infirmorum quoque fratrum habere rationem.</s>
 					<s n="4" xml:lang="la" type="auto">Certi sumus ex omnibus vestris scriptis, quę nobis indicant summam mansuetudinem, pietatem et amorem christianum et nos vobis curę esse.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Nolo te ignorare, charissime Bulingere, te magnam iniisse gratiam cum illis etiam, qui hostes erant renate evangelistę[!] veritati, eo quod d. <persName ref="person779">Erasmum</persName> Roterod[amum] de pietate et litteris bene meritum scribis virum immortali laurea dignum; nam ea verba, que sincere de illo scribis li[bro] 2.</s>
-					<s n="6" xml:lang="la" type="auto">De scripturę sanctę authoritate<note xml:id="fn4" type="footnote" n="4">Siehe De scripturae sanctae authoritate Zürich (<persName ref="person891">Froschauer</persName>) 1538 (HBBibl I 111). fol. 83r.</note> etc., ad multos etiam papisticę factionis perscripsi.</s>
-					<s n="7" xml:lang="la" type="auto">Laudant et ipsi vestram modestiam ubique in scribendo; multis displicuit, quod a nonnullis apellaretur <persName ref="person1547">Lutianus</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person1547">Lukian von Samosata</persName> (als Inbegriff des gottlosen Spötters).</note>, <persName ref="person775">Epicurus</persName>, scepticus et aliis odiosis nominibus<note xml:id="fn6" type="footnote" n="6">Vgl. Luther, De servo arbitrio, WA XVIII 605, 27-32; 609, 21f.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Nolo te ignorare, charissime Bulingere, te magnam iniisse gratiam cum illis etiam, qui hostes erant renate evangelistę[!] veritati, eo quod d. <persName ref="p18722">Erasmum</persName> Roterod[amum] de pietate et litteris bene meritum scribis virum immortali laurea dignum; nam ea verba, que sincere de illo scribis li[bro] 2.</s>
+					<s n="6" xml:lang="la" type="auto">De scripturę sanctę authoritate<note xml:id="fn4" type="footnote" n="4">Siehe De scripturae sanctae authoritate Zürich (<persName ref="p5295">Froschauer</persName>) 1538 (<bibl>HBBibl</bibl> I 111). fol. 83r.</note> etc., ad multos etiam papisticę factionis perscripsi.</s>
+					<s n="7" xml:lang="la" type="auto">Laudant et ipsi vestram modestiam ubique in scribendo; multis displicuit, quod a nonnullis apellaretur <persName ref="p18207">Lutianus</persName><note xml:id="fn5" type="footnote" n="5"><persName>Lukian von Samosata</persName> (als Inbegriff des gottlosen Spötters).</note>, <persName>Epicurus</persName>, scepticus et aliis odiosis nominibus<note xml:id="fn6" type="footnote" n="6">Vgl. Luther, De servo arbitrio, <bibl>WA</bibl> XVIII 605, 27-32; 609, 21f.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Sed tu, sincerissime in Christo frater, perge nos, qui longe a vobis sumus dissiti, instituere tuis sanctissimis scriptis.</s>
-					<s n="9" xml:lang="la" type="auto">Dici non potest, quantum ea scripta, quę ex Tiguro, <placeName ref="place97">Basilea</placeName> vel <placeName ref="place1049">Argentorato</placeName> mittuntur, pios delectent; testes complures adducere possem.</s>
-					<s n="10" xml:lang="la" type="auto">Reliqua ad d. Chuonradum<pb type="edition" next="64"/> <persName ref="person165">Pellicanum</persName> scripsi<note xml:id="fn7" type="footnote" n="7">Siehe <persName ref="person166">Pergener</persName> an <persName ref="person165">Konrad Pellikan</persName>, 21. Februar 1539; Autograph in: Zürich ZB, Ms F 47, 28.</note> et partim Germanice<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> Germanicae.</note> ad Christopherum <persName ref="person891">Froschouerum</persName><note xml:id="fn8" type="footnote" n="8">Nicht erhalten.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Dici non potest, quantum ea scripta, quę ex Tiguro, <placeName>Basilea</placeName> vel <placeName>Argentorato</placeName> mittuntur, pios delectent; testes complures adducere possem.</s>
+					<s n="10" xml:lang="la" type="auto">Reliqua ad d. Chuonradum<pb type="edition" next="64"/> <persName ref="p8127">Pellicanum</persName> scripsi<note xml:id="fn7" type="footnote" n="7">Siehe <persName ref="p6985">Pergener</persName> an <persName>Konrad Pellikan</persName>, 21. Februar 1539; Autograph in: Zürich ZB, Ms F 47, 28.</note> et partim Germanice<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> Germanicae.</note> ad Christopherum <persName ref="p1227">Froschouerum</persName><note xml:id="fn8" type="footnote" n="8">Nicht erhalten.</note>.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale semper in Christo cum omnibus tuis simmistis et tota ecclesia.</s>
@@ -150,11 +144,11 @@
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Zittę, 21. die mensis februarii anno etc. 1539.</s>
-					<s n="14" xml:lang="la" type="auto"><persName ref="person166">Osvaldus Pergenerus</persName>, tui deditissimus.</s>
+					<s n="14" xml:lang="la" type="auto"><persName ref="p2448">Osvaldus Pergenerus</persName>, tui deditissimus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="15" xml:lang="la" type="auto">Summe pietatis et doctrinę viro d. Henricho Bulingero, <persName ref="person84">Tigurine</persName> ecclesię ministro fidelissimo, amico et fratri colendissimo.</s>
+					<s n="15" xml:lang="la" type="auto">Summe pietatis et doctrinę viro d. Henricho Bulingero, <persName ref="p8011">Tigurine</persName> ecclesię ministro fidelissimo, amico et fratri colendissimo.</s>
 				</p>
 			</div>
 		</body>

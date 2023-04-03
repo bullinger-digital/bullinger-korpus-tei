@@ -6,51 +6,42 @@
 				<title subtype="file">Sixt Birck / Augsburg AN Heinrich Bullinger, 25. April [1544]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1901</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">216</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,189</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Konnte vor sechs Jahren und vier Monaten der Einladung von Bullinger,
-								<persName ref="person165">[Konrad] Pellikan</persName> und
-								<persName ref="person16">[Georg] Binder</persName> zur Aufführung
+								<persName ref="p8127">[Konrad] Pellikan</persName> und
+								<persName ref="p344">[Georg] Binder</persName> zur Aufführung
 								seiner „Susanna“ nicht folgen, da der Brief erst am Tag der Aufführung eintraf. Sendet ein neues Werk
 								[„Judith“], das vielleicht von der Zürcher Jugend aufgeführt werden kann; hat nichts gegen eine Drucklegung
-								durch <persName ref="person891">Christoph [Froschauer]</persName> einzuwenden und schickt deshalb ein gründlich durchkorrigiertes, gedrucktes
+								durch <persName ref="p1227">Christoph [Froschauer]</persName> einzuwenden und schickt deshalb ein gründlich durchkorrigiertes, gedrucktes
 								Exemplar davon. Grüße.
 							</p>
 						</summary>
@@ -58,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1901, S.216</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11948">
 				<correspAction type="sent">
-					<persName ref="person351" cert="high">
+					<persName ref="p351" cert="high">
 						<!--
 						<surname cert="high">Birck</surname>
 						<forename cert="high">Sixt</forename>
@@ -73,11 +71,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/118859730"/>
 						-->
 					</persName>
-					<placeName source="place18" cert="high"><orig>Augsburg</orig></placeName>
+					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 					<date when="1544-04-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,27 +118,27 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S[alutem] d[ico].</s>
-					<s n="2" xml:lang="la" type="auto">Sex anni iam et quatuor praeterea menses abiverunt, vir doctissime, ex quo a te literas accepi, quae me Tygurum ad Susannae nostrae actum invitabant<note xml:id="fn2" type="footnote" n="2">Das Einladungsschreiben ist nicht erhalten, wohl aber <persName ref="person17">Bircks</persName> Antwort (s. oben Anm. 1).</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Erant hae nomine partim tuo, partim domini <persName ref="person165">Pellicani</persName>, praeceptoris mei colendissimi, et <persName ref="person16">Binderi</persName>, paedodidascali vestri nomine scriptae.</s>
+					<s n="2" xml:lang="la" type="auto">Sex anni iam et quatuor praeterea menses abiverunt, vir doctissime, ex quo a te literas accepi, quae me Tygurum ad Susannae nostrae actum invitabant<note xml:id="fn2" type="footnote" n="2">Das Einladungsschreiben ist nicht erhalten, wohl aber <persName>Bircks</persName> Antwort (s. oben Anm. 1).</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Erant hae nomine partim tuo, partim domini <persName ref="p8127">Pellicani</persName>, praeceptoris mei colendissimi, et <persName ref="p344">Binderi</persName>, paedodidascali vestri nomine scriptae.</s>
 					<s n="4" xml:lang="la" type="auto">Erat ea res mihi pergrata, impossibile tamen, ut Tygurum adirem spectatum, quum eo die ageretur ludus, quo ego literas vestras acceperam.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Ecce tibi, mitto tibi aliud drama<note xml:id="fn3" type="footnote" n="3">Gemeint ist <persName ref="person17">Bircks</persName> "Judith" (s. oben Anm. 1). Am 30. April sandte <persName ref="person17">Birck</persName> auch an <persName ref="person19">Ambrosius Blarer</persName> ein korrigiertes Büchlein; s. Blarer BW II 254, <ref target="file11124">Nr. 1081</ref>. Auch der vorliegende Brief mit der Beilage wurde von Blarer nach Zürich weitergeleitet (s. unten <ref target="file11953">Nr. 1906</ref>, Anm. 39). -Siehe ferner unten <ref target="file12047">Nr. 2000</ref>, 6-13.</note> huic tempori meo iudicio non incongruum, si id etiam forte iuventus vestra actura sit<note xml:id="fn4" type="footnote" n="4">Über eine eventuelle Aufführung von <persName ref="person17">Bircks</persName> "Judith" in Zürich liegen keine Nachrichten vor.</note>.</s>
-					<s n="6" xml:lang="la" type="auto">Mitto unum dumtaxat vobis exemplar, quia non minus bene quam illud<note xml:id="fn5" type="footnote" n="5"><persName ref="person17">Bircks</persName> Schauspiel "Susanna".</note> correctum est, licet ipse prelo diligentissime advigilaverim.</s>
-					<s n="7" xml:lang="la" type="auto">Si hoc itaque, ut illud<note xml:id="fn6" type="footnote" n="6"><persName ref="person17">Bircks</persName> "Susanna" war 1538 von <persName ref="person891">Christoph Froschauer</persName> gedruckt worden; s. BZD C 271.</note>, <persName ref="person891">Christophori</persName> prelo committere volueritis<note xml:id="fn7" type="footnote" n="7">Das Schauspiel "Judith" erschien in Zürich weder auf Latein noch in Deutsch. - <persName ref="person17">Birck</persName> bemängelt hier die Qualität des gerade erschienenen Druckes (Z. 9f; vgl. <persName ref="person19">Blarer</persName> BW II 254). Weil die sorgfältige Eintragung handschriftlicher Korrekturen im fehlerhaften, kurz zuvor gedruckten Exemplar dieser Schrift wohl viel Zeit beanspruchte, schickte er nach Zürich nur ein korrigiertes Exemplar davon, das <persName ref="person891">Froschauer</persName> ebenfalls als Vorlage zu einem Neudruck hätte verwenden dürfen.</note>, nihil repugnabo; nam ob hoc ipsum tibi exemplum<pb type="edition" next="217"/> lituris conspersum mitto.</s>
+					<s n="5" xml:lang="la" type="auto">Ecce tibi, mitto tibi aliud drama<note xml:id="fn3" type="footnote" n="3">Gemeint ist <persName>Bircks</persName> "Judith" (s. oben Anm. 1). Am 30. April sandte <persName>Birck</persName> auch an <persName>Ambrosius Blarer</persName> ein korrigiertes Büchlein; s. <bibl>Blarer BW</bibl> II 254, <ref target="file11124">Nr. 1081</ref>. Auch der vorliegende Brief mit der Beilage wurde von Blarer nach Zürich weitergeleitet (s. unten <ref target="file11953">Nr. 1906</ref>, Anm. 39). -Siehe ferner unten <ref target="file12047">Nr. 2000</ref>, 6-13.</note> huic tempori meo iudicio non incongruum, si id etiam forte iuventus vestra actura sit<note xml:id="fn4" type="footnote" n="4">Über eine eventuelle Aufführung von <persName>Bircks</persName> "Judith" in Zürich liegen keine Nachrichten vor.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Mitto unum dumtaxat vobis exemplar, quia non minus bene quam illud<note xml:id="fn5" type="footnote" n="5"><persName>Bircks</persName> Schauspiel "Susanna".</note> correctum est, licet ipse prelo diligentissime advigilaverim.</s>
+					<s n="7" xml:lang="la" type="auto">Si hoc itaque, ut illud<note xml:id="fn6" type="footnote" n="6"><persName>Bircks</persName> "Susanna" war 1538 von <persName ref="p5295">Christoph Froschauer</persName> gedruckt worden; s. <bibl>BZD</bibl> C 271.</note>, <persName ref="p1227">Christophori</persName> prelo committere volueritis<note xml:id="fn7" type="footnote" n="7">Das Schauspiel "Judith" erschien in Zürich weder auf Latein noch in Deutsch. - <persName>Birck</persName> bemängelt hier die Qualität des gerade erschienenen Druckes (Z. 9f; vgl. <persName>Blarer</persName> BW II 254). Weil die sorgfältige Eintragung handschriftlicher Korrekturen im fehlerhaften, kurz zuvor gedruckten Exemplar dieser Schrift wohl viel Zeit beanspruchte, schickte er nach Zürich nur ein korrigiertes Exemplar davon, das <persName ref="p5295">Froschauer</persName> ebenfalls als Vorlage zu einem Neudruck hätte verwenden dürfen.</note>, nihil repugnabo; nam ob hoc ipsum tibi exemplum<pb type="edition" next="217"/> lituris conspersum mitto.</s>
 					<s n="8" xml:lang="la" type="auto">Rogo tuam humanitatem, ut aequi bonique consulas.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Dominum patrem <persName ref="person165">Pellicanum</persName> atque etiam Binderum nomine meo salutato et eos insuper, cum quibus mihi nulla prorsus hactenus familiaritas intercessit, ne scriptis quidem, <persName ref="person14">Bibliandrum</persName>, <persName ref="person39">Calvinum</persName>, Gvalterum et alios pios doctosque vestrates, quorum nomina colo et veneror etiam absens et ignotus.</s>
+					<s n="9" xml:lang="la" type="auto">Dominum patrem <persName ref="p8127">Pellicanum</persName> atque etiam Binderum nomine meo salutato et eos insuper, cum quibus mihi nulla prorsus hactenus familiaritas intercessit, ne scriptis quidem, <persName ref="p8171">Bibliandrum</persName>, <persName ref="p540">Calvinum</persName>, Gvalterum et alios pios doctosque vestrates, quorum nomina colo et veneror etiam absens et ignotus.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Vale bene.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Ex <placeName ref="place70">Augusta Vindelicorum</placeName>, 7. calendas maii.</s>
+					<s n="11" xml:lang="la" type="auto">Ex <placeName>Augusta Vindelicorum</placeName>, 7. calendas maii.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">T[uae] d[ominationi] deditissimus X[ystus] <persName ref="person17">Betuleius</persName>.</s>
+					<s n="12" xml:lang="la" type="auto">T[uae] d[ominationi] deditissimus X[ystus] <persName ref="p8173">Betuleius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

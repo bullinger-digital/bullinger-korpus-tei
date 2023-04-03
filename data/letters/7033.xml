@@ -6,32 +6,31 @@
 				<title subtype="file">John Jewel AN [Heinrich Bullinger], 24. Februar 1567</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6978/28</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,151</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,10 +45,10 @@
 								<title>Ep. Tig. 1, 109-111, Nr. 77</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
-								<title>Zurich Letters I, S. 184-187, Nr. 77</title>
+								<title>Zurich Letters I, S.184-187, Nr. 77</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Burnett, History III/6, 1715, Anhang 84, S. 345-347 (vgl. vorne 315) / hg. v. N. Pocock, 1865, VI 518-520, Nr. 73 (vgl. III 531) Nr. 84</title>
+								<title>Burnett, History III/6, 1715, Anhang 84, S.345-347 (vgl. vorne 315) / hg. v. N. Pocock, 1865, VI 518-520, Nr. 73 (vgl. III 531) Nr. 84</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>A. Mühling: HB's europ. Kirchenpolitik 180</title>
@@ -63,14 +62,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive55">
+						<repository ref="a55">
 							<name>London BM</name>
 							<ref target="https://www.britishmuseum.org/"/>
 						</repository>
-						<settlement ref="place296">London</settlement>
+						<settlement ref="l296">London</settlement>
 						<institution>British Museum</institution>
 						-->
-						<repository ref="archive55"/>
+						<repository ref="a55"/>
 						<idno subtype="Kopie">Ms. Add. 4277, Nr. 191r-192r</idno>
 					</msIdentifier>
 				</msDesc>
@@ -79,7 +78,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7033">
 				<correspAction type="sent">
-					<persName ref="person1750" cert="high">
+					<persName ref="p1750" cert="high">
 						<!--
 						<surname cert="high">Jewel</surname>
 						<forename cert="high">John</forename>
@@ -92,7 +91,7 @@
 					<date when="1567-02-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -125,7 +124,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

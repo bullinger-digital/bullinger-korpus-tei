@@ -6,55 +6,46 @@
 				<title subtype="file">Hans Vogler / St. Gallen AN Heinrich Bullinger, 12. April 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=790</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">221</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 351,178</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat von <persName ref="person346">[Ulrich] Appenzeller</persName>
+								Hat von <persName ref="p4195">[Ulrich] Appenzeller</persName>
 								erfahren, warum Bullinger nicht geschrieben hat; er wäre jedoch froh, wenn Bullinger oder
-								<persName ref="person1954">[Jakob] Rordorf</persName> mit
-								<persName ref="person1890">[Heinrich] Rahn</persName> etwas
+								<persName ref="p2815">[Jakob] Rordorf</persName> mit
+								<persName ref="p6157">[Heinrich] Rahn</persName> etwas
 								Endgültiges über das Haus aushandeln konnte, und erteilt dazu alle Vollmachten. In der Sache des
-								Pfandbriefs(?) ist [...] nach <placeName ref="place5">Aarau</placeName> zum französischen Gesandten
+								Pfandbriefs(?) ist [...] nach <placeName>Aarau</placeName> zum französischen Gesandten
 								verritten. Abt [Diethelm] ließ am Sonntag einen Palmesel herumführen.
-								Jenseits des <placeName ref="place11">Rheins</placeName> werden zum dritten Mal Soldaten für den Kaiser
-								nach <placeName ref="place667">Mailand</placeName> ausgehoben. Grüße.
-								<persName ref="person1954">Rordorf</persName>, soll ihm Mitteilung machen, sobald sich etwas in bezug auf
+								Jenseits des <placeName>Rheins</placeName> werden zum dritten Mal Soldaten für den Kaiser
+								nach <placeName>Mailand</placeName> ausgehoben. Grüße.
+								<persName ref="p2815">Rordorf</persName>, soll ihm Mitteilung machen, sobald sich etwas in bezug auf
 								das Haus tut.
 							</p>
 						</summary>
@@ -62,13 +53,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 790, S.221</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10829">
 				<correspAction type="sent">
-					<persName ref="person3446" cert="high">
+					<persName ref="p3446" cert="high">
 						<!--
 						<surname cert="high">Vogler</surname>
 						<forename cert="high">Hans</forename>
@@ -77,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11094904"/>
 						-->
 					</persName>
-					<placeName source="place474" cert="high"><orig>St. Gallen</orig></placeName>
+					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 					<date when="1536-04-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,32 +126,32 @@
 					<s n="1" xml:lang="de" type="auto">Gott mitt unns etc., fürglieptter herr und bruͦder etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Wo es umb uch, üwer volck<note xml:id="fn1" type="footnote" n="1">Hausgemeinschaft (SI I 802).</note> wol stuͦnde, wäre min fröud etc.</s>
-					<s n="3" xml:lang="de" type="auto">Ich hab von zöger<note xml:id="fn2" type="footnote" n="2">Überbringer des Briefes (Grimm XV 507).</note>, alten <persName ref="person346">Appenzeller</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person346">Ulrich Appenzeller</persName> (eigentlich: Ritter), von <placeName ref="place122">Berneck</placeName> (Kt. <placeName ref="place1011">St. Gallen</placeName>), gest. 1543, wurde im Jahre 1513, nachdem er bereits 1512 als Läufer am Zürcher Auszug gegen den französischen König teilgenommen hatte, mit dem Zürcher Bürgerrecht beschenkt. Er erscheint immer wieder als Läufer in Aufgebotslisten, so 1513 für den Zug ins Hochburgund (<placeName ref="place273">Dijon</placeName>), 1515 nach <placeName ref="place673">Marignano</placeName>, 1524 nach <placeName ref="place521">Ittingen</placeName>, 1529 nach <placeName ref="place534">Kappel</placeName> usw. Bis 1540 war er einer der geschworenen Stadtläufer. 1541 gewahrte ihm der Kleine Rat auf sein Gesuch hin aufgrund seines Alters und seiner vieljährigen treuen Dienste die Unterstützung durch das Spital, das ihm bis zu seinem Tod, seiner Frau noch bis 1568, eine Leibrente ausrichtete. - Lit.: Zürich StA, A 30. 2; B VI 246, 194; B VI 253, 23v. 75v. 138v. 240v.; H I 629 und H II 7; F III 32 (1531-1540); Die Chronik des Bernhard Wyss, 1519-1530, hg. v. Georg Finsler, Basel 1901. -Quellen zur Schweizerischen Reformationsgeschichte I, S. 96, Anm. 3.</note>, dem löuffer, verstanden, daß ir mir vyle der gschäften halb nitt können schriben etc., achten<note xml:id="fn4" type="footnote" n="4">ich nehme an.</note> ouch, das ir oder min geliepter der <persName ref="person1954">Rordorffer</persName> villichtt<note xml:id="fn5" type="footnote" n="5">wahrscheinlich (SI III 1049).</note> der herberg halb dess Ronen, yetz mins hernn von <placeName ref="place576">Kyburgs</placeName><note xml:id="fn6" type="footnote" n="6">Vgl. oben <ref target="file10813">Nr. 775</ref>, 21 mit Anm. 21.</note> halb entlich<note xml:id="fn7" type="footnote" n="7">endgültig (SI I 317).</note> bishar nichtz ghandlet noch mügen<note xml:id="fn8" type="footnote" n="8">vermocht habt.</note> etc.</s>
+					<s n="2" xml:lang="de" type="auto">Wo es umb uch, üwer volck<note xml:id="fn1" type="footnote" n="1">Hausgemeinschaft (<bibl>SI</bibl> I 802).</note> wol stuͦnde, wäre min fröud etc.</s>
+					<s n="3" xml:lang="de" type="auto">Ich hab von zöger<note xml:id="fn2" type="footnote" n="2">Überbringer des Briefes (<bibl>Grimm</bibl> XV 507).</note>, alten <persName ref="p4195">Appenzeller</persName><note xml:id="fn3" type="footnote" n="3"><persName>Ulrich Appenzeller</persName> (eigentlich: Ritter), von <placeName>Berneck</placeName> (Kt. <placeName>St. Gallen</placeName>), gest. 1543, wurde im Jahre 1513, nachdem er bereits 1512 als Läufer am Zürcher Auszug gegen den französischen König teilgenommen hatte, mit dem Zürcher Bürgerrecht beschenkt. Er erscheint immer wieder als Läufer in Aufgebotslisten, so 1513 für den Zug ins Hochburgund (<placeName>Dijon</placeName>), 1515 nach <placeName>Marignano</placeName>, 1524 nach <placeName>Ittingen</placeName>, 1529 nach <placeName>Kappel</placeName> usw. Bis 1540 war er einer der geschworenen Stadtläufer. 1541 gewahrte ihm der Kleine Rat auf sein Gesuch hin aufgrund seines Alters und seiner vieljährigen treuen Dienste die Unterstützung durch das Spital, das ihm bis zu seinem Tod, seiner Frau noch bis 1568, eine Leibrente ausrichtete. - Lit.: Zürich StA, A 30. 2; B VI 246, 194; B VI 253, 23v. 75v. 138v. 240v.; H I 629 und H II 7; F III 32 (1531-1540); Die Chronik des Bernhard Wyss, 1519-1530, hg. v. Georg Finsler, Basel 1901. -Quellen zur Schweizerischen Reformationsgeschichte I, S. 96, Anm. 3.</note>, dem löuffer, verstanden, daß ir mir vyle der gschäften halb nitt können schriben etc., achten<note xml:id="fn4" type="footnote" n="4">ich nehme an.</note> ouch, das ir oder min geliepter der <persName ref="p2815">Rordorffer</persName> villichtt<note xml:id="fn5" type="footnote" n="5">wahrscheinlich (<bibl>SI</bibl> III 1049).</note> der herberg halb dess Ronen, yetz mins hernn von <placeName>Kyburgs</placeName><note xml:id="fn6" type="footnote" n="6">Vgl. oben <ref target="file10813">Nr. 775</ref>, 21 mit Anm. 21.</note> halb entlich<note xml:id="fn7" type="footnote" n="7">endgültig (<bibl>SI</bibl> I 317).</note> bishar nichtz ghandlet noch mügen<note xml:id="fn8" type="footnote" n="8">vermocht habt.</note> etc.</s>
 					<s n="4" xml:lang="de" type="auto">Wie wol ich lyden möcht, so erst es müglich, daß es beschäche, darmit ich mich vil weg darnach schicken.</s>
-					<s n="5" xml:lang="de" type="auto">Dann mich belangt<note xml:id="fn9" type="footnote" n="9">ich sehne mich (SI III 1334).</note>, sonders ouch min husfrowen<note xml:id="fn10" type="footnote" n="10">Appolonia, geb. Baumgartner.</note>; mitt pitt, so erst üch müglich, mich zuͦ berichten etc., wie ouch üch bedünckt min fug zu sin<note xml:id="fn11" type="footnote" n="11">wie ihr es für mich als passend erachtet (vgl. SI I 699f).</note>, das hus zuͦ empfachen, ubergib ich üch allen gwalt.</s>
+					<s n="5" xml:lang="de" type="auto">Dann mich belangt<note xml:id="fn9" type="footnote" n="9">ich sehne mich (<bibl>SI</bibl> III 1334).</note>, sonders ouch min husfrowen<note xml:id="fn10" type="footnote" n="10">Appolonia, geb. Baumgartner.</note>; mitt pitt, so erst üch müglich, mich zuͦ berichten etc., wie ouch üch bedünckt min fug zu sin<note xml:id="fn11" type="footnote" n="11">wie ihr es für mich als passend erachtet (vgl. <bibl>SI</bibl> I 699f).</note>, das hus zuͦ empfachen, ubergib ich üch allen gwalt.</s>
 					<s n="6" xml:lang="de" type="auto">Dann ich trüwen wol<note xml:id="fn12" type="footnote" n="12">Denn ich wage zu behaupten.</note>, wo ich zuͦ herberg gesin, man möcht mich allweg liden etc.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto"><pb type="edition" next="222"/>Ittem uff die copy dess brieffs dess gewettes<note xml:id="fn13" type="footnote" n="13">Pfand, Strafgeld, Buße; in manchen Fallen auch Bezeichnung für den entsprechenden Amtsinhaber (Grimm IV/I 3 5698. 5706). - Zur Sache ist nichts Näheres bekannt (vgl. auch oben <ref target="file10813">Nr. 775</ref>, 16-18).</note> etc., als ir wist etc., der ist, als man gwiss sagt, yetz mentag gen Arow zum Franzosen<note xml:id="fn14" type="footnote" n="14">Louis Daugerant, Seigneur de <persName ref="person487">Boisrigaut</persName>.</note> gritten; was da zuͦ handlen oder nitt, beratend uch etc. und schribend uns zitung<note xml:id="fn15" type="footnote" n="15">und gebt uns Nachricht (Grimm XV 591-593).</note> alles zuͦsamen oblut etc.</s>
+					<s n="7" xml:lang="de" type="auto"><pb type="edition" next="222"/>Ittem uff die copy dess brieffs dess gewettes<note xml:id="fn13" type="footnote" n="13">Pfand, Strafgeld, Buße; in manchen Fallen auch Bezeichnung für den entsprechenden Amtsinhaber (<bibl>Grimm</bibl> IV/I 3 5698. 5706). - Zur Sache ist nichts Näheres bekannt (vgl. auch oben <ref target="file10813">Nr. 775</ref>, 16-18).</note> etc., als ir wist etc., der ist, als man gwiss sagt, yetz mentag gen Arow zum Franzosen<note xml:id="fn14" type="footnote" n="14"><persName>Louis Daugerant, Seigneur de Boisrigaut</persName>.</note> gritten; was da zuͦ handlen oder nitt, beratend uch etc. und schribend uns zitung<note xml:id="fn15" type="footnote" n="15">und gebt uns Nachricht (<bibl>Grimm</bibl> XV 591-593).</note> alles zuͦsamen oblut etc.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="de" type="auto">Die sag, der apt<note xml:id="fn16" type="footnote" n="16"><persName ref="person463">[Diethelm] Blarer von Wartensee</persName>, Abt des Klosters <placeName ref="place1011">St. Gallen</placeName>.</note> hab am esely tag<note xml:id="fn17" type="footnote" n="17">am Palmsonntag, dem 9. April 1536.</note> ain klinen esel lon füren und denselben wol ghalten.</s>
+					<s n="8" xml:lang="de" type="auto">Die sag, der apt<note xml:id="fn16" type="footnote" n="16"><persName>[Diethelm] Blarer von Wartensee</persName>, Abt des Klosters <placeName>St. Gallen</placeName>.</note> hab am esely tag<note xml:id="fn17" type="footnote" n="17">am Palmsonntag, dem 9. April 1536.</note> ain klinen esel lon füren und denselben wol ghalten.</s>
 					<s n="9" xml:lang="de" type="auto">Ist guͦt, er frist nitt haber etc.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">Enhalb<note xml:id="fn18" type="footnote" n="18">jenseits (SI II 1167).</note> Rins tuͦt man den dritten usschutz<note xml:id="fn19" type="footnote" n="19">Aushebung, Musterung (SI VIII 1713).</note> dem kayser ins Mayland.</s>
-					<s n="11" xml:lang="de" type="auto">Es ist müglich, wir wellend kürtzlich<note xml:id="fn20" type="footnote" n="20">bald (SI III 499).</note> b[rief]en haben, wo der kayser syg, uch demnach zuͦ brichten.</s>
+					<s n="10" xml:lang="de" type="auto">Enhalb<note xml:id="fn18" type="footnote" n="18">jenseits (<bibl>SI</bibl> II 1167).</note> Rins tuͦt man den dritten usschutz<note xml:id="fn19" type="footnote" n="19">Aushebung, Musterung (<bibl>SI</bibl> VIII 1713).</note> dem kayser ins Mayland.</s>
+					<s n="11" xml:lang="de" type="auto">Es ist müglich, wir wellend kürtzlich<note xml:id="fn20" type="footnote" n="20">bald (<bibl>SI</bibl> III 499).</note> b[rief]en haben, wo der kayser syg, uch demnach zuͦ brichten.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="de" type="auto">Grützend uns beden<note xml:id="fn21" type="footnote" n="21"><persName ref="person228">Vogler</persName> und seine Frau.</note> uwer gantzes hus, <persName ref="person1954">Rordorffern</persName> und alle gliepten etc.</s>
+					<s n="12" xml:lang="de" type="auto">Grützend uns beden<note xml:id="fn21" type="footnote" n="21"><persName>Vogler</persName> und seine Frau.</note> uwer gantzes hus, <persName ref="p2815">Rordorffern</persName> und alle gliepten etc.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="de" type="auto">Actum <placeName ref="place1011">Sant Gallen</placeName>, mitwoch vor ostertag anno 36. jar.</s>
+					<s n="13" xml:lang="de" type="auto">Actum <placeName>Sant Gallen</placeName>, mitwoch vor ostertag anno 36. jar.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="de" type="auto">Uwer williger d[iener] <persName ref="person228">Hans Vogler</persName> etc.</s>
-					<s n="15" xml:lang="de" type="auto">Ob der <persName ref="person1954">Rordorffer</persName> mir etwas zuͦschriben welt, so im villicht zuͦgfallen etc., pit ich, im anzuͦzaigen<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> anzuͦzagen.</note>; dann ich maint gwis, dess hus halb wär mir die tag botschaft kon.</s>
+					<s n="14" xml:lang="de" type="auto">Uwer williger d[iener] <persName ref="p8071">Hans Vogler</persName> etc.</s>
+					<s n="15" xml:lang="de" type="auto">Ob der <persName ref="p2815">Rordorffer</persName> mir etwas zuͦschriben welt, so im villicht zuͦgfallen etc., pit ich, im anzuͦzaigen<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> anzuͦzagen.</note>; dann ich maint gwis, dess hus halb wär mir die tag botschaft kon.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

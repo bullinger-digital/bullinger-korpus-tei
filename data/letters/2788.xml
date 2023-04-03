@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2788" type="Hinweis" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2788" type="Rede" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -18,22 +18,22 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
-						<idno subtype="Autograph">E II 437b, Nr. 71 p. 735-748</idno>
+						<repository ref="a94"/>
+						<idno subtype="Autograph">E II 437,735-748</idno>
+						<altIdentifier>
+							<idno subtype="Autograph">E II 437b, Nr. 71 p. 735-748</idno>
+						</altIdentifier>
 					</msIdentifier>
 					<additional>
 						<listBibl>
@@ -52,42 +52,42 @@
 				<msDesc type="Hinweis" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 86,44</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Hinweis" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms A 125,366 ff.</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E I 17.1</idno>
 					</msIdentifier>
 					<msContents>
@@ -105,9 +105,9 @@
 					<date when="1555-12-16" cert="low"><note>kein Brief (Fürtrag)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role14" type="pl" role="Bürgermeister" cert="high"/>
-					<roleName ref="role59" type="pl" role="Räte" cert="high"/>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<roleName ref="g14" type="pl" role="Bürgermeister" cert="high"/>
+					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2789"/>
@@ -132,7 +132,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

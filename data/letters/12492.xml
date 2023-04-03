@@ -6,49 +6,39 @@
 				<title subtype="file">s.n. / [Schaffhausen] AN Heinrich Bullinger, 12. Mai 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2014</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17760-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2445</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVI</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">16</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Januar bis Mai 1546</biblScope>
-				<biblScope unit="page">405</biblScope>
-				<biblScope unit="pages">443</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 16 (Briefe von Januar bis Mai 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2014, 443 S., ISBN 978-3-290-17760-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 362,7 f.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								In Antwort auf Bullingers Brief [nicht erhalten] an den Bürgermeister
-								<persName ref="person232">Hans [von] Waldkirch</persName> wird den
-								Schaffhauser Studenten [Blasius] Öchsli und [Jakob]
-								<persName ref="person1995">Rüeger</persName> erlaubt, weiter in Zürich zu studieren und ihr Stipendium
+								<persName ref="p2299">Hans [von] Waldkirch</persName> wird den
+								Schaffhauser Studenten [Blasius] Öchsli und <persName ref="p6334">[Jakob] Rüeger</persName> erlaubt, weiter in Zürich zu studieren und ihr Stipendium
 								beizubehalten, auch wenn sie heiraten würden, und zwar, solange der Rat dies als geeignet betrachtet. Die
 								[Zürcher] sollen sie weiter unterweisen und zum Studium anspornen.
 							</p>
@@ -57,19 +47,26 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 16, Nr. 2445, S.405</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12492">
 				<correspAction type="sent">
-					<roleName ref="role14" type="pl" role="Bürgermeister" cert="high"/>
-					<roleName ref="role59" type="pl" role="Räte" cert="high"/>
-					<placeName source="place441" cert="low"><orig>Schaffhausen</orig></placeName>
+					<roleName ref="g14" type="pl" role="Bürgermeister" cert="high"/>
+					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<placeName source="l441" cert="low"><orig>Schaffhausen</orig></placeName>
 					<date when="1546-05-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +102,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -116,7 +113,7 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Unnser frünttlich, willig dienst allzit zuvor, wirdiger, hochgelerter, sonders günstiger, lieber herr und guter frund, wir haben ewer schriben,<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> verschiner<note xml:id="fn3" type="footnote" n="3">vergangener.</note> tagen unserm getrewen, lieben burgermaister Johansen Waldkilch gethon, verstanden und fügen uff solichs euch frünttlicher mainung ze vernemen, das wir unser zwen studenten, den Öchslin<note xml:id="fn4" type="footnote" n="4">Blasius Öchsli; s. <hi>HBBW</hi> XIV 496f, Anm. 5.</note> und <persName ref="person1995">Rüger</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person1995">Jakob Rüeger</persName>; s. aaO.</note>, lenger by uch zu Zürich im studio haben wöllen, und inen das stipendium (nit lenger - sie verheüraten sich, ald<note xml:id="fn6" type="footnote" n="6">oder.</note> nitt - dann uns gelegen ist) verfolgen<note xml:id="fn7" type="footnote" n="7">weiter aushändigen.</note> lassen.</s>
+					<s n="1" xml:lang="de" type="auto">Unnser frünttlich, willig dienst allzit zuvor, wirdiger, hochgelerter, sonders günstiger, lieber herr und guter frund, wir haben ewer schriben,<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> verschiner<note xml:id="fn3" type="footnote" n="3">vergangener.</note> tagen unserm getrewen, lieben burgermaister Johansen Waldkilch gethon, verstanden und fügen uff solichs euch frünttlicher mainung ze vernemen, das wir unser zwen studenten, den Öchslin<note xml:id="fn4" type="footnote" n="4">Blasius Öchsli; s. <bibl>HBBW</bibl> XIV 496f, Anm. 5.</note> und <persName ref="p6334">Rüger</persName><note xml:id="fn5" type="footnote" n="5"><persName>Jakob Rüeger</persName>; s. aaO.</note>, lenger by uch zu Zürich im studio haben wöllen, und inen das stipendium (nit lenger - sie verheüraten sich, ald<note xml:id="fn6" type="footnote" n="6">oder.</note> nitt - dann uns gelegen ist) verfolgen<note xml:id="fn7" type="footnote" n="7">weiter aushändigen.</note> lassen.</s>
 					<s n="2" xml:lang="de" type="auto">Derhalben so ist unser bitt und beger an euch, ir wöllen nochmals ain uffsehen uff sie haben, sie weisen und leeren, und umb das, so inen verweislich<note xml:id="fn8" type="footnote" n="8">vorzuwerfen [wäre].</note>, straffen, damitt sy im studio weiter procedieren und uns gar bald, dann<note xml:id="fn9" type="footnote" n="9">wenn.</note> wir<pb type="edition" next="406"/> iren vast<note xml:id="fn10" type="footnote" n="10">sehr.</note> notturfftig, zu nuz komen mögen.</s>
 					<s n="3" xml:lang="de" type="auto">Das wöllen wir umb euch, wo es sich begibtt<note xml:id="fn11" type="footnote" n="11">wo es sich begibtt: wo sich die Gelegenheit dazu ergibt.</note>, willig verdienen.</s>
 				</p>

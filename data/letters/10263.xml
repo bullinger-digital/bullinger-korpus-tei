@@ -6,48 +6,39 @@
 				<title subtype="file">Gervasius Schuler / Basel AN Heinrich Bullinger, 7. Juni 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=232</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">139</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 38,383</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Sendet Bullinger das Versprochene zu und bittet ihn, seine, <persName ref="person195">Schulers</persName>,
+								Sendet Bullinger das Versprochene zu und bittet ihn, seine, <persName ref="p8440">Schulers</persName>,
 								Schulden bei einer Frau, die ihn bedrängt, zu bezahlen. Lobt die Freundschaft mit Bullinger wie auch ihre
-								gemeinsam in <placeName ref="place178">Bremgarten</placeName> verbrachte Zeit; die jetzt erlebten
+								gemeinsam in <placeName>Bremgarten</placeName> verbrachte Zeit; die jetzt erlebten
 								Gemeinheiten lassen die Erinnerung daran noch schöner erscheinen. Hofft auf Briefe von Bullinger, bis sich
 								eine Möglichkeit zum Wiedersehen ergibt. Grüße.
 							</p>
@@ -56,13 +47,20 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 232, S.139</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10263">
 				<correspAction type="sent">
-					<persName ref="person2943" cert="high">
+					<persName ref="p2943" cert="high">
 						<!--
 						<surname cert="high">Schuler</surname>
 						<forename cert="high">Gervasius</forename>
@@ -71,11 +69,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/130955264"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1533-06-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -120,27 +118,27 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino per Iesum Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Charissime frater, quod me missurum pollicebar<note xml:id="fn1" type="footnote" n="1"><persName ref="person195">Schulers</persName> frühere Briefe geben keinen Aufschluß über den Inhalt seines Versprechens. Wahrscheinlich handelt es sich um Geld, das er jemandem schuldete, s. Z. 3-5.</note>, mitto iam nunctii<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> nactus oportunitatem.</s>
+					<s n="2" xml:lang="la" type="auto">Charissime frater, quod me missurum pollicebar<note xml:id="fn1" type="footnote" n="1"><persName>Schulers</persName> frühere Briefe geben keinen Aufschluß über den Inhalt seines Versprechens. Wahrscheinlich handelt es sich um Geld, das er jemandem schuldete, s. <bibl>Z</bibl>. 3-5.</note>, mitto iam nunctii<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> nactus oportunitatem.</s>
 					<s n="3" xml:lang="la" type="auto">Praesentium lator igitur te, plane meum inter mortales, quasi meo vinctum debito solvet.</s>
 					<s n="4" xml:lang="la" type="auto">Ceterum, ut exponas, oro, ne me magis turbet huius mulieris<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> inpetus infęlix admodum<note xml:id="fn4" type="footnote" n="4">Von der Angelegenheit ist nichts Näheres bekannt.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Porro quod amicorum <foreign xml:lang="el">τήν κοινωνίαν</foreign><note xml:id="fn5" type="footnote" n="5">Vgl. u. a. 1Joh 1, 3.</note> attinet, nichil est, quod magis conqueror, quam quod tua peramoena familiaritate non datur uti vel per ullam occasionem.</s>
 					<s n="6" xml:lang="la" type="auto">Habeo, mi Heinriche, quod animum cruciat, eoque magis, quo inpensius communem nostram recordor amiciciam.</s>
 					<s n="7" xml:lang="la" type="auto">Maeroris huius causam iuvat non nichil apud te tranquille olim<note xml:id="fnb" type="footnote" n="b">olim <hi>am Rande nachgetragen.</hi></note> vixisse, non quod me pristinę sortis unquam poenituerit, tecum, inquam, placidos transegisse dies, sed quod olim dulcia degustasse inter tot amara pocula<note xml:id="fn6" type="footnote" n="6">Vgl. Mt 26, 39 par.</note> iam positum pene animi et corporis vires enervat.</s>
-					<s n="8" xml:lang="la" type="auto">Dum tecum Bremgarti<note xml:id="fn7" type="footnote" n="7"><placeName ref="place178">Bremgarten</placeName> (Kt. Aargau), Bullingers Vaterstadt, wo er 1529-1531 mit <persName ref="person195">Schuler</persName> zusammen als Pfarrer gewirkt hat, s. u. a. <hi>Blanke</hi> 117-130.</note> essem, amici integritatem in te nusquam non sanam atque firmam experiebar, quae postquam animo meo radices iecerat, longius abire coactus [!] non parum aliena consuetis animę et corporis periculo experiri voluit deus, fortassis, ut utriusque comparatione docerer, quantum polleret sincerus animus dolique ignarus.</s>
+					<s n="8" xml:lang="la" type="auto">Dum tecum Bremgarti<note xml:id="fn7" type="footnote" n="7"><placeName>Bremgarten</placeName> (Kt. Aargau), Bullingers Vaterstadt, wo er 1529-1531 mit <persName>Schuler</persName> zusammen als Pfarrer gewirkt hat, s. u. a. <bibl>Blanke</bibl> 117-130.</note> essem, amici integritatem in te nusquam non sanam atque firmam experiebar, quae postquam animo meo radices iecerat, longius abire coactus [!] non parum aliena consuetis animę et corporis periculo experiri voluit deus, fortassis, ut utriusque comparatione docerer, quantum polleret sincerus animus dolique ignarus.</s>
 					<s n="9" xml:lang="la" type="auto">Quo igitur magis aliorum in me fraude inpetor, eo magis pristinae familiaritatis, quid dicam, beatitudinis grandescit commemoratio.</s>
-					<s n="10" xml:lang="la" type="auto">Quum igitur, charissime frater, nulla occasione fieri potest praesertim hac mea stante conditione, ut coram confabulemur, praecium opere te facturum puto, si placidis tuarum litterarum epicherematis aliquantisper <persName ref="person195">Gervasium</persName> tuum suffulcias, donec data occasione olim coram animum solvisse licebit.</s>
+					<s n="10" xml:lang="la" type="auto">Quum igitur, charissime frater, nulla occasione fieri potest praesertim hac mea stante conditione, ut coram confabulemur, praecium opere te facturum puto, si placidis tuarum litterarum epicherematis aliquantisper <persName ref="p8440">Gervasium</persName> tuum suffulcias, donec data occasione olim coram animum solvisse licebit.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale, meae delitiae in domino.</s>
-					<s n="12" xml:lang="la" type="auto">Uxorem tuam<note xml:id="fn8" type="footnote" n="8"><persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note> de me semper bene meritam plurimum salvere iubeas una cum charissimis liberis.</s>
-					<s n="13" xml:lang="la" type="auto">Tu interim ut hactenus <persName ref="person195">Gervasium</persName> tuum solito amore prosequere.</s>
+					<s n="12" xml:lang="la" type="auto">Uxorem tuam<note xml:id="fn8" type="footnote" n="8"><persName>Anna Bullinger, geb. Adlischwyler</persName>.</note> de me semper bene meritam plurimum salvere iubeas una cum charissimis liberis.</s>
+					<s n="13" xml:lang="la" type="auto">Tu interim ut hactenus <persName ref="p8440">Gervasium</persName> tuum solito amore prosequere.</s>
 					<s n="14" xml:lang="la" type="auto">Iterum vale.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Datum septima die iunii anno sesquimillesimo tricesimo tertio 1533.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person195">Gervasius</persName> tuus ex animo, diaconus <placeName ref="place97">Basiliensis</placeName> ecclesiae.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8440">Gervasius</persName> tuus ex animo, diaconus <placeName>Basiliensis</placeName> ecclesiae.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

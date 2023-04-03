@@ -6,63 +6,61 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 8. Juni 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=234</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">142</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,128</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bullingers Wunsch gemäß verhandelte <persName ref="person154">Myconius</persName> mit Baslern und Bernern.
+								Bullingers Wunsch gemäß verhandelte <persName ref="p8418">Myconius</persName> mit Baslern und Bernern.
 								Seine Vorschläge zur Ehefrage: 1. Mehr Vorsicht bei Eheschließungen, 2. stärkere Annäherung an das
 								alttestamentliche Gesetz über den Ehebruch, 3. das Gesetz über die ohne vertrauenswürdigen Zeugen
-								geschlossenen Ehen sollte geschützt werden. <persName ref="person849">Bartolomeo Fonzio</persName> in
-								Lebensgefahr. <persName ref="person165">Pellikans</persName> Krankheit, Frage nach seinem Zustand. Grüße.
+								geschlossenen Ehen sollte geschützt werden. <persName ref="p4810">Bartolomeo Fonzio</persName> in
+								Lebensgefahr. <persName ref="p8127">Pellikans</persName> Krankheit, Frage nach seinem Zustand. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 234, S.142</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10265">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1533-06-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,7 +123,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Quae nuperrime commisisti<note xml:id="fn1" type="footnote" n="1">Bullingers Brief ist nicht erhalten.</note>, prosequutus sum, meo quidem videre diligenter et apud nostros et apud <placeName ref="place121">Bernenses</placeName>.</s>
+					<s n="2" xml:lang="la" type="auto">Quae nuperrime commisisti<note xml:id="fn1" type="footnote" n="1">Bullingers Brief ist nicht erhalten.</note>, prosequutus sum, meo quidem videre diligenter et apud nostros et apud <placeName>Bernenses</placeName>.</s>
 					<s n="3" xml:lang="la" type="auto">Utinam deus largiatur aliquando, ut tranquillioribus esse liceat.</s>
 				</p>
 				<p>
@@ -140,18 +138,18 @@
 					<s n="12" xml:lang="la" type="auto">Haec non dico, ut docere velim, sed indicare, quid mihi privatim videatur.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Praeterea venerunt hisce diebus ex <placeName ref="place1049">Argentorato</placeName> literae<note xml:id="fn4" type="footnote" n="4">Nicht erhalten.</note> docentes <persName ref="person849">Venetum</persName> illum<note xml:id="fn5" type="footnote" n="5"><persName ref="person849">Bartolomeo Fonzio</persName>.</note> admodum laborare ex ruptura periculumque esse de vita.</s>
+					<s n="13" xml:lang="la" type="auto">Praeterea venerunt hisce diebus ex <placeName>Argentorato</placeName> literae<note xml:id="fn4" type="footnote" n="4">Nicht erhalten.</note> docentes <persName ref="p4810">Venetum</persName> illum<note xml:id="fn5" type="footnote" n="5"><persName>Bartolomeo Fonzio</persName>.</note> admodum laborare ex ruptura periculumque esse de vita.</s>
 					<s n="14" xml:lang="la" type="auto">Orandum itaque deum, ut vitam illi proferat in laudem ipsius.</s>
 					<s n="15" xml:lang="la" type="auto">Haec tibi tuisque, ut mentionem in precibus vestris pariter habeatis pro homine pio et docto.</s>
-					<s n="16" xml:lang="la" type="auto">Audivimus item de <persName ref="person165">Pellicani</persName> morbo<note xml:id="fn6" type="footnote" n="6"><persName ref="person165">Pellikans</persName> Krankheit ließ sich anderweitig nicht nachweisen.</note> plus satis gravi.</s>
+					<s n="16" xml:lang="la" type="auto">Audivimus item de <persName ref="p8127">Pellicani</persName> morbo<note xml:id="fn6" type="footnote" n="6"><persName>Pellikans</persName> Krankheit ließ sich anderweitig nicht nachweisen.</note> plus satis gravi.</s>
 					<s n="17" xml:lang="la" type="auto">Per deum quaeso significes, ut valeat.</s>
 					<s n="18" xml:lang="la" type="auto">Crucior enim ob tanti viri valetudinem non mediocriter.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">Vale, valeantque <persName ref="person225">Utingerus</persName>, <persName ref="person114">Leo</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person14">Theodorus</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="person14">Theodor Bibliander</persName>.</note> omnes., <placeName ref="place97">Basileae</placeName>, octava iunii anno 1533.</s>
+					<s n="19" xml:lang="la" type="auto">Vale, valeantque <persName ref="p3242">Utingerus</persName>, <persName ref="p1753">Leo</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p8171">Theodorus</persName><note xml:id="fn8" type="footnote" n="8"><persName>Theodor Bibliander</persName>.</note> omnes., <placeName>Basileae</placeName>, octava iunii anno 1533.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="20" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

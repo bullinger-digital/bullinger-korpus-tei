@@ -6,50 +6,41 @@
 				<title subtype="file">Johannes Zwick / Konstanz AN Heinrich Bullinger, 17. Mai 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1396</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">113</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,117</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Ist noch vom Fieber geschwächt und möchte am liebsten sterben. Die Ergebnisse der Tagung in
-								<placeName ref="place958">Schmalkalden</placeName>, über die
-								<persName ref="person19">Ambrosius [Blarer]</persName> berichtet, sind
-								erfreulich, doch bleibt abzuwarten, was der nach <placeName ref="place1001">Speyer</placeName>
-								einberufene Tag erbringt; auch <persName ref="person165">Pellikan</persName> soll den Bericht lesen.
+								<placeName>Schmalkalden</placeName>, über die
+								<persName ref="p8055">Ambrosius [Blarer]</persName> berichtet, sind
+								erfreulich, doch bleibt abzuwarten, was der nach <placeName>Speyer</placeName>
+								einberufene Tag erbringt; auch <persName ref="p8127">Pellikan</persName> soll den Bericht lesen.
 								Bittet, den Straßburgern freundschaftlich zu begegnen. Gruß.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1396, S.113</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11439">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1540-05-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,26 +123,26 @@
 					<s n="1" xml:lang="la" type="auto">Salus et pax Christi.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Cessarunt febres, sed remansit summa totius corporis imbecillitas, cui putant quidam non nisi balneo aut alia quiete medendum<note xml:id="fn1" type="footnote" n="1">Zur Erkrankung <persName ref="person263">Zwicks</persName> vgl. auch unten <ref target="file11440">Nr. 1397</ref>, 18-20.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Cessarunt febres, sed remansit summa totius corporis imbecillitas, cui putant quidam non nisi balneo aut alia quiete medendum<note xml:id="fn1" type="footnote" n="1">Zur Erkrankung <persName>Zwicks</persName> vgl. auch unten <ref target="file11440">Nr. 1397</ref>, 18-20.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Quid autem futurum sit, nescio.</s>
 					<s n="4" xml:lang="la" type="auto">Praestaret dissolvi et esse cum Christo<note xml:id="fn2" type="footnote" n="2">Vgl. Phil 1, 23.</note>; sed fiet istud quoque hora statuta.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">De actione Schmalkaldica scribit ad te <persName ref="person19">Ambrosius</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person19">Ambrosius Blarer</persName>; s. oben <ref target="file11438">Nr. 1395</ref>, 1-17.</note> et mittit, quae dederunt principes et ministri verbi, plana certe et plausibilia; tantum ora deum,<pb type="edition" next="114"/> ne sint verba.</s>
-					<s n="6" xml:lang="la" type="auto">Sed iam dies condictus est <placeName ref="place1001">Spiram</placeName><note xml:id="fn4" type="footnote" n="4">Vgl. ebd., Z. 18-21.</note> ad sextum iunii, ubi rex <persName ref="person832">Ferdinandus</persName> fratris <persName ref="person1332">Caroli</persName><note xml:id="fn5" type="footnote" n="5">Kaiser <persName ref="person1332">Karl V.</persName></note> nomine adhuc semel tentabit, quae pacis sunt.</s>
-					<s n="7" xml:lang="de" type="auto">Da würt man uns vilicht das valete geben<note xml:id="fn6" type="footnote" n="6">Zur Redenart vgl. Grimm XII/I 9.</note>; <foreign xml:lang="la">sed fiat voluntas domini.</foreign></s>
-					<s n="8" xml:lang="la" type="auto">Quae mittimus, etiam <persName ref="person165">Pellicano</persName> da legenda.</s>
-					<s n="9" xml:lang="la" type="auto">Sed rogo, induite amicum animum erga <placeName ref="place1049">Argentoratenses</placeName><note xml:id="fn7" type="footnote" n="7">Vgl. oben Nr. 1395, 26-44.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">De actione Schmalkaldica scribit ad te <persName ref="p8055">Ambrosius</persName><note xml:id="fn3" type="footnote" n="3"><persName>Ambrosius Blarer</persName>; s. oben <ref target="file11438">Nr. 1395</ref>, 1-17.</note> et mittit, quae dederunt principes et ministri verbi, plana certe et plausibilia; tantum ora deum,<pb type="edition" next="114"/> ne sint verba.</s>
+					<s n="6" xml:lang="la" type="auto">Sed iam dies condictus est <placeName>Spiram</placeName><note xml:id="fn4" type="footnote" n="4">Vgl. ebd., Z. 18-21.</note> ad sextum iunii, ubi rex <persName ref="p18477">Ferdinandus</persName> fratris <persName ref="p18538">Caroli</persName><note xml:id="fn5" type="footnote" n="5"><persName>Kaiser Karl V.</persName></note> nomine adhuc semel tentabit, quae pacis sunt.</s>
+					<s n="7" xml:lang="de" type="auto">Da würt man uns vilicht das valete geben<note xml:id="fn6" type="footnote" n="6">Zur Redenart vgl. <bibl>Grimm</bibl> XII/I 9.</note>; <foreign xml:lang="la">sed fiat voluntas domini.</foreign></s>
+					<s n="8" xml:lang="la" type="auto">Quae mittimus, etiam <persName ref="p8127">Pellicano</persName> da legenda.</s>
+					<s n="9" xml:lang="la" type="auto">Sed rogo, induite amicum animum erga <placeName>Argentoratenses</placeName><note xml:id="fn7" type="footnote" n="7">Vgl. oben Nr. 1395, 26-44.</note>.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Vale, mi frater, et commenda nos domino.</s>
-					<s n="11" xml:lang="la" type="auto">Uxorem<note xml:id="fn8" type="footnote" n="8">Anna, geb. Adlischwyler.</note> tuam et matrem<note xml:id="fn9" type="footnote" n="9">Anna, geb. Wiederkehr.</note> et liberos<note xml:id="fn10" type="footnote" n="10">Siehe oben <ref target="file11387">Nr. 1344</ref>, Anm. 14.</note> saluta studiosissime.</s>
+					<s n="11" xml:lang="la" type="auto">Uxorem<note xml:id="fn8" type="footnote" n="8"><persName>Anna, geb. Adlischwyler</persName>.</note> tuam et matrem<note xml:id="fn9" type="footnote" n="9"><persName>Anna, geb. Wiederkehr</persName>.</note> et liberos<note xml:id="fn10" type="footnote" n="10">Siehe oben <ref target="file11387">Nr. 1344</ref>, Anm. 14.</note> saluta studiosissime.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Ex <placeName ref="place565">Constantia</placeName>, 17. maii 1540.</s>
+					<s n="12" xml:lang="la" type="auto">Ex <placeName>Constantia</placeName>, 17. maii 1540.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zvick</persName>.</s>
+					<s n="13" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zvick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

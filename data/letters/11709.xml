@@ -6,47 +6,43 @@
 				<title subtype="file">Johannes Comander / Chur AN Heinrich Bullinger, 26. September 1542</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2006</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17431-6</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1666</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">12</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1542</biblScope>
-				<biblScope unit="page">48</biblScope>
-				<biblScope unit="pages">299</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,29</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Dank für zwei durch [den Kapuzinermönch] <persName ref="person1173">Hieronymus</persName> aus <placeName ref="place755">Neapel</placeName> und <persName ref="person667">Celio Secondo [Curione]</persName> übermittelte
+								Dank für zwei durch [den Kapuzinermönch] <persName>Hieronymus</persName> aus <placeName>Neapel</placeName> und <persName ref="p714">Celio Secondo [Curione]</persName> übermittelte
 								Briefe; wie das Zeitalter, so sind die Menschen: Die gegenwärtige Zeit ist<pb type="edition" next="192"/>
 								geprägt von Veränderungen, und ebenso haben die Menschen das Verlangen nach neuen Dingen. Dank für
 								Bullingers zuvorkommende Aufmerksamkeit. Von den turbulenten Verhältnissen [in
-								<placeName ref="place24">Graubünden</placeName>] berichtet der Bote [<persName ref="person168">Nikolaus Pfister</persName>?] besser
+								<placeName>Graubünden</placeName>] berichtet der Bote [<persName ref="p2600">Nikolaus Pfister</persName>?] besser
 								mündlich. Grüße an Bullinger und seine Kollegen, auch von
-								<persName ref="person21">Johannes Blasius</persName>.
+								<persName ref="p396">Johannes Blasius</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -56,7 +52,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 48, Nr. 36</title>
+								<title>Graubünden BW I, S.48, Nr. 36</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -66,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11709">
 				<correspAction type="sent">
-					<persName ref="person654" cert="high">
+					<persName ref="p654" cert="high">
 						<!--
 						<surname cert="high">Comander</surname>
 						<forename cert="high">Johannes</forename>
@@ -75,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413826"/>
 						-->
 					</persName>
-					<placeName source="place98" cert="high"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1542-09-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,9 +128,9 @@
 					<s n="6" xml:lang="la" type="auto">Ex illo nempe omnia ad amussim et certissima audies.</s>
 					<s n="7" xml:lang="la" type="auto">Tu me deinceps ut hucusque commendatum habeas et ex me salutem dicas fratribus.</s>
 					<s n="8" xml:lang="la" type="auto">Vale.</s>
-					<s n="9" xml:lang="la" type="auto">Ex Rhetiae <placeName ref="place243">Curia</placeName>, sexto kalendas Octobris 1542.</s>
+					<s n="9" xml:lang="la" type="auto">Ex Rhetiae <placeName>Curia</placeName>, sexto kalendas Octobris 1542.</s>
 					<s n="10" xml:lang="la" type="auto">Salutat te et omnes fratres Tigurinos frater noster Iohannes Blasius.</s>
-					<s n="11" xml:lang="la" type="auto">Tibi deditissimus <persName ref="person43">Iohannes Comander</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Tibi deditissimus <persName ref="p654">Iohannes Comander</persName>.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Clarissimo viro magistro Heinricho Bullingero, Tigurinae urbis episcopo, domino ac fratri suo observandissimo.</s>

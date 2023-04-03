@@ -6,48 +6,39 @@
 				<title subtype="file">Benedikt Euander / Kempten im Allgäu AN Heinrich Bullinger, 5. August [1539]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1292</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">185</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 345,227</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Die Kopie des Dialoges „Syfrid“ von <persName ref="person173">Paul Rasdorfer</persName>, die er geschickt
+								Die Kopie des Dialoges „Syfrid“ von <persName ref="p8426">Paul Rasdorfer</persName>, die er geschickt
 								hat, ist zwar fehlerhaft, doch Bullinger kann ihr dennoch entnehmen, welche Ungereimtheiten zum Abendmahl
-								die Pfarrer in <placeName ref="place544">Kempten</placeName> täglich auf den Kanzeln von sich geben; sie
+								die Pfarrer in <placeName>Kempten</placeName> täglich auf den Kanzeln von sich geben; sie
 								sind schon wieder derart uneins, daß der Rat kaum Ruhe herstellen konnte und sie beinahe entlassen hätte.
 							</p>
 						</summary>
@@ -55,23 +46,30 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1292, S.185</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11335">
 				<correspAction type="sent">
-					<persName ref="person1039" cert="high">
+					<persName ref="p1039" cert="high">
 						<!--
 						<surname cert="high">Euander</surname>
 						<forename cert="high">Benedikt</forename>
 						-->
 					</persName>
-					<placeName source="place907" cert="high"><orig>Kempten im Allgäu</orig></placeName>
+					<placeName source="l907" cert="high"><orig>Kempten im Allgäu</orig></placeName>
 					<date when="1539-08-05" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -104,7 +102,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -116,8 +114,8 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Ego tibi nuper misi, doctissime vir, dialogum <persName ref="person173">Pauli</persName> Rasdorffer, cui titulum indidit Syfrid<note xml:id="fn2" type="footnote" n="2">Die Schrift scheint nicht mehr erhalten zu sein.</note>, quem si accepisti, id quod minime dubito, certe in aliquibus locis mendosum et male scriptum accepisti; nam cum ab eo nullis praecibus impetrare possem, ut mihi eius dialogi transcribendi copiam faceret, per alium<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> ex ipsius amicis non vulgarem transcribi curavi, quo pollicitis stare possem.</s>
-					<s n="3" xml:lang="la" type="auto">Qui dum nec Latine calleret nec ipsius characteribus assuetus<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> asuetus.</note> esset, erravit stilo in aliquibus dictionibus, sed ita tamen, ut ipsius et prędicatorum nostrorum omnium animum et sententiam, quam nunc in eucharistiae negotio tenent<note xml:id="fn4" type="footnote" n="4">Zum Streit zwischen Anhängern der zwinglischen und der lutherischen Abendmahlsauffassung in <placeName ref="place544">Kempten</placeName>, der im August 1539 zu <persName ref="person2045">Simprecht Schencks</persName> Entlassung führte, vgl. die in Anm. 1 genannten Briefe sowie Emil <hi>Schenck,</hi> <persName ref="person2045">Simprecht Schenck</persName>. Das Lebensbild eines schwäbischen Reformators, Darmstadt 1938. -Beiträge zur Geschichte der Familie Schenck, 5, S. 43.</note>, facile estimare possis, licet ista vix sit umbra eius absurditatis, quam quotidie magnis vocibus et longissimis orationibus intonant populo.</s>
+					<s n="2" xml:lang="la" type="auto">Ego tibi nuper misi, doctissime vir, dialogum <persName ref="p8426">Pauli</persName> Rasdorffer, cui titulum indidit Syfrid<note xml:id="fn2" type="footnote" n="2">Die Schrift scheint nicht mehr erhalten zu sein.</note>, quem si accepisti, id quod minime dubito, certe in aliquibus locis mendosum et male scriptum accepisti; nam cum ab eo nullis praecibus impetrare possem, ut mihi eius dialogi transcribendi copiam faceret, per alium<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> ex ipsius amicis non vulgarem transcribi curavi, quo pollicitis stare possem.</s>
+					<s n="3" xml:lang="la" type="auto">Qui dum nec Latine calleret nec ipsius characteribus assuetus<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> asuetus.</note> esset, erravit stilo in aliquibus dictionibus, sed ita tamen, ut ipsius et prędicatorum nostrorum omnium animum et sententiam, quam nunc in eucharistiae negotio tenent<note xml:id="fn4" type="footnote" n="4">Zum Streit zwischen Anhängern der zwinglischen und der lutherischen Abendmahlsauffassung in <placeName>Kempten</placeName>, der im August 1539 zu <persName>Simprecht Schencks</persName> Entlassung führte, vgl. die in Anm. 1 genannten Briefe sowie Emil <hi>Schenck,</hi> <persName>Simprecht Schenck</persName>. Das Lebensbild eines schwäbischen Reformators, Darmstadt 1938. -Beiträge zur Geschichte der Familie Schenck, 5, S. 43.</note>, facile estimare possis, licet ista vix sit umbra eius absurditatis, quam quotidie magnis vocibus et longissimis orationibus intonant populo.</s>
 					<s n="4" xml:lang="la" type="auto">Sed ne te hoc lateat: Iam iterum inter se discordant et quidem gravius quam unquam antehac, adeo ut hos tumultus senatus ipse maximis laboribus vix tandem sedaverit; ita erumpit pax, quae non ex spiritu dei conflatur, et exilium, quod mihi et aliis interminabantur, pene ipsis usu venisset<note xml:id="fnb" type="footnote" n="b"><hi>von</hi> et exilium <hi>bis</hi> venisset <hi>am Rande nachgetragen.</hi></note>.</s>
 				</p>
 				<p>
@@ -127,7 +125,7 @@
 					<s n="6" xml:lang="la" type="auto">Cambidoni, 5. augusti.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto"><persName ref="person59">Benedictus Euander</persName> tuus.</s>
+					<s n="7" xml:lang="la" type="auto"><persName ref="p1039">Benedictus Euander</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

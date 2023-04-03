@@ -6,47 +6,38 @@
 				<title subtype="file">Ambrosius Blarer / [Konstanz] AN Heinrich Bullinger, 2. April 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2014</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17760-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2408</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVI</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">16</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Januar bis Mai 1546</biblScope>
-				<biblScope unit="page">313</biblScope>
-				<biblScope unit="pages">443</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 16 (Briefe von Januar bis Mai 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2014, 443 S., ISBN 978-3-290-17760-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,169</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person19">Blarer</persName> hat am Vortag den Brief des
-								<placeName ref="place70">Augsburger</placeName> [Alt]bürgermeisters <persName ref="person20146">[Jakob] Herbrot</persName>
+								<persName ref="p8055">Blarer</persName> hat am Vortag den Brief des
+								<placeName>Augsburger</placeName> [Alt]bürgermeisters <persName ref="p18678">[Jakob] Herbrot</persName>
 								[<ref target="file12439">Nr. 2392</ref>] empfangen und leitet ihn hiermit weiter. Mehr kann er nicht
 								schreiben, um [die Zürcher] nicht zu verpassen, über deren Anwesenheit er gerade unterrichtet wurde. Er wird
 								ein anderes Mal auf Bullingers Briefe [<ref target="file12434">Nr. 2387</ref> und
@@ -60,7 +51,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 433, Nr. 1276</title>
+								<title>Blarer BW II, S.433, Nr. 1276</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 16, Nr. 2408, S.313</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12455">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1546-04-02" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,7 +126,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Accepi heri literas istas ab Herbrotio<note xml:id="fn1" type="footnote" n="1">Der Brief <persName ref="person20146">Jakob Herbrots</persName> vom 24. März (<ref target="file12439">Nr. 2392</ref>).</note>, <placeName ref="place70">Augustanorum</placeName> consule, quas ad te mitto nihil praeterea addens, quod verear, ne tui<note xml:id="fn2" type="footnote" n="2">Unbekannte Zürcher.</note>, de quorum praesentia certior nunc sim factus, mihi elabantur.</s>
+					<s n="2" xml:lang="la" type="auto">Accepi heri literas istas ab Herbrotio<note xml:id="fn1" type="footnote" n="1">Der Brief <persName>Jakob Herbrots</persName> vom 24. März (<ref target="file12439">Nr. 2392</ref>).</note>, <placeName>Augustanorum</placeName> consule, quas ad te mitto nihil praeterea addens, quod verear, ne tui<note xml:id="fn2" type="footnote" n="2">Unbekannte Zürcher.</note>, de quorum praesentia certior nunc sim factus, mihi elabantur.</s>
 					<s n="3" xml:lang="la" type="auto">Ad alias literas tuas<note xml:id="fn3" type="footnote" n="3">Bullingers Briefe vom 22. (<ref target="file12434">Nr. 2387</ref>) und 29. März (<ref target="file12443">Nr. 2396</ref>).</note> alias.</s>
 				</p>
 				<p>

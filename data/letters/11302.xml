@@ -6,62 +6,60 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius, 24. April 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1259</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">117</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,93</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Will ihn nur kurz grüßen, da er ihm eben erst durch <persName ref="person37">John Butler</persName>
+								Will ihn nur kurz grüßen, da er ihm eben erst durch <persName ref="p506">John Butler</persName>
 								geschrieben hat [<ref target="file11299">Nr. 1256</ref>]. Der Auftrag des Briefüberbringers ist ihm
-								unbekannt, bezieht sich aber wohl auf die <placeName ref="place361">Frankfurter</placeName> Tagung.
-								<persName ref="person154">Myconius</persName> soll Bullinger mitteilen, was er von dort erfährt.
+								unbekannt, bezieht sich aber wohl auf die <placeName>Frankfurter</placeName> Tagung.
+								<persName ref="p8418">Myconius</persName> soll Bullinger mitteilen, was er von dort erfährt.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1259, S.117</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11302">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1539-04-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,9 +123,9 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et vitae innocentiam a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Commodum nactus tabellionem<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note>, <persName ref="person154">Myconi</persName> colendissime, hisce te salutare volui ac felicitatem precari.</s>
+					<s n="2" xml:lang="la" type="auto">Commodum nactus tabellionem<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note>, <persName ref="p8418">Myconi</persName> colendissime, hisce te salutare volui ac felicitatem precari.</s>
 					<s n="3" xml:lang="la" type="auto">Alioqui in praesentiarum, quod scribam, non habeo.</s>
-					<s n="4" xml:lang="la" type="auto">Paucis enim ante diebus, quae habui, scripsi<note xml:id="fn2" type="footnote" n="2">Siehe oben <ref target="file11299">Nr. 1256</ref>.</note> per <persName ref="person37">Ioannem Buttlerum</persName>.</s>
+					<s n="4" xml:lang="la" type="auto">Paucis enim ante diebus, quae habui, scripsi<note xml:id="fn2" type="footnote" n="2">Siehe oben <ref target="file11299">Nr. 1256</ref>.</note> per <persName ref="p506">Ioannem Buttlerum</persName>.</s>
 					<s n="5" xml:lang="la" type="auto">Recte valemus omnes; utinam et tu recte valeas cum tuis omnibus.</s>
 				</p>
 				<p>
@@ -139,7 +137,7 @@
 					<s n="9" xml:lang="la" type="auto">Tiguri, 24. aprilis 1539.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Salutabis d. <persName ref="person81">Grynaeum</persName>, <persName ref="person74">Gastium</persName>, <persName ref="person37">Buttlerum</persName>, Ryffenstein, <persName ref="person84">Gvaltherum</persName> meum ac reliquos amicos et fratres.</s>
+					<s n="10" xml:lang="la" type="auto">Salutabis d. <persName ref="p1365">Grynaeum</persName>, <persName ref="p1278">Gastium</persName>, <persName ref="p506">Buttlerum</persName>, Ryffenstein, <persName ref="p8011">Gvaltherum</persName> meum ac reliquos amicos et fratres.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">H. Bullingerus tuus.<pb type="edition" next="118"/></s>
@@ -147,7 +145,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="13" xml:lang="la" type="auto">Domino <persName ref="person154">Osvaldo Myconio</persName>, domino et fratri colendissimo.</s>
+					<s n="13" xml:lang="la" type="auto">Domino <persName ref="p8418">Osvaldo Myconio</persName>, domino et fratri colendissimo.</s>
 				</p>
 			</div>
 		</body>

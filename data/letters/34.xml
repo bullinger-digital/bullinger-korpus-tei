@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file34" type="Brief" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file34" type="Widmung" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -18,23 +18,20 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Gal. 5.104</idno>
-						<idno subtype="Hinweis">eingeklebt auf Innenseite des vordern Deckels von Bull's «Series et digestio temporum et rerum» Zürich 1548 [HBBibl I 176]</idno>
+						<idno subtype="Hinweis">eingeklebt auf Innenseite des vordern Deckels von Bull's «Series et digestio temporum et rerum» Zürich 1548 [HBBibl I 176]; kein Scan zu erwarten, da Widmungsvorrede</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -45,14 +42,14 @@
 				<msDesc type="Hinweis" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms Briefe 4° «Bullinger»</idno>
 						<idno subtype="Xeroxkopie">Xeroxkopie (des Autograph)</idno>
 					</msIdentifier>
@@ -62,7 +59,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/34">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -72,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1548-02-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1381" cert="low">
+					<persName ref="p1381" cert="low">
 						<!--
 						<surname cert="low">Gwalther</surname>
 						<forename cert="low">Rudolf</forename>
@@ -87,7 +84,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11522600"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file35"/>
@@ -107,12 +104,11 @@
 					<ref type="next_with_addressee_as_sender" target="file1032"/>
 					<ref type="prev_with_addressee_as_sender" target="file11997"/>
 					<ref type="child" target="file3"/>
-					<ref type="parent" target="file3"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

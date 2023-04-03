@@ -6,32 +6,31 @@
 				<title subtype="file">Johannes Hospinian / Basel AN Heinrich Bullinger / Zürich, 11. März 1560</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5408/47</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,291</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 96,147</idno>
 						<idno subtype="Hinweis">eingereiht bei 11. Feb. 1559</idno>
 					</msIdentifier>
@@ -61,7 +60,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4230">
 				<correspAction type="sent">
-					<persName ref="person1571" cert="high">
+					<persName ref="p1571" cert="high">
 						<!--
 						<surname cert="high">Hospinian</surname>
 						<forename cert="high">Johannes</forename>
@@ -70,11 +69,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/137636849"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1560-03-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -84,7 +83,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file4231"/>
@@ -110,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,7 +123,7 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Habeo et ago tibi, domine et frater Bullingere in Christo dilectissime, ingentes gratias, quod puellae eius miserrimae causam, de qua scripseram, adeo fideliter apud sanctissimum vestrum magistratum egisti.</s>
 					<s n="3" xml:lang="la" type="auto">Idem tibi, quod et nobis et antecessoribus nostris, prophetis et apostolis, accidit: si ita ceciderit, audiunt quidem vos, sed non exaudiunt.</s>
-					<s n="4" xml:lang="la" type="auto">Quamquam fortassis habent in hac puella causam, si impudicissima fuit et finxit (ut scribis) se Studlerae<note xml:id="fn1" type="footnote" n="1">Agathe Studler.</note> venefitiis debilitatam.</s>
+					<s n="4" xml:lang="la" type="auto">Quamquam fortassis habent in hac puella causam, si impudicissima fuit et finxit (ut scribis) se Studlerae<note xml:id="fn1" type="footnote" n="1"><persName>Agathe Studler</persName>.</note> venefitiis debilitatam.</s>
 					<s n="5" xml:lang="la" type="auto">Ego certe, nisi hoc ab amplissimo vestro magistratu affirmaretur, vix crederem; est enim (nisi fallor) ipsa innocentia et simplicitas, quae puerilibus rebus, non virilibus gaudere et odisse vanitates et blasphemias adhuc visa est.</s>
 					<s n="6" xml:lang="la" type="auto">Utut sit (summa enim est hominum nostri seculi hypocrisis), praefectus meus diu aluit eam et fecit hoc partim ex christiana charitate, partim amore nominis Tigurini, quod semper cum apud ipsum tum alios (ut debeo) extollo.</s>
 					<s n="7" xml:lang="la" type="auto">Sed profecto ego nihil minus quam huiusmodi responsum expectans longe aliam ipsi spem feci, praesertim quum cives vestri, qui hic fuerant in nundinis appellati, puellae istius sermones omnes veros esse testati fuissent.</s>

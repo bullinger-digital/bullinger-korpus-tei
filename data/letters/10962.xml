@@ -6,50 +6,41 @@
 				<title subtype="file">Wolfgang Capito / Strassburg AN Heinrich Bullinger, 30. November 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=920</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">479</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,64</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt einen in <placeName ref="place1049">Straßburg</placeName> eingebürgerten Glaubensflüchtling
-								aus <placeName ref="place652">Luzern</placeName>. Die
-								<placeName ref="place1049">Straßburger</placeName> wissen den Einsatz Bullingers für die Konkordie zu
+								Empfiehlt einen in <placeName>Straßburg</placeName> eingebürgerten Glaubensflüchtling
+								aus <placeName>Luzern</placeName>. Die
+								<placeName>Straßburger</placeName> wissen den Einsatz Bullingers für die Konkordie zu
 								schätzen und werden sich bemühen, bei den Wittenbergern und den Fürsten Verständnis für die Zurückhaltung
-								[der <placeName ref="place28">Schweizer</placeName>] zu wecken. Grüße.
+								[der <placeName>Schweizer</placeName>] zu wecken. Grüße.
 							</p>
 						</summary>
 						<msItem>
@@ -61,6 +52,9 @@
 							<bibl type="Gedruckt" subtype="Regest">
 								<title>Capito, Corr. 219, Nr. 629</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 920, S.479</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -69,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10962">
 				<correspAction type="sent">
-					<persName ref="person578" cert="high">
+					<persName ref="p578" cert="high">
 						<!--
 						<surname cert="high">Capito</surname>
 						<forename cert="high">Wolfgang</forename>
@@ -80,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414573"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1536-11-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,26 +125,26 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Qui has perferendas accepit<note xml:id="fn1" type="footnote" n="1">Der Briefüberbringer ist unbekannt.</note>, nunc est civis Argentinę, vir tui valde observans.</s>
-					<s n="3" xml:lang="la" type="auto">Dicit se initio praedicationis <persName ref="person265">Zvinglii</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person265">Zwingli</persName> predigte vom 1. Januar 1519 an in Zürich, s. HBRG I 12f.</note>, si recte memini, aut certe sub primum bellum patrium<note xml:id="fn3" type="footnote" n="3">Gemeint ist der Erste Kappelerkrieg vom Juni 1529, s. HBLS IV 455.</note> factum extorrem a <placeName ref="place652">Lucerna</placeName> propter causam communem.</s>
+					<s n="3" xml:lang="la" type="auto">Dicit se initio praedicationis <persName ref="p4091">Zvinglii</persName><note xml:id="fn2" type="footnote" n="2"><persName>Zwingli</persName> predigte vom 1. Januar 1519 an in Zürich, s. <bibl>HBRG</bibl> I 12f.</note>, si recte memini, aut certe sub primum bellum patrium<note xml:id="fn3" type="footnote" n="3">Gemeint ist der Erste Kappelerkrieg vom Juni 1529, s. <bibl>HBLS</bibl> IV 455.</note> factum extorrem a <placeName>Lucerna</placeName> propter causam communem.</s>
 					<s n="4" xml:lang="la" type="auto">Eum, oro, juves.</s>
-					<s n="5" xml:lang="la" type="auto">A <persName ref="person154">Myconio</persName> causam omnem intelliges<note xml:id="fn4" type="footnote" n="4">Ein entsprechendes Schreiben von <persName ref="person154">Myconius</persName> ist nicht bekannt.</note>.</s>
+					<s n="5" xml:lang="la" type="auto">A <persName ref="p8418">Myconio</persName> causam omnem intelliges<note xml:id="fn4" type="footnote" n="4">Ein entsprechendes Schreiben von <persName>Myconius</persName> ist nicht bekannt.</note>.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto"><pb type="edition" next="480"/>Age vero, mi Bullingere, quanto testimonio quidam apud nos prędicant tuam diligentiam et studium in concordia ecclesiarum reparanda!</s>
-					<s n="7" xml:lang="la" type="auto">Idem et <persName ref="person28">Bucerus</persName> agnoscit.</s>
+					<s n="7" xml:lang="la" type="auto">Idem et <persName ref="p467">Bucerus</persName> agnoscit.</s>
 					<s n="8" xml:lang="la" type="auto">Nos adhuc bona spes tenet.</s>
-					<s n="9" xml:lang="la" type="auto">Nam operam dabimus, ut Witenbergenses et principes intelligant, quam plene veritatem agnoscatis et quam minime contemnendus metus ab articulis<note xml:id="fn5" type="footnote" n="5">Gemeint ist die <placeName ref="place1205">Wittenberger</placeName> Konkordie (BucerDS VI/1 114-134).</note> recipiendis vos remoretur.</s>
+					<s n="9" xml:lang="la" type="auto">Nam operam dabimus, ut Witenbergenses et principes intelligant, quam plene veritatem agnoscatis et quam minime contemnendus metus ab articulis<note xml:id="fn5" type="footnote" n="5">Gemeint ist die <placeName>Wittenberger</placeName> Konkordie (<bibl>BucerDS</bibl> VI/1 114-134).</note> recipiendis vos remoretur.</s>
 					<s n="10" xml:lang="la" type="auto">Omnia synceriter et ut in oculis domini admoliemur.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale felicissime.</s>
-					<s n="12" xml:lang="la" type="auto"><persName ref="person114">Leonem</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person14">Bibliandrum</persName>, <persName ref="person165">Pellicanum</persName> nostrum, amicos omnes salvere plurimum opto.</s>
+					<s n="12" xml:lang="la" type="auto"><persName ref="p1753">Leonem</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p8171">Bibliandrum</persName>, <persName ref="p8127">Pellicanum</persName> nostrum, amicos omnes salvere plurimum opto.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Argen[torati]30. novembris anno 1536.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">V. <persName ref="person40">Capito</persName> tuus.</s>
+					<s n="14" xml:lang="la" type="auto">V. <persName ref="p5565">Capito</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

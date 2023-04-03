@@ -6,46 +6,37 @@
 				<title subtype="file">Heinrich Bullinger / Kappel am Albis AN Johannes Burchard, 26. Januar 1526</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=14</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">90</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph__(Kopie)">Ms A 82,91r-v 1 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bullinger wünscht eine Kopie von <persName ref="person35">Burchards</persName> Streitschrift, die dieser
+								Bullinger wünscht eine Kopie von <persName ref="p263">Burchards</persName> Streitschrift, die dieser
 								gegen sein Schreiben «De sacrifitio Missae aetiologia ... 1524» verfaßt hatte, um sie beantworten zu können.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 					<physDesc>
 						<objectDesc><p>sehr gut erhalten</p></objectDesc>
 					</physDesc>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 14, S.90</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10039">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place242" cert="high"><orig>Kappel am Albis</orig></placeName>
+					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1526-01-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person263" cert="high">
+					<persName ref="p263" cert="high">
 						<!--
 						<surname cert="high">Burchard</surname>
 						<forename cert="high">Johannes</forename>
@@ -101,27 +99,27 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Theologiae professiori [!] eximio <persName ref="person35">Ioanni Burckardi</persName>, <placeName ref="place178">Bremgartentium</placeName><note xml:id="fn2" type="footnote" n="2"><placeName ref="place178">Bremgarten</placeName> (Kt. Aargau), Geburtsstadt Bullingers (s. HBLS II 347 ff). - Das Pfarramt <placeName ref="place178">Bremgarten</placeName> war eine Elektivpfründe: die Gemeinde besaß das ius eligendi, Schultheiß und Rat das ius praesentandi. Mit der Zeit ging das Präsentationsrecht auch bei den übrigen 12 Pfründen, bis auf eine, an den Rat über. Die wichtigste unter diesen war die Pfründe der Prädikatur; im Range folgte der Prädikant unmittelbar dem Pfarrer. <placeName ref="place178">Bremgarten</placeName> war auch Sitz eines Ruralkapitels, zu dem mehrere Pfarreien des Frei- und Kelleramtes gehörten. (Siehe Eugen <hi>Bürgisser,</hi> Geschichte der Stadt <placeName ref="place178">Bremgarten</placeName> im Mittelalter. Beiträge zur Geschichte einer mittelalterlichen Stadt, Aarau 1937, S. 96 ff; <hi>Bucher</hi> 33f. 43.)</note> concionatori ad manus.</s>
+					<s n="1" xml:lang="la" type="auto">Theologiae professiori [!] eximio <persName ref="p263">Ioanni Burckardi</persName>, <placeName>Bremgartentium</placeName><note xml:id="fn2" type="footnote" n="2"><placeName>Bremgarten</placeName> (Kt. Aargau), Geburtsstadt Bullingers (s. <bibl>HBLS</bibl> II 347 ff). - Das Pfarramt <placeName>Bremgarten</placeName> war eine Elektivpfründe: die Gemeinde besaß das ius eligendi, Schultheiß und Rat das ius praesentandi. Mit der Zeit ging das Präsentationsrecht auch bei den übrigen 12 Pfründen, bis auf eine, an den Rat über. Die wichtigste unter diesen war die Pfründe der Prädikatur; im Range folgte der Prädikant unmittelbar dem Pfarrer. <placeName>Bremgarten</placeName> war auch Sitz eines Ruralkapitels, zu dem mehrere Pfarreien des Frei- und Kelleramtes gehörten. (Siehe Eugen <hi>Bürgisser,</hi> Geschichte der Stadt <placeName>Bremgarten</placeName> im Mittelalter. Beiträge zur Geschichte einer mittelalterlichen Stadt, Aarau 1937, S. 96 ff; <bibl>Bucher</bibl> 33f. 43.)</note> concionatori ad manus.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Gratiam et pacem a domino.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Scripsimus, reverende pater, superioribus annis epistolam quandam, cui titulum fecimus: «Aetiologia, cur missa non sit sacrifitium.»<note xml:id="fn3" type="footnote" n="3">Es handelt sich um Bullingers Schreiben an Pfarrer <persName ref="person875">Jakob [Frey</persName>?] vom 16. November 1524 (s. unten, Anhang II, Nr. 2).</note></s>
-					<s n="4" xml:lang="la" type="manual">Adversus eam cum tu apologiam<note xml:id="fn4" type="footnote" n="4">Die Schrift ist nicht mehr vorhanden. Bullinger sagt in seinem undatierten Antwortschreiben «Uff D. Johansen Burckardi predigers ze Bremgartten gesprächbüchlin antwurt Heilrychen Bullingers die geschrifft und meß beträffende» (Zürich ZB, Msc A 82, 57r.), daß <persName ref="person35">Burchard</persName> sie unter dem Pseudonym «<persName ref="person1804">Theobald Perdutianus</persName>» verfaßte, und nennt sie «Gesprächbüchlin». Diese Streitschrift ist wahrscheinlich im Sommer oder in der zweiten Hälfte des Jahres 1525 entstanden.</note> scripseris, proculdubio, ut fratrem errantem in viam veram reduceres, peto, ut mihi eius exemplaris facias copiam.</s>
-					<s n="5" xml:lang="la" type="auto">Paratus enim sum meliora doctus cedere, aut, si videbitur, tuis respondere<note xml:id="fn5" type="footnote" n="5">Anhand dieser einleitenden Sätze läßt sich der Ablauf des Streites rekonstruieren: Bullingers «Aetiologia» ist in <persName ref="person35">Burchards</persName> Hände geraten, dieser verfaßte eine Streitschrift gegen Bullinger, der jetzt seinerseits darauf antworten möchte und <persName ref="person35">Burchard</persName> um eine genaue Abschrift des Werkes ersucht. Bullinger kann also seine Gegenschrift nicht vor Februar 1526 geschrieben haben (anders <hi>Zimmermann</hi> 229 und <hi>Staedtke</hi> 270. 272ff; s. <hi>Zsindely,</hi> aaO, S. 477-479).</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Scripsimus, reverende pater, superioribus annis epistolam quandam, cui titulum fecimus: «Aetiologia, cur missa non sit sacrifitium.»<note xml:id="fn3" type="footnote" n="3">Es handelt sich um Bullingers Schreiben an Pfarrer <persName ref="p5065">Jakob [Frey?]</persName> vom 16. November 1524 (s. unten, Anhang II, Nr. 2).</note></s>
+					<s n="4" xml:lang="la" type="manual">Adversus eam cum tu apologiam<note xml:id="fn4" type="footnote" n="4">Die Schrift ist nicht mehr vorhanden. Bullinger sagt in seinem undatierten Antwortschreiben «Uff D. Johansen Burckardi predigers ze Bremgartten gesprächbüchlin antwurt Heilrychen Bullingers die geschrifft und meß beträffende» (Zürich ZB, Msc A 82, 57r.), daß <persName ref="p4079">Burchard</persName> sie unter dem Pseudonym «<persName>Theobald Perdutianus</persName>» verfaßte, und nennt sie «Gesprächbüchlin». Diese Streitschrift ist wahrscheinlich im Sommer oder in der zweiten Hälfte des Jahres 1525 entstanden.</note> scripseris, proculdubio, ut fratrem errantem in viam veram reduceres, peto, ut mihi eius exemplaris facias copiam.</s>
+					<s n="5" xml:lang="la" type="auto">Paratus enim sum meliora doctus cedere, aut, si videbitur, tuis respondere<note xml:id="fn5" type="footnote" n="5">Anhand dieser einleitenden Sätze läßt sich der Ablauf des Streites rekonstruieren: Bullingers «Aetiologia» ist in <persName ref="p4079">Burchards</persName> Hände geraten, dieser verfaßte eine Streitschrift gegen Bullinger, der jetzt seinerseits darauf antworten möchte und <persName ref="p4079">Burchard</persName> um eine genaue Abschrift des Werkes ersucht. Bullinger kann also seine Gegenschrift nicht vor Februar 1526 geschrieben haben (anders <bibl>Zimmermann</bibl> 229 und <bibl>Staedtke</bibl> 270. 272ff; s. <hi>Zsindely,</hi> aaO, S. 477-479).</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Erit autem pro re tua non modo, quod<pb type="edition" next="91"/> fratrem lucrefacis [!] ostendisque nullo te contendendi, calumniandi aut gloriandi morbo scripsisse aliis potius quam mihi, sed hoc potissimum nomine, quod minus tua periclitabitur eruditio.</s>
 					<s n="7" xml:lang="la" type="auto">Quae proculdubio non parum videretur nutatura, etsi alias satis firma, si tantum incorrectum aliquod vitio librariorum exemplar<pb type="scan" next="||91v."/> nactus cogerer corruptis inherere paginis.</s>
 					<s n="8" xml:lang="la" type="auto">Obsecramus ergo per christianam charitatem, ut tibi et mihi consulere velis, correctum exemplar mittas et hoc tibi certo persuadeas, quod inde nec apiculus peribit.</s>
 					<s n="9" xml:lang="la" type="auto">Nam ita integrum remittam, ut neque desit gratiarum actio.</s>
-					<s n="10" xml:lang="la" type="auto">Quod si morem mihi in re honesta, optima, utili, nec minus tibi facili, gerere nolueris, quid possum ego, nisi semilaceris et male a tuo exemplare [!]<note xml:id="fna" type="footnote" n="a">exemplare <hi>aRvB nachgetragen.</hi></note> rescriptis (si modo adsequar quod promissum) herere aut etiam respondere chartis<note xml:id="fn6" type="footnote" n="6">Es ist nicht bekannt, von wem Bullinger ein Exemplar des «Gesprächbüchlin» erhielt, kaum von <persName ref="person35">Burchard</persName> selbst. Über das weitere Verhalten <persName ref="person35">Burchards</persName> in diesem Streit schweigen die Quellen.</note>?</s>
+					<s n="10" xml:lang="la" type="auto">Quod si morem mihi in re honesta, optima, utili, nec minus tibi facili, gerere nolueris, quid possum ego, nisi semilaceris et male a tuo exemplare [!]<note xml:id="fna" type="footnote" n="a">exemplare <hi>aRvB nachgetragen.</hi></note> rescriptis (si modo adsequar quod promissum) herere aut etiam respondere chartis<note xml:id="fn6" type="footnote" n="6">Es ist nicht bekannt, von wem Bullinger ein Exemplar des «Gesprächbüchlin» erhielt, kaum von <persName ref="p4079">Burchard</persName> selbst. Über das weitere Verhalten <persName ref="p4079">Burchards</persName> in diesem Streit schweigen die Quellen.</note>?</s>
 					<s n="11" xml:lang="la" type="auto">Proinde fac, ut tuam decet professionem; neque enim credo, quod doctor hanc rem mihi deneges et theologie professor aliud quam theologum prestare pergas.</s>
 				</p>
 				<p>

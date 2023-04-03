@@ -6,50 +6,41 @@
 				<title subtype="file">Oswald Myconius AN Heinrich Bullinger, nach 13. September 1542</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2006</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17431-6</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1659</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">12</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1542</biblScope>
-				<biblScope unit="page">179</biblScope>
-				<biblScope unit="pages">299</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 12 (Briefe des Jahres 1542), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2006, 299 S., ISBN 978-3-290-17431-6.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 44,2r.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Das mitgeteilte Schreiben [von <persName ref="person28">Martin Bucer</persName> und
-								<persName ref="person1123">Kaspar Hedio</persName> an
-								<persName ref="person6">Bonifacius Amerbach</persName> vom 13. September 1542] ist nur für Bullinger und
-								<persName ref="person14">Theodor [Bibliander]</persName> bestimmt und
-								soll nachher verbrannt werden, damit <persName ref="person154">Myconius</persName> nicht als
+								Das mitgeteilte Schreiben [von <persName ref="p467">Martin Bucer</persName> und
+								<persName ref="p8374">Kaspar Hedio</persName> an
+								<persName ref="p164">Bonifacius Amerbach</persName> vom 13. September 1542] ist nur für Bullinger und
+								<persName ref="p8171">Theodor [Bibliander]</persName> bestimmt und
+								soll nachher verbrannt werden, damit <persName ref="p8418">Myconius</persName> nicht als
 								Geheimnisverräter dasteht.
 							</p>
 						</summary>
@@ -59,13 +50,20 @@
 						</msItem>
 					</msContents>
 					<history><origin><p><date>17. Jh.</date></p></origin></history>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 12, Nr. 1659, S.179</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11702">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -79,7 +77,7 @@
 					<date when="1542-09-13" cert="low">nach 13. September 1542</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,21 +112,21 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Haec<note xml:id="fn2" type="footnote" n="2">Die Begleitnotiz gehört zu einer Abschrift des Briefes von <persName ref="person28">Martin Bucer</persName> und <persName ref="person1123">Kaspar Hedio</persName> an <persName ref="person6">Bonifacius Amerbach</persName> vom 13. September 1542 (Amerbach, Korr. V 384-386, <ref target="file12543">Nr. 2496</ref>). Darin rechtfertigen sich die beiden <placeName ref="place1049">Straßburger</placeName> dafür, dass sie die Veröffentlichung des Korans befürwortet hatten (vgl. <hi>Bobzin,</hi> Koran 198-200).</note> tibi et <persName ref="person14">Theodoro</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person14">Theodor Bibliander</persName>.</note> solis.</s>
+					<s n="1" xml:lang="la" type="auto">Haec<note xml:id="fn2" type="footnote" n="2">Die Begleitnotiz gehört zu einer Abschrift des Briefes von <persName ref="p18198">Martin Bucer</persName> und <persName>Kaspar Hedio</persName> an <persName ref="p8422">Bonifacius Amerbach</persName> vom 13. September 1542 (Amerbach, Korr. V 384-386, <ref target="file12543">Nr. 2496</ref>). Darin rechtfertigen sich die beiden <placeName>Straßburger</placeName> dafür, dass sie die Veröffentlichung des Korans befürwortet hatten (vgl. <hi>Bobzin,</hi> Koran 198-200).</note> tibi et <persName ref="p8171">Theodoro</persName><note xml:id="fn3" type="footnote" n="3"><persName>Theodor Bibliander</persName>.</note> solis.</s>
 					<s n="2" xml:lang="la" type="auto">Postquam vidistis satis, Vulcano tradite<note xml:id="fnc" type="footnote" n="c"><hi>In der Abschrift irrtümlich</hi> traditae.</note>, quaeso, ne quis me dicat prodidisse[?]<note xml:id="fnd" type="footnote" n="d"><hi>In der Abschrift</hi> polasse, <hi>was keinen Sinn ergibt.</hi></note> mysteria.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Tuus <persName ref="person154">Myconius</persName><note xml:id="fne" type="footnote" n="e"><hi>Darunter, ebenfalls von der Hand des Kopisten:</hi> Domino Heinricho Bullingero suo.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Tuus <persName ref="p8418">Myconius</persName><note xml:id="fne" type="footnote" n="e"><hi>Darunter, ebenfalls von der Hand des Kopisten:</hi> Domino Heinricho Bullingero suo.</note>.</s>
 				</p>
 			</div>
 		</body>

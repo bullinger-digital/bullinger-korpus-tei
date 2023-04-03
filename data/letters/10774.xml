@@ -6,51 +6,42 @@
 				<title subtype="file">Martin Mötteli / Weinfelden AN Heinrich Bullinger, 27. Januar 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=736</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">99</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,81</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Der Brief Zürichs an Landvogt [<persName ref="person2194">Christoph von Sonnenberg</persName>] bewirkte
+								Der Brief Zürichs an Landvogt [<persName ref="p7797">Christoph von Sonnenberg</persName>] bewirkte
 								bloss, daß [die reformierten Weinfelder] nun zur Tagsatzung nach
-								<placeName ref="place652">Luzern</placeName> reisen müssen; bittet um die Unterstützung durch die
+								<placeName>Luzern</placeName> reisen müssen; bittet um die Unterstützung durch die
 								Zürcher Gesandten. Die Nachricht von der Fahrt Bullingers und weiterer Zürcher nach
-								<placeName ref="place97">Basel</placeName> stimmte seine Kollegen froh und zuversichtlich;
-								<persName ref="person156">Mötteli</persName> übermittelte diesen auch Bullingers Neuigkeiten über den
+								<placeName>Basel</placeName> stimmte seine Kollegen froh und zuversichtlich;
+								<persName ref="p18093">Mötteli</persName> übermittelte diesen auch Bullingers Neuigkeiten über den
 								Schmalkaldischen Bundestag. Grüsse.
 							</p>
 						</summary>
@@ -58,24 +49,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 736, S.99</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10774">
 				<correspAction type="sent">
-					<persName ref="person2237" cert="high">
+					<persName ref="p2237" cert="high">
 						<!--
 						<surname cert="high">Mötteli</surname>
 						<forename cert="high">Martin</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1089474202"/>
 						-->
 					</persName>
-					<placeName source="place538" cert="high"><orig>Weinfelden</orig></placeName>
+					<placeName source="l538" cert="high"><orig>Weinfelden</orig></placeName>
 					<date when="1536-01-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,31 +120,31 @@
 					<s n="1" xml:lang="la" type="auto">Gratia Christi tecum, optime vir.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Literę a dominis nostris Tigurinis ad pręfectum<note xml:id="fn1" type="footnote" n="1"><persName ref="person2194">Christoph von Sonnenberg</persName>, eidgenössischer Landvogt im <placeName ref="place87">Thurgau</placeName>.</note> script<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> ad successum rerum nostrarum nihil effecerunt, sed <placeName ref="place652">Lucernam</placeName> ad confęderatorum comitias nos ablegavit summis expensis nos expilans, quemadmodum per hominem illum pene funesta sunt nostra omnia.</s>
+					<s n="2" xml:lang="la" type="auto">Literę a dominis nostris Tigurinis ad pręfectum<note xml:id="fn1" type="footnote" n="1"><persName>Christoph von Sonnenberg</persName>, eidgenössischer Landvogt im <placeName>Thurgau</placeName>.</note> script<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> ad successum rerum nostrarum nihil effecerunt, sed <placeName>Lucernam</placeName> ad confęderatorum comitias nos ablegavit summis expensis nos expilans, quemadmodum per hominem illum pene funesta sunt nostra omnia.</s>
 					<s n="3" xml:lang="la" type="auto">Dominus illi, quod sibi visum fuerit, reddat.</s>
-					<s n="4" xml:lang="la" type="auto">Tu, quantum potes, legatos dominorum tuorum nostri causa adhortato, enixe precor<note xml:id="fn3" type="footnote" n="3">Die beiden Zürcher Gesandten an der Tagsatzung vom 1. Februar 1536 in <placeName ref="place652">Luzern</placeName>, <persName ref="person87">Johannes Haab</persName> und Heinrich Rahn, waren beauftragt, die Weinfelder Reformierten gegen die beiden <persName ref="person156">Mötteli</persName> vom Rappenstein (Joachim und Beat Rudolf, vgl. oben <ref target="file10747">Nr. 709</ref>, Anm. 5) zu unterstützen (vgl. Zürich StA, B VIII 43, 126r. 127v.). Nach EA IV/1c 613-615 scheint der Fall jedoch nicht offiziell behandelt worden zu sein.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Tu, quantum potes, legatos dominorum tuorum nostri causa adhortato, enixe precor<note xml:id="fn3" type="footnote" n="3">Die beiden Zürcher Gesandten an der Tagsatzung vom 1. Februar 1536 in <placeName>Luzern</placeName>, <persName ref="p5543">Johannes Haab</persName> und Heinrich Rahn, waren beauftragt, die Weinfelder Reformierten gegen die beiden <persName>Mötteli</persName> vom Rappenstein (Joachim und Beat Rudolf, vgl. oben <ref target="file10747">Nr. 709</ref>, Anm. 5) zu unterstützen (vgl. Zürich StA, B VIII 43, 126r. 127v.). Nach <bibl>EA</bibl> IV/1c 613-615 scheint der Fall jedoch nicht offiziell behandelt worden zu sein.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Res dei est; ipse vel hoc modo provehet negotium Christi sui.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Provectionem tuam cum aliquot fratribus ac dominis tuis <placeName ref="place97">Basileam</placeName><note xml:id="fn4" type="footnote" n="4">Bullinger und <persName ref="person114">Leo Jud</persName> reisten am 28. Januar 1536 zusammen mit <persName ref="person1720">Kaspar Nasal</persName> und Stadtschreiber <persName ref="person12">Beyel</persName> zu den Bekenntnisverhandlungen nach <placeName ref="place97">Basel</placeName> (vgl. unten <ref target="file10775">Nr. 737</ref>, Anm. 1).</note> nunciavi fratribus nonnullis<note xml:id="fn5" type="footnote" n="5">Dazu gehörten wohl die unten, Z. 18f, Genannten.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Provectionem tuam cum aliquot fratribus ac dominis tuis <placeName>Basileam</placeName><note xml:id="fn4" type="footnote" n="4">Bullinger und <persName ref="p2305">Leo Jud</persName> reisten am 28. Januar 1536 zusammen mit <persName>Kaspar Nasal</persName> und Stadtschreiber <persName>Beyel</persName> zu den Bekenntnisverhandlungen nach <placeName>Basel</placeName> (vgl. unten <ref target="file10775">Nr. 737</ref>, Anm. 1).</note> nunciavi fratribus nonnullis<note xml:id="fn5" type="footnote" n="5">Dazu gehörten wohl die unten, Z. 18f, Genannten.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Ipsi (ut dignum est) plurimum lętantur, praesertim vero, quod sciant te prudentia, pietate et doctrina omnium locum facile posse supplere ac veri inimicos confundere et convincere, ad quod faustum fęlixque<pb type="edition" next="100"/> summi numinis opitulamen multo studio precantur omnes.</s>
-					<s n="8" xml:lang="la" type="auto">Narrabam etiam ea, quae per epistolam ad te transmissa sunt a Schmalkhaldensibus, quemadmodum praelegeras<note xml:id="fn6" type="footnote" n="6">Zur Tagung des Schmalkaldischen Bundes vom 6. bis 24. Dezember 1535 vgl. Fabian, Bundesabschiede 59-78. Möglicherweise hatte Bullinger <persName ref="person156">Martin Mötteli</persName> den Brief von <persName ref="person263">Johannes Zwick</persName> vom 19. Januar (oben <ref target="file10768">Nr. 730</ref>) vorgelesen.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Narrabam etiam ea, quae per epistolam ad te transmissa sunt a Schmalkhaldensibus, quemadmodum praelegeras<note xml:id="fn6" type="footnote" n="6">Zur Tagung des Schmalkaldischen Bundes vom 6. bis 24. Dezember 1535 vgl. Fabian, Bundesabschiede 59-78. Möglicherweise hatte Bullinger <persName>Martin Mötteli</persName> den Brief von <persName>Johannes Zwick</persName> vom 19. Januar (oben <ref target="file10768">Nr. 730</ref>) vorgelesen.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Fratres multa lęticia domino gratias agunt.</s>
-					<s n="10" xml:lang="la" type="auto">Actionem <placeName ref="place97">Basiliensem</placeName>, quum fęlicibus (ut pręcor) avibus redieris, nobis per epistolam significare velis; nam et nos scisse frugi speramus.</s>
+					<s n="10" xml:lang="la" type="auto">Actionem <placeName>Basiliensem</placeName>, quum fęlicibus (ut pręcor) avibus redieris, nobis per epistolam significare velis; nam et nos scisse frugi speramus.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale, ac omnes ecclesias nostras tibi velis commendatas habere.</s>
-					<s n="12" xml:lang="la" type="auto">Salutant te omnes fratres, presertim <persName ref="person133">Huldrychus Amantius</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person133">Ulrich Lieb</persName> (Amantius), gest. nach 1542, von <placeName ref="place144">Bischofszell</placeName> (Kt. <placeName ref="place87">Thurgau</placeName>), im Jahre 1517 an der Universität <placeName ref="place1192">Wien</placeName> immatrikuliert (vgl. Die Matrikel der Universität <placeName ref="place1192">Wien</placeName>. Im Auftrage des Akademischen Senates hg. v. Institut für österreichische Geschichtsforschung, II. Band 1451-1518 / I: Text, bearb. v. Willy Szaivert und Franz Gall, Graz-<placeName ref="place1192">Wien</placeName>-Köln 1967, S. 442, <ref target="file10190">Nr. 159</ref>), war als Kaplan im St.-Pelagius-Stift massgeblich an der Einführung der Reformation in <placeName ref="place144">Bischofszell</placeName> beteiligt. 1530 wurde er Pfarrer in <placeName ref="place1216">Wuppenau</placeName>, dessen Gerichtsherr der Abt von <placeName ref="place1011">St. Gallen</placeName> war. Als Lieb im Dezember 1534 einen kranken Mann zum reformierten Glauben bekehrte, wurde er verhaftet, in <placeName ref="place1196">Wil</placeName> gefangengehalten und erst nach zahlreichen Fürsprachen im Januar 1535 wieder freigelassen, jedoch auf Lebenszeit aus dem Herrschaftsgebiet des Abtes verwiesen. Anschliessend war er Pfarrer in <placeName ref="place1195">Wigoltingen</placeName> (Kt. <placeName ref="place87">Thurgau</placeName>), wo er noch 1541 wirkte (vgl. Vadian BW VI 50). Drei Briefe Liebs an Bullinger aus den Jahren 1536, 1539 und 1542 (zwei davon im Kollektiv) sind erhalten. - Lit.: Arthur <hi>Geiger,</hi> Das Chorherrenstift St. Pelagius zu <placeName ref="place144">Bischofszell</placeName> im Zeitalter der Katholischen Reform 1500-1700, Diss. phil. Freiburg i. Ue., Bern 1958 (Teildruck), S. 17. 68; <hi>Knittel,</hi> Kirche 132-134; Hans <hi>Bühler,</hi> Geschichte der Johanniterkomturei <placeName ref="place1082">Tobel</placeName>, in: Thurgauische Beiträge zur vaterländischen Geschichte 122, 1985 (1986), S. 27. 401; Sulzberger 151. 1741.</note>, <persName ref="person191">Ioannes Schmid</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="person191">Johannes Schmid</persName>, gest. nach 1542, wurde gegen Ende des Jahres 1529 von der <placeName ref="place87">Thurgauer</placeName> Synode in die Pfarrei Bussnang eingesetzt, die kurz zuvor von <persName ref="person263">Johannes Zwick</persName> reformiert worden war. Nach Abschluss des Landfriedensvertrages 1531 kam er in dieser Pfarrei, deren Kollatur der Komtur von <placeName ref="place1082">Tobel</placeName> innehatte, unter erheblichen Druck. 1539 und 1542 setzte er sich zusammen mit weiteren Amtsbrüdern bei Bullinger für verfolgte Kollegen ein. - Lit.: <hi>Knittel,</hi> Kirche 48. 138; <hi>Knittel,</hi> Reformation 227. 229; <hi>Bühler,</hi> aaO, S. 25; Sulzberger 29.</note>, Ruͦdolffus Mundprat<note xml:id="fn9" type="footnote" n="9">Gemeint ist wohl der seit 1528 in <placeName ref="place650">Lustdorf</placeName> (Kt. <placeName ref="place87">Thurgau</placeName>) tätige Pfarrer <persName ref="person1687">Rudolf Muntprat</persName>. Sein Vater, Rudolf (nach Sulzberger 37: Hans) <persName ref="person1683">Muntprat von Spiegelberg</persName>, war Kollator der Pfarrei (vgl. <hi>Knittel,</hi> Kirche 95, und Kindler von Knobloch III 176). Noch im Jahr 1567 figuriert Muntprat im Verzeichnis der unterthurgauischen Pfarrerschaft als Pfarrer von <placeName ref="place650">Lustdorf</placeName> (vgl. <hi>Bächtold,</hi> Bullinger vor dem Rat 314).</note>, Ioannes <persName ref="person881">Fridinger</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="person881">Hans Fridinger</persName>, gest. 1558, war eines der fünf Mitglieder des Konventes im Ritterhaus <placeName ref="place1082">Tobel</placeName> (Kt. <placeName ref="place87">Thurgau</placeName>), der sich 1528/29 auflöste. Er trat zur Reformation über und wirkte als Pfarrer in <placeName ref="place13">Affeltrangen</placeName>, später in <placeName ref="place354">Fischingen</placeName> (beide Kt. <placeName ref="place87">Thurgau</placeName>). Als ihm dort 1542 die Pfrund entzogen wurde, trat er in zürcherische Dienste und versah bis zu seinem Tod die Pfarrei <placeName ref="place200">Buchs</placeName>. - Lit.: <hi>Bühler,</hi> aaO, S. 26. 33; Zürich StA, E II 335, 2060 (<persName ref="person133">Ulrich Lieb</persName>, Alexander Schmutz und <persName ref="person191">Johannes Schmid</persName> an Bullinger, 25. April 1542); Pfarrerbuch 14. 282.</note> etc.</s>
+					<s n="12" xml:lang="la" type="auto">Salutant te omnes fratres, presertim <persName ref="p8483">Huldrychus Amantius</persName><note xml:id="fn7" type="footnote" n="7"><persName>Ulrich Lieb (Amantius)</persName>, gest. nach 1542, von <placeName>Bischofszell</placeName> (Kt. <placeName>Thurgau</placeName>), im Jahre 1517 an der Universität <placeName>Wien</placeName> immatrikuliert (vgl. Die Matrikel der Universität <placeName>Wien</placeName>. Im Auftrage des Akademischen Senates hg. v. Institut für österreichische Geschichtsforschung, II. Band 1451-1518 / I: Text, bearb. v. Willy Szaivert und Franz Gall, Graz-<placeName>Wien</placeName>-Köln 1967, S. 442, <ref target="file10190">Nr. 159</ref>), war als Kaplan im St.-Pelagius-Stift massgeblich an der Einführung der Reformation in <placeName>Bischofszell</placeName> beteiligt. 1530 wurde er Pfarrer in <placeName>Wuppenau</placeName>, dessen Gerichtsherr der Abt von <placeName>St. Gallen</placeName> war. Als Lieb im Dezember 1534 einen kranken Mann zum reformierten Glauben bekehrte, wurde er verhaftet, in <placeName>Wil</placeName> gefangengehalten und erst nach zahlreichen Fürsprachen im Januar 1535 wieder freigelassen, jedoch auf Lebenszeit aus dem Herrschaftsgebiet des Abtes verwiesen. Anschliessend war er Pfarrer in <placeName>Wigoltingen</placeName> (Kt. <placeName>Thurgau</placeName>), wo er noch 1541 wirkte (vgl. <bibl>Vadian BW VI</bibl> 50). Drei Briefe Liebs an Bullinger aus den Jahren 1536, 1539 und 1542 (zwei davon im Kollektiv) sind erhalten. - Lit.: Arthur <hi>Geiger,</hi> Das Chorherrenstift St. Pelagius zu <placeName>Bischofszell</placeName> im Zeitalter der Katholischen Reform 1500-1700, Diss. phil. Freiburg i. Ue., Bern 1958 (Teildruck), S. 17. 68; <hi>Knittel,</hi> Kirche 132-134; Hans <hi>Bühler,</hi> Geschichte der Johanniterkomturei <placeName>Tobel</placeName>, in: Thurgauische Beiträge zur vaterländischen Geschichte 122, 1985 (1986), S. 27. 401; Sulzberger 151. 1741.</note>, <persName>Ioannes Schmid</persName><note xml:id="fn8" type="footnote" n="8"><persName>Johannes Schmid</persName>, gest. nach 1542, wurde gegen Ende des Jahres 1529 von der <placeName>Thurgauer</placeName> Synode in die Pfarrei Bussnang eingesetzt, die kurz zuvor von <persName>Johannes Zwick</persName> reformiert worden war. Nach Abschluss des Landfriedensvertrages 1531 kam er in dieser Pfarrei, deren Kollatur der Komtur von <placeName>Tobel</placeName> innehatte, unter erheblichen Druck. 1539 und 1542 setzte er sich zusammen mit weiteren Amtsbrüdern bei Bullinger für verfolgte Kollegen ein. - Lit.: <hi>Knittel,</hi> Kirche 48. 138; <hi>Knittel,</hi> Reformation 227. 229; <hi>Bühler,</hi> aaO, S. 25; Sulzberger 29.</note>, Ruͦdolffus Mundprat<note xml:id="fn9" type="footnote" n="9">Gemeint ist wohl der seit 1528 in <placeName>Lustdorf</placeName> (Kt. <placeName>Thurgau</placeName>) tätige Pfarrer <persName>Rudolf Muntprat</persName>. Sein Vater, Rudolf (nach Sulzberger 37: Hans) <persName>Muntprat von Spiegelberg</persName>, war Kollator der Pfarrei (vgl. <hi>Knittel,</hi> Kirche 95, und <bibl>Kindler von Knobloch</bibl> III 176). Noch im Jahr 1567 figuriert Muntprat im Verzeichnis der unterthurgauischen Pfarrerschaft als Pfarrer von <placeName>Lustdorf</placeName> (vgl. <hi>Bächtold,</hi> Bullinger vor dem Rat 314).</note>, <persName ref="p4841">Ioannes Fridinger</persName><note xml:id="fn10" type="footnote" n="10"><persName>Hans Fridinger</persName>, gest. 1558, war eines der fünf Mitglieder des Konventes im Ritterhaus <placeName>Tobel</placeName> (Kt. <placeName>Thurgau</placeName>), der sich 1528/29 auflöste. Er trat zur Reformation über und wirkte als Pfarrer in <placeName>Affeltrangen</placeName>, später in <placeName>Fischingen</placeName> (beide Kt. <placeName>Thurgau</placeName>). Als ihm dort 1542 die Pfrund entzogen wurde, trat er in zürcherische Dienste und versah bis zu seinem Tod die Pfarrei <placeName>Buchs</placeName>. - Lit.: <hi>Bühler,</hi> aaO, S. 26. 33; Zürich StA, E II 335, 2060 (<persName>Ulrich Lieb</persName>, Alexander Schmutz und <persName>Johannes Schmid</persName> an Bullinger, 25. April 1542); Pfarrerbuch 14. 282.</note> etc.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto"><pb type="edition" next="101"/>Winfeldę, 27. ianuarii anno etc. 36.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto"><persName ref="person156">Martinus Möttily</persName>, tui semper observantissimus.</s>
+					<s n="14" xml:lang="la" type="auto"><persName ref="p18093">Martinus Möttily</persName>, tui semper observantissimus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="15" xml:lang="la" type="auto">Summe tam pio quam docto viro Gheym Rycho<note xml:id="fn11" type="footnote" n="11">Zur Schreibung des Vornamens vgl. <persName ref="person156">Möttelis</persName> Ausführungen oben <ref target="file10747">Nr. 709</ref>, 19-23.</note> Bullinger, suo domino charissimo.</s>
+					<s n="15" xml:lang="la" type="auto">Summe tam pio quam docto viro Gheym Rycho<note xml:id="fn11" type="footnote" n="11">Zur Schreibung des Vornamens vgl. <persName>Möttelis</persName> Ausführungen oben <ref target="file10747">Nr. 709</ref>, 19-23.</note> Bullinger, suo domino charissimo.</s>
 					<s n="16" xml:lang="la" type="auto">Tiguri.</s>
 				</p>
 			</div>

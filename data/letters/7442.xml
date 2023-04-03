@@ -6,32 +6,31 @@
 				<title subtype="file">Andreas Szadkowski / Wieliczka AN [Heinrich Bullinger], 20. April 1568</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7207/44</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 345,666</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke BW, Polen, S. 294</title>
+								<title>Wotschke BW, Polen, S.294</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>Bidlo, Jednota Bratrská II, 142</title>
@@ -56,18 +55,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7442">
 				<correspAction type="sent">
-					<persName ref="person3108" cert="high">
+					<persName ref="p3108" cert="high">
 						<!--
 						<surname cert="high">Szadkowski</surname>
 						<forename cert="high">Andreas</forename>
 						<note type="person">"Wieliciis"= Wieliczka</note>
 						-->
 					</persName>
-					<placeName source="place545" cert="high"><orig>Wieliczka</orig></placeName>
+					<placeName source="l545" cert="high"><orig>Wieliczka</orig></placeName>
 					<date when="1568-04-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -101,7 +100,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,7 +119,7 @@
 					<s n="2" xml:lang="la" type="auto">Ex literis tuis, quas per d. Christophorum Thretium ad me dedisti, reverende atque clarissime vir domine Bullingere, amice colendissime, multiplici sum ac varia animi laetitia et voluptate affectus.</s>
 					<s n="3" xml:lang="la" type="auto">Sunt enim repletae summae erga me tum benevolentiae (pro quo ingentes tibi ago gratias) tum prudentis ac multi officii et consilii in hoc praesertim negotio de refutatione haereticorum, qui in hac nostra regione grassantur, quorum utrumque quanti faciam, testem habeo conscientiam meam.</s>
 					<s n="4" xml:lang="la" type="auto">Nam sic gravissimis et ornatissimis verbis explicationem et admonitionem literis tuis inseris, ut nobis nihil iucundius nihilve melius accidere potuit.</s>
-					<s n="5" xml:lang="la" type="auto">Qua in re deo certe rem gratissimam facis, neque inanem operam navasse te hactenus aut laterem lavisse<note xml:id="fn1" type="footnote" n="1">sich vergeblich bemühen; vgl. Adagia, 1, 4, 48 (LB II 169).</note> velim existimes.</s>
+					<s n="5" xml:lang="la" type="auto">Qua in re deo certe rem gratissimam facis, neque inanem operam navasse te hactenus aut laterem lavisse<note xml:id="fn1" type="footnote" n="1">sich vergeblich bemühen; vgl. <bibl>Adagia</bibl>, 1, 4, 48 (LB II 169).</note> velim existimes.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Praecedentes admonitiones vestrae a vobis huc ad d. Thretium nostrum transmissae plurimum momenti habuerunt mirumque in modum efficatiam suam commonstrarunt, quum multi repudiato suo errore, quem obstinato animo et mordicus antea defendebant, ad nos redeunt et veram hanc confessionem nostram de sanctissima triade amplexi sunt, in quorum numero est etiam magnificus dominus Zupparius noster Wieliciensis, magnae apud Polonos authoritatis vir, cuius vita cum pietate et religione ita est coniuncta, ut suum animum, suas cogitationes, sua omnia consilia ad promovendam ecclesiam dei referat.</s>

@@ -6,50 +6,41 @@
 				<title subtype="file">Wolfgang Capito / Strassburg AN Heinrich Bullinger, 24. Juni 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=108</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">149</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,29 f.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Mahnung zum Frieden in der Eidgenossenschaft. Ist einverstanden mit der Schrift gegen
-								<persName ref="person805">Fabri</persName>, empfiehlt aber Zurückhaltung gegenüber
-								<persName ref="person138">Luther</persName>. Bedenken wegen der wenig maßvollen Schrift
-								<persName ref="person114">Juds</persName>. Berichtet über die Verhandlungen in
-								<placeName ref="place880">Regensburg</placeName> und <placeName ref="place795">Nürnberg</placeName>.
+								<persName ref="p7936">Fabri</persName>, empfiehlt aber Zurückhaltung gegenüber
+								<persName ref="p1974">Luther</persName>. Bedenken wegen der wenig maßvollen Schrift
+								<persName ref="p1753">Juds</persName>. Berichtet über die Verhandlungen in
+								<placeName>Regensburg</placeName> und <placeName>Nürnberg</placeName>.
 								Grüße.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 108, S.149</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10138">
 				<correspAction type="sent">
-					<persName ref="person578" cert="high">
+					<persName ref="p578" cert="high">
 						<!--
 						<surname cert="high">Capito</surname>
 						<forename cert="high">Wolfgang</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414573"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="high"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1532-06-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,28 +131,28 @@
 					<s n="3" xml:lang="la" type="auto">Video afflictis rebus adesse cominus celestem favorem.</s>
 					<s n="4" xml:lang="la" type="auto">Prospiciebam fore, quod nunc in oculis est, Quinquepagicos victoriam acerbissime persecuturos, ut fert insolentium militum natura.</s>
 					<s n="5" xml:lang="la" type="auto">Premonui ad concordiam verbis coram, literis absens.</s>
-					<s n="6" xml:lang="la" type="auto">Instantissime sum cohortatus tam fratres symmistas quam magistratum, quem<pb type="edition" next="150"/> in illis tribus rebuspublicis<note xml:id="fn4" type="footnote" n="4">Wohl <placeName ref="place97">Basel</placeName>, <placeName ref="place121">Bern</placeName> und Zürich.</note> disiectissimum vidi.</s>
+					<s n="6" xml:lang="la" type="auto">Instantissime sum cohortatus tam fratres symmistas quam magistratum, quem<pb type="edition" next="150"/> in illis tribus rebuspublicis<note xml:id="fn4" type="footnote" n="4">Wohl <placeName>Basel</placeName>, <placeName>Bern</placeName> und Zürich.</note> disiectissimum vidi.</s>
 					<s n="7" xml:lang="la" type="auto">Detrimentum accipient, si non caverint nostri, ipsorum respublicę, nedum publica sermonis divini administratio.</s>
 					<s n="8" xml:lang="la" type="auto">Neque ratio alia superest cavendi nisi redintegrata cum piis magistratibus concordia, quo fratri periculis exposito frater adsit, magistratui oppresso vicinię magistratus.</s>
 					<s n="9" xml:lang="la" type="auto">Ergo tu virum praebebis atque adeo dei hominem, cuius est pacem conciliare inter mentes pugnantissimas.</s>
 					<s n="10" xml:lang="la" type="auto">Aspiret bene conanti Christus.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Quę tu<note xml:id="fna" type="footnote" n="a">tu <hi>übergeschrieben.</hi></note> ad calumnias <persName ref="person805">Fabri</persName><note xml:id="fn5" type="footnote" n="5">Zu <persName ref="person805">Fabris</persName> Schrift und Bullingers Antwort s. oben <ref target="file10119">[Nr. 90]</ref> S. 110, Anm. 9.</note>, legimus et probamus, sed cum primis gratum omnibus cordatis fecisti, quod non exagitasti <persName ref="person138">Lutherum</persName>, ut meretur<note xml:id="fn6" type="footnote" n="6"><persName ref="person40">Capito</persName> hatte eindringlich darum gebeten, <persName ref="person138">Luthers</persName> Namen in der Antwort an <persName ref="person805">Fabri</persName> nicht zu nennen, was Bullinger befolgte, s. oben <ref target="file10119">[Nr. 90]</ref> S. 110, 23.</note>.</s>
-					<s n="12" xml:lang="la" type="auto">At male vereor Leonis conatum<note xml:id="fn7" type="footnote" n="7"><persName ref="person114">Leo Jud</persName> übersetzte die Schrift «De corpore et sanguine domini liber» des <persName ref="person1902">Ratramnus</persName> ins Deutsche. Diese Übersetzung erschien zusammen mit dem Brief der Zürcher Geistlichen an Albrecht von Preußen (s. oben <ref target="file10135">Nr. 106</ref>) im Druck. Vielleicht war <persName ref="person40">Capito</persName> der Meinung, Jud habe diesen Brief verfaßt (vgl. dazu oben S. 138, Anm. 1).</note> vix casurum eque feliciter.</s>
+					<s n="11" xml:lang="la" type="auto">Quę tu<note xml:id="fna" type="footnote" n="a">tu <hi>übergeschrieben.</hi></note> ad calumnias <persName>Fabri</persName><note xml:id="fn5" type="footnote" n="5">Zu <persName>Fabris</persName> Schrift und Bullingers Antwort s. oben <ref target="file10119">[Nr. 90]</ref> S. 110, Anm. 9.</note>, legimus et probamus, sed cum primis gratum omnibus cordatis fecisti, quod non exagitasti <persName ref="p1974">Lutherum</persName>, ut meretur<note xml:id="fn6" type="footnote" n="6"><persName>Capito</persName> hatte eindringlich darum gebeten, <persName ref="p18889">Luthers</persName> Namen in der Antwort an <persName>Fabri</persName> nicht zu nennen, was Bullinger befolgte, s. oben <ref target="file10119">[Nr. 90]</ref> S. 110, 23.</note>.</s>
+					<s n="12" xml:lang="la" type="auto">At male vereor Leonis conatum<note xml:id="fn7" type="footnote" n="7"><persName ref="p2305">Leo Jud</persName> übersetzte die Schrift «De corpore et sanguine domini liber» des <persName>Ratramnus</persName> ins Deutsche. Diese Übersetzung erschien zusammen mit dem Brief der Zürcher Geistlichen an Albrecht von Preußen (s. oben <ref target="file10135">Nr. 106</ref>) im Druck. Vielleicht war <persName>Capito</persName> der Meinung, Jud habe diesen Brief verfaßt (vgl. dazu oben S. 138, Anm. 1).</note> vix casurum eque feliciter.</s>
 					<s n="13" xml:lang="la" type="auto">Nam brevi adnitemur orbi planum facere nos utrinque currere extra metas<note xml:id="fn8" type="footnote" n="8">Was mit dieser sprichwörtlich klingenden Wendung konkret gemeint ist, konnte nicht geklärt werden.</note> et neutros alteros pro christiana modestia estimare, sed quod<note xml:id="fnb" type="footnote" n="b">quod <hi>übergeschrieben.</hi></note> infestis congrediamur animis.</s>
 					<s n="14" xml:lang="la" type="auto">Quae indignitas ingratissima deo est.</s>
 					<s n="15" xml:lang="la" type="auto">Miseret me integerrimorum virorum, quos hoc nostrum dissidium in perniciem coniicit, certe nudat facultatibus, eiicit possessionibus, praedae exponit.</s>
 					<s n="16" xml:lang="la" type="auto">Consentiunt nobis prophani.</s>
 					<s n="17" xml:lang="la" type="auto">Ecclesiastę odiosis vexantur in nos suspicionibus, quasi verbo autoritatem adempturi nos essemus.</s>
 					<s n="18" xml:lang="la" type="auto">Timent sibi a nobis, quasi conaremur autoritatem verbi elevare.</s>
-					<s n="19" xml:lang="la" type="auto">Ideo optarem quam esse moderatissima, quę <persName ref="person114">Leoni</persName> scribuntur.</s>
+					<s n="19" xml:lang="la" type="auto">Ideo optarem quam esse moderatissima, quę <persName ref="p1753">Leoni</persName> scribuntur.</s>
 					<s n="20" xml:lang="la" type="auto">Reputandum scripturo, quod principes et civitates evangelici Zuinglianos pro hostibus censeri nolint.</s>
 					<s n="21" xml:lang="la" type="auto">Et nos tam procaciter proripimus nos in pugnam praecipitati.</s>
-					<s n="22" xml:lang="la" type="auto"><persName ref="person138">Lutherus</persName> lacessit prior<note xml:id="fnc" type="footnote" n="c">prior <hi>übergeschrieben.</hi></note><note xml:id="fn9" type="footnote" n="9"><persName ref="person138">Luthers</persName> Ausfälle gegen die schweizerischen Theologen in seinem Sendschreiben an Albrecht von Preußen (WA <hi>XXX/3</hi> 547-553), das die Zürcher Antwort vom 17. Juni 1532 auslöste.</note>, sed a suis contemnitur, si illi respondendo insanienti suum locum non redderemus.</s>
+					<s n="22" xml:lang="la" type="auto"><persName ref="p1974">Lutherus</persName> lacessit prior<note xml:id="fnc" type="footnote" n="c">prior <hi>übergeschrieben.</hi></note><note xml:id="fn9" type="footnote" n="9"><persName ref="p18889">Luthers</persName> Ausfälle gegen die schweizerischen Theologen in seinem Sendschreiben an Albrecht von Preußen (<bibl>WA</bibl> <hi>XXX/3</hi> 547-553), das die Zürcher Antwort vom 17. Juni 1532 auslöste.</note>, sed a suis contemnitur, si illi respondendo insanienti suum locum non redderemus.</s>
 					<s n="23" xml:lang="la" type="auto">Non periclitabitur causa,<pb type="scan" next="||30"/> si talione abstinemus causa fideliter explanata.</s>
 					<s n="24" xml:lang="la" type="auto">Et tamen spero, ut es ingenio miti, vehementiam Leoninam, si quid ille immoderatius prae se tulerit, moderatam.</s>
-					<s n="25" xml:lang="la" type="auto">Reliqua in hanc rem ad <persName ref="person117">Carolstadium</persName><note xml:id="fn10" type="footnote" n="10">Der Brief (wohl <persName ref="person40">Capitos</persName>) an <persName ref="person117">Karlstadt</persName> ist nicht erhalten.</note>, quę velim lecta, cognita, meditata et expensa piis omnibus, postquam nihil ęque detester, quam funestissimam inter pios dimicationem.</s>
+					<s n="25" xml:lang="la" type="auto">Reliqua in hanc rem ad <persName ref="p4349">Carolstadium</persName><note xml:id="fn10" type="footnote" n="10">Der Brief (wohl <persName>Capitos</persName>) an <persName>Karlstadt</persName> ist nicht erhalten.</note>, quę velim lecta, cognita, meditata et expensa piis omnibus, postquam nihil ęque detester, quam funestissimam inter pios dimicationem.</s>
 					<s n="26" xml:lang="la" type="auto">Dilectionis mutuae amica contentio nos decet potius.</s>
 					<s n="27" xml:lang="la" type="auto">Nam sunt inter Lutheranos, quos Christi esse non dubito.</s>
 					<s n="28" xml:lang="la" type="auto">Et tamen coryphęi erroribus subscribere propterea nolo, ut amplectar volens, quod convenit, hoc est, abunde feliciter actum putabo constare utrisque Christum et fidei iustificationem seclusis operibus miserę superstitionis, qua orbis quassatus est seculis aliquot.</s>
@@ -162,24 +160,24 @@
 					<s n="30" xml:lang="la" type="auto">Suis tandem feroculi viribus ruent.</s>
 				</p>
 				<p>
-					<s n="31" xml:lang="la" type="auto">Constantissime postulat cesar<note xml:id="fnd" type="footnote" n="d">cesar <hi>übergeschrieben.</hi></note> pręsidium militare adversus Turcam, quem asseverat nunc irruere exercitu infinito<note xml:id="fn11" type="footnote" n="11"><persName ref="person40">Capitos</persName> Mitteilungen über die Verhandlungen in <placeName ref="place880">Regensburg</placeName> und besonders in <placeName ref="place795">Nürnberg</placeName> decken sich im wesentlichen mit dem Bericht der <placeName ref="place1049">Straßburger</placeName> Gesandten <persName ref="person2255">Jakob Sturm</persName> und <persName ref="person1644">Jakob Meyer</persName> vom 10. Juni 1532 aus <placeName ref="place795">Nürnberg</placeName>, PC II 150-153. Den verwickelten Gang der Verhandlungen beschreibt <hi>Winckelmann.</hi></note>.</s>
+					<s n="31" xml:lang="la" type="auto">Constantissime postulat cesar<note xml:id="fnd" type="footnote" n="d">cesar <hi>übergeschrieben.</hi></note> pręsidium militare adversus Turcam, quem asseverat nunc irruere exercitu infinito<note xml:id="fn11" type="footnote" n="11"><persName>Capitos</persName> Mitteilungen über die Verhandlungen in <placeName>Regensburg</placeName> und besonders in <placeName>Nürnberg</placeName> decken sich im wesentlichen mit dem Bericht der <placeName>Straßburger</placeName> Gesandten <persName>Jakob Sturm</persName> und <persName>Jakob Meyer</persName> vom 10. Juni 1532 aus <placeName>Nürnberg</placeName>, <bibl>PC</bibl> II 150-153. Den verwickelten Gang der Verhandlungen beschreibt <hi>Winckelmann.</hi></note>.</s>
 					<s n="32" xml:lang="la" type="auto">Principes papistici pridem annuerunt.</s>
-					<s n="33" xml:lang="la" type="auto">Nostri<pb type="edition" next="151"/> vix repugnabunt, etsi pacis conditiones cesar nondum acceperit<note xml:id="fne" type="footnote" n="e"><hi>am Rand von <persName ref="person40">Capitos</persName> Hand:</hi> Exercitum non penitendum evangelici conscribunt, opinor, immitendum Turcis.</note>.</s>
-					<s n="34" xml:lang="la" type="auto">Donavit autem, ut iuxta nostras confessiones oblatas <placeName ref="place70">Augustae</placeName><note xml:id="fn12" type="footnote" n="12">Die <placeName ref="place70">Augsburger</placeName> Konfession mit der Apologie, s. PC II 129.</note> doctrinam ac vitam continuaremus.</s>
+					<s n="33" xml:lang="la" type="auto">Nostri<pb type="edition" next="151"/> vix repugnabunt, etsi pacis conditiones cesar nondum acceperit<note xml:id="fne" type="footnote" n="e"><hi>am Rand von <persName>Capitos</persName> Hand:</hi> Exercitum non penitendum evangelici conscribunt, opinor, immitendum Turcis.</note>.</s>
+					<s n="34" xml:lang="la" type="auto">Donavit autem, ut iuxta nostras confessiones oblatas <placeName>Augustae</placeName><note xml:id="fn12" type="footnote" n="12">Die <placeName>Augsburger</placeName> Konfession mit der Apologie, s. <bibl>PC</bibl> II 129.</note> doctrinam ac vitam continuaremus.</s>
 					<s n="35" xml:lang="la" type="auto">Deinde permisit ecclesiasticorum bona, ut hoc tempore commutata sunt, in usus privatos, mox ne ecclesiastici suos census a nostris magistratibus in alium aliquem, papisticam iurisdictionem<note xml:id="fnf" type="footnote" n="f">jurisdictionem <hi>übergeschrieben.</hi></note>, transferant.</s>
-					<s n="36" xml:lang="la" type="auto">Postremo arbitri principis<note xml:id="fn13" type="footnote" n="13">Als Unterhändler des Kaisers wirkten die Kurfürsten Albrecht von Mainz und Ludwig von der Pfalz.</note> spem fecerunt se obtenturos esse tam a cesare quam imperii statibus, quominus <persName ref="person265">Zuinglii</persName> nomen articulis concordiae<note xml:id="fng" type="footnote" n="g">articulis concordiae <hi>übergeschrieben.</hi></note> odiosius perstringatur.</s>
-					<s n="37" xml:lang="la" type="auto">Nam voluerunt antea<note xml:id="fn14" type="footnote" n="14">Schon an den Verhandlungen in <placeName ref="place965">Schweinfurt</placeName> stand das Problem der Zwinglianer und Täufer zur Diskussion, s. PC II 110; <hi>Winckelmann</hi> 190f.</note>, ut nostri promitterent se refragaturos, erroribus Zuinglianis et anabaptistarum<note xml:id="fn15" type="footnote" n="15">Vergleiche den erwähnten Bericht der <placeName ref="place1049">Straßburger</placeName> Gesandten vom 10. Juni 1532: «wiewol die churfursten muntlich angezeigt, wu uns je der nam zwinglisch beschweren wolt, das si der hoffnung weren, denselben art. bei kai. mt. zu erlangen. wie si uns den vergangens samstags furgeschlagen», PC II 151f. Dieser Artikel sollte lauten: «das <placeName ref="place74">Sachsen</placeName> und iere mitgewandten denen, so nit glauben, das in dem heiligen sacrament, namlich under der gestalt des brots und weins der war leib und plut Christi unsers hern warhaftig zugegen sei, auch den widertäufern der leer und glaubens halber nit anhangen noch bisteen», PC II 152, Anm. 1.</note>.</s>
+					<s n="36" xml:lang="la" type="auto">Postremo arbitri principis<note xml:id="fn13" type="footnote" n="13">Als Unterhändler des Kaisers wirkten die Kurfürsten Albrecht von Mainz und Ludwig von der Pfalz.</note> spem fecerunt se obtenturos esse tam a cesare quam imperii statibus, quominus <persName ref="p4091">Zuinglii</persName> nomen articulis concordiae<note xml:id="fng" type="footnote" n="g">articulis concordiae <hi>übergeschrieben.</hi></note> odiosius perstringatur.</s>
+					<s n="37" xml:lang="la" type="auto">Nam voluerunt antea<note xml:id="fn14" type="footnote" n="14">Schon an den Verhandlungen in <placeName>Schweinfurt</placeName> stand das Problem der Zwinglianer und Täufer zur Diskussion, s. <bibl>PC</bibl> II 110; <bibl>Winckelmann</bibl> 190f.</note>, ut nostri promitterent se refragaturos, erroribus Zuinglianis et anabaptistarum<note xml:id="fn15" type="footnote" n="15">Vergleiche den erwähnten Bericht der <placeName>Straßburger</placeName> Gesandten vom 10. Juni 1532: «wiewol die churfursten muntlich angezeigt, wu uns je der nam zwinglisch beschweren wolt, das si der hoffnung weren, denselben art. bei kai. mt. zu erlangen. wie si uns den vergangens samstags furgeschlagen», <bibl>PC</bibl> II 151f. Dieser Artikel sollte lauten: «das <placeName>Sachsen</placeName> und iere mitgewandten denen, so nit glauben, das in dem heiligen sacrament, namlich under der gestalt des brots und weins der war leib und plut Christi unsers hern warhaftig zugegen sei, auch den widertäufern der leer und glaubens halber nit anhangen noch bisteen», <bibl>PC</bibl> II 152, Anm. 1.</note>.</s>
 					<s n="38" xml:lang="la" type="auto">Nostri hoc profitentur, se vitaturos esse ac repugnaturos omnibus, qui contra eorum confessiones faciant.</s>
-					<s n="39" xml:lang="la" type="auto">Tanta fides prophanorum in gentem vestram, ut nolint ullam adversus vos inimicitiam prae se ferre, sed et adeo ipsis videtur rebus esse inter nos consensionem, ut renuant fateri erratum esse a <persName ref="person265">Zuinglio</persName>.</s>
+					<s n="39" xml:lang="la" type="auto">Tanta fides prophanorum in gentem vestram, ut nolint ullam adversus vos inimicitiam prae se ferre, sed et adeo ipsis videtur rebus esse inter nos consensionem, ut renuant fateri erratum esse a <persName ref="p4091">Zuinglio</persName>.</s>
 					<s n="40" xml:lang="la" type="auto">Utinam nos eadem moderatione susque deque ferremus, quę furiosuli destomachantur.</s>
 					<s n="41" xml:lang="la" type="auto">Nam nihil incommodabunt nisi nostra impatientia adiuti.</s>
 				</p>
 				<p>
 					<s n="42" xml:lang="la" type="auto">Vale.</s>
-					<s n="43" xml:lang="la" type="auto">Fratres omnes salutabis plurimum, dominum similiter Reschium<note xml:id="fn16" type="footnote" n="16"><persName ref="person180">Diethelm Röist</persName>.</note>, questores<note xml:id="fn17" type="footnote" n="17">Das Amt des Seckelmeisters bekleideten <persName ref="person420">Jörg Berger</persName> und <persName ref="person53">Hans Edlibach</persName>; Hans <hi>Hüssy,</hi> Das Finanzwesen der Stadt Zürich im Zeitalter der Reformation, Diss. phil. Zürich [1946], Maschinenschrift, Beilage 9; über die Genannten <hi>s. Jacob</hi> 127-129.145-147. Beide waren <persName ref="person40">Capito</persName> vermutlich zumindest seit dessen Zürcher Aufenthalt zu Anfang des Jahres 1532 persönlich bekannt, Edlibach hatte außerdem im November 1531 sich in <placeName ref="place1049">Straßburg</placeName> vergeblich darum bemüht, ein Darlehen zur Begleichung von Zürichs Kriegskosten zu erhalten, s. ASchweizerRef IV 807.898; PC II 78.</note>, maxime vero celebres pietatis nomine.</s>
+					<s n="43" xml:lang="la" type="auto">Fratres omnes salutabis plurimum, dominum similiter Reschium<note xml:id="fn16" type="footnote" n="16"><persName>Diethelm Röist</persName>.</note>, questores<note xml:id="fn17" type="footnote" n="17">Das Amt des Seckelmeisters bekleideten <persName ref="p4184">Jörg Berger</persName> und <persName ref="p5061">Hans Edlibach</persName>; Hans <hi>Hüssy,</hi> Das Finanzwesen der Stadt Zürich im Zeitalter der Reformation, Diss. phil. Zürich [1946], Maschinenschrift, Beilage 9; über die Genannten <hi>s. Jacob</hi> 127-129.145-147. Beide waren <persName>Capito</persName> vermutlich zumindest seit dessen Zürcher Aufenthalt zu Anfang des Jahres 1532 persönlich bekannt, Edlibach hatte außerdem im November 1531 sich in <placeName>Straßburg</placeName> vergeblich darum bemüht, ein Darlehen zur Begleichung von Zürichs Kriegskosten zu erhalten, s. ASchweizerRef IV 807.898; <bibl>PC</bibl> II 78.</note>, maxime vero celebres pietatis nomine.</s>
 				</p>
 				<p>
-					<s n="44" xml:lang="la" type="auto"><placeName ref="place1049">Argentorati</placeName>, 24. iunii anno 1532.</s>
+					<s n="44" xml:lang="la" type="auto"><placeName>Argentorati</placeName>, 24. iunii anno 1532.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse, p. 32:]</note>

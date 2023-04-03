@@ -6,67 +6,65 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, vor 26. Juli 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1549</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">263</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,182</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Wurde anlässlich seiner Vorlesung über den Ersten Korintherbrief gebeten, seine Meinung über das Abendmahl
-								darzulegen; beriet sich zuerst mit <persName ref="person154">Myconius</persName> und
-								<persName ref="person11">Markus [Bertschi]</persName>, da ihm bewusst
+								darzulegen; beriet sich zuerst mit <persName ref="p8418">Myconius</persName> und
+								<persName ref="p8054">Markus [Bertschi]</persName>, da ihm bewusst
 								war, wie kontrovers diese Frage ist; ihm selbst würde das [Erste Helvetische?] Bekenntnis genügen, er konnte
 								sich aber seiner Verpflichtung nicht entziehen und legt nun seine - nicht zur Veröffentlichung bestimmte -
 								Erklärung [den Zürchern] zur Stellungnahme vor. Ist überzeugt, dass seine Darlegung der Lehre, dass Christus
 								in den Seinen lebt, dem Bekenntnis entspricht, konnte allerdings nicht frei formulieren, da er sich an die
 								zu erläuternde Bibelstelle halten musste; möchte keinesfalls neuen Streit auslösen. Bedauert den
-								unglücklichen Vorfall [Festnahme von <persName ref="person204">Werner Steiner</persName>?]. Gruß.
+								unglücklichen Vorfall [Festnahme von <persName ref="p8447">Werner Steiner</persName>?]. Gruß.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1549, S.263</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11592">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -79,7 +77,7 @@
 					<date when="1541-07-26" cert="low">vor 26. Juli 1541</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,10 +122,10 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Cum praelegerem epistolam ad Corinthios primam et ad eum locum serie legendi venissem, qui est de usu cęne dominicę,<note xml:id="fn2" type="footnote" n="2">1Kor 11, 17-34.</note> quem nosti, orarunt fratres, ut meam de hac re sententiam planissime explicarem.</s>
-					<s n="3" xml:lang="la" type="auto">Deliberavi cum <persName ref="person154">Myconio</persName> et <persName ref="person11">Marco</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person11">Markus Bertschi</persName>.</note>, ecquid hoc tempore quid esset in publicum de hac re inferendum; sciebam enim, quae istic hominum sententię et quomodo discrepantes animi adhuc[?]<note xml:id="fnb" type="footnote" n="b"><hi>Da der Brief:. T. unleserlich geschrieben ist (vgl. Bullingers Klage unten Nr.</hi> 1550, 754-757), <hi>bleibt die Transkription dieses Satzteils mit Unsicherheiten behaftet.</hi></note>, et nostrę confessionis<note xml:id="fn4" type="footnote" n="4">Gemeint ist wohl das Erste Helvetische Bekenntnis (BSRK 101-109), vielleicht aber auch das Basler Bekenntnis von 1534 (BSRK 95-100).</note> summa sic sum contentus, ut, si quis me roget, praeclare responsum putem, si id respondeam, quod illa habet.</s>
-					<s n="4" xml:lang="la" type="auto">Hęc quanquam ita sint, tamen, quoniam locus ipse et professionis fides cogebat me indissimulanter omnia dicere, cum viderem esse inter parietes<note xml:id="fn5" type="footnote" n="5">D. h. im privaten Bereich (vgl. z. B. das in <persName ref="person371">Augustins</persName> "De civitate dei" 6, 5 überlieferte <persName ref="person22577">Varro</persName>-Zitat).</note> rem, hęc, quae hic vides,<note xml:id="fn6" type="footnote" n="6">Die nach Zürich gesandte Kopie der Schrift "De coena domini Simonis Grynaei dictata in cap. XI. 1. Cor."findet sich in Zürich ZB, Ms Car I 108a (44 Bi., von unbekannter Hand, Überschrift [von Bullingers Hand?]: "Simonis Grynaei scripturn de coena", mit eigenhändigen Korrekturen von <persName ref="person81">Grynäus</persName>). Eine in <placeName ref="place97">Basel</placeName> liegende Abschrift (<placeName ref="place97">Basel</placeName> UB, Ms A XIII 24) enthält eine Randbemerkung von <persName ref="person20520">Francisco de Enzinas</persName> (vgl. Carlos <hi>Gilly,</hi> Spanien und der Basler Buchdruck bis 1600. Ein Querschnitt durch die spanische Geistesgeschichte aus der Sicht einer europäischen Buchdruckerstadt, <placeName ref="place97">Basel</placeName>-Frankfurt a. M. 1985. - Basler Beiträge zur Geschichtswissenschaft 151, S. 352, Anm. 286). Eine weitere Kopie wurde nach <placeName ref="place1049">Straßburg</placeName> gesandt (<placeName ref="place1049">Straßburg</placeName> Stadtarchiv, AST, Nr. 9, 132-157; freundlicher Hinweis von Frau Prof. Amy Nelson Burnett, University of Nebraska-Lincoln). Zum Inhalt der Schrift vgl. Bullingers ausführliche Stellungnahme vom 26. Juli (unten <ref target="file11593">Nr. 1550</ref>).</note> dictavi fratribus non eo proposito, ut quoque<pb type="edition" next="264"/> ederentur,<note xml:id="fn7" type="footnote" n="7">In einem Brief vom 7. März 1547 versprach Enzinas, <persName ref="person81">Grynäus</persName>' Witwe von der Veröffentlichung der Schrift abzuhalten; s. <persName ref="person20520">Francisco de Enzinas</persName>, Epistolario. Edición crítica por Ignacio J. García Pinilla, Genf 1995. -Travaux d'Humanisme et Renaissance CCXC, S. 208-210, Nr. 26; vgl. <hi>Gilly,</hi> aaO, S. 353.</note> sed ut satis meae professioni facerem et necessitati, quomodo tamen me circumv[en]it[?]<note xml:id="fnc" type="footnote" n="c"><hi>Unleserlich; Johann Jakob Simler las</hi> quae tum me circumvenit <hi>(Zürich ZB, Ms S 199, 135), Traugott Schieß verzichtete auf einen Transkriptionsversuch.</hi></note>.</s>
+					<s n="3" xml:lang="la" type="auto">Deliberavi cum <persName ref="p8418">Myconio</persName> et <persName ref="p8054">Marco</persName><note xml:id="fn3" type="footnote" n="3"><persName>Markus Bertschi</persName>.</note>, ecquid hoc tempore quid esset in publicum de hac re inferendum; sciebam enim, quae istic hominum sententię et quomodo discrepantes animi adhuc[?]<note xml:id="fnb" type="footnote" n="b"><hi>Da der Brief:. T. unleserlich geschrieben ist (vgl. Bullingers Klage unten Nr.</hi> 1550, 754-757), <hi>bleibt die Transkription dieses Satzteils mit Unsicherheiten behaftet.</hi></note>, et nostrę confessionis<note xml:id="fn4" type="footnote" n="4">Gemeint ist wohl das Erste Helvetische Bekenntnis (<bibl>BSRK</bibl> 101-109), vielleicht aber auch das Basler Bekenntnis von 1534 (<bibl>BSRK</bibl> 95-100).</note> summa sic sum contentus, ut, si quis me roget, praeclare responsum putem, si id respondeam, quod illa habet.</s>
+					<s n="4" xml:lang="la" type="auto">Hęc quanquam ita sint, tamen, quoniam locus ipse et professionis fides cogebat me indissimulanter omnia dicere, cum viderem esse inter parietes<note xml:id="fn5" type="footnote" n="5">D. h. im privaten Bereich (vgl. z. B. das in <persName>Augustins</persName> "De civitate dei" 6, 5 überlieferte <persName>Varro</persName>-Zitat).</note> rem, hęc, quae hic vides,<note xml:id="fn6" type="footnote" n="6">Die nach Zürich gesandte Kopie der Schrift "De coena domini Simonis Grynaei dictata in cap. XI. 1. Cor."findet sich in Zürich ZB, Ms Car I 108a (44 Bi., von unbekannter Hand, Überschrift [von Bullingers Hand?]: "Simonis Grynaei scripturn de coena", mit eigenhändigen Korrekturen von <persName>Grynäus</persName>). Eine in <placeName>Basel</placeName> liegende Abschrift (<placeName>Basel</placeName> UB, Ms A XIII 24) enthält eine Randbemerkung von <persName>Francisco de Enzinas</persName> (vgl. Carlos <hi>Gilly,</hi> Spanien und der Basler Buchdruck bis 1600. Ein Querschnitt durch die spanische Geistesgeschichte aus der Sicht einer europäischen Buchdruckerstadt, <placeName>Basel</placeName>-Frankfurt a. M. 1985. - Basler Beiträge zur Geschichtswissenschaft 151, S. 352, Anm. 286). Eine weitere Kopie wurde nach <placeName>Straßburg</placeName> gesandt (<placeName>Straßburg</placeName> Stadtarchiv, AST, Nr. 9, 132-157; freundlicher Hinweis von Frau Prof. Amy Nelson Burnett, University of Nebraska-Lincoln). Zum Inhalt der Schrift vgl. Bullingers ausführliche Stellungnahme vom 26. Juli (unten <ref target="file11593">Nr. 1550</ref>).</note> dictavi fratribus non eo proposito, ut quoque<pb type="edition" next="264"/> ederentur,<note xml:id="fn7" type="footnote" n="7">In einem Brief vom 7. März 1547 versprach Enzinas, <persName>Grynäus</persName>' Witwe von der Veröffentlichung der Schrift abzuhalten; s. <persName>Francisco de Enzinas</persName>, Epistolario. Edición crítica por Ignacio J. García Pinilla, Genf 1995. -Travaux d'Humanisme et Renaissance CCXC, S. 208-210, Nr. 26; vgl. <hi>Gilly,</hi> aaO, S. 353.</note> sed ut satis meae professioni facerem et necessitati, quomodo tamen me circumv[en]it[?]<note xml:id="fnc" type="footnote" n="c"><hi>Unleserlich; Johann Jakob Simler las</hi> quae tum me circumvenit <hi>(Zürich ZB, Ms S 199, 135), Traugott Schieß verzichtete auf einen Transkriptionsversuch.</hi></note>.</s>
 					<s n="5" xml:lang="la" type="auto">Mitto ad vos, ut, si videatur, legatis.</s>
-					<s n="6" xml:lang="la" type="auto">Puto ad confessionem nostram non unguem latum<note xml:id="fn8" type="footnote" n="8">Adagia, 1, 5, 6 (LB II 184f).</note> discedere.</s>
+					<s n="6" xml:lang="la" type="auto">Puto ad confessionem nostram non unguem latum<note xml:id="fn8" type="footnote" n="8">Adagia, 1, 5, 6 (<bibl>LB</bibl> II 184f).</note> discedere.</s>
 					<s n="7" xml:lang="la" type="auto">Sic iudico ego; vestram sententiam libenter agnoscam.</s>
 					<s n="8" xml:lang="la" type="auto">Id affirmo vobis me minime instituere discrepare ab eo, quod toties et tanta cum fide et diligentia a nostris ecclesiis est receptum.</s>
 					<s n="9" xml:lang="la" type="auto">Est enim vis meae sententię omnis in hoc, ut ostendam, quomodo Christus<note xml:id="fnd" type="footnote" n="d"><hi>In der Vorlage</hi> Xpus.</note> vere in suis vivat, si quidem vita celestis illa in piis viris est.</s>
@@ -140,7 +138,7 @@
 					<s n="14" xml:lang="la" type="auto">Quicquid est, tecum et cum optimis sic cupio consentire ac conspirare, ut mori malim quam rixas novas excitare in ecclesia.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">De calamitate, quae vobis incidit,<note xml:id="fn9" type="footnote" n="9">Gemeint ist wohl die Festnahme von <persName ref="person204">Werner Steiner</persName>; s. oben <ref target="file11583">Nr. 1540</ref>, Anm. 2.</note> testor dominum, quod maximus cordi meo dolor est.</s>
+					<s n="15" xml:lang="la" type="auto">De calamitate, quae vobis incidit,<note xml:id="fn9" type="footnote" n="9">Gemeint ist wohl die Festnahme von <persName>Werner Steiner</persName>; s. oben <ref target="file11583">Nr. 1540</ref>, Anm. 2.</note> testor dominum, quod maximus cordi meo dolor est.</s>
 					<s n="16" xml:lang="la" type="auto">Oro te, Iesu Christe, ut parcere ecclesię tuę velis et nomen tuum per totum orbem glorificare.</s>
 					<s n="17" xml:lang="la" type="manual">Amen.</s>
 				</p>

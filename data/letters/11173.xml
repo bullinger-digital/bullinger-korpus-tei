@@ -6,42 +6,38 @@
 				<title subtype="file">Johannes Calvin / Bern AN Heinrich Bullinger, 20. Mai 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1130</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">200</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Ioannis Calvini opera quae supersunt omnia, hg. v. Guilielmus Baum, Eduardus Cunitz, Eduardus Reuss, 59 Bde., Braunschweig/Berlin 1863-1900 - CR XXIX-LXXXVII.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,1</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Schreibt erst jetzt, da ihre Sache lange in der Schwebe blieb; nach fünfzehntägigem Warten zeigte sich, daß
-								<persName ref="person126">[Peter] Kunz</persName> nicht anerkennen
+								<persName ref="p8401">[Peter] Kunz</persName> nicht anerkennen
 								wollte, was in Zürich beschlossen worden war, und auch der Rat nahm nur wenig Rücksicht darauf. Dennoch
 								wollen sie nichts unversucht lassen und machen sich nun auf den Weg [nach Genf].
 							</p>
@@ -53,10 +49,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. X/2, S. 200f, Nr. 119</title>
+								<title>C.O. X/2, S.200f, Nr. 119</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Corr. des réformateurs V, S. 16f, Nr. 714</title>
+								<title>Corr. des réformateurs V, S.16f, Nr. 714</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>Schwarz, Calvins Lebenswerk I 34, Nr. 20</title>
@@ -69,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11173">
 				<correspAction type="sent">
-					<persName ref="person540" cert="high">
+					<persName ref="p540" cert="high">
 						<!--
 						<surname cert="high">Calvin</surname>
 						<forename cert="high">Johannes</forename>
@@ -79,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11418245"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1538-05-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -153,7 +149,7 @@
 					<s n="14" xml:lang="la" type="auto">Calvinus tuus.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">D. Henrico Bullingero pastori ecclesiae <persName ref="person175">Tigurinae</persName> vigilantissimo et fidelissimo dilectissimo fratri.</s>
+					<s n="15" xml:lang="la" type="auto">D. Henrico Bullingero pastori ecclesiae Tigurinae vigilantissimo et fidelissimo dilectissimo fratri.</s>
 				</p>
 			</div>
 		</body>

@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 17. Januar 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1093</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">36</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,192</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,174</idno>
@@ -48,10 +39,9 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Nimmt <persName ref="person2218">[Heinrich] Stapfer</persName>
-								gegen Verleumdungen in Schutz und rät, ihn in der Obhut [Leonhard]
-								<persName ref="person108">Hospinians</persName> zu lassen, der Leiter des Pädagogiums geworden ist; warnt
-								davor, den Knaben zu [<persName ref="person117">Karlstadt</persName>] zurückzuschicken, befürchtet aber
+								Nimmt <persName ref="p6674">[Heinrich] Stapfer</persName>
+								gegen Verleumdungen in Schutz und rät, ihn in der Obhut <persName ref="p7073">[Leonhard] Hospinians</persName> zu lassen, der Leiter des Pädagogiums geworden ist; warnt
+								davor, den Knaben zu [<persName ref="p4349">Karlstadt</persName>] zurückzuschicken, befürchtet aber
 								Schwierigkeiten, wenn diese Empfehlung letzterem zu Ohren kommen sollte.
 							</p>
 						</summary>
@@ -59,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1093, S.36</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11136">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -76,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1538-01-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,7 +124,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Abiturus ad te <persName ref="person2218">Stapferus</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="person2218">Heinrich Stapfer</persName>.</note> petiit testimonium de se meum ob nescio quem accusatorem<note xml:id="fn2" type="footnote" n="2"><persName ref="person117">Andreas Karlstadt</persName>; vgl. dessen Brief vom Anfang des Monats (oben <ref target="file11130">Nr. 1087</ref>).</note>, qui ipsum apud te accusavit, ut literae tuę<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> docent, satis contumeliose.</s>
+					<s n="2" xml:lang="la" type="auto">Abiturus ad te <persName ref="p6674">Stapferus</persName><note xml:id="fn1" type="footnote" n="1"><persName>Heinrich Stapfer</persName>.</note> petiit testimonium de se meum ob nescio quem accusatorem<note xml:id="fn2" type="footnote" n="2"><persName>Andreas Karlstadt</persName>; vgl. dessen Brief vom Anfang des Monats (oben <ref target="file11130">Nr. 1087</ref>).</note>, qui ipsum apud te accusavit, ut literae tuę<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> docent, satis contumeliose.</s>
 					<s n="3" xml:lang="la" type="auto">Dico per veritatem, quantum mihi notus est et quantum a Tigurinis, qui nobiscum sunt, audio, puer est innocens ac studiosus.</s>
 					<s n="4" xml:lang="la" type="auto">Nescio, qui de ipso conqueratur quicquam; scio, qui laudibus vehant propter mores et studia.</s>
 				</p>
@@ -135,7 +132,7 @@
 					<s n="5" xml:lang="la" type="auto">Ex colloquio deprehendes, quam sit puerilis quamque pro ętate satis<pb type="edition" next="37"/> usque huc profecerit in literis.</s>
 					<s n="6" xml:lang="la" type="auto">A Gallis semel seductus non dico nimium biberat, sed sale conditum vinum per vomitum reddiderat; verum deinceps et vinum et Gallos vitavit.</s>
 					<s n="7" xml:lang="la" type="auto">Si quid huius forsitan ad te pervenisset, crede sic actum, quemadmodum dico, nisi mentiantur testes, qui libere apud me sic confessi sunt.</s>
-					<s n="8" xml:lang="la" type="auto">Fuit iam circiter sex hebdomadas apud <persName ref="person108">Hospinianum</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person108">Leonhard Hospinian</persName>.</note>, praepositum collegii nostri<note xml:id="fn5" type="footnote" n="5">Gemeint ist wohl das sogenannte "untere" Kollegium der Universität; vgl. den undatierten Brief Thomas Blarers an Amerbach in: Amerbach, Korr. V 170f, <ref target="file12314">Nr. 2267</ref>.</note> et his diebus praefectum paedagogio praedicatorum<note xml:id="fn6" type="footnote" n="6">Vgl. Amerbach, Korr. V 171f, <ref target="file12315">Nr. 2268</ref>, 31. Dezember 153[7]. Dem Pädagogium im Dominikanerkloster hatte zuvor <persName ref="person69">Johannes Fries</persName>, dann <persName ref="person356">Jakob Arsent</persName> vorgestanden; vgl. die in HBBW VII, S. 81, Anm. I genannten Briefe, sowie (zu Arsent) Vadian BW V 467.</note>; is omnia bona testificatur de puero.</s>
+					<s n="8" xml:lang="la" type="auto">Fuit iam circiter sex hebdomadas apud <persName ref="p7073">Hospinianum</persName><note xml:id="fn4" type="footnote" n="4"><persName>Leonhard Hospinian</persName>.</note>, praepositum collegii nostri<note xml:id="fn5" type="footnote" n="5">Gemeint ist wohl das sogenannte "untere" Kollegium der Universität; vgl. den undatierten Brief Thomas Blarers an Amerbach in: Amerbach, Korr. V 170f, <ref target="file12314">Nr. 2267</ref>.</note> et his diebus praefectum paedagogio praedicatorum<note xml:id="fn6" type="footnote" n="6">Vgl. Amerbach, Korr. V 171f, <ref target="file12315">Nr. 2268</ref>, 31. Dezember 153[7]. Dem Pädagogium im Dominikanerkloster hatte zuvor <persName>Johannes Fries</persName>, dann <persName>Jakob Arsent</persName> vorgestanden; vgl. die in <bibl>HBBW</bibl> VII, S. 81, Anm. I genannten Briefe, sowie (zu Arsent) <bibl>Vadian BW V</bibl> 467.</note>; is omnia bona testificatur de puero.</s>
 					<s n="9" xml:lang="la" type="auto">Si posset apud hunc perdurare, consultum esset certe illi non vulgariter; talis est enim, ut domini et academię et senatus ad utrunque iam dictum munus vocarint precibus et pollicitationibus.</s>
 				</p>
 				<p>
@@ -145,18 +142,18 @@
 					<s n="13" xml:lang="la" type="auto">Spes est enim futurum talem, qualem optare potes.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Unum cave, ne cogas redire ad eum<note xml:id="fn7" type="footnote" n="7"><persName ref="person117">Karlstadt</persName>.</note>, a quo discessit; causas narrabit ipse.</s>
+					<s n="14" xml:lang="la" type="auto">Unum cave, ne cogas redire ad eum<note xml:id="fn7" type="footnote" n="7"><persName>Karlstadt</persName>.</note>, a quo discessit; causas narrabit ipse.</s>
 					<s n="15" xml:lang="la" type="auto">Hęc tibi; nam si caput irritabile illud tale aliquid de me rescisceret, ecclesia nostra peius habitura esset.</s>
 					<s n="16" xml:lang="la" type="auto">Ego quietem amo, quocirca multa cogor devorare, quae sunt satis acerba.</s>
 					<s n="17" xml:lang="la" type="auto">Verum sanitatem interea sic conservavi in ecclesiae capitibus.</s>
 				</p>
 				<p>
 					<s n="18" xml:lang="la" type="auto">Vale et me ama.</s>
-					<s n="19" xml:lang="la" type="auto">Salva sit familia tua omnis et d. <persName ref="person165">Pellicanus</persName>.</s>
-					<s n="20" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 17. ianuarii anno 38.</s>
+					<s n="19" xml:lang="la" type="auto">Salva sit familia tua omnis et d. <persName ref="p8127">Pellicanus</persName>.</s>
+					<s n="20" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 17. ianuarii anno 38.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="21" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

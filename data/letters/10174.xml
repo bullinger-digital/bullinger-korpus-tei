@@ -6,48 +6,39 @@
 				<title subtype="file">[Johannes Zwick] / Konstanz AN [Heinrich Bullinger], 26. Oktober 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=143</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">251</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,1 f.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Berichtet Gutes über die Lage in <placeName ref="place565">Konstanz</placeName>.
-								<persName ref="person19">Ambrosius [Blarer]</persName> ist vorläufig
-								noch in <placeName ref="place520">Isny</placeName>. Günstige Nachrichten von den Türken, die abgezogen
+								Berichtet Gutes über die Lage in <placeName>Konstanz</placeName>.
+								<persName ref="p8055">Ambrosius [Blarer]</persName> ist vorläufig
+								noch in <placeName>Isny</placeName>. Günstige Nachrichten von den Türken, die abgezogen
 								sind; die eigenen Truppen sind aber noch nicht zurück. Hat vom Unrecht gehört, das die Zürcher erleiden
 								müssen. Mahnt zur Gedult. Entschuldigt sich dafür, daß er zu wenig schreibt. Grüße.
 							</p>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 143, S.251</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10174">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="low">
+					<persName ref="p4079" cert="low">
 						<!--
 						<surname cert="low">Zwick</surname>
 						<forename cert="low">Johannes</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1532-10-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -109,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,11 +125,11 @@
 					<s n="3" xml:lang="la" type="auto">Utinam diu audiam hoc nuntium, maxime ut in domino et virtute spiritus sui quam diutissime salvi sitis.</s>
 					<s n="4" xml:lang="la" type="auto">Dominus autem ipse augeat hanc salutem publicitus atque privatim.</s>
 					<s n="5" xml:lang="la" type="auto">Et nos bene habemus, maxime cum bene habeat ecclesia nostra dempta zizania<note xml:id="fn2" type="footnote" n="2">Vgl. Mt 13,25-30.</note>.</s>
-					<s n="6" xml:lang="la" type="auto"><persName ref="person19">Ambrosius</persName>, frater noster, manet Isne.</s>
-					<s n="7" xml:lang="la" type="auto">De reditu non sumus certi, sed speramus eum statuisse hybernare apud nos<note xml:id="fn3" type="footnote" n="3"><persName ref="person19">Blarer</persName> hielt sich auf seiner Heimreise aus <placeName ref="place336">Esslingen</placeName> von September 1532 bis Februar 1533 in <placeName ref="place520">Isny</placeName> auf und kehrte erst im März 1533 nach <placeName ref="place565">Konstanz</placeName> zurück, s. <persName ref="person19">Blarer</persName> BW I 387; Brecht, 151f; Immanuel Kammerer, Die Reformation in <placeName ref="place520">Isny</placeName>, o. 0. 1954, S. 22-25.</note>.</s>
+					<s n="6" xml:lang="la" type="auto"><persName ref="p8055">Ambrosius</persName>, frater noster, manet Isne.</s>
+					<s n="7" xml:lang="la" type="auto">De reditu non sumus certi, sed speramus eum statuisse hybernare apud nos<note xml:id="fn3" type="footnote" n="3"><persName>Blarer</persName> hielt sich auf seiner Heimreise aus <placeName>Esslingen</placeName> von September 1532 bis Februar 1533 in <placeName>Isny</placeName> auf und kehrte erst im März 1533 nach <placeName>Konstanz</placeName> zurück, s. <persName>Blarer</persName> BW I 387; Brecht, 151f; Immanuel Kammerer, Die Reformation in <placeName>Isny</placeName>, o. 0. 1954, S. 22-25.</note>.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">De bello turcico<note xml:id="fn4" type="footnote" n="4">Über den Verlauf und Ausgang des Türkenzuges von 1532 s. Turetschek 318-336 und im speziellen noch Gertrud Gerhartl, Die Niederlage der Türken am Steinfeld 1532, [Wien] 1974. - Militärhistorische Schriftenreihe, Heft 26.</note> audimus non infoelicia, scilicet hostem evanuisse.</s>
+					<s n="8" xml:lang="la" type="auto">De bello turcico<note xml:id="fn4" type="footnote" n="4">Über den Verlauf und Ausgang des Türkenzuges von 1532 s. <bibl>Turetschek</bibl> 318-336 und im speziellen noch Gertrud Gerhartl, Die Niederlage der Türken am Steinfeld 1532, [Wien] 1974. - Militärhistorische Schriftenreihe, Heft 26.</note> audimus non infoelicia, scilicet hostem evanuisse.</s>
 					<s n="9" xml:lang="la" type="auto">Nescio, quem timorem illi dominus incusserit, cum interim alii hoc tribuant pugnis, idque cum potentiae dei aut voluntatis suae ignominia.</s>
 					<s n="10" xml:lang="la" type="auto">Faustum vero nuntium esse potest, si peiora respiciantur.</s>
 					<s n="11" xml:lang="la" type="auto">Sed certe satis infęliciter pugnat Germania, cum tanto impendio alternis ferme annis gravatur, etiam si nullum aliud periculum sit.</s>
@@ -141,7 +139,7 @@
 					<s n="15" xml:lang="la" type="auto">Quam infoeliciter prudentes sunt in belli negociis Germani, cum non pugnatum credunt, nisi fusis utrinque innumeris copiis, imo nisi ipsi sese miserrime prosternant!</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Milites nostri<note xml:id="fn5" type="footnote" n="5">Das Aufgebot der Stadt <placeName ref="place565">Konstanz</placeName>.</note> non redierunt, sed reditum expectamus in dies.</s>
+					<s n="16" xml:lang="la" type="auto">Milites nostri<note xml:id="fn5" type="footnote" n="5">Das Aufgebot der Stadt <placeName>Konstanz</placeName>.</note> non redierunt, sed reditum expectamus in dies.</s>
 					<s n="17" xml:lang="la" type="auto">Abituros hortabar, quibus moribus et quo animo redeundum esset.</s>
 					<s n="18" xml:lang="la" type="auto">Utinam tales videamus.</s>
 					<s n="19" xml:lang="la" type="auto">Alioqui nosti quid doceant bella.</s>
@@ -149,7 +147,7 @@
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto"><pb type="scan" next="||2."/>Praeterea audimus vos multis iniustitiis nescio a quibus gravari.</s>
-					<s n="22" xml:lang="la" type="auto">Sed utilius exercitium est gravari<note xml:id="fn6" type="footnote" n="6">Zu den Schwierigkeiten Zürichs nach dem Zweiten Landfrieden, insbesondere zum Streit um das Zürcher Messemandat s. HBRG III 329-348; oben S. 129, Anm. 12; unten S. 288f, Anm. 7.</note> quam alios gravare.</s>
+					<s n="22" xml:lang="la" type="auto">Sed utilius exercitium est gravari<note xml:id="fn6" type="footnote" n="6">Zu den Schwierigkeiten Zürichs nach dem Zweiten Landfrieden, insbesondere zum Streit um das Zürcher Messemandat s. <bibl>HBRG</bibl> III 329-348; oben S. 129, Anm. 12; unten S. 288f, Anm. 7.</note> quam alios gravare.</s>
 					<s n="23" xml:lang="la" type="auto">Memineritis vos quoque regnasse.</s>
 					<s n="24" xml:lang="la" type="auto">Nolite statim excandescere ad quamvis iniuriam, ne invocetis carnis brachium nec meditemini pro iustitia forte vindictam.</s>
 					<s n="25" xml:lang="la" type="auto">Suspectus sit zelus, suspecti sint instigatores quidam, qui pro privatis iniuriis patientia vincendis turbas vellent excitari.</s>
@@ -164,7 +162,7 @@
 					<s n="32" xml:lang="la" type="auto">Alioqui nunquam non scriberem «obruaris».</s>
 				</p>
 				<p>
-					<s n="33" xml:lang="la" type="auto">Quantum fieri potuit, subventum est huic misero<note xml:id="fn8" type="footnote" n="8">vielleicht <persName ref="person51">Ulrich Eckstein</persName>, s. oben <ref target="file10169">[Nr. 138]</ref> S. 244, Anm. I.</note>, sed non pro necessitate.</s>
+					<s n="33" xml:lang="la" type="auto">Quantum fieri potuit, subventum est huic misero<note xml:id="fn8" type="footnote" n="8">vielleicht <persName>Ulrich Eckstein</persName>, s. oben <ref target="file10169">[Nr. 138]</ref> S. 244, Anm. I.</note>, sed non pro necessitate.</s>
 					<s n="34" xml:lang="la" type="auto">Non credis, quam non possit a nobis fieri, quod tamen omnibus votis optamus.</s>
 				</p>
 				<p>
@@ -173,8 +171,8 @@
 					<s n="37" xml:lang="la" type="auto">Tu adde nomina.</s>
 				</p>
 				<p>
-					<s n="38" xml:lang="la" type="auto"><persName ref="person165">Pellicanum</persName> patrem in primis salvum iubeo.</s>
-					<s n="39" xml:lang="la" type="auto">Utinam uxor tua<note xml:id="fn10" type="footnote" n="10"><persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note>, liberi, familia et omnia tua salva sint.</s>
+					<s n="38" xml:lang="la" type="auto"><persName ref="p8127">Pellicanum</persName> patrem in primis salvum iubeo.</s>
+					<s n="39" xml:lang="la" type="auto">Utinam uxor tua<note xml:id="fn10" type="footnote" n="10"><persName>Anna Bullinger, geb. Adlischwyler</persName>.</note>, liberi, familia et omnia tua salva sint.</s>
 				</p>
 				<p>
 					<s n="40" xml:lang="la" type="auto">Atramentarium parabo.</s>
@@ -183,7 +181,7 @@
 					<s n="41" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="42" xml:lang="la" type="auto"><placeName ref="place565">Constantiae</placeName>, 26. octobris 1532.</s>
+					<s n="42" xml:lang="la" type="auto"><placeName>Constantiae</placeName>, 26. octobris 1532.</s>
 				</p>
 				<p>
 					<note type="address">[Ohne Adresse.]</note>

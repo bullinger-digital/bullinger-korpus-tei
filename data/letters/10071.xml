@@ -6,47 +6,38 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Ambrosius Blarer, 30. November 1531</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=43</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">222</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 32, Nr. 77 1/2 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Empfiehlt <persName ref="person195">Gervasius Schuler</persName>, der mit ihm zusammen aus
-								<placeName ref="place178">Bremgarten</placeName> vertrieben worden sei.
+								Empfiehlt <persName ref="p8440">Gervasius Schuler</persName>, der mit ihm zusammen aus
+								<placeName>Bremgarten</placeName> vertrieben worden sei.
 							</p>
 						</summary>
 						<msItem>
@@ -59,7 +50,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
-								<title>Blarer BW I, S. 293</title>
+								<title>Blarer BW I, S.293</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 43, S.222</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -69,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10071">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -79,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1531-11-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -119,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -129,16 +123,16 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et vitae innocentiam a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Etsi hactenus tibi, <persName ref="person19">Ambrosi</persName> charissime, nihil scripserim post binas, ni fallor, aut ternas litteras<note xml:id="fn2" type="footnote" n="2">Diese früheren Briefe sind nicht mehr alle vorhanden. Von Bullinger erhalten ist die gedruckte Epistel vom 4. Juni 1528 (s. oben Nr. 29), von <persName ref="person19">Blarer</persName> die Briefe vom 1. September 1528 und 11. August 1529 (s. oben Nr. 30 und 32).</note>, attamen animo me tuo excidisse non valeo vel cogitare.</s>
+					<s n="2" xml:lang="la" type="auto">Etsi hactenus tibi, <persName ref="p8055">Ambrosi</persName> charissime, nihil scripserim post binas, ni fallor, aut ternas litteras<note xml:id="fn2" type="footnote" n="2">Diese früheren Briefe sind nicht mehr alle vorhanden. Von Bullinger erhalten ist die gedruckte Epistel vom 4. Juni 1528 (s. oben Nr. 29), von <persName>Blarer</persName> die Briefe vom 1. September 1528 und 11. August 1529 (s. oben Nr. 30 und 32).</note>, attamen animo me tuo excidisse non valeo vel cogitare.</s>
 					<s n="3" xml:lang="la" type="auto">Vera enim amicitia et charitas christiana adeo non minuitur coepta, ut vel magis indies augeatur.</s>
-					<s n="4" xml:lang="la" type="auto">Hac vero fretus commendo tibi <persName ref="person195">Gervasium</persName> nostrum Scholasticum<note xml:id="fn3" type="footnote" n="3"><persName ref="person195">Gervasius Schuler</persName>, s. oben <ref target="file10061">[Nr. 34]</ref> S. 193 f, Anm. 5.</note>, symmistam meum, qui ante dies aliquot una mecum e patria nostra<note xml:id="fna" type="footnote" n="a">nostra <hi>am Rande nachgetragen.</hi></note> <placeName ref="place178">Bremgarten</placeName> pulsus nunc apud Tygurinos degit [in] exilio.</s>
+					<s n="4" xml:lang="la" type="auto">Hac vero fretus commendo tibi <persName ref="p8440">Gervasium</persName> nostrum Scholasticum<note xml:id="fn3" type="footnote" n="3"><persName>Gervasius Schuler</persName>, s. oben <ref target="file10061">[Nr. 34]</ref> S. 193 f, Anm. 5.</note>, symmistam meum, qui ante dies aliquot una mecum e patria nostra<note xml:id="fna" type="footnote" n="a">nostra <hi>am Rande nachgetragen.</hi></note> <placeName>Bremgarten</placeName> pulsus nunc apud Tygurinos degit [in] exilio.</s>
 					<s n="5" xml:lang="la" type="auto">Vir est et eruditione et pietate, fide fidelitateque<note xml:id="fnb" type="footnote" n="b">te <hi>von</hi> fidelitateque <hi>übergeschrieben.</hi></note> praeclarus, cui tuto (si quae esset) ecclesiam posses commendare praeclaram.</s>
-					<s n="6" xml:lang="la" type="auto">Patria <placeName ref="place1049">Argentoratensis</placeName> est, uxorem<note xml:id="fn4" type="footnote" n="4"><persName ref="person195">Schulers</persName> erste Frau war eine geborene Lübegger, die er um 1520 in Zürich kennengelernt hatte; sie starb wahrscheinlich Ende 1545 in <placeName ref="place697">Memmingen</placeName> <hi>(Hänny</hi> 16.28).</note> praeterea habet et filiolas, ni fallor, duas.</s>
+					<s n="6" xml:lang="la" type="auto">Patria <placeName>Argentoratensis</placeName> est, uxorem<note xml:id="fn4" type="footnote" n="4"><persName>Schulers</persName> erste Frau war eine geborene Lübegger, die er um 1520 in Zürich kennengelernt hatte; sie starb wahrscheinlich Ende 1545 in <placeName>Memmingen</placeName> <hi>(Hänny</hi> 16.28).</note> praeterea habet et filiolas, ni fallor, duas.</s>
 					<s n="7" xml:lang="la" type="auto">Bremgarti hactenus docuit Christum pure; nunc per tumultum bellicum una mecum expulsus est.</s>
 					<s n="8" xml:lang="la" type="auto">Ego interim et pan addictus exilio Tyguri vivo, expectaturus, quem rebus eventum daturus sit deus.</s>
 					<s n="9" xml:lang="la" type="auto">Scimus autem et prophetas et apostolos, ipsum denique caput Christum et persequtiones pertulisse et praedixisse<note xml:id="fn5" type="footnote" n="5">Vgl. u. a. Mt 5,10-12; 1 Petr 2,20f.</note>.</s>
 					<s n="10" xml:lang="la" type="auto">Unde et patienti animo ferimus omnia, scientes, quod cum eo glorificabimur, cum quo nunc patimur<note xml:id="fn6" type="footnote" n="6">Siehe Röm 8,17.</note>.</s>
-					<s n="11" xml:lang="la" type="auto">Quod si <persName ref="person195">Gervasii</persName> opera tibi opus fuerit, <persName ref="person114">Leoni</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person114">Leo Jud</persName>, s. oben <ref target="file10022">[Nr. 4]</ref> S. 55, Anm. 1.</note> nostro aut mihi scribas<note xml:id="fn8" type="footnote" n="8">Die Antwort <persName ref="person19">Blarers</persName> ist nicht erhalten. Er konnte <persName ref="person195">Schuler</persName> zwar keine Anstellung verschaffen, doch war es seinem Einfluß zu verdanken, daß dieser 1533 nach <placeName ref="place697">Memmingen</placeName> berufen wurde (vgl. <persName ref="person19">Blarer</persName> BW I 436. 440f. 4431. 4521; <hi>Hänny</hi> 23f).</note>.</s>
+					<s n="11" xml:lang="la" type="auto">Quod si <persName ref="p8440">Gervasii</persName> opera tibi opus fuerit, <persName ref="p1753">Leoni</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="p2305">Leo Jud</persName>, s. oben <ref target="file10022">[Nr. 4]</ref> S. 55, Anm. 1.</note> nostro aut mihi scribas<note xml:id="fn8" type="footnote" n="8">Die Antwort <persName>Blarers</persName> ist nicht erhalten. Er konnte <persName>Schuler</persName> zwar keine Anstellung verschaffen, doch war es seinem Einfluß zu verdanken, daß dieser 1533 nach <placeName>Memmingen</placeName> berufen wurde (vgl. <persName>Blarer</persName> BW I 436. 440f. 4431. 4521; <bibl>Hänny</bibl> 23f).</note>.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Vale et dominum ora pro nobis et nostra infoelici Helvetia.</s>
@@ -151,7 +145,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person19">Ambrosio Blaurero</persName>, Esslingę praedicanti evangelion, amico et fratri charissimo.</s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p8055">Ambrosio Blaurero</persName>, Esslingę praedicanti evangelion, amico et fratri charissimo.</s>
 				</p>
 			</div>
 		</body>

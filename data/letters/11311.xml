@@ -6,65 +6,63 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius, 7. Mai 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1268</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">134</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms A 40,19r.-v., Nr. 9</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Ermutigt ihn, das Hirtenamt gegen die Ansprüche der Universität zu verteidigen; es drohen sonst ähnliche
-								Eingriffe in kirchliche Dinge, wie sie die [<placeName ref="place958">Schmalkaldener</placeName>] soeben
-								in <placeName ref="place361">Frankfurt</placeName> ermöglicht haben, indem sie Religionsverhandlungen
+								Eingriffe in kirchliche Dinge, wie sie die [<placeName>Schmalkaldener</placeName>] soeben
+								in <placeName>Frankfurt</placeName> ermöglicht haben, indem sie Religionsverhandlungen
 								mit kaiserlichen Vermittlern akzeptierten. Mahnt, angesichts der Feinde jenseits des
-								<placeName ref="place11">Rheins</placeName> wachsam zu sein; die Zürcher lehnen die geplante
+								<placeName>Rheins</placeName> wachsam zu sein; die Zürcher lehnen die geplante
 								Vermittlung ab und rechnen mit kommender Verfolgung. Kann wegen der Synode nicht ausführlicher schreiben;
-								mißbilligt, was in <placeName ref="place361">Frankfurt</placeName> ausgehandelt wurde. Grüße.
+								mißbilligt, was in <placeName>Frankfurt</placeName> ausgehandelt wurde. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1268, S.134</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11311">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1539-05-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -115,9 +113,13 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="11311/Autograph/00__Ms__A__40__(9)_00001.tif" n="1"/>
+		<graphic xml:id="img2" url="11311/Autograph/01__Ms__A__40__(9)_00002.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
@@ -125,7 +127,7 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et vitae innocentiam a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Ego vero, venerande frater, non facile loco cederem<note xml:id="fn1" type="footnote" n="1"><persName ref="person154">Myconius</persName> hatte angekündigt, sein Amt aufzugeben, falls er zur Annahme der neuen Universitätsstatuten gezwungen werde; s. oben <ref target="file11307">Nr. 1264</ref>, 5-7.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Ego vero, venerande frater, non facile loco cederem<note xml:id="fn1" type="footnote" n="1"><persName>Myconius</persName> hatte angekündigt, sein Amt aufzugeben, falls er zur Annahme der neuen Universitätsstatuten gezwungen werde; s. oben <ref target="file11307">Nr. 1264</ref>, 5-7.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Pastor es.</s>
 					<s n="4" xml:lang="la" type="auto">Oves tibi comm[issae] sunt.</s>
 					<s n="5" xml:lang="la" type="auto">Nunc agitur de pabulo ovium, et penes quos sit aut[ho]ritas dispensandi pabuli.</s>
@@ -141,12 +143,12 @@
 				<p>
 					<s n="12" xml:lang="la" type="auto">Sc[ilicet] subesse debet doctoribus.</s>
 					<s n="13" xml:lang="la" type="auto">Doctores ecclesiarum pastor[es] sunt, qui tamen ministros se, non dominos agnoscunt ecc[lesiae].</s>
-					<s n="14" xml:lang="de" type="auto">Was gond si hür und fernn<note xml:id="fn2" type="footnote" n="2">immerdar.</note> mit dem hochfertigen bu[tzen]werck<note xml:id="fn3" type="footnote" n="3">hoffärtigen Mummenschanz (vgl. auch <persName ref="person265">Zwinglis</persName> "Der Hirt", Z III 36, 1).</note> umb?</s>
+					<s n="14" xml:lang="de" type="auto">Was gond si hür und fernn<note xml:id="fn2" type="footnote" n="2">immerdar.</note> mit dem hochfertigen bu[tzen]werck<note xml:id="fn3" type="footnote" n="3">hoffärtigen Mummenschanz (vgl. auch <persName>Zwinglis</persName> "Der Hirt", <bibl>Z</bibl> III 36, 1).</note> umb?</s>
 					<s n="15" xml:lang="la" type="auto">Fortiter te illis oppone.</s>
 					<s n="16" xml:lang="la" type="auto">Minare te negotium toti ecclesiae propositurum.</s>
-					<s n="17" xml:lang="la" type="auto">Nam crede m[ihi] id <placeName ref="place97">Basileiensi</placeName> ecclesiae aliquando usu venturum, quod hod[ie] Francfordiae nostris usu venisse doleo.</s>
-					<s n="18" xml:lang="la" type="auto">Consensere e[nim], ut 6 viri iique animis tranquillis, id est flexibilibus p[...] totam causam religionis contraversam componant<note xml:id="fn4" type="footnote" n="4">Zum Religionsgespräch, auf das man sich im <placeName ref="place361">Frankfurter</placeName> Anstand vom 19. April geeinigt hatte, s. oben <ref target="file11304">Nr. 1261</ref>, Anm. 6.</note>.</s>
-					<s n="19" xml:lang="la" type="auto">Iunget i[llis] augustus et caesar<note xml:id="fn5" type="footnote" n="5"><persName ref="person1332">Karl V.</persName></note> arbitros.</s>
+					<s n="17" xml:lang="la" type="auto">Nam crede m[ihi] id <placeName>Basileiensi</placeName> ecclesiae aliquando usu venturum, quod hod[ie] Francfordiae nostris usu venisse doleo.</s>
+					<s n="18" xml:lang="la" type="auto">Consensere e[nim], ut 6 viri iique animis tranquillis, id est flexibilibus p[...] totam causam religionis contraversam componant<note xml:id="fn4" type="footnote" n="4">Zum Religionsgespräch, auf das man sich im <placeName>Frankfurter</placeName> Anstand vom 19. April geeinigt hatte, s. oben <ref target="file11304">Nr. 1261</ref>, Anm. 6.</note>.</s>
+					<s n="19" xml:lang="la" type="auto">Iunget i[llis] augustus et caesar<note xml:id="fn5" type="footnote" n="5"><persName>Karl V.</persName></note> arbitros.</s>
 					<s n="20" xml:lang="la" type="auto">An non poterunt aliquan[do de] universitate 4 viri censuram sibi dogmatum et [mo]rum sumere et pro libitu contra liberam veritat[em] pronunciare?</s>
 					<s n="21" xml:lang="de" type="auto">Denn<note xml:id="fn6" type="footnote" n="6">Dann.</note> so muͦß mans also haben, man [hatts] gewöllen.</s>
 					<s n="22" xml:lang="la" type="auto">An non consultius respondissent Francf[or]diae: „Veritati innitimur canonicae; huic immor[iemur]; si vobis errare<pb type="edition" next="135"/> videmur, scripturis convincite a[ut] cessate.“?</s>
@@ -157,10 +159,10 @@
 				<p>
 					<s n="26" xml:lang="la" type="auto">Isti al[iquam] compositionem etiam cum monachis et pfaffis ind[ucunt].</s>
 					<s n="27" xml:lang="la" type="auto">Sed hoc tibi ut fido in cor tuum et sinum tuum [effun]do.</s>
-					<s n="28" xml:lang="la" type="auto">Tu, mi <persName ref="person154">Myconi</persName>, fortis sis, simplici [verita]ti studeas et valeas semper mei memor.</s>
+					<s n="28" xml:lang="la" type="auto">Tu, mi <persName ref="p8418">Myconi</persName>, fortis sis, simplici [verita]ti studeas et valeas semper mei memor.</s>
 				</p>
 				<p>
-					<s n="29" xml:lang="de" type="auto">D[er wi]derwertigen<note xml:id="fn9" type="footnote" n="9">Feinde.</note> enet Ryns<note xml:id="fn10" type="footnote" n="10">jenseits des <placeName ref="place11">Rheins</placeName>.</note> und pfäffischen sind [vil].</s>
+					<s n="29" xml:lang="de" type="auto">D[er wi]derwertigen<note xml:id="fn9" type="footnote" n="9">Feinde.</note> enet Ryns<note xml:id="fn10" type="footnote" n="10">jenseits des <placeName>Rheins</placeName>.</note> und pfäffischen sind [vil].</s>
 					<s n="30" xml:lang="de" type="auto">Wachet in fröuden.</s>
 					<s n="31" xml:lang="de" type="auto">Die unsern, hoch beckü[mmert],<pb type="scan" next="19v."/> besorgend, uß dem componieren werdint nahin<note xml:id="fn11" type="footnote" n="11">nachher.</note> vil getränt, die vor eins warind.</s>
 					<s n="32" xml:lang="de" type="auto">Schlächts<note xml:id="fn12" type="footnote" n="12">Kurzum.</note>, man wird ghein composition annemmen.</s>
@@ -177,7 +179,7 @@
 					<s n="41" xml:lang="de" type="auto">Mir gfallt die Franckfurtisch handlung imm hertzen nüt, <foreign xml:lang="la">ut libere tibi dicam animi mei secretum</foreign>.</s>
 				</p>
 				<p>
-					<s n="42" xml:lang="la" type="auto"><persName ref="person14">Theodorus</persName><note xml:id="fn15" type="footnote" n="15"><persName ref="person14">Theodor Bibliander</persName>.</note>, <persName ref="person165">Pellicanus</persName> et reliqui te salvere iubent.</s>
+					<s n="42" xml:lang="la" type="auto"><persName ref="p8171">Theodorus</persName><note xml:id="fn15" type="footnote" n="15"><persName>Theodor Bibliander</persName>.</note>, <persName ref="p8127">Pellicanus</persName> et reliqui te salvere iubent.</s>
 					<s n="43" xml:lang="la" type="auto">7. maii 1539.</s>
 				</p>
 				<p>
@@ -185,7 +187,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>
-					<s n="45" xml:lang="la" type="auto">Domino <persName ref="person154">Osvaldo Myconio</persName>, antistiti <placeName ref="place97">Basileiensi</placeName>, fratri colendissimo<note xml:id="fnb" type="footnote" n="b"><hi>Daneben Notenlinien und Musiknoten (Schluß einer Baßstimme) von unbekannter Hand.</hi></note>.</s>
+					<s n="45" xml:lang="la" type="auto">Domino <persName ref="p8418">Osvaldo Myconio</persName>, antistiti <placeName>Basileiensi</placeName>, fratri colendissimo<note xml:id="fnb" type="footnote" n="b"><hi>Daneben Notenlinien und Musiknoten (Schluß einer Baßstimme) von unbekannter Hand.</hi></note>.</s>
 				</p>
 			</div>
 		</body>

@@ -6,47 +6,38 @@
 				<title subtype="file">[Heinrich Bullinger], Johannes Enzlin / Hausen am Albis AN Christoph Stiltz, 21. Januar 1526</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=13</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">85</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph__(Kopie)">Ms A 82,90r-91r 2 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								In Beantwortung eines Briefes von <persName ref="person206">Stiltz</persName> an
-								<persName ref="person56">Enzlin</persName> beweist Bullinger, daß die Gabe des Heiligen Geistes nicht auf
+								In Beantwortung eines Briefes von <persName ref="p2832">Stiltz</persName> an
+								<persName ref="p4198">Enzlin</persName> beweist Bullinger, daß die Gabe des Heiligen Geistes nicht auf
 								die Kirchenväter beschränkt werden kann, sondern daß sie den Christen jederzeit, auch in der Gegenwart,
 								gewährt wird, und polemisiert gegen die erasmische Lehre vom freien Willen.
 							</p>
@@ -58,13 +49,20 @@
 					<physDesc>
 						<objectDesc><p>sehr gut erhalten</p></objectDesc>
 					</physDesc>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 13, S.85</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10038">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<orig>[Bullinger] im Namen von Johannes Enzlin, Hausen [Kappel]</orig>
 						<!--
 						<surname cert="low">Bullinger</surname>
@@ -75,18 +73,18 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1043" cert="high">
+					<persName ref="p1043" cert="high">
 						<!--
 						<surname cert="high">Enzlin</surname>
 						<forename cert="high">Johannes</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/138035989"/>
 						-->
 					</persName>
-					<placeName source="place207" cert="high"><orig>Hausen am Albis</orig></placeName>
+					<placeName source="l207" cert="high"><orig>Hausen am Albis</orig></placeName>
 					<date when="1526-01-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2832" cert="high">
+					<persName ref="p2832" cert="high">
 						<!--
 						<surname cert="high">Stiltz</surname>
 						<forename cert="high">Christoph</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -124,12 +122,12 @@
 				<p>
 					<s n="2" xml:lang="la" type="auto">Effari non potest, quantum me tua delectarit epistola<note xml:id="fn3" type="footnote" n="3">Nicht auffindbar.</note>, partim quod a parente profecta, partim quod paterni tui in me animi plurimam spiraret benevolentiam.</s>
 					<s n="3" xml:lang="la" type="auto">Hac tantum parte durior videbatur, qua tu patribus spiritum ita tribuis, ut nihil fere reliqui facias deploratissimis nostri aevi hominibus.</s>
-					<s n="4" xml:lang="la" type="auto">Sic enim intonas haud verisimile esse patres et vetustate et sanctitate celebres caruisse spiritu, quo indice etiam heccine potuissent depraehendere placita, quae nunc quasi e tripode<note xml:id="fn4" type="footnote" n="4">Sprichwörtliche Redewendung zur Bekräftigung einer Aussage, Adagia 1, 7, 90 (LB II 297 E-F).</note> pronuncientur.</s>
-					<s n="5" xml:lang="la" type="auto">Ito ergo, si ignoras, ad ipsum <persName ref="person371">Augustinum</persName> ac percontare, num antiquitas an sanctorum sanctitas graviorem reddat doctrinam!</s>
+					<s n="4" xml:lang="la" type="auto">Sic enim intonas haud verisimile esse patres et vetustate et sanctitate celebres caruisse spiritu, quo indice etiam heccine potuissent depraehendere placita, quae nunc quasi e tripode<note xml:id="fn4" type="footnote" n="4">Sprichwörtliche Redewendung zur Bekräftigung einer Aussage, <bibl>Adagia</bibl> 1, 7, 90 (<bibl>LB</bibl> II 297 E-F).</note> pronuncientur.</s>
+					<s n="5" xml:lang="la" type="auto">Ito ergo, si ignoras, ad ipsum <persName ref="p18700">Augustinum</persName> ac percontare, num antiquitas an sanctorum sanctitas graviorem reddat doctrinam!</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto"><pb type="edition" next="86"/>Docebit is nimirum in epistola ad <persName ref="person1173">Hieronymum</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person371">Augustin</persName>, ep. LXXXII, 3 und 5 (CSEL XXXIIII 354, 4ff und 355, 25ff); vgl. Z IV 81, 25ff, wo sich Zwingli ebenfalls auf die in CorpIC, Decretum Gratiani, c. 5, D. IX zitierte Augustinstelle stützt, zur Sache s. <hi>Staedtke</hi> 72ff.</note> fere postrema istaec conferre nihil, imo id, quod ex scripturis authoritatem non habet, execrandum esse, cui et <persName ref="person669">Ciprianus</persName><note xml:id="fn6" type="footnote" n="6">Siehe z. B. <persName ref="person669">Cyprian</persName>, ep. LXXIV, 2 (CSEL III/2 800, 10ff).</note> in epistolis subscribit.</s>
-					<s n="7" xml:lang="la" type="auto">Ut nunc non referam, quod nolit sibi fidem adhiberi <persName ref="person371">Augustinus</persName>, nisi scripturis sua muniat, utpote qui non uno loco errarit; testimonia sunt in praefatione 3. lib. «De trinitate»<note xml:id="fn7" type="footnote" n="7"><persName ref="person371">Augustin</persName>, De trinitate, III, prooemium, [2] (CChr L 128, 38ff).</note>, Ad <persName ref="person609">Casulanum</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="person371">Augustin</persName>, ep. XXXVI, 2 (CSEL XXXIIII 32, 4-19), u. ö.</note>, <persName ref="person852">Fortunatum</persName><note xml:id="fn9" type="footnote" n="9">Im Briefe <persName ref="person371">Augustins</persName> an <persName ref="person853">Fortunatus</persName> (ep. CXV) findet sich keine entsprechende Stelle. Vielleicht bezieht sich Bullinger auf einen Abschnitt im Briefe an <persName ref="person852">Fortunatianus</persName>, ep. CXLVIII, 15 (CSEL XXXXIIII 344, 21ff).</note> et <persName ref="person2390">Vincentium</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="person371">Augustin</persName>, ep. XCIII, 35 (CSEL XXXIIII 480, 9ff), u. ö.</note>.</s>
+					<s n="6" xml:lang="la" type="auto"><pb type="edition" next="86"/>Docebit is nimirum in epistola ad <persName>Hieronymum</persName><note xml:id="fn5" type="footnote" n="5"><persName>Augustin</persName>, ep. LXXXII, 3 und 5 (<bibl>CSEL</bibl> XXXIIII 354, 4ff und 355, 25ff); vgl. <bibl>Z</bibl> IV 81, 25ff, wo sich Zwingli ebenfalls auf die in CorpIC, Decretum Gratiani, c. 5, D. IX zitierte Augustinstelle stützt, zur Sache s. <bibl>Staedtke</bibl> 72ff.</note> fere postrema istaec conferre nihil, imo id, quod ex scripturis authoritatem non habet, execrandum esse, cui et <persName>Ciprianus</persName><note xml:id="fn6" type="footnote" n="6">Siehe z. B. <persName>Cyprian</persName>, ep. LXXIV, 2 (<bibl>CSEL</bibl> III/2 800, 10ff).</note> in epistolis subscribit.</s>
+					<s n="7" xml:lang="la" type="auto">Ut nunc non referam, quod nolit sibi fidem adhiberi <persName ref="p18700">Augustinus</persName>, nisi scripturis sua muniat, utpote qui non uno loco errarit; testimonia sunt in praefatione 3. lib. «De trinitate»<note xml:id="fn7" type="footnote" n="7"><persName>Augustin</persName>, De trinitate, III, prooemium, [2] (CChr L 128, 38ff).</note>, Ad <persName ref="p18700">Casulanum</persName><note xml:id="fn8" type="footnote" n="8"><persName>Augustin</persName>, ep. XXXVI, 2 (<bibl>CSEL</bibl> XXXIIII 32, 4-19), u. ö.</note>, <persName>Fortunatum</persName><note xml:id="fn9" type="footnote" n="9">Im Briefe <persName>Augustins</persName> an <persName>Fortunatus</persName> (ep. CXV) findet sich keine entsprechende Stelle. Vielleicht bezieht sich Bullinger auf einen Abschnitt im Briefe an <persName>Fortunatianus</persName>, ep. CXLVIII, 15 (<bibl>CSEL</bibl> XXXXIIII 344, 21ff).</note> et <persName>Vincentium</persName><note xml:id="fn10" type="footnote" n="10"><persName>Augustin</persName>, ep. XCIII, 35 (<bibl>CSEL</bibl> XXXIIII 480, 9ff), u. ö.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Igiturne patribus alligatus erit<pb type="scan" next="||90v."/> spiritussanctus<note xml:id="fna" type="footnote" n="a"><hi>oben aRvB als Überschrift:</hi> De libello Erasmi «De libero arbitrio».</note> et uno tempore omnibus omnia revelanda?</s>
 					<s n="9" xml:lang="la" type="auto">Ergo quo torquebimus Christi verba: «Ero vobiscum usque ad consumationem seculi» [Mt 28,20]?</s>
 					<s n="10" xml:lang="la" type="auto">Cur non statim ad primam promissionem orbi terrarum illuxit Christus?</s>
@@ -137,33 +135,33 @@
 					<s n="12" xml:lang="la" type="auto">An hoc propterea factum, quod tenor divini oraculi, divinae voluntatis testimonium sic disposuerit?</s>
 					<s n="13" xml:lang="la" type="auto">Cur ergo non videmus et nostram captivitatem iuxta prophetarum, Christi et apostolorum vaticinia talem esse oportere, qualem, proh dolor, conspeximus mortales omnium deploratissimi sub impiissimo Antichristi regno?</s>
 					<s n="14" xml:lang="la" type="auto">Imo, cum Moses<note xml:id="fn11" type="footnote" n="11">Vgl. Dtn 18,15ff.</note> ac Paulus<note xml:id="fn12" type="footnote" n="12">Vgl. 1 Kor 12, 10.28; 14,3ff, u. ö.</note> prophetiam omnibus relinquant liberam, quis adeo omnem pudorem abstersit, ut prophetare quemquam inhibeat?</s>
-					<s n="15" xml:lang="la" type="auto">Interim probandos quoque spiritus censemus iubente <persName ref="person56">Ioanne</persName><note xml:id="fn13" type="footnote" n="13">1 Joh 4,1.</note> et Paulo<note xml:id="fn14" type="footnote" n="14">1 Thess 5,19-20.</note> et hic adeo certum scimus esse verbum dei lidium nostrum lapidem<note xml:id="fn15" type="footnote" n="15">Der lydische Stein galt im Altertum als Probierstein, Adagia, 1, 5, 87 (LB II 215 B -D) Pauly/Wissowa XXVI 2129.</note>, ut nihil nos per deum fugere possit, est enim pedum nostrorum lucerna<note xml:id="fn16" type="footnote" n="16">Siehe Ps 119, 105.</note> ac argentum septies defecatum<note xml:id="fn17" type="footnote" n="17">Vgl. Ps 12,7.</note>, infallibilis et aeterna regula<note xml:id="fn18" type="footnote" n="18">Vgl. Ps 33,4; Jes 40,8; 1 Petr 1,23ff.</note>.</s>
+					<s n="15" xml:lang="la" type="auto">Interim probandos quoque spiritus censemus iubente <persName ref="p4198">Ioanne</persName><note xml:id="fn13" type="footnote" n="13">1 Joh 4,1.</note> et Paulo<note xml:id="fn14" type="footnote" n="14">1 Thess 5,19-20.</note> et hic adeo certum scimus esse verbum dei lidium nostrum lapidem<note xml:id="fn15" type="footnote" n="15">Der lydische Stein galt im Altertum als Probierstein, Adagia, 1, 5, 87 (<bibl>LB</bibl> II 215 B -D) <bibl>Pauly/Wissowa</bibl> XXVI 2129.</note>, ut nihil nos per deum fugere possit, est enim pedum nostrorum lucerna<note xml:id="fn16" type="footnote" n="16">Siehe Ps 119, 105.</note> ac argentum septies defecatum<note xml:id="fn17" type="footnote" n="17">Vgl. Ps 12,7.</note>, infallibilis et aeterna regula<note xml:id="fn18" type="footnote" n="18">Vgl. Ps 33,4; Jes 40,8; 1 Petr 1,23ff.</note>.</s>
 					<s n="16" xml:lang="la" type="manual">Unde non est, quod verearis, ne sub larva pietatis se sceleratissimus ille hominum hostis ingerat nobisque imponat<note xml:id="fn19" type="footnote" n="19">Vgl. 2 Thess 2,8ff.</note>.</s>
 					<s n="17" xml:lang="la" type="manual">«Unctio docebit omnia» [1 Joh 2,27], fides et charitas iudicabunt singula<note xml:id="fn20" type="footnote" n="20">Vgl. 1 Kor 2,13ff.</note>.</s>
-					<s n="18" xml:lang="la" type="auto">Tu vide Augusti[num] «In Ioannem tracta[tus]» 16<note xml:id="fn21" type="footnote" n="21">Vermutlich <persName ref="person371">Augustin</persName>, In Iohannis Evangelium Tractatus XVI, 2 (CChr XXXVI 165, 16ff).</note> et 18<note xml:id="fn22" type="footnote" n="22">Ebenda, XVIII, 2 (CChr XXXVI 180, 16ff), u. ö.</note>, ac <persName ref="person2287">Tertullianum</persName> in «Praescriptione hereticorum»<note xml:id="fn23" type="footnote" n="23"><persName ref="person2287">Tertullian</persName>, De praescriptione haereticorum, VI (CChr I 191, 11ff), s. <hi>Staedtke</hi> 73ff.</note>.</s>
+					<s n="18" xml:lang="la" type="auto">Tu vide Augusti[num] «In Ioannem tracta[tus]» 16<note xml:id="fn21" type="footnote" n="21">Vermutlich <persName>Augustin</persName>, In Iohannis Evangelium Tractatus XVI, 2 (CChr XXXVI 165, 16ff).</note> et 18<note xml:id="fn22" type="footnote" n="22">Ebenda, XVIII, 2 (CChr XXXVI 180, 16ff), u. ö.</note>, ac <persName ref="p17746">Tertullianum</persName> in «Praescriptione hereticorum»<note xml:id="fn23" type="footnote" n="23"><persName>Tertullian</persName>, De praescriptione haereticorum, VI (CChr I 191, 11ff), s. <bibl>Staedtke</bibl> 73ff.</note>.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">Iam quod paulo incivilius <persName ref="person779">Erasmi</persName> libellum, cui tit[ulus]: «De libero arbitrio<pb type="edition" next="87"/> collatio»<note xml:id="fn24" type="footnote" n="24"><persName ref="person779">Erasmus</persName>, De libero arbitrio <foreign xml:lang="el">ΔΙΑΤΡΙΒΗ</foreign> sive collatio, 1524, hg. v. Johannes von Walter, Leipzig 1910. - Quellenschriften zur Geschichte des Protestantismus, H. 8; Bibliotheca Erasmiana S. 20.</note>, tractaverim<note xml:id="fn25" type="footnote" n="25">Vermutlich in einem nicht erhaltenen Brief.</note>, mirum est, quam egre feras; verum nos propterea palinodiam non canimus<note xml:id="fn26" type="footnote" n="26">palinodiam canere seine Meinung ändern, widerrufen, Adagia, 1, 9, 59 (LB II 356 A-B); Otto 262, Nr. 1323.</note>, quinimo ne lato quidem cedimus culmo.</s>
+					<s n="19" xml:lang="la" type="auto">Iam quod paulo incivilius <persName ref="p18722">Erasmi</persName> libellum, cui tit[ulus]: «De libero arbitrio<pb type="edition" next="87"/> collatio»<note xml:id="fn24" type="footnote" n="24"><persName>Erasmus</persName>, De libero arbitrio <foreign xml:lang="el">ΔΙΑΤΡΙΒΗ</foreign> sive collatio, 1524, hg. v. Johannes von Walter, Leipzig 1910. - Quellenschriften zur Geschichte des Protestantismus, H. 8; <bibl>Bibliotheca Erasmiana</bibl> S. 20.</note>, tractaverim<note xml:id="fn25" type="footnote" n="25">Vermutlich in einem nicht erhaltenen Brief.</note>, mirum est, quam egre feras; verum nos propterea palinodiam non canimus<note xml:id="fn26" type="footnote" n="26">palinodiam canere seine Meinung ändern, widerrufen, Adagia, 1, 9, 59 (<bibl>LB</bibl> II 356 A-B); Otto 262, Nr. 1323.</note>, quinimo ne lato quidem cedimus culmo.</s>
 					<s n="20" xml:lang="la" type="auto">Est enim nedum impius, verum blasphemus etiam libellus, omnibus fere scriptis Erasmicis contrarius, ut nunc non referam quam ineptus, impotens, flaccidus, in quo praeter artifitium nemo pius nihil laudavit unquam.</s>
-					<s n="21" xml:lang="la" type="auto">At in tanta contraversia [!] theologum non rhetorculum<note xml:id="fn27" type="footnote" n="27"><persName ref="person779">Erasmus</persName> stellt beispielsweise zu Mt 10,30 fest, daß es sich um eine hyperbolische Redeweise handle, <persName ref="person779">Erasmus</persName>, aaO, III c 10 (S. 74, 15f). <persName ref="person138">Luther</persName> wirft <persName ref="person779">Erasmus</persName> in seiner Schrift «De servo arbitrio», 1525, ebenfalls rhetorische Kunstgriffe vor, s. z. B. WA XVIII 639, 10-12; 700, 12-18; 726, 14ff.</note> prestitisset; quid enim pietati cum epichirematis<note xml:id="fn28" type="footnote" n="28">Epichirema ist ein rhetorischer Schluß bzw. Beweis, Lausberg 371; vgl. Z XIII 842.</note> <persName ref="person779">Erasmi</persName>?</s>
-					<s n="22" xml:lang="la" type="auto">Quid cum infinitis sinistre tractatis locis<note xml:id="fn29" type="footnote" n="29"><persName ref="person779">Erasmus</persName> zieht in seiner Schrift zuerst alttestamentliche (II a 1ff, S. 19, 11ff) und dann neutestamentliche Schriftstellen (II b 1ff, S. 38, 23ff) als Beweise für den freien Willen heran; hierauf behandelt er scheinbare Schriftbeweise gegen den freien Willen (III a 1ff, S. 46, 20ff), vgl. Karl <hi>Zickendraht,</hi> Der Streit zwischen <persName ref="person779">Erasmus</persName> und <persName ref="person138">Luther</persName> über die Willensfreiheit, Leipzig 1909, S. 32-39.</note>?</s>
+					<s n="21" xml:lang="la" type="auto">At in tanta contraversia [!] theologum non rhetorculum<note xml:id="fn27" type="footnote" n="27"><persName>Erasmus</persName> stellt beispielsweise zu Mt 10,30 fest, daß es sich um eine hyperbolische Redeweise handle, <persName>Erasmus</persName>, aaO, III c 10 (S. 74, 15f). <persName ref="p18889">Luther</persName> wirft <persName>Erasmus</persName> in seiner Schrift «De servo arbitrio», 1525, ebenfalls rhetorische Kunstgriffe vor, s. z. B. <bibl>WA</bibl> XVIII 639, 10-12; 700, 12-18; 726, 14ff.</note> prestitisset; quid enim pietati cum epichirematis<note xml:id="fn28" type="footnote" n="28">Epichirema ist ein rhetorischer Schluß bzw. Beweis, <bibl>Lausberg</bibl> 371; vgl. <bibl>Z</bibl> XIII 842.</note> <persName ref="p18722">Erasmi</persName>?</s>
+					<s n="22" xml:lang="la" type="auto">Quid cum infinitis sinistre tractatis locis<note xml:id="fn29" type="footnote" n="29"><persName>Erasmus</persName> zieht in seiner Schrift zuerst alttestamentliche (II a 1ff, S. 19, 11ff) und dann neutestamentliche Schriftstellen (II b 1ff, S. 38, 23ff) als Beweise für den freien Willen heran; hierauf behandelt er scheinbare Schriftbeweise gegen den freien Willen (III a 1ff, S. 46, 20ff), vgl. Karl <hi>Zickendraht,</hi> Der Streit zwischen <persName>Erasmus</persName> und <persName ref="p18889">Luther</persName> über die Willensfreiheit, Leipzig 1909, S. 32-39.</note>?</s>
 					<s n="23" xml:lang="la" type="auto">Parum interest inter eum, qui nihil e scripturis profert, et eum, qui profert, at ita profert, ut magis de numero quam enargia curet.</s>
-					<s n="24" xml:lang="la" type="auto">Ubi vero Gordii se aliquis offert nodus<note xml:id="fn30" type="footnote" n="30">Vgl. Adagia, 1,1, 6 (LB II 28 A); Otto 244, Nr. 1233.</note>, deus bone, quam misere se misellus torquet Erasmiolus, quam belle Protheum<note xml:id="fn31" type="footnote" n="31">Proteus «gilt als Sinnbild der Wandelbarkeit, aber auch der Schlauheit, welche die verschiedensten Mittel versucht», Otto 289, Nr. 1478; Adagia, 2, 2, 74 (LB II 473 B ff und Adagia, 3, 4, 1 (LB 806 A-B). Für <persName ref="person779">Erasmus</persName> auch von <persName ref="person138">Luther</persName>, aaO, verwendet, WA XVIII 700, 18.</note> induit, quam infantiliter omnia figit et refigit!</s>
-					<s n="25" xml:lang="la" type="auto">An non et ipsi <persName ref="person1766">Origenis</persName><note xml:id="fn32" type="footnote" n="32">Siehe z. B. <persName ref="person779">Erasmus</persName>, aaO, III a 2 (S. 47, 17ff), wo er sich auf die Auslegung des <persName ref="person1766">Origenes</persName> stützt, vgl. <hi>Zickendraht,</hi> aaO, S. 39ff.</note> ac aliorum succinentium<note xml:id="fn33" type="footnote" n="33">Etwa <persName ref="person1173">Hieronymus</persName>, s. <persName ref="person779">Erasmus</persName>, aaO, III b 1ff (S. 61, 15ff), vgl. <hi>Zickendraht,</hi> aaO, 42ff.</note> idem epiphonima<note xml:id="fn34" type="footnote" n="34">Epiphonema ist eine Sentenz am Schluß eines Abschnittes oder einer Rede als schlußfolgernde Reflexion oder mit feststehendem Charakter, Lausberg 879; vgl. Z XIII 843.</note> excussimus sententiam?</s>
+					<s n="24" xml:lang="la" type="auto">Ubi vero Gordii se aliquis offert nodus<note xml:id="fn30" type="footnote" n="30">Vgl. Adagia, 1,1, 6 (<bibl>LB</bibl> II 28 A); Otto 244, Nr. 1233.</note>, deus bone, quam misere se misellus torquet Erasmiolus, quam belle Protheum<note xml:id="fn31" type="footnote" n="31">Proteus «gilt als Sinnbild der Wandelbarkeit, aber auch der Schlauheit, welche die verschiedensten Mittel versucht», Otto 289, Nr. 1478; Adagia, 2, 2, 74 (<bibl>LB</bibl> II 473 B ff und Adagia, 3, 4, 1 (<bibl>LB</bibl> 806 A-B). Für <persName>Erasmus</persName> auch von <persName ref="p18889">Luther</persName>, aaO, verwendet, <bibl>WA</bibl> XVIII 700, 18.</note> induit, quam infantiliter omnia figit et refigit!</s>
+					<s n="25" xml:lang="la" type="auto">An non et ipsi <persName ref="p17753">Origenis</persName><note xml:id="fn32" type="footnote" n="32">Siehe z. B. <persName>Erasmus</persName>, aaO, III a 2 (S. 47, 17ff), wo er sich auf die Auslegung des <persName>Origenes</persName> stützt, vgl. <hi>Zickendraht,</hi> aaO, S. 39ff.</note> ac aliorum succinentium<note xml:id="fn33" type="footnote" n="33">Etwa <persName>Hieronymus</persName>, s. <persName>Erasmus</persName>, aaO, III b 1ff (S. 61, 15ff), vgl. <hi>Zickendraht,</hi> aaO, 42ff.</note> idem epiphonima<note xml:id="fn34" type="footnote" n="34">Epiphonema ist eine Sentenz am Schluß eines Abschnittes oder einer Rede als schlußfolgernde Reflexion oder mit feststehendem Charakter, <bibl>Lausberg</bibl> 879; vgl. <bibl>Z</bibl> XIII 843.</note> excussimus sententiam?</s>
 					<s n="26" xml:lang="la" type="auto">Ergo non patrum dictis placitisque, sed collatione scripturarum locus Roma. 9 [9] rumpendus erat.</s>
 					<s n="27" xml:lang="la" type="auto">Christiani sumus, scripturis pugnamus, non patrum placitis.</s>
-					<s n="28" xml:lang="la" type="auto">Neque infitias eo; adducit ille locos nonnullos, sed omnes eiusdem farinae<note xml:id="fn35" type="footnote" n="35">Sprichwörtliche Redewendung für Dinge, die sich ununterscheidbar gleichen, Adagia, 3, 5, 44 (LB II 839 D-E); Otto 132, Nr. 643.</note>.</s>
-					<s n="29" xml:lang="la" type="auto">Sophysta quispiam petitionem principii reiiceret, et nos in re tam gravi coccicem<note xml:id="fn36" type="footnote" n="36">«Kuckuck» wird in der Klassik häufig als verächtliche Bezeichnung für einen Menschen gebraucht, ThLL IV 1281, 60ff.</note> [!] audiemus?</s>
+					<s n="28" xml:lang="la" type="auto">Neque infitias eo; adducit ille locos nonnullos, sed omnes eiusdem farinae<note xml:id="fn35" type="footnote" n="35">Sprichwörtliche Redewendung für Dinge, die sich ununterscheidbar gleichen, Adagia, 3, 5, 44 (<bibl>LB</bibl> II 839 D-E); Otto 132, Nr. 643.</note>.</s>
+					<s n="29" xml:lang="la" type="auto">Sophysta quispiam petitionem principii reiiceret, et nos in re tam gravi coccicem<note xml:id="fn36" type="footnote" n="36">«Kuckuck» wird in der Klassik häufig als verächtliche Bezeichnung für einen Menschen gebraucht, <bibl>ThLL</bibl> IV 1281, 60ff.</note> [!] audiemus?</s>
 					<s n="30" xml:lang="la" type="auto">Breviter: si providentia est<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> est <hi>gestrichen</hi> non.</note>, liberum arbitrium non est; alias enim providentia non<pb type="scan" next="||91r."/> esset<note xml:id="fnc" type="footnote" n="c"><hi>oben aRvB als Überschrift:</hi> Epistolae.</note> providentia.</s>
 					<s n="31" xml:lang="la" type="auto">Si porro liberum arbitrium, iam non est providentia; alias enim liberum arbitrium non erit liberum arbitrium<note xml:id="fn37" type="footnote" n="37">Zur Vorsehungslehre bei Bullinger s. <hi>Walser.</hi></note>.</s>
-					<s n="32" xml:lang="la" type="auto">Torqueat se hic <persName ref="person371">Augustinus</persName><pb type="edition" next="88"/><note xml:id="fn38" type="footnote" n="38"><persName ref="person371">Augustin</persName> änderte seine ursprüngliche Meinung in den Retractationes, I, 22 (CSEL XXXVI 104-110), s. Arie Frederik Nelis <hi>Lekkerkerker,</hi> Römer 7 und Römer 9 bei <persName ref="person371">Augustin</persName>, Diss. theol. Utrecht, Amsterdam 1942, S. 105ff.</note> et Boetius<note xml:id="fn39" type="footnote" n="39">Die dialektischen Arbeiten des Anicius Manlius Severinus <persName ref="person486">Boethius</persName>, etwa 480-524, wurden von Bullinger 1526 im Unterricht herangezogen (HBD 11, 4). An unserer Stelle dürfte er sich auf De consolatione philosophiae, V, 2-4 (CChr XCIV 90-98) beziehen, vgl. <hi>Zickendraht,</hi> aaO, 2. 180.</note>, quamquam ille sua posterioribus libris retractarit, hic tamen istaec non nisi ad graecas calendas<note xml:id="fn40" type="footnote" n="40">Entspricht dem deutschen «bis zum St. Nimmerleinstag», Adagia, 1, 5, 84 (LB II 214 B-C).</note> dissipabit.</s>
+					<s n="32" xml:lang="la" type="auto">Torqueat se hic <persName ref="p18700">Augustinus</persName><pb type="edition" next="88"/><note xml:id="fn38" type="footnote" n="38"><persName>Augustin</persName> änderte seine ursprüngliche Meinung in den Retractationes, I, 22 (<bibl>CSEL</bibl> XXXVI 104-110), s. Arie Frederik Nelis <hi>Lekkerkerker,</hi> Römer 7 und Römer 9 bei <persName>Augustin</persName>, Diss. theol. Utrecht, Amsterdam 1942, S. 105ff.</note> et Boetius<note xml:id="fn39" type="footnote" n="39">Die dialektischen Arbeiten des <persName>Anicius Manlius Severinus Boethius</persName>, etwa 480-524, wurden von Bullinger 1526 im Unterricht herangezogen (<bibl>HBD</bibl> 11, 4). An unserer Stelle dürfte er sich auf De consolatione philosophiae, V, 2-4 (CChr XCIV 90-98) beziehen, vgl. <hi>Zickendraht,</hi> aaO, 2. 180.</note>, quamquam ille sua posterioribus libris retractarit, hic tamen istaec non nisi ad graecas calendas<note xml:id="fn40" type="footnote" n="40">Entspricht dem deutschen «bis zum St. Nimmerleinstag», Adagia, 1, 5, 84 (<bibl>LB</bibl> II 214 B-C).</note> dissipabit.</s>
 				</p>
 				<p>
 					<s n="33" xml:lang="la" type="auto">Tu haec nostra boni consule, zelus enim pro lege dei in hunc fervorem me excitat<note xml:id="fn41" type="footnote" n="41">Vgl. Ps 69, 10 (Joh 2, 17); Ps 119,138 f.</note>.</s>
-					<s n="34" xml:lang="la" type="manual">Nam dici non potest, quantum divinae naturae ac energiae detrahat impium de libero arbitrio sentimentum<note xml:id="fn42" type="footnote" n="42">Synonym mit sententia, opinio, Du Cange VII 425.</note>.</s>
-					<s n="35" xml:lang="la" type="manual"><persName ref="person779">Erasmum</persName> alias ut patrem patriae, eloquentiae principem, bonarum litterarum patronum, humanitatis fontem linguarumque post <persName ref="person1918">Reuchlinum</persName><note xml:id="fn43" type="footnote" n="43">Zu <persName ref="person1918">Johannes Reuchlin</persName>, 1455-1522, und seinem Lebenswerk s. Ludwig <hi>Geiger,</hi> <persName ref="person1918">Johannes Reuchlin</persName>, sein Leben und seine Werke, Leipzig 1871 (Nachdruck: Nieuwkoop 1964); Hans <hi>Rupprich,</hi> <persName ref="person1918">Johannes Reuchlin</persName> und seine Bedeutung im europäischen Humanismus, in: <persName ref="person1918">Johannes Reuchlin</persName> 1455-1522. Festgabe seiner Vaterstadt Pforzheim zur 500. Wiederkehr seines Geburtstages. Hg. v. Manfred Krebs, Pforzheim 1955, S. 10-34; Josef <hi>Benzing,</hi> Bibliographie der Schriften <persName ref="person1918">Johannes Reuchlins</persName> im 15. und 16. Jahrhundert, Bad Bocklet-Wien-Zürich-Florenz 1955. - Bibliotheca Bibliographica, Bd. XVIII; Schl. 17841-17889 a. 57727-57738.</note> instauratorem veneror, suspitio, adoro, at in divinis litteris sapientem mundi<note xml:id="fn44" type="footnote" n="44">Siehe 1 Kor 1,20ff; 2,6ff.</note> iudico<note xml:id="fn45" type="footnote" n="45">Zu Bullingers Urteilen über <persName ref="person779">Erasmus</persName> und seine Stellung im Willensstreit s. <hi>Staedtke</hi> 34-36. 139 f; über die Beeinflussung durch dessen Exegese s. <hi>Hausammann</hi> 117ff.</note>.</s>
+					<s n="34" xml:lang="la" type="manual">Nam dici non potest, quantum divinae naturae ac energiae detrahat impium de libero arbitrio sentimentum<note xml:id="fn42" type="footnote" n="42">Synonym mit sententia, opinio, <bibl>Du Cange</bibl> VII 425.</note>.</s>
+					<s n="35" xml:lang="la" type="manual"><persName ref="p18722">Erasmum</persName> alias ut patrem patriae, eloquentiae principem, bonarum litterarum patronum, humanitatis fontem linguarumque post <persName ref="p6205">Reuchlinum</persName><note xml:id="fn43" type="footnote" n="43">Zu <persName>Johannes Reuchlin</persName>, 1455-1522, und seinem Lebenswerk s. Ludwig <hi>Geiger,</hi> <persName>Johannes Reuchlin</persName>, sein Leben und seine Werke, Leipzig 1871 (Nachdruck: Nieuwkoop 1964); Hans <hi>Rupprich,</hi> <persName>Johannes Reuchlin</persName> und seine Bedeutung im europäischen Humanismus, in: <persName>Johannes Reuchlin</persName> 1455-1522. Festgabe seiner Vaterstadt Pforzheim zur 500. Wiederkehr seines Geburtstages. Hg. v. Manfred Krebs, Pforzheim 1955, S. 10-34; Josef <hi>Benzing,</hi> Bibliographie der Schriften <persName>Johannes Reuchlins</persName> im 15. und 16. Jahrhundert, Bad Bocklet-Wien-Zürich-Florenz 1955. - Bibliotheca Bibliographica, Bd. XVIII; <bibl>Schl.</bibl> 17841-17889 a. 57727-57738.</note> instauratorem veneror, suspitio, adoro, at in divinis litteris sapientem mundi<note xml:id="fn44" type="footnote" n="44">Siehe 1 Kor 1,20ff; 2,6ff.</note> iudico<note xml:id="fn45" type="footnote" n="45">Zu Bullingers Urteilen über <persName>Erasmus</persName> und seine Stellung im Willensstreit s. <bibl>Staedtke</bibl> 34-36. 139 f; über die Beeinflussung durch dessen Exegese s. <bibl>Hausammann</bibl> 117ff.</note>.</s>
 					<s n="36" xml:lang="la" type="manual">Ii quid de religione vera sentiant, docuit «doctor gentium» [1 Tim 2,7] et «vas electionis» [Apg 9,15] Paulus in eius epistolae frontispitio, quam dedicavit Corinthiorum ecclesie<note xml:id="fn46" type="footnote" n="46">1 Kor 1,17 ff.</note>.</s>
-					<s n="37" xml:lang="la" type="auto">Quid, si <persName ref="person779">Erasmus</persName> ille tuus alter <persName ref="person688">Demosthenes</persName> argentagina [!] non secus laboraret<note xml:id="fnd" type="footnote" n="d">l <hi>von</hi> laboraret <hi>aus</hi> s <hi>korrigiert.</hi></note> in patrocinio veritatis atque ille olim, cum adversus Milesiorum legatos pro Atheniensi republica dicendum erat<note xml:id="fn47" type="footnote" n="47"><persName ref="person946">Aulus Gellius</persName> berichtet in den «Attischen Nächten», XI, 9, wie Boten aus <placeName ref="place706">Milet</placeName> mit einem Hilfegesuch nach Athen kamen. <persName ref="person688">Demosthenes</persName> widersetzte sich den Wünschen der Abgesandten, ließ sich jedoch bestechen. Bei der nächsten Verhandlung erschien er mit einem schafwollenen Umhang um Hals und Schultern und erklärte, er habe eine Halsentzündung und könne nicht gegen die Boten sprechen. Daraufhin rief einer aus dem Volke, <persName ref="person688">Demosthenes</persName> leide nicht an einer Halsentzündung (<foreign xml:lang="el">συνάγχη</foreign> = angina), sondern an einer «Silberentzündung» <foreign xml:lang="el">ἀργυράγχη</foreign> = argentangina); s. Adagia, 1, 7, 19 (LB II 269 B-D); ThLG I 1896.</note>?</s>
+					<s n="37" xml:lang="la" type="auto">Quid, si <persName ref="p18722">Erasmus</persName> ille tuus alter <persName>Demosthenes</persName> argentagina [!] non secus laboraret<note xml:id="fnd" type="footnote" n="d">l <hi>von</hi> laboraret <hi>aus</hi> s <hi>korrigiert.</hi></note> in patrocinio veritatis atque ille olim, cum adversus Milesiorum legatos pro Atheniensi republica dicendum erat<note xml:id="fn47" type="footnote" n="47"><persName>Aulus Gellius</persName> berichtet in den «Attischen Nächten», XI, 9, wie Boten aus <placeName>Milet</placeName> mit einem Hilfegesuch nach Athen kamen. <persName>Demosthenes</persName> widersetzte sich den Wünschen der Abgesandten, ließ sich jedoch bestechen. Bei der nächsten Verhandlung erschien er mit einem schafwollenen Umhang um Hals und Schultern und erklärte, er habe eine Halsentzündung und könne nicht gegen die Boten sprechen. Daraufhin rief einer aus dem Volke, <persName>Demosthenes</persName> leide nicht an einer Halsentzündung (<foreign xml:lang="el">συνάγχη</foreign> = angina), sondern an einer «Silberentzündung» <foreign xml:lang="el">ἀργυράγχη</foreign> = argentangina); s. <bibl>Adagia</bibl>, 1, 7, 19 (<bibl>LB</bibl> II 269 B-D); <bibl>ThLG</bibl> I 1896.</note>?</s>
 					<s n="38" xml:lang="la" type="auto">Nec mirum, cum per os prophetae praedixerit spiritussanctus corda sapientum excecari muneribus<note xml:id="fn48" type="footnote" n="48">Siehe Ex 23,8; Dtn 16,19.</note>.</s>
 				</p>
 				<p>
@@ -173,7 +171,7 @@
 					<s n="40" xml:lang="la" type="auto">Vale in domino, parens dilecte, Christum dei filium amplectere et me, ut soles, ama.</s>
 				</p>
 				<p>
-					<s n="41" xml:lang="la" type="auto"><pb type="edition" next="89"/>Ex Husio trans Abbim<note xml:id="fn51" type="footnote" n="51">«<placeName ref="place461">Hausen</placeName> ennet dem Albis», vgl. HBLS I 210; s. oben Anm. 1 und unten S. 114,21.</note> [!] Tigurinum montem, 21. januarii anno ab orbe redempto 1526<note xml:id="fne" type="footnote" n="e"><hi>darunter eine Bemerkung Bullingers:</hi> Scripsimus hanc epistolam Ioannis Enslii <hi>Is übergeschrieben</hi> nomine ad Christophorum <persName ref="person206">Stiltz</persName>, Wildbergensis senatus secretarium<ptr target="fn52" type="footnote" n="52"/>.</note>.</s>
+					<s n="41" xml:lang="la" type="auto"><pb type="edition" next="89"/>Ex Husio trans Abbim<note xml:id="fn51" type="footnote" n="51">«<placeName>Hausen</placeName> ennet dem Albis», vgl. <bibl>HBLS</bibl> I 210; s. oben Anm. 1 und unten S. 114,21.</note> [!] Tigurinum montem, 21. januarii anno ab orbe redempto 1526<note xml:id="fne" type="footnote" n="e"><hi>darunter eine Bemerkung Bullingers:</hi> Scripsimus hanc epistolam Ioannis Enslii <hi>Is übergeschrieben</hi> nomine ad Christophorum <persName>Stiltz</persName>, Wildbergensis senatus secretarium<ptr target="fn52" type="footnote" n="52"/>.</note>.</s>
 				</p>
 			</div>
 		</body>

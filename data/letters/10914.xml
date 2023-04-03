@@ -6,63 +6,61 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius, 4. August 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=874</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">382</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,68</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Hat einen ersten Brief [<ref target="file10913">Nr. 873</ref>] bereits
-								<persName ref="person188">Erasmus [Schmid]</persName> ausgehändigt;
+								<persName ref="p8437">Erasmus [Schmid]</persName> ausgehändigt;
 								schickt neu entworfene Darlegungen über die Sakramente und die Eucharistie aus der noch unvollendeten
-								Gesamtausgabe seiner Paulus-Kommentare [HBBibl I 84]. Bittet um Weiterleitung an
-								<persName ref="person81">Grynäus</persName> und eventuell an <persName ref="person28">Bucer</persName>.
+								Gesamtausgabe seiner Paulus-Kommentare [<bibl>HBBibl</bibl> I 84]. Bittet um Weiterleitung an
+								<persName ref="p1365">Grynäus</persName> und eventuell an <persName ref="p467">Bucer</persName>.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 874, S.382</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10914">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1536-08-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,13 +124,13 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Signaveram literas priores<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file10913">Nr. 873</ref>.</note> easque tradideram <persName ref="person188">Erasmo</persName> nostro<note xml:id="fn2" type="footnote" n="2"><persName ref="person188">Erasmus Schmid</persName>.</note> cum in, mentem venit non infrugiferum futurum, si ea tibi ex opere nostro Paulino nondum perfecto<note xml:id="fn3" type="footnote" n="3">Bullinger, In omnes apostolicas epistolas commentarii, Zürich 1537 (HBBibl I 84).</note> mitterem, quae scripsi de ratione sacramentorum et eucharistia.</s>
-					<s n="3" xml:lang="la" type="auto">Istis vero novum exemplar loqupletavi; in aliis ante annos aliquot aeditis<note xml:id="fn4" type="footnote" n="4">Bullingers Kommentar zum Römerbrief (HBBibl I 42) war 1533, jener zum ersten Korintherbrief (HBBibl I 53) 1534 erstmals erschienen.</note> haec per omnia non leges.</s>
+					<s n="2" xml:lang="la" type="auto">Signaveram literas priores<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file10913">Nr. 873</ref>.</note> easque tradideram <persName ref="p8437">Erasmo</persName> nostro<note xml:id="fn2" type="footnote" n="2"><persName>Erasmus Schmid</persName>.</note> cum in, mentem venit non infrugiferum futurum, si ea tibi ex opere nostro Paulino nondum perfecto<note xml:id="fn3" type="footnote" n="3">Bullinger, In omnes apostolicas epistolas commentarii, Zürich 1537 (<bibl>HBBibl</bibl> I 84).</note> mitterem, quae scripsi de ratione sacramentorum et eucharistia.</s>
+					<s n="3" xml:lang="la" type="auto">Istis vero novum exemplar loqupletavi; in aliis ante annos aliquot aeditis<note xml:id="fn4" type="footnote" n="4">Bullingers Kommentar zum Römerbrief (<bibl>HBBibl</bibl> I 42) war 1533, jener zum ersten Korintherbrief (<bibl>HBBibl</bibl> I 53) 1534 erstmals erschienen.</note> haec per omnia non leges.</s>
 					<s n="4" xml:lang="la" type="auto">Lege itaque, quae scripsi fol. 41 usque ad 45, et rursus, quae sunt fol. 204 usque ad 216<note xml:id="fn5" type="footnote" n="5">An den genannten Stellen handelt Bullinger ausführlich über die Sakramente (zu Röm 4, 11f; aaO, S. 41-45) und über die Eucharistie (zu 1Kor 11, 17-34; aaO, S. 202-216).</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Planius et melius ego de hoc negotio dicere non possum.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Vale et haec nostra etiam <persName ref="person81">Grynaeo</persName> communica aut, si placet, ipsi etiam <persName ref="person28">Bucero</persName>.</s>
+					<s n="6" xml:lang="la" type="auto">Vale et haec nostra etiam <persName ref="p1365">Grynaeo</persName> communica aut, si placet, ipsi etiam <persName ref="p467">Bucero</persName>.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Tiguri, 4. augusti 1536.</s>
@@ -142,7 +140,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="9" xml:lang="la" type="auto">Domino <persName ref="person154">Myconio</persName> suo.</s>
+					<s n="9" xml:lang="la" type="auto">Domino <persName ref="p8418">Myconio</persName> suo.</s>
 				</p>
 			</div>
 		</body>

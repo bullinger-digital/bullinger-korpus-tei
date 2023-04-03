@@ -6,64 +6,61 @@
 				<title subtype="file">Johannes Zwick / Konstanz AN Heinrich Bullinger, 22. März 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1481</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">109</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,70</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Der Goldschmied [<persName ref="person2242">Hans Stoß</persName>?] wird die Münzen nächstens schicken.
-								<persName ref="person22796">Leo [Martini]</persName> aus
-								<placeName ref="place24">Graubünden</placeName>, der kürzlich in Zürich war, hat seine Gemeinde in
-								<placeName ref="place697">Memmingen</placeName> unter skandalösen Umständen verlassen. Vom Reichstag
-								gibt es noch keine Nachrichten; [Johannes]
-								<persName ref="person805">Fabri</persName> ist gestorben. Grüße.
+								Der Goldschmied [<persName ref="p6716">Hans Stoß</persName>?] wird die Münzen nächstens schicken.
+								<persName ref="p18193">Leo [Martini]</persName> aus
+								<placeName>Graubünden</placeName>, der kürzlich in Zürich war, hat seine Gemeinde in
+								<placeName>Memmingen</placeName> unter skandalösen Umständen verlassen. Vom Reichstag
+								gibt es noch keine Nachrichten; <persName ref="p7936">[Johannes] Fabri</persName> ist gestorben. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1481, S.109</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11524">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -72,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1541-03-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,26 +121,26 @@
 					<s n="1" xml:lang="la" type="auto">Salus et pax Christi.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Tribunus ille aurifaber<note xml:id="fn1" type="footnote" n="1">Gemeint ist wohl <persName ref="person2242">Hans Stoß</persName> (vgl. HBBW VI <ref target="file10929">[Nr. 888]</ref>, S. 412f, Anm. 8).</note>, de quo nuper ad me in literis<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> tuis, paratus est numismata illa ad vos mittere,<note xml:id="fn3" type="footnote" n="3">Näheres ist dazu nicht bekannt.</note> id quod propediem fiet, cum argenti quoque massam ad nescio quem amicum missurus est.</s>
+					<s n="2" xml:lang="la" type="auto">Tribunus ille aurifaber<note xml:id="fn1" type="footnote" n="1">Gemeint ist wohl <persName>Hans Stoß</persName> (vgl. <bibl>HBBW VI</bibl> <ref target="file10929">[Nr. 888]</ref>, S. 412f, Anm. 8).</note>, de quo nuper ad me in literis<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> tuis, paratus est numismata illa ad vos mittere,<note xml:id="fn3" type="footnote" n="3">Näheres ist dazu nicht bekannt.</note> id quod propediem fiet, cum argenti quoque massam ad nescio quem amicum missurus est.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Proinde fuit apud vos nuper <persName ref="person114">Leo</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person22796">Leo Martini</persName>, gen. Aretius, ist wohl identisch mit Leo Martin aus <placeName ref="place613">Lavin</placeName> (Kt. <placeName ref="place24">Graubünden</placeName>), der 1522 die <placeName ref="place243">Churer</placeName> Domschule besuchte und nachher Priester wurde (s. Oskar <hi>Vasella,</hi> Geistliche und Bauern. Ausgewählte Aufsätze zu Spätmittelalter und Reformation in <placeName ref="place24">Graubünden</placeName> und seinen Nachbargebieten, hg. v. Ursus Brunold und Werner Vogler, <placeName ref="place243">Chur</placeName> 1996, S. 616, Anm. 24). <persName ref="person195">Gervasius Schuler</persName> schildert in Briefen an Bullinger und <persName ref="person154">Myconius</persName> Martinis Verfehlungen und seinen unehrenhaften Abgang aus <placeName ref="place697">Memmingen</placeName> (s. unten <ref target="file11551">Nr. 1508</ref>, 24-37, bzw. Zürich StA, E II 358, 130). Dem Brief an <persName ref="person154">Myconius</persName> ist zu entnehmen, dass er zwei Jahre in <placeName ref="place697">Memmingen</placeName> tätig war und anschließend in <placeName ref="place70">Augsburg</placeName> und <placeName ref="place97">Basel</placeName> unterzukommen versuchte. Bereits zu Beginn des Jahres hatte sich Bullinger bei <persName ref="person43">Comander</persName> über ihn erkundigt, wie aus dessen Antwort vom 1. Februar (oben <ref target="file11500">Nr. 1457</ref>) hervorgeht. Das weitere Schicksal Martinis ist nicht bekannt.</note> quidam Rhetus, <placeName ref="place697">Memmingensis</placeName> ecclesiae minister.</s>
+					<s n="3" xml:lang="la" type="auto">Proinde fuit apud vos nuper <persName ref="p1753">Leo</persName><note xml:id="fn4" type="footnote" n="4"><persName>Leo Martini, gen. Aretius</persName>, ist wohl identisch mit Leo Martin aus <placeName>Lavin</placeName> (Kt. <placeName>Graubünden</placeName>), der 1522 die <placeName>Churer</placeName> Domschule besuchte und nachher Priester wurde (s. Oskar <hi>Vasella,</hi> Geistliche und Bauern. Ausgewählte Aufsätze zu Spätmittelalter und Reformation in <placeName>Graubünden</placeName> und seinen Nachbargebieten, hg. v. Ursus Brunold und Werner Vogler, <placeName>Chur</placeName> 1996, S. 616, Anm. 24). <persName>Gervasius Schuler</persName> schildert in Briefen an Bullinger und <persName>Myconius</persName> Martinis Verfehlungen und seinen unehrenhaften Abgang aus <placeName>Memmingen</placeName> (s. unten <ref target="file11551">Nr. 1508</ref>, 24-37, bzw. Zürich StA, E II 358, 130). Dem Brief an <persName>Myconius</persName> ist zu entnehmen, dass er zwei Jahre in <placeName>Memmingen</placeName> tätig war und anschließend in <placeName>Augsburg</placeName> und <placeName>Basel</placeName> unterzukommen versuchte. Bereits zu Beginn des Jahres hatte sich Bullinger bei <persName ref="p4564">Comander</persName> über ihn erkundigt, wie aus dessen Antwort vom 1. Februar (oben <ref target="file11500">Nr. 1457</ref>) hervorgeht. Das weitere Schicksal Martinis ist nicht bekannt.</note> quidam Rhetus, <placeName>Memmingensis</placeName> ecclesiae minister.</s>
 					<s n="4" xml:lang="la" type="auto">Quid fecerit apud vos, nescio; hoc scio illum deserta ecclesia<pb type="edition" next="110"/> et hospite insalutato nec modico aere alieno contracto abiisse, ne quid addam de adulterii suspitionibus, quas incidisse eum quidam referunt.</s>
 					<s n="5" xml:lang="la" type="auto">Exigit autem charitas, ut nos mutuum moneamus, et gravissimum est tanto scandalo deserere ecclesias, hoc maxime seculo, quo alioqui nullus locus est evangelio.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Ex comitiis<note xml:id="fn5" type="footnote" n="5">D. h. vom <placeName ref="place880">Regensburger</placeName> Reichstag.</note> omnino nihil nobis est.</s>
-					<s n="7" xml:lang="la" type="auto">Fabrum vero nosti vita functum;<note xml:id="fn6" type="footnote" n="6">Die Nachricht war verfrüht (vgl. unten <ref target="file11553">Nr. 1510</ref>, 42); <persName ref="person805">Johannes Fabri</persName> starb erst am 21. Mai. Vgl. WA Briefwechsel IX 360, 22-25 mit Anm. 10.</note> quo transmigrarit, declarabit dies iudicii.</s>
+					<s n="6" xml:lang="la" type="auto">Ex comitiis<note xml:id="fn5" type="footnote" n="5">D. h. vom <placeName>Regensburger</placeName> Reichstag.</note> omnino nihil nobis est.</s>
+					<s n="7" xml:lang="la" type="auto">Fabrum vero nosti vita functum;<note xml:id="fn6" type="footnote" n="6">Die Nachricht war verfrüht (vgl. unten <ref target="file11553">Nr. 1510</ref>, 42); <persName>Johannes Fabri</persName> starb erst am 21. Mai. Vgl. <bibl>WA</bibl> Briefwechsel IX 360, 22-25 mit Anm. 10.</note> quo transmigrarit, declarabit dies iudicii.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Vale, amicorum candidissime.</s>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person165">Pellicanum</persName> et <persName ref="person114">Leonem</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person114">Leo Jud</persName>.</note> cum reliquis fratribus salutato diligenter, cumprimis domum tuam.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p8127">Pellicanum</persName> et <persName ref="p1753">Leonem</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="p2305">Leo Jud</persName>.</note> cum reliquis fratribus salutato diligenter, cumprimis domum tuam.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Ex <placeName ref="place565">Constantia</placeName>, 22. martii 1541.</s>
+					<s n="10" xml:lang="la" type="auto">Ex <placeName>Constantia</placeName>, 22. martii 1541.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zvick</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zvick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

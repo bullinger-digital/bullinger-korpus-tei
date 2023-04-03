@@ -6,32 +6,31 @@
 				<title subtype="file">Thomas Bramius, Gellius Epipedius Faber, Hermann Brassius / Emden AN s.n. / Zürich, 23. Februar 1550</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">1924</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,454 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -51,14 +50,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,76</idno>
 						<idno subtype="Hinweis">dat.: 24. Feb. 1550</idno>
 					</msIdentifier>
@@ -66,13 +65,13 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive34">
+						<repository ref="a34">
 							<name>Emden BGK</name>
 						</repository>
-						<settlement ref="place138">Emden</settlement>
+						<settlement ref="l138">Emden</settlement>
 						<institution>Bibliothek der Grossen Kirche</institution>
 						-->
-						<repository ref="archive34"/>
+						<repository ref="a34"/>
 						<idno subtype="Kopie">Hs. fol. 37, Nr. 54</idno>
 					</msIdentifier>
 				</msDesc>
@@ -81,32 +80,32 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/843">
 				<correspAction type="sent">
-					<persName ref="person455" cert="high">
+					<persName ref="p455" cert="high">
 						<!--
 						<surname cert="high">Bramius</surname>
 						<forename cert="high">Thomas</forename>
 						-->
 					</persName>
-					<persName ref="person7979" cert="high">
+					<persName ref="p7979" cert="high">
 						<!--
 						<surname cert="high">Faber</surname>
 						<forename cert="high">Gellius Epipedius</forename>
 						<persName type="main" ref="person8341>Faber, Gellius Epipedius</persName>
 						-->
 					</persName>
-					<persName ref="person7985" cert="high">
+					<persName ref="p7985" cert="high">
 						<!--
 						<surname cert="high">Brassius</surname>
 						<forename cert="high">Hermann</forename>
 						<persName type="main" ref="person7978>Brassius, Hermann</persName>
 						-->
 					</persName>
-					<placeName source="place138" cert="high"><orig>Emden</orig></placeName>
+					<placeName source="l138" cert="high"><orig>Emden</orig></placeName>
 					<date when="1550-02-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role26" type="pl" role="Geistliche" cert="high"/>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file844"/>
@@ -122,7 +121,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

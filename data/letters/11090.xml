@@ -6,53 +6,44 @@
 				<title subtype="file">Martin Bucer / Biel AN Heinrich Bullinger, 25. September 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1047</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">254</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,389</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Hat Bullingers Brief am 5. September, dem Tag seiner Abreise nach
-								<placeName ref="place121">Bern</placeName>, erhalten; wird erst von
-								<placeName ref="place97">Basel</placeName> aus antworten und auch die Akten der
-								<placeName ref="place121">Berner</placeName> [Sondersynode] mitsenden. Da
-								<persName ref="person176">Erasmus [Ritter]</persName> überraschend
-								aus <placeName ref="place121">Bern</placeName> abgereist ist, zweifelt
-								<persName ref="person28">Bucer</persName> an seiner Zustimmung zur Übereinkunft, deren Geltung
-								<persName ref="person145">Megander</persName> im Namen der Pfarrer vor beiden Räten bezeugt hat. Bittet die
+								<placeName>Bern</placeName>, erhalten; wird erst von
+								<placeName>Basel</placeName> aus antworten und auch die Akten der
+								<placeName>Berner</placeName> [Sondersynode] mitsenden. Da
+								<persName ref="p2810">Erasmus [Ritter]</persName> überraschend
+								aus <placeName>Bern</placeName> abgereist ist, zweifelt
+								<persName ref="p467">Bucer</persName> an seiner Zustimmung zur Übereinkunft, deren Geltung
+								<persName ref="p8412">Megander</persName> im Namen der Pfarrer vor beiden Räten bezeugt hat. Bittet die
 								Zürcher, erst nach Erhalt der Akten zu urteilen. Grüße.
 							</p>
 						</summary>
@@ -60,13 +51,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 1047, S.254</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11090">
 				<correspAction type="sent">
-					<persName ref="person467" cert="high">
+					<persName ref="p467" cert="high">
 						<!--
 						<surname cert="high">Bucer</surname>
 						<forename cert="high">Martin</forename>
@@ -76,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11483585"/>
 						-->
 					</persName>
-					<placeName source="place49" cert="high"><orig>Biel</orig></placeName>
+					<placeName source="l49" cert="high"><orig>Biel</orig></placeName>
 					<date when="1537-09-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,30 +127,30 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Literas tuas<note xml:id="fn2" type="footnote" n="2">Bullingers Brief, der wohl an <persName ref="person28">Bucer</persName> und <persName ref="person40">Capito</persName> gemeinsam adressiert war, ist nicht erhalten.</note> per <persName ref="person891">Froschouerum</persName> domi accępimus, quo die <placeName ref="place121">Bernam</placeName> iter ingressi sumus, hoc est 5. septembris.</s>
+					<s n="2" xml:lang="la" type="auto">Literas tuas<note xml:id="fn2" type="footnote" n="2">Bullingers Brief, der wohl an <persName ref="p18198">Bucer</persName> und <persName>Capito</persName> gemeinsam adressiert war, ist nicht erhalten.</note> per <persName ref="p1227">Froschouerum</persName> domi accępimus, quo die <placeName>Bernam</placeName> iter ingressi sumus, hoc est 5. septembris.</s>
 					<s n="3" xml:lang="la" type="auto">Nunc non est tempus respondendi; eques enim hic tabellarius vester<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> ad iter accinctus est.</s>
-					<s n="4" xml:lang="la" type="auto">E <placeName ref="place97">Basilęa</placeName> respondebimus et acta <placeName ref="place121">Bernen[sia]</placeName> mittemus<note xml:id="fn4" type="footnote" n="4">Siehe unten <ref target="file11094">Nr. 1051</ref>, 2-5 mit Anm. 2f.</note>, quae autoritate et fide senatus et diacosiorum<note xml:id="fn5" type="footnote" n="5">des Kleinen und des Großen Rates.</note> illic conscripta sunt.</s>
+					<s n="4" xml:lang="la" type="auto">E <placeName>Basilęa</placeName> respondebimus et acta <placeName>Bernen[sia]</placeName> mittemus<note xml:id="fn4" type="footnote" n="4">Siehe unten <ref target="file11094">Nr. 1051</ref>, 2-5 mit Anm. 2f.</note>, quae autoritate et fide senatus et diacosiorum<note xml:id="fn5" type="footnote" n="5">des Kleinen und des Großen Rates.</note> illic conscripta sunt.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto"><persName ref="person176">Erasmus</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person176">Ritter</persName>.</note> nobis insciis abiit <placeName ref="place121">Berna</placeName>, etiam si vesperi pridie, quam abiret, eum apud suas edes salutarem.</s>
-					<s n="6" xml:lang="la" type="auto">Quo profecto metum iniecit eum restitutum consensum et summam charitatem nondum ex toto corde professum esse, utcunque et coram fratribus et senatu utroque eam <persName ref="person145">Megander</persName> iussu omnium fratrum verbis sane amplissimae consensionis et dilectionis profiteri se testatus sit<note xml:id="fnb" type="footnote" n="b">sit <hi>am Rande nachgetragen.</hi></note>.</s>
+					<s n="5" xml:lang="la" type="auto"><persName ref="p2810">Erasmus</persName><note xml:id="fn6" type="footnote" n="6"><persName>Ritter</persName>.</note> nobis insciis abiit <placeName>Berna</placeName>, etiam si vesperi pridie, quam abiret, eum apud suas edes salutarem.</s>
+					<s n="6" xml:lang="la" type="auto">Quo profecto metum iniecit eum restitutum consensum et summam charitatem nondum ex toto corde professum esse, utcunque et coram fratribus et senatu utroque eam <persName ref="p8412">Megander</persName> iussu omnium fratrum verbis sane amplissimae consensionis et dilectionis profiteri se testatus sit<note xml:id="fnb" type="footnote" n="b">sit <hi>am Rande nachgetragen.</hi></note>.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">A te et caeteris symmystis nostris isthic aliud non petimus, quam ut iudicium differatis, donec acta videritis.</s>
-					<s n="8" xml:lang="la" type="auto">Sed ipsa vos ęquitas monet alteram aurem nobis servandam esse<note xml:id="fn7" type="footnote" n="7">Zur Redensart vgl. Plutarch, Alexander, 42, 2; LB IV 605f.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Sed ipsa vos ęquitas monet alteram aurem nobis servandam esse<note xml:id="fn7" type="footnote" n="7">Zur Redensart vgl. Plutarch, Alexander, 42, 2; <bibl>LB</bibl> IV 605f.</note>.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Valete in domino.</s>
-					<s n="10" xml:lang="la" type="auto"><persName ref="person40">Capito</persName> vos salutat.</s>
+					<s n="10" xml:lang="la" type="auto"><persName ref="p5565">Capito</persName> vos salutat.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Bihelae, 25. septembris.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">M. <persName ref="person28">Bucerus</persName> tuus.</s>
+					<s n="12" xml:lang="la" type="auto">M. <persName ref="p467">Bucerus</persName> tuus.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Salutat te <persName ref="person81">Grynęus</persName> tuus amantissime.</s>
+					<s n="13" xml:lang="la" type="auto">Salutat te <persName ref="p1365">Grynęus</persName> tuus amantissime.</s>
 					<s n="14" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>

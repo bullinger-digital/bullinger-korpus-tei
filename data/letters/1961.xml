@@ -6,32 +6,31 @@
 				<title subtype="file">Konrad Lycosthenes / Basel AN Heinrich Bullinger / Zürich, 18. August 1553</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3236</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,445</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 80,20</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,7 +59,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1961">
 				<correspAction type="sent">
-					<persName ref="person1985" cert="high">
+					<persName ref="p1985" cert="high">
 						<!--
 						<surname cert="high">Lycosthenes</surname>
 						<forename cert="high">Konrad</forename>
@@ -70,11 +69,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/123403855"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1553-08-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -84,7 +83,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file1962"/>
@@ -108,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,7 +123,7 @@
 					<s n="3" xml:lang="la" type="auto">Literas adiunctas curavi probe, et cum nihil literarum ad te exploraverim et nihil etiam dignum epistola ad manum erat, ad praesentem usque nuntium epistolam distuli.</s>
 					<s n="4" xml:lang="la" type="auto">Ago autem tibi gratias ingentes, qui bonorum virorum ad te literas mihi communicare non dedignaris.</s>
 					<s n="5" xml:lang="la" type="auto">Remitterem alia nova, si quid certi haberem.</s>
-					<s n="6" xml:lang="la" type="auto">Certum autem est nobilem illum ab Hatstat ducem imperatoreum, milites omnes, quos circa Colmariam, Selestadium atque hinc inde per totam Alsatiam collegerat atque in praesidia destinaverat, dimisisse, unde multi colligunt belli nervos<note xml:id="fn1" type="footnote" n="1">Vgl. <hi>Cicero,</hi> Orationes Philippicae, 5, 5 und s. HBBW XIV *** .</note> aut deesse aut imperatorem in rebus suis desperare, licet post Teruanum Ibisch atque aliam quandam civitatem munitissimam caesis Gallis receperit.</s>
+					<s n="6" xml:lang="la" type="auto">Certum autem est nobilem illum ab Hatstat ducem imperatoreum, milites omnes, quos circa Colmariam, Selestadium atque hinc inde per totam Alsatiam collegerat atque in praesidia destinaverat, dimisisse, unde multi colligunt belli nervos<note xml:id="fn1" type="footnote" n="1">Vgl. <hi>Cicero,</hi> Orationes Philippicae, 5, 5 und s. <bibl>HBBW</bibl> XIV *** .</note> aut deesse aut imperatorem in rebus suis desperare, licet post Teruanum Ibisch atque aliam quandam civitatem munitissimam caesis Gallis receperit.</s>
 					<s n="7" xml:lang="la" type="auto">In Galliis periclitantur pii ob christianae religionis professionem, ut ex filio intelligo, qui heri ex Lutetia ad nos rediit.</s>
 					<s n="8" xml:lang="la" type="auto">Haec modo ad te scribere volui, ne virum illum bonum, qui ob communium studiorum rationem me salutavit, omnino vacuum dimitterem.</s>
 					<s n="9" xml:lang="la" type="auto">Vale cum uxore et tota familia felicissime, quam tecum salvam esse cupit Oporinus atque Marcus noster Bersius.</s>

@@ -6,32 +6,31 @@
 				<title subtype="file">Laelius Sozin / Krakau AN Heinrich Bullinger / Zürich, [23. November 1559]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5381/20</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Verweis" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 367,72</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,11 +42,11 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke BW, Polen, S. 86 (R.), Nr. 164a</title>
+								<title>Wotschke BW, Polen, S.86 (R.), Nr. 164a</title>
 								<note type="Hinweis">unter 23. Januar 1553</note>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Illgen, Symb. III, S. 35</title>
+								<title>Illgen, Symb. III, S.35</title>
 							</bibl>
 							<bibl type="Literatur">
 								<title>Unter 23. [Januar] 1559: J.A. Tedeschi, Ital. Ref. Studies 304</title>
@@ -61,14 +60,14 @@
 				<msDesc type="Verweis" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 94,36</idno>
 						<idno subtype="Hinweis">eingereiht im Januar 1559</idno>
 						<altIdentifier>
@@ -81,7 +80,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4132">
 				<correspAction type="sent">
-					<persName ref="person3012" cert="high">
+					<persName ref="p3012" cert="high">
 						<!--
 						<surname cert="high">Sozin</surname>
 						<forename cert="high">Laelius</forename>
@@ -91,11 +90,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416913"/>
 						-->
 					</persName>
-					<placeName source="place260" cert="high"><orig>Krakau</orig></placeName>
+					<placeName source="l260" cert="high"><orig>Krakau</orig></placeName>
 					<date when="1559-11-23" cert="low"><note>Monat unsicher  siehe: 1559 [Januar] 23. (= ID 3848)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +104,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file4133"/>
@@ -135,7 +134,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

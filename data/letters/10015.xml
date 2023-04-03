@@ -6,49 +6,40 @@
 				<title subtype="file">Heinrich Bullinger, Wolfgang Joner / Kappel am Albis AN Rudolf Asper, 30. November 1523</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I (Anhang 2)</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">257</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger, Theologische Schriften, Bd. 2: Unveröffentlichte Werke der Kappeler Zeit; Theologica, bearb. von H.-G. vom Berg, B. Schneider und E. Zsindely, Zürich 1991, 19-31.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph__(Kopie)">Msc A 82,45r-50r</idno>
 						<idno subtype="Hinweis">11 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Im Namen von Abt <persName ref="person113">Joner</persName> fordert er dessen durch die
-								Reformationsfreundlichkeit <persName ref="person113">Joners</persName> entfremdeten Freund
-								<persName ref="person364">Asper</persName> auf, die alte Freundschaft wieder herzustellen und ihm (d.h. dem
+								Im Namen von Abt <persName>Joner</persName> fordert er dessen durch die
+								Reformationsfreundlichkeit <persName>Joners</persName> entfremdeten Freund
+								<persName ref="p4030">Asper</persName> auf, die alte Freundschaft wieder herzustellen und ihm (d.h. dem
 								Abt) auf dem Wege zum Verständnis und zur Anerkennung des reformatorischen Schriftprinzips zu folgen. Er
 								schildert diesen Weg als seine eigene Erfahrung, wie er von den Scholastikern, besonders den Dekretisten,
 								durch die Kirchenväter endlich zur Heiligen Schrift vorgestossen sei, gibt eine theologische Begründung der
@@ -63,13 +54,20 @@
 					<physDesc>
 						<objectDesc><p>sehr gut erhalten</p></objectDesc>
 					</physDesc>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 1b, S.257</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10015">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -79,18 +77,18 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1757" cert="high">
+					<persName ref="p1757" cert="high">
 						<!--
 						<surname cert="high">Joner</surname>
 						<forename cert="high">Wolfgang</forename>
 						<persName type="main" ref="person9709>Joner, Wolfgang</persName>
 						-->
 					</persName>
-					<placeName source="place242" cert="high"><orig>Kappel am Albis</orig></placeName>
+					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1523-11-30" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person253" cert="high">
+					<persName ref="p253" cert="high">
 						<!--
 						<surname cert="high">Asper</surname>
 						<forename cert="high">Rudolf</forename>
@@ -110,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -202,13 +200,13 @@
 				</p>
 				<p>
 					<s n="59" xml:lang="la" type="auto">Pergenti ad scripturas mirum quanta delectatio occuparit animum meum, omnia mellita, omnia ambrosiam redolentia, nullum contra tedium, ita ut plane in me completam arbitrarer Christi vocem 4. et 7. Ioan. cap. et haud mora invenio conformia [4,14; 7,38] meo negotio et patribus: pseudoprophetas plane non recipiendos, eos nempe, qui domini verbum non adferunt, Deutero. 13 [1-5].</s>
-					<s n="60" xml:lang="la" type="auto">Est enim pseudopropheta, qui verbum domini non adfert — Ioan. 10 [1]: «Qui non intrat per ostium, is fur est et latro»; Hiere. 23 [21]: «Non mittebam eos, et ipsi currebant» - sicut ii prophetae sunt, missi et apostoli, qui verbum adierunt.</s>
+					<s n="60" xml:lang="la" type="auto">Est enim pseudopropheta, qui verbum domini non adfert - Ioan. 10 [1]: «Qui non intrat per ostium, is fur est et latro»; Hiere. 23 [21]: «Non mittebam eos, et ipsi currebant» - sicut ii prophetae sunt, missi et apostoli, qui verbum adierunt.</s>
 					<s n="61" xml:lang="la" type="auto">Math. 10 [41]: «Qui recipit prophetam nomine prophetae» etc.c; Roma. 10[15]: «Quomodo autem praedicabunt, nisi missi fuerint?»</s>
-					<s n="62" xml:lang="la" type="auto">- Rursus verbo dei nihil humani somnii adiiciendum, Deutero. 4 [2] et 12 [32], Proverb. 30 [6] in verbis domini solis consistendum, Iosue 1 [7—8] et Psalmo 1 [2]; solum verbum audiendum, Hiere. 7 [23] et 23 [16ff]; suffitiens hoc ipsum et plane nihil imutandum, Ezechie. 34 [ 11 ff].</s>
+					<s n="62" xml:lang="la" type="auto">- Rursus verbo dei nihil humani somnii adiiciendum, Deutero. 4 [2] et 12 [32], Proverb. 30 [6] in verbis domini solis consistendum, Iosue 1 [7-8] et Psalmo 1 [2]; solum verbum audiendum, Hiere. 7 [23] et 23 [16ff]; suffitiens hoc ipsum et plane nihil imutandum, Ezechie. 34 [ 11 ff].</s>
 					<s n="63" xml:lang="la" type="auto">- Quid multis?</s>
 					<s n="64" xml:lang="la" type="auto">Pergo, ad novum testamentum venio.</s>
 					<s n="65" xml:lang="la" type="auto">Hic Christus omnia scripturis antiquis probat, ex solis scripturis cognosci vult, Ioan. 5 [39ff]; sui eum ex scripturis agnoscunt, Ioan. 12 [16].</s>
-					<s n="66" xml:lang="la" type="auto">Apostoli sua scripturis confirmant, ut liquet in Actis; secundum scripturas omnia regulantur Actu. 15 [14—21].</s>
+					<s n="66" xml:lang="la" type="auto">Apostoli sua scripturis confirmant, ut liquet in Actis; secundum scripturas omnia regulantur Actu. 15 [14-21].</s>
 					<s n="67" xml:lang="la" type="auto">Paulus, «vas electionis» [Apg 9,15], semper scripturas profert.</s>
 					<s n="68" xml:lang="la" type="auto">- Hic consarcino: si dei filius, qui sapientia est patris [1Kor 1, 24], nihil sine scripturis agit, quid dubitamus adhuc omnia ad scripturas regulare?</s>
 				</p>
@@ -218,7 +216,7 @@
 					<s n="71" xml:lang="la" type="auto">Et Christus ipse a mortuis excitatus aliud non quam scripturas exponit discipulis abeuntibus Emaus, Luce 24 [27].</s>
 					<s n="72" xml:lang="la" type="auto">An obscurum est apostolos solumodo ex scripturis loqutos, posteaquam a spiritu etiam sancto illuminatu sunt?</s>
 					<s n="73" xml:lang="la" type="auto">Accipe epistolam ad Romanos Pauli, methodum totius scripturae, et invenies in pugillum ipsam compressam, tamen si quid a scripturis alienum inveneris, mentiar.</s>
-					<s n="74" xml:lang="la" type="auto">Idem Paulus disputationi huic finem imponens vult omnia probari ad Thessalo. [5,21], quod bonum est, teneri; vetat, ne recipiantur humane doctrinae, 1.Timoth. 6 [3-5.11], Titum I[13—14]; vetat, ne quid ultra suam predicationem adiiciatur, Galath. 1[8].</s>
+					<s n="74" xml:lang="la" type="auto">Idem Paulus disputationi huic finem imponens vult omnia probari ad Thessalo. [5,21], quod bonum est, teneri; vetat, ne recipiantur humane doctrinae, 1.Timoth. 6 [3-5.11], Titum I[13-14]; vetat, ne quid ultra suam predicationem adiiciatur, Galath. 1[8].</s>
 					<s n="75" xml:lang="la" type="auto">De scripturis hoc statuit 2. Timothe. 3 [16-17]: «Omnis scriptura divinitus inspirata» etc.</s>
 					<s n="76" xml:lang="la" type="auto">Sic inibi apud solam scripturam Timotheum paulo ante [3,14-15] manere vult, quae quidem vere eruditum posset reddere quasque imbibisset a cunis.</s>
 				</p>
@@ -227,7 +225,7 @@
 					<s n="78" xml:lang="la" type="auto">Ceterum hanc opinionem falsam extorsit epistola Romanis dicata, in qua nostra salus comprehensa exactissime: lex, euangelion, peccatum, punicio, gratia, fides, iustitia, Christus, deus, bona opera, charitas, spes, afflictio, iusti, peccatores, firmi, infirmi, quomodo tractandi amici, quomodo inimici.</s>
 					<s n="79" xml:lang="la" type="auto">Extorsit veteris testamenti sufficientia, cuius finis et interpraes Christus, Roma. 10 [4], et cum cernerem novum testamentum aliud non esse quam veteris interpretationem.</s>
 					<s n="80" xml:lang="la" type="auto">Quo item modo fierit, ut nostrorum temporum dogmata aliquot Pauli forent oretenus prodita ac nobis veluti per manus tradita, cum sibi ipsi constet Paulus, haec vero cum scriptis suis pugnent?</s>
-					<s n="81" xml:lang="la" type="auto">— Iam ego quoque nihil amodo requirebam, cum proceres ecclesiasticos iis, quos habemus, bibliae libris contentos viderem et si quid diversum ab iis praeciperetur, adulterinum foret.</s>
+					<s n="81" xml:lang="la" type="auto">- Iam ego quoque nihil amodo requirebam, cum proceres ecclesiasticos iis, quos habemus, bibliae libris contentos viderem et si quid diversum ab iis praeciperetur, adulterinum foret.</s>
 					<s n="82" xml:lang="la" type="auto">Vide tu Athanasium Graecum de utriusque testamenti codicibus, Ruffini item Symbolen scriptoris latini et Hieronymi galeatum sive Prologum in libros Regum.</s>
 					<s n="83" xml:lang="la" type="auto">Libri canonici recepti sunt, hoc est eis credi coepit, non adprobati, et quamquam a nativis patres aliquot apocrypha resecuerint, non tamen ex eo alii germanae scripturae libri probati, sed partim iam ante probati perveteris instrumenti libros, partim a spiritu sancto et deo ipso.</s>
 					<s n="84" xml:lang="la" type="auto">Quales sunt veteris instrumenti libri?</s>
@@ -265,7 +263,7 @@
 					<s n="114" xml:lang="la" type="auto">Rursus I. Ioan. 2 [27] scribitur: «Et non necesse habetis, ut quisquam doceat vos, sed sicut ipsa unctio docet vos de omnibus, et verax est et non mendatium, et sicut docuit vos, manete in ea.»</s>
 					<s n="115" xml:lang="la" type="auto">Ubi audis spiritui dari intelligentiam, id, quod etiam promissum est Hieremie 31 [33-34], cui adsentitur Christus Ioan. 6 [43]: «Erunt omnes docti a deo.»</s>
 					<s n="116" xml:lang="la" type="auto">Ita et Paulus: «Nos vero non spiritum mundi accepimus, sed spiritum, qui ex deo est, ut sciamus quae a Christo donata sint nobis.</s>
-					<s n="117" xml:lang="la" type="auto">Quae et loquimur non sermonibus, quos docet humana sapientia, sed quos docet spiritus sanctus, spiritualibus spiritualia comparantes» [1Kor 2,12—13] etc.</s>
+					<s n="117" xml:lang="la" type="auto">Quae et loquimur non sermonibus, quos docet humana sapientia, sed quos docet spiritus sanctus, spiritualibus spiritualia comparantes» [1Kor 2,12-13] etc.</s>
 					<s n="118" xml:lang="la" type="auto">At quis audet spiritum detrahere credentibus?</s>
 					<s n="119" xml:lang="la" type="auto">Id namque Christum esset mendatii arguere: Math. 7[7ff], Marci 11[24ff].</s>
 					<s n="120" xml:lang="la" type="auto">Ideo scriptura proprio sensu est interpraetanda, hoc est eo sensu, quo scripta est, consentientibus etiam decretis vestris.</s>

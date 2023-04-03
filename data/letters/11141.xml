@@ -6,49 +6,44 @@
 				<title subtype="file">Bartholomew Traheron AN Heinrich Bullinger, Januar/Februar 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1098</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">317</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Epistolae Tigurinae de rebus potissimum ad ecclesiae Anglicanae reformationem pertinentibus conscriptae A. D. 1531-1558. Ex schedis manuscriptis in bibliotheca Tigurina aliisque servatis Parkerianae societatis auspiciis editae, Cambridge 1848 (Nachdruck: New York 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,20 f.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat dem Boten <persName ref="person37">Butlers</persName> nichts für ihn mitgegeben, da er ihm bereits
-								früher geschrieben hat; allerdings scheint sein Brief, den <persName ref="person39">Calvin</persName>
-								<persName ref="person145">Megander</persName> übergab, nicht angekommen zu sein. Da Bullinger in seinem
-								Brief an <persName ref="person37">Butler</persName> auch seiner gedenkt, liegt ihm um so mehr daran, keine
+								Hat dem Boten <persName ref="p506">Butlers</persName> nichts für ihn mitgegeben, da er ihm bereits
+								früher geschrieben hat; allerdings scheint sein Brief, den <persName ref="p540">Calvin</persName>
+								<persName ref="p8412">Megander</persName> übergab, nicht angekommen zu sein. Da Bullinger in seinem
+								Brief an <persName ref="p506">Butler</persName> auch seiner gedenkt, liegt ihm um so mehr daran, keine
 								Zweifel an seiner Freundschaft aufkommen zu lassen. Beglückwünscht ihn zur Geburt seines Sohnes Christoph.
-								Hat Gerüchte über bucerische Tendenzen in <placeName ref="place121">Bern</placeName> gehört; in
-								[<placeName ref="place398">Genf</placeName>] wird richtig [über das Abendmahl] gepredigt. Grüßt
-								Bullingers Familie und Rudolf
-								[<persName ref="person84">Gwalther</persName>].
+								Hat Gerüchte über bucerische Tendenzen in <placeName>Bern</placeName> gehört; in
+								[<placeName>Genf</placeName>] wird richtig [über das Abendmahl] gepredigt. Grüßt
+								Bullingers Familie und <persName ref="p8011">Rudolf [Gwalther]</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -69,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11141">
 				<correspAction type="sent">
-					<persName ref="person3181" cert="high">
+					<persName ref="p3181" cert="high">
 						<!--
 						<surname cert="high">Traheron</surname>
 						<forename cert="high">Bartholomew</forename>
@@ -81,7 +76,7 @@
 					<date notBefore="1538-01-01" notAfter="1538-02-12" cert="low">Januar/Februar 1538</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

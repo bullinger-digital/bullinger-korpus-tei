@@ -6,40 +6,31 @@
 				<title subtype="file">Martin Seger / Maienfeld AN Heinrich Bullinger, 19. Mai 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2004</date>
-				<idno subtype="ISBN">ISBN 3-290-17316-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=376</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X (Ergänzungsband)</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Addenda und Gesamtregister zu Band 1-10</biblScope>
-				<biblScope unit="page">49</biblScope>
-				<biblScope unit="pages">175</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Ergänzungsband A (Addenda und Gesamtregister zu Band 1-10), Bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2004, 175 S., ISBN 3-290-17316-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,95</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,7 +38,7 @@
 							<p xml:id="regest1">
 								Die Zeitereignisse sind Bullinger sicherlich bekannt; Herzog Ulrich von Württemberg muß sich auf seinem
 								Feldzug gegen seine starken Gegner vorsehen. Seger möchte nach Zürich ziehen und bittet Bullinger, ihm als
-								überzeugtem Evangelischen ein geringes Amt zu verschaffen; in <placeName ref="place51">den V Orten</placeName> will er nichts annehmen, obschon
+								überzeugtem Evangelischen ein geringes Amt zu verschaffen; in <placeName>den V Orten</placeName> will er nichts annehmen, obschon
 								er die Möglichkeit dazu hätte.
 							</p>
 						</summary>
@@ -55,24 +46,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10A, Nr. 376a, S.49</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10410">
 				<correspAction type="sent">
-					<persName ref="person2846" cert="high">
+					<persName ref="p2846" cert="high">
 						<!--
 						<surname cert="high">Seger</surname>
 						<forename cert="high">Martin</forename>
 						<persName type="main" ref="person8501>Seger, Martin</persName>
 						-->
 					</persName>
-					<placeName source="place305" cert="high"><orig>Maienfeld</orig></placeName>
+					<placeName source="l305" cert="high"><orig>Maienfeld</orig></placeName>
 					<date when="1534-05-19" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -101,7 +99,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,7 +127,7 @@
 					<s n="11" xml:lang="de" type="auto">Uwer williger</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="de" type="auto"><persName ref="person28">Martin</persName> Seger.<pb type="edition" next="50"/></s>
+					<s n="12" xml:lang="de" type="auto"><persName ref="p467">Martin</persName> Seger.<pb type="edition" next="50"/></s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

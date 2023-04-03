@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 10. Mai 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=583</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">216</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,143</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,13 +38,13 @@
 							<p xml:id="regest1">
 								Berichtet von einer Übereinkunft, die den Streit [um den theologischen Doktorgrad] beenden soll, und dankt
 								Bullinger für dessen Vermittlungsbereitschaft, die ihm willkommener ist als jene der
-								<placeName ref="place1049">Straßburger</placeName>. Beantwortet die von Bullinger [in
+								<placeName>Straßburger</placeName>. Beantwortet die von Bullinger [in
 								<ref target="file10619">Nr. 581</ref>] gestellten Fragen zur Lage in
-								<placeName ref="place744">Münster</placeName>, zum Kreistag in
-								<placeName ref="place1214">Worms</placeName> und zu den Umtrieben der Täufer im
-								<placeName ref="place16">Elsaß</placeName>; Unruhe herrscht auch in
-								<placeName ref="place20">Friesland</placeName> und <placeName ref="place13">Holland</placeName>
-								sowie unter den Bauern. Hat aus <placeName ref="place1049">Straßburg</placeName> seit längerem nichts
+								<placeName>Münster</placeName>, zum Kreistag in
+								<placeName>Worms</placeName> und zu den Umtrieben der Täufer im
+								<placeName>Elsaß</placeName>; Unruhe herrscht auch in
+								<placeName>Friesland</placeName> und <placeName>Holland</placeName>
+								sowie unter den Bauern. Hat aus <placeName>Straßburg</placeName> seit längerem nichts
 								mehr gehört.
 							</p>
 						</summary>
@@ -61,13 +52,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 583, S.216</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10621">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -78,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1535-05-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -130,34 +128,34 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">De dissidio<note xml:id="fn1" type="footnote" n="1">Gemeint ist der Streit um den theologischen Doktorgrad, s. oben <ref target="file10543">Nr. 507</ref>, Anm. 7.</note> dicerem lubens apud te, non etiam apud alios, sed quia longior et fedior est narratio, supersedeo, praesertim postquam a consule<note xml:id="fn2" type="footnote" n="2"><persName ref="person148">Jakob Meyer</persName> zum Hirten.</note> cum duobus tribunis<note xml:id="fn3" type="footnote" n="3">Balthasar Hiltprant, Oberstzunftmeister, und <persName ref="person503">Theodor Brand</persName>, Altoberstzunftmeister.</note> senatu et plebe nesciente concordia, quantum fieri potuit, facta est<pb type="edition" next="217"/> magno, mihi crede, studio etiam fratrum reliquorum, inter quos et ego.</s>
-					<s n="3" xml:lang="la" type="auto">Sic etenim me gessi, ut ad partem numerari nec a <persName ref="person117">Carolstadio</persName> potuerim.</s>
+					<s n="2" xml:lang="la" type="auto">De dissidio<note xml:id="fn1" type="footnote" n="1">Gemeint ist der Streit um den theologischen Doktorgrad, s. oben <ref target="file10543">Nr. 507</ref>, Anm. 7.</note> dicerem lubens apud te, non etiam apud alios, sed quia longior et fedior est narratio, supersedeo, praesertim postquam a consule<note xml:id="fn2" type="footnote" n="2"><persName>Jakob Meyer</persName> zum Hirten.</note> cum duobus tribunis<note xml:id="fn3" type="footnote" n="3">Balthasar Hiltprant, Oberstzunftmeister, und <persName ref="p18237">Theodor Brand</persName>, Altoberstzunftmeister.</note> senatu et plebe nesciente concordia, quantum fieri potuit, facta est<pb type="edition" next="217"/> magno, mihi crede, studio etiam fratrum reliquorum, inter quos et ego.</s>
+					<s n="3" xml:lang="la" type="auto">Sic etenim me gessi, ut ad partem numerari nec a <persName ref="p4349">Carolstadio</persName> potuerim.</s>
 					<s n="4" xml:lang="la" type="auto">Ago vero tibi gratias immortalis de pollicitatione operae vestrae<note xml:id="fn4" type="footnote" n="4">Siehe oben <ref target="file10619">Nr. 581</ref>, 13-16.</note>.</s>
-					<s n="5" xml:lang="la" type="auto">Hanc mallem enim quam <placeName ref="place1049">Argentoratensium</placeName>.</s>
+					<s n="5" xml:lang="la" type="auto">Hanc mallem enim quam <placeName>Argentoratensium</placeName>.</s>
 					<s n="6" xml:lang="la" type="auto">Ne dubites, si res caderet, nunquam spem a vobis abstracturus essem.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">De his, quę petis<note xml:id="fn5" type="footnote" n="5">Siehe ebd., Z. 18-25.</note>, sic accipe et ut petis<note xml:id="fn6" type="footnote" n="6">Nämlich in deutscher Sprache.</note>:</s> 
-					<s n="8" xml:lang="de" type="manual">Das gschrey vom usherfallen der von <placeName ref="place744">Münster</placeName> und zerstörung der blochhüser<note xml:id="fn7" type="footnote" n="7">Vgl. ebd., Anm. 4.</note> ist ungeendret, es sy oder nit.</s>
-					<s n="9" xml:lang="de" type="auto">Ein tag ist ze Wurms gehalten<note xml:id="fn8" type="footnote" n="8">Der Kreistag, der am 4. April 1535 in <placeName ref="place1214">Worms</placeName> zusammentrat, beschloß eine Reichshilfe zur Fortsetzung der Belagerung von <placeName ref="place744">Münster</placeName>, vgl. <hi>Kirchhoff</hi> I 35f.</note>, ist gwüß.</s>
+					<s n="8" xml:lang="de" type="manual">Das gschrey vom usherfallen der von <placeName>Münster</placeName> und zerstörung der blochhüser<note xml:id="fn7" type="footnote" n="7">Vgl. ebd., Anm. 4.</note> ist ungeendret, es sy oder nit.</s>
+					<s n="9" xml:lang="de" type="auto">Ein tag ist ze Wurms gehalten<note xml:id="fn8" type="footnote" n="8">Der Kreistag, der am 4. April 1535 in <placeName>Worms</placeName> zusammentrat, beschloß eine Reichshilfe zur Fortsetzung der Belagerung von <placeName>Münster</placeName>, vgl. <bibl>Kirchhoff</bibl> I 35f.</note>, ist gwüß.</s>
 					<s n="10" xml:lang="de" type="auto">Sind fürsten und stett großer zal da gsin.</s>
 					<s n="11" xml:lang="de" type="auto">Sind des eins, das sy den bischöffen wend etlichermoß helfen den kriegskosten tragen.</s>
-					<s n="12" xml:lang="de" type="auto">In <placeName ref="place744">Münster</placeName>, hett mir hütt ein edelman<note xml:id="fn9" type="footnote" n="9">Unbekannt.</note> gseyt, sy forcht eins zwitrachts, darum der küng<note xml:id="fn10" type="footnote" n="10"><persName ref="person1282">Jan van Leiden</persName>.</note>, so er sicht 2 oder 3 miteinandren reden, richt er sy von stund an<note xml:id="fn11" type="footnote" n="11">sogleich (Grimm X/IV 493f).</note>.</s>
+					<s n="12" xml:lang="de" type="auto">In <placeName>Münster</placeName>, hett mir hütt ein edelman<note xml:id="fn9" type="footnote" n="9">Unbekannt.</note> gseyt, sy forcht eins zwitrachts, darum der küng<note xml:id="fn10" type="footnote" n="10"><persName>Jan van Leiden</persName>.</note>, so er sicht 2 oder 3 miteinandren reden, richt er sy von stund an<note xml:id="fn11" type="footnote" n="11">sogleich (<bibl>Grimm</bibl> X/IV 493f).</note>.</s>
 					<s n="13" xml:lang="de" type="auto">Sunst tröstet er das volck, ir gott werd sy nit verlon.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="de" type="auto">Es ist ein red gsin, by <placeName ref="place920">Rufach</placeName><note xml:id="fn12" type="footnote" n="12"><placeName ref="place920">Rufach</placeName> (<placeName ref="place16">Elsaß</placeName>). - Zu den Gerüchten über täuferische Umtriebe im <placeName ref="place16">Elsaß</placeName> s. oben <ref target="file10619">Nr. 581</ref>, 20-22.</note> wurdent zemenkon uff Georgii<note xml:id="fn13" type="footnote" n="13">23. April.</note> 6000, ist zuͦ Ensen<note xml:id="fn14" type="footnote" n="14"><placeName ref="place323">Ensisheim</placeName> (<placeName ref="place16">Elsaß</placeName>), Sitz des vorderösterreichischen Regiments.</note> dorum ein tag gsin.</s>
+					<s n="14" xml:lang="de" type="auto">Es ist ein red gsin, by <placeName>Rufach</placeName><note xml:id="fn12" type="footnote" n="12"><placeName>Rufach</placeName> (<placeName>Elsaß</placeName>). - Zu den Gerüchten über täuferische Umtriebe im <placeName>Elsaß</placeName> s. oben <ref target="file10619">Nr. 581</ref>, 20-22.</note> wurdent zemenkon uff Georgii<note xml:id="fn13" type="footnote" n="13">23. April.</note> 6000, ist zuͦ Ensen<note xml:id="fn14" type="footnote" n="14"><placeName>Ensisheim</placeName> (<placeName>Elsaß</placeName>), Sitz des vorderösterreichischen Regiments.</note> dorum ein tag gsin.</s>
 					<s n="15" xml:lang="de" type="auto">Hab dannethin nit wyter ghört.</s>
-					<s n="16" xml:lang="de" type="auto">Es sind 3 töuffer by uns gfangen, die hett man gstreckt und uff die hendel gfraget<note xml:id="fn15" type="footnote" n="15">Zwischen April und Juni 1535 befanden sich mindestens sechs Täufer in <placeName ref="place97">Basel</placeName> in Haft: Mauritz (ein Küfer aus dem <placeName ref="place98">Wallis</placeName>), <persName ref="person1120">Elsin Heckin</persName>, <persName ref="person1904">Simon Rebmann</persName> (vgl. Paul <hi>Burckhardt,</hi> Die Basler Täufer, <placeName ref="place97">Basel</placeName> 1898, S. 50f), <persName ref="person1367">Hans Keßler</persName>, <persName ref="person2093">Fridlin Schoub</persName> und <persName ref="person1158">Jakob Hersperger</persName>; s. <placeName ref="place97">Basel</placeName> StA, Ratsbücher O 5 (Urfehdenbuch V), S. 163. 166-170. Am 21. April unterrichtete <persName ref="person148">Jakob Meyer</persName> das Regiment zu <placeName ref="place323">Ensisheim</placeName> auf dessen Anfrage hin über das Verhör zweier gefangener Täufer, s. <placeName ref="place97">Basel</placeName> StA, Missiven B 1, S. 355-357 (Anfrage und Dankschreiben aus <placeName ref="place323">Ensisheim</placeName> s. ebd., Criminalia 1 B, W 1).</note>.</s>
-					<s n="17" xml:lang="de" type="auto">Hett einer verjechen<note xml:id="fn16" type="footnote" n="16">bekannt (Grimm XII/I 607-609).</note>, sy hebend brieff vom huffen und von <placeName ref="place744">Münster</placeName> empfangen.</s>
+					<s n="16" xml:lang="de" type="auto">Es sind 3 töuffer by uns gfangen, die hett man gstreckt und uff die hendel gfraget<note xml:id="fn15" type="footnote" n="15">Zwischen April und Juni 1535 befanden sich mindestens sechs Täufer in <placeName>Basel</placeName> in Haft: Mauritz (ein Küfer aus dem <placeName>Wallis</placeName>), <persName>Elsin Heckin</persName>, <persName>Simon Rebmann</persName> (vgl. Paul <hi>Burckhardt,</hi> Die Basler Täufer, <placeName>Basel</placeName> 1898, S. 50f), <persName>Hans Keßler</persName>, <persName>Fridlin Schoub</persName> und <persName>Jakob Hersperger</persName>; s. <placeName>Basel</placeName> StA, Ratsbücher O 5 (Urfehdenbuch V), S. 163. 166-170. Am 21. April unterrichtete <persName>Jakob Meyer</persName> das Regiment zu <placeName>Ensisheim</placeName> auf dessen Anfrage hin über das Verhör zweier gefangener Täufer, s. <placeName>Basel</placeName> StA, Missiven B 1, S. 355-357 (Anfrage und Dankschreiben aus <placeName>Ensisheim</placeName> s. ebd., Criminalia 1 B, W 1).</note>.</s>
+					<s n="17" xml:lang="de" type="auto">Hett einer verjechen<note xml:id="fn16" type="footnote" n="16">bekannt (<bibl>Grimm</bibl> XII/I 607-609).</note>, sy hebend brieff vom huffen und von <placeName>Münster</placeName> empfangen.</s>
 					<s n="18" xml:lang="de" type="auto">Was darinn, ist mir nit wüssend.</s>
-					<s n="19" xml:lang="de" type="auto">Von <placeName ref="place249">Colmar</placeName> hab ich kein wort nie ghört, dann das 2 Burger verdacht, es gangend töuffer zu men; hett<note xml:id="fna" type="footnote" n="a"><hi>anstelle von gestrichenem:</hi> Hand müssen in ir hüser schweren <hi>[schwören, ihre Häuser nicht zu verlassen (SI IX 2095)].</hi> Es sol aber uß sin.</note> man gfangen und die by inen gsin, sind frömde, hinweggsickt<note xml:id="fnb" type="footnote" n="b"><hi>anstelle von gestrichenem:</hi> Hand müssen in ir hüser schweren <hi>[schwören, ihre Häuser nicht zu verlassen (SI IX 2095)].</hi> Es sol aber uß sin.</note><note xml:id="fn17" type="footnote" n="17">Am 24. April 1535 wurden <persName ref="person2225">Jakob Stedeli</persName> (Stedlin) und <persName ref="person1146">Hans Hennig</persName> samt mehreren Frauen als Täufer aus <placeName ref="place249">Colmar</placeName> verbannt, s. <placeName ref="place249">Colmar</placeName> Archives Municipales, BB 45 (1522-1576), S. 32 (ungenau abgedruckt u. d. T. "Wiedertäufer verbannt" in: Alsatia 1873-1874, <placeName ref="place249">Colmar</placeName> 1875, S. 316) und GG 168, 12; vgl. Kaspar von <hi>Greyerz,</hi> The late City Reformation in Germany. The Case of <placeName ref="place249">Colmar</placeName> 1522-1628, Wiesbaden 1980. - Veröffentlichungen des Instituts für Europäische Geschichte Mainz 98, S. 69f.</note>.</s>
+					<s n="19" xml:lang="de" type="auto">Von <placeName>Colmar</placeName> hab ich kein wort nie ghört, dann das 2 Burger verdacht, es gangend töuffer zu men; hett<note xml:id="fna" type="footnote" n="a"><hi>anstelle von gestrichenem:</hi> Hand müssen in ir hüser schweren <hi>[schwören, ihre Häuser nicht zu verlassen (<bibl>SI</bibl> IX 2095)].</hi> Es sol aber uß sin.</note> man gfangen und die by inen gsin, sind frömde, hinweggsickt<note xml:id="fnb" type="footnote" n="b"><hi>anstelle von gestrichenem:</hi> Hand müssen in ir hüser schweren <hi>[schwören, ihre Häuser nicht zu verlassen (<bibl>SI</bibl> IX 2095)].</hi> Es sol aber uß sin.</note><note xml:id="fn17" type="footnote" n="17">Am 24. April 1535 wurden <persName>Jakob Stedeli (Stedlin)</persName> und <persName>Hans Hennig</persName> samt mehreren Frauen als Täufer aus <placeName>Colmar</placeName> verbannt, s. <placeName>Colmar</placeName> Archives Municipales, BB 45 (1522-1576), S. 32 (ungenau abgedruckt u. d. T. "Wiedertäufer verbannt" in: Alsatia 1873-1874, <placeName>Colmar</placeName> 1875, S. 316) und <bibl>GG</bibl> 168, 12; vgl. Kaspar von <hi>Greyerz,</hi> The late City Reformation in Germany. The Case of <placeName>Colmar</placeName> 1522-1628, Wiesbaden 1980. - Veröffentlichungen des Instituts für Europäische Geschichte Mainz 98, S. 69f.</note>.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="de" type="auto"><pb type="edition" next="218"/>Sunst seyt man, in <placeName ref="place20">Friesland</placeName>, <placeName ref="place13">Holland</placeName> und daselbst umhar sy selche unruͦw, das es nit ze sagen.</s>
+					<s n="20" xml:lang="de" type="auto"><pb type="edition" next="218"/>Sunst seyt man, in <placeName>Friesland</placeName>, <placeName>Holland</placeName> und daselbst umhar sy selche unruͦw, das es nit ze sagen.</s>
 					<s n="21" xml:lang="de" type="auto">Sy<note xml:id="fnc" type="footnote" n="c"><hi>von</hi> Sy <hi>bis</hi> erstochen <hi>am Rande nachgetragen.</hi></note> nemend in, was sy mögend, und gelingt inen zuͦ ziten.</s>
-					<s n="22" xml:lang="de" type="auto">Sy hattend ein kloster bsessen mit 300 wyb und man, kam ein edler und sturmt sy und uberwand, doch mit verlurst 600 mannen, des er bewegt, hett wyb, kind und man erstochen<note xml:id="fnd" type="footnote" n="d"><hi>von</hi> Sy <hi>bis</hi> erstochen <hi>am Rande nachgetragen.</hi></note><note xml:id="fn18" type="footnote" n="18">Am 30. März 1535 war das <placeName ref="place812">Oldekloster</placeName> bei <placeName ref="place159">Bolsward</placeName> (<placeName ref="place20">Friesland</placeName>) von rund 300 Täufern besetzt worden. Die Rückeroberung gelang dem Statthalter von <placeName ref="place20">Friesland</placeName>, <persName ref="person2044">Georg Schenck von Tautenburg</persName>, erst nach mehrtägiger Belagerung; vgl. Christian <hi>Neff</hi> und Nanne <hi>van der Zijpp</hi> in: The Mennonite Encyclopedia IV, Hillsboro-Newton-Scondale 1959, S. 52f. Bullinger beschrieb diesen Vorfall 25 Jahre später in: Der Wiedertäufer Ursprung (HBBibl I 394-401), Neudruck Leipzig 1975, f. 52r.-v.</note>.</s>
-					<s n="23" xml:lang="de" type="auto">Zuͦdem regend sich die buren allenthalb, wend nit teuffer sin, züchend nun ir argument an in erfarens wys, so man inen aber inredt, zürnend sy ouch mit unzucht<note xml:id="fn19" type="footnote" n="19">Aufruhr, Widersetzlichkeit (Grimm XI/III 2306-2308).</note>.</s>
+					<s n="22" xml:lang="de" type="auto">Sy hattend ein kloster bsessen mit 300 wyb und man, kam ein edler und sturmt sy und uberwand, doch mit verlurst 600 mannen, des er bewegt, hett wyb, kind und man erstochen<note xml:id="fnd" type="footnote" n="d"><hi>von</hi> Sy <hi>bis</hi> erstochen <hi>am Rande nachgetragen.</hi></note><note xml:id="fn18" type="footnote" n="18">Am 30. März 1535 war das <placeName>Oldekloster</placeName> bei <placeName>Bolsward</placeName> (<placeName>Friesland</placeName>) von rund 300 Täufern besetzt worden. Die Rückeroberung gelang dem Statthalter von <placeName>Friesland</placeName>, <persName>Georg Schenck von Tautenburg</persName>, erst nach mehrtägiger Belagerung; vgl. Christian <hi>Neff</hi> und Nanne <hi>van der Zijpp</hi> in: The Mennonite Encyclopedia IV, Hillsboro-Newton-Scondale 1959, S. 52f. Bullinger beschrieb diesen Vorfall 25 Jahre später in: Der Wiedertäufer Ursprung (<bibl>HBBibl</bibl> I 394-401), Neudruck Leipzig 1975, f. 52r.-v.</note>.</s>
+					<s n="23" xml:lang="de" type="auto">Zuͦdem regend sich die buren allenthalb, wend nit teuffer sin, züchend nun ir argument an in erfarens wys, so man inen aber inredt, zürnend sy ouch mit unzucht<note xml:id="fn19" type="footnote" n="19">Aufruhr, Widersetzlichkeit (<bibl>Grimm</bibl> XI/III 2306-2308).</note>.</s>
 					<s n="24" xml:lang="de" type="auto">Summa, es ist ein blag.</s>
 				</p>
 				<p>
@@ -169,13 +167,13 @@
 					<s n="28" xml:lang="la" type="auto">Deus semper tueatur suos.</s>
 				</p>
 				<p>
-					<s n="29" xml:lang="la" type="auto">Vale cum familia et <persName ref="person225">Utingero</persName>.</s>
+					<s n="29" xml:lang="la" type="auto">Vale cum familia et <persName ref="p3242">Utingero</persName>.</s>
 				</p>
 				<p>
-					<s n="30" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 10. maii anno 35.</s>
+					<s n="30" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 10. maii anno 35.</s>
 				</p>
 				<p>
-					<s n="31" xml:lang="la" type="auto">O. <persName ref="person154">Myconius</persName> tuus.</s>
+					<s n="31" xml:lang="la" type="auto">O. <persName ref="p8418">Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

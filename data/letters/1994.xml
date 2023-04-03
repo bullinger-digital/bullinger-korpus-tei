@@ -6,32 +6,31 @@
 				<title subtype="file">Charles du Moulin / Neuenburg AN Heinrich Bullinger / Zürich, zwischen [3. September 1553] und [18. September 1553]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3264</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Nachschrift" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,368</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 80,82</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,7 +59,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1994">
 				<correspAction type="sent">
-					<persName ref="person974" cert="high">
+					<persName ref="p974" cert="high">
 						<!--
 						<surname cert="high">du Moulin</surname>
 						<forename cert="high">Charles</forename>
@@ -69,11 +68,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/118681206"/>
 						-->
 					</persName>
-					<placeName source="place339" cert="high"><orig>Neuenburg</orig></placeName>
+					<placeName source="l339" cert="high"><orig>Neuenburg</orig></placeName>
 					<date notBefore="1553-09-03" notAfter="1553-09-18" cert="low"><note>1553 September 3., resp. 17./18. (als 2 Briefe gezählt)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -83,7 +82,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file1995"/>
@@ -109,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -160,7 +159,7 @@
 					<s n="30" xml:lang="la" type="auto">Biduo non inveni, qui bigerium idoneum indicarent etiam si quidem interim abirent Basileam; tandem coactus fui die tertio cuidam ocioso domi 4 solatos et pro vectigali 9 baziones offerre, ut biga unicam cistam ferret Basileam.</s>
 					<s n="31" xml:lang="la" type="auto">Duplum ad rationem ponderis mercatoribus solitam offer[r]ebam, sed noluerunt.</s>
 					<s n="32" xml:lang="la" type="auto">Adhuc, quoniam promisi Veneris sero adesse in veteri meo hospitio Floris iuxta non venit nisi sabbati sero, nec amplius divellar a cista, in qua sunt lucubrationes<note type="margin">a.R.: v. lucubr. an andere Schrift</note> mee proximam descedentem navim cum illis ingrediar.</s>
-					<s n="33" xml:lang="la" type="auto">Dominus do[minus] Bonifa[cius] Amerbachius, doctissimus et officiosissimus, et doctor theologiae Wolphgangus<note xml:id="fn1" type="footnote" n="1">Wolfgang Wissenburg.</note> (cui haec ad te mittendas reliqui) domi suae quisque recipere voluerunt, sed ma[nsi] in hospitio Rheno contiguo, ut celerius primam cimbam ingrediar.</s>
+					<s n="33" xml:lang="la" type="auto">Dominus do[minus] Bonifa[cius] Amerbachius, doctissimus et officiosissimus, et doctor theologiae Wolphgangus<note xml:id="fn1" type="footnote" n="1"><persName>Wolfgang Wissenburg</persName>.</note> (cui haec ad te mittendas reliqui) domi suae quisque recipere voluerunt, sed ma[nsi] in hospitio Rheno contiguo, ut celerius primam cimbam ingrediar.</s>
 					<s n="34" xml:lang="la" type="auto">Scis Anglicanam eccl[esiam] graviori interimo, certe domini ventilabro (quam nuper Germania) sub illa papistica Maria subiectam laborare; sed ut, qui ex deo sunt, manifesti fiant et interim ecclesia ab nothis et personatis (vel sub cruce) sequestretur, hic est ignis domini, quo probetur.</s>
 					<s n="35" xml:lang="la" type="auto">Sed adibit libe... dominus nec deerunt arma... nis potentia ad demolitionem munitionum et conciliorum omnia celsitudinis sese extollentis adversus cognitionem dei.</s>
 					<s n="36" xml:lang="la" type="auto">Tu pro illis et nobis ora.</s>

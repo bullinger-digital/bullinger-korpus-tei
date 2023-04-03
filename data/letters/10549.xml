@@ -6,64 +6,61 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN [Heinrich Bullinger], [17.] Januar 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=513</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">62</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,25</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person41">Ulrich Chelius</persName> trägt Gutachten [von
-								<persName ref="person146">Melanchthon</persName>, <persName ref="person28">Bucer</persName> und
-								<persName ref="person1123">Hedio</persName>] bei sich; <persName ref="person263">Zwick</persName>, der
+								<persName ref="p8310">Ulrich Chelius</persName> trägt Gutachten [von
+								<persName ref="p2095">Melanchthon</persName>, <persName ref="p467">Bucer</persName> und
+								<persName ref="p8374">Hedio</persName>] bei sich; <persName ref="p4079">Zwick</persName>, der
 								eine List des Papstes vermutet, hat sie nicht unterzeichnet, aber auch seinem Bruder
-								[Konrad] und Thomas
-								[<persName ref="person20">Blarer</persName>] mißfallen sie.
+								[Konrad] und <persName>Thomas [Blarer]</persName> mißfallen sie.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 513, S.62</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10549">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -72,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1535-01-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -111,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,14 +122,14 @@
 					<s n="1" xml:lang="la" type="auto">Salus.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Venit ad vos quidam Hulderichus <persName ref="person41">Chelius</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person41">Ulrich Chelius</persName> hatte an der Zusammenkunft von <persName ref="person28">Bucer</persName> und <persName ref="person146">Melanchthon</persName> in <placeName ref="place537">Kassel</placeName> teilgenommen und warb nun in Oberdeutschland und in der <placeName ref="place28">Schweiz</placeName> um Zustimmung zu den Gutachten <persName ref="person146">Melanchthons</persName>, <persName ref="person28">Bucers</persName> und <persName ref="person1123">Hedios</persName> (vgl. Anm. 4). Am 11./12. Januar 1535 war er in <placeName ref="place1113">Ulm</placeName>, von wo er über <placeName ref="place697">Memmingen</placeName>, <placeName ref="place520">Isny</placeName>, <placeName ref="place636">Lindau</placeName> und <placeName ref="place565">Konstanz</placeName> spätestens am (Vorabend des) 17. Januar (s. unten <ref target="file10550">Nr. 514</ref>) nach Zürich kam. Von dort gelangte er über <placeName ref="place121">Bern</placeName> am 29. Januar nach <placeName ref="place97">Basel</placeName>. Zur Reiseroute von Chelius vgl. <hi>Seidel</hi> 77-79.</note>, vir certe pius et doctus, ferens responsa quędam de religione ad Gallos<note xml:id="fn4" type="footnote" n="4">Gemeint sind die Gutachten über die Beilegung religiöser Streitfragen, die <persName ref="person41">Ulrich Chelius</persName> im Auftrag von <persName ref="person50">Guillaume du Bellay</persName> im Sommer 1534 bei führenden deutschen Protestanten eingeholt hatte, nämlich bei <persName ref="person146">Melanchthon</persName> ("Consilium ad Gallos", Original: Paris, Bibliothèque Nationale, Coll. Dupuy 424, f. 9r.-22v., Druck nach teilweise stark abweichenden Fassungen: MO II 741-775, <ref target="file11248">Nr. 1205</ref>; zu verfälschenden Kurzfassungen vgl. unten <ref target="file10661">Nr. 623</ref>, Anm. 57); <persName ref="person28">Bucer</persName> (Original ebd., f. 29r.-36v., Druck: <hi>Pollet,</hi> <persName ref="person28">Bucer</persName> II 509-518) und <persName ref="person1123">Hedio</persName> ("Ad amicum", Original ebd., f. 37r.-45v., Regest: <hi>Pollet,</hi> <persName ref="person28">Bucer</persName> II 497f). Zu Inhalt, Entstehung, früheren Drucken und Wirkung der Gutachten vgl. <hi>Seidel</hi> 16-46.</note>, quae forte legenda tibi dabit, ex quibus tamen, quid rei sit, satis intelliges.</s>
+					<s n="2" xml:lang="la" type="auto">Venit ad vos quidam Hulderichus <persName ref="p8310">Chelius</persName><note xml:id="fn3" type="footnote" n="3"><persName>Ulrich Chelius</persName> hatte an der Zusammenkunft von <persName ref="p18198">Bucer</persName> und <persName ref="p6490">Melanchthon</persName> in <placeName>Kassel</placeName> teilgenommen und warb nun in Oberdeutschland und in der <placeName>Schweiz</placeName> um Zustimmung zu den Gutachten <persName ref="p6490">Melanchthons</persName>, <persName ref="p18198">Bucers</persName> und <persName>Hedios</persName> (vgl. Anm. 4). Am 11./12. Januar 1535 war er in <placeName>Ulm</placeName>, von wo er über <placeName>Memmingen</placeName>, <placeName>Isny</placeName>, <placeName>Lindau</placeName> und <placeName>Konstanz</placeName> spätestens am (Vorabend des) 17. Januar (s. unten <ref target="file10550">Nr. 514</ref>) nach Zürich kam. Von dort gelangte er über <placeName>Bern</placeName> am 29. Januar nach <placeName>Basel</placeName>. Zur Reiseroute von Chelius vgl. <bibl>Seidel</bibl> 77-79.</note>, vir certe pius et doctus, ferens responsa quędam de religione ad Gallos<note xml:id="fn4" type="footnote" n="4">Gemeint sind die Gutachten über die Beilegung religiöser Streitfragen, die <persName>Ulrich Chelius</persName> im Auftrag von <persName>Guillaume du Bellay</persName> im Sommer 1534 bei führenden deutschen Protestanten eingeholt hatte, nämlich bei <persName ref="p6490">Melanchthon</persName> ("Consilium ad Gallos", Original: Paris, Bibliothèque Nationale, Coll. Dupuy 424, f. 9r.-22v., Druck nach teilweise stark abweichenden Fassungen: <bibl>MO</bibl> II 741-775, <ref target="file11248">Nr. 1205</ref>; zu verfälschenden Kurzfassungen vgl. unten <ref target="file10661">Nr. 623</ref>, Anm. 57); <persName ref="p18198">Bucer</persName> (Original ebd., f. 29r.-36v., Druck: <hi>Pollet,</hi> <persName ref="p18198">Bucer</persName> II 509-518) und <persName>Hedio</persName> ("Ad amicum", Original ebd., f. 37r.-45v., Regest: <hi>Pollet,</hi> <persName ref="p18198">Bucer</persName> II 497f). Zu Inhalt, Entstehung, früheren Drucken und Wirkung der Gutachten vgl. <bibl>Seidel</bibl> 16-46.</note>, quae forte legenda tibi dabit, ex quibus tamen, quid rei sit, satis intelliges.</s>
 					<s n="3" xml:lang="la" type="auto">Obtulit mihi quoque legenda, sed nolui meo calculo firmare quicquam.</s>
-					<s n="4" xml:lang="la" type="auto">Non enim mihi probantur hęc consilia, et fieri potest, ut pontificis<note xml:id="fn5" type="footnote" n="5"><persName ref="person1792">Paul III.</persName></note> astutia haec gerantur insciis piis.</s>
+					<s n="4" xml:lang="la" type="auto">Non enim mihi probantur hęc consilia, et fieri potest, ut pontificis<note xml:id="fn5" type="footnote" n="5"><persName>Paul III.</persName></note> astutia haec gerantur insciis piis.</s>
 					<s n="5" xml:lang="la" type="auto">Proinde mihi dolet quicquam tribui pontificis autoritati, cuius animum non ignoramus.</s>
-					<s n="6" xml:lang="de" type="manual">Ja, wann gott den bapst zum mittel bruchen wurt, <foreign xml:lang="la">ut<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> ut <hi>gestrichenes</hi> das.</note> bene habeat ecclesia Christi,</foreign> so ist got halb verwechslet<note xml:id="fn6" type="footnote" n="6">verändert (Grimm XII/I 2144).</note>, <foreign xml:lang="la">ne quid dicam consilia <persName ref="person28">Buceri</persName> et <persName ref="person146">Philippi</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person146">Philipp Melanchthon</persName>.</note> hac in re mihi videri periculosissima.</foreign></s>
+					<s n="6" xml:lang="de" type="manual">Ja, wann gott den bapst zum mittel bruchen wurt, <foreign xml:lang="la">ut<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> ut <hi>gestrichenes</hi> das.</note> bene habeat ecclesia Christi,</foreign> so ist got halb verwechslet<note xml:id="fn6" type="footnote" n="6">verändert (<bibl>Grimm</bibl> XII/I 2144).</note>, <foreign xml:lang="la">ne quid dicam consilia <persName ref="p467">Buceri</persName> et <persName ref="p2095">Philippi</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="p6490">Philipp Melanchthon</persName>.</note> hac in re mihi videri periculosissima.</foreign></s>
 					<s n="7" xml:lang="la" type="auto">Utinam hora tecum potuissem colloqui!</s>
 					<s n="8" xml:lang="la" type="auto">Sed non datur literis quicquam addere.</s>
-					<s n="9" xml:lang="la" type="auto">Consilia haec neque fratri meo<note xml:id="fn8" type="footnote" n="8"><persName ref="person264">Konrad Zwick</persName>.</note> neque <persName ref="person20">Thomae</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person20">Thomas Blarer</persName>.</note><pb type="edition" next="63"/> probantur.</s>
+					<s n="9" xml:lang="la" type="auto">Consilia haec neque fratri meo<note xml:id="fn8" type="footnote" n="8"><persName>Konrad Zwick</persName>.</note> neque <persName>Thomae</persName><note xml:id="fn9" type="footnote" n="9"><persName>Thomas Blarer</persName>.</note><pb type="edition" next="63"/> probantur.</s>
 					<s n="10" xml:lang="la" type="auto">Vide, ne quicquam cuiquam<note xml:id="fnb" type="footnote" n="b">cuiquam <hi>am Rande nachgetragen.</hi></note> dicas de hisce literis meis.</s>
 					<s n="11" xml:lang="la" type="auto">Hoc tamen volui, ut scires, quid responderim optimo viro.</s>
 				</p>

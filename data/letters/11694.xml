@@ -6,49 +6,39 @@
 				<title subtype="file">Johannes Zwick / Konstanz AN Heinrich Bullinger, 9. August 1542</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2006</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17431-6</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1651</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">12</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1542</biblScope>
-				<biblScope unit="page">162</biblScope>
-				<biblScope unit="pages">299</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 12 (Briefe des Jahres 1542), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2006, 299 S., ISBN 978-3-290-17431-6.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,77</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Schreibt selten an Bullinger, weil Ambrosius
-								[<persName ref="person19">Blarer</persName>] wortgewandt an seiner Stelle schreibt; sein Schweigen bedeutet
+								Schreibt selten an Bullinger, weil <persName ref="p8055">Ambrosius [Blarer]</persName> wortgewandt an seiner Stelle schreibt; sein Schweigen bedeutet
 								also nicht Ablehnung oder Vergessen. Grüße. Kann seine Trauer über den Tod
-								<persName ref="person114">Leo [Juds]</persName> in keiner Weise
+								<persName ref="p1753">Leo [Juds]</persName> in keiner Weise
 								ausdrücken, Gott möge uns trösten.
 							</p>
 						</summary>
@@ -56,13 +46,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 12, Nr. 1651, S.162</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11694">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -71,11 +68,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1542-08-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +102,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,19 +114,19 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Quod rarius ad te scribo, <persName ref="person19">Ambrosii</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="person19">Ambrosius Blarer</persName>.</note> literae in causa sunt; nam ille iam etiam meo loco officio scribendi fungitur, qui potest illi et copiose et eleganter satisfacere.</s>
+					<s n="2" xml:lang="la" type="auto">Quod rarius ad te scribo, <persName ref="p8055">Ambrosii</persName><note xml:id="fn1" type="footnote" n="1"><persName>Ambrosius Blarer</persName>.</note> literae in causa sunt; nam ille iam etiam meo loco officio scribendi fungitur, qui potest illi et copiose et eleganter satisfacere.</s>
 					<s n="3" xml:lang="la" type="auto">Itaque silentium meum bene vertas, quod nullo fastidio nec ulla tui oblivione nascitur; in oculis enim meis semper talis es, quales sunt amantissimi.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Vale et uxorem tuam<note xml:id="fn2" type="footnote" n="2">Anna, geb. Adlischwyler.</note> totamque domum saluta nomine meo<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> me.</note> studiosissime.</s>
-					<s n="5" xml:lang="la" type="auto">Quam me etiamnum affligat obitus Leonis<note xml:id="fn3" type="footnote" n="3"><persName ref="person114">Leo Jud</persName>, der am 19. Juni verstorben war, vgl. oben <ref target="file11681">Nr. 1638</ref>.</note>, non possum ulla ratione explicare.</s>
+					<s n="4" xml:lang="la" type="auto">Vale et uxorem tuam<note xml:id="fn2" type="footnote" n="2"><persName>Anna, geb. Adlischwyler</persName>.</note> totamque domum saluta nomine meo<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> me.</note> studiosissime.</s>
+					<s n="5" xml:lang="la" type="auto">Quam me etiamnum affligat obitus Leonis<note xml:id="fn3" type="footnote" n="3"><persName ref="p2305">Leo Jud</persName>, der am 19. Juni verstorben war, vgl. oben <ref target="file11681">Nr. 1638</ref>.</note>, non possum ulla ratione explicare.</s>
 					<s n="6" xml:lang="la" type="auto">Dominus nos consoletur.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Ex <placeName ref="place565">Constantia</placeName>, 9. augusti 1542.</s>
+					<s n="7" xml:lang="la" type="auto">Ex <placeName>Constantia</placeName>, 9. augusti 1542.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zvick</persName>.</s>
+					<s n="8" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zvick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

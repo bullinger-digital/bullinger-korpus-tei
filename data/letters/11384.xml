@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 22. Dezember 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1341</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">279</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,155</idno>
 					</msIdentifier>
 					<msContents>
@@ -54,13 +45,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1341, S.279</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11384">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1539-12-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +108,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,7 +121,7 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Valde mihi doluit, quod tam diu visus es negligere me in tantis calamitatibus; hactenus enim divexatus sum ab academia, a senatu, a peste, a morbis.</s>
-					<s n="3" xml:lang="la" type="auto">Et adhuc divexamur; nam conatur magistratus praescribere rationem synodi et excommunicationis nobis absque nobis, imo praescripsit<note xml:id="fn1" type="footnote" n="1">Am 19. November hatten die beiden Räte eine neue Synodal- und Bannordnung eingeführt (Abschrift u. a. in <placeName ref="place97">Basel</placeName> UB, Ms. Ki. Ar. 23a, 92v.-95v.). Die Räte erhielten erweiterte Befugnisse bei der Aufsicht über die Pfarrer und im Bannwesen; die gemischte Kommission der "Synodusherren" oder Kirchenverordneten wurde abgeschafft. Vgl. <persName ref="person154">Myconius</persName> an <persName ref="person40">Capito</persName>, 23. Dezember 1539 (<persName ref="person40">Capito</persName>, Corr. 256f, <ref target="file10760">Nr. 722</ref>); ders. an <persName ref="person226">Vadian</persName>, 7. März 1540 (<persName ref="person226">Vadian</persName> BW V 612f, <ref target="file11147">Nr. 1104</ref>); <hi>Burckhardt-Biedermann</hi> 455f; Das Tagebuch des Johannes Gast, bearb. v. Paul Burckhardt, <placeName ref="place97">Basel</placeName> 1945, S. 35.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Et adhuc divexamur; nam conatur magistratus praescribere rationem synodi et excommunicationis nobis absque nobis, imo praescripsit<note xml:id="fn1" type="footnote" n="1">Am 19. November hatten die beiden Räte eine neue Synodal- und Bannordnung eingeführt (Abschrift u. a. in <placeName>Basel</placeName> UB, Ms. Ki. Ar. 23a, 92v.-95v.). Die Räte erhielten erweiterte Befugnisse bei der Aufsicht über die Pfarrer und im Bannwesen; die gemischte Kommission der "Synodusherren" oder Kirchenverordneten wurde abgeschafft. Vgl. <persName>Myconius</persName> an <persName>Capito</persName>, 23. Dezember 1539 (<persName>Capito</persName>, Corr. 256f, <ref target="file10760">Nr. 722</ref>); ders. an <persName>Vadian</persName>, 7. März 1540 (<persName>Vadian</persName> BW V 612f, <ref target="file11147">Nr. 1104</ref>); <bibl>Burckhardt-Biedermann</bibl> 455f; Das Tagebuch des Johannes Gast, bearb. v. Paul Burckhardt, <placeName>Basel</placeName> 1945, S. 35.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Ea re<pb type="edition" next="280"/> nihil unquam gravius accidit, non quidem propter me, sed propter ecclesiam, quod is<note xml:id="fn2" type="footnote" n="2">der Magistrat.</note> vestigia papismi videtur sectari.</s>
 					<s n="5" xml:lang="la" type="auto">Bone deus, quam sumus miseri discipuli magni praeceptoris!</s>
 					<s n="6" xml:lang="la" type="auto">Verum postquam literas tuas postremas<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> accepi, redditus sum mihi et de te spero quemadmodum hactenus.</s>
@@ -136,8 +134,8 @@
 					<s n="11" xml:lang="la" type="auto">Deinceps scribam plaenius.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, raptim, 22. decembris anno 39.</s>
-					<s n="13" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="12" xml:lang="la" type="auto"><placeName>Basileę</placeName>, raptim, 22. decembris anno 39.</s>
+					<s n="13" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

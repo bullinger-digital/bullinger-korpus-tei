@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Gast / [Basel] AN Heinrich Bullinger, 15. Juni 1543</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1755</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">157</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,265</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,24 +38,31 @@
 							<p xml:id="regest1">
 								Sendet folgende Bücher (mit Preisangabe) - die restlichen schickt er, sobald er sie findet -: „De
 								autoritate verbi dei“ [von Alexander Alesius], die „Idiomata“ von
-								<persName ref="person2543">[Georg] Witzel</persName>, den <persName ref="person22223">Hyginus</persName>,
-								die Kirchenordnung von [<placeName ref="place968">Schwäbisch</placeName>] Hall und [die „Mathesis“ von]
-								<persName ref="person22172">Firmicus [Maternus]</persName>. Kündigt die drei Teile des anatomischen Werks [von <persName ref="person2386">Andreas Vesalius</persName>] an, die er, falls
+								<persName ref="p7091">[Georg] Witzel</persName>, den <persName ref="p5336">Hyginus</persName>,
+								die Kirchenordnung von [<placeName>Schwäbisch</placeName>] Hall und [die „Mathesis“ von]
+								<persName ref="p18058">Firmicus [Maternus]</persName>. Kündigt die drei Teile des anatomischen Werks [von <persName ref="p6920">Andreas Vesalius</persName>] an, die er, falls
 								von Bullinger gewünscht, alle beschaffen kann; sobald das Register zum Hauptteil fertiggestellt ist, wird er
-								ihm auch dieses besorgen; Doktor [<persName ref="person2386">Vesalius</persName>] lässt ihn grüßen. Weitere Grüße.
+								ihm auch dieses besorgen; Doktor [<persName ref="p6920">Vesalius</persName>] lässt ihn grüßen. Weitere Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1755, S.157</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11801">
 				<correspAction type="sent">
-					<persName ref="person1278" cert="high">
+					<persName ref="p1278" cert="high">
 						<!--
 						<surname cert="high">Gast</surname>
 						<forename cert="high">Johannes</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415086"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1543-06-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,30 +125,30 @@
 					<s n="2" xml:lang="la" type="auto">Mitto hic tibi, Bullingere doctissime ac charissime, libros, quos potui invenire, reliqua suo tempore missurus, si ullo modo assequi possum:</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">De autoritate verbi dei<note xml:id="fn1" type="footnote" n="1">Alexander Alesius, De authoritate verbi dei contra episcopum Lundensem [John Stokesley], <placeName ref="place1049">Straßburg</placeName> (<persName ref="person1715">Crato Mylius</persName>) 1542 (VD 16 A 1724).</note> 8 rap.</s>
+					<s n="3" xml:lang="la" type="auto">De autoritate verbi dei<note xml:id="fn1" type="footnote" n="1">Alexander Alesius, De authoritate verbi dei contra episcopum Lundensem [John Stokesley], <placeName>Straßburg</placeName> (<persName>Crato Mylius</persName>) 1542 (VD 16 A 1724).</note> 8 rap.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Idiomata <persName ref="person2543">Vicelii</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person2543">Georg Witzel</persName>, Idiomata quaedam linguae sanctae in scripturis veteris testamenti observata, <placeName ref="place668">Mainz</placeName> (<persName ref="person20809">Franz Behem</persName>) 1542 (VD 16 W 3967).</note> 8 rap.</s>
+					<s n="4" xml:lang="la" type="auto">Idiomata <persName ref="p7091">Vicelii</persName><note xml:id="fn2" type="footnote" n="2"><persName>Georg Witzel</persName>, Idiomata quaedam linguae sanctae in scripturis veteris testamenti observata, <placeName>Mainz</placeName> (<persName>Franz Behem</persName>) 1542 (VD 16 W 3967).</note> 8 rap.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">C. <persName ref="person22172">Iulii</persName> <persName ref="person22223">Hygini</persName><note xml:id="fn3" type="footnote" n="3">Zur 1535 bei <persName ref="person1160">Johann Herwagen</persName> in <placeName ref="place97">Basel</placeName> erschienenen Ausgabe von Werken des <persName ref="person22223">Hyginus</persName>, die hier wahrscheinlich gemeint ist, s. oben <ref target="file11773">Nr. 1728</ref>, 15 mit Anm. 11.</note> Aug[usti liberti]<note xml:id="fn4" type="footnote" n="4">D. h. Freigelassener des <persName ref="person373">Augustus</persName>.</note> 6 batz.</s>
-					<s n="6" xml:lang="de" type="auto">Ordnung der kirchen zuͦ Hal<note xml:id="fn5" type="footnote" n="5">[<persName ref="person514">Johannes Brenz</persName>,] Ordnung der kirchen inn eins erbarn raths zu Schwäbischen Hall oberkeit und gepiet gelegen, <placeName ref="place968">Schwäbisch Hall</placeName> (<persName ref="person22304">Pankratius Queck</persName>) 1543 (VD 16 A 758), ediert in: Die evangelischen Kirchenordnungen des sechszehnten Jahrhunderts, hg. v. Aemilius Ludwig Richter, Zweiter Bd., Weimar 1846 (Nachdruck: Nieuwkoop 1967), S. 14-21, Nr. LXXVII.</note> 2½ batz.</s>
-					<s n="7" xml:lang="la" type="auto">Iul. <persName ref="person22172">Firmici</persName> etc<note xml:id="fn6" type="footnote" n="6"><persName ref="person22172">Iulius Firmicus Maternus</persName>, Astronomicῶn lib. VIII [...] [Mathesis], <placeName ref="place97">Basel</placeName> (<persName ref="person1160">Johann Herwagen</persName>) 1533 (VD 16 F 1119). Die Ausgabe enthält weitere astronomische Schriften von verschiedenen Autoren. - <persName ref="person22172">Iulius Firmicus Maternus</persName> aus <placeName ref="place5">Sizilien</placeName> verfasste um 335/336 n. Chr. ein neuplatonisch geprägtes Handbuch der Astrologie ("Matheseos libri VIII"). Seine zweite Schrift, "De errore profanorum religionum", entstand zwischen 343 und 350 nach seiner Bekehrung zum Christentum und wurde erst 1562 erstmals gedruckt. - Lit.: Karl <hi>Hoheisel,</hi> in: DNP IV 523f.</note>. 9 batz.</s>
+					<s n="5" xml:lang="la" type="auto">C. <persName ref="p18058">Iulii</persName> <persName ref="p5336">Hygini</persName><note xml:id="fn3" type="footnote" n="3">Zur 1535 bei <persName>Johann Herwagen</persName> in <placeName>Basel</placeName> erschienenen Ausgabe von Werken des <persName>Hyginus</persName>, die hier wahrscheinlich gemeint ist, s. oben <ref target="file11773">Nr. 1728</ref>, 15 mit Anm. 11.</note> Aug[usti liberti]<note xml:id="fn4" type="footnote" n="4">D. h. Freigelassener des <persName>Augustus</persName>.</note> 6 batz.</s>
+					<s n="6" xml:lang="de" type="auto">Ordnung der kirchen zuͦ Hal<note xml:id="fn5" type="footnote" n="5">[<persName ref="p17881">Johannes Brenz</persName>,] Ordnung der kirchen inn eins erbarn raths zu Schwäbischen Hall oberkeit und gepiet gelegen, <placeName>Schwäbisch Hall</placeName> (<persName>Pankratius Queck</persName>) 1543 (VD 16 A 758), ediert in: Die evangelischen Kirchenordnungen des sechszehnten Jahrhunderts, hg. v. Aemilius Ludwig Richter, Zweiter Bd., Weimar 1846 (Nachdruck: Nieuwkoop 1967), S. 14-21, Nr. LXXVII.</note> 2½ batz.</s>
+					<s n="7" xml:lang="la" type="auto">Iul. <persName ref="p18058">Firmici</persName> etc<note xml:id="fn6" type="footnote" n="6"><persName>Iulius Firmicus Maternus</persName>, Astronomicῶn lib. VIII [...] [Mathesis], <placeName>Basel</placeName> (<persName>Johann Herwagen</persName>) 1533 (VD 16 F 1119). Die Ausgabe enthält weitere astronomische Schriften von verschiedenen Autoren. - <persName>Iulius Firmicus Maternus</persName> aus <placeName>Sizilien</placeName> verfasste um 335/336 n. Chr. ein neuplatonisch geprägtes Handbuch der Astrologie ("Matheseos libri VIII"). Seine zweite Schrift, "De errore profanorum religionum", entstand zwischen 343 und 350 nach seiner Bekehrung zum Christentum und wurde erst 1562 erstmals gedruckt. - Lit.: Karl <hi>Hoheisel,</hi> in: <bibl>DNP</bibl> IV 523f.</note>. 9 batz.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Brevi mittam etiam librum anatomicum.</s>
-					<s n="9" xml:lang="la" type="auto">Erunt tres libri: 1. omnia habebit, quae ad fabricam humani corporis attinent, exactissime descripta;<note xml:id="fn7" type="footnote" n="7"><persName ref="person2386">Andreas Vesalius</persName>, De humani corporis fabrica libri septem, <placeName ref="place97">Basel</placeName> (<persName ref="person161">Johannes Oporin</persName>) 1543 "mense junio" (VD 16 V 910); vgl. oben <ref target="file11773">Nr. 1728</ref>, 3-5 mit Anm. 3.</note> 2. epitome erit propriisque et magnis figuris illustratur;<note xml:id="fn8" type="footnote" n="8"><persName ref="person2386">Andreas Vesalius</persName>, De humani corporis fabrica librorum epitome, <placeName ref="place97">Basel</placeName> (<persName ref="person161">Johannes Oporin</persName>) 1543 "mense iunio" (VD 16 V 912).</note> 3. Germanicus erit, quem<pb type="edition" next="158"/> nondum vidi, sed iam sub prelum paratur<note xml:id="fn9" type="footnote" n="9"><persName ref="person2386">Andreas Vesalius</persName>, Von des menschen cörpers anatomey ein kurtzer, aber vast nützer außzug, <placeName ref="place97">Basel</placeName> (<persName ref="person161">Johannes Oporin</persName>) 1543 "vollendet am neünten tag des augstmonat" (VD 16 V 916).</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Erunt tres libri: 1. omnia habebit, quae ad fabricam humani corporis attinent, exactissime descripta;<note xml:id="fn7" type="footnote" n="7"><persName>Andreas Vesalius</persName>, De humani corporis fabrica libri septem, <placeName>Basel</placeName> (<persName>Johannes Oporin</persName>) 1543 "mense junio" (VD 16 V 910); vgl. oben <ref target="file11773">Nr. 1728</ref>, 3-5 mit Anm. 3.</note> 2. epitome erit propriisque et magnis figuris illustratur;<note xml:id="fn8" type="footnote" n="8"><persName>Andreas Vesalius</persName>, De humani corporis fabrica librorum epitome, <placeName>Basel</placeName> (<persName>Johannes Oporin</persName>) 1543 "mense iunio" (VD 16 V 912).</note> 3. Germanicus erit, quem<pb type="edition" next="158"/> nondum vidi, sed iam sub prelum paratur<note xml:id="fn9" type="footnote" n="9"><persName>Andreas Vesalius</persName>, Von des menschen cörpers anatomey ein kurtzer, aber vast nützer außzug, <placeName>Basel</placeName> (<persName>Johannes Oporin</persName>) 1543 "vollendet am neünten tag des augstmonat" (VD 16 V 916).</note>.</s>
 					<s n="10" xml:lang="la" type="auto">Si omnes tres velles, comparabo.</s>
 					<s n="11" xml:lang="la" type="auto">Indica saltem unico verbo.</s>
-					<s n="12" xml:lang="la" type="auto">Postquam index in magnum volumen absolutus fuerit, habebis<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> habebis <hi>ein unlesbares, gestrichenes Wort.</hi></note>, si commode in tabellionem incidero, pretiumque assignabo et<note xml:id="fnb" type="footnote" n="b">et <hi>über der Zeile nachgetragen.</hi></note>, quantum potero vilissimo, sed aequo, emam a doctore<note xml:id="fn10" type="footnote" n="10"><persName ref="person2386">Vesalius</persName>.</note>, qui et te salvere iubet.</s>
+					<s n="12" xml:lang="la" type="auto">Postquam index in magnum volumen absolutus fuerit, habebis<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> habebis <hi>ein unlesbares, gestrichenes Wort.</hi></note>, si commode in tabellionem incidero, pretiumque assignabo et<note xml:id="fnb" type="footnote" n="b">et <hi>über der Zeile nachgetragen.</hi></note>, quantum potero vilissimo, sed aequo, emam a doctore<note xml:id="fn10" type="footnote" n="10"><persName>Vesalius</persName>.</note>, qui et te salvere iubet.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Vale in domino.</s>
-					<s n="14" xml:lang="la" type="auto">D. <persName ref="person14">Theodorum</persName><note xml:id="fn11" type="footnote" n="11"><persName ref="person14">Theodor Bibliander</persName>.</note> et Phrisium<note xml:id="fn12" type="footnote" n="12"><persName ref="person69">Johannes Fries</persName>.</note> salutabis.</s>
+					<s n="14" xml:lang="la" type="auto">D. <persName ref="p8171">Theodorum</persName><note xml:id="fn11" type="footnote" n="11"><persName>Theodor Bibliander</persName>.</note> et Phrisium<note xml:id="fn12" type="footnote" n="12"><persName>Johannes Fries</persName>.</note> salutabis.</s>
 					<s n="15" xml:lang="la" type="auto">15. iunii 1543.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Tuus <persName ref="person74">Gastius</persName> ex animo.</s>
+					<s n="16" xml:lang="la" type="auto">Tuus <persName ref="p1278">Gastius</persName> ex animo.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

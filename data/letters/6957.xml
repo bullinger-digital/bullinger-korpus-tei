@@ -6,32 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN [Johannes Haller d.J.], 7. Dezember 1566</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6944/195</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 46,610</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +45,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6957">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -56,11 +55,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1566-12-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person8018" cert="low">
+					<persName ref="p8018" cert="low">
 						<!--
 						<surname cert="low">Haller d.J.</surname>
 						<forename cert="low">Johannes</forename>
@@ -96,7 +95,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -115,7 +114,7 @@
 					<s n="8" xml:lang="de" type="auto">Die fürsten und adel haben gefressen und gesoffen, das ein ordnung gemacht, daß man zuͦ mahl nit über 12 trachten<note xml:id="fn1" type="footnote" n="1">Gänge einer Mahlzeit.</note> yntragen solle.</s>
 					<s n="9" xml:lang="de" type="auto">Vide, ist das jemal gehört!</s>
 					<s n="10" xml:lang="de" type="auto">Ist wol Balthasar und sein mal in Babylon.</s>
-					<s n="11" xml:lang="de" type="auto">Der Maximilian hat sich mit seinem pfawenschwantz<note xml:id="fn2" type="footnote" n="2">Pfauenschwanz als Symbol Österreichs (vgl. SI IX 1033f).</note> zytlich in sein frawenzimmer gemacht etc.</s>
+					<s n="11" xml:lang="de" type="auto">Der Maximilian hat sich mit seinem pfawenschwantz<note xml:id="fn2" type="footnote" n="2">Pfauenschwanz als Symbol Österreichs (vgl. <bibl>SI</bibl> IX 1033f).</note> zytlich in sein frawenzimmer gemacht etc.</s>
 					<s n="12" xml:lang="la" type="auto">Exosus est fortibus militibus.</s>
 					<s n="13" xml:lang="de" type="auto">Hat Zygeth, Julan<note xml:id="fn3" type="footnote" n="3">Gyula.</note> und anders lassen zuͦ grund gahn.</s>
 					<s n="14" xml:lang="de" type="auto">Daß er nit angriffen, sagt er jetz, die sinen seyen nit all willig xin, habe der sach nit truwen dörffen und uß bösem nit wöllen ergers machen.</s>
@@ -123,7 +122,7 @@
 					<s n="16" xml:lang="de" type="auto">Der helt/halt inen hoff zuͦ Wien.</s>
 					<s n="17" xml:lang="de" type="auto">Wil gen Prag.</s>
 					<s n="18" xml:lang="de" type="auto">Ferdinand in Tyrol, scilicet gen schinden.</s>
-					<s n="19" xml:lang="de" type="auto">Man sagt ouch von einem reichstag, der werden sol zuͦ Regenspurg oder Wurm[s?], alles umb schindens willen, und daß jederman im tütschen land in deß pfawen<note xml:id="fn4" type="footnote" n="4">Anspielung auf Pfauenschwanz als Symbol Österreichs? (vgl. SI IX 1033f).</note> badstübli gebracht, ußgeriben werde.</s>
+					<s n="19" xml:lang="de" type="auto">Man sagt ouch von einem reichstag, der werden sol zuͦ Regenspurg oder Wurm[s?], alles umb schindens willen, und daß jederman im tütschen land in deß pfawen<note xml:id="fn4" type="footnote" n="4">Anspielung auf Pfauenschwanz als Symbol Österreichs? (vgl. <bibl>SI</bibl> IX 1033f).</note> badstübli gebracht, ußgeriben werde.</s>
 					<s n="20" xml:lang="de" type="auto">Wen aber die hut beißt<note xml:id="fn5" type="footnote" n="5">die Haut juckt.</note>, mag sy ihm die Türggen wol striglen lassen.</s>
 					<s n="21" xml:lang="de" type="auto">Warumb sagt man Maximilian nit, daß er Hungern dem lasse, dems ghört, und mit dem ein friden mache, den er doch nit ohne seinen grewlichen undergang bekriegen mag?</s>
 					<s n="22" xml:lang="de" type="auto">Haben die Österricher nit lang alle welt sunst ganz ußgesuget und plaget?</s>

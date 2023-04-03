@@ -6,47 +6,38 @@
 				<title subtype="file">Kaspar Megander, Heinrich Bullinger / Zürich AN Johannes Stumpf, 15. November 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1586</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">350</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 313,11r.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bitten die Pfarrer des Kapitels [<placeName ref="place1187">Wetzikon</placeName>], auf
-								<persName ref="person839">[Benedikt] Finslers</persName> Armut
+								Bitten die Pfarrer des Kapitels [<placeName>Wetzikon</placeName>], auf
+								<persName ref="p4790">[Benedikt] Finslers</persName> Armut
 								Rücksicht zu nehmen; dieser hat zwar an der letzten Synode zugesagt, ihrer Forderung entsprechen zu wollen,
 								ist aber unbemittelt.
 							</p>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1586, S.350</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11629">
 				<correspAction type="sent">
-					<persName ref="person2263" cert="high">
+					<persName ref="p2263" cert="high">
 						<!--
 						<surname cert="high">Megander</surname>
 						<forename cert="high">Kaspar</forename>
@@ -72,7 +70,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416166"/>
 						-->
 					</persName>
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -82,11 +80,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1541-11-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3067" cert="high">
+					<persName ref="p3067" cert="high">
 						<!--
 						<surname cert="high">Stumpf</surname>
 						<forename cert="high">Johannes</forename>
@@ -115,20 +113,20 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person145">Caspar Megander</persName> et H. Bullingerus <persName ref="person211">Stumpfio</persName> suo.</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p8412">Caspar Megander</persName> et H. Bullingerus <persName ref="p6730">Stumpfio</persName> suo.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Gratiam et pacem etc.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Oramus tuam humanitatem, Stumphi doctissime, ut causam suscipias Finssleri<note xml:id="fn1" type="footnote" n="1"><persName ref="person839">Benedikt Finsler</persName>, bis 1540 Diakon in Goßau (Kt. Zürich).</note> atque a fratribus capituli per preces nostras impetres, quo paupertatulam illius ipsi concedant, dissoluto iuris vinculo<note xml:id="fn2" type="footnote" n="2">Über Verbindlichkeiten <persName ref="person839">Finslers</persName> gegenüber den Pfarrern des Kapitels <placeName ref="place1187">Wetzikon</placeName> ist sonst nichts bekannt.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Oramus tuam humanitatem, Stumphi doctissime, ut causam suscipias Finssleri<note xml:id="fn1" type="footnote" n="1"><persName>Benedikt Finsler</persName>, bis 1540 Diakon in Goßau (Kt. Zürich).</note> atque a fratribus capituli per preces nostras impetres, quo paupertatulam illius ipsi concedant, dissoluto iuris vinculo<note xml:id="fn2" type="footnote" n="2">Über Verbindlichkeiten <persName>Finslers</persName> gegenüber den Pfarrern des Kapitels <placeName>Wetzikon</placeName> ist sonst nichts bekannt.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Pollicitus est nobis proxima in synodo<note xml:id="fn3" type="footnote" n="3">Da die Herbstsynode ausfiel (vgl. oben <ref target="file11615">Nr. 1572</ref>), muss die Frühjahrssynode vom 3. Mai 1541 gemeint sein. Im Protokoll (Zürich StA, E II 1, 265-274) ist über diese Angelegenheit nichts zu finden.</note> appensurum, quicquid instructi a vobis indixerimus.</s>
 					<s n="5" xml:lang="la" type="auto">Nos quia scimus miserum praemi paupertate et inopia, non gravatim has ad vos scripsimus precantes, ut concedatis sponte, quae hactenus auferre<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> auferre <hi>gestrichenes</hi> quae hactenus.</note> per vos non potuit.</s>
 					<s n="6" xml:lang="la" type="auto">Speramus autem preces nostras apud vos valituras.</s>

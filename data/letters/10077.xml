@@ -6,50 +6,41 @@
 				<title subtype="file">Berchtold Haller / [Bern] AN Heinrich Bullinger, 11. Dezember 1531</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1974</date>
-				<idno subtype="ISBN">ISBN 3-290-11334-5</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=49</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW I</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">1</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1524-1531</biblScope>
-				<biblScope unit="page">234</biblScope>
-				<biblScope unit="pages">268</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 360,65 1 fol. S.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bedauert Bullingers Absage an <placeName ref="place121">Bern</placeName>, ist empört über die Forderung
+								Bedauert Bullingers Absage an <placeName>Bern</placeName>, ist empört über die Forderung
 								des Zürcher Rates zur Einschränkung der freien Predigt, beschwört Bullinger, diese Forderung zum Anlaß zu
-								nehmen, um doch nach <placeName ref="place121">Bern</placeName> zu kommen, und berichtet vom Abkommen
-								zwischen der <placeName ref="place121">Berner</placeName> Landschaft und der Regierung über
-								Kirchenfragen sowie von <persName ref="person145">Meganders</persName> Schwierigkeiten wegen seiner Kritik
+								nehmen, um doch nach <placeName>Bern</placeName> zu kommen, und berichtet vom Abkommen
+								zwischen der <placeName>Berner</placeName> Landschaft und der Regierung über
+								Kirchenfragen sowie von <persName ref="p8412">Meganders</persName> Schwierigkeiten wegen seiner Kritik
 								an der Obrigkeit.
 							</p>
 						</summary>
@@ -60,13 +51,20 @@
 					<physDesc>
 						<objectDesc><p>sehr gut erhalten</p></objectDesc>
 					</physDesc>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 1, Nr. 49, S.234</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10077">
 				<correspAction type="sent">
-					<persName ref="person1391" cert="high">
+					<persName ref="p1391" cert="high">
 						<!--
 						<surname cert="high">Haller</surname>
 						<forename cert="high">Berchtold</forename>
@@ -76,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413862"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="low"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1531-12-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -116,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -130,40 +128,40 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et vitę innocentiam a deo per Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Ach, lieber Heinrich, ich kan voll bekümertem herzen wäder tütsch noch latin schriben, so ich so ein unverhoffte<note xml:id="fn2" type="footnote" n="2">unerwartete.</note> antwurt<note xml:id="fn3" type="footnote" n="3">Bullingers Brief ist nicht erhalten.</note> von dir enpfahen<note xml:id="fn4" type="footnote" n="4">empfangen.</note>, zuͦ dem, daß ich schon bettligerig<note xml:id="fn5" type="footnote" n="5"><persName ref="person90">Hallers</persName> Krankheiten s. oben <ref target="file10074">[Nr. 46]</ref> S. 229,20 f.</note>, bruͤder <persName ref="person145">Caspar</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person145">Megander</persName>, s. oben <ref target="file10067">[Nr. 39]</ref> S. 214f, Anm. 53.</note> still gestelt<note xml:id="fn7" type="footnote" n="7">mit Predigtverbot belegt. - Dazu s. oben <ref target="file10074">[Nr. 46]</ref> S. 229, Anm. 5.</note>, dem alten <persName ref="person1393">Frantzen</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="person1393">Franz Kolb</persName>, s. oben S. 215, Anm. 54.</note> allein alle sach ze schwär und in allem<note xml:id="fn9" type="footnote" n="9">im ganzen (SI I 167).</note> <placeName ref="place121">Bern</placeName> nitt einer funden<note xml:id="fn10" type="footnote" n="10">findet sich keiner, ist nicht einer bekannt (SI I 847).</note>, der ein predig versähen<note xml:id="fn11" type="footnote" n="11">besorgen, sein Amt (das Predigen) ausüben (SI VII 868f).</note> künd<note xml:id="fn12" type="footnote" n="12">könnte.</note> <foreign xml:lang="la">hac rerum omnium et hominum turba!</foreign></s>
+					<s n="2" xml:lang="de" type="auto">Ach, lieber Heinrich, ich kan voll bekümertem herzen wäder tütsch noch latin schriben, so ich so ein unverhoffte<note xml:id="fn2" type="footnote" n="2">unerwartete.</note> antwurt<note xml:id="fn3" type="footnote" n="3">Bullingers Brief ist nicht erhalten.</note> von dir enpfahen<note xml:id="fn4" type="footnote" n="4">empfangen.</note>, zuͦ dem, daß ich schon bettligerig<note xml:id="fn5" type="footnote" n="5"><persName>Hallers</persName> Krankheiten s. oben <ref target="file10074">[Nr. 46]</ref> S. 229,20 f.</note>, bruͤder <persName ref="p8412">Caspar</persName><note xml:id="fn6" type="footnote" n="6"><persName>Megander</persName>, s. oben <ref target="file10067">[Nr. 39]</ref> S. 214f, Anm. 53.</note> still gestelt<note xml:id="fn7" type="footnote" n="7">mit Predigtverbot belegt. - Dazu s. oben <ref target="file10074">[Nr. 46]</ref> S. 229, Anm. 5.</note>, dem alten <persName ref="p5497">Frantzen</persName><note xml:id="fn8" type="footnote" n="8"><persName>Franz Kolb</persName>, s. oben S. 215, Anm. 54.</note> allein alle sach ze schwär und in allem<note xml:id="fn9" type="footnote" n="9">im ganzen (<bibl>SI</bibl> I 167).</note> <placeName>Bern</placeName> nitt einer funden<note xml:id="fn10" type="footnote" n="10">findet sich keiner, ist nicht einer bekannt (<bibl>SI</bibl> I 847).</note>, der ein predig versähen<note xml:id="fn11" type="footnote" n="11">besorgen, sein Amt (das Predigen) ausüben (<bibl>SI</bibl> VII 868f).</note> künd<note xml:id="fn12" type="footnote" n="12">könnte.</note> <foreign xml:lang="la">hac rerum omnium et hominum turba!</foreign></s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Ich hab geläsen das unbillich anmuͤten<note xml:id="fn13" type="footnote" n="13">den unbilligen Wunsch, die Zumutung (vgl. SI IV 586).</note>, so für den fierden artickel verfasset<note xml:id="fn14" type="footnote" n="14">Ergänze: ist. -Art. 4 des Meilener Verkommnisses (ausführlicher s. oben <ref target="file10076">[Nr. 48]</ref> S. 232, Anm. 14).</note>, nitt gnuͤgsam künnen verwundren und vertruren<note xml:id="fn15" type="footnote" n="15">darüber trauern.</note>, daß es uff ein sömlichen<note xml:id="fn16" type="footnote" n="16">solchen.</note> propheten<note xml:id="fn17" type="footnote" n="17"><persName ref="person265">Huldrych Zwingli</persName>.</note> eim volck darzuͦ kumpt<note xml:id="fn18" type="footnote" n="18">daß es mit einem Volk soweit kommt.</note>, <foreign xml:lang="la">et, ut libere tecum loquar, ter miser sum quaterque<note xml:id="fn19" type="footnote" n="19">Vgl. Adagia, 2, 9, 5 (LB II 665 A).</note>; citius mendicatim et ostiatim victum congererem, quam ut illi assentirem.</foreign></s>
+					<s n="3" xml:lang="de" type="auto">Ich hab geläsen das unbillich anmuͤten<note xml:id="fn13" type="footnote" n="13">den unbilligen Wunsch, die Zumutung (vgl. <bibl>SI</bibl> IV 586).</note>, so für den fierden artickel verfasset<note xml:id="fn14" type="footnote" n="14">Ergänze: ist. -Art. 4 des Meilener Verkommnisses (ausführlicher s. oben <ref target="file10076">[Nr. 48]</ref> S. 232, Anm. 14).</note>, nitt gnuͤgsam künnen verwundren und vertruren<note xml:id="fn15" type="footnote" n="15">darüber trauern.</note>, daß es uff ein sömlichen<note xml:id="fn16" type="footnote" n="16">solchen.</note> propheten<note xml:id="fn17" type="footnote" n="17"><persName>Huldrych Zwingli</persName>.</note> eim volck darzuͦ kumpt<note xml:id="fn18" type="footnote" n="18">daß es mit einem Volk soweit kommt.</note>, <foreign xml:lang="la">et, ut libere tecum loquar, ter miser sum quaterque<note xml:id="fn19" type="footnote" n="19">Vgl. Adagia, 2, 9, 5 (<bibl>LB</bibl> II 665 A).</note>; citius mendicatim et ostiatim victum congererem, quam ut illi assentirem.</foreign></s>
 					<s n="4" xml:lang="la" type="auto">Tyrannis est plus quam papistica, quam vix e nostrorum manibus eruimus, et nunc illi non solum suis ecclesiis et ministris incommodant, immo et nostris exemplum et ansam quasi ex praescripto praefigunt.</s>
 					<s n="5" xml:lang="la" type="auto">Apud nostrates unica acerbitas non in vitia, non impietatem etiam qualemcumque, sed concitandorum animorum in arma etiam optimis odiosum fecit quorundam evangelium, ubi modestia unius Heinrici Bullingeri omnia recuperari possint.</s>
-					<s n="6" xml:lang="la" type="auto">Tacui ego, nolens prophetias extinguere, probare negligens, quod ex vero propheta <persName ref="person265">Zuinglio</persName> omnia esse crederem.</s>
+					<s n="6" xml:lang="la" type="auto">Tacui ego, nolens prophetias extinguere, probare negligens, quod ex vero propheta <persName ref="p4091">Zuinglio</persName> omnia esse crederem.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto"><pb type="edition" next="235"/>In summa sic se res nostra habet:</s> 
-					<s n="8" xml:lang="de" type="manual">unser puren<note xml:id="fn20" type="footnote" n="20">Bauern.</note> <foreign xml:lang="la">ex toto agro</foreign> hend ir bottschafft<note xml:id="fn21" type="footnote" n="21">ihre Boten, Abgeordnete.</note> ze <placeName ref="place121">Bern</placeName> gehept<note xml:id="fn22" type="footnote" n="22">gehabt.</note> und wie wol <foreign xml:lang="la">ex suggestione antichristi</foreign> vil ungschickts<note xml:id="fn23" type="footnote" n="23">Einfältiges, Dummes (SI VIII 527).</note> welle [!] verschaffen<note xml:id="fn24" type="footnote" n="24">ausrichten, zustande bringen (SI VIII 337).</note> jedoch <foreign xml:lang="la">invertit dominus potentissime omnium<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> omnium <hi>etwas gestrichen.</hi></note> impiorum consilia<note xml:id="fn25" type="footnote" n="25">Ausführlicher s. oben <ref target="file10073">[Nr. 45]</ref> S. 227 1, Anm. 23-32.</note>.</foreign></s>
-					<s n="9" xml:lang="de" type="manual">Die von <placeName ref="place121">Bern</placeName> mitt all ir lantschafft habend sich einhellig vereinbaret, bi gottes wort, angenumner reformation mandaten ze beliben und nütt darin geendret, dann daß <foreign xml:lang="la">ad declinandam invidiam et ne functio pastorum reddatur odiosa,</foreign> allen predicanten abgenummen<note xml:id="fn26" type="footnote" n="26">Ergänze: die Verpflichtung.</note>, imm land kein eegoumer ze sind<note xml:id="fn27" type="footnote" n="27">Ehegaumer (SI II 304) zu sein, d. h. im Chorgericht mitzuwirken (s. oben <ref target="file10073">[Nr. 45]</ref> S. 228, Anm. 29).</note>, sunder das den amptlüten by eiden inknüpft<note xml:id="fn28" type="footnote" n="28">den Amtsleuten bei ihrem Eid eingeschärft, befohlen (SI III 756).</note>.</s>
-					<s n="10" xml:lang="de" type="manual">Si wellend ouch nitt ire pfarrer halten wie dinget<note xml:id="fn29" type="footnote" n="29">gedingte, angestellte (SI XIII 548).</note> schmidknecht von eim<note xml:id="fnb" type="footnote" n="b"><hi>auch als</hi> ein <hi>lesbar.</hi></note><note xml:id="fn30" type="footnote" n="30">einem.</note> Johannis uff den andren, ouch den puren nitt gwalt gaben, si ze entsetzen<note xml:id="fn31" type="footnote" n="31">abzusetzen.</note>, wenn es inen gliebt<note xml:id="fn32" type="footnote" n="32">beliebt.</note>, sunder alle hendel<note xml:id="fn33" type="footnote" n="33">Geschäfte, Angelegenheiten.</note> der pfarren<note xml:id="fn34" type="footnote" n="34">der Pfarreien (SI V 1169).</note> form<note xml:id="fnc" type="footnote" n="c"><hi>auch als</hi> forn <hi>lesbar.</hi></note> chorgricht oder in sinodis ze handlen<note xml:id="fn35" type="footnote" n="35">zu verhandeln.</note> geordnet<note xml:id="fn36" type="footnote" n="36">verordnet.</note>.</s>
-					<s n="11" xml:lang="de" type="manual">Es habend wol unser puren nitt wellen<note xml:id="fn37" type="footnote" n="37">nicht wollen.</note> das wort «gottlob» nitt dulden<note xml:id="fn38" type="footnote" n="38">In der Eingabe des Landvolkes vom 5. Dezember heißt es, die Prädikanten sollten «ouch der schmütz und scheltworten sich gar und ganz ab zethun», <hi>de Quervain</hi> 231.</note>, aber min herren hend<note xml:id="fn39" type="footnote" n="39">haben.</note> es inen nitt gstattet<note xml:id="fn40" type="footnote" n="40">In der Antwort der Obrigkeit <hi>(de Quervain</hi> 236) wird die ganze Angelegenheit der künftigen Synode überlassen. Es heißt zwar, die Pfarrer sollten ermahnt werden, künftig von Scheltworten abzusehen, doch wird hinzugefügt, daß sie aus dem Gotteswort predigen sollten «was zustraff der lastern, und leer der beßrung dienen mag». Das Wort «gottloß» wird nicht erwähnt. Im 27. Kapitel der Akten der Synode vom 9. bis 14. Januar 1532 wurde dann schließlich betont: «Es sollen auch die Pfarrer das Schwerdt göttlichen Worts gleich schneiden lassen und niemands verschonen ...; sie sollen frey heraussagen, was sie nach göttlichem Wort zur Besserung dienlich finden, es gefalle oder mißfalle» (Samuel <hi>Fischer,</hi> Geschichte der Disputation und Reformation in <placeName ref="place121">Bern</placeName>, <placeName ref="place121">Bern</placeName> 1828, S. 499).</note>.</s>
-					<s n="12" xml:lang="de" type="auto">Es habend ouch unser herren unß dick<note xml:id="fn41" type="footnote" n="41">öfters.</note> gebetten in eim gsässnen rat<note xml:id="fn42" type="footnote" n="42">in vollzähligem Rat, einer Plenarsitzung (SI VII 1750).</note>, was unß gegen inen anlig<note xml:id="fn43" type="footnote" n="43">am Herzen liegt (SI III 1210).</note>, söllend wir inen bruͤderlich anzeigen<note xml:id="fn44" type="footnote" n="44">mitteilen.</note> dess glychen sy ouch.</s>
-					<s n="13" xml:lang="la" type="auto">Utinam deus dedisset conventum ante bella hęc misera<note xml:id="fn45" type="footnote" n="45">Der Zweite <placeName ref="place534">Kappeler</placeName> Krieg.</note> et licuisset ad saturitatem omnia tibi loqui, quae scribere non datur.</s>
+					<s n="8" xml:lang="de" type="manual">unser puren<note xml:id="fn20" type="footnote" n="20">Bauern.</note> <foreign xml:lang="la">ex toto agro</foreign> hend ir bottschafft<note xml:id="fn21" type="footnote" n="21">ihre Boten, Abgeordnete.</note> ze <placeName>Bern</placeName> gehept<note xml:id="fn22" type="footnote" n="22">gehabt.</note> und wie wol <foreign xml:lang="la">ex suggestione antichristi</foreign> vil ungschickts<note xml:id="fn23" type="footnote" n="23">Einfältiges, Dummes (<bibl>SI</bibl> VIII 527).</note> welle [!] verschaffen<note xml:id="fn24" type="footnote" n="24">ausrichten, zustande bringen (<bibl>SI</bibl> VIII 337).</note> jedoch <foreign xml:lang="la">invertit dominus potentissime omnium<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> omnium <hi>etwas gestrichen.</hi></note> impiorum consilia<note xml:id="fn25" type="footnote" n="25">Ausführlicher s. oben <ref target="file10073">[Nr. 45]</ref> S. 227 1, Anm. 23-32.</note>.</foreign></s>
+					<s n="9" xml:lang="de" type="manual">Die von <placeName>Bern</placeName> mitt all ir lantschafft habend sich einhellig vereinbaret, bi gottes wort, angenumner reformation mandaten ze beliben und nütt darin geendret, dann daß <foreign xml:lang="la">ad declinandam invidiam et ne functio pastorum reddatur odiosa,</foreign> allen predicanten abgenummen<note xml:id="fn26" type="footnote" n="26">Ergänze: die Verpflichtung.</note>, imm land kein eegoumer ze sind<note xml:id="fn27" type="footnote" n="27">Ehegaumer (<bibl>SI</bibl> II 304) zu sein, d. h. im Chorgericht mitzuwirken (s. oben <ref target="file10073">[Nr. 45]</ref> S. 228, Anm. 29).</note>, sunder das den amptlüten by eiden inknüpft<note xml:id="fn28" type="footnote" n="28">den Amtsleuten bei ihrem Eid eingeschärft, befohlen (<bibl>SI</bibl> III 756).</note>.</s>
+					<s n="10" xml:lang="de" type="manual">Si wellend ouch nitt ire pfarrer halten wie dinget<note xml:id="fn29" type="footnote" n="29">gedingte, angestellte (<bibl>SI</bibl> XIII 548).</note> schmidknecht von eim<note xml:id="fnb" type="footnote" n="b"><hi>auch als</hi> ein <hi>lesbar.</hi></note><note xml:id="fn30" type="footnote" n="30">einem.</note> Johannis uff den andren, ouch den puren nitt gwalt gaben, si ze entsetzen<note xml:id="fn31" type="footnote" n="31">abzusetzen.</note>, wenn es inen gliebt<note xml:id="fn32" type="footnote" n="32">beliebt.</note>, sunder alle hendel<note xml:id="fn33" type="footnote" n="33">Geschäfte, Angelegenheiten.</note> der pfarren<note xml:id="fn34" type="footnote" n="34">der Pfarreien (<bibl>SI</bibl> V 1169).</note> form<note xml:id="fnc" type="footnote" n="c"><hi>auch als</hi> forn <hi>lesbar.</hi></note> chorgricht oder in sinodis ze handlen<note xml:id="fn35" type="footnote" n="35">zu verhandeln.</note> geordnet<note xml:id="fn36" type="footnote" n="36">verordnet.</note>.</s>
+					<s n="11" xml:lang="de" type="manual">Es habend wol unser puren nitt wellen<note xml:id="fn37" type="footnote" n="37">nicht wollen.</note> das wort «gottlob» nitt dulden<note xml:id="fn38" type="footnote" n="38">In der Eingabe des Landvolkes vom 5. Dezember heißt es, die Prädikanten sollten «ouch der schmütz und scheltworten sich gar und ganz ab zethun», <hi>de Quervain</hi> 231.</note>, aber min herren hend<note xml:id="fn39" type="footnote" n="39">haben.</note> es inen nitt gstattet<note xml:id="fn40" type="footnote" n="40">In der Antwort der Obrigkeit <hi>(de Quervain</hi> 236) wird die ganze Angelegenheit der künftigen Synode überlassen. Es heißt zwar, die Pfarrer sollten ermahnt werden, künftig von Scheltworten abzusehen, doch wird hinzugefügt, daß sie aus dem Gotteswort predigen sollten «was zustraff der lastern, und leer der beßrung dienen mag». Das Wort «gottloß» wird nicht erwähnt. Im 27. Kapitel der Akten der Synode vom 9. bis 14. Januar 1532 wurde dann schließlich betont: «Es sollen auch die Pfarrer das Schwerdt göttlichen Worts gleich schneiden lassen und niemands verschonen ...; sie sollen frey heraussagen, was sie nach göttlichem Wort zur Besserung dienlich finden, es gefalle oder mißfalle» (Samuel <hi>Fischer,</hi> Geschichte der Disputation und Reformation in <placeName>Bern</placeName>, <placeName>Bern</placeName> 1828, S. 499).</note>.</s>
+					<s n="12" xml:lang="de" type="auto">Es habend ouch unser herren unß dick<note xml:id="fn41" type="footnote" n="41">öfters.</note> gebetten in eim gsässnen rat<note xml:id="fn42" type="footnote" n="42">in vollzähligem Rat, einer Plenarsitzung (<bibl>SI</bibl> VII 1750).</note>, was unß gegen inen anlig<note xml:id="fn43" type="footnote" n="43">am Herzen liegt (<bibl>SI</bibl> III 1210).</note>, söllend wir inen bruͤderlich anzeigen<note xml:id="fn44" type="footnote" n="44">mitteilen.</note> dess glychen sy ouch.</s>
+					<s n="13" xml:lang="la" type="auto">Utinam deus dedisset conventum ante bella hęc misera<note xml:id="fn45" type="footnote" n="45">Der Zweite <placeName>Kappeler</placeName> Krieg.</note> et licuisset ad saturitatem omnia tibi loqui, quae scribere non datur.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="de" type="auto"><pb type="edition" next="236"/>In summa: ich bitt dich, min hertz und bruͤder, wellist ursach<note xml:id="fn46" type="footnote" n="46">Grund, Begründung, Gelegenheit, ratio, occasio (SI VII 118f).</note> suͤchen, wie dir wol müglich und och billich, das du zuͦ unß kerist<note xml:id="fn47" type="footnote" n="47">dich zu uns begibst (SI III 435).</note>; hab die artickel<note xml:id="fn48" type="footnote" n="48">nämlich des <placeName ref="place690">Meilener</placeName> Verkommnisses (s. oben <ref target="file10076">[Nr. 48]</ref> S. 232, Anm. 14).</note> ze wort<note xml:id="fn49" type="footnote" n="49">benütze die Artikel als Vorwand.</note>, wellist inen kein inbruch<note xml:id="fn50" type="footnote" n="50">Abbruch.</note> thuͦn, sunder by yrem ratschlag<note xml:id="fn51" type="footnote" n="51">Beschluß (SI IX 242).</note> bliben lassen, aber dir sy nitt fuͤglich<note xml:id="fn52" type="footnote" n="52">ziemt es sich nicht (vgl. SI I 703).</note>, die anzenämen, nitt umb dinett willen, sunder umb aller kilchen gottes willen.</s>
-					<s n="15" xml:lang="de" type="auto">Dann gwiss: wie si<note xml:id="fn53" type="footnote" n="53">die Zürcher.</note> ein spiegel aller kilchen sind gsin, also wend<note xml:id="fn54" type="footnote" n="54">wollen.</note> si ein spiegel aller apostat[arum] gen<note xml:id="fn55" type="footnote" n="55">geben.</note>, das alle stett nahi faren<note xml:id="fn56" type="footnote" n="56">ihrem Beispiel folgen, sie nachahmen (SI I 901).</note> werdend.</s>
+					<s n="14" xml:lang="de" type="auto"><pb type="edition" next="236"/>In summa: ich bitt dich, min hertz und bruͤder, wellist ursach<note xml:id="fn46" type="footnote" n="46">Grund, Begründung, Gelegenheit, ratio, occasio (<bibl>SI</bibl> VII 118f).</note> suͤchen, wie dir wol müglich und och billich, das du zuͦ unß kerist<note xml:id="fn47" type="footnote" n="47">dich zu uns begibst (<bibl>SI</bibl> III 435).</note>; hab die artickel<note xml:id="fn48" type="footnote" n="48">nämlich des <placeName>Meilener</placeName> Verkommnisses (s. oben <ref target="file10076">[Nr. 48]</ref> S. 232, Anm. 14).</note> ze wort<note xml:id="fn49" type="footnote" n="49">benütze die Artikel als Vorwand.</note>, wellist inen kein inbruch<note xml:id="fn50" type="footnote" n="50">Abbruch.</note> thuͦn, sunder by yrem ratschlag<note xml:id="fn51" type="footnote" n="51">Beschluß (<bibl>SI</bibl> IX 242).</note> bliben lassen, aber dir sy nitt fuͤglich<note xml:id="fn52" type="footnote" n="52">ziemt es sich nicht (vgl. <bibl>SI</bibl> I 703).</note>, die anzenämen, nitt umb dinett willen, sunder umb aller kilchen gottes willen.</s>
+					<s n="15" xml:lang="de" type="auto">Dann gwiss: wie si<note xml:id="fn53" type="footnote" n="53">die Zürcher.</note> ein spiegel aller kilchen sind gsin, also wend<note xml:id="fn54" type="footnote" n="54">wollen.</note> si ein spiegel aller apostat[arum] gen<note xml:id="fn55" type="footnote" n="55">geben.</note>, das alle stett nahi faren<note xml:id="fn56" type="footnote" n="56">ihrem Beispiel folgen, sie nachahmen (<bibl>SI</bibl> I 901).</note> werdend.</s>
 					<s n="16" xml:lang="de" type="manual">Ich sagen das, daß mitt unser gmeind guͤtt ist ze reden und handlen, <foreign xml:lang="la">modo prudenter, non praecipitanter, modo ex zelo secundum scientiam, non ex propria et quam vocant bona intentione, sed veritate, citra notam fellis.</foreign></s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Hoc vereor, <persName ref="person145">Megandrum</persName> (novit deus, quam ex corde amem<note xml:id="fnd" type="footnote" n="d">anem [?] <hi>gestrichen,</hi> amem <hi>darübergeschrieben.</hi></note> hominem et ipse vicissim me), etiam si mansurus sit apud nos, parum dei gloriam promoturum; tam exacerbati sunt sua plus quam libera et apostolica acerbitate<note xml:id="fn57" type="footnote" n="57">Gemeint ist <persName ref="person145">Meganders</persName> erbitterte Kritik an der Politik <placeName ref="place121">Berns</placeName>.</note>.</s>
+					<s n="17" xml:lang="la" type="auto">Hoc vereor, <persName ref="p8412">Megandrum</persName> (novit deus, quam ex corde amem<note xml:id="fnd" type="footnote" n="d">anem [?] <hi>gestrichen,</hi> amem <hi>darübergeschrieben.</hi></note> hominem et ipse vicissim me), etiam si mansurus sit apud nos, parum dei gloriam promoturum; tam exacerbati sunt sua plus quam libera et apostolica acerbitate<note xml:id="fn57" type="footnote" n="57">Gemeint ist <persName>Meganders</persName> erbitterte Kritik an der Politik <placeName>Berns</placeName>.</note>.</s>
 					<s n="18" xml:lang="la" type="manual">Pius in eo est animus, vitę syncęritas, eruditio non contemnenda; sed dum omnia nobis licent, cogitandum num omnia expedirent<note xml:id="fn58" type="footnote" n="58">Siehe 1 Kor 10,23.</note>.</s>
-					<s n="19" xml:lang="de" type="manual">Das ist sin span<note xml:id="fn59" type="footnote" n="59">Streit, Zwist (SI X 279ff).</note>.</s>
-					<s n="20" xml:lang="de" type="auto">Do unser herren zum lettsten den lendern<note xml:id="fn60" type="footnote" n="60"><placeName ref="place51">den V Orten</placeName>.</note> hend die proband<note xml:id="fn61" type="footnote" n="61">Proviant, Lebensmittel.</note> wellen lassen gon uff gfallen Tigurinorum zuͦ gon<note xml:id="fn62" type="footnote" n="62">Sinngemäß: «Als unsere Herren zuletzt <placeName ref="place51">den V Orten</placeName> die Lebensmittelzufuhr, sofern die Zürcher zustimmten, gestatten wollten ... ». Zur Proviantsperre s. <hi>Feller</hi> 217ff.</note>, hätt er geredt palam in contione: «Ir rätt und burger hend gehandlet schantlich und unerlich, das ir vor gott noch vor der welt mitt keinen eeren nimmer mögend verantwurten, und üwere wiber hettind wislicher und eerlicher ghandlet, wärind ir die wil hinder die kuncklen<note xml:id="fn63" type="footnote" n="63">Spinnrocken (SI III 364f).</note> gessessen!»</s>
+					<s n="19" xml:lang="de" type="manual">Das ist sin span<note xml:id="fn59" type="footnote" n="59">Streit, Zwist (<bibl>SI</bibl> X 279ff).</note>.</s>
+					<s n="20" xml:lang="de" type="auto">Do unser herren zum lettsten den lendern<note xml:id="fn60" type="footnote" n="60"><placeName>den V Orten</placeName>.</note> hend die proband<note xml:id="fn61" type="footnote" n="61">Proviant, Lebensmittel.</note> wellen lassen gon uff gfallen Tigurinorum zuͦ gon<note xml:id="fn62" type="footnote" n="62">Sinngemäß: «Als unsere Herren zuletzt <placeName>den V Orten</placeName> die Lebensmittelzufuhr, sofern die Zürcher zustimmten, gestatten wollten ... ». Zur Proviantsperre s. <bibl>Feller</bibl> 217ff.</note>, hätt er geredt palam in contione: «Ir rätt und burger hend gehandlet schantlich und unerlich, das ir vor gott noch vor der welt mitt keinen eeren nimmer mögend verantwurten, und üwere wiber hettind wislicher und eerlicher ghandlet, wärind ir die wil hinder die kuncklen<note xml:id="fn63" type="footnote" n="63">Spinnrocken (<bibl>SI</bibl> III 364f).</note> gessessen!»</s>
 					<s n="21" xml:lang="la" type="manual">- Tu vel uno verbo indica, nunc<note xml:id="fne" type="footnote" n="e"><hi>Sinngemäß sollte hier</hi> num <hi>stehen.</hi></note> [!] hęc functionem nostram deceant in tantula re.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="de" type="auto">In summa abermals: versich dich<note xml:id="fn64" type="footnote" n="64">erwarte, mach dich gefaßt auf... (SI VII 566).</note> alles guͤts ze <placeName ref="place121">Bern</placeName>; kumpst du, so wirt din bruͦder zuͦ eim salve [?]<note xml:id="fnf" type="footnote" n="f"><hi>eventuell</hi> salvere [?].</note><note xml:id="fn65" type="footnote" n="65">Begrüßung (SI VII 862).</note> von stund an<note xml:id="fn66" type="footnote" n="66">sofort.</note> versähen<note xml:id="fn67" type="footnote" n="67">sorgen für ..., besorgen, providere (SI VII 568).</note>, ze nächst by der statt, wo nitt, so weiß ich nitt, wie imm jetzmal beschicht<note xml:id="fn68" type="footnote" n="68">geschieht.</note>, dann unser armen ist ouch vil.</s>
+					<s n="22" xml:lang="de" type="auto">In summa abermals: versich dich<note xml:id="fn64" type="footnote" n="64">erwarte, mach dich gefaßt auf... (<bibl>SI</bibl> VII 566).</note> alles guͤts ze <placeName>Bern</placeName>; kumpst du, so wirt din bruͦder zuͦ eim salve [?]<note xml:id="fnf" type="footnote" n="f"><hi>eventuell</hi> salvere [?].</note><note xml:id="fn65" type="footnote" n="65">Begrüßung (<bibl>SI</bibl> VII 862).</note> von stund an<note xml:id="fn66" type="footnote" n="66">sofort.</note> versähen<note xml:id="fn67" type="footnote" n="67">sorgen für ..., besorgen, providere (<bibl>SI</bibl> VII 568).</note>, ze nächst by der statt, wo nitt, so weiß ich nitt, wie imm jetzmal beschicht<note xml:id="fn68" type="footnote" n="68">geschieht.</note>, dann unser armen ist ouch vil.</s>
 					<s n="23" xml:lang="de" type="auto">Ich bitt dich umb gotswillen: kumm, kumm, kumm, kumm!</s>
-					<s n="24" xml:lang="de" type="manual">Der bott<note xml:id="fn69" type="footnote" n="69">Bote, der amtliche Kurier von <placeName ref="place121">Bern</placeName> (s. oben <ref target="file10076">[Nr. 48]</ref> S. 233, 1f).</note> sol dich<pb type="edition" next="237"/> ilents<note xml:id="fn70" type="footnote" n="70">schnell, in Eile.</note> selbs fergen<note xml:id="fn71" type="footnote" n="71">herbeischaffen, bringen (SI I 1003f).</note>.</s> 
-					<s n="25" xml:lang="la" type="manual">Iustam et sanctam habes occasionem; quod si non veneris, ego cogitabo vel <placeName ref="place121">Bernam</placeName> vel officium relinquere.</s>
+					<s n="24" xml:lang="de" type="manual">Der bott<note xml:id="fn69" type="footnote" n="69">Bote, der amtliche Kurier von <placeName>Bern</placeName> (s. oben <ref target="file10076">[Nr. 48]</ref> S. 233, 1f).</note> sol dich<pb type="edition" next="237"/> ilents<note xml:id="fn70" type="footnote" n="70">schnell, in Eile.</note> selbs fergen<note xml:id="fn71" type="footnote" n="71">herbeischaffen, bringen (<bibl>SI</bibl> I 1003f).</note>.</s> 
+					<s n="25" xml:lang="la" type="manual">Iustam et sanctam habes occasionem; quod si non veneris, ego cogitabo vel <placeName>Bernam</placeName> vel officium relinquere.</s>
 				</p>
 				<p>
 					<s n="26" xml:lang="la" type="auto">Vale et fac, ut venientem lętus salvere possim.</s>
@@ -174,7 +172,7 @@
 				</p>
 				<p>
 					<s n="29" xml:lang="de" type="auto">Du glichst dem ernst<note xml:id="fn72" type="footnote" n="72">Wahrscheinlich: Du bist dem Ernst [der Lage]gleich, d. h. ebenbürtig, gewachsen.</note>.</s>
-					<s n="30" xml:lang="la" type="auto">Ego scio <persName ref="person145">Megandrum</persName> plus Tiguri quam apud nos profuturum.</s>
+					<s n="30" xml:lang="la" type="auto">Ego scio <persName ref="p8412">Megandrum</persName> plus Tiguri quam apud nos profuturum.</s>
 				</p>
 				<p>
 					<s n="31" xml:lang="la" type="auto">Tuus Bertol. H.</s>

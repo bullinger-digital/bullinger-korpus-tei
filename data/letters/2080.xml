@@ -6,32 +6,31 @@
 				<title subtype="file">[Ambrosius Blarer] / [Biel] AN Heinrich Bullinger / Zürich, [22. November 1553]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3354</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,780 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,10 +42,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW III, S. 215f</title>
+								<title>Blarer BW III, S.215f</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XIV, S. 671f, Nr. 1855</title>
+								<title>C.O. XIV, S.671f, Nr. 1855</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Zitat">
 								<title>F. Buisson, Castellion I 347 f.</title>
@@ -57,14 +56,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 80,171</idno>
 					</msIdentifier>
 				</msDesc>
@@ -73,7 +72,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2080">
 				<correspAction type="sent">
-					<persName ref="person392" cert="low">
+					<persName ref="p392" cert="low">
 						<!--
 						<surname cert="low">Blarer</surname>
 						<forename cert="low">Ambrosius</forename>
@@ -84,11 +83,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place49" cert="low"><orig>Biel</orig></placeName>
+					<placeName source="l49" cert="low"><orig>Biel</orig></placeName>
 					<date when="1553-11-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -98,7 +97,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2081"/>
@@ -125,7 +124,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -179,7 +178,7 @@
 					<s n="27" xml:lang="de" type="auto">22. novembris.</s>
 				</p>
 				<p>
-					<s n="28" xml:lang="la" type="auto">Accipis hic a seniore Fuchsio<note xml:id="fn1" type="footnote" n="1">Peter Fuchs.</note> nostro literas, qui virginem annos natam viginti duxit uxorem ipse nunc sexagesimum quintum annum agens, quod ut illi felix sit ac faustum, a domino impetrare piis votis conemur.</s>
+					<s n="28" xml:lang="la" type="auto">Accipis hic a seniore Fuchsio<note xml:id="fn1" type="footnote" n="1"><persName>Peter Fuchs</persName>.</note> nostro literas, qui virginem annos natam viginti duxit uxorem ipse nunc sexagesimum quintum annum agens, quod ut illi felix sit ac faustum, a domino impetrare piis votis conemur.</s>
 				</p>
 				<p>
 					<s n="29" xml:lang="la" type="auto">T[uus] Ambros[ius] Bl[aurerus].</s>

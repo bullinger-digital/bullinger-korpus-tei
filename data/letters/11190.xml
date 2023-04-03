@@ -6,46 +6,37 @@
 				<title subtype="file">Simon Grynäus AN Heinrich Bullinger, wohl nach Mitte Juli 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1147</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">171</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,211</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet, <persName ref="person247">Melchior [Wirz]</persName> bei
+								Bittet, <persName ref="p8465">Melchior [Wirz]</persName> bei
 								dessen Bruder dafür zu entschuldigen, daß er seine Stelle einem anderen überlassen hat.
 							</p>
 						</summary>
@@ -53,13 +44,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1147, S.171</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11190">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -72,7 +70,7 @@
 					<date notBefore="1538-07-01" notAfter="1538-07-12" cert="low">wohl nach Mitte Juli 1538</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -107,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -119,7 +117,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Queritur <persName ref="person247">Melchior</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person247">Melchior Wirz</persName>.</note>, quod male frater<note xml:id="fn3" type="footnote" n="3">Nicht namentlich bekannt.</note> abdicatam esse se inconsulto conditionem ferat, ac me rogat, ut hoc factum apud fratrem excusans se<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> se <hi>gestrichenes</hi> illum.</note> cum illo reducas in<note xml:id="fnb" type="footnote" n="b">in <hi>korrigiert aus</hi> ing.</note> gratiam.</s>
+					<s n="2" xml:lang="la" type="auto">Queritur <persName ref="p8465">Melchior</persName><note xml:id="fn2" type="footnote" n="2"><persName>Melchior Wirz</persName>.</note>, quod male frater<note xml:id="fn3" type="footnote" n="3">Nicht namentlich bekannt.</note> abdicatam esse se inconsulto conditionem ferat, ac me rogat, ut hoc factum apud fratrem excusans se<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> se <hi>gestrichenes</hi> illum.</note> cum illo reducas in<note xml:id="fnb" type="footnote" n="b">in <hi>korrigiert aus</hi> ing.</note> gratiam.</s>
 					<s n="3" xml:lang="la" type="auto">Oro, ut facias diligenter.</s>
 					<s n="4" xml:lang="la" type="auto">Ingenue fecit iuvenis; conditionem, qua egere ipse non videbatur, cessit ei, qui<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> qui <hi>gestrichenes</hi> quod.</note> opus valde habet.</s>
 					<s n="5" xml:lang="la" type="auto">Deinde exercitationibus obrutus consulere studiis melius voluit.</s>
@@ -130,7 +128,7 @@
 					<s n="8" xml:lang="la" type="auto">Vale in domino.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person81">Grynęus</persName> tuus in domino frater.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p1365">Grynęus</persName> tuus in domino frater.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

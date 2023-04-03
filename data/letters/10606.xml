@@ -6,50 +6,41 @@
 				<title subtype="file">Hans Wähinger / Bussnang AN Heinrich Bullinger, 1. April 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=568</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">191</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,36</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Hat sich auf Anraten Bullingers mit dem Landvogt
-								[<persName ref="person2194">Christoph von Sonnenberg</persName>] besprochen, worauf ihn der Komtur von
-								<placeName ref="place1082">Tobel</placeName>
-								[<persName ref="person1064">Dietbald Gyß von Gyßenberg</persName>] bei seiner Pfrund beließ und ihm
-								gestattete, wieder in <placeName ref="place733">Märwil</placeName> zu predigen. Will seinen Teil zum
+								[<persName ref="p7797">Christoph von Sonnenberg</persName>] besprochen, worauf ihn der Komtur von
+								<placeName>Tobel</placeName>
+								[<persName ref="p17975">Dietbald Gyß von Gyßenberg</persName>] bei seiner Pfrund beließ und ihm
+								gestattete, wieder in <placeName>Märwil</placeName> zu predigen. Will seinen Teil zum
 								Frieden beitragen und dankt Bullinger für die Unterstützung. Grüße.
 							</p>
 						</summary>
@@ -57,23 +48,30 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 568, S.191</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10606">
 				<correspAction type="sent">
-					<persName ref="person4030" cert="high">
+					<persName ref="p4030" cert="high">
 						<!--
 						<surname cert="high">Wähinger</surname>
 						<forename cert="high">Hans</forename>
 						-->
 					</persName>
-					<placeName source="place78" cert="high"><orig>Bussnang</orig></placeName>
+					<placeName source="l78" cert="high"><orig>Bussnang</orig></placeName>
 					<date when="1535-04-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -98,7 +96,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -112,25 +110,25 @@
 					<s n="1" xml:lang="de" type="auto">Gnad und frid von gott, dem vatter, durch Jhesum Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Allerliebster her, üwerm schriben bin ich nachgangen<note xml:id="fn1" type="footnote" n="1">habe ich befolgt (vgl. SI II 31). - Ein Schreiben Bullingers an <persName ref="person253">Wähinger</persName> ist nicht erhalten. <persName ref="person253">Wähinger</persName> war am 28. Februar 1535 oder kurz darnach in Zürich, um Rat und Hilfe zu bekommen, da ihm der Komtur von <placeName ref="place1082">Tobel</placeName> den Entzug der <placeName ref="place210">Bußnanger</placeName> Pfrund angedroht hatte (vgl. oben <ref target="file10576">Nr. 540</ref>).</note>, hab den lantvogt<note xml:id="fn2" type="footnote" n="2">Eidgenössischer Landvogt im <placeName ref="place87">Thurgau</placeName> war von 1534 bis 1536 <persName ref="person2194">Christoph von Sonnenberg</persName> aus <placeName ref="place652">Luzern</placeName>.</note> angeruͤfft umb hillff und schirm und imm mine artickel<note xml:id="fn3" type="footnote" n="3">Wahrscheinlich die Urkunden, die <persName ref="person253">Wähingers</persName> Belehnung mit der Kaplanei durch den Komtur und die Anerkennung durch das Kapitel belegten; diese Papiere hatte er schon in Zürich vorgelegt (vgl. oben <ref target="file10576">Nr. 540</ref>, 2-6).</note> all anzaigt.</s>
+					<s n="2" xml:lang="de" type="auto">Allerliebster her, üwerm schriben bin ich nachgangen<note xml:id="fn1" type="footnote" n="1">habe ich befolgt (vgl. <bibl>SI</bibl> II 31). - Ein Schreiben Bullingers an <persName>Wähinger</persName> ist nicht erhalten. <persName>Wähinger</persName> war am 28. Februar 1535 oder kurz darnach in Zürich, um Rat und Hilfe zu bekommen, da ihm der Komtur von <placeName>Tobel</placeName> den Entzug der <placeName>Bußnanger</placeName> Pfrund angedroht hatte (vgl. oben <ref target="file10576">Nr. 540</ref>).</note>, hab den lantvogt<note xml:id="fn2" type="footnote" n="2">Eidgenössischer Landvogt im <placeName>Thurgau</placeName> war von 1534 bis 1536 <persName>Christoph von Sonnenberg</persName> aus <placeName>Luzern</placeName>.</note> angeruͤfft umb hillff und schirm und imm mine artickel<note xml:id="fn3" type="footnote" n="3">Wahrscheinlich die Urkunden, die <persName>Wähingers</persName> Belehnung mit der Kaplanei durch den Komtur und die Anerkennung durch das Kapitel belegten; diese Papiere hatte er schon in Zürich vorgelegt (vgl. oben <ref target="file10576">Nr. 540</ref>, 2-6).</note> all anzaigt.</s>
 					<s n="3" xml:lang="de" type="auto">Hat er mir ain guͦt, früntlich antwurt geben etc.</s>
-					<s n="4" xml:lang="de" type="auto">Und in mitler zitt hatt der her von <placeName ref="place1082">Tobel</placeName><note xml:id="fn4" type="footnote" n="4"><persName ref="person1064">Dietbald Gyß von Gyßenberg</persName>, Komtur seit 1532.</note> mir uff den ostertag<note xml:id="fn5" type="footnote" n="5">28. März 1535.</note> geschriben<note xml:id="fn6" type="footnote" n="6">Nicht erhalten.</note>, ich söll zuͦ imm kummen uff montag<note xml:id="fn7" type="footnote" n="7">29. März 1535.</note>, in hoffnung, mit mir zuͦ handlen.</s>
+					<s n="4" xml:lang="de" type="auto">Und in mitler zitt hatt der her von <placeName>Tobel</placeName><note xml:id="fn4" type="footnote" n="4"><persName>Dietbald Gyß von Gyßenberg</persName>, Komtur seit 1532.</note> mir uff den ostertag<note xml:id="fn5" type="footnote" n="5">28. März 1535.</note> geschriben<note xml:id="fn6" type="footnote" n="6">Nicht erhalten.</note>, ich söll zuͦ imm kummen uff montag<note xml:id="fn7" type="footnote" n="7">29. März 1535.</note>, in hoffnung, mit mir zuͦ handlen.</s>
 					<s n="5" xml:lang="de" type="auto">Uff söttlichs<note xml:id="fn8" type="footnote" n="8">solches.</note> bin ich dar gangen.</s>
-					<s n="6" xml:lang="de" type="auto">Hat mich widerumb haissen das gotzwort zuͦ Merwil<note xml:id="fn9" type="footnote" n="9"><placeName ref="place733">Märwil</placeName> (Kt. <placeName ref="place87">Thurgau</placeName>). Der Kirchensatz lag bei der Johanniterkommende <placeName ref="place1082">Tobel</placeName> (vgl. oben <ref target="file10576">Nr. 540</ref>, Anm. 2, und HBLS IV 789).</note> verkündden.</s>
-					<s n="7" xml:lang="de" type="auto">Also belib ich by miner pfruͦnd und werden<note xml:id="fn10" type="footnote" n="10">Würde, im Sinne von: Amt.</note> zuͦ Busnang<note xml:id="fn11" type="footnote" n="11">Der Komtur war Kollator der Kaplaneipfrund in <placeName ref="place210">Bußnang</placeName> (vgl. <hi>Bühler,</hi> <placeName ref="place1082">Tobel</placeName> 43).</note>.</s>
+					<s n="6" xml:lang="de" type="auto">Hat mich widerumb haissen das gotzwort zuͦ Merwil<note xml:id="fn9" type="footnote" n="9"><placeName>Märwil</placeName> (Kt. <placeName>Thurgau</placeName>). Der Kirchensatz lag bei der Johanniterkommende <placeName>Tobel</placeName> (vgl. oben <ref target="file10576">Nr. 540</ref>, Anm. 2, und <bibl>HBLS</bibl> IV 789).</note> verkündden.</s>
+					<s n="7" xml:lang="de" type="auto">Also belib ich by miner pfruͦnd und werden<note xml:id="fn10" type="footnote" n="10">Würde, im Sinne von: Amt.</note> zuͦ Busnang<note xml:id="fn11" type="footnote" n="11">Der Komtur war Kollator der Kaplaneipfrund in <placeName>Bußnang</placeName> (vgl. <hi>Bühler,</hi> <placeName>Tobel</placeName> 43).</note>.</s>
 					<s n="8" xml:lang="de" type="auto">Acht ich wol rüewig sin der meß halb.</s>
 					<s n="9" xml:lang="de" type="auto">Hat mich och wol gehallten und mitt früntlichen wortten enpfangen, gott sy lob.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">Darumb so danck ich üwer wirdi der großen lieby und früntschafft halb, mir so dugentlich bewissen, und wo ich gegen gott und susst sötlichs kan verdienen<note xml:id="fn12" type="footnote" n="12">vergelten (SI XIII 169f).</note>, sol ich willig erfunden werden.</s>
-					<s n="11" xml:lang="de" type="auto">Ich acht, die sach werd sich in mittler zit zuͦ demm allerbesten schiben<note xml:id="fn13" type="footnote" n="13">drehen, wenden (SI VIII 58).</note> und der unwil abnemmen.</s>
-					<s n="12" xml:lang="de" type="auto">Uff sötlichs wil ich mich drucken<note xml:id="fn14" type="footnote" n="14">mich ruhig verhalten (Grimm II 1446).</note> und lyden, damit frid und lieby dester bas erhalten mög werden.</s>
+					<s n="10" xml:lang="de" type="auto">Darumb so danck ich üwer wirdi der großen lieby und früntschafft halb, mir so dugentlich bewissen, und wo ich gegen gott und susst sötlichs kan verdienen<note xml:id="fn12" type="footnote" n="12">vergelten (<bibl>SI</bibl> XIII 169f).</note>, sol ich willig erfunden werden.</s>
+					<s n="11" xml:lang="de" type="auto">Ich acht, die sach werd sich in mittler zit zuͦ demm allerbesten schiben<note xml:id="fn13" type="footnote" n="13">drehen, wenden (<bibl>SI</bibl> VIII 58).</note> und der unwil abnemmen.</s>
+					<s n="12" xml:lang="de" type="auto">Uff sötlichs wil ich mich drucken<note xml:id="fn14" type="footnote" n="14">mich ruhig verhalten (<bibl>Grimm</bibl> II 1446).</note> und lyden, damit frid und lieby dester bas erhalten mög werden.</s>
 					<s n="13" xml:lang="de" type="auto">Und uff üwer besserung<note xml:id="fn15" type="footnote" n="15">Förderung, finanzielle Aufbesserung[?].</note>, so miner heren botschafft gen Frowenfeld<pb type="edition" next="192"/> kumpt, so ich dasselbig vernim, so will ich inen och dancksagung bewisen.</s>
-					<s n="14" xml:lang="de" type="auto">Wo sich aber etwas witters inrisß<note xml:id="fn16" type="footnote" n="16">eintrete (SI VI 1340f).</note> der widerwertiken<note xml:id="fn17" type="footnote" n="17">Gegner, Widersacher.</note> halb, bitt ich üch umb gotz willen, ir wellend mich allweg<note xml:id="fn18" type="footnote" n="18">immer.</note> in üwerm schirm hallten.</s>
+					<s n="14" xml:lang="de" type="auto">Wo sich aber etwas witters inrisß<note xml:id="fn16" type="footnote" n="16">eintrete (<bibl>SI</bibl> VI 1340f).</note> der widerwertiken<note xml:id="fn17" type="footnote" n="17">Gegner, Widersacher.</note> halb, bitt ich üch umb gotz willen, ir wellend mich allweg<note xml:id="fn18" type="footnote" n="18">immer.</note> in üwerm schirm hallten.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="de" type="auto">Nach dem so lat üch junckher Hainrich von <persName ref="person223">Ulm</persName> vil guͦtz sagen und früntlichen gruͤtzen.</s>
-					<s n="16" xml:lang="de" type="auto">Und gruͤtzen mir maister <persName ref="person1646">Peter</persName> Mayer<note xml:id="fn19" type="footnote" n="19"><persName ref="person1646">Peter Meyer</persName>, geb. nach 1480, gest. 1554, stammte aus dem <placeName ref="place87">Thurgau</placeName>. Er bürgerte sich 1508 in Zürich ein und durchlief - obschon er anfänglich <persName ref="person265">Zwingli</persName> ablehnend gegenüberstand - eine erfolgreiche politische Karriere. 1518 wurde er Mitglied des Großen Rates, 1520 bis zu seinem Tod war er im Kleinen Rat (von 1522 an als Zunftmeister der Schneider). 1525 wurde er Amtmann des Klosters <placeName ref="place928">Rüti</placeName>. Meyer wirkte verschiedentlich in politischen Missionen in der Ostschweiz. - Lit.: Walter <hi>Jacob</hi> Politische Führungsschicht und Reformation. Untersuchungen zur Reformation in Zürich 1519-1528, Zürich 1970. - ZBRG I, S. 219-221.</note> mitt aller dancksagung siner hilft und lieby halb.</s>
+					<s n="15" xml:lang="de" type="auto">Nach dem so lat üch junckher Hainrich von <persName ref="p2300">Ulm</persName> vil guͦtz sagen und früntlichen gruͤtzen.</s>
+					<s n="16" xml:lang="de" type="auto">Und gruͤtzen mir maister <persName ref="p5836">Peter</persName> Mayer<note xml:id="fn19" type="footnote" n="19"><persName>Peter Meyer</persName>, geb. nach 1480, gest. 1554, stammte aus dem <placeName>Thurgau</placeName>. Er bürgerte sich 1508 in Zürich ein und durchlief - obschon er anfänglich <persName>Zwingli</persName> ablehnend gegenüberstand - eine erfolgreiche politische Karriere. 1518 wurde er Mitglied des Großen Rates, 1520 bis zu seinem Tod war er im Kleinen Rat (von 1522 an als Zunftmeister der Schneider). 1525 wurde er Amtmann des Klosters <placeName>Rüti</placeName>. Meyer wirkte verschiedentlich in politischen Missionen in der Ostschweiz. - Lit.: Walter <hi>Jacob</hi> Politische Führungsschicht und Reformation. Untersuchungen zur Reformation in Zürich 1519-1528, Zürich 1970. - <bibl>ZBRG</bibl> I, S. 219-221.</note> mitt aller dancksagung siner hilft und lieby halb.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="de" type="auto">Datum zuͦ Busnang am ersten apprilis im 35.</s>

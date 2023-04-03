@@ -6,40 +6,31 @@
 				<title subtype="file">Simon Grynäus AN s.n. / [Zürich], um 12. Januar 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1350</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">35</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Original">E II 337a,314r.-v.</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,7 +38,7 @@
 							<p xml:id="regest1">
 								Ihre Stellungnahme [<ref target="file11381">Nr. 1338</ref>] stimmt mit seiner eigenen Haltung im Streit [um
 								seine Doktorpromotion] überein; trotz möglicher Vorwürfe würde er eher
-								<placeName ref="place97">Basel</placeName> und <placeName ref="place7">Deutschland</placeName>
+								<placeName>Basel</placeName> und <placeName>Deutschland</placeName>
 								verlassen, als sich diesem papistischen Brauch zu unterziehen, und diesbezüglich braucht er auch keinen Rat
 								mehr. Hingegen hat er bereits Bullinger gefragt und möchte nun von ihnen allen wissen, ob ihnen die
 								Verleihung des Titels durch Handauflegung - im Sinne einer kirchlichen Berufung - annehmbar schiene, falls
@@ -60,13 +51,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1350, S.35</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11393">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -79,8 +77,8 @@
 					<date when="1540-01-12" cert="low">um 12. Januar 1540</date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role49" type="pl" role="Pfarrer" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11394"/>
@@ -104,7 +102,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -118,26 +116,26 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Legi vestram de nostra contentione sententiam<note xml:id="fn2" type="footnote" n="2">Gemeint ist die Stellungnahme der Zürcher Theologen vom Dezember 1539 zum Streit um den theologischen Doktorgrad (HBBW IX, <ref target="file11381">Nr. 1338</ref>).</note> plane e mea sententia scriptam.</s>
-					<s n="3" xml:lang="la" type="auto">Tametsi enim permulta sunt, quae me valde sollicitant, ne gravem levi de re turbam suscitasse, ne positam in medio rem et bonis etiam non intractabilem fugisse ac attingere aut non voluisse aut non potuisse, ne meam unius sententiam voluntatemque tam multorum hominum authoritati ac precibus superbe anteposuisse, denique ne homo superbus ac factiosus esse, et quae multa hic mihi obiici a multis solent, dicerer vidererque ego, haec, inquam, quanquam sollicitant interdum me tali natura ingenioque praeditum, qui (ut ille<note xml:id="fn3" type="footnote" n="3"><persName ref="person351">Aristoteles</persName>; vgl. Nikomachische Ethik IV 12, 1126b 28-30. 1127a 2f.</note> dicit) placere quam plurimis et quam minime multos laedere studeam, tamen idipsum stat iamdudum ac fixum est apud me, non solum <placeName ref="place97">Basilea</placeName>, sed omni Germania excedere potius quam hanc papae larvam inducere.</s>
+					<s n="2" xml:lang="la" type="auto">Legi vestram de nostra contentione sententiam<note xml:id="fn2" type="footnote" n="2">Gemeint ist die Stellungnahme der Zürcher Theologen vom Dezember 1539 zum Streit um den theologischen Doktorgrad (<bibl>HBBW</bibl> IX, <ref target="file11381">Nr. 1338</ref>).</note> plane e mea sententia scriptam.</s>
+					<s n="3" xml:lang="la" type="auto">Tametsi enim permulta sunt, quae me valde sollicitant, ne gravem levi de re turbam suscitasse, ne positam in medio rem et bonis etiam non intractabilem fugisse ac attingere aut non voluisse aut non potuisse, ne meam unius sententiam voluntatemque tam multorum hominum authoritati ac precibus superbe anteposuisse, denique ne homo superbus ac factiosus esse, et quae multa hic mihi obiici a multis solent, dicerer vidererque ego, haec, inquam, quanquam sollicitant interdum me tali natura ingenioque praeditum, qui (ut ille<note xml:id="fn3" type="footnote" n="3"><persName>Aristoteles</persName>; vgl. Nikomachische Ethik IV 12, 1126b 28-30. 1127a 2f.</note> dicit) placere quam plurimis et quam minime multos laedere studeam, tamen idipsum stat iamdudum ac fixum est apud me, non solum <placeName>Basilea</placeName>, sed omni Germania excedere potius quam hanc papae larvam inducere.</s>
 					<s n="4" xml:lang="la" type="auto">Ac volo hic apud vos et bonos omnes testem advocare dominum, quod in hanc sententiam nulla me res impellit, quam genus hoc pompae ecclesiae moribus indignum, literis autem nullam ad rem aut utile aut necessarium esse duco, qua de re domino dante brevi scribam.</s>
 					<s n="5" xml:lang="la" type="auto">Et quidem haec sic est mea sententia et fuit iam inde ab evangelii exortu; itaque nihil iam amplius aut vobis hic aut cuiquam molestus ero consilium quaerendo.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">De eo porro, quod nuper privatim quidem ad Bullingerum, sed per hunc ad vos retuli<note xml:id="fn4" type="footnote" n="4"><persName ref="person81">Grynäus</persName> hatte in seinem Brief vom 1. Januar die Möglichkeit zur Diskussion gestellt, sich den Doktorgrad in einer kirchlichen Feier durch Handauflegung verleihen zu lassen; s. oben <ref target="file11386">Nr. 1343</ref>, 1-20.</note>, cupio voloque authoritate et consensione vestra mihi semper<pb type="edition" next="36"/> suspicienda similiter uti, non quasi id facere prorsus induxerim in animum nunc quidem, sed si qua maior vis aut precum aut hortationum alicunde incumbat mihi, ut possim, quod concessurus eccle-<pb type="scan" next="314v."/>siae sum, cum approbatione vestra facere.</s>
+					<s n="6" xml:lang="la" type="auto">De eo porro, quod nuper privatim quidem ad Bullingerum, sed per hunc ad vos retuli<note xml:id="fn4" type="footnote" n="4"><persName>Grynäus</persName> hatte in seinem Brief vom 1. Januar die Möglichkeit zur Diskussion gestellt, sich den Doktorgrad in einer kirchlichen Feier durch Handauflegung verleihen zu lassen; s. oben <ref target="file11386">Nr. 1343</ref>, 1-20.</note>, cupio voloque authoritate et consensione vestra mihi semper<pb type="edition" next="36"/> suspicienda similiter uti, non quasi id facere prorsus induxerim in animum nunc quidem, sed si qua maior vis aut precum aut hortationum alicunde incumbat mihi, ut possim, quod concessurus eccle-<pb type="scan" next="314v."/>siae sum, cum approbatione vestra facere.</s>
 					<s n="7" xml:lang="la" type="auto">Quoniam enim haec manuum<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> manuum <hi>gestrichenes</hi> inquam.</note> impositio in coetu ecclesiastico, non scholastico, ecclesiae authoritate, non scholae facta, ad munus ecclesiae, non scholae theatrum ac circulum vocans recusari honeste non potest, consilium id cepi, si et res per me facta placare adversariorum clamores, senatus offensam tollere, vicinarum ecclesiarum bonorumque hortationibus satisfacere possit, facere, quoniam aliquid hic etiam concedere debemus istis hominum studiis, tametsi saepe certe multumque animum hoc tempore obfirmaram neque hunc titulum admittere iam, ad quem in ecclesiam suscipiendum sola certe contentione perducti sumus.</s>
 					<s n="8" xml:lang="la" type="auto">Est autem, arbitror, non tam id spectandum, quid isti faciant, quam quid nos deceat.</s>
 					<s n="9" xml:lang="la" type="auto">Super hac igitur re consilium vestrum in domino expecto charissimorum fratrum.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Equidem cum video reputoque mecum, meae res quantae vobis sint curae, et istam, quam amplectimini in me, domini gratiam quibus vos studiis foveatis, cui exclusae hinc non vestrae solum privatim domus omnium pateant<note xml:id="fn5" type="footnote" n="5">Vgl. HBBW IX <ref target="file11381">[Nr. 1338]</ref>, S. 274, 98-101.</note>, sed etiam senatus clarissimi patrocinium opera eorundem propositum est<note xml:id="fn6" type="footnote" n="6">Über entsprechende Zusagen des Zürcher Rates ist sonst nichts bekannt.</note>, nihil in me prorsus invenio, quo respondere fidei erga me vestrae possim.</s>
+					<s n="10" xml:lang="la" type="auto">Equidem cum video reputoque mecum, meae res quantae vobis sint curae, et istam, quam amplectimini in me, domini gratiam quibus vos studiis foveatis, cui exclusae hinc non vestrae solum privatim domus omnium pateant<note xml:id="fn5" type="footnote" n="5">Vgl. <bibl>HBBW IX</bibl> <ref target="file11381">[Nr. 1338]</ref>, S. 274, 98-101.</note>, sed etiam senatus clarissimi patrocinium opera eorundem propositum est<note xml:id="fn6" type="footnote" n="6">Über entsprechende Zusagen des Zürcher Rates ist sonst nichts bekannt.</note>, nihil in me prorsus invenio, quo respondere fidei erga me vestrae possim.</s>
 					<s n="11" xml:lang="la" type="auto">Hanc autem vestram vestraeque erga me reipublicae perpetuam benevolentiam quomodo conservem, valde enitendum esse mihi video.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Valete.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">S. <persName ref="person81">Grynęus</persName>, frater vester in domino Christo.</s>
+					<s n="13" xml:lang="la" type="auto">S. <persName ref="p1365">Grynęus</persName>, frater vester in domino Christo.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf f. 315v.:]</note>

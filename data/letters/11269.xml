@@ -6,40 +6,31 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 16. Februar 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1226</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">59</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,203</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,185</idno>
@@ -49,7 +40,7 @@
 						<summary>
 							<p xml:id="regest1">
 								Erkundigt sich angesichts der Kriegsgefahr im Auftrag [von Ratsmitgliedern] nach der Möglichkeit geheimer
-								Konsultationen mit Zürich. <persName ref="person1028">Grynäus</persName>’ Haus ist erneut von der Pest
+								Konsultationen mit Zürich. <persName>Grynäus</persName>’ Haus ist erneut von der Pest
 								betroffen.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1226, S.59</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11269">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1539-02-16" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,9 +124,9 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Res gravissimae et periculosissimae, quibus adversarii nostri nos cum Christo conantur opprimere, multae sunt et variae.</s>
-					<s n="3" xml:lang="la" type="auto">Et nunc propemodum in foribus stant<note xml:id="fn1" type="footnote" n="1">Vgl. Adagia, 2, 2, 85 (LB II 478).</note>, ut opus esset consultatione, qualiter per auxilium domini, si res ad bellum perducta foret, nos nostraque resistendo tueremur<note xml:id="fn2" type="footnote" n="2">Bereits Anfang Februar hatte <placeName ref="place97">Basel</placeName> angesichts des befürchteten Angriffs auf die Evangelischen insgeheim Zürich und <placeName ref="place121">Bern</placeName> kontaktiert; s. EA IV/1c 1062 dd und PC II 544f.</note>.</s>
-					<s n="4" xml:lang="la" type="auto">In mandatis ergo habeo<note xml:id="fn3" type="footnote" n="3">Als Auftraggeber sind Angehörige der Basler Rates der Dreizehn zu vermuten; zu denken ist an <persName ref="person148">Jakob Meyer</persName>.</note>, mi Bullingere, clam exquirere ex te ut ex fido et taciturno bonoque viro, quanam ratione sit agendum cum Tigurinis tuis, ut consilia, quae tractabuntur, tacita permaneant.</s>
-					<s n="5" xml:lang="la" type="auto">Scis enim, quę cauta sint post bellum exitiabile illud de clanculariis reipublicae consultationibus non agendis apud vos<note xml:id="fn4" type="footnote" n="4">Nach der Niederlage Zürichs im Zweiten Kappelerkrieg mußte der Geheime Rat auf Druck der Landschaft abgeschafft werden (vgl. unten <ref target="file11270">Nr. 1227</ref>, Anm. 4). Vergeblich war bereits 1534 von <placeName ref="place97">Basel</placeName> aus seine Wiedereinführung angeregt worden (s. HBBW IV <ref target="file10354">[Nr. 323]</ref>, S. 60, 49-55; 74, 1-11; 84f, 17-26).</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Et nunc propemodum in foribus stant<note xml:id="fn1" type="footnote" n="1">Vgl. Adagia, 2, 2, 85 (<bibl>LB</bibl> II 478).</note>, ut opus esset consultatione, qualiter per auxilium domini, si res ad bellum perducta foret, nos nostraque resistendo tueremur<note xml:id="fn2" type="footnote" n="2">Bereits Anfang Februar hatte <placeName>Basel</placeName> angesichts des befürchteten Angriffs auf die Evangelischen insgeheim Zürich und <placeName>Bern</placeName> kontaktiert; s. <bibl>EA</bibl> IV/1c 1062 dd und <bibl>PC</bibl> II 544f.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">In mandatis ergo habeo<note xml:id="fn3" type="footnote" n="3">Als Auftraggeber sind Angehörige der Basler Rates der Dreizehn zu vermuten; zu denken ist an <persName>Jakob Meyer</persName>.</note>, mi Bullingere, clam exquirere ex te ut ex fido et taciturno bonoque viro, quanam ratione sit agendum cum Tigurinis tuis, ut consilia, quae tractabuntur, tacita permaneant.</s>
+					<s n="5" xml:lang="la" type="auto">Scis enim, quę cauta sint post bellum exitiabile illud de clanculariis reipublicae consultationibus non agendis apud vos<note xml:id="fn4" type="footnote" n="4">Nach der Niederlage Zürichs im Zweiten Kappelerkrieg mußte der Geheime Rat auf Druck der Landschaft abgeschafft werden (vgl. unten <ref target="file11270">Nr. 1227</ref>, Anm. 4). Vergeblich war bereits 1534 von <placeName>Basel</placeName> aus seine Wiedereinführung angeregt worden (s. <bibl>HBBW IV</bibl> <ref target="file10354">[Nr. 323]</ref>, S. 60, 49-55; 74, 1-11; 84f, 17-26).</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Et sunt tamen ea, quae habentur in manibus nunc talia, ut nihil magis postulent quam taciturnitatem, nihil magis noceat quam ipsa vulgo nota esse.</s>
 					<s n="7" xml:lang="la" type="auto">Cupiunt autem nostri prorsus communicata vobiscum illa.</s>
 					<s n="8" xml:lang="la" type="auto">Viam igitur tu solus inquiras, qua satisfiat nobis.</s>
@@ -139,13 +137,13 @@
 					<s n="11" xml:lang="la" type="auto">Vale cum tuis in domino semper.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 16. februarii anno 1539.</s>
+					<s n="12" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 16. februarii anno 1539.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> totus tuus.</s>
+					<s n="13" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> totus tuus.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Domini <persName ref="person81">Grynęi</persName> domus de novo infecta est peste<note xml:id="fn5" type="footnote" n="5">Am 14. Februar war Katharina Lompart, die Ehefrau von <persName ref="person1028">Grynäus</persName>, erkrankt; s. Amerbach, Korr. V 210, vgl. auch unten <ref target="file11273">Nr. 1230</ref>, 32.</note>.</s>
+					<s n="14" xml:lang="la" type="auto">Domini <persName ref="p1365">Grynęi</persName> domus de novo infecta est peste<note xml:id="fn5" type="footnote" n="5">Am 14. Februar war Katharina Lompart, die Ehefrau von <persName>Grynäus</persName>, erkrankt; s. Amerbach, Korr. V 210, vgl. auch unten <ref target="file11273">Nr. 1230</ref>, 32.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

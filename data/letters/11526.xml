@@ -6,48 +6,43 @@
 				<title subtype="file">Johannes Comander / Chur AN Heinrich Bullinger, 28. März 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1483</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">35</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,21</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Übermittelt Bullinger <persName ref="person28">Bucers</persName> deutschen Brief [BucerDS VIII, Nr. 9f,
+								Übermittelt Bullinger <persName ref="p467">Bucers</persName> deutschen Brief [<bibl>BucerDS</bibl> VIII, Nr. 9f,
 								vgl. Nr. 1474], verbunden mit der Bitte, diesen nach Anstreichung etwaiger anstößiger Stellen
 								zurückzusenden. Ist überzeugt davon, dass das papistische Eucharistieverständnis, von dem sich auch die
 								Lutheraner noch nicht vollständig gelöst zu haben scheinen, am Ursprung aller Irrtümer steht und recht
 								eigentlich das Fundament des Papsttums bildet; kann sich beim besten Willen nicht vorstellen, dass die
-								Apostel das Abendmahl so verstanden haben. Ein <placeName ref="place636">Lindauer</placeName> Händler
-								hat sich erboten, sich für [Rudolf]
-								<persName ref="person2055">Schinz</persName> einzusetzen.
+								Apostel das Abendmahl so verstanden haben. Ein <placeName>Lindauer</placeName> Händler
+								hat sich erboten, sich für <persName ref="p6425">[Rudolf] Schinz</persName> einzusetzen.
 							</p>
 						</summary>
 						<msItem>
@@ -57,7 +52,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 35f, Nr. 26</title>
+								<title>Graubünden BW I, S.35f, Nr. 26</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -67,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11526">
 				<correspAction type="sent">
-					<persName ref="person654" cert="high">
+					<persName ref="p654" cert="high">
 						<!--
 						<surname cert="high">Comander</surname>
 						<forename cert="high">Johannes</forename>
@@ -76,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413826"/>
 						-->
 					</persName>
-					<placeName source="place98" cert="high"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1541-03-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

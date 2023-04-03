@@ -6,50 +6,41 @@
 				<title subtype="file">Matthias Erb / Reichenweier AN Heinrich Bullinger, 3. April 1543</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1737</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">122</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,151</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat <persName ref="person2401">[Hans] Vogler</persName> geschrieben, der die Nachrichten - über deren Wahrheitsgehalt
-								<persName ref="person57">Erb</persName> im Unklaren ist - vielleicht Bullinger zukommen lassen wird; bittet
-								ihn, sie nur mit Vorsicht weiterzugeben. <placeName ref="place7">Deutschland</placeName> ist in
+								Hat <persName ref="p8071">[Hans] Vogler</persName> geschrieben, der die Nachrichten - über deren Wahrheitsgehalt
+								<persName ref="p1010">Erb</persName> im Unklaren ist - vielleicht Bullinger zukommen lassen wird; bittet
+								ihn, sie nur mit Vorsicht weiterzugeben. <placeName>Deutschland</placeName> ist in
 								Unruhe; man rüstet zum Krieg, doch auch das Evangelium wird stärker;
-								<persName ref="person57">Erb</persName> hofft, dass sich die Kriegführenden gegenseitig neutralisieren.
+								<persName ref="p1010">Erb</persName> hofft, dass sich die Kriegführenden gegenseitig neutralisieren.
 								Grüße. Bitte um gegenseitige Fürbitte.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1737, S.122</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11782">
 				<correspAction type="sent">
-					<persName ref="person1010" cert="high">
+					<persName ref="p1010" cert="high">
 						<!--
 						<surname cert="high">Erb</surname>
 						<forename cert="high">Matthias</forename>
@@ -71,11 +69,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/100972160"/>
 						-->
 					</persName>
-					<placeName source="place411" cert="high"><orig>Reichenweier</orig></placeName>
+					<placeName source="l411" cert="high"><orig>Reichenweier</orig></placeName>
 					<date when="1543-04-03" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,25 +123,25 @@
 					<s n="1" xml:lang="la" type="auto">S. frater in domino charissime.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Scripsi multis <persName ref="person2401">Voglero</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="person2401">Hans Vogler</persName> d. A.</note> nostro, veteri amico<note xml:id="fn2" type="footnote" n="2"><persName ref="person2401">Vogler</persName> hatte bis 1541 als Stadtschaffner in <placeName ref="place884">Reichenweier</placeName> gewirkt; vgl. HBBW XI <ref target="file11621">[Nr. 1578]</ref> 337, Anm. 5.</note>, cuius beneficentię plurimum debeo, de statu meo et ecclesię<note xml:id="fn3" type="footnote" n="3"><persName ref="person57">Erbs</persName> Brief an <persName ref="person2401">Vogler</persName> ist nicht erhalten.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Adtexui nova, quę apud nos passim dissipantur, at quam vera, ignoro; ut enim mundus instabilis est, ita et fama apud nos (mobilior quovis euro<note xml:id="fn4" type="footnote" n="4">Südostwind, vgl. <persName ref="person2382">Vergil</persName>, Aeneis, 8, 223; 12, 733; <persName ref="person1222">Horaz</persName>, Carmina, 2, 16,24 ("ocior euro") u. a.</note>) mentiendo vires acquirit<note xml:id="fn5" type="footnote" n="5">Vgl. <persName ref="person2382">Vergil</persName>, Aeneis, 4, 174f ("... viresque adquirit eundo"); TPMA IV 392 ("Quamuis mentitur, crescit eundo tamen").</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Scripsi multis <persName ref="p8455">Voglero</persName><note xml:id="fn1" type="footnote" n="1"><persName>Hans Vogler d.Ä.</persName></note> nostro, veteri amico<note xml:id="fn2" type="footnote" n="2"><persName>Vogler</persName> hatte bis 1541 als Stadtschaffner in <placeName>Reichenweier</placeName> gewirkt; vgl. <bibl>HBBW</bibl> XI <ref target="file11621">[Nr. 1578]</ref> 337, Anm. 5.</note>, cuius beneficentię plurimum debeo, de statu meo et ecclesię<note xml:id="fn3" type="footnote" n="3"><persName ref="p7512">Erbs</persName> Brief an <persName>Vogler</persName> ist nicht erhalten.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Adtexui nova, quę apud nos passim dissipantur, at quam vera, ignoro; ut enim mundus instabilis est, ita et fama apud nos (mobilior quovis euro<note xml:id="fn4" type="footnote" n="4">Südostwind, vgl. <persName>Vergil</persName>, Aeneis, 8, 223; 12, 733; <persName>Horaz</persName>, Carmina, 2, 16,24 ("ocior euro") u. a.</note>) mentiendo vires acquirit<note xml:id="fn5" type="footnote" n="5">Vgl. <persName>Vergil</persName>, Aeneis, 4, 174f ("... viresque adquirit eundo"); <bibl>TPMA</bibl> IV 392 ("Quamuis mentitur, crescit eundo tamen").</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Quę tibi forte legenda<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> legenda <hi>gestrichenes</hi> tibi.</note> exhibebit.</s>
 					<s n="5" xml:lang="la" type="auto">Oro, ut soles, pro tua singulari prudentia omnia boni consulas, tum iis communices, qui mihi vel nugigeruli vel vani hominis notam non possint inurere etc.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Video trepidare Germaniam cum principibus et civitatibus adeo, ut plurimi sint fere in expeditione.</s>
 					<s n="7" xml:lang="la" type="auto">Nec tamen Christus inter istos tumultus silet, sed evangelium eius fortius exerit vires.</s>
-					<s n="8" xml:lang="la" type="auto">Minantur alius alii grandia et fere excidium, sed spero, <foreign xml:lang="de">es soll ein schwert das ander in der scheiden behalten<note xml:id="fn6" type="footnote" n="6">Vgl. Wander IV 467, Nr. 32.</note>.</foreign></s>
+					<s n="8" xml:lang="la" type="auto">Minantur alius alii grandia et fere excidium, sed spero, <foreign xml:lang="de">es soll ein schwert das ander in der scheiden behalten<note xml:id="fn6" type="footnote" n="6">Vgl. <bibl>Wander</bibl> IV 467, Nr. 32.</note>.</foreign></s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Valebis salubriter cum ecclesia et fratribus tuis, quos nominatim salutabis, inprimis <persName ref="person188">Erasmum</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person188">Erasmus Schmid</persName> (Fabritius).</note>, <persName ref="person145">Megandrum</persName> meum, <persName ref="person165">Pellicanum</persName> etc.</s>
+					<s n="9" xml:lang="la" type="auto">Valebis salubriter cum ecclesia et fratribus tuis, quos nominatim salutabis, inprimis <persName ref="p8437">Erasmum</persName><note xml:id="fn7" type="footnote" n="7"><persName>Erasmus Schmid (Fabritius)</persName>.</note>, <persName ref="p8412">Megandrum</persName> meum, <persName ref="p8127">Pellicanum</persName> etc.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Raptim, Richenvillae, 3. die aprilis anno 1543.</s>
 					<s n="11" xml:lang="la" type="auto">Ora dominum pro me, quod itidem pro te fatiam, frater in domino charissime.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><persName ref="person57">Mathias Erbius</persName>.</s>
+					<s n="12" xml:lang="la" type="auto"><persName ref="p1010">Mathias Erbius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

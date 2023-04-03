@@ -6,51 +6,41 @@
 				<title subtype="file">Giovanni Domenico Panizzone / Bremgarten AN Heinrich Bullinger, 9. September [1544]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1979</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">386</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 377,2687</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Bullingers Töchter Anna und Elisabeth kündigten an, dass sie morgen [nach Zürich] zurückkehren würden,
-								deshalb schreibt ihm <persName ref="person20268">Panizzone</persName> aus alter Freundschaft diesen Brief. Der burgundische Gesandte [Franc¸ois
-								<persName ref="person21269">Bonvalot</persName> oder <persName ref="person22039">Jean de Saint</persName>-Mauris] war in Sachen der burgundischen Neutralität im Begriff, zu den Zürchern
-								zu reisen; <persName ref="person20268">Panizzone</persName> möchte wissen, ob dieser angekommen ist. Die Vermittler zwischen den kriegführenden
-								Herrschern [Kaiser <persName ref="person1332">Karl V.</persName> und König Franz I.] arbeiten auf einen
-								Frieden hin; <persName ref="person20268">Panizzone</persName> bittet diesbezüglich um nähere Mitteilung; Empfehlung an Bullingers Frau und Kinder;
+								deshalb schreibt ihm <persName>Panizzone</persName> aus alter Freundschaft diesen Brief. Der burgundische Gesandte [<persName ref="p17918">François Bonvalot</persName> oder <persName>Jean de Saint-Mauris</persName>] war in Sachen der burgundischen Neutralität im Begriff, zu den Zürchern
+								zu reisen; <persName>Panizzone</persName> möchte wissen, ob dieser angekommen ist. Die Vermittler zwischen den kriegführenden
+								Herrschern [<persName ref="p18538">Kaiser Karl V.</persName> und <persName ref="p18480">König Franz I.]</persName> arbeiten auf einen
+								Frieden hin; <persName>Panizzone</persName> bittet diesbezüglich um nähere Mitteilung; Empfehlung an Bullingers Frau und Kinder;
 								ist heute Taufpate von Jakob, dem Sohn von Werner Bullinger, geworden.
 							</p>
 						</summary>
@@ -58,23 +48,30 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1979, S.386</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12026">
 				<correspAction type="sent">
-					<persName ref="person830" cert="high">
+					<persName ref="p830" cert="high">
 						<!--
 						<surname cert="high">Panizzone</surname>
 						<forename cert="high">Giovanni Domenico</forename>
 						-->
 					</persName>
-					<placeName source="place62" cert="high"><orig>Bremgarten</orig></placeName>
+					<placeName source="l62" cert="high"><orig>Bremgarten</orig></placeName>
 					<date when="1544-09-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,7 +100,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,16 +114,16 @@
 					<s n="1" xml:lang="la" type="auto">Vir praeclarissime et domine mi observandissime.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Filiolę tuę Anna<note xml:id="fn3" type="footnote" n="3">Anna Bullinger, geb. am 19. Mai 1530, erstes Kind Bullingers und seiner Frau Anna Adlischwyler. Sie verheiratete sich 1549 mit <persName ref="person265">Huldrych Zwingli</persName> (1528-1571), dem Sohn des Reformators. Anna Zwingli starb am 23. November 1566; s. HBD 83.</note> et Elisabet<note xml:id="fn4" type="footnote" n="4">Elisabeth Bullinger, geb. am 23. September 1532, drittes Kind Bullingers und seiner Frau Anna Adlischwyler. Im Jahr 1551 heiratete sie <persName ref="person2177">Josias Simler</persName> (1530-1576). Sie starb am 20. November 1565; s. HBD 82.</note>, formosa proles, post cenam simul habitam dixerunt crastina die ad te reversuras esse.</s>
+					<s n="2" xml:lang="la" type="auto">Filiolę tuę Anna<note xml:id="fn3" type="footnote" n="3">Anna Bullinger, geb. am 19. Mai 1530, erstes Kind Bullingers und seiner Frau Anna Adlischwyler. Sie verheiratete sich 1549 mit <persName>Huldrych Zwingli</persName> (1528-1571), dem Sohn des Reformators. Anna Zwingli starb am 23. November 1566; s. <bibl>HBD</bibl> 83.</note> et Elisabet<note xml:id="fn4" type="footnote" n="4">Elisabeth Bullinger, geb. am 23. September 1532, drittes Kind Bullingers und seiner Frau Anna Adlischwyler. Im Jahr 1551 heiratete sie <persName>Josias Simler</persName> (1530-1576). Sie starb am 20. November 1565; s. <bibl>HBD</bibl> 82.</note>, formosa proles, post cenam simul habitam dixerunt crastina die ad te reversuras esse.</s>
 					<s n="3" xml:lang="la" type="auto">Ideo ad renovandam antiquam nostram amicitiam praesentibus te salutandum duxi, ut cognoscas me tuum more solito esse, cui imperare potes, et ego tibi semper obediam et serviam, prout teneor et convenit nostrę amicitię, quam in eternum conservare peropto.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Preterea venturus erat orator <persName ref="person1332">Burgundus</persName><note xml:id="fn5" type="footnote" n="5">Aus Bullingers Brief an <persName ref="person19">Ambrosius Blarer</persName> vom 15. September 1544 (unten <ref target="file12033">Nr. 1986</ref>, 6) geht hervor, dass der Gesandte ein Schwager Granvelles war; es handelt sich demzufolge entweder um <persName ref="person22039">Jean de Saint</persName>-Mauris, der durch die Heirat mit Etiennette Bonvalot, der jüngeren Schwester Nicole Bonvalots, Schwager von Granvelle geworden war, oder um Nicole Bonvalots Bruder, <persName ref="person21269">François Bonvalot</persName>, Abt von Saint-Vincent und Luxeuil. Beide standen damals im diplomatischen Dienst des Kaisers; s. Martin <hi>Lunitz,</hi> Diplomatie und Diplomaten im 16. Jahrhundert. Studien zu den ständigen Gesandten Kaiser Karls V. in Frankreich, Konstanz 1987, S. 235-238. 244f; Michel <hi>Baelde,</hi> De collaterale raden onder Karel V en Filips II (1531-1578), Brüssel 1965, S. 303f (zu <persName ref="person22039">Jean de Saint</persName>-Mauris). Zwar weiß man, dass <persName ref="person21269">François Bonvalot</persName> im Juni 1544 vom Kaiser mit einer Mission zu den Eidgenossen im Zusammenhang mit der Franche-Comté beauftragt wurde (s. Daniel <hi>Antony,</hi> Nicolas Perrenot de Granvelle. Premier conseiller de <persName ref="person1332">Charles Quint</persName>, Clamecy 2006, S. 437f; Papiers d'Etat du cardinal de Granvelle d'après les manuscrits de la bibliothèque de Besançon, hg. v. Charles Weiss, Bd. 3, Paris 1842, S. 15-20, Nr. IV. 25f, Nr. VI); die Tatsache aber, dass Nicolas Belloni von Dole am 30. August 1544 eine Reise nach Besançon zu <persName ref="person21269">François Bonvalot</persName> plante (s. Amerbach, Korr. VI 40, <ref target="file12690">Nr. 2643</ref>), erlaubt nicht, den hier erwähnten Schwager mit Sicherheit zu identifizieren.</note> ad dominos Tigurinos pro neutralitate<pb type="edition" next="387"/> Burgundię<note xml:id="fn6" type="footnote" n="6">Siehe hierzu Blarer BW II 296, Anm. 1 (mit weiterer Lit.).</note>.</s>
-					<s n="5" xml:lang="la" type="auto">Si venerit, libenter intelligerem tuo<note xml:id="fna" type="footnote" n="a">tuo <hi>bis</hi> celebrando <hi>nachträglich zwischen die Zeilen geschrieben.</hi></note> commodo in reditu Brengarten[sium] a festo istic celebrando<note xml:id="fnb" type="footnote" n="b">tuo <hi>bis</hi> celebrando <hi>nachträglich zwischen die Zeilen geschrieben.</hi></note><note xml:id="fn7" type="footnote" n="7">Gemeint sind wohl Leute aus <placeName ref="place178">Bremgarten</placeName>, die zur Kirchweih (Felix und Regula, 11. September) in Zürich waren.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Preterea venturus erat orator <persName ref="p18538">Burgundus</persName><note xml:id="fn5" type="footnote" n="5">Aus Bullingers Brief an <persName>Ambrosius Blarer</persName> vom 15. September 1544 (unten <ref target="file12033">Nr. 1986</ref>, 6) geht hervor, dass der Gesandte ein Schwager Granvelles war; es handelt sich demzufolge entweder um <persName>Jean de Saint-Mauris</persName>, der durch die Heirat mit Etiennette Bonvalot, der jüngeren Schwester Nicole Bonvalots, Schwager von Granvelle geworden war, oder um Nicole Bonvalots Bruder, <persName>François Bonvalot</persName>, Abt von Saint-Vincent und Luxeuil. Beide standen damals im diplomatischen Dienst des Kaisers; s. Martin <hi>Lunitz,</hi> Diplomatie und Diplomaten im 16. Jahrhundert. Studien zu den ständigen Gesandten Kaiser Karls V. in Frankreich, Konstanz 1987, S. 235-238. 244f; Michel <hi>Baelde,</hi> De collaterale raden onder Karel V en Filips II (1531-1578), Brüssel 1965, S. 303f (zu <persName>Jean de Saint-Mauris</persName>). Zwar weiß man, dass <persName>François Bonvalot</persName> im Juni 1544 vom Kaiser mit einer Mission zu den Eidgenossen im Zusammenhang mit der Franche-Comté beauftragt wurde (s. Daniel <hi>Antony,</hi> Nicolas Perrenot de Granvelle. Premier conseiller de Charles Quint, Clamecy 2006, S. 437f; Papiers d'Etat du cardinal de Granvelle d'après les manuscrits de la bibliothèque de Besançon, hg. v. Charles Weiss, Bd. 3, Paris 1842, S. 15-20, Nr. IV. 25f, Nr. VI); die Tatsache aber, dass Nicolas Belloni von Dole am 30. August 1544 eine Reise nach Besançon zu <persName>François Bonvalot</persName> plante (s. Amerbach, Korr. VI 40, <ref target="file12690">Nr. 2643</ref>), erlaubt nicht, den hier erwähnten Schwager mit Sicherheit zu identifizieren.</note> ad dominos Tigurinos pro neutralitate<pb type="edition" next="387"/> Burgundię<note xml:id="fn6" type="footnote" n="6">Siehe hierzu <bibl>Blarer BW</bibl> II 296, Anm. 1 (mit weiterer Lit.).</note>.</s>
+					<s n="5" xml:lang="la" type="auto">Si venerit, libenter intelligerem tuo<note xml:id="fna" type="footnote" n="a">tuo <hi>bis</hi> celebrando <hi>nachträglich zwischen die Zeilen geschrieben.</hi></note> commodo in reditu Brengarten[sium] a festo istic celebrando<note xml:id="fnb" type="footnote" n="b">tuo <hi>bis</hi> celebrando <hi>nachträglich zwischen die Zeilen geschrieben.</hi></note><note xml:id="fn7" type="footnote" n="7">Gemeint sind wohl Leute aus <placeName>Bremgarten</placeName>, die zur Kirchweih (Felix und Regula, 11. September) in Zürich waren.</note>.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Novi nihil habeo, nisi quod mediatores<note xml:id="fn8" type="footnote" n="8">Unter ihnen vor allem Ferrante I. <persName ref="person21871">Gonzaga</persName> und <persName ref="person1807">Nicolas Perrenot</persName> von Granvelle für Kaiser <persName ref="person1332">Karl V.</persName> und <persName ref="person21984">Charles de Neuilly</persName> mit <persName ref="person21766">Gilbert Bayard</persName> für König <persName ref="person20102">Franz I.</persName>; s. <hi>Rozet/Lembey</hi> 176-186; unten <ref target="file12039">Nr. 1992</ref>, Anm. 8.</note> inter duas maiestates<note xml:id="fn9" type="footnote" n="9">Kaiser <persName ref="person1332">Karl V.</persName> und König <persName ref="person20102">Franz I.</persName></note> bellantes pro pace laborant<note xml:id="fn10" type="footnote" n="10">Am 6. September hatten sich der Kaiser und <placeName ref="place11">Frankreich</placeName> über die Hauptpunkte eines Friedensvertrags geeinigt; s. <hi>Cardauns</hi> 348. Zur Situation s. auch <hi>Brandi</hi> I 444f.</note>.</s>
-					<s n="7" xml:lang="la" type="auto">Si tibi aliquid novi est, rogo, ne sit grave me tuis literis participem facere; cui ac uxori<note xml:id="fn11" type="footnote" n="11">Anna, geb. Adlischwyler.</note> et universe proli<note xml:id="fn12" type="footnote" n="12">Zu Bullingers Kindern s. oben <ref target="file11884">Nr. 1838</ref>, Anm. 19.</note> ex animo me comendo et notifico tibi me hodie factum esse compatrem Werneri tui Bollingerii<note xml:id="fn13" type="footnote" n="13">Es muss sich dabei um Werna Bulli(nger) von <placeName ref="place187">Brugg</placeName> handeln, dessen Einbürgerung in <placeName ref="place178">Bremgarten</placeName> für das Jahr 1544 belegt ist. Sein Bruder Marti hatte diesen Schritt schon 1542 getan; s. Max <hi>Banholzer,</hi> Geschichte der Stadt <placeName ref="place187">Brugg</placeName> im 15. und 16. Jahrhundert. Gestalt und Wandlung einer schweizerischen Kleinstadt, Aarau 1961, S. 212. Der Tuchmann Marti wurde laut Carl <hi>Keller-Escher,</hi> Promptuarium genealogicum, Bd. I (Zürich ZB, Ms Z II 1), S. 564-569, Wirt "Zum Ochsen" in <placeName ref="place178">Bremgarten</placeName>. Der in <hi>Keller-Escher</hi> nicht genannte Bruder Werner wäre demzufolge Sohn von Jakob (gest. 1525 in <placeName ref="place842">Pavia</placeName>) und Catharina Fröhlich aus <placeName ref="place187">Brugg</placeName>, und Enkel von Hans <persName ref="person21793">Jakob Bullinger</persName> (gest. 1534; s. HBBW IV <ref target="file10510">[Nr. 474]</ref> 399f, <ref target="file10510">Nr. 474</ref>), Sattler zu <placeName ref="place187">Brugg</placeName>, der ein Onkel Bullingers war. In einer zum Teil auf Bullinger zurückgehenden Aufzeichnung der Verwandtschaft und Familie (hg. v. Joseph Anton Balthasar, in: Helvetia. Denkwürdigkeiten für die XXII Freistaaten der schweizerischen Eidgenossenschaft, Bd. I, Zürich 1823, S. 108) ist Marti Sohn von Peter und dessen Frau Catharina Fröhlich und Enkel vom bereits erwähnten Hans Jakob, sowie auch Bruder eines nicht Genannten - wohl Werner -, der ein "frecher [verwegener] Kriegsmann" gewesen sein soll. Laut Friedrich Otto Pestalozzi (Aus der Geschichte des Geschlechts der Bullinger von <placeName ref="place178">Bremgarten</placeName> und Zürich, in: ZTB 1930, NF 50, S. 6), dessen Studie auf einer anderen Bearbeitung der bereits angeführten Familienaufzeichnung Bullingers beruht, und laut Max Banholzer (Der <placeName ref="place187">Brugger</placeName> Zweig der Bremgarter Familie Bullinger, in: Bremgarter Neujahrsblätter 2002, S. 7) ist Marti (und demzufolge Werner, dessen Vornamen nur Banholzer kennt) Sohn von Peter und Catharina Streuli. Allenfalls ist Werner ein Großcousin Bullingers.</note>, cui natus est pulcer infans et in baptismate dictus fuit Iacobus<note xml:id="fn14" type="footnote" n="14">Nicht näher bekannt.</note>.<pb type="edition" next="388"/></s>
+					<s n="6" xml:lang="la" type="auto">Novi nihil habeo, nisi quod mediatores<note xml:id="fn8" type="footnote" n="8">Unter ihnen vor allem <persName>Ferrante I. Gonzaga</persName> und <persName>Nicolas Perrenot</persName> von Granvelle für <persName>Kaiser Karl V.</persName> und <persName>Charles de Neuilly</persName> mit <persName>Gilbert Bayard</persName> für <persName>König Franz I.</persName>; s. <bibl>Rozet/Lembey</bibl> 176-186; unten <ref target="file12039">Nr. 1992</ref>, Anm. 8.</note> inter duas maiestates<note xml:id="fn9" type="footnote" n="9"><persName>Kaiser Karl V.</persName> und <persName>König Franz I.</persName></note> bellantes pro pace laborant<note xml:id="fn10" type="footnote" n="10">Am 6. September hatten sich der Kaiser und <placeName>Frankreich</placeName> über die Hauptpunkte eines Friedensvertrags geeinigt; s. <bibl>Cardauns</bibl> 348. Zur Situation s. auch <hi>Brandi</hi> I 444f.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Si tibi aliquid novi est, rogo, ne sit grave me tuis literis participem facere; cui ac uxori<note xml:id="fn11" type="footnote" n="11"><persName>Anna, geb. Adlischwyler</persName>.</note> et universe proli<note xml:id="fn12" type="footnote" n="12">Zu Bullingers Kindern s. oben <ref target="file11884">Nr. 1838</ref>, Anm. 19.</note> ex animo me comendo et notifico tibi me hodie factum esse compatrem Werneri tui Bollingerii<note xml:id="fn13" type="footnote" n="13">Es muss sich dabei um Werna Bulli(nger) von <placeName>Brugg</placeName> handeln, dessen Einbürgerung in <placeName>Bremgarten</placeName> für das Jahr 1544 belegt ist. Sein Bruder Marti hatte diesen Schritt schon 1542 getan; s. Max <hi>Banholzer,</hi> Geschichte der Stadt <placeName>Brugg</placeName> im 15. und 16. Jahrhundert. Gestalt und Wandlung einer schweizerischen Kleinstadt, Aarau 1961, S. 212. Der Tuchmann Marti wurde laut Carl <hi>Keller-Escher,</hi> Promptuarium genealogicum, Bd. I (Zürich ZB, Ms <bibl>Z</bibl> II 1), S. 564-569, Wirt "Zum Ochsen" in <placeName>Bremgarten</placeName>. Der in <hi>Keller-Escher</hi> nicht genannte Bruder Werner wäre demzufolge Sohn von Jakob (gest. 1525 in <placeName>Pavia</placeName>) und Catharina Fröhlich aus <placeName>Brugg</placeName>, und Enkel von <persName>Hans Jakob Bullinger</persName> (gest. 1534; s. <bibl>HBBW</bibl> IV <ref target="file10510">[Nr. 474]</ref> 399f, <ref target="file10510">Nr. 474</ref>), Sattler zu <placeName>Brugg</placeName>, der ein Onkel Bullingers war. In einer zum Teil auf Bullinger zurückgehenden Aufzeichnung der Verwandtschaft und Familie (hg. v. Joseph Anton Balthasar, in: Helvetia. Denkwürdigkeiten für die XXII Freistaaten der schweizerischen Eidgenossenschaft, Bd. I, Zürich 1823, S. 108) ist Marti Sohn von Peter und dessen Frau Catharina Fröhlich und Enkel vom bereits erwähnten Hans Jakob, sowie auch Bruder eines nicht Genannten - wohl Werner -, der ein "frecher [verwegener] Kriegsmann" gewesen sein soll. Laut Friedrich Otto <bibl>Pestalozzi</bibl> (Aus der Geschichte des Geschlechts der Bullinger von <placeName>Bremgarten</placeName> und Zürich, in: <bibl>ZTB</bibl> 1930, NF 50, S. 6), dessen Studie auf einer anderen Bearbeitung der bereits angeführten Familienaufzeichnung Bullingers beruht, und laut Max Banholzer (Der <placeName>Brugger</placeName> Zweig der Bremgarter Familie Bullinger, in: Bremgarter Neujahrsblätter 2002, S. 7) ist Marti (und demzufolge Werner, dessen Vornamen nur Banholzer kennt) Sohn von Peter und Catharina Streuli. Allenfalls ist Werner ein Großcousin Bullingers.</note>, cui natus est pulcer infans et in baptismate dictus fuit Iacobus<note xml:id="fn14" type="footnote" n="14">Nicht näher bekannt.</note>.<pb type="edition" next="388"/></s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Brengarti, 9. septembris.</s>

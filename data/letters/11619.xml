@@ -6,50 +6,41 @@
 				<title subtype="file">Johannes Regel / Memmingen AN Heinrich Bullinger, 6. Oktober 1541</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2005</date>
-				<idno subtype="ISBN">ISBN 3-290-17339-9</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1576</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XI</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">11</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1541</biblScope>
-				<biblScope unit="page">334</biblScope>
-				<biblScope unit="pages">385</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 345,218 f.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Sein Verwandter <persName ref="person10">Bartholomäus Bertlin</persName> und andere haben ihm so viel
+								Sein Verwandter <persName ref="p330">Bartholomäus Bertlin</persName> und andere haben ihm so viel
 								Gutes über Bullinger erzählt, dass er schon länger gerne mit ihm in Verbindung getreten wäre; hat auf Wunsch
 								von Bürgern und Rat einen Traktat über die Pest geschrieben, den er aus den griechischen Autoren
 								<pb type="edition" next="334"/> ausgezogen und an die Verhältnisse in
-								<placeName ref="place7">Deutschland</placeName> angepasst hat, und möchte diesen in Zürich drucken
+								<placeName>Deutschland</placeName> angepasst hat, und möchte diesen in Zürich drucken
 								lassen; bittet Bullinger, die Drucker zu fragen, ob dies kurzfristig möglich ist.
 							</p>
 						</summary>
@@ -57,23 +48,30 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 11, Nr. 1576, S.334</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11619">
 				<correspAction type="sent">
-					<persName ref="person2806" cert="high">
+					<persName ref="p2806" cert="high">
 						<!--
 						<surname cert="high">Regel</surname>
 						<forename cert="high">Johannes</forename>
 						-->
 					</persName>
-					<placeName source="place320" cert="high"><orig>Memmingen</orig></placeName>
+					<placeName source="l320" cert="high"><orig>Memmingen</orig></placeName>
 					<date when="1541-10-06" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -99,7 +97,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -113,14 +111,14 @@
 					<s n="1" xml:lang="la" type="auto">S[alutem] p[lurimam] d[ico].</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Ex multorum delatione, cum superiori anno me domum receperam, et pręsertim d. Barptholomei <persName ref="person10">Bertlin</persName>, sanguine coniuncti mei<note xml:id="fn2" type="footnote" n="2">Zur Verwandtschaft zwischen <persName ref="person22849">Regel</persName> und <persName ref="person10">Bartholomäus Bertlin</persName> ist nichts Näheres bekannt.</note> parochique ecclesiae Abusiacensis<note xml:id="fn3" type="footnote" n="3">Abusiacum: <placeName ref="place384">Füssen</placeName> im Allgäu (s. Johann Jacob <hi>Hofmann,</hi> Lexicon universale, Bd. I, Leiden 1698, S. 24).</note>, honestissima tui mentione accepi te haud minori morum elegantia ac humanitate pręditum quam scripta tua pre se ferunt, quae praeter eruditionem tuam, qua omniiuga<note xml:id="fn4" type="footnote" n="4">umfassend (s. René <hi>Hoven,</hi> Lexique de la prose latine de la renaissance, Leiden 1994, S. 241).</note> dotatus, te summe moderatum et miram ingenii suavitatem depingunt.</s>
+					<s n="2" xml:lang="la" type="auto">Ex multorum delatione, cum superiori anno me domum receperam, et pręsertim d. Barptholomei <persName ref="p330">Bertlin</persName>, sanguine coniuncti mei<note xml:id="fn2" type="footnote" n="2">Zur Verwandtschaft zwischen <persName>Regel</persName> und <persName ref="p17793">Bartholomäus Bertlin</persName> ist nichts Näheres bekannt.</note> parochique ecclesiae Abusiacensis<note xml:id="fn3" type="footnote" n="3">Abusiacum: <placeName>Füssen</placeName> im Allgäu (s. Johann Jacob <hi>Hofmann,</hi> Lexicon universale, Bd. I, Leiden 1698, S. 24).</note>, honestissima tui mentione accepi te haud minori morum elegantia ac humanitate pręditum quam scripta tua pre se ferunt, quae praeter eruditionem tuam, qua omniiuga<note xml:id="fn4" type="footnote" n="4">umfassend (s. René <hi>Hoven,</hi> Lexique de la prose latine de la renaissance, Leiden 1994, S. 241).</note> dotatus, te summe moderatum et miram ingenii suavitatem depingunt.</s>
 					<s n="3" xml:lang="la" type="auto">Summopere ob id occasionem scribendi ad te saepius optabam mihi, ut aliqua tecum familiaritas mihi intercideret, cum a teneris semper mihi doctrina praestantes et colendos et amplectendos duxerim.</s>
 					<s n="4" xml:lang="la" type="auto">Sed nescio quid obstiterit, quo votis meis hactenus minus responderim, cum saepius id me facturum apud familiares tui pollicebar.</s>
-					<s n="5" xml:lang="la" type="auto">Et tandem mihi aliquam significandi meam in te voluntatem ansam oblatam esse gratulor, cum hac tempestate<note xml:id="fna" type="footnote" n="a"><hi>Nach</hi> tempestate <hi>gestrichenes</hi> me necessitas cogat.</note><note xml:id="fn5" type="footnote" n="5"><persName ref="person22849">Regel</persName> spielt auf die Pestepidemie des Jahres 1541 an.</note> tractatum quendam, ut tuo maxime acuto iuditio in lucem prodeat, cupiam.</s>
+					<s n="5" xml:lang="la" type="auto">Et tandem mihi aliquam significandi meam in te voluntatem ansam oblatam esse gratulor, cum hac tempestate<note xml:id="fna" type="footnote" n="a"><hi>Nach</hi> tempestate <hi>gestrichenes</hi> me necessitas cogat.</note><note xml:id="fn5" type="footnote" n="5"><persName>Regel</persName> spielt auf die Pestepidemie des Jahres 1541 an.</note> tractatum quendam, ut tuo maxime acuto iuditio in lucem prodeat, cupiam.</s>
 					<s n="6" xml:lang="la" type="auto">Etsi autem animus semper alienus in hoc foelicissimo seculo clarissimorum virorum apud musas meas referto, qui nihil non quam ingeniosissima quęque ex vetustissima Hippocratica simul et Galenica arte<note xml:id="fnb" type="footnote" n="b">arte <hi>über der Zeile nachgetragen.</hi></note> deprompta excudunt, tamen amor concivium et senatus nostri assidua impulsio, ut adversus hanc luem pestiferam veram et certam tuendi et medendi<note xml:id="fnc" type="footnote" n="c"><hi>Vor</hi> medendi <hi>gestrichenes</hi> praeservandi.</note> methodum prescriberem, me eo duxere, ut extra omnem pietatis charitatisque tenorem esse putarem, si his non morem gererem.</s>
 					<s n="7" xml:lang="la" type="auto">Conscripsi itaque tractatum de peste ex Grecorum maxime antiquorum sententia, in quo methodum tuendi, quo pacto quisque se iuxta suam temperiem precaveri debeat quidque in dies cuique faciundum, ut dispositionem corporis salubrem conservaret, et curandi, quo modo etiam citissime ac commodissime sit abigendus et profligandus, cum probatissimis Grecorum veterum antidotis, quae maxime ad nostram regionem Germanicam ac temperamenta nostra attemperavi, complexus sim.</s>
 					<s n="8" xml:lang="la" type="auto">Hunc apud tuos calchotypos diligentissimos edendum cupio.</s>
-					<s n="9" xml:lang="la" type="auto">Ac si tui hisce in brevi effectum dare possent, id mihi ac senatui gratissimum esset<note xml:id="fn6" type="footnote" n="6">Zu einer Drucklegung von <persName ref="person22849">Regels</persName> Festschrift scheint es weder in Zürich noch andernorts gekommen zu sein.</note>.</s>
+					<s n="9" xml:lang="la" type="auto">Ac si tui hisce in brevi effectum dare possent, id mihi ac senatui gratissimum esset<note xml:id="fn6" type="footnote" n="6">Zu einer Drucklegung von <persName>Regels</persName> Festschrift scheint es weder in Zürich noch andernorts gekommen zu sein.</note>.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto"><pb type="scan" next="219"/>Haec, doctissime Henrice, humanitati tuae significanda esse censui, quo me tibi cognitum redderem, deinde ut labor meus, quem ad communem reipublicae usum destinavi, foelicius apud tuos excuderetur.</s>

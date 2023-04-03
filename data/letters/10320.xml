@@ -6,47 +6,38 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 23. November 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=289</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">235</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,124</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Wünscht Information über fünf einflußreiche Persönlichkeiten. Gerüchte über Unruhen in
-								<placeName ref="place906">Rom</placeName> und andere politische Folgen der franzosenfreundlichen Haltung
+								<placeName>Rom</placeName> und andere politische Folgen der franzosenfreundlichen Haltung
 								des Papstes. Grüße.
 							</p>
 						</summary>
@@ -54,13 +45,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 289, S.235</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10320">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1533-11-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,29 +121,29 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">De quinque illis<note xml:id="fn1" type="footnote" n="1">Wie aus Bullingers Antwort vom 4. Dezember (unten <ref target="file10324">Nr. 293</ref>) hervorgeht, handelt es sich um die in <placeName ref="place652">Luzern</placeName> versammelten geheimen Boten <placeName ref="place51">der V Orte</placeName>, über welche <persName ref="person154">Myconius</persName> Genaueres wissen will.</note>, qui omnia excipiunt atque inde consultant, velim fieri certior, an<note xml:id="fna" type="footnote" n="a"><hi>von</hi> an <hi>bis</hi> tentent <hi>am Rande nachgetragen.</hi></note> adhuc sint, qui sint, quid tentent<note xml:id="fnb" type="footnote" n="b"><hi>von</hi> an <hi>bis</hi> tentent <hi>am Rande nachgetragen.</hi></note>.</s>
+					<s n="2" xml:lang="la" type="auto">De quinque illis<note xml:id="fn1" type="footnote" n="1">Wie aus Bullingers Antwort vom 4. Dezember (unten <ref target="file10324">Nr. 293</ref>) hervorgeht, handelt es sich um die in <placeName>Luzern</placeName> versammelten geheimen Boten <placeName>der V Orte</placeName>, über welche <persName>Myconius</persName> Genaueres wissen will.</note>, qui omnia excipiunt atque inde consultant, velim fieri certior, an<note xml:id="fna" type="footnote" n="a"><hi>von</hi> an <hi>bis</hi> tentent <hi>am Rande nachgetragen.</hi></note> adhuc sint, qui sint, quid tentent<note xml:id="fnb" type="footnote" n="b"><hi>von</hi> an <hi>bis</hi> tentent <hi>am Rande nachgetragen.</hi></note>.</s>
 					<s n="3" xml:lang="la" type="auto">Opus est.</s>
 					<s n="4" xml:lang="la" type="auto">Quamobrem vide, quicquid potes, exquiras.</s>
 					<s n="5" xml:lang="la" type="auto">Laborem non frustra insumpseris.</s>
-					<s n="6" xml:lang="la" type="auto">Intelligis, quid velim: nihil aliud certe, quam quod <persName ref="person47">Dasipodio</persName> commendasti in sinum mihi.</s>
+					<s n="6" xml:lang="la" type="auto">Intelligis, quid velim: nihil aliud certe, quam quod <persName ref="p8320">Dasipodio</persName> commendasti in sinum mihi.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Caeterum non nihil est, quod de <placeName ref="place906">Roma</placeName> scripsisti<note xml:id="fn2" type="footnote" n="2">Oben S. 232, 22.</note>.</s>
-					<s n="8" xml:lang="la" type="auto">Tumultus fuit ob navigationem papae<note xml:id="fn3" type="footnote" n="3">Gemeint ist die Seereise des Papstes <persName ref="person635">Clemens VII.</persName> nach <placeName ref="place677">Marseille</placeName>, s. oben <ref target="file10307">[Nr. 276]</ref> S. 211, Anm. 4.</note>, in quo cardinales Franco faventes perierunt, quamvis alter veneno<note xml:id="fn4" type="footnote" n="4">Gemeint sind wohl die Todesfälle des päpstlichen Geheimsekretärs <persName ref="person2023">Jacopo Salviati</persName> vom 6. September und von Kardinal <persName ref="person633">Antonio Ciocchi del Monte</persName> vom 20. September (s. <hi>Pastor</hi> IV/2 478). Die dramatischen Begleitumstände, mit denen die ohnehin ungenaue Nachricht ausgeschmückt ist, lassen sich allerdings nicht nachweisen.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Caeterum non nihil est, quod de <placeName>Roma</placeName> scripsisti<note xml:id="fn2" type="footnote" n="2">Oben S. 232, 22.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Tumultus fuit ob navigationem papae<note xml:id="fn3" type="footnote" n="3">Gemeint ist die Seereise des <persName>Papstes Clemens VII.</persName> nach <placeName>Marseille</placeName>, s. oben <ref target="file10307">[Nr. 276]</ref> S. 211, Anm. 4.</note>, in quo cardinales Franco faventes perierunt, quamvis alter veneno<note xml:id="fn4" type="footnote" n="4">Gemeint sind wohl die Todesfälle des päpstlichen Geheimsekretärs <persName>Jacopo Salviati</persName> vom 6. September und von Kardinal <persName>Antonio Ciocchi del Monte</persName> vom 20. September (s. <bibl>Pastor</bibl> IV/2 478). Die dramatischen Begleitumstände, mit denen die ohnehin ungenaue Nachricht ausgeschmückt ist, lassen sich allerdings nicht nachweisen.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Tum direptus est vicus omnino.</s>
 					<s n="10" xml:lang="la" type="auto">Ratum est apud caesarianos papam nunquam recipiendum deinceps.</s>
-					<s n="11" xml:lang="la" type="auto">Quod ita erit, nisi caesar persuadeatur a papa, quod concordiam sic inter ipsum et regem Gallorum per exitum ab <placeName ref="place16">Italia</placeName> moliatur.</s>
+					<s n="11" xml:lang="la" type="auto">Quod ita erit, nisi caesar persuadeatur a papa, quod concordiam sic inter ipsum et regem Gallorum per exitum ab <placeName>Italia</placeName> moliatur.</s>
 					<s n="12" xml:lang="la" type="auto">Haec nobilis quidam<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note>, qui papam sequutus est ad classem usque.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Vale cum uxore<note xml:id="fn6" type="footnote" n="6"><persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note> et <persName ref="person225">Utingero</persName>.</s>
+					<s n="13" xml:lang="la" type="auto">Vale cum uxore<note xml:id="fn6" type="footnote" n="6"><persName>Anna Bullinger, geb. Adlischwyler</persName>.</note> et <persName ref="p3242">Utingero</persName>.</s>
 					<s n="14" xml:lang="la" type="auto">Rescribe quam ocyssime.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, 23. novembris anno 33.</s>
+					<s n="15" xml:lang="la" type="auto"><placeName>Basileae</placeName>, 23. novembris anno 33.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="16" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

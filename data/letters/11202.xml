@@ -6,51 +6,45 @@
 				<title subtype="file">Nicholas Eliott AN Heinrich Bullinger, 21. August 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1159</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">617</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Epistolae Tigurinae de rebus potissimum ad ecclesiae Anglicanae reformationem pertinentibus conscriptae A. D. 1531-1558. Ex schedis manuscriptis in bibliotheca Tigurina aliisque servatis Parkerianae societatis auspiciis editae, Cambridge 1848 (Nachdruck: New York 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,1</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Schreibt nicht viel, da [Nicholas]
-								<persName ref="person164">Partridge</persName> erzählen und auf Fragen Auskunft geben wird.
-								König [Heinrich
-								VIII.] wie auch <persName ref="person661">Thomas Cromwell</persName>
+								Schreibt nicht viel, da <persName ref="p8422">[Nicholas] Partridge</persName> erzählen und auf Fragen Auskunft geben wird.
+								<persName ref="p18505">König [Heinrich VIII.]</persName> wie auch <persName ref="p4585">Thomas Cromwell</persName>
 								haben das Werk [„De scripturae sanctae authoritate ... libri duo“], das Bullinger dem
 								König widmete, gut aufgenommen, was Bullinger von diesen selbst
 								erfahren hätte, wenn sie nicht so beschäftigt wären; Bullingers Werke haben in
-								<placeName ref="place9">England</placeName> und anderswo hohes Ansehen gewonnen. Dankt für die
+								<placeName>England</placeName> und anderswo hohes Ansehen gewonnen. Dankt für die
 								Freundlichkeit sowie für die Briefe an Lord Maltravers und an die beiden
 								Polsteds; schickt durch
-								<persName ref="person164">Partridge</persName> Handschuhe als Geschenk für Bullinger, für dessen Frau und
+								<persName ref="p8422">Partridge</persName> Handschuhe als Geschenk für Bullinger, für dessen Frau und
 								für die Mutter und läßt diese grüßen.
 							</p>
 						</summary>
@@ -72,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11202">
 				<correspAction type="sent">
-					<persName ref="person1001" cert="high">
+					<persName ref="p1001" cert="high">
 						<!--
 						<surname cert="high">Eliott</surname>
 						<forename cert="high">Nicholas</forename>
@@ -81,7 +75,7 @@
 					<date when="1538-08-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

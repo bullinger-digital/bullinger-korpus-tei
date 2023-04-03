@@ -6,51 +6,42 @@
 				<title subtype="file">Simon Grynäus / [Basel] AN Heinrich Bullinger, [10.] September 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1041</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">235</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,186</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Wird auf Geheiß des Rates, zusammen mit <persName ref="person154">Myconius</persName>,
-								<persName ref="person28">Bucer</persName> und <persName ref="person40">Capito</persName> nach
-								<placeName ref="place121">Bern</placeName> begleiten, wo man, da
-								<persName ref="person138">Luthers</persName> Antwort noch aussteht, kaum über [das Abendmahl], wohl aber
-								über den Streit um <persName ref="person28">Bucer</persName> verhandeln wird; ob eine Einigung mit
-								<persName ref="person138">Luther</persName> möglich ist, bleibt abzuwarten. Mehr soll hinter dieser Reise
+								Wird auf Geheiß des Rates, zusammen mit <persName ref="p8418">Myconius</persName>,
+								<persName ref="p467">Bucer</persName> und <persName ref="p5565">Capito</persName> nach
+								<placeName>Bern</placeName> begleiten, wo man, da
+								<persName ref="p1974">Luthers</persName> Antwort noch aussteht, kaum über [das Abendmahl], wohl aber
+								über den Streit um <persName ref="p467">Bucer</persName> verhandeln wird; ob eine Einigung mit
+								<persName ref="p1974">Luther</persName> möglich ist, bleibt abzuwarten. Mehr soll hinter dieser Reise
 								nicht vermutet werden. Gruß.
 							</p>
 						</summary>
@@ -58,13 +49,20 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 1041, S.235</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11083">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1537-09-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,10 +126,10 @@
 					<s n="2" xml:lang="la" type="auto">Cupio te valere, vigere ac crescere florereque in domino.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto"><persName ref="person28">Bucerus</persName> cum <persName ref="person40">Capitone</persName> profecturus his diebus <placeName ref="place121">Bernam</placeName> <foreign xml:lang="el">ἀπολογιζόμενος</foreign> apud senatum nostrum literis<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> effecit, ut <persName ref="person154">Myconius</persName> et ego eodem una proficisceremur, ac impetravit, arbitror; sic enim nostris videri video.</s>
-					<s n="4" xml:lang="la" type="auto">De eo articulo, in quo nobis cum <persName ref="person138">Luthero</persName> dissensio est, nihil agetur, puto.</s>
-					<s n="5" xml:lang="la" type="auto">Non enim potest, prius ille ad confessionem nostram respondet<note xml:id="fn3" type="footnote" n="3"><persName ref="person138">Luther</persName> antwortete erst am 1. Dezember auf das Schreiben der reformierten Städte der Eidgenossenschaft vom 12. Januar; s. WA Briefwechsel VIII 149-153, Nr. 3191.</note>.</s>
-					<s n="6" xml:lang="la" type="auto">Sed quia gravis est de <persName ref="person28">Bucero</persName> querela et gravis etiam inter fratres dissensio, erit, arbitror, non inutile, si illi sententiam suam nobiscum suspendant tantisper, dum a <persName ref="person138">Luthero</persName> respondeatur ac liquidum fiat, conveniat nec ne.</s>
+					<s n="3" xml:lang="la" type="auto"><persName ref="p467">Bucerus</persName> cum <persName ref="p5565">Capitone</persName> profecturus his diebus <placeName>Bernam</placeName> <foreign xml:lang="el">ἀπολογιζόμενος</foreign> apud senatum nostrum literis<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> effecit, ut <persName ref="p8418">Myconius</persName> et ego eodem una proficisceremur, ac impetravit, arbitror; sic enim nostris videri video.</s>
+					<s n="4" xml:lang="la" type="auto">De eo articulo, in quo nobis cum <persName ref="p1974">Luthero</persName> dissensio est, nihil agetur, puto.</s>
+					<s n="5" xml:lang="la" type="auto">Non enim potest, prius ille ad confessionem nostram respondet<note xml:id="fn3" type="footnote" n="3"><persName ref="p18889">Luther</persName> antwortete erst am 1. Dezember auf das Schreiben der reformierten Städte der Eidgenossenschaft vom 12. Januar; s. <bibl>WA</bibl> Briefwechsel VIII 149-153, Nr. 3191.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Sed quia gravis est de <persName ref="p467">Bucero</persName> querela et gravis etiam inter fratres dissensio, erit, arbitror, non inutile, si illi sententiam suam nobiscum suspendant tantisper, dum a <persName ref="p1974">Luthero</persName> respondeatur ac liquidum fiat, conveniat nec ne.</s>
 					<s n="7" xml:lang="la" type="auto">Certe reclamare studio eorum, qui conciliare ecclesiam tempore tam periculoso cupiunt, nulla ratione possumus, antequam manifeste constet aut ipsos nobis aut nos ipsis tollerabiles non esse.</s>
 					<s n="8" xml:lang="la" type="auto">Siquidem potior esse veritas omni necessitudinis vinculo debet.</s>
 				</p>
@@ -143,7 +141,7 @@
 					<s n="11" xml:lang="la" type="auto">Tu interea valebis cum charissimis fratribus, quos diligenter in domino mihi salutabis.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><persName ref="person81">Gryneus</persName> tuus semper in domino.</s>
+					<s n="12" xml:lang="la" type="auto"><persName ref="p1365">Gryneus</persName> tuus semper in domino.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

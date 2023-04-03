@@ -6,40 +6,31 @@
 				<title subtype="file">s.n. / Winterthur AN Heinrich Bullinger, 11. September 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1981</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">393</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 440,f. 327, Nr. 75</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 440,f. 239, Nr. 75</idno>
@@ -48,29 +39,36 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Auf Veranlassung des Vormundes <persName ref="person21940">Rudolf Kuster</persName> ersuchen sie Bullinger, den jungen <persName ref="person21909">[Heinrich] Hoppler</persName>, Sohn
-								des [<placeName ref="place1202">Winterthurer</placeName>] Bürgers <persName ref="person21908">Alban Hoppler</persName>, aufgrund seiner Armut
+								Auf Veranlassung des Vormundes <persName ref="p18318">Rudolf Kuster</persName> ersuchen sie Bullinger, den jungen <persName ref="p5292">[Heinrich] Hoppler</persName>, Sohn
+								des [<placeName>Winterthurer</placeName>] Bürgers <persName ref="p5291">Alban Hoppler</persName>, aufgrund seiner Armut
 								und zur Fortführung seiner Schulbildung in das [Zürcher] Almosen aufzunehmen, wie schon früher andere
-								Bürgersöhne aus <placeName ref="place1202">Winterthur</placeName> auch nach Zürich kommen durften.
+								Bürgersöhne aus <placeName>Winterthur</placeName> auch nach Zürich kommen durften.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1981, S.393</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12028">
 				<correspAction type="sent">
-					<roleName ref="role65" type="pl" role="Schultheissen" cert="high"/>
-					<roleName ref="role59" type="pl" role="Räte" cert="high"/>
-					<placeName source="place555" cert="high"><orig>Winterthur</orig></placeName>
+					<roleName ref="g65" type="pl" role="Schultheissen" cert="high"/>
+					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<placeName source="l555" cert="high"><orig>Winterthur</orig></placeName>
 					<date when="1544-09-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +103,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,16 +118,16 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="de" type="auto">Günstiger, lieber her.</s>
-					<s n="3" xml:lang="de" type="auto">Es ist unsers Burgers <persName ref="person21908">Alban Hopplers</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person21908">Alban Hoppler</persName> stammte vermutlich aus dem alten, einst angesehenen <placeName ref="place1202">Winterthurer</placeName> Geschlecht. Über ihn ist sonst nichts bekannt.</note> säligenn sonn<note xml:id="fn3" type="footnote" n="3">Das vorliegende Gesuch war erfolgreich, denn 1550 findet sich ein <persName ref="person21909">Heinrich Hoppler</persName> in einem von Schulmeister <persName ref="person69">Johannes Fries</persName> angelegten Almosenverzeichnis von Schülern des Fraumünster-Alumnats (Zürich StA, A 61.1, Stück 44): "<persName ref="person21909">Heinrich Hoppler</persName> von <placeName ref="place1202">Winterthur</placeName>, haft kein vatter und gar niemandt, der sich sin annem." Weiteres ist über ihn nicht bekannt. Er ist nicht zu verwechseln mit einem anderen, etwas älteren <placeName ref="place1202">Winterthurer</placeName>, der als <persName ref="person21907">Heinrich Hopler</persName> mehrfach in den Urkunden B 2/10 des Stadtarchivs <placeName ref="place1202">Winterthur</placeName> erscheint und schon 1540 verheiratet war; s. etwa <placeName ref="place1202">Winterthur</placeName> Stadtarchiv, B 2/10, S. 42.</note> mit sinem vogt<note xml:id="fn4" type="footnote" n="4">Vormund.</note> Ruͦdolffen <persName ref="person21940">Kuster</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person21940">Rudolf Kuster</persName> aus <placeName ref="place1202">Winterthur</placeName> erscheint verschiedentlich in den Quellen. Er hatte am Zweiten Kappelerkrieg 1531 teilgenommen, besaß um 1531 mehrere Häuser, erwarb 1534 ein Stück Land vor dem Obertor und war um 1536 Meister der Oberstube; s. Joh[ann] Conrad <hi>Troll,</hi> Geschichte der Stadt <placeName ref="place1202">Winterthur</placeName>, nach Urkunden bearbeitet. Erster Theil, enthaltend die Kriegsgeschichte der Stadt <placeName ref="place1202">Winterthur</placeName>, <placeName ref="place1202">Winterthur</placeName> 1840, S. 61, Nr. 30; Zürich StA, Kataloge 440: <placeName ref="place1202">Winterthur</placeName>, Akten altes Archiv vor 1798, Regesten, Bd. 3, AH 99, Zünfte, Nr. 8; ebd., Bd. 2, Vermögens- und Erbschaftssachen, AG/91/2, Nr. 27; <placeName ref="place1202">Winterthur</placeName> Stadtarchiv, Urkundenregesten: <ref target="file12289">Nr. 2242</ref> (s. auch AG 94/1/167). 2340. 2451. 2500; ebd., Ratsprotokolle: B 2/8, S. 212-215. 217. 221. 223. 237. Zur Oberstube s. Marek <hi>Rozycki,</hi> Die Handwerker und ihre Vereinigungen im alten <placeName ref="place1202">Winterthur</placeName> (bis 1798), in: Njbl. der Stadtbibliothek <placeName ref="place1202">Winterthur</placeName> 279, 1976, S. 116f.</note> der tagen vor uns erschynnen, anzöigt, wie dan uns des guͦten knaben armuͦt wol bewüst, und er yetzo etlich zit in schuͦll gangen, der hoffnung, die leer an ime öthwas zuͦ verfachen<pb type="edition" next="394"/><note xml:id="fn6" type="footnote" n="6">Zu verstehen: mit der Hoffnung, dass die Lehre ihm etwas nütze (SI I 722).</note>, möge er doch, wie gmeldet, siner armuͦt halb dem nit nachkomen.</s>
+					<s n="3" xml:lang="de" type="auto">Es ist unsers Burgers <persName ref="p5291">Alban Hopplers</persName><note xml:id="fn2" type="footnote" n="2"><persName>Alban Hoppler</persName> stammte vermutlich aus dem alten, einst angesehenen <placeName>Winterthurer</placeName> Geschlecht. Über ihn ist sonst nichts bekannt.</note> säligenn sonn<note xml:id="fn3" type="footnote" n="3">Das vorliegende Gesuch war erfolgreich, denn 1550 findet sich ein <persName>Heinrich Hoppler</persName> in einem von Schulmeister <persName>Johannes Fries</persName> angelegten Almosenverzeichnis von Schülern des Fraumünster-Alumnats (Zürich StA, A 61.1, Stück 44): "<persName>Heinrich Hoppler</persName> von <placeName>Winterthur</placeName>, haft kein vatter und gar niemandt, der sich sin annem." Weiteres ist über ihn nicht bekannt. Er ist nicht zu verwechseln mit einem anderen, etwas älteren <placeName>Winterthurer</placeName>, der als <persName>Heinrich Hopler</persName> mehrfach in den Urkunden B 2/10 des Stadtarchivs <placeName>Winterthur</placeName> erscheint und schon 1540 verheiratet war; s. etwa <placeName>Winterthur</placeName> Stadtarchiv, B 2/10, S. 42.</note> mit sinem vogt<note xml:id="fn4" type="footnote" n="4">Vormund.</note> Ruͦdolffen <persName ref="p18318">Kuster</persName><note xml:id="fn5" type="footnote" n="5"><persName>Rudolf Kuster</persName> aus <placeName>Winterthur</placeName> erscheint verschiedentlich in den Quellen. Er hatte am Zweiten Kappelerkrieg 1531 teilgenommen, besaß um 1531 mehrere Häuser, erwarb 1534 ein Stück Land vor dem Obertor und war um 1536 Meister der Oberstube; s. Joh[ann] Conrad <hi>Troll,</hi> Geschichte der Stadt <placeName>Winterthur</placeName>, nach Urkunden bearbeitet. Erster Theil, enthaltend die Kriegsgeschichte der Stadt <placeName>Winterthur</placeName>, <placeName>Winterthur</placeName> 1840, S. 61, Nr. 30; Zürich StA, Kataloge 440: <placeName>Winterthur</placeName>, Akten altes Archiv vor 1798, Regesten, Bd. 3, AH 99, Zünfte, Nr. 8; ebd., Bd. 2, Vermögens- und Erbschaftssachen, AG/91/2, Nr. 27; <placeName>Winterthur</placeName> Stadtarchiv, Urkundenregesten: <ref target="file12289">Nr. 2242</ref> (s. auch AG 94/1/167). 2340. 2451. 2500; ebd., Ratsprotokolle: B 2/8, S. 212-215. 217. 221. 223. 237. Zur Oberstube s. Marek <hi>Rozycki,</hi> Die Handwerker und ihre Vereinigungen im alten <placeName>Winterthur</placeName> (bis 1798), in: Njbl. der Stadtbibliothek <placeName>Winterthur</placeName> 279, 1976, S. 116f.</note> der tagen vor uns erschynnen, anzöigt, wie dan uns des guͦten knaben armuͦt wol bewüst, und er yetzo etlich zit in schuͦll gangen, der hoffnung, die leer an ime öthwas zuͦ verfachen<pb type="edition" next="394"/><note xml:id="fn6" type="footnote" n="6">Zu verstehen: mit der Hoffnung, dass die Lehre ihm etwas nütze (<bibl>SI</bibl> I 722).</note>, möge er doch, wie gmeldet, siner armuͦt halb dem nit nachkomen.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="de" type="auto">Derwegen sin gantz früntlich pit wäre, wir ime günstliche fürgschrifft<note xml:id="fn7" type="footnote" n="7">Empfehlung, Empfehlungsschreiben.</note> an üch<note xml:id="fna" type="footnote" n="a"><hi>Nach</hi> üch <hi>gestrichenes</hi> ime.</note> mitzetheillen, der guͦtenn hoffnung, ime woll zuͦ erschiessen<note xml:id="fn8" type="footnote" n="8">ihm von Nutzen zu sein.</note>, der gstalt, das er, wie dan vor anderen unseren burgers sönen ouch beschehen,<note xml:id="fn9" type="footnote" n="9">Zu denken ist etwa an <persName ref="person1185">Leodegar Hirsgarter</persName> von <placeName ref="place1202">Winterthur</placeName>, den Bullinger 1539 als Stipendiaten bei sich aufgenommen hatte; s. HBBW IX 43, 22f.</note> an das almuͦsenn genomen werde.</s>
+					<s n="4" xml:lang="de" type="auto">Derwegen sin gantz früntlich pit wäre, wir ime günstliche fürgschrifft<note xml:id="fn7" type="footnote" n="7">Empfehlung, Empfehlungsschreiben.</note> an üch<note xml:id="fna" type="footnote" n="a"><hi>Nach</hi> üch <hi>gestrichenes</hi> ime.</note> mitzetheillen, der guͦtenn hoffnung, ime woll zuͦ erschiessen<note xml:id="fn8" type="footnote" n="8">ihm von Nutzen zu sein.</note>, der gstalt, das er, wie dan vor anderen unseren burgers sönen ouch beschehen,<note xml:id="fn9" type="footnote" n="9">Zu denken ist etwa an <persName ref="p7640">Leodegar Hirsgarter</persName> von <placeName>Winterthur</placeName>, den Bullinger 1539 als Stipendiaten bei sich aufgenommen hatte; s. <bibl>HBBW</bibl> IX 43, 22f.</note> an das almuͦsenn genomen werde.</s>
 					<s n="5" xml:lang="de" type="auto">Unnd diewyl wir ine zefürderen gnaigt, so lanngt an üch unnser früntlich pite, welind den guͦten knaben befolchenn haben, der massen, das im in etlichen wege gholffenn werd.</s>
 					<s n="6" xml:lang="de" type="auto">Das wöllend wir umb üch früntlichenn verdiennenn.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="de" type="auto">Datum in il<note xml:id="fn10" type="footnote" n="10">in Eile.</note>, denn 11. septembris anno 1544.</s>
-					<s n="8" xml:lang="de" type="auto">Schultheys und rat zuͦ <placeName ref="place1202">Winterthur</placeName>.</s>
+					<s n="8" xml:lang="de" type="auto">Schultheys und rat zuͦ <placeName>Winterthur</placeName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

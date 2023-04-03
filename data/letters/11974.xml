@@ -6,40 +6,31 @@
 				<title subtype="file">Gilbert Cousin / Nozeroy AN Heinrich Bullinger, 15. Juni 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1927</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">267</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,295 f.</idno>
 					</msIdentifier>
 					<msContents>
@@ -61,24 +52,31 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1927, S.267</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11974">
 				<correspAction type="sent">
-					<persName ref="person667" cert="high">
+					<persName ref="p667" cert="high">
 						<!--
 						<surname cert="high">Cousin</surname>
 						<forename cert="high">Gilbert</forename>
 						<persName type="main" ref="person8073>Cousin, Gilbert</persName>
 						-->
 					</persName>
-					<placeName source="place356" cert="high"><orig>Nozeroy</orig></placeName>
+					<placeName source="l356" cert="high"><orig>Nozeroy</orig></placeName>
 					<date when="1544-06-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,18 +122,18 @@
 					<s n="1" xml:lang="la" type="auto">Salus a salutis authore Iesu.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quum hodie pauci admodum vivant homines, vir in omni doctrinarum genere eminentissime ac bonorum omnium celebratissime, qui apposite citraque reprehensionem tibi scribere queant utpote viro extra omnem ingenii aleam posito<note xml:id="fn3" type="footnote" n="3">vir extra omnem ingenii aleam positus: Plinius d.Ä., Naturalis historia, Praefatio, 7. Zu verstehen ist etwa: "ein zuverlässiger Mensch", "ein Mann von sicherer Begabung".</note>, videbar mihi non leve admittere piaculum, si ego homuncio undique minimus tantum heroa divinissimis negociis addictum <foreign xml:lang="el">ἀκαίροις</foreign><note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> <foreign xml:lang="el">ἀκαιροῖς</foreign>.</note> <foreign xml:lang="el">λόγοις</foreign> vexarem molestiaque afficerem.</s>
-					<s n="3" xml:lang="la" type="auto">Verum plurima et cedro quidem dignissima<note xml:id="fn4" type="footnote" n="4">Adagia, 4, 1, 54 (ASD II/7 73f. <ref target="file13103">Nr. 3054</ref>).</note> monumenta, quibus te deum mortalibus prebes (vel nusquam locum habet illud verbum <foreign xml:lang="el">ἄνθρωπος ἀνθρώπου</foreign><note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> <foreign xml:lang="el">ἄνθρωπου</foreign>.</note> <foreign xml:lang="el">δαιμόνιον</foreign>)<note xml:id="fn5" type="footnote" n="5">Adagia, 1, 1, 69 (ASD II/1 180-182, Nr. 69).</note>, cum te pingunt, effigiant, exprimunt, ut in spem veniam hasce nostras naenias boni aequique consulturum, pręsertim cum ab eo proficiscantur pectore, cui numen quoddam divinissimum sis colendum vel toto vitae spacio.</s>
+					<s n="2" xml:lang="la" type="auto">Quum hodie pauci admodum vivant homines, vir in omni doctrinarum genere eminentissime ac bonorum omnium celebratissime, qui apposite citraque reprehensionem tibi scribere queant utpote viro extra omnem ingenii aleam posito<note xml:id="fn3" type="footnote" n="3">vir extra omnem ingenii aleam positus: <persName>Plinius d.Ä.</persName>, Naturalis historia, Praefatio, 7. Zu verstehen ist etwa: "ein zuverlässiger Mensch", "ein Mann von sicherer Begabung".</note>, videbar mihi non leve admittere piaculum, si ego homuncio undique minimus tantum heroa divinissimis negociis addictum <foreign xml:lang="el">ἀκαίροις</foreign><note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> <foreign xml:lang="el">ἀκαιροῖς</foreign>.</note> <foreign xml:lang="el">λόγοις</foreign> vexarem molestiaque afficerem.</s>
+					<s n="3" xml:lang="la" type="auto">Verum plurima et cedro quidem dignissima<note xml:id="fn4" type="footnote" n="4">Adagia, 4, 1, 54 (<bibl>ASD</bibl> II/7 73f. <ref target="file13103">Nr. 3054</ref>).</note> monumenta, quibus te deum mortalibus prebes (vel nusquam locum habet illud verbum <foreign xml:lang="el">ἄνθρωπος ἀνθρώπου</foreign><note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> <foreign xml:lang="el">ἄνθρωπου</foreign>.</note> <foreign xml:lang="el">δαιμόνιον</foreign>)<note xml:id="fn5" type="footnote" n="5">Adagia, 1, 1, 69 (<bibl>ASD</bibl> II/1 180-182, Nr. 69).</note>, cum te pingunt, effigiant, exprimunt, ut in spem veniam hasce nostras naenias boni aequique consulturum, pręsertim cum ab eo proficiscantur pectore, cui numen quoddam divinissimum sis colendum vel toto vitae spacio.</s>
 					<s n="4" xml:lang="la" type="auto">Quis enim nisi pessimus Bullingerum non suspiciat, veneretur, colat, qui divinitus e coelo delapsus orbis terrarum utilitati verissime creditur et ab omnibus predicatur,<pb type="edition" next="268"/> qua patet trium linguarum peritia?</s>
 					<s n="5" xml:lang="la" type="auto"><foreign xml:lang="el">Ω</foreign> ter et amplius felices,<note xml:id="fn6" type="footnote" n="6">Horaz, Carmina, 1, 13, 17.</note> quibus tuo seculo nasci contigit!</s>
-					<s n="6" xml:lang="la" type="auto">Haec nimirum dies saeculum illud aureum, quod vates divinissimi laudare sibi permisere<note xml:id="fn7" type="footnote" n="7">Vgl. z.B. Vergil, Aeneis, 6, 791f; 8, 324f und Ovid, Metamorphosen, 1, 89. - Lit.: Hartwig <hi>Heckel,</hi> in: DNP XII/2 706-710 (mit weiterer Lit.).</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Haec nimirum dies saeculum illud aureum, quod vates divinissimi laudare sibi permisere<note xml:id="fn7" type="footnote" n="7">Vgl. z.B. Vergil, Aeneis, 6, 791f; 8, 324f und Ovid, Metamorphosen, 1, 89. - Lit.: Hartwig <hi>Heckel,</hi> in: <bibl>DNP</bibl> XII/2 706-710 (mit weiterer Lit.).</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Iam reddita est virgo illa Pallas, reddita per Bullingerum Saturnia regna,<note xml:id="fn8" type="footnote" n="8">reddita Pallas, reddita Saturnia regna: Vgl. Vergil, Eclogae, 4, 6.</note> hoc est syncerae theologiae et divinae doctrinae vera cognitio.</s>
-					<s n="8" xml:lang="la" type="auto">Sit citra invidiae morsum dictum: „Tu maximus ille est unus, qui nobis cunctando<note xml:id="fnc" type="footnote" n="c"><hi>In der Vorlage</hi> conctando.</note>, imo scribendo restituis rem“<note xml:id="fn9" type="footnote" n="9">Vgl. Ennius, Annales, 12, 370 und z.B. Vergil, Aeneis, 6, 845; Hieronymus, Epistula adversus Rufinum presbyterum Aquileiensem (= Liber tertius), 29 (CChr-L LXXIX 101, 14f).</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Sit citra invidiae morsum dictum: „Tu maximus ille est unus, qui nobis cunctando<note xml:id="fnc" type="footnote" n="c"><hi>In der Vorlage</hi> conctando.</note>, imo scribendo restituis rem“<note xml:id="fn9" type="footnote" n="9">Vgl. Ennius, Annales, 12, 370 und z.B. Vergil, Aeneis, 6, 845; Hieronymus, Epistula adversus Rufinum presbyterum Aquileiensem (= Liber tertius), 29 (<bibl>CChr-L</bibl> LXXIX 101, 14f).</note>.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Rem dii servent in Nestoreos annos<note xml:id="fn10" type="footnote" n="10">Vgl. Adagia, 1, 6, 66 (ASD II/2 93f, <ref target="file10602">Nr. 566</ref>).</note>!</s>
+					<s n="9" xml:lang="la" type="auto">Rem dii servent in Nestoreos annos<note xml:id="fn10" type="footnote" n="10">Vgl. Adagia, 1, 6, 66 (<bibl>ASD</bibl> II/2 93f, <ref target="file10602">Nr. 566</ref>).</note>!</s>
 					<s n="10" xml:lang="la" type="auto">Dignus enim vir es, qui nunquam senescas aut moriaris.</s>
-					<s n="11" xml:lang="la" type="auto">Sed quid te marmoreum facere pergo, quum in <placeName ref="place1952">Olympia</placeName>, imo in Olympo aureus erectus sis, et de Carthagine prestet tacere quam pauca dicere<note xml:id="fn11" type="footnote" n="11">de Carthagine prestet tacere quam pauca dicere: Vgl. Sallust, De bello lugurthino, 19, 2. Hier steht <placeName ref="place536">Karthago</placeName> als Metapher für Bullinger.</note>?</s>
+					<s n="11" xml:lang="la" type="auto">Sed quid te marmoreum facere pergo, quum in <placeName>Olympia</placeName>, imo in Olympo aureus erectus sis, et de Carthagine prestet tacere quam pauca dicere<note xml:id="fn11" type="footnote" n="11">de Carthagine prestet tacere quam pauca dicere: Vgl. Sallust, De bello lugurthino, 19, 2. Hier steht <placeName>Karthago</placeName> als Metapher für Bullinger.</note>?</s>
 					<s n="12" xml:lang="la" type="auto">Proinde mecum habitabo cognoscens, quam mihi sit curta supellex<note xml:id="fn12" type="footnote" n="12">Vgl. Persius, Saturae, 4, 52.</note>, atque huic parti coronide impacta ad reliqua properabo.</s>
 				</p>
 				<p>
@@ -144,22 +142,22 @@
 					<s n="15" xml:lang="la" type="auto">Quum enim omnipotens sit, eum longe maiora, quam quae verba promittunt, posse, an est cur ambigamus?</s>
 					<s n="16" xml:lang="la" type="auto">Verba porro quum sic habeant: „Hoc est corpus meum, hic est sanguis meus“<note xml:id="fn13" type="footnote" n="13">Mt 26, 26-28; vgl. Lk 22, 19f.</note>, adducor, imo perpellor (ne quid de unanimi horum interpretatione tot seculis recepta dicam), ut corpus et sanguinem Christi vere adesse et in coena distribui credam.</s>
 					<s n="17" xml:lang="la" type="auto">Qui autem id accidat, ut rationi humanae est impervium, ita fidei ex verbo domini notum adfirmo.</s>
-					<s n="18" xml:lang="la" type="auto">Ab hac sententia cum multi hodie nonnihil varient, nonnunquam hęreo et, ut ingenue fatear, inter sacrum et saxum sto<note xml:id="fn14" type="footnote" n="14">Adagia, 1, 1, 15 (ASD II/1 128f, Nr. 15).</note>.</s>
+					<s n="18" xml:lang="la" type="auto">Ab hac sententia cum multi hodie nonnihil varient, nonnunquam hęreo et, ut ingenue fatear, inter sacrum et saxum sto<note xml:id="fn14" type="footnote" n="14">Adagia, 1, 1, 15 (<bibl>ASD</bibl> II/1 128f, Nr. 15).</note>.</s>
 					<s n="19" xml:lang="la" type="auto">Est in hoc mihi tuo consilio opus; quod si non habita dignitatis tuae ratione imploro, qua humanitate es, boni consules.</s>
 					<s n="20" xml:lang="la" type="auto">Haec sane facit, ut nihil mihi non apud te licere putem.</s>
-					<s n="21" xml:lang="la" type="auto">Te igitur per Christum servatorem, ut hunc mihi scrupulum eximere tuumque consilium communicare ne graveris, et rogo et obtestor<note xml:id="fn15" type="footnote" n="15">Bullingers Antwort ist durch <persName ref="person20061">Cousins</persName> Brief vom 12. März 1545 (Zürich StA, E II 345, 289) bezeugt, aber nicht erhalten.</note>.<pb type="edition" next="269"/></s>
+					<s n="21" xml:lang="la" type="auto">Te igitur per Christum servatorem, ut hunc mihi scrupulum eximere tuumque consilium communicare ne graveris, et rogo et obtestor<note xml:id="fn15" type="footnote" n="15">Bullingers Antwort ist durch <persName>Cousins</persName> Brief vom 12. März 1545 (Zürich StA, E II 345, 289) bezeugt, aber nicht erhalten.</note>.<pb type="edition" next="269"/></s>
 				</p>
 				<p>
 					<s n="22" xml:lang="la" type="auto">Vale, theologorum omnium altissimum decus, et felicissime vive.</s>
-					<s n="23" xml:lang="la" type="auto">Nozerethi Burgundionum<note xml:id="fn16" type="footnote" n="16"><placeName ref="place1598">Nozeroy</placeName> (Franche-Comté), Frankreich.</note>, 17. calendas iul[ias] anno Christiano 1544.</s>
+					<s n="23" xml:lang="la" type="auto">Nozerethi <placeName>Burgundionum</placeName><note xml:id="fn16" type="footnote" n="16"><placeName>Nozeroy (Franche-Comté)</placeName>, Frankreich.</note>, 17. calendas iul[ias] anno Christiano 1544.</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="la" type="auto">Tuus addictissimus discipulus <persName ref="person20061">Gilbertus</persName> Cognatus Nozerenus.</s>
+					<s n="24" xml:lang="la" type="auto">Tuus addictissimus discipulus <persName ref="p8073">Gilbertus</persName> Cognatus Nozerenus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf f. 296a v.:]</note>
 					<s n="25" xml:lang="la" type="auto">Clarissimo viro d. domino Heinrycho Bullingero, verae theologiae decori, domino et pręceptori observando.</s>
-					<s n="26" xml:lang="la" type="auto">Tiguri <placeName ref="place196">Helvetiorum</placeName>.</s>
+					<s n="26" xml:lang="la" type="auto">Tiguri <placeName>Helvetiorum</placeName>.</s>
 				</p>
 			</div>
 		</body>

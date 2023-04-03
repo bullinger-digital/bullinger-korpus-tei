@@ -6,35 +6,31 @@
 				<title subtype="file">John Butler, Nicholas Partridge, Nicholas Eliott, Bartholomew Traheron / Bern AN Heinrich Bullinger, [1.] November 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1061</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">623</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Epistolae Tigurinae de rebus potissimum ad ecclesiae Anglicanae reformationem pertinentibus conscriptae A. D. 1531-1558. Ex schedis manuscriptis in bibliotheca Tigurina aliisque servatis Parkerianae societatis auspiciis editae, Cambridge 1848 (Nachdruck: New York 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,18</idno>
 						<idno subtype="Hinweis">Hand von Traheron</idno>
 					</msIdentifier>
@@ -42,9 +38,9 @@
 						<summary>
 							<p xml:id="regest1">
 								Danken für die beim Abschied wie schon zuvor erwiesene Großzügigkeit. Sind in
-								<placeName ref="place121">Bern</placeName> dank seiner Empfehlung freundlich aufgenommen worden. Grüße
-								von <persName ref="person114">Jud</persName>, <persName ref="person165">Pellikan</persName> und
-								<persName ref="person14">Bibliander</persName>.
+								<placeName>Bern</placeName> dank seiner Empfehlung freundlich aufgenommen worden. Grüße
+								von <persName ref="p1753">Jud</persName>, <persName ref="p8127">Pellikan</persName> und
+								<persName ref="p8171">Bibliander</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -66,27 +62,27 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11104">
 				<correspAction type="sent">
-					<persName ref="person506" cert="high">
+					<persName ref="p506" cert="high">
 						<!--
 						<surname cert="high">Butler</surname>
 						<forename cert="high">John</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1184625476"/>
 						-->
 					</persName>
-					<persName ref="person2446" cert="high">
+					<persName ref="p2446" cert="high">
 						<!--
 						<surname cert="high">Partridge</surname>
 						<forename cert="high">Nicholas</forename>
 						<persName type="main" ref="person8422>Partridge, Nicholas</persName>
 						-->
 					</persName>
-					<persName ref="person1001" cert="high">
+					<persName ref="p1001" cert="high">
 						<!--
 						<surname cert="high">Eliott</surname>
 						<forename cert="high">Nicholas</forename>
 						-->
 					</persName>
-					<persName ref="person3181" cert="high">
+					<persName ref="p3181" cert="high">
 						<!--
 						<surname cert="high">Traheron</surname>
 						<forename cert="high">Bartholomew</forename>
@@ -95,11 +91,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/119851377"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="low"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1537-11-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -126,7 +122,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

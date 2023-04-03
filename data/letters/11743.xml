@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Ambrosius Blarer, 1. Dezember 1542</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2006</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17431-6</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1698</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">12</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1542</biblScope>
-				<biblScope unit="page">259</biblScope>
-				<biblScope unit="pages">299</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 12 (Briefe des Jahres 1542), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2006, 299 S., ISBN 978-3-290-17431-6.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive78">
+						<repository ref="a78">
 							<name>St. Gallen KB</name>
 							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
 						</repository>
-						<settlement ref="place474">St. Gallen</settlement>
+						<settlement ref="l474">St. Gallen</settlement>
 						<institution>Kantonsbibliothek Vadiana</institution>
 						-->
-						<repository ref="archive78"/>
+						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 34 (VBS V),156</idno>
 					</msIdentifier>
 					<msContents>
@@ -51,11 +42,11 @@
 								Hessen, [Herzog
 								Wilhelm von
 								Jülich-Berg-Kleve-]Geldern militärisch zu unterstützen, großen
-								Schaden für <placeName ref="place7">Deutschland</placeName> bedeuten wird; dies könnte die Stärkung
+								Schaden für <placeName>Deutschland</placeName> bedeuten wird; dies könnte die Stärkung
 								des Christenfeindes [Franz’ I.] bedeuten, der weitaus kriegerischer
-								ist als Kaiser [<persName ref="person1332">Karl V.</persName>]. Übersendet ein Exemplar eines Beschlusses
+								ist als <persName ref="p18538">Kaiser [Karl V.]</persName>. Übersendet ein Exemplar eines Beschlusses
 								[„Der loblichen statt Zürich ordnung und erkanntnuß wider das schädlich kriegen und reyßlouffen“], den
-								<persName ref="person19">Blarer</persName> Freunden und auch [<persName ref="person20413">Johannes Welser</persName>] mitteilen kann, ansonsten
+								<persName ref="p8055">Blarer</persName> Freunden und auch [<persName ref="p7003">Johannes Welser</persName>] mitteilen kann, ansonsten
 								aber nicht weiterverbreiten oder gar drucken lassen soll, da nur eine geringe Anzahl zum Vortrag in den
 								Kirchen gedruckt wurde. Grüße.
 							</p>
@@ -67,7 +58,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 162, Nr. 981</title>
+								<title>Blarer BW II, S.162, Nr. 981</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 12, Nr. 1698, S.259</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -77,7 +71,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11743">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -87,11 +81,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1542-12-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -127,7 +121,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -137,21 +131,21 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et vitae innocentiam a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Literas tuas 21. novembris scriptas<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file11738">Nr. 1693</ref>.</note> accepi protinus, venerande et dilecte frater <persName ref="person19">Ambrosi</persName>, in quibus id maxime terruit, quod scribitur Saxonem<note xml:id="fn2" type="footnote" n="2">Kurfürst Johann Friedrich von Sachsen.</note> et Hessum<note xml:id="fn3" type="footnote" n="3">Landgraf Philipp von Hessen.</note> conscribere exercitum, quo Geldrio<note xml:id="fn4" type="footnote" n="4">Herzog Wilhelm von Jülich-Berg-Kleve-Geldern.</note> ferant suppetias.</s>
-					<s n="3" xml:lang="la" type="auto">Id si fiet, bellum imminebit a caesare<note xml:id="fn5" type="footnote" n="5"><persName ref="person1332">Karl V.</persName></note> toti <persName ref="person1332">Germaniae</persName>, nisi exercitus novo hoste territus facilius receperit pacis conditiones cum Geldrio principe.</s>
+					<s n="2" xml:lang="la" type="auto">Literas tuas 21. novembris scriptas<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file11738">Nr. 1693</ref>.</note> accepi protinus, venerande et dilecte frater <persName ref="p8055">Ambrosi</persName>, in quibus id maxime terruit, quod scribitur Saxonem<note xml:id="fn2" type="footnote" n="2">Kurfürst Johann Friedrich von Sachsen.</note> et Hessum<note xml:id="fn3" type="footnote" n="3">Landgraf Philipp von Hessen.</note> conscribere exercitum, quo Geldrio<note xml:id="fn4" type="footnote" n="4">Herzog Wilhelm von Jülich-Berg-Kleve-Geldern.</note> ferant suppetias.</s>
+					<s n="3" xml:lang="la" type="auto">Id si fiet, bellum imminebit a caesare<note xml:id="fn5" type="footnote" n="5"><persName>Karl V.</persName></note> toti Germaniae, nisi exercitus novo hoste territus facilius receperit pacis conditiones cum Geldrio principe.</s>
 					<s n="4" xml:lang="la" type="auto">Dolet interim, si nemo ipsi opem tulerit, si regno suo principem, ut apparet, non malum expelli oportet.</s>
 					<s n="5" xml:lang="la" type="auto">Crescent certe caesari vires, et ita facilius Hessum, Saxonem et reliquos confoederatos oppugnabit.</s>
-					<s n="6" xml:lang="la" type="auto">Utinam nullam occasionem caesari dedisset Geldrius; at aiunt ipsum sese Gallico exercitui <placeName ref="place8">Brabantiam</placeName> vastanti coniunxisse atque ea re caesaris arma conscivisse in se<note xml:id="fn6" type="footnote" n="6">Bullinger bezieht sich auf den Feldzug des Söldnerführers <persName ref="person20695">Martin van Rossem</persName> nach <placeName ref="place8">Brabant</placeName>; vgl. <hi>Henne</hi> VII 361-385; <hi>Heidrich,</hi> Erbfolgestreit 57-66.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Utinam nullam occasionem caesari dedisset Geldrius; at aiunt ipsum sese Gallico exercitui <placeName>Brabantiam</placeName> vastanti coniunxisse atque ea re caesaris arma conscivisse in se<note xml:id="fn6" type="footnote" n="6">Bullinger bezieht sich auf den Feldzug des Söldnerführers <persName>Martin van Rossem</persName> nach <placeName>Brabant</placeName>; vgl. <bibl>Henne</bibl> VII 361-385; <hi>Heidrich,</hi> Erbfolgestreit 57-66.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Quod si verum est et ipse caesari occasionem iniuriis suis belli inferendi dedit, metuo, ne bonae causae sese coniungant Saxo et Hessus.</s>
 					<s n="8" xml:lang="la" type="auto">Certe Gallus<note xml:id="fn7" type="footnote" n="7">König Franz J.</note> ridebit, ubi viderit partes suas crescere; crescent mirum in modum, si caesaris exercitum Saxo et Hessus ab instituto armis prohibere aut arcere tentarint.</s>
-					<s n="9" xml:lang="la" type="auto">At vellem Galli partes neminem bonum tueri; est enim hostis Christi et Baltazare Babylonio<note xml:id="fn8" type="footnote" n="8"><persName ref="person22408">Belsazar</persName>, nach alttestamentlicher Überlieferung (Dan 5) der Sohn des babylonischen Königs <persName ref="person21052">Nebukadnezar II.</persName>, war der erstgeborene Sohn des letzten babylonischen Herrschers <persName ref="person22516">Nabonid</persName>. Ob er tatsächlich 539 in der Schlacht gegen die Perser unter <persName ref="person22490">Kyros II.</persName> starb, ist umstritten. - Lit.: Ernst <hi>Haag,</hi> in: LThK<note type="sup">3</note> 11 194; Joachim <hi>Oelsner,</hi> in: DNP II 557f.</note> corruptior.</s>
+					<s n="9" xml:lang="la" type="auto">At vellem Galli partes neminem bonum tueri; est enim hostis Christi et Baltazare Babylonio<note xml:id="fn8" type="footnote" n="8"><persName>Belsazar</persName>, nach alttestamentlicher Überlieferung (Dan 5) der Sohn des babylonischen <persName>Königs Nebukadnezar II.</persName>, war der erstgeborene Sohn des letzten babylonischen Herrschers <persName>Nabonid</persName>. Ob er tatsächlich 539 in der Schlacht gegen die Perser unter <persName>Kyros II.</persName> starb, ist umstritten. - Lit.: Ernst <hi>Haag,</hi> in: LThK<note type="sup">3</note> 11 194; Joachim <hi>Oelsner,</hi> in: <bibl>DNP</bibl> II 557f.</note> corruptior.</s>
 					<s n="10" xml:lang="la" type="auto">Quamquam vero et caesar Christum nec amet<pb type="edition" next="260"/> nec verbum eius curet, mallet tamen pacem quam bellum; Gallus nihil quam bella vult.</s>
 					<s n="11" xml:lang="la" type="auto">Verum tales principes habere meretur populus talis, qualis nos sumus.</s>
-					<s n="12" xml:lang="la" type="auto">Dominus misereatur nostri ac praestet nobis, ut ad ipsum convertamur, quo et ipse se ad nos convertat et pacificet inter sese principes nomen Christi portantes et liberet deinde nos a cruenta Turcae<note xml:id="fn9" type="footnote" n="9">Sultan <persName ref="person2269">Suleiman I.</persName></note> manu, a quo citra poenitentiam certo nequaquam liberabimur.</s>
+					<s n="12" xml:lang="la" type="auto">Dominus misereatur nostri ac praestet nobis, ut ad ipsum convertamur, quo et ipse se ad nos convertat et pacificet inter sese principes nomen Christi portantes et liberet deinde nos a cruenta Turcae<note xml:id="fn9" type="footnote" n="9"><persName>Sultan Suleiman I.</persName></note> manu, a quo citra poenitentiam certo nequaquam liberabimur.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Habes hic exemplum decreti contra mercenariam militiam aediti a senatu et plebe urbis nostrae<note xml:id="fn10" type="footnote" n="10">Es handelt sich um den am 25. November erlassenen Beschluss "Der loblichen statt Zürich ordnung und erkanntnuß wider das schädlich kriegen und reyßlouffen" (BZD C 317).</note>.</s>
-					<s n="14" xml:lang="la" type="auto">Poteris hoc communicare amicis et singulari isti <placeName ref="place70">Augustano</placeName> consuli tuo<note xml:id="fn11" type="footnote" n="11"><persName ref="person20413">Hans Welser</persName>.</note>, viro sanctissimo, verum ne late spargatur aut denuo typis describatur; magistratus plura non curavit describi typis, quam ipsis fuit opus in urbe et agro, in quo per singulas ecclesias 3. decembris praelegatur<note xml:id="fnb" type="footnote" n="b"><hi>Von</hi> in <hi>bis</hi> praelegatur <hi>am Rand ergänzt.</hi></note>.</s>
+					<s n="13" xml:lang="la" type="auto">Habes hic exemplum decreti contra mercenariam militiam aediti a senatu et plebe urbis nostrae<note xml:id="fn10" type="footnote" n="10">Es handelt sich um den am 25. November erlassenen Beschluss "Der loblichen statt Zürich ordnung und erkanntnuß wider das schädlich kriegen und reyßlouffen" (<bibl>BZD</bibl> C 317).</note>.</s>
+					<s n="14" xml:lang="la" type="auto">Poteris hoc communicare amicis et singulari isti <placeName>Augustano</placeName> consuli tuo<note xml:id="fn11" type="footnote" n="11"><persName>Hans Welser</persName>.</note>, viro sanctissimo, verum ne late spargatur aut denuo typis describatur; magistratus plura non curavit describi typis, quam ipsis fuit opus in urbe et agro, in quo per singulas ecclesias 3. decembris praelegatur<note xml:id="fnb" type="footnote" n="b"><hi>Von</hi> in <hi>bis</hi> praelegatur <hi>am Rand ergänzt.</hi></note>.</s>
 					<s n="15" xml:lang="la" type="auto">Unum aut alterum exemplum ego furto fere subtraxi.</s>
 					<s n="16" xml:lang="la" type="auto">Ora dominum, ut nostros semper confirmet in veritate et pietate, quam videntur sedulo quaerere et curare.</s>
 				</p>
@@ -164,7 +158,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="20" xml:lang="la" type="auto">Domino <persName ref="person19">Ambrosio Blaurero</persName>, Constantiensis ecclesiae pastori, domino et fratri colendissimo suo.</s>
+					<s n="20" xml:lang="la" type="auto">Domino <persName ref="p8055">Ambrosio Blaurero</persName>, Constantiensis ecclesiae pastori, domino et fratri colendissimo suo.</s>
 				</p>
 			</div>
 		</body>

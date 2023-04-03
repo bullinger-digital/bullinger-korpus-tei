@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive12">
+						<repository ref="a12">
 							<name>Bern BB</name>
 							<ref target="https://www.burgerbib.ch/de"/>
 						</repository>
-						<settlement ref="place41">Bern</settlement>
+						<settlement ref="l41">Bern</settlement>
 						<institution>Burgerbibliothek</institution>
 						-->
-						<repository ref="archive12"/>
+						<repository ref="a12"/>
 						<idno subtype="Autograph">Cod. A 30, Nr. 2</idno>
 						<idno subtype="Xeroxkopie">IRG</idno>
 						<idno subtype="Hinweis">ehem. StadtB</idno>
@@ -46,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 93,173</idno>
 						<idno subtype="Hinweis">liest 27. oder 29. Dez. 1558</idno>
 					</msIdentifier>
@@ -63,7 +60,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3806">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -73,18 +70,18 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date notBefore="1558-12-23" notAfter="1558-12-29" cert="low"><note>Tag unsicher  1558 Dezember 23. (?) *  (21./27./29.?)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2044" cert="high">
+					<persName ref="p2044" cert="high">
 						<!--
 						<surname cert="high">Marti</surname>
 						<forename cert="high">Benedikt</forename>
 						<persName type="main" ref="person8092>Marti, Benedikt</persName>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file3807"/>
@@ -101,7 +98,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

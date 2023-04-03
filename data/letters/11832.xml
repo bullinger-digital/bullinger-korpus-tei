@@ -6,52 +6,43 @@
 				<title subtype="file">Christian Hochholzer / Stein am Rhein AN Heinrich Bullinger, 19. September 1543</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1786</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">257</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,294r.-v.</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Möchte Bullinger seine Lage nicht weiter verhehlen; mit seiner Versetzung als Schulmeister nach
-								<placeName ref="place1032">Stein</placeName> [am Rhein] war die Absicht verbunden gewesen, dass er sich
+								<placeName>Stein</placeName> [am Rhein] war die Absicht verbunden gewesen, dass er sich
 								durch gelegentliches Predigen für den Kirchendienst vorbereiten könne; als er dies zweimal auf der
-								Schaffhauser Landschaft getan hat - <persName ref="person22246">Jakob Leu</persName> hat wohl darüber berichtet -, erzürnte sich der Rat und verbot
-								ihm das Predigen; nach einem klärenden Gespräch, in dem <persName ref="person104">Hochholzer</persName> dem
-								Bürgermeister [<persName ref="person22308">Konrad Rapp</persName>] seine Loyalität versicherte, erlaubte ihm dieser, ein- bis zweimal eine Predigt
-								zu halten, was aber nicht <persName ref="person104">Hochholzers</persName> Vorstellungen entspricht; bittet
+								Schaffhauser Landschaft getan hat - <persName ref="p18678">Jakob Leu</persName> hat wohl darüber berichtet -, erzürnte sich der Rat und verbot
+								ihm das Predigen; nach einem klärenden Gespräch, in dem <persName ref="p1553">Hochholzer</persName> dem
+								Bürgermeister [<persName ref="p6166">Konrad Rapp</persName>] seine Loyalität versicherte, erlaubte ihm dieser, ein- bis zweimal eine Predigt
+								zu halten, was aber nicht <persName ref="p1553">Hochholzers</persName> Vorstellungen entspricht; bittet
 								Bullinger um Rat und hofft, bald abgelöst zu werden; Grüße.
 							</p>
 						</summary>
@@ -59,24 +50,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1786, S.257</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11832">
 				<correspAction type="sent">
-					<persName ref="person1553" cert="high">
+					<persName ref="p1553" cert="high">
 						<!--
 						<surname cert="high">Hochholzer</surname>
 						<forename cert="high">Christian</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/108932216X"/>
 						-->
 					</persName>
-					<placeName source="place490" cert="high"><orig>Stein am Rhein</orig></placeName>
+					<placeName source="l490" cert="high"><orig>Stein am Rhein</orig></placeName>
 					<date when="1543-09-19" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,9 +108,13 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="11832/Autograph/00__E_II_343__fol__294_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="11832/Autograph/01__E_II_343__fol__294_v_.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
@@ -120,25 +122,25 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Etiamsi nolim tibi meis literis molestus esse, venerande domine ac pater charissime, cum sciam te multis aliis negotiis plus nimium occupatum, tamen,<pb type="edition" next="258"/> quia et res meas singulari studio promoves<note xml:id="fn2" type="footnote" n="2">Zum Verhältnis <persName ref="person104">Hochholzers</persName> zu Bullinger vgl. bes. HBBW III <ref target="file10333">[Nr. 302]</ref>, S. 260f.</note> et quia huiusmodi mihi contingunt, quę merito ad te, utpote archiepiscopum in metropoli nostra, referenda videbantur, te diutius celare ea non visum est, ne postea non statim tibi indicatum aegre ferres.</s>
+					<s n="2" xml:lang="la" type="auto">Etiamsi nolim tibi meis literis molestus esse, venerande domine ac pater charissime, cum sciam te multis aliis negotiis plus nimium occupatum, tamen,<pb type="edition" next="258"/> quia et res meas singulari studio promoves<note xml:id="fn2" type="footnote" n="2">Zum Verhältnis <persName ref="p5708">Hochholzers</persName> zu Bullinger vgl. bes. <bibl>HBBW III</bibl> <ref target="file10333">[Nr. 302]</ref>, S. 260f.</note> et quia huiusmodi mihi contingunt, quę merito ad te, utpote archiepiscopum in metropoli nostra, referenda videbantur, te diutius celare ea non visum est, ne postea non statim tibi indicatum aegre ferres.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Paucis itaque negotium explicabo: Quo consilio tu reliquique domini examinatores<note xml:id="fn3" type="footnote" n="3">Zum Examinatorenkollegium vgl. HBBW X <ref target="file11445">[Nr. 1402]</ref>, S. 122, Anm. 2.</note>, viri ut honestissimi ita et prudentissimi, me ad Lithopolitanos miseritis, oblivioni nondum puto tradidisti, videlicet ut ludo literario praesim ad tempus aliquod,<note xml:id="fn4" type="footnote" n="4"><persName ref="person104">Hochholzer</persName> versah die Helferstelle in <placeName ref="place1032">Stein am Rhein</placeName>, die mit dem Amt eines Schulmeisters verbunden war.</note> interim autem me concionibus publicis, si occasio detur, exerceam, ut suo tempore ipse commodius ecclesiae praeesse possim.</s>
+					<s n="3" xml:lang="la" type="auto">Paucis itaque negotium explicabo: Quo consilio tu reliquique domini examinatores<note xml:id="fn3" type="footnote" n="3">Zum Examinatorenkollegium vgl. <bibl>HBBW</bibl> X <ref target="file11445">[Nr. 1402]</ref>, S. 122, Anm. 2.</note>, viri ut honestissimi ita et prudentissimi, me ad Lithopolitanos miseritis, oblivioni nondum puto tradidisti, videlicet ut ludo literario praesim ad tempus aliquod,<note xml:id="fn4" type="footnote" n="4"><persName ref="p5708">Hochholzer</persName> versah die Helferstelle in <placeName>Stein am Rhein</placeName>, die mit dem Amt eines Schulmeisters verbunden war.</note> interim autem me concionibus publicis, si occasio detur, exerceam, ut suo tempore ipse commodius ecclesiae praeesse possim.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Hoc ut facerem, in urbe ambire nolui certis quibusdam ex causis, neque etiam ambiendum videbatur, ut in pago concionarer, sed semper vocationem domini expectandam iudicavi, ne currerem domino non iubente.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Accidit itaque nuper, ut occasio daretur me non ambiente, sed aliis tantum non<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> tantumnon.</note> cogentibus; concionatus itaque sum bis in pago proxime urbem, in ditione tamen Schaphusianorum sito.</s>
-					<s n="6" xml:lang="la" type="auto">Quo modo autem et quibus iubentibus munus concionandi susceperim, d. <persName ref="person21490">Iacobus</persName> Leo<note xml:id="fn5" type="footnote" n="5">Gemeint ist wohl <persName ref="person21490">Jakob Leu</persName> (Löw) von <placeName ref="place85">Baden</placeName>, gest. 1549, Konventual im Zisterzienserkloster <placeName ref="place1186">Wettingen</placeName> und nach seinem Anschluss an die Reformation bis 1532 Pfarrer ebenda, seit 1541 Pfarrer in <placeName ref="place1070">Thalwil</placeName>. - Lit.: Z X 92, Anm. 2, und 271, Anm. 1; Pfarrerbuch 405.</note>, puto, narravit.</s>
+					<s n="6" xml:lang="la" type="auto">Quo modo autem et quibus iubentibus munus concionandi susceperim, d. <persName ref="p18678">Iacobus</persName> Leo<note xml:id="fn5" type="footnote" n="5">Gemeint ist wohl <persName>Jakob Leu (Löw)</persName> von <placeName>Baden</placeName>, gest. 1549, Konventual im Zisterzienserkloster <placeName>Wettingen</placeName> und nach seinem Anschluss an die Reformation bis 1532 Pfarrer ebenda, seit 1541 Pfarrer in <placeName>Thalwil</placeName>. - Lit.: <bibl>Z</bibl> X 92, Anm. 2, und 271, Anm. 1; Pfarrerbuch 405.</note>, puto, narravit.</s>
 					<s n="7" xml:lang="la" type="auto">Hoc itaque senatus Lithopolitanus iniquo fert animo, non vult me concionari; prohibuerunt.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Cum quaedam praetenderent, cur nollent, ita respondi ad singula, ut praeter privatos suos affectus nihil haberent.</s>
 					<s n="9" xml:lang="la" type="auto">Tamen, quia magistratus est, ego obtemperavi libens, donec consulerem alios.</s>
-					<s n="10" xml:lang="la" type="auto">Quaedam loquebar cum consule<note xml:id="fn6" type="footnote" n="6">Das Bürgermeisteramt von <placeName ref="place1032">Stein am Rhein</placeName> hatte in den Jahren 1538-1548 <persName ref="person22308">Konrad Rapp</persName> inne, vgl. Hildegard <hi>Urner-Astholz u.</hi> a., Geschichte der Stadt <placeName ref="place1032">Stein am Rhein</placeName>, Bern 1957, S. 358; HBLS V 532.</note>, ut diligenter singula cognoscerem.</s>
+					<s n="10" xml:lang="la" type="auto">Quaedam loquebar cum consule<note xml:id="fn6" type="footnote" n="6">Das Bürgermeisteramt von <placeName>Stein am Rhein</placeName> hatte in den Jahren 1538-1548 <persName>Konrad Rapp</persName> inne, vgl. Hildegard <hi>Urner-Astholz u.</hi> a., Geschichte der Stadt <placeName>Stein am Rhein</placeName>, Bern 1957, S. 358; <bibl>HBLS</bibl> V 532.</note>, ut diligenter singula cognoscerem.</s>
 					<s n="11" xml:lang="la" type="manual">Tum inter alia, cum non haberet, quod diceret commode, tandem non amplius affectus suos dissimulans erumpit in haec verba:</s>
-					<s n="12" xml:lang="de" type="manual">„Ich versich mich, mine herren von <placeName ref="place1032">Stein</placeName> werdind sich nit lassen zwingen, sy werdind es auch nit muͤssen thuͦn“ <foreign xml:lang="la">(haec enim sunt eius verba)</foreign>, „das sy ein schuͦlmeister heigind, der auch ein predicant sin welle.“</s>
+					<s n="12" xml:lang="de" type="manual">„Ich versich mich, mine herren von <placeName>Stein</placeName> werdind sich nit lassen zwingen, sy werdind es auch nit muͤssen thuͦn“ <foreign xml:lang="la">(haec enim sunt eius verba)</foreign>, „das sy ein schuͦlmeister heigind, der auch ein predicant sin welle.“</s>
 					<s n="13" xml:lang="la" type="auto">Ego animum consulis affectibus rapi sentiens paucis respondi me non coacturum senatum honestissimum, cui merito obtemperare debeam, neque unquam in animo fuisse me quicquam contra ipsorum voluntatem facturum, hoc etiam muneris aliis, quibus obtemperandum fuerit, iubentibus suscepisse atque eo animo me diligentius interrogare, quo me posthac eorum voluntati possim accommodare; ludi curam me suscepisse, ei ergo soli, quoniam ita velint, quam possim diligenter praefuturum, quam diu id mei officii fuerit.</s>
 					<s n="14" xml:lang="la" type="auto">Tandem addit, si autem velim aliquando, si opus fuerit,<pb type="scan" next="294v."/> semel aut bis concionari, vel in pago vel in oppido habeam concionem.</s>
 					<s n="15" xml:lang="la" type="auto">Ego<pb type="edition" next="259"/> me facturum id negavi; non enim ita ambire neque etiam posse ex improviso non exercitatum suggestum conscendere.</s>
@@ -146,7 +148,7 @@
 					<s n="17" xml:lang="la" type="auto">Cum nolint me perpetuo concionari, etiamsi in ludo nihil negligam, rogo, mihi in hac re consulas; non enim mihi placet posthac concionari, dum ludo huic praesum.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">Unicum restat, ut, quicquid est laboris et taedii, patienter feram, eoque leviora mihi erunt, quo citius me liberandum fore speravero<note xml:id="fn7" type="footnote" n="7"><persName ref="person104">Hochholzer</persName> wurde 1544 Pfarrer in Aarau, vgl. Pfarrerbuch 344.</note>.</s>
+					<s n="18" xml:lang="la" type="auto">Unicum restat, ut, quicquid est laboris et taedii, patienter feram, eoque leviora mihi erunt, quo citius me liberandum fore speravero<note xml:id="fn7" type="footnote" n="7"><persName ref="p5708">Hochholzer</persName> wurde 1544 Pfarrer in Aarau, vgl. Pfarrerbuch 344.</note>.</s>
 					<s n="19" xml:lang="la" type="auto">Per hanc hyemem in his pulveribus manebo, non enim decet tam cito discedere.</s>
 					<s n="20" xml:lang="la" type="auto">Hoc tempore elapso, quod vobis denuo visum fuerit, faciam.</s>
 					<s n="21" xml:lang="la" type="auto">Tu, rogo, mei suo tempore memineris.</s>
@@ -155,14 +157,14 @@
 				</p>
 				<p>
 					<s n="24" xml:lang="la" type="auto">Vale in domino.</s>
-					<s n="25" xml:lang="la" type="auto">Saluta meo nomine uxorem tuam<note xml:id="fn8" type="footnote" n="8">Anna, geb. Adlischwyler.</note>, liberos singulos<note xml:id="fn9" type="footnote" n="9">Von Bullingers Kindern lebten zu diesem Zeitpunkt Anna (geb. 1530), Margaretha (1531), Elisabeth (1532), Heinrich (1534), Hans Rudolf (1536), Christoph (1537) und Veritas (1543); vgl. <hi>Pestalozzi</hi> 314.</note> et famulam<note xml:id="fn10" type="footnote" n="10"><persName ref="person2065">Brida Schmid</persName>.</note>.</s>
+					<s n="25" xml:lang="la" type="auto">Saluta meo nomine uxorem tuam<note xml:id="fn8" type="footnote" n="8"><persName>Anna, geb. Adlischwyler</persName>.</note>, liberos singulos<note xml:id="fn9" type="footnote" n="9">Von Bullingers Kindern lebten zu diesem Zeitpunkt Anna (geb. 1530), Margaretha (1531), Elisabeth (1532), Heinrich (1534), Hans Rudolf (1536), Christoph (1537) und Veritas (1543); vgl. <bibl>Pestalozzi</bibl> 314.</note> et famulam<note xml:id="fn10" type="footnote" n="10"><persName>Brida Schmid</persName>.</note>.</s>
 				</p>
 				<p>
 					<s n="26" xml:lang="la" type="auto">In oppido Lithopolitanorum, 19. septembris 1543.</s>
 					<s n="27" xml:lang="la" type="auto">T[uae] h[umanitati] deditissimus</s>
 				</p>
 				<p>
-					<s n="28" xml:lang="la" type="auto"><persName ref="person104">Christianus Hochholzer</persName>.</s>
+					<s n="28" xml:lang="la" type="auto"><persName ref="p1553">Christianus Hochholzer</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>

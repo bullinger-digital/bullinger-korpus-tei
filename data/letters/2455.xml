@@ -6,32 +6,31 @@
 				<title subtype="file">[Ambrosius Blarer] / [Biel] AN Heinrich Bullinger / Zürich, [11. November 1554]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3736</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,703 ff.</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,13 +42,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW III, S. 272ff</title>
+								<title>Blarer BW III, S.272ff</title>
 							</bibl>
 							<bibl type="Gedruckt">
 								<title>Ferd. Meyer, Die evangelische Gemeinde in Locarno, I, 525-526</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Corr. de Bèze I, S. 144f, Nr. 52</title>
+								<title>Corr. de Bèze I, S.144f, Nr. 52</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>Ferd. Meyer, Die evangelische Gemeinde in Locarno, I, 453 (s. A 173).</title>
@@ -60,14 +59,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 83,47</idno>
 					</msIdentifier>
 				</msDesc>
@@ -76,7 +75,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2455">
 				<correspAction type="sent">
-					<persName ref="person392" cert="low">
+					<persName ref="p392" cert="low">
 						<!--
 						<surname cert="low">Blarer</surname>
 						<forename cert="low">Ambrosius</forename>
@@ -87,11 +86,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place49" cert="low"><orig>Biel</orig></placeName>
+					<placeName source="l49" cert="low"><orig>Biel</orig></placeName>
 					<date when="1554-11-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -101,7 +100,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2456"/>
@@ -128,7 +127,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -149,8 +148,8 @@
 				<p>
 					<s n="3" xml:lang="de" type="auto">Habend nichts mehr mitt dem bischoff ze thain etc.</s>
 					<s n="4" xml:lang="de" type="auto">Der wirt ouch keinen mayer mehr hie setzen, dem man byßher allweg in des bischoffs nammen hat schweren muͤssen.</s>
-					<s n="5" xml:lang="de" type="auto">Ist alles ab, und werden die von Biel selbs einen burgermeister welen und setzen, der alles verwalten wurt in statt und land, und hat sölichs der allt herr Peter Fuchs<note xml:id="fn1" type="footnote" n="1">Peter Fuchs.</note> zuͦwegen bracht, welchs gemeiner statt ein treffelich groß kommelicheit und nutz ist.<note type="margin">dazu a.R.: "Die puren habend sich treffelich gesperrt und unfletig gemacht, vermeint, minen herrn nitt zuͦ schweren etc., sind hin und wider geritten und geloffen um hilff und rath, habend sich noch nitt ergeben, das wol druff statt, man werde sy mitt gewalt dahin pringen muͤssen.</note>.</s>
-					<s n="6" xml:lang="de" type="auto">Und derhalb so ist ouch uff mittwoch nechstverschinen durch räth und burger gemelter her P[eter] Fuchs<note xml:id="fn2" type="footnote" n="2">Peter Fuchs.</note> zuͦ dem burgermeisterampt (onangesechen, das er ein pfaff gewesen, welchs man in sölichem ubel schucht) erwellt worden.</s>
+					<s n="5" xml:lang="de" type="auto">Ist alles ab, und werden die von Biel selbs einen burgermeister welen und setzen, der alles verwalten wurt in statt und land, und hat sölichs der allt herr Peter Fuchs<note xml:id="fn1" type="footnote" n="1"><persName>Peter Fuchs</persName>.</note> zuͦwegen bracht, welchs gemeiner statt ein treffelich groß kommelicheit und nutz ist.<note type="margin">dazu a.R.: "Die puren habend sich treffelich gesperrt und unfletig gemacht, vermeint, minen herrn nitt zuͦ schweren etc., sind hin und wider geritten und geloffen um hilff und rath, habend sich noch nitt ergeben, das wol druff statt, man werde sy mitt gewalt dahin pringen muͤssen.</note>.</s>
+					<s n="6" xml:lang="de" type="auto">Und derhalb so ist ouch uff mittwoch nechstverschinen durch räth und burger gemelter her P[eter] Fuchs<note xml:id="fn2" type="footnote" n="2"><persName>Peter Fuchs</persName>.</note> zuͦ dem burgermeisterampt (onangesechen, das er ein pfaff gewesen, welchs man in sölichem ubel schucht) erwellt worden.</s>
 					<s n="7" xml:lang="de" type="auto">Der lieb gott seye gelopt, lasß es ein guͦt stund sin, verlyche im vyl gnad, geist und stercke, das er (alls wir hoffend) vylvyl guͦts schaffe!</s>
 					<s n="8" xml:lang="de" type="auto">Habs euch nitt verhalten können, damitt ir im wysst als euwerm guͦten frund und gunner gluck zuͦ wunschen.</s>
 					<s n="9" xml:lang="de" type="auto">Sin husfrow hat im ein schöne tochter geboren, gat hutt usß der kindbett.</s>
@@ -176,7 +175,7 @@
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Salutant te honorifice omnes amici cumprimis senior d. Iacobus, Funclius, charissimus symmysta.</s>
-					<s n="22" xml:lang="la" type="auto">Fuchsius<note xml:id="fn4" type="footnote" n="4">Peter Fuchs.</note> consul ignorat nunc me ad te scribere; alioqui te diligentissime salutaturus.</s>
+					<s n="22" xml:lang="la" type="auto">Fuchsius<note xml:id="fn4" type="footnote" n="4"><persName>Peter Fuchs</persName>.</note> consul ignorat nunc me ad te scribere; alioqui te diligentissime salutaturus.</s>
 					<s n="23" xml:lang="la" type="auto">Salveat tua domus, quam mea amantissime in Christo salutat.</s>
 					<s n="24" xml:lang="la" type="auto">Ora pro nobis, mi anime, quam potes assidue ac diligenter.</s>
 				</p>

@@ -6,32 +6,31 @@
 				<title subtype="file">Johannes Haller d.J. / Bern AN Heinrich Bullinger / Zürich, 13. November 1557</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">4809/380</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 370,246</idno>
 					</msIdentifier>
 					<msContents>
@@ -51,14 +50,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 90,243</idno>
 					</msIdentifier>
 				</msDesc>
@@ -67,7 +66,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3404">
 				<correspAction type="sent">
-					<persName ref="person8018" cert="high">
+					<persName ref="p8018" cert="high">
 						<!--
 						<surname cert="high">Haller d.J.</surname>
 						<forename cert="high">Johannes</forename>
@@ -77,11 +76,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1557-11-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -91,7 +90,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file3405"/>
@@ -117,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,7 +130,7 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Nudius tertius per Froschouerum iuniorem misi tibi Decadum tuarum terniones aliquot, ex quibus duo folia, scilicet E et E2 hic relicta sunt, quae nunc una cum ternione 10 mitto.</s>
 					<s n="3" xml:lang="la" type="auto">Sum nunc valde occupatus propter conciones et alia negotia; alioqui et de praefatione atque etiam de titulo operis aliquid ad te scriberem.</s>
-					<s n="4" xml:lang="la" type="auto">Haec nunc abs te rogo: 1. Quis fuerit ille Mascelzer<note xml:id="fn1" type="footnote" n="1">Mascezel (vgl. etwa Pauly/Wissowa XXVIII).</note>, cuius Dec. 2. ser. 97. fol 74 inter pios principes mentionem facis, non enim recordor me aliquid in his historiis de eo legisse nec de eo aliquid invenire possum; retinui vero in translatione nomen eius.</s>
+					<s n="4" xml:lang="la" type="auto">Haec nunc abs te rogo: 1. Quis fuerit ille Mascelzer<note xml:id="fn1" type="footnote" n="1">Mascezel (vgl. etwa <bibl>Pauly/Wissowa</bibl> XXVIII).</note>, cuius Dec. 2. ser. 97. fol 74 inter pios principes mentionem facis, non enim recordor me aliquid in his historiis de eo legisse nec de eo aliquid invenire possum; retinui vero in translatione nomen eius.</s>
 					<s n="5" xml:lang="la" type="auto">2. Dec. 3. ser. 5. fol. 115b ponis decem tabulas tabernaculi sancti a parte occidentali, cum textus octo tantum habet.</s>
 					<s n="6" xml:lang="la" type="auto">Itaque octo tantum verti, cum in Hebraico etiam sic keraschim ponatur; rectius vero post aliquot lineas scribis: "Habebat autem tabernaculum in longitudine cubitos triginta, in latitudine decem, cum uniuscuiusque asseris latitudo fuerit cubiti unius cum dimidio."</s>
 					<s n="7" xml:lang="la" type="auto">Fol. 116a, ubi de mensa aurea scribis, videtur pro australi legendum aquilonari; sic enim Iosephus quoque habet Ant. lib. 3. cap. 9.</s>

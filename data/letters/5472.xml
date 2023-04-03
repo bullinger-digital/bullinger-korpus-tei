@@ -6,32 +6,31 @@
 				<title subtype="file">Theodor Beza / Bern AN [Heinrich Bullinger], [Rudolf Gwalther], Kirche / Zürich, 24. September 1562</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6105/193</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Briefschluss" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,219-222</idno>
 						<idno subtype="Hinweis">Brief, Adr. blatt fehlt</idno>
 					</msIdentifier>
@@ -47,7 +46,7 @@
 								<title>Baum 2, 193-196</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XIX, S. 545-547, Nr. 3858</title>
+								<title>C.O. XIX, S.545-547, Nr. 3858</title>
 							</bibl>
 							<bibl type="Gedruckt">
 								<title>Beza, Korr 4, 108-112, Nr. 257</title>
@@ -61,14 +60,14 @@
 				<msDesc type="Briefschluss" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 105,117</idno>
 						<idno subtype="Hinweis">«ad H. Bullingerum et ministerium Tigurinum»</idno>
 					</msIdentifier>
@@ -78,7 +77,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5472">
 				<correspAction type="sent">
-					<persName ref="person890" cert="high">
+					<persName ref="p890" cert="high">
 						<!--
 						<surname cert="high">Beza</surname>
 						<forename cert="high">Theodor</forename>
@@ -89,11 +88,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11418065"/>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1562-09-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -103,7 +102,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1381" cert="low">
+					<persName ref="p1381" cert="low">
 						<!--
 						<surname cert="low">Gwalther</surname>
 						<forename cert="low">Rudolf</forename>
@@ -114,8 +113,8 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11522600"/>
 						-->
 					</persName>
-					<orgName ref="org19" type="sg" role="Kirche" cert="high"/>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<orgName ref="i19" type="sg" role="Kirche" cert="high"/>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file5473"/>
@@ -138,7 +137,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

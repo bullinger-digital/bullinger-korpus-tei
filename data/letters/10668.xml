@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Lang / Veltheim AN Heinrich Bullinger, 19. August 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=630</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">326</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,135</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,20 +38,27 @@
 							<p xml:id="regest1">
 								Bittet um Nachsicht für sein Schreiben. Hat tags zuvor im Bad in Winterthur vom Ausbruch der Pest in Zürich
 								gehört und lädt deshalb die Familie Bullingers, dem er dankbar
-								verbunden ist, zu sich nach <placeName ref="place1132">Veltheim</placeName> ein.
+								verbunden ist, zu sich nach <placeName>Veltheim</placeName> ein.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 630, S.326</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10668">
 				<correspAction type="sent">
-					<persName ref="person1995" cert="high">
+					<persName ref="p1995" cert="high">
 						<!--
 						<surname cert="high">Lang</surname>
 						<forename cert="high">Johannes</forename>
@@ -68,11 +66,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/122265505"/>
 						-->
 					</persName>
-					<placeName source="place519" cert="high"><orig>Veltheim</orig></placeName>
+					<placeName source="l519" cert="high"><orig>Veltheim</orig></placeName>
 					<date when="1535-08-19" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -97,7 +95,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -116,8 +114,8 @@
 				<p>
 					<s n="3" xml:lang="la" type="auto">18. augusti singulari urgente causa (salvus tamen sit omnis honos) Vituduri balnea pecii, ubi gemebunda (quę tamen non absque nutu altissimi fiunt) de Tigurinorum merore et peste ingruente proferebantur.</s>
 					<s n="4" xml:lang="la" type="auto">Confestim tui et charae familię memor veritus contamminarier.</s>
-					<s n="5" xml:lang="la" type="auto">Per omnipotentis dei clementiam te funditus ex corde precor (cum tibi abire forsan non licebit), quod si saltem familiam, dilectos parentem<note xml:id="fn2" type="footnote" n="2">Bullingers Mutter Anna, geb. Wiederkehr.</note> et uxorem<note xml:id="fn3" type="footnote" n="3">Bullingers Ehefrau Anna, geb. Adlischwyler.</note>, item liberos<note xml:id="fn4" type="footnote" n="4">Siehe oben <ref target="file10558">Nr. 522</ref>, Anm. 87.</note> ab aere proculdubio interfecto et morbo illo hereditario segregaturus mihi eos in Velthensium pagum commendes, ubi (sola gloria optimo maximo) cuncta salva sunt.</s>
-					<s n="6" xml:lang="la" type="auto">Quibus me una cum uxore mea<note xml:id="fn5" type="footnote" n="5">Dem Namen nach nicht bekannt.</note> dilectissima (quę te exactius me non oblita pręstitae bonitatis rogat<note xml:id="fn6" type="footnote" n="6">Bullinger hatte wohl, auf <persName ref="person137">Lopadius</persName>' Empfehlung hin (vgl. oben <ref target="file10613">Nr. 575</ref>), <persName ref="person131">Johannes Lang</persName> zur Pfarrei <placeName ref="place1132">Veltheim</placeName> (Winterthur) verholfen.</note>) suppeditabo et omnia mea communia addicam, tu una minime solliciteris de cibo, potu requieve noctuma, ego omnia abunde dispositurus.</s>
+					<s n="5" xml:lang="la" type="auto">Per omnipotentis dei clementiam te funditus ex corde precor (cum tibi abire forsan non licebit), quod si saltem familiam, dilectos parentem<note xml:id="fn2" type="footnote" n="2">Bullingers Mutter <persName>Anna, geb. Wiederkehr</persName>.</note> et uxorem<note xml:id="fn3" type="footnote" n="3">Bullingers Ehefrau <persName>Anna, geb. Adlischwyler</persName>.</note>, item liberos<note xml:id="fn4" type="footnote" n="4">Siehe oben <ref target="file10558">Nr. 522</ref>, Anm. 87.</note> ab aere proculdubio interfecto et morbo illo hereditario segregaturus mihi eos in Velthensium pagum commendes, ubi (sola gloria optimo maximo) cuncta salva sunt.</s>
+					<s n="6" xml:lang="la" type="auto">Quibus me una cum uxore mea<note xml:id="fn5" type="footnote" n="5">Dem Namen nach nicht bekannt.</note> dilectissima (quę te exactius me non oblita pręstitae bonitatis rogat<note xml:id="fn6" type="footnote" n="6">Bullinger hatte wohl, auf <persName>Lopadius</persName>' Empfehlung hin (vgl. oben <ref target="file10613">Nr. 575</ref>), <persName ref="p6334">Johannes Lang</persName> zur Pfarrei <placeName>Veltheim (Winterthur)</placeName> verholfen.</note>) suppeditabo et omnia mea communia addicam, tu una minime solliciteris de cibo, potu requieve noctuma, ego omnia abunde dispositurus.</s>
 					<s n="7" xml:lang="la" type="auto">Et si mihi adminiculaturus absque mora et omni cessatione respondeas, ipsissimus iterum cum uxore mea, quamprimum manum tuam videro, surgentes alacribus et exultantibus animis Tigurum adituri et non minus tucius, quam angeli Loth ipsum educere<note xml:id="fn7" type="footnote" n="7">Vgl. Gen 19, 12-29.</note>, integram tuam familiam advehamus.</s>
 					<s n="8" xml:lang="la" type="auto">Haec per animae meę salutem absque fuco et simulatione, sed syncera erga Henricum suum charitate ad majora, si iuris mei foret, promptissimus.</s>
 					<s n="9" xml:lang="la" type="auto">Qui omnium bonorum est largitor, et tibi retribuat et collata munera redundet.</s>
@@ -128,7 +126,7 @@
 					<s n="12" xml:lang="la" type="auto"><pb type="edition" next="327"/>Datum Velthen, 19. augusti.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Ad tua vota paratissimus <persName ref="person131">Ioannes Langius</persName>, Velthensium pastor indignus.</s>
+					<s n="13" xml:lang="la" type="auto">Ad tua vota paratissimus <persName ref="p1995">Ioannes Langius</persName>, Velthensium pastor indignus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

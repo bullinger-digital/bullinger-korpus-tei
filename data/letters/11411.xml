@@ -6,40 +6,31 @@
 				<title subtype="file">Ambrosius Blarer / [Konstanz] AN Heinrich Bullinger, 10. März 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1368</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">64</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,39</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,10 +38,10 @@
 							<p xml:id="regest1">
 								Dankt für Bullingers Buch [„Der christliche Ehestand“], das er durch seine Frau
 								[Katharina] erhielt. Kehrte am 4. Februar [von seiner
-								<placeName ref="place70">Augsburger</placeName> Mission] nach Hause zurück; beim Überqueren des
-								[Boden-]Sees begegneten sie dem Bischof von Lund [und <placeName ref="place565">Konstanz</placeName>,
-								<persName ref="person2451">Johann von Weeze</persName>], jedoch ohne
-								böse Folgen. Bittet um Fürbitte der Zürcher für [die <placeName ref="place565">Konstanzer</placeName>].
+								<placeName>Augsburger</placeName> Mission] nach Hause zurück; beim Überqueren des
+								[Boden-]Sees begegneten sie dem Bischof von Lund [und <placeName>Konstanz</placeName>,
+								<persName ref="p7852">Johann von Weeze</persName>], jedoch ohne
+								böse Folgen. Bittet um Fürbitte der Zürcher für [die <placeName>Konstanzer</placeName>].
 								Grüße.
 							</p>
 						</summary>
@@ -61,10 +52,13 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Teildruck">
-								<title>Blarer BW II, S. 45f, Nr. 866</title>
+								<title>Blarer BW II, S.45f, Nr. 866</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 45f, Nr. 866</title>
+								<title>Blarer BW II, S.45f, Nr. 866</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1368, S.64</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -74,7 +68,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11411">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -85,11 +79,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1540-03-10" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -124,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -141,7 +135,7 @@
 					<s n="4" xml:lang="la" type="auto">Nobis hoc quidem tempore nihil est, unde tantę tuę benevolentię beneficentięque vicissim<note xml:id="fnb" type="footnote" n="b">vicissim <hi>am Rande nachgetragen.</hi></note> respondere et paria tecum facere possimus, nisi quod sancte affirmamus animum nostrum tam esse tui studiosum et amantem quam vix cuiusquam et fore speramus, ut re ipsa declarare hunc ex animi sententia liceat.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Ego 4. februarii huc redii<note xml:id="fn4" type="footnote" n="4"><persName ref="person19">Blarer</persName> hatte sich nach seinem Weggang aus <placeName ref="place70">Augsburg</placeName> am 6. Dezember, wo er seit dem 27. Juni 1539 gewirkt hatte, noch in <placeName ref="place544">Kempten</placeName>, <placeName ref="place697">Memmingen</placeName> und <placeName ref="place520">Isny</placeName> aufgehalten; s. <hi>Roth</hi> II 441-449 und 469f, Anm. 98; Theodor <hi>Pressel,</hi> <persName ref="person19">Ambrosius Blaurer</persName>'s des schwäbischen Reformators Leben und Schriften, Stuttgart 1861, S. 444-451.</note> satis bonis, quod aiunt, avibus<note xml:id="fn5" type="footnote" n="5">Adagia, 1, 1, 75 (LB II 57).</note>, nisi quod unam istam ominosam episcopum Londensem<note xml:id="fn6" type="footnote" n="6"><persName ref="person2451">Johann von Weeze</persName>, Erzbischof von Lund und Bischof von <placeName ref="place565">Konstanz</placeName>.</note> obviam habuimus, cum ipsi quoque lacum traiiceremus illo Arbam<note xml:id="fn7" type="footnote" n="7"><placeName ref="place55">Arbon</placeName> (Arbor felix, Arbona, Kt. Thurgau).</note> navigante.</s>
+					<s n="5" xml:lang="la" type="auto">Ego 4. februarii huc redii<note xml:id="fn4" type="footnote" n="4"><persName>Blarer</persName> hatte sich nach seinem Weggang aus <placeName>Augsburg</placeName> am 6. Dezember, wo er seit dem 27. Juni 1539 gewirkt hatte, noch in <placeName>Kempten</placeName>, <placeName>Memmingen</placeName> und <placeName>Isny</placeName> aufgehalten; s. <hi>Roth</hi> II 441-449 und 469f, Anm. 98; Theodor <hi>Pressel,</hi> <persName>Ambrosius Blaurer</persName>'s des schwäbischen Reformators Leben und Schriften, Stuttgart 1861, S. 444-451.</note> satis bonis, quod aiunt, avibus<note xml:id="fn5" type="footnote" n="5">Adagia, 1, 1, 75 (<bibl>LB</bibl> II 57).</note>, nisi quod unam istam ominosam episcopum Londensem<note xml:id="fn6" type="footnote" n="6"><persName>Johann von Weeze</persName>, Erzbischof von Lund und Bischof von <placeName>Konstanz</placeName>.</note> obviam habuimus, cum ipsi quoque lacum traiiceremus illo Arbam<note xml:id="fn7" type="footnote" n="7"><placeName>Arbon</placeName> (Arbor felix, Arbona, Kt. Thurgau).</note> navigante.</s>
 					<s n="6" xml:lang="la" type="auto">Verum nihil nobis hinc periculi impendebat, partim, quod non procul abessemus a portu, partim, quod nostra navis optime esset instructa, maxime vero, quia de domini protectione certissimi eramus.</s>
 					<s n="7" xml:lang="la" type="auto">Unum illud valde nobis dolet, quod tam late serpit hic cancer<note xml:id="fn8" type="footnote" n="8">Vgl. 2Tim 2, 17.</note> et pomeria sua magno patrię nostrę malo, sic enim valde timemus, profert.</s>
 				</p>
@@ -152,7 +146,7 @@
 				<p>
 					<s n="10" xml:lang="la" type="auto">Bene vale, mi observande pariter et charissime Bullingere, et pro tuo candore indiligentius scribenti ignosce; nam supra modum iam distineor.</s>
 					<s n="11" xml:lang="la" type="auto">Sic vero habe me inter tui studiosos et amantes studiosissimum et amantissimum esse.</s>
-					<s n="12" xml:lang="la" type="auto">Optimis et clarissimis viris <persName ref="person165">Pellicano</persName>, <persName ref="person114">Leoni</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person14">Theodoro</persName><note xml:id="fn11" type="footnote" n="11"><persName ref="person14">Theodor Bibliander</persName>.</note>, <persName ref="person145">Megandro</persName> cęterisque administris tuis postquam salutem dixeris meis verbis, quam potes officiose me commenda; saluta vero praecipue sanctissimam tuam coniugem<note xml:id="fn12" type="footnote" n="12">Anna, geb. Adlischwyler.</note>, quam una tecum mea<note xml:id="fn13" type="footnote" n="13"><persName ref="person19">Blarers</persName> Ehefrau Katharina, geb. Ryff.</note> quoque cum fratre<note xml:id="fn14" type="footnote" n="14"><persName ref="person20">Thomas Blarer</persName>.</note> et sorore<note xml:id="fn15" type="footnote" n="15"><persName ref="person474">Margaretha Blarer</persName>.</note> multum in Christo salvere iubent seque vobis christianice commend[ant]<note xml:id="fnd" type="footnote" n="d">Textverlust wegen Beschädigung des Papierrandes.</note>. 10. martii anno 1540.</s>
+					<s n="12" xml:lang="la" type="auto">Optimis et clarissimis viris <persName ref="p8127">Pellicano</persName>, <persName ref="p1753">Leoni</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p8171">Theodoro</persName><note xml:id="fn11" type="footnote" n="11"><persName>Theodor Bibliander</persName>.</note>, <persName ref="p8412">Megandro</persName> cęterisque administris tuis postquam salutem dixeris meis verbis, quam potes officiose me commenda; saluta vero praecipue sanctissimam tuam coniugem<note xml:id="fn12" type="footnote" n="12"><persName>Anna, geb. Adlischwyler</persName>.</note>, quam una tecum mea<note xml:id="fn13" type="footnote" n="13"><persName>Blarers</persName> Ehefrau Katharina, geb. Ryff.</note> quoque cum fratre<note xml:id="fn14" type="footnote" n="14"><persName>Thomas Blarer</persName>.</note> et sorore<note xml:id="fn15" type="footnote" n="15"><persName>Margaretha Blarer</persName>.</note> multum in Christo salvere iubent seque vobis christianice commend[ant]<note xml:id="fnd" type="footnote" n="d">Textverlust wegen Beschädigung des Papierrandes.</note>. 10. martii anno 1540.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Tuus A. Blaur<note xml:id="fne" type="footnote" n="e"><hi>Datum und Unterschrift am Rande.</hi></note>.</s>

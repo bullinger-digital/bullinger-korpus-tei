@@ -6,64 +6,62 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN Heinrich Bullinger, s.d. September 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=138</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">244</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,24</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Der von Bullinger empfohlene, unglückliche [<persName ref="person51">Ulrich Eckstein</persName>?] ist in
-								<placeName ref="place565">Konstanz</placeName> aufgenommen worden.
-								<persName ref="person263">Zwick</persName> dankt für die erwiesenen Wohltaten bei seinem kürzlich
+								Der von Bullinger empfohlene, unglückliche [<persName ref="p1040">Ulrich Eckstein</persName>?] ist in
+								<placeName>Konstanz</placeName> aufgenommen worden.
+								<persName ref="p4079">Zwick</persName> dankt für die erwiesenen Wohltaten bei seinem kürzlich
 								abgestatteten Besuch in Zürich. Will Nachrichten über den Türkenkrieg sofort weiterleiten, wenn solche
 								eintreffen, hat aber im Augenblick nichts anderes, als was ihm
-								<persName ref="person260">Wilhelm von Zell</persName> geschickt hat. Grüße.
+								<persName ref="p3866">Wilhelm von Zell</persName> geschickt hat. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 138, S.244</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10169">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date notBefore="1532-09-01" notAfter="1532-09-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,22 +123,22 @@
 					<s n="1" xml:lang="la" type="auto">Salus et pax per Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Miserum ilium<note xml:id="fn2" type="footnote" n="2">Es handelt sich wohl um einen der vielen Prädikanten, die im Anschluß an die Rekatholisierungswelle nach dem Zweiten Kappelerkrieg ihre Pfarrstelle verloren. Möglicherweise könnte hier <persName ref="person51">Ulrich Eckstein</persName> gemeint sein (s. unten <ref target="file10197">Nr. 166</ref>). Der Umstand, daß der Betreffende offenbar krank ist, unterstützt diese Vermutung (s. auch <persName ref="person263">Zwick</persName> an Bullinger, 10. März 1533, Zürich StA, E II 346,90f). Über die Bedeutung von <placeName ref="place565">Konstanz</placeName> bei der Stellenvermittlung für solche Vertriebene s. <hi>Moeller,</hi> <persName ref="person263">Zwick</persName> 166.</note>, quem commendasti, in curam nostram accepimus.</s>
+					<s n="2" xml:lang="la" type="auto">Miserum ilium<note xml:id="fn2" type="footnote" n="2">Es handelt sich wohl um einen der vielen Prädikanten, die im Anschluß an die Rekatholisierungswelle nach dem Zweiten Kappelerkrieg ihre Pfarrstelle verloren. Möglicherweise könnte hier <persName>Ulrich Eckstein</persName> gemeint sein (s. unten <ref target="file10197">Nr. 166</ref>). Der Umstand, daß der Betreffende offenbar krank ist, unterstützt diese Vermutung (s. auch <persName>Zwick</persName> an Bullinger, 10. März 1533, Zürich StA, E II 346,90f). Über die Bedeutung von <placeName>Konstanz</placeName> bei der Stellenvermittlung für solche Vertriebene s. <hi>Moeller,</hi> <persName>Zwick</persName> 166.</note>, quem commendasti, in curam nostram accepimus.</s>
 					<s n="3" xml:lang="la" type="auto">Speramus eum brevi melius habiturum.</s>
-					<s n="4" xml:lang="la" type="auto">Quantas vero gratias dicam pro tua erga me benevolentia eorumque omnium, qui me, cum nuper apud vos essem<note xml:id="fn3" type="footnote" n="3">Siehe oben Anm. 1. Aus welchem Anlaß <persName ref="person263">Zwick</persName> nach Zürich kam, ist nicht bekannt.</note>, tam liberaliter tractaverunt.</s>
+					<s n="4" xml:lang="la" type="auto">Quantas vero gratias dicam pro tua erga me benevolentia eorumque omnium, qui me, cum nuper apud vos essem<note xml:id="fn3" type="footnote" n="3">Siehe oben Anm. 1. Aus welchem Anlaß <persName>Zwick</persName> nach Zürich kam, ist nicht bekannt.</note>, tam liberaliter tractaverunt.</s>
 					<s n="5" xml:lang="la" type="auto">Optarem et mihi<note xml:id="fna" type="footnote" n="a">et mihi <hi>am Rande nachgetragen.</hi></note> occasionem dari referendi beneficii.</s>
 					<s n="6" xml:lang="la" type="auto">Interim, cum non possum adsequi, quod volo, prędico bonis omnibus humanitatem vestram laude maiorem.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Abiturus pollicitus sum scripturum me vobis, si quid e bello turcico ad nos ferretur, neque ea in re quicquam<note xml:id="fnb" type="footnote" n="b">quicquam <hi>übergeschrieben.</hi></note> negligam.</s>
-					<s n="8" xml:lang="la" type="auto">Sed nihil audivimus hactenus exceptis, quae ad nos <persName ref="person2631">Wilhelmus</persName> a Zellis<note xml:id="fn4" type="footnote" n="4">Junker <persName ref="person260">Wilhelm von Zell</persName>, gest. 1541, aus <placeName ref="place709">Mindelheim</placeName> bei <placeName ref="place697">Memmingen</placeName>, war einer der Vorkämpfer der zwinglianischen Reformation in Oberdeutschland. <persName ref="person2631">Zwingli</persName>, Vadian, die Gebrüder <persName ref="person19">Blarer</persName>, mit denen allen er korrespondierte, zählten zu seinen Freunden. Er hielt sich 1525 (s. Z VIII passim) und 1531 (s. Vadian BW V 27f) vorübergehend in Zürich auf. Zell war Pate von <persName ref="person2631">Zwinglis</persName> Sohn Wilhelm. 1527 widmete ihm <persName ref="person2631">Zwingli</persName> sein Werk «Früntlich verglimpfung und ableynung über die predig des treffenlichen Martini <persName ref="person138">Luthers</persName> wider die schweriner» (Z V 771). Seit 1533 galt er als Anhänger <persName ref="person2122">Schwenckfelds</persName> und hatte auch einen wesentlichen Anteil an dessen Einfluß auf <persName ref="person114">Leo Jud</persName> in jenem Jahr (Weisz, Jud 101-107). 1539 übersiedelte er von <placeName ref="place697">Memmingen</placeName> nach <placeName ref="place565">Konstanz</placeName>, wo er seinen Lebensabend im Hause <persName ref="person263">Zwicks</persName> verbrachte. Mit Bullinger kam er wahrscheinlich schon früh in Zürich zusammen. 1525 widmete ihm Bullinger die Schrift «Vom einigen, waren, läbenden, ewigen Gott und von vil falchen, gmachten Götteren ...» <hi>(Staedtke</hi> 276). Ursprünglich war auch «De origine erroris» (HBBibl I 10) mit einer Widmung an <persName ref="person260">Wilhelm von Zell</persName> versehen (s. Joachim <hi>Staedtke,</hi> <persName ref="person19">Blarer</persName> und Bullinger, in: <persName ref="person19">Blarer</persName>-Gedenkschrift 194. 203, Anm. 3). - Lit.: <persName ref="person19">Blarer</persName> BW, Reg.; Vadian BW V, Reg.; Z IX 327, Anm. 1 und Reg.; <hi>Moeller,</hi> <persName ref="person263">Zwick</persName> 213f.</note> misit, ut hic vides<note xml:id="fn5" type="footnote" n="5">Es handelt sich wahrscheinlich um die Ende August 1532 in <placeName ref="place697">Memmingen</placeName> gesammelten, von <persName ref="person143">Gregor Mangolt</persName> in <placeName ref="place565">Konstanz</placeName> kopierten und offenbar durch <persName ref="person263">Zwick</persName> an Bullinger weitergeleiteten Nachrichten zum Türkenkrieg, Zürich StA, E II 350,311f.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Sed nihil audivimus hactenus exceptis, quae ad nos <persName ref="p7232">Wilhelmus</persName> a Zellis<note xml:id="fn4" type="footnote" n="4">Junker <persName>Wilhelm von Zell</persName>, gest. 1541, aus <placeName>Mindelheim</placeName> bei <placeName>Memmingen</placeName>, war einer der Vorkämpfer der zwinglianischen Reformation in Oberdeutschland. <persName>Zwingli</persName>, Vadian, die Gebrüder <persName>Blarer</persName>, mit denen allen er korrespondierte, zählten zu seinen Freunden. Er hielt sich 1525 (s. <bibl>Z</bibl> VIII passim) und 1531 (s. <bibl>Vadian BW V</bibl> 27f) vorübergehend in Zürich auf. Zell war Pate von <persName>Zwinglis</persName> Sohn <persName>Wilhelm</persName>. 1527 widmete ihm <persName>Zwingli</persName> sein Werk «Früntlich verglimpfung und ableynung über die predig des treffenlichen <persName ref="p18889">Martini Luthers</persName> wider die schweriner» (<bibl>Z</bibl> V 771). Seit 1533 galt er als Anhänger <persName>Schwenckfelds</persName> und hatte auch einen wesentlichen Anteil an dessen Einfluß auf <persName ref="p2305">Leo Jud</persName> in jenem Jahr (<bibl>Weisz, Jud</bibl> 101-107). 1539 übersiedelte er von <placeName>Memmingen</placeName> nach <placeName>Konstanz</placeName>, wo er seinen Lebensabend im Hause <persName>Zwicks</persName> verbrachte. Mit Bullinger kam er wahrscheinlich schon früh in Zürich zusammen. 1525 widmete ihm Bullinger die Schrift «Vom einigen, waren, läbenden, ewigen Gott und von vil falchen, gmachten Götteren ...» <hi>(Staedtke</hi> 276). Ursprünglich war auch «De origine erroris» (<bibl>HBBibl</bibl> I 10) mit einer Widmung an <persName>Wilhelm von Zell</persName> versehen (s. Joachim <hi>Staedtke,</hi> <persName>Blarer</persName> und Bullinger, in: <persName>Blarer</persName>-Gedenkschrift 194. 203, Anm. 3). - Lit.: <persName>Blarer</persName> BW, Reg.; <bibl>Vadian BW</bibl> V, Reg.; <bibl>Z</bibl> IX 327, Anm. 1 und Reg.; <hi>Moeller,</hi> <persName>Zwick</persName> 213f.</note> misit, ut hic vides<note xml:id="fn5" type="footnote" n="5">Es handelt sich wahrscheinlich um die Ende August 1532 in <placeName>Memmingen</placeName> gesammelten, von <persName ref="p6739">Gregor Mangolt</persName> in <placeName>Konstanz</placeName> kopierten und offenbar durch <persName>Zwick</persName> an Bullinger weitergeleiteten Nachrichten zum Türkenkrieg, Zürich StA, E II 350,311f.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Alioqui nihil omnino audimus.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><pb type="edition" next="245"/>Fratres omnes salutabis meo nomine centies, inprimis fratrem meum et patrem <persName ref="person165">Pellicanum</persName>, deinde <persName ref="person14">Theodorum</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="person14">Theodor Bibliander</persName>.</note>, <persName ref="person114">Leonem</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person114">Leo Jud</persName>.</note>, <persName ref="person117">Carolstadium</persName> et convivas omnes.</s>
+					<s n="10" xml:lang="la" type="auto"><pb type="edition" next="245"/>Fratres omnes salutabis meo nomine centies, inprimis fratrem meum et patrem <persName ref="p8127">Pellicanum</persName>, deinde <persName ref="p8171">Theodorum</persName><note xml:id="fn6" type="footnote" n="6"><persName>Theodor Bibliander</persName>.</note>, <persName ref="p1753">Leonem</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="p2305">Leo Jud</persName>.</note>, <persName ref="p4349">Carolstadium</persName> et convivas omnes.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="de" type="auto"><persName ref="person263">Io. Zwick</persName>.</s>
+					<s n="11" xml:lang="de" type="auto"><persName ref="p4079">Io. Zwick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

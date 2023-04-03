@@ -6,40 +6,31 @@
 				<title subtype="file">Hermann Aquilomontanus / Emden AN Heinrich Bullinger, 27. Februar 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1365</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">60</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1379</idno>
 					</msIdentifier>
 					<msContents>
@@ -55,13 +46,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1365, S.60</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11408">
 				<correspAction type="sent">
-					<persName ref="person179" cert="high">
+					<persName ref="p179" cert="high">
 						<!--
 						<surname cert="high">Aquilomontanus</surname>
 						<forename cert="high">Hermann</forename>
@@ -69,11 +67,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/1033718688"/>
 						-->
 					</persName>
-					<placeName source="place138" cert="high"><orig>Emden</orig></placeName>
+					<placeName source="l138" cert="high"><orig>Emden</orig></placeName>
 					<date when="1540-02-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -107,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -118,11 +116,11 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person8">Hermannus Aquilomontanus</persName> d. Henrico Bullingero s[alutem] d[icit].</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p179">Hermannus Aquilomontanus</persName> d. Henrico Bullingero s[alutem] d[icit].</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Literas<note xml:id="fn1" type="footnote" n="1">HBBW IX, <ref target="file11337">Nr. 1294</ref>.</note> prolixas ad te misi in nundinis posterioribus<note xml:id="fn2" type="footnote" n="2">Am 10. August 1539 (zum Termin der <placeName ref="place361">Frankfurter</placeName> Herbstmesse s. HBBW VI <ref target="file10925">[Nr. 884]</ref>, S. 406, Anm. 5).</note>, virorum optime, quibus tuam amicitiam ambivi et in dubiis meis resolutionem.</s>
-					<s n="3" xml:lang="la" type="auto">Decet enim manus adiutrices mutuo<note xml:id="fna" type="footnote" n="a">mutuo <hi>über der Zeile nachgetragen.</hi></note> porrigere, postquam in eadem navi simus<note xml:id="fn3" type="footnote" n="3">Adagia, 2, 1, 10 (LB II 410).</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Literas<note xml:id="fn1" type="footnote" n="1"><bibl>HBBW</bibl> IX, <ref target="file11337">Nr. 1294</ref>.</note> prolixas ad te misi in nundinis posterioribus<note xml:id="fn2" type="footnote" n="2">Am 10. August 1539 (zum Termin der <placeName>Frankfurter</placeName> Herbstmesse s. <bibl>HBBW</bibl> VI <ref target="file10925">[Nr. 884]</ref>, S. 406, Anm. 5).</note>, virorum optime, quibus tuam amicitiam ambivi et in dubiis meis resolutionem.</s>
+					<s n="3" xml:lang="la" type="auto">Decet enim manus adiutrices mutuo<note xml:id="fna" type="footnote" n="a">mutuo <hi>über der Zeile nachgetragen.</hi></note> porrigere, postquam in eadem navi simus<note xml:id="fn3" type="footnote" n="3">Adagia, 2, 1, 10 (<bibl>LB</bibl> II 410).</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Spero te pro tua humanitate innata paucis modo respondisse.</s>
 				</p>
 				<p>

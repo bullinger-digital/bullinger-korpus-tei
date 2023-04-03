@@ -6,49 +6,40 @@
 				<title subtype="file">Hans Welser / Augsburg AN Heinrich Bullinger, 20. Juni 1545</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2013</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17664-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2186</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">15</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1545</biblScope>
-				<biblScope unit="page">375</biblScope>
-				<biblScope unit="pages">746</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 15 (Briefe des Jahres 1545), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2013, 746 S., ISBN 978-3-290-17664-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,155</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								<persName ref="person20413">Welser</persName> dankt für Bullingers Schreiben [nicht erhalten]. Eine deutsche und lateinische Widerlegung der
+								<persName ref="p7003">Welser</persName> dankt für Bullingers Schreiben [nicht erhalten]. Eine deutsche und lateinische Widerlegung der
 								[Löwener] Artikel durch Bullinger wird der Kirche Christi bestimmt dienlich sein und allen offenbaren, wie
-								der Antichrist dem Satan zuarbeitet. - [<persName ref="person1332">Karl V.</persName>] will in <placeName ref="place1214">Worms</placeName>
-								das Konzil zu <placeName ref="place1089">Trient</placeName> als rechtmäßiges Konzil anerkennen, obwohl
+								der Antichrist dem Satan zuarbeitet. - [<persName ref="p18538">Karl V.</persName>] will in <placeName>Worms</placeName>
+								das Konzil zu <placeName>Trient</placeName> als rechtmäßiges Konzil anerkennen, obwohl
 								die [Päpstlichen] dabei zugleich Richter und Partei wären. Die Universität zu Löwen hat dazu schon Stellung
 								genommen. - Dagegen halten sich die [evangelischen] Stände tapfer, so dass es auf Dauer zu Unheil und Krieg
 								kommen könnte. Gott möge dies verhüten und Bullinger und die Seinen beschützen.
@@ -58,23 +49,30 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 15, Nr. 2186, S.375</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12233">
 				<correspAction type="sent">
-					<persName ref="person3927" cert="high">
+					<persName ref="p3927" cert="high">
 						<!--
 						<surname cert="high">Welser</surname>
 						<forename cert="high">Hans</forename>
 						-->
 					</persName>
-					<placeName source="place18" cert="high"><orig>Augsburg</orig></placeName>
+					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 					<date when="1545-06-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,12 +120,12 @@
 					<s n="1" xml:lang="de" type="auto">[M]in<note xml:id="fna" type="footnote" n="a"><hi>Hier und unten linker Rand beschädigt.</hi></note> frayntlych, crystlyche dyenst und alle gutwillykayt sayenn [ü]wch, lieber her Bulynger, zu vor ann.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Ich hab ewer schryben<note xml:id="fn1" type="footnote" n="1">Nicht erhalten.</note> myt danksagon enpfangen, unnd zweyflet myr nyt, ir wert der kyrchen Jesu Crysti zu trost auf die ausgangen artykell<note xml:id="fn2" type="footnote" n="2">Gemeint sind die 32 Artikel der Löwener Theologen, die <persName ref="person20413">Welser</persName> über <persName ref="person19">Ambrosius Blarer</persName> an Bullinger geschickt hatte; s. oben Nr. 2153, 1-15; Nr. 2156, 30-38. Am 14. Mai 1545 bat Bullinger Blarer, seinen Dank an <persName ref="person20413">Welser</persName> zu übermitteln; s. oben <ref target="file12205">Nr. 2158</ref>,4-7.</note> wyderum denn gegensattz aus gotlycher schryft teytsch und lateinysch stellenn,<note xml:id="fn3" type="footnote" n="3">Falls es zu einer Zürcher Veröffentlichung dieser Artikel kam, ist diese nicht bekannt. Die mit einem antipäpstlichen Vorwort versehenen Ausgaben (s. oben Nr. 2153, Anm. 6) wurden in <placeName ref="place795">Nürnberg</placeName> und <placeName ref="place327">Erfurt</placeName> gedruckt und kommen hier nicht in Frage.</note> auf das jederman seche, wie der anticryst<note xml:id="fnb" type="footnote" n="b">r <hi>in</hi> anticryst <hi>über der Zeile nachgetragen.</hi></note><note xml:id="fn4" type="footnote" n="4">Der Papst.</note> seyn reych wyder die warheyt Jesu Crysti welle myt gewalt in diser welt erhalten und alßo dem satan seyn reych meren und beschytzenn.</s>
+					<s n="2" xml:lang="de" type="auto">Ich hab ewer schryben<note xml:id="fn1" type="footnote" n="1">Nicht erhalten.</note> myt danksagon enpfangen, unnd zweyflet myr nyt, ir wert der kyrchen Jesu Crysti zu trost auf die ausgangen artykell<note xml:id="fn2" type="footnote" n="2">Gemeint sind die 32 Artikel der Löwener Theologen, die <persName>Welser</persName> über <persName>Ambrosius Blarer</persName> an Bullinger geschickt hatte; s. oben Nr. 2153, 1-15; Nr. 2156, 30-38. Am 14. Mai 1545 bat Bullinger Blarer, seinen Dank an <persName>Welser</persName> zu übermitteln; s. oben <ref target="file12205">Nr. 2158</ref>,4-7.</note> wyderum denn gegensattz aus gotlycher schryft teytsch und lateinysch stellenn,<note xml:id="fn3" type="footnote" n="3">Falls es zu einer Zürcher Veröffentlichung dieser Artikel kam, ist diese nicht bekannt. Die mit einem antipäpstlichen Vorwort versehenen Ausgaben (s. oben Nr. 2153, Anm. 6) wurden in <placeName>Nürnberg</placeName> und <placeName>Erfurt</placeName> gedruckt und kommen hier nicht in Frage.</note> auf das jederman seche, wie der anticryst<note xml:id="fnb" type="footnote" n="b">r <hi>in</hi> anticryst <hi>über der Zeile nachgetragen.</hi></note><note xml:id="fn4" type="footnote" n="4">Der Papst.</note> seyn reych wyder die warheyt Jesu Crysti welle myt gewalt in diser welt erhalten und alßo dem satan seyn reych meren und beschytzenn.</s>
 					<s n="3" xml:lang="de" type="auto">Der almechtig got welle seyn<pb type="edition" next="376"/> genat verleychen, das dise anschleg zu gront gangenn, seyn felkle<note xml:id="fn5" type="footnote" n="5">kleines Volk.</note> erhalten, der hauf teglych gemert wert<note xml:id="fn6" type="footnote" n="6">der hauf teglych gemert wert: dessen Zahl täglich größer werde.</note>.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="de" type="auto">Ir majestat<note xml:id="fn7" type="footnote" n="7"><persName ref="person1332">Karl V.</persName></note> wil zu Wurms<note xml:id="fn8" type="footnote" n="8">Der Reichstag zu <placeName ref="place1214">Worms</placeName>.</note> das bebstlych concilio zu <placeName ref="place1089">Trent</placeName>, do 3 kardynel<note xml:id="fn9" type="footnote" n="9">Die Kardinäle <persName ref="person21292">Giovanni Maria Ciocchi del Monte</persName> (der spätere Papst Iulius III.), Marcello Cervini und <persName ref="person1858">Reginald Pole</persName>; s. oben <ref target="file12200">Nr. 2153</ref>, Anm. 40; 2163.</note>, 24 byschof sennt, vyr das recht concilio haben, so sy doch<note xml:id="fn10" type="footnote" n="10">so sy doch: obwohl sie.</note> rychter und partey<note xml:id="fn11" type="footnote" n="11">Vgl. TPMA IX 302, <ref target="file10216">Nr. 185</ref>.</note> sennt.</s>
-					<s n="5" xml:lang="de" type="auto">Die hoch schul zu <placeName ref="place656">Loven</placeName>, was ir beschlus seyn wyrt, schonn an tag bracht hat<note xml:id="fn12" type="footnote" n="12">Nämlich durch ihre in den 32 Artikeln geäußerte theologische Stellungnahme, wo u.a. im 25. Artikel folgendes steht: "Mit gewiesem glauben ist zß halten, nit allain was in den Schriften außdrücklich gesetzt ist, sonder was wir durch satzung der gemaynen Kirchen zu glauben angnommen haben, auch was durch den Still Petri oder die gemeyne recht versambiete concilia von glaubens unnd der sitten sachen beschlossen ist"; und zum Schluss: "Darumb wölchs aynig unsers ampts ist, gebieten wir allen der hayligen Schrifft gelerten erstlich, das sie nyendert [=keineswegs] ychtzig [=irgend etwas]predigen oder leren, das diser lere [die der 32 Artikel] widerwertig sey; darnach, das sie die selben, wo es statt oder gelegenhait erfordert, trewlich verthedigen und außlegen, zu bewarung des allten allgemainen glaubens s. Articul die allgemaynen Religion unnd unsern hayligen Glauben betreffende von der Hayligen Schrifft lerern der hohen Schöl zß Löwen außgangen ..., si. 1545 (VD 16 L 2326), f. Bi, v., Bij, v.</note>.</s>
+					<s n="4" xml:lang="de" type="auto">Ir majestat<note xml:id="fn7" type="footnote" n="7"><persName>Karl V.</persName></note> wil zu Wurms<note xml:id="fn8" type="footnote" n="8">Der Reichstag zu <placeName>Worms</placeName>.</note> das bebstlych concilio zu <placeName>Trent</placeName>, do 3 kardynel<note xml:id="fn9" type="footnote" n="9">Die Kardinäle <persName>Giovanni Maria Ciocchi del Monte</persName> (der spätere Papst Iulius III.), <persName>Marcello Cervini</persName> und <persName>Reginald Pole</persName>; s. oben <ref target="file12200">Nr. 2153</ref>, Anm. 40; 2163.</note>, 24 byschof sennt, vyr das recht concilio haben, so sy doch<note xml:id="fn10" type="footnote" n="10">so sy doch: obwohl sie.</note> rychter und partey<note xml:id="fn11" type="footnote" n="11">Vgl. <bibl>TPMA</bibl> IX 302, <ref target="file10216">Nr. 185</ref>.</note> sennt.</s>
+					<s n="5" xml:lang="de" type="auto">Die hoch schul zu <placeName>Loven</placeName>, was ir beschlus seyn wyrt, schonn an tag bracht hat<note xml:id="fn12" type="footnote" n="12">Nämlich durch ihre in den 32 Artikeln geäußerte theologische Stellungnahme, wo u.a. im 25. Artikel folgendes steht: "Mit gewiesem glauben ist zß halten, nit allain was in den Schriften außdrücklich gesetzt ist, sonder was wir durch satzung der gemaynen Kirchen zu glauben angnommen haben, auch was durch den Still Petri oder die gemeyne recht versambiete concilia von glaubens unnd der sitten sachen beschlossen ist"; und zum Schluss: "Darumb wölchs aynig unsers ampts ist, gebieten wir allen der hayligen Schrifft gelerten erstlich, das sie nyendert [=keineswegs] ychtzig [=irgend etwas]predigen oder leren, das diser lere [die der 32 Artikel] widerwertig sey; darnach, das sie die selben, wo es statt oder gelegenhait erfordert, trewlich verthedigen und außlegen, zu bewarung des allten allgemainen glaubens s. Articul die allgemaynen Religion unnd unsern hayligen Glauben betreffende von der Hayligen Schrifft lerern der hohen Schöl zß Löwen außgangen ..., si. 1545 (VD 16 L 2326), f. Bi, v., Bij, v.</note>.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="de" type="auto">Dar gegen setzen sych die crystlychen stent tapfer.</s>
@@ -136,7 +134,7 @@
 					<s n="9" xml:lang="de" type="auto">Amen.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">Datum 20. iunio, in <placeName ref="place70">Augspurg</placeName>, 1545.</s>
+					<s n="10" xml:lang="de" type="auto">Datum 20. iunio, in <placeName>Augspurg</placeName>, 1545.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="de" type="auto">Ewer williger Hanns Welserr.</s>

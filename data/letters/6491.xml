@@ -6,32 +6,31 @@
 				<title subtype="file">Andreas Prazmowski / Radziejow AN [Zürcher] / [Zürich], 22. Juni 1565</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6663/83</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 367,378</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke BW, Polen, S. 242</title>
+								<title>Wotschke BW, Polen, S.242</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -53,21 +52,21 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6491">
 				<correspAction type="sent">
-					<persName ref="person2659" cert="high">
+					<persName ref="p2659" cert="high">
 						<!--
 						<surname cert="high">Prazmowski</surname>
 						<forename cert="high">Andreas</forename>
 						<persName type="main" ref="person8025>Prazmowski, Andreas</persName>
 						-->
 					</persName>
-					<placeName source="place401" cert="high"><orig>Radziejow</orig></placeName>
+					<placeName source="l401" cert="high"><orig>Radziejow</orig></placeName>
 					<date when="1565-06-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<orgName ref="org33" type="pl" role="Zürcher" cert="low">
+					<orgName ref="i33" type="pl" role="Zürcher" cert="low">
 						<orig>die Zürcher</orig>
 					</orgName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file6492"/>
@@ -83,7 +82,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

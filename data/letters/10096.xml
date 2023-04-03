@@ -6,74 +6,72 @@
 				<title subtype="file">Bartholomäus Westheimer / Basel AN Heinrich Bullinger, 21. Februar 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=67</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">53</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 377,2689</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Bestätigt den Empfang eines kurzen Briefes. Bedauert die Vertreibung Bullingers und dessen Vaters aus
-								<placeName ref="place178">Bremgarten</placeName>, wo er einmal zu
-								<persName ref="person74">Gast</persName> war. Klagt über die Lage in
-								<placeName ref="place97">Basel</placeName>. Verspricht baldige Rückerstattung seiner Schulden. Will
-								gegen <persName ref="person1180">Balthasar Hiltprand</persName> prozessieren. Grüße.
+								<placeName>Bremgarten</placeName>, wo er einmal zu
+								<persName ref="p1278">Gast</persName> war. Klagt über die Lage in
+								<placeName>Basel</placeName>. Verspricht baldige Rückerstattung seiner Schulden. Will
+								gegen <persName ref="p5235">Balthasar Hiltprand</persName> prozessieren. Grüße.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 67, S.53</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10096">
 				<correspAction type="sent">
-					<persName ref="person3932" cert="high">
+					<persName ref="p3932" cert="high">
 						<!--
 						<surname cert="high">Westheimer</surname>
 						<forename cert="high">Bartholomäus</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/100704352"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1532-02-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -102,7 +100,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -113,23 +111,23 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person240">Bartholomaeus Westhemerus</persName> suo Henrico Bullingero S. P. impartit.</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p3932">Bartholomaeus Westhemerus</persName> suo Henrico Bullingero S. P. impartit.</s>
 					<s n="2" xml:lang="la" type="auto">Gratia et pax a domino.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Literas tuas laconicas ad me scriptas<note xml:id="fn3" type="footnote" n="3">Nicht erhalten.</note> accepi.</s>
-					<s n="4" xml:lang="la" type="auto">Exilium tuum parentisque<note xml:id="fn4" type="footnote" n="4">Dekan Heinrich Bullinger. - Über die Flucht der Familie Bullinger aus <placeName ref="place178">Bremgarten</placeName> vgl. <hi>Blanke</hi> 129-132; <hi>Pestalozzi</hi> 66f.</note>, optimi senis, animum meum maxime cruciavit.</s>
-					<s n="5" xml:lang="la" type="auto">Verum animus meus, cum hospitarer apud te<note xml:id="fn5" type="footnote" n="5">Wann <persName ref="person240">Westheimer</persName> Bullingers <persName ref="person74">Gast</persName> in <placeName ref="place178">Bremgarten</placeName> war, konnte nicht festgestellt werden. Vielleicht im Zusammenhang mit der Drucklegung von Bullingers Schrift «De origine erroris», die im März 1528 in <placeName ref="place97">Basel</placeName> bei <persName ref="person2549">Thomas Wolff</persName> erschien (vgl. HBBibl I 10; HBD 12,5-7).</note>, nihil aliud de Bremgarto pręsagiebat nisi tales proditiones futuras.</s>
+					<s n="4" xml:lang="la" type="auto">Exilium tuum parentisque<note xml:id="fn4" type="footnote" n="4"><persName ref="p4369">Dekan Heinrich Bullinger</persName>. - Über die Flucht der Familie Bullinger aus <placeName>Bremgarten</placeName> vgl. <bibl>Blanke</bibl> 129-132; <bibl>Pestalozzi</bibl> 66f.</note>, optimi senis, animum meum maxime cruciavit.</s>
+					<s n="5" xml:lang="la" type="auto">Verum animus meus, cum hospitarer apud te<note xml:id="fn5" type="footnote" n="5">Wann <persName>Westheimer</persName> Bullingers <persName ref="p18518">Gast</persName> in <placeName>Bremgarten</placeName> war, konnte nicht festgestellt werden. Vielleicht im Zusammenhang mit der Drucklegung von Bullingers Schrift «De origine erroris», die im März 1528 in <placeName>Basel</placeName> bei <persName>Thomas Wolff</persName> erschien (vgl. <bibl>HBBibl</bibl> I 10; <bibl>HBD</bibl> 12,5-7).</note>, nihil aliud de Bremgarto pręsagiebat nisi tales proditiones futuras.</s>
 					<s n="6" xml:lang="la" type="auto">Cui aut quibus autem ascribendae, non est huius loci aut temporis.</s>
 					<s n="7" xml:lang="la" type="auto">Noster senatus indies frigescit.</s>
-					<s n="8" xml:lang="la" type="auto">Lectiones quasdam abrogarunt<note xml:id="fn6" type="footnote" n="6">Vgl. <persName ref="person6">Amerbach</persName>, Korr. <hi>IV</hi> 107, 9-14, wo sich <persName ref="person6">Amerbach</persName> ähnlich enttäuscht über die schlechte Lage der Basler Schule und die Nachlässigkeit der zuständigen Stellen äußert.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Lectiones quasdam abrogarunt<note xml:id="fn6" type="footnote" n="6">Vgl. <persName ref="p8422">Amerbach</persName>, Korr. <hi>IV</hi> 107, 9-14, wo sich <persName ref="p8422">Amerbach</persName> ähnlich enttäuscht über die schlechte Lage der Basler Schule und die Nachlässigkeit der zuständigen Stellen äußert.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Videres deploratum statum omnium rerum.</s>
 					<s n="10" xml:lang="la" type="auto">Quid dicam?</s>
 					<s n="11" xml:lang="la" type="auto">Cupio ex animo dissolvi et esse cum caelestibus<note xml:id="fn7" type="footnote" n="7">Phil 1,23.</note>.</s>
 					<s n="12" xml:lang="la" type="auto">De pecuniis, quas debeo, brevi, ut spero, redditurum teque liberaturum bona fide polliceor.</s>
-					<s n="13" xml:lang="la" type="auto">Videres <persName ref="person240">Westhemerum</persName> ex animo tibi, tuis faventem quovis Homerico Iro<note xml:id="fn8" type="footnote" n="8">Der arme Schlucker Iros, vgl. Homer, Odyssee 18, 1ff; ferner Otto 177, Nr. 875 und <hi>Eitrem,</hi> in: Pauly/Wissowa IX/2 2046, 44-64.</note> pauperiorem.</s>
-					<s n="14" xml:lang="la" type="auto">Consanguinei namque uxoris meae<note xml:id="fn9" type="footnote" n="9"><persName ref="person240">Westheimer</persName> war seit kurzem mit der aus angesehenem Basler Geschlecht stammenden Juliana Schlierbach (zur Familie s. HBLS VI 197) verheiratet. Sie war eine ehemalige Nonne aus dem Kloster Gnadenthal und starb 1559. Offenbar war die Familie der Frau nicht bereit, die (finanziellen?) Erwartungen <persName ref="person240">Westheimers</persName> zu erfüllen.</note> fidem mihi non servant.</s>
-					<s n="15" xml:lang="la" type="auto">Balthazum [!] <persName ref="person1180">Hiltprandum</persName><pb type="edition" next="54"/><note xml:id="fn10" type="footnote" n="10"><persName ref="person1180">Balthasar Hiltprand</persName>, gest. 1538, führte im Ersten Kappelerkrieg 1529 das Basler Hilfskontingent (Basler Chroniken, Bd. I, hg. v. Wilhelm Vischer und Alfred Stern, Leipzig 1872, S. 100). Nach dem Zweiten Kappelerkrieg unterzeichnete er für <placeName ref="place97">Basel</placeName> den Friedensvertrag mit <placeName ref="place51">den V Orten</placeName> vom 22. Dezember 1531 (ABaslerRef V 727). - Lit.: Z X 643, Anm. 6.</note> in ius vocavi<note xml:id="fn11" type="footnote" n="11">Über einen Rechtshandel zwischen <persName ref="person240">Westheimer</persName> und <persName ref="person1180">Hiltprand</persName> ist sonst nichts bekannt.</note>.</s>
+					<s n="13" xml:lang="la" type="auto">Videres <persName ref="p3932">Westhemerum</persName> ex animo tibi, tuis faventem quovis Homerico Iro<note xml:id="fn8" type="footnote" n="8">Der arme Schlucker Iros, vgl. Homer, Odyssee 18, 1ff; ferner Otto 177, Nr. 875 und <hi>Eitrem,</hi> in: <bibl>Pauly/Wissowa</bibl> IX/2 2046, 44-64.</note> pauperiorem.</s>
+					<s n="14" xml:lang="la" type="auto">Consanguinei namque uxoris meae<note xml:id="fn9" type="footnote" n="9"><persName>Westheimer</persName> war seit kurzem mit der aus angesehenem Basler Geschlecht stammenden Juliana Schlierbach (zur Familie s. <bibl>HBLS</bibl> VI 197) verheiratet. Sie war eine ehemalige Nonne aus dem Kloster Gnadenthal und starb 1559. Offenbar war die Familie der Frau nicht bereit, die (finanziellen?) Erwartungen <persName>Westheimers</persName> zu erfüllen.</note> fidem mihi non servant.</s>
+					<s n="15" xml:lang="la" type="auto">Balthazum [!] <persName ref="p5235">Hiltprandum</persName><pb type="edition" next="54"/><note xml:id="fn10" type="footnote" n="10"><persName>Balthasar Hiltprand</persName>, gest. 1538, führte im Ersten Kappelerkrieg 1529 das Basler Hilfskontingent (Basler Chroniken, Bd. I, hg. v. Wilhelm Vischer und Alfred Stern, Leipzig 1872, S. 100). Nach dem Zweiten Kappelerkrieg unterzeichnete er für <placeName>Basel</placeName> den Friedensvertrag mit <placeName>den V Orten</placeName> vom 22. Dezember 1531 (<bibl>ABaslerRef</bibl> V 727). - Lit.: <bibl>Z</bibl> X 643, Anm. 6.</note> in ius vocavi<note xml:id="fn11" type="footnote" n="11">Über einen Rechtshandel zwischen <persName>Westheimer</persName> und <persName>Hiltprand</persName> ist sonst nichts bekannt.</note>.</s>
 					<s n="16" xml:lang="la" type="auto">Huic tragoediae (ut sic scribam) per aliquot dies serviendum erit.</s>
 					<s n="17" xml:lang="la" type="auto">Finita autem omnino apud me decrevi Tigurum salutare.</s>
 				</p>
@@ -137,10 +135,10 @@
 					<s n="18" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName> raptissime exaratum, 21. die februarii.</s>
+					<s n="19" xml:lang="la" type="auto"><placeName>Basileae</placeName> raptissime exaratum, 21. die februarii.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Nomine meo ascribas salutem plurimam parentibus tuis<note xml:id="fn12" type="footnote" n="12">Dekan Heinrich Bullinger und <persName ref="person32">Anna Bullinger</persName>, geb. Wiederkehr.</note> fratrique<note xml:id="fn13" type="footnote" n="13">Johannes Bullinger.</note>, denique plus millies nomine meo salutes uxorculam tuam<note xml:id="fn14" type="footnote" n="14"><persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note> animo meo charissimam, corculum plane tuum.</s>
+					<s n="20" xml:lang="la" type="auto">Nomine meo ascribas salutem plurimam parentibus tuis<note xml:id="fn12" type="footnote" n="12"><persName ref="p4369">Dekan Heinrich Bullinger</persName> und <persName>Anna Bullinger, geb. Wiederkehr</persName>.</note> fratrique<note xml:id="fn13" type="footnote" n="13"><persName>Johannes Bullinger</persName>.</note>, denique plus millies nomine meo salutes uxorculam tuam<note xml:id="fn14" type="footnote" n="14"><persName>Anna Bullinger, geb. Adlischwyler</persName>.</note> animo meo charissimam, corculum plane tuum.</s>
 					<s n="21" xml:lang="la" type="auto">Optimus maximus te tuosque et ecclesiae Christi incolumem diu servet.</s>
 					<s n="22" xml:lang="la" type="auto">Celeri phrasi ignoscas.</s>
 				</p>

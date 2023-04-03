@@ -6,46 +6,37 @@
 				<title subtype="file">[Werner Beyel] / Zürich AN Heinrich Bullinger, 28. November 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=917</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">475</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 341,3526r</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bullinger wird aus der mitfolgenden Schrift den Wunsch <placeName ref="place132">Biberachs</placeName>
+								Bullinger wird aus der mitfolgenden Schrift den Wunsch <placeName>Biberachs</placeName>
 								[nach einem Pfarrer] und die Antwort des Zürcher Rates ersehen; bittet, einen allfälligen Anwärter zu
 								nennen.
 							</p>
@@ -54,24 +45,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 917, S.475</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10959">
 				<correspAction type="sent">
-					<persName ref="person257" cert="low">
+					<persName ref="p257" cert="low">
 						<!--
 						<surname cert="low">Beyel</surname>
 						<forename cert="low">Werner</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1078319871"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1536-11-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -98,7 +96,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -108,7 +106,7 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Lieber M. Heynrich, uß diser schrifft werden ir deren von Bibrach begeren unnd darüber miner herren anndtwurt vernemmen<note xml:id="fn2" type="footnote" n="2">Das von <persName ref="person12">Beyel</persName> geschickte Schriftstück enthalt: die Kopie eines Briefes von <placeName ref="place132">Biberach</placeName> an Zürich, 7. Nov. 1536, in dem die <placeName ref="place132">Biberacher</placeName> von Zürich einen Pfarrer erbitten (Original: Zürich StA, E II 341, 3526r.-v.); die Kopie des Antwortschreibens von Zürich, 28. Nov. 1536, in dem der Rat zu bedenken gibt, daß er bereits Pfarrer an <persName ref="person77">Georg</persName> von Württemberg und an <placeName ref="place97">Basel</placeName> abgetreten habe, daß er das Begehren aber dennoch seinen Gelehrten vorlegen werde (Original: ebd., 3526v.-3527r.).</note>.</s>
+					<s n="1" xml:lang="de" type="auto">Lieber M. Heynrich, uß diser schrifft werden ir deren von Bibrach begeren unnd darüber miner herren anndtwurt vernemmen<note xml:id="fn2" type="footnote" n="2">Das von <persName>Beyel</persName> geschickte Schriftstück enthalt: die Kopie eines Briefes von <placeName>Biberach</placeName> an Zürich, 7. Nov. 1536, in dem die <placeName>Biberacher</placeName> von Zürich einen Pfarrer erbitten (Original: Zürich StA, E II 341, 3526r.-v.); die Kopie des Antwortschreibens von Zürich, 28. Nov. 1536, in dem der Rat zu bedenken gibt, daß er bereits Pfarrer an <persName>Georg von Württemberg</persName> und an <placeName>Basel</placeName> abgetreten habe, daß er das Begehren aber dennoch seinen Gelehrten vorlegen werde (Original: ebd., 3526v.-3527r.).</note>.</s>
 					<s n="2" xml:lang="de" type="auto">Darumb, ob ir eyn sollichen man wißtind ald vernämind, mögent ir den minen herren anzoygen.</s>
 					<s n="3" xml:lang="de" type="auto">Die werdent dann wyter darinn handlen, damit gemelten<note xml:id="fn3" type="footnote" n="3">den Erwähnten.</note> von Bibrach eyn anndtwurt werde.</s>
 				</p>

@@ -6,48 +6,44 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Joachim Vadian, 14. Juni 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1279</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">562</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Die Vadianische Briefsammlung der Stadtbibliothek St. Gallen, hg. v. Emil Arbenz und Hermann Wartmann, 7 Bde., St. Gallen 1890-1913 - MVG 24-30a.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,99</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Erkennt in <persName ref="person226">Vadians</persName> Bemühungen seine große Wertschätzung. Hat seinen
+								Erkennt in <persName ref="p8049">Vadians</persName> Bemühungen seine große Wertschätzung. Hat seinen
 								ausführlichen und gelehrten Brief zur [geplanten] Nürnberger Tagung gelesen; bleibt zwar bei seiner Meinung,
-								wird sich aber mit <persName ref="person226">Vadian</persName> freuen, wenn die Sache besser ausgeht als
-								von ihm selbst vorausgesagt. Übersendet [den Schlußteil von] <persName ref="person226">Vadians</persName>
+								wird sich aber mit <persName ref="p8049">Vadian</persName> freuen, wenn die Sache besser ausgeht als
+								von ihm selbst vorausgesagt. Übersendet [den Schlußteil von] <persName ref="p8049">Vadians</persName>
 								Brief [<ref target="file10936">Nr. 894</ref>], den er zusammen mit den [fünf] Büchern des
 								Vigilius [„Contra Eutychen“] publizieren möchte; hat ihn verändert,
-								wird jedoch nichts gegen den Willen <persName ref="person226">Vadians</persName> tun, und bittet um
-								Rücksendung durch <persName ref="person132">[Hans Rudolf] Lavater</persName>.
+								wird jedoch nichts gegen den Willen <persName ref="p8049">Vadians</persName> tun, und bittet um
+								Rücksendung durch <persName ref="p1888">[Hans Rudolf] Lavater</persName>.
 							</p>
 						</summary>
 						<msItem>
@@ -57,7 +53,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Vadian BW V, S. 562f, Nr. 1062</title>
+								<title>Vadian BW V, S.562f, Nr. 1062</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -67,7 +63,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11322">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -77,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1539-06-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -118,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

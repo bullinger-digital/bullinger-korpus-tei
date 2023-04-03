@@ -6,51 +6,42 @@
 				<title subtype="file">Hans Vogler / St. Gallen AN Heinrich Bullinger, 22. Mai 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=380</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">186</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 351,157</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bittet im Namen von <persName ref="person226">Vadian</persName> um Nachrichten [über den Krieg in
-								<placeName ref="place100">Württemberg</placeName>]. Berichtet vom Städtetag in
-								<placeName ref="place70">Augsburg</placeName>, von der Kapitulation von Hohenasperg sowie von der Flucht
-								<persName ref="person2210">[Dietrich] Späts</persName> und der
-								Herzogin [<persName ref="person2006">Sabine</persName>] nach
-								<placeName ref="place515">Innsbruck</placeName>. <persName ref="person228">Voglers</persName> Frau ist
+								Bittet im Namen von <persName ref="p8049">Vadian</persName> um Nachrichten [über den Krieg in
+								<placeName>Württemberg</placeName>]. Berichtet vom Städtetag in
+								<placeName>Augsburg</placeName>, von der Kapitulation von Hohenasperg sowie von der Flucht
+								<persName ref="p6660">[Dietrich] Späts</persName> und der
+								Herzogin [<persName>Sabine</persName>] nach
+								<placeName>Innsbruck</placeName>. <persName ref="p8071">Voglers</persName> Frau ist
 								im Rheintal wieder nicht zu ihrem Recht gekommen. Hofft auf die
 								nächste Tagsatzung. Grüße.
 							</p>
@@ -59,13 +50,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 380, S.186</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10414">
 				<correspAction type="sent">
-					<persName ref="person3446" cert="high">
+					<persName ref="p3446" cert="high">
 						<!--
 						<surname cert="high">Vogler</surname>
 						<forename cert="high">Hans</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11094904"/>
 						-->
 					</persName>
-					<placeName source="place474" cert="high"><orig>St. Gallen</orig></placeName>
+					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 					<date when="1534-05-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,16 +120,16 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Gott syg ewig lob, der abermals sin hilff bewisen<note xml:id="fn1" type="footnote" n="1"><persName ref="person228">Vogler</persName> spielt wohl auf den erfolgreichen Kriegszug Philipps von Hessen in <placeName ref="place100">Württemberg</placeName> an.</note>, der gebe unns och starcke gemuͤtt<note xml:id="fn2" type="footnote" n="2">Gesinnung, Willen (SI IV 587).</note>.</s>
+					<s n="1" xml:lang="de" type="auto">Gott syg ewig lob, der abermals sin hilff bewisen<note xml:id="fn1" type="footnote" n="1"><persName>Vogler</persName> spielt wohl auf den erfolgreichen Kriegszug Philipps von Hessen in <placeName>Württemberg</placeName> an.</note>, der gebe unns och starcke gemuͤtt<note xml:id="fn2" type="footnote" n="2">Gesinnung, Willen (<bibl>SI</bibl> IV 587).</note>.</s>
 					<s n="2" xml:lang="de" type="auto">Amen.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Gliepter herr unnd bruͦder, nüwe zittung<note xml:id="fn3" type="footnote" n="3">Gemeint sind Neuigkeiten zum Krieg in <placeName ref="place100">Württemberg</placeName>.</note>, achtend min herr Doctor von Wadt, der getrüw, und ich, ir tragend<note xml:id="fn4" type="footnote" n="4">ihr habt (SI XIV 453f).</note> mer dann wyr.</s>
-					<s n="4" xml:lang="de" type="auto">Desshalb, was ir witers hapt, thuͦnd im<note xml:id="fn5" type="footnote" n="5"><persName ref="person226">Vadian</persName>.</note> zuͦ wissenn.</s>
-					<s n="5" xml:lang="de" type="auto">Wir hörnn, der tag zuͦ Ougspurg<note xml:id="fn6" type="footnote" n="6">Gemeint ist wohl eine nach <placeName ref="place70">Augsburg</placeName> einberufene Tagung von Mitgliedern des bereits aufgelösten Schwäbischen Bundes Ende Mai/Anfang Juni, auf der über eine Friedensvermittlung in <placeName ref="place100">Württemberg</placeName> beraten werden sollte, s. Fabian, Städtetage III 31. 131-136.</note> syg angangen; wirtt etwas bringen.</s>
-					<s n="6" xml:lang="de" type="auto">Hohen Aspar das schloss ist ufgeben<note xml:id="fn7" type="footnote" n="7">Ein nicht zutreffendes Gerücht, kapitulierte doch die Besatzung der Festung Hohenasperg erst nach starker Beschießung am 2. Juni, s. <hi>Wille</hi> 191.</note>.</s>
-					<s n="7" xml:lang="de" type="auto">Es ist die sag, der Spätt<note xml:id="fn8" type="footnote" n="8"><persName ref="person2210">Dietrich Spät</persName> (von Speth), gest. 1536, von <placeName ref="place1242">Zwiefalten</placeName>, seit 1510 Erbtruchseß des Herzogs von <placeName ref="place100">Württemberg</placeName>, an dessen Hofe er der reichste Edelmann war. Seit der Ermordung <persName ref="person1254">Hans von Huttens</persName> durch Herzog <persName ref="person224">Ulrich</persName> war Spät mit dem Herzog verfeindet und unterstützte seine Vertreibung. 1519 wurde er österreichischer Obervogt in Urach. Sein freundschaftliches Verhältnis zu Herzogin <persName ref="person2006">Sabine</persName> gab zu Gerüchten Anlaß. Nach der Flucht aus <placeName ref="place100">Württemberg</placeName> 1534 war er kaiserlicher Rat. - Lit.: <hi>Wille</hi> 6. 185; Werner-<persName ref="person224">Ulrich</persName> <hi>Deetjen,</hi> Studien zur Württembergischen Kirchenordnung Herzog <persName ref="person224">Ulrichs</persName> 1534-1550. Das Herzogtum <placeName ref="place100">Württemberg</placeName> im Zeitalter Herzog <persName ref="person224">Ulrichs</persName> (1498-1550), die Neuordnung des Kirchengutes und der Klöster (1534-1547), Stuttgart 1981. - Quellen und Forschungen zur Württembergischen Kirchengeschichte, Bd. VII, S. 11f. 24. 40. 48; Frida <hi>Sauter,</hi> Herzogin <persName ref="person2006">Sabine</persName> von Wirtemberg, in: Zeitschrift für württembergische Landesgeschichte, VIII. Jg., 1944-1948, S. 314f. 325. 328. 335. 338; Theodor <hi>Schön,</hi> in: ADB XXXV 146.</note> der syg mitt hertzog <persName ref="person224">Ulrichs</persName> gnannte frowen<note xml:id="fn9" type="footnote" n="9">Herzogin <persName ref="person2006">Sabine</persName> von <placeName ref="place100">Württemberg</placeName>, 1492-1564, geborene Herzogin von <placeName ref="place7">Bayern</placeName>, 1511 mit <persName ref="person224">Ulrich</persName> verheiratet, entfloh 1515 in Begleitung <persName ref="person2210">Dietrich Späts</persName> der völlig zerrütteten Ehe nach <placeName ref="place740">München</placeName>. Nach der Vertreibung <persName ref="person224">Ulrichs</persName> aus <placeName ref="place100">Württemberg</placeName> 1519 kehrte <persName ref="person2006">Sabine</persName> nach Urach zurück. Erfolglos setzte sie sich für eine Wiedereinsetzung ihres Sohnes <persName ref="person628">Christoph</persName> ins Herzogtum ein. Die Rückkehr <persName ref="person224">Ulrichs</persName> in sein Land veranlaßte sie 1534 zur erneuten Flucht, wieder zusammen mit <persName ref="person2210">Dietrich Spät</persName>. Die Jahre bis 1550 verbrachte sie an verschiedenen Orten in <placeName ref="place7">Bayern</placeName>. <persName ref="person224">Ulrichs</persName> Tod ermöglichte ihr schließlich die Rückkehr nach <placeName ref="place100">Württemberg</placeName>. In <placeName ref="place796">Nürtingen</placeName> verbrachte sie ihren Lebensabend. 1552 trat sie öffentlich zum evangelischen Glauben über. - Lit.: <hi>Sauter,</hi> aaO, S. 298-355.</note> gen Rafenspurg komen<note xml:id="fn10" type="footnote" n="10">In Begleitung von <persName ref="person2210">Dietrich Spät</persName> und vielen anderen Adligen übernachtete <persName ref="person2006">Sabine</persName> auf ihrer Flucht nach <placeName ref="place35">Österreich</placeName> am 18. Mai 1534 in <placeName ref="place1171">Weingarten</placeName> bei <placeName ref="place878">Ravensburg</placeName>, s. <hi>Sauter,</hi> aaO, S. 338, Anm. 103; noch Blarer BW I 499.</note>, hab begert, sich da zuͦ setzen.</s>
-					<s n="8" xml:lang="de" type="auto">Also syg im gsagt: mög er das rechtt in ir statt gen<note xml:id="fn11" type="footnote" n="11">sich dem Gericht stellen (SI VI 251).</note> etc.</s>
+					<s n="3" xml:lang="de" type="auto">Gliepter herr unnd bruͦder, nüwe zittung<note xml:id="fn3" type="footnote" n="3">Gemeint sind Neuigkeiten zum Krieg in <placeName>Württemberg</placeName>.</note>, achtend min herr Doctor von Wadt, der getrüw, und ich, ir tragend<note xml:id="fn4" type="footnote" n="4">ihr habt (<bibl>SI</bibl> XIV 453f).</note> mer dann wyr.</s>
+					<s n="4" xml:lang="de" type="auto">Desshalb, was ir witers hapt, thuͦnd im<note xml:id="fn5" type="footnote" n="5"><persName>Vadian</persName>.</note> zuͦ wissenn.</s>
+					<s n="5" xml:lang="de" type="auto">Wir hörnn, der tag zuͦ Ougspurg<note xml:id="fn6" type="footnote" n="6">Gemeint ist wohl eine nach <placeName>Augsburg</placeName> einberufene Tagung von Mitgliedern des bereits aufgelösten Schwäbischen Bundes Ende Mai/Anfang Juni, auf der über eine Friedensvermittlung in <placeName>Württemberg</placeName> beraten werden sollte, s. <bibl>Fabian, Städtetage</bibl> III 31. 131-136.</note> syg angangen; wirtt etwas bringen.</s>
+					<s n="6" xml:lang="de" type="auto">Hohen Aspar das schloss ist ufgeben<note xml:id="fn7" type="footnote" n="7">Ein nicht zutreffendes Gerücht, kapitulierte doch die Besatzung der Festung Hohenasperg erst nach starker Beschießung am 2. Juni, s. Wille 191.</note>.</s>
+					<s n="7" xml:lang="de" type="auto">Es ist die sag, der Spätt<note xml:id="fn8" type="footnote" n="8"><persName>Dietrich Spät</persName> (von Speth), gest. 1536, von <placeName>Zwiefalten</placeName>, seit 1510 Erbtruchseß des Herzogs von <placeName>Württemberg</placeName>, an dessen Hofe er der reichste Edelmann war. Seit der Ermordung <persName>Hans von Huttens</persName> durch <persName>Herzog Ulrich</persName> war Spät mit dem Herzog verfeindet und unterstützte seine Vertreibung. 1519 wurde er österreichischer Obervogt in Urach. Sein freundschaftliches Verhältnis zu <persName>Herzogin Sabine</persName> gab zu Gerüchten Anlaß. Nach der Flucht aus <placeName>Württemberg</placeName> 1534 war er kaiserlicher Rat. - Lit.: Wille 6. 185; Werner-<persName>Ulrich</persName> <hi>Deetjen,</hi> Studien zur Württembergischen Kirchenordnung <persName>Herzog Ulrichs</persName> 1534-1550. Das Herzogtum <placeName>Württemberg</placeName> im Zeitalter <persName>Herzog Ulrichs</persName> (1498-1550), die Neuordnung des Kirchengutes und der Klöster (1534-1547), Stuttgart 1981. - Quellen und Forschungen zur Württembergischen Kirchengeschichte, Bd. VII, S. 11f. 24. 40. 48; Frida <hi>Sauter,</hi> <persName>Herzogin Sabine von Wirtemberg</persName>, in: Zeitschrift für württembergische Landesgeschichte, VIII. Jg., 1944-1948, S. 314f. 325. 328. 335. 338; Theodor <hi>Schön,</hi> in: <bibl>ADB</bibl> XXXV 146.</note> der syg mitt hertzog <persName>Ulrichs</persName> gnannte frowen<note xml:id="fn9" type="footnote" n="9"><persName>Herzogin Sabine von Württemberg</persName>, 1492-1564, geborene Herzogin von <placeName>Bayern</placeName>, 1511 mit <persName>Ulrich</persName> verheiratet, entfloh 1515 in Begleitung <persName>Dietrich Späts</persName> der völlig zerrütteten Ehe nach <placeName>München</placeName>. Nach der Vertreibung <persName>Ulrichs</persName> aus <placeName>Württemberg</placeName> 1519 kehrte <persName>Sabine</persName> nach Urach zurück. Erfolglos setzte sie sich für eine Wiedereinsetzung ihres Sohnes <persName ref="p5703">Christoph</persName> ins Herzogtum ein. Die Rückkehr <persName>Ulrichs</persName> in sein Land veranlaßte sie 1534 zur erneuten Flucht, wieder zusammen mit <persName>Dietrich Spät</persName>. Die Jahre bis 1550 verbrachte sie an verschiedenen Orten in <placeName>Bayern</placeName>. <persName>Ulrichs</persName> Tod ermöglichte ihr schließlich die Rückkehr nach <placeName>Württemberg</placeName>. In <placeName>Nürtingen</placeName> verbrachte sie ihren Lebensabend. 1552 trat sie öffentlich zum evangelischen Glauben über. - Lit.: <hi>Sauter,</hi> aaO, S. 298-355.</note> gen Rafenspurg komen<note xml:id="fn10" type="footnote" n="10">In Begleitung von <persName>Dietrich Spät</persName> und vielen anderen Adligen übernachtete <persName>Sabine</persName> auf ihrer Flucht nach <placeName>Österreich</placeName> am 18. Mai 1534 in <placeName>Weingarten</placeName> bei <placeName>Ravensburg</placeName>, s. <hi>Sauter,</hi> aaO, S. 338, Anm. 103; noch <bibl>Blarer BW</bibl> I 499.</note>, hab begert, sich da zuͦ setzen.</s>
+					<s n="8" xml:lang="de" type="auto">Also syg im gsagt: mög er das rechtt in ir statt gen<note xml:id="fn11" type="footnote" n="11">sich dem Gericht stellen (<bibl>SI</bibl> VI 251).</note> etc.</s>
 					<s n="9" xml:lang="de" type="auto">Also ist er davon, die sag: gen Insprug.</s>
 					<s n="10" xml:lang="de" type="auto">Die vorcht ist hie.</s>
 					<s n="11" xml:lang="de" type="auto">Ob ir achtend, daß der hertzog bald prediger ins land stellen etc., oder was ir vernemend.</s>
@@ -139,19 +137,19 @@
 					<s n="13" xml:lang="de" type="auto">Ob der hertzog stillston oder witer handlenn etc., lond üch nit blangen<note xml:id="fn12" type="footnote" n="12">in Sorge versetzen.</note>.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="de" type="auto">Mir<note xml:id="fn13" type="footnote" n="13">Meiner.</note> frowen<note xml:id="fn14" type="footnote" n="14"><persName ref="person2399">Appolonia Vogler</persName>, geb. Baumgartner.</note> ist abermals im Rinthal von des aptz amptman<note xml:id="fn15" type="footnote" n="15">Wohl <persName ref="person1115">Hans Hasler</persName>, seit 1533 Amtmann des Abtes von <placeName ref="place1011">St. Gallen</placeName> im rheintalischen <placeName ref="place37">Altstätten</placeName>, s. HBLS IV 87.</note> alle<pb type="edition" next="187"/> rechtt abgschlagen<note xml:id="fn16" type="footnote" n="16">Die Auseinandersetzung um das im Rheintal festgehaltene Hab und Gut der <persName ref="person2399">Appolonia Vogler</persName> zog sich über mehrere Jahre hin. Während die eidgenössischen Orte wiederholt für das Anliegen der Frau eintraten, scheinen sich die lokalen Instanzen einer Regelung widersetzt zu haben. Die Akten des verwickelten Rechtsstreits stellte <persName ref="person228">Hans Vogler</persName> in seinem Familienbuch zusammen (Zürich ZB, Ms S 318, 331-353).</note>.</s>
-					<s n="15" xml:lang="de" type="auto">Es hilft der acht orten<note xml:id="fn17" type="footnote" n="17">Die acht sich in die Regierung der Landvogtei Rheintal teilenden Orte <placeName ref="place93">Uri</placeName>, <placeName ref="place79">Schwyz</placeName>, <placeName ref="place92">Unterwalden</placeName>, <placeName ref="place652">Luzern</placeName>, Zürich, <placeName ref="place1238">Zug</placeName>, <placeName ref="place22">Glarus</placeName> und <placeName ref="place4">Appenzell</placeName>.</note> ghaiß noch nüt.</s>
-					<s n="16" xml:lang="de" type="auto">Wils gott, so wird ich uff den tag<note xml:id="fn18" type="footnote" n="18">Die Tagsatzung in <placeName ref="place85">Baden</placeName> am 9. Juni 1534, an welcher erneut die Herausgabe von <persName ref="person2399">Appolonia Voglers</persName> Gütern zur Sprache kam, s. EA IV/IC 340 ss.</note> wider by üch sin.</s>
-					<s n="17" xml:lang="de" type="auto">Der her tröste üch sampt üwer husfrowen<note xml:id="fn19" type="footnote" n="19">Ehefrau; <persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note> und muͦter<note xml:id="fn20" type="footnote" n="20"><persName ref="person32">Anna Bullinger</persName>, geb. Wiederkehr.</note>.</s>
+					<s n="14" xml:lang="de" type="auto">Mir<note xml:id="fn13" type="footnote" n="13">Meiner.</note> frowen<note xml:id="fn14" type="footnote" n="14"><persName>Appolonia Vogler, geb. Baumgartner</persName>.</note> ist abermals im Rinthal von des aptz amptman<note xml:id="fn15" type="footnote" n="15">Wohl <persName>Hans Hasler</persName>, seit 1533 Amtmann des Abtes von <placeName>St. Gallen</placeName> im rheintalischen <placeName>Altstätten</placeName>, s. <bibl>HBLS</bibl> IV 87.</note> alle<pb type="edition" next="187"/> rechtt abgschlagen<note xml:id="fn16" type="footnote" n="16">Die Auseinandersetzung um das im Rheintal festgehaltene Hab und Gut der <persName>Appolonia Vogler</persName> zog sich über mehrere Jahre hin. Während die eidgenössischen Orte wiederholt für das Anliegen der Frau eintraten, scheinen sich die lokalen Instanzen einer Regelung widersetzt zu haben. Die Akten des verwickelten Rechtsstreits stellte <persName>Hans Vogler</persName> in seinem Familienbuch zusammen (Zürich ZB, Ms S 318, 331-353).</note>.</s>
+					<s n="15" xml:lang="de" type="auto">Es hilft der acht orten<note xml:id="fn17" type="footnote" n="17">Die acht sich in die Regierung der Landvogtei Rheintal teilenden Orte <placeName>Uri</placeName>, <placeName>Schwyz</placeName>, <placeName>Unterwalden</placeName>, <placeName>Luzern</placeName>, Zürich, <placeName>Zug</placeName>, <placeName>Glarus</placeName> und <placeName>Appenzell</placeName>.</note> ghaiß noch nüt.</s>
+					<s n="16" xml:lang="de" type="auto">Wils gott, so wird ich uff den tag<note xml:id="fn18" type="footnote" n="18">Die Tagsatzung in <placeName>Baden</placeName> am 9. Juni 1534, an welcher erneut die Herausgabe von <persName>Appolonia Voglers</persName> Gütern zur Sprache kam, s. <bibl>EA</bibl> IV/IC 340 ss.</note> wider by üch sin.</s>
+					<s n="17" xml:lang="de" type="auto">Der her tröste üch sampt üwer husfrowen<note xml:id="fn19" type="footnote" n="19">Ehefrau; <persName>Anna Bullinger, geb. Adlischwyler</persName>.</note> und muͦter<note xml:id="fn20" type="footnote" n="20"><persName>Anna Bullinger, geb. Wiederkehr</persName>.</note>.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="de" type="auto">Actum yn yl, <placeName ref="place1011">S. Gallen</placeName>, fritag vorm pfingstag anno 34 jar.</s>
+					<s n="18" xml:lang="de" type="auto">Actum yn yl, <placeName>S. Gallen</placeName>, fritag vorm pfingstag anno 34 jar.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="de" type="auto">Gruͤtzend mir <persName ref="person114">Leonem</persName><note xml:id="fn21" type="footnote" n="21"><persName ref="person114">Leo Jud</persName>.</note> und andre.</s>
+					<s n="19" xml:lang="de" type="auto">Gruͤtzend mir <persName ref="p1753">Leonem</persName><note xml:id="fn21" type="footnote" n="21"><persName ref="p2305">Leo Jud</persName>.</note> und andre.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="de" type="auto">Üwer williger <persName ref="person228">Hans Vogler</persName>.</s>
+					<s n="20" xml:lang="de" type="auto">Üwer williger <persName ref="p8071">Hans Vogler</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

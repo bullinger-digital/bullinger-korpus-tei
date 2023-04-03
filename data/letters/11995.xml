@@ -6,48 +6,39 @@
 				<title subtype="file">Ambrosius Blarer / [Konstanz] AN Heinrich Bullinger, 29. Juli [1544]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1948</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">319</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357a,653</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Findet sich mit der Verzögerung ihrer Pläne ab und interpretiert diese als göttlichen Willen; lasst uns
-								Gott vertrauen. Übersendet einen Brief von <persName ref="person20657">[Wolfgang] Musculus</persName>, Bullinger kann seine Antwort an
-								<persName ref="person19">Blarer</persName> senden. Grüße; wird an <persName ref="person21390">[Rudolf] Gwalther</persName> schreiben. Hat das Geld
+								Gott vertrauen. Übersendet einen Brief von <persName ref="p8417">[Wolfgang] Musculus</persName>, Bullinger kann seine Antwort an
+								<persName ref="p8055">Blarer</persName> senden. Grüße; wird an <persName ref="p8011">[Rudolf] Gwalther</persName> schreiben. Hat das Geld
 								empfangen.
 							</p>
 						</summary>
@@ -58,7 +49,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
-								<title>Blarer BW II, S. 276, Nr. 1106</title>
+								<title>Blarer BW II, S.276, Nr. 1106</title>
+							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 1948, S.319</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -68,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11995">
 				<correspAction type="sent">
-					<persName ref="person392" cert="high">
+					<persName ref="p392" cert="high">
 						<!--
 						<surname cert="high">Blarer</surname>
 						<forename cert="high">Ambrosius</forename>
@@ -79,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1544-07-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -118,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -130,16 +124,16 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Non est, quo[d literis tu?] is<note xml:id="fna" type="footnote" n="a"><hi>Ein Stück des Textes wurde herausgeschnitten.</hi></note> respondeam,<note xml:id="fn1" type="footnote" n="1">Bullingers Brief ist nicht erhalten.</note> nisi quod boni consulo, quicquid iniectum est remorarum huic, quod nosti, instituto, mi venerande pariter et charissime frater, neque dubito, quin singulari cęlestis patris consilio<pb type="edition" next="320"/> factum sit, quod non potuit successus aliquis esse tot annorum in hac re conatuum<note xml:id="fn2" type="footnote" n="2"><persName ref="person19">Blarer</persName> bezieht sich wahrscheinlich auf den möglichen Anschluss von <placeName ref="place565">Konstanz</placeName> an die Eidgenossenschaft; s. zuletzt oben <ref target="file11966">Nr. 1919</ref>, 18-45.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Non est, quo[d literis tu?] is<note xml:id="fna" type="footnote" n="a"><hi>Ein Stück des Textes wurde herausgeschnitten.</hi></note> respondeam,<note xml:id="fn1" type="footnote" n="1">Bullingers Brief ist nicht erhalten.</note> nisi quod boni consulo, quicquid iniectum est remorarum huic, quod nosti, instituto, mi venerande pariter et charissime frater, neque dubito, quin singulari cęlestis patris consilio<pb type="edition" next="320"/> factum sit, quod non potuit successus aliquis esse tot annorum in hac re conatuum<note xml:id="fn2" type="footnote" n="2"><persName>Blarer</persName> bezieht sich wahrscheinlich auf den möglichen Anschluss von <placeName>Konstanz</placeName> an die Eidgenossenschaft; s. zuletzt oben <ref target="file11966">Nr. 1919</ref>, 18-45.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Olim, tamen, puto utrinque videbimus consilii huius non obscuram rationem.</s>
 					<s n="4" xml:lang="la" type="auto">Valde me solatur in istis dubiis temporibus, quod non certa solum, sed optima quoque de nobis constituit, qui solus rerum, velit nolit mundus<note xml:id="fn3" type="footnote" n="3">Hieronymus, Epistulae, 45, 7.</note>, potitur; illi nos, quam feliciter possumus, tam etiam, quanti quanti sumus, permittamus.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Bene vale, mi Bullingere, nosque sanctissima pertinacia perpetuo ama, Christo nos et nostros piis votis diligenter commendans.</s>
-					<s n="6" xml:lang="la" type="auto">Mitto <persName ref="person20657">Musculi</persName> literas<note xml:id="fn4" type="footnote" n="4">Oben <ref target="file11990">Nr. 1943</ref>.</note>; ad quem si quid forte rescribere volueris, mitte<note xml:id="fn5" type="footnote" n="5">Auf Bullingers (verschollene) Antwort antwortete <persName ref="person20657">Musculus</persName> am 19. September 1544, unten <ref target="file12038">Nr. 1991</ref>.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Mitto <persName ref="p8417">Musculi</persName> literas<note xml:id="fn4" type="footnote" n="4">Oben <ref target="file11990">Nr. 1943</ref>.</note>; ad quem si quid forte rescribere volueris, mitte<note xml:id="fn5" type="footnote" n="5">Auf Bullingers (verschollene) Antwort antwortete <persName>Musculus</persName> am 19. September 1544, unten <ref target="file12038">Nr. 1991</ref>.</note>.</s>
 					<s n="7" xml:lang="la" type="auto">Saluta omnes fratres et amicos cum tota tua domo.</s>
-					<s n="8" xml:lang="la" type="auto">Commenda nos optimo consuli Röstio<note xml:id="fn6" type="footnote" n="6"><persName ref="person180">Diethelm Röist</persName>.</note>.</s>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person21390">Gvalthero</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person21390">Rudolf Gwalther</persName>.</note> scribam, ubi primum vacabit;<note xml:id="fn8" type="footnote" n="8">Der nächste erhaltene Brief <persName ref="person19">Blarers</persName> an <persName ref="person21390">Gwalther</persName> datiert vom 8. Oktober (<persName ref="person19">Blarer</persName> BW II 305f, <ref target="file11175">Nr. 1132</ref>).</note> tu hominem mea vice amantissime saluta.</s>
+					<s n="8" xml:lang="la" type="auto">Commenda nos optimo consuli Röstio<note xml:id="fn6" type="footnote" n="6"><persName>Diethelm Röist</persName>.</note>.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p8011">Gvalthero</persName><note xml:id="fn7" type="footnote" n="7"><persName>Rudolf Gwalther</persName>.</note> scribam, ubi primum vacabit;<note xml:id="fn8" type="footnote" n="8">Der nächste erhaltene Brief <persName>Blarers</persName> an <persName>Gwalther</persName> datiert vom 8. Oktober (<persName>Blarer</persName> BW II 305f, <ref target="file11175">Nr. 1132</ref>).</note> tu hominem mea vice amantissime saluta.</s>
 					<s n="10" xml:lang="la" type="auto">Iterum vale.</s>
 					<s n="11" xml:lang="la" type="auto">29. iulii<note xml:id="fnb" type="footnote" n="b"><hi>Darunter von Traugott Schieß' Hand:</hi> 1544.</note>.</s>
 				</p>

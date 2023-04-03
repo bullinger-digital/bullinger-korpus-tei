@@ -6,68 +6,63 @@
 				<title subtype="file">Oswald Myconius / Basel AN Heinrich Bullinger, 1. September 1543</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2008</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17459-0</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1782</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">13</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1543</biblScope>
-				<biblScope unit="page">251</biblScope>
-				<biblScope unit="pages">381</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 13 (Briefe des Jahres 1543), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2008, 381 S., ISBN 978-3-290-17459-0.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,274</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Kann nicht mehr als dies schreiben: Hat noch keine Nachricht vom Krieg in
-								<placeName ref="place46">Niederdeutschland</placeName>; Kaiser
-								[<persName ref="person1332">Karl V.</persName>] war kürzlich noch in
-								<placeName ref="place1334">Bonn</placeName>, weshalb auch <persName ref="person28">Bucer</persName>
-								länger dort bleibt; möchte wissen, wie [Diethelm]
-								<persName ref="person180">Röist</persName> über sein Gespräch mit
-								<persName ref="person977">[Heinrich] Glarean</persName> urteilt, und
-								bittet um Nachricht über [die Einnahme der Stadt] <placeName ref="place786">Nizza</placeName>. Gruß.
-								Bullinger soll den Brief von [Petrus]
-								<persName ref="person47">Dasypodius</persName> zurücksenden.
+								<placeName>Niederdeutschland</placeName>; <persName ref="p18538">Kaiser [Karl V.]</persName> war kürzlich noch in
+								<placeName>Bonn</placeName>, weshalb auch <persName ref="p467">Bucer</persName>
+								länger dort bleibt; möchte wissen, wie <persName ref="p2816">[Diethelm] Röist</persName> über sein Gespräch mit
+								<persName ref="p4968">[Heinrich] Glarean</persName> urteilt, und
+								bittet um Nachricht über [die Einnahme der Stadt] <placeName>Nizza</placeName>. Gruß.
+								Bullinger soll den Brief von <persName ref="p8320">[Petrus] Dasypodius</persName> zurücksenden.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 13, Nr. 1782, S.251</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11828">
 				<correspAction type="sent">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -78,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1543-09-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -117,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,19 +126,19 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Nihil aliud potui, quam quod vides.</s>
 					<s n="3" xml:lang="la" type="auto">De bello Inferioris Germanię<note xml:id="fn1" type="footnote" n="1">Vgl. zuletzt oben <ref target="file11821">Nr. 1775</ref>, 9-29.</note> nondum quicquam habeo.</s>
-					<s n="4" xml:lang="la" type="auto">Cęsar non multo ante fuit adhuc <placeName ref="place1334">Bonnę</placeName>, quamobrem et <persName ref="person28">Bucerus</persName> tardat<note xml:id="fn2" type="footnote" n="2"><persName ref="person28">Bucer</persName> blieb bis zum 27. August; zu seinen Begegnungen mit kaiserlichen Theologen während des Aufenthalts von Kaiser <persName ref="person1332">Karl V.</persName> in <placeName ref="place1334">Bonn</placeName> (17.-20. August) und zum Abschluss seines dortigen Wirkens s. <hi>Pollet,</hi> Relations I 122-126.</note>.</s>
-					<s n="5" xml:lang="la" type="auto"><persName ref="person977">Glareanus</persName> stulte confabulatus dicitur cum Röstio;<note xml:id="fn3" type="footnote" n="3">Über ein Gespräch von <persName ref="person977">Heinrich Glarean</persName> mit <persName ref="person180">Diethelm Röist</persName> ist sonst nichts bekannt.</note> velim<pb type="edition" next="252"/> scire, quid hic iudicaret.</s>
-					<s n="6" xml:lang="la" type="auto">De Nisa, quam <placeName ref="place786">Niceam</placeName> vocant, velim scire pariter, siquid haberes<note xml:id="fn4" type="footnote" n="4">Nachdem <placeName ref="place786">Nizza</placeName> vom 10. August an durch die französisch-türkische Flotte belagert worden war, hatte sich die Stadt (ohne die Festung) am 22. August ergeben; s. Ion <hi>Ursu,</hi> La politique orientale de François Ier (1515-1547), Paris 1908, 143f.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Cęsar non multo ante fuit adhuc <placeName>Bonnę</placeName>, quamobrem et <persName ref="p467">Bucerus</persName> tardat<note xml:id="fn2" type="footnote" n="2"><persName ref="p18198">Bucer</persName> blieb bis zum 27. August; zu seinen Begegnungen mit kaiserlichen Theologen während des Aufenthalts von <persName>Kaiser Karl V.</persName> in <placeName>Bonn</placeName> (17.-20. August) und zum Abschluss seines dortigen Wirkens s. <hi>Pollet,</hi> Relations I 122-126.</note>.</s>
+					<s n="5" xml:lang="la" type="auto"><persName ref="p4968">Glareanus</persName> stulte confabulatus dicitur cum Röstio;<note xml:id="fn3" type="footnote" n="3">Über ein Gespräch von <persName>Heinrich Glarean</persName> mit <persName>Diethelm Röist</persName> ist sonst nichts bekannt.</note> velim<pb type="edition" next="252"/> scire, quid hic iudicaret.</s>
+					<s n="6" xml:lang="la" type="auto">De Nisa, quam <placeName>Niceam</placeName> vocant, velim scire pariter, siquid haberes<note xml:id="fn4" type="footnote" n="4">Nachdem <placeName>Nizza</placeName> vom 10. August an durch die französisch-türkische Flotte belagert worden war, hatte sich die Stadt (ohne die Festung) am 22. August ergeben; s. Ion <hi>Ursu,</hi> La politique orientale de François Ier (1515-1547), Paris 1908, 143f.</note>.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Vale cum tuis omnibus.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName>, ipsis kalendis septembris anno 1543.</s>
+					<s n="8" xml:lang="la" type="auto"><placeName>Basileae</placeName>, ipsis kalendis septembris anno 1543.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Literas <persName ref="person47">Dasypodii</persName><note xml:id="fn5" type="footnote" n="5">Der Brief von <persName ref="person47">Petrus Dasypodius</persName> ist nicht erhalten.</note> remittito.</s>
-					<s n="10" xml:lang="la" type="auto"><persName ref="person154">Os. Myconius</persName> tuus.</s>
+					<s n="9" xml:lang="la" type="auto">Literas <persName ref="p8320">Dasypodii</persName><note xml:id="fn5" type="footnote" n="5">Der Brief von <persName>Petrus Dasypodius</persName> ist nicht erhalten.</note> remittito.</s>
+					<s n="10" xml:lang="la" type="auto"><persName ref="p8418">Os. Myconius</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

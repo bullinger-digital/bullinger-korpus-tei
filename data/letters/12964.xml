@@ -6,40 +6,31 @@
 				<title subtype="file">Luzi Heim / [Chur] AN Heinrich Bullinger, 27. Mai [1547]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2021</date>
-				<idno subtype="ISBN">ISBN 978-3-290-18354-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2915</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XX</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Häfner, Yvonne; Steiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">20</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">April bis Dezember 1547</biblScope>
-				<biblScope unit="page">222</biblScope>
-				<biblScope unit="pages">807</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 20 (Briefe von April bis Dezember 1547), bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Original">E II 441,218</idno>
 					</msIdentifier>
 					<msContents>
@@ -61,8 +52,7 @@
 								erschlugen sie alle Spanier in der Stadt, bis zu 1000 an der Zahl.
 								</p>
 								<p xml:id="regest4">
-								[4] Der Vizekönig flüchtete in eine Burg nach <persName ref="person23422">Gaeta</persName> und forderte den Herzog von Florenz, Cosimo I. de’
-								<persName ref="person23582">Medici</persName>, wie auch <persName ref="person718">Andrea Doria</persName> und dessen Streitkräfte zur militärischen Hilfe auf. Inzwischen haben die
+								[4] Der Vizekönig flüchtete in eine Burg nach <placeName>Gaeta</placeName> und forderte den Herzog von Florenz, <persName>Cosimo I. de' Medici</persName>, wie auch <persName ref="p17784">Andrea Doria</persName> und dessen Streitkräfte zur militärischen Hilfe auf. Inzwischen haben die
 								Neapolitaner ihr Heer auf 30000 Mann aufgestockt. Es ist zu fürchten, dass die Rebellion sich über ganz
 								Italien ausweiten könnte.
 								</p>
@@ -76,24 +66,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 20, Nr. 2915, S.222</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12964">
 				<correspAction type="sent">
-					<persName ref="person1407" cert="high">
+					<persName ref="p1407" cert="high">
 						<!--
 						<surname cert="high">Heim</surname>
 						<forename cert="high">Luzi</forename>
 						<persName type="main" ref="person8013>Heim, Luzi</persName>
 						-->
 					</persName>
-					<placeName source="place98" cert="low"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="low"><orig>Chur</orig></placeName>
 					<date when="1547-05-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -123,7 +120,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -134,8 +131,8 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Ursach der neapolitanischer empörung<note xml:id="fn3" type="footnote" n="3">Siehe dazu <ref target="file12937">Nr. 2888</ref>, <qv>fn17155-1</qv>.</note>, us Rom, den 21. mey geben:</s>
-					<s n="2" xml:lang="de" type="manual">Die<note xml:id="fn4" type="footnote" n="4">Zu verstehen: Als die.</note> inquisicion der luterischen sect, so viceroi<note xml:id="fn5" type="footnote" n="5">Pedro Álvarez de Toledo, gest. 1553.</note> im <ptr target="fnb" type="footnote" n="b"/>[k]üngrich Neapolis<note xml:id="fnb" type="footnote" n="b"><hi>Am Rande nachgetragen. Text teils in engem Einband verdeckt.</hi></note> angesehen<note xml:id="fn6" type="footnote" n="6">angeordnet (hat); s. <abbr>SI</abbr> VII 555f.</note>, in der 3 burger erfunden<note xml:id="fn7" type="footnote" n="7">aufgespürt; s. <abbr>SI</abbr> I 848.</note> und gefangen, willens, die zu verprennen, ist alles volck empört, sich dem houptman<note xml:id="fn8" type="footnote" n="8">Unbekannt. - Die Quellen, die in <ref target="file12937">Nr. 2888</ref>, <qv>fn17155-1</qv>, angeführt sind, erlauben keine sichere Identifikation dieses Hauptmanns. Wird damit vielleicht auf den Volksdeputierten <persName ref="person23786">Domenico Terracini</persName> angespielt, der dem Vizekönig ergeben war und vom Volk abgesetzt wurde? Siehe dazu Hubert <hi>Jedin</hi>, Girolamo Seripando. Sein Leben und Denken im Geisteskampf des 16. Jahrhunderts, Bd. 1, Würzburg 1984, S. 472, wo Terracini allerdings irrtümlich den Vornamen "Tommaso" trägt.</note> und der inquisicion widerstelt<note xml:id="fn9" type="footnote" n="9">widersetzt; s. <abbr>SI</abbr> XI 196.</note>, den houptman im abwesen viciroi gefangen, damit die 3 burger entlediget.</s>
+					<s n="1" xml:lang="de" type="auto">Ursach der neapolitanischer empörung<note xml:id="fn3" type="footnote" n="3">Siehe dazu <ref target="file12937">Nr. 2888</ref>, <ptr target="qvfn17155-1" type="qv"/>.</note>, us Rom, den 21. mey geben:</s>
+					<s n="2" xml:lang="de" type="manual">Die<note xml:id="fn4" type="footnote" n="4">Zu verstehen: Als die.</note> inquisicion der luterischen sect, so viceroi<note xml:id="fn5" type="footnote" n="5">Pedro Álvarez de Toledo, gest. 1553.</note> im <ptr target="fnb" type="footnote" n="b"/>[k]üngrich Neapolis<note xml:id="fnb" type="footnote" n="b"><hi>Am Rande nachgetragen. Text teils in engem Einband verdeckt.</hi></note> angesehen<note xml:id="fn6" type="footnote" n="6">angeordnet (hat); s. <bibl>SI</bibl> VII 555f.</note>, in der 3 burger erfunden<note xml:id="fn7" type="footnote" n="7">aufgespürt; s. <bibl>SI</bibl> I 848.</note> und gefangen, willens, die zu verprennen, ist alles volck empört, sich dem houptman<note xml:id="fn8" type="footnote" n="8">Unbekannt. - Die Quellen, die in <ref target="file12937">Nr. 2888</ref>, <ptr target="qvfn17155-1" type="qv"/>, angeführt sind, erlauben keine sichere Identifikation dieses Hauptmanns. Wird damit vielleicht auf den Volksdeputierten <persName>Domenico Terracini</persName> angespielt, der dem Vizekönig ergeben war und vom Volk abgesetzt wurde? Siehe dazu Hubert <hi>Jedin</hi>, Girolamo Seripando. Sein Leben und Denken im Geisteskampf des 16. Jahrhunderts, Bd. 1, Würzburg 1984, S. 472, wo Terracini allerdings irrtümlich den Vornamen "Tommaso" trägt.</note> und der inquisicion widerstelt<note xml:id="fn9" type="footnote" n="9">widersetzt; s. <bibl>SI</bibl> XI 196.</note>, den houptman im abwesen viciroi gefangen, damit die 3 burger entlediget.</s>
 				</p>
 			</div>
 			<div xml:id="div2" corresp="regest2">
@@ -153,9 +150,9 @@
 			</div>
 			<div xml:id="div4" corresp="regest4">
 				<p>
-					<s n="8" xml:lang="de" type="auto">Welchs so viceroi gesehen, ist er gen Gaietta<note xml:id="fn15" type="footnote" n="15"><persName ref="person23422">Gaeta</persName> (Latina, Italien), etwa 90 km nördlich von Neapel.</note> in ein vesti<note xml:id="fn16" type="footnote" n="16">Burg; s. <abbr>Lexer</abbr> III 327.</note> gewichen, da ermant<note xml:id="fn17" type="footnote" n="17">aufgefordert.</note> den hertzog von Florentz<note xml:id="fn18" type="footnote" n="18">Cosimo I. de' <persName ref="person23582">Medici</persName>.</note> und den Anthoni <persName ref="person718">Doria</persName><note xml:id="fn19" type="footnote" n="19">Gemeint ist <persName ref="person718">Andrea Doria</persName>; s. <abbr>HBBW</abbr> VIII 270.</note> mit siner armada.<note xml:id="fn20" type="footnote" n="20">Streitmacht.</note></s>
+					<s n="8" xml:lang="de" type="auto">Welchs so viceroi gesehen, ist er gen Gaietta<note xml:id="fn15" type="footnote" n="15"><placeName>Gaeta (Latina, Italien)</placeName>, etwa 90 km nördlich von Neapel.</note> in ein vesti<note xml:id="fn16" type="footnote" n="16">Burg; s. <bibl>Lexer</bibl> III 327.</note> gewichen, da ermant<note xml:id="fn17" type="footnote" n="17">aufgefordert.</note> den hertzog von Florentz<note xml:id="fn18" type="footnote" n="18"><persName>Cosimo I. de' Medici</persName>.</note> und den Anthoni <persName ref="p17784">Doria</persName><note xml:id="fn19" type="footnote" n="19">Gemeint ist <persName>Andrea Doria</persName>; s. <bibl>HBBW</bibl> VIII 270.</note> mit siner armada.<note xml:id="fn20" type="footnote" n="20">Streitmacht.</note></s>
 					<s n="9" xml:lang="de" type="auto">Harwiderumb hand sich die Neapolitaner pis in die 30 tusendt ouch gestert.<note xml:id="fn21" type="footnote" n="21">gestärkt.</note></s>
-					<s n="10" xml:lang="de" type="auto">Und würdt sich dise emporung, als man acht<note xml:id="fnc" type="footnote" n="c"><hi>Fehlt in der Vorlage.</hi></note>, ouch in <placeName ref="place16">Italiam</placeName> strecken.</s>
+					<s n="10" xml:lang="de" type="auto">Und würdt sich dise emporung, als man acht<note xml:id="fnc" type="footnote" n="c"><hi>Fehlt in der Vorlage.</hi></note>, ouch in <placeName>Italiam</placeName> strecken.</s>
 					<s n="11" xml:lang="de" type="auto">Der her verlich sin gnad!</s>
 					<s n="12" xml:lang="de" type="auto">Amen.<pb type="edition" next="223"/></s>
 				</p>

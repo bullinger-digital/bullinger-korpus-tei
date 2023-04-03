@@ -6,49 +6,40 @@
 				<title subtype="file">Martin Bucer / Tübingen AN Heinrich Bullinger, 15. Februar 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=531</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">109</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,425r-v</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Entschuldigt sich für die falsche Verdächtigung, Bullinger sei nicht zu einer Zusammenkunft mit ihm bereit;
-								hat erst nachträglich erfahren, daß dieser nicht ohne die <placeName ref="place121">Berner</placeName>
-								und Basler [nach <placeName ref="place565">Konstanz</placeName>] kommen konnte. Will aus
-								<placeName ref="place70">Augsburg</placeName> mehr über ein solches Treffen schreiben und hält weitere
+								hat erst nachträglich erfahren, daß dieser nicht ohne die <placeName>Berner</placeName>
+								und Basler [nach <placeName>Konstanz</placeName>] kommen konnte. Will aus
+								<placeName>Augsburg</placeName> mehr über ein solches Treffen schreiben und hält weitere
 								Gespräche für notwendig.
 							</p>
 						</summary>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 531, S.109</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10567">
 				<correspAction type="sent">
-					<persName ref="person467" cert="high">
+					<persName ref="p467" cert="high">
 						<!--
 						<surname cert="high">Bucer</surname>
 						<forename cert="high">Martin</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11483585"/>
 						-->
 					</persName>
-					<placeName source="place512" cert="high"><orig>Tübingen</orig></placeName>
+					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1535-02-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,24 +123,24 @@
 					<s n="1" xml:lang="la" type="auto">S[alutem] d[ico], Bullingere observande.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Didici in hoc itinere<note xml:id="fn2" type="footnote" n="2">Vgl. oben <ref target="file10553">Nr. 517</ref>, Anm. 6.</note> te turbari, quod falsum de te suspicatus sum<note xml:id="fn3" type="footnote" n="3"><persName ref="person28">Bucer</persName> hatte Bullinger vorgeworfen, er verweigere ihm eine Zusammenkunft; vgl. HBBW IV, <ref target="file10530">Nr. 494</ref>.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Didici in hoc itinere<note xml:id="fn2" type="footnote" n="2">Vgl. oben <ref target="file10553">Nr. 517</ref>, Anm. 6.</note> te turbari, quod falsum de te suspicatus sum<note xml:id="fn3" type="footnote" n="3"><persName ref="p18198">Bucer</persName> hatte Bullinger vorgeworfen, er verweigere ihm eine Zusammenkunft; vgl. <bibl>HBBW</bibl> IV, <ref target="file10530">Nr. 494</ref>.</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Oro, istuc mihi condones; nam video et agnosco me falsum esse.</s>
-					<s n="4" xml:lang="la" type="auto">Sed caussa ea fuit, quod tu veram caussam in tuis literis<note xml:id="fn4" type="footnote" n="4">Gemeint ist wohl das nicht erhaltene Begleitschreiben zum Zürcher Abendmahlsbekenntnis vom Dezember 1534 (vgl. HBBW IV <ref target="file10532">[Nr. 496]</ref>, S. 454, Anm. 2). Unterdessen hatte Bullinger sein Fernbleiben vom <placeName ref="place565">Konstanzer</placeName> Treffen näher begründet und <persName ref="person28">Bucer</persName> eine Zusammenkunft unter Beteiligung der <placeName ref="place121">Berner</placeName> und Basler angeboten; vgl. oben <ref target="file10564">Nr. 528</ref>, 31-46.</note> non expresseras adiecerasque non videri tibi, ad quid opus esset tua praesentia, cum scripto vestram confessionem<note xml:id="fn5" type="footnote" n="5">HBBW IV, <ref target="file10518">Nr. 482</ref>.</note> abunde expresseritis nec possitis ultra quicquam dare, ut qui nesciatis cauponari verbum dei<note xml:id="fn6" type="footnote" n="6">Vgl. ebd., S. 428, 219. <persName ref="person779">Erasmus</persName> gebraucht diese Wendung bei der Übersetzung von 2Kor 2, 17 (s. LB VI 758, Anm. 20).</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Sed caussa ea fuit, quod tu veram caussam in tuis literis<note xml:id="fn4" type="footnote" n="4">Gemeint ist wohl das nicht erhaltene Begleitschreiben zum Zürcher Abendmahlsbekenntnis vom Dezember 1534 (vgl. <bibl>HBBW IV</bibl> <ref target="file10532">[Nr. 496]</ref>, S. 454, Anm. 2). Unterdessen hatte Bullinger sein Fernbleiben vom <placeName>Konstanzer</placeName> Treffen näher begründet und <persName ref="p18198">Bucer</persName> eine Zusammenkunft unter Beteiligung der <placeName>Berner</placeName> und Basler angeboten; vgl. oben <ref target="file10564">Nr. 528</ref>, 31-46.</note> non expresseras adiecerasque non videri tibi, ad quid opus esset tua praesentia, cum scripto vestram confessionem<note xml:id="fn5" type="footnote" n="5"><bibl>HBBW</bibl> IV, <ref target="file10518">Nr. 482</ref>.</note> abunde expresseritis nec possitis ultra quicquam dare, ut qui nesciatis cauponari verbum dei<note xml:id="fn6" type="footnote" n="6">Vgl. ebd., S. 428, 219. <persName>Erasmus</persName> gebraucht diese Wendung bei der Übersetzung von 2Kor 2, 17 (s. <bibl>LB</bibl> VI 758, Anm. 20).</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Hinc quid aliud potui animadvertere, quam vos nolle colloqui et de nobis iudicare, ut qui velint verbum domini cauponari?</s>
 					<s n="6" xml:lang="la" type="auto">Nam petebamus ultra scriptum illud<note xml:id="fna" type="footnote" n="a">scriptum illud <hi>am Rande nachgetragen.</hi></note> colloquium vestrum et in eo, ut plura daretis, quam dedistis, maxime quantum ad verba attinet.</s>
 					<s n="7" xml:lang="la" type="auto">Videor enim videre vos rem ipsam agnoscere.</s>
-					<s n="8" xml:lang="la" type="auto">Si vel verbo significasses non esse integrum vobis sine <placeName ref="place121">Bernatibus</placeName> et <placeName ref="place97">Basiliensibus</placeName> venire, cum eam ipsam caussam suspicatus essem obstituram, ego profecto nihil motus fuissem.</s>
+					<s n="8" xml:lang="la" type="auto">Si vel verbo significasses non esse integrum vobis sine <placeName>Bernatibus</placeName> et <placeName>Basiliensibus</placeName> venire, cum eam ipsam caussam suspicatus essem obstituram, ego profecto nihil motus fuissem.</s>
 					<s n="9" xml:lang="la" type="auto">Obsecro nunc, ut dominum oretis, uti is nos plene iungat.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Ex <placeName ref="place70">Augusta</placeName> scribam plura<note xml:id="fn7" type="footnote" n="7"><persName ref="person28">Bucer</persName> schrieb erst wieder an Bullinger, nachdem er von <placeName ref="place70">Augsburg</placeName> nach <placeName ref="place1049">Straßburg</placeName> zurückgekehrt war (s. unten <ref target="file10661">Nr. 623</ref>).</note>, et de nostro alicubi conventu.</s>
+					<s n="10" xml:lang="la" type="auto">Ex <placeName>Augusta</placeName> scribam plura<note xml:id="fn7" type="footnote" n="7"><persName ref="p18198">Bucer</persName> schrieb erst wieder an Bullinger, nachdem er von <placeName>Augsburg</placeName> nach <placeName>Straßburg</placeName> zurückgekehrt war (s. unten <ref target="file10661">Nr. 623</ref>).</note>, et de nostro alicubi conventu.</s>
 					<s n="11" xml:lang="la" type="auto">Nam vel nihil video vel valde necessarium est nos sępius convenire atque de religionis nostrae locis nos solidius tractare.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><pb type="edition" next="110"/>Optime vale et commenda me pientissimis viris, <persName ref="person114">Leoni</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="person114">Leo Jud</persName>.</note></s>
+					<s n="12" xml:lang="la" type="auto"><pb type="edition" next="110"/>Optime vale et commenda me pientissimis viris, <persName ref="p1753">Leoni</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="p2305">Leo Jud</persName>.</note></s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><pb type="scan" next="||425v."/><placeName ref="place1107">Tubingae</placeName>, 15. februarii.</s>
+					<s n="13" xml:lang="la" type="auto"><pb type="scan" next="||425v."/><placeName>Tubingae</placeName>, 15. februarii.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">M. Bucęrus.</s>

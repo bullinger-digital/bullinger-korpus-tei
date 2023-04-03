@@ -6,50 +6,41 @@
 				<title subtype="file">Johannes Ritter / Konstanz AN Heinrich Bullinger, 11. Februar 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=525</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">94</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 362,32</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Wurde von Vogt <persName ref="person1517">Jakob Locher</persName> und den Weinfelder Katholiken beim
+								Wurde von Vogt <persName ref="p5506">Jakob Locher</persName> und den Weinfelder Katholiken beim
 								Landvogt [Christoph von
-								<persName ref="person2194">Sonnenberg</persName>] derart verunglimpft, daß dieser ihn festnehmen lassen
+								<persName ref="p7797">Sonnenberg</persName>] derart verunglimpft, daß dieser ihn festnehmen lassen
 								wollte, dann aber, als er den Knechten entwischte, seine Habe mit Beschlag belegte; er befindet sich bei
-								<persName ref="person263">Johannes Zwick</persName> in <placeName ref="place565">Konstanz</placeName>
+								<persName ref="p4079">Johannes Zwick</persName> in <placeName>Konstanz</placeName>
 								und teilt dies Bullinger mit, damit man [in Zürich] wachsam bleibt.
 							</p>
 						</summary>
@@ -57,24 +48,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 525, S.94</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10561">
 				<correspAction type="sent">
-					<persName ref="person2818" cert="high">
+					<persName ref="p2818" cert="high">
 						<!--
 						<surname cert="high">Ritter</surname>
 						<forename cert="high">Johannes</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1139798308"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1535-02-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -100,7 +98,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -114,19 +112,19 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax a deo etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Lieber Meister Heinrich, alß ich kurtz verschinen tagen by üch gewesen bin, hab ich den<note xml:id="fna" type="footnote" n="a">den <hi>übergeschrieben.</hi></note> handel und anklag, for dem landtvogt<note xml:id="fn2" type="footnote" n="2">Eidgenössischer Landvogt in der Landgrafschaft <placeName ref="place87">Thurgau</placeName> war <persName ref="person2194">Christoph von Sonnenberg</persName> aus <placeName ref="place652">Luzern</placeName>.</note> zuͦ Frowenfeld, beschehen durch die messgsellen<note xml:id="fn3" type="footnote" n="3">Gemeint sind <persName ref="person177">Ritters</persName> katholische Widersacher in <placeName ref="place1170">Weinfelden</placeName>.</note> zuͦ Wynfelden und besunders durch <persName ref="person1517">Jocob Locher</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person1517">Jakob Locher</persName> von <placeName ref="place187">Brugg</placeName> (Kt. Aargau) war 1534 Vogt in der im Besitz der Familie Muntprat befindlichen Herrschaft <placeName ref="place1170">Weinfelden</placeName> (vgl. J. J. <hi>Wälli,</hi> aaO, S. 23). Vielleicht handelt es sich um jenen <persName ref="person1517">Jakob Locher</persName>, der in <placeName ref="place187">Brugg</placeName> Weibel, dann Ratsherr und schließlich, 1527-1530, Schaffner des Klosters <placeName ref="place1206">Wittichen</placeName> im Schwarzwald war (vgl. Max <hi>Banholzer,</hi> Geschichte der Stadt <placeName ref="place187">Brugg</placeName> im 15. und 16. Jahrhundert. Gestalt und Wandlung einer schweizerischen Kleinstadt, Diss. Zürich, Aarau 1961, S. 81. 207).</note>, vogt daselbs, und houptman Eberli<note xml:id="fn5" type="footnote" n="5"><persName ref="person274">Hans Reinhart Aberli</persName> (Eberli) gehörte zu den führenden Männern <placeName ref="place1170">Weinfeldens</placeName>. Im Jahre 1529 reiste er zusammen mit Ammann <persName ref="person2184">Hans Sinz</persName> und <persName ref="person1356">Großulrich Keller</persName> nach Zürich, um die Absetzung ihres Leutpriesters <persName ref="person1756">Ulrich Nör</persName> zu verlangen. Als Hauptmann führte er das Fähnlein der Weinfelder und Oberthurgauer im zweiten Kappelerkrieg; im Zürcher Kriegsrat genoß er hohe Achtung. 1538 amtete er als Ammann <placeName ref="place1170">Weinfeldens</placeName>. - Lit.: Hermann <hi>Lei,</hi> <placeName ref="place1170">Weinfelden</placeName>. Die Geschichte eines <placeName ref="place87">Thurgauer</placeName> Dorfes, <placeName ref="place1170">Weinfelden</placeName> 1983, S. 206f. 378; J. A. <hi>Pupikofer,</hi> Thurgauische Kriegsgeschichte oder Geschichte des Thurgauischen Wehrwesens und der im <placeName ref="place87">Thurgau</placeName> vorgefallenen Kriegsereignisse, in: Thurgauische Beiträge zur vaterländischen Geschichte 7, 1866, S. 51; Helmut <hi>Meyer,</hi> Der Zweite <placeName ref="place534">Kappeler</placeName> Krieg 163. 216; HBLS V 577 (dort fälschlicherweise unter Paul Reinhard).</note>, üch gnuͦgsam erzelt und anzeigt,<pb type="edition" next="95"/> namlich wie sy mir so schantlich mine wort verkert handt, und dass ich von dem friden gottis und der welt friden mitt türren<note xml:id="fn6" type="footnote" n="6">gewichtigen, eindringlichen (SI XIII 1329).</note>, kloren worten uss der götlichen gschrifft worhafftig anzeigt hab, handt sy uff yren landtsfryden<note xml:id="fn7" type="footnote" n="7">Der Friedensvertrag von 1531 (vgl. EA IV/1b 1567-1571).</note> mitt der unworheit deutet und usgelegt<note xml:id="fn8" type="footnote" n="8">Offenbar wurde der zweite Artikel des Vertrages, der ein Schmähverbot enthielt (vgl. ebd., S. 1569), gegen <persName ref="person1944">Ritter</persName> angewendet.</note>.</s>
-					<s n="3" xml:lang="de" type="auto">Uff sölches hinderrucks verklagen hab ich selbs fur den landtvogt kert<note xml:id="fn9" type="footnote" n="9">mich begeben (SI III 435).</note>, und hernach zwen verordnete botten<note xml:id="fn10" type="footnote" n="10">Unbekannt.</note> von der gmeind dessglichen thon, und in uff dass trungelichsts<note xml:id="fn11" type="footnote" n="11">eindringlich (vgl. SI XIV 1109f).</note> und flissigsts gebetten, dass er mich ouch welte verheren guͤtigklich und by recht lossen bliben und mitt mir nitt gohen<note xml:id="fn12" type="footnote" n="12">übereilig verfahren (SI II 101).</note> oder mich überfallen gwaltigklich; dann ich ym dess rechten syn wölte und des rechten erwarten<note xml:id="fn13" type="footnote" n="13">denn ich war ihm erbötig, mich dem Rechtsverfahren zu stellen und das Recht zu gewärtigen.</note>.</s>
+					<s n="2" xml:lang="de" type="auto">Lieber Meister Heinrich, alß ich kurtz verschinen tagen by üch gewesen bin, hab ich den<note xml:id="fna" type="footnote" n="a">den <hi>übergeschrieben.</hi></note> handel und anklag, for dem landtvogt<note xml:id="fn2" type="footnote" n="2">Eidgenössischer Landvogt in der Landgrafschaft <placeName>Thurgau</placeName> war <persName>Christoph von Sonnenberg</persName> aus <placeName>Luzern</placeName>.</note> zuͦ Frowenfeld, beschehen durch die messgsellen<note xml:id="fn3" type="footnote" n="3">Gemeint sind <persName>Ritters</persName> katholische Widersacher in <placeName>Weinfelden</placeName>.</note> zuͦ Wynfelden und besunders durch <persName ref="p5506">Jocob Locher</persName><note xml:id="fn4" type="footnote" n="4"><persName>Jakob Locher</persName> von <placeName>Brugg</placeName> (Kt. Aargau) war 1534 Vogt in der im Besitz der Familie Muntprat befindlichen Herrschaft <placeName>Weinfelden</placeName> (vgl. J. J. <hi>Wälli,</hi> aaO, S. 23). Vielleicht handelt es sich um jenen <persName>Jakob Locher</persName>, der in <placeName>Brugg</placeName> Weibel, dann Ratsherr und schließlich, 1527-1530, Schaffner des Klosters <placeName>Wittichen</placeName> im Schwarzwald war (vgl. Max <hi>Banholzer,</hi> Geschichte der Stadt <placeName>Brugg</placeName> im 15. und 16. Jahrhundert. Gestalt und Wandlung einer schweizerischen Kleinstadt, Diss. Zürich, Aarau 1961, S. 81. 207).</note>, vogt daselbs, und houptman Eberli<note xml:id="fn5" type="footnote" n="5"><persName>Hans Reinhart Aberli (Eberli)</persName> gehörte zu den führenden Männern <placeName>Weinfeldens</placeName>. Im Jahre 1529 reiste er zusammen mit Ammann <persName>Hans Sinz</persName> und <persName>Großulrich Keller</persName> nach Zürich, um die Absetzung ihres Leutpriesters <persName>Ulrich Nör</persName> zu verlangen. Als Hauptmann führte er das Fähnlein der Weinfelder und Oberthurgauer im zweiten Kappelerkrieg; im Zürcher Kriegsrat genoß er hohe Achtung. 1538 amtete er als Ammann <placeName>Weinfeldens</placeName>. - Lit.: Hermann <hi>Lei,</hi> <placeName>Weinfelden</placeName>. Die Geschichte eines <placeName>Thurgauer</placeName> Dorfes, <placeName>Weinfelden</placeName> 1983, S. 206f. 378; J. A. <hi>Pupikofer,</hi> Thurgauische Kriegsgeschichte oder Geschichte des Thurgauischen Wehrwesens und der im <placeName>Thurgau</placeName> vorgefallenen Kriegsereignisse, in: Thurgauische Beiträge zur vaterländischen Geschichte 7, 1866, S. 51; Helmut <hi>Meyer,</hi> Der Zweite <placeName>Kappeler</placeName> Krieg 163. 216; <bibl>HBLS</bibl> V 577 (dort fälschlicherweise unter Paul Reinhard).</note>, üch gnuͦgsam erzelt und anzeigt,<pb type="edition" next="95"/> namlich wie sy mir so schantlich mine wort verkert handt, und dass ich von dem friden gottis und der welt friden mitt türren<note xml:id="fn6" type="footnote" n="6">gewichtigen, eindringlichen (<bibl>SI</bibl> XIII 1329).</note>, kloren worten uss der götlichen gschrifft worhafftig anzeigt hab, handt sy uff yren landtsfryden<note xml:id="fn7" type="footnote" n="7">Der Friedensvertrag von 1531 (vgl. <bibl>EA</bibl> IV/1b 1567-1571).</note> mitt der unworheit deutet und usgelegt<note xml:id="fn8" type="footnote" n="8">Offenbar wurde der zweite Artikel des Vertrages, der ein Schmähverbot enthielt (vgl. ebd., S. 1569), gegen <persName>Ritter</persName> angewendet.</note>.</s>
+					<s n="3" xml:lang="de" type="auto">Uff sölches hinderrucks verklagen hab ich selbs fur den landtvogt kert<note xml:id="fn9" type="footnote" n="9">mich begeben (<bibl>SI</bibl> III 435).</note>, und hernach zwen verordnete botten<note xml:id="fn10" type="footnote" n="10">Unbekannt.</note> von der gmeind dessglichen thon, und in uff dass trungelichsts<note xml:id="fn11" type="footnote" n="11">eindringlich (vgl. <bibl>SI</bibl> XIV 1109f).</note> und flissigsts gebetten, dass er mich ouch welte verheren guͤtigklich und by recht lossen bliben und mitt mir nitt gohen<note xml:id="fn12" type="footnote" n="12">übereilig verfahren (<bibl>SI</bibl> II 101).</note> oder mich überfallen gwaltigklich; dann ich ym dess rechten syn wölte und des rechten erwarten<note xml:id="fn13" type="footnote" n="13">denn ich war ihm erbötig, mich dem Rechtsverfahren zu stellen und das Recht zu gewärtigen.</note>.</s>
 					<s n="4" xml:lang="de" type="auto">Wölches er nun den botten verheissen hatt, wie aber gehalten, dass weist man yetzund in dem gantzen Thurgöw.</s>
 					<s n="5" xml:lang="de" type="auto">Dann uff den oben<note xml:id="fn14" type="footnote" n="14">Vorabend.</note> purificationis Mariae<note xml:id="fn15" type="footnote" n="15">2. Februar 1535.</note>, als man licht hatt anzündt, hett er gesandt syne schergen und knecht, und handt mitt grosser ungestiemy, muͦtwillen und bossheit mich ob dem nachtessen understanden gfencklichen anzenemen und ze fohen als einen mörder by nacht.</s>
 					<s n="6" xml:lang="de" type="auto">Und aber der trüw gott, der wol kan die synen erretten, hett mich lossen warnen durch einen guͦten gynner.</s>
 					<s n="7" xml:lang="de" type="auto">Doch geschachs so ylends, dass ich kuͦm zuͦ einer thür hinus kam, wie sy zuͦ der andern hynin fielend.</s>
-					<s n="8" xml:lang="de" type="auto">Und als sy mir dass huß zuͦ dem andern mol durchlüffend, hand sy ouch miner hußfrouwen<note xml:id="fn16" type="footnote" n="16">Ehefrau. - Ihr Name ist nicht bekannt.</note> etlich gelt mitt dem seckel gwaltigklich genomen und mis alles verhefft<note xml:id="fn17" type="footnote" n="17">als Pfand in Beschlag genommen (vgl. SI II 1055. 1058).</note>, wass ich hab.</s>
-					<s n="9" xml:lang="de" type="auto">Also byn ich zuͦ doctor <persName ref="person263">Hans Zwick</persName><note xml:id="fn18" type="footnote" n="18">Vgl. oben Anm. 1.</note> als minem vatter geflohen, der mich also in miner armuͦt tröste und uffhalt.</s>
-					<s n="10" xml:lang="de" type="auto">Will ich nun min hab, die worlich fast<note xml:id="fn19" type="footnote" n="19">sehr (SI I 1111f).</note> klein ist, nitt gar dohinden lossen und verlieren und gar bloss mitt minen kleinen kinden<note xml:id="fn20" type="footnote" n="20">Über die Familienverhältnisse <persName ref="person1944">Ritters</persName> ist nichts bekannt.</note> darvon ziehen, muͦss ich noch dem landtvogt 5 g[uldin] geben und 20 batzen, handt sy in derselben nacht uff mich verzert, ouch bezalen und dass geroubet gelt, dass sy minem wib mitt gwalt gnomen handt, ouch verloren haben.</s>
-					<s n="11" xml:lang="de" type="auto">Also muͦss min husfrouw verkouffen fast<note xml:id="fn21" type="footnote" n="21">beinahe (SI 1113).</note>, wass wir handt, wellendt wir die summ ussrichten.</s>
+					<s n="8" xml:lang="de" type="auto">Und als sy mir dass huß zuͦ dem andern mol durchlüffend, hand sy ouch miner hußfrouwen<note xml:id="fn16" type="footnote" n="16">Ehefrau. - Ihr Name ist nicht bekannt.</note> etlich gelt mitt dem seckel gwaltigklich genomen und mis alles verhefft<note xml:id="fn17" type="footnote" n="17">als Pfand in Beschlag genommen (vgl. <bibl>SI</bibl> II 1055. 1058).</note>, wass ich hab.</s>
+					<s n="9" xml:lang="de" type="auto">Also byn ich zuͦ doctor <persName ref="p4079">Hans Zwick</persName><note xml:id="fn18" type="footnote" n="18">Vgl. oben Anm. 1.</note> als minem vatter geflohen, der mich also in miner armuͦt tröste und uffhalt.</s>
+					<s n="10" xml:lang="de" type="auto">Will ich nun min hab, die worlich fast<note xml:id="fn19" type="footnote" n="19">sehr (<bibl>SI</bibl> I 1111f).</note> klein ist, nitt gar dohinden lossen und verlieren und gar bloss mitt minen kleinen kinden<note xml:id="fn20" type="footnote" n="20">Über die Familienverhältnisse <persName>Ritters</persName> ist nichts bekannt.</note> darvon ziehen, muͦss ich noch dem landtvogt 5 g[uldin] geben und 20 batzen, handt sy in derselben nacht uff mich verzert, ouch bezalen und dass geroubet gelt, dass sy minem wib mitt gwalt gnomen handt, ouch verloren haben.</s>
+					<s n="11" xml:lang="de" type="auto">Also muͦss min husfrouw verkouffen fast<note xml:id="fn21" type="footnote" n="21">beinahe (<bibl>SI</bibl> 1113).</note>, wass wir handt, wellendt wir die summ ussrichten.</s>
 					<s n="12" xml:lang="de" type="auto">Also ellengklich gott man mitt uns um ym Thurgöw, und mögen minder zuͦ recht komen dann under den Türcken.</s>
-					<s n="13" xml:lang="de" type="auto">Söllichs hab ich üch alß minem lieben und getrüwen vatter nitt mögen verhalten,<pb type="edition" next="96"/> ob<note xml:id="fn22" type="footnote" n="22">damit.</note> doch etwa uff einen andern ein besser uffsehen<note xml:id="fn23" type="footnote" n="23">Aufsicht, Wachsamkeit (vgl. SI VII 549f).</note> geschehe.</s>
-					<s n="14" xml:lang="de" type="auto">Sölchen unfal<note xml:id="fn24" type="footnote" n="24">Unglück (SI I 739).</note> hab ich fürnemlich von <persName ref="person1517">Jocob Locher</persName>.</s>
+					<s n="13" xml:lang="de" type="auto">Söllichs hab ich üch alß minem lieben und getrüwen vatter nitt mögen verhalten,<pb type="edition" next="96"/> ob<note xml:id="fn22" type="footnote" n="22">damit.</note> doch etwa uff einen andern ein besser uffsehen<note xml:id="fn23" type="footnote" n="23">Aufsicht, Wachsamkeit (vgl. <bibl>SI</bibl> VII 549f).</note> geschehe.</s>
+					<s n="14" xml:lang="de" type="auto">Sölchen unfal<note xml:id="fn24" type="footnote" n="24">Unglück (<bibl>SI</bibl> I 739).</note> hab ich fürnemlich von <persName ref="p5506">Jocob Locher</persName>.</s>
 					<s n="15" xml:lang="de" type="auto">Wass er für ein man sy, werden ir finden in minem andern brieff<note xml:id="fn25" type="footnote" n="25">Nicht erhalten.</note>.</s>
 				</p>
 				<p>
@@ -136,7 +134,7 @@
 					<s n="17" xml:lang="la" type="auto">Datum Constantie, 11. die februarii anno 35.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto"><persName ref="person177">Johannes Rytter</persName>, quondam</s>
+					<s n="18" xml:lang="la" type="auto"><persName ref="p2818">Johannes Rytter</persName>, quondam</s>
 					<s n="19" xml:lang="la" type="auto">Wynfeldensis ecclesie minister.</s>
 				</p>
 				<p>

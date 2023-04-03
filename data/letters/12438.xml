@@ -6,40 +6,31 @@
 				<title subtype="file">Hans Escher vom Luchs / Zürich AN Heinrich Bullinger, 24. März 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2014</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17760-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2391</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVI</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">16</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Januar bis Mai 1546</biblScope>
-				<biblScope unit="page">259</biblScope>
-				<biblScope unit="pages">443</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 16 (Briefe von Januar bis Mai 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2014, 443 S., ISBN 978-3-290-17760-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 440,332, Nr. 80</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 440,261, Nr. 80</idno>
@@ -48,10 +39,10 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Der Zürcher Rat hat sich mit dem Abt von <placeName ref="place890">Rheinau</placeName> [Bonaventura von
-								<persName ref="person21196">Wellenberg</persName>] darauf geeinigt, dass ein Prädikant für <placeName ref="place1549">Marthalen</placeName>
-								gewählt werden soll, der auch für <placeName ref="place890">Rheinau</placeName>
-								und<pb type="edition" next="259"/> <placeName ref="place1311">Benken</placeName> zuständig ist. Somit
+								Der Zürcher Rat hat sich mit dem Abt von <placeName>Rheinau</placeName> [Bonaventura von
+								<persName ref="p17833">Wellenberg</persName>] darauf geeinigt, dass ein Prädikant für <placeName>Marthalen</placeName>
+								gewählt werden soll, der auch für <placeName>Rheinau</placeName>
+								und<pb type="edition" next="259"/> <placeName>Benken</placeName> zuständig ist. Somit
 								werden die Examinatoren aufgefordert, einen Prädikanten vorzuschlagen, damit die Wahl [am 27. März]
 								durchgeführt werden kann.
 							</p>
@@ -60,24 +51,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 16, Nr. 2391, S.259</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12438">
 				<correspAction type="sent">
-					<persName ref="person1038" cert="high">
+					<persName ref="p1038" cert="high">
 						<!--
 						<surname cert="high">Escher vom Luchs</surname>
 						<forename cert="high">Hans</forename>
 						<persName type="main" ref="person8339>Escher vom Luchs, Hans</persName>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1546-03-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -107,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -118,11 +116,11 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Es habent myn herren<note xml:id="fn2" type="footnote" n="2">Der Zürcher Rat.</note> sich mit hern Abt von Rynow<note xml:id="fn3" type="footnote" n="3"><persName ref="person21196">Bonaventura von Wellenberg</persName>, von 1529 bis zu seinem Tod 1555 Abt von <placeName ref="place890">Rheinau</placeName>. - Die Durchsetzung der Reformation in <placeName ref="place890">Rheinau</placeName> war wegen des dortigen Klosters und der Opposition Wellenbergs äußerst schwierig. Der letzte reformierte Pfarrer in <placeName ref="place890">Rheinau</placeName>, Jakob Fremd, gen. Bechermacher, gab 1546 sein Amt auf. Seitdem war der Pfarrer von <placeName ref="place1549">Marthalen</placeName>, einem Lehen des Klosters, auch für <placeName ref="place890">Rheinau</placeName> sowie für <placeName ref="place1311">Benken</placeName> und <placeName ref="place1402">Ellikon am Rhein</placeName> verantwortlich; s. August <hi>Waldburger,</hi> <placeName ref="place890">Rheinau</placeName> und die Reformation: Ein Beitrag zur Schweizerischen Reformationsgeschichte, in: <hi>JSG</hi> 25, 1900, 328.</note> guͤtlich vereynt, das yetzmaln ein predicant gen Martela<note xml:id="fn4" type="footnote" n="4"><placeName ref="place1549">Marthalen</placeName>, Kt. Zürich.</note>, der Rynow<note xml:id="fn5" type="footnote" n="5"><placeName ref="place890">Rheinau</placeName>, Kt. Zürich.</note> unnd <placeName ref="place1311">Benken</placeName><note xml:id="fn6" type="footnote" n="6"><placeName ref="place1311">Benken</placeName>, Kt. Zürich.</note> ouch verseche, erwelt werden solle inhalt<note xml:id="fn7" type="footnote" n="7">gemäß.</note> gethaner abredung.</s>
-					<s n="2" xml:lang="de" type="auto">Damit dann sollichs gefurdert, so ist den herren examinatoribus<note xml:id="fn8" type="footnote" n="8">Das sechs Mitglieder zählende Examinatorenkollegium setzte sich aus je zwei Pfarrern, Gelehrten und Räten zusammen; vgl. <hi>AZürcherRef,</hi> 828; <hi>Bächtold, Rat</hi> 46-52. Es ist nicht sicher, wer damals neben Bullinger die Pfarrerschaft vertrat, vielleicht <persName ref="person20928">Rudolf Gwalther</persName>, der schon längere Zeit vor 1551 als Examinator fungierte. -Wir danken Herrn Kurt Jakob Rüetschi für freundliche Auskunft.</note> befolchen, das sy angentz<note xml:id="fn9" type="footnote" n="9">sogleich.</note> nach irer ordnung einen furschlag thuͦn sollen, daruß gedacht myn herren uff jetz sambstag nechstkunfftig<note xml:id="fn10" type="footnote" n="10">Am 27. März.</note> einen predicanten dahin erwellenn und benambsen<note xml:id="fn11" type="footnote" n="11">vorschlagen.</note> mögind<note xml:id="fn12" type="footnote" n="12">Gewählt wurde <persName ref="person20930">Ulrich Hafner</persName>, der aber seine Berufung aus Altersgründen ablehnte; s. <ref target="file12463">Nr. 2416</ref>. Eingesetzt wurde daraufhin <persName ref="person20861">Heinrich Dickenmann</persName>, der sein Amt in <placeName ref="place1549">Marthalen</placeName> bis zu seiner Suspendierung durch die Synode im Jahr 1551 ausübte; s. <hi>Pf-Zürich</hi> 245; Zürich StA, G I 179, 51v.</note>.</s>
+					<s n="1" xml:lang="de" type="auto">Es habent myn herren<note xml:id="fn2" type="footnote" n="2">Der Zürcher Rat.</note> sich mit hern Abt von Rynow<note xml:id="fn3" type="footnote" n="3"><persName>Bonaventura von Wellenberg</persName>, von 1529 bis zu seinem Tod 1555 Abt von <placeName>Rheinau</placeName>. - Die Durchsetzung der Reformation in <placeName>Rheinau</placeName> war wegen des dortigen Klosters und der Opposition Wellenbergs äußerst schwierig. Der letzte reformierte Pfarrer in <placeName>Rheinau</placeName>, Jakob Fremd, gen. Bechermacher, gab 1546 sein Amt auf. Seitdem war der Pfarrer von <placeName>Marthalen</placeName>, einem Lehen des Klosters, auch für <placeName>Rheinau</placeName> sowie für <placeName>Benken</placeName> und <placeName>Ellikon am Rhein</placeName> verantwortlich; s. August <hi>Waldburger,</hi> <placeName>Rheinau</placeName> und die Reformation: Ein Beitrag zur Schweizerischen Reformationsgeschichte, in: <bibl>JSG</bibl> 25, 1900, 328.</note> guͤtlich vereynt, das yetzmaln ein predicant gen Martela<note xml:id="fn4" type="footnote" n="4"><placeName>Marthalen</placeName>, Kt. Zürich.</note>, der Rynow<note xml:id="fn5" type="footnote" n="5"><placeName>Rheinau</placeName>, Kt. Zürich.</note> unnd <placeName>Benken</placeName><note xml:id="fn6" type="footnote" n="6"><placeName>Benken</placeName>, Kt. Zürich.</note> ouch verseche, erwelt werden solle inhalt<note xml:id="fn7" type="footnote" n="7">gemäß.</note> gethaner abredung.</s>
+					<s n="2" xml:lang="de" type="auto">Damit dann sollichs gefurdert, so ist den herren examinatoribus<note xml:id="fn8" type="footnote" n="8">Das sechs Mitglieder zählende Examinatorenkollegium setzte sich aus je zwei Pfarrern, Gelehrten und Räten zusammen; vgl. <hi>AZürcherRef,</hi> 828; <hi>Bächtold, Rat</hi> 46-52. Es ist nicht sicher, wer damals neben Bullinger die Pfarrerschaft vertrat, vielleicht <persName>Rudolf Gwalther</persName>, der schon längere Zeit vor 1551 als Examinator fungierte. -Wir danken Herrn Kurt Jakob Rüetschi für freundliche Auskunft.</note> befolchen, das sy angentz<note xml:id="fn9" type="footnote" n="9">sogleich.</note> nach irer ordnung einen furschlag thuͦn sollen, daruß gedacht myn herren uff jetz sambstag nechstkunfftig<note xml:id="fn10" type="footnote" n="10">Am 27. März.</note> einen predicanten dahin erwellenn und benambsen<note xml:id="fn11" type="footnote" n="11">vorschlagen.</note> mögind<note xml:id="fn12" type="footnote" n="12">Gewählt wurde <persName>Ulrich Hafner</persName>, der aber seine Berufung aus Altersgründen ablehnte; s. <ref target="file12463">Nr. 2416</ref>. Eingesetzt wurde daraufhin <persName>Heinrich Dickenmann</persName>, der sein Amt in <placeName>Marthalen</placeName> bis zu seiner Suspendierung durch die Synode im Jahr 1551 ausübte; s. <hi>Pf-Zürich</hi> 245; Zürich StA, G I 179, 51v.</note>.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="manual"><foreign xml:lang="la">Actum</foreign> Mitwuchen nach <foreign xml:lang="la">Reminisccere anno etc. 46. praesentibus</foreign> her burgermeister Lafater<note xml:id="fn13" type="footnote" n="13"><persName ref="person132">Hans Rudolf Lavater</persName>.</note> und beid Räth<note xml:id="fn14" type="footnote" n="14">Der Baptistal- und der Natalrat. - In Zürich bestand der Kleine Rat aus zwei Hälften, die je einem der beiden Bürgermeister zugeordnet waren. Im Juni und im Dezember wurde abwechselnd der eine oder der andere Bürgermeister mit seinem entsprechenden Rat gewählt. Zu den Namen der Mitglieder des Baptistalrats 1545 und derjenigen des Natalrats 1546 s. <hi>Schnyder, Ratslisten</hi> 307f.</note>.</s>
+					<s n="3" xml:lang="de" type="manual"><foreign xml:lang="la">Actum</foreign> Mitwuchen nach <foreign xml:lang="la">Reminisccere anno etc. 46. praesentibus</foreign> her burgermeister Lafater<note xml:id="fn13" type="footnote" n="13"><persName ref="p6155">Hans Rudolf Lavater</persName>.</note> und beid Räth<note xml:id="fn14" type="footnote" n="14">Der Baptistal- und der Natalrat. - In Zürich bestand der Kleine Rat aus zwei Hälften, die je einem der beiden Bürgermeister zugeordnet waren. Im Juni und im Dezember wurde abwechselnd der eine oder der andere Bürgermeister mit seinem entsprechenden Rat gewählt. Zu den Namen der Mitglieder des Baptistalrats 1545 und derjenigen des Natalrats 1546 s. <bibl>Schnyder, Ratslisten</bibl> 307f.</note>.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="de" type="auto">Stattschryber Zürich.</s>

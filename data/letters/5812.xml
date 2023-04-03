@@ -6,32 +6,31 @@
 				<title subtype="file">Christoph Thretius / Marburg AN [Heinrich Bullinger], 20. Juli 1563</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6272/116</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 367,200-203</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke BW, Polen, S. 203ff (298)</title>
+								<title>Wotschke BW, Polen, S.203ff (298)</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>Wotschke, Thretius 28</title>
@@ -56,7 +55,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5812">
 				<correspAction type="sent">
-					<persName ref="person3152" cert="high">
+					<persName ref="p3152" cert="high">
 						<!--
 						<surname cert="high">Thretius</surname>
 						<forename cert="high">Christoph</forename>
@@ -64,11 +63,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/119851717"/>
 						-->
 					</persName>
-					<placeName source="place311" cert="high"><orig>Marburg</orig></placeName>
+					<placeName source="l311" cert="high"><orig>Marburg</orig></placeName>
 					<date when="1563-07-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -103,7 +102,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -132,7 +131,7 @@
 					<s n="6" xml:lang="la" type="auto">Ac primum Basilaea, quibus literis librum Sta.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Orichovii (cui Chymerae nomen)<note xml:id="fna" type="footnote" n="a">Stanislas Orzechowiski (1513-1566).</note> in Stancarum scriptum adiunxi,<note xml:id="fnb" type="footnote" n="b">Zu dieser Schrift s. <abbr>Bèze, Corr.</abbr> VI 92, Anm. 14; <abbr>Wotschke</abbr> 186, Anm. 2.</note> quem popularis quidam meus Stanislaus Kerner, qui apud Oporinum habitat, ad te transmittendum suscepit et, quoniam id non praestitit, ut video, eum ego iam inde graviter accuso et per litteras expostulo.</s>
+					<s n="7" xml:lang="la" type="auto">Orichovii (cui Chymerae nomen)<note xml:id="fna" type="footnote" n="a">Stanislas Orzechowiski (1513-1566).</note> in Stancarum scriptum adiunxi,<note xml:id="fnb" type="footnote" n="b">Zu dieser Schrift s. <bibl>Bèze, Corr.</bibl> VI 92, Anm. 14; <bibl>Wotschke</bibl> 186, Anm. 2.</note> quem popularis quidam meus Stanislaus Kerner, qui apud Oporinum habitat, ad te transmittendum suscepit et, quoniam id non praestitit, ut video, eum ego iam inde graviter accuso et per litteras expostulo.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Sed te simul oro, ut et tu hunc Orichovii librum ab eo repetas et d. Simlero legendum tradas.</s>

@@ -6,63 +6,60 @@
 				<title subtype="file">Johannes Zwick / Konstanz AN Heinrich Bullinger, 7. Januar 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1212</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">30</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,53</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Schreibt einzig, um Jakob
-								[<persName ref="person2610">Zorn</persName>] zu empfehlen, der tätlich angegriffen wurde und im
-								<placeName ref="place87">Thurgau</placeName> nicht mehr sicher ist.
-								<persName ref="person40">Capito</persName> wird demnächst nach
-								<placeName ref="place121">Bern</placeName> reisen; der Grund dafür ist nicht bekannt.
+								Schreibt einzig, um <persName ref="p18678">Jakob [Zorn]</persName> zu empfehlen, der tätlich angegriffen wurde und im
+								<placeName>Thurgau</placeName> nicht mehr sicher ist.
+								<persName ref="p5565">Capito</persName> wird demnächst nach
+								<placeName>Bern</placeName> reisen; der Grund dafür ist nicht bekannt.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1212, S.30</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11255">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -71,11 +68,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="high"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1539-01-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -110,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,7 +121,7 @@
 					<s n="1" xml:lang="la" type="auto">Salus et pax Christi.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Nec iam michi ullum scribendi argumentum est, Bullingere charissime, hoc uno, quod <persName ref="person242">Iacobus</persName><note xml:id="fn1" type="footnote" n="1">Gemeint ist zweifellos <persName ref="person2610">Jakob Zorn</persName>; vgl. unten <ref target="file11290">Nr. 1247</ref>.</note> ille, qui nuper apud te miseriam suam detexit, anxie rogavit, ut commendaretur a me tibi.</s>
+					<s n="2" xml:lang="la" type="auto">Nec iam michi ullum scribendi argumentum est, Bullingere charissime, hoc uno, quod <persName ref="p8461">Iacobus</persName><note xml:id="fn1" type="footnote" n="1">Gemeint ist zweifellos <persName>Jakob Zorn</persName>; vgl. unten <ref target="file11290">Nr. 1247</ref>.</note> ille, qui nuper apud te miseriam suam detexit, anxie rogavit, ut commendaretur a me tibi.</s>
 					<s n="3" xml:lang="la" type="auto">Est autem bonus certe vir, dignus, cui adsis, si qua ratione potes.</s>
 					<s n="4" xml:lang="la" type="auto">Persequuntur illum quidam furiosi ad internitiem usque.</s>
 					<s n="5" xml:lang="la" type="auto">Invasit eum hisce diebus nebulo quidam nemini notus et prostratum conatus est vulnerare, sed defendit eum pileus insigniter lęsus, ut intelligat se non posse sine vitae discrimine diutius hic hęrere<note xml:id="fnb" type="footnote" n="b"><hi>nach</hi> haerere <hi>gestrichenes</hi> posse.</note>, atque ea est publica Turgoye iustitia, scilicet ut bonus vir non sit tutus.</s>
@@ -132,14 +129,14 @@
 					<s n="7" xml:lang="la" type="manual">Amen.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Nosti forte <persName ref="person40">Capitonem</persName> brevi profecturum <placeName ref="place121">Bernam</placeName><note xml:id="fn2" type="footnote" n="2">Das Gerücht, <persName ref="person40">Capito</persName> wolle <placeName ref="place121">Bern</placeName> besuchen, bewahrheitete sich nicht; vgl. unten <ref target="file11267">Nr. 1224</ref>, 87-89.</note>; causam vero ignoro.</s>
-					<s n="9" xml:lang="la" type="auto">Vale cum <persName ref="person165">Pellicano</persName> et bonis omnibus.</s>
+					<s n="8" xml:lang="la" type="auto">Nosti forte <persName ref="p5565">Capitonem</persName> brevi profecturum <placeName>Bernam</placeName><note xml:id="fn2" type="footnote" n="2">Das Gerücht, <persName>Capito</persName> wolle <placeName>Bern</placeName> besuchen, bewahrheitete sich nicht; vgl. unten <ref target="file11267">Nr. 1224</ref>, 87-89.</note>; causam vero ignoro.</s>
+					<s n="9" xml:lang="la" type="auto">Vale cum <persName ref="p8127">Pellicano</persName> et bonis omnibus.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Ex <placeName ref="place565">Constantia</placeName>, 7. ianuarii 1539.</s>
+					<s n="10" xml:lang="la" type="auto">Ex <placeName>Constantia</placeName>, 7. ianuarii 1539.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zvick</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zvick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

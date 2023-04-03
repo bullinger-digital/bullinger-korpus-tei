@@ -6,60 +6,58 @@
 				<title subtype="file">Erasmus Ritter / Schaffhausen AN Heinrich Bullinger, 6. März 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=196</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">78</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 362,28</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Empfiehlt Bullinger den Überbringer des Briefes, einen Schaffhauser Bürger. Weitere Nachrichten wird
-								<persName ref="person176">Ritter</persName> persönlich bei seinem nächsten Kommen mitteilen.
+								<persName ref="p2810">Ritter</persName> persönlich bei seinem nächsten Kommen mitteilen.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 196, S.78</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10227">
 				<correspAction type="sent">
-					<persName ref="person2810" cert="high">
+					<persName ref="p2810" cert="high">
 						<!--
 						<surname cert="high">Ritter</surname>
 						<forename cert="high">Erasmus</forename>
@@ -68,11 +66,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416562"/>
 						-->
 					</persName>
-					<placeName source="place441" cert="high"><orig>Schaffhausen</orig></placeName>
+					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1533-03-06" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -106,7 +104,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,18 +118,18 @@
 					<s n="1" xml:lang="la" type="auto">Gracia et pax etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Qui tibi meas reddit literas, civis <placeName ref="place943">Scaphusanus</placeName><note xml:id="fn1" type="footnote" n="1">Wer damit gemeint ist, ließ sich nicht ermitteln.</note> est haud ignobili familia ortus, cui animus est scribe officio fungi.</s>
+					<s n="2" xml:lang="la" type="auto">Qui tibi meas reddit literas, civis <placeName>Scaphusanus</placeName><note xml:id="fn1" type="footnote" n="1">Wer damit gemeint ist, ließ sich nicht ermitteln.</note> est haud ignobili familia ortus, cui animus est scribe officio fungi.</s>
 					<s n="3" xml:lang="la" type="auto">Tu itaque, quicquid consilii et auxilii in eum conferes, in me collatum esse putato.</s>
-					<s n="4" xml:lang="la" type="auto">Ceterum quae nostra intersunt, imo Christi, ipse cum venero coram<note xml:id="fn2" type="footnote" n="2">Über einen Besuch <persName ref="person176">Ritters</persName> bei Bullinger ist nichts bekannt.</note>, intelliges.</s>
+					<s n="4" xml:lang="la" type="auto">Ceterum quae nostra intersunt, imo Christi, ipse cum venero coram<note xml:id="fn2" type="footnote" n="2">Über einen Besuch <persName>Ritters</persName> bei Bullinger ist nichts bekannt.</note>, intelliges.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Valę.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Ex <placeName ref="place943">Scaphusia</placeName>, 6. martii 1533.</s>
+					<s n="6" xml:lang="la" type="auto">Ex <placeName>Scaphusia</placeName>, 6. martii 1533.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto"><persName ref="person176">Erasmus Ritter</persName>, ex animo tuus.</s>
+					<s n="7" xml:lang="la" type="auto"><persName ref="p2810">Erasmus Ritter</persName>, ex animo tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -6,49 +6,40 @@
 				<title subtype="file">Fridolin Brunner / [Betschwanden] AN Heinrich Bullinger, 20. November 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1199</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">267</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2029</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Möchte den [Katholiken] der Nachbargemeinde <placeName ref="place638">Linthal</placeName>, die seit
+								Möchte den [Katholiken] der Nachbargemeinde <placeName>Linthal</placeName>, die seit
 								sechs Jahren praktisch ohne Priester sind, nicht mehr zur Verfügung stehen, weil diese zwar zur Taufe
 								kommen, ihn aber in ihrer Kirche nicht das Evangelium verkünden lassen; bittet um Bullingers schriftlichen
-								Rat durch den Boten, Säckelmeister [<persName ref="person2479">Hans Wichser</persName>]. Wünscht Kommentare
+								Rat durch den Boten, Säckelmeister [<persName ref="p7028">Hans Wichser</persName>]. Wünscht Kommentare
 								Bullingers zur Apokalypse.
 							</p>
 						</summary>
@@ -56,13 +47,20 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1199, S.267</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11242">
 				<correspAction type="sent">
-					<persName ref="person461" cert="high">
+					<persName ref="p461" cert="high">
 						<!--
 						<surname cert="high">Brunner</surname>
 						<forename cert="high">Fridolin</forename>
@@ -72,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414501"/>
 						-->
 					</persName>
-					<placeName source="place44" cert="low"><orig>Betschwanden</orig></placeName>
+					<placeName source="l44" cert="low"><orig>Betschwanden</orig></placeName>
 					<date when="1538-11-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -129,25 +127,25 @@
 					<s n="2" xml:lang="la" type="auto">Animus est, vir candide, agere, quae vero tuo absque consilio non sum facturus.</s>
 					<s n="3" xml:lang="la" type="auto">In dei equidem negotio hactenus semper syncere curam habui, ne quid offendiculi infirmis tam negligentia quam temeritate parerem<note xml:id="fn1" type="footnote" n="1">Vgl. 1 Kor 8, 9.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Idem eciam perpetuo abs me fiat, pro viribus adnitar.</s>
-					<s n="5" xml:lang="la" type="auto">Sed sic se habet negotium: Ecclesia Vallis Limagi<note xml:id="fn2" type="footnote" n="2"><placeName ref="place638">Linthal</placeName> (Kt. Glarus).</note>, mihi vicina, iam ad anni spacium sacrifico caruit<note xml:id="fn3" type="footnote" n="3">Über die kirchlichen Verhältnisse in <placeName ref="place129">Betschwanden</placeName> und <placeName ref="place638">Linthal</placeName> - letzteres war 1531 rekatholisiert worden - vgl. Gottfried <hi>Heer,</hi> <persName ref="person26">Fridolin Brunner</persName>. Reformator des Landes Glarus, Zürich 1917, S. 39-41.</note>; interim ad sermones audiendi meos dominica die quidam venerunt.</s>
+					<s n="5" xml:lang="la" type="auto">Sed sic se habet negotium: Ecclesia Vallis Limagi<note xml:id="fn2" type="footnote" n="2"><placeName>Linthal</placeName> (Kt. Glarus).</note>, mihi vicina, iam ad anni spacium sacrifico caruit<note xml:id="fn3" type="footnote" n="3">Über die kirchlichen Verhältnisse in <placeName>Betschwanden</placeName> und <placeName>Linthal</placeName> - letzteres war 1531 rekatholisiert worden - vgl. Gottfried <hi>Heer,</hi> <persName>Fridolin Brunner</persName>. Reformator des Landes Glarus, Zürich 1917, S. 39-41.</note>; interim ad sermones audiendi meos dominica die quidam venerunt.</s>
 					<s n="6" xml:lang="la" type="auto">Ad haec eciam, quicquid illis in rebus spiritualibus defuit, praecipue baptismi sacramentum<pb type="edition" next="268"/> administrando, fideliter et sponte servivi.</s>
 					<s n="7" xml:lang="la" type="auto">Excepto, quod in templo suo evangelium praedicare me nunquam admiserunt.</s>
 					<s n="8" xml:lang="la" type="auto">Id enim non tantum ad illud anni tempus, verum ad sex perpetuos iam annos idem est factitatum, quibus missarium ad breve tempus habuere, multo vero caruerunt<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage verschrieben</hi> caruerint.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Interim autem missario deficiente huius ecclesię parochiani baptismi ministerium a me postularunt.</s>
 					<s n="10" xml:lang="la" type="auto">Ad quae eorum facta spe melioris hucusque convivi et postulatis lubenter obsecundavi.</s>
 					<s n="11" xml:lang="la" type="auto">Nunc profecto videor mihi hoc in negocio satis superque obsecutum; tuo igitur consilio baptismum in posterum eis rescindam, praecipue hanc ob causam, quod baptismum tantum, nequaquam vero verbum dei missario absente a me petunt et recipiunt, praesertim eciam, quum sese maior pars devoverit evangelicum praeconem ad cathedram ecclesiasticam absque missa papistica non admissurum.</s>
-					<s n="12" xml:lang="la" type="auto">Quare hac in re quid prudenter pieque faciundum sit, ne quid turbę exoriatur, hoc nuncio, nempe praefecto aerario<note xml:id="fn4" type="footnote" n="4"><persName ref="person2479">Hans Wichser</persName>, Glarner Landessäckelmeister seit 1529; zur Person s. Gottfried <hi>Heer,</hi> <persName ref="person2479">Hans Wichser</persName> us der Rüti. Ein Zeitbild aus den Tagen der Reformationszeit, <placeName ref="place22">Glarus</placeName> 1903.</note>, negotiis tuis admittentibus, scriptis consule<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage verschrieben</hi> consula.</note>.</s>
+					<s n="12" xml:lang="la" type="auto">Quare hac in re quid prudenter pieque faciundum sit, ne quid turbę exoriatur, hoc nuncio, nempe praefecto aerario<note xml:id="fn4" type="footnote" n="4"><persName>Hans Wichser</persName>, Glarner Landessäckelmeister seit 1529; zur Person s. Gottfried <hi>Heer,</hi> <persName>Hans Wichser</persName> us der Rüti. Ein Zeitbild aus den Tagen der Reformationszeit, <placeName>Glarus</placeName> 1903.</note>, negotiis tuis admittentibus, scriptis consule<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage verschrieben</hi> consula.</note>.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Vale in domino.</s>
 					<s n="14" xml:lang="de" type="auto">20. die novembris anno 1538.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Desideramus ad haec in Ioannis evangelistę librum <foreign xml:lang="el">ἀποκαλύψιος</foreign> commentaria tua; obsequere nobis, ut optatis quam primum fruamur<note xml:id="fn5" type="footnote" n="5">Bullingers erste Arbeit zur Apokalypse erschien erst 1557; s. HBBibl I 327.</note>.</s>
+					<s n="15" xml:lang="la" type="auto">Desideramus ad haec in Ioannis evangelistę librum <foreign xml:lang="el">ἀποκαλύψιος</foreign> commentaria tua; obsequere nobis, ut optatis quam primum fruamur<note xml:id="fn5" type="footnote" n="5">Bullingers erste Arbeit zur Apokalypse erschien erst 1557; s. <bibl>HBBibl</bibl> I 327.</note>.</s>
 					<s n="16" xml:lang="la" type="auto">Iterum vale<note xml:id="fnc" type="footnote" n="c"><hi>Von</hi> Desideramus <hi>bis</hi> Iterum vale <hi>nachträglich zwischen Datum und Unterschrift eingefügt.</hi></note>.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">F. <persName ref="person26">Fonteius</persName> Glareanus<note xml:id="fnd" type="footnote" n="d"><hi>Darunter von Leo Juds Hand:</hi> Non videtur mihi istis, qui tandem sint, baptisma Christi negandum, quum hac occasione Christi [vor Christi <hi>gestrichenes</hi> rel] gloria et cognitio augescere, si datur, aboleri, si negatur, possit. Captemus vero omnem occasionem, ut lucrifaciamus eos, qui adhuc foris sunt, imo non foris, sed in ecclesia licet errantes oves. De pecuniis quid opus multa novare, quum publicus mos ubique illa recipiat et servet. - Leo tuus.</note>.</s>
+					<s n="17" xml:lang="la" type="auto">F. <persName ref="p8303">Fonteius</persName> Glareanus<note xml:id="fnd" type="footnote" n="d"><hi>Darunter von Leo Juds Hand:</hi> Non videtur mihi istis, qui tandem sint, baptisma Christi negandum, quum hac occasione Christi [vor Christi <hi>gestrichenes</hi> rel] gloria et cognitio augescere, si datur, aboleri, si negatur, possit. Captemus vero omnem occasionem, ut lucrifaciamus eos, qui adhuc foris sunt, imo non foris, sed in ecclesia licet errantes oves. De pecuniis quid opus multa novare, quum publicus mos ubique illa recipiat et servet. - Leo tuus.</note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

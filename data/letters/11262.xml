@@ -6,75 +6,71 @@
 				<title subtype="file">Lienhart Biberli / Winterthur AN Heinrich Bullinger, 26. Januar 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1219</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">42</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2792</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Die Nachricht von Matthias
-								[<persName ref="person101">Hirsgarter</persName>], daß zwei Jünglinge aus der
-								[<placeName ref="place1202">Winterthurer</placeName>] Lateinschule im Examen in Zürich gut abgeschnitten
+								Die Nachricht von <persName ref="p1550">Matthias [Hirsgarter]</persName>, daß zwei Jünglinge aus der
+								[<placeName>Winterthurer</placeName>] Lateinschule im Examen in Zürich gut abgeschnitten
 								haben, freut ihn sehr; hofft nun, daß die Kritiker verstummen. Dankt für die Grüße und rühmt Bullingers
-								Freundlichkeit und Gelehrtheit. Ist froh, daß Bullinger Leodegar
-								[<persName ref="person101">Hirsgarter</persName>] bei sich aufgenommen hat.
+								Freundlichkeit und Gelehrtheit. Ist froh, daß Bullinger <persName ref="p1550">Leodegar [Hirsgarter]</persName> bei sich aufgenommen hat.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1219, S.42</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11262">
 				<correspAction type="sent">
-					<persName ref="person343" cert="high">
+					<persName ref="p343" cert="high">
 						<!--
 						<surname cert="high">Biberli</surname>
 						<forename cert="high">Lienhart</forename>
 						<persName type="main" ref="person8170>Biberli, Lienhart</persName>
 						-->
 					</persName>
-					<placeName source="place555" cert="high"><orig>Winterthur</orig></placeName>
+					<placeName source="l555" cert="high"><orig>Winterthur</orig></placeName>
 					<date when="1539-01-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -100,7 +96,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -114,9 +110,9 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax a deo per Christum.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Quantumvis temerarium sit, Bullingere doctissime, meis nugis remorari te occupatissimum adeoque innumeris districtum rebus, non potui tamen non (tua fretus humanitate) animi mei gaudium in sinum tuum effundere et paucis testari, quam lęta ac auspicata d. Mathias<note xml:id="fn2" type="footnote" n="2"><persName ref="person101">Matthias Hirsgarter</persName>.</note>, summus meus necessarius, Tiguro nuper regressus adportarit.</s>
+					<s n="2" xml:lang="la" type="auto">Quantumvis temerarium sit, Bullingere doctissime, meis nugis remorari te occupatissimum adeoque innumeris districtum rebus, non potui tamen non (tua fretus humanitate) animi mei gaudium in sinum tuum effundere et paucis testari, quam lęta ac auspicata d. Mathias<note xml:id="fn2" type="footnote" n="2"><persName ref="p7640">Matthias Hirsgarter</persName>.</note>, summus meus necessarius, Tiguro nuper regressus adportarit.</s>
 					<s n="3" xml:lang="la" type="auto">Di boni, quantum lętitiae subito obortum, quando significavit duos adolescentes<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note>, qui hactenus nostra disciplina usi sunt, in celebri doctorum cętu, cum in literis factum esset periculum, non omnino <foreign xml:lang="el">ἀµούσως</foreign> ad interrogata respondisse.</s>
-					<s n="4" xml:lang="la" type="auto">Accedit huc, quod ex ep<note xml:id="fn4" type="footnote" n="4">Nicht erhalten.</note> istola <persName ref="person175">Rhellicani</persName>, quam nuperrime ad me scripsit, intellexi publico oppidi nostri ministro commissum esse a pio quodam viro<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note>, ut rem gestam praetori et senatui meo<note xml:id="fna" type="footnote" n="a">meo <hi>über der Zeile nachgetragen.</hi></note> exponat.</s>
+					<s n="4" xml:lang="la" type="auto">Accedit huc, quod ex ep<note xml:id="fn4" type="footnote" n="4">Nicht erhalten.</note> istola <persName ref="p8428">Rhellicani</persName>, quam nuperrime ad me scripsit, intellexi publico oppidi nostri ministro commissum esse a pio quodam viro<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note>, ut rem gestam praetori et senatui meo<note xml:id="fna" type="footnote" n="a">meo <hi>über der Zeile nachgetragen.</hi></note> exponat.</s>
 					<s n="5" xml:lang="la" type="auto">Hinc ego in bonam spem adducor, ut, qui conatus meos non dico non probarunt, sed calumniari (ut est ingratitudo) nunquam desierunt, posthac cum de me tum de iis, qui fidei meę concrediti sunt, si non melius, at peius<note xml:id="fnb" type="footnote" n="b">peius <hi>am Rande nachgetragen.</hi></note> minus sentiant.</s>
 				</p>
 				<p>
@@ -124,13 +120,13 @@
 					<s n="7" xml:lang="la" type="auto">Quando igitur alii apud te pluris sunt eruditionis nomine, sine me tuum demereri favorem, quod literas amo, literatos suspicio atque exosculor.<pb type="edition" next="43"/></s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Quod autem nostri Mathię filium Leodigarium<note xml:id="fn7" type="footnote" n="7"><persName ref="person1185">Leodegar Hirsgarter</persName>, von <placeName ref="place1202">Winterthur</placeName>, 1524-1567, Sohn von Matthias, ab 1539 Stipendiat in Zürich, 1544 ordiniert, wurde vorerst Provisor an der Lateinschule am Großmünster und Pfarrer der Stiftsfiliale <placeName ref="place963">Schwamendingen</placeName>, dann 1547 Pfarrer in <placeName ref="place604">Laufen</placeName> (Kt. Zürich). 1562 wurde er aus gesundheitlichen Gründen in den Ruhestand versetzt. Er kaufte sich in Zürich ein Haus am Salzmarkt. Bullinger, der ihn - wie hier gemeldet wird - als Schüler in sein Haus aufgenommen hatte, schrieb über ihn: „Was ein geflißner, geschickter mensch, der vil und wol schreib." - Lit.: Zürich ZB, Ms. Car C 44, 921f; Zürich Stadtarchiv, VIII C 48, <ref target="file12852">Nr. 2803</ref>; Zürich StA, B III 28, 63; Hermann <hi>Bleuler,</hi> Die Hirschgartner von Zürich, [Küsnacht-Zürich 1944]; Pfarrerbuch 343; HBLS IV 229.</note> in convictum tuum recipis, bene facis; est enim pius et studiosus adolescens.</s>
+					<s n="8" xml:lang="la" type="auto">Quod autem nostri Mathię filium Leodigarium<note xml:id="fn7" type="footnote" n="7"><persName ref="p7640">Leodegar Hirsgarter</persName>, von <placeName>Winterthur</placeName>, 1524-1567, Sohn von Matthias, ab 1539 Stipendiat in Zürich, 1544 ordiniert, wurde vorerst Provisor an der Lateinschule am Großmünster und Pfarrer der Stiftsfiliale <placeName>Schwamendingen</placeName>, dann 1547 Pfarrer in <placeName>Laufen</placeName> (Kt. Zürich). 1562 wurde er aus gesundheitlichen Gründen in den Ruhestand versetzt. Er kaufte sich in Zürich ein Haus am Salzmarkt. Bullinger, der ihn - wie hier gemeldet wird - als Schüler in sein Haus aufgenommen hatte, schrieb über ihn: „Was ein geflißner, geschickter mensch, der vil und wol schreib." - Lit.: Zürich ZB, Ms. Car C 44, 921f; Zürich Stadtarchiv, VIII C 48, <ref target="file12852">Nr. 2803</ref>; Zürich StA, B III 28, 63; Hermann <hi>Bleuler,</hi> Die Hirschgartner von Zürich, [Küsnacht-Zürich 1944]; Pfarrerbuch 343; <bibl>HBLS</bibl> IV 229.</note> in convictum tuum recipis, bene facis; est enim pius et studiosus adolescens.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Vale.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto"><placeName ref="place1202">Vituduri</placeName>, septimo calendas februarii anno 39.</s>
+					<s n="10" xml:lang="la" type="auto"><placeName>Vituduri</placeName>, septimo calendas februarii anno 39.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Leonardus Castorius.</s>

@@ -6,40 +6,31 @@
 				<title subtype="file">Simon Grynäus / [Basel] AN Heinrich Bullinger, s.d. Juli [1535]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=618</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">284</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,202</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,13 +44,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 618, S.284</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10656">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -69,11 +67,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date notBefore="1535-07-01" notAfter="1535-07-12" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -107,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -119,7 +117,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Adolescentem<note xml:id="fn2" type="footnote" n="2">Bei dem von Bullinger empfohlenen Jüngling könnte es sich um den 1535 in <placeName ref="place97">Basel</placeName> immatrikulierten <persName ref="person2218">Heinrich Stapfer</persName> aus Zürich handeln; vgl. <placeName ref="place97">Basel</placeName>, Matrikel II 8. 1537 war dieser allerdings Kostgänger <persName ref="person117">Karlstadts</persName>; vgl. Zürich StA, E II 336, 26. 174; 347, 153f.</note>, siquidem ita omnino videtur, mitte; neque enim negari tibi debet, viro tanto tam amice rem honestam primum a me flagitanti.</s>
+					<s n="2" xml:lang="la" type="auto">Adolescentem<note xml:id="fn2" type="footnote" n="2">Bei dem von Bullinger empfohlenen Jüngling könnte es sich um den 1535 in <placeName>Basel</placeName> immatrikulierten <persName>Heinrich Stapfer</persName> aus Zürich handeln; vgl. <placeName>Basel</placeName>, Matrikel II 8. 1537 war dieser allerdings Kostgänger <persName>Karlstadts</persName>; vgl. Zürich StA, E II 336, 26. 174; 347, 153f.</note>, siquidem ita omnino videtur, mitte; neque enim negari tibi debet, viro tanto tam amice rem honestam primum a me flagitanti.</s>
 					<s n="3" xml:lang="la" type="auto">De precio nihil est quod sis sollicitus.</s>
 					<s n="4" xml:lang="la" type="auto">Solvunt triginta caeteri<note xml:id="fn3" type="footnote" n="3">Gemeint ist wohl ein jährliches Kostgeld von 30 Gulden.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Utinam tempora sint, ut praestari libere liberalissima officia possint!</s>
@@ -128,10 +126,10 @@
 					<s n="8" xml:lang="la" type="auto">Video enim tuam in isto quidem genere diligentiam.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Vale et <persName ref="person114">Leonem</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person114">Leo Jud</persName>.</note>, charissimum mihi virum, <persName ref="person14">Theodorum</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person14">Theodor Bibliander</persName>.</note> item nostrum diligentissime mihi saluta.</s>
+					<s n="9" xml:lang="la" type="auto">Vale et <persName ref="p1753">Leonem</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="p2305">Leo Jud</persName>.</note>, charissimum mihi virum, <persName ref="p8171">Theodorum</persName><note xml:id="fn5" type="footnote" n="5"><persName>Theodor Bibliander</persName>.</note> item nostrum diligentissime mihi saluta.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="person81">Grynaeus</persName>.</s>
+					<s n="10" xml:lang="la" type="auto">Tuus <persName ref="p1365">Grynaeus</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

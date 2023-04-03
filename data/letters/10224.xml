@@ -6,46 +6,37 @@
 				<title subtype="file">Konrad Gessner, Johannes Fries / Basel AN Heinrich Bullinger, 25. Februar 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=193</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">74</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 33,47</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Bei <persName ref="person154">Myconius</persName> in <placeName ref="place97">Basel</placeName> warten
+								Bei <persName ref="p8418">Myconius</persName> in <placeName>Basel</placeName> warten
 								sie besseres Reisewetter ab. Sie bitten Bullinger, ihnen ein Empfehlungsschreiben des Zürcher Rates zu
 								verschaffen, um in größerer Sicherheit reisen zu können.
 							</p>
@@ -59,6 +50,9 @@
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>Hanhart 24</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 193, S.74</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -67,7 +61,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10224">
 				<correspAction type="sent">
-					<persName ref="person1286" cert="high">
+					<persName ref="p1286" cert="high">
 						<!--
 						<surname cert="high">Gessner</surname>
 						<forename cert="high">Konrad</forename>
@@ -78,7 +72,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11438405"/>
 						-->
 					</persName>
-					<persName ref="person1214" cert="high">
+					<persName ref="p1214" cert="high">
 						<!--
 						<surname cert="high">Fries</surname>
 						<forename cert="high">Johannes</forename>
@@ -88,11 +82,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11463641"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1533-02-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -130,24 +124,24 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">S.</s>
-					<s n="3" xml:lang="la" type="auto">Impediunt nos ab itinere<note xml:id="fn3" type="footnote" n="3"><persName ref="person79">Geßner</persName> und <persName ref="person69">Fries</persName> befanden sich auf dem Weg nach <placeName ref="place165">Bourges</placeName>.</note> nives, pluvia et ventorum vis.</s>
-					<s n="4" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName> apud <persName ref="person154">Myconium</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="person69">Fries</persName> und <persName ref="person79">Geßner</persName> waren in einem Brief <persName ref="person165">Pellikans</persName> vom 19. Februar 1533 an <persName ref="person154">Myconius</persName> empfohlen worden (Zürich StA, E II 358, 98).</note> sine sumtu moramur sudum coelum et tempestatem mitiorem expectantes.</s>
+					<s n="3" xml:lang="la" type="auto">Impediunt nos ab itinere<note xml:id="fn3" type="footnote" n="3"><persName>Geßner</persName> und <persName>Fries</persName> befanden sich auf dem Weg nach <placeName>Bourges</placeName>.</note> nives, pluvia et ventorum vis.</s>
+					<s n="4" xml:lang="la" type="auto"><placeName>Basileae</placeName> apud <persName ref="p8418">Myconium</persName><note xml:id="fn4" type="footnote" n="4"><persName>Fries</persName> und <persName>Geßner</persName> waren in einem Brief <persName>Pellikans</persName> vom 19. Februar 1533 an <persName>Myconius</persName> empfohlen worden (Zürich StA, E II 358, 98).</note> sine sumtu moramur sudum coelum et tempestatem mitiorem expectantes.</s>
 					<s n="5" xml:lang="la" type="auto">Nivibus obrutae sunt viae omnes, montes praesertim, per quos nulla itinera nunc patent.</s>
 					<s n="6" xml:lang="la" type="auto">Maxime tamen omnium nos detinet, quod Gallos et alios quosdam itineris comites<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note> facturos brevi hic invenimus.</s>
 					<s n="7" xml:lang="la" type="auto">Tuam humanitatem rogamus literas nobis a senatu poscat Tigurinos nos esse et a Tigurino senatu propter studia ablegatos.</s>
 					<s n="8" xml:lang="la" type="auto">Ita enim docti plerique consuluerunt, quo nobis tutioribus esse liceat.</s>
 					<s n="9" xml:lang="la" type="auto">Ne nos negligas etiam atque etiam oramus<note xml:id="fnb" type="footnote" n="b">roga <hi>durchgestrichen und ora darübergeschrieben.</hi></note> poscimusque.</s>
 					<s n="10" xml:lang="la" type="auto">Si dederis operam, facile impetrabis.</s>
-					<s n="11" xml:lang="la" type="auto">Literis nos acceptis<note xml:id="fn6" type="footnote" n="6">Nach Aussage von <persName ref="person122">Konrad Klauser</persName> haben <persName ref="person79">Geßner</persName> und <persName ref="person69">Fries</persName> die gewünschten Empfehlungsschreiben offenbar erhalten (s. unten <ref target="file10226">[Nr. 195]</ref> S. 77, 5). Auffindbar sind sie jedoch nicht mehr.</note> quamprimum cum comitibus maturabimus iter.</s>
+					<s n="11" xml:lang="la" type="auto">Literis nos acceptis<note xml:id="fn6" type="footnote" n="6">Nach Aussage von <persName>Konrad Klauser</persName> haben <persName>Geßner</persName> und <persName>Fries</persName> die gewünschten Empfehlungsschreiben offenbar erhalten (s. unten <ref target="file10226">[Nr. 195]</ref> S. 77, 5). Auffindbar sind sie jedoch nicht mehr.</note> quamprimum cum comitibus maturabimus iter.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Vale et nos tibi commendatos habe.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><placeName ref="place97">Basileae</placeName> in aedibus <persName ref="person154">Myconii</persName>, februarii 25.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName>Basileae</placeName> in aedibus <persName ref="p8418">Myconii</persName>, februarii 25.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Ioannes Frisius et C. <persName ref="person79">Gesnerus</persName> tui toti.</s>
+					<s n="14" xml:lang="la" type="auto">Ioannes Frisius et <persName ref="p4951">C. Gesnerus</persName> tui toti.</s>
 				</p>
 			</div>
 		</body>

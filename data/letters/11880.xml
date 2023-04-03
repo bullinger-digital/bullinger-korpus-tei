@@ -6,50 +6,44 @@
 				<title subtype="file">Martin Hentius / Kronstadt AN Heinrich Bullinger, 3. Januar 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1834</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">197</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Karl Reinerth, Martinus Hentius aus Kronstadt über den Lehrunterschied zwischen Wittenberg und der Schweiz in der Abendmahlsfrage im Jahr 1543, in: ARG 64, 1963, 181-198.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1396</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Ist am Tag vor Weihnachten wohlbehalten in der Heimat angelangt, wo er trotz der in ganz
-								<placeName ref="place32">Ungarn</placeName> unruhigen Lage vielversprechende Fortschritte im
-								religiösen Leben feststellen konnte, da der türkische [Sultan
-								<persName ref="person2269">Suleiman I.</persName>] dieses nicht behindert; trotzdem ist diesem Feind, dem
+								<placeName>Ungarn</placeName> unruhigen Lage vielversprechende Fortschritte im
+								religiösen Leben feststellen konnte, da der türkische [<persName ref="p18593">Sultan Suleiman I.</persName>] dieses nicht behindert; trotzdem ist diesem Feind, dem
 								unter den Christen niemand gewachsen ist, nicht zu trauen, und es bleibt nur, Gott um Hilfe anzurufen; Bitte
-								um gegenseitige Fürbitte. Hat in seinen Briefen aus <placeName ref="place1205">Wittenberg</placeName>
+								um gegenseitige Fürbitte. Hat in seinen Briefen aus <placeName>Wittenberg</placeName>
 								versprochen, sich dankbar zu erweisen, kann aber nur ein kleines Geschenk
-								[<persName ref="person20159">Johannes Honters</persName> „Rudimenta cosmographica“?<note xml:id="fn1" type="footnote" n="1">Zu dieser Vermutung s. Karl <hi>Reinerth,</hi> Honterusprobleme, in: Südostdeutsches Archiv XI, 1968, S. 170-180, bes. 178f.</note>] senden. Grüße;
-								konnte aus Zeitmangel nicht auch an [Konrad]
-								<persName ref="person165">Pellikan</persName> und <persName ref="person14">[Theodor] Bibliander</persName> schreiben. Würde sich über einen
+								[<persName ref="p1703">Johannes Honters</persName> „Rudimenta cosmographica“?<note xml:id="fn1" type="footnote" n="1">Zu dieser Vermutung s. Karl <hi>Reinerth,</hi> Honterusprobleme, in: Südostdeutsches Archiv XI, 1968, S. 170-180, bes. 178f.</note>] senden. Grüße;
+								konnte aus Zeitmangel nicht auch an <persName ref="p8127">[Konrad] Pellikan</persName> und <persName ref="p8171">[Theodor] Bibliander</persName> schreiben. Würde sich über einen
 								Brief freuen.
 							</p>
 						</summary>
@@ -67,18 +61,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11880">
 				<correspAction type="sent">
-					<persName ref="person1409" cert="high">
+					<persName ref="p1409" cert="high">
 						<!--
 						<surname cert="high">Hentius</surname>
 						<forename cert="high">Martin</forename>
 						<persName type="main" ref="person8377>Hentius, Martin</persName>
 						-->
 					</persName>
-					<placeName source="place261" cert="high"><orig>Kronstadt</orig></placeName>
+					<placeName source="l261" cert="high"><orig>Kronstadt</orig></placeName>
 					<date when="1544-01-03" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -104,7 +98,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

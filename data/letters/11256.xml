@@ -6,48 +6,39 @@
 				<title subtype="file">Joachim Vadian / St. Gallen AN Heinrich Bullinger, 13. Januar 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1213</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">30</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Teilkopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Teilkopie">Ms F 23,41/42</idno>
 						<idno subtype="Hinweis">eingelegtes Blatt</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Schickt ein ihm von Stadtschreiber [<persName ref="person825">Augustin Fechter</persName>] übermitteltes
-								Gedicht, das in <placeName ref="place1246">Überlingen</placeName> an einer Kirchentür angeschlagen
+								Schickt ein ihm von Stadtschreiber [<persName ref="p4764">Augustin Fechter</persName>] übermitteltes
+								Gedicht, das in <placeName>Überlingen</placeName> an einer Kirchentür angeschlagen
 								worden war.
 							</p>
 						</summary>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1213, S.30</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11256">
 				<correspAction type="sent">
-					<persName ref="person3306" cert="high">
+					<persName ref="p3306" cert="high">
 						<!--
 						<surname cert="high">Vadian</surname>
 						<forename cert="high">Joachim</forename>
@@ -73,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11425832"/>
 						-->
 					</persName>
-					<placeName source="place474" cert="high"><orig>St. Gallen</orig></placeName>
+					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 					<date when="1539-01-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -113,15 +111,15 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="auto">Zuͦ<note xml:id="fnb" type="footnote" n="b"><hi>Darüber</hi> Ex litteris d[octoris] Ioachimi Vadiani ad dominum Heynirichumi Bullingerum.</note> <placeName ref="place1246">Überlingen</placeName> hatt einer an die kilchthür einen rymen angeschlagen, welcher abgnommen und ussgangen ist<note xml:id="fn1" type="footnote" n="1">verbreitet worden ist. - So soll auch <persName ref="person229">Simprecht Vogt</persName> das Schmähgedicht im Gespräch mit dem Abt von <placeName ref="place890">Rheinau</placeName> angeführt haben (s. Jakob <hi>Wipf</hi> Reformationsgeschichte der Stadt und Landschaft Schafthausen, Zürich 1929, S. 311); vgl. auch die zeitgenössische handschriftliche Wiedergabe auf der letzten Seite des Werkes "In orationem dominicam saluberrimae ac sanctissimae meditationes ..." von Johannes Gast, Basel 1543, im Exemplar Zürich ZB, 5. 395.</note>.</s>
-					<s n="2" xml:lang="de" type="auto">Von dem hatt mir der stattschryber<note xml:id="fn2" type="footnote" n="2"><persName ref="person825">Augustin Fechter</persName>.</note> des<note xml:id="fnc" type="footnote" n="c">des <hi>über der Zeile nachgetragen.</hi></note> ein abgschrifft von wunders wägen zuͦ gestelt.</s>
+					<s n="1" xml:lang="de" type="auto">Zuͦ<note xml:id="fnb" type="footnote" n="b"><hi>Darüber</hi> Ex litteris d[octoris] Ioachimi Vadiani ad dominum Heynirichumi Bullingerum.</note> <placeName>Überlingen</placeName> hatt einer an die kilchthür einen rymen angeschlagen, welcher abgnommen und ussgangen ist<note xml:id="fn1" type="footnote" n="1">verbreitet worden ist. - So soll auch <persName>Simprecht Vogt</persName> das Schmähgedicht im Gespräch mit dem Abt von <placeName>Rheinau</placeName> angeführt haben (s. Jakob <hi>Wipf</hi> Reformationsgeschichte der Stadt und Landschaft Schafthausen, Zürich 1929, S. 311); vgl. auch die zeitgenössische handschriftliche Wiedergabe auf der letzten Seite des Werkes "In orationem dominicam saluberrimae ac sanctissimae meditationes ..." von Johannes Gast, Basel 1543, im Exemplar Zürich ZB, 5. 395.</note>.</s>
+					<s n="2" xml:lang="de" type="auto">Von dem hatt mir der stattschryber<note xml:id="fn2" type="footnote" n="2"><persName>Augustin Fechter</persName>.</note> des<note xml:id="fnc" type="footnote" n="c">des <hi>über der Zeile nachgetragen.</hi></note> ein abgschrifft von wunders wägen zuͦ gestelt.</s>
 					<s n="3" xml:lang="de" type="auto">Lutet also:<pb type="edition" next="31"/> Ich fragen hie on allen list, worum so vil tüfel und nun<note xml:id="fn3" type="footnote" n="3">nur.</note> ein gott ist?</s>
 				</p>
 				<p>

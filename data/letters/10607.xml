@@ -6,40 +6,31 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius, 5. April 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=569</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">193</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,44</idno>
 					</msIdentifier>
 					<msContents>
@@ -48,26 +39,32 @@
 								Berichtet, daß das von den Bernern gewünschte Treffen abgesagt werden mußte, weil zwischen Zürich und den V
 								Orten Spannungen aufgebrochen sind; [Uli] Brüder, der für diese
 								verantwortlich sein soll, wird noch verhört. Nachrichten über das im
-								<placeName ref="place338">Etschtal</placeName> gemusterte Heer und die versöhnliche Haltung des Kaisers,
+								<placeName>Etschtal</placeName> gemusterte Heer und die versöhnliche Haltung des Kaisers,
 								Gerüchte über ein bevorstehendes Treffen des Landgrafen von Hessen mit
-								dem sächsischen Kurfürsten und mit König
-								<persName ref="person832">Ferdinand I.</persName> <persName ref="person28">Bucer</persName> soll dem
+								dem sächsischen Kurfürsten und mit <persName ref="p18477">König Ferdinand I.</persName> <persName ref="p467">Bucer</persName> soll dem
 								französischen König gegenüber zurückhaltender geworden sein. Bullinger
-								bittet um nähere Erläuterung der Befürchtungen, die <persName ref="person154">Myconius</persName> in bezug
-								auf [<persName ref="person117">Karlstadt</persName>] geäußert hat.
+								bittet um nähere Erläuterung der Befürchtungen, die <persName ref="p8418">Myconius</persName> in bezug
+								auf [<persName ref="p4349">Karlstadt</persName>] geäußert hat.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 569, S.193</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10607">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -77,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1535-04-05" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -118,7 +115,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -130,37 +127,37 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem.</s>
-					<s n="2" xml:lang="la" type="auto">Petierunt <placeName ref="place121">Bernates</placeName>, <persName ref="person154">Myconi</persName> venerande, Zovingam veniremus colloquuturi de negotio eucharistiae<note xml:id="fn1" type="footnote" n="1">Vgl. oben <ref target="file10584">Nr. 548</ref>.</note>, in quo ut a nobis non dissideant, ita esse, quae coram colloqui cupiant.</s>
-					<s n="3" xml:lang="la" type="auto">Condiximus diem martii 30.<note xml:id="fn2" type="footnote" n="2"><persName ref="person90">Haller</persName> spricht vom 31. März, s. oben <ref target="file10600">Nr. 564</ref>, 2-4.</note>, et <persName ref="person114">Leo</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="person114">Leo Jud</persName>.</note> iam itineri se prope commiserat, cum nuncius quidam<note xml:id="fn4" type="footnote" n="4">Unbekannt.</note> certo nunciat <placeName ref="place1238">Tugium</placeName> in arma prorupisse expectareque paratos Immontanos<note xml:id="fn5" type="footnote" n="5"><placeName ref="place51">die V Orte</placeName>.</note>, quando Tigurini impressionem in ipsos faciant.</s>
+					<s n="2" xml:lang="la" type="auto">Petierunt <placeName>Bernates</placeName>, <persName ref="p8418">Myconi</persName> venerande, Zovingam veniremus colloquuturi de negotio eucharistiae<note xml:id="fn1" type="footnote" n="1">Vgl. oben <ref target="file10584">Nr. 548</ref>.</note>, in quo ut a nobis non dissideant, ita esse, quae coram colloqui cupiant.</s>
+					<s n="3" xml:lang="la" type="auto">Condiximus diem martii 30.<note xml:id="fn2" type="footnote" n="2"><persName>Haller</persName> spricht vom 31. März, s. oben <ref target="file10600">Nr. 564</ref>, 2-4.</note>, et <persName ref="p1753">Leo</persName><note xml:id="fn3" type="footnote" n="3"><persName ref="p2305">Leo Jud</persName>.</note> iam itineri se prope commiserat, cum nuncius quidam<note xml:id="fn4" type="footnote" n="4">Unbekannt.</note> certo nunciat <placeName>Tugium</placeName> in arma prorupisse expectareque paratos Immontanos<note xml:id="fn5" type="footnote" n="5"><placeName>die V Orte</placeName>.</note>, quando Tigurini impressionem in ipsos faciant.</s>
 					<s n="4" xml:lang="la" type="auto">Vide, quid tentet sathan!</s>
 					<s n="5" xml:lang="la" type="auto">Nil tale cogitarunt Tigurini.</s>
-					<s n="6" xml:lang="la" type="auto">Missis ergo literis<note xml:id="fn6" type="footnote" n="6">Nicht erhalten.</note> Zovingam, quid obstaret, quominus veniret <persName ref="person114">Leo</persName>, indicavimus.</s>
-					<s n="7" xml:lang="la" type="auto">Hasce <persName ref="person90">Berchtoldus</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="person90">Berchtold Haller</persName>.</note> aequo animo excipiens bona pace <placeName ref="place121">Bernam</placeName> rediit.</s>
+					<s n="6" xml:lang="la" type="auto">Missis ergo literis<note xml:id="fn6" type="footnote" n="6">Nicht erhalten.</note> Zovingam, quid obstaret, quominus veniret <persName ref="p1753">Leo</persName>, indicavimus.</s>
+					<s n="7" xml:lang="la" type="auto">Hasce <persName ref="p1391">Berchtoldus</persName><note xml:id="fn7" type="footnote" n="7"><persName>Berchtold Haller</persName>.</note> aequo animo excipiens bona pace <placeName>Bernam</placeName> rediit.</s>
 					<s n="8" xml:lang="la" type="auto">Haec de conventu.</s>
-					<s n="9" xml:lang="la" type="auto">Tenetur nunc in vinculis veterator quidam, quem vulgus appellitat <foreign xml:lang="de">vogt Bruͦder ab dem Albiß<note xml:id="fn8" type="footnote" n="8">Uli Bruder. Untervogt von <placeName ref="place461">Hausen</placeName> am <placeName ref="place20">Albis</placeName>, hatte 1525 einen fehlgeschlagenen Handstreich auf das Kloster <placeName ref="place534">Kappel</placeName> angeführt (s. HBRG I 279f). Verschiedentlich war er auch durch die Verbreitung wenig glaubwürdiger Gerüchte über angebliche Angriffspläne <placeName ref="place51">der V Orte</placeName> aufgefallen (s. HBRG III 193; ASchweizerRef I 934. 934b. II 195). Diesmal wurde er von dem in <placeName ref="place1238">Zug</placeName> inhaftierten Stubenknecht <persName ref="person394">Jakob Baumann</persName> von <placeName ref="place461">Hausen</placeName> beschuldigt, das Gerücht über einen bevorstehenden Angriff Zürichs und <placeName ref="place121">Berns</placeName> auf <placeName ref="place1238">Zug</placeName> in Umlauf gesetzt zu haben. Da sich Zürich und <placeName ref="place1238">Zug</placeName> nicht auf eine Gegenüberstellung der Gefangenen einigen konnten, wurde Bruder wieder auf freien Fuß gesetzt. Vgl. EA IV/1c 484f a-b. 486f d. 506 o; Anshelm VI 222; Zürich StA, B IV 6, 53 und B VI 254, 66v.-67r.</note>,</foreign> qui istius creditur author tragoediae.</s>
+					<s n="9" xml:lang="la" type="auto">Tenetur nunc in vinculis veterator quidam, quem vulgus appellitat <foreign xml:lang="de">vogt Bruͦder ab dem Albiß<note xml:id="fn8" type="footnote" n="8">Uli Bruder. Untervogt von <placeName>Hausen</placeName> am <placeName>Albis</placeName>, hatte 1525 einen fehlgeschlagenen Handstreich auf das Kloster <placeName>Kappel</placeName> angeführt (s. <bibl>HBRG</bibl> I 279f). Verschiedentlich war er auch durch die Verbreitung wenig glaubwürdiger Gerüchte über angebliche Angriffspläne <placeName>der V Orte</placeName> aufgefallen (s. <bibl>HBRG</bibl> III 193; ASchweizerRef I 934. 934b. II 195). Diesmal wurde er von dem in <placeName>Zug</placeName> inhaftierten Stubenknecht <persName>Jakob Baumann</persName> von <placeName>Hausen</placeName> beschuldigt, das Gerücht über einen bevorstehenden Angriff Zürichs und <placeName>Berns</placeName> auf <placeName>Zug</placeName> in Umlauf gesetzt zu haben. Da sich Zürich und <placeName>Zug</placeName> nicht auf eine Gegenüberstellung der Gefangenen einigen konnten, wurde Bruder wieder auf freien Fuß gesetzt. Vgl. <bibl>EA</bibl> IV/1c 484f a-b. 486f d. 506 o; Anshelm VI 222; Zürich StA, B IV 6, 53 und B VI 254, 66v.-67r.</note>,</foreign> qui istius creditur author tragoediae.</s>
 					<s n="10" xml:lang="la" type="auto">Certe maximas movit turbas.</s>
 					<s n="11" xml:lang="la" type="auto">Quid cum ipso egerit senatus, postea ex me disces, si quid addiderit, quod memorabile sit.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Athesinus exercitus<note xml:id="fn9" type="footnote" n="9">Das im <placeName ref="place338">Etschtal</placeName> (für den Feldzug nach <placeName ref="place1098">Tunis</placeName>) gemusterte Heer, vgl. oben <ref target="file10595">Nr. 559</ref>, 23-25.</note> <placeName ref="place401">Genuam</placeName> contendit.</s>
-					<s n="13" xml:lang="la" type="auto"><placeName ref="place1133">Veneti</placeName> legiones eas in gratiam caesaris<note xml:id="fn10" type="footnote" n="10"><persName ref="person1332">Karl V.</persName></note> per suam transmisere ditionem.</s>
+					<s n="12" xml:lang="la" type="auto">Athesinus exercitus<note xml:id="fn9" type="footnote" n="9">Das im <placeName>Etschtal</placeName> (für den Feldzug nach <placeName>Tunis</placeName>) gemusterte Heer, vgl. oben <ref target="file10595">Nr. 559</ref>, 23-25.</note> <placeName>Genuam</placeName> contendit.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName>Veneti</placeName> legiones eas in gratiam caesaris<note xml:id="fn10" type="footnote" n="10"><persName>Karl V.</persName></note> per suam transmisere ditionem.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto"><persName ref="person1332">Caesar</persName> Galli<note xml:id="fn11" type="footnote" n="11"><persName ref="person859">Franz I.</persName></note> fraudes sensit et quod Germanos sibi cupiat conciliatos.</s>
-					<s n="15" xml:lang="la" type="auto">Ideo principibus et urbibus multa pollicitus testatus est nunquam se vel cogitasse, quod <placeName ref="place29">Hispanico</placeName> in <persName ref="person1332">Germaniam</persName> exercitu traducto Lutheranos statuerit excindere<note xml:id="fn12" type="footnote" n="12">Siehe oben <ref target="file10603">Nr. 567</ref>, Anm. 27.</note></s>
+					<s n="14" xml:lang="la" type="auto"><persName ref="p18538">Caesar</persName> Galli<note xml:id="fn11" type="footnote" n="11"><persName>Franz I.</persName></note> fraudes sensit et quod Germanos sibi cupiat conciliatos.</s>
+					<s n="15" xml:lang="la" type="auto">Ideo principibus et urbibus multa pollicitus testatus est nunquam se vel cogitasse, quod <placeName>Hispanico</placeName> in Germaniam exercitu traducto Lutheranos statuerit excindere<note xml:id="fn12" type="footnote" n="12">Siehe oben <ref target="file10603">Nr. 567</ref>, Anm. 27.</note></s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Fama est Hessum eleganti equitatu abiisse Glogoviam, <placeName ref="place76">Silesiae</placeName> urbem<note xml:id="fn13" type="footnote" n="13"><placeName ref="place407">Glogau</placeName> (Glogów, <placeName ref="place76">Schlesien</placeName>).</note>, quo et Saxo elector veniet, nec aberit <persName ref="person832">Ferdinandus</persName><note xml:id="fn14" type="footnote" n="14">In Wirklichkeit reiste der Landgraf von Hessen zu einem Treffen mit <persName ref="person832">König Ferdinand</persName> I. nach <placeName ref="place1192">Wien</placeName>, vgl. Christoph von <hi>Rommel,</hi> Philipp der Großmüthige, Landgraf von Hessen, I. Bd., Gießen 1830, S. 374f.</note>.</s>
+					<s n="16" xml:lang="la" type="auto">Fama est Hessum eleganti equitatu abiisse Glogoviam, <placeName>Silesiae</placeName> urbem<note xml:id="fn13" type="footnote" n="13"><placeName>Glogau</placeName> (Glogów, <placeName>Schlesien</placeName>).</note>, quo et Saxo elector veniet, nec aberit <persName ref="p18477">Ferdinandus</persName><note xml:id="fn14" type="footnote" n="14">In Wirklichkeit reiste der Landgraf von Hessen zu einem Treffen mit <persName>König Ferdinand I.</persName> nach <placeName>Wien</placeName>, vgl. Christoph von <hi>Rommel,</hi> Philipp der Großmüthige, Landgraf von Hessen, I. Bd., Gießen 1830, S. 374f.</note>.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto"><persName ref="person28">Bucerus</persName>, si quidam vera nunciarunt, literis quibusdam testatus est se non affuturum Gallico colloquio nec in gratiam Galli porro quicquam vel scripturum vel facturum<note xml:id="fn15" type="footnote" n="15">Die erhaltenen Briefe <persName ref="person28">Bucers</persName> sprechen vielmehr dafür, daß er auch später noch gehofft hat, nach <placeName ref="place836">Paris</placeName> gerufen zu werden; vgl. <hi>Seidel</hi> 166f.</note>.</s>
-					<s n="18" xml:lang="la" type="auto">Utinam id instituti apud se ante scripta illa statuisset consilia<note xml:id="fn16" type="footnote" n="16">Gemeint sind die von <persName ref="person41">Chelius</persName> eingeholten Gutachten, vgl. oben <ref target="file10595">Nr. 559</ref>, 4-6.</note>!</s>
+					<s n="17" xml:lang="la" type="auto"><persName ref="p467">Bucerus</persName>, si quidam vera nunciarunt, literis quibusdam testatus est se non affuturum Gallico colloquio nec in gratiam Galli porro quicquam vel scripturum vel facturum<note xml:id="fn15" type="footnote" n="15">Die erhaltenen Briefe <persName ref="p18198">Bucers</persName> sprechen vielmehr dafür, daß er auch später noch gehofft hat, nach <placeName>Paris</placeName> gerufen zu werden; vgl. <bibl>Seidel</bibl> 166f.</note>.</s>
+					<s n="18" xml:lang="la" type="auto">Utinam id instituti apud se ante scripta illa statuisset consilia<note xml:id="fn16" type="footnote" n="16">Gemeint sind die von <persName>Chelius</persName> eingeholten Gutachten, vgl. oben <ref target="file10595">Nr. 559</ref>, 4-6.</note>!</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto"><pb type="edition" next="194"/>Vale et me, ut facis, ama.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Cupio autem ex te scire, quas ob causas timeas illum<note xml:id="fn17" type="footnote" n="17"><persName ref="person117">Andreas Karlstadt</persName> (vgl. oben <ref target="file10602">Nr. 566</ref>, 44f).</note> aliquid mali daturum ecclesiae, si forsan mea sponte ad illum darem literas etc.</s>
+					<s n="20" xml:lang="la" type="auto">Cupio autem ex te scire, quas ob causas timeas illum<note xml:id="fn17" type="footnote" n="17"><persName>Andreas Karlstadt</persName> (vgl. oben <ref target="file10602">Nr. 566</ref>, 44f).</note> aliquid mali daturum ecclesiae, si forsan mea sponte ad illum darem literas etc.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Tiguri, 5. aprilis 1535.</s>
@@ -170,7 +167,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="23" xml:lang="la" type="auto">Clarissimo viro domino <persName ref="person154">Osvaldo Myconio</persName>, <placeName ref="place97">Basileiensium</placeName> antistiti vigilantissimo, domino et fratri plurimum observando.</s>
+					<s n="23" xml:lang="la" type="auto">Clarissimo viro domino <persName ref="p8418">Osvaldo Myconio</persName>, <placeName>Basileiensium</placeName> antistiti vigilantissimo, domino et fratri plurimum observando.</s>
 				</p>
 			</div>
 		</body>

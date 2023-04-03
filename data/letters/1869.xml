@@ -6,32 +6,31 @@
 				<title subtype="file">Hans Wilhelm von Laubenberg / Baden AN Heinrich Bullinger / Zürich, 13. Mai 1553</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3123</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,567</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,28 +43,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 79,112</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 79,114</idno>
 					</msIdentifier>
 				</msDesc>
@@ -74,18 +73,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1869">
 				<correspAction type="sent">
-					<persName ref="person3643" cert="high">
+					<persName ref="p3643" cert="high">
 						<!--
 						<surname cert="high">von Laubenberg</surname>
 						<forename cert="high">Hans Wilhelm</forename>
 						<persName type="main" ref="person3641>von Laubenberg, Hans Wilhelm</persName>
 						-->
 					</persName>
-					<placeName source="place21" cert="high"><orig>Baden</orig></placeName>
+					<placeName source="l21" cert="high"><orig>Baden</orig></placeName>
 					<date when="1553-05-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,7 +94,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file1870"/>
@@ -117,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -138,7 +137,7 @@
 					<s n="6" xml:lang="de" type="auto">Was auch e[wer] erw[irden] hierinne für einrede, mängel, och fäl haben wurden, och möchten, mir diesselbigen alle und jede christlicher gebür und freiheit nach zu versteen geben, damit je alles zum preise der eern dess herren der herrlicheit nach verlihnen mancherlay gaben, <foreign xml:lang="la">debita modestia, quae omnibus sit cognita,</foreign> abgehandlet werde.</s>
 					<s n="7" xml:lang="la" type="auto">Id quod praestet spiritus Christi.</s>
 					<s n="8" xml:lang="de" type="manual">Amen.</s>
-					<s n="9" xml:lang="la" type="auto">De deiudicatione corporis Christi adiunctis aliis cum meditationibus vere beati et pii patris Val[entini] Cratoaldi<note xml:id="fn1" type="footnote" n="1">Valentin Krautwald.</note>, <foreign xml:lang="de">so es euch für dienstlichen ansechen, wolt ich gern das es bosts vleiss gedruckht und an tag geben wurde;</foreign> praeclara adhuc multa sunt eiusdem patris opuscula hoc saeculo vix digna, forsan posteris reservanda.</s>
+					<s n="9" xml:lang="la" type="auto">De deiudicatione corporis Christi adiunctis aliis cum meditationibus vere beati et pii patris Val[entini] Cratoaldi<note xml:id="fn1" type="footnote" n="1"><persName>Valentin Krautwald</persName>.</note>, <foreign xml:lang="de">so es euch für dienstlichen ansechen, wolt ich gern das es bosts vleiss gedruckht und an tag geben wurde;</foreign> praeclara adhuc multa sunt eiusdem patris opuscula hoc saeculo vix digna, forsan posteris reservanda.</s>
 					<s n="10" xml:lang="de" type="auto">Es ist alles in baiden gebundnen libellen mein handtgeschriftt perpaucis exceptis.</s>
 					<s n="11" xml:lang="la" type="auto">Expendite et codices ligatos, exactis hebdomadibus tribus remit[t]ite, aut unus vestrum, si ita visum fuerit, accedat me.</s>
 					<s n="12" xml:lang="de" type="auto">Die andern ungebundne[n] opuscula möget ir behalten und mitle zeit verlesen.</s>

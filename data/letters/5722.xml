@@ -6,32 +6,31 @@
 				<title subtype="file">Zürcher / Zürich AN s.n. / Kleinpolen, 3. Mai 1563</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">6217/61</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 371,936</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,7 +43,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Wotschke BW, Polen, S. 183f</title>
+								<title>Wotschke BW, Polen, S.183f</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>Wotschke, Kleinpolen 206 (Italopolonen), 208, 217</title>
@@ -60,15 +59,15 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5722">
 				<correspAction type="sent">
-					<orgName ref="org33" type="pl" role="Zürcher" cert="high">
+					<orgName ref="i33" type="pl" role="Zürcher" cert="high">
 						<orig>die Zürcher</orig>
 					</orgName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1563-05-03" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role70" type="pl" role="Senioren" cert="high"/>
-					<placeName source="place673" cert="high"><orig>Kleinpolen</orig></placeName>
+					<roleName ref="g70" type="pl" role="Senioren" cert="high"/>
+					<placeName source="l673" cert="high"><orig>Kleinpolen</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file5723"/>
@@ -83,7 +82,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

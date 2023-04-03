@@ -6,32 +6,31 @@
 				<title subtype="file">Beatus Comes / Baden AN s.n. / Zürich, 23. Februar 1548</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">783</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2834</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,7 +42,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XII, S. 661f, Nr. 996</title>
+								<title>C.O. XII, S.661f, Nr. 996</title>
 							</bibl>
 							<bibl type="Literatur" subtype="Erwähnung">
 								<title>Bouvier S. 132, S. 181, Datum: 22. Feb. 48</title>
@@ -54,28 +53,28 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 66,83</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive39">
+						<repository ref="a39">
 							<name>Genf MHR</name>
 							<ref target="https://www.unige.ch/ihr/fr/aide-a-la-recherche/bibliotheque/"/>
 						</repository>
-						<settlement ref="place167">Genf</settlement>
+						<settlement ref="l167">Genf</settlement>
 						<institution>Musée historique de la Réformation</institution>
 						-->
-						<repository ref="archive39"/>
+						<repository ref="a39"/>
 						<idno subtype="Kopie">Herminjard-Dossier 1546-1549, 242</idno>
 						<idno subtype="Hinweis">Cart. 22. Feb.</idno>
 					</msIdentifier>
@@ -85,19 +84,19 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/51">
 				<correspAction type="sent">
-					<persName ref="person657" cert="high">
+					<persName ref="p657" cert="high">
 						<!--
 						<surname cert="high">Comes</surname>
 						<forename cert="high">Beatus</forename>
 						<persName type="main" ref="person8031>Comes, Beatus</persName>
 						-->
 					</persName>
-					<placeName source="place21" cert="high"><orig>Baden</orig></placeName>
+					<placeName source="l21" cert="high"><orig>Baden</orig></placeName>
 					<date when="1548-02-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="role26" type="pl" role="Geistliche" cert="high"/>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file52"/>
@@ -117,7 +116,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -6,32 +6,31 @@
 				<title subtype="file">[Heinrich Bullinger] / [Zürich] AN [Hans Rudolf Bullinger], [6. März 1568]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7190/27</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 37,586 b</idno>
 					</msIdentifier>
 					<msContents>
@@ -46,7 +45,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7408">
 				<correspAction type="sent">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -56,11 +55,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1568-03-06" cert="low"><note>Datum unsicher  (1568 März ca 6)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person477" cert="low">
+					<persName ref="p477" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Hans Rudolf</forename>
@@ -93,7 +92,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -115,7 +114,7 @@
 					<s n="9" xml:lang="la" type="auto">Mane ille vacuam ingressus urbem inhorruit; nam milites eius seditione excitata arbitrati sunt duce Adazeres conscio istos evasisse, et dilapsae sunt copiae omnes.</s>
 					<s n="10" xml:lang="la" type="auto">Audisti procul dubio de immensa Turcarum classe, qua cogitet Italiam invadere.</s>
 					<s n="11" xml:lang="la" type="auto">In Hispania accidit quiddam incredibile, sed tamen certissimum Carolum, Philippi filium, cogitare de nece patris Philippi et ideo ipsum nunc custodiri; causa nescitur, omnes tamen clamant magnum esse infortunium.</s>
-					<s n="12" xml:lang="la" type="auto">Haec verbotim<note xml:id="fn1" type="footnote" n="1">wörtlich; vgl. <hi>Hoven</hi> 378.</note> ex Gallia ad me missa sunt.</s>
+					<s n="12" xml:lang="la" type="auto">Haec verbotim<note xml:id="fn1" type="footnote" n="1">wörtlich; vgl. <bibl>Hoven</bibl> 378.</note> ex Gallia ad me missa sunt.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Geneva scribit 24. februarii: Certum est virum, qui tuas et meas accepit literas ad filium tuum Christophorum in castra principis salvum pervenisse; nil tamen responsi accipimus.</s>

@@ -6,50 +6,41 @@
 				<title subtype="file">Matthias Claudius AN Heinrich Bullinger, 9. Januar 1546</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2014</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17760-7</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2331</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XVI</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">16</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Januar bis Mai 1546</biblScope>
-				<biblScope unit="page">97</biblScope>
-				<biblScope unit="pages">443</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 16 (Briefe von Januar bis Mai 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2014, 443 S., ISBN 978-3-290-17760-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,118</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Auch wenn <persName ref="person20059">Claudius</persName> weiß, dass die Zürcher täglich Nachrichten erhalten, besonders über den
-								[<placeName ref="place880">Regensburger</placeName>] Reichstag, wird Bullinger wohl Interesse an
-								schriftlichen Nachrichten von <placeName ref="place1113">Ulmer</placeName> und
-								<placeName ref="place70">Augsburger</placeName> Ratsherren haben. In der Beilage [nicht erhalten] hat
-								<persName ref="person20059">Claudius</persName> die<pb type="edition" next="97"/> zuverlässigen Nachrichten aufgezeichnet. Bullinger möge ebenfalls
+								Auch wenn <persName ref="p8311">Claudius</persName> weiß, dass die Zürcher täglich Nachrichten erhalten, besonders über den
+								[<placeName>Regensburger</placeName>] Reichstag, wird Bullinger wohl Interesse an
+								schriftlichen Nachrichten von <placeName>Ulmer</placeName> und
+								<placeName>Augsburger</placeName> Ratsherren haben. In der Beilage [nicht erhalten] hat
+								<persName ref="p8311">Claudius</persName> die<pb type="edition" next="97"/> zuverlässigen Nachrichten aufgezeichnet. Bullinger möge ebenfalls
 								mitteilen, was er über den Reichstag gehört hat.
 							</p>
 						</summary>
@@ -57,13 +48,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 16, Nr. 2331, S.97</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12378">
 				<correspAction type="sent">
-					<persName ref="person599" cert="high">
+					<persName ref="p599" cert="high">
 						<!--
 						<surname cert="high">Claudius</surname>
 						<forename cert="high">Matthias</forename>
@@ -76,7 +74,7 @@
 					<date when="1546-01-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +103,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -116,7 +114,7 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Etsi multa quotidie nova vobis adferri sciam, praesertim in comitiis<note xml:id="fn3" type="footnote" n="3">Gemeint sind der Reichstag zu <placeName ref="place880">Regensburg</placeName>, der am 6. Januar 1546 beginnen sollte und am 31. Januar von <persName ref="person1332">Karl V.</persName> auf den 15. März verschoben wurde (der Kaiser traf erst am 10. April in <placeName ref="place880">Regensburg</placeName> ein und der Reichstag wurde am 5. Juni eröffnet; s. <hi>RTA-JR</hi> XVII 49. 79f), sowie das Zweite <placeName ref="place880">Regensburger</placeName> Religionsgespräch, das vom 27. Januar bis 10. März stattfand (s. dazu <ref target="file12375">Nr. 2328</ref>, Anm. 17).</note>, tamen non dubitavi mea quoque te lecturum, quae partim a senatoribus <placeName ref="place1113">Ulmensibus</placeName>, partim a <placeName ref="place70">Augustensibus</placeName> huc perscribuntur.</s>
+					<s n="1" xml:lang="la" type="auto">Etsi multa quotidie nova vobis adferri sciam, praesertim in comitiis<note xml:id="fn3" type="footnote" n="3">Gemeint sind der Reichstag zu <placeName>Regensburg</placeName>, der am 6. Januar 1546 beginnen sollte und am 31. Januar von <persName>Karl V.</persName> auf den 15. März verschoben wurde (der Kaiser traf erst am 10. April in <placeName>Regensburg</placeName> ein und der Reichstag wurde am 5. Juni eröffnet; s. <hi>RTA-JR</hi> XVII 49. 79f), sowie das Zweite <placeName>Regensburger</placeName> Religionsgespräch, das vom 27. Januar bis 10. März stattfand (s. dazu <ref target="file12375">Nr. 2328</ref>, Anm. 17).</note>, tamen non dubitavi mea quoque te lecturum, quae partim a senatoribus <placeName>Ulmensibus</placeName>, partim a <placeName>Augustensibus</placeName> huc perscribuntur.</s>
 					<s n="2" xml:lang="la" type="auto">Quae quidem certa esse, minime est dubitandum, eaque schedulis inclusis<note xml:id="fn4" type="footnote" n="4">Nicht erhalten.</note> invenies.</s>
 					<s n="3" xml:lang="la" type="auto">Spero me ab humanitate tua, quid in comitiis actum vel agetur (de iis rebus, quae dicenda sunt)<note xml:id="fna" type="footnote" n="a"><hi>Klammern ergänzt.</hi></note>, certiorem fieri.</s>
 					<s n="4" xml:lang="la" type="auto">Plura non habeo, quod nunc scribam.</s>
@@ -124,7 +122,7 @@
 					<s n="6" xml:lang="la" type="auto">Sabato post epiphaniae 46.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Mathias <persName ref="person20059">Claudius</persName> tui deditus.</s>
+					<s n="7" xml:lang="la" type="auto"><persName ref="p8311">Mathias Claudius</persName> tui deditus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

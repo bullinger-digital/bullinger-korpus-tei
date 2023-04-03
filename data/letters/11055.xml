@@ -6,49 +6,40 @@
 				<title subtype="file">Martin Mötteli / Weinfelden AN Heinrich Bullinger, 5. Juli 1537</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1998</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1013</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">7</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1537</biblScope>
-				<biblScope unit="page">182</biblScope>
-				<biblScope unit="pages">357</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,90</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Kann zum Ausgang seines Verfahrens nun mitteilen, daß er von Landvogt
-								[<persName ref="person2618">Zumbrunnen</persName>] freigesprochen wurde (hofft, daß die Feinde der Wahrheit
+								[<persName ref="p7210">Zumbrunnen</persName>] freigesprochen wurde (hofft, daß die Feinde der Wahrheit
 								zuschanden werden); bittet Bullinger, die Verteidigungsschrift
-								[<persName ref="person156">Möttelis</persName>] zurückzuziehen, damit nicht Anlaß zum Streit gegeben wird.
+								[<persName ref="p18093">Möttelis</persName>] zurückzuziehen, damit nicht Anlaß zum Streit gegeben wird.
 								Dankt den Pfarrern und Bullinger für die Unterstützung.
 							</p>
 						</summary>
@@ -56,24 +47,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 7, Nr. 1013, S.182</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11055">
 				<correspAction type="sent">
-					<persName ref="person2237" cert="high">
+					<persName ref="p2237" cert="high">
 						<!--
 						<surname cert="high">Mötteli</surname>
 						<forename cert="high">Martin</forename>
 						<ref type="gnd" target="https://d-nb.info/gnd/1089474202"/>
 						-->
 					</persName>
-					<placeName source="place538" cert="high"><orig>Weinfelden</orig></placeName>
+					<placeName source="l538" cert="high"><orig>Weinfelden</orig></placeName>
 					<date when="1537-07-05" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -107,7 +105,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,7 +122,7 @@
 				<p>
 					<s n="3" xml:lang="la" type="auto">Quando te (optime vir) non solum omnium ecclesiarum, sed et omnium fratrum anxiam curam gerere sciam, res meas, quas et nuper tecum contuleram, ac scripta schedula<note xml:id="fn1" type="footnote" n="1">Nicht erhalten.</note>, si quando casus<note xml:id="fn2" type="footnote" n="2">Über den Fall ist im einzelnen nichts bekannt.</note> exigeret, ut memorarentur, tibi reliqueram, quem in finem abierint, pro tua singulari in me benevolentia nequaquam cęlare volui.</s>
 					<s n="4" xml:lang="la" type="auto">Ego enim, pro augusta veritatis maiestate, omnes semel illius inimicos confundi spero.</s>
-					<s n="5" xml:lang="la" type="auto">Prefectus<note xml:id="fn3" type="footnote" n="3"><persName ref="person2618">Mansuet Zumbrunnen</persName>, von <placeName ref="place93">Uri</placeName>, 1536-1538 eidgenössischer Landvogt im <placeName ref="place87">Thurgau</placeName>.</note> enim cum in ius me citatum in tertium usque iuris diem presentem me sine accusatore haberet nulliusque<pb type="edition" next="183"/> me reum ageret, ipse ego iudicem ius meum rogans, pręfectus me liberum dixit; quo id vero consilio, scire non possum.</s>
+					<s n="5" xml:lang="la" type="auto">Prefectus<note xml:id="fn3" type="footnote" n="3"><persName>Mansuet Zumbrunnen</persName>, von <placeName>Uri</placeName>, 1536-1538 eidgenössischer Landvogt im <placeName>Thurgau</placeName>.</note> enim cum in ius me citatum in tertium usque iuris diem presentem me sine accusatore haberet nulliusque<pb type="edition" next="183"/> me reum ageret, ipse ego iudicem ius meum rogans, pręfectus me liberum dixit; quo id vero consilio, scire non possum.</s>
 					<s n="6" xml:lang="la" type="auto">Apologiam igitur meam, quam in scriptis tibi dedi<note xml:id="fn4" type="footnote" n="4">Nicht erhalten.</note>, a publico retractes velim, ne vel olim modo quovis novorum incendia iurgiorum esse possint.</s>
 					<s n="7" xml:lang="la" type="auto">Si forsan dominus ęquiorem de veritate sentiendi animum praestiterit, nullam nostri causa offensionem impatientibus querelis prebeamus.</s>
 				</p>
@@ -141,14 +139,14 @@
 					<s n="13" xml:lang="la" type="auto">Quinta die iulii anno 37.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto"><persName ref="person156">Martinus</persName> Mötyly, semper tuus.</s>
+					<s n="14" xml:lang="la" type="auto"><persName ref="p18093">Martinus</persName> Mötyly, semper tuus.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="de" type="auto">Ex Winfelden Thurgoę.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="16" xml:lang="la" type="auto">Simul piissimo doctissimoque viro M. Gheimrycho<note xml:id="fn5" type="footnote" n="5">Zur Namensform vgl. <persName ref="person156">Möttelis</persName> Ausführungen im Brief vom 2. Januar 1536 (HBBW VI <ref target="file10747">[Nr. 709]</ref>, S. 34, 18-23).</note> Bullingero, domino ac fratri suo semper amantissimo.</s>
+					<s n="16" xml:lang="la" type="auto">Simul piissimo doctissimoque viro M. Gheimrycho<note xml:id="fn5" type="footnote" n="5">Zur Namensform vgl. <persName>Möttelis</persName> Ausführungen im Brief vom 2. Januar 1536 (<bibl>HBBW VI</bibl> <ref target="file10747">[Nr. 709]</ref>, S. 34, 18-23).</note> Bullingero, domino ac fratri suo semper amantissimo.</s>
 				</p>
 			</div>
 		</body>

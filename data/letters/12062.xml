@@ -6,53 +6,43 @@
 				<title subtype="file">Heinrich Bullinger / Zürich AN Bonifacius Amerbach, 18. Oktober 1544</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2011</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17565-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=2015</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XIV</title>
-				<biblScope unit="editor">Bodenmann, Reinhard; Henrich, Rainer; Kess, Alexandra; Seiniger, Judith</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">14</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1544</biblScope>
-				<biblScope unit="page">470</biblScope>
-				<biblScope unit="pages">645</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive6">
+						<repository ref="a6">
 							<name>Basel UB</name>
 							<ref target="https://ub.unibas.ch/de"/>
 						</repository>
-						<settlement ref="place28">Basel</settlement>
+						<settlement ref="l28">Basel</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive6"/>
+						<repository ref="a6"/>
 						<idno subtype="Autograph">Ms Ki. Ar. 18a,93</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Dankt für <persName ref="person6">Amerbachs</persName> Brief [oben <ref target="file12058">Nr. 2011</ref>],
-								der ihm vor allem deshalb willkommen war, weil <persName ref="person6">Amerbach</persName> Bullingers
+								Dankt für <persName ref="p164">Amerbachs</persName> Brief [oben <ref target="file12058">Nr. 2011</ref>],
+								der ihm vor allem deshalb willkommen war, weil <persName ref="p164">Amerbach</persName> Bullingers
 								Schreiben [oben <ref target="file12056">Nr. 2009</ref>] wohlmeinend aufgenommen hat. Empfiehlt erneut den
-								gemeinsamen Freund [Leonhard]
-								<persName ref="person108">Hospinian</persName>, der Schutz bei <persName ref="person6">Amerbach</persName>
+								gemeinsamen Freund <persName ref="p7073">[Leonhard] Hospinian</persName>, der Schutz bei <persName ref="p164">Amerbach</persName>
 								sucht und eine vom [Zürcher] Rat verfasste Prärogative mit zum Rat [nach
-								<placeName ref="place97">Basel</placeName>] bringt, wie <persName ref="person6">Amerbach</persName> es
-								geraten hatte. [Christus] möge die Freundschaft, die <persName ref="person6">Amerbach</persName> ihm
+								<placeName>Basel</placeName>] bringt, wie <persName ref="p164">Amerbach</persName> es
+								geraten hatte. [Christus] möge die Freundschaft, die <persName ref="p164">Amerbach</persName> ihm
 								entgegenbringt, erhalten und sie beide nach dem Tod zu sich nehmen.
 							</p>
 						</summary>
@@ -60,13 +50,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 14, Nr. 2015, S.470</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12062">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -76,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1544-10-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person164" cert="high">
+					<persName ref="p164" cert="high">
 						<!--
 						<surname cert="high">Amerbach</surname>
 						<forename cert="high">Bonifacius</forename>
@@ -114,7 +111,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -128,14 +125,14 @@
 					<s n="3" xml:lang="la" type="auto">Pro illa tua humanitate ago tibi gratias immortales, atque me interim et omnia mea tibi vicissim et tuis offero; fideliter et animo subiturus promptissimo, quodcumque mihi imposueris.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Rursus autem commendo tibi <persName ref="person108">Hospinianum</persName>, amicum communem - alioqui, sat scio, tibi commendatissimum - et virum optimum.</s>
+					<s n="4" xml:lang="la" type="auto">Rursus autem commendo tibi <persName ref="p7073">Hospinianum</persName>, amicum communem - alioqui, sat scio, tibi commendatissimum - et virum optimum.</s>
 					<s n="5" xml:lang="la" type="auto">Nam in te praesertim maximum collocat praesidium.</s>
-					<s n="6" xml:lang="la" type="auto">Adfert clarissimo senatui <placeName ref="place97">Basiliensi</placeName> praerogativam<note xml:id="fn3" type="footnote" n="3">Das Konzept der Prärogative ist im Zürcher Missivenbuch überliefert (Zürich StA. B IV 15, f. 141f).</note> ab amplissimo senatu nostro, quemadmodum consulebas.</s>
+					<s n="6" xml:lang="la" type="auto">Adfert clarissimo senatui <placeName>Basiliensi</placeName> praerogativam<note xml:id="fn3" type="footnote" n="3">Das Konzept der Prärogative ist im Zürcher Missivenbuch überliefert (Zürich StA. B IV 15, f. 141f).</note> ab amplissimo senatu nostro, quemadmodum consulebas.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Libenter enim bonorum virorum consiliis obsequitur.</s>
 					<s n="8" xml:lang="la" type="auto">Caeterum afferit me id prae caeteris perquam suaviter, quod intelligo amplissimum esse tuum in me studium.</s>
-					<s n="9" xml:lang="la" type="auto">Faxit is, qui summa charitas est, ut syncerissima dilectione nos mutuo in hisce terris complectentes, tandem, ubi hinc solverimus, ad eum transferamur, qui <persName ref="person265">Christianae</persName> dilectionis et perfectio et bravium<note xml:id="fn4" type="footnote" n="4">Vgl. Phil 3, 14.</note> est.</s>
+					<s n="9" xml:lang="la" type="auto">Faxit is, qui summa charitas est, ut syncerissima dilectione nos mutuo in hisce terris complectentes, tandem, ubi hinc solverimus, ad eum transferamur, qui Christianae dilectionis et perfectio et bravium<note xml:id="fn4" type="footnote" n="4">Vgl. Phil 3, 14.</note> est.</s>
 					<s n="10" xml:lang="la" type="auto">In quo te recte valere cupio, vir clarissime mihique semper suspiciende.</s>
 				</p>
 				<p>
@@ -149,7 +146,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="14" xml:lang="la" type="auto">Clarissimo viro d. d[octori] <persName ref="person6">Bonifacio Amerbachio</persName>, domino suo semper colendissimo.</s>
+					<s n="14" xml:lang="la" type="auto">Clarissimo viro d. d[octori] <persName ref="p164">Bonifacio Amerbachio</persName>, domino suo semper colendissimo.</s>
 				</p>
 			</div>
 		</body>

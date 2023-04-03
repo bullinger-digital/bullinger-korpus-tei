@@ -6,32 +6,31 @@
 				<title subtype="file">Christian Nägeli / Frauenfeld AN [Heinrich Bullinger], 9. Oktober 1567</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">7098/148</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,517</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,17 +52,17 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7258">
 				<correspAction type="sent">
-					<persName ref="person2307" cert="high">
+					<persName ref="p2307" cert="high">
 						<!--
 						<surname cert="high">Nägeli</surname>
 						<forename cert="high">Christian</forename>
 						-->
 					</persName>
-					<placeName source="place159" cert="high"><orig>Frauenfeld</orig></placeName>
+					<placeName source="l159" cert="high"><orig>Frauenfeld</orig></placeName>
 					<date when="1567-10-09" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="low">
+					<persName ref="p495" cert="low">
 						<!--
 						<surname cert="low">Bullinger</surname>
 						<forename cert="low">Heinrich</forename>
@@ -97,7 +96,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -110,7 +109,7 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">Salutem.</s>
 					<s n="2" xml:lang="la" type="auto">Miraris fortasse, pater fraterque in Christo amantissime, literarum mearum silentium, imprimis ob ea, quae proxime apud nos coram praeside iudicioque nostro cum domino Mauritio Schnewolphio, pastore in Steckboren peracta sunt.</s>
-					<s n="3" xml:lang="la" type="auto">Quod igitur nihil de illo negotio hactenus ad te dedi, caussa fuit, partim eventus expectatio longa et finis, quae tamen apparet nusquam, partim quod sperabam id melius dominum Camblinum proconsulem et Georgium Fitzrum oratorem coram - quam scripto- exposituros, nec non ipsos Steckborenses, qui consilii capessendi gratia vos accesserunt.</s>
+					<s n="3" xml:lang="la" type="auto">Quod igitur nihil de illo negotio hactenus ad te dedi, caussa fuit, partim eventus expectatio longa et finis, quae tamen apparet nusquam, partim quod sperabam id melius dominum Camblinum proconsulem et Georgium Fitzrum oratorem coram - quam scripto - exposituros, nec non ipsos Steckborenses, qui consilii capessendi gratia vos accesserunt.</s>
 					<s n="4" xml:lang="la" type="auto">Quoniam vero et alia ab acto iudicio acciderunt, quae magnopere te scire videbantur, ea hisce meis literulis breviter inserere olui, quo videant etiam nostrates, quantis dolis et fallatiis cum optimo viro et se quoque praecipue praeses noster aliique adversarii agant.</s>
 					<s n="5" xml:lang="la" type="auto">In primo igitur proconsulis nostri discessu, qui fuit postera iudicii dies, vix impetratum est summis praecibus a nostro praeside, ut captivum dominum Mauritium ad ecclesiam suam atque familiam dimitteret, ea tamen conditione, ut consules, senatus atque totus Steckborensium coetus (qui sane multum pro suo egerunt pastore et agunt quotidie) literis et diplomatis pollicerentur, se bona fide pastorem suum Mauritium, quocumque vellet die, iudicio, sive Frouvenfeldae, sive Badenae fiat, praesentaturos.</s>
 				</p>
@@ -129,9 +128,9 @@
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Uxor amore ex coniugali pollicita erat primum se omnes, quos hactenus fecisset, persoluturam.</s>
-					<s n="14" xml:lang="la" type="auto">Porro, priusquam concionem haberent Steckborenses, nam vindemia iam praesentissima multum impediebat eos, praeses noster abit equo una cum domino Ioachimo Ruplino et summo lictore - nostri vocant lantwaibel- ad divam virginem in Eremo: constat autem Suitiam usque praefectos eosque, qui facto opus sit, consuluisse.</s>
+					<s n="14" xml:lang="la" type="auto">Porro, priusquam concionem haberent Steckborenses, nam vindemia iam praesentissima multum impediebat eos, praeses noster abit equo una cum domino Ioachimo Ruplino et summo lictore - nostri vocant <foreign xml:lang="de">lantwaibel</foreign> - ad divam virginem in Eremo: constat autem Suitiam usque praefectos eosque, qui facto opus sit, consuluisse.</s>
 					<s n="15" xml:lang="la" type="auto">Interea precibus uxoris captivi et Steckborensium, quibus conditiones praesidis nimis visae sunt graves, redit ad nos dominus Camblinus proconsul intercessurus et caussam ex praeside nostro nosciturus, quem abesse nesciebat.</s>
-					<s n="16" xml:lang="la" type="auto">Sed quum non adesset praeses, protonotarium nostri eum appellant, landschriber accersit, ultro adveniente domino Ludivico Werlino, qui vires agit praesidis, hunc vulgus vocat landammen.</s>
+					<s n="16" xml:lang="la" type="auto">Sed quum non adesset praeses, protonotarium nostri eum appellant, <foreign xml:lang="de">landschriber</foreign> accersit, ultro adveniente domino Ludivico Werlino, qui vires agit praesidis, hunc vulgus vocat landammen.</s>
 					<s n="17" xml:lang="la" type="auto">Illi duo proconsulem nostrum excipiunt perhumanissime, causamque captivitatis diutinae quaerenti respondent aliam esse nullam nisi Steckborensium moram, qui pollicitationibus et conditionibus non satisfaciant.</s>
 					<s n="18" xml:lang="la" type="auto">Habereque se in mandatis praesidis, ut, quocumque veniant die vades a Steckboren missi una cum literis in nomine consulum, senatus et totius parochias partis evangelicae conscriptis, illum dimittant.</s>
 					<s n="19" xml:lang="la" type="auto">Interea hortatu proconsulis conventum habent et literas rationes vadimonii illius pro pastore suo captivo conscribunt.</s>

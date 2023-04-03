@@ -6,52 +6,43 @@
 				<title subtype="file">Erasmus Ritter / Schaffhausen AN Heinrich Bullinger, 15. September 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=649</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">364</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 362,34</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Erkundigt sich, ob der Brief vom 6. September [<ref target="file10682">Nr. 644</ref>] Bullinger überbracht
-								worden ist. Der Rat hat den Lästerer [<persName ref="person1956">Rosenbaum</persName>] zu einer Haftstrafe
+								worden ist. Der Rat hat den Lästerer [<persName ref="p6259">Rosenbaum</persName>] zu einer Haftstrafe
 								verurteilt, die Pfarrer aber freigesprochen. Laut David von
-								<persName ref="person690">Dettighofen</persName> soll <persName ref="person28">Bucer</persName> in
-								<placeName ref="place70">Augsburg</placeName> seine Abendmahlsauffassung widerrufen haben. Es wird ein
-								neues Büchlein von <persName ref="person19">Blarer</persName> herumgereicht. Möchte mehr über
-								<persName ref="person40">Capitos</persName> Besuch in Zürich und über die Apologie erfahren.
+								<persName ref="p17871">Dettighofen</persName> soll <persName ref="p467">Bucer</persName> in
+								<placeName>Augsburg</placeName> seine Abendmahlsauffassung widerrufen haben. Es wird ein
+								neues Büchlein von <persName ref="p8055">Blarer</persName> herumgereicht. Möchte mehr über
+								<persName ref="p5565">Capitos</persName> Besuch in Zürich und über die Apologie erfahren.
 							</p>
 						</summary>
 						<msItem>
@@ -63,6 +54,9 @@
 							<bibl type="Gedruckt" subtype="Teildruck">
 								<title>QGTS II 104f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 649, S.364</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -71,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10687">
 				<correspAction type="sent">
-					<persName ref="person2810" cert="high">
+					<persName ref="p2810" cert="high">
 						<!--
 						<surname cert="high">Ritter</surname>
 						<forename cert="high">Erasmus</forename>
@@ -80,11 +74,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11416562"/>
 						-->
 					</persName>
-					<placeName source="place441" cert="high"><orig>Schaffhausen</orig></placeName>
+					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1535-09-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -119,7 +113,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -134,25 +128,25 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Littere datę 6. septembris<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file10682">Nr. 644</ref>.</note> num tibi sint reddite, ignoro.</s>
-					<s n="3" xml:lang="la" type="auto">Ego illas aurige<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> a Klota<note xml:id="fn3" type="footnote" n="3"><placeName ref="place558">Kloten</placeName> (Kt. Zürich).</note> quam diligentissime comendavi addito etiam stipendio.</s>
+					<s n="3" xml:lang="la" type="auto">Ego illas aurige<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> a Klota<note xml:id="fn3" type="footnote" n="3"><placeName>Kloten</placeName> (Kt. Zürich).</note> quam diligentissime comendavi addito etiam stipendio.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Verum noster conviciator<note xml:id="fn4" type="footnote" n="4"><persName ref="person1956">Lorenz Rosenbaum</persName>.</note> suas in nos contumelias probare conatus est argumento catabaptistico, vitam scilicet nostram Christi esse dissimilem, propterea<pb type="edition" next="365"/> doctrinam nostram esse falsam<note xml:id="fn5" type="footnote" n="5">Zur Auseinandersetzung der Pfarrer mit dem Goldschmied <persName ref="person1956">Rosenbaum</persName> vgl. oben <ref target="file10672">Nr. 634</ref>. 644; unten 681.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Verum noster conviciator<note xml:id="fn4" type="footnote" n="4"><persName>Lorenz Rosenbaum</persName>.</note> suas in nos contumelias probare conatus est argumento catabaptistico, vitam scilicet nostram Christi esse dissimilem, propterea<pb type="edition" next="365"/> doctrinam nostram esse falsam<note xml:id="fn5" type="footnote" n="5">Zur Auseinandersetzung der Pfarrer mit dem Goldschmied <persName>Rosenbaum</persName> vgl. oben <ref target="file10672">Nr. 634</ref>. 644; unten 681.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">At senatus sentenciam tulit talem, quod illata in nos<note xml:id="fna" type="footnote" n="a">in nos <hi>über gestrichenem</hi> nobis.</note> convicia non probaverit.</s>
 					<s n="6" xml:lang="la" type="auto">Nos igitur, ne videremur vindicte nimium cupidi, negotium senatui comisimus et obnixe rogavimus, ut doctrinam, quae non nostra, sed Christi<note xml:id="fnb" type="footnote" n="b"><hi>nach</hi> Christi <hi>gestrichenes</hi> sit.</note>, officium, quod non<note xml:id="fnc" type="footnote" n="c">non <hi>übergeschrieben.</hi></note> nostrum, sed ecclesie sit, diligentius tueatur, ne posthac hisce conviciis commaculetur.</s>
 					<s n="7" xml:lang="la" type="auto">Quod et liberaliter promisit se facturum.</s>
-					<s n="8" xml:lang="la" type="auto">Quapropter reum illum teterrimo carceri mancipavit nosque liberati sumus<note xml:id="fn6" type="footnote" n="6">Zur Verhandlung vom 14. September 1535 vgl. QGTS II 103f.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Quapropter reum illum teterrimo carceri mancipavit nosque liberati sumus<note xml:id="fn6" type="footnote" n="6">Zur Verhandlung vom 14. September 1535 vgl. <bibl>QGTS</bibl> II 103f.</note>.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Ceterum apud nos fama percrebruit de revocatione Bucceri.</s>
-					<s n="10" xml:lang="la" type="auto">Fuit namque hisce diebus hic mercator de <placeName ref="place70">Augusta</placeName> magni nominis, David Tetikofer<note xml:id="fn7" type="footnote" n="7"><persName ref="person690">David von Dettighofen</persName> d. A. (Dettikofer), 1497-1566, von <placeName ref="place636">Lindau</placeName>, ab 1521 Bürger von <placeName ref="place697">Memmingen</placeName>, war Kaufmann und ist für die Jahre 1528 und 1529 als Ratsherr in <placeName ref="place697">Memmingen</placeName> nachgewiesen. Im Jahre 1530 übersiedelte er nach <placeName ref="place70">Augsburg</placeName>, kehrte aber - nachdem er sich dort vergeblich um das Bürgerrecht bemüht hatte - 1541 nach <placeName ref="place697">Memmingen</placeName> zurück. - Lit.: Raimund <hi>Eirich,</hi> <placeName ref="place697">Memmingens</placeName> Wirtschaft und Patriziat von 1347 bis 1551. Eine wirtschafts- und sozialgeschichtliche Untersuchung über das Memminger Patriziat während der Zunftverfassung, Weißendorn 1971, S. 242f; Jakob <hi>Strieder,</hi> Drei schwäbische Kaufmannsporträts der Renaissance, in: Das reiche <placeName ref="place70">Augsburg</placeName>. Ausgewählte Aufsätze Jakob Strieders zur <placeName ref="place70">Augsburger</placeName> und süddeutschen Wirtschaftsgeschichte des 15. und 16. Jahrhunderts, hg. v. Heinz F. Deininger, München 1938, S. 110-113.</note>, qui dixit se interfuisse concioni, quam Buccerus habuerit ad populum, in qua publice confessus sit, quaecumque hactenus et scripserit et docuerit de sacramento eucharistie, esse errores; illa nunc omnia revocare simulque precasse veniam<note xml:id="fn8" type="footnote" n="8">Siehe <hi>Pollet,</hi> <persName ref="person28">Bucer</persName> II 231, sowie <hi>Roth</hi> II 242.</note></s>
+					<s n="10" xml:lang="la" type="auto">Fuit namque hisce diebus hic mercator de <placeName>Augusta</placeName> magni nominis, David Tetikofer<note xml:id="fn7" type="footnote" n="7"><persName>David von Dettighofen</persName> d. A. (Dettikofer), 1497-1566, von <placeName>Lindau</placeName>, ab 1521 Bürger von <placeName>Memmingen</placeName>, war Kaufmann und ist für die Jahre 1528 und 1529 als Ratsherr in <placeName>Memmingen</placeName> nachgewiesen. Im Jahre 1530 übersiedelte er nach <placeName>Augsburg</placeName>, kehrte aber - nachdem er sich dort vergeblich um das Bürgerrecht bemüht hatte - 1541 nach <placeName>Memmingen</placeName> zurück. - Lit.: Raimund <hi>Eirich,</hi> <placeName>Memmingens</placeName> Wirtschaft und Patriziat von 1347 bis 1551. Eine wirtschafts- und sozialgeschichtliche Untersuchung über das Memminger Patriziat während der Zunftverfassung, Weißendorn 1971, S. 242f; Jakob <hi>Strieder,</hi> Drei schwäbische Kaufmannsporträts der Renaissance, in: Das reiche <placeName>Augsburg</placeName>. Ausgewählte Aufsätze Jakob Strieders zur <placeName>Augsburger</placeName> und süddeutschen Wirtschaftsgeschichte des 15. und 16. Jahrhunderts, hg. v. Heinz F. Deininger, München 1938, S. 110-113.</note>, qui dixit se interfuisse concioni, quam Buccerus habuerit ad populum, in qua publice confessus sit, quaecumque hactenus et scripserit et docuerit de sacramento eucharistie, esse errores; illa nunc omnia revocare simulque precasse veniam<note xml:id="fn8" type="footnote" n="8">Siehe <hi>Pollet,</hi> <persName ref="p18198">Bucer</persName> II 231, sowie <hi>Roth</hi> II 242.</note></s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Deinde Waldkilchius<note xml:id="fn9" type="footnote" n="9">Bürgermeister <persName ref="person232">Hans von Waldkirch</persName>.</note> libellum novum circumfert, quod nuper ab <persName ref="person19">Ambrosio Blaurero</persName> sit editum<note xml:id="fn10" type="footnote" n="10">Das Gerücht über das Erscheinen eines weiteren Büchleins von <persName ref="person19">Ambrosius Blarer</persName> wurde von diesem zurückgewiesen (s. unten <ref target="file10691">Nr. 653</ref>, 7, auch QGTS II 104, Anm. 5).</note>, in quo nonnichil et ille plus quam in apologia sua<note xml:id="fn11" type="footnote" n="11">Zu <persName ref="person19">Blarers</persName> Apologie vgl. oben <ref target="file10541">Nr. 505</ref>, Anm. 2.</note> sentenciam suam declaret.</s>
-					<s n="12" xml:lang="la" type="auto">Ego non legi, sed Bovillus<note xml:id="fn12" type="footnote" n="12">Ludwig Oechsli.</note>, qui mira dicit de <persName ref="person19">Blaurero</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Deinde Waldkilchius<note xml:id="fn9" type="footnote" n="9">Bürgermeister <persName ref="p18357">Hans von Waldkirch</persName>.</note> libellum novum circumfert, quod nuper ab <persName ref="p8055">Ambrosio Blaurero</persName> sit editum<note xml:id="fn10" type="footnote" n="10">Das Gerücht über das Erscheinen eines weiteren Büchleins von <persName>Ambrosius Blarer</persName> wurde von diesem zurückgewiesen (s. unten <ref target="file10691">Nr. 653</ref>, 7, auch <bibl>QGTS</bibl> II 104, Anm. 5).</note>, in quo nonnichil et ille plus quam in apologia sua<note xml:id="fn11" type="footnote" n="11">Zu <persName>Blarers</persName> Apologie vgl. oben <ref target="file10541">Nr. 505</ref>, Anm. 2.</note> sentenciam suam declaret.</s>
+					<s n="12" xml:lang="la" type="auto">Ego non legi, sed Bovillus<note xml:id="fn12" type="footnote" n="12"><persName>Ludwig Oechsli</persName>.</note>, qui mira dicit de <persName ref="p8055">Blaurero</persName>.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Ceterum etiam <persName ref="person40">Capito[nem]</persName> apud vos fuisse accepimus<note xml:id="fn13" type="footnote" n="13"><persName ref="person40">Wolfgang Capito</persName> war zwischen dem 25. und dem 28. August in Zürich (vgl. oben <ref target="file10673">Nr. 635</ref>, Anm. 12).</note>.</s>
+					<s n="13" xml:lang="la" type="auto">Ceterum etiam <persName ref="p5565">Capito[nem]</persName> apud vos fuisse accepimus<note xml:id="fn13" type="footnote" n="13"><persName>Wolfgang Capito</persName> war zwischen dem 25. und dem 28. August in Zürich (vgl. oben <ref target="file10673">Nr. 635</ref>, Anm. 12).</note>.</s>
 					<s n="14" xml:lang="la" type="auto">Quid egerit, indica michi, te oro.</s>
 					<s n="15" xml:lang="la" type="auto">Et de apologia nostra<note xml:id="fn14" type="footnote" n="14">Zur geplanten Zürcher Apologie gegen die Lutheraner vgl. oben <ref target="file10659">Nr. 621</ref>, Anm. 19.</note> quid sperandum sit, fac<note xml:id="fnd" type="footnote" n="d"><hi>nach</hi> fac <hi>gestrichenes</hi> fa.</note>, si tibi ocium est, ut hoc nunccio<note xml:id="fn15" type="footnote" n="15">Unbekannt.</note> cercior fiam.</s>
 				</p>
@@ -160,10 +154,10 @@
 					<s n="16" xml:lang="la" type="auto"><pb type="edition" next="366"/>Vale.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Ex <placeName ref="place943">Scaphusia</placeName> 1535, 15. septembris.</s>
+					<s n="17" xml:lang="la" type="auto">Ex <placeName>Scaphusia</placeName> 1535, 15. septembris.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto"><persName ref="person176">Erasmus Ritter</persName>, ex animo tuus.</s>
+					<s n="18" xml:lang="la" type="auto"><persName ref="p2810">Erasmus Ritter</persName>, ex animo tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

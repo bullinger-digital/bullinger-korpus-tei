@@ -6,32 +6,31 @@
 				<title subtype="file">Johann Wilhelm von Laubenberg / Wagegg AN Heinrich Bullinger / Zürich, 27. Oktober 1558</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">5074/183</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,523</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 93,91</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,18 +59,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3741">
 				<correspAction type="sent">
-					<persName ref="person3642" cert="high">
+					<persName ref="p3642" cert="high">
 						<!--
 						<surname cert="high">von Laubenberg</surname>
 						<forename cert="high">Johann Wilhelm</forename>
 						<persName type="main" ref="person3641>von Laubenberg, Johann Wilhelm</persName>
 						-->
 					</persName>
-					<placeName source="place528" cert="high"><orig>Wagegg</orig></placeName>
+					<placeName source="l528" cert="high"><orig>Wagegg</orig></placeName>
 					<date when="1558-10-27" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -81,7 +80,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file3742"/>
@@ -105,7 +104,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -156,7 +155,7 @@
 				</p>
 				<p>
 					<s n="26" xml:lang="la" type="auto">Rescribe, si visum fuerit tibi ac per otium licuerit ad manus lithotomi Lindaugensis Gasparis Stromeyri vel soceri eius senioris lithotomi et ophtalmici Udalrici Angelbergii.</s>
-					<s n="27" xml:lang="la" type="auto">Brentius ille sacerdos summus in reprobum datus sensum, etsi nos extimescit sane male sibi conscius, coram enim cum homine theologo... cques egi, sus ad Minervam<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 1, 40 (LB II 43).</note> opinor, tamen acerrimi Melanthonis philosophi calcaribus vel istius potius heroica reputatione nolit velit adductus tradit fratres suos et pios homines, qui Christum et regnum eius quaerunt; sunt enim aulici nostri illi magistri populorum haud secus ac mancipia meretricis Babylonicae.</s>
+					<s n="27" xml:lang="la" type="auto">Brentius ille sacerdos summus in reprobum datus sensum, etsi nos extimescit sane male sibi conscius, coram enim cum homine theologo... cques egi, sus ad Minervam<note xml:id="fn1" type="footnote" n="1">Adagia, 1, 1, 40 (<bibl>LB</bibl> II 43).</note> opinor, tamen acerrimi Melanthonis philosophi calcaribus vel istius potius heroica reputatione nolit velit adductus tradit fratres suos et pios homines, qui Christum et regnum eius quaerunt; sunt enim aulici nostri illi magistri populorum haud secus ac mancipia meretricis Babylonicae.</s>
 					<s n="28" xml:lang="la" type="auto">Vires non sufficiunt mihi, ut pro eo ac debebam, tibi perscribere possem de istis sanguinum viris, quibus non sunt pedes ad annunciandum pacem Christum.</s>
 					<s n="29" xml:lang="la" type="auto">Valeant ergo, et sint benedicti omnes, qui sperant in pium et mansuetum unicum magistrum nostrum Christum dominum, amen, cui sit iterum atque iterum gloria.</s>
 					<s n="30" xml:lang="la" type="auto">Velim autem perquam lubenter ista opuscula missa ne dedigneris legere atque etiam relegere; nam et ego multis supersedeo negotiis ad perlustrandos quo[s]vis libellos eruendae veritatis ergo.</s>

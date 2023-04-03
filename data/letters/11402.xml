@@ -6,46 +6,37 @@
 				<title subtype="file">Otto Werdmüller / Paris AN Heinrich Bullinger, 20. Februar 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1359</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">52</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,92</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat seit seinem Wegzug aus <placeName ref="place97">Basel</placeName> nichts mehr aus Zürich gehört,
+								Hat seit seinem Wegzug aus <placeName>Basel</placeName> nichts mehr aus Zürich gehört,
 								versichert aber Bullinger und die anderen Vorgesetzten seines Gehorsams; ist hier nicht in Gefahr und
 								verdient sich den Lebensunterhalt mit Vorlesungen. Grüße.
 							</p>
@@ -54,24 +45,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1359, S.52</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11402">
 				<correspAction type="sent">
-					<persName ref="person3875" cert="high">
+					<persName ref="p3875" cert="high">
 						<!--
 						<surname cert="high">Werdmüller</surname>
 						<forename cert="high">Otto</forename>
 						<persName type="main" ref="person8459>Werdmüller, Otto</persName>
 						-->
 					</persName>
-					<placeName source="place378" cert="high"><orig>Paris</orig></placeName>
+					<placeName source="l378" cert="high"><orig>Paris</orig></placeName>
 					<date when="1540-02-20" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -105,7 +103,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,21 +115,21 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Iam ante quoque scripsi<note xml:id="fn1" type="footnote" n="1"><persName ref="person238">Werdmüllers</persName> letzter Brief an Bullinger, der noch erhalten ist, datiert vom 23. Mai 1539; s. HBBW IX, <ref target="file11318">Nr. 1275</ref>.</note>, pater inprimis observande, de statu rerum mearum.</s>
+					<s n="2" xml:lang="la" type="auto">Iam ante quoque scripsi<note xml:id="fn1" type="footnote" n="1"><persName>Werdmüllers</persName> letzter Brief an Bullinger, der noch erhalten ist, datiert vom 23. Mai 1539; s. <bibl>HBBW</bibl> IX, <ref target="file11318">Nr. 1275</ref>.</note>, pater inprimis observande, de statu rerum mearum.</s>
 					<s n="3" xml:lang="la" type="auto">Quae num acceperis, ignoro.</s>
-					<s n="4" xml:lang="la" type="auto">Nullas enim e patria literas accepi, ex quo <placeName ref="place97">Basilea</placeName><note xml:id="fna" type="footnote" n="a">Basilea <hi>korrigiert aus</hi> Basileae.</note> discessi<note xml:id="fn2" type="footnote" n="2"><persName ref="person238">Werdmüller</persName> hatte <placeName ref="place97">Basel</placeName> zu Ende des Jahres 1539 verlassen; vgl. unten <ref target="file11429">Nr. 1386</ref>, Anm.1.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Nullas enim e patria literas accepi, ex quo <placeName>Basilea</placeName><note xml:id="fna" type="footnote" n="a">Basilea <hi>korrigiert aus</hi> Basileae.</note> discessi<note xml:id="fn2" type="footnote" n="2"><persName>Werdmüller</persName> hatte <placeName>Basel</placeName> zu Ende des Jahres 1539 verlassen; vgl. unten <ref target="file11429">Nr. 1386</ref>, Anm.1.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Iterum igitur scribo et vehementer oro, ne in aliam partem, atque ego feci, abitum meum interpretari velitis, qui paratus sum et tibi et omnibus, quos deus mihi praefecit<note xml:id="fnb" type="footnote" n="b"><hi>Vor</hi> praefecit <hi>gestrichenes</hi> praeposuit.</note>, per omnia morem gerere.</s>
 					<s n="6" xml:lang="la" type="auto">Nam quod ab hoc, ubi nunc sum, loco solum absterrebat, re ipsa<note xml:id="fnc" type="footnote" n="c"><hi>in der Vorlage</hi> reipsa.</note> comperio sine periculo esse.</s>
 					<s n="7" xml:lang="la" type="auto">Vivo alioqui satis foeliciter laboreque victum mihi paro publice praelegendo.</s>
 					<s n="8" xml:lang="la" type="auto">Itaque deo immortali gratias ago, qui me nusquam destitutum esse patiatur.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Salutabis, obsecro, d. <persName ref="person318">Iacobum</persName> Ammanium et reliquos praeceptores in perpetuum colendos.</s>
+					<s n="9" xml:lang="la" type="auto">Salutabis, obsecro, d. <persName ref="p167">Iacobum</persName> Ammanium et reliquos praeceptores in perpetuum colendos.</s>
 					<s n="10" xml:lang="la" type="auto">20. februarii 1540.</s>
-					<s n="11" xml:lang="la" type="auto">Parrisiis, prope collegium Plessiacum in vico Iacobęo<note xml:id="fn3" type="footnote" n="3">Das alte "Collège du Plessis", von Geoffroi du Plessis 1317/1323 gegründet, stand an der Rue Saint-Jacques; vgl. M. <hi>Barroux,</hi> Art. Plessis (Collège du), in: La Grande Encyclopédie, Bd. 26, <placeName ref="place836">Paris</placeName> [s. d.], S. 1090.</note>, ubi tres pisces dependent.</s>
+					<s n="11" xml:lang="la" type="auto">Parrisiis, prope collegium Plessiacum in vico Iacobęo<note xml:id="fn3" type="footnote" n="3">Das alte "Collège du Plessis", von Geoffroi du Plessis 1317/1323 gegründet, stand an der Rue Saint-Jacques; vgl. M. <hi>Barroux,</hi> Art. Plessis (Collège du), in: La Grande Encyclopédie, Bd. 26, <placeName>Paris</placeName> [s. d.], S. 1090.</note>, ubi tres pisces dependent.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><persName ref="person238">Otho Werdmüllerus</persName>, tuus filius obsequentissimus.</s>
+					<s n="12" xml:lang="la" type="auto"><persName ref="p8459">Otho Werdmüllerus</persName>, tuus filius obsequentissimus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

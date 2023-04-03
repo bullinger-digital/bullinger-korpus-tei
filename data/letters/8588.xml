@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file8588" type="Briefanfang" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file8588" type="Brief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Heinrich Bullinger, Rudolf Gwalther / Zürich AN [(Landvögte) Kaspar Gymper] / [Maggiatal], s.d. [Juni 1571]</title>
+				<title subtype="file">Heinrich Bullinger, Rudolf Gwalther / Zürich AN [(Landvögte) Kaspar Gymper] / [Maggiatal], wohl Anfang Juni</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -18,21 +18,18 @@
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
 				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">(nicht ediert)</title>
-			</seriesStmt>
 			<sourceDesc>
-				<msDesc type="Briefanfang" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 381,1262</idno>
 					</msIdentifier>
 					<msContents>
@@ -41,17 +38,17 @@
 						</msItem>
 					</msContents>
 				</msDesc>
-				<msDesc type="Briefanfang" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 124,85</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,7 +57,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8588">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -70,7 +67,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<persName ref="person1381" cert="high">
+					<persName ref="p1381" cert="high">
 						<!--
 						<surname cert="high">Gwalther</surname>
 						<forename cert="high">Rudolf</forename>
@@ -81,19 +78,19 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11522600"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
-					<date notBefore="1571-06-01" notAfter="1571-06-12" cert="low"><note>Datum unsicher  (1571) (vor Juni 17.)  (wohl Anfang Juni)  Datum ergibt sich aus Gimpers Antwort (1571) Juni 23. Nach HBLS III 518 war Gimper 1570/71 Landvogt im Maggiatal</note></date>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
+					<date notBefore="1571-06-01" notAfter="1571-06-12" cert="low">wohl Anfang Juni<note type="Datum">Datum unsicher  (1571) (vor Juni 17.)  (wohl Anfang Juni)  Datum ergibt sich aus Gimpers Antwort (1571) Juni 23. Nach HBLS III 518 war Gimper 1570/71 Landvogt im Maggiatal</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person1304" cert="low">
+					<persName ref="p1304" cert="low">
 						<!--
 						<surname cert="low">Gymper</surname>
 						<forename cert="low">Kaspar</forename>
 						<persName type="main" ref="person1301>Gymper, Kaspar</persName>
 						-->
-						<roleName ref="role82" type="pl" role="Landvögte" cert="low"/>
+						<roleName ref="g82" type="pl" role="Landvögte" cert="low"/>
 					</persName>
-					<placeName source="place304" cert="low"><orig>Maggiatal</orig></placeName>
+					<placeName source="l304" cert="low"><orig>Maggiatal</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8602"/>
@@ -110,7 +107,7 @@
 			</correspDesc>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -6,40 +6,31 @@
 				<title subtype="file">Leo Jud / [Zürich] AN Heinrich Bullinger, [15.] März 1532</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1982</date>
-				<idno subtype="ISBN">ISBN 3-290-11467-8</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=75</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW II</title>
-				<biblScope unit="editor">Gäbler, Ulrich; Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">2</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1532</biblScope>
-				<biblScope unit="page">76</biblScope>
-				<biblScope unit="pages">304</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 2 (Briefe des Jahres 1532), bearb. von Ulrich Gäbler, Endre Zsindely, Matthias Senn et al., Zürich 1982, 304 S., ISBN 3-290-11467-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 437a,440r-v</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,8 +38,8 @@
 							<p xml:id="regest1">
 								Beantwortet <ref target="file10103">Nr. 74</ref> in freundlichem Ton, hält jedoch an seiner Meinung fest,
 								daß Magistrat und Kirche ihrem Wesen nach grundverschieden seien und daß die Exkommunikation allein der
-								Kirche obliege. Man darf sich weder auf <persName ref="person265">Zwinglis</persName> noch anderer Menschen
-								Autorität stützen, sondern allein auf das Gotteswort. <persName ref="person114">Jud</persName> verlangt
+								Kirche obliege. Man darf sich weder auf <persName ref="p4091">Zwinglis</persName> noch anderer Menschen
+								Autorität stützen, sondern allein auf das Gotteswort. <persName ref="p1753">Jud</persName> verlangt
 								zwar keine vollkommene, von Sündern gereinigte Kirche, hält aber Bullingers resignierte Worte, daß man die
 								Welt nicht ändern könne, für gefährlich, da ja das Streben nach Vollkommenheit Christenpflicht ist.
 							</p>
@@ -65,6 +56,9 @@
 							<bibl type="Gedruckt" subtype="Zusammenfassende__Übersetzung">
 								<title>Pestalozzi 98</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 2, Nr. 75, S.76</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -73,7 +67,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10104">
 				<correspAction type="sent">
-					<persName ref="person1753" cert="high">
+					<persName ref="p1753" cert="high">
 						<!--
 						<surname cert="high">Jud</surname>
 						<forename cert="high">Leo</forename>
@@ -83,11 +77,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11423330"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1532-03-15" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -124,7 +118,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -169,13 +163,13 @@
 					<s n="30" xml:lang="la" type="auto">Et Christus dicit: «Dic ecclesiae» [Mt 18,17].</s>
 					<s n="31" xml:lang="la" type="auto">Iam si quis contendat magistratum esse ecclesiam, is authoritate scripturae id faciet, non propria.</s>
 					<s n="32" xml:lang="la" type="auto">Adhuc enim sub iudice lis pendet.</s>
-					<s n="33" xml:lang="la" type="auto">Nec id satis erit ad confirmandum hoc dictum, quod doctissimus vir <persName ref="person265">Zuinglius</persName>, praeceptor meus venerandus, magistratui hanc potestatem dedit iussitque, ut ecclesia essent [!]<note xml:id="fn21" type="footnote" n="21">Vgl. oben S. 72,53-56; zur Frage des Bannes s. HBBW I <ref target="file10067">[Nr. 39]</ref> 207, Anm. 7, mit Lit.</note>, etiamsi ego aut alius quispiam adstipulatus sim<note xml:id="fn22" type="footnote" n="22">Vgl. oben S. 72,55.</note>.</s>
+					<s n="33" xml:lang="la" type="auto">Nec id satis erit ad confirmandum hoc dictum, quod doctissimus vir <persName ref="p4091">Zuinglius</persName>, praeceptor meus venerandus, magistratui hanc potestatem dedit iussitque, ut ecclesia essent [!]<note xml:id="fn21" type="footnote" n="21">Vgl. oben S. 72,53-56; zur Frage des Bannes s. <bibl>HBBW</bibl> I <ref target="file10067">[Nr. 39]</ref> 207, Anm. 7, mit Lit.</note>, etiamsi ego aut alius quispiam adstipulatus sim<note xml:id="fn22" type="footnote" n="22">Vgl. oben S. 72,55.</note>.</s>
 					<s n="34" xml:lang="la" type="auto">Non enim fieri hoc debebat absque totius ecclesię consensu.</s>
 				</p>
 				<p>
-					<s n="35" xml:lang="la" type="auto"><pb type="scan" next="||440v."/>Haec non scribo, mi Henrice, ut doctissimi hominis<note xml:id="fn23" type="footnote" n="23"><persName ref="person265">Zwinglis</persName>.</note> vel facta vel dicta sugillem, sed quod putem nullius hominis authoritatem tantam esse debere, ut scripturę sanctae praeiudicet, nec nos in cuiusquam hominis verba adeo iuratos esse debere, quin repugnante scriptura liceat libere ab eo dissentire.</s>
+					<s n="35" xml:lang="la" type="auto"><pb type="scan" next="||440v."/>Haec non scribo, mi Henrice, ut doctissimi hominis<note xml:id="fn23" type="footnote" n="23"><persName>Zwinglis</persName>.</note> vel facta vel dicta sugillem, sed quod putem nullius hominis authoritatem tantam esse debere, ut scripturę sanctae praeiudicet, nec nos in cuiusquam hominis verba adeo iuratos esse debere, quin repugnante scriptura liceat libere ab eo dissentire.</s>
 					<s n="36" xml:lang="la" type="auto">Porro, qualis fuerit tum, dum ei demandata est<note xml:id="fn24" type="footnote" n="24">Nämlich zur Zwinglizeit.</note>, qualis iam sit senatus<note xml:id="fn25" type="footnote" n="25">Vgl. oben S. 58,20.</note>, non refert recensere, cum vel cecis<pb type="edition" next="78"/> notum sit.</s>
-					<s n="37" xml:lang="la" type="auto">Ecclesiam vero Christi talem rem esse, qualis respublica <persName ref="person1850">Platonis</persName><note xml:id="fn26" type="footnote" n="26">Zu <persName ref="person1850">Platos</persName> «Staat» s. u. a. Heinrich <hi>Dörrie,</hi> in: RGG V 410f.</note>, quae verius imaginari quam videri possit<note xml:id="fn27" type="footnote" n="27">Vgl. oben S. 72,68f.</note>, ego non puto.</s>
+					<s n="37" xml:lang="la" type="auto">Ecclesiam vero Christi talem rem esse, qualis respublica <persName ref="p18581">Platonis</persName><note xml:id="fn26" type="footnote" n="26">Zu <persName>Platos</persName> «Staat» s. u. a. Heinrich <hi>Dörrie,</hi> in: RGG V 410f.</note>, quae verius imaginari quam videri possit<note xml:id="fn27" type="footnote" n="27">Vgl. oben S. 72,68f.</note>, ego non puto.</s>
 					<s n="38" xml:lang="la" type="auto">Nam apostoli ecclesiam habuerunt veram, ut puto, non imaginariam.</s>
 					<s n="39" xml:lang="la" type="auto">Nec ego talem cupio, in qua non sint peccatores<note xml:id="fn28" type="footnote" n="28">Vgl. oben S. 72,68-72.</note>, sed puto in ecclesiam Christi neminem pertinere nisi poenitentes<note xml:id="fn29" type="footnote" n="29">Siehe oben S. 60,96-100.</note> - quum poenitentes dico, annon agnosco peccatores?</s>
 					<s n="40" xml:lang="la" type="auto">-, neminem recipi debere, qui sit publicus Christi hostis, sed qui Christum profiteatur unicum salvatorem, qui in Christum credat.</s>
@@ -196,7 +190,7 @@
 				</p>
 				<p>
 					<s n="55" xml:lang="la" type="auto">Scio, mi Henriche, te hic posse suffugium quaerere et elabi.</s>
-					<s n="56" xml:lang="la" type="auto">Sed te per Christum rogo, ut dialectica et rhetorica arte<note xml:id="fn37" type="footnote" n="37">Zu Bullingers dialektisch-rhetorischer Schriftauslegung s. <hi>Hausammann</hi> 145-185.</note> non ad captionem, sed ad gloriam dei<note xml:id="fn38" type="footnote" n="38">Vgl. 1 Kor 10,31.</note>, ad aędificationem ecclesiae<note xml:id="fn39" type="footnote" n="39">Vgl. 1 Kor 14,12.26.</note>, ad clavem scripturarum<note xml:id="fn40" type="footnote" n="40">Vgl. Mt 16,19 par; zur Schlüsselgewalt s. oben <ref target="file10103">[Nr. 74]</ref> S. 71,38f.</note> utare.</s>
+					<s n="56" xml:lang="la" type="auto">Sed te per Christum rogo, ut dialectica et rhetorica arte<note xml:id="fn37" type="footnote" n="37">Zu Bullingers dialektisch-rhetorischer Schriftauslegung s. <bibl>Hausammann</bibl> 145-185.</note> non ad captionem, sed ad gloriam dei<note xml:id="fn38" type="footnote" n="38">Vgl. 1 Kor 10,31.</note>, ad aędificationem ecclesiae<note xml:id="fn39" type="footnote" n="39">Vgl. 1 Kor 14,12.26.</note>, ad clavem scripturarum<note xml:id="fn40" type="footnote" n="40">Vgl. Mt 16,19 par; zur Schlüsselgewalt s. oben <ref target="file10103">[Nr. 74]</ref> S. 71,38f.</note> utare.</s>
 					<s n="57" xml:lang="la" type="auto">Relinquamus contentionem, veritatem apertam amplectamur et studeamus, ut ecclesia sit Christo digna adque perfectionem enitatur.</s>
 					<s n="58" xml:lang="la" type="auto">Nam fomenta oscitantie et securitatis praebere non convenit.</s>
 					<s n="59" xml:lang="la" type="auto">Hoc magis curandum, ut in dies sanctior et purior fiat, ut adolescat ad plenitudinem Christi capitis sui<note xml:id="fn41" type="footnote" n="41">Vgl. Eph 5,23; Kol 1,18.</note>.</s>

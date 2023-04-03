@@ -6,66 +6,64 @@
 				<title subtype="file">Johannes Zwick / [Konstanz] AN Heinrich Bullinger, 14. Juli [1540]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1409</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">135</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,13</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Am Tag [zu <placeName ref="place447">Hagenau</placeName>] haben die Protestanten die Unterhändler auf
+								Am Tag [zu <placeName>Hagenau</placeName>] haben die Protestanten die Unterhändler auf
 								das Augsburgische Bekenntnis verwiesen. Unterhändler sind die Bischöfe von Trier und Straßburg sowie
 								Ludwig von Bayern und
 								Pfalzgraf Ludwig. Da sie sich uneinig waren, ob zuerst über die
 								Religion oder über die Restitution der Kirchengüter verhandelt werden solle, entschied König [Ferdinand],
-								mit der Religionsfrage zu beginnen. Der päpstliche Gesandte [<persName ref="person1676">Morone</persName>]
+								mit der Religionsfrage zu beginnen. Der päpstliche Gesandte [<persName ref="p17959">Morone</persName>]
 								hat 50000 [Dukaten] in Aussicht gestellt, um neue Mitglieder für das katholische Bündnis zu gewinnen.
-								<persName ref="person263">Zwick</persName> legt ein Verzeichnis der Teilnehmer des Tags bei.
+								<persName ref="p4079">Zwick</persName> legt ein Verzeichnis der Teilnehmer des Tags bei.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1409, S.135</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11452">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417732"/>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1540-07-14" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -112,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,16 +124,16 @@
 					<s n="1" xml:lang="la" type="auto">Salus.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">In comitiis<note xml:id="fn2" type="footnote" n="2">Zum Religionsgespräch in <placeName ref="place447">Hagenau</placeName> s. oben <ref target="file11442">Nr. 1399</ref>, Anm. 9.</note> nichil etiamnum actum est aliud, nisi quod nostri confessionem <placeName ref="place70">Augustanam</placeName> sive Saxonicam obtulerunt commissariis<note xml:id="fn3" type="footnote" n="3">am 2. Juli; s. ADRG I/1 89-91; PC III 79.</note>; nunc expectamus, quid sequuturum sit.<pb type="edition" next="136"/></s>
+					<s n="2" xml:lang="la" type="auto">In comitiis<note xml:id="fn2" type="footnote" n="2">Zum Religionsgespräch in <placeName>Hagenau</placeName> s. oben <ref target="file11442">Nr. 1399</ref>, Anm. 9.</note> nichil etiamnum actum est aliud, nisi quod nostri confessionem <placeName>Augustanam</placeName> sive Saxonicam obtulerunt commissariis<note xml:id="fn3" type="footnote" n="3">am 2. Juli; s. <bibl>ADRG</bibl> I/1 89-91; <bibl>PC</bibl> III 79.</note>; nunc expectamus, quid sequuturum sit.<pb type="edition" next="136"/></s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Commissarii, quibus negotium commissum, sunt quatuor: Treverensis episcopus<note xml:id="fn4" type="footnote" n="4">Johann III. <persName ref="person1633">von Metzenhausen</persName>, Erzbischof und Kurfürst von Trier.</note> et Argentinensis<note xml:id="fn5" type="footnote" n="5"><persName ref="person1220">Wilhelm von Honstein</persName>, Bischof von Straßburg.</note>, dux Ludovicus Baioarius<note xml:id="fn6" type="footnote" n="6"><persName ref="person1544">Ludwig X.</persName>, Herzog von Bayern.</note> et Ludovicus Palatinus<note xml:id="fn7" type="footnote" n="7"><persName ref="person1543">Ludwig V.</persName>, Kurfürst von der Pfalz.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Commissarii, quibus negotium commissum, sunt quatuor: Treverensis episcopus<note xml:id="fn4" type="footnote" n="4"><persName>Johann III. von Metzenhausen</persName>, Erzbischof und Kurfürst von Trier.</note> et Argentinensis<note xml:id="fn5" type="footnote" n="5"><persName>Wilhelm von Honstein</persName>, Bischof von Straßburg.</note>, dux Ludovicus Baioarius<note xml:id="fn6" type="footnote" n="6"><persName>Ludwig X.</persName>, Herzog von Bayern.</note> et Ludovicus Palatinus<note xml:id="fn7" type="footnote" n="7"><persName>Ludwig V.</persName>, Kurfürst von der Pfalz.</note>.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Duobus ex commissariis principibus visum est omnino auspicandum negotium a restitutione spoliatorum, alteris duobus a religione<note xml:id="fn8" type="footnote" n="8">Letzteres war die Meinung von Trier und Pfalz; vgl. ADRG I/1 53, 14-19.</note>; quum igitur inter ipsos convenire non potuerit, ad regem<note xml:id="fn9" type="footnote" n="9"><persName ref="person832">Ferdinand I.</persName>, römischer König.</note> negotium est relatum, qui illorum sententiae subscripsit, qui a religione incipiendum putaverunt.</s>
+					<s n="4" xml:lang="la" type="auto">Duobus ex commissariis principibus visum est omnino auspicandum negotium a restitutione spoliatorum, alteris duobus a religione<note xml:id="fn8" type="footnote" n="8">Letzteres war die Meinung von Trier und Pfalz; vgl. <bibl>ADRG</bibl> I/1 53, 14-19.</note>; quum igitur inter ipsos convenire non potuerit, ad regem<note xml:id="fn9" type="footnote" n="9"><persName>Ferdinand I.</persName>, römischer König.</note> negotium est relatum, qui illorum sententiae subscripsit, qui a religione incipiendum putaverunt.</s>
 					<s n="5" xml:lang="la" type="auto">De restitutione posteriore loco tractandum.</s>
 					<s n="6" xml:lang="la" type="auto">Sic cor regis in manu domini<note xml:id="fn10" type="footnote" n="10">Vgl. Spr 21, 1.</note>.</s>
-					<s n="7" xml:lang="la" type="auto">In fędere nobis adverso<note xml:id="fn11" type="footnote" n="11">Gemeint ist der 1538 in <placeName ref="place795">Nürnberg</placeName> gegründete katholische Gegenbund.</note> extra episcopos nulli sunt principes praeter Baioarium et Brunsvicensem<note xml:id="fn12" type="footnote" n="12">Heinrich IX. d. J., Herzog von Braunschweig-Wolfenbüttel.</note>; igitur legatus pontificis, qui hic agit<note xml:id="fn13" type="footnote" n="13"><persName ref="person1676">Giovanni Morone</persName>; s. NBD V, S. LXXXI V-LXXXVI.</note>, pollicitus est papae nomine 50000 in parata pecunia, ut foedus illud amplietur<note xml:id="fn14" type="footnote" n="14"><persName ref="person1792">Papst Paul III.</persName> war dem Bund am 9. Juni beigetreten und hatte als Bundesbeitrag 50'OOO Dukaten hinterlegt; s. ebd., bes. S. LXXVIII- LXXX.</note>; nam quosdam absterrent impensae.</s>
+					<s n="7" xml:lang="la" type="auto">In fędere nobis adverso<note xml:id="fn11" type="footnote" n="11">Gemeint ist der 1538 in <placeName>Nürnberg</placeName> gegründete katholische Gegenbund.</note> extra episcopos nulli sunt principes praeter Baioarium et Brunsvicensem<note xml:id="fn12" type="footnote" n="12"><persName>Heinrich IX. d. J., Herzog von Braunschweig-Wolfenbüttel</persName>.</note>; igitur legatus pontificis, qui hic agit<note xml:id="fn13" type="footnote" n="13"><persName>Giovanni Morone</persName>; s. <bibl>NBD</bibl> V, S. LXXXI V-LXXXVI.</note>, pollicitus est papae nomine 50000 in parata pecunia, ut foedus illud amplietur<note xml:id="fn14" type="footnote" n="14"><persName>Papst Paul III.</persName> war dem Bund am 9. Juni beigetreten und hatte als Bundesbeitrag 50'OOO Dukaten hinterlegt; s. ebd., bes. S. LXXVIII- LXXX.</note>; nam quosdam absterrent impensae.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Qui congregati sint in comitiis, habes ex scheda literis addita<note xml:id="fn15" type="footnote" n="15">Ein Bericht über die Ankunft der verschiedenen Delegationen ist in einer Abschrift von Bullingers Hand überliefert; s. Zürich StA, E II 347, 180f.</note>.</s>
@@ -143,7 +141,7 @@
 					<s n="10" xml:lang="la" type="auto">14. iulii.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="person263">Io. Zvick</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="p4079">Io. Zvick</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

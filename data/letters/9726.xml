@@ -6,32 +6,31 @@
 				<title subtype="file">John Parkhurst / Ludham AN Heinrich Bullinger / Zürich, 29. Juni 1574</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">8308/78</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive23">
+						<repository ref="a23">
 							<name>Cambridge UB</name>
 							<ref target="https://www.lib.cam.ac.uk/"/>
 						</repository>
-						<settlement ref="place86">Cambridge</settlement>
+						<settlement ref="l86">Cambridge</settlement>
 						<institution>Universitätsbibliothek</institution>
 						-->
-						<repository ref="archive23"/>
+						<repository ref="a23"/>
 						<idno subtype="Autograph__(Entwurf)">Ms. Ee. 2.34, fo 24, N. 24</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
 					</msIdentifier>
@@ -47,7 +46,7 @@
 								<title>Ep. Tig. I 177f</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>Zurich Letters I, S. 303f, Nr. 118</title>
+								<title>Zurich Letters I, S.303f, Nr. 118</title>
 							</bibl>
 							<bibl type="Gedruckt" subtype="Übersetzung">
 								<title>R.A. Houlbrooke, The Letter Book of John Parkhurst, 1974/75, p. 86f, Nr. 28</title>
@@ -61,14 +60,14 @@
 				<msDesc type="Brief" subtype="Original" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Original">E II 375,899</idno>
 					</msIdentifier>
 				</msDesc>
@@ -77,7 +76,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9726">
 				<correspAction type="sent">
-					<persName ref="person2473" cert="high">
+					<persName ref="p2473" cert="high">
 						<!--
 						<surname cert="high">Parkhurst</surname>
 						<forename cert="high">John</forename>
@@ -86,11 +85,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/119781492"/>
 						-->
 					</persName>
-					<placeName source="place299" cert="high"><orig>Ludham</orig></placeName>
+					<placeName source="l299" cert="high"><orig>Ludham</orig></placeName>
 					<date when="1574-06-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -100,7 +99,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file9727"/>
@@ -120,7 +119,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

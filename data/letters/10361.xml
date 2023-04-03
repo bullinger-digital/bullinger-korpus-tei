@@ -6,40 +6,31 @@
 				<title subtype="file">Georg Stadler AN Heinrich Bullinger, 24. Februar 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=329</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">69</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,58</idno>
 					</msIdentifier>
 					<msContents>
@@ -53,13 +44,20 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 329, S.69</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10361">
 				<correspAction type="sent">
-					<persName ref="person2829" cert="high">
+					<persName ref="p2829" cert="high">
 						<!--
 						<surname cert="high">Stadler</surname>
 						<forename cert="high">Georg</forename>
@@ -68,7 +66,7 @@
 					<date when="1534-02-24" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -93,7 +91,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,18 +115,18 @@
 					<s n="7" xml:lang="de" type="auto">Ich will auch nach uf osteren<note xml:id="fn4" type="footnote" n="4">um Ostern. - Ostern fiel im Jahr 1534 auf den 5. April.</note> by eüch sin, latt mich gott gessünd.</s>
 					<s n="8" xml:lang="de" type="auto">Darümb wil ich eüch nitt vill schriben.</s>
 					<s n="9" xml:lang="de" type="auto">Ich wil aüch nitt lang zuͦ Zürich sin, dan es werden zwen gessellen<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note> mitt mir ziehen.</s>
-					<s n="10" xml:lang="de" type="auto">Mit denen will ich aüch wider wandlen<note xml:id="fn6" type="footnote" n="6">mich auf Wanderschaft begeben (Grimm XIII 1595-1597).</note>, dan es ist nit vür mich, das ich nach zu<note xml:id="fn7" type="footnote" n="7">dann, darnach (SI IV 637).</note> Zürich bellib.</s>
+					<s n="10" xml:lang="de" type="auto">Mit denen will ich aüch wider wandlen<note xml:id="fn6" type="footnote" n="6">mich auf Wanderschaft begeben (<bibl>Grimm</bibl> XIII 1595-1597).</note>, dan es ist nit vür mich, das ich nach zu<note xml:id="fn7" type="footnote" n="7">dann, darnach (<bibl>SI</bibl> IV 637).</note> Zürich bellib.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="de" type="auto">Nitt me uf dis mal, dan gott sy mitt uns allen.</s>
 					<s n="12" xml:lang="de" type="auto">Amen.</s>
-					<s n="13" xml:lang="de" type="auto">Grussen mir eüwer husfrowen<note xml:id="fn8" type="footnote" n="8">Anna Adlischwyler.</note> und min vogtt<note xml:id="fn9" type="footnote" n="9">Unbekannt.</note>.</s>
+					<s n="13" xml:lang="de" type="auto">Grussen mir eüwer husfrowen<note xml:id="fn8" type="footnote" n="8"><persName>Anna Adlischwyler</persName>.</note> und min vogtt<note xml:id="fn9" type="footnote" n="9">Unbekannt.</note>.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="de" type="auto">Ttatum [!] am sant Matisttag zuͦ nacht im 1534 jar.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="de" type="auto">Von mir, Jörg <persName ref="person202">Stadler</persName>, allzitt eüwer williger diener.</s>
+					<s n="15" xml:lang="de" type="auto">Von mir, <persName ref="p2829">Jörg Stadler</persName>, allzitt eüwer williger diener.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

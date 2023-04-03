@@ -6,40 +6,31 @@
 				<title subtype="file">Michael Toxites / Basel AN Heinrich Bullinger, 29. August 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1418</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">156</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,49</idno>
 						<altIdentifier>
 							<idno subtype="Autograph">E II 336,36</idno>
@@ -48,25 +39,31 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Weil er weiß, daß Bullinger durch Konrad
-								[<persName ref="person140">Lüthard</persName>] von seinem Schicksal gehört hat, und weil
-								<persName ref="person81">Grynäus</persName> ihn dazu ermutigt hat, schreibt er ihm. Bereut sein durch
+								Weil er weiß, daß Bullinger durch <persName ref="p1999">Konrad [Lüthard]</persName> von seinem Schicksal gehört hat, und weil
+								<persName ref="p1365">Grynäus</persName> ihn dazu ermutigt hat, schreibt er ihm. Bereut sein durch
 								Folter erzwungenes falsches Geständnis; hofft auf Hilfe bei der Suche nach einer Anstellung und legt eine
-								Probe seines Könnens bei. <persName ref="person9">Bedrot</persName> oder
-								<persName ref="person81">Grynäus</persName> weiß, wo er sich aufhält.
+								Probe seines Könnens bei. <persName ref="p315">Bedrot</persName> oder
+								<persName ref="p1365">Grynäus</persName> weiß, wo er sich aufhält.
 							</p>
 						</summary>
 						<msItem>
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1418, S.156</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11461">
 				<correspAction type="sent">
-					<persName ref="person3175" cert="high">
+					<persName ref="p3175" cert="high">
 						<!--
 						<surname cert="high">Toxites</surname>
 						<forename cert="high">Michael</forename>
@@ -75,11 +72,11 @@
 						<ref type="gnd" target="https://d-nb.info/gnd/117421359"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="high"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1540-08-29" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,38 +105,42 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="11461/Autograph/00__E_II_336__fol__49_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="11461/Autograph/01__E_II_336__fol__49_v_.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Tametsi non erat mihi animus aliquid ad te scribere, doctissime Bullingere, tamen, cum <persName ref="person140">Conradum</persName> N., ecclesiasten Seburgensem<note xml:id="fn2" type="footnote" n="2"><persName ref="person140">Konrad Lüthard</persName>, Pfarrer von <placeName ref="place973">Seeburg</placeName> (Urach, Baden-<placeName ref="place100">Württemberg</placeName>).</note>, apud te verba fecisse de causa mea comperissem<note xml:id="fn3" type="footnote" n="3">Ein entsprechender Brief <persName ref="person140">Lüthards</persName> ist nicht bekannt.</note>, adhortante ad hoc me S[imone] <persName ref="person81">Grinaeo</persName>, viro omnium doctissimo, non potui non has breves literas ad te dare, praesertim cum tam commodum haberem tabellarium<note xml:id="fn4" type="footnote" n="4">Unbekannt.</note>.</s>
+					<s n="1" xml:lang="la" type="auto">Tametsi non erat mihi animus aliquid ad te scribere, doctissime Bullingere, tamen, cum <persName ref="p1999">Conradum</persName> N., ecclesiasten Seburgensem<note xml:id="fn2" type="footnote" n="2"><persName>Konrad Lüthard</persName>, Pfarrer von <placeName>Seeburg</placeName> (Urach, <placeName>Baden-Württemberg</placeName>).</note>, apud te verba fecisse de causa mea comperissem<note xml:id="fn3" type="footnote" n="3">Ein entsprechender Brief <persName>Lüthards</persName> ist nicht bekannt.</note>, adhortante ad hoc me S[imone] <persName ref="p1365">Grinaeo</persName>, viro omnium doctissimo, non potui non has breves literas ad te dare, praesertim cum tam commodum haberem tabellarium<note xml:id="fn4" type="footnote" n="4">Unbekannt.</note>.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">De causa mea<note xml:id="fnb" type="footnote" n="b"><hi>korrigiert aus</hi> meae.</note><note xml:id="fn5" type="footnote" n="5"><persName ref="person218">Toxites</persName> war Anfang Juli aus der Stadt Urach gepeitscht und aus <placeName ref="place100">Württemberg</placeName> verbannt worden, weil er nach mehrmaliger Folterung das falsche Geständnis abgelegt hatte, Schmähverse auf den Stadtpfarrer <persName ref="person2244">Wenzel Strauß</persName> verfaßt zu haben. Erst 1554 rehabilitierte ihn Herzog <persName ref="person628">Christoph</persName>, nachdem der wahre Schuldige sich zu erkennen gegeben hatte (s. <hi>Schmidt,</hi> aaO, S. 8-21 bzw. 61-66).</note> fortasse olim plura audies; mihi de ea scribere, quae vellem, non licet.</s>
+					<s n="2" xml:lang="la" type="auto">De causa mea<note xml:id="fnb" type="footnote" n="b"><hi>korrigiert aus</hi> meae.</note><note xml:id="fn5" type="footnote" n="5"><persName>Toxites</persName> war Anfang Juli aus der Stadt Urach gepeitscht und aus <placeName>Württemberg</placeName> verbannt worden, weil er nach mehrmaliger Folterung das falsche Geständnis abgelegt hatte, Schmähverse auf den Stadtpfarrer <persName>Wenzel Strauß</persName> verfaßt zu haben. Erst 1554 rehabilitierte ihn <persName ref="p5703">Herzog Christoph</persName>, nachdem der wahre Schuldige sich zu erkennen gegeben hatte (s. <hi>Schmidt,</hi> aaO, S. 8-21 bzw. 61-66).</note> fortasse olim plura audies; mihi de ea scribere, quae vellem, non licet.</s>
 					<s n="3" xml:lang="la" type="auto">Illud tamen in nullius contumeliam arbitror a me dictum intelligi me esse innocentem hac in causa et crimen non admissum ob metum tormentorum (cum ante confessionem<note xml:id="fnc" type="footnote" n="c"><hi>in der Vorlage</hi> confessionis.</note> quintum tormentis in carcere fuissem cruciatus), cum non amplius laturum me illa esse sperarem.</s>
-					<s n="4" xml:lang="la" type="auto">Deinde non tanti fore rem istam putabam, propter quam in me dux<note xml:id="fnd" type="footnote" n="d">dux <hi>über der Zeile nachgetragen.</hi></note><note xml:id="fn6" type="footnote" n="6">Herzog <persName ref="person224">Ulrich</persName> von <placeName ref="place100">Württemberg</placeName>.</note> ita excandesceret tot doctis atque charissimis viris pro me rogantibus.</s>
+					<s n="4" xml:lang="la" type="auto">Deinde non tanti fore rem istam putabam, propter quam in me dux<note xml:id="fnd" type="footnote" n="d">dux <hi>über der Zeile nachgetragen.</hi></note><note xml:id="fn6" type="footnote" n="6"><persName>Herzog Ulrich von Württemberg</persName>.</note> ita excandesceret tot doctis atque charissimis viris pro me rogantibus.</s>
 					<s n="5" xml:lang="la" type="auto">Arbitrabar etiam uxori meę et liberis<note xml:id="fn7" type="footnote" n="7">Die Namen der Frau und der Kinder sind nicht bekannt.</note>, quos duos habeo, consultius esse integris adhuc quam omnino comminutis membris me cum ipsis vivere.</s>
 					<s n="6" xml:lang="la" type="auto">Sed longe me fefellit opinio, et profecto praestiterat ob veritatem mori.</s>
 					<s n="7" xml:lang="la" type="auto">Sed quid querar?</s>
 					<s n="8" xml:lang="la" type="auto">Bonum est, quod humiliavit me dominus, ut discam iustificationes<note xml:id="fne" type="footnote" n="e"><hi>in der Vorlage</hi> iustifficationes.</note> suas.</s>
-					<s n="9" xml:lang="la" type="auto">Hęc scribo iubente <persName ref="person81">Grinaeo</persName>, ut, si forte apud vos<note xml:id="fnf" type="footnote" n="f">vos <hi>fehlt in der Vorlage.</hi></note> vacaret aliqua conditio, cui commode possem praefici, tu quoque, qua es erga studiosos benevolentia praeditus, iuvares.</s>
-					<s n="10" xml:lang="la" type="auto">Mitto tibi ingenioli mei specimen aliquod<note xml:id="fn8" type="footnote" n="8">Nach der nicht näher belegten, aber plausiblen Angabe von <hi>Schmidt</hi> (aaO, S. 22) handelte es sich um das 1540 in <placeName ref="place1049">Straßburg</placeName> gedruckte allegorische Gedicht "Querela anseris vel de ingratitudine hominum elegia" (zum Inhalt vgl. <hi>Schmidt,</hi> aaO, S. 11-15).</note>, ex quo coniicere possis,<pb type="edition" next="157"/> quid ferre humeri mei<note xml:id="fng" type="footnote" n="g"><hi>in der Vorlage</hi> me.</note> possint; nolim enim quidquam ultra vires meas tractare.</s>
+					<s n="9" xml:lang="la" type="auto">Hęc scribo iubente <persName ref="p1365">Grinaeo</persName>, ut, si forte apud vos<note xml:id="fnf" type="footnote" n="f">vos <hi>fehlt in der Vorlage.</hi></note> vacaret aliqua conditio, cui commode possem praefici, tu quoque, qua es erga studiosos benevolentia praeditus, iuvares.</s>
+					<s n="10" xml:lang="la" type="auto">Mitto tibi ingenioli mei specimen aliquod<note xml:id="fn8" type="footnote" n="8">Nach der nicht näher belegten, aber plausiblen Angabe von <hi>Schmidt</hi> (aaO, S. 22) handelte es sich um das 1540 in <placeName>Straßburg</placeName> gedruckte allegorische Gedicht "Querela anseris vel de ingratitudine hominum elegia" (zum Inhalt vgl. <hi>Schmidt,</hi> aaO, S. 11-15).</note>, ex quo coniicere possis,<pb type="edition" next="157"/> quid ferre humeri mei<note xml:id="fng" type="footnote" n="g"><hi>in der Vorlage</hi> me.</note> possint; nolim enim quidquam ultra vires meas tractare.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Vale et hanc meam barbariem boni consule.</s>
-					<s n="12" xml:lang="la" type="auto"><placeName ref="place1049">Argentorati</placeName> apud <persName ref="person9">Bedrotum</persName> aut <placeName ref="place97">Basileę</placeName> apud <persName ref="person81">Grinęum</persName>, ubi sim, rescisces.</s>
+					<s n="12" xml:lang="la" type="auto"><placeName>Argentorati</placeName> apud <persName ref="p315">Bedrotum</persName> aut <placeName>Basileę</placeName> apud <persName ref="p1365">Grinęum</persName>, ubi sim, rescisces.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto"><placeName ref="place97">Basileę</placeName>, raptim, quia festinabam abire, anno 1540, quarto calendas septembris.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName>Basileę</placeName>, raptim, quia festinabam abire, anno 1540, quarto calendas septembris.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Humanitatis tuę deditissimus</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><persName ref="person218">Michael Toxites</persName> R[heticus], olim ludimagister Urachii, miser et infoelix.</s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p8450">Michael Toxites</persName> R[heticus], olim ludimagister Urachii, miser et infoelix.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

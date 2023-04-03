@@ -6,40 +6,31 @@
 				<title subtype="file">Peter Kunz / Bern AN Heinrich Bullinger, 8. Juli 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1143</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">157</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2757r.-v.</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,8 +38,8 @@
 							<p xml:id="regest1">
 								Dankt für die Freundschaftsbekundung in seinem Brief und in der Widmung seines schätzenswerten Buchs über
 								die Autorität der Hl. Schrift. Ist erschrocken über das Gerücht, in Zürich sei eine Schrift in Vorbereitung,
-								die den angeblichen Sieg der Zürcher über die <placeName ref="place121">Berner</placeName> an der
-								Zürcher Tagung belege; in <placeName ref="place121">Bern</placeName> redet niemand so, denn es wird
+								die den angeblichen Sieg der Zürcher über die <placeName>Berner</placeName> an der
+								Zürcher Tagung belege; in <placeName>Bern</placeName> redet niemand so, denn es wird
 								dankbar anerkannt, daß Gott die lutherischen wie auch die zwinglischen Kirchen in seiner Wahrheit erhalten
 								hat; er will dem Gerücht keinen Glauben schenken, bittet aber um Aufklärung. Grüße.
 							</p>
@@ -57,24 +48,31 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1143, S.157</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11186">
 				<correspAction type="sent">
-					<persName ref="person1866" cert="high">
+					<persName ref="p1866" cert="high">
 						<!--
 						<surname cert="high">Kunz</surname>
 						<forename cert="high">Peter</forename>
 						<persName type="main" ref="person8401>Kunz, Peter</persName>
 						-->
 					</persName>
-					<placeName source="place41" cert="high"><orig>Bern</orig></placeName>
+					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1538-07-08" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -109,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,34 +120,34 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Ut literis tuis proxime datis<note xml:id="fn1" type="footnote" n="1">Nicht erhalten.</note> nihil unquam suscępi suavius, doctissime Bullingere, ita nihil enimvero annuntiare potuere gratius quam novum me nactum amicum et talem inquam, cuius amicitia apud me pluris aestimatur quam multorum hostium et livor et impetus omnis.</s>
-					<s n="3" xml:lang="la" type="auto">Mittis libellum praeterea <persName ref="person126">Petro Conzeno</persName> tuo „in argumentum perpetuae amicitiae“ consecratum<note xml:id="fn2" type="footnote" n="2">Bullinger widmete <persName ref="person126">Kunz</persName> mit eben diesen Worten ein Exemplar seines Buchs "De scripturae sanctae authoritate" (HBBibl I 111); s. Hans <hi>Herzog,</hi> Eine Widmung Bullingers, in: Zwa II/6, 1907, S. 192.</note>, id<pb type="edition" next="158"/> quod iterum fausto omnino omine auguror factum.</s>
+					<s n="3" xml:lang="la" type="auto">Mittis libellum praeterea <persName ref="p8401">Petro Conzeno</persName> tuo „in argumentum perpetuae amicitiae“ consecratum<note xml:id="fn2" type="footnote" n="2">Bullinger widmete <persName>Kunz</persName> mit eben diesen Worten ein Exemplar seines Buchs "De scripturae sanctae authoritate" (<bibl>HBBibl</bibl> I 111); s. Hans <hi>Herzog,</hi> Eine Widmung Bullingers, in: <bibl>Zwa</bibl> II/6, 1907, S. 192.</note>, id<pb type="edition" next="158"/> quod iterum fausto omnino omine auguror factum.</s>
 					<s n="4" xml:lang="la" type="auto">De sacrę, inquam, scripturae sonat authoritate titulo revera insignitus multo dignissimo; nam et scripturae authoritatem ita evehit tamque augusta illustrat venustate, ut animos piorum omnium ad lectionem sacram ita excitandos provocandosque non dubitem, quo eiusmodi vigilias tuas non sine ingenti foenore in gazophylacium domini<note xml:id="fn3" type="footnote" n="3">Vgl. Lk 21, 1.</note> comportatas mihi persuadeam certo.</s>
 					<s n="5" xml:lang="la" type="auto">Coemunt sibi fratres Allobroges<note xml:id="fn4" type="footnote" n="4">Gemeint sind die Pfarrer in den ehemals savoyischen Gebieten, die seit 1536 unter bernischer Herrschaft standen.</note> lucubrationes tuas omnes diligenter, quicquid gratiis tuis norint proditum.</s>
 					<s n="6" xml:lang="la" type="auto">Accipio ergo donum tuum, Bullingere, exosculans illud veluti monumentum quoddam insigne amicissimi pectoris tui nihil diffidens plane, qui tui est ingenii candor, te amicum perpetuum ita futurum<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> futurum <hi>gestrichenes</hi> fore.</note>, nec ob id, scio, descisces ab amicitia nostra, quod tanto sis me doctior et fere omnium rerum usu foelicior multiphariam.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Caetera est, quod in sinum tuum subtristis conquerar nunc.</s>
-					<s n="8" xml:lang="la" type="auto">Venit homo<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note> quidam plebeius proficiscens<note xml:id="fnc" type="footnote" n="c"><hi>korrigiert aus</hi> proficisce.</note> Tiguro, domicilium alioqui habens Bernę, qui huiuscemodi spargeret voces: „Eho“, inquit, „<placeName ref="place121">Bernates</placeName>, qui in conventu Tigurino<note xml:id="fn6" type="footnote" n="6">Gemeint ist die Tagung vom 28. April bis 3. Mai; s. oben <ref target="file11171">Nr. 1128</ref>, Anm. 1.</note> sententiam vestram vicisse opinamini, scitote contra Tigurinos videlicet potius e diverso de vobis iactare triumphum.</s>
-					<s n="9" xml:lang="la" type="auto">Eia, expectate tempus modicum, <placeName ref="place121">Bernates</placeName>; prodibit enim brevi libellus<note xml:id="fn7" type="footnote" n="7">Über diese angeblich geplante Publikation ist sonst nichts bekannt.</note> Tiguro, quo diligentius<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> diligentius <hi>gestrichenes</hi> dilenge.</note> perlecto facile apparebit tandem, utri namque alteros in triumpho duxerint isto.“</s>
+					<s n="8" xml:lang="la" type="auto">Venit homo<note xml:id="fn5" type="footnote" n="5">Unbekannt.</note> quidam plebeius proficiscens<note xml:id="fnc" type="footnote" n="c"><hi>korrigiert aus</hi> proficisce.</note> Tiguro, domicilium alioqui habens Bernę, qui huiuscemodi spargeret voces: „Eho“, inquit, „<placeName>Bernates</placeName>, qui in conventu Tigurino<note xml:id="fn6" type="footnote" n="6">Gemeint ist die Tagung vom 28. April bis 3. Mai; s. oben <ref target="file11171">Nr. 1128</ref>, Anm. 1.</note> sententiam vestram vicisse opinamini, scitote contra Tigurinos videlicet potius e diverso de vobis iactare triumphum.</s>
+					<s n="9" xml:lang="la" type="auto">Eia, expectate tempus modicum, <placeName>Bernates</placeName>; prodibit enim brevi libellus<note xml:id="fn7" type="footnote" n="7">Über diese angeblich geplante Publikation ist sonst nichts bekannt.</note> Tiguro, quo diligentius<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> diligentius <hi>gestrichenes</hi> dilenge.</note> perlecto facile apparebit tandem, utri namque alteros in triumpho duxerint isto.“</s>
 					<s n="10" xml:lang="la" type="auto">Audita ergo hac voce percelli potuit animus meus non parum vehementer, charissime Bullingere, vix satis sciens, anne dum tuta fides circumquaque esset apud fratres.</s>
-					<s n="11" xml:lang="la" type="auto">De nobis siquidem id sanctissime, etiam apud aras iurare ausim ego, per nos, inquam, nullius unquam factam victoriae mentionem (de victoria enim istic neminem contendentem audiebamus), quin potius fratres ad gratiarum actionem maxime supplicem coram domino sumus adhortati, gauderent laeti in domino, qui hactenus ecclesias suas tam misericorditer praeservasset, ut in scopo veritatis sanctae et immaculatae permanserint utrinque omnes, neque vel Lutheranas neque Zvinglianas, quas vocant, tam crasso errore sineret pudefieri usquam; neque enim phas esse pectori<pb type="scan" next="2757v."/> christiano vel <persName ref="person138">Lutherum</persName> vel alium quempiam fratrem velle in errore deprehensum.</s>
+					<s n="11" xml:lang="la" type="auto">De nobis siquidem id sanctissime, etiam apud aras iurare ausim ego, per nos, inquam, nullius unquam factam victoriae mentionem (de victoria enim istic neminem contendentem audiebamus), quin potius fratres ad gratiarum actionem maxime supplicem coram domino sumus adhortati, gauderent laeti in domino, qui hactenus ecclesias suas tam misericorditer praeservasset, ut in scopo veritatis sanctae et immaculatae permanserint utrinque omnes, neque vel Lutheranas neque Zvinglianas, quas vocant, tam crasso errore sineret pudefieri usquam; neque enim phas esse pectori<pb type="scan" next="2757v."/> christiano vel <persName ref="p1974">Lutherum</persName> vel alium quempiam fratrem velle in errore deprehensum.</s>
 					<s n="12" xml:lang="la" type="auto">Nonne membra Christi sumus invicem<note xml:id="fn8" type="footnote" n="8">Vgl. 1 Kor 12, 12-27.</note>?</s>
-					<s n="13" xml:lang="la" type="auto">Apud nos nihil horum auditur, Bullingere; non enim locum haberent huius generis sorices<note xml:id="fn9" type="footnote" n="9">Als Bezeichnung für seine Gegner verwendet <persName ref="person126">Kunz</persName> diesen Ausdruck auch im Brief an Bullinger vom 20. Oktober 1542 (s. Zürich StA, E II 358, 137r.).</note> apud <placeName ref="place121">Bernates</placeName>.</s>
+					<s n="13" xml:lang="la" type="auto">Apud nos nihil horum auditur, Bullingere; non enim locum haberent huius generis sorices<note xml:id="fn9" type="footnote" n="9">Als Bezeichnung für seine Gegner verwendet <persName>Kunz</persName> diesen Ausdruck auch im Brief an Bullinger vom 20. Oktober 1542 (s. Zürich StA, E II 358, 137r.).</note> apud <placeName>Bernates</placeName>.</s>
 					<s n="14" xml:lang="la" type="auto">Porro, tametsi auram hanc fabulamentum non dubitem esse vanissimum, dilectissime Bullingere, prima tamen fronte nonnihil angi poteram istoc moerore; imminere enim video nobis illum hostem<pb type="edition" next="159"/> infestum simul et perpetuum daemonarchen, contra quem in procinctu nunquam non stare nec interim unquam securitati indormiscere oportet.</s>
 					<s n="15" xml:lang="la" type="auto">Scribe, quęso, mi Bullingere, ut nam res habeat, quo his curis solvas hęrentem.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto">Bene ac foeliciter vale.</s>
-					<s n="17" xml:lang="la" type="auto">Saluta <persName ref="person165">Pellicanum</persName> cum reliquis omnibus diligenter.</s>
-					<s n="18" xml:lang="la" type="auto">Salutat te d[octor] <persName ref="person1647">Sebastianus</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="person1647">Sebastian Meyer</persName>.</note>, senecio noster venerandus, tui quidem non parum studiosus.</s>
+					<s n="17" xml:lang="la" type="auto">Saluta <persName ref="p8127">Pellicanum</persName> cum reliquis omnibus diligenter.</s>
+					<s n="18" xml:lang="la" type="auto">Salutat te d[octor] <persName ref="p5837">Sebastianus</persName><note xml:id="fn10" type="footnote" n="10"><persName>Sebastian Meyer</persName>.</note>, senecio noster venerandus, tui quidem non parum studiosus.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><placeName ref="place121">Bernae</placeName>, 8. iulii anno 1538, imminente iam summo crepusculo.</s>
-					<s n="20" xml:lang="la" type="auto"><persName ref="person126">Petrus Conzenus</persName> tuus in domino.</s>
+					<s n="19" xml:lang="la" type="auto"><placeName>Bernae</placeName>, 8. iulii anno 1538, imminente iam summo crepusculo.</s>
+					<s n="20" xml:lang="la" type="auto"><persName ref="p8401">Petrus Conzenus</persName> tuus in domino.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Saluto ego te, vir optime et doctissime.</s>
-					<s n="22" xml:lang="la" type="auto"><persName ref="person213">Simon</persName> Sultzęrus<note xml:id="fne" type="footnote" n="e"><hi>Der Gruß von <persName ref="person213">Sulzers</persName> Hand.</hi></note>.</s>
+					<s n="22" xml:lang="la" type="auto"><persName ref="p3099">Simon</persName> Sultzęrus<note xml:id="fne" type="footnote" n="e"><hi>Der Gruß von <persName>Sulzers</persName> Hand.</hi></note>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>

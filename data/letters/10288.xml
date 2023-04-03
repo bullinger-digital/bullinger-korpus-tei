@@ -6,53 +6,43 @@
 				<title subtype="file">Heinrich Bullinger / [Zürich] AN Oswald Myconius, 31. August 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=257</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">181</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,13</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Warnt vor den französischen Pensionsgeldern. Gegensätze zwischen den Parteigängern
-								<placeName ref="place11">Frankreichs</placeName> und des Kaisers in <placeName ref="place51">den V Orten</placeName>; Uneinigkeiten
+								<placeName>Frankreichs</placeName> und des Kaisers in <placeName>den V Orten</placeName>; Uneinigkeiten
 								anderer Art unter den Evangelischen. Bittet um die Zusendung von
-								<persName ref="person160">Oekolampads</persName> durch <persName ref="person154">Myconius</persName>
+								<persName ref="p2442">Oekolampads</persName> durch <persName ref="p8418">Myconius</persName>
 								herausgegebenem [Kommentar zum Johannesevangelium]. Grüße von
-								<persName ref="person225">[Heinrich] Utinger</persName>. Bullinger
-								bittet um die baldige Drucklegung von Theodor
-								[<persName ref="person14">Biblianders</persName> hebräischer] Grammatik.
+								<persName ref="p3242">[Heinrich] Utinger</persName>. Bullinger
+								bittet um die baldige Drucklegung von <persName ref="p8171">Theodor [Biblianders]</persName> [hebräischer] Grammatik.
 							</p>
 						</summary>
 						<msItem>
@@ -64,6 +54,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Füssli I 105f</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 257, S.181</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -72,7 +65,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10288">
 				<correspAction type="sent">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -82,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="low"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1533-08-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person2234" cert="high">
+					<persName ref="p2234" cert="high">
 						<!--
 						<surname cert="high">Myconius</surname>
 						<forename cert="high">Oswald</forename>
@@ -122,7 +115,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -137,21 +130,21 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Nihil nunc habeo quod scribam, nisi hoc forsan sit monendum, quod nostrum omnium est, adversus aurum clamitandum esse Gallicum<note xml:id="fn1" type="footnote" n="1">Gemeint sind die französischen «Pensionen», vgl. oben S. 159, 12-160, 15.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Nam si verum est, quod audio, maximae sunt apud Immontanos<note xml:id="fn2" type="footnote" n="2"><placeName ref="place51">die V Orte</placeName>.</note> factiones illis caesari, his vero regi Gallorum faventibus<note xml:id="fn3" type="footnote" n="3">Vgl. EA IV/1c 129. 134-136. 140f.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Nam si verum est, quod audio, maximae sunt apud Immontanos<note xml:id="fn2" type="footnote" n="2"><placeName>die V Orte</placeName>.</note> factiones illis caesari, his vero regi Gallorum faventibus<note xml:id="fn3" type="footnote" n="3">Vgl. <bibl>EA</bibl> IV/1c 129. 134-136. 140f.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Apud nos alias satis factionum est his ultro catabaptistis, illis pontificiis pulantibus<note xml:id="fna" type="footnote" n="a">pulantibus <hi>am Rande nachgetragen.</hi></note>, aliis subinde aliis rebus novis studentibus, ut non sit opus regias et cesareas inter nos oboriri partes.</s>
 					<s n="5" xml:lang="la" type="auto">Nostri strenue se suas tutaturos partem [!] pollicentur.</s>
 					<s n="6" xml:lang="la" type="auto">Dominus adaugeat spiritum suum in suis.</s>
 					<s n="7" xml:lang="la" type="auto">Interim vigilemus egregie.</s>
-					<s n="8" xml:lang="la" type="auto">Apud Immontanos maxima pecuniae vis divisa est<note xml:id="fn4" type="footnote" n="4">Die französischen Gesandten haben der Tagsatzung bereits am 28. Juli 1533 mitgeteilt, «daß sie eine Jahrespension ... bezahlen können», EA IV/1c 129.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Apud Immontanos maxima pecuniae vis divisa est<note xml:id="fn4" type="footnote" n="4">Die französischen Gesandten haben der Tagsatzung bereits am 28. Juli 1533 mitgeteilt, «daß sie eine Jahrespension ... bezahlen können», <bibl>EA</bibl> IV/1c 129.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Quibus vero non tantum impertitum est, quantum cupierunt, reclamitant ditioribus non iustitiae, sed invidentiae studio.</s>
 					<s n="10" xml:lang="la" type="auto">Inde vero misera est rerum faties, sed quae istiusmodi solet comitari merces.</s>
 					<s n="11" xml:lang="la" type="auto">Sunt alii, qui nihil sibi deesse gratulantur et se omnino felicissimos esse putant.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Audio te, charissime frater, quaedam doctissimi viri <persName ref="person160">Ioannis Oecolampadii</persName> dictata aut ex ore eius excepta vulgasse in lucem<note xml:id="fn5" type="footnote" n="5">Gemeint ist das Werk: «Annotationes piae ac doctae in Euangelium Ioannis, D. Ioannae Oecolampadio autore», <placeName ref="place97">Basel</placeName>, Juni 1533 (<persName ref="person160">Oekolampad</persName>-Bibliographie 171); Vorrede gedruckt in: <persName ref="person160">Oekolampad</persName> BA II 969.</note>, quae ut quam primum licet, mittas.</s>
-					<s n="13" xml:lang="la" type="auto">Misi «Commentariorum libros in Acta»<note xml:id="fn6" type="footnote" n="6">HBBibl I 43.</note> et te plurimum valere iubeo.</s>
-					<s n="14" xml:lang="la" type="auto">Salvum te vult <persName ref="person225">Utingerus</persName>.</s>
-					<s n="15" xml:lang="la" type="auto">Si <persName ref="person14">Theodori</persName> Grammat[icas] institutiones quam citissime imprimi curaveris<note xml:id="fn7" type="footnote" n="7"><persName ref="person14">Theodor Biblianders</persName> Werk wurde dann doch bei <persName ref="person891">Froschauer</persName> gedruckt: «Institutionum grammaticarum de lingua Hebraea liber unus», Zürich 1535 (Rudolphi 230).</note>, omnibus nobis rem gratissimam feceris.</s>
+					<s n="12" xml:lang="la" type="auto">Audio te, charissime frater, quaedam doctissimi viri <persName ref="p2442">Ioannis Oecolampadii</persName> dictata aut ex ore eius excepta vulgasse in lucem<note xml:id="fn5" type="footnote" n="5">Gemeint ist das Werk: «Annotationes piae ac doctae in Euangelium Ioannis, D. Ioannae Oecolampadio autore», <placeName>Basel</placeName>, Juni 1533 (<persName>Oekolampad</persName>-Bibliographie 171); Vorrede gedruckt in: <persName>Oekolampad</persName> BA II 969.</note>, quae ut quam primum licet, mittas.</s>
+					<s n="13" xml:lang="la" type="auto">Misi «Commentariorum libros in Acta»<note xml:id="fn6" type="footnote" n="6"><bibl>HBBibl</bibl> I 43.</note> et te plurimum valere iubeo.</s>
+					<s n="14" xml:lang="la" type="auto">Salvum te vult <persName ref="p3242">Utingerus</persName>.</s>
+					<s n="15" xml:lang="la" type="auto">Si <persName ref="p8171">Theodori</persName> Grammat[icas] institutiones quam citissime imprimi curaveris<note xml:id="fn7" type="footnote" n="7"><persName>Theodor Biblianders</persName> Werk wurde dann doch bei <persName ref="p5295">Froschauer</persName> gedruckt: «Institutionum grammaticarum de lingua Hebraea liber unus», Zürich 1535 (Rudolphi 230).</note>, omnibus nobis rem gratissimam feceris.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto">Ultima augusti 1533.</s>
@@ -161,7 +154,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>
-					<s n="18" xml:lang="la" type="auto">Ornatissimo viro d. <persName ref="person154">Osvaldo Myconio</persName> <placeName ref="place97">Basileiensis</placeName> ecclesiae praesuli fidelissimo, fratri dilecto.</s>
+					<s n="18" xml:lang="la" type="auto">Ornatissimo viro d. <persName ref="p8418">Osvaldo Myconio</persName> <placeName>Basileiensis</placeName> ecclesiae praesuli fidelissimo, fratri dilecto.</s>
 				</p>
 			</div>
 		</body>

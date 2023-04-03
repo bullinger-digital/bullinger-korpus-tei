@@ -6,49 +6,40 @@
 				<title subtype="file">Christian Danmatter / Gerzensee AN Heinrich Bullinger, 21. Dezember 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=305</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">264</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 355,51</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Ermutigt durch Bullingers Güte und vor allem durch <persName ref="person90">Berchtold Haller</persName>,
+								Ermutigt durch Bullingers Güte und vor allem durch <persName ref="p1391">Berchtold Haller</persName>,
 								der ihn Bullinger bereits brieflich empfohlen hat, wagt er es, ihm zu schreiben. Freut sich über Bullingers
 								Kommentare zu einigen Apostelbriefen, ersucht ihn aber, auch zu den vier Evangelien solche zu
-								veröffentlichen, da für das einfache <placeName ref="place121">Berner</placeName> Landvolk noch immer
+								veröffentlichen, da für das einfache <placeName>Berner</placeName> Landvolk noch immer
 								nur die vier Evangelien als «das Evangelium» gelten.
 							</p>
 						</summary>
@@ -56,23 +47,30 @@
 							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 305, S.264</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10336">
 				<correspAction type="sent">
-					<persName ref="person761" cert="high">
+					<persName ref="p761" cert="high">
 						<!--
 						<surname cert="high">Danmatter</surname>
 						<forename cert="high">Christian</forename>
 						-->
 					</persName>
-					<placeName source="place170" cert="high"><orig>Gerzensee</orig></placeName>
+					<placeName source="l170" cert="high"><orig>Gerzensee</orig></placeName>
 					<date when="1533-12-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -114,20 +112,20 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Heynricho Bullingero Cristianus <persName ref="person46">Danmatter</persName> S. D. P.</s>
+					<s n="1" xml:lang="la" type="auto">Heynricho Bullingero Cristianus <persName ref="p7462">Danmatter</persName> S. D. P.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Cum diu mecum hęsitarem, charissime simulac piissime Heinriche Bullingere, num litteras ad te darem, partim ob inscitiam meam, partim quod puderet tua interpellare studia et negotia, quibus nimirum quotidie obrueris, vicit tamen meus tandem ardens amor in te et charitas, pręterea quoque tua humanitas, qua nullum repellis dedignarisque.</s>
-					<s n="3" xml:lang="la" type="auto">Nam quum <persName ref="person90">Berchtoldus Hallerus</persName>, fidelissimus piissimusque <placeName ref="place121">Bernensis</placeName> ecclesię in verbo domini minister tuique amantissimus, et ego, cum convenimus, nunquam non facientes tui mentionem et uterque amorem suum erga te nescio quo fato maiorem quam in cetęros [!] doctissimos quosque habere aperiremus, quod de multis aliis quoque comministris non raro accepi non minore favore te prosequentes, sępius me admonuit, ut ad te scriberem<note xml:id="fn2" type="footnote" n="2">Siehe dazu <persName ref="person90">Haller</persName> an Bullinger, 18. Oktober 1533 (oben S. 209, 16f).</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Nam quum <persName ref="p1391">Berchtoldus Hallerus</persName>, fidelissimus piissimusque <placeName>Bernensis</placeName> ecclesię in verbo domini minister tuique amantissimus, et ego, cum convenimus, nunquam non facientes tui mentionem et uterque amorem suum erga te nescio quo fato maiorem quam in cetęros [!] doctissimos quosque habere aperiremus, quod de multis aliis quoque comministris non raro accepi non minore favore te prosequentes, sępius me admonuit, ut ad te scriberem<note xml:id="fn2" type="footnote" n="2">Siehe dazu <persName>Haller</persName> an Bullinger, 18. Oktober 1533 (oben S. 209, 16f).</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Quod tamen procul reiiciebam<pb type="edition" next="265"/> non nescius meę inscitię et infantię, importunum existimans tędio te afficere illiteratis meis litteris.</s>
-					<s n="5" xml:lang="la" type="auto">Quum autem nuper <persName ref="person90">Berchtoldus</persName>, charissimus pręceptor meus, ad te scribens nescio qua occasione mentionem in suis litteris facit mei<note xml:id="fn3" type="footnote" n="3"><persName ref="person90">Haller</persName> erwähnt <persName ref="person46">Danmatter</persName> wiederholt in seinen Briefen. In empfehlendem Sinne äußert er sich am 18. Oktober (oben S. 209, 15f) und am 23. Dezember (unten S. 272, 51-53).</note>, tu quoque tuum humanum erga me et quosvis prodis animum copiamque ad te scribere facis<note xml:id="fn4" type="footnote" n="4">Bullingers diesbezüglicher, wahrscheinlich an <persName ref="person90">Berchtold Haller</persName> gerichteter Brief ist nicht erhalten.</note>, hinc est, amantissime frater, quod deposito pudore te interpello.</s>
+					<s n="5" xml:lang="la" type="auto">Quum autem nuper <persName ref="p1391">Berchtoldus</persName>, charissimus pręceptor meus, ad te scribens nescio qua occasione mentionem in suis litteris facit mei<note xml:id="fn3" type="footnote" n="3"><persName>Haller</persName> erwähnt <persName ref="p7462">Danmatter</persName> wiederholt in seinen Briefen. In empfehlendem Sinne äußert er sich am 18. Oktober (oben S. 209, 15f) und am 23. Dezember (unten S. 272, 51-53).</note>, tu quoque tuum humanum erga me et quosvis prodis animum copiamque ad te scribere facis<note xml:id="fn4" type="footnote" n="4">Bullingers diesbezüglicher, wahrscheinlich an <persName>Berchtold Haller</persName> gerichteter Brief ist nicht erhalten.</note>, hinc est, amantissime frater, quod deposito pudore te interpello.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Imprimis autem meo cetęrorumque [!] omnium nomine gratias habeo tibi immortales ob tuum improbum indefessumque laborem, quem propter reipu[blicae] commodum fers.</s>
 					<s n="7" xml:lang="la" type="auto">Nam tuis expositionibus, quas deo donante nobis impartis, plures nostrum plurimum esse adiutos expertissimum mihi est, primum ob facilem et amęnissimum simulque elegantissimum stilum, quo omnes afficiuntur et delectantur, alterum ob pietatem, quam pie, erudite ac strenue tradis.</s>
-					<s n="8" xml:lang="la" type="auto">Hinc est, doctissime Bullingere, quod maximis flagitamus a te pręcibus, quod fecisti in aliquot apostoli epistolas<note xml:id="fn5" type="footnote" n="5">Siehe Bullingers Kommentare zum 1. Johannesbrief, 1532 (HBBibl I 37), zum Hebräerbrief, 1532 (HBBibl I 38) und zum Römerbrief, 1533 (HBBibl I 42).</note>, eandem quoque subeas provinciam in exponendis 4 evangelistis.</s>
+					<s n="8" xml:lang="la" type="auto">Hinc est, doctissime Bullingere, quod maximis flagitamus a te pręcibus, quod fecisti in aliquot apostoli epistolas<note xml:id="fn5" type="footnote" n="5">Siehe Bullingers Kommentare zum 1. Johannesbrief, 1532 (<bibl>HBBibl</bibl> I 37), zum Hebräerbrief, 1532 (<bibl>HBBibl</bibl> I 38) und zum Römerbrief, 1533 (<bibl>HBBibl</bibl> I 42).</note>, eandem quoque subeas provinciam in exponendis 4 evangelistis.</s>
 					<s n="9" xml:lang="la" type="auto">Nam quamvis in hos extent commentaria, sunt tamen nonunquam obscuriora et minus plana, quam ut a nobis, qui non ad miraculum usque docti sumus, intelligi possint.</s>
-					<s n="10" xml:lang="la" type="auto">Sunt autem nobis apud rudem hanc nostram atque intractabilem plebem, quam in superioribus <placeName ref="place121">Bernensis</placeName> ditionis partibus habemus, perpetuo evangelistę concionandi, quum interim nihil evangelii nomine dignum censeant pręter evangelistas, etsi ad fastidium et nauseam usque omnes sacras scripturas evangelion esse inculcemus.</s>
+					<s n="10" xml:lang="la" type="auto">Sunt autem nobis apud rudem hanc nostram atque intractabilem plebem, quam in superioribus <placeName>Bernensis</placeName> ditionis partibus habemus, perpetuo evangelistę concionandi, quum interim nihil evangelii nomine dignum censeant pręter evangelistas, etsi ad fastidium et nauseam usque omnes sacras scripturas evangelion esse inculcemus.</s>
 					<s n="11" xml:lang="la" type="auto">Quandoquidem igitur ad gloriam dei promovendam inprimis te natum esse nobis omnibus persuasum sit, unanimes pręcamur, ut in hoc quoque propter gloriam dei inque reipu[blicae] utilitatem nobis morem gerere velis.</s>
 					<s n="12" xml:lang="la" type="auto">Interim tamen et hoc te nescire nolumus<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> volumus.</note>, nos non niti commentariis, sed scripturis, at illis plurimum adiuvari nos, qui sumus linguarum ignari, tibi persuasum esse volumus.</s>
 				</p>
@@ -138,7 +136,7 @@
 					<s n="14" xml:lang="de" type="auto">Datum Gertzenseorum pago, anno 1533, 21. die decembris.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Cris. <persName ref="person46">Danmatter</persName>, totus tibi deditus.</s>
+					<s n="15" xml:lang="la" type="auto">Cris. <persName ref="p7462">Danmatter</persName>, totus tibi deditus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

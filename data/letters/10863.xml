@@ -6,50 +6,41 @@
 				<title subtype="file">Johannes Stumpf / Bubikon AN Heinrich Bullinger, 18. Mai 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=824</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">292</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,120</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Auskünfte über die Kaplanei <placeName ref="place415">Goßau</placeName> kann Bullinger bei
-								<persName ref="person225">Heinrich Utinger</persName>, der sich mit
+								Auskünfte über die Kaplanei <placeName>Goßau</placeName> kann Bullinger bei
+								<persName ref="p3242">Heinrich Utinger</persName>, der sich mit
 								Erhard Blarer besprochen hat,
-								einholen. Hofft, daß <persName ref="person735">Heinrich Dürst</persName> die Pfarrei
-								<placeName ref="place974">Seegräben</placeName> oder eine andere Pfarrei bekommt; bittet, diesem auf
+								einholen. Hofft, daß <persName ref="p4663">Heinrich Dürst</persName> die Pfarrei
+								<placeName>Seegräben</placeName> oder eine andere Pfarrei bekommt; bittet, diesem auf
 								jeden Fall zu einer ausreichend dotierten Pfarrei zu verhelfen. Schickt weitere Teile des Manuskripts zur
 								Druckausgabe seiner Chronik und verlangt das neunte Buch seiner ursprünglichen Fassung zurück.
 							</p>
@@ -58,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 824, S.292</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10863">
 				<correspAction type="sent">
-					<persName ref="person3067" cert="high">
+					<persName ref="p3067" cert="high">
 						<!--
 						<surname cert="high">Stumpf</surname>
 						<forename cert="high">Johannes</forename>
@@ -74,11 +72,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417093"/>
 						-->
 					</persName>
-					<placeName source="place70" cert="high"><orig>Bubikon</orig></placeName>
+					<placeName source="l70" cert="high"><orig>Bubikon</orig></placeName>
 					<date when="1536-05-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,23 +126,23 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a deo patre et domino nostro Iesu Christo etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Lieber her und bruͦder, wie ir berichts begerend<note xml:id="fn1" type="footnote" n="1">Ein diesbezüglicher Brief Bullingers ist nicht erhalten.</note> der caplony Gossow halb, so findend ir alien den bericht, so ich von juncker Erharten Plaurern<note xml:id="fn2" type="footnote" n="2">Junker <persName ref="person464">Erhard Blarer von Wartensee</persName>, gest. 1553, besaß die Herrschaft <placeName ref="place545">Kempten</placeName> (Kt. Zürich), die durch Heirat 1460 an semen Vater Kaspar gekommen war. 1510 erweiterte er sie um die Gerichtsherrschaft <placeName ref="place1179">Werdegg</placeName>. Er war verburgrechtet mit Zürich (Ausburger) und mit Margaretha Grebel verheiratet. - Lit.: Jakob <hi>Streuli,</hi> Die Freiherren von <placeName ref="place1187">Wetzikon</placeName> und von <placeName ref="place545">Kempten</placeName>. Ein Beitrag zur Geschichte des Zürcher Oberlandes, in: Zürcher Taschenbuch 1991, NF 111, 1990, S. 55; Zürich ZB, Ms Z II 1, 247; Felix <hi>Meier,</hi> Geschichte der Gemeinde <placeName ref="place1187">Wetzikon</placeName>, Zürich 1881, S. 76. 420.</note> hab, ouch volkommenlich by her <persName ref="person225">Heinrich Utingern</persName>, by welchem gemelter juncker geweßen und deßhalb red mit im gehalten hatt<note xml:id="fn3" type="footnote" n="3">Der Rat beabsichtigte, aus der Kaplanei <placeName ref="place415">Goßau</placeName>, deren Erträge für Kirchgemeindezwecke genutzt wurden, ein Diakonat zu errichten (vgl. die beiden Schreiben des Grüninger Landvogts <persName ref="person22">Hans Bleuler</persName> vorn 15. und 23. August 1536 an den Rat, Zürich StA, E I 30. 48, die Zusammenstellung der Kaplaneien von <persName ref="person211">Stumpf</persName>, [1537], ebd., E 112. 1, sowie den Brief der Pfarrer des [<placeName ref="place1187">Wetzikoner</placeName>]Kapitels an Bullinger und <persName ref="person114">Jud</persName>, 27. März 1537, Zürich ZB, Ms A 70, 335f). Erhard Blarer, Lehensherr der Kaplanei, hatte sich wohl darüber mit <persName ref="person225">Utinger</persName> besprochen.</note>; deßhalb uch vil mit mynem schryben za bemüegen unnöttig ist etc.</s>
+					<s n="2" xml:lang="de" type="auto">Lieber her und bruͦder, wie ir berichts begerend<note xml:id="fn1" type="footnote" n="1">Ein diesbezüglicher Brief Bullingers ist nicht erhalten.</note> der caplony Gossow halb, so findend ir alien den bericht, so ich von juncker Erharten Plaurern<note xml:id="fn2" type="footnote" n="2">Junker <persName>Erhard Blarer von Wartensee</persName>, gest. 1553, besaß die Herrschaft <placeName>Kempten</placeName> (Kt. Zürich), die durch Heirat 1460 an semen Vater Kaspar gekommen war. 1510 erweiterte er sie um die Gerichtsherrschaft <placeName>Werdegg</placeName>. Er war verburgrechtet mit Zürich (Ausburger) und mit Margaretha Grebel verheiratet. - Lit.: Jakob <hi>Streuli,</hi> Die Freiherren von <placeName>Wetzikon</placeName> und von <placeName>Kempten</placeName>. Ein Beitrag zur Geschichte des Zürcher Oberlandes, in: Zürcher Taschenbuch 1991, NF 111, 1990, S. 55; Zürich ZB, Ms <bibl>Z</bibl> II 1, 247; Felix <hi>Meier,</hi> Geschichte der Gemeinde <placeName>Wetzikon</placeName>, Zürich 1881, S. 76. 420.</note> hab, ouch volkommenlich by her <persName ref="p3242">Heinrich Utingern</persName>, by welchem gemelter juncker geweßen und deßhalb red mit im gehalten hatt<note xml:id="fn3" type="footnote" n="3">Der Rat beabsichtigte, aus der Kaplanei <placeName>Goßau</placeName>, deren Erträge für Kirchgemeindezwecke genutzt wurden, ein Diakonat zu errichten (vgl. die beiden Schreiben des Grüninger Landvogts <persName>Hans Bleuler</persName> vorn 15. und 23. August 1536 an den Rat, Zürich StA, E I 30. 48, die Zusammenstellung der Kaplaneien von <persName>Stumpf</persName>, [1537], ebd., E 112. 1, sowie den Brief der Pfarrer des [<placeName>Wetzikoner</placeName>]Kapitels an Bullinger und <persName ref="p2305">Jud</persName>, 27. März 1537, Zürich ZB, Ms A 70, 335f). Erhard Blarer, Lehensherr der Kaplanei, hatte sich wohl darüber mit <persName>Utinger</persName> besprochen.</note>; deßhalb uch vil mit mynem schryben za bemüegen unnöttig ist etc.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Wytter, lieber bruͦder, nach dem Seegreben durch den abzug her <persName ref="person1631">Heinrichen</persName> Meßickons<note xml:id="fn4" type="footnote" n="4"><persName ref="person1631">Heinrich Messikommer</persName> (Messikon), von <placeName ref="place875">Rapperswil</placeName> (Kt. St. Gallen), gest. 1563, ehemals Konventual im Kloster <placeName ref="place928">Rüti</placeName>, war 1526-1532 Pfarrer in <placeName ref="place974">Seegräben</placeName>, dann bis 1534 Diakon in <placeName ref="place415">Goßau</placeName> und von 1536 an bis zu seiner krankheitsbedingten Entlassung 1562 Pfarrer in <placeName ref="place1176">Weißlingen</placeName>. - Lit.: Hermann <hi>Brüngger,</hi> Geschichte der Gemeinde <placeName ref="place1176">Weißlingen</placeName> von der Urzeit bis zur Gegenwart, <placeName ref="place1176">Weißlingen</placeName> 1949, S. 77; <hi>Meier,</hi> aaO, S. 420; Pfarrerbuch 427.</note> ledig wirt, verston ich, als solte her <persName ref="person1631">Heinrich</persName> Michel<note xml:id="fn5" type="footnote" n="5"><persName ref="person735">Heinrich Dürst</persName>. -Vgl. auch die Empfehlung Dürsts durch <persName ref="person22">Hans Bleuler</persName>, oben <ref target="file10828">Nr. 789</ref>.</note>, diener zu Odwyl, dahin kommen.</s>
-					<s n="4" xml:lang="de" type="auto">Da ich aber besorg, unser herren werdind der besoldung halb die hand nit vom hertzen thon<note xml:id="fn6" type="footnote" n="6">sie werden sich nicht offenherzig zeigen.</note>, so es das closter Rütti antrifft<note xml:id="fn7" type="footnote" n="7">Eine Besoldungsaufbesserung hätte die Rechnung des Klosteramtes <placeName ref="place928">Rüti</placeName> belastet; denn die Pfarrei <placeName ref="place974">Seegräben</placeName> war Lehen des säkularisierten Klosters <placeName ref="place928">Rüti</placeName> (vgl. <hi>Meier,</hi> aaO, S. 420f).</note>.</s>
+					<s n="3" xml:lang="de" type="auto">Wytter, lieber bruͦder, nach dem Seegreben durch den abzug her <persName>Heinrichen</persName> Meßickons<note xml:id="fn4" type="footnote" n="4"><persName>Heinrich Messikommer (Messikon)</persName>, von <placeName>Rapperswil</placeName> (Kt. St. Gallen), gest. 1563, ehemals Konventual im Kloster <placeName>Rüti</placeName>, war 1526-1532 Pfarrer in <placeName>Seegräben</placeName>, dann bis 1534 Diakon in <placeName>Goßau</placeName> und von 1536 an bis zu seiner krankheitsbedingten Entlassung 1562 Pfarrer in <placeName>Weißlingen</placeName>. - Lit.: Hermann <hi>Brüngger,</hi> Geschichte der Gemeinde <placeName>Weißlingen</placeName> von der Urzeit bis zur Gegenwart, <placeName>Weißlingen</placeName> 1949, S. 77; <hi>Meier,</hi> aaO, S. 420; Pfarrerbuch 427.</note> ledig wirt, verston ich, als solte her <persName>Heinrich</persName> Michel<note xml:id="fn5" type="footnote" n="5"><persName>Heinrich Dürst</persName>. - Vgl. auch die Empfehlung Dürsts durch <persName>Hans Bleuler</persName>, oben <ref target="file10828">Nr. 789</ref>.</note>, diener zu Odwyl, dahin kommen.</s>
+					<s n="4" xml:lang="de" type="auto">Da ich aber besorg, unser herren werdind der besoldung halb die hand nit vom hertzen thon<note xml:id="fn6" type="footnote" n="6">sie werden sich nicht offenherzig zeigen.</note>, so es das closter Rütti antrifft<note xml:id="fn7" type="footnote" n="7">Eine Besoldungsaufbesserung hätte die Rechnung des Klosteramtes <placeName>Rüti</placeName> belastet; denn die Pfarrei <placeName>Seegräben</placeName> war Lehen des säkularisierten Klosters <placeName>Rüti</placeName> (vgl. <hi>Meier,</hi> aaO, S. 420f).</note>.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="de" type="auto"><pb type="edition" next="293"/>Solt dan der guͦt, fromm gsel, der<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> der <hi>gestrichenes</hi> mit geringer narun.</note> bißhar lange zyt mit synen kindlinen armuͦt erlitten hatt, abermals in ein kleine oder arme begangenschafft<note xml:id="fn8" type="footnote" n="8">eine schlecht bezahlte Stelle (vgl. SI II 354f).</note> getruckt werden, darmit im<note xml:id="fnb" type="footnote" n="b">im <hi>über gestrichenem</hi> er.</note> bessers zuͦerwarten die hoffnung abgestrikt<note xml:id="fn9" type="footnote" n="9">genommen (SI XI 2194-2196).</note> werden mocht, das were mir fürwar leyd.</s>
-					<s n="6" xml:lang="de" type="auto">Hierumb hab ich in zu uch gefertiget, im beraten und behulffen zusyn, nach dem ir achtend<note xml:id="fn10" type="footnote" n="10">befindet, meint (SI I 80).</note> der eer gottes am minsten<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> minsten <hi>gestrichenes</hi> misten.</note> nachteylig, der kilchen nützlich und im und synen kinden erschießlich<note xml:id="fn11" type="footnote" n="11">ersprießlich, nutzbringend.</note> syn; das wit ich myns theyls umb üch, und wer hierzu helffen mag, gern und früntlich verdienen.</s>
-					<s n="7" xml:lang="de" type="auto">Herumb, wo ir den gemelten her <persName ref="person735">Heinrichen</persName> hin ordnend, ist gut, allein, das er mit sovil kinden nit in ein nüw ellend gesetzt werde.</s>
+					<s n="5" xml:lang="de" type="auto"><pb type="edition" next="293"/>Solt dan der guͦt, fromm gsel, der<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> der <hi>gestrichenes</hi> mit geringer narun.</note> bißhar lange zyt mit synen kindlinen armuͦt erlitten hatt, abermals in ein kleine oder arme begangenschafft<note xml:id="fn8" type="footnote" n="8">eine schlecht bezahlte Stelle (vgl. <bibl>SI</bibl> II 354f).</note> getruckt werden, darmit im<note xml:id="fnb" type="footnote" n="b">im <hi>über gestrichenem</hi> er.</note> bessers zuͦerwarten die hoffnung abgestrikt<note xml:id="fn9" type="footnote" n="9">genommen (<bibl>SI</bibl> XI 2194-2196).</note> werden mocht, das were mir fürwar leyd.</s>
+					<s n="6" xml:lang="de" type="auto">Hierumb hab ich in zu uch gefertiget, im beraten und behulffen zusyn, nach dem ir achtend<note xml:id="fn10" type="footnote" n="10">befindet, meint (<bibl>SI</bibl> I 80).</note> der eer gottes am minsten<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> minsten <hi>gestrichenes</hi> misten.</note> nachteylig, der kilchen nützlich und im und synen kinden erschießlich<note xml:id="fn11" type="footnote" n="11">ersprießlich, nutzbringend.</note> syn; das wit ich myns theyls umb üch, und wer hierzu helffen mag, gern und früntlich verdienen.</s>
+					<s n="7" xml:lang="de" type="auto">Herumb, wo ir den gemelten her <persName ref="p4663">Heinrichen</persName> hin ordnend, ist gut, allein, das er mit sovil kinden nit in ein nüw ellend gesetzt werde.</s>
 					<s n="8" xml:lang="de" type="auto">Hiemit sind dem hern bevolhen.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="auto">Ich schick uch hiemit das ander<note xml:id="fn12" type="footnote" n="12">zweite.</note> buch und den anfang des dritten myner arbeit<note xml:id="fn13" type="footnote" n="13">Zu <persName ref="person211">Stumpfs</persName> Arbeit an der Druckausgabe der Chronik vgl. oben <ref target="file10748">Nr. 710</ref> mit Anm. 22 und <ref target="file10812">Nr. 774</ref> mit Anm. 17.</note>; das wöllend besehen<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> besehen <hi>gestrichenes</hi> besch.</note>.</s>
+					<s n="9" xml:lang="de" type="auto">Ich schick uch hiemit das ander<note xml:id="fn12" type="footnote" n="12">zweite.</note> buch und den anfang des dritten myner arbeit<note xml:id="fn13" type="footnote" n="13">Zu <persName>Stumpfs</persName> Arbeit an der Druckausgabe der Chronik vgl. oben <ref target="file10748">Nr. 710</ref> mit Anm. 22 und <ref target="file10812">Nr. 774</ref> mit Anm. 17.</note>; das wöllend besehen<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> besehen <hi>gestrichenes</hi> besch.</note>.</s>
 					<s n="10" xml:lang="de" type="auto">Es ist vil falsch darin, dann ich alle ding in grosßer yl gemacht hab.</s>
-					<s n="11" xml:lang="de" type="auto">Das erst buch ist nit gerecht<note xml:id="fn14" type="footnote" n="14">fertig ausgearbeitet (vgl. SI VI 224-226).</note>, als ir wol wüsßend<note xml:id="fn15" type="footnote" n="15">Vgl. dazu oben <ref target="file10812">Nr. 774</ref>, 23-26.</note>; so es aber volkommen, wirt es uch ouch zukommen.</s>
-					<s n="12" xml:lang="de" type="auto">Schickend mir myn lettst buch, das real<note xml:id="fn16" type="footnote" n="16">ursprüngliche, echte (vgl. SI VI 1). - <persName ref="person211">Stumpf</persName> hatte das letzte, neunte Buch seiner ursprünglichen großen Chronik am 3. Januar 1536 Bullinger zugestellt (s. oben <ref target="file10748">Nr. 710</ref>, 3f).</note>, verbunden<note xml:id="fn17" type="footnote" n="17">eingepackt (SI IV 1352).</note> und mit uwerm bitschett<note xml:id="fn18" type="footnote" n="18">Petschaft, d. h. von Bullinger versiegelt (SI IV 1931).</note> verwart etc.</s>
+					<s n="11" xml:lang="de" type="auto">Das erst buch ist nit gerecht<note xml:id="fn14" type="footnote" n="14">fertig ausgearbeitet (vgl. <bibl>SI</bibl> VI 224-226).</note>, als ir wol wüsßend<note xml:id="fn15" type="footnote" n="15">Vgl. dazu oben <ref target="file10812">Nr. 774</ref>, 23-26.</note>; so es aber volkommen, wirt es uch ouch zukommen.</s>
+					<s n="12" xml:lang="de" type="auto">Schickend mir myn lettst buch, das real<note xml:id="fn16" type="footnote" n="16">ursprüngliche, echte (vgl. <bibl>SI</bibl> VI 1). - <persName>Stumpf</persName> hatte das letzte, neunte Buch seiner ursprünglichen großen Chronik am 3. Januar 1536 Bullinger zugestellt (s. oben <ref target="file10748">Nr. 710</ref>, 3f).</note>, verbunden<note xml:id="fn17" type="footnote" n="17">eingepackt (<bibl>SI</bibl> IV 1352).</note> und mit uwerm bitschett<note xml:id="fn18" type="footnote" n="18">Petschaft, d. h. von Bullinger versiegelt (<bibl>SI</bibl> IV 1931).</note> verwart etc.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="de" type="auto">Ex Buͦbicken, die 18. maii anno etc. 1536.</s>

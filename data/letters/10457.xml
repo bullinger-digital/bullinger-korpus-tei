@@ -6,47 +6,38 @@
 				<title subtype="file">Johannes Frey / Kappel am Albis AN Heinrich Bullinger, 4. August 1534</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1989</date>
-				<idno subtype="ISBN">ISBN 3-290-11600-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=422</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IV</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias; Rüetschi, Kurt Jakob; Bächtold, Hans Ulrich</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">4</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1534</biblScope>
-				<biblScope unit="page">271</biblScope>
-				<biblScope unit="pages">484</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 4 (Briefe des Jahres 1534), bearb. von Endre Zsindely, Matthias Senn, Kurt Jakob Rüetschi und Hans Ulrich Bächtold, Zürich 1989, 484 S., ISBN 3-290-11600-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,358</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
 								Freut sich über die Ausbreitung des evangelischen Glaubens. Wer würde nicht spüren, daß Gott den Kirchen in
-								<placeName ref="place78">Schwaben</placeName> seine Gnade zukommen läßt? Gottesfürchtig ist es, an
+								<placeName>Schwaben</placeName> seine Gnade zukommen läßt? Gottesfürchtig ist es, an
 								einer einmal gefaßten Meinung nicht unentwegt festzuhalten, sondern sie dann zu ändern, wenn sie von einer
 								besseren Erkenntnis überholt wird. In Zürich stehen die Dinge zweifellos dank Bullingers Wachsamkeit so
 								zufriedenstellend. Der gute Führer bringt es zustande, daß die anderen ihm im Guten folgen. Grüße.
@@ -56,24 +47,31 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 4, Nr. 422, S.271</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10457">
 				<correspAction type="sent">
-					<persName ref="person1188" cert="high">
+					<persName ref="p1188" cert="high">
 						<!--
 						<surname cert="high">Frey</surname>
 						<forename cert="high">Johannes</forename>
 						<persName type="main" ref="person8006>Frey, Johannes</persName>
 						-->
 					</persName>
-					<placeName source="place242" cert="high"><orig>Kappel am Albis</orig></placeName>
+					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1534-08-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -103,7 +101,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,35 +115,35 @@
 					<s n="1" xml:lang="la" type="auto">Gratia et pax a deo.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Scripsit in oratione quadam consul ille <placeName ref="place906">Romanus</placeName><note xml:id="fn2" type="footnote" n="2"><persName ref="person632">Cicero</persName>.</note> adversus <persName ref="person610">Catilinam</persName> non minus iocundos atque illustres esse dies, quibus conservamur, quam illos, quibus nascimur, quod salutis certa ratio sit, nascendi incerta conditio, tum quod sine sensu nascamur, cum voluptate certe conservamur<note xml:id="fn3" type="footnote" n="3"><persName ref="person632">Cicero</persName>, In Catilinam III, 2.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Cęterum longe diversam meam ineo rationem: Solidissimum gaudium apud fideles omnes exoriturum, ubi viderint evangelicam facem non modo irradiare nobis <placeName ref="place906">Romanamque</placeName> caliginem discuti, sed et a domino foveri et conservari, ut iam in illo die dominus regni habenas teneat solus atque ad hunc omnes confluant gentes, superstitione eliminata imaginibus comminutis unum et solum adorent et praedicatione divini verbi liberati redemptori in sanctitate et iustitia reliquam aetatem transigant<note xml:id="fn4" type="footnote" n="4"><persName ref="person66">Frey</persName> bezieht sich mit diesem Satz auf die Ausbreitung des reformierten Glaubens im Herzogtum <placeName ref="place100">Württemberg</placeName>, s. auch Z. 14-16.</note>.</s>
-					<s n="4" xml:lang="la" type="auto">Equidem apud te, praeceptorem meum, fateri cogor ineffabilem lęticiam, quam nobis attulit <persName ref="person76">Noviomagi</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="person76">Gerhard Geldenhauer</persName> (Noviomagus), 1482-1542, aus <placeName ref="place782">Nijmwegen</placeName>, studierte in <placeName ref="place656">Löwen</placeName>, wo er <persName ref="person779">Erasmus</persName> kennenlernte. Als Humanist hatte er bald einen bekannten Namen. 1517 wurde er von <persName ref="person1603">Kaiser Maximilian I.</persName> zum Dichter gekrönt. Bis 1524 war er Sekretär <persName ref="person573">Philipps von Burgund</persName>, des Bischofs von <placeName ref="place1122">Utrecht</placeName>. Nach mehreren Jahren unsteten Lebens, die er u. a. in <placeName ref="place1205">Wittenberg</placeName> (1525), <placeName ref="place1214">Worms</placeName> und <placeName ref="place1049">Straßburg</placeName> (1527) sowie in <placeName ref="place70">Augsburg</placeName> (1531) verbrachte, wurde er 1532 in <placeName ref="place672">Marburg</placeName> Professor für Geschichte, 1534 auch für Neues Testament. 1536 war er Rektor. Geldenhauer setzte sich besonders für den Aufbau des hessischen Stipendienwesens ein. 1540/41 nahm er an den Religionsgesprächen in Hagenau und <placeName ref="place1214">Worms</placeName> teil. Zu Geldenhauers Hauptwerken gehören eine Vita <persName ref="person573">Philipps von Burgund</persName> (1529), die «Historia Batavica» (1530) und «Germaniae inferioris historiae» (1532). Von Geldenhauers Briefen an Bullinger sind zwei aus dem Jahre 1540 erhalten. - Lit.: Collectanea van Gerardus Geldenhauer Noviomagus, hg. v. J. Prinsen, Amsterdam 1901. - Werken uitgegeven door het Historisch Genootschap III, 16; J. <hi>Prinsen,</hi> Gerardus Geldenhauer Noviomagus. Bijdrage tot de kennis van zijn leven en werken, Den Haag 1898; Lateinisches Gedicht des Gerardus Noviomagus auf Zwinglis Tod, in: Zwa II 362f; Gerhard <hi>Müller,</hi> in: NDB VI 170 (mit weiterer Lit.); Contemporaries II 82-84.</note><pb type="edition" next="272"/> epigramma in obitu missae deliniatum<note xml:id="fn6" type="footnote" n="6">Das «Epitaphium missae papisticae» des Gerhard Geldenhauer war aus Anlaß der Abschaffung der Messe in <placeName ref="place1049">Straßburg</placeName>, am 20. Februar 1529, entstanden. Es ist abgedruckt in: Collectanea, aaO, S. 85f. Freundliche Auskunft von Herrn Prof. Cornelis Augustijn, Amsterdam.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Scripsit in oratione quadam consul ille <placeName>Romanus</placeName><note xml:id="fn2" type="footnote" n="2"><persName>Cicero</persName>.</note> adversus <persName>Catilinam</persName> non minus iocundos atque illustres esse dies, quibus conservamur, quam illos, quibus nascimur, quod salutis certa ratio sit, nascendi incerta conditio, tum quod sine sensu nascamur, cum voluptate certe conservamur<note xml:id="fn3" type="footnote" n="3"><persName>Cicero</persName>, In Catilinam III, 2.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Cęterum longe diversam meam ineo rationem: Solidissimum gaudium apud fideles omnes exoriturum, ubi viderint evangelicam facem non modo irradiare nobis <placeName>Romanamque</placeName> caliginem discuti, sed et a domino foveri et conservari, ut iam in illo die dominus regni habenas teneat solus atque ad hunc omnes confluant gentes, superstitione eliminata imaginibus comminutis unum et solum adorent et praedicatione divini verbi liberati redemptori in sanctitate et iustitia reliquam aetatem transigant<note xml:id="fn4" type="footnote" n="4"><persName>Frey</persName> bezieht sich mit diesem Satz auf die Ausbreitung des reformierten Glaubens im Herzogtum <placeName>Württemberg</placeName>, s. auch Z. 14-16.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Equidem apud te, praeceptorem meum, fateri cogor ineffabilem lęticiam, quam nobis attulit <persName ref="p8363">Noviomagi</persName><note xml:id="fn5" type="footnote" n="5"><persName>Gerhard Geldenhauer (Noviomagus)</persName>, 1482-1542, aus <placeName>Nijmwegen</placeName>, studierte in <placeName>Löwen</placeName>, wo er <persName>Erasmus</persName> kennenlernte. Als Humanist hatte er bald einen bekannten Namen. 1517 wurde er von <persName>Kaiser Maximilian I.</persName> zum Dichter gekrönt. Bis 1524 war er Sekretär <persName>Philipps von Burgund</persName>, des Bischofs von <placeName>Utrecht</placeName>. Nach mehreren Jahren unsteten Lebens, die er u. a. in <placeName>Wittenberg</placeName> (1525), <placeName>Worms</placeName> und <placeName>Straßburg</placeName> (1527) sowie in <placeName>Augsburg</placeName> (1531) verbrachte, wurde er 1532 in <placeName>Marburg</placeName> Professor für Geschichte, 1534 auch für Neues Testament. 1536 war er Rektor. Geldenhauer setzte sich besonders für den Aufbau des hessischen Stipendienwesens ein. 1540/41 nahm er an den Religionsgesprächen in Hagenau und <placeName>Worms</placeName> teil. Zu Geldenhauers Hauptwerken gehören eine Vita <persName>Philipps von Burgund</persName> (1529), die «Historia Batavica» (1530) und «Germaniae inferioris historiae» (1532). Von Geldenhauers Briefen an Bullinger sind zwei aus dem Jahre 1540 erhalten. - Lit.: Collectanea van Gerardus Geldenhauer Noviomagus, hg. v. J. Prinsen, Amsterdam 1901. - Werken uitgegeven door het Historisch Genootschap III, 16; J. <hi>Prinsen,</hi> Gerardus Geldenhauer Noviomagus. Bijdrage tot de kennis van zijn leven en werken, Den Haag 1898; Lateinisches Gedicht des Gerardus Noviomagus auf Zwinglis Tod, in: <bibl>Zwa</bibl> II 362f; Gerhard <hi>Müller,</hi> in: <bibl>NDB</bibl> VI 170 (mit weiterer Lit.); <bibl>Contemporaries</bibl> II 82-84.</note><pb type="edition" next="272"/> epigramma in obitu missae deliniatum<note xml:id="fn6" type="footnote" n="6">Das «Epitaphium missae papisticae» des Gerhard Geldenhauer war aus Anlaß der Abschaffung der Messe in <placeName>Straßburg</placeName>, am 20. Februar 1529, entstanden. Es ist abgedruckt in: Collectanea, aaO, S. 85f. Freundliche Auskunft von Herrn Prof. Cornelis Augustijn, Amsterdam.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Quis admodum fuerit stupidus, ut non divini spiritus charism[a]<note xml:id="fnb" type="footnote" n="b"><hi>Rand rechts beschädigt.</hi></note> diffusum et Svevicis ecclesiis communicatum sentiat?</s>
-					<s n="6" xml:lang="la" type="auto">Tametsi vitilitigator<note xml:id="fn7" type="footnote" n="7">Adagia, 2, 6, 19 (LB II 589).</note> ille cornicetur<note xml:id="fn8" type="footnote" n="8">Adagia, 1, 7, 16 (LB II 267).</note>, pugnis et calcibus obnitatur <foreign xml:lang="el">καὶ μέγα φρονεῖ</foreign>.</s>
+					<s n="6" xml:lang="la" type="auto">Tametsi vitilitigator<note xml:id="fn7" type="footnote" n="7">Adagia, 2, 6, 19 (<bibl>LB</bibl> II 589).</note> ille cornicetur<note xml:id="fn8" type="footnote" n="8">Adagia, 1, 7, 16 (<bibl>LB</bibl> II 267).</note>, pugnis et calcibus obnitatur <foreign xml:lang="el">καὶ μέγα φρονεῖ</foreign>.</s>
 					<s n="7" xml:lang="la" type="auto">Interim optimus ille et coelestis pater suis nunquam deest organa disponens ad coagmentandum sacrosanctum tabernaculum pontificiis cuniculis occupatum et impiissimorum machinis concissum[!].</s>
 					<s n="8" xml:lang="la" type="auto">Pie quidem isti ratiocinantur ad exemplum excellentissimorum antistitum ecclesiae nuperrime ex gentibus post Christi ascensum collectae non continuo, si quid semel animo visum fuerit, omni id studio et contentione servandum esse, verum rectius tunc mutare sententiam, cum eam melior et rectior superaverit.</s>
 					<s n="9" xml:lang="la" type="auto">Domini sane opus esse coniicis.</s>
 					<s n="10" xml:lang="la" type="auto">Illo reclamante negocium ferventius surgit apud fideles.</s>
 					<s n="11" xml:lang="la" type="auto">Hoc ineptiente veritas ipsa, quae nuditate gaudet, magis magisque Germaniae angulos perrumpit.</s>
 					<s n="12" xml:lang="la" type="auto">Quid dicam?</s>
-					<s n="13" xml:lang="la" type="auto">Cum ille studet ut lutulentus sus cum quovis volutari<note xml:id="fn9" type="footnote" n="9">Vgl. Georges II 3549.</note>, omnes tamen propemodum Germaniae proceres palmam tribuunt potius dei verbo quam somnio humano.</s>
+					<s n="13" xml:lang="la" type="auto">Cum ille studet ut lutulentus sus cum quovis volutari<note xml:id="fn9" type="footnote" n="9">Vgl. <bibl>Georges</bibl> II 3549.</note>, omnes tamen propemodum Germaniae proceres palmam tribuunt potius dei verbo quam somnio humano.</s>
 					<s n="14" xml:lang="la" type="auto">Atqui malim, ut christiana tranquillitas ad pristinum nitorem revocaretur et secundum quod scriptum est, singuli ad aedificationem ecclesiae abundare quaererent<note xml:id="fn10" type="footnote" n="10">Vgl. 1 Kor 14, 12.</note>.</s>
 					<s n="15" xml:lang="la" type="auto">Contentiones enim tum pessimę, cum efflagrant.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto">Porro ad nostra iam venio.</s>
-					<s n="17" xml:lang="la" type="auto">Herus<note xml:id="fn11" type="footnote" n="11">Wahrscheinlich <persName ref="person200">Peter Simler</persName>, der Verwalter des Klosters.</note> nostrae reipublicae statum exposuit haud dubie opera et vigiliis tuis maximis adhuc satis incolumem.</s>
+					<s n="17" xml:lang="la" type="auto">Herus<note xml:id="fn11" type="footnote" n="11">Wahrscheinlich <persName>Peter Simler</persName>, der Verwalter des Klosters.</note> nostrae reipublicae statum exposuit haud dubie opera et vigiliis tuis maximis adhuc satis incolumem.</s>
 					<s n="18" xml:lang="la" type="auto">Et utinam incommoda, quae praesagiis infallibilibus pro foribus esse animadvertimus, deus optimus maximus, rectorum consiliis tanquam medicine remediis leniantur!</s>
 					<s n="19" xml:lang="la" type="auto">Sane admittendum<note xml:id="fnc" type="footnote" n="c"><hi>in der Vorlage</hi> adnittendum.</note>, ut syncerissima respublica construatur, bene morata sit civitas.</s>
 					<s n="20" xml:lang="la" type="auto">Nam qui bonum prebet ducem, facit is, ut alii bene sequantur.</s>
-					<s n="21" xml:lang="la" type="auto">Rursum piscis primum a capite foetet<note xml:id="fn12" type="footnote" n="12">Adagia, 4, 2, 97 (LB II 1007).</note>, et contagione principum reliquum vulgus inficitur.</s>
+					<s n="21" xml:lang="la" type="auto">Rursum piscis primum a capite foetet<note xml:id="fn12" type="footnote" n="12">Adagia, 4, 2, 97 (<bibl>LB</bibl> II 1007).</note>, et contagione principum reliquum vulgus inficitur.</s>
 					<s n="22" xml:lang="la" type="auto">Quae non ignarus sum te obnixe moli[ri]<note xml:id="fnd" type="footnote" n="d"><hi>Rand rechts beschädigt.</hi></note>.</s>
 					<s n="23" xml:lang="la" type="auto">Deus faxit, ut absque fuco eius imperium dilatetur, eidola nomini eius glorios[o]<note xml:id="fne" type="footnote" n="e"><hi>Rand rechts beschädigt.</hi></note> cedant, vita inculpata et morum innocentia salutis <foreign xml:lang="el">ἀρχηγὸν</foreign> sequamur<note xml:id="fn13" type="footnote" n="13">Vgl. Hebr 12, 2.</note>!</s>
 				</p>
 				<p>
 					<s n="24" xml:lang="la" type="auto"><pb type="edition" next="273"/>Vale faustis avibus.</s>
-					<s n="25" xml:lang="la" type="auto">Uxorem<note xml:id="fn14" type="footnote" n="14"><persName ref="person32">Anna Bullinger, geb. Adlischwyler</persName>.</note> tuam omnemque familiam cupimus incolumem.</s>
-					<s n="26" xml:lang="la" type="auto">Dominum prępositum<note xml:id="fn15" type="footnote" n="15">Propst <persName ref="person872">Felix Frey</persName>.</note>, vicinum tuum<note xml:id="fn16" type="footnote" n="16">Bullinger bewohnte bis 1536 das Haus «zum grünen Schloß» neben dem Antistitium am heutigen <persName ref="person265">Zwingli</persName>-Platz (s. <hi>Vögelin,</hi> Das alte Zürich I 332f), <persName ref="person66">Frey</persName> die Stiftsverwalterei an der Kirchgasse, heute Nr. 17-21 (ebenda 336).</note> meumque cognatum et patronum meis verbis salutato et apud istum semper habebis commendatum.</s>
+					<s n="25" xml:lang="la" type="auto">Uxorem<note xml:id="fn14" type="footnote" n="14"><persName>Anna Bullinger, geb. Adlischwyler</persName>.</note> tuam omnemque familiam cupimus incolumem.</s>
+					<s n="26" xml:lang="la" type="auto">Dominum prępositum<note xml:id="fn15" type="footnote" n="15">Propst <persName>Felix Frey</persName>.</note>, vicinum tuum<note xml:id="fn16" type="footnote" n="16">Bullinger bewohnte bis 1536 das Haus «zum grünen Schloß» neben dem Antistitium am heutigen <persName>Zwingli</persName>-Platz (s. <hi>Vögelin,</hi> Das alte Zürich I 332f), <persName>Frey</persName> die Stiftsverwalterei an der Kirchgasse, heute Nr. 17-21 (ebenda 336).</note> meumque cognatum et patronum meis verbis salutato et apud istum semper habebis commendatum.</s>
 				</p>
 				<p>
 					<s n="27" xml:lang="la" type="auto">Ex Capella, 4. augusti.</s>

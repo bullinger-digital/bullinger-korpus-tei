@@ -6,46 +6,37 @@
 				<title subtype="file">Johannes Frey / Kappel am Albis AN Heinrich Bullinger, 18. September 1539</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2002</date>
-				<idno subtype="ISBN">ISBN 3-290-17220-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1309</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW IX</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">9</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1539</biblScope>
-				<biblScope unit="page">219</biblScope>
-				<biblScope unit="pages">295</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 9 (Briefe des Jahres 1539), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2002, 295 S., ISBN 3-290-17220-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 39,813</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Beurteilt <persName ref="person395">Kaspar [Baumgartner]</persName>
+								Beurteilt <persName ref="p4252">Kaspar [Baumgartner]</persName>
 								auf Wunsch Bullingers, obwohl ihm dies nicht leicht fällt. Im Studium nicht unbegabt, beim Schreiben
 								verbesserungsfähig, gibt dieser - ist er doch strebsam und recht fromm - zu besten Hoffnungen Anlaß; er ist
 								unverdorben, und seine dreiste, reizbare und geschwätzige Art - heutzutage ja nicht ungewöhnlich - wird
@@ -56,24 +47,31 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 9, Nr. 1309, S.219</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11352">
 				<correspAction type="sent">
-					<persName ref="person1188" cert="high">
+					<persName ref="p1188" cert="high">
 						<!--
 						<surname cert="high">Frey</surname>
 						<forename cert="high">Johannes</forename>
 						<persName type="main" ref="person8006>Frey, Johannes</persName>
 						-->
 					</persName>
-					<placeName source="place242" cert="high"><orig>Kappel am Albis</orig></placeName>
+					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1539-09-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -106,7 +104,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -116,7 +114,7 @@
 					<s n="1" xml:lang="la" type="auto">S[alutem] p[lurimam] d[ico].</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Duram quidem, venerande praeceptor, provinciam imponis, ut sententiam de Gaspari<note xml:id="fn1" type="footnote" n="1"><persName ref="person395">Kaspar Baumgartner</persName>, gest. nach 6. April 1540, kam am 30. September 1538 als Stipendiat an die Lateinschule in <placeName ref="place534">Kappel</placeName>. Im Frühjahr 1540 wurde er in die Fraumünsterschule in der Stadt versetzt, starb aber wohl kurz darauf an der Pest. - Lit.: Zürich StA, E I 14. 1, Fasz. 2.</note> ingenio perscribam, quod emunctum iuditium tuum minime latere censeo, siquidem ex oratione infallibilibus coniecturis vidisti.</s>
+					<s n="2" xml:lang="la" type="auto">Duram quidem, venerande praeceptor, provinciam imponis, ut sententiam de Gaspari<note xml:id="fn1" type="footnote" n="1"><persName>Kaspar Baumgartner</persName>, gest. nach 6. April 1540, kam am 30. September 1538 als Stipendiat an die Lateinschule in <placeName>Kappel</placeName>. Im Frühjahr 1540 wurde er in die Fraumünsterschule in der Stadt versetzt, starb aber wohl kurz darauf an der Pest. - Lit.: Zürich StA, E I 14. 1, Fasz. 2.</note> ingenio perscribam, quod emunctum iuditium tuum minime latere censeo, siquidem ex oratione infallibilibus coniecturis vidisti.</s>
 					<s n="3" xml:lang="la" type="auto">Sed officii mei non immemor observata nostrae mentis adumbrabo, partim ut studuerit, partim ut convixerit, e quibus tanquam e fimbria de textura<note xml:id="fn2" type="footnote" n="2">Otto 136, Nr. 663.</note> iudicabis.</s>
 					<s n="4" xml:lang="la" type="auto">Musas visus est habere non iniquiores; noluit enim in reddenda lectione postremus haberi neque in excolenda memoria ab aequalibus vinci.</s>
 					<s n="5" xml:lang="la" type="auto">Tum in stilo exercendo hactenus diligentior repertus quam felicior, ausimque affirmare id posse facile sarciri, posteaquam frequentem lectionem et usum artificio coniunxerit.</s>

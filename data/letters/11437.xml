@@ -6,51 +6,46 @@
 				<title subtype="file">John Butler AN Heinrich Bullinger, um 16. Mai 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1394</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">631</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Epistolae Tigurinae de rebus potissimum ad ecclesiae Anglicanae reformationem pertinentibus conscriptae A. D. 1531-1558. Ex schedis manuscriptis in bibliotheca Tigurina aliisque servatis Parkerianae societatis auspiciis editae, Cambridge 1848 (Nachdruck: New York 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343a,360</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Wartet auf [William]
-								<persName ref="person1811">Peterson</persName>, der im März seine Ankunft auf Pfingsten angekündigt hat,
-								aber in <placeName ref="place11">Frankreich</placeName> festgehalten worden sein könnte;
-								<persName ref="person37">Butler</persName> oder andere Engländer werden für einen eventuellen Verlust von
-								<persName ref="person2055">[Rudolf] Schinz</persName> aufkommen.
-								<persName ref="person1811">Peterson</persName> wird über die Wirren in
-								<placeName ref="place9">England</placeName> berichten, wo drei hervorragende Geistliche
-								[<persName ref="person388">Robert Barnes</persName>, <persName ref="person933">Thomas Garrett</persName>
-								und <persName ref="person1284">William Jerome</persName>] in den
-								Tower gelegt wurden. <persName ref="person37">Butler</persName> wird nach
-								<placeName ref="place361">Frankfurt</placeName> reisen, um einige englische Flüchtlinge zu trösten.
+								Wartet auf <persName ref="p6063">[William] Peterson</persName>, der im März seine Ankunft auf Pfingsten angekündigt hat,
+								aber in <placeName>Frankreich</placeName> festgehalten worden sein könnte;
+								<persName ref="p506">Butler</persName> oder andere Engländer werden für einen eventuellen Verlust von
+								<persName ref="p6425">[Rudolf] Schinz</persName> aufkommen.
+								<persName ref="p6063">Peterson</persName> wird über die Wirren in
+								<placeName>England</placeName> berichten, wo drei hervorragende Geistliche
+								[<persName ref="p4238">Robert Barnes</persName>, <persName ref="p4903">Thomas Garrett</persName>
+								und <persName ref="p5374">William Jerome</persName>] in den
+								Tower gelegt wurden. <persName ref="p506">Butler</persName> wird nach
+								<placeName>Frankfurt</placeName> reisen, um einige englische Flüchtlinge zu trösten.
 								Grüße. Bittet um Fürbitte.
 							</p>
 						</summary>
@@ -72,7 +67,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11437">
 				<correspAction type="sent">
-					<persName ref="person506" cert="high">
+					<persName ref="p506" cert="high">
 						<!--
 						<surname cert="high">Butler</surname>
 						<forename cert="high">John</forename>
@@ -82,7 +77,7 @@
 					<date when="1540-05-16" cert="low">um 16. Mai 1540</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -115,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

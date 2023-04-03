@@ -6,51 +6,40 @@
 				<title subtype="file">Johannes Wolf / Marburg AN Heinrich Bullinger, 21. Dezember 1540</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2003</date>
-				<idno subtype="ISBN">ISBN 3-290-17265-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1440</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1540</biblScope>
-				<biblScope unit="page">206</biblScope>
-				<biblScope unit="pages">224</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 10 (Briefe des Jahres 1540), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2003, 224 S., ISBN 3-290-17265-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,97</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat aus Bullingers Brief an Rudolf
-								[<persName ref="person84">Gwalther</persName>] erfahren, daß er ihm wegen der Abreise [aus
-								<placeName ref="place1107">Tübingen</placeName>] und wegen [des Strebens nach] dem Magistergrad zürnt;
+								Hat aus Bullingers Brief an <persName ref="p8011">Rudolf [Gwalther]</persName> erfahren, daß er ihm wegen der Abreise [aus
+								<placeName>Tübingen</placeName>] und wegen [des Strebens nach] dem Magistergrad zürnt;
 								entschuldigt sich und verweist darauf, daß ihnen hier sogar geringere Kosten als in Zürich entstehen. Ist
-								auch über den Brief von [Johann
-								Jakob] <persName ref="person318">Ammann</persName> betrübt und bittet
+								auch über den Brief von <persName ref="p167">[Johann Jakob] Ammann</persName> betrübt und bittet
 								um erneutes Vertrauen. Neujahrsgruß.
 							</p>
 						</summary>
@@ -58,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10, Nr. 1440, S.206</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11483">
 				<correspAction type="sent">
-					<persName ref="person3988" cert="high">
+					<persName ref="p3988" cert="high">
 						<!--
 						<surname cert="high">Wolf</surname>
 						<forename cert="high">Johannes</forename>
@@ -74,11 +70,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11417561"/>
 						-->
 					</persName>
-					<placeName source="place311" cert="high"><orig>Marburg</orig></placeName>
+					<placeName source="l311" cert="high"><orig>Marburg</orig></placeName>
 					<date when="1540-12-21" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -122,12 +118,12 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Ex literis<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file11479">Nr. 1436</ref>.</note> tuis, Bullingere pater, quas tu ad <persName ref="person84">Rodolphum</persName><note xml:id="fn2" type="footnote" n="2"><persName ref="person84">Rudolf Gwalther</persName>.</note> nostrum dedisti, intellexi te mihi cum propter meam istam profectionem<note xml:id="fn3" type="footnote" n="3">Gemeint ist die eigenmächtige Abreise der Zürcher Studenten aus <placeName ref="place1107">Tübingen</placeName>; vgl. ebd., Z. 20f mit Anm. 12.</note> tum propter gradum seu, ut vocant, magisterii rationem<note xml:id="fn4" type="footnote" n="4">Vgl. ebd., Z. 4-14.</note> succensere, id quod mihi non mediocrem attulit molestiam; neque enim mihi lene debet videri, si te<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> te <hi>gestrichenes</hi> ad.</note>, ad quem semper ceu sacram anchoram<note xml:id="fn5" type="footnote" n="5">Vgl. Adagia, 1, 1, 24 (LB II 35f).</note> confugio, habeam iratum, qui uno te authore omnes fortunae meae fundatas presertim atque optime constitutas opes possideam.</s>
+					<s n="1" xml:lang="la" type="auto">Ex literis<note xml:id="fn1" type="footnote" n="1">Oben <ref target="file11479">Nr. 1436</ref>.</note> tuis, Bullingere pater, quas tu ad <persName ref="p8011">Rodolphum</persName><note xml:id="fn2" type="footnote" n="2"><persName>Rudolf Gwalther</persName>.</note> nostrum dedisti, intellexi te mihi cum propter meam istam profectionem<note xml:id="fn3" type="footnote" n="3">Gemeint ist die eigenmächtige Abreise der Zürcher Studenten aus <placeName>Tübingen</placeName>; vgl. ebd., Z. 20f mit Anm. 12.</note> tum propter gradum seu, ut vocant, magisterii rationem<note xml:id="fn4" type="footnote" n="4">Vgl. ebd., Z. 4-14.</note> succensere, id quod mihi non mediocrem attulit molestiam; neque enim mihi lene debet videri, si te<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> te <hi>gestrichenes</hi> ad.</note>, ad quem semper ceu sacram anchoram<note xml:id="fn5" type="footnote" n="5">Vgl. Adagia, 1, 1, 24 (<bibl>LB</bibl> II 35f).</note> confugio, habeam iratum, qui uno te authore omnes fortunae meae fundatas presertim atque optime constitutas opes possideam.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Proinde cum nequeam animo meo aliquam saltem tranquillitatem parere, antequam me<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> me <hi>gestrichenes</hi> te.</note> tecum in gratiam rediisse cognoverim, te, ut mihi ignoscas, iterum atque iterum oro; nam quod proximis literis ad matrem datis<note xml:id="fn6" type="footnote" n="6"><persName ref="person251">Wolfs</persName> Brief an seine Mutter (Margaretha Leu) ist nicht erhalten.</note> pecuniam iterum postularim<note xml:id="fn7" type="footnote" n="7">Vgl. oben <ref target="file11479">Nr. 1436</ref>, 14-19.</note>, id graduum ratione (sic enim isti eas dignitates vocant) adductus feci, quod alioquin omisissem, neque enim opus erat propter huiusce loci commoditatem.</s>
+					<s n="2" xml:lang="la" type="auto">Proinde cum nequeam animo meo aliquam saltem tranquillitatem parere, antequam me<note xml:id="fnb" type="footnote" n="b"><hi>vor</hi> me <hi>gestrichenes</hi> te.</note> tecum in gratiam rediisse cognoverim, te, ut mihi ignoscas, iterum atque iterum oro; nam quod proximis literis ad matrem datis<note xml:id="fn6" type="footnote" n="6"><persName>Wolfs</persName> Brief an seine Mutter (Margaretha Leu) ist nicht erhalten.</note> pecuniam iterum postularim<note xml:id="fn7" type="footnote" n="7">Vgl. oben <ref target="file11479">Nr. 1436</ref>, 14-19.</note>, id graduum ratione (sic enim isti eas dignitates vocant) adductus feci, quod alioquin omisissem, neque enim opus erat propter huiusce loci commoditatem.</s>
 					<s n="3" xml:lang="la" type="auto">Sumus enim in ea nunc civitate, ut studiis nostris optime consultum videamus et multo minoris vivere possimus, quam vel etiam Tiguri.</s>
-					<s n="4" xml:lang="la" type="auto">Ego dabo operam, ut bonorum virorum de me expectationi pro virili mea satisfaciam, si modo quę superest; nam literis <persName ref="person318">Ammiani</persName><note xml:id="fn8" type="footnote" n="8">Gemeint ist der oben <ref target="file11479">Nr. 1436</ref>, 11 erwähnte Brief <persName ref="person318">Johann Jakob Ammanns</persName> an <persName ref="person84">Gwalther</persName>.</note> ita sum afflictus, ut nihil mihi pristinae existimationis reliquum putem, quam quod clementia retineatur vestra.</s>
+					<s n="4" xml:lang="la" type="auto">Ego dabo operam, ut bonorum virorum de me expectationi pro virili mea satisfaciam, si modo quę superest; nam literis <persName ref="p167">Ammiani</persName><note xml:id="fn8" type="footnote" n="8">Gemeint ist der oben <ref target="file11479">Nr. 1436</ref>, 11 erwähnte Brief <persName ref="p8423">Johann Jakob Ammanns</persName> an <persName>Gwalther</persName>.</note> ita sum afflictus, ut nihil mihi pristinae existimationis reliquum putem, quam quod clementia retineatur vestra.</s>
 					<s n="5" xml:lang="la" type="auto">Sed quia tibi plura scio negotia, quam ut hisce meis nugis vacare<note xml:id="fnc" type="footnote" n="c"><hi>korrigiert aus</hi> vaf.</note> possis, finem iam scribendi faciam teque orabo, ut, quem olim pluribus adiuvisti beneficiis, eum<note xml:id="fnd" type="footnote" n="d">eum <hi>über der Zeile nachgetragen.</hi></note> nunc pristinae existimationi restituas.</s>
 					<s n="6" xml:lang="la" type="auto">Quod ut velis, te vehementer etiam atque etiam oro.<pb type="edition" next="207"/></s>
 				</p>
@@ -136,9 +132,9 @@
 					<s n="8" xml:lang="la" type="auto">Dominus velit hunc annum tibi tuisque felicem et faustum, pręcor.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><placeName ref="place672">Marpurgi</placeName>, 21. decembris anno 1540.</s>
+					<s n="9" xml:lang="la" type="auto"><placeName>Marpurgi</placeName>, 21. decembris anno 1540.</s>
 					<s n="10" xml:lang="la" type="auto">Christi<note xml:id="fne" type="footnote" n="e">Christi <hi>in Majuskeln.</hi></note>.</s>
-					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="person251">Iohannes Wolphius</persName>.</s>
+					<s n="11" xml:lang="la" type="auto">Tuus <persName ref="p3988">Iohannes Wolphius</persName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

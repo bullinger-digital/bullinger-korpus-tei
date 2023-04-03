@@ -6,40 +6,31 @@
 				<title subtype="file">Johannes Zwick AN Heinrich Bullinger, zwischen März 1536 und August 1538</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2004</date>
-				<idno subtype="ISBN">ISBN 3-290-17316-X</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1450</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW X (Ergänzungsband)</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">10</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">Addenda und Gesamtregister zu Band 1-10</biblScope>
-				<biblScope unit="page">28</biblScope>
-				<biblScope unit="pages">175</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Ergänzungsband A (Addenda und Gesamtregister zu Band 1-10), Bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2004, 175 S., ISBN 3-290-17316-X.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 364,20</idno>
 					</msIdentifier>
 					<msContents>
@@ -47,10 +38,10 @@
 							<p xml:id="regest1">
 								Überläßt ihm leihweise eine ungeordnete Niederschrift seiner [christologischen] Überlegungen, um ihn bei
 								der Widerlegung von Gegnern zu unterstützen. Falls Bullinger nicht gerade eine Schrift über die Göttlichkeit
-								Christi vorbereitet, sollte er den Rat von Capito im beiliegenden Brief beherzigen; auch <persName ref="person263">Zwick</persName> hat ihm schon
+								Christi vorbereitet, sollte er den Rat von Capito im beiliegenden Brief beherzigen; auch <persName ref="p4079">Zwick</persName> hat ihm schon
 								früher geraten, das Thema bei Gelegenheit unter anderem Titel abzuhandeln, so wie Bucer in seinem
 								Römerbriefkommentar oder Bullinger selbst im Kommentar zum 2. Korintherbrief. Empfiehlt den Boten. Erbittet
-								Capitos Brief zurück. Die Predigten von <persName ref="person19">Ambrosius [Blarer]</persName> in Tübingen wecken den Neid der einheimischen
+								Capitos Brief zurück. Die Predigten von <persName ref="p8055">Ambrosius [Blarer]</persName> in Tübingen wecken den Neid der einheimischen
 								Theologen.
 							</p>
 						</summary>
@@ -58,13 +49,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 10A, Nr. 1450, S.28</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11493">
 				<correspAction type="sent">
-					<persName ref="person4079" cert="high">
+					<persName ref="p4079" cert="high">
 						<!--
 						<surname cert="high">Zwick</surname>
 						<forename cert="high">Johannes</forename>
@@ -76,7 +74,7 @@
 					<date notBefore="1536-03-01" notAfter="1538-08-12" cert="low">zwischen März 1536 und August 1538</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -111,7 +109,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,12 +124,12 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Non potui citius te de meis cogitationibus certiorem facere.</s>
-					<s n="3" xml:lang="la" type="auto">Nunc autem nescio quas stultas et sine sale planeque indigestas mitto<note xml:id="fn2" type="footnote" n="2"><persName ref="person263">Zwicks</persName> Abhandlung (offenbar über eine christologische Frage, vgl. unten Z. 6-10) scheint nicht erhalten zu sein.</note>, quibus lectis optarem, ut remitteres.</s>
+					<s n="3" xml:lang="la" type="auto">Nunc autem nescio quas stultas et sine sale planeque indigestas mitto<note xml:id="fn2" type="footnote" n="2"><persName>Zwicks</persName> Abhandlung (offenbar über eine christologische Frage, vgl. unten Z. 6-10) scheint nicht erhalten zu sein.</note>, quibus lectis optarem, ut remitteres.</s>
 					<s n="4" xml:lang="la" type="auto">Ad nihil enim aliud profuturae sunt tibi, nisi ut alicubi commodius obviam<note xml:id="fna" type="footnote" n="a"><hi>korrigiert aus</hi> obvias.</note> eas<note xml:id="fnb" type="footnote" n="b">eas <hi>über der Zeile nachgetragen.</hi></note> opinioni diversae.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Quod si vero non habes sub prelo, quę in ordinem de Christi divinitate congessisti<note xml:id="fn3" type="footnote" n="3"><persName ref="person263">Zwick</persName> denkt möglicherweise konkret an eine Neuauflage von Bullingers "Assertio utriusque in Christo naturae" von 1534 (HBBibl I 62), wie die Formulierung vermuten läßt (vgl. HBBW IV <ref target="file10470">[Nr. 435]</ref>, S. 308, 62f).</note>, obtemperandum certe crederem Capitonis consilio, quemadmodum suas literas<note xml:id="fn4" type="footnote" n="4">Nicht erhalten.</note> ad te mitto, ut legas<note xml:id="fn5" type="footnote" n="5">Vielleicht gehört in diesen Zusammenhang auch jene undatierte Briefnachschrift mit Äußerungen <persName ref="person263">Zwicks</persName> zu Argumenten Capitos, die in unserer Ausgabe auf kurz nach Mitte August 1534 datiert wurde (s. HBBW IV, <ref target="file10460">Nr. 425</ref>). Die dort explizit angesprochene Auseinandersetzung mit Antitrinitariern war zwar 1534 besonders aktuell; der vorliegende Brief kann aber aus den oben erwähnten Gründen nicht in dieses Jahr datiert werden.</note>.</s>
-					<s n="6" xml:lang="la" type="auto">Fuit autem meum quoque consilium in prioribus literis<note xml:id="fn6" type="footnote" n="6">Nicht erhalten.</note>, ut hanc causam alieno vel<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> vel <hi>gestrichenes</hi> ti[?].</note> mutato titulo tractares, sicut Bucerus in epistolam ad <placeName ref="place906">Romanos</placeName><note xml:id="fn7" type="footnote" n="7">Gemeint ist wohl der Exkurs zur Frage der Inkarnation in Bucers "Metaphrasis et enarratio in epistolam ad Romanos" von 1536 (Bibliographia Bucerana 55), S. 57-61.</note>, sic tu in<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> in <hi>gestrichenes</hi> ad.</note> 2. ad Corinthios<note xml:id="fn8" type="footnote" n="8">Bullingers Kommentar zum zweiten Korintherbrief (HBBibl I 71) war im März 1535 erschienen; <persName ref="person263">Zwick</persName> bezieht sich auf die Auslegung von 2Kor 5, 16f (aaO, f. 46v.-50r.).</note>.<pb type="edition" next="29"/></s>
+					<s n="5" xml:lang="la" type="auto">Quod si vero non habes sub prelo, quę in ordinem de Christi divinitate congessisti<note xml:id="fn3" type="footnote" n="3"><persName>Zwick</persName> denkt möglicherweise konkret an eine Neuauflage von Bullingers "Assertio utriusque in Christo naturae" von 1534 (HBBibl I 62), wie die Formulierung vermuten läßt (vgl. HBBW IV <ref target="file10470">[Nr. 435]</ref>, S. 308, 62f).</note>, obtemperandum certe crederem Capitonis consilio, quemadmodum suas literas<note xml:id="fn4" type="footnote" n="4">Nicht erhalten.</note> ad te mitto, ut legas<note xml:id="fn5" type="footnote" n="5">Vielleicht gehört in diesen Zusammenhang auch jene undatierte Briefnachschrift mit Äußerungen <persName>Zwicks</persName> zu Argumenten Capitos, die in unserer Ausgabe auf kurz nach Mitte August 1534 datiert wurde (s. HBBW IV, <ref target="file10460">Nr. 425</ref>). Die dort explizit angesprochene Auseinandersetzung mit Antitrinitariern war zwar 1534 besonders aktuell; der vorliegende Brief kann aber aus den oben erwähnten Gründen nicht in dieses Jahr datiert werden.</note>.</s>
+					<s n="6" xml:lang="la" type="auto">Fuit autem meum quoque consilium in prioribus literis<note xml:id="fn6" type="footnote" n="6">Nicht erhalten.</note>, ut hanc causam alieno vel<note xml:id="fnc" type="footnote" n="c"><hi>vor</hi> vel <hi>gestrichenes</hi> ti[?].</note> mutato titulo tractares, sicut Bucerus in epistolam ad <placeName>Romanos</placeName><note xml:id="fn7" type="footnote" n="7">Gemeint ist wohl der Exkurs zur Frage der Inkarnation in Bucers "Metaphrasis et enarratio in epistolam ad Romanos" von 1536 (Bibliographia Bucerana 55), S. 57-61.</note>, sic tu in<note xml:id="fnd" type="footnote" n="d"><hi>vor</hi> in <hi>gestrichenes</hi> ad.</note> 2. ad Corinthios<note xml:id="fn8" type="footnote" n="8">Bullingers Kommentar zum zweiten Korintherbrief (HBBibl I 71) war im März 1535 erschienen; <persName>Zwick</persName> bezieht sich auf die Auslegung von 2Kor 5, 16f (aaO, f. 46v.-50r.).</note>.<pb type="edition" next="29"/></s>
 					<s n="7" xml:lang="la" type="auto">Tabellionem<note xml:id="fn9" type="footnote" n="9">Unbekannt.</note> hunc commendo tibi.</s>
 					<s n="8" xml:lang="la" type="auto">Est ei nonnihil negocii apud nescio quam matronam; ne graveris illi adesse, sicubi potes.</s>
 				</p>

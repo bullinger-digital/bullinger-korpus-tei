@@ -6,32 +6,31 @@
 				<title subtype="file">[Johannes Gast] / [Basel] AN Heinrich Bullinger / Zürich, [17. August 1549]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">1647</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,126</idno>
 					</msIdentifier>
 					<msContents>
@@ -44,14 +43,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 71,11</idno>
 					</msIdentifier>
 				</msDesc>
@@ -60,7 +59,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/636">
 				<correspAction type="sent">
-					<persName ref="person1278" cert="low">
+					<persName ref="p1278" cert="low">
 						<!--
 						<surname cert="low">Gast</surname>
 						<forename cert="low">Johannes</forename>
@@ -69,11 +68,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415086"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1549-08-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -83,7 +82,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file637"/>
@@ -111,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,8 +123,8 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. in domino.</s>
 					<s n="2" xml:lang="la" type="auto">Libros, quos petis, brevi accipies cum aliis novis nuper natis libellis excusisque.</s>
-					<s n="3" xml:lang="la" type="auto">Nova, quę apud nos sint, hęc paucis accipe: <zzl>zl19213-1A</zzl>Dominus de Heideck iis diebus navigio abiit occulto ad Magdeburgenses; vocatus enim ab illis est.</s>
-					<s n="4" xml:lang="la" type="auto"><zzl>zl19213-1E</zzl>Excitabit tragediam et aut bellum finiet aut magnum malum dabit maritimis civitatibus.</s>
+					<s n="3" xml:lang="la" type="auto">Nova, quę apud nos sint, hęc paucis accipe: <ptr target="zzlzl19213-1A" type="zzl"/>Dominus de Heideck iis diebus navigio abiit occulto ad Magdeburgenses; vocatus enim ab illis est.</s>
+					<s n="4" xml:lang="la" type="auto"><ptr target="zzlzl19213-1E" type="zzl"/>Excitabit tragediam et aut bellum finiet aut magnum malum dabit maritimis civitatibus.</s>
 					<s n="5" xml:lang="la" type="auto">Episcopus Magdeburgensis, qui est Brunsvicensis, negotium illis facessere conatur collecta militum manu.</s>
 					<s n="6" xml:lang="la" type="auto">Verum ea audiemus brevi; nam civitates maritimę<note xml:id="fn1" type="footnote" n="1">die Hansestädte ("Seestädte").</note> conventum habent de novo fędere instituendo contra episcopos quosdam et principes pseudoevangelicos.</s>
 					<s n="7" xml:lang="la" type="auto">Quid ad hęc dices?</s>
@@ -157,7 +156,7 @@
 				</p>
 				<p>
 					<s n="25" xml:lang="la" type="auto">T[uus] Gastius.</s>
-					<s n="26" xml:lang="la" type="auto"><zzl>zl19213-1A</zzl>D. Lęlius erit viva epistola de rebus nostris.<zzl>zl19213-1E</zzl></s>
+					<s n="26" xml:lang="la" type="auto"><ptr target="zzlzl19213-1A" type="zzl"/>D. Lęlius erit viva epistola de rebus nostris.<ptr target="zzlzl19213-1E" type="zzl"/></s>
 				</p>
 				<p>
 					<note type="address">[Adresse:]</note>

@@ -6,32 +6,31 @@
 				<title subtype="file">[Ambrosius Blarer] / [Biel] AN Heinrich Bullinger / Zürich, 11. Dezember 1554</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>(nicht publiziert)</publisher>
-				<pubPlace>(Zürich)</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
+				<publisher>Volk et al.</publisher>
+				<pubPlace>Zürich</pubPlace>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">Vorläufige Transkriptionen der HBBW-EditorInnen</title>
-				<biblScope unit="editor">(nicht ediert, Transkribierer unbekannt)</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">0</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">[1547-1575]</biblScope>
-				<biblScope unit="page">3767</biblScope>
-				<biblScope unit="pages">8412</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,423</idno>
 					</msIdentifier>
 					<msContents>
@@ -43,10 +42,10 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW III, S. 277f Exc.</title>
+								<title>Blarer BW III, S.277f Exc.</title>
 							</bibl>
 							<bibl type="Gedruckt">
-								<title>C.O. XV, S. 344f, Nr. 2060 Exc.</title>
+								<title>C.O. XV, S.344f, Nr. 2060 Exc.</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -54,14 +53,14 @@
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive96">
+						<repository ref="a96">
 							<name>Zürich ZB</name>
 							<ref target="https://www.zb.uzh.ch/de/"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Zentralbibliothek</institution>
 						-->
-						<repository ref="archive96"/>
+						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 83,98</idno>
 					</msIdentifier>
 				</msDesc>
@@ -70,7 +69,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2496">
 				<correspAction type="sent">
-					<persName ref="person392" cert="low">
+					<persName ref="p392" cert="low">
 						<!--
 						<surname cert="low">Blarer</surname>
 						<forename cert="low">Ambrosius</forename>
@@ -81,11 +80,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
 						-->
 					</persName>
-					<placeName source="place49" cert="low"><orig>Biel</orig></placeName>
+					<placeName source="l49" cert="low"><orig>Biel</orig></placeName>
 					<date when="1554-12-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -95,7 +94,7 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
 						-->
 					</persName>
-					<placeName source="place587" cert="high"><orig>Zürich</orig></placeName>
+					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file2497"/>
@@ -122,7 +121,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -134,11 +133,11 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Tuas mihi consul Fuchsius<note xml:id="fn1" type="footnote" n="1">Peter Fuchs.</note> reddidit, qui nunc abest, quod rusticorum insolens pervicacia nondum prorsus sit expugnata, qui egerrime eum, qui noster est, suum etiam magistratum agnoscunt, cum tamen in libertatem ipsi sese asserere nullo iure aut facto etiam queant.</s>
+					<s n="2" xml:lang="la" type="auto">Tuas mihi consul Fuchsius<note xml:id="fn1" type="footnote" n="1"><persName>Peter Fuchs</persName>.</note> reddidit, qui nunc abest, quod rusticorum insolens pervicacia nondum prorsus sit expugnata, qui egerrime eum, qui noster est, suum etiam magistratum agnoscunt, cum tamen in libertatem ipsi sese asserere nullo iure aut facto etiam queant.</s>
 					<s n="3" xml:lang="la" type="auto">Evangelium nunquam habuerunt in precio, cuius etiamnum doctrinam contenptim valde recipiunt, et nunc tamen vix adducuntur, ut illi se subdant, qui olim fuit pontificius sacrificulus.</s>
 					<s n="4" xml:lang="de" type="auto">Sagend, ob sy muͤssind eim pfaffen schweren, sind gantz ruch und ungschlacht <foreign xml:lang="la">ac nihil non tentarunt, ne isiti iugo duricervicum collum subdere cogerentur.</foreign></s>
 					<s n="5" xml:lang="de" type="auto">Aber es muͦß sin.</s>
-					<s n="6" xml:lang="la" type="auto">S[amuel] Witenbachus<note xml:id="fn2" type="footnote" n="2">Samuel Wyttenbach.</note>, vicinus et compater meus, insalutato ac prorsus inscio me nuper istuc abiit; rediens nunquam me convenit, ut putem iratum mihi ob nescio quam causam maleferiatum virum, qui ex militia rediens multo quam antea superciliosior ac ferocior factus apparet.</s>
+					<s n="6" xml:lang="la" type="auto">S[amuel] Witenbachus<note xml:id="fn2" type="footnote" n="2"><persName>Samuel Wyttenbach</persName>.</note>, vicinus et compater meus, insalutato ac prorsus inscio me nuper istuc abiit; rediens nunquam me convenit, ut putem iratum mihi ob nescio quam causam maleferiatum virum, qui ex militia rediens multo quam antea superciliosior ac ferocior factus apparet.</s>
 					<s n="7" xml:lang="la" type="auto">Dominus det illi meliorem mentem, quę corporis elegantię pulchre respondeat.</s>
 					<s n="8" xml:lang="la" type="auto">Uxoris<note xml:id="fn3" type="footnote" n="3">Küngold, geb. von Schönau?</note> honestissimae vicem, quam adeo floccifaciat, multum dolemus.</s>
 				</p>
@@ -146,7 +145,7 @@
 					<s n="9" xml:lang="la" type="auto">Fac, sciam, num te convenerit et quibus de rebus secum contuleris, quorum admonueris et ad quę fueris adhortatus.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Inique fert F[uchsii]<note xml:id="fn4" type="footnote" n="4">Peter Fuchs.</note> consulatum nec raro vanus deprehenditur; sed plus satis de iis per literas.</s>
+					<s n="10" xml:lang="la" type="auto">Inique fert F[uchsii]<note xml:id="fn4" type="footnote" n="4"><persName>Peter Fuchs</persName>.</note> consulatum nec raro vanus deprehenditur; sed plus satis de iis per literas.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="de" type="auto">Yetz ist uns anzögt, das die frommen Lucarner angnomen habind die in bewysnen grossen gnad, scilicet, und das land rumen wellind, damitt nitt krieg oder einche unruͦ von iren wegen entstande.</s>

@@ -6,52 +6,43 @@
 				<title subtype="file">Simon Grynäus / [Basel] AN Heinrich Bullinger, 22. August 1536</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1995</date>
-				<idno subtype="ISBN">ISBN 3-290-10980-1</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=882</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VI</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">6</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1536</biblScope>
-				<biblScope unit="page">402</biblScope>
-				<biblScope unit="pages">518</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,190</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Verweist auf ein Schreiben der <placeName ref="place121">Berner</placeName> [zur
-								<placeName ref="place1205">Wittenberger</placeName> Konkordie]. Freut sich über die Freundschaft mit
+								Verweist auf ein Schreiben der <placeName>Berner</placeName> [zur
+								<placeName>Wittenberger</placeName> Konkordie]. Freut sich über die Freundschaft mit
 								Bullinger. Bittet ihn, die Frage der Inkarnation [Christi] weiter zu bedenken.
-								<persName ref="person247">Melchior [Wirz]</persName> plant zusammen
-								mit Nikolaus [<persName ref="person522">Bromm</persName>] einen Studienaufenthalt in
-								<placeName ref="place1205">Wittenberg</placeName>; <persName ref="person81">Grynäus</persName> bittet
-								um Fürsprache bei der Familie von [<persName ref="person247">Wirz</persName>]. Grüße. Wartet auf eine
+								<persName ref="p8465">Melchior [Wirz]</persName> plant zusammen
+								mit <persName ref="p18263">Nikolaus [Bromm]</persName> einen Studienaufenthalt in
+								<placeName>Wittenberg</placeName>; <persName ref="p1365">Grynäus</persName> bittet
+								um Fürsprache bei der Familie von [<persName ref="p8465">Wirz</persName>]. Grüße. Wartet auf eine
 								gemeinsame Stellungnahme der Zürcher zur Frage der Inkarnation.
 							</p>
 						</summary>
@@ -59,13 +50,20 @@
 							<textLang>el</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 6, Nr. 882, S.402</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10923">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -75,11 +73,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1536-08-22" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +112,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,33 +124,33 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="la" type="auto">Quid sit responsum <placeName ref="place121">Bernae</placeName>, credo te intelligere ex istorum epistola per tabellionem publicum scripta<note xml:id="fn2" type="footnote" n="2">Der <placeName ref="place121">Berner</placeName> Rat unterrichtete Zürich erst am 23. August; s. oben <ref target="file10919">Nr. 878</ref>, Anm. 2.</note>.</s>
+					<s n="2" xml:lang="la" type="auto">Quid sit responsum <placeName>Bernae</placeName>, credo te intelligere ex istorum epistola per tabellionem publicum scripta<note xml:id="fn2" type="footnote" n="2">Der <placeName>Berner</placeName> Rat unterrichtete Zürich erst am 23. August; s. oben <ref target="file10919">Nr. 878</ref>, Anm. 2.</note>.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Magis mihi magisque quottidie instituta tecum amicitia in domino placet.</s>
 					<s n="4" xml:lang="la" type="auto">Scio, non deseret nos Christus<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> <foreign xml:lang="el">ΧΡΣ</foreign>.</note> dominus, nec veritate excidemus.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Quae de incarnatione paucula disceptavimus<note xml:id="fn3" type="footnote" n="3">Am 16. August, also unmittelbar nach seiner Zusammenkunft mit <persName ref="person81">Grynäus</persName>, legte Bullinger <persName ref="person226">Vadian</persName> die Frage vor, "an corpus Christi propter coniunctionem cum verbo inseparabilem sumat sibi alienas a corpore conditiones"; s. oben <ref target="file10918">Nr. 877</ref>, 36-39.</note>, quaeso, ut expendere diligentius velis.</s>
+					<s n="5" xml:lang="la" type="auto">Quae de incarnatione paucula disceptavimus<note xml:id="fn3" type="footnote" n="3">Am 16. August, also unmittelbar nach seiner Zusammenkunft mit <persName>Grynäus</persName>, legte Bullinger <persName>Vadian</persName> die Frage vor, "an corpus Christi propter coniunctionem cum verbo inseparabilem sumat sibi alienas a corpore conditiones"; s. oben <ref target="file10918">Nr. 877</ref>, 36-39.</note>, quaeso, ut expendere diligentius velis.</s>
 					<s n="6" xml:lang="la" type="auto">Magna ac sublimis est, <foreign xml:lang="el">καὶ παράδοξον τὸ ὅλον περὶ τοῦ μεσίτου πρᾶγμα</foreign> mirusque totus ac mirandus, qui se medium inter deum ac hominem infert.</s>
 					<s n="7" xml:lang="la" type="auto">Itaque erunt hic multa, quae non statim nobis occurrunt.</s>
 					<s n="8" xml:lang="la" type="auto">Quaeso, ut incumbas diligenter.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Coepit <persName ref="person247">Melchior</persName><note xml:id="fn4" type="footnote" n="4">Gemeint ist wohl der 1533/34 in <placeName ref="place97">Basel</placeName> immatrikulierte <persName ref="person247">Melchior Wirz</persName> (1519-1558) aus Zürich. Offenbar ist er identisch mit jenem Melchior Virbius ("Wirben"; s. HBBW III <ref target="file10198">[Nr. 167]</ref>, S. 25), der Bullinger 1533 für eine Empfehlung (an <persName ref="person81">Grynäus</persName>?) dankte, 1537 in <placeName ref="place97">Basel</placeName> Schriften <persName ref="person798">Euklids</persName> auslegte und 1539 in <placeName ref="place836">Paris</placeName> studierte. 1541 begann er in Zürich Mathematik zu lehren, doch gab er schon im folgenden Jahr seine Lehrtätigkeit auf (s. Zürich StA, G II 39. 1, 1541 und 1542), heiratete und begann eine Ämterlaufbahn. 1543 wurde er Großrat, 1550 und 1552 Richter (s. Zürich StA, B VI 257, 206v. 326v.), 1553 Rechenherr und Eherichter (s. ebd., B VI 258, 1v. 2r.). Von 1554 bis 1557 gehorte er als Constaffelherr dem Kleinen Rat an. 1554 und 1556 war er Vogt von <placeName ref="place1209">Wollishofen</placeName> (s. ebd., B VI 258, Mr. 130v.), und 1558 wurde er zum Amtmann von <placeName ref="place1032">Stein am Rhein</placeName> gewählt. - Lit.: <placeName ref="place97">Basel</placeName>, Matrikel II 4, Nr. 9; Carl <hi>Keller-Escher,</hi> Promptuarium genealogicum, Bd. VII, S. 271 (Zürich ZB, Ms Z II 6a); Bernhard <hi>Milt,</hi> Zürichs Vergangenheit in Naturwissenschaft und Medizin (Mittelalter und 16. Jahrhundert), in: Gesnerus 4, 1947, S. 35; Alfredo <hi>Serrai,</hi> Conrad Gesner. A cura di Maria Cochetti, Rom 1990, S. 23, Anm. 22; Schnyder, Ratslisten 616; Fabian, Geheime Räte 535; HBLS VII 570.</note> consilium adeundi <placeName ref="place1205">Wittenbergam</placeName><note xml:id="fn5" type="footnote" n="5">In der <placeName ref="place1205">Wittenberger</placeName> Matrikel läßt sich <persName ref="person247">Melchior Wirz</persName> nicht nachweisen.</note>.</s>
-					<s n="10" xml:lang="la" type="auto">Socium habet ex sententia <persName ref="person522">Nicolaum</persName><note xml:id="fn6" type="footnote" n="6">Zweifellos der 1532/33 in <placeName ref="place97">Basel</placeName> und 1536/37 in <placeName ref="place1205">Wittenberg</placeName> immatrikulierte <persName ref="person522">Claus Bromm</persName> (Nicolaus Bromius), 1517-1587, von Frankfurt. Ein Brief Johannes Hallers (Zürich StA, E II 370, 224) bestätigt Bromms enge Beziehung zu <persName ref="person81">Grynäus</persName> während seines Aufenthalts in <placeName ref="place97">Basel</placeName>. 1535 folgte er seinem Lehrer für einige Monate nach Tübingen. In <placeName ref="place1205">Wittenberg</placeName> kam er mit Melanchthon in nähere Berührung, bevor er sein Studium 1539 in Padua fortsetzte. Nach seiner Rückkehr und Heirat (1540) wurde er 1546 Mitglied des Frankfurter Rats, und 1554 versah er das Amt des jüngeren Bürgermeisters. Durch unglückliche Spekulation im Kupferhandel verlor der einst reichste Mann der Stadt sein Vermögen und brachte Frankfurt in wirtschaftliche Schwierigkeiten. 1566 wurde er deshalb aus dem Rat verstoßen. Bullinger und Bromm haben einander verschiedentlich durch Dritte grüßen lassen (s. Zürich StA, C II 1, <ref target="file11005">Nr. 963</ref>; E II 347, 717; 356, 150. 953); über ihre Bekanntschaft ließ sich aber bisher nichts Näheres feststellen. - Lit.: <placeName ref="place97">Basel</placeName>, Matrikel II 1, Nr. 3; Tübingen, Matrikel I 277, Nr. 22; <placeName ref="place1205">Wittenberg</placeName>, Matrikel I 164; Blarer BW I 652. 661. 756; Capito, Con. 186, <ref target="file10585">Nr. 549</ref>; Melanchthon BW, Regesten, besonders II 427, <ref target="file12226">Nr. 2179</ref>; III 45-47, <ref target="file12453">Nr. 2406</ref>-2408; 109, <ref target="file12600">Nr. 2553</ref>; Friedrich <hi>Bothe,</hi> Frankfurter Patriziervermögen im 16. Jahrhundert, Berlin 1908. - Archiv für Kulturgeschichte, II. Ergänzungsheft, S. 56-63 und passim; Alexander <hi>Dietz,</hi> Frankfurter Handelsgeschichte, Erster Bd., Frankfurt a. M. 1910, S. 296-305 und Reg.; Karl <hi>Bauer,</hi> Die Beziehungen Calvins zu Frankfurt a. M., Leipzig 1920. - SVRG 133, S. 6; <hi>ders.,</hi> Valérand Poullain. Ein kirchengeschichtliches Zeitbild aus der Mitte des sechzehnten Jahrhunderts, Elberfeld 1927, Reg.</note> meum.</s>
+					<s n="9" xml:lang="la" type="auto">Coepit <persName ref="p8465">Melchior</persName><note xml:id="fn4" type="footnote" n="4">Gemeint ist wohl der 1533/34 in <placeName>Basel</placeName> immatrikulierte <persName>Melchior Wirz</persName> (1519-1558) aus Zürich. Offenbar ist er identisch mit jenem Melchior Virbius ("Wirben"; s. <bibl>HBBW</bibl> III <ref target="file10198">[Nr. 167]</ref>, S. 25), der Bullinger 1533 für eine Empfehlung (an <persName>Grynäus</persName>?) dankte, 1537 in <placeName>Basel</placeName> Schriften <persName>Euklids</persName> auslegte und 1539 in <placeName>Paris</placeName> studierte. 1541 begann er in Zürich Mathematik zu lehren, doch gab er schon im folgenden Jahr seine Lehrtätigkeit auf (s. Zürich StA, G II 39. 1, 1541 und 1542), heiratete und begann eine Ämterlaufbahn. 1543 wurde er Großrat, 1550 und 1552 Richter (s. Zürich StA, B VI 257, 206v. 326v.), 1553 Rechenherr und Eherichter (s. ebd., B VI 258, 1v. 2r.). Von 1554 bis 1557 gehorte er als Constaffelherr dem Kleinen Rat an. 1554 und 1556 war er Vogt von <placeName>Wollishofen</placeName> (s. ebd., B VI 258, Mr. 130v.), und 1558 wurde er zum Amtmann von <placeName>Stein am Rhein</placeName> gewählt. - Lit.: <placeName>Basel</placeName>, Matrikel II 4, Nr. 9; Carl <hi>Keller-Escher,</hi> Promptuarium genealogicum, Bd. VII, S. 271 (Zürich ZB, Ms <bibl>Z</bibl> II 6a); Bernhard <hi>Milt,</hi> Zürichs Vergangenheit in Naturwissenschaft und Medizin (Mittelalter und 16. Jahrhundert), in: Gesnerus 4, 1947, S. 35; Alfredo <hi>Serrai,</hi> Conrad Gesner. A cura di Maria Cochetti, Rom 1990, S. 23, Anm. 22; <bibl>Schnyder, Ratslisten</bibl> 616; Fabian, Geheime Räte 535; <bibl>HBLS</bibl> VII 570.</note> consilium adeundi <placeName>Wittenbergam</placeName><note xml:id="fn5" type="footnote" n="5">In der <placeName>Wittenberger</placeName> Matrikel läßt sich <persName>Melchior Wirz</persName> nicht nachweisen.</note>.</s>
+					<s n="10" xml:lang="la" type="auto">Socium habet ex sententia <persName ref="p18263">Nicolaum</persName><note xml:id="fn6" type="footnote" n="6">Zweifellos der 1532/33 in <placeName>Basel</placeName> und 1536/37 in <placeName>Wittenberg</placeName> immatrikulierte <persName>Claus Bromm (Nicolaus Bromius)</persName>, 1517-1587, von Frankfurt. Ein Brief Johannes Hallers (Zürich StA, E II 370, 224) bestätigt Bromms enge Beziehung zu <persName>Grynäus</persName> während seines Aufenthalts in <placeName>Basel</placeName>. 1535 folgte er seinem Lehrer für einige Monate nach Tübingen. In <placeName>Wittenberg</placeName> kam er mit Melanchthon in nähere Berührung, bevor er sein Studium 1539 in Padua fortsetzte. Nach seiner Rückkehr und Heirat (1540) wurde er 1546 Mitglied des Frankfurter Rats, und 1554 versah er das Amt des jüngeren Bürgermeisters. Durch unglückliche Spekulation im Kupferhandel verlor der einst reichste Mann der Stadt sein Vermögen und brachte Frankfurt in wirtschaftliche Schwierigkeiten. 1566 wurde er deshalb aus dem Rat verstoßen. Bullinger und Bromm haben einander verschiedentlich durch Dritte grüßen lassen (s. Zürich StA, C II 1, <ref target="file11005">Nr. 963</ref>; E II 347, 717; 356, 150. 953); über ihre Bekanntschaft ließ sich aber bisher nichts Näheres feststellen. - Lit.: <placeName>Basel</placeName>, Matrikel II 1, Nr. 3; Tübingen, Matrikel I 277, Nr. 22; <placeName>Wittenberg</placeName>, Matrikel I 164; <bibl>Blarer BW</bibl> I 652. 661. 756; Capito, Con. 186, <ref target="file10585">Nr. 549</ref>; Melanchthon BW, Regesten, besonders II 427, <ref target="file12226">Nr. 2179</ref>; III 45-47, <ref target="file12453">Nr. 2406</ref>-2408; 109, <ref target="file12600">Nr. 2553</ref>; Friedrich <hi>Bothe,</hi> Frankfurter Patriziervermögen im 16. Jahrhundert, Berlin 1908. - Archiv für Kulturgeschichte, II. Ergänzungsheft, S. 56-63 und passim; Alexander <hi>Dietz,</hi> Frankfurter Handelsgeschichte, Erster Bd., Frankfurt a. M. 1910, S. 296-305 und Reg.; Karl <hi>Bauer,</hi> Die Beziehungen Calvins zu Frankfurt a. M., Leipzig 1920. - <bibl>SVRG</bibl> 133, S. 6; <hi>ders.,</hi> Valérand Poullain. Ein kirchengeschichtliches Zeitbild aus der Mitte des sechzehnten Jahrhunderts, Elberfeld 1927, Reg.</note> meum.</s>
 					<s n="11" xml:lang="la" type="auto">Orat, ut te de ea re perconter.</s>
 					<s n="12" xml:lang="la" type="auto">Credo prorsus ex re<pb type="edition" next="403"/> ipsius futurum.</s>
-					<s n="13" xml:lang="la" type="auto">Instructa iam nova principis liberalitate professoribus omnigenis scola est<note xml:id="fn7" type="footnote" n="7">Mit der Fundationsurkunde vom 5. Mai 1536 hatte Kurfürst Johann Friedrich von Sachsen die Universität <placeName ref="place1205">Wittenberg</placeName> einheitlich organisiert und die Professuren und Besoldungen neu festgelegt; vgl. Walter <hi>Friedensburg,</hi> Geschichte der Universität <placeName ref="place1205">Wittenberg</placeName>, Halle a. S. 1917, S. 178-184.</note>, et audire <persName ref="person146">Philippum</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="person146">Philipp Melanchthon</persName>.</note> vel unum, vides, quantum opere precium sit.</s>
-					<s n="14" xml:lang="la" type="auto">Cuperent ire juvenes ad nundinas<note xml:id="fn9" type="footnote" n="9">Zum Termin der <placeName ref="place361">Frankfurter</placeName> Herbstmesse s. unten <ref target="file10925">Nr. 884</ref>, Anm. 5.</note> iam.</s>
+					<s n="13" xml:lang="la" type="auto">Instructa iam nova principis liberalitate professoribus omnigenis scola est<note xml:id="fn7" type="footnote" n="7">Mit der Fundationsurkunde vom 5. Mai 1536 hatte Kurfürst Johann Friedrich von Sachsen die Universität <placeName>Wittenberg</placeName> einheitlich organisiert und die Professuren und Besoldungen neu festgelegt; vgl. Walter <hi>Friedensburg,</hi> Geschichte der Universität <placeName>Wittenberg</placeName>, Halle a. S. 1917, S. 178-184.</note>, et audire <persName ref="p2095">Philippum</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="p6490">Philipp Melanchthon</persName>.</note> vel unum, vides, quantum opere precium sit.</s>
+					<s n="14" xml:lang="la" type="auto">Cuperent ire juvenes ad nundinas<note xml:id="fn9" type="footnote" n="9">Zum Termin der <placeName>Frankfurter</placeName> Herbstmesse s. unten <ref target="file10925">Nr. 884</ref>, Anm. 5.</note> iam.</s>
 					<s n="15" xml:lang="la" type="auto">Ita facile descenditur et sumptibus minoribus.</s>
 					<s n="16" xml:lang="la" type="auto">Expedies iuveni optimo negotium istic apud suos.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Fratres omnes volo ut diligenter unumquemque nominatim mihi salutes.</s>
 					<s n="18" xml:lang="la" type="auto">Aino omnes mirabiliter.</s>
-					<s n="19" xml:lang="la" type="auto"><persName ref="person14">Theodorum</persName><note xml:id="fn10" type="footnote" n="10"><persName ref="person14">Theodor Bibliander</persName>.</note> salutabis plusquam diligenter, plusquam semel, doctorem Engelhardum item etc.[?]; Leunculum<note xml:id="fn11" type="footnote" n="11"><persName ref="person114">Leo Jud</persName>.</note> nostrum extra ordinem.</s>
-					<s n="20" xml:lang="la" type="auto">Expecto, dum mihi de hac quaestione incarnationis communi epistola respondeatis<note xml:id="fn12" type="footnote" n="12">Die Antwort der Zürcher ist nicht erhalten, wohl aber das Schreiben, mit dem <persName ref="person81">Grynäus</persName> darauf reagierte (unten <ref target="file10955">Nr. 913</ref>).</note></s>
+					<s n="19" xml:lang="la" type="auto"><persName ref="p8171">Theodorum</persName><note xml:id="fn10" type="footnote" n="10"><persName>Theodor Bibliander</persName>.</note> salutabis plusquam diligenter, plusquam semel, doctorem Engelhardum item etc.[?]; Leunculum<note xml:id="fn11" type="footnote" n="11"><persName ref="p2305">Leo Jud</persName>.</note> nostrum extra ordinem.</s>
+					<s n="20" xml:lang="la" type="auto">Expecto, dum mihi de hac quaestione incarnationis communi epistola respondeatis<note xml:id="fn12" type="footnote" n="12">Die Antwort der Zürcher ist nicht erhalten, wohl aber das Schreiben, mit dem <persName>Grynäus</persName> darauf reagierte (unten <ref target="file10955">Nr. 913</ref>).</note></s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Vale in domino.</s>
@@ -161,7 +159,7 @@
 					<s n="22" xml:lang="la" type="auto">22. augusti.</s>
 				</p>
 				<p>
-					<s n="23" xml:lang="la" type="auto"><persName ref="person81">Gryneus</persName> tuus.</s>
+					<s n="23" xml:lang="la" type="auto"><persName ref="p1365">Gryneus</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

@@ -6,49 +6,40 @@
 				<title subtype="file">Hans Vogler / St. Gallen AN Heinrich Bullinger, 1. Juni 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=586</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">223</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 351,168</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Auf Bullingers Frage nach Neuigkeiten können er und <persName ref="person226">Vadian</persName> nur das
+								Auf Bullingers Frage nach Neuigkeiten können er und <persName ref="p8049">Vadian</persName> nur das
 								bestätigen, was sie bisher über den Truppenzusammenzug [im
-								<placeName ref="place338">Etschtal</placeName>] berichtet haben; bittet, mit
-								<persName ref="person87">[Johannes] Haab</persName> darüber zu
+								<placeName>Etschtal</placeName>] berichtet haben; bittet, mit
+								<persName ref="p1419">[Johannes] Haab</persName> darüber zu
 								reden. Grüße.
 							</p>
 						</summary>
@@ -56,13 +47,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 586, S.223</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10624">
 				<correspAction type="sent">
-					<persName ref="person3446" cert="high">
+					<persName ref="p3446" cert="high">
 						<!--
 						<surname cert="high">Vogler</surname>
 						<forename cert="high">Hans</forename>
@@ -71,11 +69,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11094904"/>
 						-->
 					</persName>
-					<placeName source="place474" cert="high"><orig>St. Gallen</orig></placeName>
+					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 					<date when="1535-06-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -109,7 +107,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -124,20 +122,20 @@
 					<s n="2" xml:lang="de" type="auto">Amen.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Min herr, üwer empiettenn<note xml:id="fn1" type="footnote" n="1">Anfrage durch den Boten (SI IV 1869).</note> an min lieben hernn burgermaister von Wadten<note xml:id="fn2" type="footnote" n="2"><persName ref="person226">Joachim Vadian</persName>.</note>, demnach an mich, ob wir ettwas nüws habend, üch by zöger<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> zu schicken, bin ich selpst by minem hernn gsin, in gfragt.</s>
+					<s n="3" xml:lang="de" type="auto">Min herr, üwer empiettenn<note xml:id="fn1" type="footnote" n="1">Anfrage durch den Boten (<bibl>SI</bibl> IV 1869).</note> an min lieben hernn burgermaister von Wadten<note xml:id="fn2" type="footnote" n="2"><persName>Joachim Vadian</persName>.</note>, demnach an mich, ob wir ettwas nüws habend, üch by zöger<note xml:id="fn3" type="footnote" n="3">Unbekannt.</note> zu schicken, bin ich selpst by minem hernn gsin, in gfragt.</s>
 					<s n="4" xml:lang="de" type="auto">Hat er, och ich, nicht sonders.</s>
-					<s n="5" xml:lang="de" type="auto">Wie wol im der pfarrer disser stund, alls ich by im gesin, zuͦ gschriben<pb type="edition" next="224"/> die sag dess zugs halb<note xml:id="fn4" type="footnote" n="4">Briefliche Nachrichten eines Pfarrers an <persName ref="person226">Vadian</persName>, die Musterungen im <placeName ref="place338">Etschtal</placeName> (vgl. Anm. 7) belangend, sind aus dieser Zeit nicht erhalten.</note>, welches sich alles lendett<note xml:id="fn5" type="footnote" n="5">sich alles stützt auf (SI III 1 308f).</note> und fast<note xml:id="fn6" type="footnote" n="6">völlig.</note> concordiert mitt der zittung, üch zuͦ geschriben der tagen von ime och mir<note xml:id="fn7" type="footnote" n="7">Der Brief vom 30. März enthält die letzte uns bekannte Nachricht <persName ref="person228">Voglers</persName> darüber (vgl. oben <ref target="file10603">Nr. 567</ref>, 64f). <persName ref="person226">Vadians</persName> Bericht ist verloren.</note>, by aim burger<note xml:id="fn8" type="footnote" n="8">Der oben <ref target="file10603">Nr. 567</ref>, 65 erwähnte St. Galler.</note> von Santt <placeName ref="place1011">Gallen</placeName>, welcher dem potten uff dem weg bekomen etc., allerlay so üch dar inn zuͦgeschriben ist.</s>
-					<s n="6" xml:lang="de" type="auto">Wellend ir (alls wir wissend) ernstlich handlen mitt maister <persName ref="person87">Haben</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="person87">Johannes Haab</persName>.</note>.</s>
+					<s n="5" xml:lang="de" type="auto">Wie wol im der pfarrer disser stund, alls ich by im gesin, zuͦ gschriben<pb type="edition" next="224"/> die sag dess zugs halb<note xml:id="fn4" type="footnote" n="4">Briefliche Nachrichten eines Pfarrers an <persName>Vadian</persName>, die Musterungen im <placeName>Etschtal</placeName> (vgl. Anm. 7) belangend, sind aus dieser Zeit nicht erhalten.</note>, welches sich alles lendett<note xml:id="fn5" type="footnote" n="5">sich alles stützt auf (<bibl>SI</bibl> III 1 308f).</note> und fast<note xml:id="fn6" type="footnote" n="6">völlig.</note> concordiert mitt der zittung, üch zuͦ geschriben der tagen von ime och mir<note xml:id="fn7" type="footnote" n="7">Der Brief vom 30. März enthält die letzte uns bekannte Nachricht <persName>Voglers</persName> darüber (vgl. oben <ref target="file10603">Nr. 567</ref>, 64f). <persName>Vadians</persName> Bericht ist verloren.</note>, by aim burger<note xml:id="fn8" type="footnote" n="8">Der oben <ref target="file10603">Nr. 567</ref>, 65 erwähnte St. Galler.</note> von Santt <placeName>Gallen</placeName>, welcher dem potten uff dem weg bekomen etc., allerlay so üch dar inn zuͦgeschriben ist.</s>
+					<s n="6" xml:lang="de" type="auto">Wellend ir (alls wir wissend) ernstlich handlen mitt maister <persName ref="p1419">Haben</persName><note xml:id="fn9" type="footnote" n="9"><persName ref="p5543">Johannes Haab</persName>.</note>.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Yl.</s>
-					<s n="8" xml:lang="de" type="auto">Gruͤssend miner husfrowen<note xml:id="fn10" type="footnote" n="10"><persName ref="person228">Voglers</persName> Ehefrau Appolonia, geb. Baumgartner.</note> und mir üwer hus alles.</s>
+					<s n="8" xml:lang="de" type="auto">Gruͤssend miner husfrowen<note xml:id="fn10" type="footnote" n="10"><persName>Voglers</persName> Ehefrau Appolonia, geb. Baumgartner.</note> und mir üwer hus alles.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="de" type="auto">Actum <placeName ref="place1011">S. Gallen</placeName>, uff zinstag, den ersten tag dess monatz juny anno 35. jar.</s>
+					<s n="9" xml:lang="de" type="auto">Actum <placeName>S. Gallen</placeName>, uff zinstag, den ersten tag dess monatz juny anno 35. jar.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">U[wer schuldiger, wlilliger] <persName ref="person228">Hans Vogler</persName> etc.</s>
+					<s n="10" xml:lang="de" type="auto">U[wer schuldiger, wlilliger] <persName ref="p8071">Hans Vogler</persName> etc.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf der Rückseite:]</note>

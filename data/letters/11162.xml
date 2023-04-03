@@ -6,46 +6,37 @@
 				<title subtype="file">Simon Grynäus / [Basel] AN Heinrich Bullinger, 31. März [1538]</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2000</date>
-				<idno subtype="ISBN">ISBN 3-290-17211-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1119</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW VIII</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">8</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1538</biblScope>
-				<biblScope unit="page">118</biblScope>
-				<biblScope unit="pages">311</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 8 (Briefe des Jahres 1538), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2000, 311 S., ISBN 3-290-17211-2.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,205</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Kann die Aufnahme von [<persName ref="person84">Rudolf Gwalther</persName>?] in sein Haus noch nicht
+								Kann die Aufnahme von [<persName ref="p8011">Rudolf Gwalther</persName>?] in sein Haus noch nicht
 								zusichern, möchte aber Bullinger gerne den Gefallen tun und wird bald Bescheid geben.
 							</p>
 						</summary>
@@ -53,13 +44,20 @@
 							<textLang>la</textLang>
 						</msItem>
 					</msContents>
+					<additional>
+						<listBibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 8, Nr. 1119, S.118</title>
+							</bibl>
+						</listBibl>
+					</additional>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11162">
 				<correspAction type="sent">
-					<persName ref="person1365" cert="high">
+					<persName ref="p1365" cert="high">
 						<!--
 						<surname cert="high">Grynäus</surname>
 						<forename cert="high">Simon</forename>
@@ -69,11 +67,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
 						-->
 					</persName>
-					<placeName source="place28" cert="low"><orig>Basel</orig></placeName>
+					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1538-03-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -108,7 +106,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -121,7 +119,7 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Sic habent res, ut nec negare nec annuere nunc quidem possim.</s>
-					<s n="3" xml:lang="la" type="auto">Egere mecum de eadem re quidam, quorum liberi si quidem aderunt, sic ut expecto brevi, locus erit et huic tuo<note xml:id="fn2" type="footnote" n="2">Gemeint ist vermutlich <persName ref="person84">Rudolf Gwalther</persName>; um Mitte Juli entschuldigt sich <persName ref="person81">Grynäus</persName>, daß er die Bitte um dessen Aufnahme in sein Haus noch nicht beantwortet habe (s. unten <ref target="file11189">Nr. 1146</ref>, 1-10).</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Egere mecum de eadem re quidam, quorum liberi si quidem aderunt, sic ut expecto brevi, locus erit et huic tuo<note xml:id="fn2" type="footnote" n="2">Gemeint ist vermutlich <persName>Rudolf Gwalther</persName>; um Mitte Juli entschuldigt sich <persName>Grynäus</persName>, daß er die Bitte um dessen Aufnahme in sein Haus noch nicht beantwortet habe (s. unten <ref target="file11189">Nr. 1146</ref>, 1-10).</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Sin minus, vides, quam non sit aequum operam uni locare.</s>
 					<s n="5" xml:lang="la" type="auto">Sane dudum istam a me provinciam reieci, verum vincit improbitas hominum dicam an authoritas, ut tenere meum in studiis propositum non possim.</s>
 					<s n="6" xml:lang="la" type="auto">Tibi vero, mi Bulingere, quam aequum est gratificari bonos omnes et quam<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> quam <hi>gestrichenes</hi> quam.</note> ipse inter bonos censeri cupio, tam studebo diligenter obsequi et, quantum id fieri potest, amorem tuum demereri.</s>
@@ -133,7 +131,7 @@
 					<s n="8" xml:lang="la" type="auto">Pridie calendas aprilis.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName ref="person81">Simon Grynaeus</persName> tuus.</s>
+					<s n="9" xml:lang="la" type="auto"><persName ref="p1365">Simon Grynaeus</persName> tuus.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Respondebitur tibi brevi.</s>

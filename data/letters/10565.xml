@@ -6,29 +6,20 @@
 				<title subtype="file">Ludwig Lopadius / [Konstanz] AN Heinrich Bullinger, 13. Februar 1535</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1992</date>
-				<idno subtype="ISBN">ISBN 3-290-10856-2</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=529</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW V</title>
-				<biblScope unit="editor">Bächtold, Hans Ulrich; Henrich, Rainer; Rüetschi, Kurt Jakob</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">5</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1535</biblScope>
-				<biblScope unit="page">103</biblScope>
-				<biblScope unit="pages">507</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 5 (Briefe des Jahres 1535), bearb. von Hans Ulrich Bächtold, Rainer Henrich und Kurt Jakob Rüetschi, Zürich 1992, 507 S., ISBN 3-290-10856-2.</bibl>
 				<msDesc type="Brief">
 					<msIdentifier/>
 					<msContents>
@@ -50,6 +41,9 @@
 							<bibl type="Gedruckt" subtype="Gedruckt">
 								<title>Graecae linguae rudimenta, praeter hactenus aedita singulari et diligentia et brevitate in puerorum usum conscripta, Ludovico Lopadio autore, Basel 1536, f. 2r-3v (Widmungsvorrede)</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 5, Nr. 529, S.103</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -58,18 +52,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10565">
 				<correspAction type="sent">
-					<persName ref="person1997" cert="high">
+					<persName ref="p1997" cert="high">
 						<!--
 						<surname cert="high">Lopadius</surname>
 						<forename cert="high">Ludwig</forename>
 						<persName type="main" ref="person8405>Lopadius, Ludwig</persName>
 						-->
 					</persName>
-					<placeName source="place257" cert="low"><orig>Konstanz</orig></placeName>
+					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1535-02-13" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -102,14 +96,14 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName ref="person137">Ludovicus Lopadius</persName> Henrico Bullingero s[alutem].</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p8405">Ludovicus Lopadius</persName> Henrico Bullingero s[alutem].</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Quum literae magno doctissimorum hominum consensu atque calculo primas partes mereantur easque cunctis rerum possessionibus praestare constet, nec iniuria a nobis quoque in precio habeantur.</s>

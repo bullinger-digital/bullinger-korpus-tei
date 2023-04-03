@@ -6,46 +6,42 @@
 				<title subtype="file">Johannes Comander / Chur AN Heinrich Bullinger, 6. März 1542</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>2006</date>
-				<idno subtype="ISBN">ISBN 978-3-290-17431-6</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=1611</idno>
+				<address>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
+				</address>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW XII</title>
-				<biblScope unit="editor">Henrich, Rainer; Kess, Alexandra; Moser, Christian</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">12</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1542</biblScope>
-				<biblScope unit="page">41</biblScope>
-				<biblScope unit="pages">299</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Bullingers Korrespondenz mit den Graubündnern, hg. v. Traugott Schieß, 3 Teile, Basel 1904-1906 - Quellen zur Schweizer Geschichte XXIII-XXV (Nachdruck: Nieuwkoop 1968).</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,27</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Hat Bullinger in diesen Tagen durch <persName ref="person2055">Rudolf Schinz</persName> einen Brief
+								Hat Bullinger in diesen Tagen durch <persName ref="p6425">Rudolf Schinz</persName> einen Brief
 								[<ref target="file11651">Nr. 1608</ref>] überbringen lassen, weiß aber nicht, ob er zugestellt wurde. Sendet
 								eine Krone und einen Batzen für ein gebundenes Exemplar von Bullingers Kommentaren zu den paulinischen und
-								[katholischen] Briefen [HBBibl I 84f bzw. 91]; falls das Geld nicht reichen sollte, wird er unverzüglich den
+								[katholischen] Briefen [<bibl>HBBibl</bibl> I 84f bzw. 91]; falls das Geld nicht reichen sollte, wird er unverzüglich den
 								noch ausstehenden Betrag senden; der Briefbote wird Bullingers Buch sicher transportieren und kann auch
-								weitere Dienste übernehmen. Grüße, auch von <persName ref="person43">Comanders</persName> Kollegen. Bete
+								weitere Dienste übernehmen. Grüße, auch von <persName ref="p654">Comanders</persName> Kollegen. Bete
 								für uns, denn wir sind in nicht geringer Gefahr!
 							</p>
 						</summary>
@@ -56,7 +52,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Graubünden BW I, S. 41f, Nr. 32</title>
+								<title>Graubünden BW I, S.41f, Nr. 32</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -66,7 +62,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11654">
 				<correspAction type="sent">
-					<persName ref="person654" cert="high">
+					<persName ref="p654" cert="high">
 						<!--
 						<surname cert="high">Comander</surname>
 						<forename cert="high">Johannes</forename>
@@ -75,11 +71,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11413826"/>
 						-->
 					</persName>
-					<placeName source="place98" cert="high"><orig>Chur</orig></placeName>
+					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1542-03-06" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -114,7 +110,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -6,51 +6,42 @@
 				<title subtype="file">[Wolfgang Capito] / [Strassburg] AN Heinrich Bullinger, 26. März 1533</title>
 			</titleStmt>
 			<publicationStmt>
-				<publisher>Theologischer Verlag Zürich (TVZ)</publisher>
+				<publisher>Volk et al.</publisher>
 				<pubPlace>Zürich</pubPlace>
 				<address>
-					<addrLine>TVZ Theologischer Verlag Zürich AG</addrLine>
-					<addrLine>Badenerstrasse 73</addrLine>
-					<addrLine>8004 Zürich</addrLine>
+					<addrLine>Institut für Computerlinguistik</addrLine>
+					<addrLine>Andreasstrasse 15</addrLine>
+					<addrLine>8050 Zürich</addrLine>
+					<addrLine>Schweiz</addrLine>
 				</address>
-				<authority>Institut für Schweizerische Reformationsgeschichte (IRG)</authority>
-				<date>1983</date>
-				<idno subtype="ISBN">ISBN 3-290-11531-3</idno>
-				<idno subtype="url">http://teoirgsed.uzh.ch/SedWEB.cgi?Alias=Briefe&amp;Lng=1&amp;aheight=910&amp;PrjName=Bullinger+-+Briefwechsel&amp;fld_418=202</idno>
+				<authority>Universität Zürich</authority>
+				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
+				<date when="2023"/>
 			</publicationStmt>
-			<seriesStmt>
-				<title subtype="publication">HBBW III</title>
-				<biblScope unit="editor">Zsindely, Endre; Senn, Matthias</biblScope>
-				<biblScope unit="edition">HBBW</biblScope>
-				<biblScope unit="volume">3</biblScope>
-				<biblScope unit="volumes">20</biblScope>
-				<biblScope unit="period">1533</biblScope>
-				<biblScope unit="page">92</biblScope>
-				<biblScope unit="pages">292</biblScope>
-			</seriesStmt>
 			<sourceDesc>
+				<bibl type="transcription">Heinrich Bullinger Werke, Briefwechsel Band 3 (Briefe des Jahres 1533), bearb. von Endre Zsindely und Matthias Senn, Zürich 1983, 292 S., ISBN 3-290-11531-3.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
-						<repository ref="archive94">
+						<repository ref="a94">
 							<name>Zürich StA</name>
 							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
 						</repository>
-						<settlement ref="place587">Zürich</settlement>
+						<settlement ref="l587">Zürich</settlement>
 						<institution>Staatsarchiv</institution>
 						-->
-						<repository ref="archive94"/>
+						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 348,380</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								Man weiß in <placeName ref="place1049">Straßburg</placeName>, wie es um Zürich und seine Gegner steht.
+								Man weiß in <placeName>Straßburg</placeName>, wie es um Zürich und seine Gegner steht.
 								Die Zürcher sollen wachsam sein und rechtzeitig den früher gegebenen Rat befolgen. An militärischer Hilfe
 								wird es nicht fehlen. Philipp von
 								Hessen ist durch den
-								<placeName ref="place1049">Straßburger</placeName> Rat unterrichtet worden.
-								<persName ref="person40">Capito</persName> ist besorgt, die Zürcher könnten sich zu weich zeigen.
+								<placeName>Straßburger</placeName> Rat unterrichtet worden.
+								<persName ref="p5565">Capito</persName> ist besorgt, die Zürcher könnten sich zu weich zeigen.
 							</p>
 						</summary>
 						<msItem>
@@ -62,6 +53,9 @@
 							<bibl type="Gedruckt" subtype="Regest">
 								<title>Capito, Corr. 169, Nr. 505</title>
 							</bibl>
+							<bibl type="Gedruckt" subtype="Gedruckt">
+								<title>HBBW 3, Nr. 202, S.92</title>
+							</bibl>
 						</listBibl>
 					</additional>
 				</msDesc>
@@ -70,7 +64,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10233">
 				<correspAction type="sent">
-					<persName ref="person578" cert="low">
+					<persName ref="p578" cert="low">
 						<!--
 						<surname cert="low">Capito</surname>
 						<forename cert="low">Wolfgang</forename>
@@ -81,11 +75,11 @@
 						<ref type="histhub" target="https://data.histhub.ch/person/11414573"/>
 						-->
 					</persName>
-					<placeName source="place492" cert="low"><orig>Strassburg</orig></placeName>
+					<placeName source="l492" cert="low"><orig>Strassburg</orig></placeName>
 					<date when="1533-03-26" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="person495" cert="high">
+					<persName ref="p495" cert="high">
 						<!--
 						<surname cert="high">Bullinger</surname>
 						<forename cert="high">Heinrich</forename>
@@ -120,7 +114,7 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
-			<change>TEI-RNG-Validation</change>
+			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -134,20 +128,20 @@
 					<s n="1" xml:lang="de" type="auto">Myn willig dienst zuvor, fruntlicher, lieber her.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Wir wyssen, wie es mit uch und dem gegenteil fur 14 tagen gestanden<note xml:id="fn2" type="footnote" n="2">Am 11. März 1533 hatte in <placeName ref="place652">Luzern</placeName> eine den Mandatstreit betreffende Verhandlung der Schiedorte <placeName ref="place22">Glarus</placeName>, <placeName ref="place368">Freiburg</placeName>, <placeName ref="place83">Solothurn</placeName> und <placeName ref="place4">Appenzell</placeName> mit <placeName ref="place51">den V Orten</placeName> stattgefunden. Ein von den Schiedorten gemachter Vermittlungsvorschlag wurde von <placeName ref="place51">den V Orten</placeName> abgelehnt mit dem Hinweis, man beharre auf der Forderung nach Abhaltung eines Gerichtsverfahrens, s. EA IV/1c 35-37.</note>, wes sorg auch syn mag, was hilf und hofnung by dem gegenteil, welches alles nit zu verachten.</s>
-					<s n="3" xml:lang="de" type="auto">Daruff ist unser bitte, ir wollen wachen und by zitten den rhat fir handen nemen<note xml:id="fn3" type="footnote" n="3">den Rat vornehmen, befolgen.</note>, davon wir hievor geschriben<note xml:id="fn4" type="footnote" n="4">Siehe die Briefe <persName ref="person28">Bucers</persName> und <persName ref="person40">Capitos</persName> vom 14. Januar 1533 (oben <ref target="file10207">Nr. 176</ref> und 177).</note>: Es solle zu rosß und fuß so furderlich und dapfer hilf zukommen, das, ob gott will, kein not haben wirt, ja die zall und manheit<note xml:id="fn5" type="footnote" n="5">Tapferkeit (Grimm VI 1587).</note> jenner ubertreffen.</s>
-					<s n="4" xml:lang="de" type="auto">Doch das nit furgenomen, man welle dann ein dapferkeit<note xml:id="fn6" type="footnote" n="6">feste, energische Haltung (SI XIII 976).</note> und bestandt<note xml:id="fn7" type="footnote" n="7">Waffenstillstand (SI XI 1014).</note> oder ußtrag<note xml:id="fn8" type="footnote" n="8">eine (kriegerische) Entscheidung (SI XIV 421-423).</note> tun<note xml:id="fn9" type="footnote" n="9">Der Sinn des Satzes könnte sein: Doch das (die Stellung von Hilfstruppen) wird nicht ausgeführt, außer man (die Zürcher) wolle eine feste Haltung einnehmen, einen Waffenstillstand oder eine kriegerische Entscheidung herbeiführen.</note>.</s>
+					<s n="2" xml:lang="de" type="auto">Wir wyssen, wie es mit uch und dem gegenteil fur 14 tagen gestanden<note xml:id="fn2" type="footnote" n="2">Am 11. März 1533 hatte in <placeName>Luzern</placeName> eine den Mandatstreit betreffende Verhandlung der Schiedorte <placeName>Glarus</placeName>, <placeName>Freiburg</placeName>, <placeName>Solothurn</placeName> und <placeName>Appenzell</placeName> mit <placeName>den V Orten</placeName> stattgefunden. Ein von den Schiedorten gemachter Vermittlungsvorschlag wurde von <placeName>den V Orten</placeName> abgelehnt mit dem Hinweis, man beharre auf der Forderung nach Abhaltung eines Gerichtsverfahrens, s. <bibl>EA</bibl> IV/1c 35-37.</note>, wes sorg auch syn mag, was hilf und hofnung by dem gegenteil, welches alles nit zu verachten.</s>
+					<s n="3" xml:lang="de" type="auto">Daruff ist unser bitte, ir wollen wachen und by zitten den rhat fir handen nemen<note xml:id="fn3" type="footnote" n="3">den Rat vornehmen, befolgen.</note>, davon wir hievor geschriben<note xml:id="fn4" type="footnote" n="4">Siehe die Briefe <persName ref="p18198">Bucers</persName> und <persName>Capitos</persName> vom 14. Januar 1533 (oben <ref target="file10207">Nr. 176</ref> und 177).</note>: Es solle zu rosß und fuß so furderlich und dapfer hilf zukommen, das, ob gott will, kein not haben wirt, ja die zall und manheit<note xml:id="fn5" type="footnote" n="5">Tapferkeit (<bibl>Grimm</bibl> VI 1587).</note> jenner ubertreffen.</s>
+					<s n="4" xml:lang="de" type="auto">Doch das nit furgenomen, man welle dann ein dapferkeit<note xml:id="fn6" type="footnote" n="6">feste, energische Haltung (<bibl>SI</bibl> XIII 976).</note> und bestandt<note xml:id="fn7" type="footnote" n="7">Waffenstillstand (<bibl>SI</bibl> XI 1014).</note> oder ußtrag<note xml:id="fn8" type="footnote" n="8">eine (kriegerische) Entscheidung (<bibl>SI</bibl> XIV 421-423).</note> tun<note xml:id="fn9" type="footnote" n="9">Der Sinn des Satzes könnte sein: Doch das (die Stellung von Hilfstruppen) wird nicht ausgeführt, außer man (die Zürcher) wolle eine feste Haltung einnehmen, einen Waffenstillstand oder eine kriegerische Entscheidung herbeiführen.</note>.</s>
 					<s n="5" xml:lang="de" type="auto">Ir werden unverlassen syn.</s>
 					<s n="6" xml:lang="de" type="auto">Das haben kein zwifel, alleyn suchen by zitten an.</s>
-					<s n="7" xml:lang="de" type="auto">Es ist der lanttgraf durch unser heren auch verwarnet<note xml:id="fn10" type="footnote" n="10">Der <placeName ref="place1049">Straßburger</placeName> Rat der Dreizehn informierte Philipp von Hessen über die Lage in der Eidgenossenschaft in einem Schreiben vom 28. März 1533, s. PC II 185f.</note> etc.</s>
+					<s n="7" xml:lang="de" type="auto">Es ist der lanttgraf durch unser heren auch verwarnet<note xml:id="fn10" type="footnote" n="10">Der <placeName>Straßburger</placeName> Rat der Dreizehn informierte Philipp von Hessen über die Lage in der Eidgenossenschaft in einem Schreiben vom 28. März 1533, s. <bibl>PC</bibl> II 185f.</note> etc.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Tuus quem nosti.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="de" type="auto">Durch vertruwt heimlich muntlich bottschafft, die nit den namen haben, als ob sy botten weren, ist in der still ze handeln.</s>
-					<s n="10" xml:lang="de" type="auto">Lassen uch nit bewegen, das sich die funff ort etwas erschrocken<note xml:id="fn11" type="footnote" n="11">Schrecken erregend (SI IX 1613).</note> erzeigen.</s>
-					<s n="11" xml:lang="de" type="auto">Sye handeln alle ding mit forteil<note xml:id="fn12" type="footnote" n="12">List, Betrug (SI XII 1506-1508).</note>.</s>
+					<s n="10" xml:lang="de" type="auto">Lassen uch nit bewegen, das sich die funff ort etwas erschrocken<note xml:id="fn11" type="footnote" n="11">Schrecken erregend (<bibl>SI</bibl> IX 1613).</note> erzeigen.</s>
+					<s n="11" xml:lang="de" type="auto">Sye handeln alle ding mit forteil<note xml:id="fn12" type="footnote" n="12">List, Betrug (<bibl>SI</bibl> XII 1506-1508).</note>.</s>
 					<s n="12" xml:lang="de" type="auto">Wie ir gemuͤt stoe<note xml:id="fn13" type="footnote" n="13">stehe; was sie im Sinn haben.</note>, syndt ir bericht<note xml:id="fna" type="footnote" n="a"><hi>in der Vorlage</hi> beriecht.</note>, leyder nur<note xml:id="fnb" type="footnote" n="b"><hi>in der Vorlage</hi> nurt.</note> zuvil.</s>
 					<s n="13" xml:lang="de" type="auto">Sunst ist zu besorgen, das angenomner frid verderblichen schaden mit bringen werde.</s>
 					<s n="14" xml:lang="de" type="auto">Ich darf nit schriben, was mich itzend bekumbert; die somm aber ist, das ich besorg, ir fursteher werden zu weich syn und hertz<note xml:id="fn14" type="footnote" n="14">Hartes.</note> nemen, do zu geben were.</s>
