@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file8426" type="Beilage" source="TUSTEP" n="40101">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file8426" type="Brief" source="TUSTEP" n="40101">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Johann Hartung / Freiburg i.Br. AN [Heinrich Bullinger], 16. November 1570</title>
+				<title subtype="file">Johannes Hartung / Freiburg i.Br. AN [Heinrich Bullinger], 16. November 1570</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -36,7 +36,7 @@
 					<msContents>
 						<msItem>
 							<incipit>Quod res partas, quae meae esse deberent</incipit>
-							<textLang>la</textLang>
+							<textLang>el</textLang>
 						</msItem>
 					</msContents>
 				</msDesc>
@@ -54,16 +54,29 @@
 						<idno subtype="Kopie">Ms S 123,25</idno>
 					</msIdentifier>
 				</msDesc>
+				<msDesc type="Beilage" subtype="Beilage" xml:lang="la">
+					<msIdentifier>
+						<!--
+						<repository ref="a94">
+							<name>Zürich StA</name>
+							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
+						</repository>
+						<settlement ref="l587">Zürich</settlement>
+						<institution>Staatsarchiv</institution>
+						-->
+						<repository ref="a94"/>
+						<idno subtype="Beilage">E II 441,568</idno>
+					</msIdentifier>
+				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8426">
 				<correspAction type="sent">
-					<persName ref="p1510" cert="high">
+					<persName ref="p1509" cert="high">
 						<!--
 						<surname cert="high">Hartung</surname>
-						<forename cert="high">Johann</forename>
-						<persName type="main" ref="person1509>Hartung, Johann</persName>
+						<forename cert="high">Johannes</forename>
 						<graphic type="portrait" url="portraits/1509_Hartung_Johannes.jpg"/>
 						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Hartung"/>
 						<ref type="gnd" target="https://d-nb.info/gnd/119506858"/>
@@ -96,10 +109,10 @@
 					<ref type="next_with_addressee_as_sender" target="file8428"/>
 					<ref type="prev_with_addressee_as_sender" target="file8424"/>
 					<ref type="child" target="file8427"/>
-					<ref type="parent" target="file8427"/>
 				</correspContext>
 			</correspDesc>
 			<langUsage>
+				<language ident="el" usage="0">Griechisch</language>
 				<language ident="la" usage="100">Latein</language>
 			</langUsage>
 		</profileDesc>
@@ -107,6 +120,12 @@
 			<change>setup/validation</change>
 		</revisionDesc>
 	</teiHeader>
+	<facsimile>
+		<graphic xml:id="img1" url="8426/Autograph/00__E_II_356__fol__318_r_.tif" n="1"/>
+		<graphic xml:id="img2" url="8426/Autograph/01__E_II_356__fol__318_v_.tif" n="2"/>
+		<graphic xml:id="img3" url="8426/Beilage/00__E_II_441__fol__568_r_.tif" n="1"/>
+		<graphic xml:id="img4" url="8426/Beilage/01__E_II_441__fol__568_v_.tif" n="2"/>
+	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
@@ -141,13 +160,13 @@
 				</p>
 				<p>
 					<note type="attachment">[Beilage:]</note>
-					<s n="21" xml:lang="la" type="auto">D. Ioannes Brentius Stutgardiae 11. septembris nuper diem suum obiit anno aetatis 71., de quo tale carmen Tubingensis quidam professor ad me dedit<note xml:id="fn7" type="footnote" n="7">Das Epitaph auf Brenz stammt gemäß freundlicher Auskunft von Prof. Dr. Martin Brecht, Brief von 1973 liegt bei Sven-Fischer-Abschriften vom Tübinger Professor artium Leonhard Engelhart, der aus Schwäbisch Hall stammte und 1572 Pädagogarch in Stuttgart wurde. Es ist gedruckt in: Jakob <hi>Heerbrand,</hi> Oratio funebris de vita et morte reverendi viri [...] D. Ioannis Brentii, Tübingen 1570, S. 84. Vgl. Wulf Segebrecht (Hg.), Tübinger Epicedien zum Tod des Reformators Johannes Brenz (1570), Frankfurt am Main 1999. Kommentiert von Juliane Fuchs und Veronika Marschall unter Mitwirkung von Guido Wojaczek. - Helicon. Beiträge zur deutschen Literatur 24, S. 118-123.</note>: Bis septem lustris iam Brentius addidit annum Corporis et posuit membra caduca sui.</s>
+					<s n="21" xml:lang="la" type="auto">D. Ioannes Brentius Stutgardiae 11. septembris nuper diem suum obiit anno aetatis 71., de quo tale carmen Tubingensis quidam professor ad me dedit<note xml:id="fn7" type="footnote" n="7">Das Epitaph auf Brenz stammt gemäß freundlicher Auskunft von Prof. Dr. Martin Brecht, Brief von 1973 liegt bei Sven-Fischer-Abschriften vom Tübinger Professor artium <persName>Leonhard Engelhart</persName>, der aus Schwäbisch Hall stammte und 1572 Pädagogarch in Stuttgart wurde. Es ist gedruckt in: Jakob <hi>Heerbrand,</hi> Oratio funebris de vita et morte reverendi viri [...] D. Ioannis Brentii, Tübingen 1570, S. 84. Vgl. Wulf Segebrecht (Hg.), Tübinger Epicedien zum Tod des Reformators Johannes Brenz (1570), Frankfurt am Main 1999. Kommentiert von Juliane Fuchs und Veronika Marschall unter Mitwirkung von Guido Wojaczek. - Helicon. Beiträge zur deutschen Literatur 24, S. 118-123.</note>: Bis septem lustris iam Brentius addidit annum Corporis et posuit membra caduca sui.</s>
 				</p>
 				<p>
 					<s n="22" xml:lang="la" type="auto">Illius in mundo semper pia scripta manebunt, Sed bonus in coelo spiritus arce sedet.</s>
 				</p>
 				<p>
-					<s n="23" xml:lang="la" type="auto">Optarem meis verbis per occasionem clarissimos viros istic, medicinae doctores<note xml:id="fn8" type="footnote" n="8">Kaspar Wolf und Georg Keller?</note> reipublicę vestrę, quam officiosissime salutari, ac dominum Abrahamum<note xml:id="fn9" type="footnote" n="9">Abraham Musculus? Abraham Hartmann (s. <hi>Pfarrerbuch</hi> 321)? ein anderer?</note>, humanissimum virum, reverenter.</s>
+					<s n="23" xml:lang="la" type="auto">Optarem meis verbis per occasionem clarissimos viros istic, medicinae doctores<note xml:id="fn8" type="footnote" n="8"><persName>Kaspar Wolf</persName> und Georg Keller?</note> reipublicę vestrę, quam officiosissime salutari, ac dominum Abrahamum<note xml:id="fn9" type="footnote" n="9">Abraham Musculus? Abraham Hartmann (s. <hi>Pfarrerbuch</hi> 321)? ein anderer?</note>, humanissimum virum, reverenter.</s>
 					<s n="24" xml:lang="la" type="auto">Io[annes] Hartungus.</s>
 				</p>
 				<p>

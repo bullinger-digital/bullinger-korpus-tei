@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file434" type="Beilage" source="TUSTEP" n="19032">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file434" type="Brief" source="TUSTEP" n="19032">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Ambrosius Blarer] / [Griesenberg] AN Heinrich Bullinger / Zürich, 14. Februar 1549</title>
+				<title subtype="file">[Ambrosius Blarer (Blaurer)] / [Griesenberg] AN Heinrich Bullinger / Zürich, 14. Februar 1549</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -20,7 +20,7 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
-				<msDesc type="Beilage" subtype="Autograph" xml:lang="de">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
 						<!--
 						<repository ref="a94">
@@ -31,7 +31,10 @@
 						<institution>Staatsarchiv</institution>
 						-->
 						<repository ref="a94"/>
-						<idno subtype="Autograph">E II 441,321</idno>
+						<idno subtype="Autograph">E II 441,321 und E II 357,319</idno>
+						<altIdentifier>
+							<idno subtype="Autograph">E II 357,319 Bl. III, 12R.</idno>
+						</altIdentifier>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -42,7 +45,7 @@
 					<additional>
 						<listBibl>
 							<bibl type="Gedruckt">
-								<title>Blarer BW III, S.10ff</title>
+								<title>Blarer BW III, S. 10ff</title>
 							</bibl>
 						</listBibl>
 					</additional>
@@ -62,31 +65,15 @@
 						<idno subtype="Hinweis">dat.: ca. Feb. 19.</idno>
 					</msIdentifier>
 				</msDesc>
-				<msDesc type="Brief" subtype="Beilage" xml:lang="de">
-					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
-						<repository ref="a94"/>
-						<idno subtype="Beilage">E II 357,319 Bl. III, 12R.</idno>
-						<idno subtype="Hinweis">Schluss</idno>
-					</msIdentifier>
-				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/434">
 				<correspAction type="sent">
-					<persName ref="p392" cert="low">
+					<persName ref="p8055" cert="low">
 						<!--
-						<surname cert="low">Blarer</surname>
+						<surname cert="low">Blarer (Blaurer)</surname>
 						<forename cert="low">Ambrosius</forename>
-						<persName type="main" ref="person8055>Blarer, Ambrosius</persName>
 						<graphic type="portrait" url="portraits/392_Blarer_Ambrosius.png"/>
 						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Ambrosius_Blarer"/>
 						<ref type="gnd" target="https://d-nb.info/gnd/118663763"/>
@@ -127,12 +114,11 @@
 					<ref type="next_with_addressee_as_sender" target="file448"/>
 					<ref type="prev_with_addressee_as_sender" target="file415"/>
 					<ref type="child" target="file433"/>
-					<ref type="parent" target="file433"/>
 				</correspContext>
 			</correspDesc>
 			<langUsage>
-				<language ident="la" usage="21">Latein</language>
-				<language ident="de" usage="79">Deutsch</language>
+				<language ident="la" usage="28">Latein</language>
+				<language ident="de" usage="72">Deutsch</language>
 			</langUsage>
 		</profileDesc>
 		<revisionDesc status="abgeschlossen">
@@ -144,6 +130,8 @@
 		<graphic xml:id="img2" url="434/Autograph/01__E_II_441__S__322_.tif" n="2"/>
 		<graphic xml:id="img3" url="434/Autograph/02__E_II_441__S__323_.tif" n="3"/>
 		<graphic xml:id="img4" url="434/Autograph/03__E_II_441__S__324_.tif" n="4"/>
+		<graphic xml:id="img5" url="434/Autograph/04__E_II_357__fol__319_r_.tif" n="5"/>
+		<graphic xml:id="img6" url="434/Autograph/05__E_II_357__fol__319_v_.tif" n="6"/>
 	</facsimile>
 	<text xml:lang="de">
 		<body>
@@ -204,7 +192,7 @@
 				</p>
 				<p>
 					<note type="regest">Man glaubt, der König werde auf dem Tag zu Baden bei den Eidgenossen darauf dringen, daß die Ausgetretenen nirgends geduldet werden, und hofft, daß die boten, wenn es geschieht, dies nur <foreign xml:lang="la">ad referendum</foreign> annehmen, so daß Zeit bleibe zu überlegen, was zu tun sei.
-					Gottes Wille geschehe!
+					Gottes <bibl>Wille</bibl> geschehe!
 					Er wird uns sicher einen Wnterschlupf weisen, bis er uns zu sich ruft.</note>
 				</p>
 				<p>
@@ -220,41 +208,41 @@
 				</p>
 				<p>
 					<note type="regest">Butzer schreibt in gestern erhaltenen Briefen vom 3. Februar:</note>
-					<s n="42" xml:lang="la" type="auto">a suis iudicatum ultima iudicatione opportere recipi Interim; multa tentata apud episcopum sed frustra; se cum aliis ministris 22 daturos responsum senatui etc.</s>
+					<s n="26" xml:lang="la" type="auto">a suis iudicatum ultima iudicatione opportere recipi Interim; multa tentata apud episcopum sed frustra; se cum aliis ministris 22 daturos responsum senatui etc.</s>
 				</p>
 				<p>
-					<s n="43" xml:lang="la" type="auto"><foreign xml:lang="de">Er trachtet hinzeziechen,</foreign> quamquam nescit quo; liberos habet sex, decrepitam secum socrum et uxorem haud firmę valetuidinis.</s>
-					<s n="44" xml:lang="de" type="auto">Calvins schrift über das Interim lag dem brief bei; doch konnte ich sie noch nicht lesen; ich fürchte, der Kaiser nehme davon Anlaß, gegen die Genfer vorzugehen.</s>
+					<s n="27" xml:lang="la" type="auto"><foreign xml:lang="de">Er trachtet hinzeziechen,</foreign> quamquam nescit quo; liberos habet sex, decrepitam secum socrum et uxorem haud firmę valetuidinis.</s>
+					<s n="28" xml:lang="de" type="auto">Calvins schrift über das Interim lag dem brief bei; doch konnte ich sie noch nicht lesen; ich fürchte, der Kaiser nehme davon Anlaß, gegen die Genfer vorzugehen.</s>
 				</p>
 				<p>
 					<note>[Autograph: Zürich StA, E II 357, 319 Bl. III, 12R.]</note>
-					<s n="45" xml:lang="la" type="auto">Mitto exemplum [literarum] mearum ad Bernenses, praeterea epistolas ad Hallerum et Musculum nostros, quas diebus hisce in codice quodam nihil minus quam ipsas quaerens repperi.</s>
-					<s n="46" xml:lang="la" type="auto">Volebam autem illas proximis ad te datis literis coniungere; verum cum abmandandus esset nuncius, diu quaesitas nusquam inveniebam, quia imprudens in codice concluseram.</s>
-					<s n="47" xml:lang="la" type="auto">Iam igitur vel sero accipient, officium tamen meum qualitercunque sensuri.</s>
-					<s n="48" xml:lang="la" type="auto">Ah ora pro nobis, mi amice et charissime frater.</s>
+					<s n="29" xml:lang="la" type="auto">Mitto exemplum [literarum] mearum ad Bernenses, praeterea epistolas ad Hallerum et Musculum nostros, quas diebus hisce in codice quodam nihil minus quam ipsas quaerens repperi.</s>
+					<s n="30" xml:lang="la" type="auto">Volebam autem illas proximis ad te datis literis coniungere; verum cum abmandandus esset nuncius, diu quaesitas nusquam inveniebam, quia imprudens in codice concluseram.</s>
+					<s n="31" xml:lang="la" type="auto">Iam igitur vel sero accipient, officium tamen meum qualitercunque sensuri.</s>
+					<s n="32" xml:lang="la" type="auto">Ah ora pro nobis, mi amice et charissime frater.</s>
 				</p>
 				<p>
-					<s n="49" xml:lang="la" type="auto">Sęculum videtur, quod nihil abs te redditur literarum.</s>
-					<s n="50" xml:lang="la" type="auto">Admone nos tempestiviter, si quid forte proximis comitiis adversum exules nos apud vestros C[aesar].</s>
-					<s n="51" xml:lang="la" type="auto">Si quid quando scribere velis, Vitodurum mitte hospiti, cui Corona insigne est; nam illuc subinde Hieronymus Emporus, porrochus hic noster, proficiscitur.</s>
+					<s n="33" xml:lang="la" type="auto">Sęculum videtur, quod nihil abs te redditur literarum.</s>
+					<s n="34" xml:lang="la" type="auto">Admone nos tempestiviter, si quid forte proximis comitiis adversum exules nos apud vestros C[aesar].</s>
+					<s n="35" xml:lang="la" type="auto">Si quid quando scribere velis, Vitodurum mitte hospiti, cui Corona insigne est; nam illuc subinde Hieronymus Emporus, porrochus hic noster, proficiscitur.</s>
 				</p>
 				<p>
-					<s n="52" xml:lang="la" type="auto">Germanus meus frater cum optima sorore meaque coniuge te tuamque domum plurimo plus in domino salvere et valere iubent vestris se piis votis diligentissime commendantes.</s>
+					<s n="36" xml:lang="la" type="auto">Germanus meus frater cum optima sorore meaque coniuge te tuamque domum plurimo plus in domino salvere et valere iubent vestris se piis votis diligentissime commendantes.</s>
 				</p>
 				<p>
-					<s n="53" xml:lang="la" type="auto">Salveant omnes fratres et amici, inprimis administri tui, in domino cum Gervasio nostro et utroque Anglo, Butlero et Hopero.</s>
+					<s n="37" xml:lang="la" type="auto">Salveant omnes fratres et amici, inprimis administri tui, in domino cum Gervasio nostro et utroque Anglo, Butlero et Hopero.</s>
 				</p>
 				<p>
-					<s n="54" xml:lang="la" type="auto">Bene vale.</s>
-					<s n="55" xml:lang="la" type="auto">14. Februarii 1549.</s>
+					<s n="38" xml:lang="la" type="auto">Bene vale.</s>
+					<s n="39" xml:lang="la" type="auto">14. Februarii 1549.</s>
 				</p>
 				<p>
 					<note type="signature">[Unterschrift fehlt.]</note>
 				</p>
 				<p>
 					<note type="address">[Adresse:]</note>
-					<s n="56" xml:lang="la" type="auto">Bullingero suo.</s>
-					<s n="57" xml:lang="la" type="auto">Tiguri.</s>
+					<s n="40" xml:lang="la" type="auto">Bullingero suo.</s>
+					<s n="41" xml:lang="la" type="auto">Tiguri.</s>
 				</p>
 			</div>
 		</body>
