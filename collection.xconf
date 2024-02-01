@@ -1,0 +1,71 @@
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:dbk="http://docbook.org/ns/docbook">
+        <lucene>
+            <module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/> 
+            <text match="/tei:TEI/tei:text">
+                <field name="title" expression="nav:get-metadata(ancestor::tei:TEI, 'title')"/>
+                <field name="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
+                <field name="recipient" expression="nav:get-metadata(ancestor::tei:TEI, 'recipient')"/>
+                <field name="correspondant" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondant')"/>
+                <field name="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <field name="number" expression="nav:get-metadata(ancestor::tei:TEI, 'number')"/>
+                <field name="corpus" expression="'bullinger'"/>
+                <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
+                <field name="file" expression="util:document-name(.)"/>
+                <field name="text" expression="."/>
+                <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
+                <facet dimension="group" expression="nav:get-metadata(ancestor::tei:TEI, 'group')"/>
+                <facet dimension="institution" expression="nav:get-metadata(ancestor::tei:TEI, 'institution')"/>
+                <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
+                <facet dimension="recipient" expression="nav:get-metadata(ancestor::tei:TEI, 'recipient')"/>
+                <facet dimension="correspondant" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondant')"/>
+                <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
+                <facet dimension="number" expression="nav:get-metadata(ancestor::tei:TEI, 'number')"/>
+                <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'date'),'-')" hierarchical="yes"/>
+                <facet dimension="datestring" expression="nav:get-metadata(ancestor::tei:TEI, 'date')" hierarchical="no"/>
+                <facet dimension="corpus" expression="'bullinger'"/>
+            </text>
+            <text qname="tei:div">
+                <ignore qname="tei:div"/>
+            </text>  
+            <text qname="tei:place" index="no">
+                <field name="name" expression="nav:get-metadata(., 'place-name')"/>
+            </text> 
+            <text qname="tei:person" index="no">
+                <field name="name" expression="nav:get-metadata(., 'person-name')"/>
+            </text>
+
+            <text match="//tei:listOrg/tei:org">
+                <field name="org-name-sing" expression="nav:get-metadata(., 'org-name-sing')"/>
+                <facet dimension="org-name-sing" expression="nav:get-metadata(., 'org-name-sing')"/>
+                <field name="org-name-plur" expression="nav:get-metadata(., 'org-name-plur')"/>
+                <facet dimension="org-name-plur" expression="nav:get-metadata(., 'org-name-plur')"/>
+                <field name="org-sent-count" expression="nav:get-metadata(., 'org-sent-count')"/>
+                <field name="org-received-count" expression="nav:get-metadata(., 'org-received-count')"/>
+                <field name="archive-name" expression="nav:get-metadata(., 'archive-name')"/>
+                <facet dimension="archive-name" expression="nav:get-metadata(., 'archive-name')"/>
+                <field name="archive-count" expression="nav:get-metadata(., 'archive-count')"/>
+            </text>
+            
+            <text match="//tei:listNym/tei:nym">
+                <field name="group-name-sing" expression="nav:get-metadata(., 'group-name-sing')"/>
+                <field name="group-name-plur" expression="nav:get-metadata(., 'group-name-plur')"/>
+                <field name="group-sent-count" expression="nav:get-metadata(., 'group-sent-count')"/>
+                <field name="group-received-count" expression="nav:get-metadata(., 'group-received-count')"/>
+                <field name="group-total-count" expression="nav:get-metadata(., 'group-total-count')"/>
+            </text>
+        </lucene>
+        
+        <range>
+            <create qname="@cert" type="xs:string"/>
+            <create qname="@notBefore" type="xs:string"/>
+            <create qname="@notAfter" type="xs:string"/>
+            <create qname="@ref" type="xs:string"/>
+            <create qname="@role" type="xs:string"/>
+            <create qname="@source" type="xs:string"/>
+            <create qname="@subtype" type="xs:string"/>
+            <create qname="@type" type="xs:string"/>
+            <create qname="@when" type="xs:string"/>
+        </range>
+    </index>
+</collection>
