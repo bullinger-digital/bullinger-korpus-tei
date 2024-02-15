@@ -17,10 +17,9 @@ tei_relax_rng = etree.RelaxNG(relaxng_doc)
 def validateTei(relax_rng, path_corpus):
     is_valid = True
     for f in sorted(os.listdir(path_corpus)):
-        if f != ".DS_Store":
+        if not os.path.isdir(os.path.join(PATH_LETTERS, f)) and f != ".DS_Store":
             mytree = etree.parse(open(os.path.join(path_corpus, f)))
-            try:
-                relax_rng.assert_(mytree)
+            try: relax_rng.assert_(mytree)
             except AssertionError as err:
                 is_valid = False
                 print('TEI validation error:', f, err)
