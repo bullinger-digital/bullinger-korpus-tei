@@ -31,8 +31,10 @@
             <text qname="tei:place" index="no">
                 <field name="name" expression="nav:get-metadata(., 'place-name')"/>
             </text> 
-            <text qname="tei:person" index="no">
-                <field name="name" expression="nav:get-metadata(., 'person-name')"/>
+            <text match="//tei:listPerson/tei:person" index="yes">
+                <field name="name" expression="nav:person-get-metadata(., 'name')"/>
+                <field name="sent-count" expression="nav:person-get-metadata(., 'sent-count')"/>
+                <field name="received-count" expression="nav:person-get-metadata(., 'received-count')"/>
             </text>
 
             <text match="//tei:listOrg/tei:org">
