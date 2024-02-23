@@ -48,9 +48,6 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "institution" return (
                 $header//tei:correspDesc/tei:correspAction/tei:orgName/@ref/string()
             )
-            case "person-name" return (
-                string-join(($root/tei:persName[@type="main"]/tei:surname, $root/tei:persName[@type="main"]/tei:forename),", ")
-            )
             case "place-name" return (
                 let $settlement := $root//tei:settlement/text()
                 let $district := $root//tei:district/text()
@@ -138,4 +135,30 @@ declare function idx:normalize-date($date as xs:string) {
         xs:date($date || "-01-01")
     else
         xs:date($date)
+};
+
+declare function idx:person-get-metadata($person as element(), $field as xs:string) {
+    let $main-persname := $person/tei:persName[@type='main']
+    return switch ($field)
+        case "name" return (
+            string-join(($main-persname/tei:surname, $main-persname/tei:forename),", ")
+        )
+        case "sent-count" return
+            let $main-id := $main-persname/@xml:id
+            let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[.//tei:correspAction[@type="sent"]/tei:persName/@ref=$main-id]
+            let $count := if($letters)
+                        then ( count($letters)) 
+                        else 0
+            return
+                $count
+        case "received-count" return
+            let $main-id := $main-persname/@xml:id
+            let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[.//tei:correspAction[@type="received"]/tei:persName/@ref=$main-id]
+            let $count := if($letters)
+                        then ( count($letters)) 
+                        else 0
+            return
+                $count
+        default return 
+            ()
 };
