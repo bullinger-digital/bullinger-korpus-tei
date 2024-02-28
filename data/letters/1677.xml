@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1677" type="Brief" source="TUSTEP" n="22140">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1677" type="Brief" source="TUSTEP-0" n="22140">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Johannes Gast] / [Basel] AN Heinrich Bullinger / Zürich, 12. Juli 1552</title>
+				<title subtype="file">[Johannes Gast] / [Basel] an Heinrich Bullinger / Zürich, 12. Juli 1552</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -78,7 +78,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
-					<date when="1552-07-12" cert="low"/>
+					<date when="1552-07-12" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -121,8 +121,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1677%2FAutograph%2F00%20E_II_358__fol__207_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1677/Autograph/00 E_II_358__fol__207_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1677%2FAutograph%2F01%20E_II_358__fol__207_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1677/Autograph/01 E_II_358__fol__207_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1677%2FAutograph%2F00%20E_II_358__fol__207_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1677/Autograph/00 E_II_358__fol__207_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1677%2FAutograph%2F01%20E_II_358__fol__207_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1677/Autograph/01 E_II_358__fol__207_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -131,21 +135,21 @@
 					<s n="1" xml:lang="la" type="auto">S. in domino.</s>
 					<s n="2" xml:lang="la" type="auto">Altum tuum silentium satis mirari non possum in hoc rerum statu, in quo argumenta scribendi se quotidie offerunt locupletissima.</s>
 					<s n="3" xml:lang="la" type="auto">Quid agit miles <placeName type="auto_name">Bolwilerianus</placeName>, quem aiunt ali pecunia pfafforum et <persName type="auto_name">Iudaeorum</persName>?</s>
-					<s n="4" xml:lang="la" type="auto"><persName type="auto_name" ref="18561">Moses</persName> enim <placeName type="auto_name">Merspurgensis</placeName> Iudaeus, dedit 14000 fl. mutuo; monachi etiam conferunt magnam pecuniam conflatis sacris vasibus.</s>
+					<s n="4" xml:lang="la" type="auto"><persName>Moses</persName> enim <placeName type="auto_name">Merspurgensis</placeName> Iudaeus, dedit 14000 fl. mutuo; monachi etiam conferunt magnam pecuniam conflatis sacris vasibus.</s>
 					<s n="5" xml:lang="la" type="auto">Ubi alius miles apud nos collectus haeret, obsecro, dic.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Colligitur novus exercitus in <placeName type="auto_name">Marckeltzen</placeName> (est oppidulum in episcopatu <placeName type="auto_name" ref="492">Argentoratensi</placeName>); habent 15 signa, puto Brisaci per <persName type="auto_name">Rheni</persName> pontem ituros ad <persName type="auto_name">Herciniam</persName> sylvam.</s>
+					<s n="6" xml:lang="la" type="auto">Colligitur novus exercitus in <placeName type="auto_name">Marckeltzen</placeName> (est oppidulum in episcopatu <placeName>Argentoratensi</placeName>); habent 15 signa, puto Brisaci per <persName type="auto_name">Rheni</persName> pontem ituros ad <persName type="auto_name">Herciniam</persName> sylvam.</s>
 					<s n="7" xml:lang="la" type="auto"><placeName type="auto_name">Mauritianis</placeName> negotia facient, quum exercitus sit divisus in duas partes.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><persName type="auto_name">Marchio Brandeburgensis</persName> <placeName type="auto_name">Francofordiam</placeName> cis Moenum oppugnaturus est, et lantgravius iunior urget ob damnum, quod intulerunt milites rusticis suis.</s>
+					<s n="8" xml:lang="la" type="auto"><persName type="auto_name">Marchio Brandeburgensis</persName> <placeName>Francofordiam</placeName> cis Moenum oppugnaturus est, et lantgravius iunior urget ob damnum, quod intulerunt milites rusticis suis.</s>
 					<s n="9" xml:lang="la" type="auto">Erit oppugnatio gravis.</s>
-					<s n="10" xml:lang="la" type="auto">Revocarunt <placeName type="auto_name" ref="157">Francofordienses</placeName> suos cives e nundinis <placeName type="auto_name" ref="492">Argentoratensibus</placeName> et rogarunt, ut cito pede se domum conferant, ni periclitari velint.</s>
+					<s n="10" xml:lang="la" type="auto">Revocarunt <placeName>Francofordienses</placeName> suos cives e nundinis <placeName>Argentoratensibus</placeName> et rogarunt, ut cito pede se domum conferant, ni periclitari velint.</s>
 					<s n="11" xml:lang="la" type="auto">Habet apud se 15 signa, duo in civitate, alia extra civitatem in pratis.</s>
-					<s n="12" xml:lang="la" type="auto">De <placeName type="auto_name">Caesare</placeName> nihil audimus, fortassis Villaci aegrotat aut insanit, ut quidam constanter affirmant, neque mirum debet esse, si in hoc morbi genus inciderit, quum ex alto gradu fere deiectus sit.</s>
+					<s n="12" xml:lang="la" type="auto">De Caesare nihil audimus, fortassis Villaci aegrotat aut insanit, ut quidam constanter affirmant, neque mirum debet esse, si in hoc morbi genus inciderit, quum ex alto gradu fere deiectus sit.</s>
 					<s n="13" xml:lang="la" type="auto"><persName type="auto_name">Gallus Belgas</persName> petit infesto exercitu.</s>
-					<s n="14" xml:lang="la" type="auto">Quid autem <persName type="auto_name" ref="18250">Mauritius</persName> agat cum suis militibus, nihil certi audimus.</s>
+					<s n="14" xml:lang="la" type="auto">Quid autem <persName>Mauritius</persName> agat cum suis militibus, nihil certi audimus.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Componunt articulos, nescio quos; sed interim <persName type="auto_name">Caesar</persName> conscribit militem ex omnibus angulis.</s>
@@ -154,14 +158,14 @@
 					<s n="18" xml:lang="la" type="auto">Ex <placeName type="auto_name">Italia</placeName> veniunt ad nos, ex quibus poteris statum Italiae, Venetiarum, Neapolitani regni perquirere, imo etiam de Turcicis legatis, qui nuper Venetiis fuere.</s>
 					<s n="19" xml:lang="la" type="auto">Vale.</s>
 					<s n="20" xml:lang="de" type="auto">12. iulii 1552.</s>
-					<s n="21" xml:lang="la" type="auto">Nihil scripsi d. <persName type="auto_name" ref="8171">Theodoro</persName>, quem in singulas horas expecto, cui precor felicia quęque.</s>
+					<s n="21" xml:lang="la" type="auto">Nihil scripsi d. <persName>Theodoro</persName>, quem in singulas horas expecto, cui precor felicia quęque.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto">T[uus] <persName type="auto_name">Gastius</persName> B[asiliensis] ex animo.</s>
+					<s n="22" xml:lang="la" type="auto">T[uus] <persName ref="p18518">Gastius</persName> B[asiliensis] ex animo.</s>
 				</p>
 				<p>
 					<s n="23" xml:lang="la" type="auto">Pio et erudito viro d. Heinrycho Bullingero, pastori ecclesiae Tigurinae vigilantissimo, praeceptori suo perpetuo colendo.</s>
-					<s n="24" xml:lang="de" type="auto"><placeName type="auto_name" ref="587">Zurich</placeName>.</s>
+					<s n="24" xml:lang="de" type="auto"><placeName>Zurich</placeName>.</s>
 				</p>
 			</div>
 		</body>

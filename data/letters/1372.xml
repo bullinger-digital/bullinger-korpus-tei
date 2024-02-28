@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1372" type="Brief" source="TUSTEP" n="21191">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1372" type="Brief" source="TUSTEP-0" n="21191">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">John Burcher / Strassburg AN Heinrich Bullinger / Zürich, 10. August 1551</title>
+				<title subtype="file">John Burcher / Strassburg an Heinrich Bullinger / Zürich, 10. August 1551</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -77,7 +77,7 @@
 						-->
 					</persName>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
-					<date when="1551-08-10" cert="low"/>
+					<date when="1551-08-10" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -119,14 +119,18 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1372%2FAutograph%2F00%20E_II_343__fol__444_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1372/Autograph/00 E_II_343__fol__444_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1372%2FAutograph%2F01%20E_II_343__fol__444_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1372/Autograph/01 E_II_343__fol__444_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1372%2FAutograph%2F00%20E_II_343__fol__444_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1372/Autograph/00 E_II_343__fol__444_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1372%2FAutograph%2F01%20E_II_343__fol__444_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1372/Autograph/01 E_II_343__fol__444_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
-					<s n="1" xml:lang="la" type="auto"><placeName type="auto_name" ref="492">Argentinae</placeName> 10. augusti 1553.</s>
+					<s n="1" xml:lang="la" type="auto"><placeName>Argentinae</placeName> 10. augusti 1553.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">S. P.</s>
@@ -135,8 +139,8 @@
 					<s n="5" xml:lang="la" type="auto">Viri undequaque doctissimi laudabis diligentiam et labores.</s>
 					<s n="6" xml:lang="la" type="auto">Acriter dimicatum est cum hominibus acutis nimium et perversis; palman tamen tulit, quod certe omnibus bonis gaudio maximo est.</s>
 					<s n="7" xml:lang="la" type="auto">Simili si posset <placeName type="auto_name">Cantabrigia</placeName> ornari viro, quam foelicissima foret <placeName type="auto_name">Anglia</placeName> nostra!</s>
-					<s n="8" xml:lang="la" type="auto">Optant nonnulli primi ordinis in <placeName type="auto_name">Anglia</placeName> viri <persName type="auto_name" ref="8417">Musculum</persName> eius loco substitui; renuit tamen ipse, ut audio, conditionem.</s>
-					<s n="9" xml:lang="la" type="auto">Ausim tamen ipse promittere, ut si velit hoc munus obire, non minorem apud regem bonosque omnes assequuturum gratiam quam ipse <persName type="auto_name" ref="467">Bucerus</persName>, neque tam perverse doctos Cantabrigiae atque <persName type="auto_name">Oxoniis</persName> d. <persName type="auto_name">Petrus</persName> inveniet.</s>
+					<s n="8" xml:lang="la" type="auto">Optant nonnulli primi ordinis in <placeName type="auto_name">Anglia</placeName> viri <persName>Musculum</persName> eius loco substitui; renuit tamen ipse, ut audio, conditionem.</s>
+					<s n="9" xml:lang="la" type="auto">Ausim tamen ipse promittere, ut si velit hoc munus obire, non minorem apud regem bonosque omnes assequuturum gratiam quam ipse <persName ref="p18198">Bucerus</persName>, neque tam perverse doctos Cantabrigiae atque <persName type="auto_name">Oxoniis</persName> d. <persName type="auto_name">Petrus</persName> inveniet.</s>
 					<s n="10" xml:lang="la" type="auto">Suspecti enim semper erant huius academiae alumni haereseos, ut vocant, apud veteres doctos et indoctos, quo facile iudicare posses horum studia synceriora <placeName type="auto_name">Oxoniensibus</placeName> semper fuisse; inde enim eruperunt Coxei, Hoperi et, quem primo loco nominari debui, Cranmeri caeterique id genus doctissimi viri, neque est, cur tam ab hac vocatione horreat; honestius enim est regno quam civitati subvenire.</s>
 					<s n="11" xml:lang="la" type="auto">Quare omni dubio humano abiecto officium meo iuditio christiani faceret, si toties vocatus tandem acquiesceret; quodsi non fecerit, vix suspicionem pusillanimi et minus strenui aufugiet.</s>
 					<s n="12" xml:lang="la" type="auto">Quod superest, non dubito, quin tu cum viro acturus sis; si posset persuaderi, fac sciam; curabo, ut ei provideretur de viatico, et quae praeterea necessaria sunt.</s>
@@ -152,10 +156,10 @@
 					<s n="18" xml:lang="la" type="auto"><persName ref="p7419">I[oannes] B[urcherus</persName>] tuus totus.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">Libellum tuum, quo respondisti calumniis ultimis <persName type="auto_name" ref="1974">Lutheri</persName>, cum adiuncto eiusdem calumniae libello cuperem quam avide.</s>
+					<s n="19" xml:lang="la" type="auto">Libellum tuum, quo respondisti calumniis ultimis <persName ref="p18889">Lutheri</persName>, cum adiuncto eiusdem calumniae libello cuperem quam avide.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Sunt, qui habent responsum tuum, sed carent libello <persName type="auto_name" ref="1974">Lutheri</persName>; quare coniunctum utrumque vellem, quo possent et calumniae erroresque Lutheri vestrumque responsum cerni.</s>
+					<s n="20" xml:lang="la" type="auto">Sunt, qui habent responsum tuum, sed carent libello <persName ref="p18889">Lutheri</persName>; quare coniunctum utrumque vellem, quo possent et calumniae erroresque Lutheri vestrumque responsum cerni.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">D. H. Bullingero, amico charo.</s>

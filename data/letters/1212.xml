@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1212" type="Brief" source="TUSTEP" n="21057">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1212" type="Brief" source="TUSTEP-0" n="21057">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Pier Paolo Vergerio / Vicosoprano AN Heinrich Bullinger / Zürich, 12. März 1551</title>
+				<title subtype="file">Pier Paolo Vergerio / Vicosoprano an Heinrich Bullinger / Zürich, 12. März 1551</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -81,7 +81,7 @@
 						-->
 					</persName>
 					<placeName source="l525" cert="high"><orig>Vicosoprano</orig></placeName>
-					<date when="1551-03-12" cert="low"/>
+					<date when="1551-03-12" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -124,8 +124,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1212%2FAutograph%2F00%20E_II_356__fol__418_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1212/Autograph/00 E_II_356__fol__418_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1212%2FAutograph%2F01%20E_II_356__fol__418_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1212/Autograph/01 E_II_356__fol__418_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1212%2FAutograph%2F00%20E_II_356__fol__418_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1212/Autograph/00 E_II_356__fol__418_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1212%2FAutograph%2F01%20E_II_356__fol__418_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1212/Autograph/01 E_II_356__fol__418_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -136,12 +140,12 @@
 					<s n="3" xml:lang="la" type="auto">Sunt enim multae et graves causae, quae me retinent implicitum; at possum me explicare hisce tribus septimanis.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Communicabit tibi d. <persName type="auto_name" ref="8011">Gvalterus</persName> alias meas literas, et intelliges, quid ad aures meas de <placeName type="auto_name">Angliae</placeName> negotio pervenerit; illud tu coepisti atque potes perficere.</s>
+					<s n="4" xml:lang="la" type="auto">Communicabit tibi d. <persName>Gvalterus</persName> alias meas literas, et intelliges, quid ad aures meas de <placeName type="auto_name">Angliae</placeName> negotio pervenerit; illud tu coepisti atque potes perficere.</s>
 					<s n="5" xml:lang="la" type="auto">Quod ut sedulo facias, te etiam atque etiam rogo; agitur enim Christi causa, quae tibi tantopere cordi est.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Fidum nuntium modo non habeo, qui pecuniam ad meum nepotem deferat, quem scio interim egere.</s>
-					<s n="7" xml:lang="la" type="auto">Quamobrem te vehementer rogatum velim, ut vel mittas ad eum vel alicui amico <placeName type="auto_name" ref="28">Basiliensi</placeName> scribas, ut ei numeret decem florenos, quos tibi confestim reddam.</s>
+					<s n="7" xml:lang="la" type="auto">Quamobrem te vehementer rogatum velim, ut vel mittas ad eum vel alicui amico <placeName>Basiliensi</placeName> scribas, ut ei numeret decem florenos, quos tibi confestim reddam.</s>
 					<s n="8" xml:lang="la" type="auto">Crede homini christiano et experire eius fidem.</s>
 					<s n="9" xml:lang="la" type="auto">Vale in domino; roga pro nobis cum tota ecclesia.</s>
 				</p>
@@ -149,7 +153,7 @@
 					<s n="10" xml:lang="la" type="auto"><persName type="auto_name">Vicosoprani</persName>, 12. martii 1551.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto"><persName type="auto_name" ref="3375">Vergerius</persName>.</s>
+					<s n="11" xml:lang="la" type="auto"><persName>Vergerius</persName>.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Clarissimo viro d. H[enrico] Bullingero, Tigurinae ecclesiae pastori.</s>

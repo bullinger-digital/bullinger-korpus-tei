@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1483" type="Brief" source="TUSTEP" n="21283">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1483" type="Brief" source="TUSTEP-0" n="21283">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">s.n. / Zürich AN (Pastorenkompanie) / Genf, 27. November 1551</title>
+				<title subtype="file">s.n. / Zürich an (Pastorenkompanie) / Genf, 27. November 1551</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="la">
 					<msIdentifier>
@@ -148,7 +148,7 @@
 				<correspAction type="sent">
 					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
-					<date when="1551-11-27" cert="low"/>
+					<date when="1551-11-27" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<roleName ref="g26" type="pl" role="Geistliche" cert="high">
@@ -185,10 +185,18 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1483%2FAutograph%20(Entwurf)%2F00%20E_II_337__fol__498_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1483/Autograph (Entwurf)/00 E_II_337__fol__498_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1483%2FAutograph%20(Entwurf)%2F01%20E_II_337__fol__498_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1483/Autograph (Entwurf)/01 E_II_337__fol__498_v_.tif</desc></graphic>
-		<graphic xml:id="img3" url="https://iiif.bullinger-digital.ch/iiif/3/1483%2FAutograph%20(Entwurf)%2F02%20E_II_337__fol__499_r_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">1483/Autograph (Entwurf)/02 E_II_337__fol__499_r_.tif</desc></graphic>
-		<graphic xml:id="img4" url="https://iiif.bullinger-digital.ch/iiif/3/1483%2FAutograph%20(Entwurf)%2F03%20E_II_337__fol__499_v_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">1483/Autograph (Entwurf)/03 E_II_337__fol__499_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1483%2FAutograph%20(Entwurf)%2F00%20E_II_337__fol__498_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1483/Autograph (Entwurf)/00 E_II_337__fol__498_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1483%2FAutograph%20(Entwurf)%2F01%20E_II_337__fol__498_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1483/Autograph (Entwurf)/01 E_II_337__fol__498_v_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img3-0" url="https://iiif.bullinger-digital.ch/iiif/3/1483%2FAutograph%20(Entwurf)%2F02%20E_II_337__fol__499_r_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">1483/Autograph (Entwurf)/02 E_II_337__fol__499_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img4-0" url="https://iiif.bullinger-digital.ch/iiif/3/1483%2FAutograph%20(Entwurf)%2F03%20E_II_337__fol__499_v_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">1483/Autograph (Entwurf)/03 E_II_337__fol__499_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -216,12 +224,12 @@
 					<s n="14" xml:lang="la" type="auto">Quoniam vero alii aliter nostra interpretantur ac viri boni apud vos nostram paucis comprehensam iam nunc rursus audire sententiam desiderant, unde ipsi forte remotis vestris et nostris personis iudicare possint de consensione vel dissensione doctrinae, paucula haec expendenda piis proponimus.</s>
 					<s n="15" xml:lang="la" type="auto">Prinicipio constituimus electionem, qua deus ab aeterno immeritos et peccatores elegit ac in Christo complectitur, per quem omnia vitae et salutis habemus, omnino esse gratuitam ac omnem hominis salutem (quod fidei fundamentum est) gratuitae dei misericordiae esse transscribendam iuxta illud apostoli: "Non est volentis neque currentis, sed miserentis dei", et iterum: "Elegit nos in ipso, antequam iacerentur fundamenta mundi, ut essemus sancti et irreprehensibiles coram illo per charitatem, qui praedestinavit nos, ut adoptaret in filios per Iesum Christum in sese iuxta beneplacitum voluntatis suae, ut laudetur gloria gratiae suae, qua charos reddidit nos per dilectum."</s>
 					<s n="16" xml:lang="la" type="auto">Deinde docemus fidem, qua Christum complectimur, nullis impetrari nostris meritis, sed mera dei gratia per spiritum et verbum donari eademque dei gratia eandem fidem in nobis augeri et conservari iuxta illud apostoli: "Vobis donatum est pro Christo non solum, ut in eum credatis, verum etiam ut pro illo paciamini."</s>
-					<s n="17" xml:lang="la" type="auto">Alibi enim orant apostoli: "Domine, adauge nobis fidem:" Unde et libenter illud <persName type="auto_name" ref="18700">Augustini</persName> de praedestinatione sanctorum cap. 3. agnoscimus: fidem gratia praeveniri.</s>
+					<s n="17" xml:lang="la" type="auto">Alibi enim orant apostoli: "Domine, adauge nobis fidem:" Unde et libenter illud <persName>Augustini</persName> de praedestinatione sanctorum cap. 3. agnoscimus: fidem gratia praeveniri.</s>
 					<s n="18" xml:lang="la" type="auto">Hic<note type="margin">a.R.: Hinc!</note> nondum renatis hominum viribus nihil tribuimus nisi corruptionem, peccatum voluntarium, culpam ac poenam; renatis spiritu dei propter spiritum dei voluntariam et bonam operationem tribuimus iuxta illud apostoli: "Animalis homo non percipit ea, quae sunt spiritus dei", item: "Non idonei sumus ex nobis ipsis cogitare quicquam tanquam ex nobis ipsis, sed omnis idoneitas nostra ex deo est."</s>
 					<s n="19" xml:lang="la" type="auto">Idem enim alibi dicit: "Deus est, qui agit in vobis, et ut velitis et ut efficiatis pro bono animi proposito."</s>
 					<s n="20" xml:lang="la" type="auto">Nam et in evangelio legitur: "Si vos filius liberavit, vere liberi eritis; nam ubi spiritus domini, ibi libertas."</s>
 					<s n="21" xml:lang="la" type="auto">Ubi tamen nihilominus agnoscimus carnis remanere reliquias, ut iuxta apostoli verbum, quod non volumus, faciamus ideoque illi nosmetipsi mente serviamus legi dei, carne vero legi peccati, ut per totam vitam etiam regenitorum gratia, quod agat, inveniat.</s>
-					<s n="22" xml:lang="la" type="auto">Id enim <persName type="auto_name" ref="18877">David</persName> sentiens dixit: "Ne intres in iudicium cum servo tuo, quia non iustificabitur in conspectu tuo omnis vivens.</s>
+					<s n="22" xml:lang="la" type="auto">Id enim <persName>David</persName> sentiens dixit: "Ne intres in iudicium cum servo tuo, quia non iustificabitur in conspectu tuo omnis vivens.</s>
 					<s n="23" xml:lang="la" type="auto">Porro, quod reprobi verbo dei non credunt, sed impie contra deum vivunt, id quidem ipsis imputari debet, non deo, qui, quos damnat, iuste et merito damnat.</s>
 				</p>
 				<p>

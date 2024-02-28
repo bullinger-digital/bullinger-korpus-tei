@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1228" type="Brief" source="TUSTEP" n="21072">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1228" type="Brief" source="TUSTEP-0" n="21072">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Thomas Naogeorg (Kirchmayer, Hecalius) / Basel AN Heinrich Bullinger / Zürich, 30. März 1551</title>
+				<title subtype="file">Thomas Naogeorg (Kirchmayer, Hecalius) / Basel an Heinrich Bullinger / Zürich, 30. März 1551</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -69,7 +69,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
-					<date when="1551-03-30" cert="low"/>
+					<date when="1551-03-30" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -110,32 +110,36 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1228%2FAutograph%2F00%20Ms_F_42_142_00001.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1228/Autograph/00 Ms_F_42_142_00001.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1228%2FAutograph%2F01%20Ms_F_42_142_00002.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1228/Autograph/01 Ms_F_42_142_00002.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1228%2FAutograph%2F00%20Ms_F_42_142_00001.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1228/Autograph/00 Ms_F_42_142_00001.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1228%2FAutograph%2F01%20Ms_F_42_142_00002.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1228/Autograph/01 Ms_F_42_142_00002.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
-					<s n="2" xml:lang="la" type="auto">Marcii 26. cum omnibus meis <placeName type="auto_name" ref="28">Basilęam</placeName> appuli, utinam bonis (ut aiunt) avibus.</s>
+					<s n="2" xml:lang="la" type="auto">Marcii 26. cum omnibus meis <placeName>Basilęam</placeName> appuli, utinam bonis (ut aiunt) avibus.</s>
 					<s n="3" xml:lang="la" type="auto">Quę mihi proximis literis rescripseris, mente teneo, nempe quod multis egeris argumentis iisque sane fortibus, ne me iuri civili manciparem.</s>
 					<s n="4" xml:lang="la" type="auto">Sed que persuasio possit adferri contra necessitatem, non video.</s>
 					<s n="5" xml:lang="la" type="auto">Nusquam est auxilium ab aliquo iam anno in dimidio.</s>
 					<s n="6" xml:lang="la" type="auto">Derelinquor, fastidior, conculcor passim ut advena et peregrinus, quę ego profecto ab evangelicis viris nunquam expectassem.</s>
 					<s n="7" xml:lang="la" type="auto">Tibi magnas habeo gratias, qui tuum obtuleris patrocinium, quo isthic reciperer in civitatem, quod mihi magni loco beneficii esset, si quid praeterea isthinc sperandum foret.</s>
 					<s n="8" xml:lang="la" type="auto">Non sum adeo pecuniosus, ut meo me succo (quod aiunt) possim diu alere, etiamsi de sumptibus permulta detraham.</s>
-					<s n="9" xml:lang="la" type="auto">Quamobrem, ut illud <persName type="auto_name" ref="19043">Fuggeri</persName> beneficium recipiam, necesse est.</s>
+					<s n="9" xml:lang="la" type="auto">Quamobrem, ut illud <persName>Fuggeri</persName> beneficium recipiam, necesse est.</s>
 					<s n="10" xml:lang="la" type="auto">Si quid tamen interea ecclesiastici aut scholastici negocii occurrerit, recipiam.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Potero fortasse <persName type="auto_name" ref="19043">Fuggero</persName> sua restituere nec moleste laturum scio; nihil enim ille indigens mei.</s>
+					<s n="11" xml:lang="la" type="auto">Potero fortasse <persName>Fuggero</persName> sua restituere nec moleste laturum scio; nihil enim ille indigens mei.</s>
 					<s n="12" xml:lang="la" type="auto">Te rogo, si me hinc, hoc est, ab iuris studio retrahere potes, non verbis, sed factis, ne intermittas; mallem enim hoc, quicquid superest ętatis in alio negocio conterere.</s>
 					<s n="13" xml:lang="la" type="auto">Hęc cursim et vesperi, alias plura.</s>
 					<s n="14" xml:lang="la" type="auto">Bene vale, mi frater, et me commendatum habe.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Ex <placeName type="auto_name" ref="28">Basilęa</placeName> 30. marcii 1551.</s>
+					<s n="15" xml:lang="la" type="auto">Ex <placeName>Basilęa</placeName> 30. marcii 1551.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto"><persName>Thomas Naog[eorgus</persName>] tuus.</s>

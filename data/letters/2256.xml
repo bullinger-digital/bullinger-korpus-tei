@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2256" type="Brief" source="TUSTEP" n="24100">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2256" type="Brief" source="TUSTEP-0" n="24100">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Heinrich Bullinger] / [Zürich] AN Celio Secondo Curione / Basel, 9. April 1554</title>
+				<title subtype="file">[Heinrich Bullinger] / [Zürich] an Celio Secondo Curione / Basel, 9. April 1554</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Basel UB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -132,7 +132,7 @@
 						-->
 					</persName>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
-					<date when="1554-04-09" cert="low"/>
+					<date when="1554-04-09" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p714" cert="high">
@@ -176,15 +176,19 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/2256%2FAutograph%2F00%20G_I_66_Bl_73_01.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2256/Autograph/00 G_I_66_Bl_73_01.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/2256%2FAutograph%2F01%20G_I_66_Bl_73_02.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2256/Autograph/01 G_I_66_Bl_73_02.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/2256%2FAutograph%2F00%20G_I_66_Bl_73_01.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2256/Autograph/00 G_I_66_Bl_73_01.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/2256%2FAutograph%2F01%20G_I_66_Bl_73_02.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2256/Autograph/01 G_I_66_Bl_73_02.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
-					<s n="2" xml:lang="la" type="auto">Reddita est mihi, doctissime <persName type="auto_name">Coeli</persName>, epistola illa tua per d. <persName type="auto_name">Hieronymum Massarium</persName>, qua tantopere contendis ut te expurgem apud d. <persName type="auto_name" ref="8011">Gvaltherum</persName>, et fratrem et affinem meum longe carissimum.</s>
+					<s n="2" xml:lang="la" type="auto">Reddita est mihi, doctissime <persName type="auto_name">Coeli</persName>, epistola illa tua per d. <persName type="auto_name">Hieronymum Massarium</persName>, qua tantopere contendis ut te expurgem apud d. <persName>Gvaltherum</persName>, et fratrem et affinem meum longe carissimum.</s>
 					<s n="3" xml:lang="la" type="auto">Et quidem quum huius nihil unquam audivissem ab ipso, mirabar primum quum tuas legissem, nec potui interquiescere donec ipsi tuas communicassem fideliter literas.</s>
 					<s n="4" xml:lang="la" type="auto">Mirabatur et ille nec aliud respondebat quam se nunquam illa vidisse carmina, neque novisse qua de re sint scripta: tantum abesse ut in te reiecerit autorem.</s>
 					<s n="5" xml:lang="la" type="auto">Haec nolui ignorares tranquilliorique esses animo.</s>
@@ -195,8 +199,8 @@
 				</p>
 				<p>
 					<note type="address">[Adresse:]</note>
-					<s n="8" xml:lang="la" type="auto">Clarissimo viro d. <persName type="auto_name">Coelio Secundo</persName> Curioni doctissimo professori scholae <placeName type="auto_name" ref="28">Basiliensis</placeName> domino colendo et fratri meo carissimo.</s>
-					<s n="9" xml:lang="de" type="auto"><placeName type="auto_name" ref="28">Basel</placeName>.</s>
+					<s n="8" xml:lang="la" type="auto">Clarissimo viro d. <persName type="auto_name">Coelio Secundo</persName> Curioni doctissimo professori scholae <placeName>Basiliensis</placeName> domino colendo et fratri meo carissimo.</s>
+					<s n="9" xml:lang="de" type="auto"><placeName>Basel</placeName>.</s>
 				</p>
 			</div>
 		</body>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file301" type="Brief" source="TUSTEP" n="18257">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file301" type="Brief" source="TUSTEP-0" n="18257">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Heinrich Bullinger] / [Zürich] AN Oswald Myconius (Geißhüsler) / Basel, 13. Oktober 1548</title>
+				<title subtype="file">[Heinrich Bullinger] / [Zürich] an Oswald Myconius (Geißhüsler) / Basel, 13. Oktober 1548</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,11 +16,11 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
-				<bibl type="footnotes">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="footnotes">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -72,7 +72,7 @@
 						-->
 					</persName>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
-					<date when="1548-10-13" cert="low"/>
+					<date when="1548-10-13" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p8418" cert="high">
@@ -116,26 +116,30 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/301%2FAutograph%2F00%20E_II_342__fol__201_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">301/Autograph/00 E_II_342__fol__201_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/301%2FAutograph%2F01%20E_II_342__fol__201_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">301/Autograph/01 E_II_342__fol__201_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/301%2FAutograph%2F00%20E_II_342__fol__201_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">301/Autograph/00 E_II_342__fol__201_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/301%2FAutograph%2F01%20E_II_342__fol__201_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">301/Autograph/01 E_II_342__fol__201_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
-					<s n="2" xml:lang="la" type="auto">Habeo iustam quaerelam contra tuam coniugem, dilecte et colendissime vir, <persName type="auto_name" ref="8418">Myconi</persName>.</s>
+					<s n="2" xml:lang="la" type="auto">Habeo iustam quaerelam contra tuam coniugem, dilecte et colendissime vir, <persName>Myconi</persName>.</s>
 					<s n="3" xml:lang="la" type="auto">Venit illa Tigurum et sero me accedens dumtaxat salutavit, invitata item ad coenam non venit, mane discessit.</s>
 					<s n="4" xml:lang="la" type="auto">Itaque nihil officii in illam contuli; verum ipsa in culpa est.</s>
-					<s n="5" xml:lang="la" type="auto">Ideo conqueror et ita factum eius interpretor: non venit, ne, dum <placeName type="auto_name" ref="28">Basilęam</placeName> descendo, ipse ad te veniam.</s>
-					<s n="6" xml:lang="la" type="auto">Praeterea quod scribam, non habeo, nisi quod multus sermo est <persName type="auto_name">Müssium</persName> latronem apparare exercitum et naves, quibus regis Romani nomine occupet <placeName type="auto_name" ref="457">Constantiam</placeName>, quam Caesar modis omnibus repellit a pacificatione istis interim perseverantibus et Caesari bene faventibus.</s>
+					<s n="5" xml:lang="la" type="auto">Ideo conqueror et ita factum eius interpretor: non venit, ne, dum <placeName>Basilęam</placeName> descendo, ipse ad te veniam.</s>
+					<s n="6" xml:lang="la" type="auto">Praeterea quod scribam, non habeo, nisi quod multus sermo est <persName type="auto_name">Müssium</persName> latronem apparare exercitum et naves, quibus regis Romani nomine occupet <placeName>Constantiam</placeName>, quam Caesar modis omnibus repellit a pacificatione istis interim perseverantibus et Caesari bene faventibus.</s>
 					<s n="7" xml:lang="la" type="auto">Utinam fallantur, qui arbitrantur illam vim multis non fore ingratam.</s>
-					<s n="8" xml:lang="la" type="auto">Utinam vero non capiat <placeName type="auto_name" ref="457">Constantiam</placeName> vel <placeName type="auto_name">Mussius</placeName> latro vel <persName type="auto_name">Madruschius</persName>.</s>
+					<s n="8" xml:lang="la" type="auto">Utinam vero non capiat <placeName>Constantiam</placeName> vel <placeName type="auto_name">Mussius</placeName> latro vel <persName type="auto_name">Madruschius</persName>.</s>
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Video Helvetiae ex ea urbe mala conglomerari ingentia.</s>
 					<s n="10" xml:lang="la" type="auto">Sed sic forte fata volunt.</s>
-					<s n="11" xml:lang="la" type="auto">Oremus dominum pro innocentibus <placeName type="auto_name" ref="457">Constantiensibus</placeName>, imo et pro nobis ipsis; nostra res agitur, proximi dum paries ardet<note xml:id="fn1" type="footnote" n="1">Vgl. <hi>Horaz,</hi> Epistulae, 1, 18, 84.</note>.</s>
+					<s n="11" xml:lang="la" type="auto">Oremus dominum pro innocentibus <placeName>Constantiensibus</placeName>, imo et pro nobis ipsis; nostra res agitur, proximi dum paries ardet<note xml:id="fn1" type="footnote" n="1">Vgl. <hi>Horaz,</hi> Epistulae, 1, 18, 84.</note>.</s>
 					<s n="12" xml:lang="la" type="auto">Dominus servet ecclesiam suam.</s>
 				</p>
 				<p>
@@ -143,7 +147,7 @@
 					<s n="14" xml:lang="la" type="auto">Plura non potui; expecto tuas.</s>
 					<s n="15" xml:lang="la" type="auto">Salvi sint omnes viri boni et uxor tua.</s>
 					<s n="16" xml:lang="la" type="auto">Octobris 13. 1548.</s>
-					<s n="17" xml:lang="la" type="auto">Commendatum scio tibi esse <persName type="auto_name" ref="1214">Frisium</persName> nostrum.</s>
+					<s n="17" xml:lang="la" type="auto">Commendatum scio tibi esse <persName ref="p7569">Frisium</persName> nostrum.</s>
 				</p>
 				<p>
 					<s n="18" xml:lang="la" type="auto">Tuus H[einrychus] B[ullingerus].</s>
@@ -151,7 +155,7 @@
 				<p>
 					<note type="address">[Adresse:]</note>
 					<s n="19" xml:lang="la" type="auto">D. <persName>Osvaldo Myconio</persName>, colendo suo fratri.</s>
-					<s n="20" xml:lang="de" type="auto"><placeName type="auto_name" ref="28">Basel</placeName>.</s>
+					<s n="20" xml:lang="de" type="auto"><placeName>Basel</placeName>.</s>
 				</p>
 			</div>
 		</body>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1365" type="Brief" source="TUSTEP" n="21184">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1365" type="Brief" source="TUSTEP-0" n="21184">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">John Burcher / Strassburg AN Heinrich Bullinger / Zürich, 3. August 1551</title>
+				<title subtype="file">John Burcher / Strassburg an Heinrich Bullinger / Zürich, 3. August 1551</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -83,7 +83,7 @@
 						-->
 					</persName>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
-					<date when="1551-08-03" cert="low"/>
+					<date when="1551-08-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -126,8 +126,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1365%2FAutograph%2F00%20E_II_343__fol__443_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1365/Autograph/00 E_II_343__fol__443_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1365%2FAutograph%2F01%20E_II_343__fol__443_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1365/Autograph/01 E_II_343__fol__443_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1365%2FAutograph%2F00%20E_II_343__fol__443_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1365/Autograph/00 E_II_343__fol__443_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1365%2FAutograph%2F01%20E_II_343__fol__443_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1365/Autograph/01 E_II_343__fol__443_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -137,8 +141,8 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Salutem in domino vitamque beatam!</s>
-					<s n="3" xml:lang="la" type="auto">Ante biduum literas tibi inscriptas, quas ab <placeName type="auto_name">Anglia</placeName> acceperam, <placeName type="auto_name" ref="28">Basileam</placeName> ad <persName type="auto_name">Valentinum Nußboum</persName> mercatorem per <placeName type="auto_name" ref="457">Constantiensem</placeName> nuntium vehendas curavi.</s>
-					<s n="4" xml:lang="la" type="auto">Heri quas per <persName type="auto_name" ref="1214">Frisium</persName> miseras tuto accepi, d. <persName type="auto_name">Hoperi</persName> ad veredarium misi.</s>
+					<s n="3" xml:lang="la" type="auto">Ante biduum literas tibi inscriptas, quas ab <placeName type="auto_name">Anglia</placeName> acceperam, <placeName>Basileam</placeName> ad <persName type="auto_name">Valentinum Nußboum</persName> mercatorem per <placeName>Constantiensem</placeName> nuntium vehendas curavi.</s>
+					<s n="4" xml:lang="la" type="auto">Heri quas per <persName ref="p7569">Frisium</persName> miseras tuto accepi, d. <persName type="auto_name">Hoperi</persName> ad veredarium misi.</s>
 					<s n="5" xml:lang="la" type="auto">Sed quandoquidem non sine sumptibus possent ultra citraque literas vehi, humanitatis tuae id erit huiusce rationem habere.</s>
 					<s n="6" xml:lang="la" type="auto">Uncia quinque crucigeris a <placeName type="auto_name">Spira</placeName> <placeName type="auto_name">Andwerpiam</placeName> vehitur; ut taceam interim hinc <placeName type="auto_name">Spiram</placeName> nuntii mercedem, quae, si paulo maior sit schedula, minor batzio non assolet esse.</s>
 					<s n="7" xml:lang="la" type="auto">Ita homines lucro sunt apud nos dediti, ut liberalitatis officiorumque sint immemores; nihilque agent, quin statim pecuniam, pecuniam vociferabunt: adeo ut iustum premium nonnunquam despicient, et nisi pro libidine postulantis dederis, literas recusabunt.</s>
@@ -157,11 +161,11 @@
 				<p>
 					<s n="17" xml:lang="la" type="auto">Aedidit d. <persName>Petrus Martyr</persName> librum de eucharistia, cui disputationem cum <placeName type="auto_name">Oxoniensibus</placeName> nostris adiunxit.</s>
 					<s n="18" xml:lang="la" type="auto">Hunc librum, si commode possem, ad te mittam.</s>
-					<s n="19" xml:lang="la" type="auto">Laudes item <persName type="auto_name" ref="467">Buceri</persName> defuncti celebrarunt tum carmine tum prosa <placeName type="auto_name">Angli</placeName> nostri.</s>
+					<s n="19" xml:lang="la" type="auto">Laudes item <persName ref="p18198">Buceri</persName> defuncti celebrarunt tum carmine tum prosa <placeName type="auto_name">Angli</placeName> nostri.</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="la" type="auto">Studium et pietatem in qualitercunque meritum utinam vidisses; et ut videas, libellum iis inclusi.</s>
-					<s n="21" xml:lang="la" type="auto"><persName type="auto_name" ref="467">Buceri</persName> mors maximum concordiae commodum affert <placeName type="auto_name">Angliae</placeName>.</s>
+					<s n="21" xml:lang="la" type="auto"><persName ref="p18198">Buceri</persName> mors maximum concordiae commodum affert <placeName type="auto_name">Angliae</placeName>.</s>
 					<s n="22" xml:lang="la" type="auto">Cupiunt proceres <persName type="auto_name">Anglorum</persName> virum non minus eo doctum, qui vices eius ageret: cupio ego illo synceriorem magisque stabilem.</s>
 					<s n="23" xml:lang="la" type="auto">Si quem nosceres tanto onere dignum, fac sciam.</s>
 					<s n="24" xml:lang="la" type="auto">Non dubitarem, quin posset facile ad tantum fastigium promoveri opera aliquorum quos novi, et qui mecum hac de re colloquuti sunt.</s>
@@ -180,7 +184,7 @@
 					<s n="35" xml:lang="la" type="auto">Tuus, <persName type="auto_name">I. B.</persName></s>
 				</p>
 				<p>
-					<s n="36" xml:lang="la" type="auto">Scripsit mihi hodie <placeName type="auto_name" ref="267">Coloniensis</placeName> amicus, <placeName type="auto_name">Magdeburgenses</placeName> erupisse, maximamque victoriam reportasse; adeo ut omnis generis alimenti copiam magnam ab inimicis sint adepti.</s>
+					<s n="36" xml:lang="la" type="auto">Scripsit mihi hodie <placeName>Coloniensis</placeName> amicus, <placeName type="auto_name">Magdeburgenses</placeName> erupisse, maximamque victoriam reportasse; adeo ut omnis generis alimenti copiam magnam ab inimicis sint adepti.</s>
 				</p>
 				<p>
 					<s n="37" xml:lang="la" type="auto">Certo nuntiatur apud nos, <placeName type="auto_name">Magdeburgenses</placeName> miro stratagemate hostes fefellisse 15 iunii.</s>
@@ -191,14 +195,14 @@
 					<s n="42" xml:lang="la" type="auto">Ceciderunt <placeName type="auto_name">Mauritiani</placeName> milites ad octingentos.</s>
 					<s n="43" xml:lang="la" type="auto">Post hanc victoriam, elatiores aliquantulum facti, inimicum iterum invadunt; ubi <placeName type="auto_name">Mardburgensium</placeName> corpora occisa currubus tribus quatuorve plena in civitatem vexerant.</s>
 					<s n="44" xml:lang="la" type="auto">Inimicorum non minus quingentos tamen occisos nuntiatur.</s>
-					<s n="45" xml:lang="la" type="auto">Haec refert nuntius, qui a <placeName type="auto_name" ref="303">Magdeburg</placeName> huc venit.</s>
+					<s n="45" xml:lang="la" type="auto">Haec refert nuntius, qui a <placeName>Magdeburg</placeName> huc venit.</s>
 					<s n="46" xml:lang="la" type="auto">Haec quaeso d. <persName type="auto_name">Sebastiano</persName> amico meo communicato.</s>
 				</p>
 				<p>
 					<s n="47" xml:lang="de" type="auto">Dem fürnemmen wisen hern Heynrich Bullynger, predicanten, mynem günstigen hern und freundt.</s>
 				</p>
 				<p>
-					<s n="48" xml:lang="de" type="auto"><placeName type="auto_name" ref="587">Zurich</placeName>.</s>
+					<s n="48" xml:lang="de" type="auto"><placeName>Zurich</placeName>.</s>
 				</p>
 			</div>
 		</body>

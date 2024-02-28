@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1110" type="Brief" source="TUSTEP" n="20282">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1110" type="Brief" source="TUSTEP-0" n="20282">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Wolfgang Musculus (Müsli, Meuslin) / Bern AN Heinrich Bullinger / Zürich, 16. Dezember 1550</title>
+				<title subtype="file">Wolfgang Musculus (Müsli, Meuslin) / Bern an Heinrich Bullinger / Zürich, 16. Dezember 1550</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -71,7 +71,7 @@
 						-->
 					</persName>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
-					<date when="1550-12-16" cert="low"/>
+					<date when="1550-12-16" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -114,8 +114,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1110%2FAutograph%2F00%20E_II_360__S__133_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1110/Autograph/00 E_II_360__S__133_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1110%2FAutograph%2F01%20E_II_360__S__134_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1110/Autograph/01 E_II_360__S__134_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1110%2FAutograph%2F00%20E_II_360__S__133_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1110/Autograph/00 E_II_360__S__133_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1110%2FAutograph%2F01%20E_II_360__S__134_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1110/Autograph/01 E_II_360__S__134_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -128,7 +132,7 @@
 				<p>
 					<s n="4" xml:lang="la" type="auto">Metuis, ne futurum conciliabulum antichristianorum <persName type="auto_name">Elvetiam</persName> potissimum vocet in discrimen.</s>
 					<s n="5" xml:lang="la" type="auto">Iam dudum hic ea ipsa de re loquutus sum, quibus licuit; verum media nox est, dormiunt omnes.</s>
-					<s n="6" xml:lang="la" type="auto">Admoneo, ut evangelici, Tigurini, <placeName type="auto_name" ref="41">Bernates</placeName>, <placeName type="auto_name" ref="28">Basilienses</placeName>, <persName type="auto_name">Schafhusiani</persName> ac reliqui collaterales, ut ita dicam, animos in tempore coniungant.</s>
+					<s n="6" xml:lang="la" type="auto">Admoneo, ut evangelici, Tigurini, <placeName>Bernates</placeName>, <placeName>Basilienses</placeName>, <persName type="auto_name">Schafhusiani</persName> ac reliqui collaterales, ut ita dicam, animos in tempore coniungant.</s>
 					<s n="7" xml:lang="la" type="auto">Etenim, nisi hoc fiat, non video, quomodo manus constanter et efficaciter iungi possint, ubi occurrendum erit hosti.</s>
 				</p>
 				<p>
@@ -139,7 +143,7 @@
 					<s n="12" xml:lang="la" type="auto">Si conciliabulum hoc processerit, videbimus magnam nequiciam antichristianorum; verum spero dominum consilia principum dissipaturum.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Difficillimum erit <persName type="auto_name" ref="18538">Caesari</persName> ac papae conflare concilium ex Germania, Gallia, Anglia, <persName type="auto_name">Dania</persName>, Polonia, quamvis Hispania et Italia non detrectent.</s>
+					<s n="13" xml:lang="la" type="auto">Difficillimum erit <persName>Caesari</persName> ac papae conflare concilium ex Germania, Gallia, Anglia, <persName type="auto_name">Dania</persName>, Polonia, quamvis Hispania et Italia non detrectent.</s>
 					<s n="14" xml:lang="la" type="auto">Utinam nostri sint vigiles et prudentes.</s>
 					<s n="15" xml:lang="la" type="auto">Optime vale, charissime compater.</s>
 				</p>
@@ -149,7 +153,7 @@
 					<s n="18" xml:lang="la" type="auto">Bernę 16. decembris 1550.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto"><persName type="auto_name" ref="8417">Musculus</persName> tuus.</s>
+					<s n="19" xml:lang="la" type="auto"><persName>Musculus</persName> tuus.</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="la" type="auto">Clarissimo theologo m. Heinrycho Bullingero, Tigurinae ecclesiae pastori vigilantissimo, compatri suo in Christo charissimo.</s>

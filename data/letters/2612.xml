@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2612" type="Brief" source="TUSTEP" n="25058">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2612" type="Brief" source="TUSTEP-0" n="25058">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Johannes Haller d.J. / Bern AN Heinrich Bullinger / Zürich, 15. April 1555</title>
+				<title subtype="file">Johannes Haller d.J. / Bern an Heinrich Bullinger / Zürich, 15. April 1555</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -87,7 +87,7 @@
 						-->
 					</persName>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
-					<date when="1555-04-15" cert="low"/>
+					<date when="1555-04-15" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -131,8 +131,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/2612%2FAutograph%2F00%20E_II_370__fol__217_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2612/Autograph/00 E_II_370__fol__217_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/2612%2FAutograph%2F01%20E_II_370__fol__217_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2612/Autograph/01 E_II_370__fol__217_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/2612%2FAutograph%2F00%20E_II_370__fol__217_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2612/Autograph/00 E_II_370__fol__217_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/2612%2FAutograph%2F01%20E_II_370__fol__217_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2612/Autograph/01 E_II_370__fol__217_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -150,10 +154,10 @@
 					<s n="7" xml:lang="la" type="auto">Fiat, quod tibi visum fuerit; ego alias aditionem non urgeo.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Venerunt praeteritis diebus <placeName type="auto_name">Comanęi</placeName> quidam Romani cucullati cum indulgentiarum mercibus <persName type="auto_name">Friburgum</persName> a Romano pontifice instructi potestate multa.</s>
+					<s n="8" xml:lang="la" type="auto">Venerunt praeteritis diebus <placeName type="auto_name">Comanęi</placeName> quidam Romani cucullati cum indulgentiarum mercibus <placeName>Friburgum</placeName> a Romano pontifice instructi potestate multa.</s>
 					<s n="9" xml:lang="la" type="auto">Sed noluerunt <placeName type="auto_name">Friburgenses</placeName> admittere, ut prostituerent suas merces.</s>
 					<s n="10" xml:lang="la" type="auto">Itaque cum magna indignatione inde discesserunt.</s>
-					<s n="11" xml:lang="la" type="auto">Audio illos <placeName type="auto_name" ref="300">Lucernę</placeName> quoque fuisse et apud Subsylvanos, sed nec illic admissos esse.</s>
+					<s n="11" xml:lang="la" type="auto">Audio illos <placeName>Lucernę</placeName> quoque fuisse et apud Subsylvanos, sed nec illic admissos esse.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Tuas postremas accepi, ad quas nihil est quod amplius respondeam.</s>
@@ -167,7 +171,7 @@
 					<s n="16" xml:lang="la" type="auto">Clarissimo viro d. Heinrycho Bullingero Tigurinae ecclesiae fidelissimio pastori, domino ac compatri suo honorando.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="de" type="auto"><placeName type="auto_name" ref="587">Zürich</placeName>.</s>
+					<s n="17" xml:lang="de" type="auto"><placeName>Zürich</placeName>.</s>
 					<s n="18" xml:lang="de" type="auto">M. Heinrych Bullingern.</s>
 				</p>
 			</div>

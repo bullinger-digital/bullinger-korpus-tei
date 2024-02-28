@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1788" type="Brief" source="TUSTEP" n="23002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1788" type="Brief" source="TUSTEP-0" n="23002">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Martin Betschart (Besardus) / Paris AN Heinrich Bullinger / Zürich, 6. Januar 1553</title>
+				<title subtype="file">Martin Betschart (Besardus) / Paris an Heinrich Bullinger / Zürich, 6. Januar 1553</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -77,7 +77,7 @@
 						-->
 					</persName>
 					<placeName source="l378" cert="high"><orig>Paris</orig></placeName>
-					<date when="1553-01-06" cert="low"><note>«in ipsis feriis regalibus 1553»</note></date>
+					<date when="1553-01-06" cert="high"><note>«in ipsis feriis regalibus 1553»</note></date>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -115,8 +115,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1788%2FAutograph%2F00%20Ms%20F%2037%20(73)_00001.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1788/Autograph/00 Ms F 37 (73)_00001.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1788%2FAutograph%2F01%20Ms%20F%2037%20(73)_00002.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1788/Autograph/01 Ms F 37 (73)_00002.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1788%2FAutograph%2F00%20Ms%20F%2037%20(73)_00001.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1788/Autograph/00 Ms F 37 (73)_00001.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1788%2FAutograph%2F01%20Ms%20F%2037%20(73)_00002.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1788/Autograph/01 Ms F 37 (73)_00002.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -130,16 +134,16 @@
 					<s n="6" xml:lang="la" type="auto">Proinde nemini author esse velim huc mittendi iuventutem ad ista natura proclivem, nisi habeat, quem metuat, quem vereatur, qui assidue officii admoneat, qui, si opus sit, obiurget vel etiam castiget pro meritis.</s>
 					<s n="7" xml:lang="la" type="auto">Hęc vos pro mea erga vos observantia celare non potui, quę pro vestra humanitate aequi bonique consulite, quęso.</s>
 					<s n="8" xml:lang="la" type="auto">Iam immensas vobis omnibus habeo gratias pro officiis mihi adeo benigne a vobis oblatis, quibus utinam aliquando vel aliqua ex parte respondere queam; animus profecto promptissimus est, licet vires sint admodum exiguae.</s>
-					<s n="9" xml:lang="la" type="auto">Resaluta, quęso d. <persName type="auto_name">Lodovicum</persName>, generum tuum, cui ipsi brevi scribam, et d. <persName type="auto_name" ref="1214">Frisium</persName> cęterosque omnes.</s>
+					<s n="9" xml:lang="la" type="auto">Resaluta, quęso d. <persName type="auto_name">Lodovicum</persName>, generum tuum, cui ipsi brevi scribam, et d. <persName ref="p7569">Frisium</persName> cęterosque omnes.</s>
 					<s n="10" xml:lang="la" type="auto">Bene vale, vir pręclarissime simul ac doctissime humanissimeque.</s>
-					<s n="11" xml:lang="la" type="auto"><placeName type="auto_name" ref="378">Parisiis</placeName> in ipsis feriis regalibus 1553.</s>
+					<s n="11" xml:lang="la" type="auto"><placeName>Parisiis</placeName> in ipsis feriis regalibus 1553.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Tibi deditissimus <persName type="auto_name">Martinus Besardus</persName>.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Summa tum pietate tum eruditione prędito viro Henrico Bullingero, ecclesię Tigurinę antistiti, domino suo colendissimo.</s>
-					<s n="14" xml:lang="de" type="auto">Gen <placeName type="auto_name" ref="587">Zürich</placeName>.</s>
+					<s n="14" xml:lang="de" type="auto">Gen <placeName>Zürich</placeName>.</s>
 				</p>
 			</div>
 		</body>

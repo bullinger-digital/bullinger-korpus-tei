@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file807" type="Brief" source="TUSTEP" n="20016">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file807" type="Brief" source="TUSTEP-0" n="20016">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Johannes Gast] / [Basel] AN Heinrich Bullinger / Zürich, 13. Januar 1550</title>
+				<title subtype="file">[Johannes Gast] / [Basel] an Heinrich Bullinger / Zürich, 13. Januar 1550</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -77,7 +77,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
-					<date when="1550-01-13" cert="low"/>
+					<date when="1550-01-13" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -121,8 +121,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/807%2FAutograph%2F00%20E_II_366__fol__166_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">807/Autograph/00 E_II_366__fol__166_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/807%2FAutograph%2F01%20E_II_366__fol__166_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">807/Autograph/01 E_II_366__fol__166_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/807%2FAutograph%2F00%20E_II_366__fol__166_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">807/Autograph/00 E_II_366__fol__166_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/807%2FAutograph%2F01%20E_II_366__fol__166_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">807/Autograph/01 E_II_366__fol__166_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -130,7 +134,7 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Accepi pecunias, quas adolescenti misisti, cui et fideliter dedi, qui fortassis ad vos scripturus est, qui brevi magisterii gradu ornabitur.</s>
-					<s n="3" xml:lang="la" type="auto">Vergerio dedi literas et <persName type="auto_name" ref="8032">Dryandro</persName>, et <persName type="auto_name">Montio</persName> hodie suae literę <placeName type="auto_name" ref="492">Argentinam</placeName> missae sunt; cupisne aliud?</s>
+					<s n="3" xml:lang="la" type="auto">Vergerio dedi literas et <persName>Dryandro</persName>, et <persName type="auto_name">Montio</persName> hodie suae literę <placeName>Argentinam</placeName> missae sunt; cupisne aliud?</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Quid/quod ad me, quomodo uxor <persName type="auto_name">Goliath</persName> se gesserit: priusquam duxit hominis filiam, novit familias fuisse despectas et nihili.</s>
@@ -152,7 +156,7 @@
 					<s n="14" xml:lang="la" type="auto">Mitto praeterea duos libellos de anno iubilęo; utile opus feceris, si sparseris nugas pontificum.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Bullam diaboli puto te iam olim vidisse et ab <persName type="auto_name" ref="3375">Vergerio</persName> accepisse.</s>
+					<s n="15" xml:lang="la" type="auto">Bullam diaboli puto te iam olim vidisse et ab <persName>Vergerio</persName> accepisse.</s>
 					<s n="16" xml:lang="la" type="auto">Non potui bonos viros salutare propter tabellarii abitum.</s>
 					<s n="17" xml:lang="la" type="auto">Vale.</s>
 				</p>
@@ -162,10 +166,10 @@
 					<s n="20" xml:lang="la" type="auto">13. ianuarii 1550.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto">Tuus <persName type="auto_name" ref="1278">Gastius</persName>.</s>
+					<s n="21" xml:lang="la" type="auto">Tuus <persName ref="p18518">Gastius</persName>.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto"><persName type="auto_name" ref="8418">Myconius</persName> rescribet tibi et egre tulit, quod illum voces podagricum et... rum, quum pedibus laboret, ut ingredi nesciat, quod podagra laborare nolit; timet talem morbum et sic se ipsum consolatur.</s>
+					<s n="22" xml:lang="la" type="auto"><persName>Myconius</persName> rescribet tibi et egre tulit, quod illum voces podagricum et... rum, quum pedibus laboret, ut ingredi nesciat, quod podagra laborare nolit; timet talem morbum et sic se ipsum consolatur.</s>
 				</p>
 				<p>
 					<s n="23" xml:lang="la" type="auto">D. Heinrycho Bullingero suo.</s>

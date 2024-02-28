@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file534" type="Brief" source="TUSTEP" n="19125">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file534" type="Brief" source="TUSTEP-0" n="19125">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Johannes Gast] / [Basel] AN Heinrich Bullinger / Zürich, 28. Mai 1549</title>
+				<title subtype="file">[Johannes Gast] / [Basel] an Heinrich Bullinger / Zürich, 28. Mai 1549</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -77,7 +77,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
-					<date when="1549-05-28" cert="low"/>
+					<date when="1549-05-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -121,21 +121,25 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/534%2FAutograph%2F00%20E_II_356__fol__80_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">534/Autograph/00 E_II_356__fol__80_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/534%2FAutograph%2F01%20E_II_356__fol__80_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">534/Autograph/01 E_II_356__fol__80_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/534%2FAutograph%2F00%20E_II_356__fol__80_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">534/Autograph/00 E_II_356__fol__80_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/534%2FAutograph%2F01%20E_II_356__fol__80_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">534/Autograph/01 E_II_356__fol__80_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. in domino.</s>
-					<s n="2" xml:lang="la" type="auto">Libros, queos tu volebas, non extant; sed post nundinas <placeName type="auto_name" ref="492">Argentoratenses</placeName> accipies; verum <persName type="auto_name">Cęlii</persName> libellum mittam brevi cum indice librorum.</s>
+					<s n="2" xml:lang="la" type="auto">Libros, queos tu volebas, non extant; sed post nundinas <placeName>Argentoratenses</placeName> accipies; verum <persName type="auto_name">Cęlii</persName> libellum mittam brevi cum indice librorum.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Quidam <persName type="auto_name">Hispanus</persName> iis diebus ex <placeName type="auto_name">Belgis</placeName> attulit canem, quę peperit uno partu duos lupos et duos canes simul; canem vidi cum monstroso partu apud nos in hospitio publico Ciconię.</s>
 					<s n="4" xml:lang="la" type="auto">Canes deducet famulus in Hispanias.</s>
 					<s n="5" xml:lang="la" type="auto"><persName type="auto_name">Caesar Gandavium</persName> petiit; in ligno chimę recuperavit pristinam sanitatem; iam, quod hactenus consultavit, ad finem deducet.</s>
-					<s n="6" xml:lang="la" type="auto">Legatio <persName type="auto_name" ref="18477">Ferdinandi</persName> apud nos pernoctavit testes in <placeName type="auto_name" ref="1273">Ensisheim</placeName> examinatura contra ducem <persName type="auto_name">Uldarichum Wirtembergensem</persName>.</s>
+					<s n="6" xml:lang="la" type="auto">Legatio <persName>Ferdinandi</persName> apud nos pernoctavit testes in <placeName>Ensisheim</placeName> examinatura contra ducem <persName type="auto_name">Uldarichum Wirtembergensem</persName>.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="de" type="auto">Ich wil üch fruntlich gebetten haben, ir wellent mir helfen umb den 3. <foreign xml:lang="la">tomum <placeName type="auto_name">Zuinglii</placeName>;</foreign> ich hab mit <foreign xml:lang="la">domino <persName type="auto_name">Christophoro</persName></foreign> geredt; er ist willig, mir disen gantz ze machen.</s>
@@ -149,7 +153,7 @@
 					<s n="13" xml:lang="de" type="auto">28. Maii 1549.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">T[uus] <persName type="auto_name">Gastius</persName> ex animo.</s>
+					<s n="14" xml:lang="la" type="auto">T[uus] <persName ref="p18518">Gastius</persName> ex animo.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Nova, quę D. <persName type="auto_name">Theodoro</persName> scripsi, tibi absque dubio communicabit, quę poteris ab eo petere.</s>
@@ -160,7 +164,7 @@
 					<s n="17" xml:lang="la" type="auto">Theologo docto et pio D. Heinricho Bullingero, Tigurinę ecclesiae pastori vigilantissimo, domino suo perpetuo colendo.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="de" type="auto"><placeName type="auto_name" ref="587">Zurich</placeName>.</s>
+					<s n="18" xml:lang="de" type="auto"><placeName>Zurich</placeName>.</s>
 				</p>
 			</div>
 		</body>

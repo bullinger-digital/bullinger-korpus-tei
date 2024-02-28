@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2208" type="Brief" source="TUSTEP" n="24092">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2208" type="Brief" source="TUSTEP-0" n="24092">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Wolfgang Waidner] / [Worms] AN Heinrich Bullinger / Zürich, s.d. März 1554</title>
+				<title subtype="file">[Wolfgang Waidner] / [Worms] an Heinrich Bullinger / Zürich, s.d. März 1554</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Exzerpt" xml:lang="la">
 					<msIdentifier>
@@ -69,7 +69,7 @@
 						-->
 					</persName>
 					<placeName source="l569" cert="low"><orig>Worms</orig></placeName>
-					<date notBefore="1554-03-01" notAfter="1554-03-12" cert="low"/>
+					<date when="1554-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -111,22 +111,26 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/2208%2FExzerpt%2F00%20E_II_371__fol__1230_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2208/Exzerpt/00 E_II_371__fol__1230_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/2208%2FExzerpt%2F01%20E_II_371__fol__1230_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2208/Exzerpt/01 E_II_371__fol__1230_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/2208%2FExzerpt%2F00%20E_II_371__fol__1230_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2208/Exzerpt/00 E_II_371__fol__1230_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/2208%2FExzerpt%2F01%20E_II_371__fol__1230_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2208/Exzerpt/01 E_II_371__fol__1230_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
-					<s n="1" xml:lang="la" type="auto">Ex literis d. d. <persName type="auto_name">Wolfgangi Waidneri</persName> <placeName type="auto_name" ref="569">Wormatiensis</placeName> ad d. Heinrichum Bullingerum propria manu datis... martii anno 1554.</s>
+					<s n="1" xml:lang="la" type="auto">Ex literis d. d. <persName type="auto_name">Wolfgangi Waidneri</persName> <placeName>Wormatiensis</placeName> ad d. Heinrichum Bullingerum propria manu datis... martii anno 1554.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Porro de obligatoriis: Primum habebunt testamentarii mei in mandatis, ut defuncto me redeant illae ad vos apud sanctissimum vestrum senatum conservandae.</s>
 					<s n="3" xml:lang="la" type="auto">Imo, quid si hoc fiat me superstite adhuc retenta mecum sola earundem copia egoque et uxor in recipienda ad dies vitae nostrae constituta annua pensione pendeamus toti a fide senatus et ecclesiae vestrae?</s>
-					<s n="4" xml:lang="la" type="auto">Obitus praeterea cum meus tum uxoris, si non aliunde, puta per testamentarios (nam et illi mortales), sed per mercatores vestros hac <placeName type="auto_name">Francofordiam</placeName> bis in anno euntes ac redeuntes domum innotescere vobis quovis tempore poterit, ut sic in tuto etiam hoc loci sint vobis omnia, maxime autographo prius isthuc translato.</s>
+					<s n="4" xml:lang="la" type="auto">Obitus praeterea cum meus tum uxoris, si non aliunde, puta per testamentarios (nam et illi mortales), sed per mercatores vestros hac <placeName>Francofordiam</placeName> bis in anno euntes ac redeuntes domum innotescere vobis quovis tempore poterit, ut sic in tuto etiam hoc loci sint vobis omnia, maxime autographo prius isthuc translato.</s>
 					<s n="5" xml:lang="la" type="auto">Et ut scias senatus vestri ac Tigurinae ecclesiae autoritatem et fidem quanti faciam, constitui apud me et Basiliensium obligatorias perpetuae memoriae apud vos deponere, hoc nimirum consilio, ut, si unquam (quod deus clementer avertere dignetur) contigerit puriorem doctrinam illic viciari, ecclesiastis eorum vel ad papismum relabentibus vel colludentibus (quod et ipsum abominabile) cum Lutheranis in articulo coenae dominicae et idem in scholis eorum accidat, ut vester Basiliensem senatum obligatoriarum suarum suaviter, amice et fraterne admoneat (nolim enim saeverius, ne videri tum queam inter confoederatos fratres simultatis autor), ut pensionem illam de tribus millibus deinceps annuatim vertant vel ad elocandas pauperes virgines vel alios verorum pauperum Christi pios usus iuxta obligatoriarum postremum articulum.</s>
 					<s n="6" xml:lang="la" type="auto">Quodsi semel aut bis fuerit ita amice et fraterne admonitus et audire neglexerit, relinquatur deinceps iudicio divino.</s>
-					<s n="7" xml:lang="la" type="auto">Hoc enim in casu testis mea mihi conscientia, testes ipsae obligatoriae, quin et ipse Christus in universali iuditio testis erit, quo animo pensionem trium illorum millium me uxoreque defunctis ecclesiae, scholae et pauperibus <placeName type="auto_name" ref="28">Basiliensium</placeName> donarim.</s>
+					<s n="7" xml:lang="la" type="auto">Hoc enim in casu testis mea mihi conscientia, testes ipsae obligatoriae, quin et ipse Christus in universali iuditio testis erit, quo animo pensionem trium illorum millium me uxoreque defunctis ecclesiae, scholae et pauperibus <placeName>Basiliensium</placeName> donarim.</s>
 				</p>
 			</div>
 		</body>

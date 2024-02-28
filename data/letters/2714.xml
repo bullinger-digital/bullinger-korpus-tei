@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2714" type="Brief" source="TUSTEP" n="25138">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2714" type="Brief" source="TUSTEP-0" n="25138">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Simon Sulzer / Basel AN Heinrich Bullinger / Zürich, 3. September 1555</title>
+				<title subtype="file">Simon Sulzer / Basel an Heinrich Bullinger / Zürich, 3. September 1555</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -81,7 +81,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
-					<date when="1555-09-03" cert="low"/>
+					<date when="1555-09-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -123,8 +123,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/2714%2FAutograph%2F00%20E_II_336__fol__406_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2714/Autograph/00 E_II_336__fol__406_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/2714%2FAutograph%2F01%20E_II_336__fol__406_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2714/Autograph/01 E_II_336__fol__406_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/2714%2FAutograph%2F00%20E_II_336__fol__406_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2714/Autograph/00 E_II_336__fol__406_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/2714%2FAutograph%2F01%20E_II_336__fol__406_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2714/Autograph/01 E_II_336__fol__406_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -136,12 +140,12 @@
 					<s n="4" xml:lang="la" type="auto">Neque enim velim vel eas vel iis adiunctas intercidere.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="la" type="auto">Ex <placeName type="auto_name" ref="41">Berna</placeName> et aliunde accipio, gravissima discordia inter se collidi <placeName type="auto_name">Genevatem</placeName> et <placeName type="auto_name" ref="41">Bernensem</placeName> respublicas, eaque nimirum tanto perniciosiore, quod societati praefinitus terminus in februario anni mox sequentis constitutus sit, ut metuendum sit ne ea amplius coalescat adeo exacerbatis utrinque animis.</s>
-					<s n="6" xml:lang="la" type="auto">Quo factum est ut quum nuper legati <placeName type="auto_name" ref="41">Bernenses</placeName> <placeName>Genevam</placeName> ex negotio nescio quo venissent, ita sint accepti ut minore cum gratia quam hac nunquam, adeo ut ne salutati quidem sint a plerisque.</s>
-					<s n="7" xml:lang="la" type="auto">Inde autem id evenire coniicio, quod ob tumultum profugi <placeName>Genevates</placeName> <placeName type="auto_name" ref="41">Bernae</placeName> nimirum per querelas impleverint suspicionibus multorum animos, quibus vicissim et ex altera parte indulgeatur.</s>
-					<s n="8" xml:lang="la" type="auto">Gravatur autem supra modum <persName type="auto_name" ref="540">Calvinus</persName>, cui omnium fere malorum culpa imputatur.</s>
+					<s n="5" xml:lang="la" type="auto">Ex <placeName>Berna</placeName> et aliunde accipio, gravissima discordia inter se collidi <placeName type="auto_name">Genevatem</placeName> et <placeName>Bernensem</placeName> respublicas, eaque nimirum tanto perniciosiore, quod societati praefinitus terminus in februario anni mox sequentis constitutus sit, ut metuendum sit ne ea amplius coalescat adeo exacerbatis utrinque animis.</s>
+					<s n="6" xml:lang="la" type="auto">Quo factum est ut quum nuper legati <placeName>Bernenses</placeName> <placeName>Genevam</placeName> ex negotio nescio quo venissent, ita sint accepti ut minore cum gratia quam hac nunquam, adeo ut ne salutati quidem sint a plerisque.</s>
+					<s n="7" xml:lang="la" type="auto">Inde autem id evenire coniicio, quod ob tumultum profugi <placeName>Genevates</placeName> <placeName>Bernae</placeName> nimirum per querelas impleverint suspicionibus multorum animos, quibus vicissim et ex altera parte indulgeatur.</s>
+					<s n="8" xml:lang="la" type="auto">Gravatur autem supra modum <persName>Calvinus</persName>, cui omnium fere malorum culpa imputatur.</s>
 					<s n="9" xml:lang="la" type="auto">Tantum potest Satanas consueto artificio et stratagemate hostem suum distinguens.</s>
-					<s n="10" xml:lang="la" type="auto">Quare bonis omnibus serio advigilandum est, ut quantum possint operam omnem ad sedandam indignationem utrinque conceptam conferant, recteque fratres <placeName type="auto_name" ref="41">Bernenses</placeName> meo iudicio fecerint si magsitratum suum serio moneant, quo aliorum infirmitatem portet, civilem christianamque coniunctionem foveat, astus diaboli animadvertat et caveat: qui si obtinuerit ut haec duarum celeberrimarum urbium solvatur confoederatio, non parum certe ad exercitanda horribilia scandala confecerit, vulneraque immedicabilia ecclesiae dei intulerit.</s>
+					<s n="10" xml:lang="la" type="auto">Quare bonis omnibus serio advigilandum est, ut quantum possint operam omnem ad sedandam indignationem utrinque conceptam conferant, recteque fratres <placeName>Bernenses</placeName> meo iudicio fecerint si magsitratum suum serio moneant, quo aliorum infirmitatem portet, civilem christianamque coniunctionem foveat, astus diaboli animadvertat et caveat: qui si obtinuerit ut haec duarum celeberrimarum urbium solvatur confoederatio, non parum certe ad exercitanda horribilia scandala confecerit, vulneraque immedicabilia ecclesiae dei intulerit.</s>
 					<s n="11" xml:lang="la" type="auto">Interea precemur dominum.</s>
 					<s n="12" xml:lang="la" type="auto">Vale, quia nuncius festinat.</s>
 					<s n="13" xml:lang="la" type="auto"><placeName>Basileae</placeName> 3a septembris anno 1555.</s>

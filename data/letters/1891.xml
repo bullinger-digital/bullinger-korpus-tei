@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1891" type="Brief" source="TUSTEP" n="23087">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1891" type="Brief" source="TUSTEP-0" n="23087">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Johannes Brenz / Tübingen AN Heinrich Bullinger / Zürich, 6. Juni 1553</title>
+				<title subtype="file">Johannes Brenz / Tübingen an Heinrich Bullinger / Zürich, 6. Juni 1553</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -83,7 +83,7 @@
 						-->
 					</persName>
 					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
-					<date when="1553-06-06" cert="low"/>
+					<date when="1553-06-06" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -120,10 +120,18 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1891%2FAutograph%2F00%20E_II_359__fol__2900_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1891/Autograph/00 E_II_359__fol__2900_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1891%2FAutograph%2F01%20E_II_359__fol__2900_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1891/Autograph/01 E_II_359__fol__2900_v_.tif</desc></graphic>
-		<graphic xml:id="img3" url="https://iiif.bullinger-digital.ch/iiif/3/1891%2FAutograph%2F02%20E_II_359__fol__2900_a_r_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">1891/Autograph/02 E_II_359__fol__2900_a_r_.tif</desc></graphic>
-		<graphic xml:id="img4" url="https://iiif.bullinger-digital.ch/iiif/3/1891%2FAutograph%2F03%20E_II_359__fol__2900_a_v_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">1891/Autograph/03 E_II_359__fol__2900_a_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1891%2FAutograph%2F00%20E_II_359__fol__2900_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1891/Autograph/00 E_II_359__fol__2900_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1891%2FAutograph%2F01%20E_II_359__fol__2900_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1891/Autograph/01 E_II_359__fol__2900_v_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img3-0" url="https://iiif.bullinger-digital.ch/iiif/3/1891%2FAutograph%2F02%20E_II_359__fol__2900_a_r_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">1891/Autograph/02 E_II_359__fol__2900_a_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img4-0" url="https://iiif.bullinger-digital.ch/iiif/3/1891%2FAutograph%2F03%20E_II_359__fol__2900_a_v_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">1891/Autograph/03 E_II_359__fol__2900_a_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -144,7 +152,7 @@
 					<s n="11" xml:lang="la" type="auto">Bene ac fęliciter vale.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto"><placeName type="auto_name" ref="512">Tubingę</placeName> 6. iunii anno 1553.</s>
+					<s n="12" xml:lang="la" type="auto"><placeName>Tubingę</placeName> 6. iunii anno 1553.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto"><persName ref="p17881">Io[annes] Brentius</persName>.</s>
@@ -154,7 +162,7 @@
 				</p>
 				<p>
 					<note type="remark">[Bemerkung von Bullingers Hand:]</note>
-					<s n="15" xml:lang="la" type="auto">"<persName type="auto_name" ref="458">Brentius</persName>."</s>
+					<s n="15" xml:lang="la" type="auto">"<persName ref="p17881">Brentius</persName>."</s>
 				</p>
 			</div>
 		</body>

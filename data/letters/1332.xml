@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1332" type="Brief" source="TUSTEP" n="21157">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1332" type="Brief" source="TUSTEP-0" n="21157">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius (Geißhüsler) / Basel, 8. Juli 1551</title>
+				<title subtype="file">Heinrich Bullinger / Zürich an Oswald Myconius (Geißhüsler) / Basel, 8. Juli 1551</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -71,7 +71,7 @@
 						-->
 					</persName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
-					<date when="1551-07-08" cert="low"/>
+					<date when="1551-07-08" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p8418" cert="high">
@@ -115,8 +115,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1332%2FAutograph%2F00%20E_II_342__fol__260_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1332/Autograph/00 E_II_342__fol__260_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1332%2FAutograph%2F01%20E_II_342__fol__260_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1332/Autograph/01 E_II_342__fol__260_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1332%2FAutograph%2F00%20E_II_342__fol__260_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1332/Autograph/00 E_II_342__fol__260_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1332%2FAutograph%2F01%20E_II_342__fol__260_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1332/Autograph/01 E_II_342__fol__260_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -132,8 +136,8 @@
 					<s n="6" xml:lang="la" type="auto">Si fuerimus concordes, bene spero; sin secus, non est, quod putemus nobis irrogari iniuriam.</s>
 					<s n="7" xml:lang="la" type="auto">Dominus adsit nobis et ecclesiae.</s>
 					<s n="8" xml:lang="la" type="auto">Apud nos gratia deo res bene habent.</s>
-					<s n="9" xml:lang="la" type="auto">A <placeName type="auto_name" ref="1122">Parma</placeName> nihildum certi quicquam habeo; ubi accepero, non carebis iis.</s>
-					<s n="10" xml:lang="la" type="auto">Unum et alterum verbum <persName type="auto_name" ref="1278">Gastio</persName> scripsi.</s>
+					<s n="9" xml:lang="la" type="auto">A <placeName>Parma</placeName> nihildum certi quicquam habeo; ubi accepero, non carebis iis.</s>
+					<s n="10" xml:lang="la" type="auto">Unum et alterum verbum <persName ref="p18518">Gastio</persName> scripsi.</s>
 					<s n="11" xml:lang="la" type="auto">Vale cum tuis omnibus.</s>
 					<s n="12" xml:lang="la" type="auto">Tiguri 8. iulii anno 1551.</s>
 				</p>
@@ -144,7 +148,7 @@
 					<s n="14" xml:lang="la" type="auto">Clarissimo viro d. <persName>Osvaldo Myconio</persName>, domino honorando et fratri colendissimo.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="de" type="auto"><placeName type="auto_name" ref="28">Basel</placeName>.</s>
+					<s n="15" xml:lang="de" type="auto"><placeName>Basel</placeName>.</s>
 				</p>
 			</div>
 		</body>

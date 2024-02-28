@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1012" type="Brief" source="TUSTEP" n="20222">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1012" type="Brief" source="TUSTEP-0" n="20222">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Johannes Gast / Basel AN Heinrich Bullinger / Zürich, s.d. [September 1550]</title>
+				<title subtype="file">Johannes Gast / Basel an Heinrich Bullinger / Zürich, s.d. [September 1550]</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,11 +16,11 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
-				<bibl type="footnotes">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="footnotes">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -72,7 +72,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
-					<date notBefore="1550-09-01" notAfter="1550-09-12" cert="low"><note>nach Schiess</note></date>
+					<date when="1550-09" cert="low"><note>nach Schiess</note></date>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -115,25 +115,33 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1012%2FAutograph%2F00%20E_II_366__fol__106_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1012/Autograph/00 E_II_366__fol__106_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1012%2FAutograph%2F01%20E_II_366__fol__106_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1012/Autograph/01 E_II_366__fol__106_v_.tif</desc></graphic>
-		<graphic xml:id="img3" url="https://iiif.bullinger-digital.ch/iiif/3/1012%2FAutograph%2F02%20E_II_366__fol__106_a_r_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">1012/Autograph/02 E_II_366__fol__106_a_r_.tif</desc></graphic>
-		<graphic xml:id="img4" url="https://iiif.bullinger-digital.ch/iiif/3/1012%2FAutograph%2F03%20E_II_366__fol__106_a_v_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">1012/Autograph/03 E_II_366__fol__106_a_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1012%2FAutograph%2F00%20E_II_366__fol__106_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1012/Autograph/00 E_II_366__fol__106_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1012%2FAutograph%2F01%20E_II_366__fol__106_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1012/Autograph/01 E_II_366__fol__106_v_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img3-0" url="https://iiif.bullinger-digital.ch/iiif/3/1012%2FAutograph%2F02%20E_II_366__fol__106_a_r_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">1012/Autograph/02 E_II_366__fol__106_a_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img4-0" url="https://iiif.bullinger-digital.ch/iiif/3/1012%2FAutograph%2F03%20E_II_366__fol__106_a_v_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">1012/Autograph/03 E_II_366__fol__106_a_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. in domino, Bullingere doctissime.</s>
-					<s n="2" xml:lang="la" type="auto">Catalogum librorum <placeName type="auto_name" ref="28">Basileę</placeName> excusorum hic mitto.</s>
+					<s n="2" xml:lang="la" type="auto">Catalogum librorum <placeName>Basileę</placeName> excusorum hic mitto.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Folenii nihil ediderunt, habent sub prelo opera d. <persName type="auto_name" ref="18489">Gregorii</persName> et <persName type="auto_name" ref="18887">Basilium</persName> Gręcum supl.</s>
+					<s n="3" xml:lang="la" type="auto">Folenii nihil ediderunt, habent sub prelo opera d. <persName>Gregorii</persName> et <persName>Basilium</persName> Gręcum supl.</s>
 					<s n="4" xml:lang="la" type="auto">auctior quam fuit antea.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto"><persName type="auto_name">Isengrynius</persName> nihil edidit quam <placeName type="auto_name">Glareani</placeName> libellum, quem habes.</s>
-					<s n="6" xml:lang="la" type="auto"><persName type="auto_name">Habet Simplicii</persName> commentaria Gręca sub prelo et <persName type="auto_name" ref="18432">Aristotelem</persName>.</s>
+					<s n="6" xml:lang="la" type="auto"><persName type="auto_name">Habet Simplicii</persName> commentaria Gręca sub prelo et <persName>Aristotelem</persName>.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto"><persName>Heinricus Petri</persName> edidit patres quosdam varios et iam olim excus et <persName type="auto_name">Artopoei</persName> Postillam.</s>
@@ -142,7 +150,7 @@
 					<s n="8" xml:lang="la" type="auto"><persName type="auto_name">Bryllingerus Pantaleonis</persName> Cronographiam, qualis sit liber, nosti, et biblicos libros Gręcos et Latinos.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName type="auto_name" ref="8126">Oporinus</persName> edidit: In Esa.</s>
+					<s n="9" xml:lang="la" type="auto"><persName>Oporinus</persName> edidit: In Esa.</s>
 					<s n="10" xml:lang="la" type="auto">cap. 53. de passione, morte et resurrectione Christi; in Psalm.</s>
 					<s n="11" xml:lang="la" type="auto">21 de cerva matutina; in Psal. 1. et 2.; in evangelia Nativitatis et Trinitatis annotationes et argumenta <persName type="auto_name">Georgii Aemylii</persName> <placeName type="auto_name">Mansfeldensis</placeName> in schola Sigensi pręlectę.</s>
 				</p>
@@ -157,7 +165,7 @@
 					<s n="15" xml:lang="la" type="auto">libri 8, quibus amplissima rei militaris doctrina continetur, e Gręco in Latinum sermonem conversi per <persName type="auto_name">Iustum Walterum</persName> Wetteranum.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto"><persName type="auto_name">Ioannis Moriseti</persName> medici Colloquiorum libri 4, ad <persName type="auto_name">Constantinum</persName> filium; eiusdem libellus de parechemate contra <persName type="auto_name" ref="4544">Ciceronis</persName> calumniatores.</s>
+					<s n="16" xml:lang="la" type="auto"><persName type="auto_name">Ioannis Moriseti</persName> medici Colloquiorum libri 4, ad <persName type="auto_name">Constantinum</persName> filium; eiusdem libellus de parechemate contra <persName>Ciceronis</persName> calumniatores.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto"><persName type="auto_name">Nicolai Gerbellii</persName> Phorcensis pro declaratione picturę sive descriptionis Gręciae <placeName type="auto_name">Sophiani</placeName> libri 6.</s>
@@ -196,7 +204,7 @@
 					<s n="30" xml:lang="la" type="auto">Xysti <persName type="auto_name">Betuleii Augustani</persName> in M. <persName type="auto_name">T. Ciceronis</persName> libros 3 de natura deorum et Paradoxa commentaria.</s>
 				</p>
 				<p>
-					<s n="31" xml:lang="la" type="auto"><persName type="auto_name" ref="5213">Hervagius</persName>: <persName type="auto_name">Guidonis Bonati</persName> Foroliviensis mathematici de astrologia tractatus 10, universum, quod iudiciariam rationem nativitatum, artis, tempestatum attinet, comprehendentes.</s>
+					<s n="31" xml:lang="la" type="auto"><persName>Hervagius</persName>: <persName type="auto_name">Guidonis Bonati</persName> Foroliviensis mathematici de astrologia tractatus 10, universum, quod iudiciariam rationem nativitatum, artis, tempestatum attinet, comprehendentes.</s>
 				</p>
 				<p>
 					<s n="32" xml:lang="la" type="auto">Adiectus est: <persName type="auto_name">Cl. Ptolemaei</persName> liber... cum commentariis vetustissimis <persName type="auto_name">Georgii Trapezuntii</persName>.</s>
@@ -205,13 +213,13 @@
 					<s n="33" xml:lang="la" type="auto">Euclidis Megarensis philosophi et mathematici sex libri, priores de geometrices principiis Gręci et Latini una cum demonstrationibus propositionum absque literarum notis etc.</s>
 				</p>
 				<p>
-					<s n="34" xml:lang="la" type="auto">Algabrae porro regulae propter numerorum exempla passim propositionibus adiecta his libris premissę sunt auctore <persName type="auto_name">Ioanne Scheubelio</persName> in academia <placeName type="auto_name" ref="512">Tubingensi</placeName> Euclidis professore ordinario.</s>
+					<s n="34" xml:lang="la" type="auto">Algabrae porro regulae propter numerorum exempla passim propositionibus adiecta his libris premissę sunt auctore <persName type="auto_name">Ioanne Scheubelio</persName> in academia <placeName>Tubingensi</placeName> Euclidis professore ordinario.</s>
 				</p>
 				<p>
 					<s n="35" xml:lang="la" type="auto">Opera Nazianzeni Gręce et Latine, omnia quae extant.</s>
-					<s n="36" xml:lang="la" type="auto">Hii sunt libri, quos <placeName type="auto_name" ref="28">Basilea</placeName> iis nundinis <placeName type="auto_name" ref="157">Francofordianis</placeName> edidit.</s>
-					<s n="37" xml:lang="la" type="auto">Deus bone, quae fęcunda procreatrix librorum <placeName type="auto_name" ref="28">Basilea</placeName>.</s>
-					<s n="38" xml:lang="la" type="auto"><placeName>Augustę</placeName> quid agatur, cupio scire; varia enim sparguntur: <persName type="auto_name" ref="7706">Granvellam</persName> esse mortuum aiunt mortis genere execrando, quidam aliud dicunt.</s>
+					<s n="36" xml:lang="la" type="auto">Hii sunt libri, quos <placeName>Basilea</placeName> iis nundinis <placeName>Francofordianis</placeName> edidit.</s>
+					<s n="37" xml:lang="la" type="auto">Deus bone, quae fęcunda procreatrix librorum <placeName>Basilea</placeName>.</s>
+					<s n="38" xml:lang="la" type="auto"><placeName>Augustę</placeName> quid agatur, cupio scire; varia enim sparguntur: <persName>Granvellam</persName> esse mortuum aiunt mortis genere execrando, quidam aliud dicunt.</s>
 					<s n="39" xml:lang="la" type="auto">Si quid tu certi habes, communica.</s>
 				</p>
 				<p>

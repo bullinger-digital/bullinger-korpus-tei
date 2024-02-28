@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2629" type="Brief" source="TUSTEP" n="25072">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2629" type="Brief" source="TUSTEP-0" n="25072">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Charles du Moulin / Mömpelgard AN Heinrich Bullinger / Zürich, 5. Mai 1555</title>
+				<title subtype="file">Charles du Moulin / Mömpelgard an Heinrich Bullinger / Zürich, 5. Mai 1555</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -72,7 +72,7 @@
 						-->
 					</persName>
 					<placeName source="l333" cert="high"><orig>Mömpelgard</orig></placeName>
-					<date when="1555-05-05" cert="low"/>
+					<date when="1555-05-05" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -113,8 +113,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/2629%2FAutograph%2F00%20E_II_358__fol__235_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2629/Autograph/00 E_II_358__fol__235_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/2629%2FAutograph%2F01%20E_II_358__fol__235_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2629/Autograph/01 E_II_358__fol__235_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/2629%2FAutograph%2F00%20E_II_358__fol__235_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2629/Autograph/00 E_II_358__fol__235_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/2629%2FAutograph%2F01%20E_II_358__fol__235_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2629/Autograph/01 E_II_358__fol__235_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -122,21 +126,21 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. P.</s>
 					<s n="2" xml:lang="la" type="auto">Doctor et pastor ecclesiae pientissime, valde falsus sum intentione mea, dum publicam magis quam privatam causam aspicio.</s>
-					<s n="3" xml:lang="la" type="auto">Literas tuas datas 22. martii recepi 2. aprilis <placeName type="auto_name" ref="492">Argentinae</placeName>, quam pridie ingressus postridie redii, nec aliud me male habet, nisi quod video spem familiae e <placeName type="auto_name">Galliis</placeName> eruendae pene abs[c]issam.</s>
+					<s n="3" xml:lang="la" type="auto">Literas tuas datas 22. martii recepi 2. aprilis <placeName>Argentinae</placeName>, quam pridie ingressus postridie redii, nec aliud me male habet, nisi quod video spem familiae e <placeName type="auto_name">Galliis</placeName> eruendae pene abs[c]issam.</s>
 					<s n="4" xml:lang="la" type="auto">Dum autem ad te scripsi initio martii recentes literas ab uxore receperam monente, ut curarem permissionem regis habere, ut ad me accedere posset, simul et ab uno insigni typographo, qui etiam ad me accedere cupiebat e <placeName type="auto_name">Galliis</placeName>, si conditio tolerabilis ei daretur.</s>
 					<s n="5" xml:lang="la" type="auto">Et tum iam mensem integrum frustra egeram de schola hic erigenda.</s>
-					<s n="6" xml:lang="la" type="auto">Quare videns locum magis idoneum et tutiorem typographo <placeName type="auto_name" ref="492">Argentinę</placeName> quam hic et confidens fore, ut senatus <placeName type="auto_name" ref="492">Argentinensis</placeName>, postquam industriam meam expertus esset, scriberet regi pro familiae exitu, scripsi ad amicos <placeName type="auto_name" ref="492">Argentinam</placeName>, ut et tibi significavi.</s>
+					<s n="6" xml:lang="la" type="auto">Quare videns locum magis idoneum et tutiorem typographo <placeName>Argentinę</placeName> quam hic et confidens fore, ut senatus <placeName>Argentinensis</placeName>, postquam industriam meam expertus esset, scriberet regi pro familiae exitu, scripsi ad amicos <placeName>Argentinam</placeName>, ut et tibi significavi.</s>
 					<s n="7" xml:lang="la" type="auto">Sed iam res (quod me latebat) eodem momento desivit esse integra; dominus enim <persName type="auto_name">Franciscus Balduinus</persName> se in locum, quem Argentinę habueram, recipi fecerat, et amici fere stomachabunde rescripserunt varietatis insimulantes, quod nuper Balduinum ad eos miseram, quem iuxta commendationem meam receperant.</s>
-					<s n="8" xml:lang="la" type="auto">Ego certe rogantem evocaveram e <placeName type="auto_name">Galliis</placeName>, ut in locum meum subrogarem <placeName type="auto_name" ref="512">Tubingam</placeName> de consensu principis, cui illum nominaveram.</s>
+					<s n="8" xml:lang="la" type="auto">Ego certe rogantem evocaveram e <placeName type="auto_name">Galliis</placeName>, ut in locum meum subrogarem <placeName>Tubingam</placeName> de consensu principis, cui illum nominaveram.</s>
 					<s n="9" xml:lang="la" type="auto">Fuit is ante annos duodecim unus et principalis e meis amanuensibus, qui potiora mea scripta excipiebat et in mundum redigebat docta celeritate, quem postea Biturigibus nominavi in professorem iuris et iuxta nominationem meam receptus fuit et septem annos ibi cum laude professus.</s>
-					<s n="10" xml:lang="la" type="auto">Literas eius <placeName type="auto_name" ref="512">Tubingae</placeName> recepi rogantes, ut vel qualemcunque honestam conditionem (idolomaniae fugiende causa) in Germania haberet.</s>
-					<s n="11" xml:lang="la" type="auto">Ego potiora illi daturus (postquam egi cum duce <placeName type="auto_name">Virtenbergensi</placeName> mense septembri), ut is in locum meum subrogaretur, scripsi illi ad finem septembris e <placeName type="auto_name" ref="512">Tubinga</placeName> quod in gratias eius egerim, et mox victoria papatus habita in schola instabant Vergerius et ceteri amici, ut manerem, et habitatio percommoda offerebatur, et mansissem, nisi iam literae Bituris missae a me fuissent <persName type="auto_name">Balduino</persName>, quem illudi nolebam.</s>
-					<s n="12" xml:lang="la" type="auto">Qui acceptavit conditionem, quam habebam ab academia <placeName type="auto_name" ref="512">Tubingensi</placeName>, et venit hic 10. februarii, quem (ut ei rescripseram) sumptibus meis domi tenere volui, donec (quod brevi futurum erat) literas ducis reciperet.</s>
-					<s n="13" xml:lang="la" type="auto">Dixit se interim petiturum <placeName type="auto_name" ref="28">Basileam</placeName>, deinde <placeName type="auto_name" ref="492">Argentinam</placeName>, ex qua scripsit ad me se expectare literas ducis, quare nihil minus cogitabam quam illum (me prius non monito) propositum mutasse aut aliud simulare.</s>
-					<s n="14" xml:lang="la" type="auto">Si me rogasset aut significasset se malle conditionem <placeName type="auto_name" ref="492">Argentinensem</placeName>, ego diserte in eius favorem <placeName type="auto_name" ref="492">Argentinam</placeName> scripsissem nec tantum illum commendassem, ut honesta pensione interim in diversorio exciperetur.</s>
+					<s n="10" xml:lang="la" type="auto">Literas eius <placeName>Tubingae</placeName> recepi rogantes, ut vel qualemcunque honestam conditionem (idolomaniae fugiende causa) in Germania haberet.</s>
+					<s n="11" xml:lang="la" type="auto">Ego potiora illi daturus (postquam egi cum duce <placeName type="auto_name">Virtenbergensi</placeName> mense septembri), ut is in locum meum subrogaretur, scripsi illi ad finem septembris e <placeName>Tubinga</placeName> quod in gratias eius egerim, et mox victoria papatus habita in schola instabant Vergerius et ceteri amici, ut manerem, et habitatio percommoda offerebatur, et mansissem, nisi iam literae Bituris missae a me fuissent <persName type="auto_name">Balduino</persName>, quem illudi nolebam.</s>
+					<s n="12" xml:lang="la" type="auto">Qui acceptavit conditionem, quam habebam ab academia <placeName>Tubingensi</placeName>, et venit hic 10. februarii, quem (ut ei rescripseram) sumptibus meis domi tenere volui, donec (quod brevi futurum erat) literas ducis reciperet.</s>
+					<s n="13" xml:lang="la" type="auto">Dixit se interim petiturum <placeName>Basileam</placeName>, deinde <placeName>Argentinam</placeName>, ex qua scripsit ad me se expectare literas ducis, quare nihil minus cogitabam quam illum (me prius non monito) propositum mutasse aut aliud simulare.</s>
+					<s n="14" xml:lang="la" type="auto">Si me rogasset aut significasset se malle conditionem <placeName>Argentinensem</placeName>, ego diserte in eius favorem <placeName>Argentinam</placeName> scripsissem nec tantum illum commendassem, ut honesta pensione interim in diversorio exciperetur.</s>
 					<s n="15" xml:lang="la" type="auto">Ad querulas illas literas amicorum rescribere nolui, sed ipse calendis aprilis presens ostendi gratam habere <persName type="auto_name">Balduini</persName> receptionem, sed gratiorem, si premonitus fuissem.</s>
-					<s n="16" xml:lang="la" type="auto">Semper enim palam dixeram me <placeName type="auto_name" ref="492">Argentinam</placeName> rediturum, si scholae hic erigendae spes a principibus facta deficeret, nec in proposito varius fui, sed quia variare nolui, interceptus fui.</s>
-					<s n="17" xml:lang="la" type="auto">Poteram <placeName type="auto_name" ref="492">Argentinae</placeName> manere sine illa professione et meis consultationibus plenius quam hic exiberi, quod facturus eram, si Argentinenses pro familiae meae exitu regi scribere voluissent: quod cum intellexissem impetrari non posse, huc redii rursus tractaturus convenientibus principibus in nuptiis comitis; sed illae iam a maio in <placeName type="auto_name" ref="1976">Augustam</placeName> differuntur.</s>
+					<s n="16" xml:lang="la" type="auto">Semper enim palam dixeram me <placeName>Argentinam</placeName> rediturum, si scholae hic erigendae spes a principibus facta deficeret, nec in proposito varius fui, sed quia variare nolui, interceptus fui.</s>
+					<s n="17" xml:lang="la" type="auto">Poteram <placeName>Argentinae</placeName> manere sine illa professione et meis consultationibus plenius quam hic exiberi, quod facturus eram, si Argentinenses pro familiae meae exitu regi scribere voluissent: quod cum intellexissem impetrari non posse, huc redii rursus tractaturus convenientibus principibus in nuptiis comitis; sed illae iam a maio in <placeName>Augustam</placeName> differuntur.</s>
 					<s n="18" xml:lang="la" type="auto">Vale.</s>
 					<s n="19" xml:lang="la" type="auto">Dominus te ecclesiae suae augendae et protegende servet et bene prosperet.</s>
 					<s n="20" xml:lang="la" type="auto"><placeName type="auto_name">Montbelgardi</placeName> 3. nonas maii 1555.</s>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file478" type="Brief" source="TUSTEP" n="19073">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file478" type="Brief" source="TUSTEP-0" n="19073">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius (Geißhüsler) / Basel, 29. März 1549</title>
+				<title subtype="file">Heinrich Bullinger / Zürich an Oswald Myconius (Geißhüsler) / Basel, 29. März 1549</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -71,7 +71,7 @@
 						-->
 					</persName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
-					<date when="1549-03-29" cert="low"/>
+					<date when="1549-03-29" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p8418" cert="high">
@@ -115,25 +115,29 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/478%2FAutograph%2F00%20E_II_342__fol__209_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">478/Autograph/00 E_II_342__fol__209_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/478%2FAutograph%2F01%20E_II_342__fol__209_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">478/Autograph/01 E_II_342__fol__209_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/478%2FAutograph%2F00%20E_II_342__fol__209_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">478/Autograph/00 E_II_342__fol__209_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/478%2FAutograph%2F01%20E_II_342__fol__209_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">478/Autograph/01 E_II_342__fol__209_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
-					<s n="2" xml:lang="la" type="auto">Qui hasce tibi literas affert, colendissime mi <persName type="auto_name" ref="8418">Myconi</persName>, <placeName type="auto_name" ref="98">Curiensis</placeName> est puer.</s>
+					<s n="2" xml:lang="la" type="auto">Qui hasce tibi literas affert, colendissime mi <persName>Myconi</persName>, <placeName>Curiensis</placeName> est puer.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Venerunt ad me d. <persName type="auto_name" ref="3196">Tscharnerus</persName> et <persName type="auto_name">Herus</persName> oraruntque, ut ipsum meis tibi literis commendarem.</s>
+					<s n="3" xml:lang="la" type="auto">Venerunt ad me d. <persName>Tscharnerus</persName> et <persName type="auto_name">Herus</persName> oraruntque, ut ipsum meis tibi literis commendarem.</s>
 					<s n="4" xml:lang="la" type="auto">Fuit apud vos <placeName>Basileae</placeName>, sed in morbum (ita mihi referunt) incidit et ideo discessit.</s>
 					<s n="5" xml:lang="la" type="auto">Si ergo ita habet res et ipsum iuvare potes, oro, vel propter me illi adsis.</s>
 					<s n="6" xml:lang="la" type="auto">Nihil est apud nos admodum memorabile, quod te dignum scribam.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Vale ergo.</s>
-					<s n="8" xml:lang="la" type="auto">A te expecto, quid habeas ab <placeName type="auto_name" ref="492">Argentina</placeName> et Inferiore Germania.</s>
+					<s n="8" xml:lang="la" type="auto">A te expecto, quid habeas ab <placeName>Argentina</placeName> et Inferiore Germania.</s>
 					<s n="9" xml:lang="la" type="auto">Tiguri 29. Martii anno 1549.</s>
 				</p>
 				<p>
@@ -142,7 +146,7 @@
 				<p>
 					<note type="address">[Adresse:]</note>
 					<s n="11" xml:lang="la" type="auto">D. <persName>Osvaldo Myconio</persName>, charissimo fratri suo.</s>
-					<s n="12" xml:lang="de" type="auto"><placeName type="auto_name" ref="28">Basel</placeName>.</s>
+					<s n="12" xml:lang="de" type="auto"><placeName>Basel</placeName>.</s>
 				</p>
 			</div>
 		</body>

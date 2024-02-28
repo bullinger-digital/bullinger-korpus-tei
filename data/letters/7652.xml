@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file7652" type="Brief" source="TUSTEP" n="38126">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file7652" type="Brief" source="TUSTEP-0" n="38126">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Scipione Lentolo (Lentulus) / Chiavenna AN [Heinrich Bullinger], 31. Oktober 1568</title>
+				<title subtype="file">Scipione Lentolo (Lentulus) / Chiavenna an [Heinrich Bullinger], 31. Oktober 1568</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -63,7 +63,7 @@
 						-->
 					</persName>
 					<placeName source="l93" cert="high"><orig>Chiavenna</orig></placeName>
-					<date when="1568-10-31" cert="low"/>
+					<date when="1568-10-31" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="low">
@@ -104,15 +104,19 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/7652%2FAutograph%2F00%20E_II_365__S__317_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">7652/Autograph/00 E_II_365__S__317_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/7652%2FAutograph%2F01%20E_II_365__S__318_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">7652/Autograph/01 E_II_365__S__318_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/7652%2FAutograph%2F00%20E_II_365__S__317_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">7652/Autograph/00 E_II_365__S__317_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/7652%2FAutograph%2F01%20E_II_365__S__318_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">7652/Autograph/01 E_II_365__S__318_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
-					<note type="regest">[Er dankt für wiederholte Grüsse Bullingers, die ihm durch <placeName type="auto_name">Campell</placeName> und <persName type="auto_name" ref="4679">Egli</persName> ausgerichtet worden sind. Neuigkeiten berichtet er dem letzteren, damit er sie Bullinger zukommen lasse.]</note>
-					<s n="1" xml:lang="la" type="auto">De fratre captivo et abducto <placeName type="auto_name" ref="425">Romam</placeName> nihil certi.</s>
+					<note type="regest">[Er dankt für wiederholte Grüsse Bullingers, die ihm durch <placeName type="auto_name">Campell</placeName> und <persName>Egli</persName> ausgerichtet worden sind. Neuigkeiten berichtet er dem letzteren, damit er sie Bullinger zukommen lasse.]</note>
+					<s n="1" xml:lang="la" type="auto">De fratre captivo et abducto <placeName>Romam</placeName> nihil certi.</s>
 					<s n="2" xml:lang="la" type="auto">Magistratus hic proscripsit grassatores illos, qui illum vinxerint.</s>
 					<s n="3" xml:lang="la" type="auto">Speramus ultra esse progressuros dominos nostros, quo tantam vindicent iniuriam.</s>
 					<s n="4" xml:lang="la" type="auto">- Morben[n]ienses elegerunt in verbi ministrum insignem illum et illustrem virum d. comitem <placeName type="auto_name">Ulyssem</placeName>, qui nunc hic <placeName type="auto_name">Clavennae</placeName> degit adhuc praelucens bonis omnibus syncera pietate rectaque vivendi ratione insigniter.</s>

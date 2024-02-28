@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1070" type="Brief" source="TUSTEP" n="20248">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1070" type="Brief" source="TUSTEP-0" n="20248">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Johannes Gast / Basel AN Heinrich Bullinger / Zürich, 4. November 1550</title>
+				<title subtype="file">Johannes Gast / Basel an Heinrich Bullinger / Zürich, 4. November 1550</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -70,7 +70,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
-					<date when="1550-11-04" cert="low"/>
+					<date when="1550-11-04" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -113,8 +113,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1070%2FAutograph%2F00%20E_II_366__fol__154_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1070/Autograph/00 E_II_366__fol__154_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1070%2FAutograph%2F01%20E_II_366__fol__154_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1070/Autograph/01 E_II_366__fol__154_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1070%2FAutograph%2F00%20E_II_366__fol__154_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1070/Autograph/00 E_II_366__fol__154_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1070%2FAutograph%2F01%20E_II_366__fol__154_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1070/Autograph/01 E_II_366__fol__154_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -123,7 +127,7 @@
 					<s n="1" xml:lang="la" type="auto">S. in domino.</s>
 					<s n="2" xml:lang="la" type="auto">Non satis mirari posse, qoud nullas ad me literas dederis in hoc rerum tumultu, ubi omnia susque deque feruntur.</s>
 					<s n="3" xml:lang="la" type="auto">Caear aegrotat strenue; forte habet cadaver, quod dissolvi nescit.</s>
-					<s n="4" xml:lang="la" type="auto"><persName type="auto_name" ref="18477">Ferdinandus</persName> rex in periculo est ingenti ob Turcę incursiones, quas <placeName type="auto_name">Transsylvania</placeName>; timent quidam, cum totam illam ditionem iam subiecerit.</s>
+					<s n="4" xml:lang="la" type="auto"><persName>Ferdinandus</persName> rex in periculo est ingenti ob Turcę incursiones, quas <placeName type="auto_name">Transsylvania</placeName>; timent quidam, cum totam illam ditionem iam subiecerit.</s>
 					<s n="5" xml:lang="la" type="auto">Nos diu consultamus et praecipue contra Christum consilia excogitamus; sed dominus aliud solet excogitare, quod impedire solet impiorum hominum consultationes, quibus nihil aliud instituunt quam Christi verbum cum ministris suis perdere.</s>
 				</p>
 				<p>
@@ -136,7 +140,7 @@
 					<s n="8" xml:lang="la" type="auto">Certe pręterea dicitur comitia Augustę suspensa esse usque ad calendas februarias.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Duo egregii fratres obierunt iis diebus <placeName type="auto_name" ref="492">Argentinę</placeName>, alter Kigelius alter <persName type="auto_name">Marcus Heilandt</persName>, qui olim in agro <placeName type="auto_name" ref="28">Basiliensi</placeName> verbum domini praedicavit, quem egregie d. <persName type="auto_name" ref="8127">Pellicanus</persName> novit.</s>
+					<s n="9" xml:lang="la" type="auto">Duo egregii fratres obierunt iis diebus <placeName>Argentinę</placeName>, alter Kigelius alter <persName type="auto_name">Marcus Heilandt</persName>, qui olim in agro <placeName>Basiliensi</placeName> verbum domini praedicavit, quem egregie d. <persName>Pellicanus</persName> novit.</s>
 					<s n="10" xml:lang="la" type="auto">Strenue in negotio domini laborarunt et praecipue pugnarunt contra Interim.</s>
 				</p>
 				<p>
@@ -147,17 +151,17 @@
 					<s n="13" xml:lang="la" type="auto">Pauci nostro seculo scribunt; omnes timent potentiam illius, qui quiescere nescit, donec a domino prosternatur et rapiatur usque ad inferos.</s>
 					<s n="14" xml:lang="la" type="auto">Mittam brevi Magdenburgensium cladem, qui libellus apud nos excuditur.</s>
 					<s n="15" xml:lang="la" type="auto">Vale.</s>
-					<s n="16" xml:lang="la" type="auto"><placeName type="auto_name" ref="28">Basileę</placeName> 4. novembris 1550.</s>
+					<s n="16" xml:lang="la" type="auto"><placeName>Basileę</placeName> 4. novembris 1550.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">T[uus] <persName type="auto_name">Ioannes</persName> <persName type="auto_name" ref="1278">Gastius</persName> ex animo.</s>
+					<s n="17" xml:lang="la" type="auto">T[uus] <persName type="auto_name">Ioannes</persName> <persName ref="p18518">Gastius</persName> ex animo.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">D. <persName type="auto_name" ref="1214">Frisium</persName> nostrum salutabis meo nomine, si me adhuc agnoscit suum.</s>
+					<s n="18" xml:lang="la" type="auto">D. <persName ref="p7569">Frisium</persName> nostrum salutabis meo nomine, si me adhuc agnoscit suum.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">Ex <placeName type="auto_name" ref="61">Saxonia</placeName> nihil habemus.</s>
-					<s n="20" xml:lang="la" type="auto">Misi literas tuas <placeName type="auto_name" ref="1976">Augustam</placeName> ad bonum amicum, qui dedit aulicis <persName type="auto_name" ref="18250">Mauricii</persName> ducis, qui diligentissime curare volunt.</s>
+					<s n="19" xml:lang="la" type="auto">Ex <placeName>Saxonia</placeName> nihil habemus.</s>
+					<s n="20" xml:lang="la" type="auto">Misi literas tuas <placeName>Augustam</placeName> ad bonum amicum, qui dedit aulicis <persName>Mauricii</persName> ducis, qui diligentissime curare volunt.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">D. Heinrycho Bullingero, pastori Tigurinę ecclesiae vigilantissimo praeceptorique suo charissimo.</s>

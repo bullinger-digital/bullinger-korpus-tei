@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2353" type="Brief" source="TUSTEP" n="24160">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2353" type="Brief" source="TUSTEP-0" n="24160">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Charles du Moulin / Tübingen AN Heinrich Bullinger / Zürich, 31. Juli 1554</title>
+				<title subtype="file">Charles du Moulin / Tübingen an Heinrich Bullinger / Zürich, 31. Juli 1554</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -70,7 +70,7 @@
 						-->
 					</persName>
 					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
-					<date when="1554-07-31" cert="low"/>
+					<date when="1554-07-31" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -111,8 +111,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/2353%2FAutograph%2F00%20Ms%20F%2062%20(366)_00001.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2353/Autograph/00 Ms F 62 (366)_00001.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/2353%2FAutograph%2F01%20Ms%20F%2062%20(366)_00002.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2353/Autograph/01 Ms F 62 (366)_00002.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/2353%2FAutograph%2F00%20Ms%20F%2062%20(366)_00001.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2353/Autograph/00 Ms F 62 (366)_00001.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/2353%2FAutograph%2F01%20Ms%20F%2062%20(366)_00002.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2353/Autograph/01 Ms F 62 (366)_00002.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -120,12 +124,12 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">Salve, pater in Christo venerande.</s>
 					<s n="2" xml:lang="la" type="auto">Idem certamen pro familia ex illa <persName type="auto_name">Aegypto</persName> eruenda sum ingressus, in quo eram, annus est, et literas ante 15 dies <placeName type="auto_name">Casellas</placeName> ad hunc finem misi, ut serio et cautius agatur, ut ante 3 menses landgravius suis literis mihi promisit.</s>
-					<s n="3" xml:lang="la" type="auto">Hodie recepi literas domini <persName type="auto_name">Ioannis Sleidani</persName> ex <placeName type="auto_name" ref="492">Argentina</placeName>, quibus ait Helvetios in eo plurimum mihi commodare posse pro sua ad regem authoritate et gratia.</s>
+					<s n="3" xml:lang="la" type="auto">Hodie recepi literas domini <persName type="auto_name">Ioannis Sleidani</persName> ex <placeName>Argentina</placeName>, quibus ait Helvetios in eo plurimum mihi commodare posse pro sua ad regem authoritate et gratia.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Hoc equidem ante 20. mensis tentare coeperam <placeName type="auto_name" ref="41">Bernam</placeName> adiens; sed audivi tum illos offensos regi Gallo.</s>
+					<s n="4" xml:lang="la" type="auto">Hoc equidem ante 20. mensis tentare coeperam <placeName>Bernam</placeName> adiens; sed audivi tum illos offensos regi Gallo.</s>
 					<s n="5" xml:lang="la" type="auto">Quare alia coepi consilia, quae hactenus non processerunt.</s>
-					<s n="6" xml:lang="la" type="auto">Ea sola causa fuit <placeName type="auto_name" ref="492">Argentinae</placeName> (qua receptus fueram) relinquende, quod non profuit.</s>
+					<s n="6" xml:lang="la" type="auto">Ea sola causa fuit <placeName>Argentinae</placeName> (qua receptus fueram) relinquende, quod non profuit.</s>
 					<s n="7" xml:lang="la" type="auto">Nihil apud dominos Helvetios tentare vellem, nisi prius ex tuo consilio, si ita tibi videretur.</s>
 					<s n="8" xml:lang="la" type="auto">Multae etiam aliae graves causae accederunt.</s>
 					<s n="9" xml:lang="la" type="auto">Hinc etiam magis sum inter infestas ar es quam in ecclesia; nolo enim communicare, tum ne consensiam schismati, tum ne sanctas vestras ecclesias (quibus communicavi et quo cum semper spiritu maneo) aliquatenus reprobem.</s>
@@ -141,20 +145,20 @@
 					<s n="19" xml:lang="la" type="auto">Est quidem inopia, sed non tanta quoad me primarium professorem iuris, nisi timerent alii, ne scholares et multos traherem in sententiam meam contra schisma, alii ne papatus magis opprimeretur, nec male coniiciunt.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">In tot mala incidi, dum laboro ad familiae ereptionem; alias masissem <placeName type="auto_name" ref="492">Argentinae</placeName> vel <placeName type="auto_name" ref="311">Marpurgi</placeName>.</s>
+					<s n="20" xml:lang="la" type="auto">In tot mala incidi, dum laboro ad familiae ereptionem; alias masissem <placeName>Argentinae</placeName> vel <placeName>Marpurgi</placeName>.</s>
 					<s n="21" xml:lang="la" type="auto">Ante tres menses scripsi uxori, ut, si fors emergat, <persName type="auto_name">Rhenum</persName> ne transeat; tum enim sumptibus meis esse <placeName>Genevae</placeName> vel Neocomi quam hic cum magnis stipendiis.</s>
 					<s n="22" xml:lang="la" type="auto">Rogo per Christum, ut, si consilio tuo monere possis, ne omittas.</s>
 					<s n="23" xml:lang="la" type="auto">Ille <persName type="auto_name">Ioannes Tufanus</persName> praeceptor collegii Narbonae Parisiis (de quo tibi pro puero patricio scripseram) iam a pascha liquit Parisios.</s>
 					<s n="24" xml:lang="la" type="auto">Uxor mea filium meum posuit in collegio <placeName type="auto_name">Haricuriae</placeName>, ubi pulcherrimus aer.</s>
 				</p>
 				<p>
-					<s n="25" xml:lang="la" type="auto">Sed loco <persName type="auto_name">Tufani</persName> successit dominus <persName type="auto_name">Ribosus</persName> paedagogus filiorum domini <persName type="auto_name">Ramboulleti</persName>, nobilis nobis faventis maxime, vel Mercerius Hebraice doctus, ambo <placeName type="auto_name">Narbonenses</placeName> et pii, ut mihi narravit unus mathematicus, qui nupe[r] e <placeName type="auto_name" ref="378">Parisiis</placeName> huc venit.</s>
+					<s n="25" xml:lang="la" type="auto">Sed loco <persName type="auto_name">Tufani</persName> successit dominus <persName type="auto_name">Ribosus</persName> paedagogus filiorum domini <persName type="auto_name">Ramboulleti</persName>, nobilis nobis faventis maxime, vel Mercerius Hebraice doctus, ambo <placeName type="auto_name">Narbonenses</placeName> et pii, ut mihi narravit unus mathematicus, qui nupe[r] e <placeName>Parisiis</placeName> huc venit.</s>
 					<s n="26" xml:lang="la" type="auto">Vale.</s>
 					<s n="27" xml:lang="la" type="auto">Gratia et pax domini tibi semper adsit; tuis et ecclesiae tuae precibus me et negocium illud pium et mihi arduum commendo.</s>
-					<s n="28" xml:lang="la" type="auto">Salutari desidero dominum <persName type="auto_name" ref="8171">Bibliandrum</persName>, cuius Esdra valde delector, venerandum dominum <persName type="auto_name" ref="8127">Pellicanum</persName>, d. <persName type="auto_name">Zvinglium</persName>, generum tuum dominum <persName type="auto_name">Lavaterum</persName> et alios.</s>
+					<s n="28" xml:lang="la" type="auto">Salutari desidero dominum <persName>Bibliandrum</persName>, cuius Esdra valde delector, venerandum dominum <persName>Pellicanum</persName>, d. <persName type="auto_name">Zvinglium</persName>, generum tuum dominum <persName type="auto_name">Lavaterum</persName> et alios.</s>
 				</p>
 				<p>
-					<s n="29" xml:lang="la" type="auto"><placeName type="auto_name" ref="512">Tubingę</placeName> ultima iullii 1554.</s>
+					<s n="29" xml:lang="la" type="auto"><placeName>Tubingę</placeName> ultima iullii 1554.</s>
 				</p>
 				<p>
 					<s n="30" xml:lang="la" type="auto">Tuus et observantissimus <persName type="auto_name">Carolus Molinaeus</persName> manu propria, quia nemini de predictis hic fidere ausus sum.</s>

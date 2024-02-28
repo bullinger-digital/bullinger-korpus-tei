@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file3575" type="Brief" source="TUSTEP" n="28064">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file3575" type="Brief" source="TUSTEP-0" n="28064">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Ludwig Lavater / Baden/AG AN Heinrich Bullinger / Zürich, 22. April 1558</title>
+				<title subtype="file">Ludwig Lavater / Baden/AG an Heinrich Bullinger / Zürich, 22. April 1558</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -72,7 +72,7 @@
 						-->
 					</persName>
 					<placeName source="l910" cert="high"><orig>Baden/AG</orig></placeName>
-					<date when="1558-04-22" cert="low"><note>die Mercuris (= Nov. 26.) ?  Oder einfach ein Markttag</note></date>
+					<date when="1558-04-22" cert="high"><note>die Mercuris (= Nov. 26.) ?  Oder einfach ein Markttag</note></date>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -114,15 +114,19 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/3575%2FAutograph%2F00%20E_II_340__fol__371_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">3575/Autograph/00 E_II_340__fol__371_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/3575%2FAutograph%2F01%20E_II_340__fol__371_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">3575/Autograph/01 E_II_340__fol__371_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/3575%2FAutograph%2F00%20E_II_340__fol__371_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">3575/Autograph/00 E_II_340__fol__371_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/3575%2FAutograph%2F01%20E_II_340__fol__371_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">3575/Autograph/01 E_II_340__fol__371_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D. P.</s>
-					<s n="2" xml:lang="la" type="auto">Volui paucis tibi significare me salvum et incolumem <placeName type="auto_name" ref="21">Badenam</placeName> venisse.</s>
+					<s n="2" xml:lang="la" type="auto">Volui paucis tibi significare me salvum et incolumem <placeName>Badenam</placeName> venisse.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Hospes meus affinis omnem suam mihi operam promisit et hactenus benevolentia magna me prosequutus est.</s>
@@ -130,7 +134,7 @@
 					<s n="5" xml:lang="la" type="auto">Familiam meam tibi commendo.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Vale <placeName type="auto_name" ref="21">Badenae</placeName> die Mercurii.</s>
+					<s n="6" xml:lang="la" type="auto">Vale <placeName>Badenae</placeName> die Mercurii.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Tuus filius <persName type="auto_name">Lavaterus</persName>.</s>

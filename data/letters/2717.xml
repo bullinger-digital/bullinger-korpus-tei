@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2717" type="Brief" source="TUSTEP" n="25141">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2717" type="Brief" source="TUSTEP-0" n="25141">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Matthias Erb / Reichenweier AN Heinrich Bullinger / Zürich, 6. September 1555</title>
+				<title subtype="file">Matthias Erb / Reichenweier an Heinrich Bullinger / Zürich, 6. September 1555</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -83,7 +83,7 @@
 						-->
 					</persName>
 					<placeName source="l411" cert="high"><orig>Reichenweier</orig></placeName>
-					<date when="1555-09-06" cert="low"/>
+					<date when="1555-09-06" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -126,8 +126,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/2717%2FAutograph%2F00%20E_II_361__fol__189_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2717/Autograph/00 E_II_361__fol__189_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/2717%2FAutograph%2F01%20E_II_361__fol__189_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2717/Autograph/01 E_II_361__fol__189_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/2717%2FAutograph%2F00%20E_II_361__fol__189_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2717/Autograph/00 E_II_361__fol__189_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/2717%2FAutograph%2F01%20E_II_361__fol__189_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2717/Autograph/01 E_II_361__fol__189_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -143,16 +147,16 @@
 					<s n="6" xml:lang="la" type="auto">Quam sit magnificus adparatus ex serio, auro et argento poculisque, item quot <persName type="auto_name">Apitii</persName>, qui curent culinam, paucis significare non possum; <persName type="auto_name">Casparus</persName> omnia significabit.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Expectatur in crastinum dux <placeName type="auto_name" ref="572">Wirtembergensis</placeName> cum ducentis equitibus, comitibus et nobilibus; non minori adparatu aderit <persName type="auto_name">Wolfgangus</persName>, dux Bipentinus, duo Palatini, marchiones <placeName type="auto_name" ref="1898">Badenses</placeName> duo item et ille, quem vocant a <placeName type="auto_name">Hunsruck</placeName>.</s>
-					<s n="8" xml:lang="la" type="auto"><persName type="auto_name">Tyrannus Henricus</persName> <placeName type="auto_name" ref="1041">Brunsvicensis</placeName> invitatus; sed anser ille metuet se miscere oloribus.</s>
-					<s n="9" xml:lang="la" type="auto">Plures comites, comes a <placeName type="auto_name">Stauffen</placeName>, a <placeName type="auto_name">Sultz</placeName>, a <placeName type="auto_name" ref="512">Tubinga</placeName>, ab <placeName type="auto_name" ref="2313">Hanau</placeName>, a <placeName type="auto_name">Bitsch</placeName>, a <placeName type="auto_name">Furstemberg</placeName> et complures alii, quorum nomina epistolaris angustia non sinit recensere.</s>
+					<s n="7" xml:lang="la" type="auto">Expectatur in crastinum dux <placeName>Wirtembergensis</placeName> cum ducentis equitibus, comitibus et nobilibus; non minori adparatu aderit <persName type="auto_name">Wolfgangus</persName>, dux Bipentinus, duo Palatini, marchiones <placeName>Badenses</placeName> duo item et ille, quem vocant a <placeName type="auto_name">Hunsruck</placeName>.</s>
+					<s n="8" xml:lang="la" type="auto"><persName type="auto_name">Tyrannus Henricus</persName> <placeName>Brunsvicensis</placeName> invitatus; sed anser ille metuet se miscere oloribus.</s>
+					<s n="9" xml:lang="la" type="auto">Plures comites, comes a <placeName type="auto_name">Stauffen</placeName>, a <placeName type="auto_name">Sultz</placeName>, a <placeName>Tubinga</placeName>, ab <placeName>Hanau</placeName>, a <placeName type="auto_name">Bitsch</placeName>, a <placeName type="auto_name">Furstemberg</placeName> et complures alii, quorum nomina epistolaris angustia non sinit recensere.</s>
 					<s n="10" xml:lang="la" type="auto">Finitis nuptiis singula ordine ad te perscribam.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Nuptię erunt 11. huius mensis etc.</s>
 					<s n="12" xml:lang="la" type="auto">Ut valeam cum fratribus, ex <placeName type="auto_name">Caspare</placeName>, qui omnes te salutant.</s>
 					<s n="13" xml:lang="la" type="auto">Tu igitur vale et vicissim saluta tuos fratres.</s>
-					<s n="14" xml:lang="la" type="auto"><persName type="auto_name">Richenvillę</persName> 6. septembris anno 1555.</s>
+					<s n="14" xml:lang="la" type="auto"><placeName>Richenvillę</placeName> 6. septembris anno 1555.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">T[uus] <persName type="auto_name">Erbius</persName>.</s>

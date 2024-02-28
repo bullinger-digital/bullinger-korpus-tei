@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file981" type="Brief" source="TUSTEP" n="20177">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file981" type="Brief" source="TUSTEP-0" n="20177">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius (Geißhüsler) / Basel, 8. August 1550</title>
+				<title subtype="file">Heinrich Bullinger / Zürich an Oswald Myconius (Geißhüsler) / Basel, 8. August 1550</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -71,7 +71,7 @@
 						-->
 					</persName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
-					<date when="1550-08-08" cert="low"/>
+					<date when="1550-08-08" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p8418" cert="high">
@@ -115,8 +115,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/981%2FAutograph%2F00%20E_II_342__fol__242_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">981/Autograph/00 E_II_342__fol__242_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/981%2FAutograph%2F01%20E_II_342__fol__242_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">981/Autograph/01 E_II_342__fol__242_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/981%2FAutograph%2F00%20E_II_342__fol__242_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">981/Autograph/00 E_II_342__fol__242_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/981%2FAutograph%2F01%20E_II_342__fol__242_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">981/Autograph/01 E_II_342__fol__242_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -139,12 +143,12 @@
 					<s n="9" xml:lang="la" type="auto">Dominus servet me et faciat voluntatem suam in me, quae semper est bona.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Non puto misisse Pagos ad <placeName type="auto_name">Caesarem</placeName> pro restitutione missae; sciunt enim sine bello id non posse apud nos perfici, cui et ipsi aliquando implicarentur; sed miserint utcunque, vivit tamen dominus.</s>
+					<s n="10" xml:lang="la" type="auto">Non puto misisse Pagos ad Caesarem pro restitutione missae; sciunt enim sine bello id non posse apud nos perfici, cui et ipsi aliquando implicarentur; sed miserint utcunque, vivit tamen dominus.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Iulii 26. proposuit <persName type="auto_name">Caesar</persName> capita tractanda 1. de consilio continu ndo Tridenti intra annum, 2. de Interim interea plene recipienda, 3. de reformatione sua neglecta, 4. de restituendis bonis ecclesiae 5. de camera imperiali, 6. de communi pace, 7. de sessione ordinum imperii, 8. de moneta corrigenda, 9. de tributo, <foreign xml:lang="de">von des reychs anlag; da lag der pur imm höw.</foreign></s>
 					<s n="12" xml:lang="la" type="auto">Quid futurum sit, ex his coniice.</s>
-					<s n="13" xml:lang="la" type="auto">Lege, quae vir praestantissimus ad nos scribit ex <placeName type="auto_name" ref="55">Bononia</placeName>, et remitte; <foreign xml:lang="de">der tüfel ist bapst.</foreign></s>
+					<s n="13" xml:lang="la" type="auto">Lege, quae vir praestantissimus ad nos scribit ex <placeName>Bononia</placeName>, et remitte; <foreign xml:lang="de">der tüfel ist bapst.</foreign></s>
 					<s n="14" xml:lang="la" type="auto">Vale aeternum.</s>
 					<s n="15" xml:lang="la" type="auto">Tiguri 8. augusti anno 1550.</s>
 				</p>
@@ -155,7 +159,7 @@
 					<s n="17" xml:lang="la" type="auto">Praestantissimo viro d. <persName>Osvaldo Myconio</persName>, domino et fratri suo colendissimo.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="de" type="auto"><placeName type="auto_name" ref="28">Basel</placeName>.</s>
+					<s n="18" xml:lang="de" type="auto"><placeName>Basel</placeName>.</s>
 				</p>
 			</div>
 		</body>

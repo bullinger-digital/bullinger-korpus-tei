@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4239" type="Brief" source="TUSTEP" n="30046">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4239" type="Brief" source="TUSTEP-0" n="30046">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Heinrich Bullinger / Zürich AN Johannes Fabricius Montanus (Schmid) / Chur, 22. März 1560</title>
+				<title subtype="file">Heinrich Bullinger / Zürich an Johannes Fabricius Montanus (Schmid) / Chur, 22. März 1560</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -78,7 +78,7 @@
 						-->
 					</persName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
-					<date when="1560-03-22" cert="low"/>
+					<date when="1560-03-22" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p8009" cert="high">
@@ -122,14 +122,18 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/4239%2FAutograph%2F00%20E_II_373__S__127_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">4239/Autograph/00 E_II_373__S__127_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/4239%2FAutograph%2F01%20E_II_373__S__128_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">4239/Autograph/01 E_II_373__S__128_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/4239%2FAutograph%2F00%20E_II_373__S__127_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">4239/Autograph/00 E_II_373__S__127_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/4239%2FAutograph%2F01%20E_II_373__S__128_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">4239/Autograph/01 E_II_373__S__128_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
-					<note type="regest">[Er sendet ein Exemplar seiner Libri 6 contra anabaptistas als Geschenk, eines für <persName type="auto_name" ref="8359">Gallicius</persName> wird später folgen. "Pasquillum" schickt er mit Dank zurück; den Brief des Fabricius an Gesner hat er gelesen.]</note>
+					<note type="regest">[Er sendet ein Exemplar seiner Libri 6 contra anabaptistas als Geschenk, eines für <persName>Gallicius</persName> wird später folgen. "Pasquillum" schickt er mit Dank zurück; den Brief des Fabricius an Gesner hat er gelesen.]</note>
 					<s n="1" xml:lang="la" type="auto">Ex <placeName type="auto_name">Gallia</placeName> nihil audimus, nisi quod mirifice sibi metuat cardinalis <placeName type="auto_name">Lotharingus</placeName> ob tyrannidem exercitam et mortem d. a <placeName type="auto_name">Burgo</placeName>, quem curavit primo strangulari, deinde comburi magna indignatione multorum potentum et totius nobilitatis.</s>
 					<s n="2" xml:lang="la" type="auto">Crescit numerus fidelium per <placeName type="auto_name">Galliam</placeName> mirabili proventu.</s>
 					<s n="3" xml:lang="la" type="auto">- In <placeName type="auto_name">Hispania</placeName> episcopi et inquisitores uno die curarunt trucidari 124 religionis syncerioris gratia.</s>
@@ -137,7 +141,7 @@
 				</p>
 				<p>
 					<s n="5" xml:lang="de" type="auto">Sy werdent bald iren lhon ouch empfahen.</s>
-					<s n="6" xml:lang="la" type="auto">- Ex <placeName type="auto_name">Germania</placeName> scribunt amici comitia foederis Lantspergensis celebrari Ingolstadii, quo missi sint a protestantibus legati, qui <placeName type="auto_name" ref="569">Wormatie</placeName> celebrent comitia.</s>
+					<s n="6" xml:lang="la" type="auto">- Ex <placeName type="auto_name">Germania</placeName> scribunt amici comitia foederis Lantspergensis celebrari Ingolstadii, quo missi sint a protestantibus legati, qui <placeName>Wormatie</placeName> celebrent comitia.</s>
 					<s n="7" xml:lang="la" type="auto">Interim conscribitur passim miles, fiunt expeditiones; nescitur, in quem finem aut contra quos.</s>
 					<s n="8" xml:lang="la" type="auto">Quidam putant ac sperant hos fluctus componendos brevi.</s>
 				</p>
@@ -151,12 +155,12 @@
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Venerunt visitatores principum Wirtembergensis, Bypontini, <placeName type="auto_name">Hanow</placeName>, qui comitis <persName type="auto_name">Georgii</persName> liberorum tutores sunt, et obtrudere voluerunt Wirtembergensem reformationem; sed renuerunt <persName type="auto_name">Erbius</persName>, <persName type="auto_name">Mylagrius [</persName><persName type="auto_name">Myliagrius?</persName>], Rhegius, Goettius; reliqui haerent.</s>
-					<s n="14" xml:lang="la" type="auto">Quid futurum sit, expectamus... Memineris doctissimi viri d. <persName type="auto_name" ref="8124">Naogeorgi</persName>.</s>
+					<s n="14" xml:lang="la" type="auto">Quid futurum sit, expectamus... Memineris doctissimi viri d. <persName>Naogeorgi</persName>.</s>
 					<s n="15" xml:lang="la" type="auto">22. martii, anno 1560.</s>
 				</p>
 				<p>
 					<note type="PS">[P.S.:]</note>
-					<s n="16" xml:lang="de" type="auto"><persName type="auto_name" ref="1227">Frosch[ower]</persName> fart jetzt gen <placeName type="auto_name">Franckfurt</placeName>.</s>
+					<s n="16" xml:lang="de" type="auto"><persName ref="p5295">Frosch[ower]</persName> fart jetzt gen <placeName type="auto_name">Franckfurt</placeName>.</s>
 					<s n="17" xml:lang="de" type="auto">Min pfister nimpt wunder, wie es umb das gurramentum stande.</s>
 				</p>
 			</div>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1138" type="Brief" source="TUSTEP" n="21002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1138" type="Brief" source="TUSTEP-0" n="21002">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Heinrich Bullinger / Zürich AN Oswald Myconius (Geißhüsler) / Basel, 4. Januar 1551</title>
+				<title subtype="file">Heinrich Bullinger / Zürich an Oswald Myconius (Geißhüsler) / Basel, 4. Januar 1551</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -81,7 +81,7 @@
 						-->
 					</persName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
-					<date when="1551-01-04" cert="low"/>
+					<date when="1551-01-04" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p8418" cert="high">
@@ -125,8 +125,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1138%2FAutograph%2F00%20E_II_342__fol__255_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1138/Autograph/00 E_II_342__fol__255_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1138%2FAutograph%2F01%20E_II_342__fol__255_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1138/Autograph/01 E_II_342__fol__255_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1138%2FAutograph%2F00%20E_II_342__fol__255_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1138/Autograph/00 E_II_342__fol__255_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1138%2FAutograph%2F01%20E_II_342__fol__255_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1138/Autograph/01 E_II_342__fol__255_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -134,7 +138,7 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
 					<s n="2" xml:lang="la" type="auto">Tandem ova basilisci discerpta pepererunt nobis indictionem concilii, domine et frater in Christo venerabilis et charissime.</s>
-					<s n="3" xml:lang="la" type="auto">Prodiit enim <placeName type="auto_name" ref="425">Romae</placeName> indictio concilii 18. calendas novembris et dicitur dies 1. calend. maii.</s>
+					<s n="3" xml:lang="la" type="auto">Prodiit enim <placeName>Romae</placeName> indictio concilii 18. calendas novembris et dicitur dies 1. calend. maii.</s>
 					<s n="4" xml:lang="la" type="auto"><persName type="auto_name">Celebrandum</persName> erit <persName type="auto_name">Tridenti</persName>, imo continuandum.</s>
 				</p>
 				<p>
@@ -165,10 +169,10 @@
 					<s n="23" xml:lang="la" type="auto">Tuus H[einrychus] B[ullingerus].</s>
 				</p>
 				<p>
-					<s n="24" xml:lang="la" type="auto">Clarissimo viro d. <persName>Osvaldo Myconio</persName>, <placeName type="auto_name" ref="28">Basiliensis</placeName> ecclesiae antistiti vigilantissimo, suo colendissimo domino et fratri.</s>
+					<s n="24" xml:lang="la" type="auto">Clarissimo viro d. <persName>Osvaldo Myconio</persName>, <placeName>Basiliensis</placeName> ecclesiae antistiti vigilantissimo, suo colendissimo domino et fratri.</s>
 				</p>
 				<p>
-					<s n="25" xml:lang="de" type="auto"><placeName type="auto_name" ref="28">Basel</placeName>.</s>
+					<s n="25" xml:lang="de" type="auto"><placeName>Basel</placeName>.</s>
 				</p>
 			</div>
 		</body>

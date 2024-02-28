@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1926" type="Brief" source="TUSTEP" n="23116">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1926" type="Brief" source="TUSTEP-0" n="23116">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Simon Sulzer / Basel AN Heinrich Bullinger / Zürich, 15. Juli 1553</title>
+				<title subtype="file">Simon Sulzer / Basel an Heinrich Bullinger / Zürich, 15. Juli 1553</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -74,7 +74,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
-					<date when="1553-07-15" cert="low"/>
+					<date when="1553-07-15" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -117,8 +117,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1926%2FAutograph%2F00%20E_II_336__fol__359_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1926/Autograph/00 E_II_336__fol__359_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1926%2FAutograph%2F01%20E_II_336__fol__359_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1926/Autograph/01 E_II_336__fol__359_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1926%2FAutograph%2F00%20E_II_336__fol__359_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1926/Autograph/00 E_II_336__fol__359_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1926%2FAutograph%2F01%20E_II_336__fol__359_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1926/Autograph/01 E_II_336__fol__359_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -138,18 +142,18 @@
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Nova haec habes praeter ea, quae a te accepi: Hedi <foreign xml:lang="de">sol ouch ein schnapp genommen han,</foreign> et iam exercitus imperatoris versus Peronam contendere dicitur.</s>
-					<s n="13" xml:lang="la" type="auto">Norici in spe bona sunt recuperari sua omnia posse idque confoederatorium praesidiis <persName type="auto_name" ref="18250">Mauricii</persName> maxime, a quo 2000 equitum et 20 vexilla peditum acceperunt nuper.</s>
+					<s n="13" xml:lang="la" type="auto">Norici in spe bona sunt recuperari sua omnia posse idque confoederatorium praesidiis <persName>Mauricii</persName> maxime, a quo 2000 equitum et 20 vexilla peditum acceperunt nuper.</s>
 					<s n="14" xml:lang="la" type="auto">Quare equitibus 1500 et 16 vexillis peditum arcem marchionis <persName type="auto_name">Strytberg</persName> occuparunt praedamque innumerabilem in ea repositam in civitatem suam avexerunt.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Tormentariis vero machinis maioribus sex arcem aliam <placeName type="auto_name">Blassemberg</placeName> natura arteque supra modum munitam expugnare nituntur et marchionicorum depopulationibus suorum iacturam sarcire pergunt.</s>
 					<s n="16" xml:lang="la" type="auto"><persName type="auto_name">Albertus Islebiam</persName> venit 11a iunii, posteaquam itineribus magnis ex insperato sylvam <placeName type="auto_name">Turingicam</placeName> traiecisset, 13a vero reversus est <placeName type="auto_name">Halberstat</placeName>, ubi expectat 54 vexilla peditum et 3000 equitum duce <placeName type="auto_name">Oldenburgico</placeName> comite aliisque principibus viris.</s>
 					<s n="17" xml:lang="la" type="manual">Porro 18a eiusdem mensis civitatem <placeName type="auto_name">Brunswigam</placeName> ingressus est <foreign xml:lang="de">mit 10 kleppern,</foreign> et arbitrantur plerique maritimarum urbium symmachia adiutum invasurum esse ducatum Brunsvicensem et extincturum, si queat, ne porro intra civitates vexentur.</s>
-					<s n="18" xml:lang="la" type="auto"><persName type="auto_name" ref="18250">Mauricius</persName> cum <persName type="auto_name" ref="18477">Ferdinando</persName> convenit, qui suorum magna manu et ipse Islebiam ingressus est die 16a, eo consilio ut reditum intercludat <persName type="auto_name">Alberto</persName>.</s>
-					<s n="19" xml:lang="la" type="manual">Idem civitates suas <placeName type="auto_name">Dresen</placeName>, <placeName type="auto_name">Zwicken</placeName>, <placeName type="auto_name" ref="558">Wittenberg</placeName>, Lipsiam diligenter munivit praesidiis exercitumque <persName type="auto_name">Philippi Brunsvicensis</persName> et baronis ab Heideck ad se revocavit, ut conflictus sanguinolentus expectetur, nisi forte <persName type="auto_name">Ferdinandi</persName> et electoris <placeName type="auto_name">Brandemburgensis</placeName> autoritas ad pacem est ponderis aliquid habitura, ut quam in propria persona summo cum conatu moliri dicuntur.</s>
-					<s n="20" xml:lang="la" type="auto">Misit et lantgravius subsidium <persName type="auto_name" ref="18250">Mauricio</persName> equites 800.</s>
+					<s n="18" xml:lang="la" type="auto"><persName>Mauricius</persName> cum <persName>Ferdinando</persName> convenit, qui suorum magna manu et ipse Islebiam ingressus est die 16a, eo consilio ut reditum intercludat <persName type="auto_name">Alberto</persName>.</s>
+					<s n="19" xml:lang="la" type="manual">Idem civitates suas <placeName type="auto_name">Dresen</placeName>, <placeName type="auto_name">Zwicken</placeName>, <placeName>Wittenberg</placeName>, Lipsiam diligenter munivit praesidiis exercitumque <persName type="auto_name">Philippi Brunsvicensis</persName> et baronis ab Heideck ad se revocavit, ut conflictus sanguinolentus expectetur, nisi forte <persName type="auto_name">Ferdinandi</persName> et electoris <placeName type="auto_name">Brandemburgensis</placeName> autoritas ad pacem est ponderis aliquid habitura, ut quam in propria persona summo cum conatu moliri dicuntur.</s>
+					<s n="20" xml:lang="la" type="auto">Misit et lantgravius subsidium <persName>Mauricio</persName> equites 800.</s>
 					<s n="21" xml:lang="la" type="auto">Haec habui, quae te nolui celare.</s>
-					<s n="22" xml:lang="la" type="auto">Vale in domino cum familia, <persName type="auto_name" ref="8011">Gvalthero</persName>, <persName type="auto_name" ref="4033">Zendero</persName>, <persName type="auto_name" ref="8171">Theodoro</persName>, <persName type="auto_name" ref="8127">Pellicano</persName> et reliquis omnibus et imprimis etiam <persName type="auto_name" ref="4091">Zvinglio</persName> et Iosia, generis tuis.</s>
+					<s n="22" xml:lang="la" type="auto">Vale in domino cum familia, <persName>Gvalthero</persName>, <persName>Zendero</persName>, <persName>Theodoro</persName>, <persName>Pellicano</persName> et reliquis omnibus et imprimis etiam <persName>Zvinglio</persName> et Iosia, generis tuis.</s>
 				</p>
 				<p>
 					<s n="23" xml:lang="la" type="auto"><placeName>Basileae</placeName> 15. iulii anno 1553.</s>

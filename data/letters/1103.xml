@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1103" type="Brief" source="TUSTEP" n="20275">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1103" type="Brief" source="TUSTEP-0" n="20275">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Wolfgang Musculus (Müsli, Meuslin) / Bern AN Heinrich Bullinger / Zürich, 6. Dezember 1550</title>
+				<title subtype="file">Wolfgang Musculus (Müsli, Meuslin) / Bern an Heinrich Bullinger / Zürich, 6. Dezember 1550</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -71,7 +71,7 @@
 						-->
 					</persName>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
-					<date when="1550-12-06" cert="low"/>
+					<date when="1550-12-06" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -115,15 +115,19 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1103%2FAutograph%2F00%20E_II_359__fol__2867_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1103/Autograph/00 E_II_359__fol__2867_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1103%2FAutograph%2F01%20E_II_359__fol__2867_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1103/Autograph/01 E_II_359__fol__2867_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1103%2FAutograph%2F00%20E_II_359__fol__2867_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1103/Autograph/00 E_II_359__fol__2867_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1103%2FAutograph%2F01%20E_II_359__fol__2867_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1103/Autograph/01 E_II_359__fol__2867_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
-					<s n="2" xml:lang="la" type="auto">Scripsi ante paucos dies ad te, compater charissime, nec est, quod in praesenti addam, nisi quod <persName type="auto_name">Schertlinus</persName> ante triduum ad me scripsit ducem Georgium a Mechelburg cum 12 militum cohortibus et aliquot equitibus obsidere <placeName type="auto_name" ref="303">Magdeburgum</placeName>, sic tamen ut facili momento possit ea civitas ad se intromittere et emittere quoslibet.</s>
+					<s n="2" xml:lang="la" type="auto">Scripsi ante paucos dies ad te, compater charissime, nec est, quod in praesenti addam, nisi quod <persName type="auto_name">Schertlinus</persName> ante triduum ad me scripsit ducem Georgium a Mechelburg cum 12 militum cohortibus et aliquot equitibus obsidere <placeName>Magdeburgum</placeName>, sic tamen ut facili momento possit ea civitas ad se intromittere et emittere quoslibet.</s>
 					<s n="3" xml:lang="la" type="auto">Esse eam et milite et annona abunde instructa, ad hęc parari exercitum a principibus quibusdam ad liberandum eam.</s>
 				</p>
 				<p>
@@ -131,10 +135,10 @@
 					<s n="5" xml:lang="la" type="auto">Dominus dissipet concilia principum.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Quas hic mitto, obsecro, si qua ratione poteris, quam primum dabitur occasio, <placeName>Sangallum</placeName> ad d. <persName type="auto_name" ref="8049">Vadianum</persName> mittas et a viro obtineas, ne gravetur eas per occasionem <placeName type="auto_name" ref="1976">Augustam</placeName> mittere.</s>
+					<s n="6" xml:lang="la" type="auto">Quas hic mitto, obsecro, si qua ratione poteris, quam primum dabitur occasio, <placeName>Sangallum</placeName> ad d. <persName>Vadianum</persName> mittas et a viro obtineas, ne gravetur eas per occasionem <placeName>Augustam</placeName> mittere.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto"><persName type="auto_name">Ester</persName> mea et <persName type="auto_name" ref="8422">Nicolaus</persName> per gratiam domini adhuc videntur convalescere.</s>
+					<s n="7" xml:lang="la" type="auto"><persName type="auto_name">Ester</persName> mea et <persName>Nicolaus</persName> per gratiam domini adhuc videntur convalescere.</s>
 					<s n="8" xml:lang="la" type="auto"><placeName type="auto_name">Pestis</placeName> nondum apud nos remisit.</s>
 					<s n="9" xml:lang="la" type="auto">Utinam saltem pestis corruptorum morum et hic et in omni nostra <placeName type="auto_name">Germania</placeName> remittat.</s>
 					<s n="10" xml:lang="la" type="auto">Optime vale, virorum colendissime ac compater charissime.</s>

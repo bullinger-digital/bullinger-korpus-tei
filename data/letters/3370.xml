@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file3370" type="Brief" source="TUSTEP" n="27258">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file3370" type="Brief" source="TUSTEP-0" n="27258">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Simon Sulzer / Basel AN Heinrich Bullinger / Zürich, 18. Oktober 1557</title>
+				<title subtype="file">Simon Sulzer / Basel an Heinrich Bullinger / Zürich, 18. Oktober 1557</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -81,7 +81,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
-					<date when="1557-10-18" cert="low"/>
+					<date when="1557-10-18" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -123,8 +123,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/3370%2FAutograph%2F00%20E_II_336__fol__442_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">3370/Autograph/00 E_II_336__fol__442_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/3370%2FAutograph%2F01%20E_II_336__fol__442_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">3370/Autograph/01 E_II_336__fol__442_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/3370%2FAutograph%2F00%20E_II_336__fol__442_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">3370/Autograph/00 E_II_336__fol__442_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/3370%2FAutograph%2F01%20E_II_336__fol__442_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">3370/Autograph/01 E_II_336__fol__442_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -140,8 +144,8 @@
 				<p>
 					<s n="7" xml:lang="la" type="auto">Sed dominus est, qui vel solo oris spiritu interficit impium et dissipat consilia sapientium contra ipsum suscepta.</s>
 					<s n="8" xml:lang="la" type="auto">Eum tamen precemur pro afflictis fratribus, quorum non pauci iam ad mortem condemnati sunt et inter eos iudices aliquot eam solam ob causam, quod ferre sententiam contra innocentes noluissent reatuque conscientias suas polluere; adeo illis non est impune, quod apud infestissimos hostes Nicodemo, <persName type="auto_name">Iosepho</persName> ab Arimathia et <persName type="auto_name">Gamalieli</persName> fuit.</s>
-					<s n="9" xml:lang="la" type="auto"><persName type="auto_name" ref="18477">Ferdinandi</persName> successus pauci credunt, et sunt, qui dicant occasionem quidem rei optime gerendi non defuisse<note type="margin">a.R.: "propter pestem in <placeName type="auto_name">Turcicis</placeName> praesidiis et exercitibus grassantem."</note> verum consilio speque Fredinandum destitui.</s>
-					<s n="10" xml:lang="la" type="auto">De colloquio accipio eadem quae tu et intelligo <persName type="auto_name" ref="458">Brentium</persName>, <persName type="auto_name">Dillerum</persName>, <persName type="auto_name">Iacobum Andreae</persName> una cum Philippo egregie restitisse Saxonum consilio, ut qui iniquum censeant inauditum condemnari quenquam; pie, sancte eruditeque multa dixisse, quae ad pacem et ad aedificationem facerent, si obtinerent assensum.</s>
+					<s n="9" xml:lang="la" type="auto"><persName>Ferdinandi</persName> successus pauci credunt, et sunt, qui dicant occasionem quidem rei optime gerendi non defuisse<note type="margin">a.R.: "propter pestem in <placeName type="auto_name">Turcicis</placeName> praesidiis et exercitibus grassantem."</note> verum consilio speque Fredinandum destitui.</s>
+					<s n="10" xml:lang="la" type="auto">De colloquio accipio eadem quae tu et intelligo <persName ref="p17881">Brentium</persName>, <persName type="auto_name">Dillerum</persName>, <persName type="auto_name">Iacobum Andreae</persName> una cum Philippo egregie restitisse Saxonum consilio, ut qui iniquum censeant inauditum condemnari quenquam; pie, sancte eruditeque multa dixisse, quae ad pacem et ad aedificationem facerent, si obtinerent assensum.</s>
 					<s n="11" xml:lang="la" type="auto">Quid nunc agatur et quousque progressi sint, prorsus me latet.</s>
 				</p>
 				<p>

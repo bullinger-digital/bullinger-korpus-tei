@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file5619" type="Brief" source="TUSTEP" n="33023">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file5619" type="Brief" source="TUSTEP-0" n="33023">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Pier Paolo Vergerio / Tübingen AN [Heinrich Bullinger], 20. Februar 1563</title>
+				<title subtype="file">Pier Paolo Vergerio / Tübingen an [Heinrich Bullinger], 20. Februar 1563</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -67,7 +67,7 @@
 						-->
 					</persName>
 					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
-					<date when="1563-02-20" cert="low"/>
+					<date when="1563-02-20" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="low">
@@ -109,8 +109,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/5619%2FAutograph%2F00%20E_II_356__fol__711_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">5619/Autograph/00 E_II_356__fol__711_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/5619%2FAutograph%2F01%20E_II_356__fol__711_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">5619/Autograph/01 E_II_356__fol__711_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/5619%2FAutograph%2F00%20E_II_356__fol__711_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">5619/Autograph/00 E_II_356__fol__711_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/5619%2FAutograph%2F01%20E_II_356__fol__711_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">5619/Autograph/01 E_II_356__fol__711_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -127,10 +131,10 @@
 					<s n="7" xml:lang="la" type="auto">Pater coelestis augeat omnibus suos divinos thesauros, spiritum et fidem per Christum dominum nostrum.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><placeName type="auto_name" ref="512">Tubingae</placeName> 20. februarii 1563.</s>
+					<s n="8" xml:lang="la" type="auto"><placeName>Tubingae</placeName> 20. februarii 1563.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName type="auto_name" ref="3375">Vergerius</persName> tuus.</s>
+					<s n="9" xml:lang="la" type="auto"><persName>Vergerius</persName> tuus.</s>
 				</p>
 				<p>
 					<note>[nicht v.V.]</note>
@@ -139,7 +143,7 @@
 				</p>
 				<p>
 					<note type="remark">[Darunter von Bullingers Hand:]</note>
-					<s n="12" xml:lang="la" type="auto">Commendatitiae <persName type="auto_name">Weigelio</persName> datae a <persName type="auto_name" ref="3375">Vergerio</persName>, mense februario 1563.</s>
+					<s n="12" xml:lang="la" type="auto">Commendatitiae <persName type="auto_name">Weigelio</persName> datae a <persName>Vergerio</persName>, mense februario 1563.</s>
 				</p>
 			</div>
 		</body>

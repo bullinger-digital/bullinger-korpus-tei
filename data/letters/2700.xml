@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2700" type="Brief" source="TUSTEP" n="25128">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file2700" type="Brief" source="TUSTEP-0" n="25128">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Pier Paolo Vergerio / Reutlingen AN Heinrich Bullinger / Zürich, 22. August 1555</title>
+				<title subtype="file">Pier Paolo Vergerio / Reutlingen an Heinrich Bullinger / Zürich, 22. August 1555</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -84,7 +84,7 @@
 						-->
 					</persName>
 					<placeName source="l412" cert="high"><orig>Reutlingen</orig></placeName>
-					<date when="1555-08-22" cert="low"/>
+					<date when="1555-08-22" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -127,10 +127,18 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/2700%2FAutograph%2F00%20E_II_356__S__665_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2700/Autograph/00 E_II_356__S__665_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/2700%2FAutograph%2F01%20E_II_356__S__666_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2700/Autograph/01 E_II_356__S__666_.tif</desc></graphic>
-		<graphic xml:id="img3" url="https://iiif.bullinger-digital.ch/iiif/3/2700%2FAutograph%2F02%20E_II_356__S__667_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">2700/Autograph/02 E_II_356__S__667_.tif</desc></graphic>
-		<graphic xml:id="img4" url="https://iiif.bullinger-digital.ch/iiif/3/2700%2FAutograph%2F03%20E_II_356__S__668_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">2700/Autograph/03 E_II_356__S__668_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/2700%2FAutograph%2F00%20E_II_356__S__665_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">2700/Autograph/00 E_II_356__S__665_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/2700%2FAutograph%2F01%20E_II_356__S__666_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">2700/Autograph/01 E_II_356__S__666_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img3-0" url="https://iiif.bullinger-digital.ch/iiif/3/2700%2FAutograph%2F02%20E_II_356__S__667_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">2700/Autograph/02 E_II_356__S__667_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img4-0" url="https://iiif.bullinger-digital.ch/iiif/3/2700%2FAutograph%2F03%20E_II_356__S__668_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">2700/Autograph/03 E_II_356__S__668_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -140,9 +148,9 @@
 					<s n="2" xml:lang="la" type="auto">Ipsum audi, cui etiam scripta quaedam dedi ferenda.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">D. <persName type="auto_name">Lascus</persName> miserat ad me proprium nuncium e <placeName type="auto_name">Frankfordia</placeName> et accuratissimis literis petebat a me, num mihi videretur consultum, si ille <placeName type="auto_name" ref="569">Wormatiam</placeName> proficisceretur, ubi aliquot principes erant conventuri, atque ageret de concordia in causa sacramentaria.</s>
+					<s n="3" xml:lang="la" type="auto">D. <persName type="auto_name">Lascus</persName> miserat ad me proprium nuncium e <placeName type="auto_name">Frankfordia</placeName> et accuratissimis literis petebat a me, num mihi videretur consultum, si ille <placeName>Wormatiam</placeName> proficisceretur, ubi aliquot principes erant conventuri, atque ageret de concordia in causa sacramentaria.</s>
 					<s n="4" xml:lang="la" type="auto">Respondi mihi non videri tempus talis vindemiae, quum uva nondum ematuruerit, quare destitit.</s>
-					<s n="5" xml:lang="la" type="auto">Ubi pestis deferbuerit <placeName type="auto_name" ref="512">Tubingae</placeName>, scribit se venturum ad me, ut per aliquot settimanas quaedam conferat.</s>
+					<s n="5" xml:lang="la" type="auto">Ubi pestis deferbuerit <placeName>Tubingae</placeName>, scribit se venturum ad me, ut per aliquot settimanas quaedam conferat.</s>
 					<s n="6" xml:lang="la" type="auto">Ego vero complector hominem tanquam aliquem e caelo missum, plurimum etiam in tuam gratiam, imo scripsi ad illum me abs te scivisse, quid pro me egisset in Anglia, si eo ire voluissem.</s>
 				</p>
 				<p>
@@ -169,7 +177,7 @@
 					<s n="21" xml:lang="la" type="auto">Pene ommisi, quod pluris est: ago senatui vestro, ago tibi, ago omnibus symmistis gratias maximas pro <persName type="auto_name">Occhino</persName> recepto; nihil potuit fieri commodius isti ecclesię Italorum.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto">Salvere iubeo tuos generos, d. <persName type="auto_name">Gvalterum</persName> atque reliquos ministros.</s>
+					<s n="22" xml:lang="la" type="auto">Salvere iubeo tuos generos, d. <persName>Gvalterum</persName> atque reliquos ministros.</s>
 					<s n="23" xml:lang="la" type="auto">Orate pro me.</s>
 					<s n="24" xml:lang="la" type="auto">Audi, quod praeterire non debeo: Bezza vehementissime per literas conqueritur mecum, quod d. <persName type="auto_name">Gribaldum</persName> iuverim.</s>
 					<s n="25" xml:lang="la" type="auto">Respondi modeste ac inter alia ipsum <persName type="auto_name">Gribaldum</persName> fecisse apud te confessionem eius fidei tibique satisfecisse.</s>
@@ -181,7 +189,7 @@
 					<s n="29" xml:lang="la" type="auto"><placeName type="auto_name">Reuthlingeae</placeName> 22. augusti 1555.</s>
 				</p>
 				<p>
-					<s n="30" xml:lang="la" type="auto"><persName type="auto_name" ref="3375">Vergerius</persName>.</s>
+					<s n="30" xml:lang="la" type="auto"><persName>Vergerius</persName>.</s>
 				</p>
 				<p>
 					<note>[Auf d. umgekehrten Blatt, Rückseite:]</note>

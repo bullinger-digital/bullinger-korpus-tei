@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1224" type="Brief" source="TUSTEP" n="21069">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1224" type="Brief" source="TUSTEP-0" n="21069">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">János Fejérthóy / Wien AN Heinrich Bullinger / Zürich, 26. März 1551</title>
+				<title subtype="file">János Fejérthóy / Wien an Heinrich Bullinger / Zürich, 26. März 1551</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -108,7 +108,7 @@
 						-->
 					</persName>
 					<placeName source="l546" cert="high"><orig>Wien</orig></placeName>
-					<date when="1551-03-26" cert="low"/>
+					<date when="1551-03-26" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -145,10 +145,18 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1224%2FAutograph%2F00%20E_II_367__S__39_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1224/Autograph/00 E_II_367__S__39_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1224%2FAutograph%2F01%20E_II_367__S__40_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1224/Autograph/01 E_II_367__S__40_.tif</desc></graphic>
-		<graphic xml:id="img3" url="https://iiif.bullinger-digital.ch/iiif/3/1224%2FAutograph%2F02%20E_II_367__S__41_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">1224/Autograph/02 E_II_367__S__41_.tif</desc></graphic>
-		<graphic xml:id="img4" url="https://iiif.bullinger-digital.ch/iiif/3/1224%2FAutograph%2F03%20E_II_367__S__42_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">1224/Autograph/03 E_II_367__S__42_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1224%2FAutograph%2F00%20E_II_367__S__39_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1224/Autograph/00 E_II_367__S__39_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1224%2FAutograph%2F01%20E_II_367__S__40_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1224/Autograph/01 E_II_367__S__40_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img3-0" url="https://iiif.bullinger-digital.ch/iiif/3/1224%2FAutograph%2F02%20E_II_367__S__41_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">1224/Autograph/02 E_II_367__S__41_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img4-0" url="https://iiif.bullinger-digital.ch/iiif/3/1224%2FAutograph%2F03%20E_II_367__S__42_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">1224/Autograph/03 E_II_367__S__42_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -180,11 +188,11 @@
 					<s n="18" xml:lang="la" type="auto">Quod si, ut spero, feceris, nos et pii omnes magnam tibi habituri sunt gratiam.</s>
 					<s n="19" xml:lang="la" type="auto">Dominus deus pro incremento verbi sui servet te diu incolumem.</s>
 					<s n="20" xml:lang="la" type="auto">Salutant te fratres, qui mecum quique mecum in verbo domini consentiunt.</s>
-					<s n="21" xml:lang="la" type="auto">Datum <placeName type="auto_name" ref="546">Viennae</placeName> Austrię 26. martii 1551.</s>
+					<s n="21" xml:lang="la" type="auto">Datum <placeName>Viennae</placeName> Austrię 26. martii 1551.</s>
 				</p>
 				<p>
 					<s n="22" xml:lang="la" type="auto">Expecto responsum per hunc hominem, qui has tibi dedit literas.</s>
-					<s n="23" xml:lang="la" type="auto">Quodsi per eum non liceret subito de omnibus respondere, literas, quas postea scripturus et ad me missurus es, mitte saltem <placeName type="auto_name" ref="1976">Augustam</placeName> ad manus <persName type="auto_name">Geryonis</persName> vel Achillis, medicorum <placeName type="auto_name">Augustensium</placeName>; ipsi facile ad me mittent.</s>
+					<s n="23" xml:lang="la" type="auto">Quodsi per eum non liceret subito de omnibus respondere, literas, quas postea scripturus et ad me missurus es, mitte saltem <placeName>Augustam</placeName> ad manus <persName type="auto_name">Geryonis</persName> vel Achillis, medicorum <placeName type="auto_name">Augustensium</placeName>; ipsi facile ad me mittent.</s>
 				</p>
 				<p>
 					<s n="24" xml:lang="la" type="auto">Deditissimus <persName type="auto_name">Iohannes Feyerthoy</persName>, Hungarus.</s>

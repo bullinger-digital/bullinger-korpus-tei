@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1538" type="Brief" source="TUSTEP" n="22013">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1538" type="Brief" source="TUSTEP-0" n="22013">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Oswald Myconius (Geißhüsler) / Basel AN Heinrich Bullinger / Zürich, 19. Januar 1552</title>
+				<title subtype="file">Oswald Myconius (Geißhüsler) / Basel an Heinrich Bullinger / Zürich, 19. Januar 1552</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -99,7 +99,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
-					<date when="1552-01-19" cert="low"/>
+					<date when="1552-01-19" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -143,8 +143,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1538%2FAutograph%2F00%20E_II_336__fol__348_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1538/Autograph/00 E_II_336__fol__348_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1538%2FAutograph%2F01%20E_II_336__fol__348_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1538/Autograph/01 E_II_336__fol__348_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1538%2FAutograph%2F00%20E_II_336__fol__348_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1538/Autograph/00 E_II_336__fol__348_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1538%2FAutograph%2F01%20E_II_336__fol__348_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1538/Autograph/01 E_II_336__fol__348_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -152,20 +156,20 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Iam diu taces nescio quam ob rem, nisi forsitan quod nec ego loquor.</s>
-					<s n="3" xml:lang="la" type="auto">Equidem hactenus expectavi libellum <persName type="auto_name" ref="2301">Osiandri</persName> de iustificatione ex <placeName type="auto_name" ref="492">Argentina</placeName>, unde promissus fuerat; sed nihil adhuc accepi.</s>
+					<s n="3" xml:lang="la" type="auto">Equidem hactenus expectavi libellum <persName>Osiandri</persName> de iustificatione ex <placeName>Argentina</placeName>, unde promissus fuerat; sed nihil adhuc accepi.</s>
 					<s n="4" xml:lang="la" type="auto">Volebam inde scribendi sumere argumentum; verum quia frustra expectabam, rumpendum videbatur silentium.</s>
 					<s n="5" xml:lang="la" type="auto">Quamvis autem nec hodie sciam, quid sit scribendum, scribam, quicquid in buccam venerit.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Hodie, dum exieramus e templo, retulit quid m praesentibus consule et duobus scribis, <placeName type="auto_name" ref="28">Basiliensi</placeName> et <persName type="auto_name">Mülhusano</persName>, d. <persName type="auto_name">Philippum</persName> esse Tridenti cum octo famulis.</s>
+					<s n="6" xml:lang="la" type="auto">Hodie, dum exieramus e templo, retulit quid m praesentibus consule et duobus scribis, <placeName>Basiliensi</placeName> et <persName type="auto_name">Mülhusano</persName>, d. <persName type="auto_name">Philippum</persName> esse Tridenti cum octo famulis.</s>
 					<s n="7" xml:lang="la" type="auto">Optabamus igitur omnes multam gratiam et a domino efficacem protectionem, qua nimirum opus habet inter veneficos viros.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Papa creasse dicitur cardinales 14 eoque plerosque eius dignitatis ad se <persName type="auto_name">Gallus</persName> pertraxerit; accepit autem papa ab eis usque ad sex donellas auri.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto"><persName type="auto_name" ref="2916">Schertlius</persName> scripsit huc ante dies plus minus 14 ad quęstorem; quęstor dominis literas legendas communicavit.</s>
-					<s n="10" xml:lang="la" type="auto">In eis continebatur regem commeatum misisse Parmensibus ad menses 18, venisse ducem Italum cum Hispanis militibus, qui in <placeName type="auto_name" ref="572">Wirtemberga</placeName> durarunt hucusque, ut commeatum interciperet; occurrisse <placeName type="auto_name">Gallos</placeName> et peremisse Hispanorum sexcentos et reliquos in fugam coniecisse; itaque commeatum intrasse Parmam prorsus illęsum.</s>
+					<s n="9" xml:lang="la" type="auto"><persName>Schertlius</persName> scripsit huc ante dies plus minus 14 ad quęstorem; quęstor dominis literas legendas communicavit.</s>
+					<s n="10" xml:lang="la" type="auto">In eis continebatur regem commeatum misisse Parmensibus ad menses 18, venisse ducem Italum cum Hispanis militibus, qui in <placeName>Wirtemberga</placeName> durarunt hucusque, ut commeatum interciperet; occurrisse <placeName type="auto_name">Gallos</placeName> et peremisse Hispanorum sexcentos et reliquos in fugam coniecisse; itaque commeatum intrasse Parmam prorsus illęsum.</s>
 					<s n="11" xml:lang="la" type="auto">Non igitur verisimile videtur <placeName type="auto_name">Parmenses</placeName> expulisse turbam omnem inbellem et partem eorum magnam ab hostibus captam, occisam et ignominiose habitam.</s>
 				</p>
 				<p>
@@ -174,7 +178,7 @@
 					<s n="14" xml:lang="la" type="auto">Cognatus quia non meminit de expulsione<note type="margin">a.R.: ex expulsione!</note> dicta, iterum spero confictam esse.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">De <placeName type="auto_name">Bolseco</placeName> scripsi his diebus <persName type="auto_name" ref="8171">Bibliandro</persName> certam ob causam quod ea de re, hoc est de electione dei, ante aliquot annos transegeramus inter nos.</s>
+					<s n="15" xml:lang="la" type="auto">De <placeName type="auto_name">Bolseco</placeName> scripsi his diebus <persName>Bibliandro</persName> certam ob causam quod ea de re, hoc est de electione dei, ante aliquot annos transegeramus inter nos.</s>
 					<s n="16" xml:lang="la" type="auto">Ibi tunc exposueram animum, ut antea nunquam, non quidem pertinaciter, sed ut discerem, si qua fallerer.</s>
 					<s n="17" xml:lang="la" type="auto">Rescripserat ille tum, ut eius actionis non queat poenitere unquam.</s>
 					<s n="18" xml:lang="la" type="auto">Et adhuc nosse cupio quomodo ea controversia placeat vobis.</s>
@@ -197,11 +201,11 @@
 					<s n="29" xml:lang="la" type="auto">Sed ita turbat ecclesiam.</s>
 					<s n="30" xml:lang="la" type="auto">Nam bonę mentes incipiunt dubitare, nec temere dicere: seducunt nos pfaffi, sicut priores.</s>
 					<s n="31" xml:lang="la" type="auto">Verum ego de re, quam nondum probe intelligo, nimium forsitan balbutio.</s>
-					<s n="32" xml:lang="la" type="auto">Expecto igitur libellum promissum ex <placeName type="auto_name" ref="492">Argentina</placeName>.</s>
+					<s n="32" xml:lang="la" type="auto">Expecto igitur libellum promissum ex <placeName>Argentina</placeName>.</s>
 					<s n="33" xml:lang="la" type="auto">Vale in Christo cum tuis.</s>
 					<s n="34" xml:lang="la" type="auto">Bonum annum optamus vobis, ego, inquam, et uxor valetudinaria.</s>
-					<s n="35" xml:lang="la" type="auto">Salutabis nomine nostro <persName type="auto_name" ref="8127">Pellicanum</persName>, <persName type="auto_name">Theodorum</persName>, <persName type="auto_name">Rhodolphum</persName>, <persName type="auto_name" ref="8459">Othonem</persName> et reliquos.</s>
-					<s n="36" xml:lang="la" type="auto"><placeName type="auto_name" ref="28">Basileę</placeName> 19. ianuarii anno 1552.</s>
+					<s n="35" xml:lang="la" type="auto">Salutabis nomine nostro <persName>Pellicanum</persName>, <persName type="auto_name">Theodorum</persName>, <persName type="auto_name">Rhodolphum</persName>, <persName>Othonem</persName> et reliquos.</s>
+					<s n="36" xml:lang="la" type="auto"><placeName>Basileę</placeName> 19. ianuarii anno 1552.</s>
 				</p>
 				<p>
 					<s n="37" xml:lang="la" type="auto">Tuus <persName>Osvaldus Myconius</persName>.</s>

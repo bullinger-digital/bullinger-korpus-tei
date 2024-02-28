@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1985" type="Brief" source="TUSTEP" n="23161">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1985" type="Brief" source="TUSTEP-0" n="23161">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Georg Frölich (Laetus) / Lauingen AN Heinrich Bullinger / Zürich, 1. September 1553</title>
+				<title subtype="file">Georg Frölich (Laetus) / Lauingen an Heinrich Bullinger / Zürich, 1. September 1553</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,11 +16,11 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
-				<bibl type="footnotes">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="footnotes">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -69,7 +69,7 @@
 						-->
 					</persName>
 					<placeName source="l279" cert="high"><orig>Lauingen</orig></placeName>
-					<date when="1553-09-01" cert="low"/>
+					<date when="1553-09-01" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -112,8 +112,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1985%2FAutograph%2F00%20E_II_346__fol__279_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1985/Autograph/00 E_II_346__fol__279_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1985%2FAutograph%2F01%20E_II_346__fol__279_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1985/Autograph/01 E_II_346__fol__279_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1985%2FAutograph%2F00%20E_II_346__fol__279_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1985/Autograph/00 E_II_346__fol__279_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1985%2FAutograph%2F01%20E_II_346__fol__279_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1985/Autograph/01 E_II_346__fol__279_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -122,7 +126,7 @@
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
 					<s n="2" xml:lang="la" type="auto">Tuę literę, amicorum observabilissime, nunquam non fuerunt mihi iucundissimę, quantumvis temporum iniuria omnia nunc conturbet.</s>
 					<s n="3" xml:lang="la" type="auto">Concionem tuam super cęna domini ex alio exemplari, antequam tuum ad me venerat, summa cum voluptate spiritus legi, licet fere totum prius animo nostro gnaviter impressum erat.</s>
-					<s n="4" xml:lang="la" type="auto">Exquestori <persName type="auto_name" ref="182">Arnoldo</persName> exemplar suum incunctanter transmisi; is quoque cum gaudio accepit renuncians mihi principem <persName type="auto_name" ref="17927">Palatinum</persName> coactis aliquot theologis, inter quas <persName type="auto_name">Brenzius</persName> primas tenet, de ecclesię ordinatione consultare.</s>
+					<s n="4" xml:lang="la" type="auto">Exquestori <persName ref="p3700">Arnoldo</persName> exemplar suum incunctanter transmisi; is quoque cum gaudio accepit renuncians mihi principem <persName>Palatinum</persName> coactis aliquot theologis, inter quas <persName type="auto_name">Brenzius</persName> primas tenet, de ecclesię ordinatione consultare.</s>
 					<s n="5" xml:lang="la" type="auto">Ego per literas, quantum in me fuit, istos inanes conatus dissuasi haud utique ignorans quorundam opiniones et quam sinistre cedant humanę constitutiones, praecipue ob id, quod nihil stabile inter tot dissidentes inter se ceremonias constitui facile possit, nisi augustior sinodus congre[ga]ta fuerit.</s>
 					<s n="6" xml:lang="la" type="auto">Tua de cęna domini concio <placeName>Augustę</placeName> mirificis laudibus per cordatos et pios extollitur; hinc quoque ea mihi primum exhibita est.</s>
 				</p>
@@ -131,11 +135,11 @@
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Princeps <persName type="auto_name">Saxonię Augustus</persName> electorio munere fungi et subditos electoratus sacramento sibi astringere incipit; is etiam iam comitia frequentissim <placeName type="auto_name">Lypzię</placeName> celebraturus est, ubi magnates universi eius imperii confluent, equitum nimirum ultra quinque millia non numerato priore exercitu, reliquiis nempe <persName type="auto_name">Mauricii</persName> fratris cęsi.</s>
-					<s n="9" xml:lang="la" type="auto">Rumor est <persName type="auto_name">Augustum</persName> totum in hoc esse, ut mortem fratris non solum ulciscatur, verum etiam ipsius <persName type="auto_name" ref="18250">Mauricii</persName> inceptum negotium de recuperanda libertate in finem deducat.</s>
+					<s n="9" xml:lang="la" type="auto">Rumor est <persName type="auto_name">Augustum</persName> totum in hoc esse, ut mortem fratris non solum ulciscatur, verum etiam ipsius <persName>Mauricii</persName> inceptum negotium de recuperanda libertate in finem deducat.</s>
 					<s n="10" xml:lang="la" type="auto">Habet is auxiliarios <persName type="auto_name">Danorum</persName> regem et civitates percipuas(?), quę vocantur maritimę.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Marggravius <persName type="auto_name" ref="8371">Albertus</persName> viribus et belli nervis<note xml:id="fn1" type="footnote" n="1">Vgl. <hi>Cicero,</hi> Orationes Philippicae, 5, 5 und s. <bibl>HBBW</bibl> XIV *** .</note> ęger non longe ab Hanubero civitate nititur equitem et militem conscribere, quo ut aut Cęsari sit auxilio aut hostes episcopos infestet.</s>
+					<s n="11" xml:lang="la" type="auto">Marggravius <persName>Albertus</persName> viribus et belli nervis<note xml:id="fn1" type="footnote" n="1">Vgl. <hi>Cicero,</hi> Orationes Philippicae, 5, 5 und s. <bibl>HBBW</bibl> XIV *** .</note> ęger non longe ab Hanubero civitate nititur equitem et militem conscribere, quo ut aut Cęsari sit auxilio aut hostes episcopos infestet.</s>
 					<s n="12" xml:lang="la" type="auto">At o quam difficulter emersus est.</s>
 				</p>
 				<p>
@@ -143,13 +147,13 @@
 					<s n="14" xml:lang="la" type="auto">Summa: res stant in veteri sabulo.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto"><persName type="auto_name" ref="18982">Ionam</persName> meum alias optime tibi commendatum adhuc commendo.</s>
+					<s n="15" xml:lang="la" type="auto"><persName>Ionam</persName> meum alias optime tibi commendatum adhuc commendo.</s>
 					<s n="16" xml:lang="la" type="auto">Symblero, genero tuo, modo scribere non licuit; <persName type="auto_name">Ionas</persName> autem meas literas iussu meo illi ostendet, ex quibus, quid velim, intelliget.</s>
 					<s n="17" xml:lang="la" type="auto">Capita urbis vestrę, protoscribam atque singulos symmistas tuos cum reliquis amicis ex me salutabis.</s>
 				</p>
 				<p>
 					<s n="18" xml:lang="la" type="auto">Vale.</s>
-					<s n="19" xml:lang="la" type="auto">Celerrime ex <placeName type="auto_name" ref="279">Lauginga</placeName> 1. septembris 1553.</s>
+					<s n="19" xml:lang="la" type="auto">Celerrime ex <placeName>Lauginga</placeName> 1. septembris 1553.</s>
 					<s n="20" xml:lang="la" type="auto">Tuus <persName>Georgius Lętus</persName> a <placeName type="auto_name">Lömnicz</placeName>.</s>
 				</p>
 				<p>

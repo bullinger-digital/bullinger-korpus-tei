@@ -8,7 +8,6 @@ PATH_LETTERS = "data/letters/"
 PATH_INDEX = "data/index/"
 URL_DTD = 'https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng'
 
-
 print("validating files...")
 schema = requests.get('https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng').text
 relaxng_doc = etree.fromstring(bytes(schema, encoding='utf-8'))

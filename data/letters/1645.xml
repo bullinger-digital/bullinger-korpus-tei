@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1645" type="Brief" source="TUSTEP" n="22113">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1645" type="Brief" source="TUSTEP-0" n="22113">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Johannes Haller d.J. / Bern AN Heinrich Bullinger / Zürich, 24. Mai 1552</title>
+				<title subtype="file">Johannes Haller d.J. / Bern an Heinrich Bullinger / Zürich, 24. Mai 1552</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
@@ -71,7 +71,7 @@
 						-->
 					</persName>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
-					<date when="1552-05-24" cert="low"/>
+					<date when="1552-05-24" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -115,31 +115,35 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1645%2FAutograph%2F00%20E_II_370__fol__171_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1645/Autograph/00 E_II_370__fol__171_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1645%2FAutograph%2F01%20E_II_370__fol__171_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1645/Autograph/01 E_II_370__fol__171_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1645%2FAutograph%2F00%20E_II_370__fol__171_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1645/Autograph/00 E_II_370__fol__171_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1645%2FAutograph%2F01%20E_II_370__fol__171_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1645/Autograph/01 E_II_370__fol__171_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="de">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S.</s>
-					<s n="2" xml:lang="de" type="auto"><foreign xml:lang="la">Breviter nova quaedam ex <placeName type="auto_name" ref="1976">Augusta</placeName> 10. mai:</foreign> Huͦberinus und sine mittgsellen predigend noch aber anderst dann von anfang.</s>
+					<s n="2" xml:lang="de" type="auto"><foreign xml:lang="la">Breviter nova quaedam ex <placeName>Augusta</placeName> 10. mai:</foreign> Huͦberinus und sine mittgsellen predigend noch aber anderst dann von anfang.</s>
 					<s n="3" xml:lang="de" type="auto">Es wirt si aber nitt helffen; sie muͤßend mitt irem chrisam zum thor us.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="de" type="auto">Der rath hatt ein predicanten imm spital ufgstellt; der ist vor jaren zuͦ <placeName type="auto_name" ref="320">Memmingen</placeName> gwesen, heißt <persName type="auto_name">Bartholomeus</persName>; dem laufft das volk treffelich nach.</s>
+					<s n="4" xml:lang="de" type="auto">Der rath hatt ein predicanten imm spital ufgstellt; der ist vor jaren zuͦ <placeName>Memmingen</placeName> gwesen, heißt <persName type="auto_name">Bartholomeus</persName>; dem laufft das volk treffelich nach.</s>
 				</p>
 				<p>
-					<s n="5" xml:lang="de" type="auto"><persName type="auto_name">Hertzog von Mechelburg</persName> hatt am 8. mai sin predicanten zuͦ <persName type="auto_name">S. Ulrich</persName> ufgstelt; da hatt man von vile schier einanderen ertruckt.</s>
-					<s n="6" xml:lang="de" type="auto">Morndes 9. mai hatt er zuͦ <persName type="auto_name">S. Anna</persName> predget, <persName type="auto_name" ref="8417">Musculum</persName> eerlich anzogen.</s>
+					<s n="5" xml:lang="de" type="auto"><persName type="auto_name">Hertzog von Mechelburg</persName> hatt am 8. mai sin predicanten zuͦ S. Ulrich ufgstelt; da hatt man von vile schier einanderen ertruckt.</s>
+					<s n="6" xml:lang="de" type="auto">Morndes 9. mai hatt er zuͦ S. Anna predget, <persName>Musculum</persName> eerlich anzogen.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="de" type="auto"><persName type="auto_name">H[ertzog] Ottheinrich</persName> hatt den 4. mai <placeName type="auto_name" ref="1603">Dillingen</placeName> ingnommen; die hand imm auch schweeren muͤßen.</s>
+					<s n="7" xml:lang="de" type="auto"><persName type="auto_name">H[ertzog] Ottheinrich</persName> hatt den 4. mai <placeName>Dillingen</placeName> ingnommen; die hand imm auch schweeren muͤßen.</s>
 					<s n="8" xml:lang="de" type="auto">Ist das gmein gschrei, er werde das bistumb innemmen und zuͦ einem fürstenthumb machen.</s>
-					<s n="9" xml:lang="de" type="auto">Am 5. mai ist er zuͦ <placeName type="auto_name" ref="1976">Augspurg</placeName> ingritten.</s>
+					<s n="9" xml:lang="de" type="auto">Am 5. mai ist er zuͦ <placeName>Augspurg</placeName> ingritten.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="de" type="auto">Alle Stett sind da gsin ußgnommen <placeName type="auto_name" ref="513">Ulm</placeName>, Nüre[m]berg, <placeName type="auto_name">Franckfurt</placeName>, <placeName type="auto_name" ref="492">Straßburg</placeName>, <placeName type="auto_name" ref="457">Costentz</placeName>, Rotwyl.</s>
+					<s n="10" xml:lang="de" type="auto">Alle Stett sind da gsin ußgnommen <placeName>Ulm</placeName>, <placeName type="auto_name">Nüre[m]berg</placeName>, <placeName type="auto_name">Franckfurt</placeName>, <placeName>Straßburg</placeName>, <placeName>Costentz</placeName>, <placeName type="auto_name">Rotwyl</placeName>.</s>
 					<s n="11" xml:lang="de" type="auto">Ein anderer tag gen <placeName type="auto_name">Paßaw</placeName> glegt uff den 28. mai.</s>
 				</p>
 				<p>
@@ -151,19 +155,19 @@
 					<s n="15" xml:lang="de" type="auto">Diß tags ist auch uff den abend <persName>h[ertzog] Moritz</persName> in das leger verritten.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="de" type="auto"><persName type="auto_name">Marggraff Albrecht</persName> hatt denen von Nürnberg ein stettli mitt eim starcken schloß abgwunnen, daruff 60 stuck büxen funden; sol also zuͦgangen sin: Der oberst imm schloß hatt sin sun uff Nürnberg gschickt; der ist abweg gritten und dem marggraffen in die hend worden.</s>
+					<s n="16" xml:lang="de" type="auto"><persName type="auto_name">Marggraff Albrecht</persName> hatt denen von <placeName type="auto_name">Nürnberg</placeName> ein stettli mitt eim starcken schloß abgwunnen, daruff 60 stuck büxen funden; sol also zuͦgangen sin: Der oberst imm schloß hatt sin sun uff <placeName type="auto_name">Nürnberg</placeName> gschickt; der ist abweg gritten und dem marggraffen in die hend worden.</s>
 					<s n="17" xml:lang="de" type="auto">Den hatt er ilends für das schloß gfuͤrt und dem vatter für die auegn wellen hencken lan, so er das schloß nitt ufgeb.</s>
-					<s n="18" xml:lang="de" type="auto">Also hatt ers ufgen, ee dann die von Nürnberg der sach mögen innen werden.</s>
+					<s n="18" xml:lang="de" type="auto">Also hatt ers ufgen, ee dann die von <placeName type="auto_name">Nürnberg</placeName> der sach mögen innen werden.</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="de" type="auto"><persName type="auto_name">Bischoff von Augspurg</persName> ist hinweg: weißt nieman, wo er ist.</s>
-					<s n="20" xml:lang="de" type="auto">Flinner und <placeName type="auto_name">Lienhart</placeName> sind wider zuͦ <placeName type="auto_name" ref="1976">Augspurg</placeName>; aber von deß eids wegen, so si uß dem rych gethon, wil man si nitt wider ufstellen, biß si absolviert, und handlet man inn der absolution.</s>
+					<s n="20" xml:lang="de" type="auto"><persName type="auto_name">Flinner</persName> und <persName type="auto_name">Lienhart</persName> sind wider zuͦ <placeName>Augspurg</placeName>; aber von deß eids wegen, so si uß dem rych gethon, wil man si nitt wider ufstellen, biß si absolviert, und handlet man inn der absolution.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto">Haec ex scriptis <placeName type="auto_name" ref="1976">Augustanis</placeName> ad <persName type="auto_name" ref="8417">Musculum</persName> et me datis raptim concinnavi vel excerpsi.</s>
+					<s n="21" xml:lang="la" type="auto">Haec ex scriptis <placeName>Augustanis</placeName> ad <persName>Musculum</persName> et me datis raptim concinnavi vel excerpsi.</s>
 					<s n="22" xml:lang="la" type="auto">Boni consule et vale.</s>
 					<s n="23" xml:lang="la" type="auto">Salvi sint omnes tui meo meorumque nomine.</s>
-					<s n="24" xml:lang="de" type="auto">Bernę 24. maii 1552.</s>
+					<s n="24" xml:lang="de" type="auto"><placeName type="auto_name">Bernę</placeName> 24. maii 1552.</s>
 				</p>
 				<p>
 					<s n="25" xml:lang="la" type="auto">Tuus <persName>Ioannes Hallerus</persName>.</s>

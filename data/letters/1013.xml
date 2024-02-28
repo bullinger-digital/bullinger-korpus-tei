@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1013" type="Brief" source="TUSTEP" n="20221">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1013" type="Brief" source="TUSTEP-0" n="20221">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Oswald Myconius (Geißhüsler) / Basel AN Heinrich Bullinger / Zürich, ca. 23. September 1550</title>
+				<title subtype="file">Oswald Myconius (Geißhüsler) / Basel an Heinrich Bullinger / Zürich, ca. 23. September 1550</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -75,7 +75,7 @@
 						-->
 					</persName>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
-					<date when="1550-09-23" cert="low">ca. 23. September 1550</date>
+					<date when="1550-09-23" cert="high">ca. 23. September 1550</date>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p495" cert="high">
@@ -118,8 +118,12 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1013%2FAutograph%2F00%20E_II_336__fol__333_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1013/Autograph/00 E_II_336__fol__333_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1013%2FAutograph%2F01%20E_II_336__fol__333_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1013/Autograph/01 E_II_336__fol__333_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1013%2FAutograph%2F00%20E_II_336__fol__333_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1013/Autograph/00 E_II_336__fol__333_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1013%2FAutograph%2F01%20E_II_336__fol__333_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1013/Autograph/01 E_II_336__fol__333_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
@@ -129,14 +133,14 @@
 					<s n="2" xml:lang="la" type="auto">Venit hic, qui has reddit, indicavitque se iturum Tigurum, an quid velim scribere.</s>
 					<s n="3" xml:lang="la" type="auto">Quamvis autem nihil habeam, quod sit alicuius momenti, nolui tamen, ut vacuus meis ad te veniret.</s>
 					<s n="4" xml:lang="la" type="auto">Eieci ergo a me, qui per duas horas me detinuerat, ut tantillum scriberem.</s>
-					<s n="5" xml:lang="la" type="auto">Venerunt huc literę, imo libellus, ex <placeName type="auto_name" ref="1976">Augusta</placeName>, in quo responsio est principum ad articulos fidei, quos Cęsar proposuit.</s>
+					<s n="5" xml:lang="la" type="auto">Venerunt huc literę, imo libellus, ex <placeName>Augusta</placeName>, in quo responsio est principum ad articulos fidei, quos Cęsar proposuit.</s>
 					<s n="6" xml:lang="la" type="auto">Conantur omnibus viribus praecavere, ne quid tentet bello, sed rationem aliam inveniat, quęcunque illa, per quam ad pacem queat penetrare.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Colloquium indicant seu concilium, in quo et libertatem dicendi cuivis sine omni trepidatione requirunt.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Hęc et alia tanto postulant conatu, ut hęsitent quidam, si <persName type="auto_name" ref="18538">Cęsar</persName> possit repugnare.</s>
+					<s n="8" xml:lang="la" type="auto">Hęc et alia tanto postulant conatu, ut hęsitent quidam, si <persName>Cęsar</persName> possit repugnare.</s>
 					<s n="9" xml:lang="la" type="auto">Tu vero nosti, quam sit impossibile maligna tempestate hac dari posse concilium, ubi Christus vincat antichristum.</s>
 					<s n="10" xml:lang="la" type="auto">Frustra igitur principes consultant et effectum bonum sperant frustra.</s>
 				</p>
@@ -148,7 +152,7 @@
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto"><persName type="auto_name">Granvilę</persName> uxor hac transiit.</s>
-					<s n="14" xml:lang="la" type="auto">Defunctus maritus per pontem <placeName type="auto_name" ref="492">Argentinensem</placeName> vectus urbem non est ingressus; ita cavet sibi ab evangelicis civitatibus etiam post mortem.</s>
+					<s n="14" xml:lang="la" type="auto">Defunctus maritus per pontem <placeName>Argentinensem</placeName> vectus urbem non est ingressus; ita cavet sibi ab evangelicis civitatibus etiam post mortem.</s>
 					<s n="15" xml:lang="la" type="auto">Audio bonam Cęsaris partem in obitu illius periisse, id quod parum me movet.</s>
 					<s n="16" xml:lang="la" type="auto">Illud constat: voraginem magnam auri et argenti e Germania sublatam.</s>
 				</p>
@@ -157,8 +161,8 @@
 					<s n="18" xml:lang="la" type="auto">Mihi sunt horrori.</s>
 					<s n="19" xml:lang="la" type="auto">De Cęsare nunquam vel rarius cogito; illorum non possum oblivisci.</s>
 					<s n="20" xml:lang="la" type="auto">Dominus sanam det eis mentem.</s>
-					<s n="21" xml:lang="la" type="auto">Vale cum tuis, <persName type="auto_name" ref="8011">Gvalthero</persName>, <persName type="auto_name">Othone</persName> ac reliquis, in domino.</s>
-					<s n="22" xml:lang="la" type="auto"><placeName type="auto_name" ref="28">Basileę</placeName> raptim... septembris anno 1550.</s>
+					<s n="21" xml:lang="la" type="auto">Vale cum tuis, <persName>Gvalthero</persName>, <persName type="auto_name">Othone</persName> ac reliquis, in domino.</s>
+					<s n="22" xml:lang="la" type="auto"><placeName>Basileę</placeName> raptim... septembris anno 1550.</s>
 				</p>
 				<p>
 					<s n="23" xml:lang="la" type="auto"><persName>Os[valdus] Myconius</persName> tuus.</s>

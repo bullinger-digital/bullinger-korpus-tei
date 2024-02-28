@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1101" type="Brief" source="TUSTEP" n="20273">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1101" type="Brief" source="TUSTEP-0" n="20273">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Heinrich Bullinger / Zürich AN Johannes Calvin / Genf, 6. Dezember 1550</title>
+				<title subtype="file">Heinrich Bullinger / Zürich an Johannes Calvin / Genf, 6. Dezember 1550</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,10 +16,10 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2023"/>
+				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<bibl type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
@@ -78,7 +78,7 @@
 						-->
 					</persName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
-					<date when="1550-12-06" cert="low"/>
+					<date when="1550-12-06" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p540" cert="high">
@@ -121,29 +121,33 @@
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
-		<graphic xml:id="img1" url="https://iiif.bullinger-digital.ch/iiif/3/1101%2FAutograph%2F00%20E_II_342__fol__237_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1101/Autograph/00 E_II_342__fol__237_r_.tif</desc></graphic>
-		<graphic xml:id="img2" url="https://iiif.bullinger-digital.ch/iiif/3/1101%2FAutograph%2F01%20E_II_342__fol__237_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1101/Autograph/01 E_II_342__fol__237_v_.tif</desc></graphic>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/1101%2FAutograph%2F00%20E_II_342__fol__237_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">1101/Autograph/00 E_II_342__fol__237_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/1101%2FAutograph%2F01%20E_II_342__fol__237_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">1101/Autograph/01 E_II_342__fol__237_v_.tif</desc></graphic>
+		</surface>
 	</facsimile>
 	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
-					<s n="2" xml:lang="la" type="auto">Studiosi quidam <placeName type="auto_name" ref="55">Bononia</placeName> venientes et descendentes in <placeName type="auto_name">Saxoniam</placeName> hasce mihi tibi, chare frater, mature transmittendas crediderunt.</s>
-					<s n="3" xml:lang="la" type="auto">Ego eas pro amore nostro libenter accepi, et quia nunc tabellionem certum nactus sum, mitto <placeName type="auto_name" ref="41">Bernam</placeName> ad nostros.</s>
+					<s n="2" xml:lang="la" type="auto">Studiosi quidam <placeName>Bononia</placeName> venientes et descendentes in <placeName type="auto_name">Saxoniam</placeName> hasce mihi tibi, chare frater, mature transmittendas crediderunt.</s>
+					<s n="3" xml:lang="la" type="auto">Ego eas pro amore nostro libenter accepi, et quia nunc tabellionem certum nactus sum, mitto <placeName>Bernam</placeName> ad nostros.</s>
 					<s n="4" xml:lang="la" type="auto">Vivimus hic, ut semper, in gratia Christi.</s>
 					<s n="5" xml:lang="la" type="auto">Non licuit plura.</s>
 					<s n="6" xml:lang="la" type="auto">Festinavit tabellio.</s>
 					<s n="7" xml:lang="la" type="auto">Omnes te amant fratres, omnes te salutant.</s>
 					<s n="8" xml:lang="la" type="auto">Vale aeternum ac d. a <placeName type="auto_name">Burgundia</placeName> me commenda.</s>
 					<s n="9" xml:lang="la" type="auto">Tiguri 6. decembris 1550.</s>
-					<s n="10" xml:lang="la" type="auto">Saluta fratres omnes inprimis <persName type="auto_name">Gallasium</persName> et <persName type="auto_name" ref="6235">Farellum</persName> opt[imum].</s>
+					<s n="10" xml:lang="la" type="auto">Saluta fratres omnes inprimis <persName type="auto_name">Gallasium</persName> et <persName>Farellum</persName> opt[imum].</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Bullingerus tuus.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Clarissimo viro d. <persName type="auto_name">Ioanni Calvino</persName> <placeName>Genevensis</placeName> ecclesiae fido pastori domino suo observando et fratri longe charissimo et incomparabili.</s>
+					<s n="12" xml:lang="la" type="auto">Clarissimo viro d. <persName>Ioanni Calvino</persName> <placeName>Genevensis</placeName> ecclesiae fido pastori domino suo observando et fratri longe charissimo et incomparabili.</s>
 				</p>
 			</div>
 		</body>
