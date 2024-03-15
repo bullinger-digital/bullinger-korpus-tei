@@ -10,7 +10,7 @@
                 <field name="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
                 <field name="number" expression="nav:get-metadata(ancestor::tei:TEI, 'number')"/>
                 <field name="corpus" expression="'bullinger'"/>
-                <field name="date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
+                <field name="date" type="xs:date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
                 <field name="file" expression="util:document-name(.)"/>
                 <field name="text" expression="."/>
                 <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
