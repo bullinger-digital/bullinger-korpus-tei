@@ -67,7 +67,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "datestring" return            
                 let $date := $header//tei:correspAction[@type='sent']/tei:date
                 return 
-                    head(($date/@when, $date/@notAfter))
+                    idx:normalize-date(head(($date/@when, $date/@notAfter)))
             case "archive-name" return
                 string-join(($root/tei:orgName/text(), $root/tei:addName/text()), ", ")
             case "archive-count" return
@@ -129,4 +129,13 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
 
             default return
                 ()
+};
+
+declare function idx:normalize-date($date as xs:string) {
+    if (matches($date, "^\d{4}-\d{2}$")) then
+        xs:date($date || "-01")
+    else if (matches($date, "^\d{4}$")) then
+        xs:date($date || "-01-01")
+    else
+        xs:date($date)
 };
