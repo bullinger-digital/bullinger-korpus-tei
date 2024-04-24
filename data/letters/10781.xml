@@ -24,14 +24,6 @@
 				<bibl n="8" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Teilentwurf" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Teilentwurf">Ms F 81,354</idno>
 					</msIdentifier>
@@ -70,14 +62,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10781">
 				<correspAction type="sent">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high">
-						<orig>die in Basel versammelten Pfarrer</orig>
-					</roleName>
+					<orgName ref="og49pl28" cert="high">die in Basel versammelten Pfarrer</orgName>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1536-02-05" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<orgName ref="og49pl17" cert="high"/>
 					<placeName source="l17" cert="low"><orig>Appenzell</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -103,8 +93,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

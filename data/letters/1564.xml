@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,115</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 77,46</idno>
 					</msIdentifier>
@@ -70,30 +54,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1564">
 				<correspAction type="sent">
-					<persName ref="p8109" cert="high">
-						<!--
-						<surname cert="high">Ulmer (von Ulm, ab Ulmis)</surname>
-						<forename cert="high">Johann Konrad</forename>
-						<graphic type="portrait" url="portraits/3243_Ulmer_Johann_Conrad.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Konrad_Ulmer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/120341913"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417219"/>
-						-->
-					</persName>
+					<persName ref="p8109" cert="high"/>
 					<placeName source="l376" cert="high"><orig>Oxford</orig></placeName>
 					<date when="1552-02-08" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -119,8 +85,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -138,7 +104,7 @@
 					<s n="1" xml:lang="la" type="auto">Haec quinta est epistola, quam post <persName type="auto_name">Stumphii</persName> a nobis discessum ad te do eam maxime ob causam, quod tabellariorum diffisus ingenio literas clarissimi principis tuae amplitudini descriptas nequaquam interire velim; fore enim eas tibi longe gratissimas non dubito.</s>
 					<s n="2" xml:lang="la" type="auto">Erit tuae quoque fidei et humanitatis curare, ut quamprimum intelligam, an illae omnes tibi fideliter sint redditae, qua in re velim ne diu suspensum me teneas.</s>
 					<s n="3" xml:lang="la" type="auto">Hic omnia sunt adhuc recte pacata, nisi quod securi caput <placeName type="auto_name">Somerseti</placeName> ducis hesterna die octava hora matutina <persName type="auto_name">Londini</persName> a carnifice <persName type="auto_name">Calethano</persName> est praecisum.</s>
-					<s n="4" xml:lang="la" type="auto">A confessionibus (ut vocant) fuit principi Coxus magno haud dubie maerore ac luctu; fuerunt enim semper familiaritate ac usu coniunctissimi.</s>
+					<s n="4" xml:lang="la" type="auto">A confessionibus (ut vocant) fuit principi <persName ref="p672" cert="high">Coxus</persName> magno haud dubie maerore ac luctu; fuerunt enim semper familiaritate ac usu coniunctissimi.</s>
 					<s n="5" xml:lang="la" type="auto">Mirae et omnino novae insidię <placeName type="auto_name">Warwicensi</placeName> ab illo intentatae feruntur.</s>
 					<s n="6" xml:lang="la" type="auto">Profecto misera atque miseranda haec sunt temporum munera.</s>
 					<s n="7" xml:lang="la" type="auto">Omnes hunc principis tanti casum et calamitatem gravissime flent ac maerent.</s>
@@ -147,10 +113,10 @@
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Tu (quod reliquum est) fac, ut liber aliquis tuus Northumbrorum duci quamprimum abs te describatur et literas ad <persName type="auto_name">Iohannem Chekum</persName>, regis institutorem, quae gratiarum in se actionem pro beneficiis in nos tua maxime causa collatis aperte contineant.</s>
-					<s n="11" xml:lang="la" type="auto">Praecipue <placeName type="auto_name">Alexandri</placeName> mei vel potius tui rationem habeto; illius causam <persName type="auto_name">Chekus</persName> apud <placeName type="auto_name">Warwicensem</placeName> se perpulchre transacturum pollicetur.</s>
+					<s n="11" xml:lang="la" type="auto">Praecipue <placeName type="auto_name">Alexandri</placeName> mei vel potius tui rationem habeto; illius causam <persName ref="p591" cert="high">Chekus</persName> apud <placeName type="auto_name">Warwicensem</placeName> se perpulchre transacturum pollicetur.</s>
 					<s n="12" xml:lang="la" type="auto">Nihil hic tibi faciendum, quod non te dignum et nostris studiis cum primis gratum acceptumque sit futurum.</s>
 					<s n="13" xml:lang="la" type="auto">Hoc ut velis, vir ornatissime, te tam rogo quam quod vehementissime.</s>
-					<s n="14" xml:lang="la" type="auto">Omnes literas a[d] me, praecipue <placeName type="auto_name">Cheki</placeName>, mittito.</s>
+					<s n="14" xml:lang="la" type="auto">Omnes literas a[d] me, praecipue <persName ref="p591" cert="high">Cheki</persName>, mittito.</s>
 					<s n="15" xml:lang="la" type="auto">Iterum vale.</s>
 				</p>
 				<p>

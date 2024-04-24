@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2834</idno>
 					</msIdentifier>
@@ -53,28 +45,12 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 66,83</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a39">
-							<name>Genf MHR</name>
-							<ref target="https://www.unige.ch/ihr/fr/aide-a-la-recherche/bibliotheque/"/>
-						</repository>
-						<settlement ref="l167">Genf</settlement>
-						<institution>Musée historique de la Réformation</institution>
-						-->
 						<repository ref="a39"/>
 						<idno subtype="Kopie">Herminjard-Dossier 1546-1549, 242</idno>
 						<idno subtype="Hinweis">Cart. 22. Feb.</idno>
@@ -85,17 +61,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/51">
 				<correspAction type="sent">
-					<persName ref="p8031" cert="high">
-						<!--
-						<surname cert="high">Comte (Comes Donzarensis)</surname>
-						<forename cert="high">Béat</forename>
-						-->
-					</persName>
+					<persName ref="p8031" cert="high"/>
 					<placeName source="l21" cert="high"><orig>Baden</orig></placeName>
 					<date when="1548-02-23" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -115,8 +86,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

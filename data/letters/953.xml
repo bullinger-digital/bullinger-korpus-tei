@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,14-15</idno>
 					</msIdentifier>
@@ -69,14 +61,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,266</idno>
 					</msIdentifier>
@@ -86,29 +70,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/953">
 				<correspAction type="sent">
-					<persName ref="p1560" cert="high">
-						<!--
-						<surname cert="high">Hooper</surname>
-						<forename cert="high">John</forename>
-						<graphic type="portrait" url="portraits/1560_Hooper_John.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/John_Hooper"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119121492"/>
-						-->
-					</persName>
+					<persName ref="p1560" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1550-06-29" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -134,8 +101,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -207,7 +174,7 @@
 					<s n="37" xml:lang="la" type="auto">Sed quod literas et librum tuum attinet, gratissimo et humanissimo animo acceperit, nec sine ingentibus gratiis: nam et de tua humanitate et incolumitate ecclesiae vestrę diligentissime est percontatus; praeterea iussit d. marquionem in argumentum gratitudinis regium munus tibi destinari.</s>
 					<s n="38" xml:lang="la" type="auto">Cum hoc intellexeram, rogavi marquionem, ut illius maiestati tuo nomine gratias ageret, et quod satis argumenti illius gratitudinis haberes, si ipse rex strenue ac pie in vinea Christi operam suam navaret; praeterea te nunquam solere quicquam muneris a quoquam accipere: postremo sancitum esse vestris legibus municipalibus munera et principum et aliorum omnium recusare: sed si quid per literas suas vel per meas placeret commendare, hoc vobis esse gratissimum.</s>
 					<s n="39" xml:lang="la" type="auto">Tunc rex iussit, ut omnibus nominibus te illius nomine salutarem et gratias agerem, deprecans ut illius memores sitis in vestris precibus et ipsum et regnum suum deo commendaretis.</s>
-					<s n="40" xml:lang="la" type="auto">Eodem animo et d. <persName type="auto_name">Coxus</persName> tua acceperit, quem per multas hebdoma[da]s, aliis seriis negotiis impeditus, invisere non potui.</s>
+					<s n="40" xml:lang="la" type="auto">Eodem animo et d. <persName ref="p672" cert="high">Coxus</persName> tua acceperit, quem per multas hebdoma[da]s, aliis seriis negotiis impeditus, invisere non potui.</s>
 					<s n="41" xml:lang="la" type="auto">Comites et marquiones omnes tuo nomine iussi officiose salutare resalutant omnes.</s>
 					<s n="42" xml:lang="la" type="auto"><persName type="auto_name">Comes de Warwyck</persName> iam diu aegrotavit, sed convaluit gratia dei, et aderit in concilio die Marcurii proxime sequenti.</s>
 					<s n="43" xml:lang="la" type="auto"><placeName type="auto_name">Anglia</placeName> non potest eo carere, ut verum fatear: sanctissimum organum et audacissimum est verbi dei.</s>

@@ -22,14 +22,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">A 356.1, Nr. 11</idno>
 						<idno subtype="Hinweis">Akten Tänikon</idno>
@@ -45,31 +37,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1439">
 				<correspAction type="sent">
-					<persName ref="p2920" cert="high">
-						<!--
-						<surname cert="high">Schlegel</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089312288"/>
-						-->
-					</persName>
+					<persName ref="p2920" cert="high"/>
 					<placeName source="l134" cert="low"><orig>Elgg</orig></placeName>
 					<date notBefore="1551-10-11" notAfter="1551-10-17" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
-					<roleName ref="g14" type="pl" role="Bürgermeister" cert="high"/>
-					<orgName ref="i25" type="sg" role="Synode" cert="high">
-						<orig>Herbst-Synode</orig>
-					</orgName>
+					<persName ref="p495" cert="high"/>
+					<orgName ref="og14pl587" cert="high"/>
+					<orgName ref="oi25sl587" cert="high">Herbst-Synode</orgName>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -84,8 +59,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

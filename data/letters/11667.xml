@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,33r.–34v.</idno>
 					</msIdentifier>
@@ -90,30 +82,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11667">
 				<correspAction type="sent">
-					<persName ref="p8055" cert="high">
-						<!--
-						<surname cert="high">Blarer (Blaurer)</surname>
-						<forename cert="high">Ambrosius</forename>
-						<graphic type="portrait" url="portraits/392_Blarer_Ambrosius.png"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Ambrosius_Blarer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118663763"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
-						-->
-					</persName>
+					<persName ref="p8055" cert="high"/>
 					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1542-04-27" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11668"/>
@@ -138,8 +112,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -206,7 +180,7 @@
 					<s n="30" xml:lang="la" type="auto">Dominus afflictam ecclesiam suam clementer respiciat!</s>
 				</p>
 				<p>
-					<s n="31" xml:lang="la" type="auto">Rediit hisce diebus a comitiis<note xml:id="fn29" type="footnote" n="29">Gemeint ist der Reichstag zu <placeName ref="l471" cert="high">Speyer</placeName>, der am 11. April zu Ende ging.</note> Zviccius noster<note xml:id="fn30" type="footnote" n="30"><persName ref="p4082" cert="high">Konrad Zwick</persName>.</note>, quocum propter illius pariter et mea negocia paucissima etiamnum de communibus rebus contuli.</s>
+					<s n="31" xml:lang="la" type="auto">Rediit hisce diebus a comitiis<note xml:id="fn29" type="footnote" n="29">Gemeint ist der Reichstag zu <placeName ref="l471" cert="high">Speyer</placeName>, der am 11. April zu Ende ging.</note> <persName ref="p4079" cert="high">Zviccius</persName> noster<note xml:id="fn30" type="footnote" n="30"><persName ref="p4082" cert="high">Konrad Zwick</persName>.</note>, quocum propter illius pariter et mea negocia paucissima etiamnum de communibus rebus contuli.</s>
 				</p>
 				<p>
 					<s n="32" xml:lang="la" type="auto">Nihil prorsus in religionis negocio actum; male omnia cohęrent, et quid dico „cohęrent“ omnibus miserandum in modum divulsis et eluxatis?</s>

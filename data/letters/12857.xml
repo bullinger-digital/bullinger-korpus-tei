@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,169 + 172</idno>
 					</msIdentifier>
@@ -94,27 +86,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12857">
 				<correspAction type="sent">
-					<persName ref="p3493" cert="high">
-						<!--
-						<surname cert="high">von Cham</surname>
-						<forename cert="high">Bernhard</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/143680382"/>
-						-->
-					</persName>
+					<persName ref="p3493" cert="high"/>
 					<placeName source="l266" cert="high"><orig>Kyburg</orig></placeName>
 					<date when="1547-02-12" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12858"/>
@@ -138,8 +115,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -199,7 +176,7 @@
 			<div xml:id="div5" corresp="regest5">
 				<p>
 					<s n="23" xml:lang="de" type="auto">Üch und üwer husgesint (in den schirm des heren gotz befollende) geben zuͦ Kiburg, den 12. tag hornung im 47. jar.</s>
-					<s n="24" xml:lang="de" type="auto">Üwer guͦtwilliger diener Bernhart von Cham, vogt zuͦ Kiburg.</s>
+					<s n="24" xml:lang="de" type="auto">Üwer guͦtwilliger diener Bernhart <persName ref="p3493" cert="high">von Cham</persName>, vogt zuͦ Kiburg.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse auf f. 172v.:]</note>

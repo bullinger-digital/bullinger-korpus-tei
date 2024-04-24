@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,257</idno>
 					</msIdentifier>
@@ -45,16 +37,7 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3634">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1558-07" cert="low"/>
 				</correspAction>
@@ -82,8 +65,8 @@
 				<language ident="la" usage="991">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -139,7 +122,7 @@
 					<s n="6" xml:lang="de" type="auto"><persName ref="p8033" cert="high">Beze</persName>.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">In novum test. exaudi per <persName type="auto_name">Gessnerum</persName> nostrum, quam ob causam per ostidium(?) detentus est in vinculis(?) ... ea lege dimissus, ut iubeat Gess. subsistere.</s>
+					<s n="7" xml:lang="la" type="auto">In novum test. exaudi per <persName ref="p1283" cert="high">Gessnerum</persName> nostrum, quam ob causam per ostidium(?) detentus est in vinculis(?) ... ea lege dimissus, ut iubeat Gess. subsistere.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Ea de re fecit ille litteras magistratus ad ampliss. senatum meum.</s>

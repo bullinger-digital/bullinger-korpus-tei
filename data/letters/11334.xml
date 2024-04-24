@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Original">Ms A 70,355</idno>
 						<altIdentifier>
@@ -68,43 +60,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11334">
 				<correspAction type="sent">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high">
-						<orig>die Pfarrer des Wetzikoner Kapitels</orig>
-							<orgName ref="i15" type="sg" role="Kapitel" cert="high"/>
-					</roleName>
+					<orgName ref="og49pl70" cert="high">die Pfarrer des Wetzikoner Kapitels</orgName>
 					<placeName source="l70" cert="high"><orig>Bubikon</orig></placeName>
 					<date when="1539-07-29" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
-					<persName ref="p1753" cert="high">
-						<!--
-						<surname cert="high">Jud</surname>
-						<forename cert="high">Leo</forename>
-						<graphic type="portrait" url="portraits/1753_Jud_Leo.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Leo_Jud"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118558528"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11423330"/>
-						-->
-					</persName>
-					<persName ref="p8412" cert="high">
-						<!--
-						<surname cert="high">Megander (Großmann)</surname>
-						<forename cert="high">Kaspar</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Kaspar_Megander"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/12037210X"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11416166"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
+					<persName ref="p1753" cert="high"/>
+					<persName ref="p8412" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11335"/>
@@ -125,8 +88,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

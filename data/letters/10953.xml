@@ -24,14 +24,6 @@
 				<bibl n="8" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a5">
-							<name>Basel StA</name>
-							<ref target="https://www.staatsarchiv.bs.ch/"/>
-						</repository>
-						<settlement ref="l29">Basel-Stadt</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a5"/>
 						<idno subtype="Original">Kirchenakten A 9, 247</idno>
 					</msIdentifier>
@@ -66,11 +58,8 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10953">
 				<correspAction type="sent">
-					<roleName ref="g14" type="pl" role="Bürgermeister" cert="high"/>
-					<roleName ref="g59" type="pl" role="Räte" cert="high">
-						<orig>die in Basel versammelten eidgenössischen Gesandten</orig>
-							<orgName ref="i5" type="sg" role="eidgenössische Gesandtenversammlung" cert="high"/>
-					</roleName>
+					<orgName ref="og14pl257" cert="high"/>
+					<orgName ref="og59pl257" cert="high">die in Basel versammelten eidgenössischen Gesandten</orgName>
 					<placeName source="l257" cert="high"><orig>Konstanz</orig></placeName>
 					<date when="1536-11-09" cert="high"/>
 				</correspAction>
@@ -87,8 +76,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">

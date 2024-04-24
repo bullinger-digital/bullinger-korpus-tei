@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,156</idno>
 					</msIdentifier>
@@ -42,7 +34,7 @@
 								Einem Unterlehrer [...] an einer Schule [in der Grafschaft Reichenweier] wurde von Fürst [Georg von
 								Württemberg] der Besuch seiner Heimat <placeName ref="l409" cert="high">Ravensburg</placeName> gewährt. Er
 								möchte allerdings nicht direkt durch den <placeName ref="l112" cert="high">Schwarzwald</placeName> reisen,
-								sondern durch die <placeName ref="l196" cert="high">Schweiz</placeName> und über Zürich, um die dortigen
+								sondern durch die <placeName ref="l28" cert="high">Schweiz</placeName> und über Zürich, um die dortigen
 								Landschaften und Sitten kennenzulernen. <persName ref="p1010" cert="high">Erb</persName> nutzt die Gelegenheit, um durch diesen dem
 								<persName ref="p18585" cert="high">Pythagoras</persName> ähnlichen Weltenbummler einen Brief zu übermitteln.
 								</p>
@@ -114,28 +106,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12488">
 				<correspAction type="sent">
-					<persName ref="p1010" cert="high">
-						<!--
-						<surname cert="high">Erb</surname>
-						<forename cert="high">Matthias</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Matthias_Erb"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/100972160"/>
-						-->
-					</persName>
+					<persName ref="p1010" cert="high"/>
 					<placeName source="l411" cert="high"><orig>Reichenweier</orig></placeName>
 					<date when="1546-05-01" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12489"/>
@@ -161,8 +137,8 @@
 				<language ident="la" usage="906">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -184,7 +160,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">Gratia domini tecum.</s>
-					<s n="2" xml:lang="la" type="auto">Adolescens hic, scholę nostrę hypodidasculus<note xml:id="fn1" type="footnote" n="1">=hypodidascalus.</note>,<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> cupidus visendi patrię suę<note xml:id="fna" type="footnote" n="a">suae <hi>über der Zeile nachgetragen.</hi></note> favore principis<note xml:id="fn3" type="footnote" n="3"><persName ref="p8098" cert="high">Georg von Württemberg-Mömpelgard</persName>.</note> impetrato noluit recta perque compendium Hercynię sylvę<note xml:id="fn4" type="footnote" n="4">Hier der <placeName ref="l112" cert="high">Schwarzwald</placeName>; s. <hi><persName ref="p8320" cert="high">Dasypodius</persName>, Dic.</hi> 262.</note> ad suos <placeName ref="l409" cert="high">Ravenspurgenses</placeName><note xml:id="fnb" type="footnote" n="b">Ravenspurgenses <hi>über der Zeile nachgetragen.</hi></note> ascendere, sed per <placeName ref="l196" cert="high">Helvetiam</placeName>, quo regionis montuosę situm, mores et studia ceu per transennam videret<note xml:id="fn5" type="footnote" n="5">Vgl. <bibl>Adagia</bibl> 3, 1, 49 <hi>(ASD</hi> II/5 65f, <ref target="file12096">Nr. 2049</ref>).</note>, maxime vero Tigurum, inclitam Helvetiorum urbem.</s>
+					<s n="2" xml:lang="la" type="auto">Adolescens hic, scholę nostrę hypodidasculus<note xml:id="fn1" type="footnote" n="1">=hypodidascalus.</note>,<note xml:id="fn2" type="footnote" n="2">Unbekannt.</note> cupidus visendi patrię suę<note xml:id="fna" type="footnote" n="a">suae <hi>über der Zeile nachgetragen.</hi></note> favore principis<note xml:id="fn3" type="footnote" n="3"><persName ref="p8098" cert="high">Georg von Württemberg-Mömpelgard</persName>.</note> impetrato noluit recta perque compendium Hercynię sylvę<note xml:id="fn4" type="footnote" n="4">Hier der <placeName ref="l112" cert="high">Schwarzwald</placeName>; s. <hi><persName ref="p8320" cert="high">Dasypodius</persName>, Dic.</hi> 262.</note> ad suos <placeName ref="l409" cert="high">Ravenspurgenses</placeName><note xml:id="fnb" type="footnote" n="b">Ravenspurgenses <hi>über der Zeile nachgetragen.</hi></note> ascendere, sed per <placeName ref="l28" cert="high">Helvetiam</placeName>, quo regionis montuosę situm, mores et studia ceu per transennam videret<note xml:id="fn5" type="footnote" n="5">Vgl. <bibl>Adagia</bibl> 3, 1, 49 <hi>(ASD</hi> II/5 65f, <ref target="file12096">Nr. 2049</ref>).</note>, maxime vero Tigurum, inclitam Helvetiorum urbem.</s>
 					<s n="3" xml:lang="la" type="auto">Per hunc ergo habens certam occasionem scribendi (qui veluti <persName ref="p18585" cert="high">Pythagoras</persName><note xml:id="fn6" type="footnote" n="6">Zu <persName ref="p18585" cert="high">Pythagoras</persName>' Wanderjahren s. <hi>DNP X</hi> 648-653.</note> alienas lustrat terras)<note xml:id="fnc" type="footnote" n="c"><hi>Klammern ergänzt.</hi></note> nolui te vacuis manibus salutaret, ne vel illum erronem putares vel me tui oblitum.</s>
 				</p>
 			</div>

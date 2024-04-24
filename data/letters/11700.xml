@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,247</idno>
 						<altIdentifier>
@@ -78,30 +70,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11700">
 				<correspAction type="sent">
-					<persName ref="p8418" cert="high">
-						<!--
-						<surname cert="high">Myconius (Geißhüsler)</surname>
-						<forename cert="high">Oswald</forename>
-						<graphic type="portrait" url="portraits/2234_Myconius_Oswald.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Oswald_Myconius"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118735462"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
-						-->
-					</persName>
+					<persName ref="p8418" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1542-09-04" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11701"/>
@@ -126,8 +100,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -158,7 +132,7 @@
 				<p>
 					<s n="11" xml:lang="la" type="auto">Gręcos<note xml:id="fn8" type="footnote" n="8">Gemeint sind zweifellos Türken; vgl. die folgende Anmerkung.</note> milites 50000 portum habere concessum a rege e <placeName ref="l41" cert="high">Berna</placeName> nunciatur et timere <placeName ref="l1176" cert="high">Massil[i]enses</placeName><note xml:id="fnc" type="footnote" n="c"><hi>Rand beschädigt.</hi></note>, ne ad se quoque venturi sint;<note xml:id="fn9" type="footnote" n="9">Nach einem anderen Gerücht waren bereits 15000 Türken bei <placeName ref="l1176" cert="high">Marseille</placeName> gelandet; s. <bibl>EA</bibl> IV/1d 181 a 7 und 186 zu e, g, i 2; vgl. auch unten <ref target="file11705">Nr. 1662</ref>, 57-60, sowie <bibl>Vadian BW VI</bibl> 147. 157. In Wirklichkeit war das Jahr für einen Aufbruch der türkischen Flotte bereits zu weit fortgeschritten; vgl. Ernest <hi>Charrière,</hi> Négociations de la France dans le Levant, Bd. I, Paris 1848, S. 554 mit Anm. 1.</note> quod si factum fuerit, de se ut de Ungaris esse actum.</s>
 					<s n="12" xml:lang="la" type="auto">Narravit hęc nobilis Germanus<note xml:id="fn10" type="footnote" n="10">Unbekannt.</note> apud <placeName ref="l41" cert="high">Bernenses</placeName>, qui stipendia facit in aula regis.</s>
-					<s n="13" xml:lang="la" type="auto">Eo quod patria nostra ex foedere longo cum Gallo mores hausit Gallicanos, quid arbitraris futurum, [si]<note xml:id="fnd" type="footnote" n="d"><hi>Rand beschädigt.</hi></note> Galli foedus cum Turca<note xml:id="fn11" type="footnote" n="11">Zur Allianz der französischen Krone mit dem türkischen Sultan vgl. <bibl>HBBW</bibl> XI <ref target="file11538">[Nr. 1495]</ref>, S. 137, Anm. 11.</note> diutius paulo duraverit?</s>
+					<s n="13" xml:lang="la" type="auto">Eo quod patria nostra ex foedere longo cum <persName ref="p7637" cert="high">Gallo</persName> mores hausit Gallicanos, quid arbitraris futurum, [si]<note xml:id="fnd" type="footnote" n="d"><hi>Rand beschädigt.</hi></note> Galli foedus cum Turca<note xml:id="fn11" type="footnote" n="11">Zur Allianz der französischen Krone mit dem türkischen Sultan vgl. <bibl>HBBW</bibl> XI <ref target="file11538">[Nr. 1495]</ref>, S. 137, Anm. 11.</note> diutius paulo duraverit?</s>
 					<s n="14" xml:lang="la" type="auto">An tum opus esset cognitione legis Machometicę?</s>
 				</p>
 				<p>
@@ -169,7 +143,7 @@
 					<s n="17" xml:lang="la" type="auto">Hęc est authoritas nostra apud etc<note xml:id="fn15" type="footnote" n="15"><persName ref="p8418" cert="high">Myconius</persName> spielt auf seinen geringen Einfluss bei der Obrigkeit an.</note>.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">Tam conqueruntur milites de ducibus, qui exercitibus <placeName ref="l196" cert="high">Helveticis</placeName> praesunt, ut cędem multi minent[ur]<note xml:id="fne" type="footnote" n="e"><hi>Rand beschädigt.</hi></note>, sicubi oblata fuerit occasio.</s>
+					<s n="18" xml:lang="la" type="auto">Tam conqueruntur milites de ducibus, qui exercitibus <placeName ref="l28" cert="high">Helveticis</placeName> praesunt, ut cędem multi minent[ur]<note xml:id="fne" type="footnote" n="e"><hi>Rand beschädigt.</hi></note>, sicubi oblata fuerit occasio.</s>
 					<s n="19" xml:lang="la" type="auto">Nunquam sic audivi, ita furantur, rapiunt, fallunt, et milites in[te]rim<note xml:id="fnf" type="footnote" n="f"><hi>Rand beschädigt.</hi></note> esuriunt.</s>
 					<s n="20" xml:lang="la" type="auto">Miror, quid dominus noster consilii in nos conceperit.</s>
 				</p>

@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,219</idno>
 					</msIdentifier>
@@ -43,7 +35,7 @@
 								</p>
 								<p xml:id="regest2">
 								[2] Bullingers christlichen Brief [nicht erhalten] empfing Welser schon am 26. Juli, als er von seinem
-								Badeaufenthalt in <placeName ref="l1618" cert="high">Pfäfers</placeName> nach <placeName ref="l1976" cert="high">Augsburg</placeName> zurückkam. Da nun Johannes Haller, dieser treue Diener des
+								Badeaufenthalt in <placeName ref="l1618" cert="high">Pfäfers</placeName> nach <placeName ref="l1976" cert="high">Augsburg</placeName> zurückkam. Da nun Johannes <persName ref="p8018" cert="high">Haller</persName>, dieser treue Diener des
 								Evangeliums und lieber Bruder in Christus, nicht länger in <placeName ref="l1976" cert="high">Augsburg</placeName> bleiben möchte, will er ihn nicht ohne
 								Brief ziehen lassen.
 								</p>
@@ -68,16 +60,16 @@
 								aufzurufen, kann sich Welser dieser Meinung nicht anschließen!
 								</p>
 								<p xml:id="regest5">
-								[5] Nun zu <persName ref="p6552" cert="high">Hans Schöner</persName>, den Welser [in der Vergangenheit er]ma[hnt hatte]. Er verließ Augsburg, ohne dass
+								[5] Nun zu <persName ref="p6552" cert="high">Hans Schöner</persName>, den Welser [in der Vergangenheit er]ma[hnt hatte]. Er verließ <placeName ref="l1976" cert="high">Augsburg</placeName>, ohne dass
 								er dazu gezwungen worden wäre, und [verhielt sich] gegenüber den Ratsherren ungebührlich. [Auch] hätte [er]
 								vorsichtiger handeln sollen! Diese Angelegenheit ist so umstritten, dass Welser sie hier nicht ausführen
 								kann. Sollte er aber <persName ref="p6552" cert="high">Schöner</persName> behilflich sein können, ohne dabei den Augsburger Rat vor den Kopf zu stoßen,
 								wird er es tun und sich an Bullingers Bitte erinnern.
 								</p>
 								<p xml:id="regest6">
-								[6] Hoffentlich hat Welser es nie versäumt, Haller gegenüber hilfsbereit zu sein. Er möchte ihm auch
-								künftig Gutes tun. Möge Gott die Anschläge des Teufels vereiteln und Hallers Rückkehr nach Augsburg
-								ermöglichen! Bei Haller hat man es (so viel Welser es beurteilen kann) mit einem gottesfürchtigen,
+								[6] Hoffentlich hat Welser es nie versäumt, <persName ref="p8018" cert="high">Haller</persName> gegenüber hilfsbereit zu sein. Er möchte ihm auch
+								künftig Gutes tun. Möge Gott die Anschläge des Teufels vereiteln und Hallers Rückkehr nach <placeName ref="l1976" cert="high">Augsburg</placeName>
+								ermöglichen! Bei <persName ref="p8018" cert="high">Haller</persName> hat man es (so viel Welser es beurteilen kann) mit einem gottesfürchtigen,
 								friedliebenden Gotteskind zu tun. Er ist weder eingebildet noch neidisch!
 								</p>
 								<p xml:id="regest7">
@@ -110,26 +102,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/13079">
 				<correspAction type="sent">
-					<persName ref="p3927" cert="high">
-						<!--
-						<surname cert="high">Welser</surname>
-						<forename cert="high">Hans</forename>
-						-->
-					</persName>
+					<persName ref="p3927" cert="high"/>
 					<placeName source="l18" cert="low"><orig>Augsburg</orig></placeName>
 					<date when="1547-10-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file13080"/>
@@ -154,8 +132,8 @@
 				<language ident="de" usage="991">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

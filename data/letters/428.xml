@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356,81</idno>
 					</msIdentifier>
@@ -54,29 +46,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/428">
 				<correspAction type="sent">
-					<persName ref="p1278" cert="low">
-						<!--
-						<surname cert="low">Gast</surname>
-						<forename cert="low">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Gast"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/122090284"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415086"/>
-						-->
-					</persName>
+					<persName ref="p1278" cert="low"/>
 					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1549-02-06" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -103,8 +78,8 @@
 				<language ident="la" usage="952">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,7 +98,7 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">"Timemus bellum in futuram aestatem gravissimum fore in Saxonia propter <placeName type="auto_name">Magdeburgenses</placeName>, qui a Caesare sunt proclamati et proscripti.</s>
-					<s n="3" xml:lang="la" type="auto"><placeName ref="l61" cert="high">Brema</placeName> <placeName type="auto_name">urbs</placeName> illis adhęret; reliqui omnes hostes sunt tam principes quam civitates.</s>
+					<s n="3" xml:lang="la" type="auto"><placeName ref="l61" cert="high">Brema</placeName> urbs illis adhęret; reliqui omnes hostes sunt tam principes quam civitates.</s>
 					<s n="4" xml:lang="la" type="auto"><persName type="auto_name">Melanchthon</persName> Lipsię fuit, qui scabie supra modum vexatur, excruciatur et exulceratur, cum quo coenavi; qui si posset, in <placeName ref="l61" cert="high">Saxonia</placeName> non maneret.</s>
 					<s n="5" xml:lang="la" type="auto">Habita sunt comitia <placeName ref="l284" cert="high">Lipsię</placeName>, quę calendis Ianuarii dissipata sunt post discessum <persName type="auto_name">Mauritii</persName>.</s>
 				</p>

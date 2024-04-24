@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,467 ff.</idno>
 					</msIdentifier>
@@ -71,14 +63,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 79,136</idno>
 					</msIdentifier>
@@ -88,29 +72,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1895">
 				<correspAction type="sent">
-					<persName ref="p8041" cert="high">
-						<!--
-						<surname cert="high">a Lasco (Laski)</surname>
-						<forename cert="high">Johannes (Jan)</forename>
-						<graphic type="portrait" url="portraits/220_Laski_Jan.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_a_Lasco"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118726633"/>
-						-->
-					</persName>
+					<persName ref="p8041" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1553-06-07" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -136,8 +103,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -232,7 +199,7 @@
 					<s n="46" xml:lang="la" type="auto">Rex noster <placeName type="auto_name">Angliae</placeName> iam pridem languit sed rursus iam (sit domino deo nostro gratia) revalescit.</s>
 				</p>
 				<p>
-					<s n="47" xml:lang="la" type="auto">Libenter scirem, quid ad <persName type="auto_name">Hoperum</persName> de praedestinatione scripseris; mihi propter hominis absentiam videre non licuit, tametsi pluries promiserit se literas tuas ad me transmissurum esse.</s>
+					<s n="47" xml:lang="la" type="auto">Libenter scirem, quid ad <persName ref="p1560" cert="high">Hoperum</persName> de praedestinatione scripseris; mihi propter hominis absentiam videre non licuit, tametsi pluries promiserit se literas tuas ad me transmissurum esse.</s>
 					<s n="48" xml:lang="la" type="auto">Vale, vir integerrime, et me collegis tuis omnibus, imprimis vero domino <persName ref="p8127" cert="high">Pellicano</persName> patri, <persName ref="p8171" cert="high">Bibliandro</persName>, <persName ref="p8011" cert="high">Gvaltero</persName>, Gesnero diligentissime, quaeso, commenda.</s>
 					<s n="49" xml:lang="la" type="auto">Raptim <placeName ref="l296" cert="high">Londini</placeName> 7. iunii anno 1553.</s>
 					<s n="50" xml:lang="la" type="auto">Non vacavit relegere; parces igitur, sicubi male quid est scriptum.</s>

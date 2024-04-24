@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,254r.–255v.</idno>
 					</msIdentifier>
@@ -83,29 +75,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11932">
 				<correspAction type="sent">
-					<persName ref="p1278" cert="high">
-						<!--
-						<surname cert="high">Gast</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Gast"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/122090284"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415086"/>
-						-->
-					</persName>
+					<persName ref="p1278" cert="high"/>
 					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1544-04-05" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11933"/>
@@ -129,8 +104,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -197,7 +172,7 @@
 					<s n="26" xml:lang="la" type="auto">Videsne, quę mala maxima Germania[m]<note xml:id="fni" type="footnote" n="i"><hi>Rand beschädigt.</hi></note> expectent totam?“<note xml:id="fnk" type="footnote" n="k"><hi>Das Zitat aus dem Schreiben vom Reichstag endet möglicherweise schon einen Satz vorher; die anschließende Nachricht gehört kaum mehr dazu.</hi></note></s>
 				</p>
 				<p>
-					<s n="27" xml:lang="la" type="auto">Scriptum praeterea ad nos Romę esse in aede d[ivi] <persName ref="p19981" cert="high">Petri</persName> 9. februarii<note xml:id="fn32" type="footnote" n="32">Im unten Anm. 36 erwähnten Bericht ist vom 4. Februar die Rede.</note> repertum sepulchrum <persName ref="p5286" cert="high">Honorii</persName><note xml:id="fn33" type="footnote" n="33"><persName ref="p5286" cert="high">Flavius Honorius</persName>, geb. 384 als Sohn von <persName ref="p18595" cert="high">Theodosius I.</persName>, regierte von 393-423 als weströmischer Kaiser, zunächst allerdings unter der Vormundschaft von <persName ref="p17912" cert="high">Stilicho</persName>, und auch später in starker Abhängigkeit von verschiedenen Beratern. Er residierte anfänglich in <placeName ref="l306" cert="high">Mailand</placeName>, wo ihn <persName ref="p18993" cert="high">Ambrosius</persName> beeinflusste, und ab 402 in <placeName ref="l2067" cert="high">Ravenna</placeName>. Dort wurde er wahrscheinlich auch begraben. - Lit.: Klaus-Peter <hi>Johne,</hi> in: <bibl>DNP</bibl> V 711-713.</note> et <persName ref="17912" type="auto_name">Marię</persName><note xml:id="fn34" type="footnote" n="34">Maria, geb. um 385 als Tochter des <persName ref="p17912" cert="high">Stilicho</persName>, wurde 398 mit <persName ref="p5286" cert="high">Honorius</persName> verheiratet. Nach ihrem Tod (407/408) wurde für kurze Zeit ihre Schwester Thermantia ihre Nachfolgerin als Ehefrau des Kaisers. - Lit.: Kirsten <hi>Groß-Albenhausen,</hi> in: <bibl>DNP</bibl> VII 887.</note> coniugis augustale<note xml:id="fnl" type="footnote" n="l"><hi>In der Vorlage</hi> AA.</note> cum ingenti<pb type="edition" next="179"/> thesauro, duabus coronis scilicet capitibus eorum impositis, in quibus multę gemmę pretiosissimę.</s>
+					<s n="27" xml:lang="la" type="auto">Scriptum praeterea ad nos <placeName ref="l425" cert="high">Romę</placeName> esse in aede d[ivi] <persName ref="p19981" cert="high">Petri</persName> 9. februarii<note xml:id="fn32" type="footnote" n="32">Im unten Anm. 36 erwähnten Bericht ist vom 4. Februar die Rede.</note> repertum sepulchrum <persName ref="p5286" cert="high">Honorii</persName><note xml:id="fn33" type="footnote" n="33"><persName ref="p5286" cert="high">Flavius Honorius</persName>, geb. 384 als Sohn von <persName ref="p18595" cert="high">Theodosius I.</persName>, regierte von 393-423 als weströmischer Kaiser, zunächst allerdings unter der Vormundschaft von <persName ref="p17912" cert="high">Stilicho</persName>, und auch später in starker Abhängigkeit von verschiedenen Beratern. Er residierte anfänglich in <placeName ref="l306" cert="high">Mailand</placeName>, wo ihn <persName ref="p18993" cert="high">Ambrosius</persName> beeinflusste, und ab 402 in <placeName ref="l2067" cert="high">Ravenna</placeName>. Dort wurde er wahrscheinlich auch begraben. - Lit.: Klaus-Peter <hi>Johne,</hi> in: <bibl>DNP</bibl> V 711-713.</note> et <persName ref="17912" type="auto_name">Marię</persName><note xml:id="fn34" type="footnote" n="34">Maria, geb. um 385 als Tochter des <persName ref="p17912" cert="high">Stilicho</persName>, wurde 398 mit <persName ref="p5286" cert="high">Honorius</persName> verheiratet. Nach ihrem Tod (407/408) wurde für kurze Zeit ihre Schwester Thermantia ihre Nachfolgerin als Ehefrau des Kaisers. - Lit.: Kirsten <hi>Groß-Albenhausen,</hi> in: <bibl>DNP</bibl> VII 887.</note> coniugis augustale<note xml:id="fnl" type="footnote" n="l"><hi>In der Vorlage</hi> AA.</note> cum ingenti<pb type="edition" next="179"/> thesauro, duabus coronis scilicet capitibus eorum impositis, in quibus multę gemmę pretiosissimę.</s>
 					<s n="28" xml:lang="la" type="auto">A collo reginę torquis aurea cum carbunculo praecl[aro]<note xml:id="fnm" type="footnote" n="m"><hi>Rand beschädigt.</hi></note>, etiam virguncula quędam ex mero auro et nescio quę alia.</s>
 					<s n="29" xml:lang="la" type="auto">Id ubi rescitum est a caesare, fertur statim legatum misisse <placeName ref="l425" cert="high">Romam</placeName>, per quem hęc sibi vindicaret bona utpote in publico reperta.</s>
 					<s n="30" xml:lang="la" type="auto">Hoc si obtinuerit, certe papa hos non canonizabit, quod alioqui facturus esset thesauro hoc potitus<note xml:id="fn35" type="footnote" n="35">Zur Entdeckung des Grabes von Maria (und möglicherweise auch der zweiten Gemahlin von Kaiser <persName ref="p5286" cert="high">Honorius</persName>, Marias Schwester Thermantia) und den dabei gemachten Funden s. Danielle <hi>Gabarit-Chopin,</hi> Ciondolo ("bulla") dell'imperatrice Maria, in: Aurea Roma. Dalla città pagana alla città cristiana, hg. v. Serena Ensoli und Eugenio La Rocca (Ausstellungskatalog), <placeName ref="l425" cert="high">Rom</placeName> 2000, S. 469f, Nr. 70 (mit weiterer Lit.).</note>.</s>

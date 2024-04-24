@@ -3,7 +3,7 @@
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Heinrich Wolf] / [Tübingen] an Heinrich Bullinger, Johannes Wolf, Ludwig Lavater / Zürich, 16. April 1571</title>
+				<title subtype="file">[Heinrich Wolf], [Johann Jakob Nüscheler] / [Tübingen] an Heinrich Bullinger, Johannes Wolf, Ludwig Lavater / Zürich, 16. April 1571</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -21,14 +21,6 @@
 			<sourceDesc>
 				<msDesc type="Brief" subtype="Teilkopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Teilkopie">Ms A 69,690 f. (Nr. 135)</idno>
 					</msIdentifier>
@@ -40,14 +32,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 19a (Wickiana 9), f. 228r-v</idno>
 					</msIdentifier>
@@ -57,62 +41,28 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8541">
 				<correspAction type="sent">
-					<persName ref="p3986" cert="low">
-						<!--
-						<surname cert="low">Wolf</surname>
-						<forename cert="low">Heinrich</forename>
-						<note type="person">Nüscheler Johann Jakob</note>
-						-->
-					</persName>
+					<persName ref="p3986" cert="low"/>
+					<persName ref="p2330" cert="low"/>
 					<placeName source="l512" cert="low"><orig>Tübingen</orig></placeName>
 					<date when="1571-04-16" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
-					<persName ref="p3988" cert="high">
-						<!--
-						<surname cert="high">Wolf</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/3988_Wolf_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Wolf_(Theologe,_1521)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/122064283"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417561"/>
-						-->
-					</persName>
-					<persName ref="p1884" cert="high">
-						<!--
-						<surname cert="high">Lavater</surname>
-						<forename cert="high">Ludwig</forename>
-						<graphic type="portrait" url="portraits/1884_Lavater_Ludwig.png"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Ludwig_Lavater"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/100182747"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415968"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
+					<persName ref="p3988" cert="high"/>
+					<persName ref="p1884" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8542"/>
 					<ref type="prev_chronologically" target="file8540"/>
-					<ref type="prev_same_sender" target="file8540"/>
 					<ref type="prev_same_addressee" target="file7933"/>
-					<ref type="prev_with_sender_as_addressee" target="file8540"/>
 					<ref type="prev_with_addressee_as_sender" target="file7933"/>
 					<ref type="child" target="file8242"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

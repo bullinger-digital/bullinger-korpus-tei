@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,456</idno>
 					</msIdentifier>
@@ -56,14 +48,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 79,34</idno>
 					</msIdentifier>
@@ -73,26 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1809">
 				<correspAction type="sent">
-					<persName ref="p8415" cert="high">
-						<!--
-						<surname cert="high">Micronius (de Cleyne)</surname>
-						<forename cert="high">Martin</forename>
-						-->
-					</persName>
+					<persName ref="p8415" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1553-02-18" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -117,8 +87,8 @@
 				<language ident="la" usage="995">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -141,15 +111,15 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. P.</s>
 					<s n="2" xml:lang="la" type="auto">Scio quantopere pietas tua amicorum literis delectetur, in quibus ecclesiarum status describitur: nec immerito, cum ecclesię omnes totum dispersę per orbem unica sint tantum domus dei; atque apostolum <persName type="auto_name">Paulum</persName> videamus lubenter ecclesiarum statum ab aliis didicisse, et vicissim aliis significasse diligentissime.</s>
-					<s n="3" xml:lang="la" type="auto">Hęc res me plus satis alioqui occupatum compulit ad humanitatem tuam scribere, ut scires ecclesiam Anglicam et nostras hic <persName type="auto_name">Londini</persName> peregrinas, Germanicam et Gallicam, maximo dei beneficio florere.</s>
+					<s n="3" xml:lang="la" type="auto">Hęc res me plus satis alioqui occupatum compulit ad humanitatem tuam scribere, ut scires ecclesiam <placeName type="auto_name">Anglicam</placeName> et nostras hic <persName type="auto_name">Londini</persName> peregrinas, <placeName type="auto_name">Germanicam</placeName> et Gallicam, maximo dei beneficio florere.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Impetuntur sępe peregrinę nostrę ecclesię a <foreign xml:lang="el">υεθδεπισκοποισ</foreign> miris artibus et technis; sed hactenus vicit Christus, omniaque in promotionem ecclesię vertit, adeo ut iam nulli peregrino ad municipium Anglicum via pateat, nisi prius fidei suę confessionem aliquam apud ministros peregrinarum ecclesiarum faciat.</s>
 					<s n="5" xml:lang="la" type="auto">Quod si id per aliquot annos duret, regnum hoc magnis variisque erroribus, qui per sectarios peregrinos invehi solent, liberabitur.</s>
-					<s n="6" xml:lang="la" type="auto">Ad calendas <persName type="auto_name">Martias</persName> parlamentum est indictum: faxit dominus ut boni aliquid ecclesię pariat: certe nihil mali adhuc ominari possum.</s>
+					<s n="6" xml:lang="la" type="auto">Ad calendas Martias parlamentum est indictum: faxit dominus ut boni aliquid ecclesię pariat: certe nihil mali adhuc ominari possum.</s>
 					<s n="7" xml:lang="la" type="auto">Latinę lectiones in nostris ecclesiis ab obitu uxoris d. <persName ref="p8041" cert="high">Ioannis a Lasco</persName> intermissę sunt, nec eas adhuc potuit repetere ante paschatis (licet cum nova sua uxore, quam 4 cal. februarii duxit, mediocriter valeat) ob varia sua, imo potius ecclesię, negocia.</s>
 					<s n="8" xml:lang="la" type="auto">Sed spero hanc eius a lectionibus vacationem magno ecclesię commodo aliquo pensatam iri.</s>
-					<s n="9" xml:lang="la" type="auto">D. <persName type="auto_name">Hoperum Londini</persName> intra triduum expectamus, qui, ut audio, huius mensis die vigissimo sexto ante r[egiam] m[aiestatem] est concionaturus.</s>
+					<s n="9" xml:lang="la" type="auto">D. <persName ref="p1560" cert="high">Hoperum</persName> <placeName type="auto_name">Londini</placeName> intra triduum expectamus, qui, ut audio, huius mensis die vigissimo sexto ante r[egiam] m[aiestatem] est concionaturus.</s>
 					<s n="10" xml:lang="la" type="auto">Nunquam sperassem tantam eius in episcopatu fidelitatem et diligentiam, cum alios opima offa in os iniecta mutos et segnes reddere soleat.</s>
 					<s n="11" xml:lang="la" type="auto">Excessit e vivis ante quadriduum uxor d. <persName ref="p8111" cert="high">Petri Martyris</persName>.</s>
 					<s n="12" xml:lang="la" type="auto">D. <persName ref="p8061" cert="high">Ioannes Utenhovius</persName>, qui ad vitę desperationem ante menses duos laboravit, iam (gratia sit domino!) convaluit.</s>

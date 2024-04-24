@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,459</idno>
 					</msIdentifier>
@@ -43,14 +35,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,122</idno>
 					</msIdentifier>
@@ -60,27 +44,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/872">
 				<correspAction type="sent">
-					<persName ref="p3481" cert="high">
-						<!--
-						<surname cert="high">Vogt</surname>
-						<forename cert="high">Simprecht</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089422717"/>
-						-->
-					</persName>
+					<persName ref="p3481" cert="high"/>
 					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1550-03-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -106,8 +75,8 @@
 				<language ident="la" usage="957">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,7 +92,7 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino Iesu etc.</s>
-					<s n="2" xml:lang="la" type="auto">Agimus tibi gratias, <persName type="auto_name">Henryche</persName> frater in Christo dilectissime, caeterisque tuis cooperariis pro cura vestra, opera et sollicitudine non tam erga nos quam erga ecclesiam nostram, imo Christi; nam consilium vestrum tam felix praesensque fuit, ut eo staremus, nisi quod quaedam latius et copiosius tractare oportuit: erant enim quaedam obiecta diluenda aut potius in adversarios nostros retorquenda.</s>
+					<s n="2" xml:lang="la" type="auto">Agimus tibi gratias, Henryche frater in Christo dilectissime, caeterisque tuis cooperariis pro cura vestra, opera et sollicitudine non tam erga nos quam erga ecclesiam nostram, imo Christi; nam consilium vestrum tam felix praesensque fuit, ut eo staremus, nisi quod quaedam latius et copiosius tractare oportuit: erant enim quaedam obiecta diluenda aut potius in adversarios nostros retorquenda.</s>
 					<s n="3" xml:lang="la" type="auto">Caeterum cum recitassemus apologiam senatui populoque, decernitur ab ipsis in priorem sententiam: <foreign xml:lang="de">Mine herren lassends blyben by irer erkandtnuß, wellend ouch, das ir derselbigen gelebt.</foreign></s>
 				</p>
 				<p>
@@ -141,7 +110,7 @@
 					<s n="11" xml:lang="la" type="auto">Si nos eiicere animus est, singulos in posterum adorientur.</s>
 					<s n="12" xml:lang="la" type="auto">Orato igitur pro nobis et ecclesia nostra dominum.</s>
 					<s n="13" xml:lang="la" type="auto">Salutant te caeterosque doctos cooperarii mei.</s>
-					<s n="14" xml:lang="la" type="auto">Raptim, <persName type="auto_name">Scaffusii</persName> anno 1550, martii 28.</s>
+					<s n="14" xml:lang="la" type="auto">Raptim, <placeName ref="l441" cert="high">Scaffusii</placeName> anno 1550, martii 28.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Tuus ex animo <persName ref="p3481" cert="high">Simpertus Vogtius</persName>.</s>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Nachschrift" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,93</idno>
 					</msIdentifier>
@@ -68,28 +60,12 @@
 				</msDesc>
 				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 73,82</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a81">
-							<name>Strassburg BNU</name>
-							<ref target="https://www.bnu.fr/fr"/>
-						</repository>
-						<settlement ref="l492">Strassburg</settlement>
-						<institution>National- und Universitätsbibliothek</institution>
-						-->
 						<repository ref="a81"/>
 						<idno subtype="Kopie">Ms 0.679 = STB Bd. XX,211</idno>
 					</msIdentifier>
@@ -99,26 +75,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1008">
 				<correspAction type="sent">
-					<persName ref="p8415" cert="high">
-						<!--
-						<surname cert="high">Micronius (de Cleyne)</surname>
-						<forename cert="high">Martin</forename>
-						-->
-					</persName>
+					<persName ref="p8415" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date notBefore="1550-08-28" notAfter="1550-08-31" cert="low"><note>1550 August 28. Brief; 1550 August 31. P.S.</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -143,8 +105,8 @@
 				<language ident="la" usage="994">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -167,8 +129,8 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. P.</s>
 					<s n="2" xml:lang="la" type="auto">Literas tuas huius mensis die 22 accepit d. <persName ref="p1560" cert="high">Hoperus</persName>, antistes vigilantissime, ad quas uti responderet cum sępius hortarer illum, respondit constitutum sibi esse silere tantisper, dum finem sui negotii episcopalis accipiat.</s>
-					<s n="3" xml:lang="la" type="auto">Cęterum cum scirem te pro singulari tuo amore erga regem, ecclesiam Anglicam, et Hoperum, vehementi desiderio teneri eorum quae hic geruntur, quamquam per alios plura accipere posses, officii tamen mei esse putavi ea scribere interea, dum Hoperus sua absolvit negotia, quae magna sunt et eventus (ut apparet) dubii.</s>
-					<s n="4" xml:lang="la" type="auto">Rex illi (ut scis) assignavit episcopatum Glocestriensem; sed hunc acceptare negavit, nisi omnibus modis liberaretur ab omni specie superstitionis papisticę.</s>
+					<s n="3" xml:lang="la" type="auto">Cęterum cum scirem te pro singulari tuo amore erga regem, ecclesiam Anglicam, et <persName ref="p1560" cert="high">Hoperum</persName>, vehementi desiderio teneri eorum quae hic geruntur, quamquam per alios plura accipere posses, officii tamen mei esse putavi ea scribere interea, dum <persName ref="p1560" cert="high">Hoperus</persName> sua absolvit negotia, quae magna sunt et eventus (ut apparet) dubii.</s>
+					<s n="4" xml:lang="la" type="auto">Rex illi (ut scis) assignavit episcopatum <placeName ref="l177" cert="high">Glocestriensem</placeName>; sed hunc acceptare negavit, nisi omnibus modis liberaretur ab omni specie superstitionis papisticę.</s>
 					<s n="5" xml:lang="la" type="auto">Hic statim nascitur quaestio de forma iuramenti, quam episcopi praescripserunt per deum, sanctos, et evangelia faciendum esse; quod impium iuramentum prorsus se facturum negavit <persName ref="p1560" cert="high">Hoperus</persName>.</s>
 				</p>
 				<p>
@@ -182,12 +144,12 @@
 					<s n="11" xml:lang="la" type="auto">Sed hic negat alia forma se consecrandi usurum, quam a parlamento praescripta est.</s>
 					<s n="12" xml:lang="la" type="auto">Ita mutuas dant operas episcopi, ne quid illorum gloriae discedat.</s>
 					<s n="13" xml:lang="la" type="auto">Impetrat paucis ab inde diebus (iulii 30)<note type="margin">a.R.: viell. schon z. 2. vor. satz.</note>.</s>
-					<s n="14" xml:lang="la" type="auto">Hoperus a rege et senatu eius, ut a <placeName type="auto_name">Londinensi</placeName> citra ullam superstitionem consecretur.</s>
-					<s n="15" xml:lang="la" type="auto">Respondet se propediem vel consiliariis vel <persName type="auto_name">Hopero</persName> responsurum.</s>
+					<s n="14" xml:lang="la" type="auto"><persName ref="p1560" cert="high">Hoperus</persName> a rege et senatu eius, ut a <placeName type="auto_name">Londinensi</placeName> citra ullam superstitionem consecretur.</s>
+					<s n="15" xml:lang="la" type="auto">Respondet se propediem vel consiliariis vel <persName ref="p1560" cert="high">Hopero</persName> responsurum.</s>
 					<s n="16" xml:lang="la" type="auto">Dum itaque <persName ref="p1560" cert="high">Hoperus</persName> responsum expectat ab episcopo, ad aulam regis hic proficiscitur, alienatque principum animos ab Hopero: extenuat usum vestium similiumque rerum in ecclesia, vocans <foreign xml:lang="el">easadiajoras</foreign>.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Adeo persuasit multis, ut ęgre excusationem Hoperi audirent postea, cum paulo post in aulam venisset Hoperus; eoque rogavit Hoperus, ut si audire loquentem nollent, saltem descriptam eius excusationem audire ac legere dignarentur.</s>
+					<s n="17" xml:lang="la" type="auto">Adeo persuasit multis, ut ęgre excusationem <persName ref="p1560" cert="high">Hoperi</persName> audirent postea, cum paulo post in aulam venisset <persName ref="p1560" cert="high">Hoperus</persName>; eoque rogavit <persName ref="p1560" cert="high">Hoperus</persName>, ut si audire loquentem nollent, saltem descriptam eius excusationem audire ac legere dignarentur.</s>
 				</p>
 				<p>
 					<s n="18" xml:lang="la" type="auto">Obtinuit hoc <persName ref="p1560" cert="high">Hoperus</persName>: quare sententiam suam de vestium usu tollendo similibusque nugis scripto tradidit consiliariis regis.</s>

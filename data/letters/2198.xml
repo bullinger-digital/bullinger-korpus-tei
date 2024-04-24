@@ -22,14 +22,6 @@
 				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a50">
-							<name>Kopenhagen RA</name>
-							<ref target="https://www.sa.dk/da/brug-arkivet/"/>
-						</repository>
-						<settlement ref="l258">Kopenhagen</settlement>
-						<institution>Reichsarchiv</institution>
-						-->
 						<repository ref="a50"/>
 						<idno subtype="Autograph">Tyske Kancellis udenrigske afdeling, Almendelig Del, 3, Nr. 56</idno>
 						<idno subtype="Xeroxkopie">IRG</idno>
@@ -69,14 +61,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 81,78</idno>
 						<idno subtype="Hinweis">Druckfertige Abschriften Dr. E. Zsindely IRG; eingeordnet bei den Briefkopien unter Kopenhagen Rijksarkivet</idno>
@@ -87,28 +71,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2198">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1554-02-24" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p3671" cert="high">
-						<!--
-						<surname cert="high">König von Dänemark</surname>
-						<forename cert="high">Christian III.</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/119217120"/>
-						-->
-						<roleName ref="g44" type="pl" role="Könige" cert="high"/>
-					</persName>
+						<roleName ref="g44" cert="high"/>
+				</persName>
 					<placeName source="l825" cert="high"><orig>Dänemark</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -128,8 +98,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

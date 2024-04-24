@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,257</idno>
 					</msIdentifier>
@@ -56,14 +48,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 92,139</idno>
 					</msIdentifier>
@@ -73,29 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3635">
 				<correspAction type="sent">
-					<persName ref="p8102" cert="high">
-						<!--
-						<surname cert="high">Estienne (Stephanus)</surname>
-						<forename cert="high">Robert</forename>
-						<graphic type="portrait" url="portraits/3033_Stephanus_Robertus.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Robert_Estienne"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11868549X"/>
-						-->
-					</persName>
+					<persName ref="p8102" cert="high"/>
 					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 					<date when="1558-07-01" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -112,8 +79,8 @@
 				<language ident="la" usage="990">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -166,7 +133,7 @@
 					<s n="15" xml:lang="de" type="auto"><persName ref="p8033" cert="high">Beze</persName>.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">In novum test. exaudi per <persName type="auto_name">Gessnerum</persName> nostrum, quam ob causam per ostidium(?) detentus est in vinculis(?) ... ea lege dimissus, ut iubeat Gess. subsistere.</s>
+					<s n="16" xml:lang="la" type="auto">In novum test. exaudi per <persName ref="p1283" cert="high">Gessnerum</persName> nostrum, quam ob causam per ostidium(?) detentus est in vinculis(?) ... ea lege dimissus, ut iubeat Gess. subsistere.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Ea de re fecit ille litteras magistratus ad ampliss. senatum meum.</s>

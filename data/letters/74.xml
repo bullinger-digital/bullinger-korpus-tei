@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,30</idno>
 					</msIdentifier>
@@ -57,14 +49,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 66,113</idno>
 					</msIdentifier>
@@ -74,29 +58,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/74">
 				<correspAction type="sent">
-					<persName ref="p8032" cert="high">
-						<!--
-						<surname cert="high">Dryander (de Enzinas)</surname>
-						<forename cert="high">Franciscus</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Francisco_de_Enzinas"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118682156"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11569382"/>
-						-->
-					</persName>
+					<persName ref="p8032" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1548-03-20" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -121,8 +88,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -138,8 +105,8 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
-					<s n="2" xml:lang="la" type="auto">Non potuissent me tuae minae ab itinere <placeName ref="l1148" cert="high">Constantinopolitano</placeName> deterrere, nisi arctius me vinculum in hac Europae parte necopinantem retineret; nam ut tibi, tanquam amico praecipuo, et reliquis tecum fratribus significem, scito me accepisse vitae sociam dominam Margaretam Elteram, virginem nobilem et uxori domini Hopperi probe notam, cuius ego apud te virtutes praedicarem, nisi autor videri possim aliquo modo suspectus.</s>
-					<s n="3" xml:lang="la" type="auto">Sed eius dotes non vulgares malo te ab uxore domini <persName type="auto_name">Hopperi</persName> cognoscere quam in meis literis legere.</s>
+					<s n="2" xml:lang="la" type="auto">Non potuissent me tuae minae ab itinere <placeName ref="l1148" cert="high">Constantinopolitano</placeName> deterrere, nisi arctius me vinculum in hac Europae parte necopinantem retineret; nam ut tibi, tanquam amico praecipuo, et reliquis tecum fratribus significem, scito me accepisse vitae sociam dominam Margaretam Elteram, virginem nobilem et uxori domini <persName ref="p1560" cert="high">Hopperi</persName> probe notam, cuius ego apud te virtutes praedicarem, nisi autor videri possim aliquo modo suspectus.</s>
+					<s n="3" xml:lang="la" type="auto">Sed eius dotes non vulgares malo te ab uxore domini <persName ref="p1560" cert="high">Hopperi</persName> cognoscere quam in meis literis legere.</s>
 					<s n="4" xml:lang="la" type="auto">Te oro vehementer et fratres omnes, ut hoc institutum nostrum et universum vitae cursum vestris precibus deo commendetis.</s>
 					<s n="5" xml:lang="la" type="auto">Scriberem nunc ad singulos, si per ocium liceret; sed hoc faciam deo volente intra paucos dies, ubi sacrum nuptiale fuerit celebratum.</s>
 					<s n="6" xml:lang="la" type="auto">Iam <persName type="auto_name">Ferdinandum Hispanum</persName> tibi commendo, qui vixit apud me aliquot menses, et quia sentio in multis rebus eum indigere doctrina et institutione tua, autor illi fui, ut vos inviseret et a viris doctis solidam aliquam religionis doctrinam disceret.</s>

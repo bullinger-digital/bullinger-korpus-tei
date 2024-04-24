@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph__(Kopie)">Msc A 82,93v-98v</idno>
 						<idno subtype="Hinweis">mit Korrekturen und Randnoten10 fol. S.(S. 96-98 fehlen im Scan)</idno>
@@ -68,34 +60,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10041">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
-					<persName ref="p1043" cert="high">
-						<!--
-						<surname cert="high">Enzlin</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/138035989"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
+					<persName ref="p1043" cert="high"/>
 					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1526-02-27" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p2832" cert="high">
-						<!--
-						<surname cert="high">Stiltz</surname>
-						<forename cert="high">Christoph</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/119840170"/>
-						-->
-					</persName>
+					<persName ref="p2832" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10044"/>
@@ -114,8 +85,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -248,7 +219,7 @@
 					<s n="87" xml:lang="la" type="auto">In rupem ergo cum enavigaverimus sacraque ancora<note xml:id="fn29" type="footnote" n="29">Siehe oben S. 74, Anm. 20.</note> navis stet pacta, nihil est, quod a verbo dei nos avellere possit, et si totus doctorum cohors recideret, etsi totus tumultuaretur orbis; adeo, mi <persName ref="p2832" cert="high">Christophyle</persName>, frustraneae sunt tuae ironiae.</s>
 					<s n="88" xml:lang="la" type="auto">Tu quiritaris: «Ubi nunc scriptura facilis?» - At regius propheta<note xml:id="fn30" type="footnote" n="30">David.</note> canit: «Lex domini immaculata, convertens animam; testimonium domini fidele, sapientiam praestans parvulo».</s>
 					<s n="89" xml:lang="la" type="auto">«Lucerna pedi meo verbum tuum et lumen semite meae».</s>
-					<s n="90" xml:lang="la" type="auto">Et Petrus lucernam vocat propheticam scripturam; igitur quid de apostolica dicimus?</s>
+					<s n="90" xml:lang="la" type="auto">Et <persName ref="p5683" cert="high">Petrus</persName> lucernam vocat propheticam scripturam; igitur quid de apostolica dicimus?</s>
 					<s n="91" xml:lang="la" type="auto">Tu subdis: «Quam vel idiotae intelligere debent.»<pb type="scan" next="||95v."/></s>
 					<s n="92" xml:lang="la" type="manual">At Christus, humani generis salus perorat: «Gratias ago tibi, pater, quod absconderis hec a sapientibus et prudentibus, et revelaveris ea parvulis».</s>
 					<s n="93" xml:lang="la" type="auto">Quae alias in Corinthiis dilucidissima erunt: <cit type="bible"><ref>1. Cor. 1 [18ff] et 2 [10ff]</ref></cit>.</s>
@@ -399,7 +370,7 @@
 					<s n="214" xml:lang="la" type="auto">«Ambula coram me et esto perfectus» <cit type="bible"><ref>[Gen 17,1]</ref></cit>.</s>
 					<s n="215" xml:lang="la" type="auto">«Patrem enim multarum gentium faciam te» <cit type="bible"><ref>[Gen 17,5]</ref></cit>, «et in semine tuo benedicentur omnes cognationes terre»: <cit type="bible"><ref>Genes. 12 [3]</ref></cit>; <cit type="bible"><ref>15 [5]</ref></cit>; <cit type="bible"><ref>17 [4ff]</ref></cit>; <cit type="bible"><ref>22 [18]</ref></cit>.</s>
 					<s n="216" xml:lang="la" type="auto">Porro quod id unicum sit et perpetuum, docent prophetae et apostoli <cit type="bible"><ref>Genes. 28 [4.13ff]</ref></cit>, <cit type="bible"><ref>Exod. 32 [13]</ref></cit>, <cit type="bible"><ref>Levitici 26 [42]</ref></cit>, <cit type="bible"><ref>Deutro. 4 [23.31]</ref></cit>, <cit type="bible"><ref>4. Reg. 17</ref></cit> <cit type="bible"><ref>[2 Kön 17,13ff]</ref></cit>, <cit type="bible"><ref>4. Ezrae 3 [15], Psal. 104 [105,8f]</ref></cit>, <cit type="bible"><ref>Isaie 51 [2]</ref></cit>, <cit type="bible"><ref>Math. 8 [11]</ref></cit>, <cit type="bible"><ref>Act. 3 [25]</ref></cit>, <cit type="bible"><ref>Roma. 4 [1ff]</ref></cit>, <cit type="bible"><ref>Gala. 3 [6ff]</ref></cit> etc.</s>
-					<s n="217" xml:lang="la" type="auto">Quibus consentiunt <persName ref="p17746" cert="high">Tertullianus</persName>, «Adversus Martionem» lib. 4<note xml:id="fn67" type="footnote" n="67"><persName ref="p17746" cert="high">Tertullian</persName>, Adversus Marcionem IV, 1 (CChr I 544, 23ff).</note>, <persName ref="p19001" cert="high">Lactantius</persName>, lib. 4, cap. 20<note xml:id="fn68" type="footnote" n="68"><persName ref="p19001" cert="high">Laktanz</persName>, Divinae institutiones IV, 20 (<bibl>CSEL</bibl> XIX 364-367).</note>, et <persName ref="p18700" cert="high">Augustinus</persName> in cap. 8. Ioannis<note xml:id="fn69" type="footnote" n="69"><persName ref="p18700" cert="high">Augustin</persName>, In Iohannis Evangelium Tractatus XXXV, 7 (CChr XXXVI 321, 1ff); zu Bullingers Anschauung von der Einheit und Ewigkeit des Bundes s. seine Schrift «De Testamento seu foedere Dei unico et aeterno», 1533 (gedruckt: 1534), <bibl>HBBibl</bibl> 54 und <bibl>Staedtke</bibl> 65 f.</note>; quibus manifestum fit, quod vinum non possit esse, nisi abusive, testamentum.</s>
+					<s n="217" xml:lang="la" type="auto">Quibus consentiunt <persName ref="p17746" cert="high">Tertullianus</persName>, «Adversus Martionem» lib. 4<note xml:id="fn67" type="footnote" n="67"><persName ref="p17746" cert="high">Tertullian</persName>, Adversus Marcionem IV, 1 (CChr I 544, 23ff).</note>, <persName ref="p19001" cert="high">Lactantius</persName>, lib. 4, cap. 20<note xml:id="fn68" type="footnote" n="68"><persName ref="p19001" cert="high">Laktanz</persName>, Divinae institutiones IV, 20 (<bibl>CSEL</bibl> XIX 364-367).</note>, et <persName ref="p18700" cert="high">Augustinus</persName> in cap. 8. <persName ref="p1043" cert="high">Ioannis</persName><note xml:id="fn69" type="footnote" n="69"><persName ref="p18700" cert="high">Augustin</persName>, In Iohannis Evangelium Tractatus XXXV, 7 (CChr XXXVI 321, 1ff); zu Bullingers Anschauung von der Einheit und Ewigkeit des Bundes s. seine Schrift «De Testamento seu foedere Dei unico et aeterno», 1533 (gedruckt: 1534), <bibl>HBBibl</bibl> 54 und <bibl>Staedtke</bibl> 65 f.</note>; quibus manifestum fit, quod vinum non possit esse, nisi abusive, testamentum.</s>
 				</p>
 				<p>
 					<s n="218" xml:lang="la" type="auto">Cur ergo Christus novum vocat, si non interruptum?</s>

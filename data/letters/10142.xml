@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 81,314</idno>
 					</msIdentifier>
@@ -65,12 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10142">
 				<correspAction type="sent">
-					<roleName ref="g50" type="pl" role="Prediger" cert="high"/>
+					<orgName ref="og50pl28" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1532-07-17" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g50" type="pl" role="Prediger" cert="high"/>
+					<orgName ref="og50pl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -89,8 +81,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

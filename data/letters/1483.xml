@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph__(Entwurf)">E II 337,498 f.</idno>
 					</msIdentifier>
@@ -54,28 +46,12 @@
 				</msDesc>
 				<msDesc type="Literaturhinweis" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a37">
-							<name>Genf StA</name>
-							<ref target="https://ge.ch/archives/"/>
-						</repository>
-						<settlement ref="l167">Genf</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a37"/>
 						<idno subtype="Kopie">Registres CP, 169-171</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a13">
-							<name>Bern StA</name>
-							<ref target="https://www.staatsarchiv.sta.be.ch/de/start.html"/>
-						</repository>
-						<settlement ref="l41">Bern</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a13"/>
 						<idno subtype="Kopie">B III 61, p. 195-198</idno>
 						<altIdentifier>
@@ -85,14 +61,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a65">
-							<name>Neuenburg BP</name>
-							<ref target="http://bpun.unine.ch/"/>
-						</repository>
-						<settlement ref="l339">Neuenburg</settlement>
-						<institution>Bibliothèque des Pasteurs</institution>
-						-->
 						<repository ref="a65"/>
 						<idno subtype="Kopie">Cahier .\. (aleph?) 40, Nr. 34 (2 S.)</idno>
 						<idno subtype="Xeroxkopie">IRG</idno>
@@ -101,42 +69,18 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a65">
-							<name>Neuenburg BP</name>
-							<ref target="http://bpun.unine.ch/"/>
-						</repository>
-						<settlement ref="l339">Neuenburg</settlement>
-						<institution>Bibliothèque des Pasteurs</institution>
-						-->
 						<repository ref="a65"/>
 						<idno subtype="Kopie">Gagnebin, Recueil Collé B, Nr. 34 (p. 287 s.)</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 76, 147</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a39">
-							<name>Genf MHR</name>
-							<ref target="https://www.unige.ch/ihr/fr/aide-a-la-recherche/bibliotheque/"/>
-						</repository>
-						<settlement ref="l167">Genf</settlement>
-						<institution>Musée historique de la Réformation</institution>
-						-->
 						<repository ref="a39"/>
 						<idno subtype="Kopie">Herminjard-Dossier 1550-1552, 311</idno>
 					</msIdentifier>
@@ -146,15 +90,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1483">
 				<correspAction type="sent">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1551-11-27" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high">
-						<orig>Geistliche von Genf («Compagnie des Pasteurs»)</orig>
-							<orgName ref="i21" type="sg" role="Pastorenkompanie" cert="high"/>
-					</roleName>
+					<orgName ref="og26pl167" cert="high">Geistliche von Genf («Compagnie des Pasteurs»)</orgName>
 					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -180,8 +121,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -22,14 +22,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph__(Entwurf)">E II 440,171 f.</idno>
 						<altIdentifier>
@@ -48,17 +40,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/892">
 				<correspAction type="sent">
-					<roleName ref="g63" type="sg" role="Schulherr" cert="high">
-						<orig>Schulherr zu Lehre und Schule</orig>
-					</roleName>
-					<roleName ref="g77" type="pl" role="Verordnete" cert="high">
-						<orig>Verordnete zu Lehre und Schule</orig>
-					</roleName>
+					<orgName ref="og63sl587" cert="high">Schulherr zu Lehre und Schule</orgName>
+					<orgName ref="og77pl587" cert="high">Verordnete zu Lehre und Schule</orgName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1550-04-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g59" type="sg" role="Rat" cert="high"/>
+					<orgName ref="og59sl50" cert="high"/>
 					<placeName source="l50" cert="high"><orig>Bischofszell</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -75,8 +63,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

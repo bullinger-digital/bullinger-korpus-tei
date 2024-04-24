@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file6372" type="Regest" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file6372" type="Brief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -20,16 +20,8 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="scan">Zürich StA</bibl>
-				<msDesc type="Regest" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">A 248.2, Nr. 5.1</idno>
 						<altIdentifier>
@@ -54,30 +46,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6372">
 				<correspAction type="sent">
-					<persName ref="p8009" cert="low">
-						<!--
-						<surname cert="low">Fabricius Montanus (Schmid)</surname>
-						<forename cert="low">Johannes</forename>
-						<graphic type="portrait" url="portraits/1075_Fabricius_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Fabricius_Montanus"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/104045698"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11414870"/>
-						-->
-					</persName>
+					<persName ref="p8009" cert="low"/>
 					<placeName source="l98" cert="low"><orig>Chur</orig></placeName>
 					<date when="1565-02-04" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file6373"/>
@@ -97,12 +71,11 @@
 					<ref type="next_with_addressee_as_sender" target="file6382"/>
 					<ref type="prev_with_addressee_as_sender" target="file6371"/>
 					<ref type="child" target="file6373"/>
-					<ref type="parent" target="file6373"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="unvollständig">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

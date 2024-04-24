@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Briefschluss" subtype="Original" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Original">E II 342,154 f.</idno>
 						<idno subtype="Hinweis">mit autographen Korrekturen und Schluß</idno>
@@ -81,7 +73,7 @@
 								wurde er angeschossen und verstarb. Die Leichname der genannten vier Herren wurden mit 200 Pferden nach
 								<placeName ref="l1603" cert="high">Dillingen</placeName> gebracht und dort begraben. Um Panik im Lager zu
 								vermeiden, ließ der Kaiser das Gerücht verbreiten, dass er sie der [ärztlichen Behandlung] und der Ruhe
-								wegen nach <placeName ref="l1603" cert="high">Dillingen</placeName> habe bringen lassen. Von den 12000 Italienern
+								wegen nach <placeName ref="l1603" cert="high">Dillingen</placeName> habe bringen lassen. Von den 12000 <placeName ref="l16" cert="high">Italienern</placeName>
 								sollen im Lager nicht viel mehr als 4000 übrig sein; ein Teil ist desertiert, die Mehrheit ist gefallen.
 								</p>
 								<p xml:id="regest8">
@@ -160,30 +152,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12706">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1546-11-05" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8418" cert="high">
-						<!--
-						<surname cert="high">Myconius (Geißhüsler)</surname>
-						<forename cert="high">Oswald</forename>
-						<graphic type="portrait" url="portraits/2234_Myconius_Oswald.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Oswald_Myconius"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118735462"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
-						-->
-					</persName>
+					<persName ref="p8418" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12707"/>
@@ -209,8 +183,8 @@
 				<language ident="de" usage="980">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -287,7 +261,7 @@
 			<div xml:id="div8" corresp="regest8">
 				<p>
 					<s n="28" xml:lang="de" type="auto">Die Behem<note xml:id="fn47" type="footnote" n="47"><placeName ref="l2449" cert="high">Böhmen</placeName>, also die Truppen <persName ref="p18477" cert="high">König Ferdinands I.</persName></note> sollend dem churfürsten zuͦ <persName ref="19065" type="auto_name">Saxen</persName><note xml:id="fn48" type="footnote" n="48"><persName ref="p19065" cert="high">Johann Friedrich I. von Sachsen</persName>.</note> in sin land ziehen woͤllen.<note xml:id="fn49" type="footnote" n="49">Siehe dazu <ref target="file12696">Nr. 2649</ref> mit Anm. 11; <ref target="file12701">Nr. 2654</ref>.</note></s>
-					<s n="29" xml:lang="de" type="auto">Darumb hertzog <persName ref="p18250" cert="high">Moritz</persName> Saxen selbs ynzenemmen understan<note xml:id="fn50" type="footnote" n="50">versuchen.</note> soll.<note xml:id="fn51" type="footnote" n="51">Siehe <persName ref="p8105" cert="high">Thomanns</persName> Brief an Zürich, 30. Oktober (Zürich StA, A 177, <ref target="file10141">Nr. 111</ref>), in dem berichtet wird, dass <persName ref="p18250" cert="high">Moritz von Sachsen</persName> das Land auf Geheiß des Kaisers einnehmen wolle; <ref target="file12700">Nr. 2653</ref>,27-31 mit Anm. 23; <placeName ref="l457" cert="high">Konstanz</placeName> an Zürich, 4. November (Zürich StA, A 177, <ref target="file10155">Nr. 124</ref>); <ref target="file12711">Nr. 2664</ref> mit Anm. 15 und Anm. 16; und unten Z. 79-81.</note></s>
+					<s n="29" xml:lang="de" type="auto">Darumb hertzog <persName ref="p18250" cert="high">Moritz</persName> <persName ref="p19065" cert="high">Saxen</persName> selbs ynzenemmen understan<note xml:id="fn50" type="footnote" n="50">versuchen.</note> soll.<note xml:id="fn51" type="footnote" n="51">Siehe <persName ref="p8105" cert="high">Thomanns</persName> Brief an Zürich, 30. Oktober (Zürich StA, A 177, <ref target="file10141">Nr. 111</ref>), in dem berichtet wird, dass <persName ref="p18250" cert="high">Moritz von Sachsen</persName> das Land auf Geheiß des Kaisers einnehmen wolle; <ref target="file12700">Nr. 2653</ref>,27-31 mit Anm. 23; <placeName ref="l457" cert="high">Konstanz</placeName> an Zürich, 4. November (Zürich StA, A 177, <ref target="file10155">Nr. 124</ref>); <ref target="file12711">Nr. 2664</ref> mit Anm. 15 und Anm. 16; und unten Z. 79-81.</note></s>
 				</p>
 			</div>
 			<div xml:id="div9" corresp="regest9">
@@ -355,7 +329,7 @@
 				</p>
 				<p>
 					<note type="address">[Adresse darunter:]</note>
-					<s n="63" xml:lang="la" type="auto">[Opti]mo<note xml:id="fng" type="footnote" n="g"><hi>Hier und danach Textverlust bei Entfernung des Verschlussbandes.</hi></note> viro d. <persName ref="p8418" cert="high">[Osvaldo] Myconio</persName>, [<placeName ref="l28" cert="high">Basiliensis</placeName>] ecclesiae [antistiti fi]delissimo, [charissimo] suo fratri, Basel.<note xml:id="fnf" type="footnote" n="f">Zusatz <hi>von Bullingers Hand.</hi></note></s>
+					<s n="63" xml:lang="la" type="auto">[Opti]mo<note xml:id="fng" type="footnote" n="g"><hi>Hier und danach Textverlust bei Entfernung des Verschlussbandes.</hi></note> viro d. <persName ref="p8418" cert="high">[Osvaldo] Myconio</persName>, [<placeName ref="l28" cert="high">Basiliensis</placeName>] ecclesiae [antistiti fi]delissimo, [charissimo] suo fratri, <placeName ref="l28" cert="high">Basel</placeName>.<note xml:id="fnf" type="footnote" n="f">Zusatz <hi>von Bullingers Hand.</hi></note></s>
 				</p>
 			</div>
 		</body>

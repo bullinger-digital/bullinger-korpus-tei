@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,12-13</idno>
 					</msIdentifier>
@@ -65,14 +57,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,52</idno>
 					</msIdentifier>
@@ -82,29 +66,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/831">
 				<correspAction type="sent">
-					<persName ref="p1560" cert="high">
-						<!--
-						<surname cert="high">Hooper</surname>
-						<forename cert="high">John</forename>
-						<graphic type="portrait" url="portraits/1560_Hooper_John.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/John_Hooper"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119121492"/>
-						-->
-					</persName>
+					<persName ref="p1560" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1550-02-05" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -131,8 +98,8 @@
 				<language ident="la" usage="989">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -225,7 +192,7 @@
 					<s n="44" xml:lang="la" type="auto">Quod ad vos redit <persName type="auto_name">Driander</persName>, mittite metum; sibi consulit, nec nostra plurimum curat (dempto lucro).</s>
 				</p>
 				<p>
-					<s n="45" xml:lang="la" type="auto">Dominus <persName type="auto_name">Coxus</persName> et literas et munus tuum honorificentissime accepit; putassem te ab eo hactenus responsum accepisse.</s>
+					<s n="45" xml:lang="la" type="auto">Dominus <persName ref="p672" cert="high">Coxus</persName> et literas et munus tuum honorificentissime accepit; putassem te ab eo hactenus responsum accepisse.</s>
 					<s n="46" xml:lang="la" type="auto"><persName type="auto_name">Episcopus Cantuariensis</persName> nec literas tuas nec literarium munus multum curaverat, ut verum dicam.</s>
 					<s n="47" xml:lang="la" type="auto">Sed iam, ut spero, d. <persName type="auto_name">Bullingerus</persName> et <placeName ref="l1255" cert="high">Cantuariensis</placeName> idem sapiunt.</s>
 					<s n="48" xml:lang="la" type="auto">Sin secus sit<note type="margin">a.R.: fuerit?</note>, brevi audies.</s>

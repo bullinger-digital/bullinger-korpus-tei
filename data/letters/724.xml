@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356,910 f.</idno>
 					</msIdentifier>
@@ -54,14 +46,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 71,142</idno>
 					</msIdentifier>
@@ -71,28 +55,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/724">
 				<correspAction type="sent">
-					<persName ref="p8121" cert="high">
-						<!--
-						<surname cert="high">Mont (Mundt)</surname>
-						<forename cert="high">Christopher</forename>
-						<ref type="wikipedia" target="https://en.wikipedia.org/wiki/Christopher_Mont"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/1068771844"/>
-						-->
-					</persName>
+					<persName ref="p8121" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1549-10-26" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -117,8 +85,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -137,11 +105,11 @@
 					<s n="2" xml:lang="la" type="auto">Magno cum applausu et congratulatione audivi vestram urbem et <placeName ref="l41" cert="high">Bernam</placeName> in liberalitate perstitisse, ut tamen alicubi asilum et refugium profugis sit.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Nam certissimo eoque gravissimo authore habeo inter regem et legatos Helveticos sancitum esse, ne quem profugum <persName type="auto_name">Gallum Helvetii</persName> apud se retinere neque rex in suo regno transfugum Helvetium hospitari debeat; is articulus in federe formula (ut opinor) expressus non est et multis bonis viris exitum pariet.</s>
+					<s n="3" xml:lang="la" type="auto">Nam certissimo eoque gravissimo authore habeo inter regem et legatos Helveticos sancitum esse, ne quem profugum Gallum Helvetii apud se retinere neque rex in suo regno transfugum Helvetium hospitari debeat; is articulus in federe formula (ut opinor) expressus non est et multis bonis viris exitum pariet.</s>
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto">Valde miratus sum scriptum illud super victoria regis circa Bulloniam habita; nam vanissimum et falsissimum est.</s>
-					<s n="5" xml:lang="la" type="auto">Sed <persName type="auto_name">Galis</persName> mos est tales centones thrasonice infarcitos ignaris venditare.</s>
+					<s n="5" xml:lang="la" type="auto">Sed <placeName type="auto_name">Galis</placeName> mos est tales centones thrasonice infarcitos ignaris venditare.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Pręsidia duo inter <persName type="auto_name">Caletum</persName> et <placeName type="auto_name">Bulloniam</placeName> sita ad mare non vi, sed deditione accepit, et ut audio, prefectis utriusque presidii auro corruptis.</s>
@@ -157,8 +125,8 @@
 					<s n="14" xml:lang="la" type="auto">Heri multę ad me literę allatę sunt <placeName ref="l15" cert="high">Antwerpia</placeName> scriptę a communi nostro amico <persName type="auto_name">Floriano Polono</persName>; sed tam antiquę sunt (ut opinor), ut omnem novitatis gratiam perdiderint; tamen carissime eas a posta redimere coactus sum.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Inscriptas dominationi tue modo mitto (cum folle <persName type="auto_name">Gallicorum</persName> fumorum); reliquas misi ad <persName type="auto_name">Munsterum Basileam</persName> rogavique, ut is perferri eas curet, quibus inscriptę sunt.</s>
-					<s n="16" xml:lang="la" type="auto">Quod scire cupis de statu <persName type="auto_name">Ioannis Hopperi</persName>, is una cum uxore commode admodum vivit in Anglia; episcopus <placeName ref="l296" cert="high">Londinensis</placeName> summotus ab episcopatu est traditusque carceri dicto yͤmarschalse in Sewthwerck, Dominus <persName type="auto_name">Halesius</persName> et <persName type="auto_name">Ioannes Butlerus</persName> Angli in vestra urbe commorantes facile dominationi tue indignitatem eius carceris declarabunt.</s>
+					<s n="15" xml:lang="la" type="auto">Inscriptas dominationi tue modo mitto (cum folle Gallicorum fumorum); reliquas misi ad Munsterum Basileam rogavique, ut is perferri eas curet, quibus inscriptę sunt.</s>
+					<s n="16" xml:lang="la" type="auto">Quod scire cupis de statu <persName ref="p1560" cert="high">Ioannis Hopperi</persName>, is una cum uxore commode admodum vivit in Anglia; episcopus <placeName ref="l296" cert="high">Londinensis</placeName> summotus ab episcopatu est traditusque carceri dicto yͤmarschalse in <placeName type="auto_name">Sewthwerck</placeName>, Dominus <persName type="auto_name">Halesius</persName> et <persName type="auto_name">Ioannes Butlerus</persName> Angli in vestra urbe commorantes facile dominationi tue indignitatem eius carceris declarabunt.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Caussam audio hanc: iussus fuit a consilio regis pro concione ex sacris literis confutare dogmata seditiosorum; quo mandato contempto totam concionem impendit in probanda transsubstantiatione et probanda Christi essentia in sacramento altaris.</s>

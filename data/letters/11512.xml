@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 347,211–234</idno>
 						<idno subtype="Hinweis">Zeitgenössische Abschrift</idno>
@@ -110,21 +102,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11512">
 				<correspAction type="sent">
-					<persName ref="p1365" cert="high">
-						<!--
-						<surname cert="high">Grynäus</surname>
-						<forename cert="high">Simon</forename>
-						<graphic type="portrait" url="portraits/1365_Grynaeus_Simon.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Simon_Grynaeus"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11690240X"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
-						-->
-					</persName>
+					<persName ref="p1365" cert="high"/>
 					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1541-02-25" cert="high">[kurz vor 25. Februar 1541]</date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<orgName ref="og49pl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -147,8 +130,8 @@
 				<language ident="la" usage="998">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -253,7 +236,7 @@
 					<s n="19" xml:lang="la" type="auto">Doctores vero Thomas Mutinensis, Magister sacri palatii, Robertus Rogt.</s>
 					<s n="20" xml:lang="la" type="auto">Scotus, Petrus Gerardus, Gallus.</s>
 					<s n="21" xml:lang="la" type="auto">A Ferdinando rege: Secoviensis episcopus, Fridericus Nausea, Joannes Cocleus, Martinus nescio quis.</s>
-					<s n="22" xml:lang="la" type="auto">A Moguntino: Joannes Erenbergius, Julius Pflugus, Conradus Bruno, Jodocus Butzfeldius, Joannes Minsingerus, Ambrosius Pelargus.</s>
+					<s n="22" xml:lang="la" type="auto">A Moguntino: Joannes Erenbergius, Julius Pflugus, Conradus Bruno, Jodocus Butzfeldius, Joannes Minsingerus, <persName ref="p6045" cert="high">Ambrosius Pelargus</persName>.</s>
 					<s n="23" xml:lang="la" type="auto">A Coloniense: Dietorichus comes a Manderschid, Bemardus ab Hagen, Joannes Groperus, Ebrardus Bellingus.</s>
 					<s n="24" xml:lang="la" type="auto">A subrogato Treveri: Joannes Hussingus, Georgius Eltzius et quidam alius.</s>
 					<s n="25" xml:lang="la" type="auto">A Palatino: Ludovicus Fleckensteinius, Henrichus Hasus, Henrichus Stoll, Matthis Keiler.</s>
@@ -414,9 +397,9 @@
 					<s n="180" xml:lang="la" type="auto">Confessio namque et apologia nostrorum oblata tum praesidibus eorum articulorum loco, quos antea a nobis postularant, ita fuit, ut omnis in iis futuri colloquii disputatio existeret.</s>
 					<s n="181" xml:lang="la" type="auto">Doctorum autem nomina et loca, quos in hanc disputationem nostri quidem destinassent, exhibita statim principio fuit.</s>
 					<s n="182" xml:lang="la" type="auto">Eius autem rei talis erat utraque ex parte ratio, ut ter undeni hinc inde homines pro Principum urbiumque suorum numero et loco ad hoc certamen adhiberentur.</s>
-					<s n="183" xml:lang="la" type="auto">Et a nobis quidem pro electore Saxone: Franciscus Burckardus, <persName ref="p2095" cert="high">Philippus Melanchthon</persName>, Justus Menius; Pro Hesso Joannes Fry, <persName ref="p467" cert="high">Martinus Bucerus</persName>, Adamus Fuldanus; pro Saxone Henrico: Andreas Camitianus, Joannes Brentius, Nicolaus Schoublinus; pro Marggravis Georgio et Albrechto: Fridrichus Knoblochsdor, Sigismundus Schneewyß, Chilianus Goldstein; pro Lunenburgensi: Nicolaus Holstein, Joannes Calvinus, Joannes Sturmius; pro Wirtenbergensi: Balthassar Giltlinger, <persName ref="p6469" cert="high">Erhardus Schnepff</persName>, Balthassar Cuselin; pro Pomerano: Nicolaus Glossenus, Jacobus Philippus, Vuolfgangus Weddelius; pro Strasburgo: <persName ref="p5565" cert="high">Wolfgangus Capito</persName>, Jacobus Sturmius, <persName ref="p1365" cert="high">Simon Gryneus</persName>; pro Augusta et Ulma: Conradus Helus, Georgius Bessems, Martinus Frechtus; pro Nornberga: Erasmus Ebneres, Vincelaus Lingkius, Andreas Osiander; pro Brema, Magdenburga et Hamburga: Nicolaus Ambsdorfius, Joannes Amsderdamus, Daniel Burenus stetit.</s>
+					<s n="183" xml:lang="la" type="auto">Et a nobis quidem pro electore Saxone: Franciscus Burckardus, <persName ref="p2095" cert="high">Philippus Melanchthon</persName>, Justus Menius; Pro Hesso Joannes Fry, <persName ref="p467" cert="high">Martinus Bucerus</persName>, Adamus Fuldanus; pro Saxone Henrico: Andreas Camitianus, <persName ref="p458" cert="high">Joannes Brentius</persName>, Nicolaus Schoublinus; pro Marggravis Georgio et Albrechto: Fridrichus Knoblochsdor, Sigismundus Schneewyß, Chilianus Goldstein; pro Lunenburgensi: Nicolaus Holstein, Joannes Calvinus, Joannes Sturmius; pro Wirtenbergensi: Balthassar Giltlinger, <persName ref="p6469" cert="high">Erhardus Schnepff</persName>, Balthassar Cuselin; pro Pomerano: Nicolaus Glossenus, Jacobus Philippus, Vuolfgangus Weddelius; pro Strasburgo: <persName ref="p5565" cert="high">Wolfgangus Capito</persName>, Jacobus Sturmius, <persName ref="p1365" cert="high">Simon Gryneus</persName>; pro Augusta et Ulma: Conradus Helus, Georgius Bessems, Martinus Frechtus; pro Nornberga: Erasmus Ebneres, Vincelaus Lingkius, Andreas Osiander; pro Brema, Magdenburga et Hamburga: Nicolaus Ambsdorfius, Joannes Amsderdamus, Daniel Burenus stetit.</s>
 					<s n="184" xml:lang="la" type="auto">Sed ab adversariis instituta phalanx taliter fuit.</s>
-					<s n="185" xml:lang="la" type="auto">Stetit pro Moguntino Mihahel Heldling, Ambrosius Pelargus, Conradus Bruno; pro Treverensi: Joannes Hußring, Georgius Eltz, Nicolaus N.; pro Coloniense: Bemhardus ab Hagen, Ebrardus Billig, Dietericus a Manderschid; pro Palatino: Henricus Stoll, Mathias Keiler, Henricus Has; pro Marchione electore: Leonhardus Keller, Alexander Alestius, Joannes Ludovicus; pro Meidenburgo et Halberstatto: Joannes Minsinger, Conradus Mucosus, Jodocus Hutzfeldus; pro Saltzburgo: Leonhardus Marstaller, Nicolaus Appell, Joannes Vuetzler; pro episcopo <placeName ref="l492" cert="high">Argentinensi</placeName>: Joannes Armbrester, Christophores Vuelsinger, Joannes a Seebach; pro Vuilhelmo Bavaro: Matthias Kretzeres, et quidam minister Franciscanus; pro Juliacens: Joannes Vlatenus, Conradus Heresbachius, Albertus Küng.</s>
+					<s n="185" xml:lang="la" type="auto">Stetit pro Moguntino Mihahel Heldling, <persName ref="p6045" cert="high">Ambrosius Pelargus</persName>, Conradus Bruno; pro Treverensi: Joannes Hußring, Georgius Eltz, Nicolaus N.; pro Coloniense: Bemhardus ab Hagen, Ebrardus Billig, Dietericus a Manderschid; pro Palatino: Henricus Stoll, Mathias Keiler, Henricus Has; pro Marchione electore: Leonhardus Keller, Alexander Alestius, Joannes Ludovicus; pro Meidenburgo et Halberstatto: Joannes Minsinger, Conradus Mucosus, Jodocus Hutzfeldus; pro Saltzburgo: Leonhardus Marstaller, Nicolaus Appell, Joannes Vuetzler; pro episcopo <placeName ref="l492" cert="high">Argentinensi</placeName>: Joannes Armbrester, Christophores Vuelsinger, Joannes a Seebach; pro Vuilhelmo Bavaro: Matthias Kretzeres, et quidam minister Franciscanus; pro Juliacens: Joannes Vlatenus, Conradus Heresbachius, Albertus Küng.</s>
 					<s n="186" xml:lang="la" type="auto">Et hunc quidem in modum ordinata utraque acies et ad pugnam instituta fuit.</s>
 					<s n="187" xml:lang="la" type="auto">Hoc nostrorum hominum super propositos articulos responso vigesima octava Novembris dato, in quo nihil nisi non tolerabile reiiciebatur, nihil nisi necessarium postulabatur, et notariis deinde in conspectum adductis, et doctrinae nostrae confessione oblata, et nostrarum denique copiarum catalogo et ordine exhibito, et protestatione de superiorum Comitiorum pactionumque iure facta, cum nihil iam amplius quam congressus expectaretur, longe spem et expectationem nostram praesidum responsum fefellit.</s>
 					<s n="188" xml:lang="la" type="auto">Id propositum altera Decembris die est, fuit autem huiusmodi: Hagnoica ratione omnes a colloquio, praeter bis terdenos excludi.</s>
@@ -502,8 +485,8 @@
 					<s n="268" xml:lang="la" type="auto">Nam iniquas conditiones omnes non repulimus, sed recepimus nos, una fortasse et extrema excepta, qualiter mox intelligetur: et contra ipsorum expectationem, maxima eorum pars, qui in colloquio fuerunt, a nobis, non ab illis stetit: in quibus revocando ad se, et a nobis avertendis tam laborarunt, quam in iniquis conditionibus inveniendis et obiiciendis.</s>
 					<s n="269" xml:lang="la" type="auto">Alia praeterea, et quidem maior, adversarios difficultas circumstabat.</s>
 					<s n="270" xml:lang="la" type="auto">Non enim isti solum in ipsorum parte ab ipsis dissentiebant, quorum sententia de religione diversa ex professo fuit, et qui palam a nobis sentiebant: sed hi etiam, qui conspirare contra nos cum illis maxime cuperent, convenire ipsi inter se non potuerunt.</s>
-					<s n="271" xml:lang="la" type="auto">Obstrepere sibi Theologi et Monachi, et cottidie inter se rixari, sine ordine sententiam dicere: ii praesertim, qui illud agmen ducebant, Pelargus et Eccius.</s>
-					<s n="272" xml:lang="la" type="auto">Contemnere Eccius veteranus iam miles, Pelargum, et Monachum, et in iis certaminibus hominem novum: contra Pelargus, ut literis tinctus male, barbarum et agrestem hominem Eccium, et stultis victoriis inflatum, non ferre.</s>
+					<s n="271" xml:lang="la" type="auto">Obstrepere sibi Theologi et Monachi, et cottidie inter se rixari, sine ordine sententiam dicere: ii praesertim, qui illud agmen ducebant, <persName ref="p6045" cert="high">Pelargus</persName> et Eccius.</s>
+					<s n="272" xml:lang="la" type="auto">Contemnere Eccius veteranus iam miles, Pelargum, et Monachum, et in iis certaminibus hominem novum: contra <persName ref="p6045" cert="high">Pelargus</persName>, ut literis tinctus male, barbarum et agrestem hominem Eccium, et stultis victoriis inflatum, non ferre.</s>
 					<s n="273" xml:lang="la" type="auto">Haec contentio tanta fuit, ut legatus Caesaris coactus sit, missis doctoribus suis Hispanis mitigare animos, et incendium restinguere, quod minime tamen impetravisset, nisi hostium metus in propinquo existentium istos homines paulisper continuisset.</s>
 					<s n="274" xml:lang="la" type="auto">Tantaque Sophistarum ira fuit, ut in hoc coetu moderationis laudem aliquis obtinere potuerit maximus et impetuosissimus rixator.</s>
 					<s n="275" xml:lang="la" type="auto">Qua de re pulchrum legati responsum fuit, nam cum a nostris hominibus ad maturandum colloquium assidue urgeretur, confessus aliquando ingenue est, nos non dividi, illos componi non posse.</s>
@@ -689,7 +672,7 @@
 					<s n="455" xml:lang="la" type="auto">Erat autem adversariorum non eadem hac de re sententia.</s>
 					<s n="456" xml:lang="la" type="auto">Alii id reliquum originale, et ex peccato esse, et peccatum ex se gignere, et legi divinae natura repugnare, et hoc pacto de ista re Apostolum loqui, itaque et peccatum appellari confitebantur.</s>
 					<s n="457" xml:lang="la" type="auto">Alii ei sententiae palam reclamabant, et se vero minime id nobis concessuros esse testabantur.</s>
-					<s n="458" xml:lang="la" type="auto">In priore sententia Eccius, in posteriore Pelargus fuit.</s>
+					<s n="458" xml:lang="la" type="auto">In priore sententia Eccius, in posteriore <persName ref="p6045" cert="high">Pelargus</persName> fuit.</s>
 					<s n="459" xml:lang="la" type="auto">Caeteri duces hos sequebantur.</s>
 					<s n="460" xml:lang="la" type="auto">Nos hac forma allata contenti esse poteramus, si quod verbis praeferebatur, id agi vere ab iis re ipsa persuasum fuisset, mirumque in re tam manifesta, post tam clara scripturae sanctae testimonia hesitare quemquam potuisse.</s>
 					<s n="461" xml:lang="la" type="auto">Non enim si furiosus homo inclusus cancellis est, et nocere nulli potest, ideo ipse nocens conditione sua non est.</s>

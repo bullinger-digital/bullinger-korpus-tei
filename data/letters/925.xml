@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,440</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,218</idno>
 					</msIdentifier>
@@ -70,26 +54,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/925">
 				<correspAction type="sent">
-					<persName ref="p8415" cert="high">
-						<!--
-						<surname cert="high">Micronius (de Cleyne)</surname>
-						<forename cert="high">Martin</forename>
-						-->
-					</persName>
+					<persName ref="p8415" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1550-06-04" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -113,8 +83,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,19 +101,19 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. P.</s>
 					<s n="2" xml:lang="la" type="auto">Cum te sciam magno teneri desiderio cognoscendarum nostrarum rerum, nolui cessator esse, sed sedulus scriptor ad tuam humanitatem, ut, quae hic geruntur, tam probe scias, quam si esses praesens.</s>
-					<s n="3" xml:lang="la" type="auto">Hanc provinciam in me non susciperem, si d. <persName type="auto_name">Hopero</persName> vacaret scribere; nam ille et plus ac certiora dare posset.</s>
+					<s n="3" xml:lang="la" type="auto">Hanc provinciam in me non susciperem, si d. <persName ref="p1560" cert="high">Hopero</persName> vacaret scribere; nam ille et plus ac certiora dare posset.</s>
 					<s n="4" xml:lang="la" type="auto">Ego, quod scio et indubitatum habeo, tantum scribo.</s>
 					<s n="5" xml:lang="la" type="auto">Quod postremis meis literis 28. maii datis scripsi de sex navibus bellicis, nihil intelligo esse periculi.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Dominus de Satilion, legatus <persName ref="p17970" cert="high">Gallicus</persName>, confirmata pace discedit pridie calendas iunii.</s>
-					<s n="7" xml:lang="la" type="auto">Dominus <persName type="auto_name">Hoperus</persName> obtinuit, quae voluit, omnia a consiliariis regis; abiit in patriam intra decem dies rediturus ac paulo post in episcopatum suum abiturus.</s>
+					<s n="7" xml:lang="la" type="auto">Dominus <persName ref="p1560" cert="high">Hoperus</persName> obtinuit, quae voluit, omnia a consiliariis regis; abiit in patriam intra decem dies rediturus ac paulo post in episcopatum suum abiturus.</s>
 					<s n="8" xml:lang="la" type="auto">Illi congressurus est (ut putat) d. <persName ref="p8061" cert="high">Ioannes Utenhovius</persName>.</s>
 					<s n="9" xml:lang="la" type="auto">Ego <persName type="auto_name">Londini</persName> mansurus sum propter ministerium verbi in ecclesia <placeName type="auto_name">Flandrica</placeName>, quam hic instituendam curat d. <persName ref="p8041" cert="high">Ioannes a Lasco</persName>.</s>
 					<s n="10" xml:lang="la" type="auto">Nihildum sum certus, obtinerine talis ecclesia possit; attamen spes est maxima.</s>
-					<s n="11" xml:lang="la" type="auto">Si ecclesię illi praeficiar minister, hinc migrare cum d. <persName type="auto_name">Hopero</persName> bona conscientia non licebit.</s>
+					<s n="11" xml:lang="la" type="auto">Si ecclesię illi praeficiar minister, hinc migrare cum d. <persName ref="p1560" cert="high">Hopero</persName> bona conscientia non licebit.</s>
 					<s n="12" xml:lang="la" type="auto">Faxit deus, quod volet, duntaxat ut eius inserviam glorię.</s>
-					<s n="13" xml:lang="la" type="auto"><persName type="auto_name">Ioanna</persName>, pedissequa dominę uxoris Hoperi, postridie calendas iunias nupsit concionatori Gallico, viro probo et erudito; quibus omnia opto felicia.</s>
+					<s n="13" xml:lang="la" type="auto"><persName type="auto_name">Ioanna</persName>, pedissequa dominę uxoris <persName ref="p1560" cert="high">Hoperi</persName>, postridie calendas iunias nupsit concionatori Gallico, viro probo et erudito; quibus omnia opto felicia.</s>
 					<s n="14" xml:lang="la" type="auto">Celebratę item nuptię 3. huius mensis inter ducis <placeName type="auto_name">Somerseti</placeName> filiam et filium comitis <persName type="auto_name">Warwyck</persName>, quibus rex ipse interfuit.</s>
 					<s n="15" xml:lang="la" type="auto">Res hęc mirum in modum animos nobilium (ut spero) iunget conciliabitque.</s>
 					<s n="16" xml:lang="la" type="auto">D. <persName ref="p8061" cert="high">Ioannes Utenhovius</persName>, vir pietate et genere clarus, unice se tibi per me commendari voluit.</s>

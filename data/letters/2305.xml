@@ -22,14 +22,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">A 350.1, Nr. 64</idno>
 						<idno subtype="Hinweis">ohne Nr., aber chronologisch geordnet</idno>
@@ -55,14 +47,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 82,43</idno>
 					</msIdentifier>
@@ -72,34 +56,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2305">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<date when="1554-06-08" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p1419" cert="high">
-						<!--
-						<surname cert="high">Haab</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/119695790"/>
-						-->
-					</persName>
-					<persName ref="p8339" cert="low">
-						<!--
-						<surname cert="low">Escher (vom Luchs)</surname>
-						<forename cert="low">Johannes</forename>
-						<note type="person">Stadtschreiber</note>
-						-->
-					</persName>
-					<roleName ref="g28" type="pl" role="Gesandte" cert="high"/>
+					<persName ref="p1419" cert="high"/>
+					<persName ref="p8339" cert="low"/>
+					<orgName ref="og28pl910" cert="high"/>
 					<placeName source="l21" cert="high"><orig>Baden</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -112,8 +75,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

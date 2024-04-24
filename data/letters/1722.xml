@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,531</idno>
 					</msIdentifier>
@@ -43,14 +35,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 78,93</idno>
 					</msIdentifier>
@@ -60,27 +44,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1722">
 				<correspAction type="sent">
-					<persName ref="p3481" cert="high">
-						<!--
-						<surname cert="high">Vogt</surname>
-						<forename cert="high">Simprecht</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089422717"/>
-						-->
-					</persName>
+					<persName ref="p3481" cert="high"/>
 					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1552-09-21" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -105,8 +74,8 @@
 				<language ident="la" usage="864">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -128,7 +97,7 @@
 					<s n="3" xml:lang="la" type="auto">Per senatum nostrum satis honorifice susceptus est; sic tamen ut nihil praeter verba hinc auferret secum in patriam.</s>
 					<s n="4" xml:lang="la" type="auto">Nos aliquot diebus dissimulavimus negotium expectaturi, quid decreturus esset senatus noster; ubi vidimus rem procrastinari, convenimus eos admonentes et christianae esse charitatis et officii pii magistratus, ut consuleret rebus fratrum accisis, orantes interim, ut per ipsos liceat congraegari per torcularia vindemia instante vina, item in agro nostro per horrea frumenta, quae deinde in aes permutata facile transmitti possint <placeName type="auto_name">Magdeburgensibus</placeName>.</s>
 					<s n="5" xml:lang="la" type="auto">Senatus negotium omne in posterum dies distulit; ipsi nos per fidos quosdam intelleximus, quod hac in re penderent ab arbitrio amplissimi vestri senatus, visuri item essent, quid vestra ecclesia super hoc negotio consultura esset.</s>
-					<s n="6" xml:lang="de" type="auto"><foreign xml:lang="la">Decretum senatus ad nos transmissum est in hanc sententiam:</foreign> "Min gnädig herren burgermeister und rhadte haben der von Magdenburg halber erkendt, das inen in den trodten dhein win gesamlet werdi; die herren die predicanten mögen, ob sy wellen, an den cantzlen das volck ermanen, ob etwar umb gots willen den von Magdenburg etwas geben, mögen sie das den predicanten zuͦstellen, würts denen von Magdenburg zuͦgeschickt werden."</s>
+					<s n="6" xml:lang="de" type="auto"><foreign xml:lang="la">Decretum senatus ad nos transmissum est in hanc sententiam:</foreign> "Min gnädig herren burgermeister und rhadte haben der von <placeName type="auto_name">Magdenburg</placeName> halber erkendt, das inen in den trodten dhein win gesamlet werdi; die herren die predicanten mögen, ob sy wellen, an den cantzlen das volck ermanen, ob etwar umb gots willen den von <placeName type="auto_name">Magdenburg</placeName> etwas geben, mögen sie das den predicanten zuͦstellen, würts denen von <placeName type="auto_name">Magdenburg</placeName> zuͦgeschickt werden."</s>
 					<s n="7" xml:lang="la" type="auto">Igitur quoniam intelleximus ipsos visuros, quid vester amplissimus magistratus decreturus sit, suaque consilia ad vestrorum senatus consultum moderaturos, visum est et nobis vos hac in re consulere, quandoquidem hucusque promptum vestrum tum erga nos tum erga ecclesiam fidei nostrae commissam animum perspeximus, non dubitantes, quin a vobis et commodum et pium consilium simus reportaturi; nam non latet vos, quid tandem vester senatus in animo habeat; sic enim nobis persuasimus.</s>
 					<s n="8" xml:lang="la" type="auto">Deinde non inexploratum est vobis ecclesiae nostrae ingenium; quare commodissime nobis poteritis consulere, qua ratione possimus negotium aggredi.</s>
 				</p>
@@ -137,7 +106,7 @@
 					<s n="10" xml:lang="la" type="auto">Tu si quid novi habeas tibique per negotiorum multitudinem vacabit, nobis ut communices, oramus.</s>
 					<s n="11" xml:lang="la" type="auto">Salutabis ex nobis omnes fratres.</s>
 					<s n="12" xml:lang="la" type="auto">Salutant te symmystae mei.</s>
-					<s n="13" xml:lang="la" type="auto">Raptim <persName type="auto_name">Scaffusii Matthaei</persName> anno 1552.</s>
+					<s n="13" xml:lang="la" type="auto">Raptim <placeName ref="l441" cert="high">Scaffusii</placeName> Matthaei anno 1552.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Tuus ex animo <persName ref="p3481" cert="high">Simpertus Vogt</persName>.</s>

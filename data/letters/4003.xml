@@ -23,14 +23,6 @@
 				<bibl n="45" type="footnotes">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a78">
-							<name>St. Gallen KB</name>
-							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
-						</repository>
-						<settlement ref="l474">St. Gallen</settlement>
-						<institution>Kantonsbibliothek Vadiana</institution>
-						-->
 						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 37, 249</idno>
 						<altIdentifier>
@@ -46,14 +38,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 95,67</idno>
 						<idno subtype="Quelle">https://swisscollections.ch/Record/991170517508505501/Holdings?openHierarchy=true#tabnav</idno>
@@ -64,27 +48,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4003">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1559-06-30" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p5454" cert="high">
-						<!--
-						<surname cert="high">Keßler</surname>
-						<forename cert="high">Josua</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/11972670X"/>
-						-->
-					</persName>
+					<persName ref="p5454" cert="high"/>
 					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -111,8 +80,8 @@
 				<language ident="la" usage="986">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -140,7 +109,7 @@
 					<s n="13" xml:lang="la" type="auto">Episcopi redacti sunt in ordinem; eripiuntur eis opes et dominatus saecular s, ideoque Eboracensis episcopus resignavit reginae.</s>
 				</p>
 				<p>
-					<s n="14" xml:lang="la" type="auto">Creati sunt ex nostrae religionis fautoribus et professoribus d. d. <persName type="auto_name">Parkerus</persName> archiepiscopus <placeName ref="l1255" cert="high">Cantuariensis</placeName>, d. <persName type="auto_name">Grindallus</persName> episcopus <placeName ref="l296" cert="high">Londoniensis</placeName>, d. <persName type="auto_name">Coxus</persName> episcopus <placeName type="auto_name">Norvicensis</placeName> etc.</s>
+					<s n="14" xml:lang="la" type="auto">Creati sunt ex nostrae religionis fautoribus et professoribus d. d. <persName type="auto_name">Parkerus</persName> archiepiscopus <placeName ref="l1255" cert="high">Cantuariensis</placeName>, d. <persName type="auto_name">Grindallus</persName> episcopus <placeName ref="l296" cert="high">Londoniensis</placeName>, d. <persName ref="p672" cert="high">Coxus</persName> episcopus <placeName type="auto_name">Norvicensis</placeName> etc.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Substituuntur et alii viri pii et docti discedentibus episcopis et iugum Christi trahere nolentibus.</s>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4640" type="Brief" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4640" type="Brief" source="TUSTEP-0" n="31016">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">Matthieu Coignet d.Ä. / Baden an Heinrich Bullinger / Zürich, [14. Januar 1561]</title>
+				<title subtype="file">Matthieu Coignet d.Ä. / Baden an Heinrich Bullinger / Zürich, [24. Januar 1561]</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -19,36 +19,22 @@
 				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
-				<msDesc type="Brief" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,465</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
 							<incipit>Post ultimas meas ad te tuas recepi scriptas 21. huius mensis cum foliis aliquot. Tam fui occupatus</incipit>
+							<textLang>la</textLang>
 						</msItem>
 					</msContents>
 				</msDesc>
-				<msDesc type="Brief" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 99,27</idno>
 					</msIdentifier>
@@ -58,106 +44,83 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4640">
 				<correspAction type="sent">
-					<persName ref="p629" cert="high">
-						<!--
-						<surname cert="high">Coignet d.Ä.</surname>
-						<forename cert="high">Matthieu</forename>
-						-->
-					</persName>
+					<persName ref="p629" cert="high"/>
 					<placeName source="l21" cert="high"><orig>Baden</orig></placeName>
-					<date when="1561-01-14" cert="low"><note>Datum unsicher; (1561) Januar «14.» = recte: [24.]</note></date>
+					<date when="1561-01-24" cert="low"><note>Datum unsicher; (1561) Januar «14.» = recte: [24.]</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
-					<ref type="next_chronologically" target="file4633"/>
-					<ref type="prev_chronologically" target="file4632"/>
-					<ref type="next_correspondence" target="file4636"/>
-					<ref type="prev_correspondence" target="file4632"/>
-					<ref type="next_correspondence_request" target="file4636"/>
-					<ref type="prev_correspondence_request" target="file4632"/>
+					<ref type="next_chronologically" target="file4641"/>
+					<ref type="prev_chronologically" target="file4639"/>
+					<ref type="next_correspondence" target="file4645"/>
+					<ref type="prev_correspondence" target="file4636"/>
+					<ref type="next_correspondence_request" target="file4645"/>
+					<ref type="prev_correspondence_request" target="file4636"/>
 					<ref type="prev_correspondence_reaction" target="file4458"/>
-					<ref type="next_same_sender" target="file4636"/>
-					<ref type="prev_same_sender" target="file4632"/>
-					<ref type="next_same_addressee" target="file4634"/>
-					<ref type="prev_same_addressee" target="file4623"/>
-					<ref type="next_with_sender_as_addressee" target="file4636"/>
-					<ref type="prev_with_sender_as_addressee" target="file4632"/>
-					<ref type="next_with_addressee_as_sender" target="file4634"/>
-					<ref type="prev_with_addressee_as_sender" target="file4623"/>
+					<ref type="next_same_sender" target="file4645"/>
+					<ref type="prev_same_sender" target="file4636"/>
+					<ref type="next_same_addressee" target="file4641"/>
+					<ref type="prev_same_addressee" target="file4634"/>
+					<ref type="next_with_sender_as_addressee" target="file4645"/>
+					<ref type="prev_with_sender_as_addressee" target="file4636"/>
+					<ref type="next_with_addressee_as_sender" target="file4641"/>
+					<ref type="prev_with_addressee_as_sender" target="file4634"/>
 					<ref type="child" target="file4632"/>
 				</correspContext>
 			</correspDesc>
+			<langUsage>
+				<language ident="la" usage="1000">Latein</language>
+			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
 		<surface>
-			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/4640%2FAutograph%2F00%20E_II_368__fol__465_r_.tif/full/max/0/default.jpg" height="2555px" width="2802px" n="1"><desc subtype="path">4640/Autograph/00 E_II_368__fol__465_r_.tif</desc></graphic>
-				<zone xml:id="p1z1-0" points="2617,85 2575,92 2570,90 2553,81 2503,97 2518,144 2548,135 2559,140 2568,145 2626,134">2515,133 2550,122 2570,132 2624,122</zone>
-				<zone xml:id="p1z2-0" points="2642,124 2555,124 2555,174 2642,174">2555,162 2561,162 2621,162 2642,162</zone>
-				<zone xml:id="p1z3-0" points="2539,195 2354,189 1954,172 658,213 660,263 1953,222 2352,239 2537,245">660,251 1954,210 2353,227 2538,233</zone>
-				<zone xml:id="p1z4-0" points="2515,294 1769,270 1713,281 591,276 590,326 1718,331 1774,320 2513,344">591,314 1717,319 1773,308 2514,332</zone>
-				<zone xml:id="p1z5-0" points="2634,398 1604,371 1376,375 599,365 598,415 1377,425 1603,421 2633,448">599,403 1377,413 1604,409 2634,436</zone>
-				<zone xml:id="p1z6-0" points="2557,478 1599,469 999,446 591,461 593,511 998,496 1598,519 2556,528">593,499 999,484 1599,507 2557,516</zone>
-				<zone xml:id="p1z7-0" points="2721,609 2075,569 799,533 594,539 596,589 800,583 2073,619 2718,659">596,577 800,571 2074,607 2719,647</zone>
-				<zone xml:id="p1z8-0" points="2667,668 1593,638 1001,617 598,620 599,670 1000,667 1591,688 2665,718">599,658 1001,655 1592,676 2666,706</zone>
-				<zone xml:id="p1z9-0" points="2691,749 1381,710 1015,695 611,696 612,746 1014,745 1379,760 2689,799">612,734 1015,733 1380,748 2690,787</zone>
-				<zone xml:id="p1z10-0" points="2575,808 1958,805 1865,802 793,771 623,792 629,842 795,821 1857,852 1957,855 2574,858">628,830 795,809 1958,843 2575,846</zone>
-				<zone xml:id="p1z11-0" points="2579,891 2317,879 2055,880 1935,881 614,851 613,901 1934,931 2055,930 2316,929 2577,941">614,889 1935,919 2317,917 2578,929</zone>
-				<zone xml:id="p1z12-0" points="2529,981 1880,936 1628,931 599,944 600,994 1627,981 1878,986 2526,1031">600,982 1628,969 1879,974 2527,1019</zone>
-				<zone xml:id="p1z13-0" points="2571,1065 1887,1035 773,1018 618,1034 623,1084 775,1068 1885,1085 2569,1115">622,1072 775,1056 1886,1073 2570,1103</zone>
-				<zone xml:id="p1z14-0" points="2521,1140 1636,1111 1324,1109 624,1124 625,1174 1325,1159 1635,1161 2519,1190">625,1162 1325,1147 1636,1149 2520,1178</zone>
-				<zone xml:id="p1z15-0" points="1618,1201 1317,1193 1201,1188 1116,1185 1055,1184 1054,1234 1114,1235 1198,1238 1315,1243 1617,1251">1055,1222 1115,1223 1316,1231 1618,1239</zone>
-				<zone xml:id="p1z16-0" points="916,1179 896,1185 881,1179 873,1177 620,1185 622,1235 866,1227 869,1228 895,1238 931,1226">622,1223 868,1215 896,1225 928,1215</zone>
-				<zone xml:id="p1z17-0" points="2435,1414 2071,1399 1880,1407 1782,1420 1789,1470 1885,1457 2072,1449 2433,1464">1788,1458 1884,1445 2072,1437 2434,1452</zone>
-				<zone xml:id="p1z18-0" points="338,2490 322,2498 336,2542 348,2547 364,2541">339,2532 341,2531 349,2534 360,2530</zone>
-				<zone xml:id="p1z19-0" points="2770,2499 2741,2508 2346,2510 2299,2502 2292,2552 2343,2560 2750,2558 2785,2546">2294,2540 2344,2548 2748,2546 2782,2535</zone>
-				<zone xml:id="p1z20-0" points="136,2503 96,2511 74,2556 82,2560 99,2561 146,2552">80,2545 86,2548 99,2549 144,2540</zone>
-				<zone xml:id="p1z21-0" points="231,2505 228,2509 206,2511 199,2508 185,2557 201,2561 254,2556 270,2536">189,2545 203,2549 248,2545 261,2529</zone>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/4640%2FAutograph%2F00%20E_II_368__fol__465_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">4640/Autograph/00 E_II_368__fol__465_r_.tif</desc></graphic>
 		</surface>
 		<surface>
 			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/4640%2FAutograph%2F01%20E_II_368__fol__465_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">4640/Autograph/01 E_II_368__fol__465_v_.tif</desc></graphic>
 		</surface>
 	</facsimile>
-	<text xml:lang="">
+	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
-					<lb xml:id="p1z1"/>1566.
-					<lb xml:id="p1z2"/>S.
-					<lb xml:id="p1z3"/>post ultimas meas ad te tuas recepi scriptas, etc. huius mensis cum filium
-					<lb xml:id="p1z4"/>aliquot tam sui occupatus, ut non vacaverit, legere ultra octo folia
-					<lb xml:id="p1z5"/>valde mihi placent et profutura hoc tempore existimo, ubi venales
-					<lb xml:id="p1z6"/>mittam domino redovensi, episcopo et in Gallia, cum etiam tibi
-					<lb xml:id="p1z7"/>praestitum videbitur, et ita favendum iudicaveris de Glaronensium controversia
-					<lb xml:id="p1z8"/>certius intelliges a d. Burgistro, viro, prudentissimo, et quantum
-					<lb xml:id="p1z9"/>me vexarint usagarii aut petentes iniecto immodicum pro pecunia cogi
-					<lb xml:id="p1z10"/>nomine mutuo data bono et praestanti illi viro multum debeo,
-					<lb xml:id="p1z11"/>qui mediatori extitit, et molestias pertuli praeceptorio. Nullum quomodo
-					<lb xml:id="p1z12"/>desideras ad te, mitto, qu&#281; vere, odit Galla, quinquepagicorum charitatem
-					<lb xml:id="p1z13"/>gravatim conveni et multis egi de negotio, clarovissimi, mihi sunt polliciti,
-					<lb xml:id="p1z14"/>plicata omnia seque quietiora consilia sequuturos. Bene vale. Salutabis
-					<lb xml:id="p1z15"/>sanctiora consilia
-					<lb xml:id="p1z16"/>divitatis och.
-					<lb xml:id="p1z17"/>illum suum sumptum
-					<lb xml:id="p1z18"/>S.
-					<lb xml:id="p1z19"/>dum colendissime
-					<lb xml:id="p1z20"/>d.
-					<lb xml:id="p1z21"/>d.
+					<note>[Dieser Brief kann erst nach jenem vom 21. Januar geschrieben sein.]</note>
+				</p>
+				<p>
+					<s n="1" xml:lang="la" type="auto"><persName type="auto_name">S. Post</persName> ultimas meas ad te tuas recepi scriptas 21. huius mensis cum foliisaliquot.</s>
+					<s n="2" xml:lang="la" type="auto">Tam fui occupatus, ut non vacaverit legere ultra octo folia que valde mihi placent et profutura hoc tempore existimo, ubi venales erunt, mittam domino <placeName type="auto_name">Redonensi</placeName> episcopo et in Gallia[m], cum etiam tibi tempestivum videbitur et ita faciendum iudicaveris.</s>
+					<s n="3" xml:lang="la" type="auto">De <placeName ref="l646" cert="high">Glaronensium</placeName> controversia certius intelliges a d. burgimagistro, viro prudentissimo, et quantum me vexarint usurarii me petentes interesse immodicum pro pecunia regis Henrici nomine mutuo data.</s>
+				</p>
+				<p>
+					<s n="4" xml:lang="la" type="auto">Bono et praestanti illi viro multum debeo, qui mediator extitit et molestias pertulit <persName type="auto_name">Pfifferi</persName>.</s>
+					<s n="5" xml:lang="la" type="auto">Bullam, quam desideras, ad te mitto, quę vere erit bulla.</s>
+				</p>
+				<p>
+					<s n="6" xml:lang="la" type="auto">Quinquepagicorum legatos privatim conveni et multis egi de negocio <placeName ref="l646" cert="high">Glaronensium</placeName>.</s>
+					<s n="7" xml:lang="la" type="auto">Mihi sunt polliciti placata omnia seque quietiora consilia sequuturos.</s>
+				</p>
+				<p>
+					<s n="8" xml:lang="la" type="auto">Bene vale.</s>
+				</p>
+				<p>
+					<s n="9" xml:lang="la" type="auto">Salutabis amicos omnes.</s>
+				</p>
+				<p>
+					<s n="10" xml:lang="la" type="auto">Badene 14. ianuarii.</s>
+				</p>
+				<p>
+					<s n="11" xml:lang="la" type="auto">Tuus ex animo <persName type="auto_name">Coignetius</persName>.</s>
+				</p>
+				<p>
+					<note>[von anderer Hand:]</note>
+					<s n="12" xml:lang="la" type="auto">Domino Henrico Bullingero, ecclesiae Tigurinae pastori vigilantissimo.</s>
 				</p>
 			</div>
 		</body>

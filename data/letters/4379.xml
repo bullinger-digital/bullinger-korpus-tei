@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,414</idno>
 					</msIdentifier>
@@ -43,28 +35,12 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 97,156</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a81">
-							<name>Strassburg BNU</name>
-							<ref target="https://www.bnu.fr/fr"/>
-						</repository>
-						<settlement ref="l492">Strassburg</settlement>
-						<institution>National- und Universitätsbibliothek</institution>
-						-->
 						<repository ref="a81"/>
 						<idno subtype="Kopie">Ms 0.680 = STB Bd. 21,231</idno>
 					</msIdentifier>
@@ -74,29 +50,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4379">
 				<correspAction type="sent">
-					<persName ref="p8099" cert="high">
-						<!--
-						<surname cert="high">Schöpf (Schepf)</surname>
-						<forename cert="high">Thomas</forename>
-						<graphic type="portrait" url="portraits/2935_Schoepf_Thomas.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Thomas_Sch%C3%B6pf"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/1062499573"/>
-						-->
-					</persName>
+					<persName ref="p8099" cert="high"/>
 					<placeName source="l335" cert="high"><orig>Mülhausen</orig></placeName>
 					<date when="1560-08-03" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -120,8 +79,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -139,8 +98,8 @@
 					<s n="1" xml:lang="la" type="auto">Gaudium et pacem in Christo.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Incidi hisce diebus in venerandum nostrum senem dominum Mathiam Erbium, vir doctissime, quem reperi tristem usque ad mortem ferme; nam vidit ecclesiae, cui hactenus docendo praefuit, insanabile propemodum infligi vulnus.</s>
-					<s n="3" xml:lang="la" type="auto">Ecce advolarunt (proh dolor) ex <placeName type="auto_name">Wirttenbergensi</placeName> ducatu duo apostoli, quorum alter viventi Mathiae succederet et esset totius comitatus superintendens, alter vero dominum Iacobum Milyagrium quasi expelleret.</s>
+					<s n="2" xml:lang="la" type="auto">Incidi hisce diebus in venerandum nostrum senem dominum <persName type="auto_name">Mathiam Erbium</persName>, vir doctissime, quem reperi tristem usque ad mortem ferme; nam vidit ecclesiae, cui hactenus docendo praefuit, insanabile propemodum infligi vulnus.</s>
+					<s n="3" xml:lang="la" type="auto">Ecce advolarunt (proh dolor) ex <placeName type="auto_name">Wirttenbergensi</placeName> ducatu duo apostoli, quorum alter viventi Mathiae succederet et esset totius comitatus superintendens, alter vero dominum <persName type="auto_name">Iacobum Milyagrium</persName> quasi expelleret.</s>
 					<s n="4" xml:lang="la" type="auto">Nam uterque, tam Mathias quam Iacobus suam a magistratu, quam hactenus avide expectarunt, accepere sententiam, hic ut omni ex comitatu et ducatu discedat, ille vero ut quidem suo, quo hactenus victitavit, stipendiolo fruatur, sed a concionandi officio desistat.</s>
 					<s n="5" xml:lang="la" type="auto">Haec maximo cum dolore raptim quasi tibi communicare volui, ut, quo in statu essent ecclesiae nostrae intelligeres et dominum sedulo pro nobis interpellares; summe enim periclitantur.</s>
 					<s n="6" xml:lang="la" type="auto">Dominus deus misereatur nostri.</s>
@@ -149,10 +108,10 @@
 					<s n="7" xml:lang="la" type="auto">Bene vale.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Salutato meo nomine omnes fratres et in primis dominum Ruͦdolphum <persName type="auto_name">Waltherum</persName>, cui scripsissem, si per otium licuisset.</s>
+					<s n="8" xml:lang="la" type="auto">Salutato meo nomine omnes fratres et in primis dominum <persName ref="p8011" cert="high">Ruͦdolphum Waltherum</persName>, cui scripsissem, si per otium licuisset.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Datum raptim <persName type="auto_name">Milthusii</persName> in aedibus <persName type="auto_name">Finckii</persName>, qui te salvum cupit, 3. augusti.</s>
+					<s n="9" xml:lang="la" type="auto">Datum raptim <placeName type="auto_name">Milthusii</placeName> in aedibus <persName type="auto_name">Finckii</persName>, qui te salvum cupit, 3. augusti.</s>
 					<s n="10" xml:lang="la" type="auto">Tui observandissimus <persName type="auto_name">Thomas Schöpfius</persName>, d[octor] m[edicinae].</s>
 				</p>
 				<p>

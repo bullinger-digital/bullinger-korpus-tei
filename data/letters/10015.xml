@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph__(Kopie)">Msc A 82,45r-50v</idno>
 						<idno subtype="Hinweis">11 fol. S.</idno>
@@ -62,33 +54,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10015">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
-					<persName ref="p9709" cert="high">
-						<!--
-						<surname cert="high">Rüpplin (Joner)</surname>
-						<forename cert="high">Wolfgang</forename>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
+					<persName ref="p9709" cert="high"/>
 					<placeName source="l242" cert="high"><orig>Kappel am Albis</orig></placeName>
 					<date when="1523-11-30" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p253" cert="high">
-						<!--
-						<surname cert="high">Asper</surname>
-						<forename cert="high">Rudolf</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/135772931"/>
-						-->
-					</persName>
+					<persName ref="p253" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10013"/>
@@ -101,8 +73,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -147,7 +119,7 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="la" type="auto">Epistola ad Rodolphum Asper de scripturae negotio.</s>
+					<s n="1" xml:lang="la" type="auto">Epistola ad Rodolphum <persName ref="p253" cert="high">Asper</persName> de scripturae negotio.</s>
 					<s n="2" xml:lang="la" type="auto">Egregio viro Rodolpho Aspero, amico syncerissimo Volcatius.</s>
 				</p>
 				<p>

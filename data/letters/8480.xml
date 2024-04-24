@@ -22,14 +22,6 @@
 				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 123,165</idno>
 						<idno subtype="Hinweis">(nach Druck in HBBibl I 562) *</idno>
@@ -62,14 +54,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a58">
-							<name>London LPL</name>
-							<ref target="https://lambethpalacelibrary.org/"/>
-						</repository>
-						<settlement ref="l296">London</settlement>
-						<institution>Lambeth Palace Library</institution>
-						-->
 						<repository ref="a58"/>
 						<idno subtype="Kopie">Ms 2010, fo 49r (Nr. 32)</idno>
 						<idno subtype="Mikrofilm">48 IRG</idno>
@@ -80,50 +64,20 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8480">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1571-02" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="p1341" cert="low">
-						<!--
-						<surname cert="low">Grindal</surname>
-						<forename cert="low">Edmund</forename>
-						<graphic type="portrait" url="portraits/1341_Grindal_Edmund.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Edmund_Grindal"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/139364749"/>
-						-->
-						<roleName ref="g81" type="sg" role="Erzbischof" cert="low"/>
-					</persName>
+						<roleName ref="g81" cert="low"/>
+				</persName>
 					<persName ref="p672" cert="low">
-						<!--
-						<surname cert="low">Cox</surname>
-						<forename cert="low">Richard</forename>
-						<graphic type="portrait" url="portraits/672_Cox_Richard.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Richard_Cox_(Bischof)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118670409"/>
-						-->
-						<roleName ref="g10" type="sg" role="Bischof" cert="low"/>
-					</persName>
+						<roleName ref="g10" cert="low"/>
+				</persName>
 					<persName ref="p8391" cert="low">
-						<!--
-						<surname cert="low">Jewel (Juellus)</surname>
-						<forename cert="low">John</forename>
-						<graphic type="portrait" url="portraits/1750_Jewel_John.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/John_Jewel"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/12126100X"/>
-						-->
-						<roleName ref="g10" type="sg" role="Bischof" cert="low"/>
-					</persName>
+						<roleName ref="g10" cert="low"/>
+				</persName>
 					<placeName source="l574" cert="low"><orig>York</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -141,8 +95,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -165,7 +119,7 @@
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Tiguri mense februario anno salutis nostrae 1571.</s>
-					<s n="13" xml:lang="la" type="auto">Ad reverendissimos piissimosque et vigilantissimos inclyti regni Angliae episcopos d. <persName type="auto_name">Edmundum Gryndallum</persName>, archiepiscopum Eboracensem, d. <persName type="auto_name">Richardum Coxum</persName>, episcopum Eliensem, et d. <persName type="auto_name">Ioannem Iuellum</persName>, episcopum Sarisberiensem, dominos meos honorandos et fratres in Christo carissimos.</s>
+					<s n="13" xml:lang="la" type="auto">Ad reverendissimos piissimosque et vigilantissimos inclyti regni Angliae episcopos d. <persName type="auto_name">Edmundum Gryndallum</persName>, archiepiscopum Eboracensem, d. <persName ref="p672" cert="high">Richardum Coxum</persName>, episcopum Eliensem, et d. <persName type="auto_name">Ioannem Iuellum</persName>, episcopum Sarisberiensem, dominos meos honorandos et fratres in Christo carissimos.</s>
 				</p>
 			</div>
 		</body>

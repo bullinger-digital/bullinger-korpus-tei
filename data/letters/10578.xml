@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 38,384</idno>
 					</msIdentifier>
@@ -105,14 +97,6 @@
 				</msDesc>
 				<msDesc type="Beilage" subtype="Beilage" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Beilage">Ms F 38,385r-v</idno>
 					</msIdentifier>
@@ -122,28 +106,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10578">
 				<correspAction type="sent">
-					<persName ref="p8440" cert="high">
-						<!--
-						<surname cert="high">Schuler (Scholasticus)</surname>
-						<forename cert="high">Gervasius</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Gervasius_Schuler"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/130955264"/>
-						-->
-					</persName>
+					<persName ref="p8440" cert="high"/>
 					<placeName source="l320" cert="low"><orig>Memmingen</orig></placeName>
 					<date when="1535-03-04" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10579"/>
@@ -169,8 +137,8 @@
 				<language ident="la" usage="661">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -179,6 +147,14 @@
 		</surface>
 		<surface>
 			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/10578%2FAutograph%2F01%20Ms_F_38_384%20(2).tif/full/max/0/default.jpg" n="2"><desc subtype="path">10578/Autograph/01 Ms_F_38_384 (2).tif</desc></graphic>
+		</surface>
+	</facsimile>
+	<facsimile>
+		<surface>
+			<graphic xml:id="img1-1" url="https://iiif.bullinger-digital.ch/iiif/3/10578%2FBeilage%2F00%20Ms_F_38_385%20(1).tif/full/max/0/default.jpg" n="1"><desc subtype="path">10578/Beilage/00 Ms_F_38_385 (1).tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-1" url="https://iiif.bullinger-digital.ch/iiif/3/10578%2FBeilage%2F01%20Ms_F_38_385%20(2).tif/full/max/0/default.jpg" n="2"><desc subtype="path">10578/Beilage/01 Ms_F_38_385 (2).tif</desc></graphic>
 		</surface>
 	</facsimile>
 	<text xml:lang="la">
@@ -255,7 +231,7 @@
 					<s n="39" xml:lang="la" type="auto"><pb type="scan" next="||385r."/>o<note xml:id="fn43" type="footnote" n="43">Dieser Brief <persName ref="p467" cert="high">Bucers</persName> an <persName ref="p1055" cert="high">Frecht</persName> war auch <persName ref="p4079" cert="high">Johannes Zwick</persName> bekannt, als dieser kurz vor dem 11. Januar an Bullinger schrieb (s. oben <ref target="file10544">Nr. 508</ref>, 40-61); vgl. auch <hi>Köhler,</hi> ZL II 379.</note> Gratia et pax observande <persName ref="p1055" cert="high">Frechte</persName>.</s>
 				</p>
 				<p>
-					<s n="40" xml:lang="la" type="auto">Mitto tibi<note xml:id="fnp" type="footnote" n="p"><hi>G: vor</hi> tibi <hi>steht</hi> hic.</note> et fratribus symmistis Eßlingensibus, Bibracensibus, <placeName ref="l320" cert="high">Memmingensibus</placeName>, Campidonensibus<note xml:id="fnq" type="footnote" n="q"><hi>G: vor</hi> Campidonensibus <hi>steht</hi> <placeName ref="l457" cert="high">Constantiensibus</placeName>, Lindaviensibus.</note> et Isnensibus rationem<note xml:id="fn44" type="footnote" n="44">Die Vergleichsformel unten Z. 120-133.</note>, qua in praesens averti possit conatus hostium causam querentium<note xml:id="fnr" type="footnote" n="r"><hi>Vorlage:</hi> querentes. <hi>G:</hi> quaerentium.</note> ex nostro dissidio.</s>
+					<s n="40" xml:lang="la" type="auto">Mitto tibi<note xml:id="fnp" type="footnote" n="p"><hi>G: vor</hi> tibi <hi>steht</hi> hic.</note> et fratribus symmistis Eßlingensibus, Bibracensibus, <placeName ref="l320" cert="high">Memmingensibus</placeName>, Campidonensibus<note xml:id="fnq" type="footnote" n="q"><hi>G: vor</hi> Campidonensibus <hi>steht</hi> <placeName ref="l457" cert="high">Constantiensibus</placeName>, Lindaviensibus.</note> et <placeName ref="l234" cert="high">Isnensibus</placeName> rationem<note xml:id="fn44" type="footnote" n="44">Die Vergleichsformel unten Z. 120-133.</note>, qua in praesens averti possit conatus hostium causam querentium<note xml:id="fnr" type="footnote" n="r"><hi>Vorlage:</hi> querentes. <hi>G:</hi> quaerentium.</note> ex nostro dissidio.</s>
 					<s n="41" xml:lang="la" type="auto">Visum est illustrissimo landgravio<note xml:id="fns" type="footnote" n="s"><hi>G: vor</hi> landgravio <hi>steht</hi> principi.</note>, <persName ref="p2095" cert="high">Philippo</persName> et michi, ut <placeName ref="l1976" cert="high">Augustani</placeName> soli exprimantur, quia nos pridem a Saxo<note xml:id="fnt" type="footnote" n="t"><hi>G:</hi> Saxonibus <hi>anstelle von</hi> Saxo.</note> agniti sumus concordes, dum ille<note xml:id="fnu" type="footnote" n="u"><hi>G:</hi> illi <hi>anstelle von</hi> ille.</note> nostram primum <placeName ref="l1976" cert="high">Auguste</placeName> et nos illorum postea Schwinfurdi confessionem recepimus<note xml:id="fn45" type="footnote" n="45">Zur Confessio Tetrapolitana, die 1530 in <placeName ref="l1976" cert="high">Augsburg</placeName> vorgelegt wurde, und zur Zustimmung der Oberländer zum <placeName ref="l1976" cert="high">Augsburger</placeName> Bekenntnis im Jahre 1532 in <placeName ref="l1031" cert="high">Schweinfurt</placeName> vgl. <bibl>BucerDS</bibl> VIII 76, 6-11, <hi>Köhler,</hi> ZL II 284-291, und <bibl>HBBW IV</bibl> <ref target="file10459">[Nr. 424]</ref>, S. 277, Anm. 17. 20.</note>.</s>
 					<s n="42" xml:lang="la" type="auto">Non fuit igitur vel significatio aliqua concedenda, quasi aliquid adhuc<note xml:id="fnv" type="footnote" n="v">adhuc <hi>fehlt in G.</hi></note> inter nos non<note xml:id="fnw" type="footnote" n="w">non <hi>fehlt in der Vorlage, ist in G enthalten.</hi></note><pb type="edition" next="135"/> conveniret, sicut revera per omnia convenit, nisi quod de modis loquendi quibusdam aliqui adhuc herent.</s>
 					<s n="43" xml:lang="la" type="auto"><placeName ref="l1976" cert="high">Augustani</placeName> autem peculiariter<note xml:id="fnx" type="footnote" n="x"><hi>in der Vorlage</hi> peculialiter.</note> diffamati apud illustrissimum principem electorem fuere<note xml:id="fn46" type="footnote" n="46">Die <placeName ref="l1976" cert="high">Augsburger</placeName> standen bei <persName ref="p19065" cert="high">Johann Friedrich</persName> nach wie vor im Verdacht, der zwinglischen Abendmahlslehre anzuhangen (vgl. <bibl>BucerDS</bibl> VI/1 76, 4-6 und <hi>Roth</hi> II 282-285).</note>; de his igitur nominatim rationem concordie posuimus, quam <persName ref="p2095" cert="high">Philippus</persName> dicet omnibus<note xml:id="fny" type="footnote" n="y"><hi>G: vor</hi> omnibus <hi>steht</hi> si de eo quaeratur.</note> nobis probari.</s>

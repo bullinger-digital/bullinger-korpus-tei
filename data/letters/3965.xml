@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2327</idno>
 					</msIdentifier>
@@ -60,14 +52,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 95,15</idno>
 					</msIdentifier>
@@ -77,29 +61,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3965">
 				<correspAction type="sent">
-					<persName ref="p2473" cert="high">
-						<!--
-						<surname cert="high">Parkhurst</surname>
-						<forename cert="high">John</forename>
-						<graphic type="portrait" url="portraits/2473_Parkhurst_John.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/John_Parkhurst"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119781492"/>
-						-->
-					</persName>
+					<persName ref="p2473" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1559-05-21" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -119,8 +86,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -135,7 +102,7 @@
 		<body>
 			<div>
 				<p>
-					<s n="1" xml:lang="la" type="auto">Humanissimas tuas literas <persName type="auto_name">Iuellus</persName> et ego initio aprilis accepimus; ex quibus perspexi, te ad tempus constitutum filium tuum <persName type="auto_name">Rodolphum</persName>, ob ingenii cultum capescendum, ad academiam <placeName type="auto_name">Oxoniensem</placeName> missurum.</s>
+					<s n="1" xml:lang="la" type="auto">Humanissimas tuas literas <persName type="auto_name">Iuellus</persName> et ego initio aprilis accepimus; ex quibus perspexi, te ad tempus constitutum filium tuum <persName type="auto_name">Rodolphum</persName>, ob ingenii cultum capescendum, ad academiam <placeName ref="l376" cert="high">Oxoniensem</placeName> missurum.</s>
 					<s n="2" xml:lang="la" type="auto">Cuius (ut nunc sunt res) ego author tibi esse nolim.</s>
 				</p>
 				<p>

@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,358</idno>
 						<altIdentifier>
@@ -96,26 +88,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12814">
 				<correspAction type="sent">
-					<persName ref="p1863" cert="high">
-						<!--
-						<surname cert="high">Knight</surname>
-						<forename cert="high">Thomas</forename>
-						-->
-					</persName>
+					<persName ref="p1863" cert="high"/>
 					<placeName source="l522" cert="high"><orig>Venedig</orig></placeName>
 					<date when="1547-01-23" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12815"/>
@@ -130,8 +108,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -147,7 +125,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. in Christo.</s>
-					<s n="2" xml:lang="la" type="auto">Eo quod compertum habeo, reverende et pie pater, te non vulgarem sed singularem amicum esse domino <persName ref="p1548" cert="high">Richardo Hillys</persName> Anglo, dignum duxi, ut si <persName ref="p505" cert="high">Iohannes Burcherus</persName> Anglus, vestrae civitatis incola, ab itinere Anglico nondum reversus fuerit, sarcinulam istam tibi committere, quo tutius et citius ad manus praefati Richardi pervenire poterit.</s>
+					<s n="2" xml:lang="la" type="auto">Eo quod compertum habeo, reverende et pie pater, te non vulgarem sed singularem amicum esse domino <persName ref="p1548" cert="high">Richardo Hillys</persName> Anglo, dignum duxi, ut si <persName ref="p505" cert="high">Iohannes Burcherus</persName> Anglus, vestrae civitatis incola, ab itinere Anglico nondum reversus fuerit, sarcinulam istam tibi committere, quo tutius et citius ad manus praefati <persName ref="p1548" cert="high">Richardi</persName> pervenire poterit.</s>
 					<s n="3" xml:lang="la" type="auto">Pro conductura si quid exposueris, <persName ref="p505" cert="high">Ioannes Burcherus</persName>, ubi redierit, tibi restituet.</s>
 				</p>
 			</div>

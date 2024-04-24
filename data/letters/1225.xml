@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,119</idno>
 					</msIdentifier>
@@ -50,14 +42,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 74,148</idno>
 						<idno subtype="Hinweis">eingeordnet: Anfang April 1551</idno>
@@ -65,14 +49,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Teilkopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a88">
-							<name>Winterthur StB</name>
-							<ref target="https://stadt.winterthur.ch/bibliotheken-winterthur"/>
-						</repository>
-						<settlement ref="l555">Winterthur</settlement>
-						<institution>Stadtbibliothek</institution>
-						-->
 						<repository ref="a88"/>
 						<idno subtype="Teilkopie">Ms 4r 197,92</idno>
 						<idno subtype="Hinweis">«25.» März 1558</idno>
@@ -89,28 +65,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1225">
 				<correspAction type="sent">
-					<persName ref="p380" cert="high">
-						<!--
-						<surname cert="high">Birckmann</surname>
-						<forename cert="high">Johann</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Birckmann"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11962219X"/>
-						-->
-					</persName>
+					<persName ref="p380" cert="high"/>
 					<placeName source="l157" cert="high"><orig>Frankfurt am Main</orig></placeName>
 					<date when="1551-03-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -134,8 +94,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -169,7 +129,7 @@
 					<s n="11" xml:lang="la" type="auto">Literas bona fide <placeName type="auto_name">Aembdam</placeName> curabo deo volente.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Negotium d. <persName type="auto_name">Hoperi</persName> credo te accepisse.</s>
+					<s n="12" xml:lang="la" type="auto">Negotium d. <persName ref="p1560" cert="high">Hoperi</persName> credo te accepisse.</s>
 					<s n="13" xml:lang="la" type="auto">D. <persName type="auto_name">Bucerus</persName> quoque ex hoc seculo ante mensem migravit.</s>
 				</p>
 				<p>

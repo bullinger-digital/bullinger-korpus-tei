@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph__(Entwurf)">Ms K 40,60r</idno>
 					</msIdentifier>
@@ -65,20 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10893">
 				<correspAction type="sent">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="low"/>
+					<orgName ref="og49pl587" cert="low"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1536-06-30" cert="high">30. Juni [1536]</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8098" cert="low">
-						<!--
-						<surname cert="low">von Württemberg-Mömpelgard (Montbéliard)</surname>
-						<forename cert="low">Georg</forename>
-						<graphic type="portrait" url="portraits/3815_von_Wuerttemberg_Georg.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Georg_I._(W%C3%BCrttemberg-M%C3%B6mpelgard)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136697925"/>
-						-->
-					</persName>
+					<persName ref="p8098" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10896"/>
@@ -99,8 +83,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

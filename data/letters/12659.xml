@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 370,533 f. + E II 370,34</idno>
 						<altIdentifier>
@@ -113,7 +105,7 @@
 								<p xml:id="regest9">
 								[9] Im Lager der [Schmalkaldener] steht es gut. Die dort befindlichen 203 Fähnlein Fußknechte sind in sechs
 								Regimenter unter folgender Führung aufgeteilt: 1. Kurfürst <persName ref="p19065" cert="high">[Johann Friedrich von Sachsen]</persName>; 2. Landgraf <persName ref="p18574" cert="high">[Philipp von Hessen]</persName>; 3. <persName ref="p2916" cert="high">[Sebastian] Schertlin</persName>; 4. Freiherr <persName ref="p8034" cert="high">[Johann] von Heideck</persName>; 5. Graf [Christoph] von
-								Oldenburg; 6. Graf <persName ref="p7492" cert="high">Wilhelm von Fürstenberg</persName>. Man hält strenge Disziplin, hängt und köpft; doch hat man mit
+								<persName ref="p17854" cert="high">Oldenburg</persName>; 6. Graf <persName ref="p7492" cert="high">Wilhelm von Fürstenberg</persName>. Man hält strenge Disziplin, hängt und köpft; doch hat man mit
 								vielem „Unkraut“ zu tun.
 								</p>
 								<p xml:id="regest10">
@@ -126,15 +118,15 @@
 								</p>
 								<p xml:id="regest11">
 								[11] Das Städtchen <placeName ref="l2180" cert="high">Rain</placeName> [am Lech] hat man unter Vorbehalt wieder
-								dem Fürsten [Herzog <placeName ref="l619" cert="high">Wilhelm] von Bayern</placeName> übergeben, der nach wie
+								dem Fürsten [Herzog <persName ref="p18604" cert="high">Wilhelm] von Bayern</persName> übergeben, der nach wie
 								vor neutral ist. Der Herzog hat dort eine Besatzung von 1000 Mann aufgestellt. Trifft er Spanier oder
 								Kriegsvolk auf Raubzügen an, geht er auf kaiserlichen Befehl hart gegen diese vor.
 								</p>
 								<p xml:id="regest12">
 								[12] Am 28. September ist <persName ref="p2916" cert="high">[Sebastian] Schertlin</persName> etwas Unerhörtes zugestoßen. Als er um ein Uhr nachts
 								aufstand (um auf Wache zu gehen) und seine Rüstung anlegte, während seine Knechte die Pferde holten, kam
-								einer, gekleidet wie einer seiner Knechte, und stach mit der Hellebardenklinge auf ihn ein. Schertlin konnte
-								zwar ausweichen, wurde aber am Hals geritzt. Der Angreifer versuchte es erneut. Schertlin schrie aber so
+								einer, gekleidet wie einer seiner Knechte, und stach mit der Hellebardenklinge auf ihn ein. <persName ref="p2916" cert="high">Schertlin</persName> konnte
+								zwar ausweichen, wurde aber am Hals geritzt. Der Angreifer versuchte es erneut. <persName ref="p2916" cert="high">Schertlin</persName> schrie aber so
 								laut, dass er ihn in die Flucht schlug. Dabei stolperte der Angreifer über ein Zeltseil und wurde gefangen.
 								Nach einigen Tagen wurde er unter Folter befragt, geköpft und gevierteilt. Er heißt
 								<persName ref="p18277" cert="high">Pantaleon Leibrock [richtig: Ebner]</persName> und kommt aus <placeName ref="l291" cert="high">Lindau</placeName>. Seinem Geständnis zufolge
@@ -268,30 +260,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12659">
 				<correspAction type="sent">
-					<persName ref="p8018" cert="high">
-						<!--
-						<surname cert="high">Haller d.J.</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/1430_Haller_dJ_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Haller_der_J%C3%BCngere"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136925588"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
-						-->
-					</persName>
+					<persName ref="p8018" cert="high"/>
 					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 					<date when="1546-10-06" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12660"/>
@@ -317,8 +291,8 @@
 				<language ident="la" usage="508">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

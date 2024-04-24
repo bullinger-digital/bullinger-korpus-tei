@@ -24,14 +24,6 @@
 				<bibl n="23" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 20 (Briefe von April bis Dezember 1547), bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a78">
-							<name>St. Gallen KB</name>
-							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
-						</repository>
-						<settlement ref="l474">St. Gallen</settlement>
-						<institution>Kantonsbibliothek Vadiana</institution>
-						-->
 						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 35,240</idno>
 						<idno subtype="Quelle">https://swisscollections.ch/Record/991170525156905501/Holdings?openHierarchy=true#tabnav</idno>
@@ -45,7 +37,7 @@
 								<p xml:id="regest2">
 								[2] Bei der Angelegenheit um <persName ref="p8498" cert="high">Marcell Dietrich von Schankwitz</persName> fürchtet Bullinger, die <persName ref="p18476" cert="high">Familie Richmut</persName>
 								geärgert zu haben. Denn diese hegt nun vermutlich den Verdacht, Bullinger sei dafür verantwortlich, dass ihr
-								[Schloss] Dübelstein nicht gekauft wurde. Die Familie hörte nämlich von anderen, dass er vom Handel wusste.
+								[Schloss] <placeName ref="l1884" cert="high">Dübelstein</placeName> nicht gekauft wurde. Die Familie hörte nämlich von anderen, dass er vom Handel wusste.
 								Sie wollten sogar von ihm erfahren, warum es denn nicht zum Kauf komme. Er antwortete, dass er darüber
 								nichts weiß; dass Blarer wohl etwas [wegen des Schlosses] nachgefragt hatte; dass er darauf antwortete, sich
 								aber des Handels nicht annimmt, da er <persName ref="p8498" cert="high">Schankwitz</persName> nicht kennt und dieser ihm nicht geschrieben hat.
@@ -129,30 +121,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12930">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1547-04-15" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8055" cert="high">
-						<!--
-						<surname cert="high">Blarer (Blaurer)</surname>
-						<forename cert="high">Ambrosius</forename>
-						<graphic type="portrait" url="portraits/392_Blarer_Ambrosius.png"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Ambrosius_Blarer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118663763"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
-						-->
-					</persName>
+					<persName ref="p8055" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12931"/>
@@ -178,8 +152,8 @@
 				<language ident="de" usage="959">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -257,7 +231,7 @@
 			</div>
 			<div xml:id="div10" corresp="regest10">
 				<p>
-					<s n="36" xml:lang="de" type="auto"><foreign xml:lang="la">Ultima martii</foreign> ist der könig in <placeName ref="l28" cert="high">Franckrych</placeName>, <persName ref="p7637" cert="high">Franciscus</persName> der allt, gestorben.</s>
+					<s n="36" xml:lang="de" type="auto"><foreign xml:lang="la">Ultima martii</foreign> ist der könig in <placeName ref="l11" cert="high">Franckrych</placeName>, <persName ref="p7637" cert="high">Franciscus</persName> der allt, gestorben.</s>
 					<s n="37" xml:lang="de" type="auto">Dorumb achtend wir, da werde ietzund<pb type="scan" next="v."/> kein uffbruch<note xml:id="fn45" type="footnote" n="45">Feldzug.</note>; der keyser werde <pb type="edition" next="135"/> sich zuͦ dem jungen könig<note xml:id="fn46" type="footnote" n="46"><persName ref="p18500" cert="high">Heinrich II.</persName></note> thuͦn.</s>
 					<s n="38" xml:lang="de" type="auto">Doch mag ich nitt wüssen, wie es gan wirt.</s>
 					<s n="39" xml:lang="de" type="auto">Da ist nüt guͦts gestorben!<note xml:id="fn47" type="footnote" n="47">Bullinger verglich nämlich <persName ref="p7637" cert="high">Franz I.</persName> mit dem Pharao, der sich <persName ref="p18561" cert="high">Moses</persName> und dem Auszug der Juden aus <placeName ref="l34" cert="high">Ägypten</placeName> äußerst widersetzt hatte, oder auch mit <persName ref="p18980" cert="high">Jerobeam</persName>, dem gottlosen König Israels; s. <bibl>HBBW</bibl> XV 572; XVIII 336.</note></s>

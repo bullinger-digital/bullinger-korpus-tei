@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2273 f.</idno>
 					</msIdentifier>
@@ -59,14 +51,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 80,58</idno>
 					</msIdentifier>
@@ -76,29 +60,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1992">
 				<correspAction type="sent">
-					<persName ref="p1560" cert="low">
-						<!--
-						<surname cert="low">Hooper</surname>
-						<forename cert="low">John</forename>
-						<graphic type="portrait" url="portraits/1560_Hooper_John.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/John_Hooper"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119121492"/>
-						-->
-					</persName>
+					<persName ref="p1560" cert="low"/>
 					<placeName source="l296" cert="low"><orig>London</orig></placeName>
 					<date when="1553-09-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -123,8 +90,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -152,27 +119,27 @@
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Rex noster propter nostra peccata fatis concessit, non sine magno ecclesię nostrę periculo.</s>
-					<s n="6" xml:lang="la" type="auto">Successit ei soror eius, Maria nomine, cui deus semper adsit suo sancto spiritu, ut regnet et regat omnia ad gloriam nominis sui.</s>
+					<s n="6" xml:lang="la" type="auto">Successit ei soror eius, <persName type="auto_name">Maria</persName> nomine, cui deus semper adsit suo sancto spiritu, ut regnet et regat omnia ad gloriam nominis sui.</s>
 					<s n="7" xml:lang="la" type="auto">Altaria passim in regno denuo eriguntur, privatę missę multis in locis crebro fiunt: iacet verus dei cultus, vera invocatio, rectus sacramentorum usus; divina conculcantur solo, humana p[rae]valent.</s>
 					<s n="8" xml:lang="la" type="auto">Deus propter suum filium unicum Iesum Christum adsit ecclesię sę.</s>
 					<s n="9" xml:lang="la" type="auto">Omnes pii concionatores in extremo versantur periculo; qui carceris squalorem adhuc non sensiunt, expectant in horas.</s>
 					<s n="10" xml:lang="la" type="auto">Interea publica autoritate omnibus interdicitur ne concionentur.</s>
 					<s n="11" xml:lang="la" type="auto">In illorum loca constituuntur hostes evangelii, qui e suggestu humana et non divina populo proponunt.</s>
 					<s n="12" xml:lang="la" type="auto">Iam in solo deo confidimus; illum enixe oramus ut nos consoletur et corroboret ad quevis subeunda pro gloria nominis sui.</s>
-					<s n="13" xml:lang="la" type="auto">Raptim, ex carcere <persName type="auto_name">Londini</persName>, 3 septembris, 1553.</s>
+					<s n="13" xml:lang="la" type="auto">Raptim, ex carcere <placeName type="auto_name">Londini</placeName>, 3 septembris, 1553.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Saluta charissimam coniugem tuam, dominum <persName ref="p8171" cert="high">Bibliandrum</persName> cum sua, d. <persName ref="p8127" cert="high">Pellicanum</persName> cum sua, d. <persName ref="p8011" cert="high">Gvalterum</persName> cum sua, et omnes alios pios fratres, conter[r]anium nostrum d. <persName ref="p4466" cert="high">Butlerum</persName> cum sua.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">T[otus] t[uus,] <persName ref="p1560" cert="high">Ioannes Hoperus</persName>, Wigorn. et <persName type="auto_name">Glouc.</persName> episcopus.</s>
+					<s n="15" xml:lang="la" type="auto">T[otus] t[uus,] <persName ref="p1560" cert="high">Ioannes Hoperus</persName>, Wigorn. et <placeName type="auto_name">Glouc.</placeName> episcopus.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto">Praestantissimo viro d. Henrico Bullingero, Tiguri.</s>
 				</p>
 				<p>
 					<note type="remark">[Darunter von Bullingers Hand:]</note>
-					<s n="17" xml:lang="la" type="auto"><persName type="auto_name">Ultima Hopperi</persName> ex carcere Londinen[si].</s>
+					<s n="17" xml:lang="la" type="auto">Ultima <persName ref="p1560" cert="high">Hopperi</persName> ex carcere <placeName type="auto_name">Londinen[si]</placeName>.</s>
 				</p>
 			</div>
 		</body>

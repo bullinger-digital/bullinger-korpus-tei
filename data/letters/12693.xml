@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 351,184</idno>
 					</msIdentifier>
@@ -92,28 +84,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12693">
 				<correspAction type="sent">
-					<persName ref="p8440" cert="high">
-						<!--
-						<surname cert="high">Schuler (Scholasticus)</surname>
-						<forename cert="high">Gervasius</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Gervasius_Schuler"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/130955264"/>
-						-->
-					</persName>
+					<persName ref="p8440" cert="high"/>
 					<placeName source="l320" cert="low"><orig>Memmingen</orig></placeName>
 					<date when="1546-10-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12694"/>
@@ -139,8 +115,8 @@
 				<language ident="la" usage="968">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -171,7 +147,7 @@
 				<p>
 					<s n="7" xml:lang="la" type="auto">Dum hec scribo, exercitus <persName ref="18538" type="auto_name">Karoli</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="p18538" cert="high">Karl V.</persName></note> prope <placeName ref="l171" cert="high">Giengen</placeName><note xml:id="fn7" type="footnote" n="7"><placeName ref="l171" cert="high">Giengen</placeName> an der Brenz (Lkr. Heidenheim, Baden-Württemberg).</note> castramentatur.<note xml:id="fn8" type="footnote" n="8">castrametari: das Lager aufschlagen.</note></s>
 					<s n="8" xml:lang="la" type="auto">Protestantium exercitus ad quartam partem miliaris<note xml:id="fn9" type="footnote" n="9">Also etwa 2 km; vgl. <ref target="file12682">Nr. 2635</ref>,10f.</note> ab illo castra fixit.</s>
-					<s n="9" xml:lang="la" type="auto">Cottidie in particulares conflictus itur non sine periculo utriusque partis, maiori<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> maioris.</note> tamen Karoli, qui nuper amisit comitem a Myß<note xml:id="fn10" type="footnote" n="10"><persName ref="p7295" cert="high">Gian Giacomo de' Medici</persName> di' Marignano, Kastellan von Musso; s. <ref target="file12690">Nr. 2643</ref>, Anm. 9.</note>, alium a Madrutz<note xml:id="fn11" type="footnote" n="11"><persName ref="p5722" cert="high">Eriprando Madruzzo</persName>; s. <ref target="file12690">Nr. 2643</ref>, Anm. 7.</note>, tertium a Bernstain<note xml:id="fn12" type="footnote" n="12"><persName ref="p7401" cert="high">Vladislaus von Bernstein</persName>; s. <ref target="file12690">Nr. 2643</ref>, Anm. 10.</note>, quartum a Beyren<note xml:id="fn13" type="footnote" n="13">Unbekannt. In A 177, <ref target="file10142">Nr. 112</ref>, wird stattdessen ein Graf von "Premen" [Bremen] erwähnt.</note> - viros, ut audio, in re bellica Karolo gratissimos.<note xml:id="fn14" type="footnote" n="14">Ein falsches Gerücht; s. dazu die Anm. zu <ref target="file12690">Nr. 2643</ref>,16-20.</note></s>
+					<s n="9" xml:lang="la" type="auto">Cottidie in particulares conflictus itur non sine periculo utriusque partis, maiori<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> maioris.</note> tamen <persName ref="p18538" cert="high">Karoli</persName>, qui nuper amisit comitem a Myß<note xml:id="fn10" type="footnote" n="10"><persName ref="p7295" cert="high">Gian Giacomo de' Medici</persName> di' Marignano, Kastellan von Musso; s. <ref target="file12690">Nr. 2643</ref>, Anm. 9.</note>, alium a Madrutz<note xml:id="fn11" type="footnote" n="11"><persName ref="p5722" cert="high">Eriprando Madruzzo</persName>; s. <ref target="file12690">Nr. 2643</ref>, Anm. 7.</note>, tertium a Bernstain<note xml:id="fn12" type="footnote" n="12"><persName ref="p7401" cert="high">Vladislaus von Bernstein</persName>; s. <ref target="file12690">Nr. 2643</ref>, Anm. 10.</note>, quartum a Beyren<note xml:id="fn13" type="footnote" n="13">Unbekannt. In A 177, <ref target="file10142">Nr. 112</ref>, wird stattdessen ein Graf von "Premen" [Bremen] erwähnt.</note> - viros, ut audio, in re bellica Karolo gratissimos.<note xml:id="fn14" type="footnote" n="14">Ein falsches Gerücht; s. dazu die Anm. zu <ref target="file12690">Nr. 2643</ref>,16-20.</note></s>
 				</p>
 			</div>
 			<div xml:id="div4" corresp="regest4">

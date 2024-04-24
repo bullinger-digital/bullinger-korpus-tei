@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Original">E II 369,105</idno>
 						<idno subtype="Hinweis">mit aut. Unterschrift</idno>
@@ -38,7 +30,7 @@
 					<msContents>
 						<msItem>
 							<incipit>Quo tempore tabellarius huius nobiscum praesens fuit, duo propemodum in causa fuere</incipit>
-							<textLang>la</textLang>
+							<textLang>fr</textLang>
 						</msItem>
 					</msContents>
 					<additional>
@@ -60,14 +52,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 76,56</idno>
 					</msIdentifier>
@@ -77,26 +61,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1447">
 				<correspAction type="sent">
-					<persName ref="p8473" cert="high">
-						<!--
-						<surname cert="high">Hooper (geb./verw.? t'Serclaes)</surname>
-						<forename cert="high">Anne</forename>
-						-->
-					</persName>
+					<persName ref="p8473" cert="high"/>
 					<placeName source="l177" cert="high"><orig>Gloucester</orig></placeName>
 					<date when="1551-10-27" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -117,11 +87,12 @@
 				</correspContext>
 			</correspDesc>
 			<langUsage>
-				<language ident="la" usage="1000">Latein</language>
+				<language ident="fr" usage="44">Französisch</language>
+				<language ident="la" usage="956">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -156,19 +127,19 @@
 					<s n="12" xml:lang="la" type="auto">Quaeso, mi pater, meo nomine uxorem tuam, mei matrem, plurima impartias salute et salvere iubeas alios meos amicos una salute omnes.</s>
 				</p>
 				<p>
-					<s n="13" xml:lang="la" type="auto">Gloucestriae 27. octobris 1551.</s>
+					<s n="13" xml:lang="la" type="auto"><placeName ref="l177" cert="high">Gloucestriae</placeName> 27. octobris 1551.</s>
 					<s n="14" xml:lang="la" type="auto">Vale.</s>
 					<s n="15" xml:lang="la" type="auto"><persName type="auto_name">Rachel</persName> est optima valetudine (sint deo gratiae) et salutat te et tuam uxorem quaeritque tuam benedictionem et praecatur, ut in benedictione tua dignetur illi deus benedicere.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Vostre parfaiet amie a jamais hobligee <persName type="auto_name">Anne Hopere</persName><note type="margin">a.R.: -e =etc?</note>.</s>
+					<s n="16" xml:lang="fr" type="manual">Vostre parfaiet amie a jamais hobligee <persName ref="p8473" cert="high">Anne Hopere</persName><note type="margin">a.R.: -e =etc?</note>.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Praeclarissimo viro d. Henrico Bullingero, ecclesiae Tigurinae episcopo.</s>
 				</p>
 				<p>
 					<note type="remark">[Darunter von Bullingers Hand:]</note>
-					<s n="18" xml:lang="la" type="auto"><persName type="auto_name">Anna Hopera</persName></s>
+					<s n="18" xml:lang="la" type="auto"><persName ref="p8473" cert="high">Anna Hopera</persName></s>
 				</p>
 			</div>
 		</body>

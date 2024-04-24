@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 368,525</idno>
 					</msIdentifier>
@@ -59,28 +51,12 @@
 				</msDesc>
 				<msDesc type="Regest" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 70,43</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a39">
-							<name>Genf MHR</name>
-							<ref target="https://www.unige.ch/ihr/fr/aide-a-la-recherche/bibliotheque/"/>
-						</repository>
-						<settlement ref="l167">Genf</settlement>
-						<institution>Musée historique de la Réformation</institution>
-						-->
 						<repository ref="a39"/>
 						<idno subtype="Kopie">Herminjard-Dossier 1546-1549, 439</idno>
 					</msIdentifier>
@@ -90,29 +66,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/525">
 				<correspAction type="sent">
-					<persName ref="p8299" cert="high">
-						<!--
-						<surname cert="high">de Bourgogne, Sr. de Falais et de Brédam</surname>
-						<forename cert="high">Jacques</forename>
-						<graphic type="portrait" url="portraits/8299_de_Bourgogne_Jacques.png"/>
-						<ref type="wikipedia" target="https://en.wikipedia.org/wiki/Jacques_de_Bourgogne"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/139269983"/>
-						-->
-					</persName>
+					<persName ref="p8299" cert="high"/>
 					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 					<date when="1549-05-20" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -133,8 +92,8 @@
 				<language ident="la" usage="990">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -167,7 +126,7 @@
 					<s n="10" xml:lang="la" type="auto">Tuus <persName type="auto_name">Iacobus</persName> a <placeName type="auto_name">Burgundia</placeName>.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Si quid novi habes a D. <persName type="auto_name">Hoppero</persName> et eius uxore, indica quaeso.</s>
+					<s n="11" xml:lang="la" type="auto">Si quid novi habes a D. <persName ref="p1560" cert="high">Hoppero</persName> et eius uxore, indica quaeso.</s>
 					<s n="12" xml:lang="la" type="auto">Brevi volente deo ad eos scripturus sum.</s>
 				</p>
 				<p>

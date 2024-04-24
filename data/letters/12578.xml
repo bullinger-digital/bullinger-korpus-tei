@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 441,123–128b</idno>
 					</msIdentifier>
@@ -67,7 +59,7 @@
 								<p xml:id="regest5">
 								- Als sich <persName ref="p8455" cert="high">Vogler</persName>, <persName ref="p3927" cert="high">Welser</persName> und <persName ref="p1410" cert="high">Herbrot</persName> [später] zu den Lagern der beiden Fürsten begaben, sind sie an den
 								zwei Lagern vorbeigeritten, welche unweit von Donau und
-								Lech, und zwar bereits im Gebiet des <persName ref="p18604" cert="high">Herzogs [Wilhelm IV.] von Bayern</persName>, bei <placeName ref="l2180" cert="high">Rain</placeName>
+								<placeName ref="l28" cert="high">Lech</placeName>, und zwar bereits im Gebiet des <persName ref="p18604" cert="high">Herzogs [Wilhelm IV.] von Bayern</persName>, bei <placeName ref="l2180" cert="high">Rain</placeName>
 								aufgeschlagen waren. Diese Lager waren über alle Maßen beeindruckend!
 								</p>
 								<p xml:id="regest6">
@@ -117,7 +109,7 @@
 								- Beschreibung des Einzugs der Truppen des Kurfürsten von
 								<placeName ref="l749" cert="high">Sachsen</placeName> am 6. August. [Zuvor erinnert <persName ref="p8455" cert="high">Vogler</persName> daran, dass] während
 								der zwei Tage insgesamt 84 Fähnlein durch <placeName ref="l119" cert="high">Donauwörth</placeName> gezogen
-								waren, ehe sie sich in <placeName ref="l2180" cert="high">Rain</placeName> [am Lech] niederließen; dass zuvor
+								waren, ehe sie sich in <placeName ref="l2180" cert="high">Rain</placeName> [am <placeName ref="l28" cert="high">Lech</placeName>] niederließen; dass zuvor
 								sechs weitere Fähnlein durch <placeName ref="l119" cert="high">Donauwörth</placeName> durchgezogen waren; dass
 								unterdessen die 18 Fähnlein (darunter das Schweizer Fähnlein)
 								sich den Fähnlein [der Fürsten] angeschlossen haben. Der Umzug des Kurfürsten währte von 5 bis 15 Uhr. [Es
@@ -145,44 +137,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12578">
 				<correspAction type="sent">
-					<persName ref="p8455" cert="low">
-						<!--
-						<surname cert="low">Vogler</surname>
-						<forename cert="low">Hans (I.)</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/141907908"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11094904"/>
-						-->
-					</persName>
+					<persName ref="p8455" cert="low"/>
 					<placeName source="l18" cert="low"><orig>Augsburg</orig></placeName>
 					<date notBefore="1546-08-10" notAfter="1546-08-12" cert="low">[den 10., 11. oder 12. August 1546]</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
-					<persName ref="p2815" cert="high">
-						<!--
-						<surname cert="high">Rordorf</surname>
-						<forename cert="high">Jakob</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089525591"/>
-						-->
-					</persName>
-					<persName ref="p459" cert="low">
-						<!--
-						<surname cert="low">Brennwald</surname>
-						<forename cert="low">Heinrich</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Brennwald"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118659987"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11468447"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
+					<persName ref="p2815" cert="high"/>
+					<persName ref="p459" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12579"/>
@@ -201,8 +163,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -246,10 +208,10 @@
 					<s n="2" xml:lang="de" type="auto">Item erstlichen sind diß die fursten (dero 11 sin sollend ingeritten mitt irem zug und aller kriegsrustung)<note xml:id="fnc" type="footnote" n="c"><hi>Klammern ergänzt.</hi></note> aignen person <ptr target="fnd" type="footnote" n="d"/>(luth b[urger]m[aister] <persName ref="p1410" cert="high">Hernbroten</persName> hantschrift)<note xml:id="fnd" type="footnote" n="d"><hi>Diese Angabe wurde von <persName ref="p8455" cert="high">Vogler</persName> in der Mitte einer die sieben folgenden Zeilen umfassenden Klammer angebracht, ehe sie von ihm wieder durchgestrichen wurde. - Klammern ergänzt.</hi></note>:</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="auto">Der churfurst von Sachssen.</s>
+					<s n="3" xml:lang="de" type="auto">Der churfurst von <persName ref="p19065" cert="high">Sachssen</persName>.</s>
 					<s n="4" xml:lang="de" type="auto">Der lantgraff von <placeName ref="l664" cert="high">Hessen</placeName>.</s>
 					<s n="5" xml:lang="de" type="auto">Deß churfursten der eltest son<note xml:id="fn9" type="footnote" n="9"><persName ref="p19065" cert="high">Johann Friedrich II. der Mittlere</persName> von <placeName ref="l749" cert="high">Sachsen</placeName>.</note>.</s>
-					<s n="6" xml:lang="de" type="auto">Deß churfursten zu Sachssen bruͦder<note xml:id="fn10" type="footnote" n="10"><persName ref="p18872" cert="high">Johann Ernst von Sachsen-Coburg</persName>.</note>.</s>
+					<s n="6" xml:lang="de" type="auto">Deß churfursten zu <persName ref="p19065" cert="high">Sachssen</persName> bruͦder<note xml:id="fn10" type="footnote" n="10"><persName ref="p18872" cert="high">Johann Ernst von Sachsen-Coburg</persName>.</note>.</s>
 					<s n="7" xml:lang="de" type="auto">Dryg fursten von Bruͦnschwig<note xml:id="fn11" type="footnote" n="11">Siehe dazu <ref target="file12571">Nr. 2524</ref>, Anm. 27.</note>.</s>
 					<s n="8" xml:lang="de" type="auto"><persName ref="p7637" cert="high">Hertzog Frantz von Lynenburg</persName><note xml:id="fn12" type="footnote" n="12">Herzog <persName ref="p7637" cert="high">Franz von Braunschweig-Lüneburg-Gifhorn</persName>.</note>.</s>
 					<s n="9" xml:lang="de" type="auto">Der furst von <persName ref="p18404" cert="high">Anhalt</persName><note xml:id="fn13" type="footnote" n="13"><persName ref="p18404" cert="high">Wolfgang von Anhalt</persName>; s. <ref target="file12571">Nr. 2524</ref>, Anm. 31.</note>.</s>
@@ -273,16 +235,16 @@
 					<s n="15" xml:lang="de" type="auto">Morgenß<note xml:id="fn16" type="footnote" n="16">Am folgenden Tag, Donnerstag, 5. August.</note> bin ich mit baiden hern burgermaistern hinuß geritten gegen ainem berg, daruff der lantgraff ligen, aber das leger noch nit gschlagen.</s>
 					<s n="16" xml:lang="de" type="auto">Wolten die baid b[urgermaister] zu ime.</s>
 					<s n="17" xml:lang="de" type="auto">Also<note xml:id="fn17" type="footnote" n="17">Daraufhin.</note> wurden sy gewent<note xml:id="fn18" type="footnote" n="18">[davon] abgehalten.</note> mit disem bschaid: Der lantgraff wurd<note xml:id="fng" type="footnote" n="g"><hi>In der Vorlage</hi> wurden.</note> morg<note xml:id="fn19" type="footnote" n="19">Freitag, 6. August.</note> mit andern f[ursten] in stat komen - als<note xml:id="fn20" type="footnote" n="20">wie es.</note> och beschach.</s>
-					<s n="18" xml:lang="de" type="auto">Morgens<note xml:id="fn21" type="footnote" n="21">Also am Freitag.</note> giengen die baid b[urgermaister] in ain huß, darin Sachsen<note xml:id="fn22" type="footnote" n="22">Gerade eingetroffen; s. unten Z. 106.</note>, <persName ref="p18574" cert="high">Hessen</persName> und die kriegßrät in ainer stuben sassen by 2 stunden, da<note xml:id="fn23" type="footnote" n="23">währenddem.</note> ain post<note xml:id="fn24" type="footnote" n="24">Bote.</note>, ain brieff, uber den andern komen.</s>
-					<s n="19" xml:lang="de" type="auto">Da sassen Sachsen und <persName ref="p18574" cert="high">Hessen</persName> by ainandern.</s>
+					<s n="18" xml:lang="de" type="auto">Morgens<note xml:id="fn21" type="footnote" n="21">Also am Freitag.</note> giengen die baid b[urgermaister] in ain huß, darin <placeName ref="l749" cert="high">Sachsen</placeName><note xml:id="fn22" type="footnote" n="22">Gerade eingetroffen; s. unten Z. 106.</note>, <persName ref="p18574" cert="high">Hessen</persName> und die kriegßrät in ainer stuben sassen by 2 stunden, da<note xml:id="fn23" type="footnote" n="23">währenddem.</note> ain post<note xml:id="fn24" type="footnote" n="24">Bote.</note>, ain brieff, uber den andern komen.</s>
+					<s n="19" xml:lang="de" type="auto">Da sassen <placeName ref="l749" cert="high">Sachsen</placeName> und <persName ref="p18574" cert="high">Hessen</persName> by ainandern.</s>
 					<s n="20" xml:lang="de" type="auto">Was brieffen komen, verlaß schnell der lantgraff selb, etc.</s>
 				</p>
 			</div>
 			<div xml:id="div6" corresp="regest6">
 				<p>
-					<s n="21" xml:lang="de" type="auto"><pb type="scan" next="128"/>Item in das leger (dero 2 sind: Sachsen und <persName ref="p18574" cert="high">Hessen</persName>)<note xml:id="fnh" type="footnote" n="h"><hi>Diese und die zwei nächsten Klammern ergänzt.</hi></note> bin ich mitt baiden hern b[urgermaister] geriten, da<note xml:id="fn25" type="footnote" n="25">als.</note> wir zuͦ des churfursten und <persName ref="p18574" cert="high">Hessen</persName> zelgen<note xml:id="fn26" type="footnote" n="26">Lagern.</note> ritend.</s>
-					<s n="22" xml:lang="de" type="auto">Aber dise leger dermassen gstaltet, gerust und schön sindt, das ich nit sagen kan, desglich ir grosse, alle gegen der statt Rain<note xml:id="fn27" type="footnote" n="27"><placeName ref="l2180" cert="high">Rain am Lech</placeName>, 12 km östlich von <placeName ref="l119" cert="high">Donauwörth</placeName>. - Aus der Angabe, dass die besuchten Lager sich in der Nähe von Rain befanden, kann geschlussfolgert werden, dass vorliegendes Schreiben kurz nach dem 9. oder 11. August verfasst wurde; s. <ref target="file12580">Nr. 2533</ref>,17-19 und Anm. 15.</note>, welche dess fursten von <persName ref="18604" type="auto_name">Payern</persName><note xml:id="fn28" type="footnote" n="28"><persName ref="p18604" cert="high">Wilhelm IV. von Bayern</persName>.</note> ist, und ain pass an der Tanow<note xml:id="fn29" type="footnote" n="29">Donau.</note> und <placeName ref="l28" cert="high">Lech</placeName>.</s>
-					<s n="23" xml:lang="de" type="auto">Item alle leger, one beder fursten, sind uff Payerlandt zogen; dann 18 fenly lantzknecht (darunder 1 fenrich<note xml:id="fn30" type="footnote" n="30">Unbekannt; vgl. unten Z. 102-105.</note> uß Schwitz miten under den lantzknechtfenrich, sin fenly nach der Schwitzer ard<note xml:id="fn31" type="footnote" n="31">Art.</note> tragen<note xml:id="fn32" type="footnote" n="32">getragen hat.</note>, by 600 knecht darunder) sind diß tags och durch statt Tannawertt uff Payern zogen.</s>
+					<s n="21" xml:lang="de" type="auto"><pb type="scan" next="128"/>Item in das leger (dero 2 sind: <placeName ref="l749" cert="high">Sachsen</placeName> und <persName ref="p18574" cert="high">Hessen</persName>)<note xml:id="fnh" type="footnote" n="h"><hi>Diese und die zwei nächsten Klammern ergänzt.</hi></note> bin ich mitt baiden hern b[urgermaister] geriten, da<note xml:id="fn25" type="footnote" n="25">als.</note> wir zuͦ des churfursten und <persName ref="p18574" cert="high">Hessen</persName> zelgen<note xml:id="fn26" type="footnote" n="26">Lagern.</note> ritend.</s>
+					<s n="22" xml:lang="de" type="auto">Aber dise leger dermassen gstaltet, gerust und schön sindt, das ich nit sagen kan, desglich ir grosse, alle gegen der statt <placeName ref="l2180" cert="high">Rain</placeName><note xml:id="fn27" type="footnote" n="27"><placeName ref="l2180" cert="high">Rain am Lech</placeName>, 12 km östlich von <placeName ref="l119" cert="high">Donauwörth</placeName>. - Aus der Angabe, dass die besuchten Lager sich in der Nähe von Rain befanden, kann geschlussfolgert werden, dass vorliegendes Schreiben kurz nach dem 9. oder 11. August verfasst wurde; s. <ref target="file12580">Nr. 2533</ref>,17-19 und Anm. 15.</note>, welche dess fursten von <persName ref="18604" type="auto_name">Payern</persName><note xml:id="fn28" type="footnote" n="28"><persName ref="p18604" cert="high">Wilhelm IV. von Bayern</persName>.</note> ist, und ain pass an der Tanow<note xml:id="fn29" type="footnote" n="29">Donau.</note> und <placeName ref="l28" cert="high">Lech</placeName>.</s>
+					<s n="23" xml:lang="de" type="auto">Item alle leger, one beder fursten, sind uff Payerlandt zogen; dann 18 fenly lantzknecht (darunder 1 fenrich<note xml:id="fn30" type="footnote" n="30">Unbekannt; vgl. unten Z. 102-105.</note> uß Schwitz miten under den lantzknechtfenrich, sin fenly nach der Schwitzer ard<note xml:id="fn31" type="footnote" n="31">Art.</note> tragen<note xml:id="fn32" type="footnote" n="32">getragen hat.</note>, by 600 knecht darunder) sind diß tags och durch statt Tannawertt uff <persName ref="p18604" cert="high">Payern</persName> zogen.</s>
 				</p>
 			</div>
 			<div xml:id="div7" corresp="regest7">
@@ -402,7 +364,7 @@
 					<s n="58" xml:lang="de" type="auto"><pb type="scan" next="124"/><note xml:id="fnv" type="footnote" n="v">= <hi>Verso der S. 123.</hi></note> [Umzug der] <placeName ref="l749" cert="high">Sachsen</placeName>:</s>
 				</p>
 				<p>
-					<s n="59" xml:lang="de" type="manual">Aller fennlinen, so durch <placeName ref="l119" cert="high">Thonnenwert</placeName> zogen sind uff das landt Paygern, och das stätly Rain zuͦ, semend<note xml:id="fn66" type="footnote" n="66">insgesamt.</note> 84 fenly.<pb type="edition" next="300"/></s>
+					<s n="59" xml:lang="de" type="manual">Aller fennlinen, so durch <placeName ref="l119" cert="high">Thonnenwert</placeName> zogen sind uff das landt Paygern, och das stätly <placeName ref="l2180" cert="high">Rain</placeName> zuͦ, semend<note xml:id="fn66" type="footnote" n="66">insgesamt.</note> 84 fenly.<pb type="edition" next="300"/></s>
 				</p>
 				<p>
 					<s n="60" xml:lang="de" type="auto">Vorhin<note xml:id="fn67" type="footnote" n="67">Vor dem Umzug der <placeName ref="l749" cert="high">Sachsen</placeName> also.</note> zugend durch noch 6 fenly.</s>

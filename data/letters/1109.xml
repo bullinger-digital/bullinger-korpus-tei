@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2168</idno>
 					</msIdentifier>
@@ -50,14 +42,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 73,174</idno>
 					</msIdentifier>
@@ -67,29 +51,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1109">
 				<correspAction type="sent">
-					<persName ref="p654" cert="high">
-						<!--
-						<surname cert="high">Comander</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Comander"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118713841"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413826"/>
-						-->
-					</persName>
+					<persName ref="p654" cert="high"/>
 					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1550-12-16" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -115,8 +82,8 @@
 				<language ident="la" usage="712">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -147,8 +114,8 @@
 				<p>
 					<s n="13" xml:lang="la" type="auto">In locum defuncti <persName ref="p396" cert="high">Ioannis Blasii</persName> adhuc nullus est subrogatus.</s>
 					<s n="14" xml:lang="la" type="auto">Vale.</s>
-					<s n="15" xml:lang="la" type="auto">Ex <persName type="auto_name">Rhetiae</persName> <placeName ref="l98" cert="high">Curia</placeName>, 16. decembris 50.</s>
-					<s n="16" xml:lang="la" type="auto">Lutius Haimius consul et <persName ref="p2627" cert="high">Ioannes Pontasella</persName> te plurimum salutant.</s>
+					<s n="15" xml:lang="la" type="auto">Ex <placeName type="auto_name">Rhetiae</placeName> <placeName ref="l98" cert="high">Curia</placeName>, 16. decembris 50.</s>
+					<s n="16" xml:lang="la" type="auto"><persName type="auto_name">Lutius Haimius</persName> consul et <persName ref="p2627" cert="high">Ioannes Pontasella</persName> te plurimum salutant.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Ego salutem opto omnibus symmistis tuis.</s>

@@ -21,14 +21,6 @@
 			<sourceDesc>
 				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">A 225.2, Nr. 216</idno>
 						<idno subtype="Hinweis">kein Scan zu erwarten (kein Brief)</idno>
@@ -41,14 +33,6 @@
 				</msDesc>
 				<msDesc type="Hinweis" subtype="Übersetzung" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Übersetzung">A 225.2, Nr. 221</idno>
 						<idno subtype="Hinweis">mit Anm.: «Das gehört Herr Heinrichen Bullinger» (vgl. Nr. 223), 1567 August 8.kein Scan zu erwarten (kein Brief)</idno>
@@ -65,21 +49,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8346">
 				<correspAction type="sent">
-					<persName ref="p918" cert="high">
-						<!--
-						<surname cert="high">de Coligny</surname>
-						<forename cert="high">Gaspard</forename>
-						<note type="person">"Chastillon"</note>
-						<graphic type="portrait" url="portraits/918_Coligny_Gaspard.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Gaspard_II._de_Coligny"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11867661X"/>
-						-->
-					</persName>
+					<persName ref="p918" cert="high"/>
 					<date notBefore="1570-08-08" notAfter="1570-08-13" cert="low"><note>Hinweis</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g14" type="pl" role="Bürgermeister" cert="high"/>
-					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<orgName ref="og14pl587" cert="high"/>
+					<orgName ref="og59pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -94,8 +69,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="unklar">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

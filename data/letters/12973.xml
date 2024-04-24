@@ -25,21 +25,13 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,448</idno>
 					</msIdentifier>
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								[1] Auch wenn Poullain nichts Besonderes zu berichten hat, will er doch noch vor seiner Reise in die Heimat
+								[1] Auch wenn <persName ref="p2639" cert="high">Poullain</persName> nichts Besonderes zu berichten hat, will er doch noch vor seiner Reise in die Heimat
 								[<placeName ref="l1636" cert="high">Lille</placeName> in <placeName ref="l640" cert="high">Flandern</placeName>] den Zürcher Pfarrern schreiben und sich für ihre Gastfreundschaft herzlich bedanken.
 								Sollte er heil von seiner Reise zurückkehren (die Zürcher mögen dafür beten), würde er sehr gerne in die
 								Zürcher Kirche aufgenommen werden, zumal er sie wegen ihrer Gelehrten (die er endlich sehen durfte) und
@@ -62,7 +54,7 @@
 								wohlfühlt und gerne seine Gedanken mit ihnen austauscht.
 								</p>
 								<p xml:id="regest3">
-								[3] Poullain fürchtet sehr, dass Kurfürst <persName ref="p19065" cert="high">Johann Friedrich von Sachsen</persName> in die Hände eines unbarmherzigen
+								[3] <persName ref="p2639" cert="high">Poullain</persName> fürchtet sehr, dass Kurfürst <persName ref="p19065" cert="high">Johann Friedrich von Sachsen</persName> in die Hände eines unbarmherzigen
 								Feindes gefallen ist. Der Herr tröste den Kurfürsten! Seine Kinder sollen überlebt haben. Zudem eilen ihm
 								angeblich die Hansestädte sowie auch <persName ref="p18449" cert="high">Christian III. von Dänemark</persName> zu Hilfe. Gott Zebaoth wird seine Kirche
 								nicht verlassen und sie bald von diesem Tyrannen befreien, den er zu den wilden Tieren verbannen wird. Zuvor
@@ -82,7 +74,7 @@
 								[<persName ref="p18793" cert="high">Gilles de Nobili</persName>] und seiner Schwester [Adrienne] befand er sich auf einer Reise von Italien nach den
 								<placeName ref="l20" cert="high">Niederlanden</placeName>. Wäre er allein gewesen, hätte er einen Abstecher nach Zürich eingelegt. Er empfiehlt sich den
 								Gebeten der Zürcher. Sie sollen den Herrn bitten, ihm die Kraft zu verleihen, <placeName ref="l2131" cert="high">Babylon</placeName> zu verlassen. Er hat
-								Poullain die dem vorliegenden Schreiben beigelegten Briefe [<ref target="file12923">Nr. 2874</ref> und
+								<persName ref="p2639" cert="high">Poullain</persName> die dem vorliegenden Schreiben beigelegten Briefe [<ref target="file12923">Nr. 2874</ref> und
 								<ref target="file12949">Nr. 2900</ref>] zur Weiterbeförderung nach <placeName ref="l587" cert="high">Zürich</placeName> anvertraut.
 								</p>
 								<p xml:id="regest6">
@@ -116,19 +108,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12973">
 				<correspAction type="sent">
-					<persName ref="p2639" cert="high">
-						<!--
-						<surname cert="high">Poullain</surname>
-						<forename cert="high">Valérand</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Val%C3%A9rand_Poullain"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089479751"/>
-						-->
-					</persName>
+					<persName ref="p2639" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1547-06-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<orgName ref="og49pl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -144,8 +129,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

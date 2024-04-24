@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 371,936v-937r</idno>
 						<idno subtype="Hinweis">Beginn Blattmitte</idno>
@@ -61,14 +53,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5722">
 				<correspAction type="sent">
-					<orgName ref="i33" type="pl" role="Zürcher" cert="high">
-						<orig>die Zürcher</orig>
-					</orgName>
+					<orgName ref="oi33pl587" cert="high">die Zürcher</orgName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1563-05-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g70" type="pl" role="Senioren" cert="high"/>
+					<orgName ref="og70pl673" cert="high"/>
 					<placeName source="l673" cert="high"><orig>Kleinpolen</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -83,8 +73,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

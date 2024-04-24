@@ -22,14 +22,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 371,724-727v</idno>
 						<idno subtype="Hinweis">nur Schluss von Johannes Tarnowskis Hand</idno>
@@ -54,14 +46,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 94,182</idno>
 						<idno subtype="Hinweis">richtig dat.: 1559 Mai 13.</idno>
@@ -72,21 +56,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3951">
 				<correspAction type="sent">
-					<persName ref="p8062" cert="low">
-						<!--
-						<surname cert="low">Tarnowski</surname>
-						<forename cert="low">Jan</forename>
-						<note type="person">[Comes]</note>
-						<graphic type="portrait" url="portraits/8062_Tarnowski_Jan.png"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Jan_Amor_Tarnowski"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/104279745"/>
-						-->
-					</persName>
+					<persName ref="p8062" cert="low"/>
 					<placeName source="l74" cert="low"><orig>Burg Tarnow</orig></placeName>
 					<date when="1559-05-13" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -108,8 +83,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,403</idno>
 					</msIdentifier>
@@ -50,14 +42,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 70,83</idno>
 					</msIdentifier>
@@ -67,20 +51,16 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/543">
 				<correspAction type="sent">
-					<roleName ref="g50" type="pl" role="Prediger" cert="high"/>
+					<orgName ref="og50pl41" cert="high"/>
 					<persName ref="p7524" cert="high">
 						<orig>Johannes Haller im Namen der Berner Prediger</orig>
-						<!--
-						<surname cert="high">von Haller</surname>
-						<forename cert="high">Johannes</forename>
-						-->
-						<roleName ref="g50" type="sg" role="Prediger" cert="high"/>
-					</persName>
+						<roleName ref="g50" cert="high"/>
+				</persName>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1549-06-02" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g50" type="pl" role="Prediger" cert="high"/>
+					<orgName ref="og50pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -100,8 +80,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

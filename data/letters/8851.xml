@@ -22,14 +22,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Briefschluss" subtype="Autograph__(Entwurf)" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph__(Entwurf)">E II 381,1335-1338</idno>
 					</msIdentifier>
@@ -52,14 +44,6 @@
 				</msDesc>
 				<msDesc type="Briefschluss" subtype="Original" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a41">
-							<name>Gotha FB</name>
-							<ref target="https://www.uni-erfurt.de/forschungsbibliothek-gotha"/>
-						</repository>
-						<settlement ref="l142">Erfurt</settlement>
-						<institution>Forschungsbibliothek Gotha der Universität Erfurt</institution>
-						-->
 						<repository ref="a41"/>
 						<idno subtype="Original">chart A 404, f. 99-102v</idno>
 						<idno subtype="Hinweis">xOriginal?</idno>
@@ -73,14 +57,6 @@
 				</msDesc>
 				<msDesc type="Briefschluss" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 62,77v-79v</idno>
 					</msIdentifier>
@@ -90,17 +66,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8851">
 				<correspAction type="sent">
-					<orgName ref="i19" type="sg" role="Kirche" cert="high"/>
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
-					<roleName ref="g55" type="pl" role="Professoren" cert="high"/>
+					<orgName ref="oi19sl587" cert="high"/>
+					<orgName ref="og49pl587" cert="high"/>
+					<orgName ref="og55pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1572-04" cert="low"><note>Datum unsicher  kein Tag</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g52" type="pl" role="Prädikanten" cert="high">
-						<orig>Französische Prädikanten an der Synode zu Nîmes</orig>
-							<orgName ref="i25" type="sg" role="Synode" cert="high"/>
-					</roleName>
+					<orgName ref="og52pl832" cert="high">Französische Prädikanten an der Synode zu Nîmes</orgName>
 					<placeName source="l832" cert="high"><orig>Frankreich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -115,8 +88,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

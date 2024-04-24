@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 358,135</idno>
 					</msIdentifier>
@@ -45,7 +37,7 @@
 								<persName ref="p8417" cert="high">Musculus</persName> und <persName ref="p1055" cert="high">Frecht</persName> haben
 								seinetwegen geschrieben; Bullinger soll versuchen, ihm eine Stelle auf bernischem Gebiet zu vermitteln.
 								<persName ref="p8440" cert="high">Schulers</persName> Frau und Kinder sind mit Ausnahme seines Sohnes
-								Gervasius gesund. Der Feldzug gegen die Türken kommt nicht voran, was
+								<persName ref="p8440" cert="high">Gervasius</persName> gesund. Der Feldzug gegen die Türken kommt nicht voran, was
 								nicht verwundert; Gott will, dass wir zuerst Buße tun. Der französische
 								[<persName ref="p7637" cert="high">König Franz I.</persName>] hat
 								<placeName ref="l39" cert="high">Luxemburg</placeName> verwüstet; den Eidgenossen wird vorgeworfen, [durch
@@ -83,28 +75,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11701">
 				<correspAction type="sent">
-					<persName ref="p8440" cert="high">
-						<!--
-						<surname cert="high">Schuler (Scholasticus)</surname>
-						<forename cert="high">Gervasius</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Gervasius_Schuler"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/130955264"/>
-						-->
-					</persName>
+					<persName ref="p8440" cert="high"/>
 					<placeName source="l320" cert="high"><orig>Memmingen</orig></placeName>
 					<date when="1542-09-08" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11702"/>
@@ -129,8 +105,8 @@
 				<language ident="la" usage="896">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -148,7 +124,7 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a domino, dilecte in domino frater.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto">Venit ad me presentium lator<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note>, natione Gallus, oriundus ab regia urbe Orlientz Gallie, ubi per biennium Christum praedicando tandem ab urbe post carceres dei munere relegatus est, ut testantur litere<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> Nurbergensium fratrum.</s>
+					<s n="2" xml:lang="la" type="auto">Venit ad me presentium lator<note xml:id="fn1" type="footnote" n="1">Unbekannt.</note>, natione <persName ref="p7637" cert="high">Gallus</persName>, oriundus ab regia urbe Orlientz Gallie, ubi per biennium Christum praedicando tandem ab urbe post carceres dei munere relegatus est, ut testantur litere<note xml:id="fn2" type="footnote" n="2">Nicht erhalten.</note> Nurbergensium fratrum.</s>
 					<s n="3" xml:lang="la" type="auto">Scripsit quoque de ea re ad me <persName ref="p8417" cert="high">Musculus</persName> <placeName ref="l1976" cert="high">Augustanus</placeName> et <persName ref="p1055" cert="high">Frechtus</persName>, <placeName ref="l513" cert="high">Ulmensis</placeName> ecclesiae minister<note xml:id="fn3" type="footnote" n="3">Auch die Briefe von <persName ref="p8417" cert="high">Wolfgang Musculus</persName> und <persName ref="p1055" cert="high">Martin Frecht</persName> sind verloren.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Hunc ergo ut exulem et peregrinantem propter Christum in domino suscipe et, ut in <placeName ref="l41" cert="high">Bernatium</placeName> ditione provideri possit, pro tua pietate iuva, charissime Bullingere, ne post diuturnos<note xml:id="fna" type="footnote" n="a"><hi>Vor</hi> diuturnos <hi>gestrichenes</hi> long.</note> carceres tantopere peregrinari cogatur.</s>
 				</p>
@@ -164,7 +140,7 @@
 				<p>
 					<s n="10" xml:lang="la" type="auto"><persName ref="7637" type="auto_name">Gallus</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="p7637" cert="high">König Franz I. von Frankreich</persName>.</note> vero pseudochristianus<note xml:id="fn8" type="footnote" n="8"><persName ref="p8440" cert="high">Schuler</persName> spielt auf den Titel "rex christianissimus" an; vgl. <bibl>HBBW</bibl> XI <ref target="file11538">[Nr. 1495]</ref>, S. 137, Anm. 10.</note> interea totam fere Litzelburgicam Inferioris Germanie ditionem bello et igne occupavit et devastavit<note xml:id="fn9" type="footnote" n="9">Vgl. oben <ref target="file11692">Nr. 1649</ref>, 12-22; 1657, 22f mit Anm. 12.</note>.</s>
 					<s n="11" xml:lang="la" type="auto">Quid futurum sit Germanie nostrę, dominus novit.</s>
-					<s n="12" xml:lang="la" type="auto"><placeName ref="l196" cert="high">Helvetii</placeName> vestri apud omnes pios et bonos viros pessime audiunt ut hii, qui tantis turbis bellorum non postremum fomentum prestant.</s>
+					<s n="12" xml:lang="la" type="auto"><placeName ref="l28" cert="high">Helvetii</placeName> vestri apud omnes pios et bonos viros pessime audiunt ut hii, qui tantis turbis bellorum non postremum fomentum prestant.</s>
 					<s n="13" xml:lang="la" type="auto">De Tigurinis et <placeName ref="l41" cert="high">Bernatibus</placeName> simul et <placeName ref="l28" cert="high">Basiliensibus</placeName> forte non licet tam dira ominari.</s>
 				</p>
 				<p>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,102</idno>
 					</msIdentifier>
@@ -62,28 +54,12 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms F 62,548</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 74,50</idno>
 					</msIdentifier>
@@ -93,30 +69,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1165">
 				<correspAction type="sent">
-					<persName ref="p8109" cert="high">
-						<!--
-						<surname cert="high">Ulmer (von Ulm, ab Ulmis)</surname>
-						<forename cert="high">Johann Konrad</forename>
-						<graphic type="portrait" url="portraits/3243_Ulmer_Johann_Conrad.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Konrad_Ulmer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/120341913"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417219"/>
-						-->
-					</persName>
+					<persName ref="p8109" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1551-01-31" cert="high"><note>irrt. datiert vom Schreiber auf 1550 Dez. 31.</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -144,8 +102,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -171,7 +129,7 @@
 					<s n="3" xml:lang="la" type="auto">Literas Dorcestriae principis simul cum <persName type="auto_name">Oglendorpii</persName> feret ad te Reningerus, homo cum primis doctus et tui amans, qui Tigurum imprimendi causa Byblia Anglicana intra paucos dies proficiscetur.</s>
 					<s n="4" xml:lang="la" type="auto">Titulum <persName type="auto_name">Warwizen[s]is</persName> plenum et integrum iamdudum accepisse te spero.</s>
 					<s n="5" xml:lang="la" type="auto">Gratissimum utrique feceris, si liber ipsis communiter a te describatur.</s>
-					<s n="6" xml:lang="la" type="auto">Verum hoc te etiam atque etiam moneo et hortor, ut tecum diligenter cogites, quam consultum sit exemplar decadis futurae Warwizensi per <persName type="auto_name">Hoperum</persName> offerri.</s>
+					<s n="6" xml:lang="la" type="auto">Verum hoc te etiam atque etiam moneo et hortor, ut tecum diligenter cogites, quam consultum sit exemplar decadis futurae Warwizensi per <persName ref="p1560" cert="high">Hoperum</persName> offerri.</s>
 					<s n="7" xml:lang="la" type="auto">Pro certissimo enim retulit <persName ref="p8111" cert="high">Martyr</persName> noster, amisisse ipsum omnem apud omnes ferme principes viros gratiam, praecipue autem apud Warwicensem, atque ita in difficili loco res eius positas, ut nisi optimus dorcestriae princeps et Cantuariensis pro eo supplices in senatu extitissent, iamdudum vinculis et carcere teneretur, eam potissimum ob causam, quod nimis sit importunus in vestibus ministrorum abrogandis, pronuncietque temere eos omnes impios et sceleratos, qui iis uti porro velint.</s>
 				</p>
 				<p>
@@ -179,17 +137,17 @@
 					<s n="9" xml:lang="la" type="auto">Haec ita esse ex d. <persName type="auto_name">Scinnero</persName> nuper, et heri ex doctore Petro facile intellexi.</s>
 					<s n="10" xml:lang="la" type="auto">Quare quid hac in re faciendum sit, ipse pro tuo iudicio considerabis.</s>
 					<s n="11" xml:lang="la" type="auto">Mea quidem sententia consultius multo fore arbitror, si per <persName type="auto_name">Scinnerum</persName> aut <persName type="auto_name">Trehernum</persName>, viros tui inter omnes gentes amantissimos, <placeName type="auto_name">Warwizensi</placeName> tradatur.</s>
-					<s n="12" xml:lang="la" type="auto">Superiori anno cum tuas <persName type="auto_name">Treherno</persName> literas dedissem, earum multum est lectione gavisus; verum graviter de <persName type="auto_name">Hopero</persName> apud me conquestus de libris tuis sibi non redditis et literis communiter olim utrique descriptis: quod certum mihi signum esse videtur, nec dum recte eos esse reconciliatos.</s>
+					<s n="12" xml:lang="la" type="auto">Superiori anno cum tuas <persName type="auto_name">Treherno</persName> literas dedissem, earum multum est lectione gavisus; verum graviter de <persName ref="p1560" cert="high">Hopero</persName> apud me conquestus de libris tuis sibi non redditis et literis communiter olim utrique descriptis: quod certum mihi signum esse videtur, nec dum recte eos esse reconciliatos.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Controversiam te nosse arbitror, et quantae doctrinae et pietatis sit uterque non ignorare.</s>
 					<s n="14" xml:lang="la" type="auto">Idcirco gravissime dolendum.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Coxus academiae praefectus 5 idus ianuarii hic fuit, et aliquot dies commoratus.</s>
+					<s n="15" xml:lang="la" type="auto"><persName ref="p672" cert="high">Coxus</persName> academiae praefectus 5 idus ianuarii hic fuit, et aliquot dies commoratus.</s>
 					<s n="16" xml:lang="la" type="auto">Quem cum iam convenire decrevissem, ecce famulum eius, qui me vocat.</s>
 					<s n="17" xml:lang="la" type="auto">Continuo accessi.</s>
-					<s n="18" xml:lang="la" type="auto">De te primum interrogat et <persName type="auto_name">Alexandro</persName> sibi a te commendato, excusans se cur prius nos non sit ea de re allocutus, hac retione: se diu expectasse <persName type="auto_name">Hoperum</persName>, a quo statum pueri cognosceret, verum id frustra fecisse.</s>
+					<s n="18" xml:lang="la" type="auto">De te primum interrogat et <persName type="auto_name">Alexandro</persName> sibi a te commendato, excusans se cur prius nos non sit ea de re allocutus, hac retione: se diu expectasse <persName ref="p1560" cert="high">Hoperum</persName>, a quo statum pueri cognosceret, verum id frustra fecisse.</s>
 					<s n="19" xml:lang="la" type="auto">Proinde rem omnem ex nobis ipsis cogniturum: quam simul ac cognovisset, statim 15 coronatos puero numerari curavit, meque dimisit.</s>
 					<s n="20" xml:lang="la" type="auto">Haec idcirco ad te scribo ut intelligas, literas tuas multum ponderis ac momenti apud hunc virum habuisse, et pariter a te requiri literas quibus gratias illi agas pro isthoc suo in nos beneficio immortales.</s>
 					<s n="21" xml:lang="la" type="auto">Nos in colenda utriusque vestra amplitudine semper cultores erimus seduli ac industrii.</s>
@@ -216,7 +174,7 @@
 				<p>
 					<s n="37" xml:lang="la" type="auto">Salutem velim dicas meis verbis <persName type="auto_name">Zwinglio</persName> socero tuo, et <persName type="auto_name">Zieglero</persName> fratri meo.</s>
 					<s n="38" xml:lang="la" type="auto">Scriberem ad illum, si invaletudine non impedirer.</s>
-					<s n="39" xml:lang="la" type="auto"><placeName type="auto_name">Oxonii</placeName>, 1551, pridie calend. ianuarii.</s>
+					<s n="39" xml:lang="la" type="auto"><placeName ref="l376" cert="high">Oxonii</placeName>, 1551, pridie calend. ianuarii.</s>
 				</p>
 				<p>
 					<s n="40" xml:lang="la" type="auto">Tuae dignitati deditissimus, <persName type="auto_name">Iohannes ab Ulmis</persName>, discipulus tuus.</s>

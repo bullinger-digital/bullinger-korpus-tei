@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 375,480</idno>
 					</msIdentifier>
@@ -51,14 +43,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 86,156</idno>
 					</msIdentifier>
@@ -68,27 +52,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2836">
 				<correspAction type="sent">
-					<persName ref="p3481" cert="high">
-						<!--
-						<surname cert="high">Vogt</surname>
-						<forename cert="high">Simprecht</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089422717"/>
-						-->
-					</persName>
+					<persName ref="p3481" cert="high"/>
 					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1556-02-23" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -112,8 +81,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -131,7 +100,7 @@
 					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a deo patre per Christum servatorem etc.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="la" type="auto"><persName type="auto_name">Georgius</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="p2261" cert="high">Georg Maurer</persName>.</note>, olim scriba publicus reipublicae Memmingensis, domine ac frater in Christo reverende, misit ad me has schedas volens ut iis lectis caeterisque fratribus ac bonis viris communicatis eas primo quoque nuncio transmitterem ad amplissimum virum consulem Habium<note xml:id="fn2" type="footnote" n="2">Siehe Zürich StA, A 202/4, Memmingen Nr. 9-14 (überprüfen!).</note>.</s>
+					<s n="2" xml:lang="la" type="auto"><persName type="auto_name">Georgius</persName><note xml:id="fn1" type="footnote" n="1"><persName ref="p2261" cert="high">Georg Maurer</persName>.</note>, olim scriba publicus reipublicae <placeName type="auto_name">Memmingensis</placeName>, domine ac frater in Christo reverende, misit ad me has schedas volens ut iis lectis caeterisque fratribus ac bonis viris communicatis eas primo quoque nuncio transmitterem ad amplissimum virum consulem <persName ref="p1419" cert="high">Habium</persName><note xml:id="fn2" type="footnote" n="2">Siehe Zürich StA, A 202/4, Memmingen Nr. 9-14 (überprüfen!).</note>.</s>
 					<s n="3" xml:lang="la" type="auto">Caeterum, quum rumor apud nos non usquequaque incertus sit eum destinatum legatum pro republica Gebennensi, iam se Bernam contulisse, tabellione mihi commodum oblato volui tibi eas communicare, ea tamen conditione, ut literas clausas ad consulem quam primum una cum schedis adiunctis ipsi, a reditu offeras aut, si videas operae precium futurum, Bernam mittas, quo possim et ipse mei fidei commissi rationem reddere.</s>
 				</p>
 				<p>
@@ -144,8 +113,8 @@
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Quid nos ad haec impellat, tu ipse facile coniicere potes.</s>
-					<s n="11" xml:lang="la" type="auto">Rumor apud nos spargitur apud vos interdictum, ne <persName type="auto_name">Gualtheri Antichristus</persName> denuo imprimatur, quod scire velimus.</s>
-					<s n="12" xml:lang="la" type="auto">Salutant te <persName type="auto_name">Sebastianus</persName>, Ruͤgerus, caeteri.</s>
+					<s n="11" xml:lang="la" type="auto">Rumor apud nos spargitur apud vos interdictum, ne <persName ref="p8011" cert="high">Gualtheri</persName> Antichristus denuo imprimatur, quod scire velimus.</s>
+					<s n="12" xml:lang="la" type="auto">Salutant te <persName type="auto_name">Sebastianus</persName>, <persName type="auto_name">Ruͤgerus</persName>, caeteri.</s>
 					<s n="13" xml:lang="la" type="auto">Salutabis item nomine meo d. <persName type="auto_name">Theodorum</persName>, <persName ref="p8127" cert="high">Pellicanum</persName>, <persName ref="p8011" cert="high">Gualtherum</persName>, omnes.</s>
 					<s n="14" xml:lang="la" type="manual">Raptim <placeName ref="l441" cert="high">Scaffhusii</placeName> anno 1556. 7. kal. martii.</s>
 				</p>

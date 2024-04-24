@@ -24,14 +24,6 @@
 				<bibl n="1" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 1 (Briefe der Jahre 1524-1531), bearb. von Ulrich Gäbler und Endre Zsindely, Zürich 1974, 268 S., ISBN 3-290-11334-5.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms T 406,15, 1r-32r 62 1/2 S. 8°</idno>
 					</msIdentifier>
@@ -47,7 +39,7 @@
 							</p>
 						</summary>
 						<msItem>
-							<textLang>de</textLang>
+							<textLang>la</textLang>
 						</msItem>
 					</msContents>
 					<physDesc>
@@ -66,26 +58,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10053">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l242" cert="low"><orig>Kappel am Albis</orig></placeName>
 					<date when="1528-02-24" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8051" cert="high">
-						<!--
-						<surname cert="high">Bullinger, geb. Adlischwyler</surname>
-						<forename cert="high">Anna</forename>
-						-->
-					</persName>
+					<persName ref="p8051" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10054"/>
@@ -101,11 +79,12 @@
 				</correspContext>
 			</correspDesc>
 			<langUsage>
-				<language ident="de" usage="1000">Deutsch</language>
+				<language ident="la" usage="5">Latein</language>
+				<language ident="de" usage="995">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -146,7 +125,7 @@
 					<s n="18" xml:lang="de" type="auto">Warer gottes dienst ist nitt in usseren, sunder vil mee in inneren wurckungen der seel.</s>
 					<s n="19" xml:lang="de" type="auto">Durch den glouben und hoffnung hangend wir gar stiff<note xml:id="fn38" type="footnote" n="38">fest.</note> an gott, truwend<note xml:id="fn39" type="footnote" n="39">vertrauen.</note> imm, erckennend inn und ruͤffendt inn an, verharrend<note xml:id="fn40" type="footnote" n="40">beharren, bleiben, verweilen (<bibl>SI</bibl> II 1515).</note> ouch, sind dultmuͤtig<note xml:id="fn41" type="footnote" n="41">geduldig, langmütig (<bibl>SI</bibl> IV 584).</note> in allem lyden und danckbar in fröuden; werdent also nimmer gescheyden<note xml:id="fn42" type="footnote" n="42">getrennt (<bibl>SI</bibl> VIII 237).</note> von gott<note xml:id="fn43" type="footnote" n="43">Vgl. <cit type="bible"><ref>Röm 8, 35-39</ref></cit>.</note>, thuͦnd es alles in sinem naamen.</s>
 					<s n="20" xml:lang="de" type="auto">Wir flissend<note xml:id="fn44" type="footnote" n="44">befleißigen.</note> ouch uns der unschuld vor imm, reingend uns von lasteren, truckend under<note xml:id="fn45" type="footnote" n="45">unterdrücken.</note> die begirden, vergoumend<note xml:id="fn46" type="footnote" n="46">hüten, beaufsichtigen (<bibl>SI</bibl> II 302).</note> die gsicht<note xml:id="fn47" type="footnote" n="47">Blicke (<bibl>SI</bibl> VII 249).</note>, meisterend die zungen<note xml:id="fn48" type="footnote" n="48">Vgl. <cit type="bible"><ref>Jak 3,5ff</ref></cit>.</note> und thuͦnd alles, das liebhabenden menschen zuͦstat.</s>
-					<s n="21" xml:lang="de" type="auto">Darvon Ioannes in siner epistel <cit type="bible"><ref>[1 Joh 2,3ff; 3,11ff; 4,7 ff]</ref></cit>.</s>
+					<s n="21" xml:lang="la" type="auto">Darvon Ioannes in siner epistel <cit type="bible"><ref>[1 Joh 2,3ff; 3,11ff; 4,7 ff]</ref></cit>.</s>
 				</p>
 				<p>
 					<s n="22" xml:lang="de" type="auto">Also flyst<note xml:id="fn49" type="footnote" n="49">befleißigt.</note> sich der recht gläubig, daß er sich täglich bessere, alles unrechten abthuͤye<note xml:id="fn50" type="footnote" n="50">abtue, ablege.</note>.</s>
@@ -511,7 +490,7 @@
 					<s n="275" xml:lang="de" type="auto">Dorumb S. Paulus spricht: «Ir wyber, sind underthon üweren mannen» <cit type="bible"><ref>[Eph 5,22]</ref></cit>.</s>
 					<s n="276" xml:lang="de" type="auto">Doch söllend ouch die man nitt desse vergessen, das hinnach volget: «Ir man, liebend üwere wyber und sind nitt bitter gegen inen» [<cit type="bible"><ref>Eph 5,25</ref></cit>; <cit type="bible"><ref>Kol 3, 19</ref></cit>].</s>
 					<s n="277" xml:lang="de" type="manual"><pb type="edition" next="173"/>Das wyb sol ouch züchtig sin, demuͤtig, dultig<note xml:id="fn534" type="footnote" n="534">geduldig.</note>, soll kinder erzühen<note xml:id="fn535" type="footnote" n="535">erziehen.</note>, so iren die gott gipt.</s>
-					<s n="278" xml:lang="de" type="auto">Darvon läsend <cit type="bible"><ref>1. Timotheum 2 [8ff]</ref></cit> und <cit type="bible"><ref>1. Petri 3 [1ff]</ref></cit>.</s>
+					<s n="278" xml:lang="la" type="auto">Darvon läsend <cit type="bible"><ref>1. Timotheum 2 [8ff]</ref></cit> und <cit type="bible"><ref>1. Petri 3 [1ff]</ref></cit>.</s>
 					<s n="279" xml:lang="de" type="auto">Ist also deß wybs pflicht, daß sy ghorsam, fromm, huslich und früntlich sye, in glouben, liebe und unschuld mitt züchten wandle.</s>
 				</p>
 				<p>
@@ -583,7 +562,7 @@
 				</p>
 				<p>
 					<s n="329" xml:lang="de" type="auto">«Und sähist dine kindskinder.</s>
-					<s n="330" xml:lang="de" type="auto">Fryd über Izrael!» <cit type="bible"><ref>[Ps 128,6]</ref></cit>.</s>
+					<s n="330" xml:lang="la" type="auto">Fryd über Izrael!» <cit type="bible"><ref>[Ps 128,6]</ref></cit>.</s>
 				</p>
 				<p>
 					<s n="331" xml:lang="de" type="auto">Habend die gotsförchtigen schon ettwas truͤbsals, sich<note xml:id="fn588" type="footnote" n="588">sieh.</note>, so sind sy doch nitt one grosse eer und fröud.</s>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,451 ff.</idno>
 					</msIdentifier>
@@ -50,14 +42,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 73,27</idno>
 					</msIdentifier>
@@ -67,51 +51,24 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/974">
 				<correspAction type="sent">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl280" cert="high"/>
 					<persName ref="p7986" cert="high">
-						<!--
-						<surname cert="high">de Tournes</surname>
-						<forename cert="high">Jean</forename>
-						<graphic type="portrait" url="portraits/7986_de_Tournes_Jean.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Jean_de_Tournes"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/100786227"/>
-						-->
-						<roleName ref="g26" type="sg" role="Geistlicher" cert="high"/>
-					</persName>
+						<roleName ref="g26" cert="high"/>
+				</persName>
 					<persName ref="p7987" cert="high">
-						<!--
-						<surname cert="high">de Saint-Paul</surname>
-						<forename cert="high">François</forename>
-						-->
-						<roleName ref="g26" type="sg" role="Geistlicher" cert="high"/>
-					</persName>
+						<roleName ref="g26" cert="high"/>
+				</persName>
 					<persName ref="p7988" cert="high">
-						<!--
-						<surname cert="high">Marlorat</surname>
-						<forename cert="high">Augustin</forename>
-						<graphic type="portrait" url="portraits/7988_Marlorat_Augustin.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Augustin_Marlorat"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/128518650"/>
-						-->
-						<roleName ref="g26" type="sg" role="Geistlicher" cert="high"/>
-					</persName>
+						<roleName ref="g26" cert="high"/>
+				</persName>
 					<persName ref="p3429" cert="high">
-						<!--
-						<surname cert="high">Viret</surname>
-						<forename cert="high">Pierre</forename>
-						<note type="person">«totius classis nomine»</note>
-						<graphic type="portrait" url="portraits/3429_Viret_Pierre.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Pierre_Viret"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118873954"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11419865"/>
-						-->
-						<roleName ref="g26" type="sg" role="Geistlicher" cert="high"/>
-					</persName>
+						<roleName ref="g26" cert="high"/>
+				</persName>
 					<placeName source="l280" cert="high"><orig>Lausanne</orig></placeName>
 					<date when="1550-07-30" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -130,8 +87,8 @@
 				<language ident="la" usage="999">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

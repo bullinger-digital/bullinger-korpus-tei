@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,35</idno>
 					</msIdentifier>
@@ -65,14 +57,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a23">
-							<name>Cambridge UB</name>
-							<ref target="https://www.lib.cam.ac.uk/"/>
-						</repository>
-						<settlement ref="l86">Cambridge</settlement>
-						<institution>Universitätsbibliothek</institution>
-						-->
 						<repository ref="a23"/>
 						<idno subtype="Kopie">Ms. add. 45, fo 2v-3v</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
@@ -80,14 +64,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 106, f. 32r</idno>
 						<idno subtype="Hinweis">kein Scan zu erwarten</idno>
@@ -95,14 +71,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a21">
-							<name>Cambridge CCC</name>
-							<ref target="https://www.corpus.cam.ac.uk/"/>
-						</repository>
-						<settlement ref="l86">Cambridge</settlement>
-						<institution>Corpus Christi College</institution>
-						-->
 						<repository ref="a21"/>
 						<idno subtype="Kopie">Ms. 241 fo 3v-4v Nr. 3a</idno>
 						<idno subtype="Xeroxkopie">IRG</idno>
@@ -110,14 +78,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 75, 6</idno>
 					</msIdentifier>
@@ -127,29 +87,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1269">
 				<correspAction type="sent">
-					<persName ref="p672" cert="high">
-						<!--
-						<surname cert="high">Cox</surname>
-						<forename cert="high">Richard</forename>
-						<graphic type="portrait" url="portraits/672_Cox_Richard.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Richard_Cox_(Bischof)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118670409"/>
-						-->
-					</persName>
+					<persName ref="p672" cert="high"/>
 					<placeName source="l542" cert="high"><orig>Westminster</orig></placeName>
 					<date when="1551-05-05" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -174,8 +117,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -217,7 +160,7 @@
 					<s n="20" xml:lang="la" type="auto">Westmonasterii, 5 maii, 1551.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto">Tui studiosissimus et in Christo frater amantissimus, <persName type="auto_name">Ric. Cox</persName>.</s>
+					<s n="21" xml:lang="la" type="auto">Tui studiosissimus et in Christo frater amantissimus, <persName ref="p672" cert="high">Ric. Cox</persName>.</s>
 				</p>
 			</div>
 		</body>

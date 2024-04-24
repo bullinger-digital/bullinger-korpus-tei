@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,404 f.</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 70,138</idno>
 					</msIdentifier>
@@ -72,28 +56,13 @@
 				<correspAction type="sent">
 					<persName ref="p8018" cert="high">
 						<orig>Johannes Haller d.J. im Namen der Berner Prediger</orig>
-						<!--
-						<surname cert="high">Haller d.J.</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/1430_Haller_dJ_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Haller_der_J%C3%BCngere"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136925588"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
-						-->
-					</persName>
-					<roleName ref="g50" type="pl" role="Prediger" cert="high">
-							<placeName ref="l41" cert="high">
-								<settlement>Bern</settlement>
-								<district>Bern</district>
-								<country>Schweiz</country>
-								<location><geo>46.94809 7.44744</geo></location>
-							</placeName>
-					</roleName>
+				</persName>
+					<orgName ref="og50pl41" cert="high"/>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1549-06-27" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g50" type="pl" role="Prediger" cert="high"/>
+					<orgName ref="og50pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -115,8 +84,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

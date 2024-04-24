@@ -24,14 +24,6 @@
 				<bibl n="18" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 15 (Briefe des Jahres 1545), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2013, 746 S., ISBN 978-3-290-17664-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a16">
-							<name>Biel SA</name>
-							<ref target="https://www.biel-bienne.ch/de/stadtarchiv.html/770"/>
-						</repository>
-						<settlement ref="l49">Biel</settlement>
-						<institution>Stadtarchiv</institution>
-						-->
 						<repository ref="a16"/>
 						<idno subtype="Autograph">120, CXXX, 125</idno>
 					</msIdentifier>
@@ -71,19 +63,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12222">
 				<correspAction type="sent">
-					<persName ref="p167" cert="high">
-						<!--
-						<surname cert="high">Ammann</surname>
-						<forename cert="high">Johann Jakob</forename>
-						-->
-					</persName>
-					<roleName ref="g67" type="pl" role="Schulverordnete" cert="high"/>
+					<persName ref="p167" cert="high"/>
+					<orgName ref="og67pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1545-06-09" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g48" type="pl" role="Meier" cert="high"/>
-					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<orgName ref="og48pl49" cert="high"/>
+					<orgName ref="og59pl49" cert="high"/>
 					<placeName source="l49" cert="low"><orig>Biel</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -99,8 +86,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">

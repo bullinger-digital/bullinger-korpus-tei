@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 351,52</idno>
 					</msIdentifier>
@@ -121,30 +113,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/13059">
 				<correspAction type="sent">
-					<persName ref="p8049" cert="high">
-						<!--
-						<surname cert="high">Vadian (von Watt)</surname>
-						<forename cert="high">Joachim</forename>
-						<graphic type="portrait" url="portraits/3306_Vadian_Joachim.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Joachim_Vadian"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118625780"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11425832"/>
-						-->
-					</persName>
+					<persName ref="p8049" cert="high"/>
 					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 					<date when="1547-09-10" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file13060"/>
@@ -170,8 +144,8 @@
 				<language ident="de" usage="880">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -197,7 +171,7 @@
 				<p>
 					<s n="6" xml:lang="de" type="auto">Dess von <persName ref="18258" type="auto_name">Madrutz</persName><note xml:id="fn28" type="footnote" n="28"><persName ref="p18258" cert="high">Nicolò von Madruzzo</persName>.</note> regiment ist demm kayser<note xml:id="fn29" type="footnote" n="29"><persName ref="p18538" cert="high">Karl V.</persName></note> für<note xml:id="fn30" type="footnote" n="30">vor.</note> die herberg<note xml:id="fn31" type="footnote" n="31">Wohnung; s. <bibl>SI</bibl> IV 1567.</note> gefallen.</s>
 					<s n="7" xml:lang="de" type="auto">Hat straks wellen zalt sein von 3 monaten, die in<note xml:id="fn32" type="footnote" n="32">ihnen.</note> völlig<note xml:id="fn33" type="footnote" n="33">gänzlich.</note> nit erlegt<note xml:id="fn34" type="footnote" n="34">bezahlt; s. <bibl>SI</bibl> III 1187.</note>.</s>
-					<s n="8" xml:lang="de" type="auto">Ist der von Madrutz von den knechten geschedigt<note xml:id="fn35" type="footnote" n="35">In seinem Ruf geschädigt (worden); s. <bibl>DRW</bibl> XII 78.</note>, und zuͦletzst<note xml:id="fn36" type="footnote" n="36">schliesslich.</note> die aufruͦr gestillet.</s>
+					<s n="8" xml:lang="de" type="auto">Ist der von <persName ref="p18258" cert="high">Madrutz</persName> von den knechten geschedigt<note xml:id="fn35" type="footnote" n="35">In seinem Ruf geschädigt (worden); s. <bibl>DRW</bibl> XII 78.</note>, und zuͦletzst<note xml:id="fn36" type="footnote" n="36">schliesslich.</note> die aufruͦr gestillet.</s>
 					<s n="9" xml:lang="de" type="auto">Kayser hat imm übel endtsessen<note xml:id="fn37" type="footnote" n="37">imm übel endtsessen: ihm schlecht standgehalten; s. <bibl>Grimm</bibl> III 626.</note>.</s>
 					<s n="10" xml:lang="de" type="auto">Der churfurst<note xml:id="fn38" type="footnote" n="38"><persName ref="p19065" cert="high">Johann Friedrich I. von Sachsen</persName>.</note> hat dem kayser anfangs dess tömmels<note xml:id="fn39" type="footnote" n="39">Aufruhrs.</note> enbotten<note xml:id="fn40" type="footnote" n="40">anerboten.</note>, sein leyb und leben zuͦ imm ze setzen<note xml:id="fn41" type="footnote" n="41">leyb und leben zuͦ imm ze setzen: Leib und Leben für ihn zu lassen.</note>.</s>
 					<s n="11" xml:lang="de" type="auto">Sol dem kayser seer wol gefallen haben.</s>
@@ -207,7 +181,7 @@
 			</div>
 			<div xml:id="div3" corresp="regest3">
 				<p>
-					<s n="14" xml:lang="de" type="auto">Man mommlet<note xml:id="fn46" type="footnote" n="46">murmelt; s. <bibl>SI</bibl> IV 228. - Zum Gerücht s. auch <ref target="file13034">Nr. 2985</ref>,<ptr target="qvzl17250-1" type="qv"/>.</note>, daß die Spannier willens werind, den reychstag gen Straßburg ze legen, wo<note xml:id="fn47" type="footnote" n="47">falls.</note> die pestilentz in <placeName ref="l1976" cert="high">Augspurg</placeName> überhand nemen welte.</s>
+					<s n="14" xml:lang="de" type="auto">Man mommlet<note xml:id="fn46" type="footnote" n="46">murmelt; s. <bibl>SI</bibl> IV 228. - Zum Gerücht s. auch <ref target="file13034">Nr. 2985</ref>,<ptr target="qvzl17250-1" type="qv"/>.</note>, daß die Spannier willens werind, den reychstag gen <placeName ref="l492" cert="high">Straßburg</placeName> ze legen, wo<note xml:id="fn47" type="footnote" n="47">falls.</note> die pestilentz in <placeName ref="l1976" cert="high">Augspurg</placeName> überhand nemen welte.</s>
 				</p>
 			</div>
 			<div xml:id="div4" corresp="regest4">
@@ -241,7 +215,7 @@
 			</div>
 			<div xml:id="div8" corresp="regest8">
 				<p>
-					<s n="28" xml:lang="de" type="auto">Auß Antorff<note xml:id="fn75" type="footnote" n="75">Antwerpen.</note> schreybt man, das <placeName ref="l28" cert="high">Frankreych</placeName> und Engellandt übel zuͦsammen sechind.<note xml:id="fn76" type="footnote" n="76">übel zuͦsammen sechind: gegeneinander feindlich gesinnt sind.</note></s>
+					<s n="28" xml:lang="de" type="auto">Auß Antorff<note xml:id="fn75" type="footnote" n="75">Antwerpen.</note> schreybt man, das <placeName ref="l11" cert="high">Frankreych</placeName> und Engellandt übel zuͦsammen sechind.<note xml:id="fn76" type="footnote" n="76">übel zuͦsammen sechind: gegeneinander feindlich gesinnt sind.</note></s>
 					<s n="29" xml:lang="de" type="auto">Achtet<note xml:id="fn77" type="footnote" n="77">besorgt; s. <bibl>SI</bibl> I 80.</note> man dess papstz<note xml:id="fn78" type="footnote" n="78"><persName ref="p19981" cert="high">Paul III.</persName></note> prattik<note xml:id="fn79" type="footnote" n="79">unerlaubte geheime Unterhandlung; s. <bibl>SI</bibl> V 568.</note> sein, der nützit<note xml:id="fn80" type="footnote" n="80">nichts.</note> underlaßet, damit er sein feudum<note xml:id="fn81" type="footnote" n="81">Lehensgut.</note> und daß groß ingon<note xml:id="fn82" type="footnote" n="82">Einkommen; s. <bibl>SI</bibl> II 21.</note>, so er auß Engelland gehabt, in die hend bringen und demm evangelion damit abbruͦch thon möge.</s>
 					<s n="30" xml:lang="de" type="auto">Also geeth eß alles mit prattiken zuͦ. Gott welle uns erretten.</s>
 					<s n="31" xml:lang="de" type="auto">Ich zweyflen aber nit, unsere nachkhomen werdind von dissen <persName ref="p18538" cert="high">Carlen</persName> und <persName ref="19981" type="auto_name">Paulsen</persName><note xml:id="fn83" type="footnote" n="83">Papst <persName ref="p19981" cert="high">Paul III.</persName></note> mer und größers und ernstlichers schreyben, dann von khainen Iulianis, Maximinis, Constantiis, Diocletianis und Maxentiis ie geschriben worden seyge.</s>

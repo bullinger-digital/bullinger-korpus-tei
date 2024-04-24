@@ -22,14 +22,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 46,12-13</idno>
 					</msIdentifier>
@@ -48,14 +40,6 @@
 				</msDesc>
 				<msDesc type="Hinweis" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 134,20</idno>
 					</msIdentifier>
@@ -67,21 +51,13 @@
 				<correspAction type="sent">
 					<persName ref="p8033" cert="high">
 						<orig>Beza im Namen der Geistlichen von Genf</orig>
-						<!--
-						<surname cert="high">de Bèze (Beza)</surname>
-						<forename cert="high">Théodor</forename>
-						<graphic type="portrait" url="portraits/876_Beza_Theodor.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Th%C3%A9odore_de_B%C3%A8ze"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118662864"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11418065"/>
-						-->
-					</persName>
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+				</persName>
+					<orgName ref="og26pl167" cert="high"/>
 					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 					<date when="1575-10-06" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -96,8 +72,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

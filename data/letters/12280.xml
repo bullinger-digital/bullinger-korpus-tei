@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1479</idno>
 					</msIdentifier>
@@ -75,28 +67,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12280">
 				<correspAction type="sent">
-					<persName ref="p536" cert="high">
-						<!--
-						<surname cert="high">Caesarius</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Caesarius"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/100065562"/>
-						-->
-					</persName>
+					<persName ref="p536" cert="high"/>
 					<placeName source="l157" cert="low"><orig>Frankfurt am Main</orig></placeName>
 					<date notBefore="1545-08-01" notAfter="1545-09-30" cert="low">[August oder September 1545]</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12254"/>
@@ -119,8 +95,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -143,7 +119,7 @@
 					<s n="4" xml:lang="la" type="auto">Atque ob id ipsum eum quidam mihi persuadere vellent, te unum fore e numero colloquentium apud Ratisbonam ex Caesaris ac Principum jussu atque consensu, vereri poteram, ne hac occasione votis nostris vel post longam expectationem frustraremur.</s>
 					<s n="5" xml:lang="la" type="auto">Vix credas quam delector tuorum scriptorum lectione non ob styli tantum elegantiam, quam ob rerum nostrae religionis exaetissimam declarationem expositionemque.</s>
 					<s n="6" xml:lang="la" type="auto">Garriant alii videlicet tui adversarii quaeeimque velint, parum profecto ad palatum meum faciunt illorum veluti deliramenta.</s>
-					<s n="7" xml:lang="la" type="auto"><persName ref="p8312" cert="high">Cochlaeus</persName> unus ex illis sciscitatus aliquando ex me fuit, quanti facerem sua scripta contra Velenum autorem, scilicet illum, qui primus omnium inter recentiores ausus fuit memoriae commendare, Petrum nunquam fuisse Romae.</s>
+					<s n="7" xml:lang="la" type="auto"><persName ref="p8312" cert="high">Cochlaeus</persName> unus ex illis sciscitatus aliquando ex me fuit, quanti facerem sua scripta contra Velenum autorem, scilicet illum, qui primus omnium inter recentiores ausus fuit memoriae commendare, Petrum nunquam fuisse <placeName ref="l425" cert="high">Romae</placeName>.</s>
 					<s n="8" xml:lang="la" type="auto">Cui ego tum respondi, me posse uno ac brevi responso omnia ejus argumenta, solvere.</s>
 					<s n="9" xml:lang="la" type="auto">Ille mox haesitabundus: Et quo, inquit, pacto id fiet?</s>
 					<s n="10" xml:lang="la" type="auto">Tum ego, Credis tu, inquam, donationem illam Constantini quam jactant Pontificii revera ab ipso <placeName ref="l1148" cert="high">Constantino</placeName> factam?</s>
@@ -153,7 +129,7 @@
 					<s n="14" xml:lang="la" type="auto">Sed his bene valeat tua humanitas simulque meis verbis salutet Rodolphum Gualtherum, summum amicum meum, ac ceteros apud vos viros et pios eruditos et cum primis Joachimum Vadianum, cujus scripta libenter lego.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Joannes Caesarius ex animo totus.</s>
+					<s n="15" xml:lang="la" type="auto">Joannes <persName ref="p536" cert="high">Caesarius</persName> ex animo totus.</s>
 				</p>
 			</div>
 		</body>

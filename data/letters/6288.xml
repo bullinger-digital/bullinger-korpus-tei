@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 371,990 f.</idno>
 					</msIdentifier>
@@ -53,17 +45,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6288">
 				<correspAction type="sent">
-					<persName ref="p3655" cert="high">
-						<!--
-						<surname cert="high">von Lehwald</surname>
-						<forename cert="high">Balthasar</forename>
-						-->
-					</persName>
+					<persName ref="p3655" cert="high"/>
 					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1564-10-19" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g50" type="pl" role="Prediger" cert="high"/>
+					<orgName ref="og50pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -81,8 +68,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

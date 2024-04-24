@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 1,153-155</idno>
 					</msIdentifier>
@@ -77,17 +69,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10495">
 				<correspAction type="sent">
-					<persName ref="p2830" cert="low">
-						<!--
-						<surname cert="low">Steiner</surname>
-						<forename cert="low">Nikolaus</forename>
-						-->
-					</persName>
+					<persName ref="p2830" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1534-10-20" cert="high">[vor 20. Oktober 1534]</date>
 				</correspAction>
 				<correspAction type="received">
-					<orgName ref="i25" type="sg" role="Synode" cert="low"/>
+					<orgName ref="oi25sl587" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -106,8 +93,8 @@
 				<language ident="de" usage="993">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

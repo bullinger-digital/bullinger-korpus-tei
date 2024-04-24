@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 375,796</idno>
 					</msIdentifier>
@@ -53,28 +45,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7280">
 				<correspAction type="sent">
-					<persName ref="p8016" cert="high">
-						<!--
-						<surname cert="high">Egli (Iconius, Götz)</surname>
-						<forename cert="high">Tobias</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Tobias_Egli"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089466366"/>
-						-->
-					</persName>
+					<persName ref="p8016" cert="high"/>
 					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1567-10-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file7281"/>
@@ -100,8 +76,8 @@
 				<language ident="la" usage="985">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -138,13 +114,13 @@
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Sed si noster esse vult, pertinaces illi autores erimus, ut in hac sententia se ipsum immutet adque communem bonorum omnium consensum sese aggreget.</s>
-					<s n="15" xml:lang="la" type="auto">Nisi hoc fecerit, volupe certe erit <placeName type="auto_name">Ingadinis</placeName>, ut eum e <persName type="auto_name">Tribus Foederibus</persName> eiiciant, qui alioquin plus satis alienoribus hic faveri existimant.</s>
+					<s n="15" xml:lang="la" type="auto">Nisi hoc fecerit, volupe certe erit <placeName type="auto_name">Ingadinis</placeName>, ut eum e <placeName type="auto_name">Tribus Foederibus</placeName> eiiciant, qui alioquin plus satis alienoribus hic faveri existimant.</s>
 				</p>
 				<p>
 					<s n="16" xml:lang="la" type="auto">Quod nos fecimus nullisque neque laboribus neque sumptibus pepercimus, ut retineretur, certe bono animo fecimus et respeximus id maxime, ne tanta rei familiaris naufragia facere porro cogeretur.</s>
 					<s n="17" xml:lang="la" type="auto">Utinam bene cedat.</s>
 					<s n="18" xml:lang="la" type="auto">Haec de <persName type="auto_name">Brunnero</persName>, qui se suis acuminibus ita compupugit, ut spes sit se in posterum cautiorem futurum.</s>
-					<s n="19" xml:lang="la" type="auto">De rebus bellicis et <persName type="auto_name">Gallicis</persName> quae scripta erant, retuli ad d. consulem <persName type="auto_name">Willium</persName>, apud quem vel minima etiam ista a te exarata semper maximi est ponderis.</s>
+					<s n="19" xml:lang="la" type="auto">De rebus bellicis et <placeName type="auto_name">Gallicis</placeName> quae scripta erant, retuli ad d. consulem <persName type="auto_name">Willium</persName>, apud quem vel minima etiam ista a te exarata semper maximi est ponderis.</s>
 					<s n="20" xml:lang="la" type="auto">Avide etiam totus senatus singulis septimanis eiusmodi nova a te exspectat, miratur et optat.</s>
 					<s n="21" xml:lang="la" type="auto">Peculiariter autem d. <persName type="auto_name">Willius</persName> gratias tibi maximas agere iussit pro hoc officio nunquam satis laudando, ne dicam referendo, nec dubium est, quin bonorum animi hisce et aliis percellantur<note type="margin">a.R.: zuerst "compungantur", was gestrichen u. "percellantur" über der Zeile nachgetragen.</note>.</s>
 					<s n="22" xml:lang="la" type="auto">Imo priora quae misisti, ita consulum animos incenderunt, ut cum aliis nuper legatis constantissime ardentissimeque multorum profectiones represserint.</s>
@@ -161,12 +137,12 @@
 					<s n="29" xml:lang="la" type="auto">Publice tamen impetus primus repressus est, donec proxime, quid porro faciundum siet, de integro deliberetur.</s>
 					<s n="30" xml:lang="la" type="auto">Petiit enim legatus haberi comitia maiora.</s>
 					<s n="31" xml:lang="la" type="auto">At nostri responderunt, si velit haberi, suis impensis conscribi curet.</s>
-					<s n="32" xml:lang="la" type="auto">Indicta ergo sunt <persName type="auto_name">Galli</persName> impensis ad 1. novembris hic <placeName ref="l98" cert="high">Curiae</placeName>.</s>
+					<s n="32" xml:lang="la" type="auto">Indicta ergo sunt <placeName type="auto_name">Galli</placeName> impensis ad 1. novembris hic <placeName ref="l98" cert="high">Curiae</placeName>.</s>
 					<s n="33" xml:lang="la" type="auto">Tunc audiemus, quid futurum sit.</s>
-					<s n="34" xml:lang="la" type="auto">Dici non potest, quantum festinaverit <persName type="auto_name">Galli</persName> legatus; cupiit antevertere omne tempus morandi.</s>
+					<s n="34" xml:lang="la" type="auto">Dici non potest, quantum festinaverit <placeName type="auto_name">Galli</placeName> legatus; cupiit antevertere omne tempus morandi.</s>
 					<s n="35" xml:lang="la" type="auto">"Res", dicebat interpres, "nullam admittit moram.</s>
 					<s n="36" xml:lang="la" type="auto">Ad arma, ad arma!</s>
-					<s n="37" xml:lang="la" type="auto"><placeName type="auto_name">Hostis</placeName> habet muros" etc.</s>
+					<s n="37" xml:lang="la" type="auto">Hostis habet muros" etc.</s>
 					<s n="38" xml:lang="la" type="auto">Me quoque convenerat persuasurus non religionem, sed rebelles et perfidos impugnari.</s>
 					<s n="39" xml:lang="la" type="auto">Ego suis verbis et laqueis hunc captavi suoque gladio iugulavi affirmans non alium hostem praeter religionem oppugnari idque multis argumentis probavi.</s>
 					<s n="40" xml:lang="la" type="auto">Tandem, cum me ad pacem colendam hortatus esset, discessit non sine obtestatione me paci non defuturum, quantum per verbum dei liceret.</s>

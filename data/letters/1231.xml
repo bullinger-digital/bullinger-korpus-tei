@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 370,135 f.</idno>
 					</msIdentifier>
@@ -50,14 +42,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 74,146</idno>
 					</msIdentifier>
@@ -67,30 +51,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1231">
 				<correspAction type="sent">
-					<persName ref="p8018" cert="high">
-						<!--
-						<surname cert="high">Haller d.J.</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/1430_Haller_dJ_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Haller_der_J%C3%BCngere"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136925588"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
-						-->
-					</persName>
+					<persName ref="p8018" cert="high"/>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1551-04-01" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -114,12 +80,12 @@
 			</correspDesc>
 			<langUsage>
 				<language ident="el" usage="4">Griechisch</language>
-				<language ident="de" usage="451">Deutsch</language>
-				<language ident="la" usage="545">Latein</language>
+				<language ident="de" usage="449">Deutsch</language>
+				<language ident="la" usage="547">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -146,7 +112,7 @@
 					<s n="4" xml:lang="la" type="auto">Loquutus sum iam cum aliquot ex senatoribus, qui bonam mihi spem faciunt.</s>
 					<s n="5" xml:lang="la" type="auto">Exemplar est paratum, sed hac septimana offerri non potest propter multas reipublicae in novo magistratu eligendo occupationes; proxima tamen id fiet hebdomada; tu orabis nobiscum, ut succedat.</s>
 					<s n="6" xml:lang="la" type="auto">Quod scribis in Angliam illum vocandum, ab ea re non tam metuo quam a <placeName ref="l28" cert="high">Basiliensi</placeName> vocatione; in Angliam vix se dabit, cum, ut audimus, rerum status valde sit adhuc ibi anceps.</s>
-					<s n="7" xml:lang="la" type="auto">Recensuit enim hisce diebus nobis <persName type="auto_name">Antonius Schorus</persName> Antverpiensis, vir doctissimus et propter evangelium ex patria exul, professor aliquando <placeName type="auto_name">Heidelbergensis</placeName>, nunc <placeName ref="l280" cert="high">Lausannae</placeName> agens, pro certo d. Hoperum nostrum esse captum, quod se noluerit reliquis episcopis in vestitu et quibusdam ceremoniis accommodare, idque ait per certum nuncium ex Anglia Lausanam ad sororem uxoris Hoperi esse perlatum, quae illic agit.</s>
+					<s n="7" xml:lang="la" type="auto">Recensuit enim hisce diebus nobis <persName type="auto_name">Antonius Schorus</persName> Antverpiensis, vir doctissimus et propter evangelium ex patria exul, professor aliquando <placeName type="auto_name">Heidelbergensis</placeName>, nunc <placeName ref="l280" cert="high">Lausannae</placeName> agens, pro certo d. <persName ref="p1560" cert="high">Hoperum</persName> nostrum esse captum, quod se noluerit reliquis episcopis in vestitu et quibusdam ceremoniis accommodare, idque ait per certum nuncium ex Anglia Lausanam ad sororem uxoris <persName ref="p1560" cert="high">Hoperi</persName> esse perlatum, quae illic agit.</s>
 					<s n="8" xml:lang="la" type="auto">Quod si verum est, doleo non modo propter ipsum, sed propter commune malum.</s>
 					<s n="9" xml:lang="la" type="auto">Ex <placeName ref="l28" cert="high">Basilaea</placeName> etiam scribitur pro certo <persName ref="p467" cert="high">Bucerum</persName> esse mortuum nec sine suspitione veneni et Fagium et ipsum obiisse.</s>
 					<s n="10" xml:lang="la" type="auto">Haec faciunt, ut vix patiatur se illuc pertrahi <persName ref="p8417" cert="high">Musculus</persName>.</s>

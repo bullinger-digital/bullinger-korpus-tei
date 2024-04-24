@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,101</idno>
 					</msIdentifier>
@@ -54,14 +46,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 76,104</idno>
 					</msIdentifier>
@@ -71,30 +55,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1497">
 				<correspAction type="sent">
-					<persName ref="p8109" cert="high">
-						<!--
-						<surname cert="high">Ulmer (von Ulm, ab Ulmis)</surname>
-						<forename cert="high">Johann Konrad</forename>
-						<graphic type="portrait" url="portraits/3243_Ulmer_Johann_Conrad.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Konrad_Ulmer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/120341913"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417219"/>
-						-->
-					</persName>
+					<persName ref="p8109" cert="high"/>
 					<placeName source="l376" cert="high"><orig>Oxford</orig></placeName>
 					<date when="1551-12-04" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -121,8 +87,8 @@
 				<language ident="la" usage="968">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -191,14 +157,14 @@
 					<s n="28" xml:lang="la" type="auto">Gratum ac iucundum utrique vestrum fore certo scio, si literarum scriptione inter vos mutuam coniunctionem contraxeritis.</s>
 					<s n="29" xml:lang="la" type="auto">Tu et aetate et iudicio prior es, is et doctrina et gratia apud regem valet plurimum.</s>
 					<s n="30" xml:lang="la" type="auto">A te praeclare sum commendatus, ab illo vero multis modis adiutus atque auctus.</s>
-					<s n="31" xml:lang="la" type="auto">Argumentum igitur ad <placeName type="auto_name">Chekum</placeName> scribendi, si nullum aliud occurrat, hoc esto.</s>
+					<s n="31" xml:lang="la" type="auto">Argumentum igitur ad <persName ref="p591" cert="high">Chekum</persName> scribendi, si nullum aliud occurrat, hoc esto.</s>
 				</p>
 				<p>
 					<s n="32" xml:lang="la" type="auto">Patrueles meos, cum superioribus mensibus huc venissent, tua causa humaniter in regis aula convivio bis accepit, de te multa et s. <persName ref="p8127" cert="high">Pellicano</persName> amanter interrogans; saepius alterutrum vestrum his in locis videre exoptavit.</s>
 					<s n="33" xml:lang="la" type="auto">Deinde is pene solus unica extitit causa, quod in collegium regis sum cooptatus, nemine pro me intercedente nisi solo <persName type="auto_name">Treherno</persName>, qui me sibi a te commendatum affirmabat.</s>
 					<s n="34" xml:lang="la" type="auto">Novissime <persName ref="p17777" cert="high">Alexandri</persName> causam a <persName type="auto_name">Hupero</persName><note xml:id="fn1" type="footnote" n="1">Hooper.</note> inceptam se tua causa apud Warwicensem ad finem ducturum constanter est pollicitus.</s>
 					<s n="35" xml:lang="la" type="auto">Verum eius tuae commendationis fructus nullos optimus adolescens expectabit, donec principi promissa exolveris: tum enim res sua sponte, salva tua dignitate, integro item pudore <placeName type="auto_name">Alexandri</placeName>, confici poterit.</s>
-					<s n="36" xml:lang="la" type="auto">Tu nihil a <persName type="auto_name">Cheko</persName> petes, sed duntaxat facies ut intelligat nos haud immemores neque ingratos utrique vestrum extitisse.</s>
+					<s n="36" xml:lang="la" type="auto">Tu nihil a <persName ref="p591" cert="high">Cheko</persName> petes, sed duntaxat facies ut intelligat nos haud immemores neque ingratos utrique vestrum extitisse.</s>
 					<s n="37" xml:lang="la" type="auto">Honorifice patris <persName ref="p17777" cert="high">Alexandri</persName> meminisse poteris in tua ad eum epistola, acceptumque tibi esse, quod suum studium et operam clarissimi viri filio tuam ob causam amanter detulerit, dices.</s>
 				</p>
 				<p>
@@ -224,9 +190,9 @@
 					<s n="51" xml:lang="la" type="auto">De <persName type="auto_name">Hupero</persName> multa ex <persName type="auto_name">Stumphio</persName> cognosces, ex me haec pauca.</s>
 					<s n="52" xml:lang="la" type="auto">Is superioribus diebus a quibusdam cum accusaretur in plebeios ac tabernarios homines iudex severus, in nobiles vero dissolutus et indulgens, "Fratres", inquit, "velim primum quemque nobilem adducatis, quem vel scortatione vel adulterio depraehensum certis testibus comprobare possitis: ni effecero, ut intelligatis ex aequo me in omnes animadvertere, extremo supplicio mortis me afficitote."</s>
 					<s n="53" xml:lang="la" type="auto">Accidit aliquot dies post, ut <persName type="auto_name">Antonius Kingston</persName>, auratus miles, vir magni nominis, de adulterio apud Huperum accusaretur.</s>
-					<s n="54" xml:lang="la" type="auto">Hoperus eum ad se vocat; miles primum negat se venturum, tandem persuasus spe impunitatis, puto, accessit episcopum, a quo cum gravius taxaretur, alapam ei in conspectu inflixit populi, conviciisque insectatus est eum graviter.</s>
+					<s n="54" xml:lang="la" type="auto"><persName ref="p1560" cert="high">Hoperus</persName> eum ad se vocat; miles primum negat se venturum, tandem persuasus spe impunitatis, puto, accessit episcopum, a quo cum gravius taxaretur, alapam ei in conspectu inflixit populi, conviciisque insectatus est eum graviter.</s>
 					<s n="55" xml:lang="la" type="auto"><persName ref="p1560" cert="high">Hoperus</persName> rem omnem defert ad magistratum.</s>
-					<s n="56" xml:lang="la" type="auto">Consiliarii hominem ad se statim vocant, atque ita dignis modis tractant, ut melius illi fuisset quidvis aliud sustinere, quam poenam a magistratu sibi irrogatam; nam et quingentis libris extemplo punitur, et <persName type="auto_name">Hopero</persName> tractandus iuxta morem et consuetudinem committitur, quod genus poenae omnium est turpissimum ac foedissimum.</s>
+					<s n="56" xml:lang="la" type="auto">Consiliarii hominem ad se statim vocant, atque ita dignis modis tractant, ut melius illi fuisset quidvis aliud sustinere, quam poenam a magistratu sibi irrogatam; nam et quingentis libris extemplo punitur, et <persName ref="p1560" cert="high">Hopero</persName> tractandus iuxta morem et consuetudinem committitur, quod genus poenae omnium est turpissimum ac foedissimum.</s>
 				</p>
 				<p>
 					<s n="57" xml:lang="la" type="auto">Extremum illud erit, ut quamprimum praestes <placeName type="auto_name">Warwizensi</placeName> promissa tua; deinde ut ad <persName type="auto_name">Iohannem Chekum</persName> scribas.</s>
@@ -239,7 +205,7 @@
 					<s n="62" xml:lang="la" type="auto">Plura et, uti spero, gratiora tibi proximis literis mittam.</s>
 					<s n="63" xml:lang="la" type="auto"><persName ref="p8111" cert="high">Petrus Martyr</persName> omnia ad voluntatem tuam est facturus.</s>
 					<s n="64" xml:lang="la" type="auto">Diligenter iussit ut tibi caeterisque ecclesiae ministris salutem suo nomine scribam.</s>
-					<s n="65" xml:lang="la" type="auto"><persName type="auto_name">Oxonii</persName>, pridie nonas decembris, 1551.</s>
+					<s n="65" xml:lang="la" type="auto"><placeName ref="l376" cert="high">Oxonii</placeName>, pridie nonas decembris, 1551.</s>
 				</p>
 				<p>
 					<s n="66" xml:lang="la" type="auto">Tuae amplitudini addictissimus, <persName type="auto_name">Iohannes ab Ulmis</persName>.</s>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Verweis" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,26-28</idno>
 					</msIdentifier>
@@ -65,14 +57,6 @@
 				</msDesc>
 				<msDesc type="Verweis" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 75,135</idno>
 					</msIdentifier>
@@ -82,29 +66,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1364">
 				<correspAction type="sent">
-					<persName ref="p1560" cert="high">
-						<!--
-						<surname cert="high">Hooper</surname>
-						<forename cert="high">John</forename>
-						<graphic type="portrait" url="portraits/1560_Hooper_John.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/John_Hooper"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119121492"/>
-						-->
-					</persName>
+					<persName ref="p1560" cert="high"/>
 					<placeName source="l177" cert="high"><orig>Gloucester</orig></placeName>
 					<date when="1551-08-01" cert="high"><note>vgl.: 1550 Dez. bzw. richtiger: ca. 7. Jan. 1551 (= ID 1143)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -131,8 +98,8 @@
 				<language ident="la" usage="999">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -220,10 +187,10 @@
 					<s n="41" xml:lang="la" type="auto">Nosti, quod patrię sumus nati et non nobis ipsis: quod si res secus haberet, non fungerer episcopi munere.</s>
 					<s n="42" xml:lang="la" type="auto">Saltem rogabis, ut semel nos in <placeName type="auto_name">Anglia</placeName> invisat, et per nos intelliget, qua via et ratione sibi et suis commode prospici possit.</s>
 					<s n="43" xml:lang="la" type="auto">Dominus Iesus servet te diu ad gloriam sui nominis.</s>
-					<s n="44" xml:lang="la" type="auto">Gloucestrię, calendas augusti, 1551.</s>
+					<s n="44" xml:lang="la" type="auto"><placeName ref="l177" cert="high">Gloucestrię</placeName>, calendas augusti, 1551.</s>
 				</p>
 				<p>
-					<s n="45" xml:lang="la" type="auto">Tui, ut olim et diu, frater et compater amantissimus, <persName ref="p1560" cert="high">Ioannes Hoperus</persName>, Gloucestrię ecclesię episcopus.</s>
+					<s n="45" xml:lang="la" type="auto">Tui, ut olim et diu, frater et compater amantissimus, <persName ref="p1560" cert="high">Ioannes Hoperus</persName>, <placeName ref="l177" cert="high">Gloucestrię</placeName> ecclesię episcopus.</s>
 				</p>
 				<p>
 					<s n="46" xml:lang="la" type="auto">Dedi huic studioso, qui literas meas ad te adfert, et socio suo, Tigurinis, quadraginta quinque coronas Anglicas mutuo.</s>
@@ -231,7 +198,7 @@
 				<p>
 					<s n="47" xml:lang="la" type="auto">Si placet ut aequo precio pro illis libros Tiguri impressos, maxime qui tua opera continent, ad me mittatis, faceretis mihi rem gratam.</s>
 					<s n="48" xml:lang="la" type="auto">Si Tigurini, qui huc studii gratia migrent, mea opera indigeant, illis pro mea tenuitate adero.</s>
-					<s n="49" xml:lang="la" type="auto">Pro tuis ad me libris et literis summas ac aeternas habeo gratias<note type="margin">a.R.: ... B. s...: P..</note><note type="misc">das Folgende auf einem bes. halbem Blatt.</note>.</s>
+					<s n="49" xml:lang="la" type="auto">Pro tuis ad me libris et literis summas ac aeternas habeo gratias<note type="margin">a.R.: ... B. s...: P.. das Folgende auf einem bes. halbem Blatt.</note>.</s>
 					<s n="50" xml:lang="la" type="auto">Ubi e periculorum fluctubus fuero emersus, colendissime ac doctissime compater, proprium nuntium, per quem mea omnia intelligas, mittam.</s>
 					<s n="51" xml:lang="la" type="auto">Quod tuarum literarum, quas sępius deosculor, nullam facio mentionem, nulla admiratione ducaris, precor: nec tui nec tuorum in me beneficiorum possem esse immemor.</s>
 					<s n="52" xml:lang="la" type="auto">Quia de re et quomodo inter episcopos et me tam atrox lis et contentiosa incepta fuit<note type="margin">a.R.: fuit? (fuerit)</note>, olim intelliges.</s>

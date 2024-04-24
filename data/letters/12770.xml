@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 370,526 f.</idno>
 						<altIdentifier>
@@ -195,30 +187,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12770">
 				<correspAction type="sent">
-					<persName ref="p8018" cert="high">
-						<!--
-						<surname cert="high">Haller d.J.</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/1430_Haller_dJ_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Haller_der_J%C3%BCngere"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136925588"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
-						-->
-					</persName>
+					<persName ref="p8018" cert="high"/>
 					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 					<date when="1546-12-23" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12771"/>
@@ -244,8 +218,8 @@
 				<language ident="la" usage="909">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -285,7 +259,7 @@
 					<s n="9" xml:lang="la" type="auto"><placeName ref="l513" cert="high">Ulmenses</placeName> cum caesare<note xml:id="fn5" type="footnote" n="5"><persName ref="p18538" cert="high">Karl V.</persName> - Zur Unterwerfung <placeName ref="l513" cert="high">Ulms</placeName> s. die Verweise in <ref target="file12769">Nr. 2722</ref>, Anm. 35.</note> convenere.</s>
 					<s n="10" xml:lang="la" type="auto">Volunt esse neutrales.</s>
 					<s n="11" xml:lang="la" type="auto">Idem facit dux Wirtenbergensis.<note xml:id="fn6" type="footnote" n="6"><persName ref="p9780" cert="high">Herzog Ulrich von Württemberg</persName>; s. dazu <ref target="file12756">Nr. 2709</ref>, Anm. 14.</note></s>
-					<s n="12" xml:lang="la" type="auto">Caesar hodie (ut certo narratur) <placeName ref="l496" cert="high">Stutgardiae</placeName> agit.<note xml:id="fn7" type="footnote" n="7">Am 23. Dezember brach der Kaiser erst von <placeName ref="l964" cert="high">Schwäbisch Hall</placeName> auf, s. <ref target="file12769">Nr. 2722</ref>, Anm. 45. Man erwartete aber, dass er <placeName ref="l496" cert="high">Stuttgart</placeName> angreifen würde; vgl. <bibl>NBD</bibl> IX 406. 409.</note></s>
+					<s n="12" xml:lang="la" type="auto"><persName ref="p18846" cert="high">Caesar</persName> hodie (ut certo narratur) <placeName ref="l496" cert="high">Stutgardiae</placeName> agit.<note xml:id="fn7" type="footnote" n="7">Am 23. Dezember brach der Kaiser erst von <placeName ref="l964" cert="high">Schwäbisch Hall</placeName> auf, s. <ref target="file12769">Nr. 2722</ref>, Anm. 45. Man erwartete aber, dass er <placeName ref="l496" cert="high">Stuttgart</placeName> angreifen würde; vgl. <bibl>NBD</bibl> IX 406. 409.</note></s>
 					<s n="13" xml:lang="la" type="auto">Sequitur eos<note xml:id="fn8" type="footnote" n="8">Nämlich <placeName ref="l513" cert="high">Ulm</placeName> und dem Herzog.</note> maxima superiorum<note xml:id="fn9" type="footnote" n="9">D.h. der süddeutschen (Städte). - Vgl. <ref target="file12771">Nr. 2724</ref>,5-8; <ref target="file12773">Nr. 2725</ref>,37-42.</note> civitatum pars.</s>
 					<s n="14" xml:lang="la" type="auto">Sola <placeName ref="l1976" cert="high">Augusta</placeName> iam relinquitur hosti.<note xml:id="fn10" type="footnote" n="10">D.h. dem Kaiser. - Zu <placeName ref="l1976" cert="high">Augsburgs</placeName> Haltung s. <ref target="file12773">Nr. 2725</ref>, Anm. 16.</note></s>
 					<s n="15" xml:lang="la" type="auto">Abierunt principes.<note xml:id="fn11" type="footnote" n="11">Die Häupter des Schmalkaldischen Bundes, Kurfürst <persName ref="p19065" cert="high">Johann Friedrich von Sachsen</persName> und Landgraf <persName ref="p18574" cert="high">Philipp von Hessen</persName>. - Zu deren Routen bei ihrem Abzug s. <ref target="file12747">Nr. 2700</ref>, Anm. 5, und <ref target="file12749">Nr. 2702</ref>, Anm. 21.</note></s>
@@ -426,7 +400,7 @@
 			</div>
 			<div xml:id="div11" corresp="regest11">
 				<p>
-					<s n="121" xml:lang="la" type="auto">De expeditione Turcica dixit mihi d. Stanggarus compertum esse eam parari.</s>
+					<s n="121" xml:lang="la" type="auto">De expeditione Turcica dixit mihi d. <persName ref="p3018" cert="high">Stanggarus</persName> compertum esse eam parari.</s>
 					<s n="122" xml:lang="la" type="auto">Scriptum est etiam idem nuper ex <placeName ref="l522" cert="high">Venetiis</placeName>, sicut in superioribus tibi scripsi literis,<note xml:id="fn77" type="footnote" n="77">In <ref target="file12759">Nr. 2712</ref>,34f, vom 10. Dezember. - Zur Angelegenheit s. <ref target="file12773">Nr. 2725</ref>, Anm. 21.</note> quas interim te recepisse puto.</s>
 				</p>
 			</div>
@@ -442,7 +416,7 @@
 			</div>
 			<div xml:id="div13" corresp="regest13">
 				<p>
-					<s n="129" xml:lang="la" type="auto">Videor mihi videre huius rei exitum: Caesar non grassatur in evangelium nec ob hanc causam se suscepisse ait bellum; libere permittit concionari.<note xml:id="fn86" type="footnote" n="86">Zu diesem und zum Folgenden vgl. <ref target="file12757">Nr. 2710</ref>,22-25. 56f; <ref target="file12760">Nr. 2713</ref>,15f; <ref target="file12777">Nr. 2729</ref>,14-20; <ref target="file12780">Nr. 2731</ref>,10f.</note></s>
+					<s n="129" xml:lang="la" type="auto">Videor mihi videre huius rei exitum: <persName ref="p18846" cert="high">Caesar</persName> non grassatur in evangelium nec ob hanc causam se suscepisse ait bellum; libere permittit concionari.<note xml:id="fn86" type="footnote" n="86">Zu diesem und zum Folgenden vgl. <ref target="file12757">Nr. 2710</ref>,22-25. 56f; <ref target="file12760">Nr. 2713</ref>,15f; <ref target="file12777">Nr. 2729</ref>,14-20; <ref target="file12780">Nr. 2731</ref>,10f.</note></s>
 					<s n="130" xml:lang="la" type="auto">At postquam ita subegerit omnia, tum concludet concilium Tridentinum omnesque haereticos illos igni adiudicabit.</s>
 					<s n="131" xml:lang="la" type="auto">Tum demum vera incipiet persequutio.</s>
 					<s n="132" xml:lang="la" type="auto">Tum probabuntur electi.<note xml:id="fn87" type="footnote" n="87">Vgl. <cit type="bible"><ref>Dan 12, 1</ref></cit>; <cit type="bible"><ref>Mt 24, 14. 21f par.</ref></cit></note></s>

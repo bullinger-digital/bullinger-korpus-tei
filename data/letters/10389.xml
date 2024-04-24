@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,320</idno>
 					</msIdentifier>
@@ -54,7 +46,7 @@
 								<placeName ref="l280" cert="high">Lausanne</placeName> entscheiden. <persName ref="p1391" cert="high">Haller</persName>
 								vermutet einen Plan der Katholiken: Die <placeName ref="l167" cert="high">Genfer</placeName> sollten wegen des
 								Glaubens angegriffen werden, damit <placeName ref="l2448" cert="high">die V Orte</placeName> und die
-								<placeName ref="l791" cert="high">Walliser</placeName> den Bernern, die
+								<placeName ref="l791" cert="high">Walliser</placeName> den <placeName ref="l41" cert="high">Bernern</placeName>, die
 								<placeName ref="l167" cert="high">Genf</placeName> beschützen mußten, umso leichter in den Rücken fallen
 								könnten. Die vier reformierten «Banditen» von <placeName ref="l760" cert="high">Solothurn</placeName>, die sich
 								auf bernischem Gebiet aufhalten, werden von den Eidgenossen zum Anlaß genommen, den Krieg anzufangen.
@@ -81,30 +73,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10389">
 				<correspAction type="sent">
-					<persName ref="p1391" cert="high">
-						<!--
-						<surname cert="high">Haller</surname>
-						<forename cert="high">Berchtold</forename>
-						<graphic type="portrait" url="portraits/1391_Haller_Berchtold.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Berchtold_Haller"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/104180536"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413862"/>
-						-->
-					</persName>
+					<persName ref="p1391" cert="high"/>
 					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1534-04-18" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10390"/>
@@ -129,8 +103,8 @@
 				<language ident="de" usage="550">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

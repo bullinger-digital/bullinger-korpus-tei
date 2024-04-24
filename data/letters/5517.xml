@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 371,925-930</idno>
 					</msIdentifier>
@@ -58,28 +50,12 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 106,4</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 106,3</idno>
 					</msIdentifier>
@@ -89,29 +65,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5517">
 				<correspAction type="sent">
-					<persName ref="p8491" cert="high">
-						<!--
-						<surname cert="high">Paklepka (Paclesius)</surname>
-						<forename cert="high">Stanislaus</forename>
-						-->
-					</persName>
-					<persName ref="p8480" cert="high">
-						<!--
-						<surname cert="high">Krowicki (Crovitius)</surname>
-						<forename cert="high">Martin (Marcin)</forename>
-						-->
-					</persName>
-					<persName ref="p8294" cert="high">
-						<!--
-						<surname cert="high">Zytno (Zitinius, Zitnius)</surname>
-						<forename cert="high">Nikolaus (Mikolaj)</forename>
-						-->
-					</persName>
+					<persName ref="p8491" cert="high"/>
+					<persName ref="p8480" cert="high"/>
+					<persName ref="p8294" cert="high"/>
 					<placeName source="l298" cert="high"><orig>Lublin</orig></placeName>
 					<date when="1562-11-21" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -128,8 +89,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

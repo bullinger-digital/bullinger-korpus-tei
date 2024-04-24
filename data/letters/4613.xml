@@ -24,14 +24,6 @@
 				<bibl type="scan">StAGR</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a24">
-							<name>StAGR</name>
-							<ref target="https://www.gr.ch/DE/institutionen/verwaltung/ekud/afk/sag/Seiten/start.aspx"/>
-						</repository>
-						<settlement ref="l98">Chur</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a24"/>
 						<idno subtype="Autograph">B 1818</idno>
 						<altIdentifier>
@@ -63,30 +55,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4613">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1561-01-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8432" cert="low">
-						<!--
-						<surname cert="low">von Salis (a Salize, de Salicibus)</surname>
-						<forename cert="low">Friedrich</forename>
-						<graphic type="portrait" url="portraits/3704_Salis_Wappen.png"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Salis_%28Adelsgeschlecht%29"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119041782"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11456135"/>
-						-->
-					</persName>
+					<persName ref="p8432" cert="low"/>
 					<placeName source="l93" cert="low"><orig>Chiavenna</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -112,8 +86,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -133,16 +107,16 @@
 					<s n="3" xml:lang="la" type="auto">Gavisus sum visis tuis ultimis datis 27. decembris; verum, mi domine et frater, quid in hoc negotio valeat mea auctoritas, in quo res ita sunt desperatae, ut remedium respuant?</s>
 					<s n="4" xml:lang="la" type="auto">Ego totis animis libenter impedirem, si possem, bellum civile, ac nostri non indigent ullo freno; ipsi enim ab hoc abhorrent.</s>
 					<s n="5" xml:lang="la" type="auto">Sed quid facias illis, qui nullis possunt cicurari?</s>
-					<s n="6" xml:lang="la" type="auto">Furiunt, ius dare et recipere nolunt, socios Claronenses exstirpare volunt nihil aliud quam ius et aequitatem postulantes.</s>
+					<s n="6" xml:lang="la" type="auto">Furiunt, ius dare et recipere nolunt, socios <placeName ref="l646" cert="high">Claronenses</placeName> exstirpare volunt nihil aliud quam ius et aequitatem postulantes.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">An hic iubeam magistratum amplissimum reipublicae nostrae et populum deserere socios auxilium implorantes, an iubeam foedera nostros violare et susque deque ferre, si opprimantur socii Claronenses innoxii?</s>
+					<s n="7" xml:lang="la" type="auto">An hic iubeam magistratum amplissimum reipublicae nostrae et populum deserere socios auxilium implorantes, an iubeam foedera nostros violare et susque deque ferre, si opprimantur socii <placeName ref="l646" cert="high">Claronenses</placeName> innoxii?</s>
 					<s n="8" xml:lang="la" type="auto">Vivit et vendicat, qui fidem nos datam servare iubet.</s>
 					<s n="9" xml:lang="la" type="auto">Vere enim tibi dico coram domino: neminem hactenus audivi, qui non deploret sortem nostram infelicem et bellum deprecetur; rursus si ius et aequum impetrari non possit, illi vero bonis vim inferre, uti minantur, pergant, nemo est omnium, qui non indignissime ferat.</s>
 					<s n="10" xml:lang="la" type="auto">Et quis tandem finis iniuriarum et petulantiae exemplo carentis?</s>
 					<s n="11" xml:lang="la" type="auto">Verum dominus, qui omnia in sua manu habet, quid futurum sit, novit.</s>
 					<s n="12" xml:lang="la" type="auto">Hunc orandum sedulo pro pace doceo, ad bellum non incito aut provoco; sed rursus non iubeo caedem ociosi spectent innoxiorum.</s>
-					<s n="13" xml:lang="la" type="auto">Videbis, mi <persName type="auto_name">Frideryche</persName>, hoc negotium non esse inceptum propter Claronenses; vestra quoque nostraque res agitur; fidem synceram extinguere quidam volunt.</s>
+					<s n="13" xml:lang="la" type="auto">Videbis, mi <persName type="auto_name">Frideryche</persName>, hoc negotium non esse inceptum propter <placeName ref="l646" cert="high">Claronenses</placeName>; vestra quoque nostraque res agitur; fidem synceram extinguere quidam volunt.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Dominus exercituum<note xml:id="fn1" type="footnote" n="1">Gott Zebaoth (vgl. <bibl>Otto</bibl> <hi>Eißfeldt,</hi> in: RGG VI 1875f).</note> convertat eos ad se vel subvertat eos, ut pii laudent dominum et vivant in pace!</s>

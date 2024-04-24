@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 40,169-170</idno>
 						<idno subtype="Hinweis">Schieß chron.: ... 170</idno>
@@ -51,14 +43,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 73,158</idno>
 					</msIdentifier>
@@ -68,29 +52,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1077">
 				<correspAction type="sent">
-					<persName ref="p2639" cert="high">
-						<!--
-						<surname cert="high">Poullain</surname>
-						<forename cert="high">Valérand</forename>
-						<note type="person">«Ex aula regis Angliae»</note>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Val%C3%A9rand_Poullain"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089479751"/>
-						-->
-					</persName>
+					<persName ref="p2639" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1550-11-13" cert="high"><note>Schieß chron. und Alphab.: 10.</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -111,8 +78,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -136,7 +103,7 @@
 					<s n="1" xml:lang="la" type="auto">S. P.</s>
 					<s n="2" xml:lang="la" type="auto">Cum nuper librum tuum quartam decadem sermonum d. <persName type="auto_name">eleemosynario</persName> darem, rogavit, ut has literas suas per fidum aliquem virum ad te mitterem.</s>
 					<s n="3" xml:lang="la" type="auto">Id quod curavi lubens, cum ob alia multa, tum quod te optarim quam sępissime ad illum scribere.</s>
-					<s n="4" xml:lang="la" type="auto">Est enim inter Anglos omnes, quos novi, in amicitia constantissimus; quantus autem studiorum mecoenas, id quia ex tuis, qui sunt <persName type="auto_name">Oxonii</persName> potes cognoscere, mitto dicere.</s>
+					<s n="4" xml:lang="la" type="auto">Est enim inter Anglos omnes, quos novi, in amicitia constantissimus; quantus autem studiorum mecoenas, id quia ex tuis, qui sunt <placeName ref="l376" cert="high">Oxonii</placeName> potes cognoscere, mitto dicere.</s>
 					<s n="5" xml:lang="la" type="auto">Porro non ultima est huius viri autoritas in hoc regno, qui hoc etiam negotii iam pridem a senatu summo accepit cum aliis episcopis, ut ceremonias ac totam rem ecclesiasticam corrigerent ac melius instituerent.</s>
 					<s n="6" xml:lang="la" type="auto">Quantum adhuc desit, facile videmus nos, qui non tantum ex verbo, sed etiam experientia, qualisnam esse debeat ecclesia, novimus; sed ipsi non negant.</s>
 					<s n="7" xml:lang="la" type="auto">Attamen huc usque progressos non indignum laude arbitror.</s>

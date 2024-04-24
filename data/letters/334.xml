@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,199</idno>
 					</msIdentifier>
@@ -43,14 +35,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 76,64</idno>
 						<idno subtype="Hinweis">eingeordnet 1. Nov. [1551]</idno>
@@ -61,26 +45,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/334">
 				<correspAction type="sent">
-					<persName ref="p8290" cert="low">
-						<!--
-						<surname cert="low">von Ulm d.J.</surname>
-						<forename cert="low">Heinrich</forename>
-						-->
-					</persName>
+					<persName ref="p8290" cert="low"/>
 					<placeName source="l376" cert="low"><orig>Oxford</orig></placeName>
 					<date when="1548-11-01" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -96,8 +66,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -117,7 +87,7 @@
 					<s n="3" xml:lang="la" type="auto">Scis enim cum quae tempora profectionem meam haud ita longo intervallo sint consecuta, tum vero quod meum non sit inanibus literis viros doctos ac praeclaros colere, eos praesertim, quibus a republica non satis otii esse exploratum habeam.</s>
 					<s n="4" xml:lang="la" type="auto">Quo quidem in numero cum te unum ex omnibus distentissimum esse scirem, non oblivione tui neque negligentia mea nullas tibi adhuc misi literas, sed quia nihil plane haberem, de quo ad te hominem occupatissimum tam longe gentium scribendum existimarem.</s>
 					<s n="5" xml:lang="la" type="auto">Verum de mea erga te observantia dabuntur, spero, ea aliquando a me signa, quibus facile iudicaturus sis tam hic a me tui memoriam summa cum benevolentia cultam esse quam et summa tua dignitas et singularis tuus erga me amor postulare videantur.</s>
-					<s n="6" xml:lang="la" type="auto">Interim de eo tecum agam, quod me nunc ad has tibi scribendum literas potissimum adduxit: est D. D. <persName ref="p8111" cert="high">Petrus Martyr</persName>, vir sane longe doctissimus, simul ac D. D. <persName type="auto_name">Richardus Coxus</persName>, huius nostrae academiae cancellarius, quibus ego fraterque meus a te sumus commendatis.</s>
+					<s n="6" xml:lang="la" type="auto">Interim de eo tecum agam, quod me nunc ad has tibi scribendum literas potissimum adduxit: est D. D. <persName ref="p8111" cert="high">Petrus Martyr</persName>, vir sane longe doctissimus, simul ac D. D. <persName ref="p672" cert="high">Richardus Coxus</persName>, huius nostrae academiae cancellarius, quibus ego fraterque meus a te sumus commendatis.</s>
 					<s n="7" xml:lang="la" type="auto">Operam, diligentiam, studium denique eorum maximopere nobis pollicentur, ita ut nihil nobis defuturum confidam, quin omnia tui causa promptissime sint facturi.</s>
 					<s n="8" xml:lang="la" type="auto">Pro quibus itaque tibi ago gratias, et utinam occasio nobis retribuendi daretur; promptos quidem ac benevolos nos semper invenies.</s>
 				</p>
@@ -126,7 +96,7 @@
 					<s n="10" xml:lang="la" type="auto">Valebis itaque, doctissime vir, et literas meas leviter scriptas boni consule.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Datae <persName type="auto_name">Oxonii</persName> primo Novembris.</s>
+					<s n="11" xml:lang="la" type="auto">Datae <placeName ref="l376" cert="high">Oxonii</placeName> primo Novembris.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto"><persName type="auto_name">Henricus ab Ulmis</persName> tibi addictissimus.</s>

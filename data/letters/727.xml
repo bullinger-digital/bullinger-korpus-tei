@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2124</idno>
 					</msIdentifier>
@@ -43,14 +35,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 71,144</idno>
 					</msIdentifier>
@@ -60,27 +44,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/727">
 				<correspAction type="sent">
-					<persName ref="p3481" cert="high">
-						<!--
-						<surname cert="high">Vogt</surname>
-						<forename cert="high">Simprecht</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089422717"/>
-						-->
-					</persName>
+					<persName ref="p3481" cert="high"/>
 					<placeName source="l441" cert="high"><orig>Schaffhausen</orig></placeName>
 					<date when="1549-10-29" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -105,8 +74,8 @@
 				<language ident="la" usage="993">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -126,7 +95,7 @@
 					<s n="3" xml:lang="la" type="auto">non ausus fuissem vel per somnium sperare tantum thesaurum mihi communicatum iri, nisi antea saepius tuam in omnes pios humanitatem expertus essem.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Praeterea audaculum fecit in symmystas meos, praesertim Iacobum nostrum, tua tam prompta benignitas, imo per ipsum erga nos omneis oblata.</s>
+					<s n="4" xml:lang="la" type="auto">Praeterea audaculum fecit in symmystas meos, praesertim <persName type="auto_name">Iacobum</persName> nostrum, tua tam prompta benignitas, imo per ipsum erga nos omneis oblata.</s>
 					<s n="5" xml:lang="la" type="auto">Eo nomine tibi infinitas ago gratias relaturus procul dubio, si mearum esset virium.</s>
 					<s n="6" xml:lang="la" type="auto">Remitto igitur, quae dedisti, in prophetam <persName type="auto_name">Zachariam</persName>, quae iamdudum remisissem, si certus contigisset tabellio; non enim vis neque id iniuria ea omnibus aurigis remitti, ne forte per ipsorum incuriam pereant.</s>
 				</p>
@@ -141,11 +110,11 @@
 					<s n="12" xml:lang="la" type="auto">Nam testor deum a nobis non stetisse, quominus incolumitas et libertas patria apud nos salva sit.</s>
 					<s n="13" xml:lang="la" type="auto">Tu cum omnibus fratribus praecare pro nobis dominum, ut nostrę ecclesiae misereatur.</s>
 					<s n="14" xml:lang="la" type="auto">Interim te tuaque omnia salva cupimus.</s>
-					<s n="15" xml:lang="la" type="auto">Salutant te <persName ref="p8090" cert="high">Lingkius</persName> et Grubell[ius].</s>
-					<s n="16" xml:lang="la" type="auto">Saluta ex me quoque officiosissime D. <persName type="auto_name">Theodorum</persName>, D. <persName ref="p8127" cert="high">Pellicanum</persName>, D. <persName ref="p8011" cert="high">Gualtherum</persName>, pios omnes.</s>
+					<s n="15" xml:lang="la" type="auto">Salutant te <persName ref="p8090" cert="high">Lingkius</persName> et <persName type="auto_name">Grubell[ius]</persName>.</s>
+					<s n="16" xml:lang="la" type="auto">Saluta ex me quoque officiosissime D. <persName ref="p8171" cert="high">Theodorum</persName>, D. <persName ref="p8127" cert="high">Pellicanum</persName>, D. <persName ref="p8011" cert="high">Gualtherum</persName>, pios omnes.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Raptim Scaffusii 4. kalendas novembris anno 1549.</s>
+					<s n="17" xml:lang="la" type="auto">Raptim <placeName ref="l441" cert="high">Scaffusii</placeName> 4. kalendas novembris anno 1549.</s>
 				</p>
 				<p>
 					<s n="18" xml:lang="la" type="auto">Tuus ex animo <persName ref="p3481" cert="high">Simpertus Vogtius</persName>.</s>

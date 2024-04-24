@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 375,697</idno>
 					</msIdentifier>
@@ -56,14 +48,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 105,69</idno>
 					</msIdentifier>
@@ -73,29 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5434">
 				<correspAction type="sent">
-					<persName ref="p2473" cert="high">
-						<!--
-						<surname cert="high">Parkhurst</surname>
-						<forename cert="high">John</forename>
-						<graphic type="portrait" url="portraits/2473_Parkhurst_John.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/John_Parkhurst"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119781492"/>
-						-->
-					</persName>
+					<persName ref="p2473" cert="high"/>
 					<placeName source="l299" cert="high"><orig>Ludham</orig></placeName>
 					<date when="1562-08-20" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file5435"/>
@@ -118,8 +85,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -141,8 +108,8 @@
 					<s n="3" xml:lang="la" type="auto">Potest fieri quod duo editi sunt libelli, sed ego tantum unum hunc vidi.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Dedi in mandatis meo famulo, ut <persName type="auto_name">Londini</persName> quaerat vel unum vel utrumque, si modo duo sint, et tradat <persName type="auto_name">Birckmanno</persName> ad <persName ref="p1227" cert="high">Froschouerum</persName> hisce nundinis perferendum.</s>
-					<s n="5" xml:lang="la" type="auto">Qui habitant <persName type="auto_name">Londini</persName>, videntur sui officii obliti, qui tales libros ad vos non mittant.</s>
+					<s n="4" xml:lang="la" type="auto">Dedi in mandatis meo famulo, ut <placeName type="auto_name">Londini</placeName> quaerat vel unum vel utrumque, si modo duo sint, et tradat <persName type="auto_name">Birckmanno</persName> ad <persName ref="p1227" cert="high">Froschouerum</persName> hisce nundinis perferendum.</s>
+					<s n="5" xml:lang="la" type="auto">Qui habitant <placeName type="auto_name">Londini</placeName>, videntur sui officii obliti, qui tales libros ad vos non mittant.</s>
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Nisi episcopus <placeName ref="l1255" cert="high">Cantuariensis</placeName> ad me unum misisset, nullum adhuc vidissem.</s>
@@ -153,7 +120,7 @@
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Si conciones tuas <persName type="auto_name">Hieremianas</persName> in unum volumen redegeris, recte meo iudicio feceris.</s>
-					<s n="12" xml:lang="la" type="auto">De classe reginae et militibus <persName type="auto_name">Anglis</persName> scripsi ad nostrum <persName ref="p8011" cert="high">Gvaltherum</persName>; item de literis quas ad me scripsit miser Burcherus etc.</s>
+					<s n="12" xml:lang="la" type="auto">De classe reginae et militibus <persName type="auto_name">Anglis</persName> scripsi ad nostrum <persName ref="p8011" cert="high">Gvaltherum</persName>; item de literis quas ad me scripsit miser <persName type="auto_name">Burcherus</persName> etc.</s>
 					<s n="13" xml:lang="la" type="auto">Ante quatuor dies recepi literas a clarissimo C[antuariensi].</s>
 					<s n="14" xml:lang="la" type="auto">Summa earum haec est, ut diligenter omnibus quibus possim rationibus, (iis tamen clanculariis) disquiram, qui et quot sint in mea dioecesi, qui purae religioni non faveant, (puto eos suae perfidiae daturos poenas).</s>
 					<s n="15" xml:lang="la" type="auto">Quod et sedulo faciam et quamprimum eos de Christi inimicis certiores reddam.</s>
@@ -161,30 +128,29 @@
 					<s n="17" xml:lang="la" type="auto">Faxit deus!</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">Saluta meo nomine optimam tuam uxorem, filios, filias, nurus, generos, affines, <persName ref="p8018" cert="high">Hallerum</persName>, <persName type="auto_name">Wolphium</persName>, <persName ref="p1214" cert="high">Frisium</persName>, <persName ref="p4554" cert="high">Collinum</persName>, <persName type="auto_name">Wickium</persName>, <persName ref="p8127" cert="high">Pellicanum</persName>.</s>
-					<s n="19" xml:lang="la" type="auto"><persName type="auto_name">Meierum</persName>, <persName ref="p1227" cert="high">Froschoueros</persName> etc.</s>
+					<s n="18" xml:lang="la" type="auto">Saluta meo nomine optimam tuam uxorem, filios, filias, nurus, generos, affines, <persName ref="p8018" cert="high">Hallerum</persName>, <persName type="auto_name">Wolphium</persName>, <persName ref="p1214" cert="high">Frisium</persName>, <persName ref="p4554" cert="high">Collinum</persName>, <persName type="auto_name">Wickium</persName>, <persName ref="p8127" cert="high">Pellicanum</persName>, <persName type="auto_name">Meierum</persName>, <persName ref="p1227" cert="high">Froschoueros</persName> etc.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Mea vos omnes.</s>
+					<s n="19" xml:lang="la" type="auto">Mea vos omnes.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto">Cum haec scripsissem, ecce evangelium ad me adfertur, crucem scilicet et candelabra in capella reginea esse comminuta et, ut quidam retulit, in cinerem redacta.</s>
-					<s n="22" xml:lang="la" type="auto">Abeat crux in malum crucem!</s>
-					<s n="23" xml:lang="la" type="auto">Nimium diu illic perstitit piis id maximopere deplorantibus, papistis nescio quam spem inde concipientibus.</s>
-					<s n="24" xml:lang="la" type="auto">Praeterea pseudoepiscopi, qui sunt in turri <placeName type="auto_name">Londinensi</placeName>, propediem reddent rationem suae perfidiae; sic enim audio.</s>
-					<s n="25" xml:lang="la" type="auto">Vale, optime Bullingere.</s>
+					<s n="20" xml:lang="la" type="auto">Cum haec scripsissem, ecce evangelium ad me adfertur, crucem scilicet et candelabra in capella reginea esse comminuta et, ut quidam retulit, in cinerem redacta.</s>
+					<s n="21" xml:lang="la" type="auto">Abeat crux in malum crucem!</s>
+					<s n="22" xml:lang="la" type="auto">Nimium diu illic perstitit piis id maximopere deplorantibus, papistis nescio quam spem inde concipientibus.</s>
+					<s n="23" xml:lang="la" type="auto">Praeterea pseudoepiscopi, qui sunt in turri <placeName type="auto_name">Londinensi</placeName>, propediem reddent rationem suae perfidiae; sic enim audio.</s>
+					<s n="24" xml:lang="la" type="auto">Vale, optime Bullingere.</s>
 				</p>
 				<p>
-					<s n="26" xml:lang="la" type="auto">Raptim Ludhamiae 20. augusti 1562.</s>
+					<s n="25" xml:lang="la" type="auto">Raptim <placeName ref="l299" cert="high">Ludhamiae</placeName> 20. augusti 1562.</s>
 				</p>
 				<p>
-					<s n="27" xml:lang="la" type="auto">Tuus <persName type="auto_name">Ioannes Parkhurstus</persName>, <placeName type="auto_name">Nordovicensis</placeName>.</s>
+					<s n="26" xml:lang="la" type="auto">Tuus <persName type="auto_name">Ioannes Parkhurstus</persName>, <placeName type="auto_name">Nordovicensis</placeName>.</s>
 				</p>
 				<p>
-					<s n="28" xml:lang="la" type="auto">Clarissimo viro d. Henrico Bullingero.</s>
+					<s n="27" xml:lang="la" type="auto">Clarissimo viro d. Henrico Bullingero.</s>
 				</p>
 				<p>
-					<s n="29" xml:lang="la" type="auto">Tiguri.</s>
+					<s n="28" xml:lang="la" type="auto">Tiguri.</s>
 				</p>
 			</div>
 		</body>

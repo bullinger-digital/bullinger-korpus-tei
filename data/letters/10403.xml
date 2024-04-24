@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 1,167-175</idno>
 					</msIdentifier>
@@ -84,14 +76,11 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10403">
 				<correspAction type="sent">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high">
-						<orig>die Pfarrer des Wetzikoner Kapitels</orig>
-							<orgName ref="i15" type="sg" role="Kapitel" cert="high"/>
-					</roleName>
+					<orgName ref="og49p" cert="high">die Pfarrer des Wetzikoner Kapitels</orgName>
 					<date when="1534-05-05" cert="high">[kurz vor 5. Mai 1534]</date>
 				</correspAction>
 				<correspAction type="received">
-					<orgName ref="i25" type="sg" role="Synode" cert="high"/>
+					<orgName ref="oi25sl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -109,8 +98,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,177</idno>
 					</msIdentifier>
@@ -113,30 +105,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/13069">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1547-09-23" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8418" cert="high">
-						<!--
-						<surname cert="high">Myconius (Geißhüsler)</surname>
-						<forename cert="high">Oswald</forename>
-						<graphic type="portrait" url="portraits/2234_Myconius_Oswald.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Oswald_Myconius"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118735462"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
-						-->
-					</persName>
+					<persName ref="p8418" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file13070"/>
@@ -162,8 +136,8 @@
 				<language ident="la" usage="687">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -187,7 +161,7 @@
 					<s n="7" xml:lang="la" type="auto">Nosti causas, ut nihil sit opus recensere.<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> recencere.</note></s>
 					<s n="8" xml:lang="la" type="auto">Sed et Argentoratenses pessime audiunt apud optimos quosque, quod munitissimam et opulentissimam in Germania urbem dei beneficio possident, interim Rhelingero<note xml:id="fn7" type="footnote" n="7"><persName ref="p6186" cert="high">Wolfgang Rehlinger</persName>. - Vgl. nämlich <ref target="file13047">Nr. 2998</ref>,<ptr target="qvzl17264-1" type="qv"/>.</note> plus fidei et aurium praebuerunt quam deo.</s>
 					<s n="9" xml:lang="la" type="auto">Dicunt[ur]<note xml:id="fnb" type="footnote" n="b"><hi>Textverlust am rechten Briefrand.</hi></note> fovere nobiles quamplurimos, qui caesarem<note xml:id="fn8" type="footnote" n="8"><persName ref="p18538" cert="high">Karl V.</persName></note> pro deo colunt.</s>
-					<s n="10" xml:lang="la" type="auto">Plebs scissa est in multas sectas, ita ut prudentissimus et optimus quisque non fidat iis, qui Galli auxilia prius respuerunt et satis lubrice egerunt.<note xml:id="fn9" type="footnote" n="9">Siehe dazu <ref target="file13058">Nr. 3009</ref>, <ptr target="qvfn17276-1" type="qv"/>.</note></s>
+					<s n="10" xml:lang="la" type="auto">Plebs scissa est in multas sectas, ita ut prudentissimus et optimus quisque non fidat iis, qui <persName ref="p18500" cert="high">Galli</persName> auxilia prius respuerunt et satis lubrice egerunt.<note xml:id="fn9" type="footnote" n="9">Siehe dazu <ref target="file13058">Nr. 3009</ref>, <ptr target="qvfn17276-1" type="qv"/>.</note></s>
 					<s n="11" xml:lang="la" type="auto">Caeterum si Gallus omnibus Helvetiae ordinibus illa de re proposuerit quicquam, nihil est, quod de Tigurinis dubites.</s>
 					<s n="12" xml:lang="la" type="auto">Facient haud dubie, quod a bonis viris requiras.<pb type="edition" next="490"/></s>
 				</p>

@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,203</idno>
 					</msIdentifier>
@@ -60,14 +52,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 74,150</idno>
 					</msIdentifier>
@@ -77,27 +61,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1233">
 				<correspAction type="sent">
-					<persName ref="p8473" cert="high">
-						<!--
-						<surname cert="high">Hooper (geb./verw.? t'Serclaes)</surname>
-						<forename cert="high">Anne</forename>
-						<note type="person">geb. de Tscerlas</note>
-						-->
-					</persName>
+					<persName ref="p8473" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1551-04-03" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -117,8 +86,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -144,7 +113,7 @@
 				<p>
 					<s n="2" xml:lang="la" type="auto">Accepi literas tuas, vir christianissime, quibus veluti in speculo, quantum pro nobis sis sollicitus, conspexi.</s>
 					<s n="3" xml:lang="la" type="auto">Etsi vero me tuę tam singulari in nos amicitię gratiis persolvendis longe inparem agnosco, agere tamen non desistam immortales deum ac patrem domini nostri Iesu Christi precata ex animo, ut, quod hac in parte praestare non possum, habundantissime penset.</s>
-					<s n="4" xml:lang="la" type="auto">Causam vinculorum domini Hoperi tantisper per me non rescies, donec illi tuas litteras communicavero, quod nunc minime licet; abiit enim mox, ubi solutus fuit, in suum episcopatum.</s>
+					<s n="4" xml:lang="la" type="auto">Causam vinculorum domini <persName ref="p1560" cert="high">Hoperi</persName> tantisper per me non rescies, donec illi tuas litteras communicavero, quod nunc minime licet; abiit enim mox, ubi solutus fuit, in suum episcopatum.</s>
 					<s n="5" xml:lang="la" type="auto">Non dubito, quin ipsemet tuo desiderio sit satisfacturus, postquam illud compertum habuerit, atque id quidem mihi valde commodius videtur, quam si eo inconsulto hoc tentarem.</s>
 					<s n="6" xml:lang="la" type="auto">Quia vero percontaris, quomodo <persName type="auto_name">Rachel</persName> filia mea adolescat, officii mei esse iudicavi nonnihil de illa scribere.</s>
 					<s n="7" xml:lang="la" type="auto">Inprimis scito illam esse Anglici ydiomatis peritam, tresque iam menses effluxisse, ex quibus formulam actionis gratiarum edocta, decem precepta, orationem dominicam, symbolum apostolicum, una cum primo atque secundo <persName ref="p18877" cert="high">Davidis</persName> psalmo memoria tenet.</s>
@@ -157,9 +126,9 @@
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Mitto tibi nummulum aureum, in quo regis <persName type="auto_name">Anglorum</persName> effigies satis eleganter descripta est,<note xml:id="fn2" type="footnote" n="2">Vgl. Bullingers privates Testament!</note> pro pignore quod ad Rachelem legasti, propter quod ipsa quoque suo puerili eloquio gratiam agit, ac te plurimum salutat.</s>
-					<s n="13" xml:lang="la" type="auto">Obtestor te ut dominum <persName type="auto_name">Hoperum</persName> quo suos labores temperet permoneas: nam quotidie quattuor vel ad minimum tres conciones habet; vereor autem ne immature plus satis vigilie morbum illi concili[a]bunt, quo et doctore et doctrina orbentur complures divini verbi anime admodum esurientes, quarum nota est esuries ex crebra ipsius audiendi propensione.</s>
+					<s n="13" xml:lang="la" type="auto">Obtestor te ut dominum <persName ref="p1560" cert="high">Hoperum</persName> quo suos labores temperet permoneas: nam quotidie quattuor vel ad minimum tres conciones habet; vereor autem ne immature plus satis vigilie morbum illi concili[a]bunt, quo et doctore et doctrina orbentur complures divini verbi anime admodum esurientes, quarum nota est esuries ex crebra ipsius audiendi propensione.</s>
 					<s n="14" xml:lang="la" type="auto">Plurimum nos hic divexat turbarum timor; nam periculum est, ne proxime ingentes tumultus excitentur propter annone ceterarumque rerum caritatem, quamquam fromenti atque aliorum ingens sit copia; sed in quos reiicienda sit culpa, ipse me melius nosti.</s>
-					<s n="15" xml:lang="la" type="auto">Misi litteras tuas domino <persName type="auto_name">Hopero</persName>, quibus cum responderit, curabo ut tibi reddantur litere sue.</s>
+					<s n="15" xml:lang="la" type="auto">Misi litteras tuas domino <persName ref="p1560" cert="high">Hopero</persName>, quibus cum responderit, curabo ut tibi reddantur litere sue.</s>
 					<s n="16" xml:lang="la" type="auto">Vale.</s>
 					<s n="17" xml:lang="la" type="auto">Saluta dominum <persName ref="p8171" cert="high">Bibliandrum</persName> et eius coniugem, dominum <persName ref="p8011" cert="high">Gvalterum</persName>, dominum Pel[l]icanum, una cum ipsorum uxoribus, dominum <persName type="auto_name">Zvinglium</persName>, et eius uxorem, ad quam etiam mitto nummulum aureum regia effigie insculptum.</s>
 					<s n="18" xml:lang="la" type="auto"><persName type="auto_name">Londini</persName>, 3° die aprilis.</s>
@@ -170,7 +139,7 @@
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Salutat te <persName type="auto_name">Iohanna</persName> ancilla mea, eiusque maritus Gal[l]orum ecclesie minister.</s>
-					<s n="22" xml:lang="la" type="auto">Si ad dominum <persName type="auto_name">Hoperum</persName> vel ad me scripseris, omni diligentia literas tuas obsignari cura; nam curiosuli quidam solent illas aperire ac p[er]legere<note type="margin">a.R.: ... [prae</note>], si quo pacto eas aperire possint.</s>
+					<s n="22" xml:lang="la" type="auto">Si ad dominum <persName ref="p1560" cert="high">Hoperum</persName> vel ad me scripseris, omni diligentia literas tuas obsignari cura; nam curiosuli quidam solent illas aperire ac p[er]legere<note type="margin">a.R.: ... [prae</note>], si quo pacto eas aperire possint.</s>
 				</p>
 				<p>
 					<s n="23" xml:lang="la" type="auto">Viro doctrina ac pietate insigni, domino <persName type="auto_name">Henrico Bul[l]ingero</persName>, Tigurinorum ecclesię pastori vigilantissimo.</s>

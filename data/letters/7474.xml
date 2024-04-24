@@ -22,14 +22,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 440,425 f.</idno>
 						<altIdentifier>
@@ -48,18 +40,14 @@
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7474">
 				<correspAction type="sent">
 					<persName ref="p1282" cert="high">
-						<!--
-						<surname cert="high">Gerlach</surname>
-						<forename cert="high">Jörg</forename>
-						<note type="person">Ebersteinischer Vogt und Bürgermeister+Gemeinde zu Pfyn/TG</note>
-						-->
-					</persName>
+						<orig>Jörg Gerlach (Ebersteinischer Vogt) und Bürgermeister + Gemeinde zu Pfyn</orig>
+				</persName>
 					<placeName source="l387" cert="high"><orig>Pfyn</orig></placeName>
 					<date when="1568-05-31" cert="high"><note>Hinweis  Gilt als Brief an Haller Wolfgang (und nicht an HB)  Vgl. 1569 Januar 19. (= ID 7749)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g56" type="sg" role="Propst" cert="high"/>
-					<orgName ref="i18" type="sg" role="Kapitel des Grossmünsterstifts" cert="high"/>
+					<orgName ref="og56sl587" cert="high"/>
+					<orgName ref="oi18sl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -69,13 +57,11 @@
 					<ref type="next_correspondence_request" target="file7749"/>
 					<ref type="next_same_sender" target="file7749"/>
 					<ref type="next_with_sender_as_addressee" target="file7749"/>
-					<ref type="child" target="file7749"/>
-					<ref type="parent" target="file7749"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

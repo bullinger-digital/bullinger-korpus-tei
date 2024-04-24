@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,312</idno>
 					</msIdentifier>
@@ -44,14 +36,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 81,8</idno>
 						<idno subtype="Hinweis">5. Jan. 1554</idno>
@@ -62,30 +46,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2149">
 				<correspAction type="sent">
-					<persName ref="p8018" cert="high">
-						<!--
-						<surname cert="high">Haller d.J.</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/1430_Haller_dJ_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Haller_der_J%C3%BCngere"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136925588"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
-						-->
-					</persName>
+					<persName ref="p8018" cert="high"/>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1554-01-05" cert="high"><note>Niehans: 3. oder 8. Januar</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -112,8 +78,8 @@
 				<language ident="la" usage="997">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -134,7 +100,7 @@
 					<s n="4" xml:lang="la" type="auto">Spero ipsum scholae huic ornamento futurum.</s>
 					<s n="5" xml:lang="la" type="auto">Quod mores eius attinet, refrenabo et coherceam eos, quantum in me erit, ut nostratium gravitati se accommodare discat.</s>
 					<s n="6" xml:lang="la" type="auto">Quod vero praesentium latorem concernit, is, opinor, tibi notus est, <persName type="auto_name">Hieronymus Massarius</persName> Vicentinus, qui opusculum quoddam amplissimo senatui nostro dedicatum obtulit, pro quo munere ei 15 coronati donati sunt.</s>
-					<s n="7" xml:lang="la" type="auto">Commorabitur aliquamdiu apud d. d. <persName type="auto_name">Gessnerum</persName>.</s>
+					<s n="7" xml:lang="la" type="auto">Commorabitur aliquamdiu apud d. d. <persName ref="p1283" cert="high">Gessnerum</persName>.</s>
 					<s n="8" xml:lang="la" type="auto">Hisce diebus venit huc <persName type="auto_name">Ioannes Leonardus</persName> <persName type="auto_name">Pedemontanus</persName> tibi quoque sine dubio notus; nam ait se tibi locutum esse illic apud vos.</s>
 					<s n="9" xml:lang="la" type="auto">Is clam ministris senatum accessit librum suum, quem <persName type="auto_name">Gladium</persName> versatilem deitatis Iesu Christi sive etiam duas tabulas legis evangelicę gratiae, spiritus et vitae, appellat, obtulit scriptaque supplicatione adiecit omnes ministros graviter errare circa res maximas in doctrina christiana petiitque, ut conscriberentur et convocarentur omnes ministri tum Germanici tum Gallici Lausanam; ibi se propositiones has publica disputatione tum quoque miraculis confirmaturum; se enim immediate ab ipso Christo, qui ei ter apparuerit, vocatum neque ex se ipso librum hunc scripsisse, sed ex dictamine spiritus sancti (quod et titulus libri, qui <placeName ref="l28" cert="high">Basileae</placeName> apud Ioannem Parcum impressus est, prae se fert).</s>
 					<s n="10" xml:lang="la" type="auto">A senatu fuit ad nos remissus.</s>

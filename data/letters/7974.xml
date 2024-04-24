@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 57,206</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 120,129</idno>
 					</msIdentifier>
@@ -70,32 +54,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7974">
 				<correspAction type="sent">
-					<persName ref="p8089" cert="high">
-						<!--
-						<surname cert="high">Lentolo (Lentulus)</surname>
-						<forename cert="high">Scipione</forename>
-						-->
-					</persName>
-					<persName ref="p7974" cert="high">
-						<!--
-						<surname cert="high">Vertemate</surname>
-						<forename cert="high">Philipp</forename>
-						-->
-					</persName>
+					<persName ref="p8089" cert="high"/>
+					<persName ref="p7974" cert="high"/>
 					<placeName source="l93" cert="high"><orig>Chiavenna</orig></placeName>
 					<date when="1569-08-22" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -111,8 +76,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -142,7 +107,7 @@
 					<s n="3" xml:lang="la" type="auto"><placeName ref="l96" cert="high">Clavennae</placeName>, 22. augusti 1569.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Tui studiosissimi obsequentissimique ut famuli et in Christo filii <persName type="auto_name">Scipio Lentulus</persName>, ecclesiae Clavennensis minister, iussu et voluntate totius collegii, <persName type="auto_name">Philippus a Vertemate</persName>, Clavennensis ecclesiae senior.</s>
+					<s n="4" xml:lang="la" type="auto">Tui studiosissimi obsequentissimique ut famuli et in Christo filii <persName type="auto_name">Scipio Lentulus</persName>, ecclesiae <placeName ref="l96" cert="high">Clavennensis</placeName> minister, iussu et voluntate totius collegii, <persName type="auto_name">Philippus a Vertemate</persName>, <placeName ref="l96" cert="high">Clavennensis</placeName> ecclesiae senior.</s>
 				</p>
 			</div>
 		</body>

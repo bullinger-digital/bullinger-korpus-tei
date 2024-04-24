@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 375,734</idno>
 						<idno subtype="Hinweis">[Korrektur Zürich StA]</idno>
@@ -63,26 +55,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5820">
 				<correspAction type="sent">
-					<persName ref="p2866" cert="high">
-						<!--
-						<surname cert="high">Sampson</surname>
-						<forename cert="high">Thomas</forename>
-						-->
-					</persName>
+					<persName ref="p2866" cert="high"/>
 					<placeName source="l376" cert="high"><orig>Oxford</orig></placeName>
 					<date when="1563-07-26" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file5821"/>
@@ -105,8 +83,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -163,14 +141,14 @@
 					<s n="18" xml:lang="la" type="auto"><placeName type="auto_name">Angliam</placeName> ergo tibi commendatissimam habe in precibus necnon et mei sis memor.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="la" type="auto">In perpetuum amoris erga te mei signum mitto cirothecas <placeName type="auto_name">Oxonienses</placeName> per d. <persName ref="p8055" cert="high">Blaurerum</persName> vestratem.</s>
+					<s n="19" xml:lang="la" type="auto">In perpetuum amoris erga te mei signum mitto cirothecas <placeName ref="l376" cert="high">Oxonienses</placeName> per d. <persName ref="p8055" cert="high">Blaurerum</persName> vestratem.</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="la" type="auto">Illae inveterascent; nunquam tamen apud te <placeName type="auto_name">Angliae</placeName> meique inveterascat amor.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Vale et in domino vive felicissime, charissime pater.</s>
-					<s n="22" xml:lang="la" type="auto"><persName type="auto_name">Oxonii</persName> die 26. iulii 1563.</s>
+					<s n="22" xml:lang="la" type="auto"><placeName ref="l376" cert="high">Oxonii</placeName> die 26. iulii 1563.</s>
 				</p>
 				<p>
 					<s n="23" xml:lang="la" type="auto">T[uus] <persName type="auto_name">Tho[mas</persName>] <persName type="auto_name">Sampson</persName>.</s>

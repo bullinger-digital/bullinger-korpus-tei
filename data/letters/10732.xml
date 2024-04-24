@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 340,70</idno>
 					</msIdentifier>
@@ -65,34 +57,13 @@
 				<correspAction type="sent">
 					<persName ref="p3067" cert="high">
 						<orig>Johannes Stumpf im Namen der Pfarrer des Wetzikoner Kapitels</orig>
-						<!--
-						<surname cert="high">Stumpf</surname>
-						<forename cert="high">Johannes</forename>
-						<note type="person">Johannes Stumpf im Namen der Pfarrer des Wetzikoner Kapitels</note>
-						<graphic type="portrait" url="portraits/3066_Stumpf_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Stumpf"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118757555"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417093"/>
-						-->
-					</persName>
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high">
-						<orig>die Pfarrer des Wetzikoner Kapitels</orig>
-							<orgName ref="i15" type="sg" role="Kapitel" cert="high"/>
-					</roleName>
+				</persName>
+					<orgName ref="og49pl544" cert="high">die Pfarrer des Wetzikoner Kapitels</orgName>
 					<placeName source="l70" cert="high"><orig>Bubikon</orig></placeName>
 					<date when="1535-12-02" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10733"/>
@@ -117,8 +88,8 @@
 				<language ident="de" usage="962">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

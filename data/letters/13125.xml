@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,529 f.</idno>
 					</msIdentifier>
@@ -161,14 +153,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Exzerpt" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Exzerpt">Ms A 43,19</idno>
 						<idno subtype="Hinweis">deutsche Übersetzung</idno>
@@ -185,30 +169,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/13125">
 				<correspAction type="sent">
-					<persName ref="p8049" cert="high">
-						<!--
-						<surname cert="high">Vadian (von Watt)</surname>
-						<forename cert="high">Joachim</forename>
-						<graphic type="portrait" url="portraits/3306_Vadian_Joachim.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Joachim_Vadian"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118625780"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11425832"/>
-						-->
-					</persName>
+					<persName ref="p8049" cert="high"/>
 					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 					<date when="1547-11-14" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file13126"/>
@@ -234,8 +200,8 @@
 				<language ident="la" usage="894">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -293,7 +259,7 @@
 			</div>
 			<div xml:id="div6" corresp="regest6">
 				<p>
-					<s n="18" xml:lang="la" type="auto">Pestis Ulmę deferbuit, Augustae incrudescit adeo, ut proxima hebdomade die uno amplius quinquaginta occubuerint.</s>
+					<s n="18" xml:lang="la" type="auto">Pestis <placeName ref="l513" cert="high">Ulmę</placeName> deferbuit, Augustae incrudescit adeo, ut proxima hebdomade die uno amplius quinquaginta occubuerint.</s>
 				</p>
 			</div>
 			<div xml:id="div7" corresp="regest7">
@@ -314,8 +280,8 @@
 					<s n="28" xml:lang="la" type="auto">Faciet autem patrię salus, facient coniuges et coniugibus amantiores liberi, ut nostrorum fidem, utcunque vel donis vel largitionibus tentatam, minime collapsuram aut quicquam prodituram esse perfidiam ullam certo mihi persuadeam.</s>
 					<s n="29" xml:lang="la" type="auto">Proinde remoram nullam tuo magistratui ingeres, quin, si pro rerum praesentium statu paciscendum aut foedus ullum honestum cum Gallo ineundum ceteri pagi consultum duxerint, tui sese non eximant, sed aliis sese libenter adiungant, <pb type="scan" next="530r."/> ut enim omittam, quod in tanta rei publicę et tam latę patentis societate odiosa est paucorum singularitas (satis constat dissidii et alienati animi suspitione non carere, si pauci non probent, quod a pluribus publicorum commodorum gratia est receptum)<note xml:id="fna" type="footnote" n="a"><hi>Klammern ergänzt.</hi></note>.</s>
 					<s n="30" xml:lang="de" type="auto">Ir werdt erfaren, das kayser Karol doch ettliche stett und ordt der aydgnoschaft mit anforderungen nit fürkhommen laßen wirt, und so er ain aydgnoschaft ie in krieg zuͦ werfen und ghorsam zuͦ machen (wie man dussen sagt) sich underneme, wurde er vor allen dingen uns an bayden orten dess Rhins und an allemm Bodensee, dessgleychen enend dem gebirg, was an Maland stoßt, der provant halber aller dingen endtsetzen und ainen beharrlichen krieg für sich nemen.</s>
-					<s n="31" xml:lang="de" type="auto">Wo uns dan <placeName ref="l28" cert="high">Frankreych</placeName> nitt offen sein solte, wurde er uns mit demm ainigen hunger paschgen<note xml:id="fn26" type="footnote" n="26">bändigen.</note> und erzwingen.</s>
-					<s n="32" xml:lang="de" type="auto">Darum ain aydgnoschafft khainen besseren ruggen haben khan noch mag dann an <placeName ref="l28" cert="high">Frankreych</placeName>, mitt welcher kron man on dess in ainem fridstand und ainer veraynung stadt.</s>
+					<s n="31" xml:lang="de" type="auto">Wo uns dan <placeName ref="l11" cert="high">Frankreych</placeName> nitt offen sein solte, wurde er uns mit demm ainigen hunger paschgen<note xml:id="fn26" type="footnote" n="26">bändigen.</note> und erzwingen.</s>
+					<s n="32" xml:lang="de" type="auto">Darum ain aydgnoschafft khainen besseren ruggen haben khan noch mag dann an <placeName ref="l11" cert="high">Frankreych</placeName>, mitt welcher kron man on dess in ainem fridstand und ainer veraynung stadt.</s>
 				</p>
 			</div>
 			<div xml:id="div9" corresp="regest9">

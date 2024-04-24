@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,330 f. + 334b-c</idno>
 					</msIdentifier>
@@ -54,26 +46,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8998">
 				<correspAction type="sent">
-					<persName ref="p2242" cert="high">
-						<!--
-						<surname cert="high">Müller</surname>
-						<forename cert="high">Johann Baptist</forename>
-						-->
-					</persName>
+					<persName ref="p2242" cert="high"/>
 					<placeName source="l200" cert="high"><orig>Haldenstein</orig></placeName>
 					<date when="1572-08-25" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8999"/>
@@ -93,8 +71,8 @@
 				<language ident="la" usage="997">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -137,7 +115,7 @@
 					<s n="14" xml:lang="la" type="auto">Paucula haec, mi domine et pater, raptim et inter multa alia negotia (ad regem enim et consiliarios eius hodie scripsimus) boni consulas, summopere rogo.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Salutem meo nomine dicas, cupio, omnibus tuis, praecipue vero charissimo meo compatri d. <persName ref="p5618" cert="high">Henrico</persName> et commatri, filiabus quoque Veritati et Dorotheae neptique Verenae<note xml:id="fn1" type="footnote" n="1">Zwingli.</note> necnon d. Gvalthero et Lavathero.</s>
+					<s n="15" xml:lang="la" type="auto">Salutem meo nomine dicas, cupio, omnibus tuis, praecipue vero charissimo meo compatri d. Henrico et commatri, filiabus quoque <persName type="auto_name">Veritati</persName> et <persName type="auto_name">Dorotheae</persName> neptique <persName type="auto_name">Verenae</persName><note xml:id="fn1" type="footnote" n="1">Zwingli.</note> necnon d. <persName ref="p8011" cert="high">Gvalthero</persName> et <persName ref="p1884" cert="high">Lavathero</persName>.</s>
 					<s n="16" xml:lang="la" type="auto">Vale, vir amplissimus; te deus optimus maximus diu incolumem ecclesiae suae conservet.</s>
 					<s n="17" xml:lang="la" type="auto">Salutem tibi dicit plurimam cognatus meus <persName ref="p2627" cert="high">Pontisella</persName>.</s>
 					<s n="18" xml:lang="la" type="auto">Vale iterum.</s>

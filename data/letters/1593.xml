@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,106</idno>
 					</msIdentifier>
@@ -59,28 +51,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1593">
 				<correspAction type="sent">
-					<persName ref="p8061" cert="high">
-						<!--
-						<surname cert="high">Utenhove d.Ä.</surname>
-						<forename cert="high">Jan</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Jan_van_Utenhove"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/130065803"/>
-						-->
-					</persName>
+					<persName ref="p8061" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1552-03-09" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -106,8 +82,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -123,7 +99,7 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. P.</s>
-					<s n="2" xml:lang="la" type="auto">Literę tuę octavo novembris datę mihi iamdudum per d. <persName type="auto_name">Hoperum</persName> fuerunt redditę.</s>
+					<s n="2" xml:lang="la" type="auto">Literę tuę octavo novembris datę mihi iamdudum per d. <persName ref="p1560" cert="high">Hoperum</persName> fuerunt redditę.</s>
 					<s n="3" xml:lang="la" type="auto">Ego vero nunc de statu eorum, quę hic publice ac item privatim inter nos geruntur, fusius ad te scriberem, si ei, qui has deferendas suscepit, non ęque aut fortasse probius spectata essent omnia atque mihi ipsi; quę res facit, ut breviores iam abs me habeas literas quam alioqui eras habiturus.</s>
 					<s n="4" xml:lang="la" type="auto">Illud tamen ex me scito, pios omnes optime hic iam sperare de successu religionis; ad quam restituendam summo nunc laborant studio, qui ad hoc per r[egiam] m[aiestatem] sunt constituti: inter quos est <persName type="auto_name">Thomas Cantuariensis</persName>, <persName ref="p1560" cert="high">Ioannes Hoperus</persName>, <persName ref="p8041" cert="high">Ioannes a Lasco</persName>, <persName ref="p8111" cert="high">Petrus Martyr</persName>, ac multi alii docti ac pii viri.</s>
 					<s n="5" xml:lang="la" type="auto">Et quanquam omnes illi, qui numero sunt 32°, in omnibus inter se convenire subinde non possunt, spero tamen saniores in doctrina superaturos esse, eo quod rex, qui puram religionem omnino promotam cupit, suam, ubi opus est, authoritatem interponat.</s>
@@ -134,7 +110,7 @@
 				<p>
 					<s n="9" xml:lang="la" type="auto">Porro de expeditione regis <placeName type="auto_name">Galliarum</placeName>, quam iam parat in Germaniam ad illius liberationem, ut hic ferunt, nihil scribam, existimans vos isthic de ea plura et certiora habere.</s>
 					<s n="10" xml:lang="la" type="auto">D. <persName ref="p8041" cert="high">a Lasco</persName> per praesentem reformationem varie, ut potes existimare, impeditus iussit se excusari apud te, quod nihil iam scribat.</s>
-					<s n="11" xml:lang="la" type="auto">Saluta quaeso mihi d. <persName ref="p8171" cert="high">Bibliandrum</persName>, d. <persName ref="p8127" cert="high">Pellicanum</persName>, d. <persName type="auto_name">Gaulterum</persName>, <persName type="auto_name">Wolfium</persName> ac reliquos fratres, ut interim d. <persName type="auto_name">Guesnerum</persName> non omittam.</s>
+					<s n="11" xml:lang="la" type="auto">Saluta quaeso mihi d. <persName ref="p8171" cert="high">Bibliandrum</persName>, d. <persName ref="p8127" cert="high">Pellicanum</persName>, d. <persName type="auto_name">Gaulterum</persName>, <persName type="auto_name">Wolfium</persName> ac reliquos fratres, ut interim d. <persName ref="p1283" cert="high">Guesnerum</persName> non omittam.</s>
 					<s n="12" xml:lang="la" type="auto">(Saluta mihi quoque d. <persName ref="p4466" cert="high">Butlerum</persName> una cum uxore.)</s>
 					<s n="13" xml:lang="la" type="auto">Salutat te d. <persName ref="p8041" cert="high">a Lasco</persName>, d. <persName ref="p8011" cert="high">Gvalterus</persName>.</s>
 					<s n="14" xml:lang="la" type="auto">Vale, vir ornatissime in domino, cui ego te ministeriumque tuum commendo ex animo.</s>

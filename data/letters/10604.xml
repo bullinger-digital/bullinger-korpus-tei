@@ -24,14 +24,6 @@
 				<bibl n="13" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Ergänzungsband A (Addenda und Gesamtregister zu Band 1-10), Bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 2004, 175 S., ISBN 3-290-17316-X.</bibl>
 				<msDesc type="Brief" subtype="Teilkopie" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a12">
-							<name>Bern BB</name>
-							<ref target="https://www.burgerbib.ch/de"/>
-						</repository>
-						<settlement ref="l41">Bern</settlement>
-						<institution>Burgerbibliothek</institution>
-						-->
 						<repository ref="a12"/>
 						<idno subtype="Teilkopie">Ms. hist. helv. XII 20,214 f, Nr. 194a</idno>
 					</msIdentifier>
@@ -72,23 +64,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10604">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date notBefore="1535-03-01" notAfter="1535-11-30" cert="low">[zwischen Frühjahr und Herbst 1535]</date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g60" type="sg" role="Ratsherr" cert="low">
-						<orig>Ratsherr von Bern</orig>
-					</roleName>
+					<orgName ref="og60sl41" cert="low">Ratsherr von Bern</orgName>
 					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -104,8 +85,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">

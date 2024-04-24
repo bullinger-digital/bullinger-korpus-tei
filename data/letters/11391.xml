@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 358,127</idno>
 					</msIdentifier>
@@ -45,7 +37,7 @@
 								hofft, obschon der Kaiser völlig in der Hand der Reformgegner ist, auf einen Verhandlungserfolg durch die
 								friedliebenden und frommen Fürsten und beneidet [die <placeName ref="l28" cert="high">Schweizer</placeName>
 								Reformierten], die frei von Tyrannenmacht sind. Nach dem ersten Sohn
-								Gervasius wurde ihnen nun Paul
+								<persName ref="p8440" cert="high">Gervasius</persName> wurde ihnen nun Paul
 								geboren. Um die <placeName ref="l320" cert="high">Memminger</placeName> Kirche steht es gut. Gute Wünsche und Grüße. Gruß von
 								<persName ref="p1055" cert="high">[Martin] Frecht</persName>.
 							</p>
@@ -67,28 +59,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11391">
 				<correspAction type="sent">
-					<persName ref="p8440" cert="high">
-						<!--
-						<surname cert="high">Schuler (Scholasticus)</surname>
-						<forename cert="high">Gervasius</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Gervasius_Schuler"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/130955264"/>
-						-->
-					</persName>
+					<persName ref="p8440" cert="high"/>
 					<placeName source="l320" cert="high"><orig>Memmingen</orig></placeName>
 					<date when="1540-01-09" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11392"/>
@@ -112,8 +88,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

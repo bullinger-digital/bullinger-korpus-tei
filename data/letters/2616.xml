@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 359,2950</idno>
 					</msIdentifier>
@@ -59,14 +51,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 84,168</idno>
 					</msIdentifier>
@@ -76,30 +60,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2616">
 				<correspAction type="sent">
-					<persName ref="p8111" cert="high">
-						<!--
-						<surname cert="high">Vermigli (Vermilius)</surname>
-						<forename cert="high">Peter Martyr (Pietro Martire)</forename>
-						<graphic type="portrait" url="portraits/3410_Vermigli_Pietro.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Peter_Martyr_Vermigli"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118768123"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417300"/>
-						-->
-					</persName>
+					<persName ref="p8111" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1555-04-16" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -124,8 +90,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -151,28 +117,28 @@
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Verum hoc de nostris rebus nuntiare possum nostram hic ecclesiam <placeName type="auto_name">Gallicam</placeName> iam non mediocriter affligi.</s>
-					<s n="4" xml:lang="la" type="auto">Scio te hactenus audivisse quosdam viros, ne gravius in eos quicquam dixerim, parum candidos gravem instituisse litem seu accusationem adversus <persName type="auto_name">Garnerium</persName>, qui pastorem in ea ecclesia iam a multis annis egit, fuitque actio diutissime suspensa et silentio quodammodo pressa, denique tandem sententia quędam fuit lata, quę cum in ecclesia coram magistratu et plebe fuisset recitata eaque Garnerius nimium se gravari iudicaret, cępit cum magistratu ibi publice conqueri et in agendo excandit eique nonnulla verba, ut fit in calore contentionis exciderunt et iustę decentisque moderationis limites est transgressus.</s>
+					<s n="4" xml:lang="la" type="auto">Scio te hactenus audivisse quosdam viros, ne gravius in eos quicquam dixerim, parum candidos gravem instituisse litem seu accusationem adversus <persName type="auto_name">Garnerium</persName>, qui pastorem in ea ecclesia iam a multis annis egit, fuitque actio diutissime suspensa et silentio quodammodo pressa, denique tandem sententia quędam fuit lata, quę cum in ecclesia coram magistratu et plebe fuisset recitata eaque <persName type="auto_name">Garnerius</persName> nimium se gravari iudicaret, cępit cum magistratu ibi publice conqueri et in agendo excandit eique nonnulla verba, ut fit in calore contentionis exciderunt et iustę decentisque moderationis limites est transgressus.</s>
 					<s n="5" xml:lang="la" type="auto">Unde illi magistratus haud leviter succensit et periculum, quod incurrit, potentum aliquorum intercessionibus vix evitavit, non tamen sic evasit, quin a ministerio suo sit adhuc suspensus.</s>
 					<s n="6" xml:lang="la" type="auto">Non enim vult magistratus, ut suo fungatur officio, quoad eius iussu fuerit illi permissum.</s>
 					<s n="7" xml:lang="la" type="auto">Diaconus eius iterim ecclesię ministrat.</s>
 					<s n="8" xml:lang="la" type="auto">Quare te rogo, ut precibus hanc afflictam causam iuves.</s>
-					<s n="9" xml:lang="la" type="auto">Francfordię item <persName type="auto_name">Angli</persName> parum inter sese consenserunt in ecclesia constituenda, quod mihi auditu molestissimum fuit.</s>
+					<s n="9" xml:lang="la" type="auto"><placeName ref="l157" cert="high">Francfordię</placeName> item <persName type="auto_name">Angli</persName> parum inter sese consenserunt in ecclesia constituenda, quod mihi auditu molestissimum fuit.</s>
 					<s n="10" xml:lang="la" type="auto">Rem nihilominus componendam aut iam compositam spero.</s>
-					<s n="11" xml:lang="la" type="auto">Dominus <persName ref="p8041" cert="high">a Lasco</persName> e <persName type="auto_name">Phrysia</persName> iussus est abire idque <persName type="auto_name">Cęsarianorum</persName>, ut audio, impulsu; venturum <placeName ref="l157" cert="high">Francfordiam</placeName> aiunt.</s>
+					<s n="11" xml:lang="la" type="auto">Dominus <persName ref="p8041" cert="high">a Lasco</persName> e <persName type="auto_name">Phrysia</persName> iussus est abire idque Cęsarianorum, ut audio, impulsu; venturum <placeName ref="l157" cert="high">Francfordiam</placeName> aiunt.</s>
 					<s n="12" xml:lang="la" type="auto">Deus illum dignetur consolari.</s>
-					<s n="13" xml:lang="la" type="auto">Vidua <persName type="auto_name">Hopperi Christi</persName> ac evangelii causa occisi, communis amici nostri, quędam scripta eius ad me misit, quę voluisset statim imprimi; at sero mihi sunt redditę, nimirum quando iam nundinę Francfordianę in foribus aderant.</s>
-					<s n="14" xml:lang="la" type="auto">Qua de re ipse <persName type="auto_name">Hopperus</persName> cum ad me tum etiam ad te (ni fallor) scripsit; legi ea, et quod ad summam rei attinet, mihi probantur; sed quia tumultuarie composita sunt, hoc est in carcere, ubi libris caruit et animo admodum, ut est verisimile, distracto fuit, ideo meo iudicio quędam resecanda essent et aliqua nonnihil expolienda.</s>
+					<s n="13" xml:lang="la" type="auto">Vidua <persName ref="p1560" cert="high">Hopperi</persName> Christi ac evangelii causa occisi, communis amici nostri, quędam scripta eius ad me misit, quę voluisset statim imprimi; at sero mihi sunt redditę, nimirum quando iam nundinę <placeName ref="l157" cert="high">Francfordianę</placeName> in foribus aderant.</s>
+					<s n="14" xml:lang="la" type="auto">Qua de re ipse <persName ref="p1560" cert="high">Hopperus</persName> cum ad me tum etiam ad te (ni fallor) scripsit; legi ea, et quod ad summam rei attinet, mihi probantur; sed quia tumultuarie composita sunt, hoc est in carcere, ubi libris caruit et animo admodum, ut est verisimile, distracto fuit, ideo meo iudicio quędam resecanda essent et aliqua nonnihil expolienda.</s>
 					<s n="15" xml:lang="la" type="auto">Tu pro tuo iudicio atque candore totum hoc tecum expendes; ita enim ille voluit et vidua petit, ut tuum quoque adhiberetur consilium.</s>
 					<s n="16" xml:lang="la" type="auto">Proinde re mature atque amice deliberata illius piis manibus et uxori eius te non dubito, quantum negotium patietur, gratificaturum.</s>
 					<s n="17" xml:lang="la" type="auto">Hoc tibi onus per me ipsum imponere aut tuis non auderem, nisi cum ipse tum eius vidua ita fieri voluissent.</s>
 					<s n="18" xml:lang="la" type="auto">Vale, vir sanctissime, ac meum ministerium tuis precibus Christo commendes atque symmystis tuis omnibus meo nomine salutem indicito.</s>
-					<s n="19" xml:lang="la" type="auto">Argentinę 16. Aprilis 1555.</s>
+					<s n="19" xml:lang="la" type="auto"><placeName ref="l491" cert="high">Argentinę</placeName> 16. Aprilis 1555.</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="la" type="auto">Tuus in domino <persName ref="p8111" cert="high">Petrus Martyr</persName>.</s>
 				</p>
 				<p>
-					<s n="21" xml:lang="la" type="auto">Rogo te iterum, mi domine atque pater colendissime, ut in his Hopperi scriptis ędendis diligentia non vulgaris adhibeatur, ut, quę nimis gravia sunt, resecentur, que bona, firma, solidaque sunt, expoliantur, nec ex patribus quicquam ponatur, quod ex ipso fonte deductum non fuerit et transcriptum.</s>
+					<s n="21" xml:lang="la" type="auto">Rogo te iterum, mi domine atque pater colendissime, ut in his <persName ref="p1560" cert="high">Hopperi</persName> scriptis ędendis diligentia non vulgaris adhibeatur, ut, quę nimis gravia sunt, resecentur, que bona, firma, solidaque sunt, expoliantur, nec ex patribus quicquam ponatur, quod ex ipso fonte deductum non fuerit et transcriptum.</s>
 					<s n="22" xml:lang="la" type="auto">Nam ista diligentia si non fuerit impensa, hostes, qui eum combusserunt, cum ecclesię tum defuncto et ferociter et contumeliose insultabunt.</s>
 					<s n="23" xml:lang="la" type="auto">Sapienti pauca.</s>
 					<s n="24" xml:lang="la" type="auto">In hac re publicum religionis dogma et tuendum et ornandum est, et amici, qui pro veritate vitam pependit, famam tueri oportet.</s>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file9194" type="Hinweis" source="TUSTEP-0" n="43020">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file9194" type="Brief" source="TUSTEP-0" n="43020">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -21,16 +21,8 @@
 			<sourceDesc>
 				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
-				<msDesc type="Hinweis" subtype="Autograph" xml:lang="la">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,363</idno>
 					</msIdentifier>
@@ -51,30 +43,14 @@
 						</listBibl>
 					</additional>
 				</msDesc>
-				<msDesc type="Hinweis" subtype="Kopie" xml:lang="la">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a58">
-							<name>London LPL</name>
-							<ref target="https://lambethpalacelibrary.org/"/>
-						</repository>
-						<settlement ref="l296">London</settlement>
-						<institution>Lambeth Palace Library</institution>
-						-->
 						<repository ref="a58"/>
 						<idno subtype="Kopie">Ms. 2010, fo 78r (Nr. 50)</idno>
 					</msIdentifier>
 				</msDesc>
-				<msDesc type="Hinweis" subtype="Kopie" xml:lang="la">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 369,207b2v - cr</idno>
 						<idno subtype="Hinweis">[Korrektur Zürich StA]</idno>
@@ -85,29 +61,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9194">
 				<correspAction type="sent">
-					<persName ref="p672" cert="low">
-						<!--
-						<surname cert="low">Cox</surname>
-						<forename cert="low">Richard</forename>
-						<graphic type="portrait" url="portraits/672_Cox_Richard.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Richard_Cox_(Bischof)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118670409"/>
-						-->
-					</persName>
+					<persName ref="p672" cert="low"/>
 					<placeName source="l136" cert="low"><orig>Ely</orig></placeName>
 					<date when="1573-02-04" cert="low"><note>Datum unsicher  (1573 Februar 4. ?)  (oder später)  (engl. Datierung 1572 ->= kont. Dat. 1573)  [gleichzeitig wie Cox an Gwalther, 4. Feb. 1573 (Ep. Tig. Nr. 107)]</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -128,15 +87,14 @@
 					<ref type="next_with_addressee_as_sender" target="file9200"/>
 					<ref type="prev_with_addressee_as_sender" target="file9193"/>
 					<ref type="child" target="file8766"/>
-					<ref type="parent" target="file8766"/>
 				</correspContext>
 			</correspDesc>
 			<langUsage>
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -159,7 +117,7 @@
 		<body>
 			<div>
 				<p>
-					<s n="1" xml:lang="la" type="auto"><persName type="auto_name">Richardus Coxus</persName>, episcopus <placeName type="auto_name">Eliensis</placeName>, d. Henrico Bullingero.</s>
+					<s n="1" xml:lang="la" type="auto"><persName ref="p672" cert="high">Richardus Coxus</persName>, episcopus <placeName type="auto_name">Eliensis</placeName>, d. Henrico Bullingero.</s>
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Non possunt non esse mihi iucundissimae tuae literae, frater in Christo reverende, tantum nimirum spirantes pietatem et humanitatem.</s>
@@ -194,7 +152,7 @@
 					<s n="21" xml:lang="la" type="auto">Misi ad <persName type="auto_name">Iulium</persName> nostrum sex coronatos nostrates.</s>
 				</p>
 				<p>
-					<s n="22" xml:lang="la" type="auto">Tui studiosissimus in Christo frater, Eliensis ecclesiae episcopus et servus <persName type="auto_name">Richardus Coxus</persName>, episcopus Eliensis.</s>
+					<s n="22" xml:lang="la" type="auto">Tui studiosissimus in Christo frater, Eliensis ecclesiae episcopus et servus <persName ref="p672" cert="high">Richardus Coxus</persName>, episcopus Eliensis.</s>
 				</p>
 				<p>
 					<note type="address">[Ohne Adresse.]</note>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 59,259</idno>
 					</msIdentifier>
@@ -46,33 +38,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2028">
 				<correspAction type="sent">
-					<persName ref="p8051" cert="low">
-						<!--
-						<surname cert="low">Bullinger, geb. Adlischwyler</surname>
-						<forename cert="low">Anna</forename>
-						<note type="person">Antistes</note>
-						-->
-					</persName>
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p8051" cert="low"/>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date notBefore="1553-01-01" notAfter="1553-12-31" cert="low">Herbst 1553</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p487" cert="high">
-						<!--
-						<surname cert="high">Bullinger d.J.</surname>
-						<forename cert="high">Heinrich</forename>
-						-->
-					</persName>
+					<persName ref="p487" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -93,8 +65,8 @@
 				<language ident="de" usage="982">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

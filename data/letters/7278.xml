@@ -21,14 +21,6 @@
 			<sourceDesc>
 				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E I 25,1, Nr. 100 + Nr. 100a</idno>
 						<idno subtype="Hinweis">Nr. 100 (Doppelblatt); Nr. 100a (kleines Blatt)kein Scan zu erwarten</idno>
@@ -51,22 +43,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7278">
 				<correspAction type="sent">
-					<persName ref="p8060" cert="high">
-						<!--
-						<surname cert="high">Kurfürst von der Pfalz</surname>
-						<forename cert="high">Friedrich III. «der Fromme»</forename>
-						<note type="person">(der Fromme)</note>
-						<graphic type="portrait" url="portraits/3510_der_Fromme_Friedrich_III.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Friedrich_III._(Pfalz)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118535722"/>
-						-->
-					</persName>
+					<persName ref="p8060" cert="high"/>
 					<placeName source="l210" cert="high"><orig>Heidelberg</orig></placeName>
 					<date when="1567-10-27" cert="high"><note>Hinweis</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g14" type="pl" role="Bürgermeister" cert="high"/>
-					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<orgName ref="og14pl587" cert="high"/>
+					<orgName ref="og59pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -83,8 +66,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

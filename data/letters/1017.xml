@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,156</idno>
 					</msIdentifier>
@@ -56,14 +48,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 73,87</idno>
 					</msIdentifier>
@@ -73,29 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1017">
 				<correspAction type="sent">
-					<persName ref="p1278" cert="high">
-						<!--
-						<surname cert="high">Gast</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Gast"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/122090284"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415086"/>
-						-->
-					</persName>
+					<persName ref="p1278" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1550-09-02" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -122,8 +89,8 @@
 				<language ident="la" usage="950">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -163,7 +130,7 @@
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Ad hęc fama spargit <persName ref="p7706" cert="high">Granvellam</persName> extremum diem clausisse, qui anima fuit Caesaris, neque puto Cesarem diu victurum anima emissa.</s>
-					<s n="12" xml:lang="la" type="auto"><persName type="auto_name">Halę</persName> in <placeName ref="l61" cert="high">Saxonia</placeName> dicunt ex limpidissimo fonte sanguinem tribus diebus effluxisse stupentibus omnibus, qui prodigium illud viderunt.</s>
+					<s n="12" xml:lang="la" type="auto"><placeName type="auto_name">Halę</placeName> in <placeName ref="l61" cert="high">Saxonia</placeName> dicunt ex limpidissimo fonte sanguinem tribus diebus effluxisse stupentibus omnibus, qui prodigium illud viderunt.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Nauseam scias <placeName ref="l922" cert="high">Friburgi</placeName> fuisse; pręposituram enim habet in <placeName ref="l1332" cert="high">Waldkirch</placeName> pinguem, cui scriptum est ex aula, ut domum redeat, <placeName type="auto_name">Turcam</placeName> augere suum exercitum.</s>
@@ -179,7 +146,7 @@
 					<s n="19" xml:lang="la" type="auto">T[uus] <persName ref="p1278" cert="high">Gastius</persName>.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="la" type="auto">Hęc tibi scribo: Sparsit quidam ex Tigurinis <placeName ref="l28" cert="high">Basileę</placeName> d. <persName type="auto_name">Bibliandrum Pelagii</persName> dogma de libero arbitrio tenere velleque contra quosvis defendere tanquam ex scripturis divinis fundatum.</s>
+					<s n="20" xml:lang="la" type="auto">Hęc tibi scribo: Sparsit quidam ex Tigurinis <placeName ref="l28" cert="high">Basileę</placeName> d. <persName ref="p8171" cert="high">Bibliandrum</persName> Pelagii dogma de libero arbitrio tenere velleque contra quosvis defendere tanquam ex scripturis divinis fundatum.</s>
 					<s n="21" xml:lang="la" type="auto">Quod tamen nunquam volui credere neque adhuc credam; habent osores, qui illius doctrinam audent reprehendere, quam imitari non possunt.</s>
 					<s n="22" xml:lang="la" type="auto">D. <persName type="auto_name">Schertlinus</persName> te resalutat.</s>
 				</p>

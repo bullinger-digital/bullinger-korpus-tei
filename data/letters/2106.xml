@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356,727-729</idno>
 					</msIdentifier>
@@ -50,28 +42,12 @@
 				</msDesc>
 				<msDesc type="Beilage" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 80,200</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Nachschrift" subtype="Beilage" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Beilage">E II 356,719</idno>
 					</msIdentifier>
@@ -81,30 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2106">
 				<correspAction type="sent">
-					<persName ref="p3375" cert="high">
-						<!--
-						<surname cert="high">Vergerio</surname>
-						<forename cert="high">Pier Paolo</forename>
-						<graphic type="portrait" url="portraits/3375_Vergerio_Pietro_Paolo.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Pietro_Paolo_Vergerio"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118768077"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417291"/>
-						-->
-					</persName>
+					<persName ref="p3375" cert="high"/>
 					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1553-12-11" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -130,8 +88,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -161,17 +119,17 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">Accepi tuas a meo tabellario.</s>
-					<s n="2" xml:lang="la" type="auto">Nunc quum <persName type="auto_name">Tuttlingem</persName> redeat vector, qui mihi attulit dolium, scribo pauca raptim.</s>
+					<s n="2" xml:lang="la" type="auto">Nunc quum <placeName type="auto_name">Tuttlingem</placeName> redeat vector, qui mihi attulit dolium, scribo pauca raptim.</s>
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Iucundissimae mihi fuere literę tuae.</s>
-					<s n="4" xml:lang="la" type="auto">Cras <persName type="auto_name">Stutcardiam</persName> ad ducem proficiscor, cui et simul <persName ref="p458" cert="high">Brentio</persName> eas communicabo ob multas causas, praesertim ut tuum iudicium de Martire instillem.</s>
+					<s n="4" xml:lang="la" type="auto">Cras <placeName type="auto_name">Stutcardiam</placeName> ad ducem proficiscor, cui et simul <persName ref="p458" cert="high">Brentio</persName> eas communicabo ob multas causas, praesertim ut tuum iudicium de Martire instillem.</s>
 					<s n="5" xml:lang="la" type="auto">Nos putamus comitia non esse futura hoc anno; scripsit enim <persName type="auto_name">Caesar</persName> ad quempiam ex principibus <placeName ref="l267" cert="high">Coloniensem</placeName> et <placeName ref="l1028" cert="high">Treverensem</placeName> sese excusasse et certas causas adduxisse, quamobrem non possent ad comitia venire.</s>
 					<s n="6" xml:lang="la" type="auto">Sed <persName type="auto_name">Caesar</persName> non propter illorum archiepiscoporum excusationes comitia differt, sed quia regno Angliae inhiat; quin fama est eo reginam Mariam esse profectam, ut nuptias curet Philippo.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Interim loco comitiorum <placeName ref="l1399" cert="high">Caesarea</placeName> maiestas de concilio spem facit, et audimus scripsisse d. co[miti] de <placeName type="auto_name">Monfort</placeName>, qui nuper erat eius orator Tridenti, ut se rursus ad eam legationem paret.</s>
-					<s n="8" xml:lang="la" type="auto">Quin spargunt <persName type="auto_name">Caesariani</persName> pacem futuram cum Gall[iae] rege et hunc concilio reintegrando consenssurum esse.</s>
+					<s n="8" xml:lang="la" type="auto">Quin spargunt Caesariani pacem futuram cum Gall[iae] rege et hunc concilio reintegrando consenssurum esse.</s>
 					<s n="9" xml:lang="la" type="auto">Quae omnia huc pertinent scilicet, ut interim, dum <placeName type="auto_name">Britaniam</placeName> veluti expugnet, lactet suos, quos in <placeName type="auto_name">Germania</placeName> habet, et terreat hostes.</s>
 					<s n="10" xml:lang="la" type="auto"><placeName ref="l1041" cert="high">Brunsvicensis</placeName> nuper incendit oppidulum <persName type="auto_name">Alberti</persName>; ardent animi.</s>
 				</p>
@@ -179,14 +137,14 @@
 					<s n="11" xml:lang="la" type="auto">Oro te, quandoquidem plura hac hora non possum scribere, ut pauca haec de rebus novis describas et meo nomine ad eos duos mittas, quibus per Iosiam (ut mihi scripsisti) curasti literas, quas ad te miseram, atque iterum te oro, Bullingere optime.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Si quid scribere ad me volueris aut literas aliunde scriptas mittere, mitte tu ad d. <persName type="auto_name">Iacobum Rugger</persName>, <placeName type="auto_name">Schaffusii</placeName> pastorem; nam ille ad ill ad <placeName ref="l1333" cert="high">Tuttlingeni</placeName> praefectum mittet, et is ad me curabit in gratiam ducis.</s>
+					<s n="12" xml:lang="la" type="auto">Si quid scribere ad me volueris aut literas aliunde scriptas mittere, mitte tu ad d. <persName type="auto_name">Iacobum Rugger</persName>, <placeName ref="l441" cert="high">Schaffusii</placeName> pastorem; nam ille ad ill ad <placeName ref="l1333" cert="high">Tuttlingeni</placeName> praefectum mittet, et is ad me curabit in gratiam ducis.</s>
 					<s n="13" xml:lang="la" type="auto">Sed nonnisi vulgaria hac via mittenda; si quid voluero rarius, utar proprio nuncio.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Scripsi heri ad <persName ref="p8111" cert="high">Martirem</persName> invitavi, si vel t mecum hyemare; utinam veniat!</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Dicas <placeName type="auto_name">Cremonensi</placeName>, ut eos libellos, quos tabellarius renuit ferre, <persName type="auto_name">Scaffusium</persName> mittat.</s>
+					<s n="15" xml:lang="la" type="auto">Dicas <placeName type="auto_name">Cremonensi</placeName>, ut eos libellos, quos tabellarius renuit ferre, <placeName ref="l441" cert="high">Scaffusium</placeName> mittat.</s>
 					<s n="16" xml:lang="la" type="auto">Alias, quae ad <persName type="auto_name">Nigrum</persName> pertinent, oro te, cura, ut primo quoque tempore aliquis ferat.</s>
 					<s n="17" xml:lang="la" type="auto">Galitio si scripseris, dicas me mirari, quod non miserit ad me literas synodi.</s>
 					<s n="18" xml:lang="la" type="auto">Si quis occurreret, qui <placeName ref="l167" cert="high">Genevam</placeName> esset iturus commenda illi eas, quae ad <persName type="auto_name">Martinengum</persName> pertinent.</s>

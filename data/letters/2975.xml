@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1534</idno>
 					</msIdentifier>
@@ -50,27 +42,12 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 88,20</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a34">
-							<name>Emden BGK</name>
-						</repository>
-						<settlement ref="l138">Emden</settlement>
-						<institution>Bibliothek der Grossen Kirche</institution>
-						-->
 						<repository ref="a34"/>
 						<idno subtype="Kopie">Hs. fol. 37, Nr. 99</idno>
 					</msIdentifier>
@@ -80,26 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2975">
 				<correspAction type="sent">
-					<persName ref="p8508" cert="high">
-						<!--
-						<surname cert="high">von (van) Starkenburg (Starckenborgh)</surname>
-						<forename cert="high">Nikolaus</forename>
-						-->
-					</persName>
+					<persName ref="p8508" cert="high"/>
 					<placeName source="l185" cert="high"><orig>Groningen</orig></placeName>
 					<date when="1556-08-02" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -124,8 +87,8 @@
 				<language ident="la" usage="993">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -148,12 +111,12 @@
 					<s n="6" xml:lang="la" type="auto">Novi, quanto ardore veritas a vobis propugnetur.</s>
 					<s n="7" xml:lang="la" type="auto">Oro eum nonquam intermittatis.</s>
 					<s n="8" xml:lang="la" type="auto">Ego praecibus meis nonquam non vestri mentionem facio, itidem ut nostri causa fiat, peto.</s>
-					<s n="9" xml:lang="la" type="auto">Ecclesia Orientalis <persName type="auto_name">Phrysiae</persName> visitavi.</s>
+					<s n="9" xml:lang="la" type="auto">Ecclesia Orientalis <placeName type="auto_name">Phrysiae</placeName> visitavi.</s>
 					<s n="10" xml:lang="la" type="auto">Haec in dies magis magisque per gratiam domini propagatur et quae cum <foreign xml:lang="el">[griechisch]</foreign> lucta fuerit quoque rubore suffusi cesserint, scripto edito cognoscetis brevi.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">Novarum rerum ista sunt: legationes omnium civitatum, quae sunt Caesaris Inferioris Germaniae, <placeName ref="l1284" cert="high">Bruxellae</placeName> convenere agiturque de constituendo <persName type="auto_name">Maximiliano</persName> praeside Galliae Belgicae nomine Philippi regis Hisp[aniae], quem vocatum in Angliam regemque coronandum affirmant.</s>
-					<s n="12" xml:lang="la" type="auto">interim comitissae Orientalis <persName type="auto_name">Phrysiae</persName> comesa Retburg aliquid facessit negotii; est autem controversia de limitibus agrorum.</s>
+					<s n="11" xml:lang="la" type="auto">Novarum rerum ista sunt: legationes omnium civitatum, quae sunt Caesaris Inferioris Germaniae, <placeName ref="l1284" cert="high">Bruxellae</placeName> convenere agiturque de constituendo <persName type="auto_name">Maximiliano</persName> praeside Galliae Belgicae nomine <persName type="auto_name">Philippi</persName> regis Hisp[aniae], quem vocatum in Angliam regemque coronandum affirmant.</s>
+					<s n="12" xml:lang="la" type="auto">interim comitissae Orientalis <placeName type="auto_name">Phrysiae</placeName> comesa Retburg aliquid facessit negotii; est autem controversia de limitibus agrorum.</s>
 					<s n="13" xml:lang="la" type="auto">Comesa Retburg non quidem in homines vim ullam fecit, sed usum fructum violentia abstulit.</s>
 				</p>
 				<p>
@@ -162,8 +125,8 @@
 					<s n="16" xml:lang="la" type="auto">Brevi plura volente domino scribam.</s>
 				</p>
 				<p>
-					<s n="17" xml:lang="la" type="auto">Groningae <persName type="auto_name">Phrysiorum</persName> anno salutis 1556. 4. nonans augusti.</s>
-					<s n="18" xml:lang="la" type="auto"><persName ref="p8422" cert="high">N[icolaus]</persName> a <placeName type="auto_name">Starkenburg</placeName> tuus.</s>
+					<s n="17" xml:lang="la" type="auto"><placeName type="auto_name">Groningae</placeName> <placeName type="auto_name">Phrysiorum</placeName> anno salutis 1556. 4. nonans augusti.</s>
+					<s n="18" xml:lang="la" type="auto"><persName ref="p8508" cert="high">N[icolaus] a Starkenburg</persName> tuus.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse:]</note>

@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 375,816</idno>
 					</msIdentifier>
@@ -50,7 +42,7 @@
 								</p>
 								<p xml:id="regest3">
 								[3] Was sich in Bern abspielt, wäre zu lang und zu gefährlich, um hier mitgeteilt werden zu können. Der
-								gute Erasmus Ritter hat dort die größten Schwierigkeiten und wird gezwungen, sich vor Gericht zu
+								gute <persName ref="p2810" cert="high">Erasmus</persName> Ritter hat dort die größten Schwierigkeiten und wird gezwungen, sich vor Gericht zu
 								verteidigen, wenn er nicht seinen guten Ruf verlieren will! Die Angelegenheit scheint auf die Ausstoßung
 								Ritters und den Triumph der Gegner hinauszulaufen. Was dies für Folgen haben wird, ist klar. Bullinger wird
 								wohl ebenfalls den bedauernswerten Zustand der einst so beispielhaften und friedlichen Kirche Berns
@@ -87,27 +79,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11728">
 				<correspAction type="sent">
-					<persName ref="p2919" cert="high">
-						<!--
-						<surname cert="high">Schlatter</surname>
-						<forename cert="high">Michael</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089471572"/>
-						-->
-					</persName>
+					<persName ref="p2919" cert="high"/>
 					<placeName source="l49" cert="high"><orig>Biel</orig></placeName>
 					<date when="1542-10-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11729"/>
@@ -131,8 +108,8 @@
 				<language ident="la" usage="996">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

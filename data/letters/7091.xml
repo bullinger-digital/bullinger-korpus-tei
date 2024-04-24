@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file7091" type="Brief" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file7091" type="Brief" source="TUSTEP-0" n="37040">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -19,23 +19,17 @@
 				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<bibl type="scan">Zürich StA</bibl>
-				<msDesc type="Brief" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 371,1091-1092</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
 							<incipit>Diu est, ex quo nullas ad vos dedimus literas cuius nonnullae fuerant causae, verum illa praecipua est, quod existentibus</incipit>
+							<textLang>la</textLang>
 						</msItem>
 					</msContents>
 					<additional>
@@ -55,16 +49,8 @@
 						</listBibl>
 					</additional>
 				</msDesc>
-				<msDesc type="Brief" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 116,8</idno>
 					</msIdentifier>
@@ -76,58 +62,16 @@
 				<correspAction type="sent">
 					<persName ref="p8010" cert="high">
 						<orig>Pawel Gilowski namens der Mitgeistlichen</orig>
-						<!--
-						<surname cert="high">Gilowski</surname>
-						<forename cert="high">Pawel (Paul)</forename>
-						-->
-					</persName>
+				</persName>
 					<placeName source="l19" cert="high"><orig>Auschwitz</orig></placeName>
 					<date when="1567-05-01" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
-					<persName ref="p8011" cert="high">
-						<!--
-						<surname cert="high">Gwalther (Walter, Gualtherus, Walthart) d.Ä.</surname>
-						<forename cert="high">Rudolf</forename>
-						<graphic type="portrait" url="portraits/1381_Gwalther_Rudolf.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Rudolf_Gwalther"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11854392X"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11522600"/>
-						-->
-					</persName>
-					<persName ref="p3988" cert="high">
-						<!--
-						<surname cert="high">Wolf</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/3988_Wolf_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Wolf_(Theologe,_1521)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/122064283"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417561"/>
-						-->
-					</persName>
-					<persName ref="p8442" cert="high">
-						<!--
-						<surname cert="high">Simler (Simmler)</surname>
-						<forename cert="high">Josias</forename>
-						<graphic type="portrait" url="portraits/2978_Simmler_Josias.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Josias_Simler"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11879728X"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11449628"/>
-						-->
-					</persName>
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high">
-						<orig>übrige Geistliche von Zürich</orig>
-					</roleName>
+					<persName ref="p495" cert="high"/>
+					<persName ref="p8011" cert="high"/>
+					<persName ref="p3988" cert="high"/>
+					<persName ref="p8442" cert="high"/>
+					<orgName ref="og26pl587" cert="high">übrige Geistliche von Zürich</orgName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -142,198 +86,63 @@
 					<ref type="child" target="file6770"/>
 				</correspContext>
 			</correspDesc>
+			<langUsage>
+				<language ident="la" usage="1000">Latein</language>
+			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
 		<surface>
-			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/7091%2FAutograph%2F00%20E_II_371__fol__1091_r_.tif/full/max/0/default.jpg" height="4118px" width="2706px" n="1"><desc subtype="path">7091/Autograph/00 E_II_371__fol__1091_r_.tif</desc></graphic>
-				<zone xml:id="p1z1-0" points="2524,158 2450,173 2436,158 2435,158 2370,159 2371,209 2414,208 2414,208 2433,228 2534,207">2371,197 2420,196 2438,215 2532,195</zone>
-				<zone xml:id="p1z2-0" points="2351,361 2265,367 967,350 666,344 665,394 966,400 2267,417 2354,411">666,382 967,388 2267,405 2354,399</zone>
-				<zone xml:id="p1z3-0" points="1503,442 1384,426 972,428 599,434 600,484 973,478 1381,476 1496,492">600,472 973,466 1382,464 1498,480</zone>
-				<zone xml:id="p1z4-0" points="2479,542 1952,534 1425,531 550,551 551,601 1426,581 1951,584 2478,592">551,589 1426,569 1952,572 2479,580</zone>
-				<zone xml:id="p1z5-0" points="2480,629 1674,602 873,623 629,644 634,694 876,673 1673,652 2478,679">633,682 876,661 1674,640 2479,667</zone>
-				<zone xml:id="p1z6-0" points="2503,713 2216,688 1447,677 631,714 633,764 1448,727 2214,738 2498,763">633,752 1448,715 2215,726 2500,751</zone>
-				<zone xml:id="p1z7-0" points="2455,790 1525,752 829,780 623,813 632,863 834,830 1524,802 2453,840">630,851 833,818 1525,790 2454,828</zone>
-				<zone xml:id="p1z8-0" points="2348,870 1926,839 1630,834 639,877 641,927 1631,884 1924,889 2345,920">641,915 1631,872 1925,877 2346,908</zone>
-				<zone xml:id="p1z9-0" points="2388,934 1830,915 1422,927 640,979 643,1029 1424,977 1829,965 2386,984">643,1017 1424,965 1830,953 2387,972</zone>
-				<zone xml:id="p1z10-0" points="2412,1048 1964,1013 1563,1005 637,1053 639,1103 1564,1055 1962,1063 2409,1098">639,1091 1564,1043 1963,1051 2410,1086</zone>
-				<zone xml:id="p1z11-0" points="2398,1116 1995,1100 1798,1097 632,1150 634,1200 1799,1147 1993,1150 2396,1166">634,1188 1799,1135 1994,1138 2397,1154</zone>
-				<zone xml:id="p1z12-0" points="2365,1194 2153,1185 1848,1191 636,1235 638,1285 1850,1241 2152,1235 2363,1244">638,1273 1850,1229 2153,1223 2364,1232</zone>
-				<zone xml:id="p1z13-0" points="2366,1290 1564,1276 1457,1299 633,1342 635,1392 1464,1349 1569,1326 2365,1340">635,1380 1463,1337 1568,1314 2366,1328</zone>
-				<zone xml:id="p1z14-0" points="2366,1391 2096,1371 1409,1369 629,1420 632,1470 1411,1419 2094,1421 2363,1441">632,1458 1411,1407 2095,1409 2364,1429</zone>
-				<zone xml:id="p1z15-0" points="2352,1492 1598,1447 735,1512 625,1538 636,1587 742,1562 1599,1497 2349,1542">634,1575 741,1550 1599,1485 2350,1530</zone>
-				<zone xml:id="p1z16-0" points="2363,1580 1819,1547 1598,1547 641,1595 643,1645 1599,1597 1817,1597 2360,1630">643,1633 1599,1585 1818,1585 2361,1618</zone>
-				<zone xml:id="p1z17-0" points="2337,1658 1610,1636 1148,1643 639,1693 644,1743 1151,1693 1609,1686 2335,1708">643,1731 1151,1681 1610,1674 2336,1696</zone>
-				<zone xml:id="p1z18-0" points="2296,1740 1708,1725 1152,1738 645,1778 648,1828 1154,1788 1707,1775 2295,1790">648,1816 1154,1776 1708,1763 2296,1778</zone>
-				<zone xml:id="p1z19-0" points="2381,1836 1409,1811 1316,1806 640,1868 645,1918 1317,1856 1407,1861 2380,1886">644,1906 1317,1844 1408,1849 2381,1874</zone>
-				<zone xml:id="p1z20-0" points="2318,1913 1732,1902 1339,1896 647,1946 650,1996 1341,1946 1731,1952 2317,1963">650,1984 1341,1934 1732,1940 2318,1951</zone>
-				<zone xml:id="p1z21-0" points="2324,1993 1871,1987 1030,1991 639,2028 644,2078 1032,2041 1870,2037 2323,2043">643,2066 1032,2029 1871,2025 2324,2031</zone>
-				<zone xml:id="p1z22-0" points="2354,2088 1807,2073 1363,2061 639,2117 642,2167 1364,2111 1805,2123 2352,2138">642,2155 1364,2099 1806,2111 2353,2126</zone>
-				<zone xml:id="p1z23-0" points="2372,2194 2262,2173 1484,2145 642,2208 645,2258 1485,2195 2256,2223 2363,2243">645,2246 1485,2183 2258,2211 2366,2231</zone>
-				<zone xml:id="p1z24-0" points="2345,2255 1877,2237 1446,2243 641,2289 644,2339 1448,2293 1876,2287 2343,2305">644,2327 1448,2281 1877,2275 2344,2293</zone>
-				<zone xml:id="p1z25-0" points="2321,2343 1303,2323 1105,2339 638,2376 641,2426 1110,2389 1305,2373 2320,2393">641,2414 1109,2377 1305,2361 2321,2381</zone>
-				<zone xml:id="p1z26-0" points="2384,2435 1233,2410 949,2440 637,2450 639,2500 952,2490 1235,2460 2383,2485">639,2488 952,2478 1235,2448 2384,2473</zone>
-				<zone xml:id="p1z27-0" points="2385,2522 1544,2493 1400,2500 645,2538 647,2588 1402,2550 1545,2543 2383,2572">647,2576 1402,2538 1545,2531 2384,2560</zone>
-				<zone xml:id="p1z28-0" points="2341,2610 1493,2588 1385,2590 646,2614 648,2664 1386,2640 1492,2638 2340,2660">648,2652 1386,2628 1493,2626 2341,2648</zone>
-				<zone xml:id="p1z29-0" points="2385,2698 1753,2663 1356,2669 645,2711 648,2761 1358,2719 1752,2713 2382,2748">648,2749 1358,2707 1753,2701 2383,2736</zone>
-				<zone xml:id="p1z30-0" points="2367,2783 1596,2740 979,2774 648,2785 650,2835 981,2824 1595,2790 2364,2833">650,2823 981,2812 1596,2778 2365,2821</zone>
-				<zone xml:id="p1z31-0" points="2333,2857 1610,2832 897,2870 643,2873 644,2923 899,2920 1611,2882 2331,2907">644,2911 899,2908 1611,2870 2332,2895</zone>
-				<zone xml:id="p1z32-0" points="2347,2966 2221,2928 1287,2930 641,2968 644,3018 1289,2980 2214,2978 2333,3013">644,3006 1289,2968 2216,2966 2337,3002</zone>
-				<zone xml:id="p1z33-0" points="2367,3037 1761,3010 1342,3029 640,3054 642,3104 1344,3079 1762,3060 2365,3087">642,3092 1344,3067 1762,3048 2366,3075</zone>
-				<zone xml:id="p1z34-0" points="2308,3111 1092,3113 1072,3133 1051,3153 652,3140 650,3190 1070,3203 1092,3182 1113,3163 2309,3161">651,3178 1066,3191 1108,3151 2309,3149</zone>
-				<zone xml:id="p1z35-0" points="547,3242 529,3233 507,3278 520,3284 541,3302 554,3294">513,3267 527,3274 543,3287 548,3284</zone>
-				<zone xml:id="p1z36-0" points="2311,3193 1620,3189 1096,3206 645,3231 648,3281 1098,3256 1621,3239 2310,3243">648,3269 1098,3244 1621,3227 2311,3231</zone>
-				<zone xml:id="p1z37-0" points="2324,3281 1553,3279 778,3306 643,3320 648,3370 781,3356 1554,3329 2323,3331">647,3358 781,3344 1554,3317 2324,3319</zone>
-				<zone xml:id="p1z38-0" points="2358,3374 1234,3374 1019,3380 651,3406 654,3456 1021,3430 1235,3424 2358,3424">654,3444 1021,3418 1235,3412 2358,3412</zone>
-				<zone xml:id="p1z39-0" points="2324,3463 1779,3452 1322,3459 648,3497 651,3547 1324,3509 1778,3502 2323,3513">651,3535 1324,3497 1779,3490 2324,3501</zone>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/7091%2FAutograph%2F00%20E_II_371__fol__1091_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">7091/Autograph/00 E_II_371__fol__1091_r_.tif</desc></graphic>
 		</surface>
 		<surface>
-			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/7091%2FAutograph%2F01%20E_II_371__fol__1091_v_.tif/full/max/0/default.jpg" height="4106px" width="2676px" n="2"><desc subtype="path">7091/Autograph/01 E_II_371__fol__1091_v_.tif</desc></graphic>
-				<zone xml:id="p2z1-0" points="384,211 313,221 298,237 241,230 235,280 317,290 338,268 391,261">237,268 313,277 332,257 390,249</zone>
-				<zone xml:id="p2z2-0" points="2417,408 1737,389 1194,393 262,385 261,435 1193,443 1736,439 2415,458">262,423 1194,431 1737,427 2416,446</zone>
-				<zone xml:id="p2z3-0" points="2486,494 1577,447 1385,451 379,468 380,518 1386,501 1576,497 2484,544">380,506 1386,489 1577,485 2485,532</zone>
-				<zone xml:id="p2z4-0" points="301,556 262,553 256,602 269,611 277,604 298,606">263,592 269,596 274,592 299,594</zone>
-				<zone xml:id="p2z5-0" points="2489,571 2353,558 506,537 378,564 388,613 511,587 2350,608 2484,621">386,601 510,575 2351,596 2486,609</zone>
-				<zone xml:id="p2z6-0" points="2428,645 1660,596 1544,590 391,625 393,675 1543,640 1657,646 2425,695">393,663 1544,628 1658,634 2426,683</zone>
-				<zone xml:id="p2z7-0" points="307,698 271,699 258,746 271,757 285,749 309,748">267,737 273,742 282,737 309,736</zone>
-				<zone xml:id="p2z8-0" points="2467,721 1710,667 847,676 383,710 386,760 849,726 1708,717 2464,771">386,748 849,714 1709,705 2465,759</zone>
-				<zone xml:id="p2z9-0" points="2454,803 1757,771 1314,757 388,781 389,831 1313,807 1755,821 2452,853">389,819 1314,795 1756,809 2453,841</zone>
-				<zone xml:id="p2z10-0" points="2468,898 1540,851 1351,846 401,863 402,913 1350,896 1538,901 2466,948">402,901 1351,884 1539,889 2467,936</zone>
-				<zone xml:id="p2z11-0" points="2395,970 2115,952 1294,916 1069,923 1071,973 1293,966 2112,1002 2392,1020">1071,961 1294,954 2113,990 2393,1008</zone>
-				<zone xml:id="p2z12-0" points="963,930 680,927 592,933 515,939 407,935 405,985 516,989 595,983 682,977 962,980">406,973 516,977 682,965 963,968</zone>
-				<zone xml:id="p2z13-0" points="2435,1032 2402,1037 2233,1037 2069,1024 2066,1074 2231,1087 2407,1087 2444,1081">2067,1062 2232,1075 2406,1075 2442,1069</zone>
-				<zone xml:id="p2z14-0" points="1981,1004 1098,1004 476,1013 393,1035 406,1084 483,1063 1099,1054 1981,1054">403,1072 482,1051 1099,1042 1981,1042</zone>
-				<zone xml:id="p2z15-0" points="2361,1112 1799,1073 1602,1073 396,1114 398,1164 1603,1123 1797,1123 2358,1162">398,1152 1603,1111 1798,1111 2359,1150</zone>
-				<zone xml:id="p2z16-0" points="2460,1211 1395,1165 1286,1173 416,1203 418,1253 1289,1223 1396,1215 2458,1261">418,1241 1289,1211 1396,1203 2459,1249</zone>
-				<zone xml:id="p2z17-0" points="2467,1300 1617,1263 801,1272 409,1304 414,1354 803,1322 1616,1313 2465,1350">413,1342 803,1310 1617,1301 2466,1338</zone>
-				<zone xml:id="p2z18-0" points="2410,1388 1547,1350 1241,1389 1172,1398 412,1390 411,1440 1175,1448 1244,1439 1549,1400 2408,1438">412,1428 1175,1436 1549,1388 2409,1426</zone>
-				<zone xml:id="p2z19-0" points="2419,1483 1923,1442 862,1451 399,1484 402,1534 864,1501 1921,1492 2414,1533">402,1522 864,1489 1922,1480 2416,1521</zone>
-				<zone xml:id="p2z20-0" points="2402,1567 2343,1560 2340,1563 2338,1565 2249,1557 2244,1607 2353,1616 2356,1614 2358,1613 2396,1617">2246,1595 2350,1604 2355,1600 2398,1605</zone>
-				<zone xml:id="p2z21-0" points="2181,1553 1418,1519 800,1537 413,1560 416,1610 802,1587 1417,1569 2179,1603">416,1598 802,1575 1418,1557 2180,1591</zone>
-				<zone xml:id="p2z22-0" points="2403,1658 1454,1611 637,1637 403,1663 409,1713 640,1687 1453,1661 2401,1708">408,1701 640,1675 1454,1649 2402,1696</zone>
-				<zone xml:id="p2z23-0" points="2390,1751 1520,1722 524,1737 418,1756 427,1805 529,1787 1519,1772 2388,1801">425,1793 528,1775 1520,1760 2389,1789</zone>
-				<zone xml:id="p2z24-0" points="2416,1836 2252,1831 2241,1830 1685,1795 1626,1810 1639,1859 1690,1845 2222,1879 2250,1881 2414,1886">1636,1847 1689,1833 2251,1869 2415,1874</zone>
-				<zone xml:id="p2z25-0" points="1509,1803 1300,1792 775,1814 422,1830 424,1880 777,1864 1299,1842 1507,1853">424,1868 777,1852 1300,1830 1508,1841</zone>
-				<zone xml:id="p2z26-0" points="2406,1923 1753,1898 1126,1890 431,1934 434,1984 1127,1940 1752,1948 2404,1973">434,1972 1127,1928 1753,1936 2405,1961</zone>
-				<zone xml:id="p2z27-0" points="2507,2031 1946,1985 1725,1980 421,2009 422,2059 1724,2030 1944,2035 2502,2081">422,2047 1725,2018 1945,2023 2504,2069</zone>
-				<zone xml:id="p2z28-0" points="2331,2090 1597,2067 1064,2077 424,2103 426,2153 1066,2127 1596,2117 2329,2140">426,2141 1066,2115 1597,2105 2330,2128</zone>
-				<zone xml:id="p2z29-0" points="1120,2477 973,2482 965,2487 949,2477 923,2519 964,2545 987,2532 1122,2527">930,2509 965,2531 984,2520 1122,2515</zone>
-				<zone xml:id="p2z30-0" points="1679,2736 1614,2702 1583,2725 1332,2732 1333,2782 1601,2775 1619,2761 1656,2781">1333,2770 1597,2763 1618,2747 1662,2770</zone>
-				<zone xml:id="p2z31-0" points="2543,3319 1882,3315 1790,3312 1657,3327 1663,3377 1792,3362 1881,3365 2542,3369">1662,3365 1792,3350 1882,3353 2543,3357</zone>
-				<zone xml:id="p2z32-0" points="2552,3392 2073,3387 1948,3390 1717,3396 1659,3389 1653,3439 1715,3446 1956,3440 2074,3437 2551,3442">1655,3427 1716,3434 2074,3425 2552,3430</zone>
-				<zone xml:id="p2z33-0" points="2579,3467 2524,3467 1878,3461 1637,3467 1638,3517 1879,3511 2523,3517 2523,3517 2579,3517">1638,3505 1879,3499 2524,3505 2579,3505</zone>
-				<zone xml:id="p2z34-0" points="2578,3539 1914,3537 1724,3536 1642,3558 1655,3607 1730,3586 1913,3587 2577,3589">1652,3595 1729,3574 1914,3575 2578,3577</zone>
-				<zone xml:id="p2z35-0" points="2156,3619 1705,3616 1696,3618 1675,3624 1662,3618 1641,3664 1670,3677 1711,3666 2155,3669">1647,3653 1672,3664 1710,3654 2156,3657</zone>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/7091%2FAutograph%2F01%20E_II_371__fol__1091_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">7091/Autograph/01 E_II_371__fol__1091_v_.tif</desc></graphic>
 		</surface>
 		<surface>
-			<graphic xml:id="img3-0" url="https://iiif.bullinger-digital.ch/iiif/3/7091%2FAutograph%2F02%20E_II_371__fol__1092_r_.tif/full/max/0/default.jpg" height="4127px" width="2688px" n="3"><desc subtype="path">7091/Autograph/02 E_II_371__fol__1092_r_.tif</desc></graphic>
-				<zone xml:id="p3z1-0" points="2527,174 2425,181 2422,185 2346,170 2336,219 2443,240 2451,230 2530,224">2339,207 2438,227 2445,218 2530,212</zone>
+			<graphic xml:id="img3-0" url="https://iiif.bullinger-digital.ch/iiif/3/7091%2FAutograph%2F02%20E_II_371__fol__1092_r_.tif/full/max/0/default.jpg" n="3"><desc subtype="path">7091/Autograph/02 E_II_371__fol__1092_r_.tif</desc></graphic>
 		</surface>
 		<surface>
-			<graphic xml:id="img4-0" url="https://iiif.bullinger-digital.ch/iiif/3/7091%2FAutograph%2F03%20E_II_371__fol__1092_v_.tif/full/max/0/default.jpg" height="4106px" width="2676px" n="4"><desc subtype="path">7091/Autograph/03 E_II_371__fol__1092_v_.tif</desc></graphic>
-				<zone xml:id="p4z1-0" points="379,225 199,228 197,230 183,228 174,277 214,284 220,278 380,275">177,265 210,271 215,266 380,263</zone>
-				<zone xml:id="p4z2-0" points="2489,1397 1929,1395 1596,1390 1437,1408 1443,1458 1598,1440 1928,1445 2488,1447">1442,1446 1598,1428 1929,1433 2489,1435</zone>
-				<zone xml:id="p4z3-0" points="2547,1497 2208,1482 1509,1476 1478,1489 1497,1535 1519,1526 2207,1532 2545,1547">1493,1524 1517,1514 2208,1520 2546,1535</zone>
-				<zone xml:id="p4z4-0" points="2528,1572 1734,1562 1693,1583 1494,1557 1488,1607 1702,1634 1745,1612 2527,1622">1490,1595 1700,1622 1743,1600 2528,1610</zone>
-				<zone xml:id="p4z5-0" points="2566,1672 2450,1648 1885,1649 1474,1653 1475,1703 1886,1699 2445,1698 2556,1721">1475,1691 1886,1687 2447,1686 2559,1709</zone>
-				<zone xml:id="p4z6-0" points="2512,1741 2245,1723 1951,1729 1499,1730 1500,1780 1952,1779 2244,1773 2509,1791">1500,1768 1952,1767 2245,1761 2510,1779</zone>
-				<zone xml:id="p4z7-0" points="2522,1821 1707,1812 1499,1819 1461,1849 1491,1888 1517,1869 1708,1862 2521,1871">1484,1879 1513,1857 1708,1850 2522,1859</zone>
-				<zone xml:id="p4z8-0" points="2377,1909 2138,1918 2116,1905 2100,1895 1482,1894 1481,1944 2086,1945 2102,1954 2125,1968 2379,1959">1482,1932 2090,1933 2129,1956 2379,1947</zone>
+			<graphic xml:id="img4-0" url="https://iiif.bullinger-digital.ch/iiif/3/7091%2FAutograph%2F03%20E_II_371__fol__1092_v_.tif/full/max/0/default.jpg" n="4"><desc subtype="path">7091/Autograph/03 E_II_371__fol__1092_v_.tif</desc></graphic>
 		</surface>
 	</facsimile>
-	<text xml:lang="">
+	<text xml:lang="la">
 		<body>
 			<div>
 				<p>
-					<lb xml:id="p1z1"/>1561.
-					<lb xml:id="p1z2"/>Gratiam et pacem a deo patre et Iesu Christo
-					<lb xml:id="p1z3"/>Ichovam nostro precamur.
-					<lb xml:id="p1z4"/>Diu est, ex quo nullas ad vos reverendi domini atque in Christo
-					<lb xml:id="p1z5"/>colendissimi, fratres dedimus literas, cuius nonnullae fuerit,
-					<lb xml:id="p1z6"/>causae, verum illa praecipua est, quod existentibus in nobis
-					<lb xml:id="p1z7"/>religionis negocio rebus ita perturbitis, tot impiis opinionibus
-					<lb xml:id="p1z8"/>procellis exurgentem evangelii lucem grassantibus,
-					<lb xml:id="p1z9"/>ut, quid certi et explorati constitui et sperari posset, hactenus
-					<lb xml:id="p1z10"/>ac ne vix quidem poteramus coniicere. Propterea nihil erat,
-					<lb xml:id="p1z11"/>quod ad vos piissimos viros et nostri profectus amantissimi
-					<lb xml:id="p1z12"/>vos possemus, nisi peracerbum et maxime molestum scribere
-					<lb xml:id="p1z13"/>ita omnia erant confusa et susque deque versa.
-					<lb xml:id="p1z14"/>vero, cum aliqua saevissimae tempestatis ostendatur, si minus
-					<lb xml:id="p1z15"/>Summa tranquillitas, quae ne quidem seferente negotio sathan&#281;
-					<lb xml:id="p1z16"/>expectanda est, at saltem aliquam sedatior comotio, quae nos
-					<lb xml:id="p1z17"/>in aliquam spem trahit. Visum nobis est, officii ac pietatis
-					<lb xml:id="p1z18"/>et observantiae erga vos nostrae esse, vos de statu nostro
-					<lb xml:id="p1z19"/>certiores facere, vos omnes literis his salutare, quibus etiam
-					<lb xml:id="p1z20"/>eo breviores erimus, quo dominus Christophorus Thretius
-					<lb xml:id="p1z21"/>qui has nostras ad vos deferet, is est, qui suo sermone
-					<lb xml:id="p1z22"/>et colloquio tum copiosius tum etiam gratius vobiscum
-					<lb xml:id="p1z23"/>et omnia coram fusius explicabit. Novio enim illo
-					<lb xml:id="p1z24"/>esset magis idoneus et aptus. Non enim solum his nostris
-					<lb xml:id="p1z25"/>tumultibus et certaminibus obortis interfuit, verum etiam
-					<lb xml:id="p1z26"/>tractavit et praefuit. Proinde ab ipso quicquid turbarum, quibus
-					<lb xml:id="p1z27"/>autoribus, quove animi morbo excitatum est, clarissime
-					<lb xml:id="p1z28"/>explanabitur, quae turbae nostrae, qui conflictus quae
-					<lb xml:id="p1z29"/>plurium etiam nobilium inconstantia, quae opinionum nostrum
-					<lb xml:id="p1z30"/>parvium prurigo, in ministris praecipue, quae contendendi
-					<lb xml:id="p1z31"/>pervicacia, quae monstrosarum opinionum portenta mordia
-					<lb xml:id="p1z32"/>tueantur, quam audacter digladientur. Mirum est,
-					<lb xml:id="p1z33"/>quam pertinaciter, reluctentur veritati prae sua mentis
-					<lb xml:id="p1z34"/>universitate. Quibus in molestiis cum pietas vestra nobis
-					<lb xml:id="p1z35"/>26.
-					<lb xml:id="p1z36"/>non semel ostenderit suae caritatis propensionem et
-					<lb xml:id="p1z37"/>tum doctrina tum consilio studium ardens non
-					<lb xml:id="p1z38"/>possuimus non ingentes gratias agere et gratitudinem animum
-					<lb xml:id="p1z39"/>mi saltem verbis ex corde testari et in posterum rogare,
-					<pb/>
-					<lb xml:id="p2z1"/>1553 a
-					<lb xml:id="p2z2"/>ut dignumini nos fratres vestris in Christo una confessione (quae in
-					<lb xml:id="p2z3"/>clarissima urbe Tigurina ante biennini multarum vestrarum ecclesiarum
-					<lb xml:id="p2z4"/>66.
-					<lb xml:id="p2z5"/>nominum et academia Heidelbergensi nostris, Francoricis, orthodoxis
-					<lb xml:id="p2z6"/>duxis ecclesiis et academia Heydelbergensi approbata, quam non
-					<lb xml:id="p2z7"/>es
-					<lb xml:id="p2z8"/>approbamus modo, sed eidem confessioni vestrae iterum atque iterum
-					<lb xml:id="p2z9"/>scribimus) coniunctos amare et ecclesiis nostris istis turbulentis consilium
-					<lb xml:id="p2z10"/>et adiuventa. Proptere, quibus hae turbae aliquantisper comprimis
-					<lb xml:id="p2z11"/>dominus studii vestro labores, fructus in
-					<lb xml:id="p2z12"/>ini etiamdari possint.
-					<lb xml:id="p2z13"/>collectae, nunc
-					<lb xml:id="p2z14"/>aedificatione ecclesiae Christi etiam in nostro regno
-					<lb xml:id="p2z15"/>vero afflictissim&#281;, qua de re dominus Christopherus, Thretius
-					<lb xml:id="p2z16"/>pater noster charissimis, nomine nostro vos sedulo rogabitur, verbum
-					<lb xml:id="p2z17"/>nostris diligenter exponet. Ille enim est nominis vestri
-					<lb xml:id="p2z18"/>studiosissimus et regni Christi promovendi fautor acerrimis, isthuc
-					<lb xml:id="p2z19"/>ad vos invisendos adductus ab illustri et magnifico domino Palatino
-					<lb xml:id="p2z20"/>etiam
-					<lb xml:id="p2z21"/>Cracoviensi harum ecclesiarum, patrono cupide tum
-					<lb xml:id="p2z22"/>alacriter proficiscitur, ut consiliis vestris collatis fortiores ac etiam
-					<lb xml:id="p2z23"/>paratiores simus, in expugnandis hic turbatoribus, qui plurimum
-					<lb xml:id="p2z24"/>Vos pro ea caritate, quae
-					<lb xml:id="p2z25"/>nim negocii piis omnibus facessunt.
-					<lb xml:id="p2z26"/>in vobis est boni consulite et nos sincera et mutua dilectione
-					<lb xml:id="p2z27"/>complectamini. Valete in Christo, fratres, reverendi ac unice colendissime
-					<lb xml:id="p2z28"/>complectamini, boni valete in Christo, fratres, reverendi reverendica ac dilecte
-					<lb xml:id="p2z29"/>Vestri
-					<lb xml:id="p2z30"/>observantissimus
-					<lb xml:id="p2z31"/>ecclesiarum refirmatorum in domino
-					<lb xml:id="p2z32"/>ecclesiarum reformatarum in
-					<lb xml:id="p2z33"/>latoriensem et Oswenczimensi
-					<lb xml:id="p2z34"/>suo fratrumque seniorum et ministrum
-					<lb xml:id="p2z35"/>fratrorum nomine
-					<pb/>
-					<lb xml:id="p3z1"/>1942.
-					<pb/>
-					<lb xml:id="p4z1"/>1542 a
-					<lb xml:id="p4z2"/>Reverendo Henricho Gvalthero, Iesannes
-					<lb xml:id="p4z3"/>domino Henricho Bulingero seniori
-					<lb xml:id="p4z4"/>Rodolpho Gvalthero, Iohanni
-					<lb xml:id="p4z5"/>mi Volphio, Josiae Simlero, caeterisque
-					<lb xml:id="p4z6"/>Tigurinae ecclesiae ministris
-					<lb xml:id="p4z7"/>Christi servis, dominis et fratribus
-					<lb xml:id="p4z8"/>fratribus in Christo observandis.
+					<s n="1" xml:lang="la" type="auto">Gratiam et pacem a deo patre et Iesu Christo, <persName type="auto_name">Iehova</persName> nostro, precamur.</s>
+				</p>
+				<p>
+					<s n="2" xml:lang="la" type="auto">Diu est, ex quo nullas ad vos reverendi domini atque in Christo colendissimi fratres, dedimus literas, cuius nonnullae fuerunt causae; verum illa praecipua est, quod existentibus in nostro religionis negocio rebus ita perturbatis tot impiis opinionibus procellis exurgentem evangelii lucem grassantibus, ut quid certi et explorati constitui et sperari posset, hactenus ac ne vix quidem poteramus coniicere.</s>
+					<s n="3" xml:lang="la" type="auto">Propterea nihil erat, quod ad vos, piissimos viros et nostri profect amantissimos, possemus nisi peracerbum et maxime molestum scribere, ita omnia erant confusa et susque deque versa.</s>
+				</p>
+				<p>
+					<s n="4" xml:lang="la" type="auto">Nunc vero cum aliqua saevissimae tempestatis ostendatur, si minus summa tranquillitas, quae ne quidem florente regno sathanę expectanda est, at saltem aliqua sedatior commotio, quae nos in aliquam spem trahit, visum nobis est, officii ac pietatis et observantiae erga vos nostrae esse, vos de statu nostro certiores facere, vos omnes literis his salutare, quibus etiam eo breviores erimus, quo dominus Ch.</s>
+				</p>
+				<p>
+					<s n="5" xml:lang="la" type="auto">Thretius, qui has nostras ad vos deferet, is est, qui suo sermone et colloquio tum copiosius tum etiam gratius vobiscum aget et omnia coram fusius explicabit.</s>
+					<s n="6" xml:lang="la" type="auto">Nemo enim illo esset magis idoneus et aptus.</s>
+					<s n="7" xml:lang="la" type="auto">Non enim solum his nostris tumultibus et certaminibus obortis interfuit, verum etiam tractavit et praefuit.</s>
+					<s n="8" xml:lang="la" type="auto">Proinde ab ipso quicquid turbarum quibusve autoribus quove animi morbo excitatum est, clarius explanabitur, quae turbae nostrae, qui conflictus, quae plurium etiam nobilium inconstantia, quae opinionum novarum prurigo, in ministris praecipue quae contendendi pervicacia, quae monstrosarum opinionum portenta mordicus tueantur, quam audacter digladientur.</s>
+					<s n="9" xml:lang="la" type="auto">Mirum est, quam pertinaciter reluctentur veritati prae sua mentis perversitate.</s>
+					<s n="10" xml:lang="la" type="auto">Quibus in molestiis cum pietas vestra nobis non semel ostenderit suae caritatis propensionem et iuvandi tum doctrina tum consilio studium ardens, non possumus non ingentes gratias agere et gratitudinem animi saltem verbis ex corde testari et in posterum rogare, ut dignemini nos, fratres vestros in Christo, una confessione (quae in clarissima urbe Tigurina ante biennium multarum vestrarum ecclesiarum nomine edita et a Gallicis, Anglicis, Flandricis orthodoxis ecclesiis et academia <placeName type="auto_name">Heydelbergensi</placeName> approbata, quam non approbamus modo, sed eidem confessioni vestrae iterum atque iterum subscribimus) coniunctos amare et ecclesiis nostris istis turbulentis consilia et adiumenta praebere, quibus hae turbae aliquantisper comprimi et sedari possint.</s>
+					<s n="11" xml:lang="la" type="auto">Novimus studia vestra, labores, fructus in aedificatione ecclesiae Christi etiam in nostro regno collectae nunc vero afflictissimę, qua de re dominus <persName type="auto_name">Christopherus Thretius</persName> frater noster charissimus, nomine nostro vos sedulo rogabit, verbis nostris diligenter exponet.</s>
+					<s n="12" xml:lang="la" type="auto">Ille enim est nominis vestri studiosissimus et regni Christi promovendi fautor acerrimus.</s>
+					<s n="13" xml:lang="la" type="auto">Isthuc ad vos invisendos adductus ab illustri et magnifico dno.</s>
+					<s n="14" xml:lang="la" type="auto">palatino <placeName type="auto_name">Cracoviensi</placeName>, harum ecclesiarum patrono, cupide tum etiam alacriter proficiscitur, ut consiliis vestris collatis fortiores ac etiam paratiores simus in expugnandis hic turbatoribus, qui plurimum negocii piis omnibus facessunt.</s>
+				</p>
+				<p>
+					<s n="15" xml:lang="la" type="auto">Vos pro ea caritate, quae in vobis est, boni consulite et nos sincera et mutua dilectione complectamini.</s>
+					<s n="16" xml:lang="la" type="auto">Valete in Christo, fratres reverendi ac unice colendi.</s>
+					<s n="17" xml:lang="la" type="auto">Datae <persName type="auto_name">Oswenczim</persName> calendis maii a. dni. 1567.</s>
+				</p>
+				<p>
+					<s n="18" xml:lang="la" type="auto">Vestri observantissimus <persName type="auto_name">Paulus Gilovius</persName>, superintendens ecclesiarum reformatarum in ducatu <placeName type="auto_name">Zatoriensi</placeName> et <placeName type="auto_name">Oswenczimensi</placeName>, suo fratrumque seniorum et ministrorum nomine.</s>
+				</p>
+				<p>
+					<s n="19" xml:lang="la" type="auto">Reverendis atque clarissimis viris domino Henricho Bulingero seniori, <persName ref="p8011" cert="high">Rodolpho Gvalthero</persName>, <persName type="auto_name">Iohanni Volphio</persName>, <persName type="auto_name">Iosiae Simlero</persName> caeterisque Tigurinae ecclesiae ministris, Iesu Christi servis, dominis et fratribus in Christo observandis.</s>
 				</p>
 			</div>
 		</body>

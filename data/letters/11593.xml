@@ -24,14 +24,6 @@
 				<bibl n="14" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms Car I 108b,1r.–6v. (Brief), 8v. (Titel)</idno>
 					</msIdentifier>
@@ -83,7 +75,7 @@
 								Christi Leib der Begrenztheit enthoben ist, sondern unterstreicht den Gegensatz zur Erniedrigung. Christus
 								ist im Himmel, wo nach seiner Verheißung auch wir sein werden. Sein „Name über alle Namen“ weist auf seine
 								Herrschaft hin; nach seiner menschlichen Natur bleibt er dennoch geschöpflich und benennbar. Dem entspricht,
-								was Vigilius über den Namen Christi schreibt: Christus bleibt auch im Himmel der „Menschensohn“. Der nicht
+								was <persName ref="p18377" cert="high">Vigilius</persName> über den Namen Christi schreibt: Christus bleibt auch im Himmel der „Menschensohn“. Der nicht
 								lokalisierbare Leib Christi ist eine Fiktion; die Einsetzungsworte handeln vom wahren Leib, der dahingegeben
 								wurde und nun im Himmel weilt, während Christus unabhängig vom Ort in den am Mahl Teilnehmenden wirkt. Diese
 								Lehre ist schriftgemäß und stimmt mit dem Glauben der Väter überein. Wenn Christus kraft seiner göttlichen
@@ -115,30 +107,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11593">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1541-07-26" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p1365" cert="high">
-						<!--
-						<surname cert="high">Grynäus</surname>
-						<forename cert="high">Simon</forename>
-						<graphic type="portrait" url="portraits/1365_Grynaeus_Simon.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Simon_Grynaeus"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11690240X"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
-						-->
-					</persName>
+					<persName ref="p1365" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11594"/>
@@ -158,8 +132,8 @@
 				<language ident="la" usage="999">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -173,7 +147,7 @@
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">[1.] Ego vero non ignoro operosam esse quaestionem de signis eorumque differentia, quam haud dubie exquisitius pertractasses, nisi paucula illa tuo instituto satisfacere credidisses; proinde ad consequentem de vivifica carne Christi disputationem transeundum mihi putavi.</s>
-					<s n="4" xml:lang="la" type="auto">Scio, <persName ref="p1365" cert="high">Grynęe</persName> doctissime, quid de carne Christi vivifica <persName ref="p17867" cert="high">Cyrillus Alexandrinus</persName> contra dogma <persName ref="p18253" cert="high">Nestorii</persName> una cum synodo, quae apud Alexandriam convenit, decrevit et quos anathematismos fecerit,<note xml:id="fn3" type="footnote" n="3">Mit seinen zwölf Anathematismen griff <persName ref="p17867" cert="high">Cyrill von Alexandrien</persName> im Jahr 430 die Christologie des <persName ref="p18253" cert="high">Nestorius</persName> an (s. <bibl>ACO</bibl> I/1 1 40-42, bes. 41,28-42,2 = Denzinger 252-263, bes. 262; vgl. Lionel R. <hi>Wickham,</hi> Art. <persName ref="p18253" cert="high">Nestorius</persName>/Nestorianischer Streit, in: <bibl>TRE</bibl> XXIV 276-286, bes. 280). <persName ref="p1365" cert="high">Grynäus</persName> hatte mit folgender Bemerkung auf diese Stelle angespielt: "Itaque <foreign xml:lang="el">ζωόπιον</foreign> [!] Christi carnem esse negare anathema apud veteres erat" (aaO, f. 8v.).</note> quomodo idem a <persName ref="p18346" cert="high">Theodoreto</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="p18346" cert="high">Theodoret, Bischof von Kyrrhos</persName> (s. <ref target="file11543">Nr. 1500</ref>, Anm. 82), war zu Beginn des nestorianischen Streits einer der führenden Gegner Cyrills.</note>, Cyri episcopo, reprehensus<pb type="edition" next="267"/> sit et hic rursus ab illo refutatus;<note xml:id="fn5" type="footnote" n="5">Anfang 431 verfasste <persName ref="p18346" cert="high">Theodoret</persName> eine Schrift gegen Cyrills "Anathematismen"; ihr Inhalt ist in der Apologie überliefert, mit welcher Cyrill antwortete (<bibl>ACO</bibl> III 6 107-146; <bibl>MPG</bibl> LXXVI 385-452).</note> rursus, quid huius eiusdem Cyrilli opera synodus, quae apud Ephesum confluxerat, definiit<note xml:id="fn6" type="footnote" n="6">Das Konzil zu <placeName ref="l972" cert="high">Ephesus</placeName> (431) folgte Cyrill und verurteilte <persName ref="p18253" cert="high">Nestorius</persName>; s. bes. <bibl>ACO</bibl> I/1 2 54, 16-28; Denzinger 264; vgl. Jacques <hi>Liébaert,</hi> Art. <placeName ref="l972" cert="high">Ephesus</placeName>, in: <bibl>TRE</bibl> IX 753f.</note>.</s>
+					<s n="4" xml:lang="la" type="auto">Scio, <persName ref="p1365" cert="high">Grynęe</persName> doctissime, quid de carne Christi vivifica <persName ref="p17867" cert="high">Cyrillus Alexandrinus</persName> contra dogma <persName ref="p18253" cert="high">Nestorii</persName> una cum synodo, quae apud Alexandriam convenit, decrevit et quos anathematismos fecerit,<note xml:id="fn3" type="footnote" n="3">Mit seinen zwölf Anathematismen griff <persName ref="p17867" cert="high">Cyrill von Alexandrien</persName> im Jahr 430 die Christologie des <persName ref="p18253" cert="high">Nestorius</persName> an (s. <bibl>ACO</bibl> I/1 1 40-42, bes. 41,28-42,2 = Denzinger 252-263, bes. 262; vgl. Lionel R. <hi>Wickham,</hi> Art. <persName ref="p18253" cert="high">Nestorius</persName>/Nestorianischer Streit, in: <bibl>TRE</bibl> XXIV 276-286, bes. 280). <persName ref="p1365" cert="high">Grynäus</persName> hatte mit folgender Bemerkung auf diese Stelle angespielt: "Itaque <foreign xml:lang="el">ζωόπιον</foreign> [!] Christi carnem esse negare anathema apud veteres erat" (aaO, f. 8v.).</note> quomodo idem a <persName ref="p18346" cert="high">Theodoreto</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="p18346" cert="high">Theodoret, Bischof von Kyrrhos</persName> (s. <ref target="file11543">Nr. 1500</ref>, Anm. 82), war zu Beginn des nestorianischen Streits einer der führenden Gegner Cyrills.</note>, Cyri episcopo, reprehensus<pb type="edition" next="267"/> sit et hic rursus ab illo refutatus;<note xml:id="fn5" type="footnote" n="5">Anfang 431 verfasste <persName ref="p18346" cert="high">Theodoret</persName> eine Schrift gegen Cyrills "Anathematismen"; ihr Inhalt ist in der Apologie überliefert, mit welcher Cyrill antwortete (<bibl>ACO</bibl> III 6 107-146; <bibl>MPG</bibl> LXXVI 385-452).</note> rursus, quid huius eiusdem <persName ref="p17867" cert="high">Cyrilli</persName> opera synodus, quae apud Ephesum confluxerat, definiit<note xml:id="fn6" type="footnote" n="6">Das Konzil zu <placeName ref="l972" cert="high">Ephesus</placeName> (431) folgte Cyrill und verurteilte <persName ref="p18253" cert="high">Nestorius</persName>; s. bes. <bibl>ACO</bibl> I/1 2 54, 16-28; Denzinger 264; vgl. Jacques <hi>Liébaert,</hi> Art. <placeName ref="l972" cert="high">Ephesus</placeName>, in: <bibl>TRE</bibl> IX 753f.</note>.</s>
 					<s n="5" xml:lang="la" type="auto">Interim vero et illud non nescio, quod, dum argute satis et subobscure is contra <persName ref="p18253" cert="high">Nestorium</persName> - cuius dogma alioqui satis temerarium nemo sanus unquam approbavit - disputat, amplissimam <persName ref="p19214" cert="high">Eutychi</persName><note xml:id="fn7" type="footnote" n="7">Vgl. <bibl>HBBW VIII</bibl> <ref target="file11229">[Nr. 1186]</ref>, S. 242, Anm. 5.</note> et <persName ref="18461" type="auto_name">Dioscoro</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="p18461" cert="high">Dioskoros I.</persName>, als Nachfolger Cyrills 444-451 Patriarch von Alexandrien, setzte auf der "Räubersynode" von 449 <persName ref="p17910" cert="high">Flavian von Konstantinopel</persName> ab und rehabilitierte <persName ref="p19214" cert="high">Eutyches</persName>. 451 wurde er in <placeName ref="l1652" cert="high">Chalcedon</placeName> auf Drängen von <persName ref="p18543" cert="high">Papst Leo I.</persName> abgesetzt; er starb 454 in <placeName ref="l1888" cert="high">Gangra</placeName> im Exil. - Lit.: Hermann-Josef <hi>Sieben,</hi> in: LThK<note type="sup">3</note> III 249f.</note> occasionem ab orthodoxa confessione desciscendi suppeditat.</s>
 					<s n="6" xml:lang="la" type="auto">Dum enim infoelices nimia <persName ref="p17867" cert="high">Cyrilli</persName> religione tenentur ac cernunt, quanto is studio ac fervore unionem naturarum Christi urget propugnatque, divisionem ipsarum refellit atque impugnat, eo tandem deferuntur, ut dicant propter personę unitatem unam quoque modo in Christo naturam esse; unde a naturarum proprietate desciverunt ipsamque divinitatem passam affirmarunt.</s>
 					<s n="7" xml:lang="la" type="auto">Nihil hic in contumeliam optimi viri <persName ref="p17867" cert="high">Cyrilli</persName> fingo.</s>
@@ -243,11 +217,11 @@
 					<s n="59" xml:lang="la" type="auto">En quam conveniant singula et per eosdem gradus perveniatur ad immortalitatem.</s>
 					<s n="60" xml:lang="la" type="auto">Rursus:<pb type="edition" next="271"/> „Amen, amen, dico vobis“, dicit dominus, „qui confidit mihi, habet vitam aeternam“ <cit type="bible"><ref>[Joh 6, 47]</ref></cit>, et: „Ego sum panis vitae“ <cit type="bible"><ref>[Joh 6, 48]</ref></cit>, „qui ederit ex hoc pane, vivet in aeternum“ [Joh 6, 51 (Vulg. 52)].</s>
 					<s n="61" xml:lang="la" type="auto">Et iterum: „Qui edit meam carnem et bibit meum sanguinem, in me manet et ego in eo“ [Joh 6, 56 (Vulg. 57)].</s>
-					<s n="62" xml:lang="la" type="auto">At in 1. Ioan. 4 [15] dicit eodem spiritu imbutus Ioannes: „Quisquis confessus fuerit, quod Iesus est filius dei, deus in eo manet et ipse in deo.“</s>
+					<s n="62" xml:lang="la" type="auto">At in 1. Ioan. 4 [15] dicit eodem spiritu imbutus <persName ref="p540" cert="high">Ioannes</persName>: „Quisquis confessus fuerit, quod Iesus est filius dei, deus in eo manet et ipse in deo.“</s>
 					<s n="63" xml:lang="la" type="auto">Item Ioan. 15 [4] dominus: „Manete“, inquit, „in me et ego in vobis.“</s>
 					<s n="64" xml:lang="la" type="auto">„Manete, inquam, in dilectione mea.</s>
 					<s n="65" xml:lang="la" type="auto">Si praecepta mea servaveritis, manebitis in dilectione mea“ <cit type="bible"><ref>[Joh 15, 9f]</ref></cit>.</s>
-					<s n="66" xml:lang="la" type="auto">Unde Ioannes in canonica<note xml:id="fn32" type="footnote" n="32">sc. epistola.</note> sua: „Qui servat praecepta eius, in illo manet et ipse in eo.</s>
+					<s n="66" xml:lang="la" type="auto">Unde <persName ref="p540" cert="high">Ioannes</persName> in canonica<note xml:id="fn32" type="footnote" n="32">sc. epistola.</note> sua: „Qui servat praecepta eius, in illo manet et ipse in eo.</s>
 					<s n="67" xml:lang="la" type="auto">Et per hoc scimus, quod manet in nobis, e spiritu, quem dedit nobis“ <cit type="bible"><ref>[1Joh 3, 24]</ref></cit>.</s>
 					<s n="68" xml:lang="la" type="auto">Est autem hic spiritus filiorum spiritus<note xml:id="fn33" type="footnote" n="33">Vgl. <cit type="bible"><ref>Röm 8,15</ref></cit>.</note>.</s>
 					<s n="69" xml:lang="la" type="auto"><persName ref="p18596" cert="high">Filii</persName> dei sunt omnes, qui credunt;<note xml:id="fn34" type="footnote" n="34">Vgl. <cit type="bible"><ref>Joh 1, 12</ref></cit>.</note> ergo „credere“ et „edere“ idem sunt et pro eodem usurpantur.</s>
@@ -540,7 +514,7 @@
 					<s n="292" xml:lang="la" type="auto">Si amissa est ergo humanitatis natura,<pb type="edition" next="283"/> cur eius est recensendum<note xml:id="fnas" type="footnote" n="as"><hi>MPL:</hi> retentum.</note> vocabulum?</s>
 					<s n="293" xml:lang="la" type="auto">An quia nomen opus erat, et res nominis tanquam non necessaria repudianda fuerat?</s>
 					<s n="294" xml:lang="la" type="auto">Sic desipiant, quos nihil erroris sui atque ineptiae pudet.</s>
-					<s n="295" xml:lang="la" type="auto">Cęterum dominus Iesus Christus, ut ostendat nostri generis naturam non fuisse consumptam, veraciter se filium hominis dicit, secundum quam etiam patrem interpellat pro nobis iuxta Ioannis apostoli verba<note xml:id="fn76" type="footnote" n="76"><cit type="bible"><ref>1Joh 2,1</ref></cit>.</note>“, et quae sequuntur in illo autore.</s>
+					<s n="295" xml:lang="la" type="auto">Cęterum dominus Iesus Christus, ut ostendat nostri generis naturam non fuisse consumptam, veraciter se filium hominis dicit, secundum quam etiam patrem interpellat pro nobis iuxta <persName ref="p2442" cert="high">Ioannis</persName> apostoli verba<note xml:id="fn76" type="footnote" n="76"><cit type="bible"><ref>1Joh 2,1</ref></cit>.</note>“, et quae sequuntur in illo autore.</s>
 					<s n="296" xml:lang="la" type="auto">Iam vero locus apostoli in Corinthiis<note xml:id="fn77" type="footnote" n="77"><cit type="bible"><ref>1Kor 2, 9</ref></cit> (vgl. oben Z. 477-479).</note> non detorquendus est ad locum,<pb type="scan" next="5v."/> sed potius exponendus de gaudiorum magnitudine, id quod ipse dictionis contextus flagitat.</s>
 				</p>
 				<p>
@@ -581,7 +555,7 @@
 				<p>
 					<s n="324" xml:lang="la" type="auto">Nam ut Christi, veri hominis, corpus localiter contineri monstraret, Paulus apostolus ait ad Thess. [1, 9f]: ’Conversi estis ad deum a simulachris, servire deo vivo et vero et expectare filium eius de coelis, quem suscitavit a mortuis, Iesum’, ipsum utique monstrans corporaliter de coelo venturum, quem corporaliter noverat a mortuis suscitatum.</s>
 					<s n="325" xml:lang="la" type="auto">Propterea<pb type="scan" next="6r."/> rursus ait: ’Nostra conversatio in coelis est, unde etiam salvatorem expectamus dominum Iesum, qui reformabit corpus’ etc. <cit type="bible"><ref>[Phil 3, 20f]</ref></cit>.</s>
-					<s n="326" xml:lang="la" type="auto">[...] Hanc veritatem corporis Christi de coelo venturi Ioannes quoque confirmat dicens: ’Ecce veniet cum nubibus, et videbit eum omnis oculus, et qui eum conpunxerunt’ <cit type="bible"><ref>[Apk 1, 7]</ref></cit>.</s>
+					<s n="326" xml:lang="la" type="auto">[...] Hanc veritatem corporis Christi de coelo venturi <persName ref="p540" cert="high">Ioannes</persName> quoque confirmat dicens: ’Ecce veniet cum nubibus, et videbit eum omnis oculus, et qui eum conpunxerunt’ <cit type="bible"><ref>[Apk 1, 7]</ref></cit>.</s>
 					<s n="327" xml:lang="la" type="auto">In libro quoque Actuum apostolorum sic eius corporalis intimatur ascensus: ’Et cum hęc dixisset, videntibus illis elevatus est, et nubes suscepit eum ab oculis eorum’ <cit type="bible"><ref>[Apg 1, 9]</ref></cit> etc.</s>
 					<s n="328" xml:lang="la" type="auto">Cum ergo caro Christi localis<pb type="edition" next="285"/> absque dubitatione monstraretur<note xml:id="fnax" type="footnote" n="ax"><hi>CChr:</hi> monstretur <hi>(Var.:</hi> monstraretur).</note>, divinitas tamen eius ubique semper esse Paulo testante cognoscitur, qui fidelibus dicit: ’An experimentum quaeritis eius, qui in me loquitur, Christi?’ <cit type="bible"><ref>[2Kor 13, 3]</ref></cit>.</s>
 					<s n="329" xml:lang="la" type="auto">Quomodo autem in eo loqui potuit, si in illo non fuit?</s>
@@ -642,7 +616,7 @@
 					<s n="374" xml:lang="la" type="auto">Ipse enim dominus: „Qui manducat me“, ait, „in me manet et ego in eo“, Ioa. 6 [56 (Vulg. 57)].</s>
 				</p>
 				<p>
-					<s n="375" xml:lang="la" type="auto">Et Ioannes apostolus in sua canonica 1. cap. 1 [6]: „Si dixerimus, quod societatem habemus cum eo et in tenebris ambulamus, mentimur et veritatem non facimus.“</s>
+					<s n="375" xml:lang="la" type="auto">Et <persName ref="p540" cert="high">Ioannes</persName> apostolus in sua canonica 1. cap. 1 [6]: „Si dixerimus, quod societatem habemus cum eo et in tenebris ambulamus, mentimur et veritatem non facimus.“</s>
 					<s n="376" xml:lang="la" type="auto">Unde dignitas et indignitas ex vivifica fide et ficta fide aestimatur.</s>
 					<s n="377" xml:lang="la" type="auto">Quia ergo impii et hypocritae carent fide, iccirco corpore Christi non communicant; signo quidem communicant, sed fructu carent, quemadmodum et sanctus <persName ref="p18700" cert="high">Augustinus</persName> tales sacramentotenus dicit manducare corpus domini, 22. De civitate dei cap. 25.<note xml:id="fn100" type="footnote" n="100"><persName ref="p18700" cert="high">Augustin</persName>, De civitate dei, 21(!), 25 (CChr XLVIII 795f, 79-82).</note></s>
 					<s n="378" xml:lang="la" type="manual">Non nescis, opinor, quid sanctissimus et vigilantissimus <placeName ref="l28" cert="high">Basiliensis</placeName> episcopus <persName ref="p2442" cert="high">Ioannes Oecolampadius</persName> de hac causa scripserit in libris suis;<note xml:id="fn101" type="footnote" n="101">Vgl. <hi>z.</hi> B. <persName ref="p2442" cert="high">Oekolampads</persName> Antwort an <persName ref="p4303" cert="high">Theobald Billicanus</persName> in: Apologetica Ioann. Oecolampadii, Zürich (<persName ref="p1227" cert="high">Christoph Froschauer</persName>) 1526 (<bibl>BZD</bibl> C 106), f. G5r., sowie seinen (erstmals 1536 gedruckten) Brief an <persName ref="p467" cert="high">Bucer</persName> vom 3. September 1530 (<persName ref="p2442" cert="high">Oekolampad</persName> BA II 770, S. 482).</note> in quibus cum omnia diligenter excusserit expenderitque, cuperem, ut ab eo nihil variares, quo ecclesia vestra semper eandem retineret doctrinam.</s>

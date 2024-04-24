@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4823" type="Nachschrift" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4823" type="Brief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -19,19 +19,12 @@
 				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<msDesc type="Nachschrift" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a61">
-							<name>Marburg HStA</name>
-							<ref target="https://landesarchiv.hessen.de/"/>
-						</repository>
-						<settlement ref="l311">Marburg</settlement>
-						<institution>Hessisches Landesarchiv Abteilung Staatsarchiv</institution>
-						-->
 						<repository ref="a61"/>
 						<idno subtype="Autograph">3 (= PA) 1797, fo 123-126/-128</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
+						<idno subtype="Hinweis">Als Beilage 6 Beza an Bullinger 1561 Mai 24</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -61,19 +54,12 @@
 						</listBibl>
 					</additional>
 				</msDesc>
-				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a30">
-							<name>Dresden StA</name>
-							<ref target="https://www.staatsarchiv.sachsen.de/hauptstaatsarchiv-dresden-3994.html"/>
-						</repository>
-						<settlement ref="l121">Dresden</settlement>
-						<institution>Sächsisches (Haupt-)Staatsarchiv</institution>
-						-->
 						<repository ref="a30"/>
 						<idno subtype="Kopie">Nr. 8509, fo 23-28v u. 29-30r (bzw. 30-35v/-37)</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
+						<idno subtype="Hinweis">Diese Kopie als Beilage von Phillip von Hessen an August von Sachsen. Kassel 1561 Juni 12</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -87,29 +73,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4823">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1561-05-31" cert="high"><note>Nachschrift: Mai 31./Juni 1.</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p3590" cert="high">
-						<!--
-						<surname cert="high">von Hessen d.Ä.</surname>
-						<forename cert="high">Philipp</forename>
-						<graphic type="portrait" url="portraits/1871_von_Hessen_Philipp_I.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Philipp_I._(Hessen)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11859382X"/>
-						-->
-					</persName>
+					<persName ref="p3590" cert="high"/>
 					<placeName source="l244" cert="high"><orig>Kassel</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -129,13 +98,12 @@
 					<ref type="prev_with_sender_as_addressee" target="file4821"/>
 					<ref type="next_with_addressee_as_sender" target="file4853"/>
 					<ref type="prev_with_addressee_as_sender" target="file4773"/>
-					<ref type="child" target="file4811"/>
 					<ref type="parent" target="file4811"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

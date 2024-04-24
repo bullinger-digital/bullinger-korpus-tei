@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 40,441</idno>
 					</msIdentifier>
@@ -43,14 +35,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 79,131</idno>
 					</msIdentifier>
@@ -60,30 +44,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1889">
 				<correspAction type="sent">
-					<persName ref="p8442" cert="high">
-						<!--
-						<surname cert="high">Simler (Simmler)</surname>
-						<forename cert="high">Josias</forename>
-						<graphic type="portrait" url="portraits/2978_Simmler_Josias.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Josias_Simler"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11879728X"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11449628"/>
-						-->
-					</persName>
+					<persName ref="p8442" cert="high"/>
 					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1553-06-04" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -109,8 +75,8 @@
 				<language ident="la" usage="995">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,7 +93,7 @@
 				<p>
 					<s n="1" xml:lang="la" type="auto">Gratia et pax a deo per dominum nostrum Iesum Christum.</s>
 					<s n="2" xml:lang="la" type="auto">Cum mihi pręter opinionem et voluntatem meam diutius <placeName ref="l512" cert="high">Tubingę</placeName> manendum sit, volui ad te scribere statum rerum nostrarum, ne quid nobis adversi accidisse putares.</s>
-					<s n="3" xml:lang="la" type="auto">Pervenimus quinto, postquam a vobis discessimus, die <placeName ref="l512" cert="high">Tubingam</placeName> et crastino, qui dies sabbati erat, <persName type="auto_name">Stutgardiam</persName> abiimus.</s>
+					<s n="3" xml:lang="la" type="auto">Pervenimus quinto, postquam a vobis discessimus, die <placeName ref="l512" cert="high">Tubingam</placeName> et crastino, qui dies sabbati erat, <placeName ref="l496" cert="high">Stutgardiam</placeName> abiimus.</s>
 					<s n="4" xml:lang="la" type="auto">Illic nobis manendum fuit in quintum usque diem.</s>
 					<s n="5" xml:lang="la" type="auto">Princeps humaniter nos excepit, atque cum eo d. <persName ref="p3375" cert="high">Vergerius</persName> bis collocutus est absque interprete; bene enim et expedite Latina lingua loquitur.</s>
 				</p>
@@ -137,8 +103,8 @@
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Habitamus apud humanissimum atque doctissimum virum d. Me[l]chiorem <persName type="auto_name">Volmarium</persName>.</s>
-					<s n="9" xml:lang="la" type="auto">D. <persName type="auto_name">comes Georgius</persName> ante adventum nostrum <persName type="auto_name">Stutgardia Richenwilum</persName> abiit; literas tamen tuas per nuncios principis ad eum transmisi.</s>
-					<s n="10" xml:lang="la" type="auto">De d. Molinęo d. <persName ref="p3375" cert="high">Vergerius</persName> cum principe locutus est; is invitat eum <placeName ref="l512" cert="high">Tubingam</placeName> et honestam conditionem profitendi iuris offert, aut si id nolit, relinquit ei liberum, ut in <placeName type="auto_name">Monte</placeName> <placeName type="auto_name">Beliardi</placeName> habitet.</s>
+					<s n="9" xml:lang="la" type="auto">D. <persName type="auto_name">comes Georgius</persName> ante adventum nostrum <placeName ref="l496" cert="high">Stutgardia</placeName> <placeName type="auto_name">Richenwilum</placeName> abiit; literas tamen tuas per nuncios principis ad eum transmisi.</s>
+					<s n="10" xml:lang="la" type="auto">De d. <persName type="auto_name">Molinęo</persName> d. <persName ref="p3375" cert="high">Vergerius</persName> cum principe locutus est; is invitat eum <placeName ref="l512" cert="high">Tubingam</placeName> et honestam conditionem profitendi iuris offert, aut si id nolit, relinquit ei liberum, ut in <placeName type="auto_name">Monte Beliardi</placeName> habitet.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Scripsit etiam ipse <persName type="auto_name">Molinęus</persName> ad principem, quas literas princeps legendas exhibuit d. <persName ref="p3375" cert="high">Vergerio</persName>.</s>

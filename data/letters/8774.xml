@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file8774" type="Hinweis" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file8774" type="Brief" source="TUSTEP-0" n="42015">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -19,22 +19,20 @@
 				<date when="2024"/>
 			</publicationStmt>
 			<sourceDesc>
-				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
+				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
+				<bibl type="scan">Zürich ZB</bibl>
+				<msDesc type="Hinweis" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
-						<idno subtype="Autograph">Ms A 51,85-86, Nr. 46</idno>
+						<idno subtype="Autograph">Ms A 51,85 f.</idno>
+						<altIdentifier>
+							<idno subtype="Autograph">Ms A 51,85-86, Nr. 46</idno>
+						</altIdentifier>
 					</msIdentifier>
 					<msContents>
 						<msItem>
 							<incipit>Literae tuae 20 Aug. 1571 scriptae mihi fuerunt traditae mense Januario proxime elapso</incipit>
+							<textLang>la</textLang>
 						</msItem>
 					</msContents>
 					<additional>
@@ -56,29 +54,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8774">
 				<correspAction type="sent">
-					<persName ref="p672" cert="high">
-						<!--
-						<surname cert="high">Cox</surname>
-						<forename cert="high">Richard</forename>
-						<graphic type="portrait" url="portraits/672_Cox_Richard.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Richard_Cox_(Bischof)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118670409"/>
-						-->
-					</persName>
+					<persName ref="p672" cert="high"/>
 					<placeName source="l136" cert="high"><orig>Ely</orig></placeName>
 					<date when="1572-02-12" cert="low"><note>Datum unsicher; (1572) Februar 12.; «1571» = engl. Stil = 1572</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -99,15 +80,111 @@
 					<ref type="next_with_addressee_as_sender" target="file8776"/>
 					<ref type="prev_with_addressee_as_sender" target="file8773"/>
 					<ref type="child" target="file8490"/>
-					<ref type="parent" target="file8490"/>
 				</correspContext>
 			</correspDesc>
+			<langUsage>
+				<language ident="la" usage="1000">Latein</language>
+			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
-	<text xml:lang="">
-		<body><bibl>[Keine Transkription verfügbar.]</bibl></body>
+	<facsimile>
+		<surface>
+			<graphic xml:id="img1-0" url="https://iiif.bullinger-digital.ch/iiif/3/8774%2FAutograph%2F00%20Ms%20A%2051%20(85)_00002.tif/full/max/0/default.jpg" n="1"><desc subtype="path">8774/Autograph/00 Ms A 51 (85)_00002.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/8774%2FAutograph%2F01%20Ms%20A%2051%20(85)_00003.tif/full/max/0/default.jpg" n="2"><desc subtype="path">8774/Autograph/01 Ms A 51 (85)_00003.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img3-0" url="https://iiif.bullinger-digital.ch/iiif/3/8774%2FAutograph%2F02%20Ms%20A%2051%20(85)_00004.tif/full/max/0/default.jpg" n="3"><desc subtype="path">8774/Autograph/02 Ms A 51 (85)_00004.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img4-0" url="https://iiif.bullinger-digital.ch/iiif/3/8774%2FAutograph%2F03%20Ms%20A%2051%20(85)_00005.tif/full/max/0/default.jpg" n="4"><desc subtype="path">8774/Autograph/03 Ms A 51 (85)_00005.tif</desc></graphic>
+		</surface>
+	</facsimile>
+	<text xml:lang="la">
+		<body>
+			<div>
+				<p>
+					<s n="1" xml:lang="la" type="auto">Literae tuae 20 aug. 1571 scriptae mihi fuerunt traditae mense ianuario proxime elapso per tres illos adolescentes, quorum in ipsis literis mentionem feceras, dilectissime in Christo frater.</s>
+					<s n="2" xml:lang="la" type="auto">Equidem superiori aestate mittebantur ad te literae nostrae cum aliquot libris tuo nomine impressis contra bullatas illas papae nugas.</s>
+					<s n="3" xml:lang="la" type="auto">Imo liber tuus, absolutissime et verissime dictatus, atque emendatissime scriptus, non potuit nobis et piis omnibus non esse gratissimus.</s>
+				</p>
+				<p>
+					<s n="4" xml:lang="la" type="auto">Ob quod munus merito fatemur, nos tibi plurimum devinciri: imo ipsa regina librum tuum legit, non sine gratulatione.</s>
+					<s n="5" xml:lang="la" type="auto">Spero te longe antehac et literas et libros et exigua munuscula a nobis accepisse<note type="misc">manu Bullingeri: "Nihil allatum est, nihil accepi, nec quicquam huius vidi."</note>: unde abunde intelliges, quid egerimus in libro tuo edendo.</s>
+					<s n="6" xml:lang="la" type="auto">Iam ad literas, quas misisti.</s>
+					<s n="7" xml:lang="la" type="auto">Quod ad adolescentes vestros attinet, bono sis animo; nam quibus commendati sunt, amico animo et pietatis affectu illis sedulo prospiciunt.</s>
+					<s n="8" xml:lang="la" type="auto">Et hoc quidem merentur et d. <persName type="auto_name">Zvinglii</persName>, et d. Bullingeri, et <persName ref="p8011" cert="high">Rodolphi Gvalteri</persName> zelus, studium, et infiniti labores in propaganda religione sincera et subdolis falsae religionis machinis evertendis.</s>
+					<s n="9" xml:lang="la" type="auto">Tui vero filii, quoniam eum inprimis Eboracensi, <placeName type="auto_name">Sarisburgensi</placeName> et mihi commisisti, curam suscipiemus, ut tu omnino sis sine cura: quanquam <placeName type="auto_name">Sarisburgensis</placeName> (quod sine gemitu narrare nequeo, erat enim ecclesiae Anglicae thesaurus) dioecesin suam visitando animam exhalavit, et ad coelum hinc migravit, suo quidem commodo, at nostro incommodo maximo et intolerabili.</s>
+					<s n="10" xml:lang="la" type="auto">Neque vero interim vel <persName ref="p8011" cert="high">Gvalteri</persName> filium vel <persName ref="p4466" cert="high">Butlerum</persName>, quem mihi etiam atque etiam commendas, negligemus.</s>
+					<s n="11" xml:lang="la" type="auto">Ut autem voto tuo satisfiat, duo vestri in academia Cantabrigiensi, sed in diversis collegiis sedes habent, et coetu numeroso versantur et docto.</s>
+				</p>
+				<p>
+					<s n="12" xml:lang="la" type="auto">Res nostrae ingenti dei beneficio, ne dicam miraculo, satis commodo loco sunt.</s>
+				</p>
+				<p>
+					<s n="13" xml:lang="la" type="auto">Nuper apud nos dux <placeName type="auto_name">Norfolcensis</placeName> clam cum papistis atque adeo cum papa ipso conspiravit in perniciem serenissimae nostrae reginae atque regni, imo in subversionem sacrosancti dei evangelii.</s>
+					<s n="14" xml:lang="la" type="auto">Sed suis semper adest benignus dominus.</s>
+				</p>
+				<p>
+					<s n="15" xml:lang="la" type="auto">Diu non sine suspicione mali inclusus fuit in carcere.</s>
+					<s n="16" xml:lang="la" type="auto">Tandem prodita est ipsius perdita nequitia.</s>
+					<s n="17" xml:lang="la" type="auto">Productus est in iudicium et, iure condemnatus, morti adiudicatur.</s>
+					<s n="18" xml:lang="la" type="auto">Erupuit tandem papistarum conspirantium foetida sentina.</s>
+					<s n="19" xml:lang="la" type="auto"><persName type="auto_name">Benedictus</persName> dominus deus, qui tempestive tanta scelera produxit in lucem!</s>
+					<s n="20" xml:lang="la" type="auto">Iam (uti speramus) pacata sunt omnia, nisi quod non cessat Satan circumire et rugire, quaerens quem devoret.</s>
+					<s n="21" xml:lang="la" type="auto">Hic mutuis nos iuvemus precibus.</s>
+				</p>
+				<p>
+					<s n="22" xml:lang="la" type="auto">D. <persName ref="p8011" cert="high">Gvalterus</persName> superiori (opinor) anno literas dedit ad fratrem nostrum <placeName type="auto_name">Parkhurstum</placeName>, Nordovicensem episcopum: quae quia nonnihil turbarum excitarunt in hominibus suae sententiae, qui innovationes semper moliuntur, neque ordinationibus in ecclesia nostra constitutis subdi volunt, putavi monendum esse fratrem nostrum d. <persName ref="p8011" cert="high">Gvalterum</persName>, ut cautior sit, ne suis scriptis contentiones vel ignarus vel invitus fovere videatur.</s>
+					<s n="23" xml:lang="la" type="auto">Si acerbior adpareat oratio mea, cogitet a quo animo sit profecta, certe a benevolo eiusque amantissimo.</s>
+					<s n="24" xml:lang="la" type="auto">Dominus Iesus ecclesiae suae te diutissime servet incolumem!</s>
+				</p>
+				<p>
+					<s n="25" xml:lang="la" type="auto">Ex Insula Eliensi in Anglia, duodecimo februarii, 1571<note type="misc">= 1572</note>.</s>
+				</p>
+				<p>
+					<s n="26" xml:lang="la" type="auto">Pene praeterieram libellum, quem ad me misisti de auctoritate scripturae et ecclesiae.</s>
+					<s n="27" xml:lang="la" type="auto">Vere aureus est libellus, et dignus qui piorum omnium manibus teratur.</s>
+					<s n="28" xml:lang="la" type="auto">Papistae tamen obgannire non cessant.</s>
+					<s n="29" xml:lang="la" type="auto">Multa (inquiunt) sunt dogmata, quae patrum ecclesiaeque consensu nituntur, non autem scripturae, eiusmodi sunt ista.</s>
+				</p>
+				<p>
+					<s n="30" xml:lang="la" type="auto">Multa creditu necessaria, quae non sunt in scriptura: Perpetua virginitas Mariae.</s>
+					<s n="31" xml:lang="la" type="auto">Utimur suffocato et sanguine.</s>
+				</p>
+				<p>
+					<s n="32" xml:lang="la" type="auto">Pater est ingenitus.</s>
+					<s n="33" xml:lang="la" type="auto">Christus descendit ad inferna.</s>
+				</p>
+				<p>
+					<s n="34" xml:lang="la" type="auto">Filius est consubstantialis.</s>
+					<s n="35" xml:lang="la" type="auto">Aqua miscenda est vino in calice.</s>
+				</p>
+				<p>
+					<s n="36" xml:lang="la" type="auto">Spiritus a patre et filio procedit.</s>
+					<s n="37" xml:lang="la" type="auto"><persName ref="p8111" cert="high">Martyrium</persName> supplet locum baptismi.</s>
+				</p>
+				<p>
+					<s n="38" xml:lang="la" type="auto">Infantes sunt baptizandi.</s>
+					<s n="39" xml:lang="la" type="auto">Orationes, oblationes et eleemosynae prosunt defunctis.</s>
+					<s n="40" xml:lang="la" type="auto">Baptizatus ab haereticis in forma ecclesiae est vere baptizatus.</s>
+					<s n="41" xml:lang="la" type="auto">Nemo admittitur ad eucharistiam, priusquam baptizetur.</s>
+					<s n="42" xml:lang="la" type="auto">Deus est tres personae.</s>
+				</p>
+				<p>
+					<s n="43" xml:lang="la" type="auto">Apostoli fuerunt baptizati.</s>
+				</p>
+				<p>
+					<s n="44" xml:lang="la" type="auto">Tuus in Christo frater <persName ref="p672" cert="high">Ricardus Cox</persName>, <persName type="auto_name">Eliensis</persName> episcopus.</s>
+				</p>
+				<p>
+					<s n="45" xml:lang="la" type="auto">Viro eximia doctrina et pietate praedito et fratri meo carissimo d. Henrico Bullingero, ecclesiae Tigurinae pastori dignissimo.</s>
+				</p>
+			</div>
+		</body>
 	</text>
 </TEI>

@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,94</idno>
 					</msIdentifier>
@@ -69,14 +61,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,206</idno>
 					</msIdentifier>
@@ -86,30 +70,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/916">
 				<correspAction type="sent">
-					<persName ref="p8109" cert="high">
-						<!--
-						<surname cert="high">Ulmer (von Ulm, ab Ulmis)</surname>
-						<forename cert="high">Johann Konrad</forename>
-						<graphic type="portrait" url="portraits/3243_Ulmer_Johann_Conrad.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Konrad_Ulmer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/120341913"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417219"/>
-						-->
-					</persName>
+					<persName ref="p8109" cert="high"/>
 					<placeName source="l376" cert="high"><orig>Oxford</orig></placeName>
 					<date when="1550-05-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -136,8 +102,8 @@
 				<language ident="la" usage="977">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -202,7 +168,7 @@
 					<s n="34" xml:lang="la" type="auto"><persName type="auto_name">Huperus</persName><note xml:id="fn1" type="footnote" n="1">Hooper.</note> noster, qui Tiguri fuit, in die ascensionis domini creatus est episcopus.</s>
 					<s n="35" xml:lang="la" type="auto">Sententiam in concilio dedit avunculus regis, dux <persName type="auto_name">Somerseti</persName>, repugnantibus ferme omnibus episcopis.</s>
 					<s n="36" xml:lang="la" type="auto">Multum controversum utrinque audio de ceremoniis ac vestitu potificum, - dixissem histrionum et stultorum.</s>
-					<s n="37" xml:lang="la" type="auto">Tandem obtinuit causam <persName type="auto_name">Hopperus</persName>; hominem de Helvetia, et imprimis ecclesia vestra, sanctius et humanius loquentem non vidi nec audivi.</s>
+					<s n="37" xml:lang="la" type="auto">Tandem obtinuit causam <persName ref="p1560" cert="high">Hopperus</persName>; hominem de Helvetia, et imprimis ecclesia vestra, sanctius et humanius loquentem non vidi nec audivi.</s>
 					<s n="38" xml:lang="la" type="auto">Scholae hic nostrae lectionibus et disputationibus omnino florent utilissimis.</s>
 					<s n="39" xml:lang="la" type="auto">Matutinum tempus <persName type="auto_name">Galeno</persName> et <persName type="auto_name">Aristoteli</persName> consecravi, ita tamen ut omnia, quae discam, ad solam theologiam referam.</s>
 					<s n="40" xml:lang="la" type="auto"><persName ref="p8111" cert="high">Petro Martyri</persName> me scito, non ut discipulum, sed ut filium esse coniunctissimum; nam cum et audio illum, lubenter tum etiam eius propriam suavitatem vehementer amplector.</s>

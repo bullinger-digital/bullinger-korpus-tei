@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1410r.–1411v.</idno>
 					</msIdentifier>
@@ -121,21 +113,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12167">
 				<correspAction type="sent">
-					<persName ref="p8371" cert="high">
-						<!--
-						<surname cert="high">Hardenberg (Rizäus)</surname>
-						<forename cert="high">Albert</forename>
-						<graphic type="portrait" url="portraits/1458_Hardenberg_Albert.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Albert_Hardenberg"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118720317"/>
-						-->
-					</persName>
+					<persName ref="p8371" cert="high"/>
 					<placeName source="l56" cert="high"><orig>Bonn</orig></placeName>
 					<date when="1545-03-23" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
-					<roleName ref="g45" type="pl" role="Lehrer" cert="high"/>
+					<orgName ref="og49p" cert="high"/>
+					<orgName ref="og45pl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -157,8 +141,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -183,7 +167,7 @@
 				</p>
 				<p>
 					<s n="2" xml:lang="la" type="auto">Meae res adhuc sunt eo loco, quo erant, cum vobiscum essem<note xml:id="fn2" type="footnote" n="2"><persName ref="p8371" cert="high">Hardenberg</persName> bezieht sich auf seinen Besuch in Zürich vom 25. bis 29. September 1544; s. <bibl>HBBW</bibl> XIV <ref target="file12019">[Nr. 1972]</ref> 368, Anm. 1.</note>.</s>
-					<s n="3" xml:lang="la" type="auto">Ago apud principem electorem Coloniensem<note xml:id="fn3" type="footnote" n="3"><persName ref="p8462" cert="high">Hermann von Wied</persName>.</note>, senem plane pium; sed propter cleri et<pb type="edition" next="213"/> capituli molimina cogitur optimus princeps reformationem suam suspendere, et fit, dum mihi labor suspenditur, vigor<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> virgor.</note> et diligentia etiam perit<note xml:id="fnc" type="footnote" n="c"><hi>Zu erwarten wäre</hi> et <hi>fit</hi> ..., ut vigor et diligentiam etiam pereat.</note>.</s>
+					<s n="3" xml:lang="la" type="auto">Ago apud principem electorem <placeName ref="l267" cert="high">Coloniensem</placeName><note xml:id="fn3" type="footnote" n="3"><persName ref="p8462" cert="high">Hermann von Wied</persName>.</note>, senem plane pium; sed propter cleri et<pb type="edition" next="213"/> capituli molimina cogitur optimus princeps reformationem suam suspendere, et fit, dum mihi labor suspenditur, vigor<note xml:id="fnb" type="footnote" n="b"><hi>In der Vorlage</hi> virgor.</note> et diligentia etiam perit<note xml:id="fnc" type="footnote" n="c"><hi>Zu erwarten wäre</hi> et <hi>fit</hi> ..., ut vigor et diligentiam etiam pereat.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Habeo tamen, quae agam, abunde, sed nescio, ex offitio ne meo sint haec.</s>
 					<s n="5" xml:lang="la" type="auto">Deus gubernet ecclesiam suam ad perpetuam suam gloriam.</s>
 				</p>

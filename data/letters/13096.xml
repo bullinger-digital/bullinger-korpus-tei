@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Original">E II 363,106</idno>
 						<idno subtype="Hinweis">mit autographer Unterschrift</idno>
@@ -40,7 +32,7 @@
 					<msContents>
 						<summary>
 							<p xml:id="regest1">
-								[1] Graf Georg dankt für Bullingers Nachrichtensendung vom 17. Oktober [nicht erhalten]. Gerne würde er
+								[1] Graf <persName ref="p8098" cert="high">Georg</persName> dankt für Bullingers Nachrichtensendung vom 17. Oktober [nicht erhalten]. Gerne würde er
 								sich mit Mitteilungen aus <placeName ref="l1976" cert="high">Augsburg</placeName> revanchieren, doch wartet er noch auf die Rückkehr des Boten [...], der
 								sich zu seinem nach <placeName ref="l1976" cert="high">Augsburg</placeName> geschickten Gesandten [<persName ref="p17986" cert="high">Hans Henman</persName> Truchsess von Rheinfelden?] begeben hat.
 								</p>
@@ -76,29 +68,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/13096">
 				<correspAction type="sent">
-					<persName ref="p8098" cert="high">
-						<!--
-						<surname cert="high">von Württemberg-Mömpelgard (Montbéliard)</surname>
-						<forename cert="high">Georg</forename>
-						<graphic type="portrait" url="portraits/3815_von_Wuerttemberg_Georg.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Georg_I._(W%C3%BCrttemberg-M%C3%B6mpelgard)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136697925"/>
-						-->
-					</persName>
+					<persName ref="p8098" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1547-10-20" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file13097"/>
@@ -123,8 +98,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

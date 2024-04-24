@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,477</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 86,39</idno>
 					</msIdentifier>
@@ -70,27 +54,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2783">
 				<correspAction type="sent">
-					<persName ref="p1422" cert="high">
-						<!--
-						<surname cert="high">Haddon</surname>
-						<forename cert="high">James</forename>
-						<ref type="wikipedia" target="https://en.wikipedia.org/wiki/James_Haddon"/>
-						-->
-					</persName>
+					<persName ref="p1422" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1555-12-07" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -115,8 +84,8 @@
 				<language ident="la" usage="983">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -139,7 +108,7 @@
 					<s n="6" xml:lang="la" type="auto">D. <persName type="auto_name">Ridleus</persName> et D. <persName type="auto_name">Latymerus</persName>, paulo ante se obtulerung Deo spectabile atque eximium sacrificium; quorum cineres et aliorum, qui ante emigraverunt et apud Dominum et Servatorem nostrum vivunt, puto devocasse Dei sententiam in superius commemoratum Dei flagellum.</s>
 					<s n="7" xml:lang="la" type="auto">Alia non habemus certa aut explorata (quod sciam impresentiarum), te digna.</s>
 					<s n="8" xml:lang="la" type="auto">Quinetiam commemorata te arbitror jam ab aliis plenius aut ante cognovisse; tamen mei esse quoque arbitratus sum, ad te de eisdem scribere; nam mihi videtur jam diu, quod tecum collocutus fuerim.</s>
-					<s n="9" xml:lang="la" type="auto">Quaeso salutes mihi D. <persName type="auto_name">Gesnerum</persName>.</s>
+					<s n="9" xml:lang="la" type="auto">Quaeso salutes mihi D. <persName ref="p1283" cert="high">Gesnerum</persName>.</s>
 					<s n="10" xml:lang="la" type="auto">Mei meminisse vis in tuis precibus et conditionis patriae nostrae: quod non dubito quin facias.</s>
 					<s n="11" xml:lang="la" type="auto">Deus tibi adsit tuoque ministerio, et te conservet ad suae ecclesiae commodum.</s>
 				</p>

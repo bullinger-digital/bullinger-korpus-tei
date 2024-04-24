@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Nachschrift" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,87</idno>
 					</msIdentifier>
@@ -69,28 +61,12 @@
 				</msDesc>
 				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 73,133</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a81">
-							<name>Strassburg BNU</name>
-							<ref target="https://www.bnu.fr/fr"/>
-						</repository>
-						<settlement ref="l492">Strassburg</settlement>
-						<institution>National- und Universitätsbibliothek</institution>
-						-->
 						<repository ref="a81"/>
 						<idno subtype="Kopie">Ms 0.679 = STB Bd. XX,211</idno>
 					</msIdentifier>
@@ -100,26 +76,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1048">
 				<correspAction type="sent">
-					<persName ref="p8415" cert="high">
-						<!--
-						<surname cert="high">Micronius (de Cleyne)</surname>
-						<forename cert="high">Martin</forename>
-						-->
-					</persName>
+					<persName ref="p8415" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date notBefore="1550-10-13" notAfter="1550-10-20" cert="low"><note>Brief: 1550 Oktober 13.; P.S.: 1550 Oktober 20.</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -144,8 +106,8 @@
 				<language ident="la" usage="997">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -193,9 +155,9 @@
 				<p>
 					<s n="18" xml:lang="la" type="auto">Multitudo credentium augetur indies, laus deo.</s>
 					<s n="19" xml:lang="la" type="auto">Si beneficio dei ita per annos aliquot continuare dabitur, nostram <placeName type="auto_name">Belgicam</placeName> ignitis iaculis oppugnabimus et expugnabimus, spero, ut fugato vel fracto saltem antichristo ibi regnat salvator noster.</s>
-					<s n="20" xml:lang="la" type="auto">De negocio d. <persName type="auto_name">Hoperi</persName> non est quod scribam copiose, cum ex eius literis, quas se brevi missurum dicit, certiora habere queas.</s>
+					<s n="20" xml:lang="la" type="auto">De negocio d. <persName ref="p1560" cert="high">Hoperi</persName> non est quod scribam copiose, cum ex eius literis, quas se brevi missurum dicit, certiora habere queas.</s>
 					<s n="21" xml:lang="la" type="auto">Hoc tantum adiiciam, episcopos reliquos magnum illi facescere negocium.</s>
-					<s n="22" xml:lang="la" type="auto">Est quidem d. <persName type="auto_name">Hoperus Glocestrię</persName> episcopus electus et curatus, verum non (ut loquuntur) consecratus.</s>
+					<s n="22" xml:lang="la" type="auto">Est quidem d. <persName ref="p1560" cert="high">Hoperus</persName> <placeName ref="l177" cert="high">Glocestrię</placeName> episcopus electus et curatus, verum non (ut loquuntur) consecratus.</s>
 				</p>
 				<p>
 					<s n="23" xml:lang="la" type="auto">Nam episcopi a sua consecrandi praescripta forma ne latum quidem unguem volunt discedere.</s>
@@ -207,7 +169,7 @@
 				</p>
 				<p>
 					<s n="27" xml:lang="la" type="auto">Hic rursus negat <persName ref="p1560" cert="high">Hoperus</persName> res esse medias, utpote quae dignitatem sacerdotii Christi obscurent, hypocrisin, superstitionem alant, etc.</s>
-					<s n="28" xml:lang="la" type="auto">Scripsit hac de re copiosissimas literas <persName ref="p1560" cert="high">Hoperus</persName> ad comitem <persName type="auto_name">Warwicum</persName>; sed hic respondet in rebus mediis parendum regi, offendiculum infirmorum vitandum exemplo <persName type="auto_name">Pauli</persName> voventis, rasi, et circumcidentis <persName ref="p19977" cert="high">Timotheum</persName>.</s>
+					<s n="28" xml:lang="la" type="auto">Scripsit hac de re copiosissimas literas <persName ref="p1560" cert="high">Hoperus</persName> ad comitem <placeName type="auto_name">Warwicum</placeName>; sed hic respondet in rebus mediis parendum regi, offendiculum infirmorum vitandum exemplo <persName type="auto_name">Pauli</persName> voventis, rasi, et circumcidentis <persName ref="p19977" cert="high">Timotheum</persName>.</s>
 					<s n="29" xml:lang="la" type="auto">Respondit ei <persName ref="p1560" cert="high">Hoperus</persName>; sed quid promoverit, nondum video: imo huius mensis die tertio alias literas ad totum consilium eadem de re dedit; ad quas nondum responsum est.</s>
 					<s n="30" xml:lang="la" type="auto">Pendemus inter spem metumque medii<note xml:id="fn1" type="footnote" n="1">Vgl. Titus Livius, Ab urbe condita, 7, 10, 9; 8, 13, 17.</note>; imo principes in partes episcoporum declinare videntur: faxit deus ut hic falsus sim vates.</s>
 				</p>
@@ -236,9 +198,9 @@
 					<s n="44" xml:lang="la" type="auto">Optarem quod eadem humanitate ad me proximis nundinis, si ante fieri nequit, mitteret exemplar unum atque alterum omnium tuorum sermonum.</s>
 				</p>
 				<p>
-					<s n="45" xml:lang="la" type="auto">Hactenus convixi d. <persName type="auto_name">Hopero</persName>; iam vocatio mea me ab illi seiunxit.</s>
-					<s n="46" xml:lang="la" type="auto">Convicturus est mihi clarissimus vir d. <persName ref="p8061" cert="high">Utenhovius</persName>; nam in seniorem ecclesię electus, una cum d. <persName type="auto_name">Hopero</persName> proficisci Glocestriam non poterit.</s>
-					<s n="47" xml:lang="la" type="auto">Adfuturi tamen sumus d. <persName type="auto_name">Hopero</persName> scriptis, quantum in nobis erit.</s>
+					<s n="45" xml:lang="la" type="auto">Hactenus convixi d. <persName ref="p1560" cert="high">Hopero</persName>; iam vocatio mea me ab illi seiunxit.</s>
+					<s n="46" xml:lang="la" type="auto">Convicturus est mihi clarissimus vir d. <persName ref="p8061" cert="high">Utenhovius</persName>; nam in seniorem ecclesię electus, una cum d. <persName ref="p1560" cert="high">Hopero</persName> proficisci <placeName ref="l177" cert="high">Glocestriam</placeName> non poterit.</s>
+					<s n="47" xml:lang="la" type="auto">Adfuturi tamen sumus d. <persName ref="p1560" cert="high">Hopero</persName> scriptis, quantum in nobis erit.</s>
 					<s n="48" xml:lang="la" type="auto">Quod meę familię et coniugio fausta precaris, habeo ingentes gratias.</s>
 					<s n="49" xml:lang="la" type="auto">Vicissim precor eadem filiabus tuis nuptis in domino.</s>
 					<s n="50" xml:lang="la" type="auto">Bene vale, vir clarissime, meque, etsi nihil tale meritum, inter amicos tuos et ecclesię vestrę, quae est Christi, connumerare digneris.</s>
@@ -253,7 +215,7 @@
 				<p>
 					<s n="56" xml:lang="la" type="auto">Literas istas ante octiduum scriptas non obsignavi, quod abitum domini <persName ref="p505" cert="high">Burcheri</persName> ignorarem, et facile cogitarem obventura interim quae digna essent ut ad vos scriberentur.</s>
 					<s n="57" xml:lang="la" type="auto">Et sane ita accidit.</s>
-					<s n="58" xml:lang="la" type="auto">Nam deprehendimus totum senatum regium inclinatum ad partes episcoporum contra d, <persName type="auto_name">Hoperum</persName> in ista de vestibus controversia.</s>
+					<s n="58" xml:lang="la" type="auto">Nam deprehendimus totum senatum regium inclinatum ad partes episcoporum contra d, <persName ref="p1560" cert="high">Hoperum</persName> in ista de vestibus controversia.</s>
 					<s n="59" xml:lang="la" type="auto">Ad hęc privilegium ecclesię nostrę Germanicę summo in periculo versatur.</s>
 					<s n="60" xml:lang="la" type="auto">Sollicitando ac suadendo effecerunt episcopi apud senatum regium, ut nobis liber sacramentorum usus non permittatur, sed astringamur ceremoniis Anglicis, quae omnibus pietatis studiosis sunt intollerabiles.</s>
 					<s n="61" xml:lang="la" type="auto">Hęc res maximum dolorem parit d. nostro <persName ref="p8041" cert="high">Ioanni a Lasco</persName> et omnibus piis.</s>
@@ -261,7 +223,7 @@
 				</p>
 				<p>
 					<s n="63" xml:lang="la" type="auto">Dum hęc scribo, accersit me d. <persName ref="p1560" cert="high">Hoperus</persName> ex aula rediens.</s>
-					<s n="64" xml:lang="la" type="auto">Hic mihi exponit heri episcopum <placeName type="auto_name">Londinensem</placeName> apud magistratum regium gravissime egisse contra ipsum <persName type="auto_name">Hoperum</persName>, refutasse eius doctrinam et gravissimis iniuriis onerasse.</s>
+					<s n="64" xml:lang="la" type="auto">Hic mihi exponit heri episcopum <placeName type="auto_name">Londinensem</placeName> apud magistratum regium gravissime egisse contra ipsum <persName ref="p1560" cert="high">Hoperum</persName>, refutasse eius doctrinam et gravissimis iniuriis onerasse.</s>
 					<s n="65" xml:lang="la" type="auto">Literarum exemplar negatur illi; nam id a magistratu postulavit episcopus.</s>
 					<s n="66" xml:lang="la" type="auto">Sed perstat constans <persName ref="p1560" cert="high">Hoperus</persName> omnes reliquias papisticas oppugnans.</s>
 					<s n="67" xml:lang="la" type="auto">Bene vale.</s>

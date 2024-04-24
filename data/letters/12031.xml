@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 347,275 f.</idno>
 					</msIdentifier>
@@ -86,29 +78,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12031">
 				<correspAction type="sent">
-					<persName ref="p1456" cert="high">
-						<!--
-						<surname cert="high">Happel</surname>
-						<forename cert="high">Wigand</forename>
-						<graphic type="portrait" url="portraits/1456_Happel_Wigand.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Wigand_Happel"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/132234238"/>
-						-->
-					</persName>
+					<persName ref="p1456" cert="high"/>
 					<placeName source="l288" cert="high"><orig>Lichtenberg</orig></placeName>
 					<date when="1544-09-13" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12032"/>
@@ -131,8 +106,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -185,7 +160,7 @@
 				<p>
 					<s n="25" xml:lang="la" type="auto">In posterum curę nobis erit, ne cuius inopiam sublevemus, nisi in necessitate aliqua et intercedentibus vestris vel domini <persName ref="p1227" cert="high">Froschoueri</persName> scriptis vel dictis.</s>
 					<s n="26" xml:lang="la" type="auto">Si uno verbo testabimini et petetis, ut alicui vestrorum iuvenum pecunia subveniamus, etiam maiori summa succurrere parati erimus.</s>
-					<s n="27" xml:lang="la" type="auto">Si iam peccatum est imprudentia Pincieri, quaeso condonetis ei, et totam causam, si melius cognoscere cupis, ex literis <persName ref="p8115" cert="high">Ioanni Pincieri</persName> ad <persName ref="p8127" cert="high">Pellicanum</persName>,<note xml:id="fn18" type="footnote" n="18">Es handelt sich um <persName ref="p8115" cert="high">Johannes Pinciers</persName> Brief an <persName ref="p8127" cert="high">Konrad Pellikan</persName>, um 13. September 1544 (Kopie <persName ref="p2979" cert="high">Johann Jakob Simlers</persName>: Zürich ZB, Ms S 55, 169). Pincier benchtet, dass, da die Jünglinge auf Wunsch der Zürcher in der kurzen Zeit soviel wie möglich sehen sollten, ein Verwandter von ihm ihnen mit vierzig Talern (Joachimsthaler Silbermünzen) für die Reise aushalf, deren Rückzahlung bis zur Messe sie in einem Brief an <persName ref="p1227" cert="high">Froschauer</persName> versprachen, der auch einen Schuldschein bekam; Pincier reiste daraufhin nach <placeName ref="l157" cert="high">Frankfurt</placeName>, um die Rückzahlung des von seinem Verwandten vorgeschossenen Geldes bei <persName ref="p1227" cert="high">Froschauer</persName> zu erwirken, was ihm aber nicht gelang, zumal <persName ref="p1227" cert="high">Froschauer</persName> erzürnte, als ihm der Schuldbrief vorgelegt wurde. Pincier hat am selben Tag auch an <persName ref="p3988" cert="high">Johannes Wolf</persName> geschrieben, wie dessen Antwort an Pincier vom 8. März 1545 erkennen lässt: Wolf will Pincier helfen, das den Schweizern geliehene Geld zurückzuerhalten; s. <hi>Köhler,</hi> Hessen und die Schweiz 475, Nr. 39.</note> in domino patrem nostrum, id facere poteris.</s>
+					<s n="27" xml:lang="la" type="auto">Si iam peccatum est imprudentia <persName ref="p8115" cert="high">Pincieri</persName>, quaeso condonetis ei, et totam causam, si melius cognoscere cupis, ex literis <persName ref="p8115" cert="high">Ioanni Pincieri</persName> ad <persName ref="p8127" cert="high">Pellicanum</persName>,<note xml:id="fn18" type="footnote" n="18">Es handelt sich um <persName ref="p8115" cert="high">Johannes Pinciers</persName> Brief an <persName ref="p8127" cert="high">Konrad Pellikan</persName>, um 13. September 1544 (Kopie <persName ref="p2979" cert="high">Johann Jakob Simlers</persName>: Zürich ZB, Ms S 55, 169). Pincier benchtet, dass, da die Jünglinge auf Wunsch der Zürcher in der kurzen Zeit soviel wie möglich sehen sollten, ein Verwandter von ihm ihnen mit vierzig Talern (Joachimsthaler Silbermünzen) für die Reise aushalf, deren Rückzahlung bis zur Messe sie in einem Brief an <persName ref="p1227" cert="high">Froschauer</persName> versprachen, der auch einen Schuldschein bekam; Pincier reiste daraufhin nach <placeName ref="l157" cert="high">Frankfurt</placeName>, um die Rückzahlung des von seinem Verwandten vorgeschossenen Geldes bei <persName ref="p1227" cert="high">Froschauer</persName> zu erwirken, was ihm aber nicht gelang, zumal <persName ref="p1227" cert="high">Froschauer</persName> erzürnte, als ihm der Schuldbrief vorgelegt wurde. Pincier hat am selben Tag auch an <persName ref="p3988" cert="high">Johannes Wolf</persName> geschrieben, wie dessen Antwort an Pincier vom 8. März 1545 erkennen lässt: Wolf will Pincier helfen, das den Schweizern geliehene Geld zurückzuerhalten; s. <hi>Köhler,</hi> Hessen und die Schweiz 475, Nr. 39.</note> in domino patrem nostrum, id facere poteris.</s>
 				</p>
 				<p>
 					<s n="28" xml:lang="la" type="auto">Bene vale ac me tibi commendatum esse velis.</s>

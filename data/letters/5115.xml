@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Beilage" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,344b</idno>
 					</msIdentifier>
@@ -43,14 +35,6 @@
 				</msDesc>
 				<msDesc type="Beilage" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 102,155</idno>
 					</msIdentifier>
@@ -60,30 +44,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5115">
 				<correspAction type="sent">
-					<persName ref="p8018" cert="low">
-						<!--
-						<surname cert="low">Haller d.J.</surname>
-						<forename cert="low">Johannes</forename>
-						<graphic type="portrait" url="portraits/1430_Haller_dJ_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Haller_der_J%C3%BCngere"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136925588"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
-						-->
-					</persName>
+					<persName ref="p8018" cert="low"/>
 					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 					<date when="1561-12-31" cert="low"><note>Datum unsicher  (wahrscheinlich Beilage zu 1561 Dezember 31.) (= ID 5114)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -110,8 +76,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -127,19 +93,19 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">Postquam has absolvi, refert mihi d. <persName type="auto_name">Christophorus</persName><note type="misc"><persName type="auto_name">Christopher Fabri</persName></note>, minister Neocomensis, qui cum suo principe huc venit et his diebus<note type="misc">vorn im Brief vom 31. Dez. 1561</note>, dum hic est princeps, concionaturus est hic, <placeName ref="l378" cert="high">Parisiis</placeName> theologos <placeName type="auto_name">Sorbonicos</placeName> disputationem habuisse, an liceat regi parere haeretico, item an non liceat pastoribus monere subditos, ut contra talem regem insurgant atque ipsum regno pellant [Affaire Tanquerel Nov. 1561.]</s>
-					<s n="1" xml:lang="la" type="manual">Rex ubi haec cognovit, septem illorum theologorum in vincula coniecit; iudicatum super illis in parlamento, adiudicati sunt, ut publice palinodiam canant, deum et regem pro venia precentur.</s>
-					<s n="2" xml:lang="la" type="auto">Hoc dum illi facere nolunt, in carceribus adhuc detinentur.</s>
+					<s n="2" xml:lang="la" type="manual">Rex ubi haec cognovit, septem illorum theologorum in vincula coniecit; iudicatum super illis in parlamento, adiudicati sunt, ut publice palinodiam canant, deum et regem pro venia precentur.</s>
+					<s n="3" xml:lang="la" type="auto">Hoc dum illi facere nolunt, in carceribus adhuc detinentur.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Interea decretum, ut in <placeName type="auto_name">Sorbona</placeName> ad triennium usque nihil amplius disputetur.</s>
-					<s n="4" xml:lang="la" type="auto">Refert item heri ex <placeName type="auto_name">Lugduno</placeName> venisse nobilem quendam cordatum virum, qui testetur per totam <placeName type="auto_name">Galliam</placeName> templa fidelibus esse concessa et <placeName ref="l378" cert="high">Parisiis</placeName> amplissimas et numerosissimas haberi congregationes.</s>
-					<s n="5" xml:lang="la" type="auto">Haec quoniam nova sunt, reliquis adiicere volui.</s>
+					<s n="4" xml:lang="la" type="auto">Interea decretum, ut in <placeName type="auto_name">Sorbona</placeName> ad triennium usque nihil amplius disputetur.</s>
+					<s n="5" xml:lang="la" type="auto">Refert item heri ex <placeName type="auto_name">Lugduno</placeName> venisse nobilem quendam cordatum virum, qui testetur per totam <placeName type="auto_name">Galliam</placeName> templa fidelibus esse concessa et <placeName ref="l378" cert="high">Parisiis</placeName> amplissimas et numerosissimas haberi congregationes.</s>
+					<s n="6" xml:lang="la" type="auto">Haec quoniam nova sunt, reliquis adiicere volui.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Vale iterum.</s>
+					<s n="7" xml:lang="la" type="auto">Vale iterum.</s>
 				</p>
 				<p>
-					<s n="7" xml:lang="la" type="auto">Communicabis ista fratri quoque meo <persName type="auto_name">[Wolfgang Haller]</persName>, cui alias nescio an nunc scribere possim.</s>
+					<s n="8" xml:lang="la" type="auto">Communicabis ista fratri quoque meo <persName type="auto_name">[Wolfgang Haller]</persName>, cui alias nescio an nunc scribere possim.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse fehlt]</note>

@@ -24,14 +24,6 @@
 				<bibl n="24" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 20 (Anhang), Bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a1">
-							<name>Aarau Stadtarchiv</name>
-							<ref target="https://www.aarau.ch/kultur-freizeit/kultur/stadtarchiv.html/183"/>
-						</repository>
-						<settlement ref="l2">Aarau</settlement>
-						<institution>Stadtarchiv</institution>
-						-->
 						<repository ref="a1"/>
 						<idno subtype="Autograph">II. 558,2</idno>
 					</msIdentifier>
@@ -87,22 +79,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11946">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1544-04-25" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g65" type="pl" role="Schultheissen" cert="high"/>
-					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<orgName ref="og65pl2" cert="high"/>
+					<orgName ref="og59pl2" cert="high"/>
 					<placeName source="l2" cert="low"><orig>Aarau</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -128,8 +111,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">

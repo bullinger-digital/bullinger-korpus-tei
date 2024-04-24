@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph__(Kopie)">E II 337,221r-224r</idno>
 					</msIdentifier>
@@ -90,30 +82,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10986">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1537-02-10" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8418" cert="low">
-						<!--
-						<surname cert="low">Myconius (Geißhüsler)</surname>
-						<forename cert="low">Oswald</forename>
-						<graphic type="portrait" url="portraits/2234_Myconius_Oswald.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Oswald_Myconius"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118735462"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
-						-->
-					</persName>
+					<persName ref="p8418" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10987"/>
@@ -139,8 +113,8 @@
 				<language ident="la" usage="912">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -237,7 +211,7 @@
 					<s n="55" xml:lang="la" type="auto"><pb type="edition" next="54"/>Nunc ad infinitas illas quaestiones, quas agitari audio in conventu Schmalkaldiensi<note xml:id="fn30" type="footnote" n="30">Siehe oben <ref target="file10976">Nr. 934</ref>, 6-35.</note>.</s>
 					<s n="56" xml:lang="la" type="auto">Videor autem mihi brevi compendio respondisse ad omnes, si respondero ad quasdam.</s>
 					<s n="57" xml:lang="la" type="auto">Nam d[octor] <persName ref="p4079" cert="high">Ioannes Zviccius</persName> omnes tuas in has tres redegit<note xml:id="fn31" type="footnote" n="31">Siehe oben <ref target="file10982">Nr. 940</ref>, 7-16.</note>: Prior, an consilium Mantuanum<note xml:id="fn32" type="footnote" n="32">Siehe oben <ref target="file10976">Nr. 934</ref>, Anm. 3.</note> ad indictionem <persName ref="19981" type="auto_name">papae</persName><note xml:id="fn33" type="footnote" n="33"><persName ref="p19981" cert="high">Paul III.</persName></note> quaerendum sit an expectanda caesaris<note xml:id="fn34" type="footnote" n="34"><persName ref="p18538" cert="high">Karl V.</persName></note> vocatio.</s>
-					<s n="58" xml:lang="la" type="auto">Hic ego censeo consilium ad indictionem papae minime esse inquirendum.</s>
+					<s n="58" xml:lang="la" type="auto">Hic ego censeo consilium ad indictionem <persName ref="p19981" cert="high">papae</persName> minime esse inquirendum.</s>
 					<s n="59" xml:lang="la" type="auto">Caussae sunt:</s>
 				</p>
 				<p>
@@ -273,12 +247,12 @@
 					<s n="85" xml:lang="la" type="auto">Proh pudor, proh scelus!</s>
 					<s n="86" xml:lang="la" type="auto">Insani, amentes, imo inconstantissimi nebulones erimus, si scelus illud vel audire induxerimus in animum.</s>
 					<s n="87" xml:lang="la" type="auto">Ego igitur suaderem antichristum istum prorsus esse contemnendum, ut per nostrum sentiret contemptum, quid de nebulone iudicaremus.</s>
-					<s n="88" xml:lang="la" type="auto">Utile autem foret, si causae omnes publico scripto orbi exponerentur, cur ecclesia Christi contemneret vocationem et consilium papae, ne quis crederet aliquid a nobis fieri arrogantius.</s>
+					<s n="88" xml:lang="la" type="auto">Utile autem foret, si causae omnes publico scripto orbi exponerentur, cur ecclesia Christi contemneret vocationem et consilium <persName ref="p19981" cert="high">papae</persName>, ne quis crederet aliquid a nobis fieri arrogantius.</s>
 					<s n="89" xml:lang="la" type="auto">Certe nemo affectum dixerit, quod iussit verbum Christi.</s>
 				</p>
 				<p>
 					<s n="90" xml:lang="la" type="auto">Deinde, quod imperatoris vocationem attinet, agnosco quidem huius et principum sive magistratus sancti esse conventus indicere, sed tempore, loco et modo legittimo, animo item imprimis candido et nequaquam spiritu antichristi imbuto.</s>
-					<s n="91" xml:lang="la" type="auto">Quodsi imperator aut principes, quae facerent, ex consilio papae facerent, nihil interesset, huius an illius obtemperaremus aedictis, neque minus antichristo caesarem audientes obediremus, quam cum papae paremus legibus.</s>
+					<s n="91" xml:lang="la" type="auto">Quodsi imperator aut principes, quae facerent, ex consilio <persName ref="p19981" cert="high">papae</persName> facerent, nihil interesset, huius an illius obtemperaremus aedictis, neque minus antichristo caesarem audientes obediremus, quam cum <persName ref="p19981" cert="high">papae</persName> paremus legibus.</s>
 					<s n="92" xml:lang="la" type="auto">Videtur autem illud esse tempus legittimum, quod non est turbulentum bellicis tumultibus, quod etiam spatium cogitandi consultandique concedit illis, quorum interest de religione disputare.</s>
 					<s n="93" xml:lang="la" type="auto">Quo illud quoque pertinere videtur, quod tempestive satis illa rerum capita summatim debent proponi, quibus de disserendum consultandumque erit.</s>
 					<s n="94" xml:lang="la" type="auto">Locus legittimus is est, qui tutus est et accessu facilis et in quo potissimum videtur error dominari, ubi scilicet haeresis multorum occupavit animos.</s>
@@ -292,7 +266,7 @@
 					<s n="102" xml:lang="la" type="auto">Omnium enim ecclesiarum censuram vobis sumitis."</s>
 					<s n="103" xml:lang="la" type="auto">Modus legittimus est, qui praescribit, ut omnia transigantur secundum scripturas canonicas, ut scriptura canonica iudex sit, ut nemo excludatur.</s>
 					<s n="104" xml:lang="la" type="auto">Nam in consilio Niceno idiotae<note xml:id="fn43" type="footnote" n="43">Gemeint ist, wie Bullinger in "De conciliis" ciliis" (f. 31v.) ausführt, insbesondere jener unbekannte Laie, von dessen Disputation mit den Philosophen die Kirchenhistoriker <persName ref="p18592" cert="high">Sokrates</persName> <persName ref="p8440" cert="high">Scholasticus</persName> und Rufin berichten (s. <bibl>MPG</bibl> LXVII 63 bzw. <bibl>MPL</bibl> XXI 469f).</note> doctissimis episcopis<pb type="edition" next="56"/> melius iudicarunt et disputarunt, ut ea, quae ad rem pertinent, dicantur etc.</s>
-					<s n="105" xml:lang="la" type="auto">De his putarem admonendum esse caesarem, si vocaret in consilium papae.</s>
+					<s n="105" xml:lang="la" type="auto">De his putarem admonendum esse caesarem, si vocaret in consilium <persName ref="p19981" cert="high">papae</persName>.</s>
 					<s n="106" xml:lang="la" type="auto">Quodsi sancta monentes non audiret, sed pergeret contra nos agere legibus et conditionibus iniquis, non magis huic quam pontifici parerem.</s>
 				</p>
 				<p>
@@ -317,7 +291,7 @@
 					<s n="123" xml:lang="la" type="auto">Nisi vero magistratum quoque religionis defensorem admitterent, ego nihil negotii cum<note xml:id="fnk" type="footnote" n="k">cum <hi>über der Zeile nachgetragen.</hi></note> hisce haberem hominibus ut iis, qui contra verbum dei se solos statuunt veritatis et religionis magistros.</s>
 				</p>
 				<p>
-					<s n="124" xml:lang="la" type="auto"><pb type="edition" next="57"/>Postrema quaestio est: Si pontifex nullas aequas leges receperit et imperator cum regibus aliis et principibus nihil dederit nobis, sed praecipiat papae decretis inhaerere, papa autem veritatem damnet, falsam religionem confirmet et gladio principum reclamantes persequatur, num iure liceat bello resistere papae.</s>
+					<s n="124" xml:lang="la" type="auto"><pb type="edition" next="57"/>Postrema quaestio est: Si pontifex nullas aequas leges receperit et imperator cum regibus aliis et principibus nihil dederit nobis, sed praecipiat <persName ref="p19981" cert="high">papae</persName> decretis inhaerere, papa autem veritatem damnet, falsam religionem confirmet et gladio principum reclamantes persequatur, num iure liceat bello resistere <persName ref="p19981" cert="high">papae</persName>.</s>
 					<s n="125" xml:lang="la" type="auto">Prorsus.</s>
 					<s n="126" xml:lang="la" type="auto">Si enim losue, sanctissimus dei princeps, sua referre putavit gladio persequi perfidiam et Rubenitarum et sotiorum, qui putabantur contra legem dei aram extruxisse<note xml:id="fn48" type="footnote" n="48">Vgl. <cit type="bible"><ref>Jos 22, 10-20</ref></cit>.</note>, quanto magis sancti magistratus est obstare, ne quis contra verbum dei et<note xml:id="fnl" type="footnote" n="l">et <hi>über der Zeile nachgetragen.</hi></note> aras erigat et ad impios cultus compellat?</s>
 					<s n="127" xml:lang="la" type="auto">Nam isti ad aram suam neminem geniculari compellebant etc.</s>

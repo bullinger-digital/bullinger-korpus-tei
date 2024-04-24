@@ -24,14 +24,6 @@
 				<bibl n="17" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 14 (Briefe des Jahres 1544), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2011, 645 S., ISBN 978-3-290-17565-8.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a78">
-							<name>St. Gallen KB</name>
-							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
-						</repository>
-						<settlement ref="l474">St. Gallen</settlement>
-						<institution>Kantonsbibliothek Vadiana</institution>
-						-->
 						<repository ref="a78"/>
 						<idno subtype="Kopie">Ms 40 (VBS XI),29</idno>
 					</msIdentifier>
@@ -153,30 +145,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12096">
 				<correspAction type="sent">
-					<persName ref="p467" cert="high">
-						<!--
-						<surname cert="high">Bucer</surname>
-						<forename cert="high">Martin</forename>
-						<graphic type="portrait" url="portraits/467_Bucer_Martinus.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Martin_Bucer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118516507"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11483585"/>
-						-->
-					</persName>
+					<persName ref="p467" cert="high"/>
 					<placeName source="l491" cert="high"><orig>Straßburg</orig></placeName>
 					<date when="1544-12-13" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12097"/>
@@ -202,8 +176,8 @@
 				<language ident="la" usage="998">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -222,9 +196,9 @@
 					<s n="8" xml:lang="la" type="auto">Scribis, vos affirmare praesentiam Christi in cena spiritualem et tamen efficacem, corporalem negare; Christum ecclesiae praesentem agnoscere, non tamen corpore, quod ad dexteram patris sit, sed potentia, virtute, operatione; Lutherum vero damnare hanc sententiam haereseos (quam vos et primitivae ecclesiae ac veteribus doctoribus adscribitis) et statuere corporalem et quae manibus et ore percipiatur, qualem et Sophistae ponunt, excepto commento transsubstantiationis, et canon «Ego Berengarius» explicat; et hanc Lutheri sententiam vis consistere non posse cum veritate humani corporis in Christo et gloria eius caelesti.</s>
 					<s n="9" xml:lang="la" type="auto">De sententia itaque, quam vestram facis, qua praesentiam domini in ecclesia sua et cena definis sola potentia, virtute, operatione et effectu Christi et qua negas, Christum ecclesiae suae et cenae adesse etiam corpore, hoc tibi confiteor et testificor coram domino, eam te innumeris ecclesiis minime approbaturum, ut quae nec scripturis nec testimoniis veteris ecclesiae comprobari possit.</s>
 					<s n="10" xml:lang="la" type="auto">Dominus enim se ipsum ecclesiae praesentem esse et praebere se illi in s(acra) cena suum corpus, suum sanguinem testatur, non tantum potentiam suam, virtutem, operationem, effectum.</s>
-					<s n="11" xml:lang="la" type="auto">Hinc Paulus communicationem in sacramento confitetur non virtutis tantum et effectionis, verum etiam corporis et sanguinis ipsius.</s>
+					<s n="11" xml:lang="la" type="auto">Hinc <persName ref="p6040" cert="high">Paulus</persName> communicationem in sacramento confitetur non virtutis tantum et effectionis, verum etiam corporis et sanguinis ipsius.</s>
 					<s n="12" xml:lang="la" type="auto">Atqui ista nemo vel rectius vel plenius domino ipso et spiritu eius eloqui potest.</s>
-					<s n="13" xml:lang="la" type="auto">Ut vero Irenęus, Hilarius, Chrysostomus, Cyrillus ac ceteri hoc mysterium explicent, non est opus ad te commemorare.</s>
+					<s n="13" xml:lang="la" type="auto">Ut vero Irenęus, Hilarius, <persName ref="p4541" cert="high">Chrysostomus</persName>, Cyrillus ac ceteri hoc mysterium explicent, non est opus ad te commemorare.</s>
 					<s n="14" xml:lang="la" type="auto">Sed nec caelos et dexteram patris nec naturam corporis Christi (quae sane vera in domino permanet) sic vel per Scripturam vel per auctoritatem s(anctorum) patrum definire licebit, ut ex ea definitione sive veri corporis Christi sive gloriae caelestis, in quam illud ex hoc mundo exaltatum est, concludi possit, dominum se nobis non et hic totum ac ideo corpore quoque suo exhibere.</s>
 				</p>
 				<p>
@@ -249,7 +223,7 @@
 					<s n="29" xml:lang="la" type="auto">Si enim gloriam Christi caelestem sic definias, ut loci, quae res mundi huius est, circumscriptionem in ea ponas, requiretur a te verbum dei, quo id doceatur.</s>
 					<s n="30" xml:lang="la" type="auto">Iam supra omnes caelos quis hominum fuit?</s>
 					<s n="31" xml:lang="la" type="auto">Quis conditionem mundi illius ultramundani nobis explicuit?</s>
-					<s n="32" xml:lang="la" type="auto">Deinde ut detur, esse Christum in certo quodam caelorum loco circumscriptum, quod Augustinus et Fulgentius videntur affirmare (quorum tamen, ut hominum, auctoritati) soli in hac disputatione theologica locus non dabitur): quo Scripturae oraculo ostendetur, id fieri non posse, ut Christus sese, in eo ipso suo caelesti loco existentem et manentem, tamen ecclesiae atque cenae suae praesentem exhibeat et praesentia sui et sui corporis, non virtutis tantum et operis sui, praesentia scilicet, quam verba eius testantur, non illa mundi huius, quam sensus aut ratio mundi huius percipiat, sed ultramundana, quam ratio tantum caelestis percipere potest, verum tamen eiusmodi quoque praesentia, quae divinae benignitatis miraculo, ut et degustatio doni caelestis illa et participatio spiritus sancti, de qua ad Ebreos 6., contingere potest etiam non probis Christianis?</s>
+					<s n="32" xml:lang="la" type="auto">Deinde ut detur, esse Christum in certo quodam caelorum loco circumscriptum, quod Augustinus et <persName ref="p4867" cert="high">Fulgentius</persName> videntur affirmare (quorum tamen, ut hominum, auctoritati) soli in hac disputatione theologica locus non dabitur): quo Scripturae oraculo ostendetur, id fieri non posse, ut Christus sese, in eo ipso suo caelesti loco existentem et manentem, tamen ecclesiae atque cenae suae praesentem exhibeat et praesentia sui et sui corporis, non virtutis tantum et operis sui, praesentia scilicet, quam verba eius testantur, non illa mundi huius, quam sensus aut ratio mundi huius percipiat, sed ultramundana, quam ratio tantum caelestis percipere potest, verum tamen eiusmodi quoque praesentia, quae divinae benignitatis miraculo, ut et degustatio doni caelestis illa et participatio spiritus sancti, de qua ad Ebreos 6., contingere potest etiam non probis Christianis?</s>
 				</p>
 				<p>
 					<s n="33" xml:lang="la" type="manual">Adducis locum Pauli 1. Cor. 15. de caelesti ac spirituali conditione nostrorum corporum, quae corpori Christi sint futura conformia, portantia iam caelestis Adam imaginem.</s>
@@ -275,14 +249,14 @@
 					<s n="53" xml:lang="la" type="auto">Panem, signum corporis domini, non esse corpus ipsum, nemo negabit, nec ferent te de hoc multa verba facientem.</s>
 					<s n="54" xml:lang="la" type="auto">Hoc vero ut scripturis probes, requiretur: non dari hoc signo et percipi vere reque ipsa corpus domini.</s>
 					<s n="55" xml:lang="la" type="auto">Esse panem signum Corporis domini, constat; sed non esse signum exhibitivum Christi ipsius, id tibi claris disertisque scripturis evincendum erit.</s>
-					<s n="56" xml:lang="la" type="auto"><foreign xml:lang="el">κοινωνία</foreign> illa corporis domini, quam praedicat Paulus, ut definierunt aliquando vestri, tenetur memoria.</s>
+					<s n="56" xml:lang="la" type="auto"><foreign xml:lang="el">κοινωνία</foreign> illa corporis domini, quam praedicat <persName ref="p6040" cert="high">Paulus</persName>, ut definierunt aliquando vestri, tenetur memoria.</s>
 					<s n="57" xml:lang="la" type="auto">Sed cum a Paulo definiatur talis, qua et nos sumus unus in domino panis, unum corpus, vestrorum definitio non admittetur, quam ne <persName ref="p2442" cert="high">Oecolampadius</persName> probabat.</s>
 				</p>
 				<p>
 					<s n="58" xml:lang="la" type="auto">Ita si Christum praesentem esse in cena corpore aut corporalem eius in cena praesentiam (quam scilicet praesentiam affirmari dicitis a Luthero, negari a vobis) definiatis eiusmodi praesentiam esse, quae sit localis, sit huius mundi, detrahat aliquid veritati humanę et corporali naturae in Christo aut glorię eius caelesti, vos ut calumniatores Lutheri plurimi aversabuntur, ut qui sciant, Lutherum et eos, qui cum illo faciunt, cum his verbis utuntur, nihil prorsus ponere praesentiae corporalis ultra id, quod est a domino ipso et apostolo eius affirmatum et expressum his verbis: «Hoc est corpus meum, est communicatio corporis domini, reus sit corporis domini» et «diiudicat corpus domini».</s>
 					<s n="59" xml:lang="la" type="auto">Atque hunc syllogismum consertis manibus tenebunt: quod a domino praebetur et ex manibus eius accipitur et editur cuiusque percipitur et habetur <foreign xml:lang="el">κοινωνίας</foreign>, id praesens est his, quibus praebetur, et qui ipsum accipiunt eiusque habent communionem, habent etiam eius praesentiam.</s>
 					<s n="60" xml:lang="la" type="auto">Tunc urgebunt et illud: qui verbis domini ipsis de tantis mysteriis loquitur, eum loqui male non posse.</s>
-					<s n="61" xml:lang="la" type="auto">Vox denique «corporalis» vel «corporaliter» damnari hac in re quomodo possit, cum Paulus ausus sit scribere, divinitatem habitare in Christo corporaliter?</s>
+					<s n="61" xml:lang="la" type="auto">Vox denique «corporalis» vel «corporaliter» damnari hac in re quomodo possit, cum <persName ref="p6040" cert="high">Paulus</persName> ausus sit scribere, divinitatem habitare in Christo corporaliter?</s>
 					<s n="62" xml:lang="la" type="auto">Etenim esse vel habitare corporaliter magis a divinitate quam a corpore Christi dissidet.</s>
 					<s n="63" xml:lang="la" type="auto">Non sum, optimi viri, irreligiose in hac re versatus tot iam annis; novi enim, abominationi esse domino, qui fucum in sua doctrina faciat aut ludat.</s>
 					<s n="64" xml:lang="la" type="auto">Excussi, quae utrinque allata sunt, non indiligenter; verum ex verbis domini consensuque ecclesię iam inde ab apostolis perpetuo id, gratia domini, didici, eum Scripturae locum non exstare, cui contradicat aut quocum pugnet ea praesentia domini in sacra cena, quam Lutherus vere ponit, non dico ponere plerisque videtur.</s>

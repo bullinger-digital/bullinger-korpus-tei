@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,151r.-v.</idno>
 					</msIdentifier>
@@ -48,7 +40,7 @@
 								<persName ref="p4263" cert="high">Thomas Becket</persName> öffentlich zu
 								verbrennen befohlen haben. Die Verhängung der Acht über <placeName ref="l1702" cert="high">Minden</placeName>
 								habe Kurfürst <persName ref="p19065" cert="high">[Johann Friedrich] von Sachsen</persName> und
-								Landgraf <placeName ref="l664" cert="high">[Philipp] von Hessen</placeName> zum höchsten erzürnt. Weiß noch nichts Sicheres über die
+								Landgraf <persName ref="p18574" cert="high">[Philipp] von Hessen</persName> zum höchsten erzürnt. Weiß noch nichts Sicheres über die
 								Auseinandersetzung zwischen <placeName ref="l361" cert="high">Nürnberg</placeName> und
 								Markgraf [Georg] von Brandenburg. [<persName ref="p19042" cert="high">Cheireddin] Barbarossa</persName> hat <persName ref="p17784" cert="high">Andrea Doria</persName> und
 								die Venezianer in die Flucht geschlagen, und die <placeName ref="l19" cert="high">Moldau</placeName> soll von
@@ -85,28 +77,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11243">
 				<correspAction type="sent">
-					<persName ref="p1055" cert="high">
-						<!--
-						<surname cert="high">Frecht</surname>
-						<forename cert="high">Martin</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Martin_Frecht"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/116747382"/>
-						-->
-					</persName>
+					<persName ref="p1055" cert="high"/>
 					<placeName source="l513" cert="high"><orig>Ulm</orig></placeName>
 					<date when="1538-11-24" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11244"/>
@@ -133,8 +109,8 @@
 				<language ident="la" usage="997">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -163,7 +139,7 @@
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Nos interim in domino solabimur nos, ut vel hac occasione mitescant tandem ii, qui nos pro hereticissimis habent, ut superioribus diebus huius rei exemplum dedit imperialis camerę iuditium, quod per bannum proscripsit evangelicam civitatem Mindam nomine<note xml:id="fn12" type="footnote" n="12">Zur Verhängung der Acht über <placeName ref="l1702" cert="high">Minden</placeName> durch das Reichskammergericht vgl. oben <ref target="file11236">Nr. 1193</ref>, 11-13 mit Anm. 6.</note>.</s>
-					<s n="7" xml:lang="la" type="auto">Quę audatia, ut <persName ref="p467" cert="high">Bucerus</persName> noster <placeName ref="l492" cert="high">Argentinam</placeName> scripsisse fertur<note xml:id="fn13" type="footnote" n="13">Nicht erhalten.</note>, et Saxonem electorem<note xml:id="fn14" type="footnote" n="14"><persName ref="p19065" cert="high">Johann Friedrich</persName>, Kurfürst von Sachsen.</note> et lantgravium<note xml:id="fn15" type="footnote" n="15">Philipp, Landgraf von Hessen.</note> ultra modum exasperavit.</s>
+					<s n="7" xml:lang="la" type="auto">Quę audatia, ut <persName ref="p467" cert="high">Bucerus</persName> noster <placeName ref="l492" cert="high">Argentinam</placeName> scripsisse fertur<note xml:id="fn13" type="footnote" n="13">Nicht erhalten.</note>, et Saxonem electorem<note xml:id="fn14" type="footnote" n="14"><persName ref="p19065" cert="high">Johann Friedrich</persName>, Kurfürst von Sachsen.</note> et lantgravium<note xml:id="fn15" type="footnote" n="15"><persName ref="p18574" cert="high">Philipp, Landgraf von Hessen</persName>.</note> ultra modum exasperavit.</s>
 					<s n="8" xml:lang="la" type="auto">Quis enim finis tandem tantę confidentię?</s>
 					<s n="9" xml:lang="la" type="auto">Itaque mirandum non est, si, quę multi boni viri ominantur et incurvicervico populo papę et satis securę evangelicę plebi, tandem sortiantur actis dignum eventum.</s>
 				</p>
@@ -171,7 +147,7 @@
 					<s n="10" xml:lang="la" type="auto">Verum de iis, ubi, quod dominus fortunet, noster <persName ref="p467" cert="high">Bucerus</persName> domum redierit, certiora habere poteris.</s>
 				</p>
 				<p>
-					<s n="11" xml:lang="la" type="auto">De <placeName ref="l361" cert="high">Norinbergensium</placeName> et <persName ref="p18487" cert="high">Brandenburgensis</persName> marchionis<note xml:id="fn16" type="footnote" n="16">Georg, Markgraf von Brandenburg-Ansbach.</note> tumultuaria causa<note xml:id="fn17" type="footnote" n="17">Zum Streit zwischen dem Markgrafen und <placeName ref="l361" cert="high">Nürnberg</placeName> vgl. oben <ref target="file11234">Nr. 1191</ref>, 38-41 mit Anm. 10.</note> certi nihil nunc possum scribere; nondum enim redierunt nostri legati<note xml:id="fn18" type="footnote" n="18">Die Gesandtschaft, die im Konflikt zwischen <placeName ref="l361" cert="high">Nürnberg</placeName> und dem Markgrafen zu vermitteln suchte, wurde von <persName ref="p4285" cert="high">Georg Besserer</persName> angeführt; s. <bibl>Capito, Corr.</bibl> 246. <ref target="file10736">Nr. 698</ref>.</note> ultra mensem nunc absentes.</s>
+					<s n="11" xml:lang="la" type="auto">De <placeName ref="l361" cert="high">Norinbergensium</placeName> et <placeName ref="l1048" cert="high">Brandenburgensis</placeName> marchionis<note xml:id="fn16" type="footnote" n="16">Georg, Markgraf von Brandenburg-Ansbach.</note> tumultuaria causa<note xml:id="fn17" type="footnote" n="17">Zum Streit zwischen dem Markgrafen und <placeName ref="l361" cert="high">Nürnberg</placeName> vgl. oben <ref target="file11234">Nr. 1191</ref>, 38-41 mit Anm. 10.</note> certi nihil nunc possum scribere; nondum enim redierunt nostri legati<note xml:id="fn18" type="footnote" n="18">Die Gesandtschaft, die im Konflikt zwischen <placeName ref="l361" cert="high">Nürnberg</placeName> und dem Markgrafen zu vermitteln suchte, wurde von <persName ref="p4285" cert="high">Georg Besserer</persName> angeführt; s. <bibl>Capito, Corr.</bibl> 246. <ref target="file10736">Nr. 698</ref>.</note> ultra mensem nunc absentes.</s>
 					<s n="12" xml:lang="la" type="auto">Fama est tamen dimitti milites et hunc inter vicinos tumultum tumulo consecrandum, etiamsi plerique evangelicis ignem hunc, qui ardere debet, ominantur, si cum Noricis fuerit collusum.</s>
 				</p>
 				<p>
@@ -180,7 +156,7 @@
 					<s n="15" xml:lang="la" type="auto">Ex <placeName ref="l1976" cert="high">Augusta</placeName> volatilia affert Mercurius nomine suorum, quid enim nostri mercatores non scribunt, proscribenda etiam.</s>
 					<s n="16" xml:lang="la" type="auto">Nunc Turcicus pyrata <persName ref="p19042" cert="high">Barbarossa</persName> <persName ref="p17784" cert="high">Andream de Dorea</persName><note xml:id="fn20" type="footnote" n="20"><persName ref="p17784" cert="high">Andrea Doria</persName>, 1466-1560, von <placeName ref="l1121" cert="high">Genua</placeName>, stand in militärischen Diensten vorerst des Papstes, des französischen Königs und anderer Potentanten. Von 1528 an bis zu seinem Tod diente er als einer der besten Admirale seiner Zeit <persName ref="p18538" cert="high">Kaiser Karl V.</persName>, der ihn zum Fürsten von <placeName ref="l1704" cert="high">Melfi</placeName> erhob, und <persName ref="p18575" cert="high">König Philipp II.</persName> gegen Franzosen, Türken und gegen die Mittelmeerpiraten. - Lit.: Thomas B. <hi>Deutscher,</hi> in: <bibl>Contemporaries</bibl> I 397f; Vito Antonio <hi>Vitale,</hi> in: Enciclopedia Italiana di scienze, lettere ed arti, Bd. XIII, Mailand 1932. S. 166f.</note>, cęsareanum ducem, modo <placeName ref="l522" cert="high">Venetos</placeName><pb type="edition" next="271"/> coegit terga dare<note xml:id="fn21" type="footnote" n="21"><persName ref="p19042" cert="high">Cheireddin Barbarossa</persName> hatte am 27. September bei <placeName ref="l1705" cert="high">Prevesa (Griechenland)</placeName> die Flotte der "Heiligen Liga" in die Flucht geschlagen; s. <bibl>Cardauns</bibl> 24-27.</note>.</s>
 					<s n="17" xml:lang="la" type="auto">Iam <persName ref="18593" type="auto_name">Turca</persName><note xml:id="fn22" type="footnote" n="22"><persName ref="p18593" cert="high">Sultan Suleiman I.</persName></note> Moldam universam subiugasse fertur<note xml:id="fn23" type="footnote" n="23">Im September 1538 hatten sich die Türken die <placeName ref="l19" cert="high">Moldau</placeName> unterworfen; vgl. <bibl>Hammer-Purgstall</bibl> III 200-203. 698-700.</note>.</s>
-					<s n="18" xml:lang="la" type="auto">Sed mercurialia ista sunt; hoc dicunt boni aliqui cęsarem<note xml:id="fn24" type="footnote" n="24"><persName ref="p18538" cert="high">Karl V.</persName></note> totum in armis esse, ut Turca tandem sentiat <persName ref="p18538" cert="high">Carolum</persName> non Lutheranos, sed <placeName ref="l1148" cert="high">Constantinopolitanos</placeName> petere velle.</s>
+					<s n="18" xml:lang="la" type="auto">Sed mercurialia ista sunt; hoc dicunt boni aliqui cęsarem<note xml:id="fn24" type="footnote" n="24"><persName ref="p18538" cert="high">Karl V.</persName></note> totum in armis esse, ut <persName ref="p18593" cert="high">Turca</persName> tandem sentiat <persName ref="p18538" cert="high">Carolum</persName> non Lutheranos, sed <placeName ref="l1148" cert="high">Constantinopolitanos</placeName> petere velle.</s>
 					<s n="19" xml:lang="la" type="auto">De iis autem satis.</s>
 				</p>
 				<p>

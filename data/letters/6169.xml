@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 373,497 f.</idno>
 					</msIdentifier>
@@ -57,30 +49,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/6169">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1564-06-16" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8009" cert="high">
-						<!--
-						<surname cert="high">Fabricius Montanus (Schmid)</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/1075_Fabricius_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Fabricius_Montanus"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/104045698"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11414870"/>
-						-->
-					</persName>
+					<persName ref="p8009" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file6170"/>
@@ -106,8 +80,8 @@
 				<language ident="la" usage="955">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -135,7 +109,7 @@
 					<s n="5" xml:lang="la" type="auto">Ex comitiis nihil dum habemus.</s>
 				</p>
 				<p>
-					<s n="6" xml:lang="la" type="auto">Tres Pagi causam Claronensem noluerunt ab initio comitiorum tractari, sicut prioribus fuerat decretum; praetexunt se nondum plene consultasse de danda responsione.</s>
+					<s n="6" xml:lang="la" type="auto">Tres Pagi causam <placeName ref="l646" cert="high">Claronensem</placeName> noluerunt ab initio comitiorum tractari, sicut prioribus fuerat decretum; praetexunt se nondum plene consultasse de danda responsione.</s>
 				</p>
 				<p>
 					<s n="7" xml:lang="la" type="auto">Sequestres indigne hoc tulerunt et iusserunt intra paucos dies respondere; expectamus ergo, quid futurum sit.</s>

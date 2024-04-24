@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Original">E II 337,112</idno>
 						<idno subtype="Hinweis">Ausfertigung von Johannes Frosch</idno>
@@ -69,13 +61,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10696">
 				<correspAction type="sent">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<orgName ref="og49pl411" cert="high"/>
 					<placeName source="l411" cert="high"><orig>Reichenweier</orig></placeName>
 					<date when="1535-10-04" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
-					<roleName ref="g45" type="pl" role="Lehrer" cert="high"/>
+					<orgName ref="og49pl587" cert="high"/>
+					<orgName ref="og45pl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -101,8 +93,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -120,7 +112,7 @@
 					<s n="1" xml:lang="de" type="auto">Gnad und frid von gott, dem vatter, durch sinen Christum Jesum, unsern herren, zuͦvoran.</s>
 				</p>
 				<p>
-					<s n="2" xml:lang="de" type="auto">Ersamen, wolgelertten, sonders lieben herren und bruͤder, ewer schriben belangend unßern geliepten bruͦder <persName ref="p1753" cert="high">Leo Jude</persName> haben wir inhalts vernommen<note xml:id="fn1" type="footnote" n="1">Das Schreiben - die zweite Absage an <placeName ref="l411" cert="high">Reichenweier</placeName> wegen <persName ref="p1753" cert="high">Leo Jud</persName> - ist nicht erhalten. Zur Sache vgl. oben <ref target="file10688">Nr. 650</ref>, besonders Anm. 1.</note>, und wiewoll dasselbig mit im<note xml:id="fn2" type="footnote" n="2">sich.</note> gebracht, das gemeldter<note xml:id="fn3" type="footnote" n="3">erwähnter (<bibl>SI</bibl> IV 211).</note> Leo uns ze senden ist<pb type="edition" next="384"/> aberkhent, so haben wir uns doch nicht irren lassen, weder miede<note xml:id="fn4" type="footnote" n="4">Mühe.</note> noch arbeit noch kosten verschonet<note xml:id="fn5" type="footnote" n="5">gescheut (<bibl>SI</bibl> VIII 863).</note> und den hochgebornen fürsten, unsern g[nedige]n herren, grave <persName ref="p8098" cert="high">Georgen von Württenberg</persName> etc., abermals underthänigklichen erbetten, das sine f[ürstliche] g[nade]n hiemit einem ersamen rath zuͦ Zürch ze schriben, mit begere, das uns Meister <persName ref="p8437" cert="high">Erasmus Fabritius</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="p8437" cert="high">Erasmus Schmid</persName>.</note> doch vier oder funff jar lang ze predigen erkhennt werde<note xml:id="fn7" type="footnote" n="7"><persName ref="p8098" cert="high">Georg, Graf von Württemberg-Mömpelgard</persName>, an Bürgermeister und Rat von Zürich, 30. Sept. 1535 (Zürich StA, A 195.1, <ref target="file10254">Nr. 223</ref>). Auf der Außenseite notierte der Schreiber den Ratsbeschluß vom 9. Okt. 1535, wonach <persName ref="p8437" cert="high">Erasmus Schmid</persName> auf ein halbes Jahr, bis zum 24. Juni 1536, an <placeName ref="l411" cert="high">Reichenweier</placeName> ausgeliehen werden sollte (vgl. dazu auch Zürich StA, B IV 6, 183r.-v.).</note>.</s>
+					<s n="2" xml:lang="de" type="auto">Ersamen, wolgelertten, sonders lieben herren und bruͤder, ewer schriben belangend unßern geliepten bruͦder <persName ref="p1753" cert="high">Leo Jude</persName> haben wir inhalts vernommen<note xml:id="fn1" type="footnote" n="1">Das Schreiben - die zweite Absage an <placeName ref="l411" cert="high">Reichenweier</placeName> wegen <persName ref="p1753" cert="high">Leo Jud</persName> - ist nicht erhalten. Zur Sache vgl. oben <ref target="file10688">Nr. 650</ref>, besonders Anm. 1.</note>, und wiewoll dasselbig mit im<note xml:id="fn2" type="footnote" n="2">sich.</note> gebracht, das gemeldter<note xml:id="fn3" type="footnote" n="3">erwähnter (<bibl>SI</bibl> IV 211).</note> <persName ref="p1753" cert="high">Leo</persName> uns ze senden ist<pb type="edition" next="384"/> aberkhent, so haben wir uns doch nicht irren lassen, weder miede<note xml:id="fn4" type="footnote" n="4">Mühe.</note> noch arbeit noch kosten verschonet<note xml:id="fn5" type="footnote" n="5">gescheut (<bibl>SI</bibl> VIII 863).</note> und den hochgebornen fürsten, unsern g[nedige]n herren, grave <persName ref="p8098" cert="high">Georgen von Württenberg</persName> etc., abermals underthänigklichen erbetten, das sine f[ürstliche] g[nade]n hiemit einem ersamen rath zuͦ Zürch ze schriben, mit begere, das uns Meister <persName ref="p8437" cert="high">Erasmus Fabritius</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="p8437" cert="high">Erasmus Schmid</persName>.</note> doch vier oder funff jar lang ze predigen erkhennt werde<note xml:id="fn7" type="footnote" n="7"><persName ref="p8098" cert="high">Georg, Graf von Württemberg-Mömpelgard</persName>, an Bürgermeister und Rat von Zürich, 30. Sept. 1535 (Zürich StA, A 195.1, <ref target="file10254">Nr. 223</ref>). Auf der Außenseite notierte der Schreiber den Ratsbeschluß vom 9. Okt. 1535, wonach <persName ref="p8437" cert="high">Erasmus Schmid</persName> auf ein halbes Jahr, bis zum 24. Juni 1536, an <placeName ref="l411" cert="high">Reichenweier</placeName> ausgeliehen werden sollte (vgl. dazu auch Zürich StA, B IV 6, 183r.-v.).</note>.</s>
 					<s n="3" xml:lang="de" type="auto">Demnach schicken wir nun zuͦm dritten mall zu uch unsern geliepten bruͤder <persName ref="p8088" cert="high">Nicolaum Kunig</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="p8088" cert="high">Nikolaus König</persName>.</note>, mit hochgedachts unsers g[nedige]n herren etc. briefen an einen ersamen rath, <persName ref="p1753" cert="high">Leonem</persName> und Erasmum<note xml:id="fn9" type="footnote" n="9">Die Briefe an <persName ref="p1753" cert="high">Leo Jud</persName> und <persName ref="p8437" cert="high">Erasmus Schmid</persName> sind nicht erhalten.</note> zuͦ lüfferen<note xml:id="fn10" type="footnote" n="10">zu bringen.</note> und euch wie vormals zuͦ ermanen, diewil uns <persName ref="p1753" cert="high">Leo</persName> aberkennt, das ir zu lob und pryß des götlichen namens by einem ersamen rath, ouch by uch und ewern bruͤdern die sachen der gestalt vördern thuͤgend, uff das uns jetzo unser geliepter bruͦder <persName ref="p8437" cert="high">Erasmus Fabritius</persName> doch vier oder fünff jar lange ze predigen erkhant werde; daran ir ungezwyfflet die eer gottes fürdern und sin lob und pryß meeren werden, welches wir alle zyt bruͤderlich und getrüwlich<note xml:id="fna" type="footnote" n="a"><hi>vor</hi> getrüwlich <hi>gestrichenes</hi> pryß.</note> umb uch erbüttig<note xml:id="fn11" type="footnote" n="11">erbötig.</note> sind zuͦ verdienen.</s>
 				</p>
 				<p>

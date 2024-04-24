@@ -23,14 +23,6 @@
 				<bibl n="14" type="regest">Heinrich Bullinger Werke, Briefwechsel Band 11 (Briefe des Jahres 1541), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2005, 385 S., ISBN 3-290-17339-9.</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a65">
-							<name>Neuenburg BP</name>
-							<ref target="http://bpun.unine.ch/"/>
-						</repository>
-						<settlement ref="l339">Neuenburg</settlement>
-						<institution>Bibliothèque des Pasteurs</institution>
-						-->
 						<repository ref="a65"/>
 						<idno subtype="Original">Lettres des réformateurs, Cahier A, Nr. 5</idno>
 					</msIdentifier>
@@ -69,22 +61,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11531">
 				<correspAction type="sent">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
-					<roleName ref="g45" type="pl" role="Lehrer" cert="high"/>
+					<orgName ref="og49pl587" cert="high"/>
+					<orgName ref="og45pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1541-04-04" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p1049" cert="high">
-						<!--
-						<surname cert="high">Farel</surname>
-						<forename cert="high">Guillaume</forename>
-						<graphic type="portrait" url="portraits/1049_Farel_Guillaume.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Guillaume_Farel"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118531948"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11418641"/>
-						-->
-					</persName>
+					<persName ref="p1049" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11532"/>
@@ -103,8 +86,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

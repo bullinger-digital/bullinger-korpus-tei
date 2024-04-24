@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,195</idno>
 					</msIdentifier>
@@ -51,7 +43,7 @@
 								<p xml:id="regest3">
 								[3] Kurfürst <persName ref="p19065" cert="high">Johann Friedrich von Sachsen</persName> wird von den Böhmen und <placeName ref="l24" cert="high">Polen</placeName> unterstützt. Er soll Maximilian,
 								den Sohn <persName ref="p18477" cert="high">König Ferdinands</persName>, gefangen genommen und <persName ref="p18250" cert="high">Herzog Moritz von Sachsen</persName> erschossen haben. Angeblich
-								schreit der in einer kleinen Stadt umzingelte Ferdinand um Hilfe. Landgraf <persName ref="p18574" cert="high">Philipp von Hessen</persName> soll stark
+								schreit der in einer kleinen Stadt umzingelte <persName ref="p18477" cert="high">Ferdinand</persName> um Hilfe. Landgraf <persName ref="p18574" cert="high">Philipp von Hessen</persName> soll stark
 								rüsten, um das von <persName ref="p7364" cert="high">Martin von Rossem</persName> und seinem niederländischen Heer belagerte <placeName ref="l61" cert="high">Bremen</placeName> zu befreien. Er habe
 								aber kein Geschütz. Verbürgt ist, dass die Böhmen vom König abgefallen sind.
 								</p>
@@ -77,29 +69,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12931">
 				<correspAction type="sent">
-					<persName ref="p1278" cert="high">
-						<!--
-						<surname cert="high">Gast</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Gast"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/122090284"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415086"/>
-						-->
-					</persName>
+					<persName ref="p1278" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1547-04-18" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12932"/>
@@ -125,8 +100,8 @@
 				<language ident="de" usage="778">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

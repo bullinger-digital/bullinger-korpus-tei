@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 357,202–204</idno>
 					</msIdentifier>
@@ -78,20 +70,20 @@
 								[7] Sollte der Kaiser erneut in Deutschland überwintern (was er nur seinem Bruder [<persName ref="p18477" cert="high">Ferdinand I.</persName>] zuliebe
 								tun würde), wird er wohl sein Winterlager bei <placeName ref="l410" cert="high">Regensburg</placeName>
 								aufschlagen. Doch ist <persName ref="p8055" cert="high">Blarer</persName> vielmehr der Meinung, dass der Kaiser nach
-								Italien ziehen wird. Um seine Truppen besser abziehen zu können,
+								<placeName ref="l16" cert="high">Italien</placeName> ziehen wird. Um seine Truppen besser abziehen zu können,
 								entfernt er sich von den [Schmalkaldenern]. Seine Italiener sind
 								ungern in Deutschland. Zudem wäre ihre Überwinterung dort sehr kostspielig. Begibt er sich aber nach
-								Italien, spart er Geld, weil er dann die italienischen Söldner
+								<placeName ref="l16" cert="high">Italien</placeName>, spart er Geld, weil er dann die italienischen Söldner
 								beurlauben und nur noch die deutschen Söldner (die ihm dort<pb type="edition" next="135"/> treuer als in
 								Deutschland sein werden) behalten kann. Zudem weiß er gut, was im Frühling auf ihn zukommen wird, zumal ihm
 								die Absichten <placeName ref="l11" cert="high">Frankreichs</placeName> und
 								<placeName ref="l9" cert="high">Englands</placeName> nicht verborgen sind. Sollte ferner <persName ref="p19981" cert="high">Papst [Paul III.]</persName>
 								vom Kaiser Abstand nehmen oder gar sterben, während dieser in Deutschland ist, könnte ihm ganz
-								Italien abtrünnig werden. Darum wäre es für den Kaiser
+								<placeName ref="l16" cert="high">Italien</placeName> abtrünnig werden. Darum wäre es für den Kaiser
 								vorteilhafter, den Winter in <placeName ref="l306" cert="high">Mailand</placeName> zu verbringen. Im Frühling
 								könnte er dann neue italienische Söldner anwerben und mit diesen nach Deutschland ziehen, währenddem er die
-								deutschen Söldner in Italien zurücklässt, damit diese dort für
-								Ruhe sorgen. Auch könnte er sich leicht von Italien nach Spanien
+								deutschen Söldner in <placeName ref="l16" cert="high">Italien</placeName> zurücklässt, damit diese dort für
+								Ruhe sorgen. Auch könnte er sich leicht von <placeName ref="l16" cert="high">Italien</placeName> nach Spanien
 								zurückziehen. Bleibt er aber in Deutschland, würde ihm dies zum Nachteil gereichen. Denn ließe ihn u.a. der
 								Papst fallen (besonders in finanzieller Hinsicht), befände er sich in einer sehr schwierigen Lage, weil es
 								dann nicht einfach sein würde, Geld von Spanien nach Deutschland bringen zu lassen. Wie auch immer, Gott
@@ -105,10 +97,10 @@
 								</p>
 								<p xml:id="regest9">
 								[9] Der Kaiser wird auf die Eroberung der Klause [Ehrenberg]
-								gedrängt haben, damit er umso besser und sicherer [nach Italien]
+								gedrängt haben, damit er umso besser und sicherer [nach <placeName ref="l16" cert="high">Italien</placeName>]
 								zu gelangen vermag. Nun inszenieren [fremde] Söldner ein Manöver bei
 								<placeName ref="l1297" cert="high">Bregenz</placeName>, damit der Kaiser sich unbemerkt nach
-								Italien zurückziehen kann. Doch sobald dieser die
+								<placeName ref="l16" cert="high">Italien</placeName> zurückziehen kann. Doch sobald dieser die
 								Etsch erreicht haben wird, werden seine Truppen an der Klause und
 								bei <placeName ref="l1297" cert="high">Bregenz</placeName> für Aufsehen sorgen, um dann auf listige Weise selbst
 								verschwinden zu können, ohne dass die nachlässigen [Schmalkaldener] es merken.
@@ -150,30 +142,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12673">
 				<correspAction type="sent">
-					<persName ref="p8055" cert="high">
-						<!--
-						<surname cert="high">Blarer (Blaurer)</surname>
-						<forename cert="high">Ambrosius</forename>
-						<graphic type="portrait" url="portraits/392_Blarer_Ambrosius.png"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Ambrosius_Blarer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118663763"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
-						-->
-					</persName>
+					<persName ref="p8055" cert="high"/>
 					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1546-10-16" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12674"/>
@@ -199,8 +173,8 @@
 				<language ident="de" usage="988">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -231,7 +205,7 @@
 			</div>
 			<div xml:id="div2" corresp="regest2">
 				<p>
-					<s n="7" xml:lang="de" type="auto">Mitt <placeName ref="l28" cert="high">Franckreych</placeName> und Engelland<note xml:id="fn7" type="footnote" n="7">Zu den Verhandlungen der Schmalkaldener mit <placeName ref="l11" cert="high">Frankreich</placeName> und <placeName ref="l9" cert="high">England</placeName> s. die Verweise in <ref target="file12665">Nr. 2618</ref>, Anm. 31.</note> wellend wir thain<note xml:id="fn8" type="footnote" n="8">tun (handeln).</note>, so best wir moͤgend.</s>
+					<s n="7" xml:lang="de" type="auto">Mitt <placeName ref="l11" cert="high">Franckreych</placeName> und Engelland<note xml:id="fn7" type="footnote" n="7">Zu den Verhandlungen der Schmalkaldener mit <placeName ref="l11" cert="high">Frankreich</placeName> und <placeName ref="l9" cert="high">England</placeName> s. die Verweise in <ref target="file12665">Nr. 2618</ref>, Anm. 31.</note> wellend wir thain<note xml:id="fn8" type="footnote" n="8">tun (handeln).</note>, so best wir moͤgend.</s>
 					<s n="8" xml:lang="de" type="auto">Gott, der truw vatter, welle in allweg verhuͤten, damitt wir nitt noch weyter und von<note xml:id="fn9" type="footnote" n="9">von wegen.</note> newen dingen in seinen zorn wattind.<note xml:id="fn10" type="footnote" n="10">geraten; (uns) verstricken; s. <bibl>SI</bibl> XVI 2211. - Bullinger und <persName ref="p8055" cert="high">Blarer</persName> machten sich schon Ende 1545 Gedanken über Bündnisse mit katholischen Mächten; s. die Verweise in <bibl>HBBW</bibl> XV 28 und Anm. 143.</note></s>
 					<s n="9" xml:lang="de" type="auto">Es ist doch des allten ubels on das vyl ze vyl, etc.!<pb type="edition" next="136"/></s>
 				</p>

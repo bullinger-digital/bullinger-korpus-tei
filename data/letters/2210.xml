@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 59,314</idno>
 					</msIdentifier>
@@ -50,14 +42,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 81,90</idno>
 					</msIdentifier>
@@ -67,26 +51,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2210">
 				<correspAction type="sent">
-					<persName ref="p487" cert="high">
-						<!--
-						<surname cert="high">Bullinger d.J.</surname>
-						<forename cert="high">Heinrich</forename>
-						-->
-					</persName>
+					<persName ref="p487" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1554-03-01" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -113,8 +83,8 @@
 				<language ident="la" usage="996">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -140,7 +110,7 @@
 					<s n="7" xml:lang="la" type="auto">Adiectae sunt lectionibus, quibus interesse soleo, lectiones etiam d. d. <persName ref="p8111" cert="high">Petri Martyris</persName>, viri ut doctrina sic pietate excellentissimi, qui quidem apud nos receptus est in ordinem canonicorum <persName type="auto_name">S. Thomae</persName>.</s>
 					<s n="8" xml:lang="la" type="auto">Pręter <persName ref="p8111" cert="high">Martyris</persName> in librum Iudicum et in Ethicam Aristotelis lectiones expectamus d. d. Zanchi expositionem in Physicam Aristotelis.</s>
 					<s n="9" xml:lang="la" type="auto">D. <persName ref="p8111" cert="high">Petrus Martyr</persName> me amice diligit, pollicetur suam operam mihi nunquam defuturam, mihique in primis ornandus et excolendus est, quod et conor et studio, quantum possum.</s>
-					<s n="10" xml:lang="la" type="auto">Sed quod te forte non latet: venerunt ad nos plurimi boni viri ex <placeName type="auto_name">Anglia</placeName> propter evangelium expulsi partim ex Cantabrigia, partim vero ex <placeName type="auto_name">Oxonia</placeName>, quorum e numero unum tibi prę caeteris commendo: D. <persName type="auto_name">Thomam</persName> Leverum tui cupidissimum, pium et sincerę religionis, qui una cum aliis fortunis propter evangelium relictis peregrinam terram invisere cogitur.</s>
+					<s n="10" xml:lang="la" type="auto">Sed quod te forte non latet: venerunt ad nos plurimi boni viri ex <placeName type="auto_name">Anglia</placeName> propter evangelium expulsi partim ex Cantabrigia, partim vero ex <placeName ref="l376" cert="high">Oxonia</placeName>, quorum e numero unum tibi prę caeteris commendo: D. <persName type="auto_name">Thomam</persName> Leverum tui cupidissimum, pium et sincerę religionis, qui una cum aliis fortunis propter evangelium relictis peregrinam terram invisere cogitur.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Dominus deus noster tandem <placeName type="auto_name">Angliam</placeName> cęterasque ecclesias misere adflictas restituat in integrum statum.</s>

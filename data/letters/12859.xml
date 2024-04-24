@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,197–197a</idno>
 					</msIdentifier>
@@ -79,7 +71,7 @@
 								</p>
 								<p xml:id="regest6">
 								[6] Landgraf <persName ref="p18574" cert="high">Philipp von Hessen</persName> rüstet in <placeName ref="l244" cert="high">Kassel</placeName>.
-								Kurfürst <placeName ref="l749" cert="high">Johann Friedrich von Sachsen</placeName> hat
+								Kurfürst <persName ref="p19065" cert="high">Johann Friedrich von Sachsen</persName> hat
 								<placeName ref="l284" cert="high">Leipzig</placeName> eingenommen, alle Kriegsleute in der Stadt getötet und
 								diese plündern lassen. Er begibt sich nun mit einer starken Truppe nach
 								<placeName ref="l76" cert="high">Schlesien</placeName>. Ein Teil seines Heeres ist in das Land des Markgrafen
@@ -130,29 +122,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12859">
 				<correspAction type="sent">
-					<persName ref="p1278" cert="low">
-						<!--
-						<surname cert="low">Gast</surname>
-						<forename cert="low">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Gast"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/122090284"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415086"/>
-						-->
-					</persName>
+					<persName ref="p1278" cert="low"/>
 					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1547-02-12" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12860"/>
@@ -177,8 +152,8 @@
 				<language ident="de" usage="698">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

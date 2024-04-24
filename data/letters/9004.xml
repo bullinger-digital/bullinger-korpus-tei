@@ -23,50 +23,33 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 37,361</idno>
 					</msIdentifier>
 					<msContents>
 						<msItem>
 							<incipit>Alls du uns geschriben hast, wie min gnädiger Herr zu Rhynow</incipit>
-							<textLang>la</textLang>
+							<textLang>de</textLang>
 						</msItem>
 					</msContents>
+				</msDesc>
+				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="de">
+					<msIdentifier>
+						<repository ref="a94"/>
+						<idno subtype="Autograph__(Kopie)">E II 378,1940</idno>
+					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9004">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1572-08" cert="low"><note>Datum unsicher  (Ende Aug ?)  [vgl. ID 8456]</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p477" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Hans Rudolf</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089431538"/>
-						-->
-					</persName>
+					<persName ref="p477" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8977"/>
@@ -89,12 +72,11 @@
 				</correspContext>
 			</correspDesc>
 			<langUsage>
-				<language ident="la" usage="7">Latein</language>
-				<language ident="de" usage="993">Deutsch</language>
+				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -103,6 +85,14 @@
 		</surface>
 		<surface>
 			<graphic xml:id="img2-0" url="https://iiif.bullinger-digital.ch/iiif/3/9004%2FAutograph%2F01%20Ms%20F%2037%20(361)_00002.tif/full/max/0/default.jpg" n="2"><desc subtype="path">9004/Autograph/01 Ms F 37 (361)_00002.tif</desc></graphic>
+		</surface>
+	</facsimile>
+	<facsimile>
+		<surface>
+			<graphic xml:id="img1-1" url="https://iiif.bullinger-digital.ch/iiif/3/9004%2FAutograph%20(Kopie)%2F00%20E_II_378__fol__1940_r_.tif/full/max/0/default.jpg" n="1"><desc subtype="path">9004/Autograph (Kopie)/00 E_II_378__fol__1940_r_.tif</desc></graphic>
+		</surface>
+		<surface>
+			<graphic xml:id="img2-1" url="https://iiif.bullinger-digital.ch/iiif/3/9004%2FAutograph%20(Kopie)%2F01%20E_II_378__fol__1940_v_.tif/full/max/0/default.jpg" n="2"><desc subtype="path">9004/Autograph (Kopie)/01 E_II_378__fol__1940_v_.tif</desc></graphic>
 		</surface>
 	</facsimile>
 	<text xml:lang="de">

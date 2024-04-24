@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,408</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 69,52</idno>
 						<idno subtype="Hinweis">irrt. dat.: 22. Jan. 1549</idno>
@@ -71,26 +55,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/419">
 				<correspAction type="sent">
-					<persName ref="p505" cert="high">
-						<!--
-						<surname cert="high">Burcher</surname>
-						<forename cert="high">John</forename>
-						-->
-					</persName>
+					<persName ref="p505" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1549-01-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -116,8 +86,8 @@
 				<language ident="la" usage="976">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -146,9 +116,9 @@
 				<p>
 					<s n="3" xml:lang="la" type="auto">S. P.</s>
 					<s n="4" xml:lang="la" type="auto">Non possum satis admirari, Bullingere amice et domine charissime, quorundam vestratium negligentiam, ne dicam an exosam segnitiam, qui in literis dandis adeo sunt negligentes.</s>
-					<s n="5" xml:lang="la" type="auto">Dedi filio senis <persName ref="p344" cert="high">Binderi</persName> ad familiarem amicum meum <persName type="auto_name">Ioannem Hoperum</persName> literas: dedi item alias alicui manco manu altera civi vestro, arte, ni fallor, vietor antehac, qui jam hic pepla divendidit, ad eundem Hoperum; in quibus, quod otium non erat, inclusi literas Anglicas illinc mihi missas, quas volui ut tecum communicaret.</s>
+					<s n="5" xml:lang="la" type="auto">Dedi filio senis <persName ref="p344" cert="high">Binderi</persName> ad familiarem amicum meum <persName type="auto_name">Ioannem Hoperum</persName> literas: dedi item alias alicui manco manu altera civi vestro, arte, ni fallor, vietor antehac, qui jam hic pepla divendidit, ad eundem <persName ref="p1560" cert="high">Hoperum</persName>; in quibus, quod otium non erat, inclusi literas Anglicas illinc mihi missas, quas volui ut tecum communicaret.</s>
 					<s n="6" xml:lang="la" type="auto">Hinc item ante dies sex <placeName ref="l28" cert="high">Basileam</placeName> versus scripsi literas ad civem quendam <persName type="auto_name">Valentinum Nußboum</persName>, quibuscum adjunxi meas ad tuam humanitatem scriptas, quas rogavi serio ut ad te tuto transmitteret.</s>
-					<s n="7" xml:lang="la" type="auto">Adjunxi item <placeName type="auto_name">Anglicas</placeName> tuis, quas tibi interpretandas commisi D. <persName type="auto_name">Hopero</persName>.</s>
+					<s n="7" xml:lang="la" type="auto">Adjunxi item <placeName type="auto_name">Anglicas</placeName> tuis, quas tibi interpretandas commisi D. <persName ref="p1560" cert="high">Hopero</persName>.</s>
 					<s n="8" xml:lang="la" type="auto">Si harum nulla ad vos pervenerit, infortunium erit, quod vindicabo praesentibus: nam breviter attingam quaecunque illic contenta sunt.</s>
 				</p>
 				<p>
@@ -184,7 +154,7 @@
 					<s n="26" xml:lang="la" type="auto">Caeterum ut <persName type="auto_name">Richardum</persName> veniam, is orat, ut suam cunctationem boni consules, per otium scripturus.</s>
 					<s n="27" xml:lang="la" type="auto">Negotia impediebant adhuc et a <persName type="auto_name">Londino</persName> absentia.</s>
 					<s n="28" xml:lang="la" type="auto">Nam primo statim ingressu non ausus erat eo venire cum uxore et liberis propter pestem, quae maxime saeviebat isthic, et iam in disponendis aedibus totus est.</s>
-					<s n="29" xml:lang="la" type="auto">D. <persName type="auto_name">Hopero</persName> et <persName ref="p4466" cert="high">Butlero</persName> rogo ut quam diligentissime me commendatum habeas.</s>
+					<s n="29" xml:lang="la" type="auto">D. <persName ref="p1560" cert="high">Hopero</persName> et <persName ref="p4466" cert="high">Butlero</persName> rogo ut quam diligentissime me commendatum habeas.</s>
 					<s n="30" xml:lang="la" type="auto"><placeName ref="l492" cert="high">Argentina</placeName> nostr hucusque manet ut antehac.</s>
 					<s n="31" xml:lang="la" type="auto">Dominus concedat, ut diuturnum et perpetuum fiat!</s>
 				</p>

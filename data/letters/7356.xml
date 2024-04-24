@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,155</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a55">
-							<name>London BM</name>
-							<ref target="https://www.britishmuseum.org/"/>
-						</repository>
-						<settlement ref="l296">London</settlement>
-						<institution>British Museum</institution>
-						-->
 						<repository ref="a55"/>
 						<idno subtype="Kopie">Ms Add. 4277, fo 194v</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
@@ -71,28 +55,11 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7356">
 				<correspAction type="sent">
-					<persName ref="p672" cert="high">
-						<!--
-						<surname cert="high">Cox</surname>
-						<forename cert="high">Richard</forename>
-						<graphic type="portrait" url="portraits/672_Cox_Richard.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Richard_Cox_(Bischof)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118670409"/>
-						-->
-					</persName>
+					<persName ref="p672" cert="high"/>
 					<date notBefore="1568-01-01" notAfter="1569-12-31" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file7723"/>
@@ -116,8 +83,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -157,7 +124,7 @@
 					<s n="17" xml:lang="la" type="auto">Resalutabis meum <persName type="auto_name">Iulium</persName>, virum mihi non incognitum.</s>
 				</p>
 				<p>
-					<s n="18" xml:lang="la" type="auto">Tui studiosissimus, <persName type="auto_name">Richardus Cox</persName>, Eliensis.</s>
+					<s n="18" xml:lang="la" type="auto">Tui studiosissimus, <persName ref="p672" cert="high">Richardus Cox</persName>, Eliensis.</s>
 				</p>
 				<p>
 					<s n="19" xml:lang="la" type="auto">Charissimo in Christo fratri, d. Henrico Bullingero, ecclesiae Tigurinae pastori dignissimo.</s>

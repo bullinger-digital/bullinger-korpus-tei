@@ -25,13 +25,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a68">
-							<name>New York PML</name>
-							<ref target="https://www.themorgan.org/"/>
-						</repository>
-						<institution>The Pierpont Morgan Library</institution>
-						-->
 						<repository ref="a68"/>
 						<idno subtype="Autograph">1 fol. S.</idno>
 					</msIdentifier>
@@ -62,28 +55,12 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a13">
-							<name>Bern StA</name>
-							<ref target="https://www.staatsarchiv.sta.be.ch/de/start.html"/>
-						</repository>
-						<settlement ref="l41">Bern</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a13"/>
 						<idno subtype="Autograph__(Entwurf)">A III 22,274</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms A 51,17</idno>
 					</msIdentifier>
@@ -93,22 +70,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10078">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1531-12-14" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g65" type="pl" role="Schultheissen" cert="high"/>
-					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<orgName ref="og65pl41" cert="high"/>
+					<orgName ref="og59pl41" cert="high"/>
 					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -134,8 +102,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

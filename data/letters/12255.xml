@@ -24,14 +24,6 @@
 				<bibl n="18" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 15 (Briefe des Jahres 1545), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2013, 746 S., ISBN 978-3-290-17664-8.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a82">
-							<name>Strassburg SA</name>
-							<ref target="https://archives.strasbourg.eu/"/>
-						</repository>
-						<settlement ref="l492">Strassburg</settlement>
-						<institution>Stadtarchiv</institution>
-						-->
 						<repository ref="a82"/>
 						<idno subtype="Kopie">AST 96, Nr. 22, f. 142r.</idno>
 						<idno subtype="Hinweis">Zeitgenössische Abschrift</idno>
@@ -64,21 +56,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12255">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1545-08-06" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<orgName ref="og59pl18" cert="high"/>
 					<placeName source="l18" cert="low"><orig>Augsburg</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -102,8 +85,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">

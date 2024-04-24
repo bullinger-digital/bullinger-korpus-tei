@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 370,384</idno>
 					</msIdentifier>
@@ -53,30 +45,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7213">
 				<correspAction type="sent">
-					<persName ref="p8018" cert="high">
-						<!--
-						<surname cert="high">Haller d.J.</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/1430_Haller_dJ_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Haller_der_J%C3%BCngere"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136925588"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
-						-->
-					</persName>
+					<persName ref="p8018" cert="high"/>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1567-08-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file7214"/>
@@ -102,8 +76,8 @@
 				<language ident="la" usage="747">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -121,10 +95,10 @@
 					<s n="1" xml:lang="la" type="auto">S.</s>
 					<s n="2" xml:lang="la" type="auto">Nec nunc etiam haberem nuncium certum, per quem ad vos scriberem, nisi mercatores nostri Certiacum proficiscerentur; illis autem has trado, ut aut inde vel ex itinere ad vos eas mittant.</s>
 					<s n="3" xml:lang="la" type="auto"><persName type="auto_name">Brunnerus</persName> vero postremas tuas mihi attulit, et quod ipsum concernit, nihil hic egit; aderat enim tempore valde importuno.</s>
-					<s n="4" xml:lang="la" type="auto">Morae autem impatiens (nam toto triduo non potuit admitti ad senatum, licet illum singulariter <persName ref="p8063" cert="high">Steigero</persName> et Gravenrieto commendassem) constituit ad tempus aliquod <placeName ref="l28" cert="high">Basilaeam</placeName> proficisci et reversis ex Sabaudia nostris legatis redire.</s>
+					<s n="4" xml:lang="la" type="auto">Morae autem impatiens (nam toto triduo non potuit admitti ad senatum, licet illum singulariter <persName ref="p8063" cert="high">Steigero</persName> et Gravenrieto commendassem) constituit ad tempus aliquod <placeName ref="l28" cert="high">Basilaeam</placeName> proficisci et reversis ex <placeName type="auto_name">Sabaudia</placeName> nostris legatis redire.</s>
 					<s n="5" xml:lang="la" type="auto">Agebatur enim iis diebus de restitutione illa Sabaudica, et aderant Helvetiorum legati; praeterea agebantur alia, ut is non audiretur.</s>
-					<s n="6" xml:lang="la" type="auto">Interea nostri cum legatis 4 <persName type="auto_name">Cantonum</persName> in Sabaudiam profecti sunt, ut restituant duci praefecturas illas, quas scis, quod deus bene vertat!</s>
-					<s n="7" xml:lang="de" type="auto">Von <placeName ref="l300" cert="high">Lucern</placeName> ist bott schultheß <persName type="auto_name">Pfiffer</persName>, von Schwytz amman <placeName type="auto_name">Reding</placeName>, von <placeName ref="l646" cert="high">Glaris</placeName> amman Schuͦler, von Basel burgermeister Kruͦg, von hinnen her schultheß Steiger, beed seckelmeister, Gravenriet und Manuel, her von Mülinen, <persName type="auto_name">Benedict von Dießbach</persName> und <persName type="auto_name">Hans Jacob</persName> Delsperger.</s>
+					<s n="6" xml:lang="la" type="auto">Interea nostri cum legatis <placeName type="auto_name">4 Cantonum</placeName> in Sabaudiam profecti sunt, ut restituant duci praefecturas illas, quas scis, quod deus bene vertat!</s>
+					<s n="7" xml:lang="de" type="auto">Von <placeName ref="l300" cert="high">Lucern</placeName> ist bott <persName type="auto_name">schultheß Pfiffer</persName>, von <placeName type="auto_name">Schwytz</placeName> amman <placeName type="auto_name">Reding</placeName>, von <placeName ref="l646" cert="high">Glaris</placeName> <persName type="auto_name">amman Schuͦler</persName>, von <placeName type="auto_name">Basel</placeName> <persName type="auto_name">burgermeister Kruͦg</persName>, von hinnen her <persName ref="p8063" cert="high">schultheß Steiger</persName>, beed seckelmeister, <persName type="auto_name">Gravenriet</persName> und <persName type="auto_name">Manuel</persName>, her <persName type="auto_name">von Mülinen</persName>, <persName type="auto_name">Benedict von Dießbach</persName> und <persName type="auto_name">Hans Jacob Delsperger</persName>.</s>
 					<s n="8" xml:lang="la" type="auto">Prioribus diebus etiam actum est de foedere Gallico.</s>
 					<s n="9" xml:lang="de" type="auto"><foreign xml:lang="la">Quid conclusum sit, ex prioribus meis audivisti;</foreign> ist nitt gar, sonder allein diser zyt abgschlagen; ich sorg aber, es werd kein nachlaßen sin, und sind vil der besten under minen herren darhinder kon, das si meinend, es sige gar nitt ußgeschlon.</s>
 					<s n="10" xml:lang="la" type="auto">Opponimus nos, quantum possumus; hinc magna nobis odia conciliamus.</s>

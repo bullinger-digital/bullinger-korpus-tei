@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Beilage" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,260</idno>
 					</msIdentifier>
@@ -43,14 +35,6 @@
 				</msDesc>
 				<msDesc type="Beilage" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a80">
-							<name>Strassburg AST</name>
-							<ref target="https://archives.strasbourg.eu/"/>
-						</repository>
-						<settlement ref="l492">Strassburg</settlement>
-						<institution>Archiv von Sankt-Thomas</institution>
-						-->
 						<repository ref="a80"/>
 						<idno subtype="Kopie">Nr. 139, Carton 73, p. 236</idno>
 						<idno subtype="Hinweis">mit Datierung nach 1565 ...</idno>
@@ -61,28 +45,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/5451">
 				<correspAction type="sent">
-					<persName ref="p1010" cert="low">
-						<!--
-						<surname cert="low">Erb</surname>
-						<forename cert="low">Matthias</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Matthias_Erb"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/100972160"/>
-						-->
-					</persName>
+					<persName ref="p1010" cert="low"/>
 					<placeName source="l405" cert="low"><orig>Rappoltsweiler</orig></placeName>
 					<date when="1563-09-02" cert="high"><note>Briefbeilage zu (1562/63 vielleicht zu Sept. 2.) (= ID 5450)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -102,8 +70,6 @@
 					<ref type="prev_with_sender_as_addressee" target="file5861"/>
 					<ref type="next_with_addressee_as_sender" target="file5867"/>
 					<ref type="prev_with_addressee_as_sender" target="file5860"/>
-					<ref type="child" target="file4941"/>
-					<ref type="parent" target="file4941"/>
 					<ref type="parent" target="file5861"/>
 					<ref type="parent" target="file5450"/>
 				</correspContext>
@@ -112,8 +78,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

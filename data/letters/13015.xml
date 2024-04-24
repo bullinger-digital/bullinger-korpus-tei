@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 370,68</idno>
 					</msIdentifier>
@@ -55,7 +47,7 @@
 								Herzog Heinrich sein Territorium zurückerhalten haben.
 								</p>
 								<p xml:id="regest3">
-								[3] Haller kann nicht über die Ereignisse in Augsburg und über seine [neuen] Nachbarn berichten. Er möchte
+								[3] Haller kann nicht über die Ereignisse in <placeName ref="l1976" cert="high">Augsburg</placeName> und über seine [neuen] Nachbarn berichten. Er möchte
 								freigestellt werden!
 								</p>
 								<p xml:id="regest4">
@@ -63,10 +55,10 @@
 								letzter Brief an <persName ref="p8354" cert="high">Frölich</persName> [nicht erhalten] kam sehr gelegen! Grüße an alle Kollegen.
 								</p>
 								<p xml:id="regest5">
-								[5] Der beigelegte Brief, den Ruman in Augsburg vergessen hat, ist für den Jungen [...] bestimmt, den
+								[5] Der beigelegte Brief, den Ruman in <placeName ref="l1976" cert="high">Augsburg</placeName> vergessen hat, ist für den Jungen [...] bestimmt, den
 								Haller kürzlich zu <persName ref="p3988" cert="high">Johannes Wolf</persName> geschickt hat. Hoffentlich ist Ruman gut nach <placeName ref="l587" cert="high">Zürich</placeName> gelangt. Die Straßen
 								sind jetzt unsicher, da der Kaiser heute alle Söldner entlassen hat, die während fast eines halben Jahres
-								Augsburg besetzt haben. Darunter befinden sich viele Elsässer und <placeName ref="l85" cert="high">Sundgauer</placeName>. Seinen Brief gibt Haller dem
+								<placeName ref="l1976" cert="high">Augsburg</placeName> besetzt haben. Darunter befinden sich viele Elsässer und <placeName ref="l85" cert="high">Sundgauer</placeName>. Seinen Brief gibt Haller dem
 								Zürcher Söldner M. mit, der auch zurückkehrt. Aber genug! Haller will keinen neuen Brief beginnen.
 								</p>
 								<p xml:id="regest6">
@@ -90,30 +82,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/13015">
 				<correspAction type="sent">
-					<persName ref="p8018" cert="low">
-						<!--
-						<surname cert="low">Haller d.J.</surname>
-						<forename cert="low">Johannes</forename>
-						<graphic type="portrait" url="portraits/1430_Haller_dJ_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Haller_der_J%C3%BCngere"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136925588"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
-						-->
-					</persName>
+					<persName ref="p8018" cert="low"/>
 					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 					<date when="1547-07-25" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file13016"/>
@@ -140,8 +114,8 @@
 				<language ident="la" usage="976">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

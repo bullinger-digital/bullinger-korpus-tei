@@ -24,14 +24,6 @@
 				<bibl n="9" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 7 (Briefe des Jahres 1537), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1998, 357 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a13">
-							<name>Bern StA</name>
-							<ref target="https://www.staatsarchiv.sta.be.ch/de/start.html"/>
-						</repository>
-						<settlement ref="l41">Bern</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a13"/>
 						<idno subtype="Kopie">A V 1455, Nr. 78 und Nr. 112</idno>
 						<idno subtype="Hinweis">Ausfertigung von Rudolf Gwalther Nr. 78: zwei Blätter; Nr. 112: drittes Blatt</idno>
@@ -82,14 +74,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11116">
 				<correspAction type="sent">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
-					<roleName ref="g45" type="pl" role="Lehrer" cert="high"/>
+					<orgName ref="og49pl587" cert="high"/>
+					<orgName ref="og45pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1537-11-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="low"/>
-					<roleName ref="g45" type="pl" role="Lehrer" cert="low"/>
+					<orgName ref="og49pl41" cert="low"/>
+					<orgName ref="og45pl41" cert="low"/>
 					<placeName source="l41" cert="low"><orig>Bern</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -115,8 +107,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

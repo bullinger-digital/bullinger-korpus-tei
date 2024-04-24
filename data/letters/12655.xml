@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,51</idno>
 					</msIdentifier>
@@ -93,29 +85,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12655">
 				<correspAction type="sent">
-					<persName ref="p8032" cert="high">
-						<!--
-						<surname cert="high">Dryander (de Enzinas)</surname>
-						<forename cert="high">Franciscus</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Francisco_de_Enzinas"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118682156"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11569382"/>
-						-->
-					</persName>
+					<persName ref="p8032" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1546-10-05" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12656"/>
@@ -135,8 +110,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -160,7 +135,7 @@
 			</div>
 			<div xml:id="div2" corresp="regest2">
 				<p>
-					<s n="6" xml:lang="la" type="auto">De comiciis Badenae peractis nihil adhuc certo audivi, nisi quod vereor eandem esse, quae prius fuerat, inter Helvetios animorum dissensionem.</s>
+					<s n="6" xml:lang="la" type="auto">De comiciis <placeName ref="l21" cert="high">Badenae</placeName> peractis nihil adhuc certo audivi, nisi quod vereor eandem esse, quae prius fuerat, inter Helvetios animorum dissensionem.</s>
 					<s n="7" xml:lang="la" type="auto">Tristia profecto haec sunt, quae hodie nostris oculis videmus, et merito recte sentientium animos debent affligere.</s>
 					<s n="8" xml:lang="la" type="auto">Sed quid facias?</s>
 					<s n="9" xml:lang="la" type="auto">An proinde nos frangi animis debemus?</s>

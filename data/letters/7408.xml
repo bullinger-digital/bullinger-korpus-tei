@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 37,586a</idno>
 						<altIdentifier>
@@ -50,27 +42,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7408">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1568-03-06" cert="low"><note>Datum unsicher  (1568 März ca 6)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p477" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Hans Rudolf</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089431538"/>
-						-->
-					</persName>
+					<persName ref="p477" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file7409"/>
@@ -96,8 +73,8 @@
 				<language ident="la" usage="963">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -113,7 +90,7 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="de" type="manual">Wie ich dinen brieff versiglet, kumpt mir uß <placeName ref="l301" cert="high">Franckrych</placeName> diß zuͦschriben <foreign xml:lang="la">de verbo ad verbum</foreign>:</s>
-					<s n="2" xml:lang="la" type="auto">2. mensis februarii 3 <persName type="auto_name">Italorum</persName> cohortes a principe in <placeName type="auto_name">Burgundia</placeName> sunt interceptae et ad internetionem caesae.</s>
+					<s n="2" xml:lang="la" type="auto">2. mensis februarii 3 <placeName type="auto_name">Italorum</placeName> cohortes a principe in <placeName type="auto_name">Burgundia</placeName> sunt interceptae et ad internetionem caesae.</s>
 					<s n="3" xml:lang="la" type="auto">Rursum non procul Neviduno ad <persName type="auto_name">Ligerim Gonzaga</persName>, ducis Mantuae frater, beneficio reginae nostrae potitus abhinc biennium et filia et bonis amplissimi ducis <placeName type="auto_name">Nivernensis</placeName> omnibus istorum Sodomitarum copiis praefectus a Condeis quoque interceptus est et gravissime sauciatus, vulneratus tamen elapsus est; sed aiunt vix mortem evasurum et magnam editam istorum sceleratissimorum stragem.</s>
 					<s n="4" xml:lang="la" type="auto">Lugduno per dispositos equos ad eum et ad alios saucios missi sunt 3 chirurgi, quibus se <persName type="auto_name">Edmundus</persName> ille Iesuita adiunxit, ut et animi et corporis medicos simul habeant.</s>
 					<s n="5" xml:lang="la" type="auto">Blesorum quoque oppidum (Bläs) constat a principe expugnatum, id est a parte aliqua <placeName type="auto_name">Aurelianensis</placeName> praesidii.</s>

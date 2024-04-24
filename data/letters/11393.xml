@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Original">E II 337,314r.-315v.</idno>
 					</msIdentifier>
@@ -67,21 +59,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11393">
 				<correspAction type="sent">
-					<persName ref="p1365" cert="high">
-						<!--
-						<surname cert="high">Grynäus</surname>
-						<forename cert="high">Simon</forename>
-						<graphic type="portrait" url="portraits/1365_Grynaeus_Simon.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Simon_Grynaeus"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11690240X"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415284"/>
-						-->
-					</persName>
+					<persName ref="p1365" cert="high"/>
 					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 					<date when="1540-01-12" cert="high">[um 12. Januar 1540]</date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<orgName ref="og49pl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -105,8 +88,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

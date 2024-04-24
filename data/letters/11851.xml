@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 345,234</idno>
 					</msIdentifier>
@@ -72,27 +64,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11851">
 				<correspAction type="sent">
-					<persName ref="p8082" cert="high">
-						<!--
-						<surname cert="high">Frey</surname>
-						<forename cert="high">Johann Leopold (Lüpold)</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089462360"/>
-						-->
-					</persName>
+					<persName ref="p8082" cert="high"/>
 					<placeName source="l49" cert="low"><orig>Biel</orig></placeName>
 					<date when="1543-10-22" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11852"/>
@@ -112,8 +89,8 @@
 				<language ident="la" usage="976">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -140,7 +117,7 @@
 				</p>
 				<p>
 					<s n="8" xml:lang="la" type="auto">Scripsit mihi nuper d. <persName ref="p8011" cert="high">Gvaltherus</persName><note xml:id="fn9" type="footnote" n="9">Der Brief <persName ref="p8011" cert="high">Rudolf Gwalthers</persName> an <persName ref="p8082" cert="high">Frey</persName> ist nicht erhalten.</note> de d. <persName ref="p1974" cert="high">Luthero</persName>: „Fefelisset me, si amice scripsisset monachus,<note xml:id="fn10" type="footnote" n="10"><persName ref="p8082" cert="high">Frey</persName> reagiert auf die Nachricht vom unfreundlichen Schreiben <persName ref="p1974" cert="high">Luthers</persName> an <persName ref="p1227" cert="high">Christoph Froschauer</persName> vom 31. August (<bibl>WA</bibl> Briefwechsel X 384-388, Nr. 3908; vgl. oben <ref target="file11843">Nr. 1797</ref>, 62-104).</note> nam ab illis aliquando extorsi, qui virum maxime cum suis defendunt erroribus, uti faterentur ne quidem dignari illum Tigurinos vel libros vel literas perlegere, sed statim cognitis titulis, quicquid illud est, in tergum reiicere.“</s>
-					<s n="9" xml:lang="la" type="auto">Nec tamen desunt, quorum corda ad laudes illius<pb type="edition" next="302"/> exultare videas, si recte hic memini, quod de Fleuriato<note xml:id="fn11" type="footnote" n="11">Der gut lesbar geschriebene Name bleibt trotz Nachforschungen rätselhaft. Eine Verschreibung aus "Henrico" o. ä. scheint kaum wahrscheinlich.</note> <persName ref="p4969" cert="high">Glareano</persName> nostro mihi patruus<note xml:id="fn12" type="footnote" n="12">Unbekannt.</note> retulit, nempe quod ille, cum Badenę lavaret, a Tigurino quodam, quid de religionis nostrę doctoribus <persName ref="p1974" cert="high">Luthero</persName> et <persName ref="p4091" cert="high">Zvinglio</persName> sentiret, interrogatus respondit, scilicet: „Quid aliud, quam quod magni illi viri suis me libris sentire docuerunt?</s>
+					<s n="9" xml:lang="la" type="auto">Nec tamen desunt, quorum corda ad laudes illius<pb type="edition" next="302"/> exultare videas, si recte hic memini, quod de Fleuriato<note xml:id="fn11" type="footnote" n="11">Der gut lesbar geschriebene Name bleibt trotz Nachforschungen rätselhaft. Eine Verschreibung aus "Henrico" o. ä. scheint kaum wahrscheinlich.</note> <persName ref="p4969" cert="high">Glareano</persName> nostro mihi patruus<note xml:id="fn12" type="footnote" n="12">Unbekannt.</note> retulit, nempe quod ille, cum <placeName ref="l21" cert="high">Badenę</placeName> lavaret, a Tigurino quodam, quid de religionis nostrę doctoribus <persName ref="p1974" cert="high">Luthero</persName> et <persName ref="p4091" cert="high">Zvinglio</persName> sentiret, interrogatus respondit, scilicet: „Quid aliud, quam quod magni illi viri suis me libris sentire docuerunt?</s>
 					<s n="10" xml:lang="la" type="auto"><persName ref="p1974" cert="high">Lutherus</persName> enim <persName ref="p4091" cert="high">Zvinglium</persName> hęreseos accusat, hic rursus illum apostaseos damnat.</s>
 					<s n="11" xml:lang="la" type="auto">Quę, nisi utrumque mendacii redarguere velim, utique vera fatebor.“</s>
 					<s n="12" xml:lang="la" type="auto">Atqui quid dicto magis accommodum ad retinendos in cęcitate sua caecos, praesertim ad id Tigurino obmutescente?</s>

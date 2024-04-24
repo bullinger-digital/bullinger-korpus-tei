@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,79</idno>
 					</msIdentifier>
@@ -56,14 +48,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 71,124</idno>
 					</msIdentifier>
@@ -73,26 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/710">
 				<correspAction type="sent">
-					<persName ref="p505" cert="high">
-						<!--
-						<surname cert="high">Burcher</surname>
-						<forename cert="high">John</forename>
-						-->
-					</persName>
+					<persName ref="p505" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1549-10-16" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -118,8 +88,8 @@
 				<language ident="la" usage="961">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -155,7 +125,7 @@
 					<s n="15" xml:lang="la" type="auto">Pestis apud nos non adeo grassatur, sed febris acutissima, neque movere locum statuo, etiamsi vel millies adventaret pestis.</s>
 				</p>
 				<p>
-					<s n="16" xml:lang="la" type="auto">Infortunii nihil, quod ego sciam, contigit D. <persName type="auto_name">Hopero</persName>, sed valde occupatus est in confundendo <persName type="auto_name">Lutheranismo</persName> (quod vir fide dignus ad me scripsit) et veritatem plantando.</s>
+					<s n="16" xml:lang="la" type="auto">Infortunii nihil, quod ego sciam, contigit D. <persName ref="p1560" cert="high">Hopero</persName>, sed valde occupatus est in confundendo <persName type="auto_name">Lutheranismo</persName> (quod vir fide dignus ad me scripsit) et veritatem plantando.</s>
 					<s n="17" xml:lang="la" type="auto">Agit partes strenui <persName type="auto_name">Christiani</persName>.</s>
 					<s n="18" xml:lang="la" type="auto">Praelegit publice <persName type="auto_name">Londini</persName>.</s>
 					<s n="19" xml:lang="la" type="auto"><persName type="auto_name">Frequens</persName> habet auditorium.</s>
@@ -185,7 +155,7 @@
 					<s n="33" xml:lang="la" type="auto">Fama de venturo Caesare Spiram ad kalendas decembres spargitur, sed ab iis, qui desciverunt a fide et qui spem suam in eo col[l]ocant.</s>
 				</p>
 				<p>
-					<s n="34" xml:lang="la" type="auto">Depositus est episcopus <placeName ref="l296" cert="high">Londoniensis</placeName> sua dignitate; accusabatur ab Hopero et alio doctrinae suae.</s>
+					<s n="34" xml:lang="la" type="auto">Depositus est episcopus <placeName ref="l296" cert="high">Londoniensis</placeName> sua dignitate; accusabatur ab <persName ref="p1560" cert="high">Hopero</persName> et alio doctrinae suae.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse:]</note>

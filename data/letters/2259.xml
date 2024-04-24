@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,379</idno>
 						<altIdentifier>
@@ -54,14 +46,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 81,156</idno>
 					</msIdentifier>
@@ -71,30 +55,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2259">
 				<correspAction type="sent">
-					<persName ref="p3099" cert="high">
-						<!--
-						<surname cert="high">Sulzer</surname>
-						<forename cert="high">Simon</forename>
-						<graphic type="portrait" url="portraits/3099_Sulzer_Simon.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Simon_Sulzer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118799428"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417120"/>
-						-->
-					</persName>
+					<persName ref="p3099" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1554-04-11" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -119,8 +85,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -141,7 +107,7 @@
 				</p>
 				<p>
 					<s n="4" xml:lang="la" type="auto"><placeName type="auto_name">Anglia</placeName> aeterno documento sit omnibus, ne veritatem oblatam tractent prophanius, id quod impendio factum multi ex ipsis <placeName type="auto_name">Anglis</placeName> ante haec tempora apud me deplorarunt.</s>
-					<s n="5" xml:lang="la" type="auto">Beati tamen sunt, qui pro Christi nomine sustinent afflictionem in fide perseverantes, et qui docti iam <persName type="auto_name">Oxoniam</persName> ducuntur captivi ad disputationem, ad certum ducuntur supplicium habituri cum Christo eosdem et iudices et accusatores; eos par est, omnium ecclesiarum precibus commendemus domino.</s>
+					<s n="5" xml:lang="la" type="auto">Beati tamen sunt, qui pro Christi nomine sustinent afflictionem in fide perseverantes, et qui docti iam <placeName ref="l376" cert="high">Oxoniam</placeName> ducuntur captivi ad disputationem, ad certum ducuntur supplicium habituri cum Christo eosdem et iudices et accusatores; eos par est, omnium ecclesiarum precibus commendemus domino.</s>
 					<s n="6" xml:lang="la" type="auto">Salernitano principi etsi faveo cupioque restitutum suis, quando intelligo a doctrina pietatis verę non abhorrere, metuo tamen nonnihil, ne <placeName type="auto_name">Vaivodae</placeName> exemplo hostis communis in orbis christiani viscera magis magisque invitetur.</s>
 					<s n="7" xml:lang="la" type="auto">Gallus ingentia spirat, dominatum adhuc ampliorem animo et spe praesumens; sed mirum, nisi in sublime elatus praeceps in profundum detur atque in consortium ruinae trahat, quos habet insanarum cupiditatum socios et administros.</s>
 					<s n="8" xml:lang="la" type="auto">Neque enim ille vel ius vel fas cogitat et iugi crudelitate fertur in Christi professionem extinguendam.</s>

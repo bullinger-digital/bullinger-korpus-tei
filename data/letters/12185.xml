@@ -24,14 +24,6 @@
 				<bibl n="18" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 15 (Briefe des Jahres 1545), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2013, 746 S., ISBN 978-3-290-17664-8.</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a61">
-							<name>Marburg HStA</name>
-							<ref target="https://landesarchiv.hessen.de/"/>
-						</repository>
-						<settlement ref="l311">Marburg</settlement>
-						<institution>Hessisches Landesarchiv Abteilung Staatsarchiv</institution>
-						-->
 						<repository ref="a61"/>
 						<idno subtype="Autograph__(Entwurf)">3 (PA) 1797, 36r.–37v.</idno>
 					</msIdentifier>
@@ -69,21 +61,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12185">
 				<correspAction type="sent">
-					<persName ref="p3590" cert="high">
-						<!--
-						<surname cert="high">von Hessen d.Ä.</surname>
-						<forename cert="high">Philipp</forename>
-						<graphic type="portrait" url="portraits/1871_von_Hessen_Philipp_I.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Philipp_I._(Hessen)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11859382X"/>
-						-->
-					</persName>
+					<persName ref="p3590" cert="high"/>
 					<placeName source="l244" cert="low"><orig>Kassel</orig></placeName>
 					<date when="1545-04-16" cert="high">[16. April 1545]</date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
-					<roleName ref="g45" type="pl" role="Lehrer" cert="high"/>
+					<orgName ref="og49pl587" cert="high"/>
+					<orgName ref="og45pl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -107,8 +91,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">

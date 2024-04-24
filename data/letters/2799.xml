@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 371,675-378</idno>
 						<idno subtype="Hinweis">Kopie von Heinrich Bullinger d.J.; vermutlich beste Überlieferung</idno>
@@ -73,14 +65,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a75">
-							<name>Prag StUA</name>
-							<ref target="https://www.nacr.cz/en/"/>
-						</repository>
-						<settlement ref="l396">Prag</settlement>
-						<institution>Staats-Zentralarchiv</institution>
-						-->
 						<repository ref="a75"/>
 						<idno subtype="Kopie">AUF X 46v-49v (Acta Unitatis Fratrum X, Nr. 7c)</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
@@ -89,14 +73,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 86, 79</idno>
 					</msIdentifier>
@@ -112,26 +88,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2799">
 				<correspAction type="sent">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1556-01" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<orgName ref="i3" type="sg" role="Evangelische Gemeinde" cert="high"/>
-					<orgName ref="i32" type="sg" role="Brüdergemeinde" cert="high">
-													<placeName ref="l32" cert="high">
-								<settlement>Belp</settlement>
-								<district>Bern</district>
-								<country>Schweiz</country>
-								<location><geo>46.89129 7.49825</geo></location>
-							</placeName>
-					</orgName>
-					<persName ref="p8318" cert="high">
-						<!--
-						<surname cert="high">Cruciger (Krzyzak)</surname>
-						<forename cert="high">Felix</forename>
-						-->
-					</persName>
+					<orgName ref="oi3sl673" cert="high"/>
+					<orgName ref="oi32sl673" cert="high"/>
+					<persName ref="p8318" cert="high"/>
 					<placeName source="l673" cert="high"><orig>Kleinpolen</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -148,8 +112,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

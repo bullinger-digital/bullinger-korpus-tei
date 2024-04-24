@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,18</idno>
 					</msIdentifier>
@@ -67,29 +59,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11494">
 				<correspAction type="sent">
-					<persName ref="p654" cert="high">
-						<!--
-						<surname cert="high">Comander</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Comander"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118713841"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413826"/>
-						-->
-					</persName>
+					<persName ref="p654" cert="high"/>
 					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1541-01-05" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11495"/>
@@ -113,8 +88,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -140,7 +115,7 @@
 					<s n="9" xml:lang="la" type="auto">Vale.</s>
 					<s n="10" xml:lang="la" type="auto">Ex Rhetiae Curia antiqua, nonis Ianuarii 41.</s>
 					<s n="11" xml:lang="la" type="auto">Salutant te plurimum <persName ref="p396" cert="high">Ioannes Blasius</persName> et Nicolaus Balingius, confratres mei, depraecantes una mecum, ut de conventu Wormaciensi et de actis illius nos certiores facere digneris.</s>
-					<s n="12" xml:lang="la" type="auto">Tuus ex animo Ioannes Comander.</s>
+					<s n="12" xml:lang="la" type="auto">Tuus ex animo Ioannes <persName ref="p654" cert="high">Comander</persName>.</s>
 				</p>
 				<p>
 					<s n="13" xml:lang="la" type="auto">Doctissimo viro magistro Heinricho Bullingero, clarissimae ecclesiae Tigurinae antistiti vigilantissimo, domino et amico suo plurimum observando.</s>

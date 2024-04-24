@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,127-127a</idno>
 					</msIdentifier>
@@ -56,14 +48,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 90,128</idno>
 					</msIdentifier>
@@ -73,52 +57,15 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3355">
 				<correspAction type="sent">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high">
-							<placeName ref="l167" cert="high">
-								<settlement>Genf</settlement>
-								<district>Genève</district>
-								<country>Schweiz</country>
-								<location><geo>46.20222 6.14569</geo></location>
-							</placeName>
-					</roleName>
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high">
-						<orig>Geistliche der französischen Fremdenkirchen, Genf</orig>
-							<orgName ref="i11" type="pl" role="Fremdenkirchen" cert="high">
-																	<placeName ref="l832" cert="high">
-										<country>Frankreich</country>
-									</placeName>
-							</orgName>
-					</roleName>
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high">
-						<orig>Geistliche der italienischen Fremdenkirchen, Genf</orig>
-							<orgName ref="i11" type="pl" role="Fremdenkirchen" cert="high">
-																	<placeName ref="l834" cert="high">
-										<country>Italien</country>
-									</placeName>
-							</orgName>
-					</roleName>
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high">
-						<orig>Geistliche der englischen Fremdenkirchen, Genf</orig>
-							<orgName ref="i11" type="pl" role="Fremdenkirchen" cert="high">
-																	<placeName ref="l830" cert="high">
-										<country>England</country>
-									</placeName>
-							</orgName>
-					</roleName>
+					<orgName ref="og26pl167" cert="high"/>
+					<orgName ref="og26pl167" cert="high">Geistliche der französischen Fremdenkirchen, Genf</orgName>
+					<orgName ref="og26pl167" cert="high">Geistliche der italienischen Fremdenkirchen, Genf</orgName>
+					<orgName ref="og26pl167" cert="high">Geistliche der englischen Fremdenkirchen, Genf</orgName>
 					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 					<date when="1557-10-07" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -138,8 +85,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

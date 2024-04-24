@@ -48,28 +48,12 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 70,141</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a81">
-							<name>Strassburg BNU</name>
-							<ref target="https://www.bnu.fr/fr"/>
-						</repository>
-						<settlement ref="l492">Strassburg</settlement>
-						<institution>National- und Universitätsbibliothek</institution>
-						-->
 						<repository ref="a81"/>
 						<idno subtype="Kopie">Ms 0.679 = STB Bd. 20,101</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
@@ -81,26 +65,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/572">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1549-06-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p505" cert="high">
-						<!--
-						<surname cert="high">Burcher</surname>
-						<forename cert="high">John</forename>
-						-->
-					</persName>
+					<persName ref="p505" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -125,8 +95,8 @@
 				<language ident="la" usage="899">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -140,9 +110,9 @@
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Si quid literarum ex <placeName type="auto_name">Anglia</placeName> ad me pertinentium acceperis, oro cures has ad me deferri tuto.</s>
-					<s n="6" xml:lang="la" type="auto">Si quid certi accepisti de D. <persName type="auto_name">Hopero</persName> nostro, item quomodo se gerat in Anglia <persName type="auto_name">Bucerus</persName>, denique ut vivat <persName type="auto_name">Ricardus</persName> noster, et qualis sit status regni vestri, fac communices.</s>
+					<s n="6" xml:lang="la" type="auto">Si quid certi accepisti de D. <persName ref="p1560" cert="high">Hopero</persName> nostro, item quomodo se gerat in Anglia <persName type="auto_name">Bucerus</persName>, denique ut vivat <persName type="auto_name">Ricardus</persName> noster, et qualis sit status regni vestri, fac communices.</s>
 					<s n="7" xml:lang="la" type="auto">Forte non ignoras, quid agat aut ubi jam sit <persName type="auto_name">Caesar</persName>: nos hic nihil de ipso audimus.</s>
-					<s n="8" xml:lang="la" type="auto"><placeName ref="l168" cert="high">Gandavensis</placeName> ille nobilis ab <placeName type="auto_name">Utenhofen</placeName> tuam superavit commendationem: vir est incomparabilis; ac ago tibi gratias, quod te auspice et <persName type="auto_name">Hopero</persName> nostro cum viro modis omnibus claro contraxerim amicitiam.</s>
+					<s n="8" xml:lang="la" type="auto"><placeName ref="l168" cert="high">Gandavensis</placeName> ille nobilis ab <placeName type="auto_name">Utenhofen</placeName> tuam superavit commendationem: vir est incomparabilis; ac ago tibi gratias, quod te auspice et <persName ref="p1560" cert="high">Hopero</persName> nostro cum viro modis omnibus claro contraxerim amicitiam.</s>
 					<s n="9" xml:lang="la" type="auto">De rebus nostris in Helvetia nihil aliud habe, quam quod omnia inter nos sunt pacata; nisi quod illae respublicae, quae receperunt foedus <placeName type="auto_name">Gallicum</placeName>, inter se nonnihil sunt discordes, quod multi inter eas reperiantur, qui adhuc damnent illud foedus.</s>
 					<s n="10" xml:lang="la" type="auto">Summa autem concordia est inter urbes christianas, quae concorditer renunciarunt foederi.</s>
 					<s n="11" xml:lang="la" type="auto">Renunciarunt et aliae quaedam respublicae: nec illi, qui receperunt, infensi sunt non recipientibus, quanquam optarunt omnes facere, quod fecerunt ipsi.</s>

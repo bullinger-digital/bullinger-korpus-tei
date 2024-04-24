@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4421" type="Nachschrift" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4421" type="Brief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -20,16 +20,8 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="scan">Zürich StA</bibl>
-				<msDesc type="Nachschrift" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 363,5-6 + 4i</idno>
 						<idno subtype="Hinweis">6 = Nachschrift</idno>
@@ -40,31 +32,15 @@
 						</msItem>
 					</msContents>
 				</msDesc>
-				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a61">
-							<name>Marburg HStA</name>
-							<ref target="https://landesarchiv.hessen.de/"/>
-						</repository>
-						<settlement ref="l311">Marburg</settlement>
-						<institution>Hessisches Landesarchiv Abteilung Staatsarchiv</institution>
-						-->
 						<repository ref="a61"/>
 						<idno subtype="Kopie">3 (= PA) 1797, fo 96-97r (97v)</idno>
 						<idno subtype="Mikrofilm">IRG</idno>
 					</msIdentifier>
 				</msDesc>
-				<msDesc type="Nachschrift" subtype="Kopie" xml:lang="">
+				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 98,24</idno>
 					</msIdentifier>
@@ -74,29 +50,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4421">
 				<correspAction type="sent">
-					<persName ref="p3590" cert="high">
-						<!--
-						<surname cert="high">von Hessen d.Ä.</surname>
-						<forename cert="high">Philipp</forename>
-						<graphic type="portrait" url="portraits/1871_von_Hessen_Philipp_I.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Philipp_I._(Hessen)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/11859382X"/>
-						-->
-					</persName>
+					<persName ref="p3590" cert="high"/>
 					<placeName source="l577" cert="high"><orig>Zapfenburg</orig></placeName>
 					<date when="1560-08-28" cert="high"><note>(Schiess irrtümlich: 1568 Aug. 28.)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -117,12 +76,11 @@
 					<ref type="next_with_addressee_as_sender" target="file4422"/>
 					<ref type="prev_with_addressee_as_sender" target="file4420"/>
 					<ref type="child" target="file7581"/>
-					<ref type="parent" target="file7581"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

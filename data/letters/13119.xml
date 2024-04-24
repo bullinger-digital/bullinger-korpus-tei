@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 346,230</idno>
 					</msIdentifier>
@@ -87,7 +79,7 @@
 								[9] Letzte Woche sind König Ferdinand, Markgraf [richtig: <persName ref="p18520" cert="high">Kurfürst Joachim II.</persName>] von Brandenburg und seine
 								Frau [Jadwiga Jagiellonica von Polen] sowie Herzog <persName ref="p18770" cert="high">Heinrich von Braunschweig-Wolfenbüttel</persName> in Augsburg
 								eingetroffen. Man rechnet täglich mit der Ankunft von <persName ref="p18605" cert="high">Herzog Wilhelm V. von Jülich-Kleve-Berg</persName>, seiner
-								Gemahlin <persName ref="p20145" cert="high">[Maria von Österreich]</persName> und Königin Maria.
+								Gemahlin <persName ref="p20145" cert="high">[Maria von Österreich]</persName> und Königin <persName ref="p18215" cert="high">Maria</persName>.
 								</p>
 								<p xml:id="regest10">
 								[10] Alles geht nach dem Willen der Papisten. Sogar die [protestantischen] Fürsten, darunter auch die
@@ -124,27 +116,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/13119">
 				<correspAction type="sent">
-					<persName ref="p8354" cert="high">
-						<!--
-						<surname cert="high">Frölich (Laetus)</surname>
-						<forename cert="high">Georg</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/129465291"/>
-						-->
-					</persName>
+					<persName ref="p8354" cert="high"/>
 					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date when="1547-11-05" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file13120"/>
@@ -168,8 +145,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -242,7 +219,7 @@
 			</div>
 			<div xml:id="div9" corresp="regest9">
 				<p>
-					<s n="27" xml:lang="la" type="auto">Rex Ferdinandus,<note xml:id="fn22" type="footnote" n="22"><persName ref="p18477" cert="high">Ferdinand I.</persName> war am 20. Oktober in Augsburg eingetroffen; s. <ref target="file13019">Nr. 2970</ref>, <ptr target="qvfn17236-3" type="qv"/>; <ref target="file13104">Nr. 3055</ref>,<ptr target="qvzl17323-4" type="qv"/>.<ptr target="zfnfn17336-1" type="zfn"/></note> marchio <persName ref="p18520" cert="high">Brandenburgensis</persName><note xml:id="fn23" type="footnote" n="23">Markgraf <persName ref="p18422" cert="high">Albrecht Alcibiades von Brandenburg-Kulmbach</persName>. - Frölich wird hier aber <persName ref="p18520" cert="high">Kurfürst Joachim II. von Brandenburg</persName> gemeint haben, der am 29. Oktober in Augsburg angekommen war (s. <ref target="file13054">Nr. 3005</ref>, <ptr target="qvfn17272-3" type="qv"/>), zumal Markgraf Alcibiades sich bereits seit dem 23. Juli 1547 in Augsburg aufhielt; s. <ref target="file13019">Nr. 2970</ref>,<ptr target="qvzl17236-22" type="qv"/>.</note> cum con[iuge]<note xml:id="fn24" type="footnote" n="24">Jadwiga Jagiellonica von Polen (1513-1573). - Sie kam zusammen mit <persName ref="p18520" cert="high">Joachim II.</persName> am 29. Oktober in Augsburg an; s. <bibl><persName ref="p17902" cert="high">Creutznachers</persName> Diarium</bibl> 308.</note> et dux Henrichus Brunsvicensis<note xml:id="fn25" type="footnote" n="25"><persName ref="p18770" cert="high">Herzog Heinrich d.J. von Braunschweig-Wolfenbüttel</persName>. - Er traf am 30. Oktober in Augsburg ein; s. <ref target="file13118">Nr. 3069</ref>, <ptr target="qvfn17335-2" type="qv"/>.</note> priori hebdomade Augustam venerunt.</s>
+					<s n="27" xml:lang="la" type="auto">Rex Ferdinandus,<note xml:id="fn22" type="footnote" n="22"><persName ref="p18477" cert="high">Ferdinand I.</persName> war am 20. Oktober in Augsburg eingetroffen; s. <ref target="file13019">Nr. 2970</ref>, <ptr target="qvfn17236-3" type="qv"/>; <ref target="file13104">Nr. 3055</ref>,<ptr target="qvzl17323-4" type="qv"/>.<ptr target="zfnfn17336-1" type="zfn"/></note> marchio <placeName ref="l1048" cert="high">Brandenburgensis</placeName><note xml:id="fn23" type="footnote" n="23">Markgraf <persName ref="p18422" cert="high">Albrecht Alcibiades von Brandenburg-Kulmbach</persName>. - Frölich wird hier aber <persName ref="p18520" cert="high">Kurfürst Joachim II. von Brandenburg</persName> gemeint haben, der am 29. Oktober in Augsburg angekommen war (s. <ref target="file13054">Nr. 3005</ref>, <ptr target="qvfn17272-3" type="qv"/>), zumal Markgraf Alcibiades sich bereits seit dem 23. Juli 1547 in Augsburg aufhielt; s. <ref target="file13019">Nr. 2970</ref>,<ptr target="qvzl17236-22" type="qv"/>.</note> cum con[iuge]<note xml:id="fn24" type="footnote" n="24">Jadwiga Jagiellonica von Polen (1513-1573). - Sie kam zusammen mit <persName ref="p18520" cert="high">Joachim II.</persName> am 29. Oktober in Augsburg an; s. <bibl><persName ref="p17902" cert="high">Creutznachers</persName> Diarium</bibl> 308.</note> et dux Henrichus Brunsvicensis<note xml:id="fn25" type="footnote" n="25"><persName ref="p18770" cert="high">Herzog Heinrich d.J. von Braunschweig-Wolfenbüttel</persName>. - Er traf am 30. Oktober in Augsburg ein; s. <ref target="file13118">Nr. 3069</ref>, <ptr target="qvfn17335-2" type="qv"/>.</note> priori hebdomade Augustam venerunt.</s>
 					<s n="28" xml:lang="la" type="auto">Expectantur istic indies du[x] Cleve<note xml:id="fn26" type="footnote" n="26"><persName ref="p18605" cert="high">Wilhelm V. von Jülich-Kleve-Berg</persName>. - Hier liegt ein falsches Gerücht vor; s. <ref target="file13118">Nr. 3069</ref>, <ptr target="qvfn17335-1" type="qv"/>.</note> cum uxore<note xml:id="fn27" type="footnote" n="27"><persName ref="p20145" cert="high">Maria von Österreich</persName> (1531-1581), Tochter von <persName ref="p18477" cert="high">Ferdinand I.</persName> - Auch sie kam nicht nach Augsburg.</note> et regina <persName ref="p18215" cert="high">Maria</persName>.<note xml:id="fn28" type="footnote" n="28"><persName ref="p18215" cert="high">Maria von Ungarn</persName>, Statthalterin der Niederlande und Schwester Karls V. - Sie traf erst am 23. November in Augsburg ein; s. <ref target="file13080">Nr. 3031</ref>, <ptr target="qvfn17300-2" type="qv"/>.</note><pb type="edition" next="646"/></s>
 				</p>
 			</div>

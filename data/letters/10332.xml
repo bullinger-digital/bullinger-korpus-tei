@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 437b,761-764</idno>
 					</msIdentifier>
@@ -70,30 +62,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10332">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1533-12-15" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p1753" cert="high">
-						<!--
-						<surname cert="high">Jud</surname>
-						<forename cert="high">Leo</forename>
-						<graphic type="portrait" url="portraits/1753_Jud_Leo.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Leo_Jud"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118558528"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11423330"/>
-						-->
-					</persName>
+					<persName ref="p1753" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10333"/>
@@ -110,12 +84,12 @@
 				</correspContext>
 			</correspDesc>
 			<langUsage>
-				<language ident="de" usage="60">Deutsch</language>
-				<language ident="la" usage="940">Latein</language>
+				<language ident="de" usage="59">Deutsch</language>
+				<language ident="la" usage="941">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -146,7 +120,7 @@
 				<p>
 					<s n="5" xml:lang="la" type="auto">Scribit, imo evomit homo ille, quicquid in buccam venit.</s>
 					<s n="6" xml:lang="la" type="auto">Nihil solidi in hisce epistolis invenias, omnia tumultuaria et inexpensa, frigida et temeraria, non modo ea, quae iam in itinere<note xml:id="fn5" type="footnote" n="5"><persName ref="p8441" cert="high">Schwenckfeld</persName> war zur Zeit der Abfassung des Briefes an <persName ref="p1753" cert="high">Jud</persName> vom 10. September 1533 unterwegs von <placeName ref="l492" cert="high">Straßburg</placeName> nach <placeName ref="l1976" cert="high">Augsburg</placeName> (s. <bibl>CSch</bibl> IV 843, 8); s. noch Friedrich <hi>Roth,</hi> <placeName ref="l1976" cert="high">Augsburgs</placeName> Reformationsgeschichte, Bd. II: 1531-1537 bzw. 1540, München 1974 (Neudruck der Ausgabe München 1904), S. 59.</note> scripsit, sed ea quoque, quae olim de eadem re ad te dedit<note xml:id="fn6" type="footnote" n="6">Siehe oben S. 254, Anm. 5.</note> eadem subinde oberrans chorda.</s>
-					<s n="7" xml:lang="la" type="auto">Non enim nunc dico, quod ad verbum pene Donatistarum<note xml:id="fn7" type="footnote" n="7">Das donatistische Schisma erhielt seinen Namen von Donatus, Bischof in <placeName ref="l971" cert="high">Karthago</placeName> (seit 312?), und wurzelte in dem scharfen Gegensatz eines sozial und national gefärbten nordafrikanischen «radikalen Geist- und Märtyrerchristentums ... zu einer gemäßigten, dem kirchlichen Amt, der Welt und dem Staate mehr zugewandten Haltung» (Heinrich <hi>Karpp,</hi> in: RGG II 239-241). -Bullinger will hier auf die Parallele zwischen dem Donatismus und der kritischen Stellung des Spiritualisten <persName ref="p8441" cert="high">Schwenckfeld</persName> zu Kirche und Staat hinweisen.</note> in hac causa refricuit argumenta, quos interim ante mille annos non pontificia aliqua ecclesia, sed vere sancta et catholica damnavit ecclesia, nec clamoribus, sed scriptura<note xml:id="fn8" type="footnote" n="8">Die Donatisten wurden auf der Disputation zu <placeName ref="l971" cert="high">Karthago</placeName> 411 verdammt, Wortführer der katholischen Partei war <persName ref="p18700" cert="high">Augustin</persName>, <hi>s. Karpp,</hi> aaO.</note>.</s>
+					<s n="7" xml:lang="la" type="auto">Non enim nunc dico, quod ad verbum pene <persName ref="p19901" cert="high">Donatistarum</persName><note xml:id="fn7" type="footnote" n="7">Das donatistische Schisma erhielt seinen Namen von Donatus, Bischof in <placeName ref="l971" cert="high">Karthago</placeName> (seit 312?), und wurzelte in dem scharfen Gegensatz eines sozial und national gefärbten nordafrikanischen «radikalen Geist- und Märtyrerchristentums ... zu einer gemäßigten, dem kirchlichen Amt, der Welt und dem Staate mehr zugewandten Haltung» (Heinrich <hi>Karpp,</hi> in: RGG II 239-241). -Bullinger will hier auf die Parallele zwischen dem Donatismus und der kritischen Stellung des Spiritualisten <persName ref="p8441" cert="high">Schwenckfeld</persName> zu Kirche und Staat hinweisen.</note> in hac causa refricuit argumenta, quos interim ante mille annos non pontificia aliqua ecclesia, sed vere sancta et catholica damnavit ecclesia, nec clamoribus, sed scriptura<note xml:id="fn8" type="footnote" n="8">Die Donatisten wurden auf der Disputation zu <placeName ref="l971" cert="high">Karthago</placeName> 411 verdammt, Wortführer der katholischen Partei war <persName ref="p18700" cert="high">Augustin</persName>, <hi>s. Karpp,</hi> aaO.</note>.</s>
 					<s n="8" xml:lang="la" type="auto">Certe omnem veritatem hodie confessam et clariorem luce ponit in dubium atque obnubilat, cum praesigni audatia diserte dicit evangelium hactenus non esse predicatum neque ullam hodie ecclesiam constitutam<note xml:id="fn9" type="footnote" n="9">Bullinger wiederholt hier <persName ref="p467" cert="high">Bucers</persName> Anklage, die <persName ref="p8441" cert="high">Schwenckfeld</persName> in seinem Brief an <persName ref="p1753" cert="high">Jud</persName> vom 10. September 1533 (<bibl>CSch</bibl> IV 830, 19f) nur als Behauptung seiner Feinde zitiert (ebenda, Anm. 2).</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Et cum tu fonti corrupto aut venenis infecto comparasses dogma catabaptisticum<note xml:id="fn10" type="footnote" n="10"><persName ref="p1753" cert="high">Juds</persName> nach dem 5. Juli 1533 an <persName ref="p8441" cert="high">Schwenckfeld</persName> geschriebener Brief ist, wie auch die vorausgegangenen, nicht erhalten; die Briefstelle wird <persName ref="p8441" cert="high">von Schwenckfeld</persName> zitiert, s. die nächste Anm.</note>, ille palam obiicit:</s>
 				</p>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,273 f.</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 75,85</idno>
 					</msIdentifier>
@@ -70,30 +54,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1318">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1551-06-23" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p540" cert="high">
-						<!--
-						<surname cert="high">Calvin</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/540_Calvin_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Calvin"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118518534"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11418245"/>
-						-->
-					</persName>
+					<persName ref="p540" cert="high"/>
 					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -119,8 +85,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -142,7 +108,7 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">S. D.</s>
-					<s n="2" xml:lang="la" type="auto">Multum me tuae, frater in domino honorande et dilectissime, exhilararunt literae felicissimum evangelii cursum in Anglia nunciantes, quanquam ante octiduum id ipsum copiose exposuerit scriptis epistolis clarissimus vir d. <persName type="auto_name">Rychardus Coxus</persName>, cancellarius <placeName type="auto_name">Oxoniensis</placeName> et regis quondam paedagogus nunc eleemosynarius, ac d. <persName ref="p8111" cert="high">Petrus Martyr</persName>, quarum exempla missurus fueram, nisi ex tuis intellexissem [te]<note type="margin">a.R.: fehlt...</note> abunde novisse omnia.</s>
+					<s n="2" xml:lang="la" type="auto">Multum me tuae, frater in domino honorande et dilectissime, exhilararunt literae felicissimum evangelii cursum in Anglia nunciantes, quanquam ante octiduum id ipsum copiose exposuerit scriptis epistolis clarissimus vir d. <persName ref="p672" cert="high">Rychardus Coxus</persName>, cancellarius <placeName ref="l376" cert="high">Oxoniensis</placeName> et regis quondam paedagogus nunc eleemosynarius, ac d. <persName ref="p8111" cert="high">Petrus Martyr</persName>, quarum exempla missurus fueram, nisi ex tuis intellexissem [te]<note type="margin">a.R.: fehlt...</note> abunde novisse omnia.</s>
 					<s n="3" xml:lang="la" type="auto">Nihil tamen de re illa gravi et perutili commemorarunt.</s>
 					<s n="4" xml:lang="la" type="auto">Ex parte magnam mihi sol[l]icitudinem iniecerunt tuae: nam luculentam utilitatem aperte cerno, at quid a nostris hoc difficillimo tempore impetrari possit valde dubito.</s>
 					<s n="5" xml:lang="la" type="auto">De foedere ineundo cum hoc vel cum alio principe omnis certo periit spes: imo huius pangendi species vel suspitio reliqua quoque amicitiae et consensionis consilia turbabit, timeo.</s>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356,756 ff.</idno>
 					</msIdentifier>
@@ -56,14 +48,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 87,74</idno>
 					</msIdentifier>
@@ -73,30 +57,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2887">
 				<correspAction type="sent">
-					<persName ref="p4037" cert="high">
-						<!--
-						<surname cert="high">Zanchi</surname>
-						<forename cert="high">Girolamo</forename>
-						<graphic type="portrait" url="portraits/4037_Girolami_Zanchi.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Girolamo_Zanchi"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119296411"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417624"/>
-						-->
-					</persName>
+					<persName ref="p4037" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1556-04-06" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -122,8 +88,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -157,7 +123,7 @@
 					<s n="9" xml:lang="la" type="auto">Tria scripta accepimus hec devulgarunt papistę suis falsis sermonibus idque procul dubio vel iussu vel saltem consensu impię <persName type="auto_name">Iezabelis.</persName></s>
 					<s n="10" xml:lang="la" type="auto"><placeName type="auto_name">Canthuriensem</placeName> recantasse et ad suam ecclesiam rediisse et hanc confectam a se recantationem falsis etiam quorundam testimoniis confirmari et deinde excudi curarunt.</s>
 					<s n="11" xml:lang="la" type="auto">Ubi hęc sanctus ille vir rescivit, reclamavit et aperte et palam fecit toti regno se prorsus inscio hanc palinodiam esse confectam, nihil minus quam talem blasphemam recantationem se unquam cogitasse, quam hactenus in eo Anglię regno per gratiam Christi docuit, promovit et promoveri curavit doctrinam eam etiamnum constanti fide se credere et confiteri et ad mortem usque suo etiam sanguine defensurum et obsignaturum.</s>
-					<s n="12" xml:lang="la" type="auto">Interim retectis illorum impostorum commentis doctor quidam (nomen iam non teneo, memoria excidit) mittitur a regina <persName type="auto_name">Oxonium</persName> ad Canthuariensem idque 17. martii.</s>
+					<s n="12" xml:lang="la" type="auto">Interim retectis illorum impostorum commentis doctor quidam (nomen iam non teneo, memoria excidit) mittitur a regina <placeName ref="l376" cert="high">Oxonium</placeName> ad Canthuariensem idque 17. martii.</s>
 					<s n="13" xml:lang="la" type="auto">In quem finem, literę, quę postea datę fuerunt Antverpia ad d. <persName type="auto_name">Koocum</persName>, equitem pium et generosum, declarant.</s>
 					<s n="14" xml:lang="la" type="auto">Heri itaque literas hic generosus Antverpia accepit sanctum et pium illum archiepiscopum infracto animo, constantissima fide et perpetua confessione Iesu Christi et evangelicę doctrinę combustum 21. martii migrasse ad dominum.</s>
 					<s n="15" xml:lang="la" type="auto">Sunt hic, qui, quoniam hę literę sunt missę Antverpia et ex Anglia nullę, non credunt certe mortuum esse; sed tamen et d. <persName type="auto_name">Koocus</persName> et alii permulti Angli et vere etiam d. <persName type="auto_name">Petrus</persName> noster, quoniam de missione illius doctoris <persName type="auto_name">Lomlino Oxonium</persName> et de commentitia illa palinodia literas ex Anglia ipsa paulo ante acceperam, quod in iis literis Antverpia missis scribitur, verum esse credunt.</s>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 80,302</idno>
 						<altIdentifier>
@@ -65,28 +57,12 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 73,245</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a81">
-							<name>Strassburg BNU</name>
-							<ref target="https://www.bnu.fr/fr"/>
-						</repository>
-						<settlement ref="l492">Strassburg</settlement>
-						<institution>National- und Universitätsbibliothek</institution>
-						-->
 						<repository ref="a81"/>
 						<idno subtype="Kopie">Ms 0.679 = STB Bd. 20,210</idno>
 					</msIdentifier>
@@ -96,26 +72,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1123">
 				<correspAction type="sent">
-					<persName ref="p505" cert="high">
-						<!--
-						<surname cert="high">Burcher</surname>
-						<forename cert="high">John</forename>
-						-->
-					</persName>
+					<persName ref="p505" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1550-12-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -141,8 +103,8 @@
 				<language ident="la" usage="996">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -171,14 +133,14 @@
 				</p>
 				<p>
 					<s n="10" xml:lang="la" type="auto">Quum hac tamen non praevaluerint, mendacium aliud excogitarunt; nempe, quod vestes, rasuram, et alia huiusmodi quibus utuntur episcopi, res medias concesserit.</s>
-					<s n="11" xml:lang="la" type="auto">Neutrum tamen fecit <persName type="auto_name">Hoperum</persName>: neque enim vestes condemnavit, ut res malas per se, neque concessit vestes et rasuram episcoporum medias et tolerabiles in ecclesia dei.</s>
+					<s n="11" xml:lang="la" type="auto">Neutrum tamen fecit <persName ref="p1560" cert="high">Hoperum</persName>: neque enim vestes condemnavit, ut res malas per se, neque concessit vestes et rasuram episcoporum medias et tolerabiles in ecclesia dei.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">Iam enim lis iudice rege pendet; qui si per te instituatur solide de hac controversia, quatenus iudicandum sit per verbum dei, non dubito, quin multum proderit negotio religionis.</s>
-					<s n="13" xml:lang="la" type="auto">Non tamen ut de hac controversia nominatim scriberes opus aut utile iudico, sed quae caeremoniae in ecclesia sunt admittendae et quatenus; ne forte videaris subornatus ab <persName type="auto_name">Hopero</persName>, ut haec scriberes.</s>
+					<s n="13" xml:lang="la" type="auto">Non tamen ut de hac controversia nominatim scriberes opus aut utile iudico, sed quae caeremoniae in ecclesia sunt admittendae et quatenus; ne forte videaris subornatus ab <persName ref="p1560" cert="high">Hopero</persName>, ut haec scriberes.</s>
 					<s n="14" xml:lang="la" type="auto">Habes iam sententiam meam; et si scripseris literas, ego mittam per veredarium absque tuis expensis.</s>
 					<s n="15" xml:lang="la" type="auto">Non ita pridem accepi literas contentionem nondum finitam esse.</s>
-					<s n="16" xml:lang="la" type="auto">Habet Hoperus a partibus suis <persName ref="p8041" cert="high">Ioannem a Lasco</persName> atque paucos alios; contra, inimicos multos, et inter hos Bucerum, qui si tantae auctoritate esset, ut olim apud nos fuerat, actum esset de Hoperi dignitate; non futurus esset episcopus: quod timeo ne eveniat, et ut eveniat omnibus modis contendit <placeName ref="l296" cert="high">Londoniensis</placeName>.</s>
+					<s n="16" xml:lang="la" type="auto">Habet <persName ref="p1560" cert="high">Hoperus</persName> a partibus suis <persName ref="p8041" cert="high">Ioannem a Lasco</persName> atque paucos alios; contra, inimicos multos, et inter hos Bucerum, qui si tantae auctoritate esset, ut olim apud nos fuerat, actum esset de <persName ref="p1560" cert="high">Hoperi</persName> dignitate; non futurus esset episcopus: quod timeo ne eveniat, et ut eveniat omnibus modis contendit <placeName ref="l296" cert="high">Londoniensis</placeName>.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">D. <persName type="auto_name">Christophorus Montius</persName> iam mensibus fere sex integris <placeName ref="l1976" cert="high">Augustae</placeName> fuit, nec revertitur adhuc: expectatur indies.</s>

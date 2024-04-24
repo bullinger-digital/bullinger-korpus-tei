@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Nachschrift" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 182,143a</idno>
 					</msIdentifier>
@@ -54,28 +46,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/8884">
 				<correspAction type="sent">
-					<persName ref="p8016" cert="low">
-						<!--
-						<surname cert="low">Egli (Iconius, Götz)</surname>
-						<forename cert="low">Tobias</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Tobias_Egli"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089466366"/>
-						-->
-					</persName>
+					<persName ref="p8016" cert="low"/>
 					<placeName source="l98" cert="low"><orig>Chur</orig></placeName>
 					<date when="1572-04-30" cert="low"><note>Datum unsicher  (1572 Apr 30)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file8885"/>
@@ -94,8 +70,8 @@
 					<ref type="prev_with_sender_as_addressee" target="file8882"/>
 					<ref type="next_with_addressee_as_sender" target="file8886"/>
 					<ref type="prev_with_addressee_as_sender" target="file8869"/>
-					<ref type="child" target="file8882"/>
 					<ref type="parent" target="file8752"/>
+					<ref type="parent" target="file8882"/>
 				</correspContext>
 			</correspDesc>
 			<langUsage>
@@ -103,8 +79,8 @@
 				<language ident="de" usage="929">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

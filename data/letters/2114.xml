@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356,567 ff.</idno>
 					</msIdentifier>
@@ -50,14 +42,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 80,212</idno>
 					</msIdentifier>
@@ -67,30 +51,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2114">
 				<correspAction type="sent">
-					<persName ref="p3375" cert="high">
-						<!--
-						<surname cert="high">Vergerio</surname>
-						<forename cert="high">Pier Paolo</forename>
-						<graphic type="portrait" url="portraits/3375_Vergerio_Pietro_Paolo.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Pietro_Paolo_Vergerio"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118768077"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417291"/>
-						-->
-					</persName>
+					<persName ref="p3375" cert="high"/>
 					<placeName source="l512" cert="high"><orig>Tübingen</orig></placeName>
 					<date when="1553-12-19" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -117,8 +83,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -155,9 +121,9 @@
 					<s n="6" xml:lang="la" type="auto">Mitto responsum et ad <placeName type="auto_name">Baionensem</placeName> et ad <persName ref="p8101" cert="high">Laelium</persName>; tu cura, ut cito et fideliter perferatur.</s>
 					<s n="7" xml:lang="la" type="auto"><persName ref="p8101" cert="high">Laelius</persName> valet, et brevi eum visuri estis; ita etiam <persName type="auto_name">Zieglero</persName> nunciare oportet.</s>
 					<s n="8" xml:lang="la" type="auto">Nova quae scripsisti, carissima fuere.</s>
-					<s n="9" xml:lang="la" type="auto">Respondi ad priores literas et misi illas <persName type="auto_name">Scaffusium</persName>.</s>
+					<s n="9" xml:lang="la" type="auto">Respondi ad priores literas et misi illas <placeName ref="l441" cert="high">Scaffusium</placeName>.</s>
 					<s n="10" xml:lang="la" type="auto">Spero hunc tabellarium allaturum ad te; iussi enim, ut quaerat apud <persName type="auto_name">Ruggerum</persName>.</s>
-					<s n="11" xml:lang="la" type="auto">Fui nuper <persName type="auto_name">Stutgardii</persName> (podagra enim inducias mecum); obtuli commendationem tuam d. duci et legi, quod de <persName ref="p8111" cert="high">Martire</persName> sentis.</s>
+					<s n="11" xml:lang="la" type="auto">Fui nuper <placeName ref="l496" cert="high">Stutgardii</placeName> (podagra enim inducias mecum); obtuli commendationem tuam d. duci et legi, quod de <persName ref="p8111" cert="high">Martire</persName> sentis.</s>
 					<s n="12" xml:lang="la" type="auto">Affirmo eum libenter audiisse, neque abhorret abs te (crede mihi), at neque <persName ref="p458" cert="high">Brentius</persName>, qui te amanter salutat.</s>
 					<s n="13" xml:lang="la" type="auto">At emulatio et odium in aliis quibusdam esse animadverti atque in his etiam, quos nunquam credidisses; aperiam aliquando, nam operae pretium est, ut scias.</s>
 					<s n="14" xml:lang="la" type="auto">Quin e <placeName ref="l28" cert="high">Basilea</placeName> quispiam huc scribens inserit odia.</s>
@@ -198,7 +164,7 @@
 				<p>
 					<s n="40" xml:lang="la" type="auto">Flens dico et tibi uni hic pietatem frigere; crede mihi, sic res est.</s>
 					<s n="41" xml:lang="la" type="auto">Apparent rari; rogemus deum, ut mittat operarios in messem suam.</s>
-					<s n="42" xml:lang="la" type="auto">Nic[olaus] <persName type="auto_name">Gallus</persName> et <persName type="auto_name">Matthias Illyricus</persName> conquesti sunt per literas cum ministris huius ducatus eos favisse <persName ref="p2301" cert="high">Osiandro</persName> in causa iustificationis, atque hinc audies tragediam exorituram.</s>
+					<s n="42" xml:lang="la" type="auto"><persName type="auto_name">Nic[olaus] Gallus</persName> et <persName type="auto_name">Matthias Illyricus</persName> conquesti sunt per literas cum ministris huius ducatus eos favisse <persName ref="p2301" cert="high">Osiandro</persName> in causa iustificationis, atque hinc audies tragediam exorituram.</s>
 					<s n="43" xml:lang="la" type="auto"><persName ref="p2095" cert="high">Melanthon</persName> edidit libellum contra <persName type="auto_name">Stancarum</persName>; cuperem pacem inter tales.</s>
 					<s n="44" xml:lang="la" type="auto">Expecto tuos de iustificatione libellos; utinam attigeris etiam <persName ref="p2301" cert="high">Osiandri</persName> novitatem.</s>
 					<s n="45" xml:lang="la" type="auto">Expecto etiam Catolum et quod contra eum scripseras.</s>
@@ -212,7 +178,7 @@
 				</p>
 				<p>
 					<s n="51" xml:lang="la" type="auto">Surrexi ante diem, ut absolverem fascem literarum.</s>
-					<s n="52" xml:lang="la" type="auto">Oravi tabellionem, ut per <placeName ref="l1333" cert="high">Tuttlingen</placeName> iter faciat; nam forte illic et non <persName type="auto_name">Scaffusii</persName> inveniet literas, quas proxime ad te scripsit.</s>
+					<s n="52" xml:lang="la" type="auto">Oravi tabellionem, ut per <placeName ref="l1333" cert="high">Tuttlingen</placeName> iter faciat; nam forte illic et non <placeName ref="l441" cert="high">Scaffusii</placeName> inveniet literas, quas proxime ad te scripsit.</s>
 					<s n="53" xml:lang="la" type="auto">Pollicitus sum duos batios pro bibalibus, si ad te attulerit, si e <placeName ref="l1333" cert="high">Tuttlingen</placeName>, inquam; eos si dederis, rependam.</s>
 				</p>
 				<p>

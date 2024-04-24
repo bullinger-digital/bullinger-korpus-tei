@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 336,256</idno>
 						<altIdentifier>
@@ -45,7 +37,7 @@
 								Die Nachricht über <persName ref="p2916" cert="high">[Sebastian] Schertlin</persName> und das Gold des Papstes [<persName ref="p19981" cert="high">Paul III.</persName>] erwies sich als falsch.
 								</p>
 								<p xml:id="regest2">
-								- Der Adlige [Hans Ludwig] von Mülinen hat sich mit Pferden und einem Diener [...] (die ihm sein Verwandter
+								- Der Adlige [Hans Ludwig] von <persName ref="p7682" cert="high">Mülinen</persName> hat sich mit Pferden und einem Diener [...] (die ihm sein Verwandter
 								<persName ref="p7730" cert="high">[Ludwig] von Reischach</persName> zur Verfügung gestellt hatte) auf den Weg nach
 								<placeName ref="l907" cert="high">Kempten</placeName> begeben. Er wurde aber dort nicht eingelassen. Als er zum
 								Kloster <placeName ref="l1311" cert="high">Salem</placeName> kam, <pb type="edition" next="234"/> stieß er auf etwa
@@ -96,30 +88,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12559">
 				<correspAction type="sent">
-					<persName ref="p8418" cert="high">
-						<!--
-						<surname cert="high">Myconius (Geißhüsler)</surname>
-						<forename cert="high">Oswald</forename>
-						<graphic type="portrait" url="portraits/2234_Myconius_Oswald.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Oswald_Myconius"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118735462"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
-						-->
-					</persName>
+					<persName ref="p8418" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1546-07-24" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12560"/>
@@ -145,8 +119,8 @@
 				<language ident="la" usage="881">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

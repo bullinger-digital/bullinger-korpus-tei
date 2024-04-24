@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a37">
-							<name>Genf StA</name>
-							<ref target="https://ge.ch/archives/"/>
-						</repository>
-						<settlement ref="l167">Genf</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a37"/>
 						<idno subtype="Original">PC 492, p. 177-180</idno>
 						<idno subtype="Xeroxkopie">IRG, 2004</idno>
@@ -61,42 +53,18 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 337,587 f.</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Teilkopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a39">
-							<name>Genf MHR</name>
-							<ref target="https://www.unige.ch/ihr/fr/aide-a-la-recherche/bibliotheque/"/>
-						</repository>
-						<settlement ref="l167">Genf</settlement>
-						<institution>Musée historique de la Réformation</institution>
-						-->
 						<repository ref="a39"/>
 						<idno subtype="Teilkopie">Herminjard-Dossier 1553-1556, 100</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 80, 103</idno>
 					</msIdentifier>
@@ -106,48 +74,16 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2029">
 				<correspAction type="sent">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high">
-						<orig>Pfarrer der Kirche Zürich</orig>
-							<placeName ref="l587" cert="high">
-								<settlement>Zürich</settlement>
-								<district>Zürich</district>
-								<country>Schweiz</country>
-								<location><geo>47.370093 8.544054</geo></location>
-							</placeName>
-							<orgName ref="i19" type="sg" role="Kirche" cert="high">
-																	<placeName ref="l587" cert="high">
-										<settlement>Zürich</settlement>
-										<district>Zürich</district>
-										<country>Schweiz</country>
-										<location><geo>47.370093 8.544054</geo></location>
-									</placeName>
-							</orgName>
-					</roleName>
-					<roleName ref="g45" type="pl" role="Lehrer" cert="high">
-						<orig>Lehrer der Kirche Zürich</orig>
-							<placeName ref="l587" cert="high">
-								<settlement>Zürich</settlement>
-								<district>Zürich</district>
-								<country>Schweiz</country>
-								<location><geo>47.370093 8.544054</geo></location>
-							</placeName>
-							<orgName ref="i19" type="sg" role="Kirche" cert="high">
-																	<placeName ref="l587" cert="high">
-										<settlement>Zürich</settlement>
-										<district>Zürich</district>
-										<country>Schweiz</country>
-										<location><geo>47.370093 8.544054</geo></location>
-									</placeName>
-							</orgName>
-					</roleName>
+					<orgName ref="og26pl587" cert="high"/>
+					<orgName ref="og49pl587" cert="high">Pfarrer der Kirche Zürich</orgName>
+					<orgName ref="og45pl587" cert="high">Lehrer der Kirche Zürich</orgName>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1553-10-02" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
-					<roleName ref="g71" type="pl" role="Synodale" cert="high"/>
-					<roleName ref="g86" type="pl" role="Senatoren" cert="high"/>
+					<orgName ref="og59pl167" cert="high"/>
+					<orgName ref="og71pl167" cert="high"/>
+					<orgName ref="og86pl167" cert="high"/>
 					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -167,8 +103,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Original">E II 346,148r.–149v.</idno>
 					</msIdentifier>
@@ -46,7 +38,7 @@
 								Comte trauert um ihn mehr als um seinen vor etwa acht Tagen ebenfalls verstorbenen leiblichen Sohn, der auch
 								Jakob hieß. [Wegen der Pest] musste Comte umziehen. - <persName ref="p714" cert="high">Curione</persName> bedauert den Tod des [Zürcher] Bürgermeisters
 								[<persName ref="p2816" cert="high">Diethelm Röist</persName>] und ist erleichtert, dass ein guter Nachfolger [<persName ref="p1888" cert="high">Hans Rudolf Lavater</persName>] gewählt wurde. - <persName ref="p8312" cert="high">Cochläus</persName> wird stets eine Schnecke (coclea) bleiben, oder etwa ein
-								einäugiger „Cocles“, wenn nicht gar ein völlig Blinder! Möge der Herr ihm die geistigen Augen öffnen!
+								einäugiger „<persName ref="p20047" cert="high">Cocles</persName>“, wenn nicht gar ein völlig Blinder! Möge der Herr ihm die geistigen Augen öffnen!
 								<persName ref="p714" cert="high">Curione</persName> wird Bullingers [„Brevis <foreign xml:lang="el">ἀντιβολή</foreign>“] nach der Lektüre an den bereits
 								informierten Comte weiterleiten. - <persName ref="p1974" cert="high">Luther</persName> bleibt sich gleich. Die [innerprotestantischen] Streitigkeiten
 								erfreuen die Feinde und gefährden die sich noch im Wachstum befindende Kirche, wenn der Herr sich ihrer
@@ -85,30 +77,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12116">
 				<correspAction type="sent">
-					<persName ref="p714" cert="high">
-						<!--
-						<surname cert="high">Curione</surname>
-						<forename cert="high">Celio Secondo</forename>
-						<graphic type="portrait" url="portraits/714_Curione_Celio_Secondo.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Celio_Secondo_Curione"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/10407440X"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11414681"/>
-						-->
-					</persName>
+					<persName ref="p714" cert="high"/>
 					<placeName source="l280" cert="high"><orig>Lausanne</orig></placeName>
 					<date when="1545-01-18" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12117"/>
@@ -132,8 +106,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

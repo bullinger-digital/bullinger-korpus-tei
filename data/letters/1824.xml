@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356,515 ff.</idno>
 					</msIdentifier>
@@ -68,14 +60,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 79,48</idno>
 						<idno subtype="Hinweis">10. März 1553</idno>
@@ -86,30 +70,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1824">
 				<correspAction type="sent">
-					<persName ref="p3375" cert="high">
-						<!--
-						<surname cert="high">Vergerio</surname>
-						<forename cert="high">Pier Paolo</forename>
-						<graphic type="portrait" url="portraits/3375_Vergerio_Pietro_Paolo.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Pietro_Paolo_Vergerio"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118768077"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417291"/>
-						-->
-					</persName>
+					<persName ref="p3375" cert="high"/>
 					<placeName source="l93" cert="high"><orig>Chiavenna</orig></placeName>
 					<date notBefore="1553-03-10" notAfter="1553-05-10" cert="low">10. März/Mai 1553</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -135,8 +101,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -168,7 +134,7 @@
 					<s n="3" xml:lang="la" type="auto">Video te audiisse de tumultu, quem Sathan adversum evangelium concitavit in <placeName type="auto_name">Valle Tellina</placeName>.</s>
 					<s n="4" xml:lang="la" type="auto">Scito vero, mi Bullingere, non fuisse visum talem in tota Raetia ulla unquam memoria, ac nondum sedatus est.</s>
 					<s n="5" xml:lang="la" type="auto">Ingressi sunt heri novem commissarii, de quibus scripseram.</s>
-					<s n="6" xml:lang="la" type="auto">Ego vero interea, dum illi inde se expediant, Claven[n]ae haereo ob graves causas.</s>
+					<s n="6" xml:lang="la" type="auto">Ego vero interea, dum illi inde se expediant, <placeName ref="l96" cert="high">Claven[n]ae</placeName> haereo ob graves causas.</s>
 					<s n="7" xml:lang="la" type="auto">Totus papatus nunc me aperte oppugnat iisdem machinis, quibus olim <persName type="auto_name">Hammonius</persName><note type="margin">a.R.: ... Ham-... <persName type="auto_name">Himraonius</persName>... <persName type="auto_name">Hammonius</persName>...</note>, regis legatus, quem nosti.</s>
 					<s n="8" xml:lang="la" type="auto">Causa dei et Christi est.</s>
 					<s n="9" xml:lang="la" type="auto">Sed si nunc vincimus, magnum erit ostium et magnae erunt fenestrae apertae evangelio.</s>

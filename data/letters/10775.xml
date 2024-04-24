@@ -24,14 +24,6 @@
 				<bibl n="8" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 6 (Briefe des Jahres 1536), bearb. von Hans Ulrich Bächtold und Rainer Henrich, Zürich 1995, 518 S., ISBN 3-290-10980-1.</bibl>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a48">
-							<name>Konstanz SA</name>
-							<ref target="https://www.konstanz.de/start/kultur+_+freizeit/stadtarchiv.html"/>
-						</repository>
-						<settlement ref="l257">Konstanz</settlement>
-						<institution>Stadtarchiv</institution>
-						-->
 						<repository ref="a48"/>
 						<idno subtype="Kopie">Ref. A. Fasc. 10, 371r-374r, Nr.87a</idno>
 					</msIdentifier>
@@ -74,14 +66,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10775">
 				<correspAction type="sent">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high"/>
+					<orgName ref="og49pl257" cert="high"/>
 					<placeName source="l257" cert="low"><orig>Konstanz</orig></placeName>
 					<date notBefore="1536-01-27" notAfter="1536-01-28" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g49" type="pl" role="Pfarrer" cert="high">
-						<orig>die in Basel versammelten Pfarrer</orig>
-					</roleName>
+					<orgName ref="og49pl28" cert="high">die in Basel versammelten Pfarrer</orgName>
 					<placeName source="l28" cert="low"><orig>Basel</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -107,8 +97,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">

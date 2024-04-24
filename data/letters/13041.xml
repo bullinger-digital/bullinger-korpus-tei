@@ -24,14 +24,6 @@
 				<bibl n="23" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 20 (Briefe von April bis Dezember 1547), bearb. von Reinhard Bodenmann, Yvonne Häfner und Judith Steiniger, Zürich 2022, 808 S., ISBN 978-3-290-18354-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a78">
-							<name>St. Gallen KB</name>
-							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
-						</repository>
-						<settlement ref="l474">St. Gallen</settlement>
-						<institution>Kantonsbibliothek Vadiana</institution>
-						-->
 						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 35,261</idno>
 						<idno subtype="Quelle">https://swisscollections.ch/Record/991170525150505501/Holdings#tabnav</idno>
@@ -88,30 +80,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/13041">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1547-08-15" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8049" cert="low">
-						<!--
-						<surname cert="low">Vadian (von Watt)</surname>
-						<forename cert="low">Joachim</forename>
-						<graphic type="portrait" url="portraits/3306_Vadian_Joachim.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Joachim_Vadian"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118625780"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11425832"/>
-						-->
-					</persName>
+					<persName ref="p8049" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file13042"/>
@@ -137,8 +111,8 @@
 				<language ident="de" usage="704">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">
@@ -155,7 +129,7 @@
 				<p>
 					<s n="5" xml:lang="de" type="auto">Der schiessend lasst sich gar wol an.</s>
 					<s n="6" xml:lang="de" type="auto">Es ist ein seer eerliche, schöne gesellschafft von meerteyls orten der eydgnoschafft.</s>
-					<s n="7" xml:lang="de" type="auto">Bern hatt seer vil lüten, Lucern in 35, Schwytz ein güte anzal, Zug vil, Glaris vil Basel vil, Solenthurn 15, Schaffhusen vil.</s>
+					<s n="7" xml:lang="de" type="auto"><placeName ref="l41" cert="high">Bern</placeName> hatt seer vil lüten, Lucern in 35, Schwytz ein güte anzal, <placeName ref="l584" cert="high">Zug</placeName> vil, Glaris vil <placeName ref="l28" cert="high">Basel</placeName> vil, Solenthurn 15, Schaffhusen vil.</s>
 					<s n="8" xml:lang="de" type="auto">Diß all habend ire radtsbotten zuͦgäben, ire eigne spyllüt, mitt der stetten und lendern silbernen schillten seer schön zuͦgerüst.</s>
 					<s n="9" xml:lang="de" type="auto">Sy zeigend och, das sy mer umb früntschafft ze machen dann anderer Sachen kummen syend.</s>
 					<s n="10" xml:lang="de" type="auto">Deren von Ury und Underwalden wartet man; dann man sagt, iren kummend och ettlich.</s>
@@ -166,7 +140,7 @@
 				<p>
 					<s n="12" xml:lang="de" type="auto">Gester sind in 300 burger mitt gschütz und Spiessen den frömbden zuͦ eeren umbzogen.</s>
 					<s n="13" xml:lang="de" type="auto">Hütt hand den ersten schutz gethan Apptzell, San Gallen, gottshußlüt und <placeName ref="l457" cert="high">Constantz</placeName>.</s>
-					<s n="14" xml:lang="de" type="auto">Die habend das erst loß überkummen; das ander hatt die von Schwytz, Underwalden und Zug troffen etc.</s>
+					<s n="14" xml:lang="de" type="auto">Die habend das erst loß überkummen; das ander hatt die von Schwytz, Underwalden und <placeName ref="l584" cert="high">Zug</placeName> troffen etc.</s>
 					<s n="15" xml:lang="de" type="auto">Ich hoff vil guͦts.</s>
 				</p>
 			</div>

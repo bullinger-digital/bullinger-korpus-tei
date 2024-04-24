@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,138</idno>
 					</msIdentifier>
@@ -111,14 +103,6 @@
 				</msDesc>
 				<msDesc type="Beilage" subtype="Beilage" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a78">
-							<name>St. Gallen KB</name>
-							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
-						</repository>
-						<settlement ref="l474">St. Gallen</settlement>
-						<institution>Kantonsbibliothek Vadiana</institution>
-						-->
 						<repository ref="a78"/>
 						<idno subtype="Beilage">Ms 40 (VBS XI),202</idno>
 						<idno subtype="Quelle">https://swisscollections.ch/Record/991170517549405501/Holdings?openHierarchy=true#tabnav</idno>
@@ -129,30 +113,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12400">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1546-02-13" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8049" cert="high">
-						<!--
-						<surname cert="high">Vadian (von Watt)</surname>
-						<forename cert="high">Joachim</forename>
-						<graphic type="portrait" url="portraits/3306_Vadian_Joachim.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Joachim_Vadian"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118625780"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11425832"/>
-						-->
-					</persName>
+					<persName ref="p8049" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12401"/>
@@ -178,8 +144,8 @@
 				<language ident="de" usage="689">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -269,7 +235,7 @@
 					<s n="27" xml:lang="de" type="auto">Summa der gschrifft:</s>
 				</p>
 				<p>
-					<s n="28" xml:lang="de" type="auto">"Wir sind warhafft bericht, das pfaltzgraff Fridrych, der churfürst, in der Pfaltz allenthalb predger uffstelle, das h[eilig] evangelium heyter und klar ze predgen, die sacramenten des libs und bluͦts Christi christlich ze reichen, und den predgern eewyber lasse; das ouch uff sontag, 10. ianuarii, in der pfarr <placeName ref="l210" cert="high">Heydelberg</placeName> zuͦ St. Peter und in der gantzen Pfaltz die bäpstisch meß abgethan und des herren nachtmal in tütsch yngesetzt sye, ouch gebrucht worden, das ouch die beid fürsten <persName ref="17927" type="auto_name">Pfaltz</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="p17927" cert="high">Kurfürst Friedrich II. von der Pfalz</persName>.</note> und <persName ref="3590" type="auto_name">Hessen</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="p3590" cert="high">Philipp von Hessen</persName>.</note> werdent in kurtzem zuͦ <placeName ref="l157" cert="high">Franckfort</placeName> zamen kummen, da wir achtend, das der pfaltzgraff wie ouch Cölln in die christlich vereinigung genommen werde, etc., dardurch one zwyfel vil böser pratticken gebrochen werdent, und ist wunderbar würckung gottes, der inmitten der vervolgung des keyssers und königs<note xml:id="fn7" type="footnote" n="7"><persName ref="p18538" cert="high">Karl V.</persName> und Ferdinand.</note> sin wort erbreiteret.</s>
+					<s n="28" xml:lang="de" type="auto">"Wir sind warhafft bericht, das pfaltzgraff Fridrych, der churfürst, in der <persName ref="p17927" cert="high">Pfaltz</persName> allenthalb predger uffstelle, das h[eilig] evangelium heyter und klar ze predgen, die sacramenten des libs und bluͦts Christi christlich ze reichen, und den predgern eewyber lasse; das ouch uff sontag, 10. ianuarii, in der pfarr <placeName ref="l210" cert="high">Heydelberg</placeName> zuͦ St. Peter und in der gantzen <persName ref="p17927" cert="high">Pfaltz</persName> die bäpstisch meß abgethan und des herren nachtmal in tütsch yngesetzt sye, ouch gebrucht worden, das ouch die beid fürsten <persName ref="17927" type="auto_name">Pfaltz</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="p17927" cert="high">Kurfürst Friedrich II. von der Pfalz</persName>.</note> und <persName ref="3590" type="auto_name">Hessen</persName><note xml:id="fn6" type="footnote" n="6"><persName ref="p3590" cert="high">Philipp von Hessen</persName>.</note> werdent in kurtzem zuͦ <placeName ref="l157" cert="high">Franckfort</placeName> zamen kummen, da wir achtend, das der pfaltzgraff wie ouch Cölln in die christlich vereinigung genommen werde, etc., dardurch one zwyfel vil böser pratticken gebrochen werdent, und ist wunderbar würckung gottes, der inmitten der vervolgung des keyssers und königs<note xml:id="fn7" type="footnote" n="7"><persName ref="p18538" cert="high">Karl V.</persName> und Ferdinand.</note> sin wort erbreiteret.</s>
 				</p>
 				<p>
 					<s n="29" xml:lang="la" type="auto">Datum 30. ianuarii.</s>

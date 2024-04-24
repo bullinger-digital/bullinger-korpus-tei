@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 335,2148</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms B 171,70</idno>
 					</msIdentifier>
@@ -73,14 +57,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,87</idno>
 					</msIdentifier>
@@ -90,28 +66,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/850">
 				<correspAction type="sent">
-					<persName ref="p3066" cert="high">
-						<!--
-						<surname cert="high">Stumpf</surname>
-						<forename cert="high">Johannes Rudolf</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Rudolf_Stumpf"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119842947"/>
-						-->
-					</persName>
+					<persName ref="p3066" cert="high"/>
 					<placeName source="l376" cert="high"><orig>Oxford</orig></placeName>
 					<date when="1550-02-28" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -138,8 +98,8 @@
 				<language ident="la" usage="990">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -161,7 +121,7 @@
 				</p>
 				<p>
 					<s n="3" xml:lang="la" type="auto">Inter cętera enim quę humanissime nobiscum communicabas, hortabaris quoque, si quę nova haberemus, tibi ut impartiremur; quod nunc quantum in me fuit facere sum aggressus: nam et liberius et uberius scribendi facultas data nunc est, siquidem 6. febr. huius 50. anni festus sane dies nobisque faustissimus illuxit; nam et <placeName type="auto_name">Londinensi</placeName> concilio finem fecit, et ducem de <placeName type="auto_name">Sumerseth</placeName> carcere liberavit, qui, papistarum insidiis circumventus, deque variis et gravibus criminibus accusatus falso, non solum a totius regni gubernaculo, quod sibi post mortem Henrici 8. commissum tenebat, reiectus, sed et in carcerem usque durissimum erat abstrusus: adeo ut de ipsius inde liberatione, ni vitam morte commutaret, nihil spei, vel parum saltem supererat.</s>
-					<s n="4" xml:lang="la" type="auto">Qui principis gravissimus casus quantas evangelicis ac bonis omnibus turbas dederit, dictu mirum est: ipsi enim Romanistę, bestię crudelissimę, quibus <persName type="auto_name">Oxonium</persName> scatet, iam de ducis nostri interitu, de evangelii nostri extremum spiritum trahentis morte, deque redivivo suo suaviolo (missa), quasi solidam iamdum sibi parassent victoriam, triumphare, abominandam missam in suis conventiculis rursum celebrare, in efferendis funeribus et id genus aliis negotiis antiquis suis nugamentis uti, totos sese, ut eiusmodi relligionis assertores decebat, vino inundare.</s>
+					<s n="4" xml:lang="la" type="auto">Qui principis gravissimus casus quantas evangelicis ac bonis omnibus turbas dederit, dictu mirum est: ipsi enim Romanistę, bestię crudelissimę, quibus <placeName ref="l376" cert="high">Oxonium</placeName> scatet, iam de ducis nostri interitu, de evangelii nostri extremum spiritum trahentis morte, deque redivivo suo suaviolo (missa), quasi solidam iamdum sibi parassent victoriam, triumphare, abominandam missam in suis conventiculis rursum celebrare, in efferendis funeribus et id genus aliis negotiis antiquis suis nugamentis uti, totos sese, ut eiusmodi relligionis assertores decebat, vino inundare.</s>
 					<s n="5" xml:lang="la" type="auto">Eoque tandem furiosa rabies erat progressa, ut ipsis Christi fidelibus impudentissimis suis sermonibus poenas, exilium, gladium ac flammam, denique omnia mala minitarentur, ni principis huius extremo periculo saperent, ac rursus ad suas defficerent partes.</s>
 					<s n="6" xml:lang="la" type="auto">Sed o facinus audax et insanum!</s>
 					<s n="7" xml:lang="la" type="auto">quicquid enim consilii habuerunt, nunc cum nihil obfuit consumpserunt, prorsusque malam suam mentem omnibus prodiderunt.</s>
@@ -169,11 +129,11 @@
 				</p>
 				<p>
 					<s n="9" xml:lang="la" type="auto">Hinc factum ut hactenus novorum ne quidquam scribere fuerim ausus: in posterum tutius id faciendi copiam fore spero.</s>
-					<s n="10" xml:lang="la" type="auto">Dimisso itaque concilio d. d. <persName type="auto_name">Coxus Oxoniam</persName> se contulit, ubi hactenus degit: inventam quoque viam speramus, qua huiusmodi antichristi putrida membra abscissa toto arceantur gymnasio; quam spem principis quędam d. d. <persName type="auto_name">Coxi</persName>, quę dedit adveniens, confirmarunt.</s>
+					<s n="10" xml:lang="la" type="auto">Dimisso itaque concilio d. d. <persName type="auto_name">Coxus Oxoniam</persName> se contulit, ubi hactenus degit: inventam quoque viam speramus, qua huiusmodi antichristi putrida membra abscissa toto arceantur gymnasio; quam spem principis quędam d. d. <persName ref="p672" cert="high">Coxi</persName>, quę dedit adveniens, confirmarunt.</s>
 				</p>
 				<p>
 					<s n="11" xml:lang="la" type="auto">Sed de his aliquando plura: nunc ad reliqua.</s>
-					<s n="12" xml:lang="la" type="auto">D. d. <persName type="auto_name">Latomero</persName> concionatori regio oblatum aiunt episcopatum, in cuius locum dominus <persName type="auto_name">Hopperus</persName> noster successit.</s>
+					<s n="12" xml:lang="la" type="auto">D. d. <persName type="auto_name">Latomero</persName> concionatori regio oblatum aiunt episcopatum, in cuius locum dominus <persName ref="p1560" cert="high">Hopperus</persName> noster successit.</s>
 					<s n="13" xml:lang="la" type="auto">D. d. <persName type="auto_name">Tschieckus</persName> regis, et d. <persName type="auto_name">Trehernus</persName> ducis <placeName type="auto_name">Suffolcię</placeName>, regis coętanei, <foreign xml:lang="el">παιδαγςγιασ</foreign> a concilio sibi commissas susceperunt.</s>
 				</p>
 				<p>
@@ -185,7 +145,7 @@
 					<s n="17" xml:lang="la" type="auto">Vale in Christo, decus patrię.</s>
 					<s n="18" xml:lang="la" type="auto">Dominum <persName type="auto_name">Huldrichum Zwinglium</persName> generum tuum, amicum mihi charum, meo nomine salutes velim, cui, si me gratum facturum scivissem, etiam nunc scripsissem.</s>
 					<s n="19" xml:lang="la" type="auto">D. d. <persName ref="p8111" cert="high">Petrus Martyr</persName> et d. d. <persName type="auto_name">Oglendorpius</persName> valent ac vivunt, ac te plurimum salutant.</s>
-					<s n="20" xml:lang="la" type="auto">Datum <placeName type="auto_name">Oxonii</placeName>, 1550, 2. cal. martii.</s>
+					<s n="20" xml:lang="la" type="auto">Datum <placeName ref="l376" cert="high">Oxonii</placeName>, 1550, 2. cal. martii.</s>
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Tę dignitatis observantissimus <persName ref="p3066" cert="high">Ioannes Rodolphus Stumphius</persName>.</s>

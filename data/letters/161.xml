@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,376</idno>
 					</msIdentifier>
@@ -57,14 +49,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 67,36</idno>
 					</msIdentifier>
@@ -74,27 +58,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/161">
 				<correspAction type="sent">
-					<persName ref="p1548" cert="high">
-						<!--
-						<surname cert="high">Hilles</surname>
-						<forename cert="high">Richard</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089472722"/>
-						-->
-					</persName>
+					<persName ref="p1548" cert="high"/>
 					<placeName source="l492" cert="high"><orig>Strassburg</orig></placeName>
 					<date when="1548-06-18" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -120,8 +89,8 @@
 				<language ident="la" usage="977">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -166,7 +135,7 @@
 					<s n="18" xml:lang="la" type="auto">Cupis preterea scire, quomodo et per quos poteris ad nostrates scribere me absente.</s>
 					<s n="19" xml:lang="la" type="auto"><persName ref="p505" cert="high">Joannes Burcherus</persName>, amicus noster communis, commodissime literas nostras mittet.</s>
 					<s n="20" xml:lang="la" type="auto">Nam nos statuimus una merces excercere in annos duos aut tres, aut ultra etiam, si forte videbitur; atque haec ob causam commodas sibi hic emit edes, quas primum inhabitabit, posteaquam reversus fuerit a nundinis <placeName ref="l157" cert="high">Francofordiensibus</placeName> futuris.</s>
-					<s n="21" xml:lang="la" type="auto">Res Anglorum item per D. <persName type="auto_name">Joannem</persName> <persName type="auto_name">Hoperum</persName> quam commodissime scire usque potes, quamdiu apud vos manserit: cui atque conjugi pie salutem oro ex me dicito.</s>
+					<s n="21" xml:lang="la" type="auto">Res Anglorum item per D. <persName type="auto_name">Joannem</persName> <persName ref="p1560" cert="high">Hoperum</persName> quam commodissime scire usque potes, quamdiu apud vos manserit: cui atque conjugi pie salutem oro ex me dicito.</s>
 					<s n="22" xml:lang="la" type="auto">Dominum <persName type="auto_name">Theodorum</persName> item, virum doctissimum, dominum <persName ref="p8127" cert="high">Pellicanum</persName>, doctorem <persName ref="p1283" cert="high">Gesnerum</persName>, matronam item piam <placeName type="auto_name">Megandri</placeName> olim uxorem unaque uxorem tuam iube salvere plurimum.</s>
 					<s n="23" xml:lang="la" type="auto">Mea item uxor prenominatos omnes, sed te precipue uxoremque tuam salutat ex animo.</s>
 				</p>

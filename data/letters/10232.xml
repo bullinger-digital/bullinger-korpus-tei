@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 361,99</idno>
 					</msIdentifier>
@@ -71,26 +63,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10232">
 				<correspAction type="sent">
-					<persName ref="p8175" cert="high">
-						<!--
-						<surname cert="high">Bitter (von Wipperford)</surname>
-						<forename cert="high">Dietrich</forename>
-						-->
-					</persName>
+					<persName ref="p8175" cert="high"/>
 					<placeName source="l267" cert="high"><orig>Köln</orig></placeName>
 					<date when="1533-03-24" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file10233"/>
@@ -114,8 +92,8 @@
 				<language ident="de" usage="949">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -164,7 +142,7 @@
 					<s n="18" xml:lang="de" type="auto">Und groiß myr dyn liebe huesfrauwe<note xml:id="fn18" type="footnote" n="18"><persName ref="p8051" cert="high">Anna Bullinger, geb. Adlischwyler</persName>.</note> und herr Hansen, deynen broider<note xml:id="fn19" type="footnote" n="19">Johannes Bullinger, den <persName ref="p8175" cert="high">Bitter</persName> auch vom Studium in <placeName ref="l267" cert="high">Köln</placeName> her kannte.</note>.</s>
 				</p>
 				<p>
-					<s n="19" xml:lang="de" type="manual">Datum zo Collen, anno 33 uff maentag nae Letare Jh[erusa]l[e]m.</s>
+					<s n="19" xml:lang="de" type="manual">Datum zo <persName ref="p8462" cert="high">Collen</persName>, anno 33 uff maentag nae Letare Jh[erusa]l[e]m.</s>
 				</p>
 				<p>
 					<s n="20" xml:lang="la" type="auto"><persName ref="p8175" cert="high">Theodericus Bitter</persName> Wipperfordensis.</s>

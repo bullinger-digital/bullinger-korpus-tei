@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,220</idno>
 						<altIdentifier>
@@ -91,29 +83,11 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11726">
 				<correspAction type="sent">
-					<persName ref="p8055" cert="high">
-						<!--
-						<surname cert="high">Blarer (Blaurer)</surname>
-						<forename cert="high">Ambrosius</forename>
-						<graphic type="portrait" url="portraits/392_Blarer_Ambrosius.png"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Ambrosius_Blarer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118663763"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
-						-->
-					</persName>
+					<persName ref="p8055" cert="high"/>
 					<date when="1542-10-23" cert="high">nach 23. Oktober 1542</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11727"/>
@@ -139,8 +113,8 @@
 				<language ident="de" usage="897">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -161,15 +135,15 @@
 		<body>
 			<div xml:id="div1" corresp="regest1">
 				<p>
-					<s n="1" xml:lang="de" type="manual">17. October in Antorff: 6. Octobris ist unser volck für <placeName ref="l1950" cert="high">Dury</placeName> komen, 6 schütz thon, sprach gehalten, und nachdems durchs rathuß geschossen, ist concordiert und Dury uffgeben worden uff gnad und ungnad; habend muessen sechtzigtusend fl. geben, davon zehentusend gewendt sollen werden, die statt vest zů machen.</s>
+					<s n="1" xml:lang="de" type="manual">17. October in Antorff: 6. Octobris ist unser volck für <placeName ref="l1950" cert="high">Dury</placeName> komen, 6 schütz thon, sprach gehalten, und nachdems durchs rathuß geschossen, ist concordiert und <placeName ref="l1950" cert="high">Dury</placeName> uffgeben worden uff gnad und ungnad; habend muessen sechtzigtusend fl. geben, davon zehentusend gewendt sollen werden, die statt vest zů machen.</s>
 					<s n="2" xml:lang="de" type="manual">7. Octobris sind die grossen Hansen mit 400 pferden hinin geritten, haben den rat abgesetzt, ouch jung und allt schweren muessen dem hertzog von Braband und kaisser, muessend ouch 200 knecht halten uff iren kosten; der schultbaiß ist gewichen.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="de" type="manual">Furter ist unser volck uff Gulch zogen, dazwyschen ain schloss uff 1 1/2 myl von Dury, haist Hambach; von dem schloss haben sy 1 1/2 myl uff Gulch.</s>
-					<s n="4" xml:lang="de" type="manual">Hat sich die statt uff 10. ditto ouch uffgeben mit vorbehaltnuß lyb und gůts, wie die von Dury gethon haben; werden aber ouch ain grosse summa geltz geben muessen.</s>
-					<s n="5" xml:lang="de" type="manual">Hambach aber ist das schloss, da der furst und die allt frauw hoff gehalten; haben sy halb offen funden, wyn und andere notturfft sampt ainem gschütz; waiß man nitt, ob sys verbrent habend.</s>
+					<s n="3" xml:lang="de" type="manual">Furter ist unser volck uff Gulch zogen, dazwyschen ain schloss uff 1 1/2 myl von <placeName ref="l1950" cert="high">Dury</placeName>, haist <placeName ref="l1951" cert="high">Hambach</placeName>; von dem schloss haben sy 1 1/2 myl uff Gulch.</s>
+					<s n="4" xml:lang="de" type="manual">Hat sich die statt uff 10. ditto ouch uffgeben mit vorbehaltnuß lyb und gůts, wie die von <placeName ref="l1950" cert="high">Dury</placeName> gethon haben; werden aber ouch ain grosse summa geltz geben muessen.</s>
+					<s n="5" xml:lang="de" type="manual"><placeName ref="l1951" cert="high">Hambach</placeName> aber ist das schloss, da der furst und die allt frauw hoff gehalten; haben sy halb offen funden, wyn und andere notturfft sampt ainem gschütz; waiß man nitt, ob sys verbrent habend.</s>
 					<s n="6" xml:lang="de" type="manual">Aber all andere schloss und flecken, so den edlen zůgehören, die durch Brabant gezogen, haben sy verbrendt; ettlich hat man gebrandschatzet, nympt den ayd von inen, muessend furter victualia zůfueren für die knecht.</s>
-					<s n="7" xml:lang="de" type="manual">Nur sind sy furt fuer Pergen zogen, lygt dry myl von Gulch uff Cöln zů; die werden sich von stund ergeben; so soll der ain huf vor Irrtordt ligen; wirt sich ouch uffgeben, allso das das land Gülch vast ingenomen.</s>
+					<s n="7" xml:lang="de" type="manual">Nur sind sy furt fuer Pergen zogen, lygt dry myl von Gulch uff Cöln zů; die werden sich von stund ergeben; so soll der ain huf vor <placeName ref="l1952" cert="high">Irrtordt</placeName> ligen; wirt sich ouch uffgeben, allso das das land Gülch vast ingenomen.</s>
 				</p>
 				<p>
 					<s n="8" xml:lang="de" type="manual">Wirt nun an das land Clef gon; da ist kain widerstand; dann unser volck ye lenger ye stercker, und das kriegsvolck wirdt sich disen wynter im land zů Gulch halten.</s>
@@ -190,7 +164,7 @@
 					<s n="19" xml:lang="de" type="manual">Sovyl usß Antorff.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="de" type="manual">Uss Wien schribt man, das die unsern mitt spott und schand abziechind und byß in tusend mann am sturm vor Pest verloren habind; sind vyl knecht kranck, unnd ist kain gelt mehr vorhanden und das vorgend vergeblich usgeben.</s>
+					<s n="20" xml:lang="de" type="manual">Uss <placeName ref="l546" cert="high">Wien</placeName> schribt man, das die unsern mitt spott und schand abziechind und byß in tusend mann am sturm vor <placeName ref="l1841" cert="high">Pest</placeName> verloren habind; sind vyl knecht kranck, unnd ist kain gelt mehr vorhanden und das vorgend vergeblich usgeben.</s>
 					<s n="21" xml:lang="de" type="manual">Gott erbarm sich unser sund!</s>
 				</p>
 				<p>

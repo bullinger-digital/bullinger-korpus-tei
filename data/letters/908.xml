@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,88</idno>
 					</msIdentifier>
@@ -62,14 +54,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,187</idno>
 					</msIdentifier>
@@ -79,26 +63,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/908">
 				<correspAction type="sent">
-					<persName ref="p8415" cert="high">
-						<!--
-						<surname cert="high">Micronius (de Cleyne)</surname>
-						<forename cert="high">Martin</forename>
-						-->
-					</persName>
+					<persName ref="p8415" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1550-05-20" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -122,8 +92,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -158,32 +128,32 @@
 					<s n="8" xml:lang="la" type="auto">Horum aliquot ad Christum convertuntur.</s>
 				</p>
 				<p>
-					<s n="9" xml:lang="la" type="auto">Expectantur aliquot nobiles <persName type="auto_name">Gallię</persName> qui pacem confirment.</s>
+					<s n="9" xml:lang="la" type="auto">Expectantur aliquot nobiles <placeName type="auto_name">Gallię</placeName> qui pacem confirment.</s>
 					<s n="10" xml:lang="la" type="auto">Faxit deus ut sit perpetua!</s>
 					<s n="11" xml:lang="la" type="auto">Magna hic est rerum vicissitudo, sed, deo laus, in melius, quod religionis attinet negocium.</s>
 				</p>
 				<p>
 					<s n="12" xml:lang="la" type="auto">D. <persName type="auto_name">dux Somerseti</persName> in ordinem consiliariorum receptus est honorifice circa 9 aprilis.</s>
-					<s n="13" xml:lang="la" type="auto">Expectamus exactiorem ecclesię reformationem in sequenti parlamento, quod ad octobrem translatum est D. <persName type="auto_name">Hoperus</persName> multum et utiliter in ecclesia Christi laborat; a quo omnem eius statum posses discere, si illi scribere vacaret.</s>
+					<s n="13" xml:lang="la" type="auto">Expectamus exactiorem ecclesię reformationem in sequenti parlamento, quod ad octobrem translatum est D. <persName ref="p1560" cert="high">Hoperus</persName> multum et utiliter in ecclesia Christi laborat; a quo omnem eius statum posses discere, si illi scribere vacaret.</s>
 					<s n="14" xml:lang="la" type="auto">Nuncius urget, nec ipse est domi: ego itaque quantum de eius negociis cognosco, scribam.</s>
 				</p>
 				<p>
 					<s n="15" xml:lang="la" type="auto">Conciones eius quadragesimales ante regem fuerunt liberrimę ac utilissimę.</s>
 					<s n="16" xml:lang="la" type="auto">Tantum ociosos quosdam nobiles ac episcopos in se concitavit, praesertim quod ad exactiorem ecclesię reformationem inhortaretur regem et consiliarios.</s>
-					<s n="17" xml:lang="la" type="auto">Verum rex omnia gratissimo animo accepit, uti postea declaravit: nam obtulit ei per cancellarium episcopatum Gloccestriensem 7 aprilis; sed negavit <persName ref="p1560" cert="high">Hoperus</persName> se accepturum, nisi a superstitionibus liber episcopatus illi concederetur.</s>
+					<s n="17" xml:lang="la" type="auto">Verum rex omnia gratissimo animo accepit, uti postea declaravit: nam obtulit ei per cancellarium episcopatum <placeName ref="l177" cert="high">Gloccestriensem</placeName> 7 aprilis; sed negavit <persName ref="p1560" cert="high">Hoperus</persName> se accepturum, nisi a superstitionibus liber episcopatus illi concederetur.</s>
 				</p>
 				<p>
 					<s n="18" xml:lang="la" type="auto">Difficile hoc fuit impetrare obsistentibus admodum episcopis, qui vestes defendere ac inventa per creaturas voluerunt.</s>
 					<s n="19" xml:lang="la" type="auto">Obtinuit tamen victoriam praeter omnium hominum spem 15 maii.</s>
-					<s n="20" xml:lang="la" type="auto">Itaque iam episcopus est <placeName type="auto_name">Gloccestriensis</placeName>, brevi ad suum episcopatum migraturus.</s>
+					<s n="20" xml:lang="la" type="auto">Itaque iam episcopus est <placeName ref="l177" cert="high">Gloccestriensis</placeName>, brevi ad suum episcopatum migraturus.</s>
 					<s n="21" xml:lang="la" type="auto">Statuit ante in his proximis festis invisere parentes.</s>
-					<s n="22" xml:lang="la" type="auto">Inde huc reversus abibit <persName type="auto_name">Glocestriam</persName>, volente domino.</s>
+					<s n="22" xml:lang="la" type="auto">Inde huc reversus abibit <placeName ref="l177" cert="high">Glocestriam</placeName>, volente domino.</s>
 					<s n="23" xml:lang="la" type="auto">Precor dominum ut eradicet et plantet in utilitatem ecclesię Christi.</s>
 				</p>
 				<p>
 					<s n="24" xml:lang="la" type="auto">His diebus, absoluto <persName ref="p4616" cert="high">Daniele</persName>, legit prophetam Nahum; quem cum absolvisset, incoepit prophetam Zachariam 5 maii.</s>
 					<s n="25" xml:lang="la" type="auto">Accepit literas tuas et decades ad rege 22 aprilis.</s>
-					<s n="26" xml:lang="la" type="auto">Obtulit tum librum regi egregie ornatum, 25 aprilis; qui quam fuerit gratus regi, melius ex ipsomet <persName type="auto_name">Hopero</persName> postea discas.</s>
+					<s n="26" xml:lang="la" type="auto">Obtulit tum librum regi egregie ornatum, 25 aprilis; qui quam fuerit gratus regi, melius ex ipsomet <persName ref="p1560" cert="high">Hopero</persName> postea discas.</s>
 					<s n="27" xml:lang="la" type="auto">Tuum nomen gratum esse incipit episcopo <placeName type="auto_name">Cantuariensi</placeName>, quantum intelligo.</s>
 				</p>
 				<p>
@@ -191,7 +161,7 @@
 					<s n="29" xml:lang="la" type="auto">Venit omnibus piis gratissimus.</s>
 				</p>
 				<p>
-					<s n="30" xml:lang="la" type="auto">Decrevit hęrere <persName type="auto_name">Londini</persName>, ecclesiamque Germanicam instituere, cui ipse praeficiatur superintendens.</s>
+					<s n="30" xml:lang="la" type="auto">Decrevit hęrere <persName type="auto_name">Londini</persName>, ecclesiamque <placeName type="auto_name">Germanicam</placeName> instituere, cui ipse praeficiatur superintendens.</s>
 					<s n="31" xml:lang="la" type="auto">Et sane res est imprimis necessaria, ut hic verbum dei sonet Germanice ad avertendas hęreses quae inferuntur a nostratibus.</s>
 					<s n="32" xml:lang="la" type="auto">Sunt plurimi <persName ref="p4204" cert="high">Arriani</persName>, <persName type="auto_name">Marcionistę</persName>, Libertini, Danitistę, et similia monstra.</s>
 					<s n="33" xml:lang="la" type="auto">Fuit his diebus, nempe maii 2, mulier quaedam viva exusta ob negatam incarnationem Christi.</s>
@@ -207,7 +177,7 @@
 				</p>
 				<p>
 					<s n="41" xml:lang="la" type="auto">Liber <persName ref="p8111" cert="high">Petri Martyris</persName> de coena domini versus Anglice imprimi non potuit per episcopos, eosque evangelicos.</s>
-					<s n="42" xml:lang="la" type="auto">D. <persName type="auto_name">Coxus</persName> non amplius est regis paedagogus: est decanus ecclesię <placeName type="auto_name">Westmonasteriensis</placeName>; et si convalescat (periculosissime enim his diebus laboravit), rumor est eum creandum episcopum Wintoniensem.</s>
+					<s n="42" xml:lang="la" type="auto">D. <persName ref="p672" cert="high">Coxus</persName> non amplius est regis paedagogus: est decanus ecclesię <placeName type="auto_name">Westmonasteriensis</placeName>; et si convalescat (periculosissime enim his diebus laboravit), rumor est eum creandum episcopum Wintoniensem.</s>
 				</p>
 				<p>
 					<s n="43" xml:lang="la" type="auto">Ita exclusis impiis episcopis substituuntur pii: quamquam hac quidem in re nihil dum est certi quicquam, quod ego sciam.</s>
@@ -217,7 +187,7 @@
 					<s n="45" xml:lang="la" type="auto">Nos, omni diligentia adhibita, obtinuimus eius liberationem a rege, quae constat libris Anglicis quattuor.</s>
 					<s n="46" xml:lang="la" type="auto">Hęc pecunia corraditur a bonis viris in eleemosinam.</s>
 					<s n="47" xml:lang="la" type="auto">Nomen est ei <persName type="auto_name">Valentino Wermelen</persName>.</s>
-					<s n="48" xml:lang="la" type="auto">Si parentes nosti, et valent, optaremus eam pecuniam remitti ecclesię <persName type="auto_name">Flandricę</persName> quae hic colligitur, et persolvit pro eo.</s>
+					<s n="48" xml:lang="la" type="auto">Si parentes nosti, et valent, optaremus eam pecuniam remitti ecclesię <placeName type="auto_name">Flandricę</placeName> quae hic colligitur, et persolvit pro eo.</s>
 					<s n="49" xml:lang="la" type="auto">Adhuc in carcere manet ad aliquot dies.</s>
 				</p>
 				<p>
@@ -227,8 +197,8 @@
 					<s n="53" xml:lang="la" type="auto"><persName type="auto_name">Ioannes Stumphius</persName> iuvenis est admodum probus et studiosus.</s>
 					<s n="54" xml:lang="la" type="auto">Hanc eius pietatem tibi plurimum commendo.</s>
 					<s n="55" xml:lang="la" type="auto">In hunc quicquid sumitur expensarum non perditur, sed multo cum foenore redibit ad ecclesiam.</s>
-					<s n="56" xml:lang="la" type="auto">D. <persName ref="p8061" cert="high">Utenhovius</persName> apud dominum <persName type="auto_name">Hoperum</persName> manet, ac recte valet: occupatus non potuit scribere: interim se plurimum tibi commendat.</s>
-					<s n="57" xml:lang="la" type="auto">Domina <persName type="auto_name">Anna</persName>, uxor <persName type="auto_name">Hoperi</persName>, non est domi: migravit in cuiusdam nobilis foeminę ędes civitati vicinas ad captandum aerem.</s>
+					<s n="56" xml:lang="la" type="auto">D. <persName ref="p8061" cert="high">Utenhovius</persName> apud dominum <persName ref="p1560" cert="high">Hoperum</persName> manet, ac recte valet: occupatus non potuit scribere: interim se plurimum tibi commendat.</s>
+					<s n="57" xml:lang="la" type="auto">Domina <persName type="auto_name">Anna</persName>, uxor <persName ref="p1560" cert="high">Hoperi</persName>, non est domi: migravit in cuiusdam nobilis foeminę ędes civitati vicinas ad captandum aerem.</s>
 				</p>
 				<p>
 					<s n="58" xml:lang="la" type="auto">Singulare nihil ab illa habeo, nisi quod rectissime valeat cum sua filiola: nec mihi iam vacat illam adire propter importunitatem nuncii.</s>
@@ -236,7 +206,7 @@
 				</p>
 				<p>
 					<s n="60" xml:lang="la" type="auto">Commendare me dignaberis d. uxori tuę, d. <persName ref="p8127" cert="high">Pellicano</persName>, <persName ref="p8171" cert="high">Bibliandro</persName>, <persName ref="p1283" cert="high">Gesnero</persName>, praeceptoribus meis observandis; item <persName ref="p1227" cert="high">Froschouero</persName>, d. <persName ref="p1214" cert="high">Ioanni Frisio</persName> et Sebastiano, reliquisque amicis nostris.</s>
-					<s n="61" xml:lang="la" type="auto">Vidę domini <persName type="auto_name">Zinckii</persName> rogat <persName type="auto_name">Ioanna</persName> ut numeres coronatum suo nomine: curabit tibi restitui per d. <persName type="auto_name">Hoperum</persName>.</s>
+					<s n="61" xml:lang="la" type="auto">Vidę domini <persName type="auto_name">Zinckii</persName> rogat <persName type="auto_name">Ioanna</persName> ut numeres coronatum suo nomine: curabit tibi restitui per d. <persName ref="p1560" cert="high">Hoperum</persName>.</s>
 					<s n="62" xml:lang="la" type="auto">Hęc se totam tibi tuęque familię commendat.</s>
 					<s n="63" xml:lang="la" type="auto">Bene vale.</s>
 					<s n="64" xml:lang="la" type="auto"><placeName ref="l296" cert="high">Londini</placeName> 1550. maii 20.</s>

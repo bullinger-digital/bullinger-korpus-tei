@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 366,247</idno>
 					</msIdentifier>
@@ -74,29 +66,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12061">
 				<correspAction type="sent">
-					<persName ref="p1278" cert="high">
-						<!--
-						<surname cert="high">Gast</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Gast"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/122090284"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415086"/>
-						-->
-					</persName>
+					<persName ref="p1278" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1544-10-15" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12062"/>
@@ -121,8 +96,8 @@
 				<language ident="la" usage="994">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -146,9 +121,9 @@
 					<s n="7" xml:lang="la" type="auto">Verum melius ea perpendis quam ego, cui maior cognitio divinarum rerum et fęcundius ingenium ad deprehendendum dolos.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto"><placeName ref="l16" cert="high">Itali</placeName> et <placeName ref="l29" cert="high">Hispani</placeName> ex militia redeunt catervatim; valde locupletes sunt; de <placeName ref="l196" cert="high">Helvetiis</placeName> nostris nihil certi audimus.</s>
+					<s n="8" xml:lang="la" type="auto"><placeName ref="l16" cert="high">Itali</placeName> et <placeName ref="l29" cert="high">Hispani</placeName> ex militia redeunt catervatim; valde locupletes sunt; de <placeName ref="l28" cert="high">Helvetiis</placeName> nostris nihil certi audimus.</s>
 					<s n="9" xml:lang="la" type="auto"><persName ref="7637" type="auto_name">Gallus</persName><note xml:id="fn4" type="footnote" n="4"><persName ref="p7637" cert="high">König Franz I.</persName></note> totum exercitum contra<pb type="edition" next="469"/> <persName ref="18505" type="auto_name">Anglum</persName><note xml:id="fn5" type="footnote" n="5"><persName ref="p18505" cert="high">König Heinrich VIII.</persName></note> ducit.</s>
-					<s n="10" xml:lang="la" type="auto">Aiunt Anglum aufugisse in <placeName ref="l3002" cert="high">Angliam</placeName>, exercitum Gallicum subsequi, Boloniam<note xml:id="fn6" type="footnote" n="6"><placeName ref="l2122" cert="high">Boulogne</placeName> (heute <placeName ref="l2122" cert="high">Boulogne-sur-Mer</placeName>, Dép. Pas-de-Calais).</note> civitatem obsedisse, quę fere omnino diruta per bombardas<note xml:id="fn7" type="footnote" n="7">Steingeschütze. - Vgl. dazu <bibl>Rozet/Lembey</bibl> 384.</note>.<note xml:id="fn8" type="footnote" n="8"><persName ref="p18505" cert="high">König Heinrich VIII.</persName> hatte Nordfrankreich angegriffen und <placeName ref="l2122" cert="high">Boulogne</placeName> lange belagert. Die Stadt fiel aber erst am 14. September 1544. Ende September zog sich <persName ref="p18505" cert="high">Heinrich VIII.</persName> nach <placeName ref="l9" cert="high">England</placeName> zurück. Anfang Oktober belagerten die Franzosen <placeName ref="l2122" cert="high">Boulogne</placeName>, jedoch vergebens; s. <bibl>Rozet/Lembey</bibl> 188, 503, 505; J[ohn] J[oseph] <hi>Scarisbrick,</hi> Henry VIII, London 1968, S. 447f.</note></s>
+					<s n="10" xml:lang="la" type="auto">Aiunt <persName ref="p18505" cert="high">Anglum</persName> aufugisse in <placeName ref="l3002" cert="high">Angliam</placeName>, exercitum Gallicum subsequi, Boloniam<note xml:id="fn6" type="footnote" n="6"><placeName ref="l2122" cert="high">Boulogne</placeName> (heute <placeName ref="l2122" cert="high">Boulogne-sur-Mer</placeName>, Dép. Pas-de-Calais).</note> civitatem obsedisse, quę fere omnino diruta per bombardas<note xml:id="fn7" type="footnote" n="7">Steingeschütze. - Vgl. dazu <bibl>Rozet/Lembey</bibl> 384.</note>.<note xml:id="fn8" type="footnote" n="8"><persName ref="p18505" cert="high">König Heinrich VIII.</persName> hatte Nordfrankreich angegriffen und <placeName ref="l2122" cert="high">Boulogne</placeName> lange belagert. Die Stadt fiel aber erst am 14. September 1544. Ende September zog sich <persName ref="p18505" cert="high">Heinrich VIII.</persName> nach <placeName ref="l9" cert="high">England</placeName> zurück. Anfang Oktober belagerten die Franzosen <placeName ref="l2122" cert="high">Boulogne</placeName>, jedoch vergebens; s. <bibl>Rozet/Lembey</bibl> 188, 503, 505; J[ohn] J[oseph] <hi>Scarisbrick,</hi> Henry VIII, London 1968, S. 447f.</note></s>
 					<s n="11" xml:lang="la" type="manual">Quid futurum sit, nescimus per hyemem.</s>
 					<s n="12" xml:lang="la" type="auto">Verum hodie quidam nobilis<note xml:id="fn9" type="footnote" n="9">Unbekannt.</note> ex castris Helvetiorum venit, quem alloquar; siquid, quod verisimile fuerit, dixerit, tibi proximo tabellione scribam.</s>
 				</p>

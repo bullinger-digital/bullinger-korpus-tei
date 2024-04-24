@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms A 65,343 ff.</idno>
 					</msIdentifier>
@@ -50,14 +42,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 99,60</idno>
 					</msIdentifier>
@@ -67,30 +51,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4653">
 				<correspAction type="sent">
-					<persName ref="p8009" cert="high">
-						<!--
-						<surname cert="high">Fabricius Montanus (Schmid)</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/1075_Fabricius_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Fabricius_Montanus"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/104045698"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11414870"/>
-						-->
-					</persName>
+					<persName ref="p8009" cert="high"/>
 					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1561-02-05" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -117,8 +83,8 @@
 				<language ident="de" usage="758">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -149,7 +115,7 @@
 					<s n="6" xml:lang="de" type="auto">Daa hat sich das <placeName type="auto_name">Gottshuß</placeName>, das ist der größer theyl, obglych tusentfalt pratickhen darzwüschen geloffen, uff ein nüws verbunden, kurtzumb die pfaffenknächt uß den rhäten ze han.</s>
 					<s n="7" xml:lang="de" type="auto">Und als noch desselben tags gemeine 3 <placeName ref="l648" cert="high">Pündt</placeName> wider zesamen kommen, ist alda erschinen bischoff Thomas mit einer großen pomp; man achtet, das iren ob den hundert gesyn, die ime uff dem fuͦß nachzogen <foreign xml:lang="la">(vidi ipse et incidi).</foreign></s>
 					<s n="8" xml:lang="la" type="auto">Primus ab episcopo incedit senex Traversus.</s>
-					<s n="9" xml:lang="de" type="auto">Derselb Travers hat ouch vor den überigen <persName type="auto_name">Zween Pündten</persName> ein große klag wider unsere stat gefürt, demnach wider die anderen zuͦgewanten.</s>
+					<s n="9" xml:lang="de" type="auto">Derselb Travers hat ouch vor den überigen <placeName type="auto_name">Zween Pündten</placeName> ein große klag wider unsere stat gefürt, demnach wider die anderen zuͦgewanten.</s>
 				</p>
 				<p>
 					<s n="10" xml:lang="de" type="auto">Daruff erstlich der statrichter im nammen gemeiner stat geanwortet <foreign xml:lang="la">(nam consules et praefectus urbis sunt legati);</foreign> hat dem bischoff wüst under ougen abgkert und under anderem geredt, er sye hinderrucks 3 Pünten zuͦgefaren und habe uff die gemeinden ußgeschriben 3 artickel, deren der erst, das man die schuͦl, so bißhar zuͦ <placeName ref="l98" cert="high">Cur</placeName> von gemeinem Gottshuß erhalten, abthüye <foreign xml:lang="la">(de schola audies alias; non est res magni momenti; mallem <placeName ref="l98" cert="high">Curienses</placeName> per se habere scholam, quod facient etc.);</foreign> demnach, das man die [stat Cur] irer fryheyten entsetze und die brieff gemeines Gottshuß und das gottshußsigel von inen nemme, <foreign xml:lang="la">et alia;</foreign> des werde er den tag nimmermeer erleben, <foreign xml:lang="la">et alia multa.</foreign></s>
@@ -185,7 +151,7 @@
 					<s n="26" xml:lang="la" type="auto">Sed vere et libere dico vos nimis cessare; nam si nescis, quomodo se c[onsul] vester <placeName ref="l21" cert="high">Badenae</placeName> gesserit, ex me omnem historiam scire poteris.</s>
 					<s n="27" xml:lang="de" type="auto">Ach gott, ach gott, wöllend ir zuͦluͦgen biß etc.?</s>
 					<s n="28" xml:lang="la" type="auto">- Utinam <persName type="auto_name">Hylerus</persName> ad nos veniret, cui ego quidem melius prospectum velim; sed tamen multum iuvare poterit causam evangelii.</s>
-					<s n="29" xml:lang="la" type="auto">Adorate vos vestros 5 Pagos, quam diu vultis.</s>
+					<s n="29" xml:lang="la" type="auto">Adorate vos vestros <placeName type="auto_name">5 Pagos</placeName>, quam diu vultis.</s>
 				</p>
 				<p>
 					<s n="30" xml:lang="la" type="auto">Tu vides vel ex hoc uno facto, quam dominus strenue laborantes non deserat.</s>

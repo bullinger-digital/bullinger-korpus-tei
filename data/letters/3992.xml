@@ -21,14 +21,6 @@
 			<sourceDesc>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a90">
-							<name>Wittenberg LH</name>
-							<ref target="https://www.clio-online.de/organization/id/organization-12292"/>
-						</repository>
-						<settlement ref="l558">Wittenberg</settlement>
-						<institution>Lutherhalle</institution>
-						-->
 						<repository ref="a90"/>
 						<idno subtype="Autograph">156/167</idno>
 						<idno subtype="Xeroxkopie">IRG</idno>
@@ -44,23 +36,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3992">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<note type="person">Verord. Examinatoren</note>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1559-06-14" cert="high"><note>Fürschlag</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g14" type="pl" role="Bürgermeister" cert="low"/>
-					<roleName ref="g59" type="pl" role="Räte" cert="low"/>
+					<orgName ref="og14pl587" cert="low"/>
+					<orgName ref="og59pl587" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -83,8 +65,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

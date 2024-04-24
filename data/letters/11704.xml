@@ -24,14 +24,6 @@
 				<bibl n="15" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 12 (Briefe des Jahres 1542), bearb. von Rainer Henrich, Alexandra Kess und Chistian Moser, Zürich 2006, 299 S., ISBN 978-3-290-17431-6.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a89">
-							<name>Winterthur SA</name>
-							<ref target="https://stadt.winterthur.ch/gemeinde/verwaltung/stadtkanzlei/stadtarchiv"/>
-						</repository>
-						<settlement ref="l555">Winterthur</settlement>
-						<institution>Stadtarchiv</institution>
-						-->
 						<repository ref="a89"/>
 						<idno subtype="Autograph">AL 167/5</idno>
 					</msIdentifier>
@@ -65,22 +57,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11704">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1542-09-17" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g65" type="pl" role="Schultheissen" cert="high"/>
-					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
+					<orgName ref="og65pl555" cert="high"/>
+					<orgName ref="og59pl555" cert="high"/>
 					<placeName source="l555" cert="low"><orig>Winterthur</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -106,8 +89,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="de">

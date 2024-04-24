@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,245</idno>
 						<altIdentifier>
@@ -73,30 +65,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/11680">
 				<correspAction type="sent">
-					<persName ref="p8418" cert="high">
-						<!--
-						<surname cert="high">Myconius (Geißhüsler)</surname>
-						<forename cert="high">Oswald</forename>
-						<graphic type="portrait" url="portraits/2234_Myconius_Oswald.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Oswald_Myconius"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118735462"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
-						-->
-					</persName>
+					<persName ref="p8418" cert="high"/>
 					<placeName source="l28" cert="high"><orig>Basel</orig></placeName>
 					<date when="1542-06-20" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file11681"/>
@@ -122,8 +96,8 @@
 				<language ident="la" usage="996">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -147,7 +121,7 @@
 					<s n="7" xml:lang="la" type="auto">Quęso te, ut servare, quantum in te est, hominem studeas.</s>
 				</p>
 				<p>
-					<s n="8" xml:lang="la" type="auto">Habemus et nos consulem novum designatum<note xml:id="fn6" type="footnote" n="6">Zu den Bürgermeisterwahlen in Zürich und <placeName ref="l28" cert="high">Basel</placeName> vgl. oben <ref target="file11679">Nr. 1636</ref>, 1-7.</note>, <persName ref="p18029" cert="high">Hemmanum de Offenburg</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="p18029" cert="high">Hemmann (Henman) Offenburg</persName>, von <placeName ref="l28" cert="high">Basel</placeName>, gest. 1559, gehörte ab 1499 dem Rat an. Als Anführer der Basler wurde er in der Schlacht bei <placeName ref="l983" cert="high">Marignano</placeName> (1515) schwer verwundet. Viele Jahre lang war er Landvogt auf der <placeName ref="l1911" cert="high">Farnsburg</placeName> (Kt. <placeName ref="l28" cert="high">Basel</placeName>-Land); das Bürgermeisteramt versah er nur während zweier Amtsperioden (1542 als neuer, 1543 als alter Bürgermeister). - Lit.: <bibl>Gast, Tagebuch</bibl> 158, Anm. [62]; Amerbach, Korr. VI 251, Anm. 4; <bibl>HBLS</bibl> V 340.</note>.</s>
+					<s n="8" xml:lang="la" type="auto">Habemus et nos consulem novum designatum<note xml:id="fn6" type="footnote" n="6">Zu den Bürgermeisterwahlen in Zürich und <placeName ref="l28" cert="high">Basel</placeName> vgl. oben <ref target="file11679">Nr. 1636</ref>, 1-7.</note>, <persName ref="p5996" cert="high">Hemmanum de Offenburg</persName><note xml:id="fn7" type="footnote" n="7"><persName ref="p5996" cert="high">Hemmann (Henman) Offenburg</persName>, von <placeName ref="l28" cert="high">Basel</placeName>, gest. 1559, gehörte ab 1499 dem Rat an. Als Anführer der Basler wurde er in der Schlacht bei <placeName ref="l983" cert="high">Marignano</placeName> (1515) schwer verwundet. Viele Jahre lang war er Landvogt auf der <placeName ref="l1911" cert="high">Farnsburg</placeName> (Kt. <placeName ref="l28" cert="high">Basel-Land</placeName>); das Bürgermeisteramt versah er nur während zweier Amtsperioden (1542 als neuer, 1543 als alter Bürgermeister). - Lit.: <bibl>Gast, Tagebuch</bibl> 158, Anm. [62]; Amerbach, Korr. VI 251, Anm. 4; <bibl>HBLS</bibl> V 340.</note>.</s>
 					<s n="9" xml:lang="la" type="auto">Si recipiet, expectabo, qualiter se gesturus sit.</s>
 					<s n="10" xml:lang="la" type="auto">Nescio, si quid aliud pręter familię nobilitas commendarit.</s>
 					<s n="11" xml:lang="la" type="auto">Vir est in negociis mundi prudens et haud segnis.</s>
@@ -157,7 +131,7 @@
 				<p>
 					<s n="14" xml:lang="la" type="auto">Venit nuncium heri ad nos primos, qui ex nobis ad <persName ref="7637" type="auto_name">Gallum</persName><note xml:id="fn8" type="footnote" n="8"><persName ref="p7637" cert="high">König Franz I. von Frankreich</persName>.</note> procurrerunt, ad unum cęsos.</s>
 					<s n="15" xml:lang="la" type="auto">Tu dic, si quid habes veri, cum primum poteris.</s>
-					<s n="16" xml:lang="la" type="auto">Videor mihi videre consilium dei: <placeName ref="l196" cert="high">Helvetiam</placeName> satis gloriosam extitisse, imo satis durasse.</s>
+					<s n="16" xml:lang="la" type="auto">Videor mihi videre consilium dei: <placeName ref="l28" cert="high">Helvetiam</placeName> satis gloriosam extitisse, imo satis durasse.</s>
 				</p>
 				<p>
 					<s n="17" xml:lang="la" type="auto">Equidem clamo, ut populus ad poenitentiam se convertat, sed frustra.</s>

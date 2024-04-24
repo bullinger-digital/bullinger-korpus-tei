@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 370,18 + 29</idno>
 					</msIdentifier>
@@ -159,30 +151,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12571">
 				<correspAction type="sent">
-					<persName ref="p8018" cert="high">
-						<!--
-						<surname cert="high">Haller d.J.</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/1430_Haller_dJ_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Haller_der_J%C3%BCngere"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/136925588"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413871"/>
-						-->
-					</persName>
+					<persName ref="p8018" cert="high"/>
 					<placeName source="l18" cert="high"><orig>Augsburg</orig></placeName>
 					<date when="1546-08-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12572"/>
@@ -208,8 +182,8 @@
 				<language ident="la" usage="920">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -231,7 +205,7 @@
 			<div xml:id="div1" corresp="regest1">
 				<p>
 					<s n="1" xml:lang="la" type="auto">Salus, pax animique magnitudo per dominum Iesum, servatorem nostrum.</s>
-					<s n="2" xml:lang="la" type="auto">Literae tuae 10. iulii datae<note xml:id="fn1" type="footnote" n="1">Bullingers Brief <ref target="file12541">Nr. 2494</ref>. - Zu dessen Übermittlung durch Blarer s. <ref target="file12561">Nr. 2514</ref>,63.</note>, quibus describis, quid in conventu Badenae<note xml:id="fn2" type="footnote" n="2">Diese Tagsatzung zu <placeName ref="l21" cert="high">Baden</placeName> hatte am 5. Juli begonnen; s. <ref target="file12521">Nr. 2474</ref>,1-4 und Anm. 6. -Zu Bullingers Mitteilungen an <persName ref="p8018" cert="high">Haller</persName> s. <ref target="file12541">Nr. 2494</ref>,33-65.</note> sit actum, quas valde metuebam interceptas esse, 28. eiusdem mensis demum mihi sunt redditae una cum aliis<note xml:id="fn3" type="footnote" n="3">Nicht erhalten in <hi>Blarer BW.</hi></note>, quas Blaurerus ad nos scripsit.</s>
+					<s n="2" xml:lang="la" type="auto">Literae tuae 10. iulii datae<note xml:id="fn1" type="footnote" n="1">Bullingers Brief <ref target="file12541">Nr. 2494</ref>. - Zu dessen Übermittlung durch Blarer s. <ref target="file12561">Nr. 2514</ref>,63.</note>, quibus describis, quid in conventu <placeName ref="l21" cert="high">Badenae</placeName><note xml:id="fn2" type="footnote" n="2">Diese Tagsatzung zu <placeName ref="l21" cert="high">Baden</placeName> hatte am 5. Juli begonnen; s. <ref target="file12521">Nr. 2474</ref>,1-4 und Anm. 6. -Zu Bullingers Mitteilungen an <persName ref="p8018" cert="high">Haller</persName> s. <ref target="file12541">Nr. 2494</ref>,33-65.</note> sit actum, quas valde metuebam interceptas esse, 28. eiusdem mensis demum mihi sunt redditae una cum aliis<note xml:id="fn3" type="footnote" n="3">Nicht erhalten in <hi>Blarer BW.</hi></note>, quas Blaurerus ad nos scripsit.</s>
 					<s n="3" xml:lang="la" type="auto">Intellexi vero, antequam illas reciperem, quid fuerit inter novem illos Helvetiorum pagos conclusum<note xml:id="fn4" type="footnote" n="4">Die Neun Orte hatten nämlich in <placeName ref="l21" cert="high">Baden</placeName> beschlossen, alle eidgenössischen Söldner aus Deutschland abzuberufen; s. <ref target="file12556">Nr. 2509</ref>, Anm. 7.</note>.</s>
 					<s n="4" xml:lang="la" type="auto">Plenius tamen omnia tuae exponebant literae.</s>
 					<s n="5" xml:lang="la" type="auto">Ago ergo tibi gratias, qui tam diligenter cuncta mihi, quae apud vos geruntur, significes.</s>
@@ -320,7 +294,7 @@
 					<s n="64" xml:lang="la" type="auto">Sed cur hoc fecerint, etiam scio.</s>
 					<s n="65" xml:lang="la" type="auto">Petiissent iam, ut eis adessent, nisi sumptus essent.</s>
 					<s n="66" xml:lang="la" type="auto">Ver[e] enim dico: Tantos facere nostros sumptus ut nihil supra.</s>
-					<s n="67" xml:lang="de" type="auto"><foreign xml:lang="la">Audi[o] a viris non minimis,</foreign> si möchtind doch in iren kosten uff die musterpletz kon, sich an zimmlicher<note xml:id="fn55" type="footnote" n="55">angemessener.</note> bsoldung lassen bnuͤgen, diewyl man hie nitt inn <placeName ref="l28" cert="high">Franckrych</placeName> krieget, sonder umb der warhei[t] willen.</s>
+					<s n="67" xml:lang="de" type="auto"><foreign xml:lang="la">Audi[o] a viris non minimis,</foreign> si möchtind doch in iren kosten uff die musterpletz kon, sich an zimmlicher<note xml:id="fn55" type="footnote" n="55">angemessener.</note> bsoldung lassen bnuͤgen, diewyl man hie nitt inn <placeName ref="l11" cert="high">Franckrych</placeName> krieget, sonder umb der warhei[t] willen.</s>
 					<s n="68" xml:lang="de" type="auto">Die sott<note xml:id="fn56" type="footnote" n="56">sollte.</note> inen so lieb sin, das si ee<note xml:id="fn57" type="footnote" n="57">lieber.</note> etwas mangel littindt, auch zuͦstuntind<note xml:id="fn58" type="footnote" n="58">beistehen sollten.</note>, damitt dieselb erhalten wurdt.</s>
 					<s n="69" xml:lang="la" type="auto">Haec et huiusmodi sparguntur passim.</s>
 					<s n="70" xml:lang="la" type="auto">Rogo, ne aegre feras, quod haec li[be]rius scribo.</s>

@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1466 f.</idno>
 					</msIdentifier>
@@ -53,14 +45,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,24</idno>
 						<idno subtype="Hinweis">1550!</idno>
@@ -71,28 +55,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/813">
 				<correspAction type="sent">
-					<persName ref="p8061" cert="high">
-						<!--
-						<surname cert="high">Utenhove d.Ä.</surname>
-						<forename cert="high">Jan</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Jan_van_Utenhove"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/130065803"/>
-						-->
-					</persName>
+					<persName ref="p8061" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1550-01-20" cert="low">nach 20. Januar 1550<note type="Datum">so ist nach J. ten Doornkaat zu korrigieren der auf «1549» Jan. 20. datierte Brief (= ID 410)</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -119,8 +87,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -156,14 +124,14 @@
 					<s n="9" xml:lang="la" type="auto">Episcopatu tamen suo iamdudum est privatus, sicuti tibi non ignotum esse nihil ambigo.</s>
 					<s n="10" xml:lang="la" type="auto"><placeName type="auto_name">Vintoniensis</placeName> quoque iam arctius constringitur.</s>
 					<s n="11" xml:lang="la" type="auto">Perdat deus omnes, qui insidiantur glorię nominis eius.</s>
-					<s n="12" xml:lang="la" type="auto">Cęterum de domino <persName type="auto_name">Hopero</persName>, amico utriusque nostrum ac nominis Tigurinorum multo studiosissimo, nihil aliud scribam, quam quod summo studio hic promoveat regnum Christi, quod facit summa fide ac diligentia maiore, quam ferat habitus corporis.</s>
+					<s n="12" xml:lang="la" type="auto">Cęterum de domino <persName ref="p1560" cert="high">Hopero</persName>, amico utriusque nostrum ac nominis Tigurinorum multo studiosissimo, nihil aliud scribam, quam quod summo studio hic promoveat regnum Christi, quod facit summa fide ac diligentia maiore, quam ferat habitus corporis.</s>
 					<s n="13" xml:lang="la" type="auto">Non credas, mi Bulingere, quanto cum emolumento quantoque cum hominum ex omni ordine applausu versetur in suo ministerio; nam plurimi etiam ex ditioribus ad eius predicationem sunt conversi ad fidem, omnesque, qui favent veritati, etiam proceres ipsi ac episcopi, virum exosculantur.</s>
 				</p>
 				<p>
 					<s n="14" xml:lang="la" type="auto">Dominus deus adsit ei suo spiritu, sine quo non facile diu posset ferre tantam provinciam, quę certe est maior, quam ut commo[de ea]m possit sustinere; ita enim est comparatus ipse, ut nihil cuiquam mortalium queat denegare.</s>
 				</p>
 				<p>
-					<s n="15" xml:lang="la" type="auto">Saluta, queso, ex me uxorem tuam, D. <persName ref="p8171" cert="high">Bibliandrum</persName>, D. <persName ref="p8011" cert="high">Gualterum</persName>, D. <persName ref="p4091" cert="high">Zwinglium</persName>, D. Wolfium, D. <persName type="auto_name">Ghesnerum</persName>, <persName type="auto_name">Sebastianum</persName> ac <persName ref="p1214" cert="high">Phrysium</persName>, si quem videris, ut interim D. <persName ref="p8127" cert="high">Pellicanum</persName>, bonum patrem, D. Butlerum cum coniuge ac Lelium nostrum non pretermittam; D. <persName ref="p8459" cert="high">Othonem</persName> quoque meo salutabis nomine.</s>
+					<s n="15" xml:lang="la" type="auto">Saluta, queso, ex me uxorem tuam, D. <persName ref="p8171" cert="high">Bibliandrum</persName>, D. <persName ref="p8011" cert="high">Gualterum</persName>, D. <persName ref="p4091" cert="high">Zwinglium</persName>, D. Wolfium, D. <persName ref="p1283" cert="high">Ghesnerum</persName>, <persName type="auto_name">Sebastianum</persName> ac <persName ref="p1214" cert="high">Phrysium</persName>, si quem videris, ut interim D. <persName ref="p8127" cert="high">Pellicanum</persName>, bonum patrem, D. Butlerum cum coniuge ac Lelium nostrum non pretermittam; D. <persName ref="p8459" cert="high">Othonem</persName> quoque meo salutabis nomine.</s>
 					<s n="16" xml:lang="la" type="auto">Vale, vir ornatissime ac praeceptor abservande in domino, cui ego te ac tuum ministerium commendo ex animo.</s>
 					<s n="17" xml:lang="la" type="auto">Protectoris nostri ducis <placeName type="auto_name">Somerseti</placeName> innocentia iam omnibus constare cepit, quem spero hac castigatione utiliorem fore ecclesię quam unquam antea.</s>
 				</p>
@@ -175,7 +143,7 @@
 				</p>
 				<p>
 					<s n="22" xml:lang="la" type="auto">Tuus vere et ex animo <persName ref="p8061" cert="high">Ioannes Utenhovius</persName>.</s>
-					<s n="23" xml:lang="la" type="auto">D. <persName type="auto_name">Hoperus</persName> te iussit plurimum salvere una sua cum uxore, quę libens ad te interdum scriberet loco mariti, si Germanicam exactius teneret.</s>
+					<s n="23" xml:lang="la" type="auto">D. <persName ref="p1560" cert="high">Hoperus</persName> te iussit plurimum salvere una sua cum uxore, quę libens ad te interdum scriberet loco mariti, si Germanicam exactius teneret.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse:]</note>

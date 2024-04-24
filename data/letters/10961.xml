@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Original">E II 337,208</idno>
 						<altIdentifier>
@@ -69,14 +61,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Kopie">E II 337,207v und 208a</idno>
 					</msIdentifier>
@@ -86,16 +70,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/10961">
 				<correspAction type="sent">
-					<roleName ref="g65" type="pl" role="Schultheissen" cert="high"/>
-					<roleName ref="g59" type="pl" role="Räte" cert="high"/>
-					<roleName ref="g12" type="pl" role="Burger" cert="high"/>
+					<orgName ref="og65pl41" cert="high"/>
+					<orgName ref="og59pl41" cert="high"/>
+					<orgName ref="og12pl41" cert="high"/>
 					<placeName source="l41" cert="high"><orig>Bern</orig></placeName>
 					<date when="1536-11-29" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g38" type="pl" role="Kirchenvorsteher" cert="high">
-						<orig>die Vorsteher der Zürcher Kirche</orig>
-					</roleName>
+					<orgName ref="og38pl587" cert="high">die Vorsteher der Zürcher Kirche</orgName>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -110,8 +92,8 @@
 				<language ident="de" usage="979">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

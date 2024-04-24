@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4976" type="Hinweis" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4976" type="Brief" source="keine" n="">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
@@ -20,16 +20,8 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="scan">Zürich StA</bibl>
-				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
+				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 374,377</idno>
 						<altIdentifier>
@@ -47,22 +39,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4976">
 				<correspAction type="sent">
-					<persName ref="p8111" cert="high">
-						<!--
-						<surname cert="high">Vermigli (Vermilius)</surname>
-						<forename cert="high">Peter Martyr (Pietro Martire)</forename>
-						<graphic type="portrait" url="portraits/3410_Vermigli_Pietro.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Peter_Martyr_Vermigli"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118768123"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417300"/>
-						-->
-					</persName>
+					<persName ref="p8111" cert="high"/>
 					<placeName source="l478" cert="high"><orig>St. Germain en Laye</orig></placeName>
 					<date when="1561-09-19" cert="low"><note>Datum unsicher  [1561] September 19.  Hinweis</note></date>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g14" type="pl" role="Bürgermeister" cert="high"/>
-					<roleName ref="g59" type="sg" role="Rat" cert="high"/>
+					<orgName ref="og14pl587" cert="high"/>
+					<orgName ref="og59sl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -77,12 +60,11 @@
 					<ref type="next_with_addressee_as_sender" target="file5123"/>
 					<ref type="prev_with_addressee_as_sender" target="file4669"/>
 					<ref type="child" target="file5469"/>
-					<ref type="parent" target="file5469"/>
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

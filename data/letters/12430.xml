@@ -24,14 +24,6 @@
 				<bibl n="19" type="footnotes">Heinrich Bullinger Werke, Briefwechsel Band 16 (Briefe von Januar bis Mai 1546), bearb. von Reinhard Bodenmann, Alexandra Kess und Judith Steiniger, Zürich 2014, 443 S., ISBN 978-3-290-17760-7.</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a78">
-							<name>St. Gallen KB</name>
-							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
-						</repository>
-						<settlement ref="l474">St. Gallen</settlement>
-						<institution>Kantonsbibliothek Vadiana</institution>
-						-->
 						<repository ref="a78"/>
 						<idno subtype="Autograph">Ms 35 (VBS VI),114</idno>
 						<idno subtype="Quelle">https://swisscollections.ch/Record/991170524626305501/Holdings?openHierarchy=true#tabnav</idno>
@@ -88,30 +80,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12430">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1546-03-18" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8055" cert="high">
-						<!--
-						<surname cert="high">Blarer (Blaurer)</surname>
-						<forename cert="high">Ambrosius</forename>
-						<graphic type="portrait" url="portraits/392_Blarer_Ambrosius.png"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Ambrosius_Blarer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118663763"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11445074"/>
-						-->
-					</persName>
+					<persName ref="p8055" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12431"/>
@@ -137,8 +111,8 @@
 				<language ident="la" usage="931">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -178,7 +152,7 @@
 					<s n="19" xml:lang="la" type="auto">Requiro hic a te officium fratris.</s>
 				</p>
 				<p>
-					<s n="20" xml:lang="de" type="auto">Es kumpt ein red uß <placeName ref="l28" cert="high">Franckrych</placeName>, der koͤnig<note xml:id="fn14" type="footnote" n="14"><persName ref="p7637" cert="high">Franz I.</persName></note> schick ein reysigen züg<note xml:id="fn15" type="footnote" n="15">reysigen züg: Heer.</note> in das Pemondt,<note xml:id="fn16" type="footnote" n="16">Diese Nachricht steht wohl in Zusammenhang mit den Gerüchten über einen erneuten Krieg zwischen <placeName ref="l11" cert="high">Frankreich</placeName> und <persName ref="p18538" cert="high">Karl V.</persName>, vgl. <ref target="file12410">Nr. 2363</ref>,9-11; <ref target="file12426">Nr. 2379</ref>,33.</note> und werde Morellus<note xml:id="fn17" type="footnote" n="17"><persName ref="p944" cert="high">Antoine Morelet du Museau</persName>, Seigneur de la Marche-Ferrière, von März bis November 1546 erneut Gesandter <placeName ref="l11" cert="high">Frankreichs</placeName> in der <placeName ref="l196" cert="high">Schweiz</placeName>; s. Edouard <hi>Rott,</hi> Histoire de la représentation diplomatique de la France auprès des cantons suisses, de leurs alliés et de leurs confédérés, Bd. 1: 1430-1559, Bern 1900, S. 332-334.</note> herus gen Solenthurn<note xml:id="fn18" type="footnote" n="18"><placeName ref="l760" cert="high">Solothurn</placeName>, Sitz des französischen Gesandten in der <placeName ref="l196" cert="high">Schweiz</placeName>.</note> kummen mitt gaͤllt.</s>
+					<s n="20" xml:lang="de" type="auto">Es kumpt ein red uß <placeName ref="l11" cert="high">Franckrych</placeName>, der koͤnig<note xml:id="fn14" type="footnote" n="14"><persName ref="p7637" cert="high">Franz I.</persName></note> schick ein reysigen züg<note xml:id="fn15" type="footnote" n="15">reysigen züg: Heer.</note> in das Pemondt,<note xml:id="fn16" type="footnote" n="16">Diese Nachricht steht wohl in Zusammenhang mit den Gerüchten über einen erneuten Krieg zwischen <placeName ref="l11" cert="high">Frankreich</placeName> und <persName ref="p18538" cert="high">Karl V.</persName>, vgl. <ref target="file12410">Nr. 2363</ref>,9-11; <ref target="file12426">Nr. 2379</ref>,33.</note> und werde Morellus<note xml:id="fn17" type="footnote" n="17"><persName ref="p944" cert="high">Antoine Morelet du Museau</persName>, Seigneur de la Marche-Ferrière, von März bis November 1546 erneut Gesandter <placeName ref="l11" cert="high">Frankreichs</placeName> in der <placeName ref="l28" cert="high">Schweiz</placeName>; s. Edouard <hi>Rott,</hi> Histoire de la représentation diplomatique de la France auprès des cantons suisses, de leurs alliés et de leurs confédérés, Bd. 1: 1430-1559, Bern 1900, S. 332-334.</note> herus gen Solenthurn<note xml:id="fn18" type="footnote" n="18"><placeName ref="l760" cert="high">Solothurn</placeName>, Sitz des französischen Gesandten in der <placeName ref="l28" cert="high">Schweiz</placeName>.</note> kummen mitt gaͤllt.</s>
 					<s n="21" xml:lang="la" type="auto">Quam vere dicatur, ignoro.</s>
 				</p>
 				<p>

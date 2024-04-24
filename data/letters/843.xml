@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 337,454 f.</idno>
 					</msIdentifier>
@@ -50,14 +42,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,76</idno>
 						<idno subtype="Hinweis">dat.: 24. Feb. 1550</idno>
@@ -65,13 +49,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a34">
-							<name>Emden BGK</name>
-						</repository>
-						<settlement ref="l138">Emden</settlement>
-						<institution>Bibliothek der Grossen Kirche</institution>
-						-->
 						<repository ref="a34"/>
 						<idno subtype="Kopie">Hs. fol. 37, Nr. 54</idno>
 					</msIdentifier>
@@ -81,29 +58,14 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/843">
 				<correspAction type="sent">
-					<persName ref="p455" cert="high">
-						<!--
-						<surname cert="high">Bramius</surname>
-						<forename cert="high">Thomas</forename>
-						-->
-					</persName>
-					<persName ref="p8341" cert="high">
-						<!--
-						<surname cert="high">Faber van Bouma</surname>
-						<forename cert="high">Gellius Epipedius</forename>
-						-->
-					</persName>
-					<persName ref="p7978" cert="high">
-						<!--
-						<surname cert="high">Brass</surname>
-						<forename cert="high">Hermann</forename>
-						-->
-					</persName>
+					<persName ref="p455" cert="high"/>
+					<persName ref="p8341" cert="high"/>
+					<persName ref="p7978" cert="high"/>
 					<placeName source="l138" cert="high"><orig>Emden</orig></placeName>
 					<date when="1550-02-23" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -119,8 +81,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -154,7 +116,7 @@
 					<s n="7" xml:lang="la" type="auto">Hęc est nostra consolatio in his Satane furoribus, ut, licet nomen nostrum nunc sit mundi sapientibus odiosum ac dicamur turbatores publice pacis, praefractę cervicis, cerebrosi, nasutuli etiam a domesticis nostris, eo quod nolimus sacra miscere prophanis, hoc est Christum coniungere cum <persName ref="p19785" cert="high">Belial</persName>, id quod nostri sapientes appellant tempori inservire et in parvis connivere, ne totum ministerium concidat, Cęsaris iram declinare, ne totam rempublicam confundat et perdat.</s>
 					<s n="8" xml:lang="la" type="auto">Egregii sunt<note type="margin">a.R.: ... scilicet?</note> anabaptiste, quod ita Satanam retingunt eius impiissimis cultibus nomen adiaphororum imponentes, ut eo securius glorientur in nostra luce et ludant in nostra simulatione et inconstantia.</s>
 					<s n="9" xml:lang="la" type="auto">Hanc apostasiam sceleratissimam excindere conati sunt nostri ex Cęsaris Interim et nobis obtrudere.</s>
-					<s n="10" xml:lang="la" type="auto">Sed, o fratres, servavit nos benignitate sua dominus <persName type="auto_name">Ihesus</persName>, quem ideo pater constituit regem super <persName type="auto_name">Zyon</persName> montem sanctum eius, ut illum servet a malo.</s>
+					<s n="10" xml:lang="la" type="auto">Sed, o fratres, servavit nos benignitate sua dominus Ihesus, quem ideo pater constituit regem super Zyon montem sanctum eius, ut illum servet a malo.</s>
 					<s n="11" xml:lang="la" type="auto">Hoc rege manente manebimus et nos per eandem gratiam, quod noster rex nobis sua morte apud patrem obtinuit.</s>
 					<s n="12" xml:lang="la" type="auto">Stamus itaque, fratres charissimi, adhuc in nostra statione, licet magistratus prohibuerit non contionari e suggestu, imo aliquoties nobis sua regione interdixerit.</s>
 					<s n="13" xml:lang="la" type="auto">Nos interim in nomine domini manemus et manebimus, donec violenta manu nos eiecerint.</s>
@@ -168,7 +130,7 @@
 				</p>
 				<p>
 					<s n="21" xml:lang="la" type="auto">Ita, fratres charissimi, bonus deus servat adhuc nostram ecclesiam et nos in satis fęlici cursu verbi mirabili profecto modo praeter et supra omne consilium et omnem expectationem magistratus.</s>
-					<s n="22" xml:lang="la" type="auto">Dominum nostrum charissimum et doctissimum superattendentem <persName ref="p8041" cert="high">Ioannem a Lasco</persName> abire iusserunt, qui nunc <persName type="auto_name">Breme</persName> hiemavit.</s>
+					<s n="22" xml:lang="la" type="auto">Dominum nostrum charissimum et doctissimum superattendentem <persName ref="p8041" cert="high">Ioannem a Lasco</persName> abire iusserunt, qui nunc <placeName type="auto_name">Breme</placeName> hiemavit.</s>
 					<s n="23" xml:lang="la" type="auto">Misit ergo magistratus, qui aliunde vocarent superattendentem et verbi ministros, nempe tales, qui velint confusissimam mixturam, quam nostri (ut vidistis) coxerunt ex pulmentario Cęsaris Interitus, suscipere.</s>
 					<s n="24" xml:lang="la" type="auto">Sed nemo prodit; metuunt forte, ne nos fęnum gestare in cornu inveniant.</s>
 					<s n="25" xml:lang="la" type="auto">Cum tamen nos neminem ledere aut invidiam apud nostros conciliari cupimus, sed tantum nostras, imo Christi domini oviculas, quas suscepimus pascendas, servare a lupis et pascere verbi et sacramentorum ministerio cupimus.</s>
@@ -177,10 +139,10 @@
 					<s n="26" xml:lang="la" type="auto">Hęc scribimus, fratres, de hactenus servata nostra statione, ut nobiscum gaudeatis deumque oratis, imo ecclesiam vestram hortemini ad orationem, ut nos misericorditer porro servet pastor noster Ihesus Christus, ut illius exemplo nos nostraque omnia in salutem et ecclesię suę ędificationem exponamus.</s>
 					<s n="27" xml:lang="la" type="auto">Vestri in orationibus nostris semper sumus memores.</s>
 					<s n="28" xml:lang="la" type="auto">Valete, fratres charissimi, et vigilate nobiscum, ut in silentio et spe ostendatur nostra fortitudo.</s>
-					<s n="29" xml:lang="la" type="auto">Embde pridie <persName type="auto_name">Mathie</persName> anno 50.</s>
+					<s n="29" xml:lang="la" type="auto"><placeName ref="l138" cert="high">Embde</placeName> pridie Mathie anno 50.</s>
 				</p>
 				<p>
-					<s n="30" xml:lang="la" type="auto">Vestre fraternitati addictissimi <persName type="auto_name">Thomas Bramius</persName><note type="misc">Schreiber des Briefes.</note>, Gellius Epipedius Faber<note type="misc">aut.</note>, Hermannus Brassius<note type="misc">aut.</note>.</s>
+					<s n="30" xml:lang="la" type="auto">Vestre fraternitati addictissimi <persName type="auto_name">Thomas Bramius</persName><note type="misc">Schreiber des Briefes.</note>, <persName type="auto_name">Gellius Epipedius Faber</persName><note type="misc">aut.</note>, <persName type="auto_name">Hermannus Brassius</persName><note type="misc">aut.</note>.</s>
 				</p>
 				<p>
 					<s n="31" xml:lang="la" type="auto">Doctissimis simul ac vigilantissimis ecclesie Christi dispensatoribus, fratribus ac doctoribus ecclesię Tigurinę, dominis ac fratribus sui in Christo observandissimis.</s>

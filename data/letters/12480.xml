@@ -25,14 +25,6 @@
 				<bibl type="scan">Zofingen StB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a93">
-							<name>Zofingen StB</name>
-							<ref target="https://www.stadtbibliothek-zofingen.ch/"/>
-						</repository>
-						<settlement ref="l582">Zofingen</settlement>
-						<institution>Stadtbibliothek</institution>
-						-->
 						<repository ref="a93"/>
 						<idno subtype="Autograph">Pa 14.1, Nr. 21</idno>
 						<altIdentifier>
@@ -117,27 +109,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12480">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1546-04-27" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p3700" cert="high">
-						<!--
-						<surname cert="high">von Rümlang</surname>
-						<forename cert="high">Eberhard</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089804970"/>
-						-->
-					</persName>
+					<persName ref="p3700" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12481"/>
@@ -162,8 +139,8 @@
 				<language ident="la" usage="744">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -212,7 +189,7 @@
 			</div>
 			<div xml:id="div5" corresp="regest5">
 				<p>
-					<s n="19" xml:lang="la" type="auto">Parricidium Neoburgi factum ad Danubium, uti ab <placeName ref="l1976" cert="high">Augusta</placeName> accepi, habes hic;<note xml:id="fn10" type="footnote" n="10">Die Beschreibung der Ermordung von <persName ref="p4631" cert="high">Juan Diaz</persName> in der von <persName ref="p8018" cert="high">Johannes Haller</persName> übermittelten Briefbeilage (<ref target="file12453">Nr. 2406</ref>,50-102).</note> sed ut exemplum scriptionis per hunc tabellionem remittas.</s>
+					<s n="19" xml:lang="la" type="auto">Parricidium Neoburgi factum ad <placeName ref="l119" cert="high">Danubium</placeName>, uti ab <placeName ref="l1976" cert="high">Augusta</placeName> accepi, habes hic;<note xml:id="fn10" type="footnote" n="10">Die Beschreibung der Ermordung von <persName ref="p4631" cert="high">Juan Diaz</persName> in der von <persName ref="p8018" cert="high">Johannes Haller</persName> übermittelten Briefbeilage (<ref target="file12453">Nr. 2406</ref>,50-102).</note> sed ut exemplum scriptionis per hunc tabellionem remittas.</s>
 					<s n="20" xml:lang="la" type="auto">Verum esse, non est, quod dubites.</s>
 					<s n="21" xml:lang="la" type="auto">Pari enim modo descripsere et d. <persName ref="p3927" cert="high">Ioannes Welserus</persName> consul et d. <persName ref="p8354" cert="high">Georgius Laetus</persName>, archigrammateus <placeName ref="l1976" cert="high">Augustanus</placeName>, datis ad me literis<note xml:id="fn11" type="footnote" n="11">Siehe <ref target="file12456">Nr. 2409</ref>,44-47 (<persName ref="p3927" cert="high">Johannes Welser</persName>, der <persName ref="p8018" cert="high">Hallers</persName> Beilage - s. oben Anm. 10 - ankündigte) und <ref target="file12452">Nr. 2405</ref>,24-44 (<persName ref="p8354" cert="high">Georg Frölichs</persName> Bericht).</note>.</s>
 				</p>
@@ -224,7 +201,7 @@
 					<s n="24" xml:lang="la" type="auto">Totus in eo est caesar, ut blanditiis et promissis<pb type="edition" next="380"/> impediat, tandem et dissolvat foedus Schmalkaldicum<note xml:id="fn16" type="footnote" n="16">Vgl. <ref target="file12472">Nr. 2425</ref>,37-42.</note>.</s>
 					<s n="25" xml:lang="la" type="auto">Eam ob rem evocato in colloquium Hesso<note xml:id="fn17" type="footnote" n="17">Landgraf <persName ref="p18574" cert="high">Philipp von Hessen</persName>. - Zu diesem Treffen s. <ref target="file12453">Nr. 2406</ref> und Anm. 25.</note> et Palatino<note xml:id="fn18" type="footnote" n="18"><persName ref="p17927" cert="high">Kurfürst Friedrich II. von der Pfalz</persName>. - Zu diesem Treffen s. <ref target="file12456">Nr. 2409</ref> und Anm. 21.</note>, multa cum iis egit; de quibus suo tempore.</s>
 					<s n="26" xml:lang="la" type="auto">Fuit<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> Fui.</note> et apud ducem Wirtembergensem<note xml:id="fn19" type="footnote" n="19"><persName ref="p9780" cert="high">Ulrich von Württemberg</persName>; s. aber <ref target="file12478">Nr. 2431</ref>, Anm. 9.</note>.</s>
-					<s n="27" xml:lang="la" type="auto">Caesar <placeName ref="l29" cert="high">Hispanus</placeName> est, et <placeName ref="l29" cert="high">Hispanicis</placeName> artibus rem suam conficiet in Germania, nisi deus propitius averterit<note xml:id="fn20" type="footnote" n="20">Vgl. <ref target="file12422">Nr. 2375</ref>,6f; <ref target="file12471">Nr. 2424</ref>.391: <ref target="file12472">Nr. 2425</ref>,40-42.</note>.</s>
+					<s n="27" xml:lang="la" type="auto"><persName ref="p18538" cert="high">Caesar</persName> <placeName ref="l29" cert="high">Hispanus</placeName> est, et <placeName ref="l29" cert="high">Hispanicis</placeName> artibus rem suam conficiet in Germania, nisi deus propitius averterit<note xml:id="fn20" type="footnote" n="20">Vgl. <ref target="file12422">Nr. 2375</ref>,6f; <ref target="file12471">Nr. 2424</ref>.391: <ref target="file12472">Nr. 2425</ref>,40-42.</note>.</s>
 				</p>
 			</div>
 			<div xml:id="div7" corresp="regest7">

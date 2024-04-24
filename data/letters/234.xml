@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,546</idno>
 					</msIdentifier>
@@ -59,14 +51,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 67,165</idno>
 					</msIdentifier>
@@ -76,30 +60,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/234">
 				<correspAction type="sent">
-					<persName ref="p8109" cert="high">
-						<!--
-						<surname cert="high">Ulmer (von Ulm, ab Ulmis)</surname>
-						<forename cert="high">Johann Konrad</forename>
-						<graphic type="portrait" url="portraits/3243_Ulmer_Johann_Conrad.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Konrad_Ulmer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/120341913"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417219"/>
-						-->
-					</persName>
+					<persName ref="p8109" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1548-08-18" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -127,8 +93,8 @@
 				<language ident="la" usage="984">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -156,7 +122,7 @@
 					<s n="9" xml:lang="la" type="auto">Tu modo, domine mi, fac me ames et valeas; non enim ita ut cum maxime tum te amamus et observamus tum vero valemus et literis nostris (vestris?), quibus ego nec suavius quidquam nec honestius unquam esse duxi, summa cum voluptate utimur eo sane consilio, ut Germaniam a me non temere esse relictam consanguinei mei aliquando intelligant atque cognoscant.</s>
 				</p>
 				<p>
-					<s n="10" xml:lang="la" type="auto">Datum <persName type="auto_name">Londini</persName> ex nobili Anglorum metropoli tertia die a festo Mariae Augusti.</s>
+					<s n="10" xml:lang="la" type="auto">Datum <placeName type="auto_name">Londini</placeName> ex nobili Anglorum metropoli tertia die a festo Mariae Augusti.</s>
 					<s n="11" xml:lang="la" type="auto">Scripta epistola admodum brevi ecce tuae Anglorum archiepiscopo traduntur literae, quas ad ipsum te tum humanissime tum honorificentissime scripsisse ex D. D. <persName ref="p8111" cert="high">Petro Martyre</persName> satis abunde intellexi.</s>
 					<s n="12" xml:lang="la" type="auto">Quarum prior pars, si recte memini, gravis et docta sui episcopatus admonitio, altera subtilis ad <foreign xml:lang="el">[griechisch]</foreign> transgressio erat.</s>
 					<s n="13" xml:lang="la" type="auto">Verum (ut quam brevissimis rem tibi exponam verbis) quamvis literae tuae omnibus (continuo enim descriptae erant) tum voluptatem tum ipsi episcopo plenam et gratam sui officii adhortationem attulerint, hoc tamen pro certo scias velim in tam gravem somnum hunc <foreign xml:lang="el">[griechisch]</foreign> esse delapsum, ut tuis ipsum doctissimis literis excitatum iri perfrigidam spem nacti simus.</s>

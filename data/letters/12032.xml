@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 342,119</idno>
 					</msIdentifier>
@@ -75,30 +67,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12032">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1544-09-14" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8418" cert="high">
-						<!--
-						<surname cert="high">Myconius (Geißhüsler)</surname>
-						<forename cert="high">Oswald</forename>
-						<graphic type="portrait" url="portraits/2234_Myconius_Oswald.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Oswald_Myconius"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118735462"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11436560"/>
-						-->
-					</persName>
+					<persName ref="p8418" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12033"/>
@@ -123,8 +97,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -149,7 +123,7 @@
 				<p>
 					<s n="5" xml:lang="la" type="auto">Novarum rerum nihil habeo, nisi quod amicus<note xml:id="fn3" type="footnote" n="3"><persName ref="p1055" cert="high">Martin Frecht</persName>; s. die folgende Anm.</note> quidam ex Svevia scribit literas se ex <placeName ref="l558" cert="high">Witemberga</placeName> accepisse,<note xml:id="fn4" type="footnote" n="4">Der nicht erhaltene Brief stammte "aus der <placeName ref="l558" cert="high">Wittenberger</placeName> Universität" und war an <persName ref="p1055" cert="high">Martin Frecht</persName> in <placeName ref="l513" cert="high">Ulm</placeName> gerichtet. Dieser schickte ihn an <persName ref="p8055" cert="high">Ambrosius Blarer</persName> nach <placeName ref="l457" cert="high">Konstanz</placeName>, der ihn am 4. September an Bullinger weiterleitete; s. oben Nr. 1970 mit Anm. 7. Der Inhalt wurde auch <persName ref="p8049" cert="high">Vadian</persName> mitgeteilt; s. <persName ref="p8049" cert="high">Vadian</persName> BW VI 339-345, Nr. 1359f. <persName ref="p467" cert="high">Bucer</persName> bezieht sich auch auf diesen Brief in einem Schreiben an <persName ref="p2095" cert="high">Melanchthon</persName> vom 9. September 1544 (MBW, Regesten IV, Nr. 3682). Der ursprüngliche Brief an Frecht wurde Letzterem höchstwahrscheinlich durch den Mathematiker und Mediziner <persName ref="p5846" cert="high">Jakob Milich</persName> (1501-1559) übermittelt, der am 11. August 1544 im Begriff war, <placeName ref="l558" cert="high">Wittenberg</placeName> für einen Besuch in seiner Heimat <placeName ref="l922" cert="high">Freiburg i. Br.</placeName> zu verlassen, und bei dieser Gelegenheit von <persName ref="p2095" cert="high">Melanchthon</persName> mit der Übermittlung von Briefen beauftragt wurde (aaO, Nr. 3652f). Dabei mag auch der an Frecht gerichtete Brief gelegen haben, welcher höchstwahrscheinlich von <persName ref="p2095" cert="high">Melanchthon</persName> selbst (dem Frecht am 3. August 1544 geschrieben hatte; s. aaO, Nr. 3641) verfasst wurde, zumal die hier vermittelten Nachrichten ganz dem Inhalt weiterer Briefe <persName ref="p2095" cert="high">Melanchthons</persName> aus dieser Zeit entsprechen.</note> quae doceant Amsdorffium scripsisse contra <placeName ref="l267" cert="high">Coloniensis</placeName><note xml:id="fn5" type="footnote" n="5">Erzbischof <persName ref="p8462" cert="high">Hermann von Wied</persName>.</note> ordinationem ac misisse ad sanctissimum antipapam <persName ref="p1974" cert="high">Lutherum</persName>, hunc autem excitatum scribere de sacram[ento] et postulare exactiorem confessionem de substantia sacramenti<note xml:id="fn6" type="footnote" n="6">Zu <persName ref="p4176" cert="high">Amsdorfs</persName> Kritik s. oben <ref target="file12018">Nr. 1971</ref>, Anm. 19.</note>.</s>
 					<s n="6" xml:lang="la" type="auto">Hoc est videlicet extruere<pb type="edition" next="402"/> ecclesias et infirmos in fide suscipere!</s>
-					<s n="7" xml:lang="la" type="auto">Miseret me optimi et piissimi principis senio iam confecti Coloniensis.</s>
+					<s n="7" xml:lang="la" type="auto">Miseret me optimi et piissimi principis senio iam confecti <placeName ref="l267" cert="high">Coloniensis</placeName>.</s>
 					<s n="8" xml:lang="la" type="auto">Alioqui enim <persName ref="p1974" cert="high">Lutherus</persName> rem se dignam facit declaratque discipulis suis, qualem adorent; non exhibuissent tam gratum Coloniensibus theologis et impiis omnibus spectaculum.</s>
 					<s n="9" xml:lang="la" type="auto">Verum in illis hominibus nulla est prudentia.</s>
 					<s n="10" xml:lang="la" type="auto">Fastus enim et arrogantia nil ipsos sapere sinit.</s>

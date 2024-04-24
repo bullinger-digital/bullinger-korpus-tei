@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph__(Kopie)" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph__(Kopie)">E II 346,384</idno>
 					</msIdentifier>
@@ -63,14 +55,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 90,22</idno>
 					</msIdentifier>
@@ -80,30 +64,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/3239">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1557-07-16" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p8033" cert="low">
-						<!--
-						<surname cert="low">de Bèze (Beza)</surname>
-						<forename cert="low">Théodor</forename>
-						<graphic type="portrait" url="portraits/876_Beza_Theodor.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Th%C3%A9odore_de_B%C3%A8ze"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118662864"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11418065"/>
-						-->
-					</persName>
+					<persName ref="p8033" cert="low"/>
 					<placeName source="l280" cert="low"><orig>Lausanne</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -129,8 +95,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -148,10 +114,10 @@
 					<s n="2" xml:lang="la" type="auto">Legationem enim non mittendam facile intelligebam.</s>
 					<s n="3" xml:lang="la" type="auto">Sed non successit quod institui.</s>
 					<s n="4" xml:lang="la" type="auto">Senatus noster amplissimus, sicuti(?) et <placeName ref="l41" cert="high">Bernensis</placeName>, non putavit hic sibi agendum quicquam.</s>
-					<s n="5" xml:lang="la" type="auto">Interea mittitur ad d. <persName type="auto_name">Petrum</persName> martyrem confessio a te in legatione propter fratres <placeName type="auto_name">Waldenses</placeName> suscepta ad principes apud eosdem deposita.</s>
+					<s n="5" xml:lang="la" type="auto">Interea mittitur ad d. <persName ref="p8111" cert="high">Petrum Martyrem</persName> confessio a te in legatione propter fratres <placeName type="auto_name">Waldenses</placeName> suscepta ad principes apud eosdem deposita.</s>
 					<s n="6" xml:lang="la" type="auto">Quae si a te concepta et exhibita est, admonitos saltem eius rei nos oportuerat.</s>
 					<s n="7" xml:lang="la" type="auto">Spargi eam audimus magno cum adversariorum iubilo nostrorumque dolore.</s>
-					<s n="8" xml:lang="la" type="auto">Sic a <placeName ref="l157" cert="high">Francfordia</placeName> et <placeName type="auto_name">haydelberga</placeName> nunciatur.</s>
+					<s n="8" xml:lang="la" type="auto">Sic a <placeName ref="l157" cert="high">Francfordia</placeName> et <placeName type="auto_name">Haydelberga</placeName> nunciatur.</s>
 					<s n="9" xml:lang="la" type="auto">Confessiones decet esse claras et minime involutas aut ancipites, in iis praecipue de quibus contravertitur.</s>
 					<s n="10" xml:lang="la" type="auto">Ego certe huiusmodi confessionem neque facerem, neque ab aliis factae aut conscriptae subscriberem.</s>
 				</p>

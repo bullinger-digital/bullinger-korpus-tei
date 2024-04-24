@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Original" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Original">E II 365,50 f.</idno>
 						<idno subtype="Hinweis">von der Hand des ehemaligen Churer Stadtschreibers Johannes Brüning?</idno>
@@ -74,49 +66,18 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12477">
 				<correspAction type="sent">
-					<roleName ref="g66" type="pl" role="Schulaufseher" cert="high"/>
-					<roleName ref="g41" type="pl" role="Klosteraufseher" cert="high"/>
-					<persName ref="p8013" cert="high">
-						<!--
-						<surname cert="high">Heim</surname>
-						<forename cert="high">Lucius (Luci)</forename>
-						-->
-					</persName>
-					<persName ref="p8451" cert="high">
-						<!--
-						<surname cert="high">Travers</surname>
-						<forename cert="high">Johannes (Gian)</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Travers"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/122986571"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11417174"/>
-						-->
-					</persName>
-					<persName ref="p2266" cert="high">
-						<!--
-						<surname cert="high">Muggli</surname>
-						<forename cert="high">Wilhelm</forename>
-						-->
-					</persName>
-					<persName ref="p654" cert="high">
-						<!--
-						<surname cert="high">Comander</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Comander"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118713841"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413826"/>
-						-->
-					</persName>
-					<persName ref="p466" cert="high">
-						<!--
-						<surname cert="high">Brüning</surname>
-						<forename cert="high">Johannes</forename>
-						-->
-					</persName>
+					<orgName ref="og66pl98" cert="high"/>
+					<orgName ref="og41pl98" cert="high"/>
+					<persName ref="p8013" cert="high"/>
+					<persName ref="p8451" cert="high"/>
+					<persName ref="p2266" cert="high"/>
+					<persName ref="p654" cert="high"/>
+					<persName ref="p466" cert="high"/>
 					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1546-04-24" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g63" type="pl" role="Schulherren" cert="high"/>
+					<orgName ref="og63pl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -128,8 +89,8 @@
 				<language ident="de" usage="1000">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

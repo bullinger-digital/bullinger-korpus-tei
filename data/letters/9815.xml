@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 62,205</idno>
 					</msIdentifier>
@@ -53,28 +45,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9815">
 				<correspAction type="sent">
-					<persName ref="p8016" cert="high">
-						<!--
-						<surname cert="high">Egli (Iconius, Götz)</surname>
-						<forename cert="high">Tobias</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Tobias_Egli"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089466366"/>
-						-->
-					</persName>
+					<persName ref="p8016" cert="high"/>
 					<placeName source="l98" cert="high"><orig>Chur</orig></placeName>
 					<date when="1574-10-17" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -98,8 +74,8 @@
 				<language ident="la" usage="796">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -125,13 +101,13 @@
 				<p>
 					<s n="8" xml:lang="la" type="auto">Ocyssime <placeName ref="l98" cert="high">Curię</placeName> Rhaetorum 1574. 17. octobris.</s>
 					<s n="9" xml:lang="la" type="auto">Tuae amplitudinis studiosissimus <persName ref="p8016" cert="high">Thobias Eglius</persName></s>
-					<s n="9" xml:lang="la" type="manual">Heri quoque duo exempla rebus novis ex <placeName type="auto_name">Italia</placeName> referta per alium misi.</s>
-					<s n="10" xml:lang="la" type="auto">Cupio certior fieri, num omnia acceperis.</s>
-					<s n="11" xml:lang="la" type="auto">(a. t.) <persName type="auto_name">Guleta</persName> est expugnata et capta.</s>
+					<s n="10" xml:lang="la" type="manual">Heri quoque duo exempla rebus novis ex <placeName type="auto_name">Italia</placeName> referta per alium misi.</s>
+					<s n="11" xml:lang="la" type="auto">Cupio certior fieri, num omnia acceperis.</s>
+					<s n="12" xml:lang="la" type="auto">(a. t.) <persName type="auto_name">Guleta</persName> est expugnata et capta.</s>
 				</p>
 				<p>
-					<s n="12" xml:lang="la" type="auto">Amplissimo viro d. m. Heinrycho Bullingero, Tigurinae ecclesiae episcopo vigilantissimo, d[omino] suo singulari observantia colendissimo.</s>
-					<s n="13" xml:lang="de" type="auto"><placeName ref="l587" cert="high">Zürich</placeName>.</s>
+					<s n="13" xml:lang="la" type="auto">Amplissimo viro d. m. Heinrycho Bullingero, Tigurinae ecclesiae episcopo vigilantissimo, d[omino] suo singulari observantia colendissimo.</s>
+					<s n="14" xml:lang="de" type="auto"><placeName ref="l587" cert="high">Zürich</placeName>.</s>
 				</p>
 			</div>
 		</body>

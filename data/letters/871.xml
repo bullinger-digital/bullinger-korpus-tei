@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 369,92</idno>
 					</msIdentifier>
@@ -68,14 +60,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 72,120</idno>
 					</msIdentifier>
@@ -85,29 +69,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/871">
 				<correspAction type="sent">
-					<persName ref="p1560" cert="high">
-						<!--
-						<surname cert="high">Hooper</surname>
-						<forename cert="high">John</forename>
-						<graphic type="portrait" url="portraits/1560_Hooper_John.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/John_Hooper"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119121492"/>
-						-->
-					</persName>
+					<persName ref="p1560" cert="high"/>
 					<placeName source="l296" cert="high"><orig>London</orig></placeName>
 					<date when="1550-03-27" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -132,8 +99,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -215,7 +182,7 @@
 					<s n="43" xml:lang="la" type="auto">De Interim (scis, quid dicam) adhuc nullis precibus impetrare potuerim, ut prelo committerim; sed ante paucos dies ob quaedam negotia forte regem conveniam, cui dabo, ut legat.</s>
 					<s n="44" xml:lang="la" type="auto">Crede mihi, colendissime compater, tantam eruditionem cum pietate coniunctam et ingeni[i] indolem ad mille annos nunquam vidisti in orbe; si vixerit et his virtutibus adolescat, erit terrori omnibus principibus mundi; ipsemet sua manu accipit omnes conciones, quas audit et illarum rationem post prandium ab iis, qui secum student, diligentissime repetit.</s>
 					<s n="45" xml:lang="la" type="auto">Multi iuvenes et pueri, qui eius studii sunt sotii, bene et fideliter in timore dei et bonis literis instituuntur.</s>
-					<s n="46" xml:lang="la" type="auto">D. <persName type="auto_name">Coxus</persName> non amplius regem docet, elemosinarius semper manet, tui valde studiosus, et ingentes habuit gratias tibi pro munere, ut ante saepe dixi.</s>
+					<s n="46" xml:lang="la" type="auto">D. <persName ref="p672" cert="high">Coxus</persName> non amplius regem docet, elemosinarius semper manet, tui valde studiosus, et ingentes habuit gratias tibi pro munere, ut ante saepe dixi.</s>
 					<s n="47" xml:lang="la" type="auto"><placeName ref="l1255" cert="high">Cantuariensis</placeName> accepit, ut nosti, iam tamen mihi; quod sciam, favet.</s>
 					<s n="48" xml:lang="la" type="auto">Marchio de Dorcestriae tuam praestantiam plurimum salutat; optarem, ut, quod proxime sis prelo commissurus, vel regi vel ei dedices.</s>
 				</p>
@@ -270,7 +237,7 @@
 					<s n="86" xml:lang="la" type="auto">Londini 27. martii 1550; die Marcurii proxime sequenti absolvam deo dante <persName ref="p18982" cert="high">Ionam</persName> prophetam coram rege.</s>
 				</p>
 				<p>
-					<s n="87" xml:lang="la" type="auto">Tuus perpetuo, <persName type="auto_name">Iohannes Hoperus</persName>.</s>
+					<s n="87" xml:lang="la" type="auto">Tuus perpetuo, <persName ref="p1560" cert="high">Iohannes Hoperus</persName>.</s>
 				</p>
 				<p>
 					<s n="88" xml:lang="la" type="auto">D. <persName ref="p8061" cert="high">Utenhovius</persName> tuam dignitatem officiose salutat, qui vos omnes sedulis precibus apud deum absque dubio adiuvat.</s>

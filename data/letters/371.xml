@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356,73</idno>
 					</msIdentifier>
@@ -43,14 +35,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="de">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 68,174</idno>
 						<idno subtype="Hinweis">nur Regest</idno>
@@ -61,27 +45,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/371">
 				<correspAction type="sent">
-					<persName ref="p4060" cert="low">
-						<!--
-						<surname cert="low">Zehender</surname>
-						<forename cert="low">Ludwig</forename>
-						<ref type="histhub" target="https://data.histhub.ch/person/11595878"/>
-						-->
-					</persName>
+					<persName ref="p4060" cert="low"/>
 					<placeName source="l46" cert="low"><orig>Biberstein</orig></placeName>
 					<date when="1548-12-17" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -106,8 +75,8 @@
 				<language ident="de" usage="969">Deutsch</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -130,11 +99,11 @@
 				</p>
 				<p>
 					<s n="6" xml:lang="la" type="auto">Datum xvija Decembris anno domini xlviij.</s>
-					<s n="7" xml:lang="de" type="auto">Ü[wer] erwird williger diener <persName type="auto_name">Ludwig Zächender</persName>, vogt zuͦ <placeName ref="l46" cert="high">Biberstein</placeName>.</s>
+					<s n="7" xml:lang="de" type="auto">Ü[wer] erwird williger diener <persName ref="p4060" cert="high">Ludwig Zächender</persName>, vogt zuͦ <placeName ref="l46" cert="high">Biberstein</placeName>.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse:]</note>
-					<s n="8" xml:lang="de" type="auto">Dem erwirdigenn hoch- und wollgelerten herren meister <persName type="auto_name">Heinrichen Bulli</persName>, ußkündern götlichs wordtes zuͦ <placeName ref="l587" cert="high">Zürich</placeName>, minem lieben, eerenden herren und früntlichen schwager.</s>
+					<s n="8" xml:lang="de" type="auto">Dem erwirdigenn hoch- und wollgelerten herren meister Heinrichen Bulli, ußkündern götlichs wordtes zuͦ <placeName ref="l587" cert="high">Zürich</placeName>, minem lieben, eerenden herren und früntlichen schwager.</s>
 				</p>
 			</div>
 		</body>

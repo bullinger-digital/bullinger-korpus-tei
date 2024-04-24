@@ -22,14 +22,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms F 40,314-315</idno>
 					</msIdentifier>
@@ -48,14 +40,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Autograph__(Entwurf)" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a78">
-							<name>St. Gallen KB</name>
-							<ref target="https://www.sg.ch/kultur/kantonsbibliothek-vadiana.html"/>
-						</repository>
-						<settlement ref="l474">St. Gallen</settlement>
-						<institution>Kantonsbibliothek Vadiana</institution>
-						-->
 						<repository ref="a78"/>
 						<idno subtype="Autograph__(Entwurf)">VII, 319</idno>
 					</msIdentifier>
@@ -65,75 +49,19 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2284">
 				<correspAction type="sent">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
-					<orgName ref="i25" type="sg" role="Synode" cert="high"/>
-					<persName ref="p1789" cert="high">
-						<!--
-						<surname cert="high">Kessler</surname>
-						<forename cert="high">Johannes</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Kessler_(Theologe)"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118722077"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415734"/>
-						-->
-						<orgName ref="i25" type="sg" role="Synode" cert="high"/>
-					</persName>
-					<persName ref="p8083" cert="high">
-						<!--
-						<surname cert="high">Furtmüller (Fortmüller)</surname>
-						<forename cert="high">Johann Valentin</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johann_Valentin_Furtm%C3%BCller"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089451849"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11415023"/>
-						-->
-						<orgName ref="i25" type="sg" role="Synode" cert="high"/>
-					</persName>
-					<persName ref="p7188" cert="high">
-						<!--
-						<surname cert="high">Zili</surname>
-						<forename cert="high">Anton</forename>
-						-->
-						<orgName ref="i25" type="sg" role="Synode" cert="high"/>
-					</persName>
-					<persName ref="p1861" cert="high">
-						<!--
-						<surname cert="high">Klarer</surname>
-						<forename cert="high">Walter</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Walter_Klarer"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119729903"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11468753"/>
-						-->
-						<orgName ref="i25" type="sg" role="Synode" cert="high"/>
-					</persName>
-					<persName ref="p1783" cert="high">
-						<!--
-						<surname cert="high">Keller</surname>
-						<forename cert="high">Johann</forename>
-						<ref type="wikipedia" target="https://de.wikipedia.org/w/index.php?title=Johannes_Cellarius"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/128432241"/>
-						-->
-						<orgName ref="i25" type="sg" role="Synode" cert="high"/>
-					</persName>
-					<persName ref="p8446" cert="high">
-						<!--
-						<surname cert="high">Stadelmann</surname>
-						<forename cert="high">Johannes (Hans)</forename>
-						-->
-						<orgName ref="i25" type="sg" role="Synode" cert="high"/>
-					</persName>
+					<orgName ref="og26pl474" cert="high"/>
+					<orgName ref="oi25sl474" cert="high"/>
+					<persName ref="p1789" cert="high"/>
+					<persName ref="p8083" cert="high"/>
+					<persName ref="p7188" cert="high"/>
+					<persName ref="p1861" cert="high"/>
+					<persName ref="p1783" cert="high"/>
+					<persName ref="p8446" cert="high"/>
 					<placeName source="l474" cert="high"><orig>St. Gallen</orig></placeName>
 					<date when="1554-05-16" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -148,8 +76,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

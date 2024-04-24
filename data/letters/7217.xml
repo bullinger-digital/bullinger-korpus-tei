@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 365,762-764a</idno>
 					</msIdentifier>
@@ -53,30 +45,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/7217">
 				<correspAction type="sent">
-					<persName ref="p8432" cert="high">
-						<!--
-						<surname cert="high">von Salis (a Salize, de Salicibus)</surname>
-						<forename cert="high">Friedrich</forename>
-						<graphic type="portrait" url="portraits/3704_Salis_Wappen.png"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Salis_%28Adelsgeschlecht%29"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/119041782"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11456135"/>
-						-->
-					</persName>
+					<persName ref="p8432" cert="high"/>
 					<placeName source="l439" cert="high"><orig>Samaden</orig></placeName>
 					<date when="1567-09-01" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="low">
-						<!--
-						<surname cert="low">Bullinger</surname>
-						<forename cert="low">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="low"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file7218"/>
@@ -101,8 +75,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -136,7 +110,7 @@
 					<s n="7" xml:lang="la" type="auto">Haec, colendissime domine Bullingere, si quando accedes clarissimum dominum consulem a <placeName ref="l90" cert="high">Cham</placeName>, velim eius amplitudini referres et dominum <persName type="auto_name">Bartolomeum</persName> ei commendares, praesertim ut causam, usque quo Domus Dei conveniat, proroget, ut negocium omne transigatur tandem sine Domus Dei offensa, et tua quidem intercessione hoc ab ipso facile impetrari posse confido.</s>
 				</p>
 				<p>
-					<note type="regest">Da <persName type="auto_name">Gesners</persName> Schriften so teuer zu stehen kommen, verzichtet <persName type="auto_name">Salis</persName> einstweilen auf ihre Erwerbung. - Er empfiehlt den Ueberbringer, einen jungen Knaben Namens <persName type="auto_name">Johannes Andrea von Samaden</persName>, von guter Anlage und aus guter, aber armer, kinderreicher Familie, der nach Basel gehen will, um dort zu studieren, und bittet Bullinger ihn zur Aufnahme "in aliquod collegium, ubi pauperes amore dei sustentari et erudiri solent", zu empfehlen.</note>
+					<note type="regest">Da <persName ref="p1283" cert="high">Gesners</persName> Schriften so teuer zu stehen kommen, verzichtet <persName type="auto_name">Salis</persName> einstweilen auf ihre Erwerbung. - Er empfiehlt den Ueberbringer, einen jungen Knaben Namens <persName type="auto_name">Johannes Andrea von Samaden</persName>, von guter Anlage und aus guter, aber armer, kinderreicher Familie, der nach Basel gehen will, um dort zu studieren, und bittet Bullinger ihn zur Aufnahme "in aliquod collegium, ubi pauperes amore dei sustentari et erudiri solent", zu empfehlen.</note>
 					<s n="8" xml:lang="la" type="auto">Divulgatum est regem <placeName type="auto_name">Galliae</placeName> velle adhuc milites apud nos conscribere.</s>
 					<s n="9" xml:lang="la" type="auto">Opinor tamen esse fictitium; utique vellem nostrates esse immunes a tali militia, siquidem nostrorum militum opera regem uti velle dicunt (quod tamen non credo penitus) ad lacessendam religionem, ut vocant, Lutheranam.</s>
 				</p>

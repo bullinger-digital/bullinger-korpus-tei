@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 1,317</idno>
 					</msIdentifier>
@@ -72,17 +64,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12198">
 				<correspAction type="sent">
-					<persName ref="p8130" cert="high">
-						<!--
-						<surname cert="high">Meyer (Agricola)</surname>
-						<forename cert="high">Lorenz</forename>
-						-->
-					</persName>
+					<persName ref="p8130" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date when="1545-05-05" cert="high">[kurz vor 5. Mai 1545]</date>
 				</correspAction>
 				<correspAction type="received">
-					<orgName ref="i25" type="sg" role="Synode" cert="high"/>
+					<orgName ref="oi25sl587" cert="high"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -103,8 +90,8 @@
 				<language ident="la" usage="780">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

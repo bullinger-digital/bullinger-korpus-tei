@@ -22,14 +22,6 @@
 				<bibl n="45" type="transcription">Vorläufige Transkription der HBBW-EditorInnen</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a38">
-							<name>Genf BPU</name>
-							<ref target="http://institutions.ville-geneve.ch/fr/bge/"/>
-						</repository>
-						<settlement ref="l167">Genf</settlement>
-						<institution>Bibliothèque publique et universitaire</institution>
-						-->
 						<repository ref="a38"/>
 						<idno subtype="Autograph">Ms. lat. 114, fo 78</idno>
 					</msIdentifier>
@@ -55,28 +47,12 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 74,149</idno>
 					</msIdentifier>
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a13">
-							<name>Bern StA</name>
-							<ref target="https://www.staatsarchiv.sta.be.ch/de/start.html"/>
-						</repository>
-						<settlement ref="l41">Bern</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a13"/>
 						<idno subtype="Kopie">B III 61, p. 87-88</idno>
 						<altIdentifier>
@@ -89,30 +65,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1232">
 				<correspAction type="sent">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 					<date when="1551-04-03" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p540" cert="high">
-						<!--
-						<surname cert="high">Calvin</surname>
-						<forename cert="high">Johannes</forename>
-						<graphic type="portrait" url="portraits/540_Calvin_Johannes.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Johannes_Calvin"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118518534"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11418245"/>
-						-->
-					</persName>
+					<persName ref="p540" cert="high"/>
 					<placeName source="l167" cert="high"><orig>Genf</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -138,8 +96,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="la">
@@ -151,7 +109,7 @@
 					<s n="3" xml:lang="la" type="auto">Spero autem te (nisi te invito aut nesciente id factum sit) huiusmodi innovationibus, quae plurimum incommodi nihil utilitatis habent, non delectari.</s>
 				</p>
 				<p>
-					<s n="4" xml:lang="la" type="auto">Scribit d. <persName type="auto_name">Ioannes Abelus</persName> Anglus, et is qui <persName type="auto_name">Bucerum</persName> in <placeName type="auto_name">Angliam</placeName> deduxit, a <placeName ref="l157" cert="high">Francfordia</placeName>, in <placeName type="auto_name">Anglia</placeName> contentionem inter d. <persName ref="p1560" cert="high">Hopperum</persName> et <placeName type="auto_name">Londinensem</placeName> esse compositam, ac Hopperum coram rege et aula concionatum esse dominica in martio secunda, indutum quidem veste linea et episcopali, sed quae mox sit communi edicto tollenda, ut et aliae superstitiones.</s>
+					<s n="4" xml:lang="la" type="auto">Scribit d. <persName type="auto_name">Ioannes Abelus</persName> Anglus, et is qui <persName type="auto_name">Bucerum</persName> in <placeName type="auto_name">Angliam</placeName> deduxit, a <placeName ref="l157" cert="high">Francfordia</placeName>, in <placeName type="auto_name">Anglia</placeName> contentionem inter d. <persName ref="p1560" cert="high">Hopperum</persName> et <placeName type="auto_name">Londinensem</placeName> esse compositam, ac <persName ref="p1560" cert="high">Hopperum</persName> coram rege et aula concionatum esse dominica in martio secunda, indutum quidem veste linea et episcopali, sed quae mox sit communi edicto tollenda, ut et aliae superstitiones.</s>
 				</p>
 				<p>
 					<s n="5" xml:lang="la" type="auto">Autoritate quidem regia et parlamenti ordinabitur episcopus per impositionem manuum.</s>

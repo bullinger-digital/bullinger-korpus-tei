@@ -24,14 +24,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 338,1508 ff.</idno>
 					</msIdentifier>
@@ -51,14 +43,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Kopie">Ms S 84,86</idno>
 					</msIdentifier>
@@ -68,26 +52,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2563">
 				<correspAction type="sent">
-					<persName ref="p3971" cert="high">
-						<!--
-						<surname cert="high">Wisamer</surname>
-						<forename cert="high">Baptist Johannes</forename>
-						-->
-					</persName>
+					<persName ref="p3971" cert="high"/>
 					<placeName source="l302" cert="high"><orig>Lübeck</orig></placeName>
 					<date when="1555-02-22" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -106,12 +76,12 @@
 				</correspContext>
 			</correspDesc>
 			<langUsage>
-				<language ident="de" usage="3">Deutsch</language>
-				<language ident="la" usage="997">Latein</language>
+				<language ident="de" usage="2">Deutsch</language>
+				<language ident="la" usage="998">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -145,13 +115,13 @@
 			<div>
 				<p>
 					<s n="1" xml:lang="la" type="auto">Salve, reverende in Christo pater et domine, tranquillo, te rogo, sis animo; nam omnia tua mihi probe sunt reddita, etiamsi aliquando tardius, quam oportuit, propter locorum distantiam et crebras meas molestasque nimium peregrinationes, id quod tuam humanitatem ex postremis meis, quas 13. iulii scripsi, literis intelligere potuisse non dubito, si modo essent redditae.</s>
-					<s n="2" xml:lang="la" type="auto">Quaternas autem ab humanitate tua habeo literas, nempe primas, quarum est datum 10. novembris anno etc. 53. ac item alteras quoque, quarum est datum 2. martii anno etc. 54., quas utrasque simul cum fasciculo librorum recepi Lubecae 12. iulii anno etc. 54. ab honesto viro Hansone Offo, cive Lubecano ac <persName type="auto_name">Iusti Glaseri</persName> in nundinis Fancofurdensibus hospite, quibus postera die respondi satis large literasque ad affinem meum Laurentium Egenolphum, Christofori typographi fratrem, <persName type="auto_name">Froshovero</persName> vestro reddendas Francofurdiam per Steffanum Bechtum Francofurdianum transmittendas curavi diligenter.</s>
+					<s n="2" xml:lang="la" type="auto">Quaternas autem ab humanitate tua habeo literas, nempe primas, quarum est datum 10. novembris anno etc. 53. ac item alteras quoque, quarum est datum 2. martii anno etc. 54., quas utrasque simul cum fasciculo librorum recepi <placeName type="auto_name">Lubecae</placeName> 12. iulii anno etc. 54. ab honesto viro <persName type="auto_name">Hansone Offo</persName>, cive Lubecano ac <persName type="auto_name">Iusti Glaseri</persName> in nundinis <placeName ref="l157" cert="high">Fancofurdensibus</placeName> hospite, quibus postera die respondi satis large literasque ad affinem meum <persName type="auto_name">Laurentium Egenolphum</persName>, Christofori typographi fratrem, <persName type="auto_name">Froshovero</persName> vestro reddendas <placeName ref="l157" cert="high">Francofurdiam</placeName> per <persName type="auto_name">Steffanum Bechtum</persName> <placeName ref="l157" cert="high">Francofurdianum</placeName> transmittendas curavi diligenter.</s>
 				</p>
 				<p>
-					<s n="3" xml:lang="la" type="auto">Serenissimo regi scripsi ac tua omnia transmisi fideliter <placeName type="auto_name">Kolingam</placeName><note type="margin">a.R.: Rol = <placeName type="auto_name">Kolding</placeName> ...</note>, ubi rex tum erat in Funia, eadem die cum publico civitatis nuncio.</s>
+					<s n="3" xml:lang="la" type="auto">Serenissimo regi scripsi ac tua omnia transmisi fideliter <placeName type="auto_name">Kolingam</placeName><note type="margin">a.R.: Rol = <placeName type="auto_name">Kolding</placeName> ...</note>, ubi rex tum erat in <placeName type="auto_name">Funia</placeName>, eadem die cum publico civitatis nuncio.</s>
 					<s n="4" xml:lang="la" type="auto">Tertias autem, quarum est datum 24. augusti anno etc. 54. recepi kalendis novembris eiusdem anni, quibus satis responsum superiore meo scripto putabam non ambigens, quin esset redditum.</s>
-					<s n="5" xml:lang="la" type="auto">Nunc vero et quartas quoque accepi, quarum datum habet 4. octobris anno etc. 54., quę redditę mihi sunt Hamburgi 18. februarii anno 55., cum reversus essem ex <placeName type="auto_name">Hollandia</placeName>, ex quibus diversum intelligo.</s>
-					<s n="6" xml:lang="la" type="auto">Omnibus itaque nunc iterum respondeo, gratas inprimis fuisse serenissimo regi lucubrationes tuas De Gracia dei etc. vel maxime ob id, quod summa modestia ac citra convicia ac scommata (quibus nostratium libri tanquam flosculis exornari solent) errores fratrum corrigis atque expungis salubria docens, et quod nullam in eis prorsus sacramentarię concertationis mentionem fecisti, quae est illi exosa plus, quam putassem, dogmate <persName ref="p18846" cert="high">Lutherano</persName> ea de re plane inescato, subindeque dixisse fertur, ut amici rettulerunt: "Utinam rixandi libidine tales similesque libros scriberent ecclesiae Christi profuturos" etc.</s>
+					<s n="5" xml:lang="la" type="auto">Nunc vero et quartas quoque accepi, quarum datum habet 4. octobris anno etc. 54., quę redditę mihi sunt <placeName type="auto_name">Hamburgi</placeName> 18. februarii anno 55., cum reversus essem ex <placeName type="auto_name">Hollandia</placeName>, ex quibus diversum intelligo.</s>
+					<s n="6" xml:lang="la" type="auto">Omnibus itaque nunc iterum respondeo, gratas inprimis fuisse serenissimo regi lucubrationes tuas De Gracia dei etc. vel maxime ob id, quod summa modestia ac citra convicia ac scommata (quibus nostratium libri tanquam flosculis exornari solent) errores fratrum corrigis atque expungis salubria docens, et quod nullam in eis prorsus sacramentarię concertationis mentionem fecisti, quae est illi exosa plus, quam putassem, dogmate Lutherano ea de re plane inescato, subindeque dixisse fertur, ut amici rettulerunt: "Utinam rixandi libidine tales similesque libros scriberent ecclesiae Christi profuturos" etc.</s>
 					<s n="7" xml:lang="la" type="auto">Declarabit autem suam erga te munificentiam, cum per occasionem legatos aut dispensatores suos <placeName ref="l492" cert="high">Argentoratum</placeName> miserit, de quo prorsus nihil dubito, etiamsi ex tua sententia scripserim te nihil tale quęrere, sed tantum veritatis incrementum evangelicae.</s>
 					<s n="8" xml:lang="la" type="auto">Proinde mihi contra decorum videretur curiosius, ne dicam morosius, de regia erga te voluntate nunc amplius inquirere, ne subocculte aliud videamur quaerere, quam scripto uterque testati sumus.</s>
 					<s n="9" xml:lang="la" type="auto">Longanimis est rex nec cito iudicat aut persuaderi potest, ut a recepta semel doctrina discedat; verum si quando est illi ipsissima cognita veritas, eam quoque tuetur sanctissime.</s>
@@ -160,7 +130,7 @@
 					<s n="12" xml:lang="la" type="auto">Futurum autem spero, ut aliquanto mitiores sint posthac futuri nostri, quam fuerunt in exules afflictos <placeName type="auto_name">Angliae</placeName>, quorum insigni patientia multi compuncti sunt misericordia et quodammodo cicures facti etiam barbari ac feroces alioqui populi.</s>
 					<s n="13" xml:lang="la" type="auto">Et excusavit se quoque apud me postea magister <persName type="auto_name">Paulus Noviomagus</persName>, regius concionator, qui aliquando coram rege ac frequenti ecclesia, dum adessent exules, adversus anabaptistas et shvermeros (quo novo, sed recepto usitatoque <persName ref="p18846" cert="high">Lutherano</persName> vocabulo plerique vos intelligunt) acerrime/o declamavit, se nihil in exules dixisse odiosius, sed tantum quae loci illius, quem tum forte tractavit, poposcerit circumstantia.</s>
 					<s n="14" xml:lang="la" type="auto">Cuius etsi quam plurima potuissem refellere, tamen satius putavi connivere ac dissimulare multa (sicut et apostolus Paulus apud Philippum fecit nullam exprobrans iniuriam, ubi virgis etiam caesus fuerat), cum mihi videretur alter hic <persName type="auto_name">Paulus</persName> facti poenitentia ductus olim futurus melior, regi quoque meliora persuasurus, nisi me mea fallat simplicitas illeque aulico more Protheum agat.</s>
-					<s n="15" xml:lang="la" type="auto">Habui autem tum forte mecum <persName type="auto_name">Odoniae</persName>, Finiae civitatula, ubi rex erat, libros doctissimi viri Petri Vireti de vero verbi dei, sacramentorum et ecclesiae ministerio ac item origine, continuatione, usu, authoritate atque praestantia ministerii verbi et sacramentorum etc., quos <persName type="auto_name">Hafniae</persName> ad doctorem <persName type="auto_name">Machabaeum</persName> missurus eram.</s>
+					<s n="15" xml:lang="la" type="auto">Habui autem tum forte mecum <persName type="auto_name">Odoniae</persName>, Finiae civitatula, ubi rex erat, libros doctissimi viri <persName type="auto_name">Petri Vireti</persName> de vero verbi dei, sacramentorum et ecclesiae ministerio ac item origine, continuatione, usu, authoritate atque praestantia ministerii verbi et sacramentorum etc., quos <persName type="auto_name">Hafniae</persName> ad doctorem <persName type="auto_name">Machabaeum</persName> missurus eram.</s>
 					<s n="16" xml:lang="la" type="auto">Hos ut conspexit tantum <persName type="auto_name">Paulus</persName> continuo oblato pretio reddere noluit cessique libenter illi donatis etiam tuis DE Gratia dei libris, quorum lectione diligenti quam plurimum proficiat oro; permultum enim refert illos, qui frequentes sunt apud reges et principes in religione recte esse institutos, maxime vero si sint a concionibus sacris.</s>
 				</p>
 				<p>
@@ -199,7 +169,7 @@
 					<s n="35" xml:lang="la" type="auto">Sed in eo mihi videris ex aliis mercatorum ingeniis me quoque aestimare vehementer errans; nihil enim tale quaero, et faxit deus, si vel unum sic obolum recepi, ne mihi prosit aliter atque aurum <placeName type="auto_name">Tolosanum</placeName> aut servo Helisaei dona Syriaca Naemanni principis.</s>
 					<s n="36" xml:lang="la" type="auto">Ego nunc aerumnosae et infelici mercaturae valedixi, quos reliquum superest vitae pietatis studiis impertiturus ac domini vocationem expectaturus.</s>
 					<s n="37" xml:lang="la" type="auto">Meliora itaque de me tibi persuadeas ac valeas in domino quam optime.</s>
-					<s n="38" xml:lang="la" type="auto">Salutant te tuosque symmistas et amicos per me doctor <persName type="auto_name">Iohannes Machabaeus</persName>, item magister <persName type="auto_name">Paulus Noviomagus</persName> et magister <persName type="auto_name">Heinrichus</persName> a Ducisbusco, regii concionatores, praeterea et doctor <persName type="auto_name">Petrus Capitaneus</persName> et doctor <persName type="auto_name">Cornelius Hamsfort</persName>, regii medici, qui tuas lucubrationes una cum theologis commendarunt regi.</s>
+					<s n="38" xml:lang="la" type="auto">Salutant te tuosque symmistas et amicos per me doctor <persName type="auto_name">Iohannes Machabaeus</persName>, item magister <persName type="auto_name">Paulus Noviomagus</persName> et magister <persName type="auto_name">Heinrichus a Ducisbusco</persName>, regii concionatores, praeterea et doctor <persName type="auto_name">Petrus Capitaneus</persName> et doctor <persName type="auto_name">Cornelius Hamsfort</persName>, regii medici, qui tuas lucubrationes una cum theologis commendarunt regi.</s>
 				</p>
 				<p>
 					<s n="39" xml:lang="la" type="auto">Insuper clarissimum virum doctorem <persName ref="p1283" cert="high">Conradum Gesnerum</persName> salutant inprimis doctor <persName type="auto_name">Christianus Morsianus</persName>, cui notus est, deinde et regii medici.</s>
@@ -222,7 +192,7 @@
 					<s n="50" xml:lang="la" type="auto">Datum <placeName type="auto_name">Lubecae</placeName> 22. februarii anno etc. 55.</s>
 				</p>
 				<p>
-					<s n="51" xml:lang="la" type="auto">R[everendae] h[umanitatis] tuae devotus cliens <persName ref="p18124" cert="high">Bap[tista]</persName> <persName type="auto_name">Iohannes Wisamerus</persName> subscripsit.</s>
+					<s n="51" xml:lang="la" type="auto">R[everendae] h[umanitatis] tuae devotus cliens <persName type="auto_name">Bap[tista] Iohannes Wisamerus</persName> subscripsit.</s>
 				</p>
 				<p>
 					<s n="52" xml:lang="la" type="auto">Nomina professorum <persName type="auto_name">Hafnię</persName> haec sunt, si forte per occasionem aliquibus eis aut scribere aut saltem in literis vestris salutare aliquos volueritis conciliandae amicitiae ergo:</s>
@@ -248,83 +218,80 @@
 					<s n="60" xml:lang="la" type="auto">Idyllum de Philomela.</s>
 				</p>
 				<p>
-					<s n="61" xml:lang="la" type="auto">Ver erat et levem meditans spaciabar ad <persName type="auto_name">Albim Ore</persName> facit dulces, quae <persName type="auto_name">Philomela</persName> sonos.</s>
+					<s n="61" xml:lang="la" type="auto">Ver erat et levem meditans spaciabar ad Albim<lb/> Ore facit dulces, quae <persName type="auto_name">Philomela</persName> sonos.</s>
 				</p>
 				<p>
-					<s n="62" xml:lang="de" type="auto"><persName type="auto_name">Phil. Melanch</persName>.</s>
+					<s n="62" xml:lang="la" type="auto">Quae quantum reliquis praestat modulamine vocis,<lb/> Respectu reliquis tam minor esse solet.</s>
 				</p>
 				<p>
-					<s n="63" xml:lang="la" type="auto">Quae quantum reliquis praestat modulamine vocis, Respectu reliquis tam minor esse solet.</s>
+					<s n="63" xml:lang="la" type="auto">Haec sedet insomnem cantu solata laborem<lb/> Laudat et in ramo grata virente deum.</s>
 				</p>
 				<p>
-					<s n="64" xml:lang="la" type="auto">Haec sedet insomnem cantu solata laborem Laudat et in ramo grata virente deum.</s>
+					<s n="64" xml:lang="la" type="auto">Utque animum caepit vocis mulcere venustas,<lb/> Miror et argutos et sine felle sonos.</s>
 				</p>
 				<p>
-					<s n="65" xml:lang="la" type="auto">Utque animum caepit vocis mulcere venustas, Miror et argutos et sine felle sonos.</s>
+					<s n="65" xml:lang="la" type="auto">En strepitum rostro turpes fecere volucres,<lb/> Et stomachum movit stridula turba meum.</s>
 				</p>
 				<p>
-					<s n="66" xml:lang="la" type="auto">En strepitum rostro turpes fecere volucres, Et stomachum movit stridula turba meum.</s>
+					<s n="66" xml:lang="la" type="auto">Hanc vagus infestat cuculus certamine linguae Illyricus<lb/> Fundens deliris flaccida verba modis.</s>
 				</p>
 				<p>
-					<s n="67" xml:lang="la" type="auto">Hanc vagus infestat cuculus certamine linguae Illyricus Fundens deliris flaccida verba modis.</s>
+					<s n="67" xml:lang="la" type="auto">Huius spinna solet raucas generare cicadas, Westphalus cum suis.</s>
 				</p>
 				<p>
-					<s n="68" xml:lang="la" type="auto">Huius spinna solet raucas generare cicadas, Westphalus cum suis.</s>
+					<s n="68" xml:lang="la" type="auto">Cum folia immundis polluit ipse notis.</s>
 				</p>
 				<p>
-					<s n="69" xml:lang="la" type="auto">Cum folia immundis polluit ipse notis.</s>
+					<s n="69" xml:lang="la" type="auto">Iungit se comitem stridenti carmine <persName type="auto_name">Gallus</persName>, Gallus Ratisb.</s>
 				</p>
 				<p>
-					<s n="70" xml:lang="la" type="auto">Iungit se comitem stridenti carmine <persName type="auto_name">Gallus</persName>, <persName type="auto_name">Gallus Ratisb</persName>.</s>
+					<s n="70" xml:lang="la" type="auto"><persName type="auto_name">Turbatrix</persName> placidae nempe quietis avis.</s>
 				</p>
 				<p>
-					<s n="71" xml:lang="la" type="auto"><persName type="auto_name">Turbatrix</persName> placidae nempe quietis avis.</s>
+					<s n="71" xml:lang="la" type="auto">Et procul innocuum pennis se tollit in hostem<lb/> Arteque cum nequeat, Marte nocere cupit.</s>
 				</p>
 				<p>
-					<s n="72" xml:lang="la" type="auto">Et procul innocuum pennis se tollit in hostem Arteque cum nequeat, Marte nocere cupit.</s>
+					<s n="72" xml:lang="la" type="auto">Huic immunda suas quoque confert <persName type="auto_name">Upupa</persName> vires, <persName type="auto_name">Stancarus</persName>.</s>
 				</p>
 				<p>
-					<s n="73" xml:lang="la" type="auto">Huic immunda suas quoque confert <persName type="auto_name">Upupa</persName> vires, <persName type="auto_name">Stancarus</persName>.</s>
+					<s n="73" xml:lang="la" type="auto">Upupa stercoribus semper odora suis.</s>
 				</p>
 				<p>
-					<s n="74" xml:lang="la" type="auto">Upupa stercoribus semper odora suis.</s>
+					<s n="74" xml:lang="la" type="auto">Hinc Merula impellit calidas in iurgia mentes Amstorfius<lb/> Pectore nigra suo, voce superba sua.</s>
 				</p>
 				<p>
-					<s n="75" xml:lang="la" type="auto">Hinc Merula impellit calidas in iurgia mentes <persName type="auto_name">Amstorfius Pectore</persName> nigra suo, voce superba sua.</s>
+					<s n="75" xml:lang="la" type="auto">Tu quoque voce furens clangorem mittis <persName type="auto_name">Osyna</persName>, <persName ref="p2301" cert="high">Osiander</persName>.</s>
 				</p>
 				<p>
-					<s n="76" xml:lang="la" type="auto">Tu quoque voce furens clangorem mittis <persName type="auto_name">Osyna</persName>, <persName ref="p2301" cert="high">Osiander</persName>.</s>
+					<s n="76" xml:lang="la" type="auto">Consita quae multo pisce fluenta colis.</s>
+					<s n="77" xml:lang="la" type="auto">Quis mihi spes fuerat pacis sarcire ruinam <persName ref="p6369" cert="high">Sarcerius</persName>.</s>
 				</p>
 				<p>
-					<s n="77" xml:lang="la" type="auto">Consita quae multo pisce fluenta colis.</s>
-					<s n="78" xml:lang="la" type="auto">Quis mihi spes fuerat pacis sarcire ruinam <persName ref="p6369" cert="high">Sarcerius</persName>.</s>
+					<s n="78" xml:lang="la" type="auto">Agmine quae gaudent non lacerare suo:<lb/> Iam medio proruunt occulta volumina circo, Vulgus amat magnis iurgia facta viris.</s>
 				</p>
 				<p>
-					<s n="79" xml:lang="la" type="auto">Agmine quae gaudent non lacerare suo: Iam medio proruunt occulta volumina circo, Vulgus amat magnis iurgia facta viris.</s>
+					<s n="79" xml:lang="la" type="auto">Nec Philomela sua differt modulamine linguae,<lb/> Sed spargit vario nuncia lata sono.</s>
 				</p>
 				<p>
-					<s n="80" xml:lang="la" type="auto">Nec Philomela sua differt modulamine linguae, Sed spargit vario nuncia lata sono.</s>
+					<s n="80" xml:lang="la" type="auto">Ac adversa pio vincit mala corde ferendo<lb/> Pacis amans vulgo iudice spretus erit.</s>
 				</p>
 				<p>
-					<s n="81" xml:lang="la" type="auto">Ac adversa pio vincit mala corde ferendo <persName type="auto_name">Pacis</persName> amans vulgo iudice spretus erit.</s>
+					<s n="81" xml:lang="la" type="auto">Talia dum cerno, peragi spectacula cantu <persName type="auto_name">Alloquor</persName>.</s>
+					<s n="82" xml:lang="la" type="auto">O volueris, quae mihi sola places<lb/> Quas tibi, quas tali solvam pro carmine grates?</s>
 				</p>
 				<p>
-					<s n="82" xml:lang="la" type="auto">Talia dum cerno, peragi spectacula cantu <persName type="auto_name">Alloquor</persName>.</s>
-					<s n="83" xml:lang="la" type="auto">O volueris, quae mihi sola places Quas tibi, quas tali solvam pro carmine grates?</s>
+					<s n="83" xml:lang="la" type="auto">A visco et pedicis dii tua membra tegant.</s>
+					<s n="84" xml:lang="la" type="auto">Te semper mea vita sequar, tibi luce carenti<lb/> Tendimus has aures.</s>
+					<s n="85" xml:lang="la" type="auto">Caetera turba, vale.</s>
 				</p>
 				<p>
-					<s n="84" xml:lang="la" type="auto">A visco et pedicis dii tua membra tegant.</s>
-					<s n="85" xml:lang="la" type="auto">Te semper mea vita sequar, tibi luce carenti Tendimus has aures.</s>
-					<s n="86" xml:lang="la" type="auto">Caetera turba, vale.</s>
+					<s n="86" xml:lang="la" type="auto">Quem tua non raptim mira vox detinet arte,<lb/> Huic cuculi numeret tempora longa sonus.</s>
 				</p>
 				<p>
-					<s n="87" xml:lang="la" type="auto">Quem tua non raptim mira vox detinet arte, Huic cuculi numeret tempora longa sonus.</s>
+					<s n="87" xml:lang="la" type="auto">Tempus erit rapidum, quando canis excitat aestum,<lb/> Tunc metuens ignem, cortice membra teget.</s>
 				</p>
 				<p>
-					<s n="88" xml:lang="la" type="auto">Tempus erit rapidum, quando canis excitat aestum, Tunc metuens ignem, cortice membra teget.</s>
-				</p>
-				<p>
-					<s n="89" xml:lang="la" type="auto">Stulta leves capiunt animos, sua cuique libido est, Utrem pro cythara gaudet habere Midas.</s>
+					<s n="88" xml:lang="la" type="auto">Stulta leves capiunt animos, sua cuique libido est,<lb/> Utrem pro cythara gaudet habere Midas.</s>
 				</p>
 				<p>
 					<note type="address">[Adresse fehlt.]</note>

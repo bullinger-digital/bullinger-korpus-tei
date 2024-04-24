@@ -22,14 +22,6 @@
 				<bibl type="scan">Zürich ZB</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a96">
-							<name>Zürich ZB</name>
-							<ref target="https://www.zb.uzh.ch/de/"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Zentralbibliothek</institution>
-						-->
 						<repository ref="a96"/>
 						<idno subtype="Autograph">Ms S 131,200</idno>
 						<idno subtype="Hinweis">Undatierter Entwurf Bullingers; ohne Abs., ohne Empf.</idno>
@@ -52,14 +44,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a76">
-							<name>Schaffhausen StA</name>
-							<ref target="https://sh.ch/CMS/Webseite/Kanton-Schaffhausen/Beh-rde/Regierung/Staatskanzlei/Staatsarchiv-3936-DE.html"/>
-						</repository>
-						<settlement ref="l441">Schaffhausen</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a76"/>
 						<idno subtype="Kopie">Abschriften 4/6, p. 496-501</idno>
 						<idno subtype="Xeroxkopie">IRG</idno>
@@ -74,14 +58,6 @@
 				</msDesc>
 				<msDesc type="Brief" subtype="Kopie" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a77">
-							<name>Schaffhausen StB</name>
-							<ref target="https://bibliotheken-schaffhausen.ch/digitale-bibliothek/online-katalog/"/>
-						</repository>
-						<settlement ref="l441">Schaffhausen</settlement>
-						<institution>Stadtbibliothek</institution>
-						-->
 						<repository ref="a77"/>
 						<idno subtype="Kopie">Min. 127, 31-36</idno>
 					</msIdentifier>
@@ -91,14 +67,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/9900">
 				<correspAction type="sent">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="low"/>
+					<orgName ref="og26pl587" cert="low"/>
 					<placeName source="l587" cert="low"><orig>Zürich</orig></placeName>
 					<date notBefore="1575-02-22" notAfter="1575-02-25" cert="low"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g40" type="pl" role="Kirchenräte" cert="low">
-						<orig>Kirchenräte der Niedern Kur-Pfalz, Heidelberg</orig>
-					</roleName>
+					<orgName ref="og40pl210" cert="low">Kirchenräte der Niedern Kur-Pfalz, Heidelberg</orgName>
 					<placeName source="l210" cert="low"><orig>Heidelberg</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -113,8 +87,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>

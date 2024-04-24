@@ -21,14 +21,6 @@
 			<sourceDesc>
 				<msDesc type="Hinweis" subtype="Autograph" xml:lang="">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E I 13.1, Nr. 5</idno>
 						<idno subtype="Hinweis">kein Scan zu erwarten (kein Brief)</idno>
@@ -48,19 +40,13 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/2949">
 				<correspAction type="sent">
-					<roleName ref="g63" type="pl" role="Schulherren" cert="low">
-						<orig>Schuͦlherr zuͦ dem grossen münster etc.</orig>
-							<orgName ref="i31" type="sg" role="Grossmünster" cert="low"/>
-					</roleName>
-					<roleName ref="g64" type="pl" role="Schulmeister" cert="low">
-						<orig>Schuͦlmeister zuͦ dem grossen münster etc.</orig>
-							<orgName ref="i31" type="sg" role="Grossmünster" cert="low"/>
-					</roleName>
+					<orgName ref="og63p" cert="low">Schuͦlherr zuͦ dem grossen münster etc.</orgName>
+					<orgName ref="og64p" cert="low">Schuͦlmeister zuͦ dem grossen münster etc.</orgName>
 					<date when="1556-06-19" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g14" type="pl" role="Bürgermeister" cert="high"/>
-					<roleName ref="g59" type="sg" role="Rat" cert="high"/>
+					<orgName ref="og14pl587" cert="high"/>
+					<orgName ref="og59sl587" cert="high"/>
 					<placeName source="l587" cert="high"><orig>Zürich</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -75,8 +61,8 @@
 				</correspContext>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="unklar">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="">

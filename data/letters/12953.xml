@@ -25,14 +25,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 343,355</idno>
 						<altIdentifier>
@@ -93,27 +85,12 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/12953">
 				<correspAction type="sent">
-					<persName ref="p1548" cert="high">
-						<!--
-						<surname cert="high">Hilles</surname>
-						<forename cert="high">Richard</forename>
-						<ref type="gnd" target="https://d-nb.info/gnd/1089472722"/>
-						-->
-					</persName>
+					<persName ref="p1548" cert="high"/>
 					<placeName source="l491" cert="high"><orig>Straßburg</orig></placeName>
 					<date when="1547-05-19" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p495" cert="high">
-						<!--
-						<surname cert="high">Bullinger</surname>
-						<forename cert="high">Heinrich</forename>
-						<graphic type="portrait" url="portraits/495_Bullinger_Heinrich.jpg"/>
-						<ref type="wikipedia" target="https://de.wikipedia.org/wiki/Heinrich_Bullinger"/>
-						<ref type="gnd" target="https://d-nb.info/gnd/118517384"/>
-						<ref type="histhub" target="https://data.histhub.ch/person/11413754"/>
-						-->
-					</persName>
+					<persName ref="p495" cert="high"/>
 				</correspAction>
 				<correspContext>
 					<ref type="next_chronologically" target="file12954"/>
@@ -137,8 +114,8 @@
 				<language ident="la" usage="1000">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
@@ -168,9 +145,9 @@
 			</div>
 			<div xml:id="div3" corresp="regest3">
 				<p>
-					<s n="8" xml:lang="la" type="auto">In eisdem autem mihi scriptum est ab <placeName ref="142" type="auto_name">Irfordia</placeName><note xml:id="fn14" type="footnote" n="14"><placeName ref="l142" cert="high">Erfurt</placeName>.</note> 1. maii ad <placeName ref="l267" cert="high">Coloniensem</placeName> quendam nomine Iohan Pelmke zum Rynberch scriptum fuisse in hec verba: "De novis nostris ut certiorem te faciam, charissime, scias cesarianos 24. die aprilis exercitum ducis Saxonie inexspectato quasi festinando agressos fuisse atque ex ducis peditibus 2000, equitibus vero 150 cecidisse electoris filium<note xml:id="fn15" type="footnote" n="15"><persName ref="p19065" cert="high">Johann Friedrich II. der Mittlere</persName>.</note> gravi vulnere percussum esse, sed aufugisse tamen sine mortis periculo.</s>
+					<s n="8" xml:lang="la" type="auto">In eisdem autem mihi scriptum est ab <placeName ref="142" type="auto_name">Irfordia</placeName><note xml:id="fn14" type="footnote" n="14"><placeName ref="l142" cert="high">Erfurt</placeName>.</note> 1. maii ad <placeName ref="l267" cert="high">Coloniensem</placeName> quendam nomine Iohan Pelmke zum Rynberch scriptum fuisse in hec verba: "De novis nostris ut certiorem te faciam, charissime, scias cesarianos 24. die aprilis exercitum ducis <persName ref="p19065" cert="high">Saxonie</persName> inexspectato quasi festinando agressos fuisse atque ex ducis peditibus 2000, equitibus vero 150 cecidisse electoris filium<note xml:id="fn15" type="footnote" n="15"><persName ref="p19065" cert="high">Johann Friedrich II. der Mittlere</persName>.</note> gravi vulnere percussum esse, sed aufugisse tamen sine mortis periculo.</s>
 					<s n="9" xml:lang="la" type="auto">Item quod eo tempore ubique rumorem fuisse ducem ipsum cesum esse, eum autem super humum non vulneratum inventum fuisse; id quod toto eius exercitui magno erat gaudio.</s>
-					<s n="10" xml:lang="la" type="auto">Porro 25. die aprilis dominum quendam, qui herr Wylm Thomas nominatur, in copias cesaris cum aliquot millibus ex Bohemia venisse atque a cesarianis vi rapuisse 15 bombardas una cum currubus argento oneratis<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> oneratas.</note>, qui a ducis Saxonie copiis ante amissi erant, atque ex cesarianis 5000 homines occidisse, ita ut cesar<note xml:id="fn16" type="footnote" n="16"><persName ref="p18538" cert="high">Karl V.</persName></note> ipse coactus esset retrocedere versus Eger", etc.</s>
+					<s n="10" xml:lang="la" type="auto">Porro 25. die aprilis dominum quendam, qui herr Wylm Thomas nominatur, in copias cesaris cum aliquot millibus ex Bohemia venisse atque a cesarianis vi rapuisse 15 bombardas una cum currubus argento oneratis<note xml:id="fna" type="footnote" n="a"><hi>In der Vorlage</hi> oneratas.</note>, qui a ducis <persName ref="p19065" cert="high">Saxonie</persName> copiis ante amissi erant, atque ex cesarianis 5000 homines occidisse, ita ut cesar<note xml:id="fn16" type="footnote" n="16"><persName ref="p18538" cert="high">Karl V.</persName></note> ipse coactus esset retrocedere versus Eger", etc.</s>
 					<s n="11" xml:lang="la" type="auto">At ego omnia ista pro fabulis habeo.</s>
 				</p>
 			</div>

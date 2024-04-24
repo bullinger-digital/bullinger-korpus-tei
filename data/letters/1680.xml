@@ -23,14 +23,6 @@
 				<bibl type="scan">Zürich StA</bibl>
 				<msDesc type="Brief" subtype="Autograph" xml:lang="la">
 					<msIdentifier>
-						<!--
-						<repository ref="a94">
-							<name>Zürich StA</name>
-							<ref target="https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html"/>
-						</repository>
-						<settlement ref="l587">Zürich</settlement>
-						<institution>Staatsarchiv</institution>
-						-->
 						<repository ref="a94"/>
 						<idno subtype="Autograph">E II 356,103 f. + 115b</idno>
 						<idno subtype="Hinweis">alles (inkl. Unterschriften) von einer einzigen Hand geschrieben</idno>
@@ -47,57 +39,27 @@
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/1680">
 				<correspAction type="sent">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="high"/>
+					<orgName ref="og26pl303" cert="high"/>
 					<persName ref="p7919" cert="high">
-						<!--
-						<surname cert="high">Rosenthal</surname>
-						<forename cert="high">Lucas</forename>
-						-->
-						<roleName ref="g26" type="sg" role="Geistlicher" cert="high"/>
-					</persName>
+						<roleName ref="g26" cert="high"/>
+				</persName>
 					<persName ref="p7922" cert="high">
-						<!--
-						<surname cert="high">Wolterstorff</surname>
-						<forename cert="high">Pius Joachim</forename>
-						-->
-						<roleName ref="g26" type="sg" role="Geistlicher" cert="high"/>
-					</persName>
+						<roleName ref="g26" cert="high"/>
+				</persName>
 					<persName ref="p4249" cert="high">
-						<!--
-						<surname cert="high">Baumgartner</surname>
-						<forename cert="high">Hans</forename>
-						-->
-						<roleName ref="g26" type="sg" role="Geistlicher" cert="high"/>
-					</persName>
+						<roleName ref="g26" cert="high"/>
+				</persName>
 					<persName ref="p7923" cert="high">
-						<!--
-						<surname cert="high">Freden</surname>
-						<forename cert="high">Heinrich</forename>
-						-->
-						<roleName ref="g26" type="sg" role="Geistlicher" cert="high"/>
-					</persName>
+						<roleName ref="g26" cert="high"/>
+				</persName>
 					<persName ref="p7924" cert="high">
-						<!--
-						<surname cert="high">Hitfeldt</surname>
-						<forename cert="high">Ambrosius</forename>
-						-->
-						<roleName ref="g26" type="sg" role="Geistlicher" cert="high"/>
-					</persName>
+						<roleName ref="g26" cert="high"/>
+				</persName>
 					<placeName source="l303" cert="high"><orig>Magdeburg</orig></placeName>
 					<date when="1552-07-21" cert="high"/>
 				</correspAction>
 				<correspAction type="received">
-					<roleName ref="g26" type="pl" role="Geistliche" cert="low">
-						<orig>Geistliche der Oberdeutschen Kirche</orig>
-							<placeName ref="l822" cert="low">
-								<country>Deutschland</country>
-							</placeName>
-							<orgName ref="i19" type="sg" role="Kirche" cert="low">
-																	<placeName ref="l822" cert="low">
-										<country>Deutschland</country>
-									</placeName>
-							</orgName>
-					</roleName>
+					<orgName ref="og26pl822" cert="low">Geistliche der Oberdeutschen Kirche</orgName>
 					<placeName source="l822" cert="low"><orig>Deutschland</orig></placeName>
 				</correspAction>
 				<correspContext>
@@ -121,8 +83,8 @@
 				<language ident="la" usage="985">Latein</language>
 			</langUsage>
 		</profileDesc>
-		<revisionDesc status="abgeschlossen">
-			<change>setup/validation</change>
+		<revisionDesc status="untouched">
+			<change>init</change>
 		</revisionDesc>
 	</teiHeader>
 	<facsimile>
