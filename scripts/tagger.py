@@ -23,7 +23,7 @@ for f in os.listdir(root):
     p = os.path.join(root, f)
     if (os.path.isfile(p) and re.match(r'.*?\.xml', f)):
         with open(p) as fi: s = fi.read()
-        m = re.match(r'.*(<text xml:lang.*?</text>).*', s, flags=re.S)
+        m = re.match(r'.*(<summary.*?</summary>).*', s, flags=re.S)
         if m:
             x0 = m.group(1)
             x1 = re.sub(regex, r'\1<placeName ref="l587" type="auto_name">\2</placeName>\3', x0, flags=re.S)
