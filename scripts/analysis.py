@@ -148,4 +148,18 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    x.search(["data/letters"], "Zürich")
+    e_ = ["Tigurin&#281;", "Tigurinenses", "Tigurinensis", "Tigurinorum", "Tigurinum", "Tigurinam", "Tigurinae",
+         "Tigurinis", "Tigurinos", "Tigurinus", "Tigurini", "Tigurino", "Tigurinę", "Tigurina", "Tigurum", "Tiguri",
+         "Tiguro", "Zürych", "Zurich", "Zurych", "Zurin&#281;", "Zurinę", "Zürich", "Zurik"]
+
+    e = []
+    z = '\[?\(?\)?\]?'
+    for a in e_:
+        new_ = z
+        for letter in a:
+            new_ += letter + z;
+        e.append(new_)
+
+    regex = '[> ]('+'|'.join(e)+')[!?.,;:< ]'
+    x.search(["data/letters"], regex)
+
