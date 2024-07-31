@@ -139,23 +139,24 @@ declare function idx:normalize-date($date as xs:string) {
 
 declare function idx:person-get-metadata($person as element(), $field as xs:string) {
     let $main-persname := $person/tei:persName[@type='main']
+    
     return switch ($field)
         case "name" return (
             string-join(($main-persname/tei:surname, $main-persname/tei:forename),", ")
         )
         case "sent-count" return
             let $main-id := $main-persname/@xml:id
-            let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[.//tei:correspAction[@type="sent"]/tei:persName/@ref=$main-id]
+            let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[ft:query(.//tei:text, 'sender:' || $main-id)]
             let $count := if($letters)
-                        then ( count($letters)) 
+                        then (count($letters)) 
                         else 0
             return
                 $count
         case "received-count" return
             let $main-id := $main-persname/@xml:id
-            let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[.//tei:correspAction[@type="received"]/tei:persName/@ref=$main-id]
+            let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[ft:query(.//tei:text, 'recipient:' || $main-id)]
             let $count := if($letters)
-                        then ( count($letters)) 
+                        then (count($letters)) 
                         else 0
             return
                 $count
