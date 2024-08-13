@@ -12,5 +12,10 @@ for f in os.listdir(ROOT):
         with open(p) as fi: s = fi.read()
         #s = re.sub(r'(<persName[^>]*ref=")l', r'\1p', s, flags=re.S)
         #s = re.sub(r'(<placeName ref=")p', r'\1l', s, flags=re.S)
-        s = re.sub(r'<persName ref="p9780"', r'<persName ref="p9708"', s, flags=re.S)
+        #s = re.sub(r'<persName ref="p9780"', r'<persName ref="p9708"', s, flags=re.S)
+        s = re.sub(
+            r'<persName ref="p1052" cert="high">Ellicken</persName>',
+            r'<placeName ref="l1052" cert="high">Ellicken</placeName>',
+            s, flags=re.S
+        )
         with open(p, 'w') as fo: fo.write(s)
