@@ -158,4 +158,4 @@ if __name__ == '__main__':
     #x.search(["data/letters"], r'<persName[^>]*ref="p20225"')
     #x.search(["data/letters"], r'Backnang')
 
-    x.search(["data/letters"], r'<persName')
+    x.search(["data/letters"], r'p9780')
