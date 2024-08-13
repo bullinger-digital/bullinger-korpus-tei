@@ -148,18 +148,14 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    e_ = ["Tigurin&#281;", "Tigurinenses", "Tigurinensis", "Tigurinorum", "Tigurinum", "Tigurinam", "Tigurinae",
-         "Tigurinis", "Tigurinos", "Tigurinus", "Tigurini", "Tigurino", "Tigurinę", "Tigurina", "Tigurum", "Tiguri",
-         "Tiguro", "Zürych", "Zurich", "Zurych", "Zurin&#281;", "Zurinę", "Zürich", "Zurik"]
+    #x.search(["data/letters"], r'<placeName[^>]*ref="\d')
+    #x.search(["data/letters"], r'<persName[^>]*ref="\d')
+    #x.search(["data/letters"], r'<persName[^>]*ref="p(1052|1798|2000|2377|2514|3184|3889|4325|7989|17782|17941)"')
+    #x.search(["data/letters"], r'<placeName[^>]*ref="l(14|81|141|2690|3002|5504|8016|8098|21050|21707|21987|22277|23341|23447|23674|23700|30038)"')
+    #x.search(["data/letters"], r'<placeName[^>]*ref="l11"')
+    #x.search(["data/letters"], r'<placeName[^>]*ref="l1976"')
+    #x.search(["data/letters"], r'<persName[^>]*ref="p7637"')
+    #x.search(["data/letters"], r'<persName[^>]*ref="p20225"')
+    #x.search(["data/letters"], r'Backnang')
 
-    e = []
-    z = '\[?\(?\)?\]?'
-    for a in e_:
-        new_ = z
-        for letter in a:
-            new_ += letter + z;
-        e.append(new_)
-
-    regex = '[> ]('+'|'.join(e)+')[!?.,;:< ]'
-    x.search(["data/letters"], regex)
-
+    x.search(["data/letters"], r'<persName')

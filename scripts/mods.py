@@ -29,11 +29,11 @@ if __name__ == '__main__':
     for f in os.listdir("data/letters/"):
         if f != ".DS_Store":
             fp = os.path.join("data/letters/", f)
-            with open(fp) as fi: s = fi.read()
-            for x in re.findall(r'((<language ident="[^"]*" usage=")(\d*\.\d*)(">[^"]*</language>))', s, flags=re.S):
-                s = re.sub(re.escape(x[0]), x[1]+str(int(10*float(x[2])))+x[3], s, flags=re.S)
-            with open(fp, 'w') as fo: fo.write(s)
-            print(fp, "updated.")
+            if not os.path.isdir(fp) and os.path.isfile(fp):
+                with open(fp) as fi: s = fi.read()
+                s = re.sub(r'<placeName ref="l587" type="auto_name">(\(Zürich)</placeName>', r'\1', s, flags=re.S)
+                with open(fp, 'w') as fo: fo.write(s)
+                print(fp, "updated.")
 
-    apply(mods, "data/letters/")
+    #apply(mods, "data/letters/")
     print("Korpus aktualisiert.")
