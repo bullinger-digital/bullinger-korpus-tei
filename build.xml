@@ -18,7 +18,7 @@
         <mkdir dir="${app.build.dir}" />
         <copy todir="${app.build.dir}">
             <fileset dir="${basedir}"
-                excludes="${build.dir}/**,build.xml,README.md,.*,repo.xml.tmpl" />
+                excludes="${build.dir}/**,build.xml,README.md,.*,repo.xml.tmpl,temp/**,venv/**,.vscode/**" />
         </copy>
         <copy todir="${app.build.dir}" overwrite="true" verbose="true">
             <fileset file="*.xml.tmpl" />
