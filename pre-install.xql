@@ -32,5 +32,6 @@ local:mkcol(repo:get-root(), replace($target, "^.*/([^/]+)$", "$1")),
 sm:chgrp(xs:anyURI($target), "tei"),
 sm:chown(xs:anyURI($target), "bullinger"),
 xdb:store-files-from-pattern($target, $dir, 'index.xql'),
-local:mkcol("/db/system/config", $target),
-xdb:store-files-from-pattern(concat("/system/config", $target), $dir, "*.xconf")
+local:mkcol("/db/system/config", $target)
+(: Moved to post-install.xql :)
+(: xdb:store-files-from-pattern(concat("/system/config", $target), $dir, "*.xconf") :)
