@@ -4,6 +4,8 @@
             <module uri="http://teipublisher.com/index" prefix="nav" at="index.xql"/> 
             <text match="/tei:TEI/tei:text">
                 <field name="title" expression="nav:get-metadata(ancestor::tei:TEI, 'title')"/>
+                <field name="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
+                <field name="organization" expression="nav:get-metadata(ancestor::tei:TEI, 'organization')"/>
                 <field name="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
                 <field name="recipient" expression="nav:get-metadata(ancestor::tei:TEI, 'recipient')"/>
                 <field name="correspondant" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondant')"/>
@@ -14,8 +16,7 @@
                 <field name="file" expression="util:document-name(.)"/>
                 <field name="text" expression="."/>
                 <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
-                <facet dimension="group" expression="nav:get-metadata(ancestor::tei:TEI, 'group')"/>
-                <facet dimension="institution" expression="nav:get-metadata(ancestor::tei:TEI, 'institution')"/>
+                <facet dimension="organization" expression="nav:get-metadata(ancestor::tei:TEI, 'organization')"/>
                 <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
                 <facet dimension="recipient" expression="nav:get-metadata(ancestor::tei:TEI, 'recipient')"/>
                 <facet dimension="correspondant" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondant')"/>
@@ -37,25 +38,25 @@
                 <field name="received-count" expression="nav:person-get-metadata(., 'received-count')"/>
             </text>
 
-            <text match="//tei:listOrg/tei:org">
-                <field name="org-name-sing" expression="nav:get-metadata(., 'org-name-sing')"/>
-                <facet dimension="org-name-sing" expression="nav:get-metadata(., 'org-name-sing')"/>
-                <field name="org-name-plur" expression="nav:get-metadata(., 'org-name-plur')"/>
-                <facet dimension="org-name-plur" expression="nav:get-metadata(., 'org-name-plur')"/>
-                <field name="org-sent-count" expression="nav:get-metadata(., 'org-sent-count')"/>
-                <field name="org-received-count" expression="nav:get-metadata(., 'org-received-count')"/>
-                <field name="archive-name" expression="nav:get-metadata(., 'archive-name')"/>
-                <facet dimension="archive-name" expression="nav:get-metadata(., 'archive-name')"/>
-                <field name="archive-count" expression="nav:get-metadata(., 'archive-count')"/>
+            <text match="//tei:listOrg[@type='organizations']/tei:org/tei:orgName">
+                <field name="org-name" expression="nav:org-get-metadata(., 'org-name')"/>
+                <facet dimension="org-name" expression="nav:org-get-metadata(., 'org-name')"/>
+                <field name="org-count" expression="nav:org-get-metadata(., 'org-count')"/>
+            </text>
+
+            <text match="//tei:listOrg[@type='archives']/tei:org">
+                <field name="archive-name" expression="nav:archive-get-metadata(., 'archive-name')"/>
+                <facet dimension="archive-name" expression="nav:archive-get-metadata(., 'archive-name')"/>
+                <field name="archive-count" expression="nav:archive-get-metadata(., 'archive-count')"/>
             </text>
             
-            <text match="//tei:listNym/tei:nym">
+            <!--<text match="//tei:listNym/tei:nym">
                 <field name="group-name-sing" expression="nav:get-metadata(., 'group-name-sing')"/>
                 <field name="group-name-plur" expression="nav:get-metadata(., 'group-name-plur')"/>
                 <field name="group-sent-count" expression="nav:get-metadata(., 'group-sent-count')"/>
                 <field name="group-received-count" expression="nav:get-metadata(., 'group-received-count')"/>
                 <field name="group-total-count" expression="nav:get-metadata(., 'group-total-count')"/>
-            </text>
+            </text>-->
         </lucene>
         
         <range>
