@@ -42,10 +42,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             )
             case "archive" return
                 $header//tei:msDesc/tei:msIdentifier/tei:repository/@ref/string()
-            case "group" return (
-                $header//tei:correspDesc/tei:correspAction/tei:roleName/@ref/string()
-            )
-            case "institution" return (
+            case "organization" return (
                 $header//tei:correspDesc/tei:correspAction/tei:orgName/@ref/string()
             )
             case "place-name" return (
@@ -65,65 +62,6 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 let $date := $header//tei:correspAction[@type='sent']/tei:date
                 return 
                     idx:normalize-date(head(($date/@when, $date/@notAfter)))
-            case "archive-name" return
-                string-join(($root/tei:orgName/text(), $root/tei:addName/text()), ", ")
-            case "archive-count" return
-                let $id := $root/@xml:id
-                let $letters := collection('/db/apps/bullinger-data/data/letters')//tei:TEI[.//tei:repository/@ref=$id]
-                let $count := if($letters)
-                            then ( count($letters)) 
-                            else 0
-                return
-                    $count
-            case "org-name-sing" return
-                $root/tei:name[@xml:lang="de"][@type="sg"]
-            case "org-name-plur" return
-                $root/tei:name[@xml:lang="de"][@type="pl"]
-            case "org-sent-count" return
-                let $id := $root/@xml:id
-                let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[.//tei:correspAction[@type="sent"]/tei:orgName/@ref=$id]
-                let $count := if($letters)
-                            then ( count($letters)) 
-                            else 0
-                return
-                    $count
-            case "org-received-count" return
-                let $id := $root/@xml:id
-                let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[.//tei:correspAction[@type="received"]/tei:orgName/@ref=$id]
-                let $count := if($letters)
-                            then ( count($letters)) 
-                            else 0
-                return
-                    $count
-            case "group-name-sing" return
-                $root/tei:form[@xml:lang="de"][@type="sg"]
-            case "group-name-plur" return
-                $root/tei:form[@xml:lang="de"][@type="pl"]
-            case "group-sent-count" return
-                let $id := $root/@xml:id
-                let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[.//tei:correspAction[@type="sent"]/tei:roleName/@ref=$id]
-                let $count := if($letters)
-                            then ( count($letters)) 
-                            else 0
-                return
-                    $count
-            case "group-received-count" return
-                let $id := $root/@xml:id
-                let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[.//tei:correspAction[@type="received"]/tei:roleName/@ref=$id]
-                let $count := if($letters)
-                            then ( count($letters)) 
-                            else 0
-                return
-                    $count
-            case "group-total-count" return
-                let $id := $root/@xml:id
-                let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[.//tei:roleName/@ref=$id]
-                let $count := if($letters)
-                            then ( count($letters)) 
-                            else 0
-                return
-                    $count
-
             default return
                 ()
 };
@@ -136,6 +74,23 @@ declare function idx:normalize-date($date as xs:string) {
     else
         xs:date($date)
 };
+
+declare function idx:archive-get-metadata($archive as element(), $field as xs:string) {
+    switch ($field)
+        case "archive-name" return
+                string-join(($archive/tei:orgName/text(), $archive/tei:addName/text()), ", ")
+        case "archive-count" return
+            let $id := $archive/@xml:id
+            let $letters := collection('/db/apps/bullinger-data/data/letters')//tei:TEI[ft:query(.//tei:text, 'archive:' || $id)]
+            let $count := if($letters)
+                        then ( count($letters)) 
+                        else 0
+            return
+                $count
+        default return 
+            ()
+};
+
 
 declare function idx:person-get-metadata($person as element(), $field as xs:string) {
     let $main-persname := $person/tei:persName[@type='main']
@@ -154,6 +109,24 @@ declare function idx:person-get-metadata($person as element(), $field as xs:stri
                 $count
         case "received-count" return
             let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[ft:query(.//tei:text, 'recipient:' || $main-id)]
+            let $count := if($letters)
+                        then (count($letters)) 
+                        else 0
+            return
+                $count
+        default return 
+            ()
+};
+
+declare function idx:org-get-metadata($org as element(), $field as xs:string) {
+    let $org-id := fn:lower-case($org/@xml:id)
+    
+    return switch ($field)
+        case "org-name" return (
+            string($org)
+        )
+        case "org-count" return
+            let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[ft:query(.//tei:text, 'organization:' || $org-id)]
             let $count := if($letters)
                         then (count($letters)) 
                         else 0
