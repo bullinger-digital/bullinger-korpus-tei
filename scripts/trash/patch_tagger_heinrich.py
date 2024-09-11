@@ -3,7 +3,7 @@
 
 import os, re
 
-""" adds footnote types (bio/lex) """
+""" moves "Heinrich"-Aliasses in to Bullinger-persName-Elements """
 
 heiri = []
 with open("scripts/src/heiri.csv") as fi:
