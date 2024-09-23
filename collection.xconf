@@ -15,6 +15,10 @@
                 <field name="date" type="xs:date" expression="nav:get-metadata(ancestor::tei:TEI, 'date')"/>
                 <field name="file" expression="util:document-name(.)"/>
                 <field name="text" expression="."/>
+                <field name="regest" expression="ancestor::tei:TEI//tei:msDesc//tei:summary"/>
+                <field name="footnotes" expression="ancestor::tei:TEI//tei:note[@type='footnote']"/>
+                <field name="print-literature" expression="ancestor::tei:TEI//tei:sourceDesc//tei:bibl[@type = 'Gedruckt', @type = 'Literatur']"/>
+                <field name="notes" expression="ancestor::tei:TEI//(tei:note[@type='Hinweis'] | tei:idno[@subtype='Hinweis'])"/>
                 <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
                 <facet dimension="organization" expression="nav:get-metadata(ancestor::tei:TEI, 'organization')"/>
                 <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
