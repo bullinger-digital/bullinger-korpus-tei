@@ -19,6 +19,7 @@
                 <field name="footnotes" expression="ancestor::tei:TEI//tei:note[@type='footnote']"/>
                 <field name="print-literature" expression="ancestor::tei:TEI//tei:sourceDesc//tei:bibl[@type = 'Gedruckt', @type = 'Literatur']"/>
                 <field name="notes" expression="ancestor::tei:TEI//(tei:note[@type='Hinweis'] | tei:idno[@subtype='Hinweis'])"/>
+                <field name="fnhd-normalization" expression="doc('/db/apps/bullinger-data/data/normalizations/' || util:document-name(.))//tei:text"/>
                 <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
                 <facet dimension="organization" expression="nav:get-metadata(ancestor::tei:TEI, 'organization')"/>
                 <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
