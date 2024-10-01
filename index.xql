@@ -53,7 +53,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                     if($settlement) then ($settlement) else if ($district) then ($district) else ($country)
             )
             case "place" return (
-                $header//tei:correspDesc/tei:correspAction/tei:placeName/@source/string()
+                $header//tei:correspDesc/tei:correspAction/tei:placeName/@ref/string()
             )
             case "language" return
                 $header/tei:langUsage/tei:language
