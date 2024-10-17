@@ -148,18 +148,4 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    #x.search(["data/letters"], r'<placeName[^>]*ref="\d')
-    #x.search(["data/letters"], r'<persName[^>]*ref="\d')
-    #x.search(["data/letters"], r'<persName[^>]*ref="p(1052|1798|2000|2377|2514|3184|3889|4325|7989|17782|17941)"')
-    #x.search(["data/letters"], r'<placeName[^>]*ref="l(14|81|141|2690|3002|5504|8016|8098|21050|21707|21987|22277|23341|23447|23674|23700|30038)"')
-    #x.search(["data/letters"], r'<placeName[^>]*ref="l11"')
-    #x.search(["data/letters"], r'<placeName[^>]*ref="l1976"')
-    #x.search(["data/letters"], r'<persName[^>]*ref="p7637"')
-    #x.search(["data/letters"], r'<persName[^>]*ref="p20225"')
-    #x.search(["data/letters"], r'Backnang')
-    """
-    #for i in [495, 496, 497, 498, 503, 504, 519, 520, 521, 522, 523, 524, 525, 526, 4803, 9882, 9883, 9884, 9885, 9886, 9888, 9889, 9890, 9891, 9892, 9893, 9894, 9895, 9896, 9897, 9898, 17732, 17733, 17734, 17735, 17737, 17738]:
-    for i in [496, 497, 498, 503, 504, 519, 520, 521, 522, 523, 524, 525, 526, 4803, 9882, 9883, 9884, 9885, 9886, 9888, 9889, 9890, 9891, 9892, 9893, 9894, 9895, 9896, 9897, 9898, 17732, 17733, 17734, 17735, 17737, 17738]:
-        x.search(["data/letters"], r'<persName[^>]*?ref="p'+str(i)+'"')
-    """
-    x.search(["data/letters"], r'<placeName[^>]*>[^<]*<placeName[^>]*>([^<]*)</placeName>[^<]*</placeName>')
+    x.search(["data/letters"], r'p3184')
