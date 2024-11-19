@@ -100,6 +100,12 @@ declare function idx:person-get-metadata($person as element(), $field as xs:stri
         case "name" return (
             string-join(($main-persname/tei:surname, $main-persname/tei:forename),", ")
         )
+        case "surname" return (
+            $main-persname/tei:surname
+        )
+        case "forename" return (
+            $main-persname/tei:forename
+        )
         case "sent-count" return
             let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[ft:query(.//tei:text, 'sender:' || $main-id)]
             let $count := if($letters)
