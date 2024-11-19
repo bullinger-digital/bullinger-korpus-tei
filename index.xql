@@ -29,6 +29,15 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
         switch ($field)
             case "title" return
                 $header//tei:titleStmt/tei:title
+            case "hbbw-number" return
+                if(starts-with($root/@source/string(), "HBBW-")) then
+                    ($root/@n/string())
+                else
+                    ()
+            case "letter-id" return
+                replace($root/@xml:id/string(), 'file', '')
+            case "signature" return
+                $root//tei:sourceDesc/tei:msDesc/tei:msIdentifier/tei:idno[@subtype='Autograph' or @subtype='Kopie']
             case "number" return
                 $header//tei:seriesStmt/tei:title[@subtype='publication']
             case "sender" return (

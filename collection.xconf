@@ -27,9 +27,12 @@
                 <facet dimension="correspondant" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondant')"/>
                 <facet dimension="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
                 <facet dimension="number" expression="nav:get-metadata(ancestor::tei:TEI, 'number')"/>
+                <facet dimension="hbbw-number" expression="nav:get-metadata(ancestor::tei:TEI, 'hbbw-number')" hierarchical="no"/>
                 <facet dimension="date" expression="tokenize(nav:get-metadata(ancestor::tei:TEI, 'date'),'-')" hierarchical="yes"/>
                 <facet dimension="datestring" expression="nav:get-metadata(ancestor::tei:TEI, 'date')" hierarchical="no"/>
                 <facet dimension="corpus" expression="'bullinger'"/>
+                <facet dimension="letter-id" expression="nav:get-metadata(ancestor::tei:TEI, 'letter-id')" hierarchical="no"/>
+                <facet dimension="signature" expression="nav:get-metadata(ancestor::tei:TEI, 'signature')" hierarchical="no"/>
             </text>
             <text qname="tei:div">
                 <ignore qname="tei:div"/>
