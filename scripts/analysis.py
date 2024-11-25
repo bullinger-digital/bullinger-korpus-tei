@@ -29,33 +29,32 @@ class Search:
                 elif os.path.isfile(fp) and f != ".DS_Store": self.search_file(fp, pattern)
 
     def search_file(self, path, pattern):
-        with open("scripts/hits.dat", 'a') as fo:
-            f = path.split('/')[-1]
-            with open(path) as fi: s = fi.read()
-            if self.rm_untagged_fls: s = re.sub(r'\*\[\*.*?\]', '', s, flags=re.S)
-            if self.letter_only:
-                ms = re.match('.*(<letter[^>]*>.*?</letter>).*', s, flags=re.S)
-                if ms:
-                    s = ms.group(1)
-                    # Search.bracket_analyzer(s, path, a=r'\{', b=r'\}')
-                    # Search.bracket_analyzer(s, path, a=r'\(', b=r'\)')
-                    # Search.bracket_analyzer(s, path, a=r'\[', b=r'\]')
-                    # Search.bracket_analyzer(s, path, a=r'\«', b=r'\»')
-                else: print("*Warning, no letter in", path)
-            if self.sentences_only: s = "\n".join(re.findall(r'<s .*?</s>', s, flags=re.S))
-            if len(re.findall(pattern, s, flags=re.S)):
-                if not self.frame_width_l and not self.frame_width_r: t = re.findall(r'([^\n]*)(' + pattern + r')([^\n]*)', s, flags=re.S)
-                else: t = re.findall(r'([\w\W]{,' + str(self.frame_width_l) + r'})(' + pattern + r')([\w\W]{,' + str(self.frame_width_r) + r'})', s, flags=re.S)
-                for x in t:
-                    self.count += 1
-                    output =\
-                        Fore.WHITE + f"{self.count:>8}" + ' ' +\
-                        Fore.RED + f"{f:<25}" + ' '+\
-                        Fore.BLUE + (re.sub(r'[\n\t]', self.space_sub, x[0], flags=re.S) if self.space_sub else x[0]) +\
-                        Fore.GREEN + (re.sub(r'[\n\t]', self.space_sub, x[1], flags=re.S) if self.space_sub else x[1]) +\
-                        Fore.BLUE + (re.sub(r'[\n\t]', self.space_sub, x[-1], flags=re.S) if self.space_sub else x[2])
-                    print(output)
-                # fo.write(str(self.count) + '\t' + f + '\t' + re.sub(r'[\n\t]', self.space_sub, ' '.join(x), flags=re.S).strip() + '\n')
+        f = path.split('/')[-1]
+        with open(path) as fi: s = fi.read()
+        if self.rm_untagged_fls: s = re.sub(r'\*\[\*.*?\]', '', s, flags=re.S)
+        if self.letter_only:
+            ms = re.match('.*(<letter[^>]*>.*?</letter>).*', s, flags=re.S)
+            if ms:
+                s = ms.group(1)
+                # Search.bracket_analyzer(s, path, a=r'\{', b=r'\}')
+                # Search.bracket_analyzer(s, path, a=r'\(', b=r'\)')
+                # Search.bracket_analyzer(s, path, a=r'\[', b=r'\]')
+                # Search.bracket_analyzer(s, path, a=r'\«', b=r'\»')
+            else: print("*Warning, no letter in", path)
+        if self.sentences_only: s = "\n".join(re.findall(r'<s .*?</s>', s, flags=re.S))
+        if len(re.findall(pattern, s, flags=re.S)):
+            if not self.frame_width_l and not self.frame_width_r: t = re.findall(r'([^\n]*)(' + pattern + r')([^\n]*)', s, flags=re.S)
+            else: t = re.findall(r'([\w\W]{,' + str(self.frame_width_l) + r'})(' + pattern + r')([\w\W]{,' + str(self.frame_width_r) + r'})', s, flags=re.S)
+            for x in t:
+                self.count += 1
+                output =\
+                    Fore.WHITE + f"{self.count:>8}" + ' ' +\
+                    Fore.RED + f"{f:<25}" + ' '+\
+                    Fore.BLUE + (re.sub(r'[\n\t]', self.space_sub, x[0], flags=re.S) if self.space_sub else x[0]) +\
+                    Fore.GREEN + (re.sub(r'[\n\t]', self.space_sub, x[1], flags=re.S) if self.space_sub else x[1]) +\
+                    Fore.BLUE + (re.sub(r'[\n\t]', self.space_sub, x[-1], flags=re.S) if self.space_sub else x[2])
+                print(output)
+            # fo.write(str(self.count) + '\t' + f + '\t' + re.sub(r'[\n\t]', self.space_sub, ' '.join(x), flags=re.S).strip() + '\n')
 
     @staticmethod
     def bracket_analyzer(s, path, a=r'{', b=r'}'):
@@ -148,4 +147,4 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    x.search(["data/letters"], r'p3184')
+    x.search(["data/letters"], r'VD')
