@@ -42,6 +42,7 @@
             </text> 
             <text match="//tei:listPerson/tei:person" index="yes">
                 <field name="name" expression="nav:person-get-metadata(., 'name')"/>
+                <field name="all-names" expression="nav:person-get-metadata(., 'all-names')"/>
                 <field name="surname" expression="nav:person-get-metadata(., 'surname')"/>
                 <field name="forename" expression="nav:person-get-metadata(., 'forename')"/>
                 <field name="sent-count" expression="nav:person-get-metadata(., 'sent-count')"/>

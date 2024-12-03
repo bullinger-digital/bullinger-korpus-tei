@@ -109,6 +109,10 @@ declare function idx:person-get-metadata($person as element(), $field as xs:stri
         case "name" return (
             string-join(($main-persname/tei:surname, $main-persname/tei:forename),", ")
         )
+        case "all-names" return (
+            for $p in $person/tei:persName
+            return string-join(($p/tei:surname, $p/tei:forename),", ")
+        )
         case "surname" return (
             $main-persname/tei:surname
         )
