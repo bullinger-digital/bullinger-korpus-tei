@@ -5,12 +5,13 @@ import re, os
 path_data = "scripts/src/locations_inex.txt"
 path_countries = "data/index/localities.xml"
 
-data = {}
+data = []
 with open(path_data) as fi:
     for line in fi:
         t = line.split("__")
-        if len(t)>1: data[t[0]] = [t[1].strip(), t[2].strip()]
-        else: print("Warning:", t)
+        r = '[\[\]\(\)]*'
+        if len(t)>2: data.append([t[0], r+r.join(t[1].strip()), r+r.join(t[2].strip())+r])
+        else: print("*Warning:", t)
 
 ROOT = "data/letters/"
 for f in os.listdir(ROOT):
@@ -19,8 +20,7 @@ for f in os.listdir(ROOT):
         with open(p) as fi: s = fi.read()
         s_old = s
         if not re.match(r'.*source="keine".*', s, flags=re.S):
-            for x in data:
-                t = ' '.join(data[x])
-                s = re.sub(t, data[x][0]+' <placeName ref="'+x+'" type="auto_name">'+data[x][1]+'</placeName>', s, flags=re.S)
+            for t in data:
+                s = re.sub(r'('+t[1]+r'\s+)('+t[2]+r')([.,!?:;"\)\]»\'<\s]+)', r'\1<placeName ref="'+t[0]+r'" type="auto_name">\2</placeName>\3', s, flags=re.S)
             if s != s_old:
                 with open(p, 'w') as fo: fo.write(s)
