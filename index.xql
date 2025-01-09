@@ -49,6 +49,9 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "recipient" return (
                 $header//tei:correspDesc/tei:correspAction[@type="received"]/tei:persName/@ref/string()
             )
+            case "mentioned-persons" return (
+                distinct-values($root//tei:persName/@ref/string())
+            )
             case "archive" return
                 $header//tei:msDesc/tei:msIdentifier/tei:repository/@ref/string()
             case "organization" return (
@@ -112,6 +115,10 @@ declare function idx:person-get-metadata($person as element(), $field as xs:stri
         case "all-names" return (
             for $p in $person/tei:persName
             return string-join(($p/tei:surname, $p/tei:forename),", ")
+        )
+        case "mentioned-names" return (
+            (: Text on persName elements mentioning that person :)
+            distinct-values(collection('/db/apps/bullinger-data/data/letters')//tei:persName[@ref=$main-id]/text())
         )
         case "surname" return (
             $main-persname/tei:surname

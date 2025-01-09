@@ -9,6 +9,7 @@
                 <field name="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
                 <field name="recipient" expression="nav:get-metadata(ancestor::tei:TEI, 'recipient')"/>
                 <field name="correspondant" expression="nav:get-metadata(ancestor::tei:TEI, 'correspondant')"/>
+                <field name="mentioned-persons" expression="nav:get-metadata(ancestor::tei:TEI, 'mentioned-persons')"/>
                 <field name="place" expression="nav:get-metadata(ancestor::tei:TEI, 'place')"/>
                 <field name="number" expression="nav:get-metadata(ancestor::tei:TEI, 'number')"/>
                 <field name="corpus" expression="'bullinger'"/>
@@ -43,6 +44,7 @@
             <text match="//tei:listPerson/tei:person" index="yes">
                 <field name="name" expression="nav:person-get-metadata(., 'name')"/>
                 <field name="all-names" expression="nav:person-get-metadata(., 'all-names')"/>
+                <field name="mentioned-names" expression="nav:person-get-metadata(., 'mentioned-names')"/>
                 <field name="surname" expression="nav:person-get-metadata(., 'surname')"/>
                 <field name="forename" expression="nav:person-get-metadata(., 'forename')"/>
                 <field name="sent-count" expression="nav:person-get-metadata(., 'sent-count')"/>
