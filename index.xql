@@ -52,6 +52,9 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "mentioned-persons" return (
                 distinct-values($root//tei:persName/@ref/string())
             )
+            case "mentioned-places" return (
+                distinct-values($root//tei:placeName/@ref/string())
+            )
             case "archive" return
                 $header//tei:msDesc/tei:msIdentifier/tei:repository/@ref/string()
             case "organization" return (
