@@ -39,8 +39,9 @@
             <text qname="tei:div">
                 <ignore qname="tei:div"/>
             </text>  
-            <text qname="tei:place" index="no">
-                <field name="name" expression="nav:get-metadata(., 'place-name')"/>
+            <text qname="tei:place" index="yes">
+                <field name="name" expression="nav:place-get-metadata(., 'name')"/>
+                <field name="mentioned-names" expression="nav:place-get-metadata(., 'mentioned-names')"/>
             </text> 
             <text match="//tei:listPerson/tei:person" index="yes">
                 <field name="name" expression="nav:person-get-metadata(., 'name')"/>

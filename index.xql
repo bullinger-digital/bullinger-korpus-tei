@@ -60,13 +60,6 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "organization" return (
                 $header//tei:correspDesc/tei:correspAction/tei:orgName/@ref/string()
             )
-            case "place-name" return (
-                let $settlement := $root//tei:settlement/text()
-                let $district := $root//tei:district/text()
-                let $country := $root//tei:country/text()
-                return
-                    if($settlement) then ($settlement) else if ($district) then ($district) else ($country)
-            )
             case "place" return (
                 $header//tei:correspDesc/tei:correspAction/tei:placeName/@ref/string()
             )
@@ -106,6 +99,23 @@ declare function idx:archive-get-metadata($archive as element(), $field as xs:st
             ()
 };
 
+declare function idx:place-get-metadata($place as element(), $field as xs:string) {
+    let $main-id := fn:lower-case($place/@xml:id)
+    return switch ($field)
+        case "name" return (
+            let $settlement := $place//tei:settlement/text()
+            let $district := $place//tei:district/text()
+            let $country := $place//tei:country/text()
+            return
+                if($settlement) then ($settlement) else if ($district) then ($district) else ($country)
+        )
+        case "mentioned-names" return (
+            (: Text on placeName elements mentioning that place :)
+            distinct-values(collection('/db/apps/bullinger-data/data/letters')//tei:placeName[@ref=$main-id]/text())
+        )
+        default return 
+            ()
+};
 
 declare function idx:person-get-metadata($person as element(), $field as xs:string) {
     let $main-persname := $person/tei:persName[@type='main']
