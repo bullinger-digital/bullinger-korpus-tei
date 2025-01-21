@@ -99,6 +99,16 @@ declare function idx:archive-get-metadata($archive as element(), $field as xs:st
             ()
 };
 
+declare function idx:bibl-get-metadata($bibl as element(), $field as xs:string) {
+    switch ($field)
+        case "text" return
+            $bibl/tei:bibl
+        case "title" return
+            $bibl/tei:title
+        default return
+            ()
+};
+
 declare function idx:place-get-metadata($place as element(), $field as xs:string) {
     let $main-id := fn:lower-case($place/@xml:id)
     return switch ($field)

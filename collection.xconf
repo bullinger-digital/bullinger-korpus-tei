@@ -64,6 +64,11 @@
                 <facet dimension="archive-name" expression="nav:archive-get-metadata(., 'archive-name')"/>
                 <field name="archive-count" expression="nav:archive-get-metadata(., 'archive-count')"/>
             </text>
+
+            <text match="//tei:standOff/tei:listBibl/tei:bibl" index="yes">
+                <field name="bibl-text" expression="nav:bibl-get-metadata(., 'text')"/>
+                <field name="bibl-title" expression="nav:bibl-get-metadata(., 'title')"/>
+            </text>
             
             <!--<text match="//tei:listNym/tei:nym">
                 <field name="group-name-sing" expression="nav:get-metadata(., 'group-name-sing')"/>
