@@ -22,6 +22,7 @@
                 <field name="print-literature" expression="ancestor::tei:TEI//tei:sourceDesc//tei:bibl[@type = 'Gedruckt', @type = 'Literatur']"/>
                 <field name="notes" expression="ancestor::tei:TEI//(tei:note[@type='Hinweis'] | tei:idno[@subtype='Hinweis'])"/>
                 <field name="fnhd-normalization" expression="doc('/db/apps/bullinger-data/data/normalizations/' || util:document-name(.))//tei:text"/>
+                <field name="has-facsimile" expression="nav:get-metadata(ancestor::tei:TEI, 'has-facsimile')" />
                 <facet dimension="archive" expression="nav:get-metadata(ancestor::tei:TEI, 'archive')"/>
                 <facet dimension="organization" expression="nav:get-metadata(ancestor::tei:TEI, 'organization')"/>
                 <facet dimension="sender" expression="nav:get-metadata(ancestor::tei:TEI, 'sender')"/>
@@ -37,6 +38,7 @@
                 <facet dimension="corpus" expression="'bullinger'"/>
                 <facet dimension="letter-id" expression="nav:get-metadata(ancestor::tei:TEI, 'letter-id')" hierarchical="no"/>
                 <facet dimension="signature" expression="nav:get-metadata(ancestor::tei:TEI, 'signature')" hierarchical="no"/>
+                <facet dimension="has-facsimile" expression="nav:get-metadata(ancestor::tei:TEI, 'has-facsimile')" />
             </text>
             <text qname="tei:div">
                 <ignore qname="tei:div"/>

@@ -70,6 +70,11 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 let $date := $header//tei:correspAction[@type='sent']/tei:date
                 return 
                     idx:normalize-date(head(($date/@when, $date/@notAfter)))
+            case "has-facsimile" return
+                if (count($root//tei:facsimile/tei:surface/tei:graphic) > 0) then
+                    "true"
+                else
+                    "false"
             default return
                 ()
 };
