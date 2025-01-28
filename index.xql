@@ -65,6 +65,21 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             )
             case "language" return
                 $header/tei:langUsage/tei:language
+            case "language-threshold" return
+                for $l in $header//tei:langUsage/tei:language
+                let $usage-int := if($l/@usage) then xs:integer($l/@usage) else 0
+                where ($usage-int >= 10)
+                return
+                    (: Language percentage is encoded as e.g. de:>95 which means > 95% of the letter is written in German :)
+                    let $thresholds := (
+                        if($usage-int >= 950) then ">95" else (),
+                        if($usage-int >= 800) then ">80" else (),
+                        if($usage-int >= 500) then ">50" else (),
+                        if($usage-int >= 1) then ">0.1" else ()
+                    )
+                    return
+                        for $threshold in $thresholds
+                        return concat($l/@ident, ':', $threshold)
             case "date" 
             case "datestring" return            
                 let $date := $header//tei:correspAction[@type='sent']/tei:date
