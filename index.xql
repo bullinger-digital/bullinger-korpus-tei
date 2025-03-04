@@ -153,11 +153,11 @@ declare function idx:person-get-metadata($person as element(), $field as xs:stri
     
     return switch ($field)
         case "name" return (
-            string-join(($main-persname/tei:surname, $main-persname/tei:forename),", ")
+            string-join(($main-persname/tei:forename, $main-persname/tei:surname), " ")
         )
         case "all-names" return (
             for $p in $person/tei:persName
-            return string-join(($p/tei:surname, $p/tei:forename),", ")
+            return string-join(($p/tei:forename, $p/tei:surname), " ")
         )
         case "mentioned-names" return (
             (: Text on persName elements mentioning that person :)
