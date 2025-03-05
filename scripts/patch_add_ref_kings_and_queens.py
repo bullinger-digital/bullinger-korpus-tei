@@ -1,4 +1,4 @@
-import xml.etree.ElementTree as ET  # Import XML processing library
+from lxml import etree  # Import XML processing library
 import os  # Import OS module to handle file system operations
 import re  # Import regular expressions for text matching
 import pandas as pd  # Import Pandas for handling Excel data
@@ -8,8 +8,8 @@ import sys  # Import system module to handle command-line arguments
 input_folder = "./data/letters"
 
 # Retrieve the Excel file and output folder from command-line arguments
-excel_file = sys.argv[1] or './scripts/src/leaders_modified_ele.xlsx'  # Excel file containing monarch data
-output_folder = sys.argv[2] or input_folder  # Folder where modified XML files will be saved
+excel_file = sys.argv[1] if len(sys.argv) > 1 else './scripts/src/leaders_modified_ele.xlsx'  # Excel file containing monarch data
+output_folder = sys.argv[2] if len(sys.argv) > 2 else input_folder  # Folder where modified XML files will be saved
 
 # Load the Excel file and read all sheets into a dictionary
 data = pd.read_excel(excel_file, sheet_name=None)
@@ -24,7 +24,6 @@ for sheet_name, df in data.items():
 
 # Define namespace for TEI XML
 ns = {'tei': 'http://www.tei-c.org/ns/1.0'}
-ET.register_namespace('', ns['tei'])  # Register the TEI namespace
 
 # Define regex pattern to match words related to "rex" and "regina"
 # Manually added "regen", yes with "n", because there is 1 case in corpus where it shows up: letter 5435.xml
@@ -56,8 +55,9 @@ for filename in os.listdir(input_folder):
 
         #print(f"Processing: {filename}")
 
-        tree = ET.parse(input_path)  # Parse the XML file
-        root = tree.getroot()  # Get root element of XML
+        parser = etree.XMLParser(remove_blank_text=False)
+        tree = etree.parse(input_path, parser)
+        root = tree.getroot()
 
         pers_names = root.findall(".//tei:persName", ns)  # Find all person names in the XML
         corresp_desc = root.find(".//tei:correspDesc", ns)  # Find correspondence description element
@@ -102,24 +102,21 @@ for filename in os.listdir(input_folder):
                                     # Check if the identified country and timeline match
                                     if mapped_country and mapped_country.lower() == country and start_year <= letter_year <= end_year:
                                         pers.set('ref', matching_ref)  # Assign reference ID
+                                        pers.set('type', 'auto_name')
                                         modified = True  # Mark file as modified
                                         case_count += 1  # Increment file case count
                                         total_case_count += 1  # Increment global case count
-                                        print(f"Marked document: {filename}, assigned ref={matching_ref} to {ET.tostring(pers, encoding='unicode')}")
+                                        print(f"Marked document: {filename}, assigned ref={matching_ref} to {etree.tostring(pers, encoding='unicode')}")
                     except (ValueError, TypeError):
                         continue  # Skip invalid records
 
         # Save modified XML file if changes were made
         if modified:
-            for elem in root.iter():
-                if elem.tag.startswith('{'):
-                    elem.tag = elem.tag.split('}', 1)[1]  # Remove namespace from tags
-                if elem.text is None:
-                    elem.text = ""  # Ensure no NoneType text values
-                for attr, value in elem.attrib.items():
-                    if value is None:
-                        elem.attrib[attr] = ""  # Ensure no NoneType attributes
-            tree.write(output_path, encoding="utf-8", xml_declaration=True)  # Save file
+            xml_str = etree.tostring(root, encoding="utf-8", xml_declaration=False).decode("utf-8")
+            xml_str = '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n' + xml_str # Add XML declaration in our format
+            with open(output_path, "w", encoding="utf-8") as f:
+                f.write(xml_str) # Save file
+                
             print(f"✅ Saved modified file: {output_path} (Cases found: {case_count})\n")
         #else:
             #print(f"❌ No changes made to {filename}, skipping save.\n")
