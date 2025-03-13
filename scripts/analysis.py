@@ -147,4 +147,4 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    x.search(["data/letters"], r'<bibl>Otto')
+    x.search(["data/letters"], r'Ea lucubratione cum')
