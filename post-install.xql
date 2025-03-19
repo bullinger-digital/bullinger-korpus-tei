@@ -1,6 +1,7 @@
 xquery version "1.0";
 
 import module namespace xdb="http://exist-db.org/xquery/xmldb";
+import module namespace gen="http://teipublisher.com/generate" at "post-install-generate.xql";
 
 (: The following external variables are set by the repo:deploy function :)
 
@@ -10,6 +11,9 @@ declare variable $home external;
 declare variable $dir external;
 (: the target collection into which the app is deployed :)
 declare variable $target external;
+
+(: To speed up indexing, we pre-calculate some of the data into generated XML files :)
+gen:generate-all($target),
 
 (: In the original code from Jinntec, the `xdb:store-files-from-pattern` function was executed in the pre-install.xql
 file. We encountered issues with index creation, such as sent-count and received-count being zero for all persons. It

@@ -84,7 +84,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
             case "datestring" return            
                 let $date := $header//tei:correspAction[@type='sent']/tei:date
                 return 
-                    idx:normalize-date(head(($date/@when, $date/@notAfter)))
+                    idx:normalize-date(head(($date/@when, $date/@notAfter, $date/@notBefore)))
             case "has-facsimile" return
                 if (count($root//tei:facsimile/tei:surface/tei:graphic) > 0) then
                     "true"
