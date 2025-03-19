@@ -75,10 +75,10 @@ declare function gen:generate-navigation($target as xs:string) {
                         for $result in $results
                         return 
                             <item xml:id="file{$result?id}">
-                                <ptr type="prev" target="{if ($result?prev) then "file" || $result?prev else ""}"/>
-                                <ptr type="next" target="{if ($result?next) then "file" || $result?next else ""}"/>
-                                <ptr type="prev-same-correspondents" target="{if ($result?prev-same-correspondents) then "file" || $result?prev-same-correspondents else ""}"/>
-                                <ptr type="next-same-correspondents" target="{if ($result?next-same-correspondents) then "file" || $result?next-same-correspondents else ""}"/>
+                                {if ($result?prev) then <ptr type="prev" target="file{$result?prev}"/> else ()}
+                                {if ($result?next) then <ptr type="next" target="file{$result?next}"/> else ()}
+                                {if ($result?prev-same-correspondents) then <ptr type="prev-same-correspondents" target="file{$result?prev-same-correspondents}"/> else ()}
+                                {if ($result?next-same-correspondents) then <ptr type="next-same-correspondents" target="file{$result?next-same-correspondents}"/> else ()}
                             </item>
                     }
                 </list>
