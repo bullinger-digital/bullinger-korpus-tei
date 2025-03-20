@@ -26,7 +26,6 @@ This allows us to index the two folders separately in the correct order afterwar
 
 (: store index configuration files :)
 xdb:store-files-from-pattern(concat("/system/config", $target), $dir, "*.xconf"),
-(: first reindex letter files :)
 xdb:reindex(concat($target, '/data/letters')),
-(: then index register files :)
-xdb:reindex(concat($target, '/data/index'))
+xdb:reindex(concat($target, '/data/index')),
+xdb:reindex(concat($target, '/data/generated'))
