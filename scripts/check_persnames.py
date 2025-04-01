@@ -14,5 +14,8 @@ for f in os.listdir(ROOT):
     if re.match(r'.*\.xml', f):
         path = os.path.join(ROOT, f)
         with open(path) as fi: s = fi.read()
+        if len(re.findall(r'<s ', s, flags=re.S)) == 0 and len(re.findall(r'<lb ', s, flags=re.S)) == 0: print(f)
+        """
         for p in re.findall(r'<persName[^>]*ref="([^"]*)"[^>]*>(.*?)</persName>', s, flags=re.S):
             if p[0] not in pids: print("*Warning", p)
+        """
