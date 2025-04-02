@@ -92,7 +92,10 @@
             <create qname="@role" type="xs:string"/>
             <create qname="@source" type="xs:string"/>
             <create qname="@subtype" type="xs:string"/>
-            <create qname="@type" type="xs:string"/>
+            <create qname="tei:persName">
+                <condition attribute="type" value="main"/>
+                <field name="mainTerm" type="xs:string"/>
+            </create>
             <create qname="@when" type="xs:string"/>
         </range>
     </index>
