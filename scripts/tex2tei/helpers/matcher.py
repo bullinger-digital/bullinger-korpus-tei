@@ -37,7 +37,6 @@ class Matcher:
         for f in os.listdir(self.root_output):
             os.remove(os.path.join(self.root_output, f))
         self.get_mapping_from_corpus()  # corpus-lookup
-        id_candidates = []
         for f in sorted(os.listdir(self.root_input)):
             if re.match(r'.*\.tex', f):
                 with open(os.path.join(self.root_input, f)) as fi: s = fi.read()

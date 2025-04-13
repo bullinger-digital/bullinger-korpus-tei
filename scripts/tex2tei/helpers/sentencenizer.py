@@ -2,7 +2,6 @@
 # -*- coding: utf8 -*-
 
 import os, sys, re
-import langid
 
 from helpers.lang.identifier import LanguageIdentifier
 from helpers.lang.charlm import CharLM
@@ -71,7 +70,6 @@ class Sentencenicer:
 
     def set_lang_attributes(self):
         if self.print_info: print("- setting lang-attributes ...")
-        langid.set_languages(['la', 'de', 'el'])
         for f in sorted(os.listdir(self.input)):
             if f != '.DS_Store':
                 with open(os.path.join(self.input, f)) as fi:

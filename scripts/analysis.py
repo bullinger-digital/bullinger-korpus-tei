@@ -147,4 +147,4 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    x.search(["data/letters"], r'[Vv]ale(|te|bitis)[.,:;?!»"<\s]+')
+    x.search(["data/letters"], r'"p(1771|1768|1769)"')
