@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4" type="Brief" source="keine" n="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file4" type="Brief" source="HBBW" n="18335">
 	<teiHeader xml:lang="de">
 		<fileDesc>
 			<titleStmt>
-				<title subtype="file">[Heinrich Bullinger] / [Zürich] an [Johannes Stumpf] / [Stammheim], 3. Januar 1548</title>
+				<title subtype="file">Bullinger an Johannes Stumpf, [Zürich], Dienstag, 3. Januar 1548</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Volk et al.</publisher>
@@ -16,54 +16,68 @@
 				</address>
 				<authority>Universität Zürich</authority>
 				<idno subtype="url">https://www.bullinger-digital.ch/</idno>
-				<date when="2024"/>
+				<date when="2025"/>
 			</publicationStmt>
 			<sourceDesc>
-				<msDesc type="Brief" subtype="Kopie" xml:lang="">
+				<bibl>Heinrich Bullinger Werke, Briefwechsel Band 21 (Briefe von Januar bis April 1548),bearb. von David Mache und Paul Achim Neuendorf, Zürich 2024, 504 S., ISBN 978-3-290-18668-5.</bibl>
+				<msDesc type="Brief" subtype="Abschrift">
 					<msIdentifier>
 						<repository ref="a96"/>
-						<idno subtype="Kopie">Ms S 313,18 v, = Buch III, Nr. 29</idno>
+						<idno subtype="Abschrift">Ms S 313, 18v.</idno>
 					</msIdentifier>
 					<msContents>
-						<msItem>
-							<author>Stumpf, Johannes</author>
-							<incipit>Imprecor foelicissimum annum tibi, uxori charae et omibus tuis. Quae accepi à domino Vadiano hic mitto</incipit>
-						</msItem>
+						<summary>
+							<p xml:id="regest1">Neujahrsgrüße an <persName ref="p3067">Stumpf</persName>, dessen Frau [Regula Brennwald]<note type="entity"><persName ref="p3067">Stumpf, Johannes</persName>, Regula, geb. Brennwald (Gattin) Im Gruß</note> und Familie<note type="entity"><persName ref="p3067">Stumpf, Johannes</persName>, Familie, Im Gruß</note>.</p>
+							<p xml:id="regest2">Anbei schickt Bullinger [den Entwurf eines Briefes an Aegidius Tschudi<note type="entity">Tschudi, Aegidius</note>], den er von Joachim Vadian<note type="entity">Vadian, Joachim</note> erhalten hat. Er bittet freundlich um eine Abschrift dieses Briefes oder um das Autograph selbst, wobei er sich über eine Abschrift von der Hand <persName ref="p3067">Stumpfs</persName> mehr freuen würde.</p>
+							<p xml:id="regest3">Grüße.</p>
+						</summary>
 					</msContents>
 					<additional>
 						<listBibl>
-							<bibl type="Gedruckt" subtype="Maschinenschriftliche__Transkription">
-								<title>A. Bonomo, Stumpf Brief- u. Aktenslg. I, 2, 320a [ZBZ, Ms Z I 103a]</title>
+							<bibl type="Gedruckt" subtype="Typoskript">
+								<title>Materialsammlung von Attilio Bonomo (geb. 1896) betreffend Johannes Stumpf (1500-1577), 2 Bde., s.l. 1921 (maschinenschriftlich)</title>
 							</bibl>
 						</listBibl>
 					</additional>
-				</msDesc>
-				<msDesc type="Brief" subtype="Kopie" xml:lang="">
-					<msIdentifier>
-						<repository ref="a96"/>
-						<idno subtype="Kopie">Ms S 65,179</idno>
-					</msIdentifier>
 				</msDesc>
 			</sourceDesc>
 		</fileDesc>
 		<profileDesc>
 			<correspDesc ref="https://www.bullinger-digital.ch/letter/4">
 				<correspAction type="sent">
-					<persName ref="p495" cert="low"/>
-					<placeName ref="l587" cert="low"/>
-					<date when="1548-01-03" cert="high"/>
+					<persName ref="p495" cert="high">Bullinger</persName>
+					<placeName ref="l587" cert="low"><orig>Zürich</orig></placeName>
+					<date when="1548-01-03" cert="high">Dienstag, 3. Januar 1548</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="p3067" cert="low"/>
-					<placeName ref="l486" cert="low"/>
+					<persName ref="p3067" cert="high">Johannes Stumpf</persName>
 				</correspAction>
 			</correspDesc>
 		</profileDesc>
-		<revisionDesc status="untouched">
-			<change>init</change>
+		<revisionDesc>
+			<change status="untouched">init</change>
 		</revisionDesc>
 	</teiHeader>
-	<text xml:lang="">
-		<body><bibl>[Keine Transkription verfügbar.]</bibl></body>
+	<text>
+		<body>
+			<note xml:id="fna" type="footnote" subtype="signature" n="alpha"><hi rend="italic">Von <persName ref="p3067">Johannes Stumpfs</persName> Hand.</hi></note>
+			<note xml:id="fn1" type="footnote" subtype="printed" n="num">Die Schrift ist erhalten in <placeName ref="l587">Zürich</placeName> ZB, Ms Z I 103 und 103a.</note>
+			<div xml:id="div1" corresp="regest1">
+				<p>
+					<s n="1" xml:lang="la" type="auto" ana="salute">H. Bullingerus Ioanni Stumphio S.D. Imprecor foelicissimum annum tibi, uxori<note type="entity"><persName ref="p3067">Stumpf, Johannes</persName>, Regula, geb. Brennwald (Gattin) Im Gruß</note><note xml:id="fn2" type="footnote" n="num">Regula Brennwald, geb. 1509, gest. 6. Februar 1561; s. Attilio <bibl><author>Bonomo</author></bibl>, <persName ref="p3067">Johannes Stumpf</persName>, der Reformator und Geschichtsschreiber, Diss. phil. <placeName ref="l587">Zürich</placeName>, Genua 1923, Stammtafel zwischen S. 16 und 17. 54, Anm. 2.</note> charae et omnibus tuis<note type="entity"><persName ref="p3067">Stumpf, Johannes</persName>, Familie, Im Gruß</note>.</s>
+				</p>
+			</div>
+			<div xml:id="div2" corresp="regest2">
+				<p>
+					<s n="2" xml:lang="la" type="auto">Quae accepi a d. Vadiano<note type="entity">Vadian, Joachim</note>, hic mitto.<note xml:id="fn3" type="footnote" n="num">Zum Briefentwurf Vadians s. <ref target="18000">18000</ref>, <ref target="fn18000-1" type="fn">fn18000-1</ref>.</note></s>
+					<s n="3" xml:lang="la" type="auto">Oro tamen peramice, ut vel descriptam mihi illam epistolam dones, ut habeam tuamque manum, vel ipsum autographum Vadiani<note type="entity">Vadian, Joachim</note>, quod tamen non ita gratum foret, quam si tu mihi describeres.</s>
+				</p>
+			</div>
+			<div xml:id="div3" corresp="regest3">
+				<p>
+					<s n="4" xml:lang="la" type="auto" ana="farewell">Vale aeternum. 3. ianuarii 1548.</s>
+				</p>
+			</div>
+		</body>
 	</text>
 </TEI>
