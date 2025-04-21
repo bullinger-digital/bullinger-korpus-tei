@@ -1,326 +1,353 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- ROOT [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html] -->
+<!-- ROOT (13114x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html] -->
 <!-- a single [TEI-conformant] document (resp. "file", usually a letter) -->
+<!-- e.g. <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1" type="Brief" source="HBBW" n="18327"> -->
 <!ELEMENT TEI (teiHeader|facsimile|text)*>
 <!ATTLIST TEI
-    xmlns CDATA #REQUIRED
-    xml:id CDATA #REQUIRED
-    type CDATA #REQUIRED
-    source CDATA #REQUIRED
-    n CDATA #IMPLIED>
+        xmlns CDATA #REQUIRED
+        xml:id CDATA #REQUIRED
+        type CDATA #REQUIRED
+        source CDATA #REQUIRED
+        n CDATA #IMPLIED>
+<!-- xmlns: (always) http://www.tei-c.org/ns/1.0 -->
+<!-- xml:id: document- resp. file-id (has to start with a letter, hence the "file"-prefix) -->
+<!-- type: document-type (Brief 12166, Verweis 476, Hinweis 149, Beilage 167, "Neue Zeitung" 59, Widmung 27, Briefschluss 19, Nachschrift 21, Gutachten 10, Rede 8, Begleitbrief 5, Briefanfang 4, Widmungsvorrede 2, Testament 1) -->
+<!-- source: data origin (TUSTEP, HBBW, VBS, etc.) -->
+<!-- n (integer): the letter number or "id" within <source> (of which the document origins) -->
 
-<!-- HEADER [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html] -->
+<!-- METADATA -->
+
+<!-- HEADER (13114x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html] -->
 <!-- descriptive and declarative metadata -->
 <!ELEMENT teiHeader (fileDesc, profileDesc, revisionDesc)>
 <!ATTLIST teiHeader
-    xml:lang CDATA #REQUIRED>
+        xml:lang CDATA #REQUIRED>
+<!-- xml:lang: the language of the metadata, including the summary (currently always "de") -->
 
-<!-- FILE [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html] -->
+<!-- FILE (13114x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html] -->
 <!-- bibliographic description -->
 <!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
-<!-- TITLE STATEMENT [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html] -->
+<!-- TITLE STATEMENT (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html] -->
 <!-- groups information about the title -->
+<!-- e.g. <titleStmt><title subtype="file">Konrad Gessner an Bullinger, [Zürich, 1547]</title></titleStmt> -->
 <!ELEMENT titleStmt (title)>
-<!-- TITLE [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html] -->
+<!-- TITLE (28964x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html] -->
 <!-- actual document title (sender, addresssee, place, date; redundant data in plain text) -->
-<!ELEMENT title (#PCDATA|persName|placeName)*>
 <!ATTLIST title
-    subtype CDATA #IMPLIED>
-<!-- PUBLICATION [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html] -->
+        subtype CDATA #IMPLIED>
+<!-- subtype: always "file", as there are (currently) no other titles -->
+<!ELEMENT title (#PCDATA|persName|placeName)*>
+<!-- PUBLICATION (13114x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html] -->
 <!-- groups information concerning the publication/distribution -->
 <!ELEMENT publicationStmt (publisher, pubPlace, address, authority, idno, date)>
-<!-- PUBLISHER [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-publisher.html] -->
+<!-- PUBLISHER (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-publisher.html] -->
 <!-- name of the organization responsible for the publication/distribution of a bibliographic item -->
 <!ELEMENT publisher (#PCDATA)>
-<!-- PUBPLACE [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-pubPlace.html] -->
+<!-- PUBPLACE (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-pubPlace.html] -->
 <!-- name of the place where a bibliographic item was published -->
 <!ELEMENT pubPlace (#PCDATA)>
-<!-- ADDRESS-BLOCK [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-address.html] -->
+<!-- ADDRESS-BLOCK (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-address.html] -->
 <!-- postal address (publisher, organization, or individual) -->
 <!ELEMENT address (addrLine)*>
-<!-- ADDRESS-LINE [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-addrLine.html] -->
+<!-- ADDRESS-LINE (52456x = 4x13114) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-addrLine.html] -->
 <!-- one line of a postal address -->
 <!ELEMENT addrLine (#PCDATA)>
-<!-- AUTHORITY [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-authority.html] -->
+<!-- AUTHORITY (13114x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-authority.html] -->
 <!-- name of the agency responsible for making a work available (other than a publisher or distributor) -->
 <!ELEMENT authority (#PCDATA)>
-<!-- IDNO [https://tei-c.org/Vault/P5//4.1.0/doc/tei-p5-doc/en/html/ref-idno.html] -->
+<!-- IDNO (38809x) [https://tei-c.org/Vault/P5//4.1.0/doc/tei-p5-doc/en/html/ref-idno.html] -->
 <!-- identifier used to identify some object, such as a bibliographic item, a person, title, or an organization in a standardized way -->
 <!ELEMENT idno (#PCDATA)>
 <!ATTLIST idno
-    subtype CDATA #IMPLIED>
-<!-- DATE [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html] -->
+        subtype CDATA #IMPLIED>
+<!-- subtype: various types in different contexts ("url", "Autograph", "Original", "Ära", etc.)-->
+<!-- DATE (26345x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html] -->
 <!-- contains a date in any format -->
+<!-- e.g. <date notBefore="1534-12-28" notAfter="1534-12-31" cert="low">[zwischen 28. und 31. Dezember 1534]</date> -->
 <!ELEMENT date (#PCDATA|note)*>
 <!ATTLIST date
-    when CDATA #IMPLIED
-    notBefore CDATA #IMPLIED
-    notAfter CDATA #IMPLIED
-    cert CDATA #IMPLIED>
-<!-- SOURCE-DESCRIPTION [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sourceDesc.html] -->
+        when CDATA #IMPLIED
+        notBefore CDATA #IMPLIED
+        notAfter CDATA #IMPLIED
+        cert CDATA #IMPLIED>
+<!-- "when" OR "notBefore/After" -->
+<!-- cert: "high" or "low" (usually associated with brackets) -->
+<!-- SOURCE-DESCRIPTION (13114x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sourceDesc.html] -->
 <!-- describes the sources from which the text was derived or generated, typically a bibliographic description -->
 <!ELEMENT sourceDesc (bibl|msDesc)*>
-<!-- BIBLIOGRAPHY [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-bibl.html] -->
+<!-- BIBLIOGRAPHY (68851x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-bibl.html] -->
 <!-- contains a loosely-structured bibliographic citation -->
 <!ELEMENT bibl (#PCDATA|title|persName|placeName|note|author)*>
 <!ATTLIST bibl
-    n CDATA #IMPLIED
-    source CDATA #IMPLIED
-    type CDATA #IMPLIED
-    subtype CDATA #IMPLIED>
-<!-- MANUSCRIPT-DESCRIPTION [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-msDesc.html] -->
+        n CDATA #IMPLIED
+        source CDATA #IMPLIED
+        type CDATA #IMPLIED
+        subtype CDATA #IMPLIED>
+<!-- source: url, e.g. https://gateway-bayern.de/VD16+H+4245 -->
+<!-- (sub-)type: e.g. "Regest", "Druck", or even "ungedruckt" -->
+<!-- MANUSCRIPT-DESCRIPTION (20291x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-msDesc.html] -->
 <!-- description of a single identifiable manuscript or other text-bearing object such as an early printed book -->
+<!-- e.g. <msDesc type="Brief" subtype="Autograph" xml:lang="la"> -->
 <!ELEMENT msDesc (msIdentifier|msContents|history|additional|physDesc)*>
 <!ATTLIST msDesc
-    type CDATA #REQUIRED
-    subtype CDATA #IMPLIED
-    xml:lang CDATA #IMPLIED>
-<!-- PHYSICAL-DESCRIPTION [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-physDesc.html] -->
+        type CDATA #REQUIRED
+        subtype CDATA #IMPLIED
+        xml:lang CDATA #IMPLIED>
+<!-- PHYSICAL-DESCRIPTION (260x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-physDesc.html] -->
 <!-- contains a full physical description of a manuscript, manuscript part, or other object -->
+<!-- e.g. <physDesc><sealDesc><seal><p>Siegelspur</p></seal></sealDesc></physDesc> -->
 <!ELEMENT physDesc (sealDesc|objectDesc)>
-<!-- SELAS [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sealDesc.html] -->
+<!-- SELAS (153x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sealDesc.html] -->
 <!-- describes the seals or similar items related to the object described -->
 <!ELEMENT sealDesc (seal)*>
 <!-- contains a description of one seal or similar -->
 <!ELEMENT seal (p)*>
-<!-- OBJECT DESCRIPTION [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-objectDesc.html] -->
+<!-- OBJECT DESCRIPTION (107x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-objectDesc.html] -->
 <!-- description of the physical components making up the object which is being described -->
-<!ELEMENT objectDesc (p)*>
-<!-- MANUSCRIPT-IDENTIFIER [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-msIdentifier.html] -->
+<!ELEMENT objectDesc (p)*> <!-- e.g. <objectDesc><p>sehr gut erhalten</p></objectDesc> -->
+<!-- MANUSCRIPT-IDENTIFIER (20291x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-msIdentifier.html] -->
 <!-- information required to identify the manuscript -->
 <!ELEMENT msIdentifier (repository|idno|altIdentifier)*>
-<!-- ARCHIVE [https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-repository.html] -->
+<!-- ARCHIVE (19985x) [https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-repository.html] -->
 <!-- name of a repository within which manuscripts or other objects are stored -->
 <!ELEMENT repository (#PCDATA)>
 <!ATTLIST repository
-    ref CDATA #IMPLIED>
-<!-- ALTERNATIVE IDENTIFIER [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-altIdentifier.html] -->
+        ref CDATA #IMPLIED>
+<!-- ref: the archive ID, see /data/index/archives.xml -->
+<!-- ALTERNATIVE IDENTIFIER (1767x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-altIdentifier.html] -->
 <!-- contains an alternative or former structured identifier used for a manuscript or other object, such as a former catalogue number -->
 <!ELEMENT altIdentifier (idno)>
-<!-- MANUSCRIPT-CONTENTS [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-msContents.html] -->
+<!-- MANUSCRIPT-CONTENTS (13135x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-msContents.html] -->
 <!-- intellectual content of a manuscript, -part, or other object either as a series of paragraphs or manuscript items -->
 <!ELEMENT msContents (msItem|summary)*>
-<!-- MANUSCRIPT-ITEM [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-msItem.html] -->
+<!-- MANUSCRIPT-ITEM (13022x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-msItem.html] -->
 <!-- individual work or item within the intellectual content of a manuscript, manuscript part, or other object -->
 <!ELEMENT msItem (incipit|author|textLang)*>
-<!-- REGEST -->
+<!-- REGEST (3239x) -->
 <!-- contains an overview of the (available) letter -->
 <!ELEMENT summary (p)*>
-<!-- AUTHOR [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-author.html] -->
+<!-- AUTHOR (1111x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-author.html] -->
 <!-- bibliographic reference, contains the name(s) of an author, personal or corporate, of a work -->
 <!ELEMENT author (#PCDATA|persName|note)*>
-<!-- INCIPIT [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-incipit.html] -->
+<!-- INCIPIT (9592x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-incipit.html] -->
 <!-- opening words of the text -->
 <!ELEMENT incipit (#PCDATA|placeName|persName)*>
-<!-- TEXT-LANGUAGE [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-textLang.html] -->
+<!-- TEXT-LANGUAGE (8806x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-textLang.html] -->
 <!-- languages and writing systems identified within the bibliographic work being described -->
 <!ELEMENT textLang (#PCDATA)>
-<!-- HISTORY [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-history.html] -->
+<!-- HISTORY (117x) [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-history.html] -->
 <!-- groups elements describing the full history of a manuscript, manuscript part, or other object -->
 <!ELEMENT history (origin)>
-<!-- ORIGIN [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-origin.html] -->
+<!-- ORIGIN (117x) [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-origin.html] -->
 <!-- any descriptive or other information concerning the origin of a manuscript, manuscript part, or other object. -->
 <!ELEMENT origin (p)>
-<!-- ADDITIONAL [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-additional.html] -->
+<!-- ADDITIONAL (9016x) [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-additional.html] -->
 <!-- groups additional information, combining bibliographic information about a manuscript or other object, or surrogate copies of it, with curatorial or administrative information -->
 <!ELEMENT additional (listBibl)>
-<!-- CITATION LIST [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listBibl.html] -->
+<!-- CITATION LIST (9016x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-listBibl.html] -->
 <!-- contains a list of bibliographic citations of any kind -->
 <!ELEMENT listBibl (bibl)*>
 
-<!-- PROFILE-DESCRIPTION [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html] -->
+<!-- PROFILE-DESCRIPTION (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html] -->
 <!-- detailed description of non-bibliographic aspects of the text, specifically the languages and sublanguages used -->
 <!ELEMENT profileDesc (correspDesc|langUsage)*>
-<!-- CORR-DESCRIPTION [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-correspDesc.html] -->
+<!-- CORR-DESCRIPTION (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-correspDesc.html] -->
 <!-- description of the actions related to one act of correspondence -->
 <!ELEMENT correspDesc (correspAction|correspContext)*>
 <!ATTLIST correspDesc
-    ref CDATA #IMPLIED>
-<!-- CORR-ACTION [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-correspAction.html] -->
+        ref CDATA #IMPLIED>
+<!-- ref: url (of the letter on www.bullinger-digital.ch/) -->
+<!-- CORR-ACTION (26085x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-correspAction.html] -->
 <!-- structured description of the place, the name of a person/organization and the date related to the sending/receiving of a message -->
-<!ELEMENT correspAction (persName|orgName|placeName|roleName|date)*>
-<!-- ROLES (official TITLES/RANKS) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-roleName.html] -->
-<!-- contains a name component which indicates that the referent has a particular role or position in society -->
-<!ELEMENT roleName EMPTY>
-<!ATTLIST roleName
-    ref CDATA #REQUIRED
-    cert CDATA #REQUIRED>
+<!ELEMENT correspAction (persName|orgName|placeName|roleName|date|rs)*>
 <!ATTLIST correspAction
-    type CDATA #REQUIRED>
-<!-- CORR-CONTEXT [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-correspContext.html] -->
+        type CDATA #REQUIRED>
+<!-- type: "sent" or "received" -->
+<!-- CORR-CONTEXT (1345x) [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-correspContext.html] -->
 <!-- references to preceding or following correspondence related to this piece of correspondence -->
 <!ELEMENT correspContext (ref)*>
-<!-- LANG-USAGE [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-langUsage.html] -->
+<!-- LANG-USAGE (8613x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-langUsage.html] -->
 <!-- the languages, sublanguages, registers, dialects, etc. represented within a text -->
 <!ELEMENT langUsage (language)*>
-<!-- LANGUAGE [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-language.html] -->
+<!-- LANGUAGE (13'167x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-language.html] -->
 <!-- characterizes a single language or sublanguage used within a text -->
+<!-- e.g. <language ident="de" usage="353">Deutsch</language> -->
 <!ELEMENT language (#PCDATA)>
 <!ATTLIST language
-    ident CDATA #REQUIRED
-    usage CDATA #REQUIRED>
-<!-- ORG-NAME [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-orgName.html] -->
+        ident CDATA #REQUIRED
+        usage CDATA #REQUIRED>
+<!-- ident: language-identifier resp. code -->
+<!-- usage: integer (per mille) -->
+<!-- ORG-NAME (988x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-orgName.html] -->
 <!-- contains an organizational name -->
 <!ELEMENT orgName (#PCDATA)>
 <!ATTLIST orgName
-    ref CDATA #IMPLIED
-    cert CDATA #IMPLIED>
-<!-- PLACE-NAME [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html] -->
+        ref CDATA #IMPLIED
+        cert CDATA #IMPLIED>
+<!-- PLACE-NAME (167'953x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html] -->
 <!-- absolute or relative place name -->
 <!ELEMENT placeName (#PCDATA|orig|note|lb|pb|ptr)*>
 <!ATTLIST placeName
-    ref CDATA #IMPLIED
-    type CDATA #IMPLIED
-    cert CDATA #IMPLIED>
-<!-- ORIG-FORM [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-orig.html] -->
+        ref CDATA #IMPLIED
+        type CDATA #IMPLIED
+        cert CDATA #IMPLIED>
+<!-- ORIG-FORM (50x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-orig.html] -->
 <!-- contains a reading which is marked as following the original, rather than being normalized or corrected -->
 <!ELEMENT orig (#PCDATA)>
-<!-- PERS-NAME [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html] -->
+<!-- PERS-NAME (211'042x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html] -->
 <!-- proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. -->
 <!ELEMENT persName (#PCDATA|lb|pb|roleName|span|hi|orig|placeName|note)*>
 <!ATTLIST persName
-    ref CDATA #IMPLIED
-    type CDATA #IMPLIED
-    cert CDATA #IMPLIED>
-<!-- REFERENCE [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-ref.html] -->
+        ref CDATA #IMPLIED
+        type CDATA #IMPLIED
+        cert CDATA #IMPLIED>
+<!-- REFERENCING STRING (555x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-rs.html] -->
+<!-- contains a general purpose name or referring string -->
+<!-- e.g. <rs type="title">Bürgermeister und Rat von Zürich</rs> -->
+<!ELEMENT rs (#PCDATA)>
+<!ATTLIST rs
+        type CDATA #REQUIRED>
+<!-- REFERENCE (29175x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-ref.html] -->
 <!-- defines a reference to another location, possibly modified by additional text or comment -->
 <!ELEMENT ref (#PCDATA|pb)*>
 <!ATTLIST ref
-    source CDATA #IMPLIED
-    type CDATA #IMPLIED
-    target CDATA #IMPLIED>
-<!-- REVISION-DESCRIPTION [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-revisionDesc.html] -->
+        source CDATA #IMPLIED
+        type CDATA #IMPLIED
+        target CDATA #IMPLIED>
+<!-- REVISION-DESCRIPTION (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-revisionDesc.html] -->
 <!-- summarizes the revision history for a file -->
 <!ELEMENT revisionDesc (change)*>
 <!ATTLIST revisionDesc
-    status CDATA #IMPLIED>
-<!-- CHANGE-LOG [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-change.html] -->
+        status CDATA #IMPLIED>
+<!-- CHANGE-LOG (13'114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-change.html] -->
 <!-- documents a change or set of changes made during the production of a source document, or during the revision -->
 <!ELEMENT change (#PCDATA)>
 <!ATTLIST change
-    status CDATA #IMPLIED>
-<!-- FACSIMILE, resp. SCAN-IMAGES [https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-facsimile.html] -->
+        status CDATA #IMPLIED>
+<!-- FACSIMILE, resp. SCAN-IMAGES (11'544x) [https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-facsimile.html] -->
 <!-- representation of some written source in the form of a set of images rather than as transcribed or encoded text -->
 <!ELEMENT facsimile (surface)*>
-<!-- SURFACE [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-surface.html] -->
+<!-- SURFACE (31'188x) [https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-surface.html] -->
 <!-- written surface as a two-dimensional coordinate space, optionally grouping one or more graphic representations of that space, zones of interest within that space, and, when using an embedded transcription approach, transcriptions of the writing within them -->
 <!ELEMENT surface (graphic|zone)*>
-<!-- (SCAN-)IMAGE [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-graphic.html] -->
+<!-- (SCAN-)IMAGE (31'188x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-graphic.html] -->
 <!-- indicates the location of a graphic or illustration, either forming part of a text, or providing an image of it -->
 <!ELEMENT graphic (desc)>
 <!ATTLIST graphic
-    xml:id CDATA #REQUIRED
-    width CDATA #IMPLIED
-    height CDATA #IMPLIED
-    url CDATA #REQUIRED
-    n CDATA #REQUIRED>
-<!-- IMG-DESCRIPTION [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-desc.html] -->
+        xml:id CDATA #REQUIRED
+        width CDATA #IMPLIED
+        height CDATA #IMPLIED
+        url CDATA #REQUIRED
+        n CDATA #REQUIRED>
+<!-- IMG-DESCRIPTION (31'188x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-desc.html] -->
 <!-- image-path -->
 <!ELEMENT desc (#PCDATA)>
 <!ATTLIST desc
-    subtype CDATA #REQUIRED>
-<!-- ZONES/COORDINATES [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-zone.html] -->
+        subtype CDATA #REQUIRED>
+<!-- ZONES/COORDINATES (254'452x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-zone.html] -->
 <!-- line alignments between text and a scan-image -->
 <!ELEMENT zone (#PCDATA)>
 <!ATTLIST zone
-    xml:id CDATA #REQUIRED
-    points CDATA #REQUIRED>
+        xml:id CDATA #REQUIRED
+        points CDATA #REQUIRED>
 
-<!-- LETTER [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-text.html] -->
+<!-- CONTENT -->
+
+<!-- LETTER (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-text.html] -->
 <!-- contains a single letter text -->
 <!ELEMENT text (note|body)*>
 <!ATTLIST text
-    xml:lang CDATA #IMPLIED>
-<!-- LETTER-TEXT [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html] -->
+        xml:lang CDATA #IMPLIED>
+<!-- LETTER-TEXT (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html] -->
 <!-- content of a single unitary text -->
 <!ELEMENT body (bibl|note|div|p)*>
-<!-- DIVISIONS -->
+<!-- DIVISIONS (17453x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html] -->
 <!-- contains a subdivision of the front, body, or back of a text -->
 <!ELEMENT div (p)*>
 <!ATTLIST div
-    xml:id CDATA #IMPLIED
-    corresp CDATA #IMPLIED>
-<!-- PARAGRAPHS -->
-<!-- marks paragraphs in prose -->
+        xml:id CDATA #IMPLIED
+        corresp CDATA #IMPLIED>
+<!-- PARAGRAPHS (84726x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-p.html] -->
+<!-- marks paragraphs -->
 <!ELEMENT p (#PCDATA|s|note|date|lb|persName|placeName|pb|ref|cit|bibl|foreign|list|table)*>
 <!ATTLIST p
-    xml:id CDATA #IMPLIED>
-<!-- SENTENCES [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-s.html] -->
+        xml:id CDATA #IMPLIED>
+<!-- SENTENCES (222808x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-s.html] -->
 <!-- "s-unit"; contains a sentence-like division of a text -->
 <!ELEMENT s (#PCDATA|note|persName|placeName|foreign|pb|lb|cit|ptr|span|del)*>
 <!ATTLIST s
-    n CDATA #REQUIRED
-    xml:lang CDATA #REQUIRED
-    ana CDATA #IMPLIED
-    type CDATA #REQUIRED>
-<!-- LINE[BEGINNING]S [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lb.html] -->
-<!-- marks the beginning of a topographic line -->
+        n CDATA #REQUIRED
+        xml:lang CDATA #REQUIRED
+        ana CDATA #IMPLIED
+        type CDATA #REQUIRED>
+<!-- LINE[BEGINNING]S (244697x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lb.html] -->
+<!-- marks the beginning of a topographic line (in HTR-letters) -->
 <!ELEMENT lb EMPTY>
 <!ATTLIST lb
-    xml:id CDATA #IMPLIED>
-<!-- PAGE-BREAKS (BEGINNINGS) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-pb.html] -->
+        xml:id CDATA #IMPLIED>
+<!-- PAGE-BREAKS (BEGINNINGS, 13354x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-pb.html] -->
 <!-- marks the beginning of a new page in a paginated document -->
 <!ELEMENT pb (#PCDATA)>
 <!ATTLIST pb
-    type CDATA #IMPLIED
-    next CDATA #IMPLIED>
-<!-- NOTES -->
+        type CDATA #IMPLIED
+        next CDATA #IMPLIED>
+<!-- NOTES (104'091x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-note.html] -->
 <!-- contains a note or annotation -->
 <!ELEMENT note (#PCDATA|persName|placeName|bibl|hi|ref|ptr|cit|note|foreign|pb)*>
 <!ATTLIST note
-    xml:id CDATA #IMPLIED
-    type CDATA #IMPLIED
-    subtype CDATA #IMPLIED
-    target CDATA #IMPLIED
-    ana CDATA #IMPLIED
-    n CDATA #IMPLIED>
-<!-- HIGHLIGHTED [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-hi.html] -->
+        xml:id CDATA #IMPLIED
+        type CDATA #IMPLIED
+        subtype CDATA #IMPLIED
+        target CDATA #IMPLIED
+        ana CDATA #IMPLIED
+        n CDATA #IMPLIED>
+<!-- HIGHLIGHTED (29739x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-hi.html] -->
 <!-- marks a word or phrase as graphically distinct from the surrounding text (e.g. "italic", often within notes) -->
 <!ELEMENT hi (#PCDATA|persName|placeName|ref|bibl|note|cit|ptr|foreign)*>
 <!ATTLIST hi
-    rend CDATA #IMPLIED>
-<!-- CODE-SWITCHING [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-foreign.html] -->
+        rend CDATA #IMPLIED>
+<!-- CODE-SWITCHING (3808x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-foreign.html] -->
 <!-- identifies a word or phrase as belonging to some language other than that of the surrounding text -->
 <!ELEMENT foreign (#PCDATA|note|persName|placeName|ptr|pb)*>
 <!ATTLIST foreign
-    xml:lang CDATA #REQUIRED>
-<!-- CITED QUOTATIONS -->
+        xml:lang CDATA #REQUIRED>
+<!-- CITED QUOTATIONS (6739x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-cit.html] -->
 <!-- contains a quotation from some other document -->
 <!ELEMENT cit (#PCDATA|ref)*>
 <!ATTLIST cit
-    type CDATA #IMPLIED>
-<!-- POINTERS -->
+        type CDATA #IMPLIED>
+<!-- POINTERS (4797x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-ptr.html] -->
 <!-- anchors within texts -->
 <!ELEMENT ptr (#PCDATA)>
 <!ATTLIST ptr
-    target CDATA #IMPLIED
-    type CDATA #IMPLIED
-    sameAs CDATA #IMPLIED
-    n CDATA #IMPLIED>
-<!-- SPANS -->
+        target CDATA #IMPLIED
+        type CDATA #IMPLIED
+        sameAs CDATA #IMPLIED
+        n CDATA #IMPLIED>
+<!-- SPANS (108x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-span.html] -->
 <!-- associates an interpretative annotation directly with a span of text -->
 <!ELEMENT span (#PCDATA|note|pb)*>
 <!ATTLIST span
-    rend CDATA #IMPLIED
-    type CDATA #IMPLIED>
-<!-- DELETED TEXT -->
+        rend CDATA #IMPLIED
+        type CDATA #IMPLIED>
+<!-- DELETED TEXT (5x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-del.html] -->
 <!-- strikethrough; crossed out (in CSS: "text-decoration: line-through") -->
 <!ELEMENT del (#PCDATA|persName|placeName)*>
-<!-- TABLES [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-table.html] -->
+<!-- TABLES (1x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-table.html] -->
 <!-- contains text displayed in tabular form, in rows and columns -->
 <!ELEMENT table (row)*>
-<!-- TABLE-ROWS [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-row.html] -->
+<!-- TABLE-ROWS (4x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-row.html] -->
 <!-- contains one row of a table -->
 <!ELEMENT row (cell)*>
-<!-- TABLE-CELLS [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-cell.html] -->
+<!-- TABLE-CELLS (7x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-cell.html] -->
 <!-- contains one cell (column) of a table -->
 <!ELEMENT cell (#PCDATA)>
 <!ATTLIST cell
-    cols CDATA #IMPLIED>
-<!-- LISTS [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-list.html] -->
+        cols CDATA #IMPLIED>
+<!-- LISTS (5x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-list.html] -->
 <!-- contains any sequence of items organized as a list -->
 <!ELEMENT list (item)*>
-<!-- LIST-ITEM [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-item.html] -->
+<!-- LIST-ITEM (29x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-item.html] -->
 <!-- contains one component of a list -->
 <!ELEMENT item (s)*>
