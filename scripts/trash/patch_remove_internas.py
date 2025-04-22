@@ -19,5 +19,4 @@ for f in sorted(os.listdir(ROOT)):
                     s = re.sub(r'<additional>\s*</additional>', '', s, flags=re.S)
                     s = re.sub(r'\n\s*\n', '\n', s, flags=re.S)
 
-
-        #with open(p, 'w') as fo: fo.write(s)
+        with open(p, 'w') as fo: fo.write(s)
