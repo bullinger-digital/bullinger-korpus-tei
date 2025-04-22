@@ -16,7 +16,10 @@ config = {
         '076-18345-Ambrosius_Blarer_an_Bullinger,_[Konstanz],_[4.]_April_1548.tex': 13155,
         '092-18348-Johann_Valentin_Furtmüller_an_[Bullinger],_St._Gallen,_-26._April_1548.tex': 103,
         '094-18083-Joachim_Vadian_an_Bullinger,_St._Gallen,_26._April_1548.tex': 102,
-        '020-18336-Bullinger_an_Rudolf_Gwalther,_Zürich,_[28.]_Januar_1548-[31.]_Januar_1548.tex': 3
+        '020-18336-Bullinger_an_Rudolf_Gwalther,_Zürich,_[28.]_Januar_1548-[31.]_Januar_1548.tex': 3,
+        '009-18007-Ambrosius_Blarer_an_Bullinger,_[Konstanz],_18._Januar_1548.tex': 12,
+        '036-18032-Bullinger_an_Oswald_Myconius,_Zürich,_11._Februar_1548.tex': 29,
+        '093-18082-Joachim_Vadian_an_Bullinger,_St._Gallen,_26._April_1548.tex': 101
     },
     "CORRESPONDENTS": { # persName -> id (see corpus/data/index/persons.xml)
         "Heinrich Bullinger [Antistes]": 'p495',

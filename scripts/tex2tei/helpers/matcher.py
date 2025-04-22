@@ -113,7 +113,7 @@ class Matcher:
                         d_key = ''
                         if m_when: d_key = m_when.group(1)
                         else:
-                            if m_not_after and m_not_after: d_key = m_not_before.group(1)+'--'+m_not_after.group(1)
+                            if m_not_after and m_not_before: d_key = m_not_before.group(1)+'--'+m_not_after.group(1)
                             elif m_not_before: d_key = m_not_before.group(1)
                             elif m_not_after: d_key = m_not_after.group(1)
                         if d_key:
@@ -187,19 +187,20 @@ class Matcher:
     def get_pers2id(self):
         data = dict()
         with open(self.root_pers_index) as fi: s = fi.read()
-        for p in re.findall(r'(<persName[^>]*?ref="([^"]*)".*?</persName>)', s, flags=re.S):
-            m_surname = re.match(r'.*<surname>(.*?)</surname>.*', p[0], flags=re.S)
-            m_forename = re.match(r'.*<forename>(.*?)</forename>.*', p[0], flags=re.S)
-            surname = m_surname.group(1) if m_surname else ''
-            forename = m_forename.group(1) if m_forename else ''
-            n1 = (' '.join([forename, surname])).strip()
-            n2 = re.sub(r'\s+', ' ', re.sub(r'[\(\)]*', '', n1, flags=re.S).strip(), flags=re.S)
-            n3 = re.sub(r'\s+', ' ', re.sub(r'\(.*?\)', '', n1, flags=re.S).strip(), flags=re.S)
-            n4 = re.sub(r'\s+', ' ', re.sub(r'\[.*?\]', '', n1, flags=re.S).strip(), flags=re.S)
-            n5 = re.sub(r'\s+', ' ', re.sub(r'é', 'e', n1, flags=re.S).strip(), flags=re.S)
-            for name in [n1, n2, n3, n4, n5]:
-                if name in data: data[name].append(p[1])
-                else: data[name] = [p[1]]
+        for p0 in re.findall(r'<person xml:id="P(\d+)">(.*?)</person>', s, flags=re.S):
+            for p in re.findall(r'(<persName[^>]*>(.*?)</persName>)', p0[1], flags=re.S):
+                m_surname = re.match(r'.*<surname>(.*?)</surname>.*', p[0], flags=re.S)
+                m_forename = re.match(r'.*<forename>(.*?)</forename>.*', p[0], flags=re.S)
+                surname = m_surname.group(1) if m_surname else ''
+                forename = m_forename.group(1) if m_forename else ''
+                n1 = (' '.join([forename, surname])).strip()
+                n2 = re.sub(r'\s+', ' ', re.sub(r'[\(\)]*', '', n1, flags=re.S).strip(), flags=re.S)
+                n3 = re.sub(r'\s+', ' ', re.sub(r'\(.*?\)', '', n1, flags=re.S).strip(), flags=re.S)
+                n4 = re.sub(r'\s+', ' ', re.sub(r'\[.*?\]', '', n1, flags=re.S).strip(), flags=re.S)
+                n5 = re.sub(r'\s+', ' ', re.sub(r'é', 'e', n1, flags=re.S).strip(), flags=re.S)
+                for name in [n1, n2, n3, n4, n5]:
+                    if name in data: data[name].append('p'+p0[0])
+                    else: data[name] = ['p'+p0[0]]
         for x in data: data[x] = list(set(data[x]))
         return data
 

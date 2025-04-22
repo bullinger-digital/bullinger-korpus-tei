@@ -85,11 +85,12 @@ class Tagger:
                     key = '@@@' + str(ctr) + '@@@'
                     s = re.sub(re.escape(p), key, s, flags=re.S)
                     esc[key] = '<persName ref="' + p_id + '">' + p + '</persName>'
-            for p in self.id2pers[p_id]:
-                ctr += 1
-                key = '@@@' + str(ctr) + '@@@'
-                s = re.sub(re.escape(p), key, s, flags=re.S)
-                esc[key] = '<persName ref="' + p_id + '">' + p + '</persName>'
+            if p_id in self.id2pers:
+                for p in self.id2pers[p_id]:
+                    ctr += 1
+                    key = '@@@' + str(ctr) + '@@@'
+                    s = re.sub(re.escape(p), key, s, flags=re.S)
+                    esc[key] = '<persName ref="' + p_id + '">' + p + '</persName>'
         for key in esc: s = re.sub(key, esc[key], s, flags=re.S)
         return s
 
@@ -158,15 +159,16 @@ class Tagger:
     def read_persons(self):
         id2pers = {}
         with open(self.root_pers_index) as fi: s = fi.read()
-        for p in re.findall(r'<persName [^>]*ref="([^"]*)"[^>]*>(.*?)</persName>', s, flags=re.S):
-            if p[0] != '495':
-                if p[0] not in id2pers: id2pers[p[0]] = []
-                m_first = re.match(r'.*<forename>(.*?)</forename>.*', p[1], flags=re.S)
-                m_last = re.match(r'.*<surname>(.*?)</surname>.*', p[1], flags=re.S)
-                id2pers[p[0]] += self.get_variations(
-                    m_first.group(1) if m_first else '',
-                    m_last.group(1) if m_last else '',
-                )
+        for p0 in re.findall(r'<person xml:id="P(\d+)">(.*?)</person>', s, flags=re.S):
+            for p in re.findall(r'(<persName[^>]*>(.*?)</persName>)', p0[1], flags=re.S):
+                if p0[0] != '495':
+                    if p0[0] not in id2pers: id2pers['p'+p0[0]] = []
+                    m_first = re.match(r'.*<forename>(.*?)</forename>.*', p[1], flags=re.S)
+                    m_last = re.match(r'.*<surname>(.*?)</surname>.*', p[1], flags=re.S)
+                    id2pers['p'+p0[0]] += self.get_variations(
+                        m_first.group(1) if m_first else '',
+                        m_last.group(1) if m_last else '',
+                    )
         for id_ in id2pers: id2pers[id_] = sorted(list(set(id2pers[id_])), key=len, reverse=True)
         return id2pers
 

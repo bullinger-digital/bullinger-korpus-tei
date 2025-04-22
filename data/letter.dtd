@@ -187,14 +187,11 @@
         cert CDATA #IMPLIED>
 <!-- PLACE-NAME (167'953x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html] -->
 <!-- absolute or relative place name -->
-<!ELEMENT placeName (#PCDATA|orig|note|lb|pb|ptr)*>
+<!ELEMENT placeName (#PCDATA|note|lb|pb|ptr)*>
 <!ATTLIST placeName
         ref CDATA #IMPLIED
         type CDATA #IMPLIED
         cert CDATA #IMPLIED>
-<!-- ORIG-FORM (50x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-orig.html] -->
-<!-- contains a reading which is marked as following the original, rather than being normalized or corrected -->
-<!ELEMENT orig (#PCDATA)>
 <!-- PERS-NAME (211'042x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html] -->
 <!-- proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. -->
 <!ELEMENT persName (#PCDATA|lb|pb|roleName|span|hi|orig|placeName|note)*>

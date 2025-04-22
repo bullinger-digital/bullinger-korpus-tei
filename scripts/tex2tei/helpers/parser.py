@@ -110,7 +110,7 @@ class Parser:
             if senders or place or date:
                 t += '\t\t\t\t<correspAction type="sent">\n'
                 for s_ in senders: t += '\t\t\t\t\t<persName ref="'+s_+'" cert="'+senders[s_][1]+'">'+senders[s_][0]+'</persName>\n'
-                if place: t += '\t\t\t\t\t<placeName ref="'+place["id"]+'" cert="'+place["cert"]+'"/>'
+                if place: t += '\t\t\t\t\t<placeName ref="'+place["id"]+'" cert="'+place["cert"]+'"/>\n'
                 if date: t += '\t\t\t\t\t<date'\
                     +((' when="'+date["when"]+'"') if 'when' in date else (
                       ((' notBefore="'+date["notBefore"]+'"') if 'notBefore' in date and date['notBefore'] else '')
