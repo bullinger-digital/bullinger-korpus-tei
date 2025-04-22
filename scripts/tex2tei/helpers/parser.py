@@ -480,6 +480,8 @@ class Parser:
             s = re.sub(re.escape(m.group(1))+re.escape(m.group(2)), m.group(1)+str(n)+m.group(2)+str(n), s, flags=re.S)
             m = re.match(r'(.*?<div xml:id="div)(" corresp="regest)(">).*', s, flags=re.S)
             n += 1
+        s = re.sub(r'(<note xml:id="fn)(\d+)(" type="footnote"[^>]* n=")num(">)', r'\1\2\3\2\4', s, flags=re.S)
+        s = re.sub(r'(<note xml:id="fn)([^"]*)(" type="footnote"[^>]* n=")alpha(">)', r'\1\2\3\2\4', s, flags=re.S)
         return s
     def num2alpha(self, n):
         result = ""
