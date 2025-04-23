@@ -76,7 +76,7 @@ class Sentencenicer:
                     t = fi.read()
                     for s in re.findall(r'((<s [^>]*)(>(.*?)</s>))', t, flags=re.S):
                         s_, sub = self.rm_notes(s[3])
-                        t = re.sub(re.escape(s[0]), s[1]+' xml:lang="'+self.lang_identifier.identify(s_)+'" type="auto"'+s[2], t, flags=re.S)
+                        t = re.sub(re.escape(s[0]), s[1]+' xml:lang="'+self.lang_identifier.identify(s_)+'"'+s[2], t, flags=re.S)
                     with open(os.path.join(self.output, f), 'w') as fo: fo.write(t)
 
     def train_identifier(self, dir, ngram_order=3):

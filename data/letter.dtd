@@ -190,14 +190,12 @@
 <!ELEMENT placeName (#PCDATA|note|lb|pb|ptr)*>
 <!ATTLIST placeName
         ref CDATA #IMPLIED
-        type CDATA #IMPLIED
         cert CDATA #IMPLIED>
 <!-- PERS-NAME (211'042x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html] -->
 <!-- proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. -->
 <!ELEMENT persName (#PCDATA|lb|pb|roleName|span|hi|orig|placeName|note)*>
 <!ATTLIST persName
         ref CDATA #IMPLIED
-        type CDATA #IMPLIED
         cert CDATA #IMPLIED>
 <!-- REFERENCING STRING (555x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-rs.html] -->
 <!-- contains a general purpose name or referring string -->
@@ -276,8 +274,7 @@
 <!ATTLIST s
         n CDATA #REQUIRED
         xml:lang CDATA #REQUIRED
-        ana CDATA #IMPLIED
-        type CDATA #REQUIRED>
+        ana CDATA #IMPLIED>
 <!-- LINE[BEGINNING]S (244697x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-lb.html] -->
 <!-- marks the beginning of a topographic line (in HTR-letters) -->
 <!ELEMENT lb EMPTY>
