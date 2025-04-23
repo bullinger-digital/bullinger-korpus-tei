@@ -40,7 +40,7 @@ class Parser:
             s = self.insert_seqs(s)
             s = self.insert_blanks(s)
             t = '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n'  # root
-            t += '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file' + f_id + '" type="Brief" source="HBBW" n="' + self.matcher.data[f_id]["id_tustep"] + '">\n'
+            t += '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file' + f_id + '" type="Brief" source="HBBW-'+str(self.matcher.config["EDITION_NUMBER"])+'" n="' + self.matcher.data[f_id]["id_tustep"] + '">\n'
             t += '\t<teiHeader xml:lang="de">\n'  # head
             t += '\t\t<fileDesc>\n'
             t += '\t\t\t<titleStmt>\n'

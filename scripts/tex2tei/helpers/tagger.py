@@ -193,3 +193,13 @@ class Tagger:
         names.append(re.sub(r'\s+', ' ', re.sub(r'\(.*?\)', '', n, flags=re.S), flags=re.S).strip())
         names.append(re.sub(r'\s+', ' ', re.sub(r'\[.*?\]', '', n, flags=re.S), flags=re.S).strip())
         return names
+
+    def remove_trivial_notes(self):
+        for f in os.listdir(self.output):
+            if f.endswith('.xml'):
+                path = os.path.join(self.output, f)
+                with open(path) as fi: s = fi.read()
+                for e in ["persName", "placeName"]:
+                    for x in re.findall(r'((<'+e+r'[^>]*ref="([^"]*)"[^>]*>[^<]*</'+e+r'>)\s*<note type="entity">\s*'+r'<'+e+r'[^>]*ref="([^"]*)"[^>]*>[^<]*</'+e+r'>[^<]*</note>)', s, flags=re.S):
+                        if x[2] == x[3]: s = re.sub(re.escape(x[0]), x[1], s, flags=re.S)
+                with open(path, 'w') as fo: fo.write(s)

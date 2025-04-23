@@ -37,6 +37,7 @@ class Transformer:
         t.set_attr_salute_or_farewell()  # "ana"-attr. in s-elements
         t.set_tags_persons()  # persons
         t.set_tags_places()  # places
+        t.remove_trivial_notes()
 
         # Validation
         v = Validator(config)
