@@ -39,4 +39,7 @@ for p in re.findall(r'(<place[^>]*>(.*?)</place>)', s, flags=re.S):
     s = re.sub(re.escape(p[0]), p_new, s, flags=re.S)
 
 s = re.sub(r'\s*(</place>)', r'\n\t\t\t\1', s, flags=re.S)
+s = re.sub(r'(<geo>)', r'\n\t\t\t\t\t\1', s, flags=re.S)
+s = re.sub(r'(</geo>)', r'\1\n\t\t\t\t', s, flags=re.S)
+
 with open(path, 'w') as fo: fo.write(s)
