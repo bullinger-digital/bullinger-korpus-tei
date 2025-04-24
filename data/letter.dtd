@@ -20,7 +20,7 @@
 
 <!-- HEADER (13114x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html] -->
 <!-- descriptive and declarative metadata -->
-<!ELEMENT teiHeader (fileDesc, profileDesc, revisionDesc)>
+<!ELEMENT teiHeader (fileDesc, profileDesc, encodingDesc?, revisionDesc)>
 <!ATTLIST teiHeader
         xml:lang CDATA #REQUIRED>
 <!-- xml:lang: the language of the metadata, including the summary (currently always "de") -->
@@ -210,6 +210,22 @@
         source CDATA #IMPLIED
         type CDATA #IMPLIED
         target CDATA #IMPLIED>
+
+<!-- TOPICS (22680x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-encodingDesc.html] -->
+<!-- documents the relationship between an electronic text and the source or sources from which it was derived -->
+<!ELEMENT encodingDesc (classDecl)>
+<!-- CLASSES (22680x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-classDecl.html] -->
+<!-- contains one or more taxonomies defining any classificatory codes used elsewhere in the text -->
+<!ELEMENT classDecl (taxonomy)>
+<!-- TAXONOMY (22680x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-taxonomy.html] -->
+<!-- defines a typology either implicitly, by means of a bibliographic citation, or explicitly by a structured taxonomy -->
+<!ELEMENT taxonomy (category)*>
+<!-- CATEGORY (17912x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-category.html] -->
+<!-- contains an individual descriptive category, possibly nested within a superordinate category, within a user-defined taxonomy -->
+<!ELEMENT category EMPTY>
+<!ATTLIST category
+        n CDATA #REQUIRED>
+
 <!-- REVISION-DESCRIPTION (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-revisionDesc.html] -->
 <!-- summarizes the revision history for a file -->
 <!ELEMENT revisionDesc (change)*>

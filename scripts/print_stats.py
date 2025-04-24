@@ -23,7 +23,7 @@ for f in sorted(os.listdir(ROOT)):
     if f.endswith('.xml'):
         p = os.path.join(ROOT, f)
         with open(p) as fi: s = fi.read()
-        for e in re.findall(r'<bibl[^>]* type="(.*?)"', s, flags=re.S):
+        for e in re.findall(r'category', s, flags=re.S):
             if e not in stats: stats[e] = 0
             stats[e] += 1
 
