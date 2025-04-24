@@ -90,6 +90,8 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                     "true"
                 else
                     "false"
+            case "topics" return
+                $header//tei:encodingDesc//tei:taxonomy/tei:category/@n/string()
             default return
                 ()
 };
