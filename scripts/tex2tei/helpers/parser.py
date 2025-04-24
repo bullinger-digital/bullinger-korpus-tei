@@ -522,7 +522,7 @@ class Parser:
             s = re.sub(r'(</s>\s*</p>\s*</div>\s*)(<note type="entity">[^<]*</note>)', r'\2\1', s, flags=re.S)
             s = re.sub(r'(<note_attachment>.*?</note_attachment>)(\s*<div[^>]*>\s*<p>\n)', r'\2\t\t\t\t\t\1\n', s, flags=re.S)
             s = re.sub(r'([ \t]*</p>\s*</div>)\s*(<ptr[^\n]*)', r'\t\t\t\t\t<s>\2</s>\n\1', s, flags=re.S)
-        t = "\t<text>\n\t\t<body><bibl>[Keine Transkription verfügbar.]</bibl></body>\n\t</text>\n"
+        t = "\t<text>\n\t\t<body>\n\t\t\t<div>\n\t\t\t\t<p>\n\t\t\t\t\t<bibl>\1</bibl>\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t</body>\n\t</text>\n"
         s = re.sub(r'(</teiHeader>\s*|</facsimile>\s*)(</TEI>)', r'\1'+t+r'\2', s, flags=re.S)
         s = re.sub(r'[ \t]*<s>\s*</s>\n', '', s, flags=re.S)
         s = re.sub(r'>\s*[\{\}]+\s*<', '><', s, flags=re.S)

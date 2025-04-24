@@ -147,4 +147,4 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    x.search(["data/letters"], r'Keine Transkription')
+    x.search(["data/letters"], r'<bibl>HBBW\s*\-?</bibl>\s*\-?\s*[IVX\d+]+\s*')
