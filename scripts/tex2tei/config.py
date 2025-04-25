@@ -8,6 +8,7 @@ config = {
     # Bibliography
     "YEAR": 2025,
     "EDITION_NUMBER": 21,
+    "ID_BIB": 720,
     "BIBLIOGRAPHY": "Heinrich Bullinger Werke, Briefwechsel Band " + str(21) + " (Briefe von Januar bis April 1548),"
                     "bearb. von David Mache und Paul Achim Neuendorf, Zürich 2024, 504 S., ISBN 978-3-290-18668-5.",
     # Matching

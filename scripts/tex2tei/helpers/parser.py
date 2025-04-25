@@ -60,7 +60,9 @@ class Parser:
             t += '\t\t\t\t<date when="'+str(self.matcher.config["YEAR"])+'"/>\n'
             t += '\t\t\t</publicationStmt>\n'
             t += '\t\t\t<sourceDesc>\n'
-            t += '\t\t\t\t<bibl>'+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
+            t += '\t\t\t\t<bibl n="'+str(self.matcher.config["ID_BIB"])+'" type="transcription">'+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
+            t += '\t\t\t\t<bibl n="'+str(self.matcher.config["ID_BIB"])+'" type="regest">'+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
+            t += '\t\t\t\t<bibl n="'+str(self.matcher.config["ID_BIB"])+'" type="footnotes">'+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
             documents, regest, printed = self.get_signature(s, f), self.get_regest(s), self.get_printed(s)
             if documents or regest or printed:
                 t += '\t\t\t\t<msDesc'\
@@ -138,6 +140,7 @@ class Parser:
             t = self.set_numbers(t)
             t = self.fix_structral_issues(t)
             t = self.rename_notes(t)
+            t = re.sub(r'(<bibl>)\s*(HBBW|hbbw)\s*\-?\s*(</bibl>)\s*\-?\s*([IVX\d+]+)', r'\1\2 \4\3', t, flags=re.S)
             with open(os.path.join(self.root, f), 'w') as fo: fo.write(t)
 
     def rm_comments(self, s): return re.sub(r'([^\\]|^)%[^\n]*', r'\1', s, flags=re.S)
@@ -522,7 +525,7 @@ class Parser:
             s = re.sub(r'(</s>\s*</p>\s*</div>\s*)(<note type="entity">[^<]*</note>)', r'\2\1', s, flags=re.S)
             s = re.sub(r'(<note_attachment>.*?</note_attachment>)(\s*<div[^>]*>\s*<p>\n)', r'\2\t\t\t\t\t\1\n', s, flags=re.S)
             s = re.sub(r'([ \t]*</p>\s*</div>)\s*(<ptr[^\n]*)', r'\t\t\t\t\t<s>\2</s>\n\1', s, flags=re.S)
-        t = "\t<text>\n\t\t<body>\n\t\t\t<div>\n\t\t\t\t<p>\n\t\t\t\t\t<bibl>\1</bibl>\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t</body>\n\t</text>\n"
+        t = r"\t<text>\n\t\t<body>\n\t\t\t<div>\n\t\t\t\t<p>\n\t\t\t\t\t<bibl>[Keine Transkription verfügbar.]</bibl>\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t</body>\n\t</text>\n"
         s = re.sub(r'(</teiHeader>\s*|</facsimile>\s*)(</TEI>)', r'\1'+t+r'\2', s, flags=re.S)
         s = re.sub(r'[ \t]*<s>\s*</s>\n', '', s, flags=re.S)
         s = re.sub(r'>\s*[\{\}]+\s*<', '><', s, flags=re.S)
