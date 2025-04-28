@@ -185,6 +185,13 @@ declare function idx:person-get-metadata($person as element(), $field as xs:stri
                         else 0
             return
                 $count
+        case "mentioned-count" return
+            let $letters := collection('/db/apps/bullinger-data/data/letters')/tei:TEI[ft:query(.//tei:text, 'mentioned-persons:' || $main-id)]
+            let $count := if($letters)
+                        then (count($letters)) 
+                        else 0
+            return
+                $count
         default return 
             ()
 };
