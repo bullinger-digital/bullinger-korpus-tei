@@ -1,16 +1,16 @@
-# Annotationsregeln für Personen- und Ortsnamen
+# Dokumentation zur Mithelfen-Kampagne
 
 **Personen- und Ortsnamen** stellen einen interessanten Zugang zum Briefwechsel dar, nicht zuletzt über die Verlinkung mit anderen Wissensressourcen und Projekten.
 
-Basierend auf den Personen- und Ortsregistern der HBBW-Edition haben wir die entsprechenden Eigennamen mittels NER (Name Entity Recognition) in den edierten Briefen (d.h. Brieftexte, Regesten und Fussnoten) ausgezeichnet und nach Möglichkeit mit dem jeweiligen Eintrag in unserem Register verknüpft. Dabei haben wir auch die verschiedenen Schreibvarianten der Namen in unser Register aufgenommen. Unsere Registereinträge haben wir versucht, automatisch mit einer externen Wissensressource (Wikipedia, GND, HLS, Geonames) zu verknüpfen und daraus ggf. weitere Schreibvarianten des Names zu gewinnen.
+Basierend auf den Personen- und Ortsregistern der HBBW-Edition haben wir die entsprechenden Eigennamen mittels NER (Name Entity Recognition) in den edierten Briefen (d.h. Brieftexte, Regesten und Fussnoten) ausgezeichnet und nach Möglichkeit mit dem jeweiligen Eintrag in unserem Register verknüpft. Dabei haben wir auch die verschiedenen Schreibvarianten der Namen in unser Register aufgenommen. Unsere Registereinträge haben wir nach Möglichkeit automatisch mit einer externen Wissensressource (Wikipedia, GND, HLS, Geonames) verknüpft und versucht, daraus weitere Schreibvarianten des Names zu gewinnen.
 
 Basierend auf diesen Daten haben wir in einem zweiten Schritt die Eigennamen in den manuell transkribierten Briefen markiert.
 
-Schliesslich haben wir durch eine Citizen Science Kampagne die automatischen Markierungen und Verknüpfungen manuell kontrollieren und fehlende Markierungen ergänzen lassen. Dabei wurden alle vorgelegten Briefe (8591 an der Zahl) mindestens 1x aufgerufen und 4818 Briefe (56%) vollständig kontrolliert. 
+Schliesslich haben wir durch eine Citizen Science Kampagne (Mithelfen-Kampagne) die automatischen Markierungen und Verknüpfungen manuell kontrollieren und fehlende Markierungen ergänzen lassen. Dabei wurden alle vorgelegten Briefe (8'591 an der Zahl) mindestens 1x aufgerufen und 4'818 Briefe (56%) vollständig kontrolliert. 
 
-Zusammen mit den Freiwilligen haben wir 6014 verschiedene Personen und 3083 Ortschaften in den Briefen gefunden und 184'047 Personen- und 147'378 Ortsmarkierungen vorgenommen. Dabei konnten wir 2398 Personen mit einem GND-Eintrag verlinken.
+Zusammen mit den Freiwilligen haben wir 6'014 verschiedene Personen und 3'083 Ortschaften in den Briefen gefunden und 184'047 Personen- und 147'378 Ortsmarkierungen vorgenommen. Dabei konnten wir 2398 Personen mit einem GND-Eintrag verlinken.
 
-Für die Citizen Science Kampagne haben wir folgende Annotationsrichtlinien definiert:
+Für die Mithelfen-Kampagne haben wir folgende Annotationsrichtlinien definiert:
 
 ## Namensschreibung
 
@@ -18,7 +18,7 @@ Für die Citizen Science Kampagne haben wir folgende Annotationsrichtlinien defi
 - relevante Varianten (z.B. latinisierte Version des Namens) geben wir als Alias an;
 - Namenszusätze setzen wir in runde Klammern, z.B. Friedrich II. (der Sanftmütige);
 - sofern bekannt, geben wir bei Frauen den Geburts- und Ehenamen an und kennzeichnen diese mit geb. (geboren), verh. (verheiratet) und verw. (verwitwet);
-- Ergänzungen zur Unterscheidung gleichnamiger Personen geben wir in eckigen Klammern an, z.B. _Heinrich Bullinger [Reformator], Heinrich Bullinger [Vater des Reformators],	Heinrich Bullinger [Vetter des Reformators], Heinrich Bullinger d.J. [Sohn des Reformators]_
+- Ergänzungen (z.B. zur Unterscheidung gleichnamiger Personen) geben wir in eckigen Klammern an, z.B. _Heinrich Bullinger [Reformator], Heinrich Bullinger [Vater des Reformators],	Heinrich Bullinger [Vetter des Reformators], Heinrich Bullinger d.J. [Sohn des Reformators]_
 
 ## Personen 
 
