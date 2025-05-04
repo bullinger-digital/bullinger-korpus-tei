@@ -40,7 +40,7 @@ class Parser:
             s = self.insert_seqs(s)
             s = self.insert_blanks(s)
             t = '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n'  # root
-            t += '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file' + f_id + '" type="Brief" source="HBBW-'+str(self.matcher.config["EDITION_NUMBER"])+'" n="' + self.matcher.data[f_id]["id_tustep"] + '">\n'
+            t += '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file' + f_id + '" type="Brief" source="HBBW-'+str(self.matcher.config["EDITION_NUMBER"])+'" n="' + self.matcher.data[f_id]["id_irg"] + '">\n'
             t += '\t<teiHeader xml:lang="de">\n'  # head
             t += '\t\t<fileDesc>\n'
             t += '\t\t\t<titleStmt>\n'
@@ -104,7 +104,7 @@ class Parser:
             t += '\t\t\t</sourceDesc>\n'
             t += '\t\t</fileDesc>\n'
             t += '\t\t<profileDesc>\n'
-            t += '\t\t\t<correspDesc ref="https://www.bullinger-digital.ch/letter/'+f_id+'">\n'
+            t += '\t\t\t<correspDesc ref="https://www.bullinger-digital.ch/letter/'+self.matcher.data[f_id]["id_irg"]+'">\n'
             senders, addressees = self.matcher.data[f_id]["senders"], self.matcher.data[f_id]["addressees"]
             place, date = self.matcher.data[f_id]["place"], self.matcher.data[f_id]["date"]
             pd, context = self.get_placedate(s), self.get_element_from_corpus(f, "correspContext")
@@ -456,9 +456,9 @@ class Parser:
         footnotes, passed = '', []
         for fn in sorted(self.footnotes, key=lambda x: x[0], reverse=True):
             if fn[1] not in passed:
-                footnotes += 3*'\t'+re.sub(r'(type="footnote")', r'\1 subtype="'+fn[0]+'"', fn[1], flags=re.S)+'\n'
+                footnotes += 2*'\t'+re.sub(r'(type="footnote")', r'\1 subtype="'+fn[0]+'"', fn[1], flags=re.S)+'\n'
                 passed.append(fn[1])
-        if footnotes: s = re.sub(r'(<body>\n)', r'\1'+footnotes, s, flags=re.S)
+        if footnotes: s = re.sub(r'(<text>\n)', r'\1'+footnotes, s, flags=re.S)
         return s
     def set_numbers(self, s):
         m, n = re.match(r'(.*?<p xml:id="regest)(">.*)', s, flags=re.S), 1

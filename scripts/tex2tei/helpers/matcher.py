@@ -43,6 +43,7 @@ class Matcher:
                 self.tmp = {
                     "filename": f,
                     "id_tustep": '',
+                    "id_irg": '0',
                     "senders": {},
                     "addressees": {},
                     "place": {},
@@ -56,6 +57,7 @@ class Matcher:
                     place = m.group(5)
                     date = m.group(6)
 
+                    self.tmp["id_irg"] = m.group(1)
                     self.tmp["id_tustep"] = number
                     cert = "low" if '[' in place or ']' in place or '(' in place or ')' in place else "high"
                     place = re.sub(r'_', ' ', place, flags=re.S)

@@ -17,11 +17,11 @@ Make sure, that the filenames meet the following convention:
 
 `<EditionID>-<TustepID>-<Senders>_an_<Addressees>,_<Place>,_<Date>.tex`
 
-Example: `001-18000-Bullinger_an_Joachim_Vadian,_Zürich,_3._Januar_1548.tex`
+Example: `3102-18000-Bullinger_an_Joachim_Vadian,_Zürich,_3._Januar_1548.tex`
 
 - separators 2x'-', 1x'\_an\_' & 2x',_'
 - all blanks should be replaced by '_'
-- concat multiple senders/addressees by '&'
+- concat multiple senders/addressees by '\_&\_'
 
 Example: `034-18031-Matthias_Erb_an_Bullinger_&_Rudolf_Gwalther,_Reichenweier,_10._Februar_1548.tex`
 

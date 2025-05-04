@@ -1,26 +1,23 @@
 #!/usr/bin/python
 # -*- coding: utf8 -*-
 
-""" add mappings in case of matching issues ... """
+""" provide additional information in case of matching issues """
 
 config = {
 
     # Bibliography
     "YEAR": 2025,
     "EDITION_NUMBER": 21,
-    "ID_BIB": 720,
-    "BIBLIOGRAPHY": "Heinrich Bullinger Werke, Briefwechsel Band " + str(21) + " (Briefe von Januar bis April 1548),"
-                    "bearb. von David Mache und Paul Achim Neuendorf, Zürich 2024, 504 S., ISBN 978-3-290-18668-5.",
+    "ID_BIB": 720,  # see corpus/data/index/bibliography.xml
+    "BIBLIOGRAPHY": "Heinrich Bullinger Werke, Briefwechsel Band " + str(21) + " (Briefe von Januar bis April 1548), bearb. von David Mache und Paul Achim Neuendorf, Zürich 2024, 504 S., ISBN 978-3-290-18668-5.",
     # Matching
     "IDS": {  # filename -> Corpus-ID (see corpus/data/letters/)
-        '065-18339-Leonard_Serin_an_Bullinger,_Ulm,_19._März_1548.tex': 73,
-        '076-18345-Ambrosius_Blarer_an_Bullinger,_[Konstanz],_[4.]_April_1548.tex': 13155,
-        '092-18348-Johann_Valentin_Furtmüller_an_[Bullinger],_St._Gallen,_-26._April_1548.tex': 103,
-        '094-18083-Joachim_Vadian_an_Bullinger,_St._Gallen,_26._April_1548.tex': 102,
-        '020-18336-Bullinger_an_Rudolf_Gwalther,_Zürich,_[28.]_Januar_1548-[31.]_Januar_1548.tex': 3,
-        '009-18007-Ambrosius_Blarer_an_Bullinger,_[Konstanz],_18._Januar_1548.tex': 12,
-        '036-18032-Bullinger_an_Oswald_Myconius,_Zürich,_11._Februar_1548.tex': 29,
-        '093-18082-Joachim_Vadian_an_Bullinger,_St._Gallen,_26._April_1548.tex': 101
+        '3110-18007-Ambrosius_Blarer_an_Bullinger,_[Konstanz],_18._Januar_1548.tex': 12,
+        '3137-18032-Bullinger_an_Oswald_Myconius,_Zürich,_11._Februar_1548.tex': 29,
+        '3195-18083-Joachim_Vadian_an_Bullinger,_[St._Gallen],_[26._April_1548].tex': 102,
+        '3148-18042-Bullinger_an_Oswald_Myconius,_Zürich,_25._Februar_1548.tex': 52,
+        '3194-18082-Joachim_Vadian_an_Bullinger,_St._Gallen,_26._April_1548.tex': 101,
+        '3193-18348-Johann_Valentin_Furtmüller_an_[Bullinger],_St._Gallen,_9._April_1548-26._April_1548.tex': 103,
     },
     "CORRESPONDENTS": { # persName -> id (see corpus/data/index/persons.xml)
         "Heinrich Bullinger [Antistes]": 'p495',
@@ -32,7 +29,7 @@ config = {
         "Gilbert Cousin (Cognatus)": 'p8073',
     },
     "PLACES": { # placeName -> id (see corpus/data/index/localities.xml)
-        "Zürich": 'l587',
+        "Zürich": 'l587',  # die Stadt, nicht der Kanton
         "Biel": 'l49',
         "Reichenweier": 'l411',
         "Strassburg": 'l491'
