@@ -104,7 +104,7 @@ class Parser:
             t += '\t\t\t</sourceDesc>\n'
             t += '\t\t</fileDesc>\n'
             t += '\t\t<profileDesc>\n'
-            t += '\t\t\t<correspDesc ref="https://www.bullinger-digital.ch/letter/'+self.matcher.data[f_id]["id_irg"]+'">\n'
+            t += '\t\t\t<correspDesc ref="https://www.bullinger-digital.ch/letter/'+re.match(r'(\d+).*', f, flags=re.S).group(1)+'">\n'
             senders, addressees = self.matcher.data[f_id]["senders"], self.matcher.data[f_id]["addressees"]
             place, date = self.matcher.data[f_id]["place"], self.matcher.data[f_id]["date"]
             pd, context = self.get_placedate(s), self.get_element_from_corpus(f, "correspContext")
