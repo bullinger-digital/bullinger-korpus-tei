@@ -143,7 +143,9 @@ declare function idx:place-get-metadata($place as element(), $field as xs:string
         )
         case "mentioned-names" return (
             (: Text on placeName elements mentioning that place :)
-            distinct-values(collection('/db/apps/bullinger-data/data/letters')//tei:placeName[@ref=$main-id]/text())
+            for $name in collection('/db/apps/bullinger-data/data/letters')//tei:placeName[@ref=$main-id]/text()
+            group by $p := $name
+            return $p
         )
         default return 
             ()
@@ -163,7 +165,9 @@ declare function idx:person-get-metadata($person as element(), $field as xs:stri
         )
         case "mentioned-names" return (
             (: Text on persName elements mentioning that person :)
-            distinct-values(collection('/db/apps/bullinger-data/data/letters')//tei:persName[@ref=$main-id]/text())
+            for $name in collection('/db/apps/bullinger-data/data/letters')//tei:persName[@ref=$main-id]/text()
+            group by $p := $name
+            return $p
         )
         case "surname" return (
             $main-persname/tei:surname
