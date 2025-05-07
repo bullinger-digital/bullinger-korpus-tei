@@ -18,130 +18,133 @@ class Parser:
         if self.print_info: print("- transforming files ...")
         for f in sorted(os.listdir(self.root)):
             #print("\rProcessing "+f+3*'\t', end="", flush=True)
-            self.footnotes = []
-            with open(os.path.join(self.root, f)) as fi: s = fi.read()
-            f_id = re.match(r'(.*)\.xml', f).group(1)
-            s = self.rm_comments(s)
-            s = self.rm_blanks(s)
-            s = self.rm_appendage(s)
-            s = self.rm_tex_layout(s)
-            s = self.normalize(s)
-            s = self.map_tables(s)
-            s = self.map_tex2tei(s)
-            s = self.map_lists(s)
-            s = self.page_ref_warnings(s, f)
-            s = self.map_attachments(s)
-            s = self.map_qv_nr(s)
-            s = self.map_recursively(s)
-            s = self.map_letter(s, f)
-            s = self.insert_notes(s)
-            s = self.insert_lists(s)
-            s = self.insert_tables(s)
-            s = self.insert_seqs(s)
-            s = self.insert_blanks(s)
-            t = '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n'  # root
-            t += '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file' + f_id + '" type="Brief" source="HBBW-'+str(self.matcher.config["EDITION_NUMBER"])+'" n="' + self.matcher.data[f_id]["id_irg"] + '">\n'
-            t += '\t<teiHeader xml:lang="de">\n'  # head
-            t += '\t\t<fileDesc>\n'
-            t += '\t\t\t<titleStmt>\n'
-            t += '\t\t\t\t<title subtype="file">'+self.get_title(s, f)+'</title>\n'
-            t += '\t\t\t</titleStmt>\n'
-            t += '\t\t\t<publicationStmt>\n'
-            t += '\t\t\t\t<publisher>Volk et al.</publisher>\n'
-            t += '\t\t\t\t<pubPlace>Zürich</pubPlace>\n'
-            t += '\t\t\t\t<address>\n'
-            t += '\t\t\t\t\t<addrLine>Institut für Computerlinguistik</addrLine>\n'
-            t += '\t\t\t\t\t<addrLine>Andreasstrasse 15</addrLine>\n'
-            t += '\t\t\t\t\t<addrLine>8050 Zürich</addrLine>\n'
-            t += '\t\t\t\t\t<addrLine>Schweiz</addrLine>\n'
-            t += '\t\t\t\t</address>\n'
-            t += '\t\t\t\t<authority>Universität Zürich</authority>\n'
-            t += '\t\t\t\t<idno subtype="url">https://www.bullinger-digital.ch/</idno>\n'
-            t += '\t\t\t\t<date when="'+str(self.matcher.config["YEAR"])+'"/>\n'
-            t += '\t\t\t</publicationStmt>\n'
-            t += '\t\t\t<sourceDesc>\n'
-            t += '\t\t\t\t<bibl n="'+str(self.matcher.config["ID_BIB"])+'" type="transcription">'+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
-            t += '\t\t\t\t<bibl n="'+str(self.matcher.config["ID_BIB"])+'" type="regest">'+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
-            t += '\t\t\t\t<bibl n="'+str(self.matcher.config["ID_BIB"])+'" type="footnotes">'+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
-            documents, regest, printed = self.get_signature(s, f), self.get_regest(s), self.get_printed(s)
-            if documents or regest or printed:
-                t += '\t\t\t\t<msDesc'\
-                     +((' type="'+documents[0][0]+'"') if documents else '') \
-                     +((' subtype="'+documents[0][1]+'"') if documents and documents[0][1] else '')+'>\n'
-                if documents and (documents[0][2] or documents[0][3]):
-                    t += '\t\t\t\t\t<msIdentifier>\n'
-                    if documents[0][2]: t += '\t\t\t\t\t\t<repository ref="'+documents[0][2]+'"/>\n'
-                    if documents[0][3]: t += '\t\t\t\t\t\t<idno'+((' subtype="'+documents[0][1]+'"') if documents[0][1] else '')+'>'+documents[0][3]+'</idno>\n'
-                    t += '\t\t\t\t\t</msIdentifier>\n'
-                if regest:
-                    t += '\t\t\t\t\t<msContents>\n'
-                    t += '\t\t\t\t\t\t<summary>\n'
-                    t += regest
-                    t += '\t\t\t\t\t\t</summary>\n'
-                    t += '\t\t\t\t\t</msContents>\n'
-                if printed:
-                    t += '\t\t\t\t\t<additional>\n'
-                    t += '\t\t\t\t\t\t<listBibl>\n'
-                    for p in printed:
-                        t += '\t\t\t\t\t\t\t<bibl type="Gedruckt"'+((' subtype="'+p[0]+'"') if p[0] else '')+'>\n'
-                        t += '\t\t\t\t\t\t\t\t<title>'+re.sub(r'<.*?>', '', p[1], flags=re.S)+'</title>\n'
-                        t += '\t\t\t\t\t\t\t</bibl>\n'
-                    t += '\t\t\t\t\t\t</listBibl>\n'
-                    t += '\t\t\t\t\t</additional>\n'
-                t += '\t\t\t\t</msDesc>\n'
-            if len(documents)>1:
-                for d in documents[1:]:
-                    t += '\t\t\t\t<msDesc' \
-                         + ((' type="' + d[0] + '"') if d[0] else '') \
-                         + ((' subtype="' + d[1] + '"') if d[1] else '') + '>\n'
-                    if d[2] or d[3]:
+            if f.endswith('.xml'):
+                self.footnotes = []
+                with open(os.path.join(self.root, f)) as fi: s = fi.read()
+                f_id = re.match(r'(.*)\.xml', f).group(1)
+                s = self.rm_comments(s)
+                s = self.rm_blanks(s)
+                s = self.rm_appendage(s)
+                s = self.rm_tex_layout(s)
+                s = self.normalize(s)
+                s = self.map_tables(s)
+                s = self.map_tex2tei(s)
+                s = self.map_lists(s)
+                s = self.page_ref_warnings(s, f)
+                s = self.map_attachments(s)
+                s = self.map_qv_nr(s)
+                s = self.map_recursively(s)
+                s = self.map_letter(s, f)
+                s = self.insert_notes(s)
+                s = self.insert_lists(s)
+                s = self.insert_tables(s)
+                s = self.insert_seqs(s)
+                s = self.insert_blanks(s)
+                t = '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n'  # root
+                t += '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file' + str(f_id) + '" type="Brief" source="HBBW-'+str(self.matcher.config["EDITION_NUMBER"])+'" n="' + self.matcher.data[f_id]["id_irg"] + '">\n'
+                t += '\t<teiHeader xml:lang="de">\n'  # head
+                t += '\t\t<fileDesc>\n'
+                t += '\t\t\t<titleStmt>\n'
+                t += '\t\t\t\t<title subtype="file">'+self.get_title(s, f)+'</title>\n'
+                t += '\t\t\t</titleStmt>\n'
+                t += '\t\t\t<publicationStmt>\n'
+                t += '\t\t\t\t<publisher>Volk et al.</publisher>\n'
+                t += '\t\t\t\t<pubPlace>Zürich</pubPlace>\n'
+                t += '\t\t\t\t<address>\n'
+                t += '\t\t\t\t\t<addrLine>Institut für Computerlinguistik</addrLine>\n'
+                t += '\t\t\t\t\t<addrLine>Andreasstrasse 15</addrLine>\n'
+                t += '\t\t\t\t\t<addrLine>8050 Zürich</addrLine>\n'
+                t += '\t\t\t\t\t<addrLine>Schweiz</addrLine>\n'
+                t += '\t\t\t\t</address>\n'
+                t += '\t\t\t\t<authority>Universität Zürich</authority>\n'
+                t += '\t\t\t\t<idno subtype="url">https://www.bullinger-digital.ch/</idno>\n'
+                t += '\t\t\t\t<date when="'+str(self.matcher.config["YEAR"])+'"/>\n'
+                t += '\t\t\t</publicationStmt>\n'
+                t += '\t\t\t<sourceDesc>\n'
+                t += '\t\t\t\t<bibl ref="'+str(self.matcher.config["ID_BIB"])+'" n="'+self.matcher.data[f_id]["id_irg"]+'" type="transcription"/>\n'#+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
+                t += '\t\t\t\t<bibl ref="'+str(self.matcher.config["ID_BIB"])+'" n="'+self.matcher.data[f_id]["id_irg"]+'" type="regest"/>\n'#+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
+                t += '\t\t\t\t<bibl ref="'+str(self.matcher.config["ID_BIB"])+'" n="'+self.matcher.data[f_id]["id_irg"]+'" type="footnotes"/>\n'#+self.matcher.config["BIBLIOGRAPHY"]+'</bibl>\n'
+                documents, regest, printed = self.get_signature(s, f), self.get_regest(s), self.get_printed(s)
+                if documents or regest or printed:
+                    t += '\t\t\t\t<msDesc'\
+                         +((' type="'+documents[0][0]+'"') if documents else '') \
+                         +((' subtype="'+documents[0][1]+'"') if documents and documents[0][1] else '')+'>\n'
+                    if documents and (documents[0][2] or documents[0][3]):
                         t += '\t\t\t\t\t<msIdentifier>\n'
-                        if d[2]: t += '\t\t\t\t\t\t<repository ref="' + d[2] + '"/>\n'
-                        elif documents[0][2]: t += '\t\t\t\t\t\t<repository ref="' + documents[0][2] + '"/>\n'
-                        if d[3]: t += '\t\t\t\t\t\t<idno'+((' subtype="'+d[1]+'"') if d[1] else '')+'>'+d[3]+'</idno>\n'
+                        if documents[0][2]: t += '\t\t\t\t\t\t<repository ref="'+documents[0][2]+'"/>\n'
+                        if documents[0][3]: t += '\t\t\t\t\t\t<idno'+((' subtype="'+documents[0][1]+'"') if documents[0][1] else '')+'>'+documents[0][3]+'</idno>\n'
                         t += '\t\t\t\t\t</msIdentifier>\n'
+                    if regest:
+                        t += '\t\t\t\t\t<msContents>\n'
+                        t += '\t\t\t\t\t\t<summary>\n'
+                        t += regest
+                        t += '\t\t\t\t\t\t</summary>\n'
+                        t += '\t\t\t\t\t</msContents>\n'
+                    if printed:
+                        t += '\t\t\t\t\t<additional>\n'
+                        t += '\t\t\t\t\t\t<listBibl>\n'
+                        for p in printed:
+                            t += '\t\t\t\t\t\t\t<bibl type="Gedruckt"'+((' subtype="'+p[0]+'"') if p[0] else '')+'>\n'
+                            t += '\t\t\t\t\t\t\t\t<title>'+re.sub(r'<.*?>', '', p[1], flags=re.S)+'</title>\n'
+                            t += '\t\t\t\t\t\t\t</bibl>\n'
+                        t += '\t\t\t\t\t\t</listBibl>\n'
+                        t += '\t\t\t\t\t</additional>\n'
                     t += '\t\t\t\t</msDesc>\n'
-            t += '\t\t\t</sourceDesc>\n'
-            t += '\t\t</fileDesc>\n'
-            t += '\t\t<profileDesc>\n'
-            t += '\t\t\t<correspDesc ref="https://www.bullinger-digital.ch/letter/'+re.match(r'(\d+).*', f, flags=re.S).group(1)+'">\n'
-            senders, addressees = self.matcher.data[f_id]["senders"], self.matcher.data[f_id]["addressees"]
-            place, date = self.matcher.data[f_id]["place"], self.matcher.data[f_id]["date"]
-            pd, context = self.get_placedate(s), self.get_element_from_corpus(f, "correspContext")
-            lang_usage = self.get_element_from_corpus(f, "langUsage")
-            if senders or place or date:
-                t += '\t\t\t\t<correspAction type="sent">\n'
-                for s_ in senders: t += '\t\t\t\t\t<persName ref="'+s_+'" cert="'+senders[s_][1]+'">'+senders[s_][0]+'</persName>\n'
-                if place: t += '\t\t\t\t\t<placeName ref="'+place["id"]+'" cert="'+place["cert"]+'"/>\n'
-                if date: t += '\t\t\t\t\t<date'\
-                    +((' when="'+date["when"]+'"') if 'when' in date else (
-                      ((' notBefore="'+date["notBefore"]+'"') if 'notBefore' in date and date['notBefore'] else '')
-                      +((' notAfter="' + date["notAfter"] + '"') if 'notAfter' in date and date['notAfter'] else '')
-                    ))+' cert="'+date["cert"]+'"'+(('>'+pd[1]+'</date>\n') if pd[1] else '/>\n')
-                t += '\t\t\t\t</correspAction>\n'
-            if addressees:
-                t += '\t\t\t\t<correspAction type="received">\n'
-                for a_ in addressees: t += '\t\t\t\t\t<persName ref="'+a_+'" cert="'+addressees[a_][1]+'">'+addressees[a_][0]+'</persName>\n'
-                t += '\t\t\t\t</correspAction>\n'
-            if context: t += '\t\t\t\t'+self.filter_context(context).strip()+'\n'
-            t += '\t\t\t</correspDesc>\n'
-            if lang_usage: t += '\t\t\t'+lang_usage.strip()+'\n'
-            t += '\t\t</profileDesc>\n'
-            t += '\t\t<revisionDesc>\n'
-            t += '\t\t\t<change status="untouched">init</change>\n'
-            t += '\t\t</revisionDesc>\n'
-            t += '\t</teiHeader>\n'
-            facsimile = self.get_element_from_corpus(f, 'facsimile')
-            if facsimile: t += '\t'+facsimile.strip()+'\n'
-            t += s
-            t += '</TEI>'
-            t = self.insert_meta_fns(t)
-            t = self.cleanup(t)
-            t = self.set_numbers(t)
-            t = self.fix_structral_issues(t)
-            t = self.rename_notes(t)
-            t = re.sub(r'(<bibl>)\s*(HBBW|hbbw)\s*\-?\s*(</bibl>)\s*\-?\s*([IVX\d+]+)', r'\1\2 \4\3', t, flags=re.S)
-            with open(os.path.join(self.root, f), 'w') as fo: fo.write(t)
+                if len(documents)>1:
+                    for d in documents[1:]:
+                        t += '\t\t\t\t<msDesc' \
+                             + ((' type="' + d[0] + '"') if d[0] else '') \
+                             + ((' subtype="' + d[1] + '"') if d[1] else '') + '>\n'
+                        if d[2] or d[3]:
+                            t += '\t\t\t\t\t<msIdentifier>\n'
+                            if d[2]: t += '\t\t\t\t\t\t<repository ref="' + d[2] + '"/>\n'
+                            elif documents[0][2]: t += '\t\t\t\t\t\t<repository ref="' + documents[0][2] + '"/>\n'
+                            if d[3]: t += '\t\t\t\t\t\t<idno'+((' subtype="'+d[1]+'"') if d[1] else '')+'>'+d[3]+'</idno>\n'
+                            t += '\t\t\t\t\t</msIdentifier>\n'
+                        t += '\t\t\t\t</msDesc>\n'
+                t += '\t\t\t</sourceDesc>\n'
+                t += '\t\t</fileDesc>\n'
+                t += '\t\t<profileDesc>\n'
+                t += '\t\t\t<correspDesc ref="https://www.bullinger-digital.ch/letter/'+re.match(r'(\d+).*', f, flags=re.S).group(1)+'">\n'
+                senders, addressees = self.matcher.data[f_id]["senders"], self.matcher.data[f_id]["addressees"]
+                place, date = self.matcher.data[f_id]["place"], self.matcher.data[f_id]["date"]
+                pd, context = self.get_placedate(s), self.get_element_from_corpus(f, "correspContext")
+                lang_usage = self.get_element_from_corpus(f, "langUsage")
+                if senders or place or date:
+                    t += '\t\t\t\t<correspAction type="sent">\n'
+                    for s_ in senders: t += '\t\t\t\t\t<persName ref="'+s_+'" cert="'+senders[s_][1]+'"/>\n'
+                    if place: t += '\t\t\t\t\t<placeName ref="'+place["id"]+'" cert="'+place["cert"]+'"/>\n'
+                    if date: t += '\t\t\t\t\t<date'\
+                        +((' when="'+date["when"]+'"') if 'when' in date else (
+                          ((' notBefore="'+date["notBefore"]+'"') if 'notBefore' in date and date['notBefore'] else '')
+                          +((' notAfter="' + date["notAfter"] + '"') if 'notAfter' in date and date['notAfter'] else '')
+                        ))+' cert="'+date["cert"]+'"'+(('>'+pd[1]+'</date>\n') if pd[1] else '/>\n')
+                    t += '\t\t\t\t</correspAction>\n'
+                if addressees:
+                    t += '\t\t\t\t<correspAction type="received">\n'
+                    for a_ in addressees: t += '\t\t\t\t\t<persName ref="'+a_+'" cert="'+addressees[a_][1]+'"/>\n'
+                    t += '\t\t\t\t</correspAction>\n'
+                if context: t += '\t\t\t\t'+self.filter_context(context).strip()+'\n'
+                t += '\t\t\t</correspDesc>\n'
+                if lang_usage: t += '\t\t\t'+lang_usage.strip()+'\n'
+                t += '\t\t</profileDesc>\n'
+                key_words = self.get_key_words_from_corpus(f)
+                if key_words: t += '\t\t'+key_words+'\n'
+                t += '\t\t<revisionDesc>\n'
+                t += '\t\t\t<change status="untouched">init</change>\n'
+                t += '\t\t</revisionDesc>\n'
+                t += '\t</teiHeader>\n'
+                facsimile = self.get_element_from_corpus(f, 'facsimile')
+                if facsimile: t += '\t'+facsimile.strip()+'\n'
+                t += s
+                t += '</TEI>'
+                t = self.insert_meta_fns(t)
+                t = self.cleanup(t)
+                t = self.set_numbers(t)
+                t = self.fix_structral_issues(t)
+                t = self.rename_notes(t)
+                t = re.sub(r'(<bibl>)\s*(HBBW|hbbw)\s*\-?\s*(</bibl>)\s*\-?\s*([IVX\d+]+)', r'\1\2 \4\3', t, flags=re.S)
+                with open(os.path.join(self.root, f), 'w') as fo: fo.write(t)
 
     def rm_comments(self, s): return re.sub(r'([^\\]|^)%[^\n]*', r'\1', s, flags=re.S)
     def rm_blanks(self, s): return re.sub(r'\n\s*\n', '\n', s, flags=re.S)
@@ -420,6 +423,13 @@ class Parser:
             t = re.sub(r'[\[\]]', '', t, flags=re.S).split(', ')
             return ', '.join(t[:1]), ', '.join(t[1:])
         else: return '', ''
+    def get_key_words_from_corpus(self, f):
+        path = os.path.join(self.root_letters, f)
+        if os.path.exists(path):
+            with open(path) as fi: s = fi.read()
+            m = re.match(r'.*(<encodingDesc.*?</encodingDesc>).*', s, flags=re.S)
+            if m: return m.group(1)
+        return ''
     def get_element_from_corpus(self, f, name):
         path = os.path.join(self.root_letters, f)
         if os.path.exists(path):

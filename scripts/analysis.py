@@ -147,4 +147,5 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    x.search(["data/letters"], r'<for')
+    #x.search(["data/letters"], r'Vadian BW VI,\s*S\.\s*181\s*')
+    x.search(["data/letters"], r'n="" type')

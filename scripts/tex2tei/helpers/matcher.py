@@ -73,9 +73,11 @@ class Matcher:
                     id_candidates = []
                     id_candidates = self.get_mapping_from_date(number, date)
                     self.get_mapping_from_correspondents(number, sender, addressee, id_candidates)
-                    if number not in self.mapping and f in self.config["IDS"]:
+                    if f in self.config["IDS"]:  # priority
                         self.mapping[number] = str(self.config["IDS"][f])
-                    if number not in self.mapping:
+                        fn_new = str(self.mapping[number]) + '.xml'
+                        self.data[self.mapping[number]] = self.tmp
+                    elif number not in self.mapping:
                         self.unknown += 1
                         fn_new = "unknown"+str(self.unknown)+'.xml'
                         self.data["unknown"+str(self.unknown)] = self.tmp

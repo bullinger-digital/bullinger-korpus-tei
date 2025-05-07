@@ -61,4 +61,4 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    x.search(r'<list')
+    x.search(r'n="3131"')
