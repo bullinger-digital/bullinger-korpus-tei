@@ -539,6 +539,8 @@ class Parser:
         s = re.sub(r'(</teiHeader>\s*|</facsimile>\s*)(</TEI>)', r'\1'+t+r'\2', s, flags=re.S)
         s = re.sub(r'[ \t]*<s>\s*</s>\n', '', s, flags=re.S)
         s = re.sub(r'>\s*[\{\}]+\s*<', '><', s, flags=re.S)
+        s = re.sub(r'\s*(<div)', r'\n\t\t\t\1', s, flags=re.S)
+        s = re.sub(r'\s+(</note>)', r'\1', s, flags=re.S)
         return s
     def rename_notes(self, s):
         for t in ["address", "attachment", "signature"]:
