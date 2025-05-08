@@ -18,7 +18,7 @@ Für die Mithelfen-Kampagne haben wir folgende Annotationsrichtlinien definiert:
 - relevante Varianten (z.B. latinisierte Version des Namens) geben wir als Alias an;
 - Namenszusätze setzen wir in runde Klammern, z.B. Friedrich II. (der Sanftmütige);
 - sofern bekannt, geben wir bei Frauen den Geburts- und Ehenamen an und kennzeichnen diese mit geb. (geboren), verh. (verheiratet) und verw. (verwitwet);
-- Ergänzungen (z.B. zur Unterscheidung gleichnamiger Personen) geben wir in eckigen Klammern an, z.B. _Heinrich Bullinger [Reformator], Heinrich Bullinger [Vater des Reformators],	Heinrich Bullinger [Vetter des Reformators], Heinrich Bullinger d.J. [Sohn des Reformators]_
+- Ergänzungen (z.B. zur Unterscheidung gleichnamiger Personen) geben wir in runden Klammern an, z.B. _Heinrich Bullinger (Reformator), Heinrich Bullinger (Vater des Reformators),	Heinrich Bullinger (Vetter des Reformators), Heinrich Bullinger d.J. (Sohn des Reformators)_
 
 ## Personen 
 
