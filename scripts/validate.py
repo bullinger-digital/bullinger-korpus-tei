@@ -9,15 +9,33 @@ PATH_INDEX = "data/index/"
 URL_DTD = 'https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng'
 TEI_RELAX_RNG = etree.RelaxNG(etree.fromstring(bytes(requests.get(URL_DTD).text, encoding='utf-8')))
 
-def validateTei(relax_rng, path_corpus):
+def validate(path_corpus):
     is_valid = True
     for f in sorted(os.listdir(path_corpus)):
-        if not os.path.isdir(os.path.join(path_corpus, f)) and f != ".DS_Store":
-            try: relax_rng.assert_(etree.parse(open(os.path.join(path_corpus, f))))
-            except AssertionError as err:
-                is_valid = False
-                print('TEI validation error:', f, err)
+        f_path = os.path.join(path_corpus, f)
+        if not os.path.isdir(f_path) and f.endswith('.xml'):
+            if not validate_file(f_path): is_valid = False
     return is_valid
 
-print("Letters valid.") if validateTei(TEI_RELAX_RNG, PATH_LETTERS) else print("*Letter-Validation FAILED.")
-print("Index valid.") if validateTei(TEI_RELAX_RNG, PATH_INDEX) else print("*Index-Validation FAILED.")
+def validate_file(path):
+    try:
+        if not TEI_RELAX_RNG.validate(etree.parse(path)):
+            for error in TEI_RELAX_RNG.error_log:
+                print(f'Validation errors in file: {f}, Line {error.line}, Col {error.column}: {error.message}')
+            return False
+        else: return True
+    except Exception as e:
+        print(f'Error parsing file {f}: {e}')
+        return False
+
+def assertion(path):
+    try:
+        TEI_RELAX_RNG.assert_(etree.parse(open(path)))
+        return True
+    except AssertionError as err:
+        print('Validation error:', f, err)
+        return False
+
+
+print("Letters valid.") if validate(PATH_LETTERS) else print("*Letter-Validation FAILED.")
+print("Index valid.") if validate(PATH_INDEX) else print("*Index-Validation FAILED.")
