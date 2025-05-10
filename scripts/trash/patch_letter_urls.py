@@ -13,7 +13,7 @@ for f in os.listdir(ROOT):
         # icl
         s = re.sub(
             r'<idno subtype="url">https://www\.bullinger\-digital\.ch/</idno>',
-            r'<idno type="url" subtype="icl">https://www.bullinger-digital.ch/letter/'+f.strip('.xml')+'</idno>',
+            r'<idno subtype="url" resp="icl">https://www.bullinger-digital.ch/letter/'+f.strip('.xml')+'</idno>',
             s, flags=re.S)
         s = re.sub(r'(<correspDesc) ref=".*?(>)', r'\1\2', s, flags=re.S)
         # irg
@@ -27,8 +27,8 @@ for f in os.listdir(ROOT):
                     num = m.group(2)
         if num:
             s = re.sub(
-                r'(<idno type="url" subtype="icl">.*?</idno>)',
-                r'\1\n\t\t\t\t<idno type="url" subtype="irg">http://teoirgsed.uzh.ch/SedWEB.cgi?fld_418='+num+'</idno>',
+                r'(<idno subtype="url" resp="icl">.*?</idno>)',
+                r'\1\n\t\t\t\t<idno subtype="url" resp="irg">http://teoirgsed.uzh.ch/SedWEB.cgi?fld_418='+num+'</idno>',
                 s, flags=re.S
             )
         with open(p, 'w') as fo: fo.write(s)

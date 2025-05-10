@@ -40,7 +40,7 @@
 <!ELEMENT title (#PCDATA|persName|placeName)*>
 <!-- PUBLICATION (13114x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html] -->
 <!-- groups information concerning the publication/distribution -->
-<!ELEMENT publicationStmt (publisher, pubPlace, address, authority, idno, date)>
+<!ELEMENT publicationStmt (publisher, pubPlace, address, authority, idno, idno?, date)>
 <!-- PUBLISHER (13114x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-publisher.html] -->
 <!-- name of the organization responsible for the publication/distribution of a bibliographic item -->
 <!ELEMENT publisher (#PCDATA)>
@@ -60,6 +60,7 @@
 <!-- identifier used to identify some object, such as a bibliographic item, a person, title, or an organization in a standardized way -->
 <!ELEMENT idno (#PCDATA)>
 <!ATTLIST idno
+        resp CDATA #IMPLIED
         subtype CDATA #IMPLIED>
 <!-- subtype: various types in different contexts ("url", "Autograph", "Original", "Ära", etc.)-->
 <!-- DATE (26345x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html] -->
