@@ -147,4 +147,4 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    x.search(["data/letters"], r' type="Teildruck"')
+    x.search(["data/letters"], r' source="(keine|)"')
