@@ -33,6 +33,7 @@ Folgende Personen haben an der Erstellung des Bullinger-Korpus mitgewirkt:
 
 ### Zitiervorschlag
 
+```
 Patricia Scheurer and Raphael M{\"u}ller and Bernard Schroffenegger and Phillip B. Str{\"o}bel and Martin Volk (2025): Bullinger Digital Briefkorpus. Briefe von und an Heinrich Bullinger 1523 bis 1575.
 Universität Zürich, Institut für Computerlinguistik, https://github.com/bullinger-digital/bullinger-korpus-tei.
 
@@ -44,6 +45,7 @@ Universität Zürich, Institut für Computerlinguistik, https://github.com/bulli
 	year = {2025},
 	school = {Universität Zürich, Institut für Computerlinguistik},
 	url = {https://github.com/bullinger-digital/bullinger-korpus-tei}}
+````
 
 ### Weiterführende Informationen
 HBBW-Edition: https://www.irg.uzh.ch/de/forschung/bullinger/edition-briefwechsel.html
