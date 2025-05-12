@@ -31,7 +31,7 @@ declare function idx:get-metadata($root as element(), $field as xs:string) {
                 $header//tei:titleStmt/tei:title
             case "hbbw-number" return
                 let $regest-source := $header//tei:sourceDesc/tei:bibl[@type='regest']
-                let $regest-bibliography := id('b' || $regest-source/@ref/string(), doc($idx:app-root || '/data/index/bibliography.xml'))
+                let $regest-bibliography := id($regest-source/@source/string(), doc($idx:app-root || '/data/index/bibliography.xml'))
                 let $is-hbbw := if($regest-bibliography/tei:series/text() = 'HBBW') then true() else false()
                 let $hbbw-no := if($is-hbbw) then ($regest-source/@n/string()) else ()
                 return 
