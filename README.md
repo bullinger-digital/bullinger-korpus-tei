@@ -15,7 +15,7 @@ Folgende Arbeiten liegen dem Bullinger Digital Korpus zugrunde, sie sind unter h
 - automatische Übersetzung der Regesten und Brieftexte auf Englisch
 - automatische Handschriftenerkennung für Briefe ohne Transkription und mit Faksimile 
 - automatische Verschlagwortung
-- Name Entity Recognition und Entity Linking mit anschliessender manueller Korrektur mittels Citizen Science-Kampagne 
+- Named Entity Recognition und Entity Linking mit anschliessender manueller Korrektur mittels Citizen Science-Kampagne 
 
 ### Impressum
 
