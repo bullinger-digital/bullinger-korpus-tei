@@ -3,6 +3,7 @@
 Bullinger Digital war von 2020-2025 ein am Institut für Computerlinguistik der Universität Zürich angesiedeltes Projekt mit dem Ziel, den 12'000 Briefe umfassenden Briefwechsel des Zürcher Reformators Heinrich Bullinger (1504-1575) online verfügbar zu machen. Das Projekt war in zwei Phasen aufgeteilt: In der ersten Phase haben wir eine Datenbank über alle Briefe aufgebaut und ein eigenes Online-Suchsystem entwickelt (s. https://github.com/bullinger-digital/bullinger-korpus). In der zweiten Phase haben wir die Daten in das vorliegende Korpus in TEI-XML überführt, um die langfristige Verfügbarkeit und weitere Bewirtschaftung der Daten zu gewährleisten. Per Projektende im Mai 2025 wurde dieses Korpus ans Staatsarchiv des Kantons Zürich übergeben, welches bereits den Grossteil der überlieferten Briefe aufbewahrt und nun auch die langfristige Pflege des Online-Suchsystems unter www.bullinger-digital.ch übernimmt. Das vorliegende Korpus gibt den Stand per Projektabschluss Ende Mai wieder.
 
 Folgende Arbeiten liegen dem Bullinger Digital Korpus zugrunde, sie sind unter https://github.com/bullinger-digital/bullinger-korpus-tei/tree/main/docs ausführlicher beschrieben:
+
 - Zusammenstellung der verfügbaren Informationen pro Brief
     - Metadaten wie Absender/Empfänger, Briefdatum, Aufbewahrungsort und Signatur des Manuskripts etc. (aus der gedruckten HBBW-Edition, aus den Karteikarten des HBBW-Editionsteams)
     - Regesten (aus der gedruckten HBBW-Edition)
@@ -17,7 +18,9 @@ Folgende Arbeiten liegen dem Bullinger Digital Korpus zugrunde, sie sind unter h
 - Name Entity Recognition und Entity Linking mit anschliessender manueller Korrektur mittels Citizen Science-Kampagne 
 
 ### Impressum
+
 Folgende Personen haben an der Erstellung des Bullinger-Korpus mitgewirkt:
+
 - Projektleitung: Patricia Scheurer, Phillip B. Ströbel, Martin Volk
 - Technische Umsetzung: Raphael Müller, Bernard Schroffenegger
 - Korpus-Aufbereitung und Annotation: Lukas Fischer, Dominic P. Fischer, Anastassia Shaitarova
@@ -45,16 +48,18 @@ Universität Zürich, Institut für Computerlinguistik, https://github.com/bulli
 	year = {2025},
 	school = {Universität Zürich, Institut für Computerlinguistik},
 	url = {https://github.com/bullinger-digital/bullinger-korpus-tei}}
-````
+```
 
 ### Weiterführende Informationen
-HBBW-Edition: https://www.irg.uzh.ch/de/forschung/bullinger/edition-briefwechsel.html
-Bullinger Digital Projekt: https://www.cl.uzh.ch/de/research-groups/texttechnologies/research/digital-humanities/bullinger.html
-Publikationsliste: https://www.cl.uzh.ch/de/research-groups/texttechnologies/research/digital-humanities/bullinger.html
-Online-Suchsystem: www.bullinger-digital.ch
-TEI-Publisher für digitale Editionen: https://www.e-editiones.org/
+
+- HBBW-Edition: https://www.irg.uzh.ch/de/forschung/bullinger/edition-briefwechsel.html
+- Bullinger Digital Projekt: https://www.cl.uzh.ch/de/research-groups/texttechnologies/research/digital-humanities/bullinger.html
+- Publikationsliste: https://www.cl.uzh.ch/de/research-groups/texttechnologies/research/digital-humanities/bullinger.html
+- Online-Suchsystem: www.bullinger-digital.ch
+- TEI-Publisher für digitale Editionen: https://www.e-editiones.org/
 
 ### Urheberrecht
+
 Das Projekt Bullinger Digital ist der Open-Science-Policy und den FAIR-Prinzipien verpflichtet. Texte sind unter Creative Commons BY-NC-ND 3.0 CH lizenziert und können unter Angabe des Urhebers (s. Zitiervorschlag) und einem Link zur Lizenz für wissenschaftliche, private und nicht-kommerzielle Zwecke vervielfältigt und weiterverbreitet werden.
 Die Faksimiles sind unter Creative Commons BY-SA 4.0 lizenziert und können unter Angabe des Urhebers (= Ort der Aufbewahrung und Signatur; gemäss Quellenangabe oberhalb des Digitalisats) und einem Link zur Lizenz für wissenschaftliche, private, nicht-kommerzielle und kommerzielle Zwecke frei verwendet werden. Bei den Faksimiles ist zusätzlich die Signatur anzugeben. 
 
