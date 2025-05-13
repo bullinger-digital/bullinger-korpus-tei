@@ -541,6 +541,11 @@ class Parser:
         s = re.sub(r'>\s*[\{\}]+\s*<', '><', s, flags=re.S)
         s = re.sub(r'\s*(<div)', r'\n\t\t\t\1', s, flags=re.S)
         s = re.sub(r'\s+(</note>)', r'\1', s, flags=re.S)
+        # facsimile
+        s = re.sub(r'\s*(</?surface)', r'\n\t\t\1', s, flags=re.S)
+        s = re.sub(r'\s*(</?graphic)', r'\n\t\t\t\1', s, flags=re.S)
+        s = re.sub(r'\s*(<desc)', r'\n\t\t\t\t\1', s, flags=re.S)
+        s = re.sub(r'\s*(</desc)', r'\1', s, flags=re.S)
         return s
     def rename_notes(self, s):
         for t in ["address", "attachment", "signature"]:

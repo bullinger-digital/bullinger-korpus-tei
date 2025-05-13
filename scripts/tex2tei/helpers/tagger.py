@@ -2,6 +2,7 @@
 # -*- coding: utf8 -*-
 
 import os, sys, re
+from helpers.greetings import Greetings
 
 
 class Tagger:
@@ -20,14 +21,7 @@ class Tagger:
     def set_attr_salute_or_farewell(self):
         for f in os.listdir(self.output):
             if f.endswith('.xml'):
-                path = os.path.join(self.output, f)
-                with open(path) as fi: t = fi.read()
-                for s in re.findall(r'((<s [^>]*)(>.*?</s>))', t, flags=re.S):
-                    m_salut = re.match(r'.*([Ss]alut[aeio]|[Gg]r[üuyuͤ]+[ei]*([sß]+|tz)).*', s[0], flags=re.S)
-                    m_vale = re.match(r'.*([Vv]ale(|te|bitis)[.,:;?!»"<\s]+)', s[0], flags=re.S)
-                    if m_salut: t = re.sub(re.escape(s[0]), s[1] + ' ana="salute"' + s[2], t, flags=re.S)
-                    elif m_vale: t = re.sub(re.escape(s[0]), s[1] + ' ana="farewell"' + s[2], t, flags=re.S)
-                with open(path, 'w') as fo: fo.write(t)
+                Greetings(os.path.join(self.output, f))
 
     def set_tags_persons(self):
         for f in os.listdir(self.output):

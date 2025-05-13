@@ -21,11 +21,11 @@ def validate_file(path):
     try:
         if not TEI_RELAX_RNG.validate(etree.parse(path)):
             for error in TEI_RELAX_RNG.error_log:
-                print(f'Validation errors in file: {f}, Line {error.line}, Col {error.column}: {error.message}')
+                print(f'Validation errors in file: {path}, Line {error.line}, Col {error.column}: {error.message}')
             return False
         else: return True
     except Exception as e:
-        print(f'Error parsing file {f}: {e}')
+        print(f'Error parsing file {path}: {e}')
         return False
 
 def assertion(path):
@@ -33,7 +33,7 @@ def assertion(path):
         TEI_RELAX_RNG.assert_(etree.parse(open(path)))
         return True
     except AssertionError as err:
-        print('Validation error:', f, err)
+        print('Validation error:', path, err)
         return False
 
 

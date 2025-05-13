@@ -22,7 +22,7 @@ class Greetings:
         with open(path) as fi: s = fi.read()
         s = self.reset(s)
         s = self.tagger(s)
-        #with open(path, 'w') as fo: fo.write(s)
+        with open(path, 'w') as fo: fo.write(s)
 
     def reset(self, s):
         s = re.sub(r'(<s [^>]*) ana="salute"', r'\1', s, flags=re.S)
@@ -44,11 +44,10 @@ class Greetings:
         for t in re.findall(r'((<s n="(\d+)"[^>]*)>(.*?)(</s>))', s, flags=re.S):
             if int(t[2]) > 2:  # excluce the 1st two sentences
                 x, x_new = self.rm_elements(t[3]), t[0]
-                if re.match(self.re_salute, x, flags=re.S):
-                    x_new = re.sub(re.escape(t[0]), t[1] + ' ana="salute">' + t[3] + t[4], t, flags=re.S)
-                elif re.match(self.re_vale, x, flags=re.S):
-                    x_new = re.sub(re.escape(t[0]), t[1] + ' ana="farewell">' + t[3] + t[4], t, flags=re.S)
+                if re.match(self.re_salute, x, flags=re.S): x_new = t[1] + ' ana="salute">' + t[3] + t[4]
+                elif re.match(self.re_vale, x, flags=re.S): x_new = t[1] + ' ana="farewell">' + t[3] + t[4]
                 s = re.sub(re.escape(t[0]), x_new, s, flags=re.S)
+        return s
 
 
 if __name__ == '__main__':
