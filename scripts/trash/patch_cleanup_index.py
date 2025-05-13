@@ -36,3 +36,8 @@ for p in re.findall(r'(<place xml:id="l(\d+)">.*?</place>\s*)', s, flags=re.S):
         s = re.sub(re.escape(p[0]), '', s, flags=re.S)
 with open("data/index/localities.xml", 'w') as fo: fo.write(s)
 print("Place-Index: Deleted", 100*delete/tot, '%')
+
+'''
+Person-Index: Deleted 10.798331843908251 %
+Place-Index: Deleted 10.36691904484566 %
+'''
