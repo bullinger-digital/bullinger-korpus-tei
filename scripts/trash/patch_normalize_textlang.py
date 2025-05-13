@@ -20,16 +20,21 @@ for f in os.listdir(ROOT):
         p = os.path.join(ROOT, f)
         with open(p) as fi: s = fi.read()
         for t in re.findall(r'((<textLang>)(.*?)(</textLang>))', s, flags=re.S):
-            if t[2] in map: s = re.sub(re.escape(t[0]), t[1]+map[t[2]]+t[3], s, flags=re.S)
+            #if t[2] in map: s = re.sub(re.escape(t[0]), t[1]+map[t[2]]+t[3], s, flags=re.S)
+            """
+            if t[2] == "Griechisch":
+                m_inc = re.match(r'.*<incipit>(.*?)</incipit>.*', s, flags=re.S)
+                if m_inc: print(f, m_inc.group(1))
+            """
+            if re.match(r'.*<textLang>Gr.*', s, flags=re.S) and not re.match('.*<language ident="el".*', s, flags=re.S):
+                print("Warning", f)
             if t[2] not in text_langs: text_langs[t[2]] = 0
             text_langs[t[2]] += 1
-        with open(p, 'w') as fo: fo.write(s)
+        #with open(p, 'w') as fo: fo.write(s)
 
 for t in text_langs: print(text_langs[t], '\t', t)
 
 """
-Vorher:
-
 6407 	 <textLang>Latein</textLang>
 1883 	 <textLang>la</textLang>
 1852 	 <textLang>Deutsch</textLang>
