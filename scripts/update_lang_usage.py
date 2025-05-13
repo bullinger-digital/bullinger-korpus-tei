@@ -47,7 +47,7 @@ class LangUpdater:
             prev = ''
             for t in re.findall(r'<lb [^>]*>([^\n]*)', s, flags=re.S):
                 sent = self.rm_elements(t)
-                if len(sent.strip())<3 and prev: lang = prev
+                if len(sent.strip())<5 and prev: lang = prev
                 else: lang = self.lang_identifier.identify(sent)  # for "sentences" like "S."
                 sent, tokens = self.analyze(sent, tokens)
                 if lang not in tokens: tokens[lang] = 0
