@@ -12,6 +12,8 @@ class LangUpdater:
     def __init__(self):
         self.analyze_only = False
         self.lang_usage = {}
+        self.code_switchings = {}
+        self.characters = {}
         self.lang_identifier = self.train_identifier("scripts/tex2tei/helpers/lang/training/")
         self.map = {
             "la": "Latein",
@@ -32,6 +34,23 @@ class LangUpdater:
                 self.process_file(os.path.join(ROOT, f))
         print("---\nTotal (Wörter):")
         for t in self.lang_usage: print(t, self.lang_usage[t])
+        print("---\nCode Switchings:")
+        for lang in self.code_switchings: print(lang, self.code_switchings[lang])
+        print("---\nChars:")
+        chars = {}
+        for lang in self.characters:
+            for c in self.characters[lang]:
+                if c not in chars: chars[c] = self.characters[lang][c]
+                else: chars[c] += self.characters[lang][c]
+            '''
+            for c in dict(sorted(self.characters[lang].items(), key=lambda x: x[1], reverse=True)):
+                print(c, self.characters[lang][c])
+            '''
+        tot = 0
+        for c in dict(sorted(chars.items(), key=lambda x: x[1], reverse=True)):
+            # print(c, chars[c])
+            tot += chars[c]
+        print("Total", tot)
 
     def process_file(self, path):
         tokens = dict()
@@ -40,7 +59,7 @@ class LangUpdater:
             for t in re.findall(r'<s [^>]*xml:lang="([^"]*)"[^>]*>(.*?)</s>', s, flags=re.S):
                 lang, sent = t[0], t[1]
                 sent = self.rm_elements(sent)
-                sent, tokens = self.analyze(sent, tokens)
+                sent, tokens = self.analyze(sent, tokens, lang)
                 if t[0] not in tokens: tokens[t[0]] = 0
                 tokens[t[0]] += len(sent.split(' '))
         if re.match(r'.* source="HTR".*', s, flags=re.S) and len(re.findall(r'<lb ', s, flags=re.S)) > 0:
@@ -49,7 +68,7 @@ class LangUpdater:
                 sent = self.rm_elements(t)
                 if len(sent.strip())<5 and prev: lang = prev
                 else: lang = self.lang_identifier.identify(sent)  # for "sentences" like "S."
-                sent, tokens = self.analyze(sent, tokens)
+                sent, tokens = self.analyze(sent, tokens, lang)
                 if lang not in tokens: tokens[lang] = 0
                 tokens[lang] += len(sent.split(' '))
                 prev = lang
@@ -81,11 +100,22 @@ class LangUpdater:
             s = re.sub(r'[\t ]*<langUsage/>[\t ]*\n', '', s, flags=re.S)
             with open(path, 'w') as fo: fo.write(s)
 
-    def analyze(self, s, tokens):
+    def analyze(self, s, tokens, lang):
         for f in re.findall(r'(<foreign[^>]*lang="([^"]*)"[^>]*>(.*?)</foreign>)', s, flags=re.S):
+            if f[1] not in self.characters: self.characters[f[1]] = {}
+            for c in f[2]:
+                if c not in self.characters[f[1]]: self.characters[f[1]][c] = 1
+                else: self.characters[f[1]][c] += 1
+            if f[1] not in self.code_switchings: self.code_switchings[f[1]] = [0, 0]
             if f[1] not in tokens: tokens[f[1]] = 0
-            tokens[f[1]] += len(f[2].split(' '))
+            x = len(f[2].split(' '))
+            tokens[f[1]] += x
+            self.code_switchings[f[1]] = [self.code_switchings[f[1]][0]+1, self.code_switchings[f[1]][1]+x]
             s = re.sub(re.escape(f[0]), '', s, flags=re.S)
+        if lang not in self.characters: self.characters[lang] = {}
+        for c in s:
+            if c not in self.characters[lang]: self.characters[lang][c] = 1
+            else: self.characters[lang][c] += 1
         return s, tokens
 
     def rm_elements(self, s):

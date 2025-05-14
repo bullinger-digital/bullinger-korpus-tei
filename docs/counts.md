@@ -1,0 +1,164 @@
+# Counts (13.05.2025)
+
+- Number of documents (13'114 files, see /data/letters/): 
+    - Document-Types: 13'114
+        - Briefe: 12'166
+        - Verweise: 476
+        - Beilagen: 167
+        - Hinweise: 149
+        - Neue-Zeitung: 59
+        - Widmungen: 27
+        - Nachschriften: 21
+        - Briefschlüsse: 19
+        - Gutachten: 10
+        - Reden: 8
+        - Begleitbriefe: 5
+        - Briefanfänge: 4
+        - Widmungsvorreden: 2
+        - Testament(e): 1
+- Index (6 registers, see /data/index):
+    - Persons: 6043 individuals
+        - Names: 19'622
+        - Aliases/Pseudonyms: 13'579
+        - Surnames: 19'354
+        - Forenames: 19'284
+        - GND-Links: 2'400
+        - WIKI-Links: 1'744
+        - Portraits: 463
+    - Organizations/Insitutions/Groups: 337 entries, 91 types
+    - Places: 3078 entries
+        - Settlements: 2'845
+        - Districts: 355
+        - Countries: 83
+        - Coordinates: 2'886
+        - Geo-Links: 2'392
+    - Bibliography: 719 references
+    - Archives: 101 institutions
+    - Taxonomy: 11 categories
+- Named Entities
+    - Persons:
+        - correspondents: 25'155 (1'115 unique)
+            - Senders: 13'121 (983)
+            - Addressees: 13'034 (413)
+        - marked: 156'718
+    - Places: 114'782 (2'949)
+- Resources
+    - HTR: 3'232 texts
+    - Transcriptions (8'626 texts)
+        - IRG (8'373)
+            - Vorläufige Transkriptionen der HBBW-EditorInnen (5'523)
+            - HBBW I (53)
+            - HBBW I (Anhang 1) (1)
+            - HBBW II (113)
+            - HBBW III (145)
+            - HBBW IV (189)
+            - HBBW V (206)
+            - HBBW VI (224)
+            - HBBW VII (135)
+            - HBBW VIII (108)
+            - HBBW IX (113)
+            - HBBW X (84)
+            - HBBW X (Ergänzungsband) (25)
+            - HBBW XI (101)
+            - HBBW XII (89)
+            - HBBW XIII (100)
+            - HBBW XIV (178)
+            - HBBW XV (217)
+            - HBBW XVI (112)
+            - HBBW XVII (140)
+            - HBBW XVIII (111)
+            - HBBW XIX (112)
+            - HBBW XX (185)
+            - HBBW XX (Anhang) (11)
+            - HBBW XXI (98)
+        - other (253)
+            - Graubünden, Korr. (65)
+            - Vadian BW VI (50)
+            - Opera Calvini (44)
+            - Epistolae Tigurinae (24)
+            - Vadian BW V (16)
+            - Vadian BW VII (12)
+            - Herminjard (Corr. des réformateurs) (10)
+            - Blarer BW (6)
+            - Amerbach Korr. (5)
+            - Theologenbriefwechsel im Südwesten des Reichs in der Frühen Neuzeit (1550-1620) (4)
+            - Reinerth, Hentius (3)
+            - Bindseil (2)
+            - Kessler, Sabbata (Keßler, Sabbata) (2)
+            - BucerDS (2)
+            - Osiander GA (1)
+            - Krafft, HBKöln (Krafft) (1)
+            - Zwa (1)
+            - ADRG (1)
+            - Jenny, Humanismus (1)
+            - Burmeister (1)
+            - Unveröffentlichte Werke der Kappeler Zeit (1)
+            - The Autograph Souvenir (1)
+    - Regests (3'241 documents)
+        - IRG
+            - HBBW I (53)
+            - HBBW I (Anhang 1) (1)
+            - HBBW I (Anhang 2) (11)
+            - HBBW II (113)
+            - HBBW III (145)
+            - HBBW IV (189)
+            - HBBW V (206)
+            - HBBW VI (224)
+            - HBBW VII (156)
+            - HBBW VIII (123)
+            - HBBW IX (133)
+            - HBBW X (99)
+            - HBBW X (Ergänzungsband) (26)
+            - HBBW XI (144)
+            - HBBW XII (114)
+            - HBBW XIII (123)
+            - HBBW XIV (227)
+            - HBBW XV (259)
+            - HBBW XVI (134)
+            - HBBW XVII (152)
+            - HBBW XVIII (130)
+            - HBBW XIX (137)
+            - HBBW XX (231)
+            - HBBW XX (Anhang) (11)
+            - HBBW XXI (98)
+        - other 
+            - Theologenbriefwechsel im Südwesten des Reichs in der Frühen Neuzeit (1550-1620) (2)
+    - Footnotes (3'916 documents)
+        - documents with footnotes: 3'916 (all by IRG)
+        - number of footnotes: 85'638
+            - Alpha: 11'784
+            - Num: 71'693
+        - letter with the most footnotes: 4597.xml (1'326 footnotes)
+    - Scans
+        - Documents with Scan-Images: 11'274
+        - Number of Scan-Images: 31'187
+- Languages
+    - Letters (11'761)
+        - la: 9'028
+        - de: 2'722
+        - fr: 7
+        - it: 2
+        - el: 2 
+    - Sentences (222'881)
+        - la 181'134
+        - de 41'538
+        - el 144
+        - fr 50
+        - it 14
+        - he 1
+    - Words (5'573'099, excl. notes)
+        - la: 4'098'331
+        - de: 1'468'231
+        - el: 4'265
+        - fr: 1'684
+        - it: 533
+        - he: 44
+        - en: 11
+    - Characters: 36'767'714 (excl. notes)
+    - Code-Switchings (3'552, 3'764 including notes)
+        - la: 1'500 (7'518 words, excl. notes)
+        - el: 1'083 (2'150 words, excl. notes)
+        - de: 948 (6'854 words, excl. notes)
+        - he: 15 (43 words, excl. notes)
+        - fr: 4 (21 words, excl. notes)
+        - en: 2 (11 words, excl. notes)
