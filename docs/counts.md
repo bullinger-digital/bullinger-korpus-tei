@@ -133,7 +133,7 @@
         - Documents with Scan-Images: 11'274
         - Number of Scan-Images: 31'187
 - Notes
-    - IDs: 85'638
+    - IDs: 85'637
     - Types:
         - footnote: 85'637
         - entity: 8'267
