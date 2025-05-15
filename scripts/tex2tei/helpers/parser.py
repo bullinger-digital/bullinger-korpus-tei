@@ -230,7 +230,7 @@ class Parser:
         return s
     def map_tex2tei(self, s):
         s = re.sub(r'\\HBZ\s*\{(zl\d+\s*\-+\s*[^\{\}]*)\}\s*\{(zl(\d+)\s*\-+\s*[^\{\}]*)\}', r'<ref source="\1" target="\2" type="zl">\3</ref>', s, flags=re.S)
-        s = re.sub(r'\\Autorname\{([^\{\}]*?)(,?)\}', r'<bibl><author>\1</author></bibl>\2', s, flags=re.S)
+        s = re.sub(r'\\Autorname\{([^\{\}]*?)(,?)\}', r'<bibl>\1</bibl>\2', s, flags=re.S)
         s = re.sub(r'\\HBreg\{([^\{\}]*)\}', r'<note type="entity">\1</note>', s, flags=re.S)
         s = re.sub(r'(<note type="entity">[^<]*\))([^\s][^<]*</note>)', r'\1 \2', s, flags=re.S)
         s = re.sub(r'(<note type="entity">[^<]*,)([^\s][^<]*</note>)', r'\1 \2', s, flags=re.S)
@@ -238,7 +238,7 @@ class Parser:
         s = re.sub(r'(<note type="entity">[^<]*)\s*,\s*([^\s][^<]*</note>)', r'\1, \2', s, flags=re.S)
         s = re.sub(r'\s*\,[\|\(\)\,\.\s]*(</note>)', r'\1', s, flags=re.S)
         s = re.sub(r'\,\|?\(?(</note>)', r'\1', s, flags=re.S)
-        s = re.sub(r'\\Autor[Nn]ame\{([^\{\}]*?)\}', r'<bibl><author>\1</author></bibl>', s, flags=re.S)
+        s = re.sub(r'\\Autor[Nn]ame\{([^\{\}]*?)\}', r'<bibl>\1</bibl>', s, flags=re.S)
         s = re.sub(r'\\Anfze?\{([^\{\}]*?)\}', r'«\1»', s, flags=re.S)
         s = re.sub(r'\\Kirsch', r'<bibl>Kirsch</bibl>', s, flags=re.S)
         s = re.sub(r'\s*\\HBBWnextpage\{([^\{\}]*?)\}', r'<pb type="scan" next="\1"/>', s, flags=re.S)
