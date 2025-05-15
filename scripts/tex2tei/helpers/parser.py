@@ -144,6 +144,7 @@ class Parser:
                 t = self.fix_structral_issues(t)
                 t = self.rename_notes(t)
                 t = re.sub(r'(<bibl>)\s*(HBBW|hbbw)\s*\-?\s*(</bibl>)\s*\-?\s*([IVX\d+]+)', r'\1\2 \4\3', t, flags=re.S)
+                t = re.sub('(<bibl>)hbbw', r'\1HBBW', t, flags=re.S)
                 with open(os.path.join(self.root, f), 'w') as fo: fo.write(t)
 
     def rm_comments(self, s): return re.sub(r'([^\\]|^)%[^\n]*', r'\1', s, flags=re.S)
