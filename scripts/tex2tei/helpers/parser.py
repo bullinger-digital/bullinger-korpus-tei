@@ -41,7 +41,7 @@ class Parser:
                 s = self.insert_seqs(s)
                 s = self.insert_blanks(s)
                 t = '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n'  # root
-                t += '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file' + str(f_id) + '" type="Brief" source="HBBW-'+str(self.matcher.config["EDITION_NUMBER"])+'" n="' + self.matcher.data[f_id]["id_irg"] + '">\n'
+                t += '<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file' + str(f_id) + '" type="'+self.get_letter_type_from_corpus(f)+'" source="HBBW-'+str(self.matcher.config["EDITION_NUMBER"])+'" n="' + self.matcher.data[f_id]["id_irg"] + '">\n'
                 t += '\t<teiHeader xml:lang="de">\n'  # head
                 t += '\t\t<fileDesc>\n'
                 t += '\t\t\t<titleStmt>\n'
@@ -428,6 +428,13 @@ class Parser:
         if os.path.exists(path):
             with open(path) as fi: s = fi.read()
             m = re.match(r'.*(<encodingDesc.*?</encodingDesc>).*', s, flags=re.S)
+            if m: return m.group(1)
+        return ''
+    def get_letter_type_from_corpus(self, f):
+        path = os.path.join(self.root_letters, f)
+        if os.path.exists(path):
+            with open(path) as fi: s = fi.read()
+            m = re.match(r'.*<TEI[^>]* type="([^"]*)".*', s, flags=re.S)
             if m: return m.group(1)
         return ''
     def get_element_from_corpus(self, f, name):
