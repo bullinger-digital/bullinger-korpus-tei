@@ -69,4 +69,4 @@ if __name__ == '__main__':
     x.space_sub = r' '
     x.rm_untagged_fls = False  # \*\[\*.*?\]
 
-    x.search(["data/letters"], r'<s [^>]*lang="he"')
+    x.search(["data/letters"], r'type="sup"')  #

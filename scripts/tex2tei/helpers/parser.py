@@ -466,7 +466,7 @@ class Parser:
         footnotes, passed = '', []
         for fn in sorted(self.footnotes, key=lambda x: x[0], reverse=True):
             if fn[1] not in passed:
-                footnotes += 2*'\t'+re.sub(r'(type="footnote")', r'\1 subtype="'+fn[0]+'"', fn[1], flags=re.S)+'\n'
+                footnotes += 2*'\t'+re.sub(r'(type="footnote")', r'\1 subtype="metadata" corresp="'+fn[0]+'"', fn[1], flags=re.S)+'\n'
                 passed.append(fn[1])
         if footnotes: s = re.sub(r'(<text>\n)', r'\1'+footnotes, s, flags=re.S)
         return s

@@ -3,7 +3,7 @@
 <!-- ROOT (13114x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html] -->
 <!-- a single [TEI-conformant] document (resp. "file", usually a letter) -->
 <!-- e.g. <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file1" type="Brief" source="HBBW" n="18327"> -->
-<!ELEMENT TEI (teiHeader|facsimile|text)*>
+<!ELEMENT TEI (teiHeader, facsimile*, text)>
 <!ATTLIST TEI
         xmlns CDATA #REQUIRED
         xml:id CDATA #REQUIRED
@@ -79,7 +79,7 @@
 <!ELEMENT sourceDesc (bibl|msDesc)*>
 <!-- BIBLIOGRAPHY (68851x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-bibl.html] -->
 <!-- contains a loosely-structured bibliographic citation -->
-<!ELEMENT bibl (#PCDATA|title|persName|placeName|note|author)*>
+<!ELEMENT bibl (#PCDATA|title|persName|placeName|note|hi|author)*>
 <!ATTLIST bibl
         ref CDATA #IMPLIED
         n CDATA #IMPLIED
@@ -283,7 +283,7 @@
         corresp CDATA #IMPLIED>
 <!-- PARAGRAPHS (84726x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-p.html] -->
 <!-- marks paragraphs -->
-<!ELEMENT p (#PCDATA|s|note|date|lb|persName|placeName|pb|ref|cit|bibl|foreign|list|table)*>
+<!ELEMENT p (#PCDATA|s|note|hi|date|lb|persName|placeName|pb|ref|cit|bibl|foreign|list|table)*>
 <!ATTLIST p
         xml:id CDATA #IMPLIED>
 <!-- SENTENCES (222808x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-s.html] -->
@@ -309,11 +309,13 @@
 <!ELEMENT note (#PCDATA|persName|placeName|bibl|hi|ref|ptr|cit|note|foreign|pb)*>
 <!ATTLIST note
         xml:id CDATA #IMPLIED
+        corresp CDATA #IMPLIED
         type CDATA #IMPLIED
         subtype CDATA #IMPLIED
         target CDATA #IMPLIED
         ana CDATA #IMPLIED
         n CDATA #IMPLIED>
+<!-- xml:id: «fn(\d+|[a-z]+)»; footnotes -->
 <!-- HIGHLIGHTED (29739x) [https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-hi.html] -->
 <!-- marks a word or phrase as graphically distinct from the surrounding text (e.g. "italic", often within notes) -->
 <!ELEMENT hi (#PCDATA|persName|placeName|ref|bibl|note|cit|ptr|foreign)*>
@@ -359,7 +361,7 @@
         cols CDATA #IMPLIED>
 <!-- LISTS (5x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-list.html] -->
 <!-- contains any sequence of items organized as a list -->
-<!ELEMENT list (item)*>
+<!ELEMENT list (item)+>
 <!-- LIST-ITEM (29x) [https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-item.html] -->
 <!-- contains one component of a list -->
-<!ELEMENT item (s)*>
+<!ELEMENT item (s)+>

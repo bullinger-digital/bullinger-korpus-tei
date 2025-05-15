@@ -26,7 +26,7 @@
         - WIKI-Links: 1'744
         - Portraits: 463
     - Organizations/Insitutions/Groups: 337 entries, 91 types
-    - Places: 3078 entries
+    - Places: 3'078 entries
         - Settlements: 2'845
         - Districts: 355
         - Countries: 83
@@ -125,13 +125,30 @@
             - Theologenbriefwechsel im Südwesten des Reichs in der Frühen Neuzeit (1550-1620) (2)
     - Footnotes (3'916 documents)
         - documents with footnotes: 3'916 (all by IRG)
-        - number of footnotes: 85'638
+        - number of footnotes: 85'638 (xml:id+type="footnote")
             - Alpha: 11'784
             - Num: 71'693
-        - letter with the most footnotes: 4597.xml (1'326 footnotes)
+        - letter with the most footnotes: 103.xml (1'326 footnotes)
     - Scans
         - Documents with Scan-Images: 11'274
         - Number of Scan-Images: 31'187
+- Notes
+    - IDs: 85'638
+    - Types:
+        - footnote: 85'637
+        - entity: 8'267
+        - address: 4'280
+        - margin: 797
+        - misc: 391
+        - signature: 300
+        - author: 185
+        - regest: 169
+        - attachment: 108
+        - PS: 79
+        - date: 51
+        - PPS: 1
+    - Subtypes (corresp: Titel, Signatur & Gedruckt):
+        - metadata: 1'480
 - Languages
     - Letters (11'761)
         - la: 9'028
