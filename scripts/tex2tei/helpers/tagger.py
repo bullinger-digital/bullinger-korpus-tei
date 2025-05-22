@@ -12,17 +12,66 @@ class Tagger:
         self.root_pers_index = config["PATHS"]["CORPUS"]["PERSONS"]  # "../../data/index/persons.xml"
         self.root_places_index = config["PATHS"]["CORPUS"]["PLACES"]  # = "../../data/index/localities.xml"
         self.root_letters = config["PATHS"]["CORPUS"]["LETTERS"]  # "../../data/letters"
+        self.root_bib = config["PATHS"]["CORPUS"]["BIBLIOGRAPHY"]
         # ---
         self.id2pers = self.read_persons()
         self.id2place = self.read_places()
         self.tmp_persons = {}
         self.tmp_places = {}
+        self.id_map = self.get_id_map_from_corpus()
+        self.bib = self.read_bibliography()
 
+    # Bibliography <bibl ref="...">
+    def read_bibliography(self):
+        self.bib = {}  # name -> id
+        with open(self.root_bib) as fi: s = fi.read()
+        for b in re.findall(r'<bibl xml:id="([^"]*)">.*?<title>(.*?)</title>', s, flags=re.S):
+            self.bib[b[1]] = b[0]
+        return self.bib
+
+    def set_bibl_refs(self):
+        for f in os.listdir(self.output):
+            if f.endswith('.xml'):
+                p = os.path.join(self.output, f)
+                with open(p) as fi: s = fi.read()
+                for b in re.findall(r'((<bibl>)(.*?)(</bibl>))', s, flags=re.S):
+                    if b[2] in self.bib:
+                        s = re.sub(re.escape(b[0]),
+                                   r'<bibl source="'+self.bib[b[2]]+'">'+b[2]+b[3],
+                                   s, flags=re.S)
+                with open(p, 'w') as fo: fo.write(s)
+
+    # HBBW-Links (e.g. "HBBW I, Nr. 42")
+    def set_links_hbbw(self):  # tagging
+        for f in os.listdir(self.output):
+            if f.endswith('.xml'):
+                path = os.path.join(self.output, f)
+                with open(path) as fi: s = fi.read()
+                for m in re.findall(r'(<bibl>HBBW\s*[IVX]*</bibl>[,\s]*\[?)(Nr\.?\s*(\d+)\]?)', s, flags=re.S):
+                    if m[2] in self.id_map:
+                        s = re.sub(
+                            re.escape(m[0]+m[1]),
+                            m[0]+'<ref target="file'+self.id_map[m[2]]+'">'+m[1]+'</ref>',
+                            s, flags=re.S
+                        )
+                with open(path, 'w') as fo: fo.write(s)
+
+    def get_id_map_from_corpus(self):  # HBBW-ID -> fileID
+        self.id_map = {}
+        for f in os.listdir(self.root_letters):
+            if f.endswith('.xml'):
+                with open(os.path.join(self.root_letters, f)) as fi: s = fi.read()
+                m = re.match(r'.*?<idno subtype="url" resp="irg">[^<]*=(\d+)</idno>.*', s, flags=re.S)
+                if m: self.id_map[m.group(1)] = f.strip('.xml')
+        return self.id_map
+
+    # Greetings in sentendes (<s ... ana="(salute|farewell)")
     def set_attr_salute_or_farewell(self):
         for f in os.listdir(self.output):
             if f.endswith('.xml'):
                 Greetings(os.path.join(self.output, f))
 
+    # Persons/Places
     def set_tags_persons(self):
         for f in os.listdir(self.output):
             if f.endswith('.xml'):
@@ -68,6 +117,7 @@ class Tagger:
                 t = re.sub(r'<placeName ref="l41">(Bern)</placeName>(har[dt])', r'\1\2', t, flags=re.S)
                 # --
                 t = re.sub(r'(</placeName>)([a-z]+)', r'\2\1', t, flags=re.S)
+                t = re.sub(r'<placeName[^>]*>([^<]*)</placeName>(\s*)(StA|ZB)', r'\1\2\3', t, flags=re.S)
                 with open(path, 'w') as fo: fo.write(t)
 
     def tag_persons(self, s, pers_exp):
