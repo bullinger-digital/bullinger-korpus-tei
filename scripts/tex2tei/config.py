@@ -52,6 +52,7 @@ config = {
             "PERSONS": "../../data/index/persons.xml",
             "PLACES": "../../data/index/localities.xml",
             "ARCHIVES": "../../data/index/archives.xml",
+            "BIBLIOGRAPHY": "../../data/index/bibliography.xml"
         }
     },
 

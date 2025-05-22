@@ -38,6 +38,8 @@ class Transformer:
         t.set_tags_persons()  # persons
         t.set_tags_places()  # places
         t.remove_trivial_notes()
+        t.set_links_hbbw()  # e.g. <bibl>HBBW XV</bibl>, <ref target="file12264">Nr. 2217</ref>
+        t.set_bibl_refs()  # e.g. <bibl ref="b18">HBBW XV</bibl>
 
         # Validation
         v = Validator(config)
