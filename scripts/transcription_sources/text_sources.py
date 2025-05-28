@@ -1,6 +1,5 @@
-# This script generates a CSV file summarizing the transcription sources of letters in the HBBW series.
-# It extracts information from XML files in the `letters` folder and writes the results to a CSV file.
-# Run it from the root folder with: python ./scripts/transcription_sources/text_sources.py
+# This script generates a CSV file summarizing the transcription sources of letters in the Bullinger Digital corpus and indicates whether facsimiles are available. It extracts information from XML files in the `letters` folder and writes the results to a CSV file.
+# Run it from the root folder with: `python ./scripts/transcription_sources/text_sources.py`
 
 import os
 import csv
